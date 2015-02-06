@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Feb 01 15:32:59 2015
+
+@author: Tiago
+"""
+
 
 #importacao de dados
 from Bio import SeqIO
@@ -23,15 +30,53 @@ for feat in range(len(record.features)):
 #CDS
 
 #1 tabela
-print "Tabela de localizacoes no genoma/Nome da proteina \n"
+print "\nTabela de localizacoes no genoma/Nome da proteina \n"
 for k in featcds:
-    print k.qualifiers["locus_tag"] , k.location , k.qualifiers["product"]
+    print k.qualifiers["locus_tag"][0] , k.location , k.qualifiers["product"][0]
 
 #2 tabela
-print "Tabela de Ids da proteina associada/Referencias \n"
+print "\nTabela de Ids da proteina associada/Referencias \n"
 for k in featcds:
-    print k.qualifiers["locus_tag"], k.qualifiers["protein_id"], k.qualifiers["db_xref"]
+    print k.qualifiers["locus_tag"][0], k.qualifiers["protein_id"][0], k.qualifiers["db_xref"][0]
     #print k.extract(record.seq)#verificar se ficamos com isto ou se colocamos noutro lado
+
+#3 tabela - ADAPTADO DO GRUPO 1
+print "\nTabela de EC Numbers \n"
+for k in featcds:
+    if "EC_number" in k.qualifiers:
+        print k.qualifiers["locus_tag"][0],k.qualifiers["EC_number"][0]
+    else:
+        print k.qualifiers["locus_tag"][0],"Nao contem EC_number!"
+        
+#4tabela
+print "\nTabela de nomes dos genes \n"
+for k in featcds:
+    if "gene" in k.qualifiers:
+        print k.qualifiers["locus_tag"][0],k.qualifiers["gene"][0]
+    else:
+        print k.qualifiers["locus_tag"][0],"Nome de gene nao encontrado!"    
+    
+#5tabela
+print "\nTabela de notas \n"
+for k in featcds:
+    if "note" in k.qualifiers:
+        print k.qualifiers["locus_tag"][0],k.qualifiers["note"][0]
+    else:
+        print k.qualifiers["locus_tag"][0], "Nao estao registadas notas!"   
+
+
+#6tabela - ids de proteinas hipoteticas - ADAPTADO GRUPO 1
+print "Lista de proteinas hipoteticas (ID):"
+hypo=[]
+locus=[]
+for k in featcds:
+    if k.qualifiers["product"]==["hypothetical protein"]:
+        hypo.append(k.qualifiers["protein_id"][0])
+        locus.append(k.qualifiers["locus_tag"][0])
+for i in range (len(hypo)):
+    print locus[i],hypo[i]
+
+
 
 
 
@@ -39,12 +84,25 @@ for k in featcds:
 #Gene
 
 print "Tabela de informacoes acerca de features do tipo 'gene' \n"
+locus=[]
 for k in featgene:
     #print k #para poder perceber aquilo que usar
-    print "Locus" + str(k.qualifiers["locus_tag"]),  k.location, k.qualifiers["db_xref"] 
+    print "Locus:" + str(k.qualifiers["locus_tag"][0]),  "localizacao:" , k.location, k.qualifiers["db_xref"][0] 
 
 
-
+#Verificacao da existencia de pseudogenes:
+pseudogene=[]    
+for k in featgene:
+    if "pseudogene" in k.qualifiers:
+        pseudogene.append(k.qualifiers["locus_tag"][0])
+if len(pseudogene)!=0:
+    print pseudogene
+else:
+    print "Nao existem pseudogenes a analisar"
+    
+    
+    
+    
 #outras fetures
 
 print "\nInformacoes de outras features presentes na regiao do genoma em estudo\n"
@@ -97,3 +155,4 @@ else:
         print "\nDETALHES DAS FEATURES COM ERROS NA VERIFICACAO:\n"
         print "\nTabela de dados:\n"+str(tabela[i])
         print "\nCDS:\n"+str(featcds[i-1])
+
