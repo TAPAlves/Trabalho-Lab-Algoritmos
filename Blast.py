@@ -47,7 +47,7 @@ for protein in range(76,len(proteinas)):
     result_handle.close()
     protein+=1
     time.sleep(1)    
-    print "A iniciar a iteracao seguinte",protein#Para ir verificando em que posicao se encontra o Blast (processo moroso) 
+    print "A iniciar a iteracao seguinte:",protein#Para ir verificando em que posicao se encontra o Blast (processo moroso) 
 
 #Confirmacao de Blast efetuado com sucesso
 if len(protein)==len(proteinas)-1:
