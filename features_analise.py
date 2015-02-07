@@ -33,7 +33,7 @@ for feat in range(len(record.features)):
 print "\nTabela de localizacoes no genoma/Nome da proteina \n"
 for k in featcds:
     print k.qualifiers["locus_tag"][0] , k.location , k.qualifiers["product"][0]
-
+    
 #2 tabela
 print "\nTabela de Ids da proteina associada/Referencias \n"
 for k in featcds:

@@ -46,28 +46,28 @@ for num in record["IdList"]:
         except IndexError:
             print "Afiliacao nao registada"
         
-        print "\nTipo de publicacao:\n"
-        print str(dados[0]["MedlineCitation"]["Article"]["PublicationTypeList"][0])
+    print "\nTipo de publicacao:\n"
+    print str(dados[0]["MedlineCitation"]["Article"]["PublicationTypeList"][0])
         
-        print "\nInformacao da publicacao:\n"
-        print "\tISSN:"        
-        try:
-            print str(dados[0]["MedlineCitation"]["Article"]["Journal"]["ISSN"])
-        except:
-            print"ISSN nao registado"
-        print "\tAbreviatura do Jornal:"
-        print str(dados[0]["MedlineCitation"]["Article"]["Journal"]["ISOAbbreviation"])
-        print "\tVolume:"
-        try:
-            print str(dados[0]["MedlineCitation"]["Article"]["Journal"]["JournalIssue"]["Volume"])
-        except:
-            print "Volume inexistente"
-        print "\tAno da publicacao:"
-        print str(dados[0]["MedlineCitation"]["Article"]["Journal"]["JournalIssue"]["PubDate"]["Year"])
-        print "\tIdentificacao do local da publicacao:"        
-        try:
-            print str(dados[0]["MedlineCitation"]["Article"]["ELocationID"][0])
-        except:
-            print"Local nao reconhecido"
-        print "\tAbstract do artigo:"
-        print str(dados[0]["MedlineCitation"]["Article"]["Abstract"]["AbstractText"])
+    print "\nInformacao da publicacao:\n"
+    print "\tISSN:"        
+    try:
+        print str(dados[0]["MedlineCitation"]["Article"]["Journal"]["ISSN"])
+    except:
+        print"ISSN nao registado"
+    print "\tAbreviatura do Jornal:"
+    print str(dados[0]["MedlineCitation"]["Article"]["Journal"]["ISOAbbreviation"])
+    print "\tVolume:"
+    try:
+        print str(dados[0]["MedlineCitation"]["Article"]["Journal"]["JournalIssue"]["Volume"])
+    except:
+        print "Volume inexistente"
+    print "\tAno da publicacao:"
+    print str(dados[0]["MedlineCitation"]["Article"]["Journal"]["JournalIssue"]["PubDate"]["Year"])
+    print "\tIdentificacao do local da publicacao:"        
+    try:
+        print str(dados[0]["MedlineCitation"]["Article"]["ELocationID"][0])
+    except:
+        print"Local nao reconhecido"
+    print "\tAbstract do artigo:"
+    print str(dados[0]["MedlineCitation"]["Article"]["Abstract"]["AbstractText"])
