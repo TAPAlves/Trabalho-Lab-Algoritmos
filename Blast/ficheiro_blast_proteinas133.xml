@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>23751</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>139</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>23751</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|384872661|sp|O14141.2|YEW3_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Maf-like protein C3G6.03c [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O14141</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.345012</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>MIKTSGSPSASNMIEMLGADNINVGVAGGSQMFNKATALYSLNHA--KKVGNNVSVYMTGDSESDKADLENAAN</Hsp_qseq>
+      <Hsp_hseq>IILASGSPRRKQLFEQMGFPNVETCVSGFPEDLNKSMYITPWEYAADTSVQKAIAVYEKLAAEEDSPDIVVSAD</Hsp_hseq>
+      <Hsp_midline>+I  SGSP    + E +G  N+   V+G  +  NK+  +    +A    V   ++VY    +E D  D+  +A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81826972|sp|Q6CZ34.1|UGPC_PECAS</Hit_id>
+  <Hit_def>RecName: Full=sn-glycerol-3-phosphate import ATP-binding protein UgpC [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6CZ34</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.17027</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KTSGSPSASNMIEMLGADNINVGVAGGSQMFNKATALYSLNHAKKVGNNVSVYMTGDS</Hsp_qseq>
+      <Hsp_hseq>ETGGIPLQISTLELLGADNLAHGKWGGQNVI----ARLSYEHCPAIGSTLWLHLPTSS</Hsp_hseq>
+      <Hsp_midline>+T G P   + +E+LGADN+  G  GG  +     A  S  H   +G+ + +++   S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|123077615|sp|Q1GGF7.1|CLPX_RUEST</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX [Ruegeria sp. TM1040]</Hit_def>
+  <Hit_accession>Q1GGF7</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.1782</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>AVGMIKTSGSPSASNMIEMLGADNINVGVAGGSQMFNKATALY--SLNHAKKVGNNVSV</Hsp_qseq>
+      <Hsp_hseq>ASGMKATDGVPTPKDICEVL--DDYVIGQATAKRVLSVAVHNHYKRLNHAQKAGNDIEL</Hsp_hseq>
+      <Hsp_midline>A GM  T G P+  ++ E+L  D+  +G A   ++ + A   +   LNHA+K GN++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|8479501|sp|O11457.1|VGP_EBOG4</Hit_id>
+  <Hit_def>RecName: Full=Envelope glycoprotein; AltName: Full=GP1,2; Short=GP; Contains: RecName: Full=GP1; Contains: RecName: Full=GP2; Contains: RecName: Full=GP2-delta; Flags: Precursor [Ebola virus - Gabon (1994-1997)]</Hit_def>
+  <Hit_accession>O11457</Hit_accession>
+  <Hit_len>676</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.80758</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>417</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>TSGSPSASNMIEMLGADNINVGVAGGSQMFNKATALYSLNHAKKVGNN--------------------------VSVYMTGDSESDKADLENAANAKNIKLHYFFNQ</Hsp_qseq>
+      <Hsp_hseq>TSDTPPATTAAGPLKAENTNT--SKGTDLLDPATTTSPQNHSETAGNNNTHHQDTGEESASSGKLGLITNTIAGVAGLITGGRRTRREAIVNAQPKCNPNLHYWTTQ</Hsp_hseq>
+      <Hsp_midline>TS +P A+     L A+N N   + G+ + + AT     NH++  GNN                          V+  +TG   + +  + NA    N  LHY+  Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81600098|sp|Q5QXN5.1|FADI_IDILO</Hit_id>
+  <Hit_def>RecName: Full=3-ketoacyl-CoA thiolase; AltName: Full=ACSs; AltName: Full=Acetyl-CoA acyltransferase; AltName: Full=Acyl-CoA ligase; AltName: Full=Beta-ketothiolase; AltName: Full=Fatty acid oxidation complex subunit beta [Idiomarina loihiensis L2TR]</Hit_def>
+  <Hit_accession>Q5QXN5</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.65372</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MVEMPQGERPVVVQVPATNNPL-SDAVAVGMIKTSGSPSASNMIEMLGADNINVGVAGGSQMFN---------KATALYSLNHAKKVGNNVSV</Hsp_qseq>
+      <Hsp_hseq>VVQMPEAPNIAREIVLGTSLPVGTDAYSVSRACATSFQSAVNIAEAMVAGHIRGGIAGGADSSSVLPIGVSKRMARALVDLNKAKTLGQRFSI</Hsp_hseq>
+      <Hsp_midline>+V+MP+        V  T+ P+ +DA +V     +   SA N+ E + A +I  G+AGG+   +          A AL  LN AK +G   S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20137401|sp|Q92TT1.1|3MGH_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Putative 3-methyladenine DNA glycosylase [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q92TT1</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.21948</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>VGRLMVEMPQGERPVVVQVPATNNPLSDAVAVGMIKTSGSP</Hsp_qseq>
+      <Hsp_hseq>ISRELDGLPLGEDPFRLTLPSTKPPLAAGIRVGITKAVEQP</Hsp_hseq>
+      <Hsp_midline>+ R +  +P GE P  + +P+T  PL+  + VG+ K    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|14195053|sp|Q9TLQ5.1|PSAA_CYACA</Hit_id>
+  <Hit_def>RecName: Full=Photosystem I P700 chlorophyll a apoprotein A1; AltName: Full=PSI-A; AltName: Full=PsaA (chloroplast) [Cyanidium caldarium]</Hit_def>
+  <Hit_accession>Q9TLQ5</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.59277</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>PSASNMIEMLGADNINVGVAGGSQMFNKATALYSLNHAKKVGNNVSVYMTG</Hsp_qseq>
+      <Hsp_hseq>PSAQIVWPIVGQEILNADLGGGSQGIQITSGFFHLWRASGITNELELYVTA</Hsp_hseq>
+      <Hsp_midline>PSA  +  ++G + +N  + GGSQ     +  + L  A  + N + +Y+T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|33301510|sp|Q85FY7.1|PSAA_CYAME</Hit_id>
+  <Hit_def>RecName: Full=Photosystem I P700 chlorophyll a apoprotein A1; AltName: Full=PSI-A; AltName: Full=PsaA (chloroplast) [Cyanidioschyzon merolae]</Hit_def>
+  <Hit_accession>Q85FY7</Hit_accession>
+  <Hit_len>748</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.47689</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>TSGSPSASNMIEMLGADNINVGVAGGSQMFNKATALYSLNHAKKVGNNVSVYMTG</Hsp_qseq>
+      <Hsp_hseq>TGIKPSAQVVWPIVGQQILNADVGGGMQGIQITSGLFQLWRASGIVNELQLYVTA</Hsp_hseq>
+      <Hsp_midline>T   PSA  +  ++G   +N  V GG Q     + L+ L  A  + N + +Y+T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|60392231|sp|Q8LF21.2|DRP1C_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Dynamin-related protein 1C; AltName: Full=Dynamin-like protein 5; AltName: Full=Dynamin-like protein C; AltName: Full=Dynamin-like protein DLP1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8LF21</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.61004</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>518</Hsp_hit-from>
+      <Hsp_hit-to>568</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>YSLNHAKKVGNNVSVYMTGDSESDKADLENAA------NAKNIKLHYFFNQ</Hsp_qseq>
+      <Hsp_hseq>YSDNHFRKIGSNVSAYINMVCDTLRNSLPKAVVYCQVREAKRSLLNFFYAQ</Hsp_hseq>
+      <Hsp_midline>YS NH +K+G+NVS Y+    ++ +  L  A        AK   L++F+ Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|238688712|sp|B1KP71.1|AROK_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=Shikimate kinase; Short=SK [Shewanella woodyi ATCC 51908]</Hit_def>
+  <Hit_accession>B1KP71</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.02834</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>LMVEMPQGERPVVVQVPATNNPLSDAVAVGMIKT---SGSPSASNMIEMLG</Hsp_qseq>
+      <Hsp_hseq>LQVEDP---REVLENLAATRNPLYEEIADVIVKTDEQSAKVVANQIIEQLG</Hsp_hseq>
+      <Hsp_midline>L VE P   R V+  + AT NPL + +A  ++KT   S    A+ +IE LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

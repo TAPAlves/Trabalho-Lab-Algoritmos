@@ -1,0 +1,1556 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>1077</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>154</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>1077</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>154</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2501593|sp|Q57951.1|Y531_METJA</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein MJ0531; Short=USP MJ0531 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57951</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>2.78654e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAA---VAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEE</Hsp_qseq>
+      <Hsp_hseq>LYKKIVIPTDGSDVSLEAAKHAINIAKEFDAEVYAIYVVDVSPFVGLPAE----GSWELISELLKEEGQEALKKVKKMAEEWGVKIHTEML----EGVP--ANEIVEFAEKKKADLIVMGTTGKTGLERILLGSVAERVIKNAHCPVLVVKKPKKE</Hsp_hseq>
+      <Hsp_midline>+YK +V+  DGS+ S+ A KHA  +A    A +  ++V + + ++ L  E     S+E  +     +G E L   ++ A E GV    + L    +G    A ++V++A++  A L+V+GT G+TGL  +L+GS AE V++ +H P+L+++   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|614085506|sp|P9WFC8.1|Y1636_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein MT1672 [Mycobacterium tuberculosis CDC1551] &gt;gi|614085511|sp|P9WFC9.1|Y1636_MYCTU RecName: Full=Universal stress protein Rv1636; Short=USP Rv1636 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WFC8</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>3.17349e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLII</Hsp_qseq>
+      <Hsp_hseq>YKTVVVGTDGSDSSMRAVDRAAQIAGAD-AKLIIASAYLPQHEDARAADILKDESYKVTGTAPIYEILHDAKERAHNAGAKNVEERPIV---GAPVDA--LVNLADEEKADLLVVGNVGLSTIAGRLLGSVPANVSRRAKVDVLIV</Hsp_hseq>
+      <Hsp_midline>YK +VV  DGS++S+ A+  AA++AG + A+L +     P    A A + L+ ESY+    A   E+L  A+  A   G  N  +  +V   GA   A  LV+ ADE  A LLV+G  G + +   L+GS    V R++ + +LI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1177001|sp|P42297.1|YXIE_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein YxiE; Short=USP YxiE; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P42297</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>3.55235e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEY-------MALAPE-FLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>MFNKMLVAIDGSDMSAKALDAAVHLAKEQQAELSILHVGREAVVTTSSLTGIVYVPEHFIDEIRNEVKK--EGLKILENAKEKAAEKGVQ---AETIYANG---EPAHEILNHAKEKGVSLIVVGSRGISGLKEMMLGSVSHKVSQLSTCPVLIVR</Hsp_hseq>
+      <Hsp_midline>M+  ++VA+DGS+ S  AL  A  LA    A L+++HV   A         +   PE F+     E     +G ++L+ A+  A E GV       + AN    E A +++++A E G  L+V+G+ G +GL  +++GS +  V + S  P+LI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2501594|sp|Q57997.1|Y577_METJA</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein MJ0577; Short=USP MJ0577 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57997</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>4.83233e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQ------HESYEAAAVAQGNEVLDAA----ERTAREL-GVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSK</Hsp_qseq>
+      <Hsp_hseq>MYKKILYPTDFSETAEIALKHVKAFKTLKAEEVILLHVIDEREIKKRDIFSLLLGVAGLNKSVEEFENELKNKLTEEAKNKMENIKKELEDVGFKVKDIIVVGIPHEE----IVKIAEDEGVDIIIMGSHGKTNLKEILLGSVTENVIKKSNKPVLVVKRK</Hsp_hseq>
+      <Hsp_midline>MYK ++   D SET+  ALKH      +    + L+HV +  E        L       ++S E       N++ + A    E   +EL  VG  VK ++V      E    +V  A++ G  ++++G+HG+T L  +L+GS  E V+++S+ P+L+++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123761536|sp|Q49YE0.1|Y1056_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Putative universal stress protein SSP1056 [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49YE0</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>6.84846e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQ----GNEVLDAAERTARELGVGNTVKHLLVANKGA---REMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSK</Hsp_qseq>
+      <Hsp_hseq>YKSILIAVDGSHEAEWAFNKAVDVAKRNDAKLTVVNVIDSRTYSS-------YEVYDAQFTEKSKNFSDDLLKGYKEVATNAGVKNVETRLEFGSPKAIIPKKLATDV-------DADLIMCGTSGLNAVERFIVGSVSEAIVRHSPCDVLVVRTE</Hsp_hseq>
+      <Hsp_midline>YK +++AVDGS  +  A   A ++A  N A+LT+V+V +   Y +       +E Y+A    +     +++L   +  A   GV N    L   +  A   +++A D+        A L++ GT G   +   ++GS +E ++R S   +L++R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123735001|sp|Q4L751.1|Y1215_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Putative universal stress protein SH1215 [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L751</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>8.5577e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGN----EVLDAAERTARELGVGNTVKHLLVANKGA---REMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSK</Hsp_qseq>
+      <Hsp_hseq>YKNILIAVDGSHEAEWAFNKAVDVAKRNDAKLTIVNIIDSRTYSS-------YEVYDAQFTEKSRSFSEELLKGYQEVATRAGVTNVETRLEFGSPKAIIPKKLASEL-------GVDLIMCGTSGLNAVERFIVGSVSEAIVRHAPCDVLVVRTE</Hsp_hseq>
+      <Hsp_midline>YK++++AVDGS  +  A   A ++A  N A+LT+V++ +   Y +       +E Y+A    +      E+L   +  A   GV N    L   +  A   +++A +L       G  L++ GT G   +   ++GS +E ++R +   +L++R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81674213|sp|Q5HNJ5.1|Y1273_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Putative universal stress protein SERP1273 [Staphylococcus epidermidis RP62A] &gt;gi|81843662|sp|Q8CS61.1|Y1385_STAES RecName: Full=Putative universal stress protein SE_1385 [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q5HNJ5</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.67094e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGN----EVLDAAERTARELGVGNTVKHLLVANKGA---REMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSK</Hsp_qseq>
+      <Hsp_hseq>YKNILIAVDGSHEAEWAFNKAVGVAKRNDAQLTIVNVIDSRTYSS-------YEVYDAQFTEKSKHFSEELLKGYKEVATNAGVKNVDTRLEFGSPKAIIPKKLARDV-------GADLIMSGTSGLNAVERFIVGSVSEAIVRHAPCDVLVVRTE</Hsp_hseq>
+      <Hsp_midline>YK++++AVDGS  +  A   A  +A  N A+LT+V+V +   Y +       +E Y+A    +      E+L   +  A   GV N    L   +  A   +++A+D+       GA L++ GT G   +   ++GS +E ++R +   +L++R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|614139379|sp|E1VBK4.1|TEAD_HALED</Hit_id>
+  <Hit_def>RecName: Full=TRAP-T-associated universal stress protein TeaD; AltName: Full=UspA domain transporter regulator TeaD [Halomonas elongata DSM 2581]</Hit_def>
+  <Hit_accession>E1VBK4</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>5.78459e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVAN-----PAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTARELGV-GNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLII</Hsp_qseq>
+      <Hsp_hseq>MFNRIMVPVDGSKGAVKALEKGVGLQQLTGAELYILCVFKHHSLLEASLSMVRPE--QLDIPDDALKDYATEIAVQAKTRATELGVPADKVRAFV---KGGRP-SRTIVRFARKRECDLVVIGAQGTNGDKSLLLGSVAQRVAGSAHCPVLVV</Hsp_hseq>
+      <Hsp_midline>M+  ++V VDGS+ ++ AL+    L  + GA L ++ V        A    + PE  Q +  + A      E+   A+  A ELGV  + V+  +   KG R  ++ +V +A +    L+V+G  G  G   LL+GS A+ V   +H P+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81649164|sp|Q6G8L7.1|Y1637_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Putative universal stress protein SAS1637 [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81650930|sp|Q6GFZ7.1|Y1788_STAAR RecName: Full=Putative universal stress protein SAR1788 [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|81694303|sp|Q5HF64.1|Y1759_STAAC RecName: Full=Putative universal stress protein SACOL1759 [Staphylococcus aureus subsp. aureus COL] &gt;gi|81704349|sp|Q7A0N0.1|Y1653_STAAW RecName: Full=Putative universal stress protein MW1653 [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81705543|sp|Q7A551.1|Y1532_STAAN RecName: Full=Putative universal stress protein SA1532 [Staphylococcus aureus subsp. aureus N315] &gt;gi|81781437|sp|Q99TF3.1|Y1710_STAAM RecName: Full=Putative universal stress protein SAV1710 [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|123003452|sp|Q2FXL6.1|Y1819_STAA8 RecName: Full=Putative universal stress protein SAOUHSC_01819 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123763284|sp|Q2FG28.1|Y1656_STAA3 RecName: Full=Putative universal stress protein SAUSA300_1656 [Staphylococcus aureus subsp. aureus USA300] &gt;gi|123768509|sp|Q2YTD0.1|Y1569_STAAB RecName: Full=Putative universal stress protein SAB1569 [Staphylococcus aureus RF122]</Hit_def>
+  <Hit_accession>Q6G8L7</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.27357e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGN----EVLDAAERTARELGVGNTVKHLLVANKGA---REMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSK</Hsp_qseq>
+      <Hsp_hseq>YKNILIAVDGSHEAEWAFNRAVGVAKRNDAKLTIVNVIDSRTYSS-------YEVYDAQFTEKSKHFAEELLNGYKEVATNAGVKDVETRLEFGSPKSIIPKKLAHEI-------NADLIMSGTSGLNAVERFIVGSVSESIVRHAPCDVLVVRTE</Hsp_hseq>
+      <Hsp_midline>YK++++AVDGS  +  A   A  +A  N A+LT+V+V +   Y +       +E Y+A    +      E+L+  +  A   GV +    L   +  +   +++A ++        A L++ GT G   +   ++GS +E+++R +   +L++R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|54040429|sp|P64922.1|Y2028_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein Mb2028c; Short=USP Mb2028c [Mycobacterium bovis AF2122/97] &gt;gi|613782135|sp|P9WLN0.1|Y2005_MYCTO RecName: Full=Universal stress protein MT2061 [Mycobacterium tuberculosis CDC1551] &gt;gi|613782140|sp|P9WLN1.1|Y2005_MYCTU RecName: Full=Universal stress protein Rv2005c; Short=USP Rv2005c [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P64922</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.02783e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>LVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTA--RELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>VLVGIDGSPVSELATAVAFDEASRRGVELIAVHAWSDVEVVEL-------PGLDFSAVQQEAE-LSLAERLAGWQERYPDVPVSRVVVCDRPARKLVQK------SASAQLVVVGSHGRGGLTGMLLGSVSNAVLHAARVPVIVAR</Hsp_hseq>
+      <Hsp_midline>++V +DGS  S  A   A + A   G  L  VH  +  E + L          + +AV Q  E L  AER A  +E      V  ++V ++ AR++ Q          A L+V+G+HGR GL  +L+GS +  V+  + +P+++ R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>7.04398e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTARELGVGN----TVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRS</Hsp_qseq>
+      <Hsp_hseq>VVVGVDGSLESDAAACWGATDAAMRNIPLTVVHVVN--ADVATWPPMPYPETWGVWQEDEGRQIVANAVKLAKE-AVGADRKLSVKSELVFSTPVPTMVEI------SNEAEMVVLGSSGRGALARGLLGSVSSSLVRRAGCPVAVIHS</Hsp_hseq>
+      <Hsp_midline>+VV VDGS  S  A    A  A +    LT+VHV N    +A  P     E++      +G +++  A + A+E  VG     +VK  LV +     M +        N A ++VLG+ GR  L   L+GS + +++R++  P+ +I S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|2507517|sp|P39177.2|USPG_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein G [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P39177</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>4.7693e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSIN--ALKHAAELAGVNGARLTLVHVANPAEYMAL---------APEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>MYKTIIMPVDVFEMELSDKAVRHAEFLAQDDGV-IHLLHVLPGSASLSLHRFAADVRRFEEHLQHEAQERLQTMVSHFTIDPS-RIKQHVRFGSV-----------RDEVNEL---AEELGADVVVIGSRNPSISTHLL-GSNASSVIRHANLPVLVVR</Hsp_hseq>
+      <Hsp_midline>MYK +++ VD  E  ++  A++HA  LA  +G  + L+HV   +  ++L           E LQHE+ E       +  +D + R  + +  G+            R+   +L   A+E GA ++V+G+   +   HLL GS A +V+R ++LP+L++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81628352|sp|Q83AC1.1|USPA1_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein A homolog 1 [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83AC1</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>5.14167e-05</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVA--NPAEY---MALAPEFLQHESYEAAAVAQGNEVLDAAE-RTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSK</Hsp_qseq>
+      <Hsp_hseq>YKHILAAIDLSPRSQEVIDRAAEVAASNNATLDVVHVIEHSPVAYGGEFSIPINVNLEQTIESEARKALTELCHTVKVPSERQHTLSGVVKHMVI------ELAEKL-------NIDLIVVGTHGHHGLDKLL-GSRANAILHVATCDVLAVWMK</Hsp_hseq>
+      <Hsp_midline>YKH++ A+D S  S   +  AAE+A  N A L +VHV   +P  Y    ++       ++ E+ A     E+    +  + R+  +   VKH+++      E+A+ L          L+V+GTHG  GL  LL GS A  ++  +   +L +  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|38372601|sp|Q8XBT3.1|USPG_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein G [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8XBT3</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>6.67606e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSIN--ALKHAAELAGVNGARLTLVHVANPAEYMAL---------APEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>MYKTIIMPVDVFEMELSDKAVRHAEFLAQDDGV-IHLLHVLPGSASLSLHRFAADVRRFEEHLQHEAEERLQTMVSHFTIDPS-RIKQHVRFGSV-----------RDEVNEL---AEELGADVVVIGSRNPSISTHLL-GSNASSVIRHANLPVLVVR</Hsp_hseq>
+      <Hsp_midline>MYK +++ VD  E  ++  A++HA  LA  +G  + L+HV   +  ++L           E LQHE+ E       +  +D + R  + +  G+            R+   +L   A+E GA ++V+G+   +   HLL GS A +V+R ++LP+L++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|38372565|sp|Q83M07.1|USPG_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein G [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q83M07</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>8.68332e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSIN--ALKHAAELAGVNGARLTLVHVANPAEYMAL---------APEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>MYKAIIMPVDVFEMELSDKAVRHAEFLAQDDGV-IHLLHVLPGSASLSLHRFAADVRRFEEHLQHEAEERLQTMVSHFTIDPS-RIKQHVRFGSV-----------RDEVNEL---AEELGADVVVIGSRNPSISTHLL-GSNASSVIRHANLPVLVVR</Hsp_hseq>
+      <Hsp_midline>MYK +++ VD  E  ++  A++HA  LA  +G  + L+HV   +  ++L           E LQHE+ E       +  +D + R  + +  G+            R+   +L   A+E GA ++V+G+   +   HLL GS A +V+R ++LP+L++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|2501595|sp|P74897.1|YQA3_THEAQ</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein in QAH/OAS sulfhydrylase 3&apos;region; Short=USP [Thermus aquaticus]</Hit_def>
+  <Hit_accession>P74897</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>9.35095e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKH---LLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>MFKTILLAYDGSDHAKRAAAVAKAEAQAHGARLLVVHAYEP------VPDYLGEPFFEEAL----KRRLERAEKVRAEAMALTGVPREDALLLQGRPAEAILQAAIG----EKADLIVMGTRGLGAVGSLFLGSQSQKVVAEAPCPVLLVR</Hsp_hseq>
+      <Hsp_midline>M+K +++A DGS+ +  A   A   A  +GARL +VH   P       P++L    +E A        L+ AE+   E      V     LL+  + A  + Q  +       A L+V+GT G   +  L +GS ++ V+ ++  P+L++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2501590|sp|P73475.1|Y1230_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein Slr1230; Short=USP Slr1230 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P73475</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.0002389</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>LVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>IVRYQEDNAIDLLLMGAHGHSRIRHLVIGSTTAQVLRKTSIPVLTFR</Hsp_hseq>
+      <Hsp_midline>+V Y ++N   LL++G HG + + HL++GS    V+R++ +P+L  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|12231054|sp|P87132.2|YFK5_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein C167.05 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>P87132</Hit_accession>
+  <Hit_len>601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.000255991</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>435</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>VAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALA-PEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEE</Hsp_qseq>
+      <Hsp_hseq>LTLDLSSESLHAAEWAVGILLRNGDTLIIVDVIECDDPSARAVKDRMESEQLETLEKIT-KYILKLLSKTVLEVEVNIEVIH----HEKAKHLIIEMIDYIEPS---LVVMGSRGRSHLKGVLLGSFSNYLVNKSSVPVMVARKKLKK</Hsp_hseq>
+      <Hsp_midline>+ +D S  S++A + A  +   NG  L +V V    +  A A  + ++ E  E         +L    +T  E+ V   V H    ++ A+ +  +++DY + +   L+V+G+ GR+ L  +L+GSF+  ++ +S +P+++ R K ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|38372597|sp|Q8FK07.2|USPG_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein G [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FK07</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000290924</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSIN--ALKHAAELAGVNGARLTLVHVANPAEYMAL---------APEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>MYKTIIMPVDVFEMELSDKAIRHAEFLAQDDGV-IHLLHVLPGSASLSLHRFAADVRRFEEHLQHEAEERLQTMVSHFTIDPS-RIKQHVRFGSVRDEV---NELAKELDADVVVIGSRNPS----ISTH--------LLGSNASSVIRHANLPVLVVR</Hsp_hseq>
+      <Hsp_midline>MYK +++ VD  E  ++  A++HA  LA  +G  + L+HV   +  ++L           E LQHE+ E       +  +D + R  + +  G+    +   N+ A+E+  D+V     N +    + TH        L+GS A +V+R ++LP+L++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|38372556|sp|Q7VLK1.1|USPA_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein A homolog [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VLK1</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000376045</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHV</Hsp_qseq>
+      <Hsp_hseq>MYKHILVAVDLSEESLILLRKGAGLAEKCGAKLSLIHV</Hsp_hseq>
+      <Hsp_midline>MYKH++VAVD SE S+  L+  A LA   GA+L+L+HV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|302595995|sp|A0QZA1.1|Y3950_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein MSMEG_3950/MSMEI_3859; Short=USP MSMEG_3950 [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0QZA1</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00153262</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>LVVAVDGSETSINALKHAAELAGVNGARLTLVHVA-NPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAR-EMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSK</Hsp_qseq>
+      <Hsp_hseq>VLLGIDGSPASEVATSHAFDEASRRGVDLVALHVWIDVGDIPPIGPTWEEQEE-------TGRALL--AERLA---GWQERYPDVKVHRRVERAQPAYWLLEEAKQ--AQLVVVGSHGRGGFTGMLLGSVSSRVAQSATTPVMVVRPR</Hsp_hseq>
+      <Hsp_midline>+++ +DGS  S  A  HA + A   G  L  +HV  +  +   + P + + E         G  +L  AER A   G       + V  +  R + A  L++ A +  A L+V+G+HGR G   +L+GS +  V + +  P++++R +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.169577</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>LVVAVDGSETSINALKHAAELAGVNGARLTLVHVANP-------AEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGARE--MAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLII</Hsp_qseq>
+      <Hsp_hseq>ILVGVDSSAESDAAVRWAAREASLHDAPITLMHVIAPVVVSWPAGPYMATVLECQEENARHAIEQAQ-KVVADC---------LGET--HGLTVQTEIRKESVARTLIDAS--KSAQMVVVGNRGMGALGRVLLGSTSTSLLHYASGPVVVV</Hsp_hseq>
+      <Hsp_midline>++V VD S  S  A++ AA  A ++ A +TL+HV  P         YMA   E  +  +  A   AQ   V D          +G T  H L      R+  +A+ L+D +    A ++V+G  G   L  +L+GS + +++  +  P++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|54039841|sp|P67094.1|USPG_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein G [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|54042617|sp|P67093.1|USPG_SALTY RecName: Full=Universal stress protein G [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P67094</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00165393</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSIN--ALKHAAELAGVNGARLTLVHVANPAEYMAL---------APEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>MYKTIIMPVDVFEMELSDKAIRHAEFLAQQDGV-IHLLHVLPGSASMSLHRFAADVRRFEEHLQHEAETRLQTMVGHFSIDPS-RIKTHVRFGSVRD---VVNEMGEELDADVV-----------VIGSRNPSITTHLL-GSNASSVVRHATLPVLVVR</Hsp_hseq>
+      <Hsp_midline>MYK +++ VD  E  ++  A++HA  LA  +G  + L+HV   +  M+L           E LQHE+        G+  +D + R    +  G+      V N+   E+  D+V           V+G+   +   HLL GS A +V+R + LP+L++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|33518627|sp|O07552.2|NHAX_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Stress response protein NhaX [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O07552</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00178163</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>HLVVAVDGSETSINALKHAAELAGVNGARLTLVH---------VANP------AEYMA--------------LAPEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>RIIVAFDGSENSKKALLTAIDLAKTVNAAITVAHSHDMKDNQTVIDPPRPAAEASYISGGMTSVPDPLISDVTSPEPMIYEDRTEEVIAEARMMLN-------EQQADGDIDIL----EG--DPAESIIEHANRISADMIVTGSRDQNRLKKLIFGSVSEKLSAKSDIPVLIVK</Hsp_hseq>
+      <Hsp_midline> ++VA DGSE S  AL  A +LA    A +T+ H         V +P      A Y++               +PE + +E      +A+   +L+       E      +  L    +G  + A+ ++++A+   A ++V G+  +  L  L+ GS +E +  +S +P+LI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|613782199|sp|P9WFD0.1|Y2026_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein MT2085 [Mycobacterium tuberculosis CDC1551] &gt;gi|613782203|sp|P9WFD1.1|Y2026_MYCTU RecName: Full=Universal stress protein Rv2026c; Short=USP Rv2026c [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WFD0</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0038949</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LVVAVDGSETSINALKHAAELAGVNGARLTLVHV-ANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTA--RELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSK</Hsp_qseq>
+      <Hsp_hseq>VLVGIDGSPASEAATALAFDEASRRRVDLVALHAWTDLGMFPVLGMDWREREKREA-------EVL--AERLAGWQEQYPDVRVHRSLVCDKPARW----LLEHSEQ--AQLVVVGSHGRGGFSGMLLGSVSSAVAHSVRIPVIVVRPS</Hsp_hseq>
+      <Hsp_midline>++V +DGS  S  A   A + A      L  +H   +   +  L  ++ + E  EA       EVL  AER A  +E      V   LV +K AR     L++++++  A L+V+G+HGR G   +L+GS +  V     +P++++R  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.63725</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>LVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRS</Hsp_qseq>
+      <Hsp_hseq>LIDASQQ--AWLMVVGSQGMGALGRLLLGSISTALLHHARCPVAIIHS</Hsp_hseq>
+      <Hsp_midline>L+D + +  A L+V+G+ G   L  LL+GS +  ++  +  P+ II S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|614094634|sp|P9WFD6.1|Y2623_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein MT2698 [Mycobacterium tuberculosis CDC1551] &gt;gi|614094642|sp|P9WFD7.1|Y2623_MYCTU RecName: Full=Universal stress protein Rv2623; Short=USP Rv2623 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WFD6</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0068925</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LVVAVDGSETSINALKHAAELAGVNGARLTLVHVANP--AEYM--ALAPEFLQHESYEAAAVAQGNEVLDAAERTARE--LGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLII</Hsp_qseq>
+      <Hsp_hseq>IIVGIDDSPAAQVAVRWAARDAELRKIPLTLVHAVSPEVATWLEVPLPPGVLRWQQ------DHGRHLIDDALKVVEQASLRAGPPTVHSEIVPAAA---VPTLVDMSKD--AVLMVVGCLGSGRWPGRLLGSVSSGLLRHAHCPVVII</Hsp_hseq>
+      <Hsp_midline>++V +D S  +  A++ AA  A +    LTLVH  +P  A ++   L P  L+ +         G  ++D A +   +  L  G    H  +    A      LVD + +  A L+V+G  G       L+GS +  ++R +H P++II</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0695189</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>ITRVVVRDQPARQ----LVQRSEE--AQLVVVGSRGRGGYAGMLVGSVGETVAQLARTPVIVAR</Hsp_hseq>
+      <Hsp_midline>+  ++V ++ AR+    LV  ++E  A L+V+G+ GR G   +L+GS  ETV + +  P+++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1174913|sp|P44880.1|USPA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein A homolog [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44880</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0091897</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHV</Hsp_qseq>
+      <Hsp_hseq>MYKHILVAVDLSEESPILLKKAVGIAKRHDAKLSIIHV</Hsp_hseq>
+      <Hsp_midline>MYKH++VAVD SE S   LK A  +A  + A+L+++HV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|38372615|sp|Q9CLE9.1|USPA_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein A homolog [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CLE9</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0186419</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHV</Hsp_qseq>
+      <Hsp_hseq>MYKHVLVAVDLSDESQFLLEKAAGVARRNEAKLSIIHV</Hsp_hseq>
+      <Hsp_midline>MYKH++VAVD S+ S   L+ AA +A  N A+L+++HV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|76363875|sp|P0AAC0.2|USPE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein E [Escherichia coli K-12] &gt;gi|85700166|sp|P0AAC2.2|USPE_ECO57 RecName: Full=Universal stress protein E [Escherichia coli O157:H7] &gt;gi|85700167|sp|P0AAC1.2|USPE_ECOL6 RecName: Full=Universal stress protein E [Escherichia coli CFT073] &gt;gi|85700168|sp|P0AAC3.2|USPE_SHIFL RecName: Full=Universal stress protein E [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AAC0</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0257138</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRS</Hsp_qseq>
+      <Hsp_hseq>QKFGINENMTHV---EKGLPEEV--IPDLAEHLQAGIVVLGTVGRTGISAAFLGNTAEQVIDHLRCDLLVIKP</Hsp_hseq>
+      <Hsp_midline>++ G+   + H+    KG  E    + D A+   AG++VLGT GRTG+    +G+ AE V+      LL+I+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|38372613|sp|Q8ZP84.3|USPE_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein E [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZP84</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0282733</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRS</Hsp_qseq>
+      <Hsp_hseq>QKFSIDEKVTHV---EKGLPEEV--IPDLAEHLQAGIVVLGTVGRTGLSAAFLGNTAEQVIDHLRCDLLVIKP</Hsp_hseq>
+      <Hsp_midline>++  +   V H+    KG  E    + D A+   AG++VLGT GRTGL    +G+ AE V+      LL+I+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|38372608|sp|Q8Z788.3|USPE_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein E [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z788</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0288205</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRS</Hsp_qseq>
+      <Hsp_hseq>QKFSIDEKVTHV---EKGLPEEV--IPDLAEHLQAGIVVLGTVGRTGLSAAFLGNTAEQVIDHLRCDLLVIKP</Hsp_hseq>
+      <Hsp_midline>++  +   V H+    KG  E    + D A+   AG++VLGT GRTGL    +G+ AE V+      LL+I+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|2501591|sp|P74148.1|Y1388_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein Sll1388; Short=USP Sll1388 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P74148</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0768286</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVH-VANPAEYMALAPEFLQHESYEAAAVAQGN---EVLDAAERTAREL--GVGNTVKHLLVANKG---AREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIR</Hsp_qseq>
+      <Hsp_hseq>YGKILVALDRSELAKEVLQQAIALGQKESSQLMVFYCIPVDSQDLSIYPSF-----YGEAAIGFSQIIKEHLEEQQTEAREWLQSIVQQVQEDGVACEWDVKVGEPGRWIRDMAKNWDADLVVLGRRGLKGLAEVFLGSVSSYVIHHVQCSVLIVQ</Hsp_hseq>
+      <Hsp_midline>Y  ++VA+D SE +   L+ A  L     ++L + + +   ++ +++ P F     Y  AA+       E L+  +  ARE    +   V+   VA +      E  + + D A    A L+VLG  G  GL  + +GS +  V+      +LI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|61250883|sp|P0A5F8.1|Y2019_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein Mb2019; Short=USP Mb2019 [Mycobacterium bovis AF2122/97] &gt;gi|613782069|sp|P9WLP1.1|Y1996_MYCTU RecName: Full=Universal stress protein Rv1996; Short=USP Rv1996 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P0A5F8</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0850763</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>LVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPE--FLQHESYEAAA----------VAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYAD-ENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLII</Hsp_qseq>
+      <Hsp_hseq>IVVGVDGSPCSHTAVEWAARDAQMRNVALRVVQVVPP---VITAPEGWAFEYSRFQEAQKREIVEHSYLVAQAHQIVEQAHKVALEASSSGRAAQI----TGEVLHGQIVPTLANISRQVAMVVLGYRGQGAVAGALLGSVSSSLVRHAHGPVAVI</Hsp_hseq>
+      <Hsp_midline>+VV VDGS  S  A++ AA  A +    L +V V  P   +  APE    ++  ++ A           VAQ +++++ A + A E         +     G     Q +   A+      ++VLG  G+  +   L+GS + +++R +H P+ +I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.23239</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>AGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEEA</Hsp_qseq>
+      <Hsp_hseq>AQLVVVGSHGRGGFPGMHLGSVSRAVVNSGQAPVIVARIPQDPA</Hsp_hseq>
+      <Hsp_midline>A L+V+G+HGR G   + +GS +  V+     P+++ R   + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|38372533|sp|P60005.1|USPE_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein E [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>P60005</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0942068</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>ADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEEA</Hsp_qseq>
+      <Hsp_hseq>CDEMNAGIIVLGILGRTGLSAAFLGNTAEHVIDHLKCDILTIKPDGFEC</Hsp_hseq>
+      <Hsp_midline> DE  AG++VLG  GRTGL    +G+ AE V+      +L I+    E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|38372532|sp|P60004.1|USPA_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein A [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>P60004</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.106413</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEE</Hsp_qseq>
+      <Hsp_hseq>YKHILVAVDLSPESQVLVRKAVSMAKPDNAKVSLIHV--DVNYSDLYTGLID------VNLGDMQQRISEETRSALKALSADSAYDIQETLSGSGDLGQVLVDAIKKYGIDMVVCGHH--QDFWSKLMSS-ARQLINTVHVDMLIVPLRDDE</Hsp_hseq>
+      <Hsp_midline>YKH++VAVD S  S   ++ A  +A  + A+++L+HV     Y  L    +         +    + +    R+A +    ++   +     G+ ++ Q LVD   + G  ++V G H        LM S A  ++   H+ +LI+  + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|613782062|sp|P9WLP0.1|Y1996_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein MT2052 [Mycobacterium tuberculosis CDC1551]</Hit_def>
+  <Hit_accession>P9WLP0</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.115401</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>LVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPE--FLQHESYEAAA----------VAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLII</Hsp_qseq>
+      <Hsp_hseq>IVVGVDGSPCSHTAVEWAARDAQMRNVALRVVQVVPP---VITAPEGWAFEYSRFQEAQKREIVEHSYLVAQAHQIVEQAHKVALEASSSGRAAQI-TGEVLHGQIVPTLTNISRQ--VAMVVLGYRGQGAVAGALLGSVSSSLVRHAHGPVAVI</Hsp_hseq>
+      <Hsp_midline>+VV VDGS  S  A++ AA  A +    L +V V  P   +  APE    ++  ++ A           VAQ +++++ A + A E         +        ++   L + + +    ++VLG  G+  +   L+GS + +++R +H P+ +I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.26742</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>AGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEEA</Hsp_qseq>
+      <Hsp_hseq>AQLVVVGSHGRGGFPGMHLGSVSRAVVNSGQAPVIVARIPQDPA</Hsp_hseq>
+      <Hsp_midline>A L+V+G+HGR G   + +GS +  V+     P+++ R   + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|76363874|sp|P0AAB8.1|USPD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein D [Escherichia coli K-12] &gt;gi|85700165|sp|P0AAB9.1|USPD_SHIFL RecName: Full=Universal stress protein D [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AAB8</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.150618</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVAN------PAEYMALAPEFLQ</Hsp_qseq>
+      <Hsp_hseq>YKHIGVAISGNEEDALLVNKALELARHNDAHLTLIHIDDGLSELYPGIYFPATEDILQ</Hsp_hseq>
+      <Hsp_midline>YKH+ VA+ G+E     +  A ELA  N A LTL+H+ +      P  Y     + LQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|54039839|sp|P67090.1|USPD_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein D [Escherichia coli O157:H7] &gt;gi|54042613|sp|P67089.1|USPD_ECOL6 RecName: Full=Universal stress protein D [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>P67090</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.15829</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVAN------PAEYMALAPEFLQ</Hsp_qseq>
+      <Hsp_hseq>YKHIGVAISGNEEDALLVNKALELARHNDAHLTLIHIDDGLSELYPGIYFPATEDILQ</Hsp_hseq>
+      <Hsp_midline>YKH+ VA+ G+E     +  A ELA  N A LTL+H+ +      P  Y     + LQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|38372611|sp|Q8ZE81.1|USPE_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein E [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q8ZE81</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.363759</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>RELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSK</Hsp_qseq>
+      <Hsp_hseq>QQFGIDEKFTHV---EKGLPEEV--IPDLAEHLNAGVVVLGTLGRTGLSAAFIGNTTEHVIDNLKCDLLAIKPE</Hsp_hseq>
+      <Hsp_midline>++ G+     H+    KG  E    + D A+   AG++VLGT GRTGL    +G+  E V+      LL I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|2501589|sp|P72745.1|Y1101_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein Slr1101; Short=USP Slr1101 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P72745</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.889709</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>LVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLII</Hsp_qseq>
+      <Hsp_hseq>ICQRAKQDNSDIIVVGHRGRWGLSEILLGSVGNYVFHHAHCCVFVV</Hsp_hseq>
+      <Hsp_midline>+   A ++ + ++V+G  GR GL  +L+GS    V   +H  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2507515|sp|P44195.2|USPE_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein E homolog [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44195</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.31807</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>ADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEE</Hsp_qseq>
+      <Hsp_hseq>AKEIEAELVILGTVGRTGLSAALLGNTAEHVISKLSCNLLGIKPSKKD</Hsp_hseq>
+      <Hsp_midline>A E  A L++LGT GRTGL   L+G+ AE V+ +    LL I+   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|2501592|sp|P72817.1|Y1654_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein Sll1654; Short=USP Sll1654 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P72817</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.77202</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MYKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLII</Hsp_qseq>
+      <Hsp_hseq>MFKTILFPLDRSREARDAAQMVADLVKIHQSQLILLSVVEKN------PPGQDHEAHGMDSPEAVAKLLEAAQAVFSQQGIATKT----IEREGMASFT--ICDVADEVNADLIVMGCRGLGLTTEGVAESVTARVINLSPCPVLVV</Hsp_hseq>
+      <Hsp_midline>M+K ++  +D S  + +A +  A+L  ++ ++L L+ V          P    HE++   +     ++L+AA+    + G+        +  +G       + D ADE  A L+V+G  G       +  S    V+  S  P+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|357580464|sp|B4EYA1.1|MDTC_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtC; AltName: Full=Multidrug transporter MdtC [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4EYA1</Hit_accession>
+  <Hit_len>1027</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.84096</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>773</Hsp_hit-from>
+      <Hsp_hit-to>835</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GARLTLVHVANPAEYMALAPEFLQHESYEAAA-----VAQG---NEVLDAAERTARELGVGNTVK</Hsp_qseq>
+      <Hsp_hseq>GERIPLSAFA--SWYPANAPLSVNHQGLSAASTIAFNVPEGYTLSDAINAIERTMTELGVPNTVR</Hsp_hseq>
+      <Hsp_midline>G R+ L   A  + Y A AP  + H+   AA+     V +G   ++ ++A ERT  ELGV NTV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|75162302|sp|Q8W3L1.1|MFDR_ARATH</Hit_id>
+  <Hit_def>RecName: Full=NADPH:adrenodoxin oxidoreductase, mitochondrial; Short=Adrenodoxin reductase; AltName: Full=Mitochondrial ferredoxin reductase; Short=AtMFDR; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8W3L1</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.04991</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>HLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAE---RTARELGVGNTVKHLLVANK</Hsp_qseq>
+      <Hsp_hseq>HVVVLAYGAESDKDLGIPGESLSGIYSAREFVWWYNGHPDYSSLKPDLKTSDS--AVILGQGNVALDVARILLRPTTELASTDIATHALSALK</Hsp_hseq>
+      <Hsp_midline>H+VV   G+E+  +       L+G+  AR  +       +Y +L P+    +S  A  + QGN  LD A    R   EL   +   H L A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|54040481|sp|P64996.1|Y2346_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein Mb2346c; Short=USP Mb2346c [Mycobacterium bovis AF2122/97] &gt;gi|614089953|sp|P9WLB4.1|Y2319_MYCTO RecName: Full=Universal stress protein MT2382 [Mycobacterium tuberculosis CDC1551] &gt;gi|614089959|sp|P9WLB5.1|Y2319_MYCTU RecName: Full=Universal stress protein Rv2319c; Short=USP Rv2319c [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P64996</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.25912</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>SINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHE--SYEAAAVAQGNEVLDAAERTARELGV--GNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLII</Hsp_qseq>
+      <Hsp_hseq>SVDVVRRCGHLASRYGVPMRVITFAVRGRTM-YPPEVGLHAEASVLEAWAAQARELLE----KLRINGVVSEDVVLQVVTGNGWAQAL-----DAADWQDGEILALGTSPFGDVARVFLGSWSGKIIRYSPVPVLVL</Hsp_hseq>
+      <Hsp_midline>S++ ++    LA   G  + ++  A     M   PE   H   S   A  AQ  E+L+      R  GV   + V  ++  N  A+ +     D AD     +L LGT     +  + +GS++  ++R S +P+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|38372612|sp|Q8ZLD7.3|USPA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein A [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZLD7</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.7073</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTAREL-----GVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEE</Hsp_qseq>
+      <Hsp_hseq>YKHILIAVDLSPESKVLVEKAVSMARPYNAKISLIHV--DVNYSDLYTGLID--------VNLGDMQKRISEETHHALTELSTNAGYPITETL---SGSGDLGQVLVDAIKKYDMDLVVCGHH--QDFWSKLMSS-ARQLINTVHVDMLIVPLRDEE</Hsp_hseq>
+      <Hsp_midline>YKH+++AVD S  S   ++ A  +A    A+++L+HV     Y  L    +         V  G+     +E T   L       G  +   L    G+ ++ Q LVD   +    L+V G H        LM S A  ++   H+ +LI+  + EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|38372606|sp|Q8Z268.3|USPA_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein A [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z268</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.22102</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTARE---------LGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEE</Hsp_qseq>
+      <Hsp_hseq>YKHILIAVDLSPESKVLVEKAVSMARPYNAKISLIHV--DVNYSDLYTGLID--------VNLG----DMQKRISKETHHALTELSTNAGYPITETL---SGSGDLGQVLVDAIKKYDMDLVVCGHH--QDFWSKLMSS-ARQLINTVHVDMLIVPLRDEE</Hsp_hseq>
+      <Hsp_midline>YKH+++AVD S  S   ++ A  +A    A+++L+HV     Y  L    +         V  G    D  +R ++E            G  +   L    G+ ++ Q LVD   +    L+V G H        LM S A  ++   H+ +LI+  + EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166920101|sp|A5VJK4.1|DER_LACRD</Hit_id>
+  <Hit_def>RecName: Full=GTPase Der; AltName: Full=GTP-binding protein EngA [Lactobacillus reuteri DSM 20016] &gt;gi|229784134|sp|B2G718.1|DER_LACRJ RecName: Full=GTPase Der; AltName: Full=GTP-binding protein EngA [Lactobacillus reuteri JCM 1112]</Hit_def>
+  <Hit_accession>A5VJK4</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.91442</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>250</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>RTARELGVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRT--GLMHLLMGSFAETVMRQ----SHLPLLIIRSKAEE</Hsp_qseq>
+      <Hsp_hseq>RSMRAIDDSDVVLVVLNAEEGIRELDKHIAGYAHEAGCGVIIVVNKWDTLKEKDHRTMTDFTNLIRQEFQYLSYAPIIFVSAKTKQ</Hsp_hseq>
+      <Hsp_midline>R+ R +   + V  +L A +G RE+ + +  YA E G G++++     T     H  M  F   + ++    S+ P++ + +K ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|83288175|sp|P0AED2.2|USPA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein A [Escherichia coli O157:H7] &gt;gi|83288176|sp|P0AED1.2|USPA_ECOL6 RecName: Full=Universal stress protein A [Escherichia coli CFT073] &gt;gi|83288177|sp|P0AED0.2|USPA_ECOLI RecName: Full=Universal stress protein A [Escherichia coli K-12] &gt;gi|83288178|sp|P0AED3.2|USPA_SHIFL RecName: Full=Universal stress protein A [Shigella flexneri] &gt;gi|83288179|sp|P0AED4.2|USPA_SHISO RecName: Full=Universal stress protein A [Shigella sonnei]</Hit_def>
+  <Hit_accession>P0AED2</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.85583</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPEFLQHESYEAAAVAQGNEVLDAAERTAREL-----GVGNTVKHLLVANKGAREMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRSKAEE</Hsp_qseq>
+      <Hsp_hseq>YKHILIAVDLSPESKVLVEKAVSMARPYNAKVSLIHV--DVNYSDLYTGLID--------VNLGDMQKRISEETHHALTELSTNAGYPITETL---SGSGDLGQVLVDAIKKYDMDLVVCGHH--QDFWSKLMSS-ARQLINTVHVDMLIVPLRDEE</Hsp_hseq>
+      <Hsp_midline>YKH+++AVD S  S   ++ A  +A    A+++L+HV     Y  L    +         V  G+     +E T   L       G  +   L    G+ ++ Q LVD   +    L+V G H        LM S A  ++   H+ +LI+  + EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|38604736|sp|Q7VNV2.1|DUSA_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=tRNA-dihydrouridine synthase A [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VNV2</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.02249</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHVANPAEYMALAPE-FLQHESYEAAAVAQGNEVLDAAERTARELGVGNTVKHLLVA---NKGAREMAQDLVDYADENGAGLLVL</Hsp_qseq>
+      <Hsp_hseq>FPQLNISINGGIKTIDEIKQ--HLTKVDGVMVGREAYQNPALLGEIDQQLFDQNQPLITARIAVENMLPYIEQQLSKGVYLNHIVRHMLGAFQNCKGARQWRRHLSENACKQGAGIEVV</Hsp_hseq>
+      <Hsp_midline>+  L ++++G   +I+ +K    L  V+G  +      NPA    +  + F Q++    A +A  N +    ++ ++ + + + V+H+L A    KGAR+  + L + A + GAG+ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|38372609|sp|Q8ZA49.3|USPA_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein A [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q8ZA49</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.39972</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>YKHLVVAVDGSETSINALKHAAELAGVNGARLTLVHV</Hsp_qseq>
+      <Hsp_hseq>YKHILIAVDLSPESKVLVEKAVSMAKPYNAKVSLIHV</Hsp_hseq>
+      <Hsp_midline>YKH+++AVD S  S   ++ A  +A    A+++L+HV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|426021824|sp|A0QZZ6.1|Y4207_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=Universal stress protein MSMEG_4207; Short=Usp [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0QZZ6</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>9.82831</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>EMAQDLVDYADENGAGLLVLGTHGRTGLMHLLMGSFAETVMRQSHLPLLIIRS</Hsp_qseq>
+      <Hsp_hseq>DATEELLTAMDSPDAELLVIGIRHRNPVGKLLLGSVAQRLLLECPKPVLAVKP</Hsp_hseq>
+      <Hsp_midline>+  ++L+   D   A LLV+G   R  +  LL+GS A+ ++ +   P+L ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

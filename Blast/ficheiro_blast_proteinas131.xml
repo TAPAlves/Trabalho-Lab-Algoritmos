@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>43987</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>123</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>43987</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|74876153|sp|Q75JF3.1|CLCC_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Chloride channel protein C [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q75JF3</Hit_accession>
+  <Hit_len>757</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.167592</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>442</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>PPQAVKQGWS-------WPGLLFGTLWACFKRMWGLGLGMTGAMFVLAVFAQLVYGDTPATDSAFNVLGLAVSVWFGAKGNSLYA</Hsp_qseq>
+      <Hsp_hseq>PDQALRRLYSRTNNMFTLPPLLVFTLISLFFSIWSSGLWVAGGLFVPMMMVGAGFG---------RLFGQTISMWFTNIDSSIYA</Hsp_hseq>
+      <Hsp_midline>P QA+++ +S        P LL  TL + F  +W  GL + G +FV  +     +G          + G  +S+WF    +S+YA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|6647917|sp|Q9ZDL0.1|Y318_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein RP318 [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZDL0</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.262535</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>MKPYKIYTHPALPPQ---AVKQGWSWPGLLFGTLWACFKRMW</Hsp_qseq>
+      <Hsp_hseq>MNIYAIYINSTQKNNNFIILEEGFSWIAALFSIFWALYHKMW</Hsp_hseq>
+      <Hsp_midline>M  Y IY +          +++G+SW   LF   WA + +MW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|122064521|sp|Q080T2.1|MSBA_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>Q080T2</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.54493</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>44</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>LWACFKRMWGLGLGMTGAMFVLAVFAQLVYGDTPATDSAF</Hsp_qseq>
+      <Hsp_hseq>MWVVFKRLMAYVVPMK-AMFIMAVLGLITYG---AVDAAF</Hsp_hseq>
+      <Hsp_midline>+W  FKR+    + M  AMF++AV   + YG   A D+AF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|166215015|sp|Q8Z706.2|YNEE_SALTI</Hit_id>
+  <Hit_def>RecName: Full=UPF0187 protein YneE [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|166215016|sp|Q8ZPI0.2|YNEE_SALTY RecName: Full=UPF0187 protein YneE [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8Z706</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.94611</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TDSAFNVLGLAVSVWFGAKGNSLYARHLLSR</Hsp_qseq>
+      <Hsp_hseq>TLAPFSILGVAIAIFLGFRNNACYARYVEAR</Hsp_hseq>
+      <Hsp_midline>T + F++LG+A++++ G + N+ YAR++ +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|57015326|sp|P50805.2|VL1_BPV3</Hit_id>
+  <Hit_def>RecName: Full=Major capsid protein L1 [Xipapillomavirus 1]</Hit_def>
+  <Hit_accession>P50805</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.81238</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>SVWFGAKGNSLYARHLLSRGYT---ELPETVEAAN---PQAALAQ-----YFGRGGG</Hsp_qseq>
+      <Hsp_hseq>SMFFYAKREQMYVRHLWSRGGTIGEEIPPNGEASPYYLPGAGRATLPTSVYFGSPSG</Hsp_hseq>
+      <Hsp_midline>S++F AK   +Y RHL SRG T   E+P   EA+    P A  A      YFG   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|166215013|sp|Q8XAZ3.2|YNEE_ECO57</Hit_id>
+  <Hit_def>RecName: Full=UPF0187 protein YneE [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8XAZ3</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.17478</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TDSAFNVLGLAVSVWFGAKGNSLYARHLLSRGY--------TELPETVEAANPQAALAQYFGR</Hsp_qseq>
+      <Hsp_hseq>TLAPFSILGVAIAIFLGFRNNAGYARYVEARKLWGQLMIASRSLLREVKTTLPDSASVREFAR</Hsp_hseq>
+      <Hsp_midline>T + F++LG+A++++ G + N+ YAR++ +R            L   V+   P +A  + F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166215014|sp|P76146.2|YNEE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=UPF0187 protein YneE [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76146</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.38158</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TDSAFNVLGLAVSVWFGAKGNSLYARHLLSRGY--------TELPETVEAANPQAALAQYFGR</Hsp_qseq>
+      <Hsp_hseq>TLAPFSILGVAIAIFLGFRNNAGYARYVEARKLWGQLMIASRSLLREVKTTLPDSASVREFAR</Hsp_hseq>
+      <Hsp_midline>T + F++LG+A++++ G + N+ YAR++ +R            L   V+   P +A  + F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|161788967|sp|P0AG00.2|WZZE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Lipopolysaccharide biosynthesis protein WzzE [Escherichia coli K-12] &gt;gi|161788968|sp|P0AG01.2|WZZE_ECO57 RecName: Full=Lipopolysaccharide biosynthesis protein WzzE [Escherichia coli O157:H7] &gt;gi|161788969|sp|P0AG02.2|WZZE_SHIFL RecName: Full=Lipopolysaccharide biosynthesis protein WzzE [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AG00</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.26131</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PALPPQAVKQGWSWPGLLFGTLWACFKRMWGLGLGMTGAMFVLA--VFAQLVYGDTPATDS-AFNVLG</Hsp_qseq>
+      <Hsp_hseq>PGKPAEDAENELDIRGL-FRTLWAG--KLWIIGMGLAFALIALAYTFFARQEWSSTAITDRPTVNMLG</Hsp_hseq>
+      <Hsp_midline>P  P +  +      GL F TLWA   ++W +G+G+  A+  LA   FA+  +  T  TD    N+LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

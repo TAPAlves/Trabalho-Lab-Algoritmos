@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>51309</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>589</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>51309</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>589</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|127837|sp|P27896.1|NARQ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Nitrate/nitrite sensor protein NarQ [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P27896</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>8.26274e-41</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>LLTGLWVGLAALSVVLTLLLSFRLENAASVIEEAGNLKMQAYRLAYMAGEGSPRAQIDNQIAEFEKSLKRISQSDAIHPLIPSDN----PLAYDLIQSMLIIDW-------QANILPPLQAYRRPTQIELYRFAGNIELFLQALENAGEKNTWWLRRFQWV--IMLMTLVSSVLMLFWHQIWVIRPLQALREGAERIGQRHFDIPVPEDGTP-EFKQVGRCFNQMALRLKTLYDDLEGQVAEQTHNLEKQNRNLTLLYRTTRDLHQSYTPRQAAEEFLNHILPAVGAQSGNICLENGSDTDISVHTAEHGKKPPLEKYHDETFPIEYQNEKLGMLSLGFSDGTSLTGDDRTLLQTLIRQLGVSLAGAKQEEEKRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFT-LSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>LLSILSTGIA----LLTLASSLR---DAEAINIAGSLRMQSYRLGYDLQSGSPQLNAHRQL--FQQALHS--------PVLTNLNVWYVPEAVKTRYAHLNANWLEMNNRLSKGDLPWYQA-------NINNYVNQIDLFVLALQHYAERKMLLVVAISLAGGIGIFTLVFFTLRRIRHQ--VVAPLNQLVTASQRIEHGQFDSPPLDTNLPNELGLLAKTFNQMSSELHKLYRSLEASVEEKTRDLHEAKRRLEVLYQCSQALNTS----QIDVHCFRHILQIVRDNEAAEYLELNVGENWRISEGQPNPELPM-----QILPVTMQETVYGELHWQNSHVSS----SEPLLNSVSSMLGRGLYFNQAQKHFQQLLLMEERATIARELHDSLAQVLSYLRIQLTLLKRSIPEDN-ATAQSIMADFSQALNDAYRQLRELLTTFRLTLQQADLPSALREMLDTLQNQTSAKLTLDCRLPTLALDAQMQVHLLQIIREAVLNAMKHANASEIAVSCVTAPDGNHTVYIRDNGIGIGEPK--EPEG-HYGLNIMRERAERLGGTLTFSQPSGGGTLVSIS</Hsp_hseq>
+      <Hsp_midline>LL+ L  G+A    +LTL  S R    A  I  AG+L+MQ+YRL Y    GSP+     Q+  F+++L          P++ + N    P A     + L  +W           LP  QA        +  +   I+LF+ AL++  E+    +        I + TLV   L    HQ  V+ PL  L   ++RI    FD P  +   P E   + + FNQM+  L  LY  LE  V E+T +L +  R L +LY+ ++ L+ S    Q       HIL  V        LE     +  +   +   + P+     +  P+  Q    G L    S  +S       LL ++   LG  L   + ++  + L +++ER  IA+ LHDS+AQ L++L +Q+ +L+ +  E+    A   +      + + Y  +RELL  FR  +   + P A+ ++      QT   +       +       Q+ ++ I++E++ N  KHA A+ +  + ++   G  T+ I+DNG G    K  EP G H GL+IM+ERA+R+   L     +  GT VS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|84028646|sp|P0AFA3.1|NARX_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Nitrate/nitrite sensor protein NarX [Escherichia coli O157:H7] &gt;gi|84028647|sp|P0AFA2.1|NARX_ECOLI RecName: Full=Nitrate/nitrite sensor protein NarX [Escherichia coli K-12] &gt;gi|84028648|sp|P0AFA4.1|NARX_SHIFL RecName: Full=Nitrate/nitrite sensor protein NarX [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFA3</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>2.98412e-38</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>588</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>589</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>614</Hsp_align-len>
+      <Hsp_qseq>PLSL----RLKLLTGLWVGLAALSVVLTLLLSFRLENAASVIEEAGNLKMQAYRL---AYMAGEGSPRAQIDNQIAEFEKSLKRISQSDAIHPLIPSDNPLAYDLIQSMLIID-WQANILPPL-QAYRRPT-QIELYRFAGNIELFLQALENAGE---KNTWWLRRFQWVIMLMTLVSSVLMLFWHQIWVIRPLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQMALRLKTLYDDLEGQVAEQTHNLEKQNRNLTLLYRTTRDLHQSYTPRQAAEEFLNHILPAVGAQSGNI---------------------CLENGSDTDISVHTAEHGKKPPLEKYHDETFPIEYQNEKLGMLSLGFSDGTSLTGDDRTLLQTLIRQLGVSLAGAKQEEEKRLLAVLQERNLIAQGLHDSIAQALTFLNLQV---QMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLTGAPKESL</Hsp_qseq>
+      <Hsp_hseq>PLTLVNQVALIVLLSTAIGLAGMAVSGWLVQG--VQGSAHAINKAGSLRMQSYRLLAAVPLSEKDKPLIKEMEQTA-FSAELTRAAERDG-------------QLAQLQGLQDYWRNELIPALMRAQNRETVSADVSQFVAGLDQLVSGFDRTTEMRIETVVLVHRVMAVFMALLLVFTII---WLRARLLQPWRQLLAMASAVSHRDFTQRANISGRNEMAMLGTALNNMSAELAESYAVLEQRVQEKTAGLEHKNQILSFLWQANRRLH----SRAPLCERLSPVLN--GLQNLTLLRDIELRVYDTDDEENHQEFTCQPDMTCDDKGCQLCPRGVLPVGDRGTTLKWRLADSHTQYGILLATLPQGRHLSHDQQQLVDTLVEQLTATLALDRHQERQQQLIVMEERATIARELHDSIAQSLSCMKMQVSCLQMQGDALPESSRELLSQ----IRNELNASWAQLRELLTTFRLQLTEPGLRPALEASCEEYSAKFGFPVKLDYQLPPRLVPSHQAIHLLQIAREALSNALKHSQASEVVVTVAQNDNQVKLTVQDNGCGVPENAI---RSNHYGMIIMRDRAQSLRGDCRVRRRESGGTEVVVTFIPEKTF</Hsp_hseq>
+      <Hsp_midline>PL+L     L +L    +GLA ++V   L+    ++ +A  I +AG+L+MQ+YRL     ++ +  P  +   Q A F   L R ++ D               L Q   + D W+  ++P L +A  R T   ++ +F   ++  +   +   E   +    + R   V M + LV +++   W +  +++P + L   A  +  R F       G  E   +G   N M+  L   Y  LE +V E+T  LE +N+ L+ L++  R LH     R    E L+ +L   G Q+  +                     C  + +  D        G  P  ++     + +   + + G+L      G  L+ D + L+ TL+ QL  +LA  + +E ++ L V++ER  IA+ LHDSIAQ+L+ + +QV   QM   A  E+ RE  ++    I+  +   +  +RELL  FR +++      A+      ++ + G  V+  ++    L    + + ++ I +E+LSN  KH++A+ V  T+++   +  +T+QDNG G     I     +H G+ IM++RA+ +R    +R +   GT V +T  P+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1171657|sp|P44604.1|NARQ_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein NarQ homolog [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44604</Hit_accession>
+  <Hit_len>567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>6.07897e-38</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>597</Hsp_align-len>
+      <Hsp_qseq>SLRLKLLTGLWVGLAALSVVLTLLLSFRLENA--ASVIEEAGNLKMQAYRLAYMAGEGSPRAQIDNQIAEFEKSLKRISQSDAIHPLIPSDNPLAYDLIQSMLIIDWQANIL---PPLQAYRRPTQIELYR-----FAGNIELFLQALENAGEKNTWWLRRFQWVIMLMTLVSSVLMLFWHQIW-----VIRPLQALREGAERIGQRHFD-IPVPEDGTPEFKQVGRCFNQMALRLKTLYDDLEGQVAEQTHNLEKQNRNLTLLYRTTRDLHQSYTPRQAAEEFLNHILPAVGAQSGNICLENGSDTDISVHTAEH-----GKKPPLEKYHDETFPIEYQNEKLGMLSLGFSDGTSLTGDDRTLLQTLIRQLGVSLAGAKQEEEKRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFA---ENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQD---EQLQMIF-ILQESLSNIRKHARATHVKFTLS-EYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>SVSTRIAKYLFIILIVAGVISSLSLAIMSSNKYDAEAINISGSLRMQSYRLLY---------EMQEQPESVETNLRRYHISLHSSALLEVQNQF---FTPNVLKHSYQ-NILQRWTNMEKYARQQDVKNYSKQLTDYVADVDYFVFELQRFSEQK--WILGVSVLGFAMLLI---LLMVSYVIWYTNREVVKPLHLMTKASMQVQMRQFNHIPLDTRKQNELGTLARVFTQMSTELGQLYSRLEEAVNEKTQKLRQTNRTLSTLYQSAQLLNTNTINDKILNQVLNYIFIS----------DHLNFVKVEVMGAEHWDITLGKQDANNELQIETLSVD--NEELGVLSWQ----AGLPCPDPRIMQNLAQMLARALYFHKNLRQKEQLLLMEERSIIARELHDSLAQVLSFLQIQLTLLKHNLKKEDEQSKEKSLAIIANFEQALSGGYAQLRELLATFRLTIQEANLQLALKQVIDSLRSQTTMQMNVNCQ----LPSQSLNPQQLVHVLQIVREATTNAIKHSQGTVIEISARINAEGEYEILVEDDGVGIPN--LEEPEG-HYGLNIMAERCRQLNAQLHIHRREQGGTQVKIT</Hsp_hseq>
+      <Hsp_midline>S+  ++   L++ L    V+ +L L+    N   A  I  +G+L+MQ+YRL Y         ++  Q    E +L+R   S     L+   N        ++L   +Q NIL     ++ Y R   ++ Y      +  +++ F+  L+   E+   W+     +   M L+   L++  + IW     V++PL  + + + ++  R F+ IP+      E   + R F QM+  L  LY  LE  V E+T  L + NR L+ LY++ + L+ +    +   + LN+I  +          ++ +   + V  AEH     GK+    +   ET  ++  NE+LG+LS        L   D  ++Q L + L  +L   K   +K  L +++ER++IA+ LHDS+AQ L+FL +Q+ +L+       E  +E++   I   +  +   Y  +RELL  FR  I       A+  +      QT + +    +    LP+Q    +QL  +  I++E+ +N  KH++ T ++ +      G + + ++D+G G     + EP G H GL+IM ER +++ A L I  + Q GT V +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|68566109|sp|P96685.1|YDFH_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase YdfH [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P96685</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>2.38077e-17</Hsp_evalue>
+      <Hsp_query-from>371</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>AKQEEEKRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISN-KEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTL-SEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>AHQQVEQ--LTLQNERQRMARDLHDTLAQGLVSLNMQLDAIHVHLAKGNTERAKEIIQQSMKRVKSTIADARSAIDDLRSKSEEIGVLKERITSLMDHFIESTGMACLLDYRLHQVLDVRTAE-NCYYIIGECMTNAAKHAEAKTIWISIWDDEKGRLHLTVKDNGKGFDVEK-GKKKRGHYGLLGIQERVRAINGQFNIKSTKLKGTQIEIT</Hsp_hseq>
+      <Hsp_midline>A Q+ E+  L +  ER  +A+ LHD++AQ L  LN+Q+  +    A+   E A E I      V+    D R  + + R+K        E +  L   F + TG+     +     L  +  +    +I+ E ++N  KHA A  +  ++  +  GR  +T++DNG+GFD EK G+    H GL  +QER + I     I+S   +GT + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81341001|sp|O07527.1|YHCY_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase YhcY [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O07527</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>8.24453e-16</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>HDETFPIEYQNEKLGMLSLGFSDGTSLTGDDRTLLQTLIRQLGVSLAGAKQEEEKRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIF-ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEK-IGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSL</Hsp_qseq>
+      <Hsp_hseq>HHATVPLEDGDRRFGLLNVAAAGKTMFDEEELHLLESVAFQIGTAIQRMRLSEYQQKNALLMERNRLAQELHDSVNQMLFSVSLTAKAAKTL---TKDENLQQMIDFIQNLSQDALAEMKALIWQLRPGGLEKGLAEAIKSYGAL------IGLKIIFTQKGCPVLTDEQEHMLWRVVQEALNNCKKHAGTDTAYVSLTASLCHAELDIIDHGAGFRYEAHAGLPS---LGIKGMKERAEKAGAKFWIESALGTGTKLSI</Hsp_hseq>
+      <Hsp_midline>H  T P+E  + + G+L++  +  T    ++  LL+++  Q+G ++   +  E ++  A+L ERN +AQ LHDS+ Q L  ++L  +  +T     K E   + I FI+   Q+   +++ L+   R     K   EA+    A       I ++ ++         DEQ  M++ ++QE+L+N +KHA       +L+       + I D+G GF  E   G P+   +G+  M+ERA++  A   I S    GT +S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1706360|sp|P54663.1|DEGS_BREBE</Hit_id>
+  <Hit_def>RecName: Full=Signal transduction histidine-protein kinase/phosphatase DegS [Brevibacillus brevis]</Hit_def>
+  <Hit_accession>P54663</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.14155e-15</Hsp_evalue>
+      <Hsp_query-from>329</Hsp_query-from>
+      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>IEYQNEKLGMLSLGFSDGTSLTGDDRTLLQTLIRQLGVSLAGAKQEEE---KRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITVE-TVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFD-TEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQG</Hsp_qseq>
+      <Hsp_hseq>IERAEELVGQMTVVYN---FLTGD--------LRQVGEALEDAREKQAFGLQIIQAQEEERRKLSREIHDGPAQMMANVLLRSELVERIYHDKGIDEALKEIRDLRKMVKSSLAEVRRIIYDLRRMALDDLGLIPTLKKYVKTFEEHTGIFVDFKHIGKGERFPEHVE-IALFRLVQEALQNTRKHAKASHVHVKIEEQKTKFTVVIKDNGKGFDQTEK---KEGS-FGLVGMKERVNMLKGQLVIRTKPNDG</Hsp_hseq>
+      <Hsp_midline>IE   E +G +++ ++    LTGD        +RQ+G +L  A++++    + + A  +ER  +++ +HD  AQ +  + L+ +++E  + +   +EA + I  ++  V+    +VR ++ + R   + +      +      F + TGI V+      G   P   E + +  ++QE+L N RKHA+A+HV   + E   +FT+ I+DNG+GFD TEK     GS  GL  M+ER   ++  L IR++   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|68051996|sp|O32198.1|LIAS_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase LiaS [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32198</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>3.27657e-14</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>AVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKRE---EAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSL</Hsp_qseq>
+      <Hsp_hseq>VISEERQRLARDLHDAVSQQL----FAISMMTSAVLEHVKDADDKTVKRIRMVEHMAGEAQNEMRALLLHLRPVTLEGKGLKEGLTELLDEFRKKQPIDIE--WDIQDTAISKGVEDHLFRIVQEALSNVFRHSKASKVTVILGIKNSQLRLKVIDNGKGF---KMDQVKASSYGLNSMKERASEIGGVAEVISVEGKGTQIEV</Hsp_hseq>
+      <Hsp_midline> + +ER  +A+ LHD+++Q L      + M+ +A  E+ ++   +  + I  ++    E   ++R LLL+ R   +  K   E + +L   F ++  I +E  W+      ++  +  +  I+QE+LSN+ +H++A+ V   L     +  + + DNG+GF   K+ +   S  GL+ M+ERA  I  V E+ S   +GT + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81827803|sp|Q6G6S9.1|NREB_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81832380|sp|Q7A028.1|NREB_STAAW RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81855883|sp|Q99RN7.1|NREB_STAAN RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus N315] &gt;gi|81859522|sp|Q5HDG4.1|NREB_STAAC RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus COL] &gt;gi|123098002|sp|Q2FVM6.1|NREB_STAA8 RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123722350|sp|Q2FEA5.1|NREB_STAA3 RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus USA300] &gt;gi|123741051|sp|Q2YZ41.1|NREB_STAAB RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus RF122] &gt;gi|205829236|sp|A6U4C1.1|NREB_STAA2 RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus JH1] &gt;gi|205829237|sp|A5IVH3.1|NREB_STAA9 RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus JH9] &gt;gi|205829238|sp|A6QJN2.1|NREB_STAAE RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus str. Newman] &gt;gi|205829239|sp|A8Z581.1|NREB_STAAT RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus USA300_TCH1516]</Hit_def>
+  <Hit_accession>Q6G6S9</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.3571e-12</Hsp_evalue>
+      <Hsp_query-from>377</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITV--ETVWENGSFLPTQDEQLQMIF--ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>KTISAQENERKRISRELHDSVIQEMLNVDVQLRLLKYQEDTTKLLEDAENIEYI---VAKLIDDIRNMSVELRPASLDDLGLEAAFKSYFKQFEENYGIKIIYTSNIKNTRF----DSDIETVVYRVVQEAILNALKYADVNEINVGIRQTGRHLVAEVIDAGNGFDPS--SKPKGSGLGLYGMNERAELVSGSVNIETKIGEGTNVTLN</Hsp_hseq>
+      <Hsp_midline>K + A   ER  I++ LHDS+ Q +  +++Q+++L+      K  E AENI +I   V +  +D+R + +  R   + +     A    F +F +  GI +   +  +N  F    D  ++ +   ++QE++ N  K+A    +   + + G      + D G GFD     +P GS +GL+ M ERA+ +   + I ++  +GT V+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81854565|sp|Q931F6.1|NREB_STAAM</Hit_id>
+  <Hit_def>RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|205829235|sp|A7X624.1|NREB_STAA1 RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus Mu3]</Hit_def>
+  <Hit_accession>Q931F6</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.38222e-12</Hsp_evalue>
+      <Hsp_query-from>377</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITV--ETVWENGSFLPTQDEQLQMIF--ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>KTISAQENERKRISRELHDSVIQEMLNVDVQLRLLKYQEDTTKLLEDAENIEYI---VAKLIDDIRNMSVELRPASLDDLGLEAAFKSYFKQFEENYGIKIIYTSNIKNTRF----DSDIETVVYRVVQEAILNALKYADVNEINVGIRQTGRHLVAEVIDAGNGFDPS--SKPKGSGLGLYGMNERAELVSGSVNIETKIGEGTNVTLN</Hsp_hseq>
+      <Hsp_midline>K + A   ER  I++ LHDS+ Q +  +++Q+++L+      K  E AENI +I   V +  +D+R + +  R   + +     A    F +F +  GI +   +  +N  F    D  ++ +   ++QE++ N  K+A    +   + + G      + D G GFD     +P GS +GL+ M ERA+ +   + I ++  +GT V+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|122988257|sp|Q1M799.1|MCTS_RHIL3</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase MctS [Rhizobium leguminosarum bv. viciae 3841]</Hit_def>
+  <Hit_accession>Q1M799</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.64113e-12</Hsp_evalue>
+      <Hsp_query-from>384</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>QERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKI-SNKEFPEAVADLFARFTQQTGITVETVWENGSFLPT--QDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVS</Hsp_qseq>
+      <Hsp_hseq>EERARLARELHDGISQNLVGVRYAMDLAGRKVRTNV-DDAALTIDRGVEALNGAIKEIRRLSHDLRPRVLDDLGLTAALEALCYHFAERTGI--ETKIDASGFTDTLKAEANTALYRVAQEAFNNVERHAGASKLAVKLWSDNGRARMTVSDNGAGFDGIKDGMSGRSGLGLRNMQERMAHFRGLLLINS-SEAGTTLT</Hsp_hseq>
+      <Hsp_midline>+ER  +A+ LHD I+Q L  +   + +       N  ++AA  I      +    +++R L  + R ++  +     A+  L   F ++TGI  ET  +   F  T   +    +  + QE+ +N+ +HA A+ +   L    GR  MT+ DNG GFD  K G    S +GL  MQER    R +L I S ++ GTT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81827963|sp|Q6GE41.1|NREB_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GE41</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>3.3599e-12</Hsp_evalue>
+      <Hsp_query-from>377</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITV--ETVWENGSFLPTQDEQLQMIF--ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>KTISAQENERKRISRELHDSVIQEMLNVDVQLRLLKYQEDTAKLLEDAENIEYI---VAKLIDDIRNMSVELRPASLDDLGLEAAFKSYFKQFEENYGVKIIYTSNIKNTRF----DSDIETVVYRVVQEAILNALKYADVNEINVGIRQTGRHLVAEVIDAGNGFDPS--SKPKGSGLGLYGMNERAELVSGSVNIETKIGEGTNVTLN</Hsp_hseq>
+      <Hsp_midline>K + A   ER  I++ LHDS+ Q +  +++Q+++L+      K  E AENI +I   V +  +D+R + +  R   + +     A    F +F +  G+ +   +  +N  F    D  ++ +   ++QE++ N  K+A    +   + + G      + D G GFD     +P GS +GL+ M ERA+ +   + I ++  +GT V+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81637715|sp|P94438.1|YFIJ_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase YfiJ [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P94438</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>1.44109e-11</Hsp_evalue>
+      <Hsp_query-from>371</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>AKQEEEKRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVS</Hsp_qseq>
+      <Hsp_hseq>AKQVEE---LTAIYERNRMAREIHDTVGHKMTALLVQLQLLR-EWQKRDSQKADETVGVCETLAREALDDVRLSVRTLQTE-NDPSLIESLKQLTEDFCKNAGVTTEFAVSGDPAIIPLSLHPTLIRTVQEALTNAKRHGGAAACSIQLACTTDSISLVIKDDGKGNPEAALG------FGLLNMKKRAAEHGGMIRFESERDQGFTVN</Hsp_hseq>
+      <Hsp_midline>AKQ EE   L  + ERN +A+ +HD++   +T L +Q+Q+L   + +   ++A E +G  +T  +E  +DVR  +   +T+ ++    E++  L   F +  G+T E        +        +I  +QE+L+N ++H  A      L+      ++ I+D+G+G     +G       GL  M++RA     ++   S+  QG TV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81674014|sp|Q5HN49.1|VRAS_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein VraS [Staphylococcus epidermidis RP62A] &gt;gi|81843567|sp|Q8CRV2.1|VRAS_STAES RecName: Full=Sensor protein VraS [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q5HN49</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.8082e-11</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>584</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>ERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEA-AENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLTGAP</Hsp_qseq>
+      <Hsp_hseq>ERQRLARELHDSVSQQL----FAASMMLSAIKESKLEPPLNQQIPILEKMVQDSQLEMRALLLHLRPIGLKDKSLGEGIKDLVIDL--QKKVPMKVVHEIQDFEVPKGIEDHLFRITQEAISNTLRHSNGTKVTVELFNQEDYLLLRIQDNGKGFNVDEKFEQS---YGLKNMRERALEIGATFHIVSLPDSGTRIEVK-AP</Hsp_hseq>
+      <Hsp_midline>ER  +A+ LHDS++Q L        M+ +A  E+K E    + I  ++  VQ+   ++R LLL+ R   + +K   E + DL      Q  + ++ V E   F   +  +  +  I QE++SN  +H+  T V   L        + IQDNG+GF+ ++  E +    GL  M+ERA  I A   I S    GT + +  AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|221228721|sp|Q795K2.2|YVFT_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase YvfT [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>Q795K2</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.16368e-10</Hsp_evalue>
+      <Hsp_query-from>357</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LQTLIRQLGVSLAGAKQEEEKRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFA---ENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>IRSMFRRIELEAKLAQANEQIKELSKREERVRIARDLHDTLGHTLSLLTLKSQLIQRLAASDPERTKLEAKE----METSSRSALKQVRELVSDMRTVTITEELVNIQHILRA---GNITFQYEGADDFSVISPVTQNIISMC--MREAVTNIIKHSKATHCAITISQFADKMRIVIRDDGKGAPKEKM---FGN--GLWGMEERLMLIEGGLTVSD--HNGTVVALT</Hsp_hseq>
+      <Hsp_midline>++++ R++ +    A+  E+ + L+  +ER  IA+ LHD++   L+ L L+ Q+++   A   E  + EA E    ++T  +   + VREL+ + RT    +E       L A          E   +     P     + M   ++E+++NI KH++ATH   T+S++  +  + I+D+G+G   EK+    G+  GL  M+ER   I   L +      GT V+LT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|88952440|sp|Q49YT0.1|VRAS_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein VraS [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49YT0</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.93314e-10</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>584</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>ERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENK-REEAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLTGAP</Hsp_qseq>
+      <Hsp_hseq>ERQRLARELHDSVSQQL----FAASMMLSAIKETELKAPLDQQIPVLEKMIQDSQLEMRALLLHLRPIGLKDKSLGEGIKDLVVDL--QKKVPMKVVHDIEEFKVPKGIEDHLFRITQEAISNTLRHSKGTKVTIELFNREEYLLLRIQDNGKGFNVDDKVEQS---YGLKNMRERALEIGATFHIVSLPDAGTRIEVK-AP</Hsp_hseq>
+      <Hsp_midline>ER  +A+ LHDS++Q L        M+ +A  E + +    + I  ++  +Q+   ++R LLL+ R   + +K   E + DL      Q  + ++ V +   F   +  +  +  I QE++SN  +H++ T V   L        + IQDNG+GF+ +   E +    GL  M+ERA  I A   I S    GT + +  AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81321268|sp|Q7WZY5.1|NREB_STACT</Hit_id>
+  <Hit_def>RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus carnosus subsp. carnosus TM300]</Hit_def>
+  <Hit_accession>Q7WZY5</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.54049e-10</Hsp_evalue>
+      <Hsp_query-from>376</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>EKRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIF-ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSL</Hsp_qseq>
+      <Hsp_hseq>QKTISAQENERKRISRELHDGIVQELINVDVELRLLK---YQQDKDELIDNSKRIEGIMSRLIDDVRNLSVELRPSSLDDLGLDAAFRSYFKQFEKNYGIHV-NYHTNFSAQRFDNEIETVVYRVVQEALFNALKYAQVDIVEVSLQLNENNIIAEVSDRGVGF--KRGDDPKGTGLGLFGMNERAELVNGTVNIDSQINRGTIVTL</Hsp_hseq>
+      <Hsp_midline>+K + A   ER  I++ LHD I Q L  +++++++L+    +  ++E  +N   I+  +    +DVR L +  R + + +     A    F +F +  GI V     N S     +E   +++ ++QE+L N  K+A+   V+ +L          + D G GF  ++  +P G+ +GL  M ERA+ +   + I SQ  +GT V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1731320|sp|P55183.1|YXJM_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase YxjM [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P55183</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.16612e-09</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>AVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVE---TVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>AVLEERTRIARDIHDSIGHELTSVIVQLQSLPYILKSSK-EDSEKVIQNVLSVARECLQEVRSVVHQMGRSESMVGLT-ALRGLIHQVEERSGLHVSLDTAGLSEESWPPNVSETIYRI--LQEALTNIIRHADASHAAAVISNDKSHLYVTITDDGQFTGSLTYG------FGLTGMKERAEKAGGSLTFSAVQPSGLKIELS</Hsp_hseq>
+      <Hsp_midline>AVL+ER  IA+ +HDSI   LT + +Q+Q L      +K E++ + I  + +  +EC ++VR ++       S      A+  L  +  +++G+ V          S+ P   E +  I  LQE+L+NI +HA A+H    +S       +TI D+GQ   +   G       GL  M+ERA++    L   +    G  + L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|251757483|sp|Q99027.3|COMP_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase ComP [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>Q99027</Hit_accession>
+  <Hit_len>769</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>3.21904e-09</Hsp_evalue>
+      <Hsp_query-from>338</Hsp_query-from>
+      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_hit-from>500</Hsp_hit-from>
+      <Hsp_hit-to>760</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MLSLGFSDGTSLTGDDRTLLQTLIRQLGVSLAGAKQEEE------------------KRLLAVLQE--RNLIAQGLHDSIAQALTFLNLQVQMLETAFAENK---REEAAENIGFIKTGVQECYEDVRELLLNFRTKI-SNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQD--EQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQG</Hsp_qseq>
+      <Hsp_hseq>LLCLSNINTPRLTRDEISWLKTLSFYTSVSMENVLHIEELMEHLKDLKQEGTNPIWLKKLMFAIEEKQRSGLARDLHDSVLQDLISLKRQCELFLGDFKKDDNPCREEVQDKLVQMNEQMSDVISMTRETCHELRPQLLYDLGLVKALSKLVAQ--QQERVPFHIRLNTGRFTASLDLDSQLNLYRIIQEFLSNAVKHSQATDVLIMLISIQNKIVLHYEDDGVGFDQEKNTEHSMS-MGLSGIKERVRALDGRLRIETSEGKG</Hsp_hseq>
+      <Hsp_midline>+L L   +   LT D+ + L+TL     VS+      EE                  K+L+  ++E  R+ +A+ LHDS+ Q L  L  Q ++    F ++    REE  + +  +   + +     RE     R ++  +    +A++ L A+  QQ  +        G F  + D   QL +  I+QE LSN  KH++AT V   L     +  +  +D+G GFD EK  E + S +GL  ++ER + +   L I +   +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|123748666|sp|Q4L8Q7.1|NREB_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L8Q7</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.34184e-08</Hsp_evalue>
+      <Hsp_query-from>377</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>KRLLAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIF--ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSL</Hsp_qseq>
+      <Hsp_hseq>KTIAAQENERKRISRELHDSVVQEMLNVDVELRLLKYQQDMAQLIEKSEHIELLMSNL---INDIRDLSVELRPSSLDDLGLEAAFKSYFKQLEYNYGLNV--VYQSNIQTIRFDSEIETVVYRVVQEAIFNALKYAGVYEVEVTIQQTEEGLIAEIIDRGKGFDPNL--KPQGTGLGLYGMNERAELVKGTVNIETHIGKGTIITL</Hsp_hseq>
+      <Hsp_midline>K + A   ER  I++ LHDS+ Q +  +++++++L+      +  E +E+I  + + +     D+R+L +  R + + +     A    F +     G+ V  V+++       D +++ +   ++QE++ N  K+A    V+ T+ +        I D G+GFD     +P G+ +GL+ M ERA+ ++  + I +   +GT ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|75416074|sp|Q9KWK8.1|VRAS_STAA1</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein VraS [Staphylococcus aureus subsp. aureus Mu3] &gt;gi|81704830|sp|Q7A2Q0.1|VRAS_STAAM RecName: Full=Sensor protein VraS [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>Q9KWK8</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.97466e-08</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>584</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>ERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAEN-IGFIKTGVQECYEDVR-ELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLTGAP</Hsp_qseq>
+      <Hsp_hseq>ERQRLARELHDSVSQQL----FAASMMLSAIKETKLEPPLDQQIPILEKMVQDSQLEMRALLLHLRPLGLKDKSLGEGIKDLVIDL--QKKVPMKVVHEIQDFKVPKGIEDHLFRITQEAISNTLRHSNGTKVTVELFNKDDYLLLRIQDNGKGFN---VDEKLEQSYGLKNMRERALEIGATFHIVSLPDSGTRIEVK-AP</Hsp_hseq>
+      <Hsp_midline>ER  +A+ LHDS++Q L        M+ +A  E K E   +  I  ++  VQ+   ++R  LL      + +K   E + DL      Q  + ++ V E   F   +  +  +  I QE++SN  +H+  T V   L        + IQDNG+GF+   + E      GL  M+ERA  I A   I S    GT + +  AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|81649044|sp|Q6G849.1|VRAS_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein VraS [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81650802|sp|Q6GFH2.1|VRAS_STAAR RecName: Full=Sensor protein VraS [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|81694171|sp|Q5HEN9.1|VRAS_STAAC RecName: Full=Sensor protein VraS [Staphylococcus aureus subsp. aureus COL] &gt;gi|81704308|sp|Q7A0H9.1|VRAS_STAAW RecName: Full=Sensor protein VraS [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81781318|sp|Q99SZ7.1|VRAS_STAAN RecName: Full=Sensor protein VraS [Staphylococcus aureus subsp. aureus N315]</Hit_def>
+  <Hit_accession>Q6G849</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>2.11989e-08</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>584</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>ERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAEN-IGFIKTGVQECYEDVR-ELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLTGAP</Hsp_qseq>
+      <Hsp_hseq>ERQRLARELHDSVSQQL----FAASMMLSAIKETKLEPPLDQQIPILEKMVQDSQLEMRALLLHLRPLGLKDKSLGEGIKDLVIDL--QKKVPMKVVHEIQDFKVPKGIEDHLFRITQEAISNTLRHSNGTKVTVELFNKDDYLLLRIQDNGKGFN---VDEKLEQSYGLKNMRERALEIGATFHIVSLPDSGTRIEVK-AP</Hsp_hseq>
+      <Hsp_midline>ER  +A+ LHDS++Q L        M+ +A  E K E   +  I  ++  VQ+   ++R  LL      + +K   E + DL      Q  + ++ V E   F   +  +  +  I QE++SN  +H+  T V   L        + IQDNG+GF+   + E      GL  M+ERA  I A   I S    GT + +  AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|88952439|sp|Q4L7J6.1|VRAS_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein VraS [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L7J6</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>6.32886e-08</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>584</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>ERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAEN-IGFIKTGVQECYEDVR-ELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLTGAP</Hsp_qseq>
+      <Hsp_hseq>ERQRLARELHDSVSQQL----FAASMMLSAIKETKLEAPLDQQIPVLEKMVQESQLEMRALLLHLRPLGLKDKSLGEGIKDLVIDL--QKKVPMKVIHDIQDFKVPKGIEDHLFRITQEAISNTLRHSNGTKVTVELFNQQDYLLLRIQDNGKGFN---VDEKLEQSYGLKNMRERALEIGATFHIVSLPDSGTRIEVK-AP</Hsp_hseq>
+      <Hsp_midline>ER  +A+ LHDS++Q L        M+ +A  E K E   +  I  ++  VQE   ++R  LL      + +K   E + DL      Q  + ++ + +   F   +  +  +  I QE++SN  +H+  T V   L        + IQDNG+GF+   + E      GL  M+ERA  I A   I S    GT + +  AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|118436|sp|P13799.2|DEGS_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Signal transduction histidine-protein kinase/phosphatase DegS [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P13799</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>7.04719e-08</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>IRQLGVSLAGA--KQEEEKRLL-AVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADL--------FARFTQQTGITVETVWENGSFLPTQDEQLQMIF------ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSL</Hsp_qseq>
+      <Hsp_hseq>LREVGLLLADAQAKQDFGLRIIEAQEEERKRVSREIHDGPAQMLANVMMRSELIERIFRDRGAEDGFQEIKNLRQNVRNALYEVRRIIYDLR--------PMALDDLGLIPTLRKYLYTTEEYNGKVKIHFQ--CIGETEDQRLAPQFEVALFRLAQEAVSNALKHSESEEITVKVEITKDFVILMIKDNGKGFDLKEAKEKKNKSFGLLGMKERVDLLEGTMTIDSKIGLGTFIMI</Hsp_hseq>
+      <Hsp_midline>+R++G+ LA A  KQ+   R++ A  +ER  +++ +HD  AQ L  + ++ +++E  F +   E+  + I  ++  V+    +VR ++ + R        P A+ DL        +   T++    V+  ++      T+D++L   F      + QE++SN  KH+ +  +   +        + I+DNG+GFD ++  E      GL  M+ER   +   + I S+   GT + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81843412|sp|Q8CR97.1|NREB_STAES</Hit_id>
+  <Hit_def>RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CR97</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>9.78411e-08</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>ERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIF--ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSL</Hsp_qseq>
+      <Hsp_hseq>ERKRISRELHDSVIQDMLNIDVELRLLKYKHRDKVLAETSQRIEGL---LSQLIDDIRNMSVELRPSSLDDLGIEAAFKSYFKQFEENYGMHIK--YDSNIKGMRFDNEIETVVYRVVQEGVFNALKYAEVNEIEVSTHSDGKQLVAEVVDRGKGFSLDH--HPKGSGLGLYGMRERAELVNGHVNIETHINRGTIITL</Hsp_hseq>
+      <Hsp_midline>ER  I++ LHDS+ Q +  +++++++L+    +    E ++ I  +   + +  +D+R + +  R + + +     A    F +F +  G+ ++  +++       D +++ +   ++QE + N  K+A    ++ +    G +    + D G+GF  +    P GS +GL+ M+ERA+ +   + I +   +GT ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81819338|sp|Q5HLK5.1|NREB_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Oxygen sensor histidine kinase NreB; AltName: Full=Nitrogen regulation protein B [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q5HLK5</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.10747e-07</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>ERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFR-TKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIF--ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSL</Hsp_qseq>
+      <Hsp_hseq>ERKRISRELHDSVIQDMLNIDVELRLLKYKHRDKVLAETSQRIEGL---LSQLIDDIRNMSVELRPSSLDDLGIEAAFKSYFKQFEENYGMHIK--YDSNIKGMRFDNEIETVVYRVVQEGVFNALKYAEVNEIEVSTHSDGKQIVAEVVDRGKGFSLDH--HPKGSGLGLYGMRERAELVNGHVNIETHINRGTIITL</Hsp_hseq>
+      <Hsp_midline>ER  I++ LHDS+ Q +  +++++++L+    +    E ++ I  +   + +  +D+R + +  R + + +     A    F +F +  G+ ++  +++       D +++ +   ++QE + N  K+A    ++ +    G +    + D G+GF  +    P GS +GL+ M+ERA+ +   + I +   +GT ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|172045877|sp|Q45827.2|Y899_CHLAA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized sensor-like histidine kinase Caur_0899 [Chloroflexus aurantiacus J-10-fl]</Hit_def>
+  <Hit_accession>Q45827</Hit_accession>
+  <Hit_len>597</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>5.77305e-07</Hsp_evalue>
+      <Hsp_query-from>348</Hsp_query-from>
+      <Hsp_query-to>587</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>597</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>SLTGDDRTLLQTLIRQLGVSLAGAK-----QEEEKRLLAVLQE-RNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISN----KEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGR-FTMTIQDNGQGFDTEKI---GEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLTGAPKES</Hsp_qseq>
+      <Hsp_hseq>TLTTDQVEMLMALANYAIVALHNAQLIYDLKEEREKLLSHEEEVRHQLARDLHDGPAQAMAVITMKAEFIKRLLERDPAQALAELDELSSIAKRTNYE-VRTMLFELRPLMLETQGLKVTLEQYLDRLRAKAGNTAIVLEGTDIDKVRLGSKVEG-ALFNMIQESVTNAIKHAKANHIWVRLRRLNDQMLEVVIQDDGVGFDKAAVLKSYERRGSF-GLLNIDERARLVGGRAEIDSTPGKGTQITIF-VPIES</Hsp_hseq>
+      <Hsp_midline>+LT D   +L  L     V+L  A+     +EE ++LL+  +E R+ +A+ LHD  AQA+  + ++ + ++     +  +  AE         +  YE VR +L   R  +      K   E   D        T I +E    +   L ++ E   +  ++QES++N  KHA+A H+   L     +   + IQD+G GFD   +    E  GS  GL  + ERA+ +    EI S   +GT +++   P ES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|20141883|sp|P27668.2|UHPB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein UhpB [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P27668</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.12412e-05</Hsp_evalue>
+      <Hsp_query-from>386</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>RNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKR-EEAAENIGFIKTGVQECYEDVRELLLNFRTKISNK-EFPEAVADLFARFTQQT-GITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSH---VGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>RRDVARELHDDIGQTITAIRTQAGIVQRLAADNGGVKQSGQLIEQLSLGV---YDAVRRLLGRLRPRQLDDLTLAQAIRSLLREMELESRGIVSHLDWRIDETALSESQRVTLFRVCQEGLNNIVKHANASAVTLQGWQQDERLMLVIEDDGSGL-------PPGSHQQGFGLTGMRERVSALGGTLTI--SCTHGTRVSVS</Hsp_hseq>
+      <Hsp_midline>R  +A+ LHD I Q +T +  Q  +++   A+N   +++ + I  +  GV   Y+ VR LL   R +  +     +A+  L      ++ GI     W       ++ +++ +  + QE L+NI KHA A+ V     +   R  + I+D+G G        P GSH    GL  M+ER   +   L I      GT VS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|136768|sp|P09835.3|UHPB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein UhpB [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P09835</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000277583</Hsp_evalue>
+      <Hsp_query-from>386</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>RNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKR-EEAAENIGFIKTGVQECYEDVRELLLNFRTKISNK-EFPEAVADLFARF-TQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGS---HVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>RRDVARELHDDIGQTITAIRTQAGIVQRLAADNASVKQSGQLIEQLSLGV---YDAVRRLLGRLRPRQLDDLTLEQAIRSLMREMELEGRGIVSHLEWRIDESALSENQRVTLFRVCQEGLNNIVKHADASAVTLQGWQQDERLMLVIEDDGSGL-------PPGSGQQGFGLTGMRERVTALGGTLHI--SCLHGTRVSVS</Hsp_hseq>
+      <Hsp_midline>R  +A+ LHD I Q +T +  Q  +++   A+N   +++ + I  +  GV   Y+ VR LL   R +  +     +A+  L      +  GI     W       ++++++ +  + QE L+NI KHA A+ V     +   R  + I+D+G G        P GS     GL  M+ER   +   L I      GT VS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|266553|sp|P29905.1|MOXY_PARDE</Hit_id>
+  <Hit_def>RecName: Full=Methanol utilization control sensor protein MoxY [Paracoccus denitrificans]</Hit_def>
+  <Hit_accession>P29905</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00780091</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>546</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>ERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAA--ENIGFIKTGVQECYEDVRELLLNFRTK-ISNKEFPEAVADLFARF---TQQTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKF---TLSEYGGRFTMTIQDNGQGFDTEKIGEPT</Hsp_qseq>
+      <Hsp_hseq>ERSRIALDLHDEMGPQLFALRAAVSHAQAMTADLPERPAALDETLDAIAGHALEVQRSARTAINDLRPMLLGEASLAELLAELVTGFRDVASETRVVLDVDPEVEGSSPGELAELSIYRFARESVLNAMRHGRATVVRVSLDTMPDEPGQIVVRVTDNGKGPQS-GTGRPT</Hsp_hseq>
+      <Hsp_midline>ER+ IA  LHD +   L  L   V   +   A+     AA  E +  I     E     R  + + R   +      E +A+L   F     +T + ++   E     P +  +L +    +ES+ N  +H RAT V+    T+ +  G+  + + DNG+G  +   G PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|81342386|sp|O34757.1|DESK_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase DesK [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34757</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00979772</Hsp_evalue>
+      <Hsp_query-from>380</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>LAVLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLN---FRTK---ISNKEFPEAVADLFARFTQQTGITVETVW-ENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLTGAPK</Hsp_qseq>
+      <Hsp_hseq>LVKLEERQRIARDLHDTLGQKLSLIGLKSDLARKLIYKDP-EQAARELKSVQQTARTSLNEVRKIVSSMKGIRLKDELINIKQILEAADIMF--------IYEEEKWPENISLL--NENILSM--CLKEAVTNVVKHSQAKTCRVDIQQLWKEVVITVSDDGT-FKGEENSFSKGH--GLLGMRERLEFANGSLHIDTENGTKLTMAIPNNSK</Hsp_hseq>
+      <Hsp_midline>L  L+ER  IA+ LHD++ Q L+ + L+  +      ++  E+AA  +  ++   +    +VR+++ +    R K   I+ K+  EA   +F        I  E  W EN S L   +  L M   L+E+++N+ KH++A   +  + +      +T+ D+G  F  E+     G   GL  M+ER +     L I ++     T+++    K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|20141329|sp|P08982.2|ENVZ_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Osmolarity sensor protein EnvZ [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P08982</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0142504</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LRRFQWVIMLMTLVSSVLMLFWHQIWVIRPLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQMALRLKTLYDDLEGQVAEQTHNL</Hsp_qseq>
+      <Hsp_hseq>LFRYTLAIMLLAIGGAWLFIRIQN----RPLVDLEHAALQVGKGIIPPPLREYGASEVRSVTRAFNHMAAGVKQLADDRTLLMAGVSHDL</Hsp_hseq>
+      <Hsp_midline>L R+   IML+ +  + L +        RPL  L   A ++G+     P+ E G  E + V R FN MA  +K L DD    +A  +H+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|84027869|sp|P0AEJ4.1|ENVZ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Osmolarity sensor protein EnvZ [Escherichia coli K-12] &gt;gi|84027870|sp|P0AEJ5.1|ENVZ_SHIFL RecName: Full=Osmolarity sensor protein EnvZ [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AEJ4</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0142504</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LRRFQWVIMLMTLVSSVLMLFWHQIWVIRPLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQMALRLKTLYDDLEGQVAEQTHNL</Hsp_qseq>
+      <Hsp_hseq>LFRYTLAIMLLAIGGAWLFIRIQN----RPLVDLEHAALQVGKGIIPPPLREYGASEVRSVTRAFNHMAAGVKQLADDRTLLMAGVSHDL</Hsp_hseq>
+      <Hsp_midline>L R+   IML+ +  + L +        RPL  L   A ++G+     P+ E G  E + V R FN MA  +K L DD    +A  +H+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1352371|sp|P41406.2|ENVZ_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Osmolarity sensor protein EnvZ [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P41406</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.016228</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LRRFQWVIMLMTLVSSVLMLFWHQIWVIRPLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQMALRLKTLYDDLEGQVAEQTHNL</Hsp_qseq>
+      <Hsp_hseq>LFRYTLAIMLLAIGGAWLFIRIQN----RPLVDLEHAALQVGKGIIPPPLREYGASEVRSVTRAFNHMAAGVKQLADDRTLLMAGVSHDL</Hsp_hseq>
+      <Hsp_midline>L R+   IML+ +  + L +        RPL  L   A ++G+     P+ E G  E + V R FN MA  +K L DD    +A  +H+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|81343165|sp|O53857.3|NARS_MYCTU</Hit_id>
+  <Hit_def>RecName: Full=Probable sensor histidine kinase NarS [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>O53857</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0402314</Hsp_evalue>
+      <Hsp_query-from>382</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>231</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>VLQERNLIAQGLHDSIAQALTFLNLQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNK-EFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIF-ILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKIGEPTG-SHVGLHIMQERAKRIRAVL</Hsp_qseq>
+      <Hsp_hseq>VLQRR--IAEAIHDGPLQ--DVLAARQELIEL----DAVTPGDERVGRALAGLQSASERLRQATFELHPAVLEQVGLGPAVKQLAASTAQRSGIKISTDIDY----PIRSGIDPIVFGVVRELLSNVVRHSGATTASVRLGITDEKCVLDVADDGVGVTGDTMARRLGEGHIGLASHRARVDAAGGVL</Hsp_hseq>
+      <Hsp_midline>VLQ R  IA+ +HD   Q    L  + +++E     +      E +G    G+Q   E +R+        +  +     AV  L A   Q++GI + T  +     P +     ++F +++E LSN+ +H+ AT     L     +  + + D+G G   + +    G  H+GL   + R      VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|81692316|sp|Q68XI8.1|ODO2_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex; AltName: Full=2-oxoglutarate dehydrogenase complex component E2; Short=OGDC-E2; AltName: Full=Dihydrolipoamide succinyltransferase component of 2-oxoglutarate dehydrogenase complex [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68XI8</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0435146</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>569</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>QEEEKRLLAVLQERNLIAQGLHDS--IAQALTFLNLQVQMLETAFAENKREEAAEN-----IGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFI-LQESLSNIRKHARATHVKFTLSEY-GGRFTMTIQDNGQGF----DTEKIGEPTGSHVGLHIMQERAKRIRAVLEIR</Hsp_qseq>
+      <Hsp_hseq>NEERTQRVRMSRLRKTIAQRLKDSQNTAAILTTFN-EIDMSKVIALRNQYKEEFEKKHTVKLGFMSFFVKATIEALK-LIPSINAEIDGD-------DLLYKNYYDIGVAVGT--EQGLVVPVIRDADKMSFADIEQAIGNLAKKAREG--KLSISDLSGGTFSIS---NGGVYGSLLSTPIINPPQSGILGLHKTEERAVVIDGKIEIR</Hsp_hseq>
+      <Hsp_midline> EE  + + + + R  IAQ L DS   A  LT  N ++ M +     N+ +E  E      +GF+   V+   E ++ L+ +   +I          DL  +     G+ V T  E G  +P   +  +M F  +++++ N+ K AR    K ++S+  GG F+++   NG  +     T  I  P    +GLH  +ERA  I   +EIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|2498577|sp|P56164.1|MPA51_PHAAQ</Hit_id>
+  <Hit_def>RecName: Full=Major pollen allergen Pha a 5.1; AltName: Full=Allergen Pha a 5; AltName: Allergen=Pha a 5.1; Flags: Precursor [Phalaris aquatica]</Hit_def>
+  <Hit_accession>P56164</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0453592</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>SVIEEAGNLKMQ---AYRLAYMAGEGS-PRAQIDNQIAEFEKSLKRISQSDAIHPLIPSDNPLAYDLIQSMLIID</Hsp_qseq>
+      <Hsp_hseq>SAATKAPQLKAKLDAAYRVAYEAAEGSTPEAKYDAFIAALTEALRVIAGAFEVHAVKPATEEVVADPVGELQIVD</Hsp_hseq>
+      <Hsp_midline>S   +A  LK +   AYR+AY A EGS P A+ D  IA   ++L+ I+ +  +H + P+   +  D +  + I+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|466195|sp|P35164.1|RESE_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase ResE [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P35164</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.187846</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>RFQWVIMLMTLVSSVLMLFWHQIWVIRPLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQMALRLKTLYDDLEGQVAEQTHNL</Hsp_qseq>
+      <Hsp_hseq>RYIFLAAGIAIVLTTFFAFFLSSRVTYPLRKMREGAQDLAKGKFDTKIPILTQDEIGELATAFNQMGRQLNFHINAL-NQEKEQLSNI</Hsp_hseq>
+      <Hsp_midline>R+ ++   + +V +    F+    V  PL+ +REGA+ + +  FD  +P     E  ++   FNQM  +L    + L  Q  EQ  N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|6647695|sp|Q9ZDY4.1|ODO2_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex; AltName: Full=2-oxoglutarate dehydrogenase complex component E2; Short=OGDC-E2; AltName: Full=Dihydrolipoamide succinyltransferase component of 2-oxoglutarate dehydrogenase complex [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZDY4</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.546731</Hsp_evalue>
+      <Hsp_query-from>386</Hsp_query-from>
+      <Hsp_query-to>569</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>RNLIAQGLHDS--IAQALTFLNLQVQMLETAFAENKREEAAEN-----IGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFI-LQESLSNIRKHARATHVKFTLSEY-GGRFTMTIQDNGQGF----DTEKIGEPTGSHVGLHIMQERAKRIRAVLEIR</Hsp_qseq>
+      <Hsp_hseq>RKTIAQRLKDSQNTAAILTTFN-EIDMSKVIALRNQYKEEFEKKHTVKLGFMSFFVKATIEALK-LIPSINAEIDGD-------DLLYKNYYDIGVAVGT--DQGLVVPVVRDADKMGFADVEQAIGDLAKKAR--EGKLSMSDLSGGTFSIS---NGGVYGSLLSTPIINPPQSGILGLHKTEERAVVIDGKIEIR</Hsp_hseq>
+      <Hsp_midline>R  IAQ L DS   A  LT  N ++ M +     N+ +E  E      +GF+   V+   E ++ L+ +   +I          DL  +     G+ V T  + G  +P   +  +M F  +++++ ++ K AR    K ++S+  GG F+++   NG  +     T  I  P    +GLH  +ERA  I   +EIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|363548429|sp|P21823.2|MCPD_ENTAK</Hit_id>
+  <Hit_def>RecName: Full=Methyl-accepting chemotaxis aspartate transducer [Enterobacter aerogenes KCTC 2190]</Hit_def>
+  <Hit_accession>P21823</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.603871</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>LQAY-RRPTQIELYRFAGNIELFLQ-ALENAGEKNTWWLRRFQWVI------MLMTLVSSVLMLFWHQIWVIRPLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQM</Hsp_qseq>
+      <Hsp_hseq>LQAFMDQPTQKIQDRFEADFVQYLQLAKATTDEASASSQQAYGWSIWLVAGAVLMLLVVTLSAMWWLRTMLVQPLNIIRGHFERIASGDLSAPIEVYGRNEISQLFASLQRM</Hsp_hseq>
+      <Hsp_midline>LQA+  +PTQ    RF  +   +LQ A     E +    + + W I      +LM LV ++  ++W +  +++PL  +R   ERI       P+   G  E  Q+     +M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|2499558|sp|Q55168.1|PHY1_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Phytochrome-like protein cph1; AltName: Full=Bacteriophytochrome cph1; AltName: Full=Light-regulated histidine kinase 1 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55168</Hit_accession>
+  <Hit_len>748</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.612521</Hsp_evalue>
+      <Hsp_query-from>408</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>551</Hsp_hit-from>
+      <Hsp_hit-to>743</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>VQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRT-----KISNKEFPEAVADLFARFTQ---QTGITVETVWENGSFLPTQDEQLQMIFILQESLSNIRKHARATHVKFTLSEYGGR----FTMTIQDNGQGFDT---EKI----------GEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSLT</Hsp_qseq>
+      <Hsp_hseq>VQLLEMRYSEALDEDAKDFIDFAVTGVSLMQTLIDDILTYAKVDTQYAQLTFTDVQEVVDKALANLKQRIEESGAEIEV----GSMPAVMADQIQLMQVFQNLIANGIKFAGDKSPKIKI--WGDRQEDAWVFAVQDNGIGIDPQFFERIFVIFQRLHTRDEYKGTGMGLAICKKIIEGHQGQIWLESNPGEGSTFYFS</Hsp_hseq>
+      <Hsp_midline>VQ+LE  ++E   E+A + I F  TGV      + ++L   +      +++  +  E V    A   Q   ++G  +E     GS      +Q+Q++ + Q  ++N  K A     K  +  +G R    +   +QDNG G D    E+I           E  G+ +GL I ++  +  +  + + S   +G+T   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|41688517|sp|Q9K620.1|BCES_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein BceS [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K620</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.651733</Hsp_evalue>
+      <Hsp_query-from>497</Hsp_query-from>
+      <Hsp_query-to>587</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>FILQESLSNIRKHARATHVKFTLSEYGGRFTMTIQDNG-------------QGFDTEKIGEPTGSH-VGLHIMQERAKRIRAVLEIRSQAQQGTTVSLTGAPKES</Hsp_qseq>
+      <Hsp_hseq>FILRQLLSNAVKYSEASDIIIKSDVVSGKTVVEVTDFGRGIEPKDLPRIFEKGFTSTKTDQTNGATGMGLYLAKRVAEPLLIDLAVSSTVGEGTTFTLT-FPKEN</Hsp_hseq>
+      <Hsp_midline>FIL++ LSN  K++ A+ +        G+  + + D G             +GF + K  +  G+  +GL++ +  A+ +   L + S   +GTT +LT  PKE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|75536108|sp|Q4UKI7.1|ODO2_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex; AltName: Full=2-oxoglutarate dehydrogenase complex component E2; Short=OGDC-E2; AltName: Full=Dihydrolipoamide succinyltransferase component of 2-oxoglutarate dehydrogenase complex [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UKI7</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.02087</Hsp_evalue>
+      <Hsp_query-from>386</Hsp_query-from>
+      <Hsp_query-to>569</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>RNLIAQGLHDS--IAQALTFLNLQVQMLETAFAENKREEAAEN-----IGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFI-LQESLSNIRKHARATHVKFTLSEY-GGRFTMTIQDNGQGF----DTEKIGEPTGSHVGLHIMQERAKRIRAVLEIR</Hsp_qseq>
+      <Hsp_hseq>RKTIAQRLKDSQNTAAILTTFN-EIDMSKVIALRNQYKEEFEKKHLVKLGFMSFFVKATIEALK-LIPSVNAEIDGD-------DLVYKNYYDIGVAVGT--EQGLVVPVVRDADKMGFAEVEKAIGTLAKKAR--EGKLSMADLSGGTFSIS---NGGVYGSLLSTPIINPPQSGILGLHKTEERAVVIDGKIEIR</Hsp_hseq>
+      <Hsp_midline>R  IAQ L DS   A  LT  N ++ M +     N+ +E  E      +GF+   V+   E ++ L+ +   +I          DL  +     G+ V T  E G  +P   +  +M F  +++++  + K AR    K ++++  GG F+++   NG  +     T  I  P    +GLH  +ERA  I   +EIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|239938806|sp|O34989.2|YVRG_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase YvrG [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34989</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.17706</Hsp_evalue>
+      <Hsp_query-from>498</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ILQESLSNIRKH-ARATHVKFTLSEYGGRFTMTIQDNGQGFDTEKI--------------GEPTGSHVGLHIMQERAKRIRAVLEIRSQAQQGTTVSL</Hsp_qseq>
+      <Hsp_hseq>ILENLLGNAVKHNGKGTEIQVILEQTKNHISLKVKDNGKGMDEETITHLFNRYYRGTNTKDSTAGTGLGLAIAKELVHLHNGTIHVNSRTNIGTVITI</Hsp_hseq>
+      <Hsp_midline>IL+  L N  KH  + T ++  L +     ++ ++DNG+G D E I                  G+ +GL I +E        + + S+   GT +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|32129824|sp|Q92J43.1|ODO2_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex; AltName: Full=2-oxoglutarate dehydrogenase complex component E2; Short=OGDC-E2; AltName: Full=Dihydrolipoamide succinyltransferase component of 2-oxoglutarate dehydrogenase complex [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92J43</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.25979</Hsp_evalue>
+      <Hsp_query-from>386</Hsp_query-from>
+      <Hsp_query-to>569</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>RNLIAQGLHDS--IAQALTFLN----LQVQMLETAFAENKREEAAENIGFIKTGVQECYEDVRELLLNFRTKISNKEFPEAVADLFARFTQQTGITVETVWENGSFLPTQDEQLQMIFI-LQESLSNIRKHARATHVKFTLSEY-GGRFTMTIQDNGQGF----DTEKIGEPTGSHVGLHIMQERAKRIRAVLEIR</Hsp_qseq>
+      <Hsp_hseq>RKTIAQRLKDSQNTAAILTTFNEIDMSKVIALRNQYKEEFEKKHAVKLGFMSFFVKATIEALK-LIPSVNAEIDGD-------DLVYKNYYDIGVAVGT--EQGLVVPVVRDADKMGFAEVEKTIGILAKQAR--EGKLSMADLSGGTFSIS---NGGVYGSLLSTPIINPPQSGILGLHKTEERAVVIDGKIEIR</Hsp_hseq>
+      <Hsp_midline>R  IAQ L DS   A  LT  N     +V  L   + E   ++ A  +GF+   V+   E ++ L+ +   +I          DL  +     G+ V T  E G  +P   +  +M F  +++++  + K AR    K ++++  GG F+++   NG  +     T  I  P    +GLH  +ERA  I   +EIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2500765|sp|Q47745.1|VANS_ENTFA</Hit_id>
+  <Hit_def>RecName: Full=Sensor protein VanSB; AltName: Full=Vancomycin B-type resistance protein VanSB; AltName: Full=Vancomycin histidine protein kinase [Enterococcus faecalis V583]</Hit_def>
+  <Hit_accession>Q47745</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.48078</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>VIMLMTLVSSVLMLFWHQIWVIRPLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQMALRLKTLYDDLEGQVAEQTHNLEKQNRNLTLLYRTTRDLHQSYTPRQAAEEFLNHILPAVG</Hsp_qseq>
+      <Hsp_hseq>VMIAIMVVFSLLCAYIFARQMTTPIKALADSANKMANLK-EVPPPLERKDELGALAHDMHSMYIRLKETIARLEDEIARE-HELEETQR-----YFFAAASHELKTPIAAVSVLLEGMLENIG</Hsp_hseq>
+      <Hsp_midline>V++ + +V S+L  +     +  P++AL + A ++     ++P P +   E   +    + M +RLK     LE ++A + H LE+  R     Y      H+  TP  A    L  +L  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|46576353|sp|O34206.1|KINB_PSEAI</Hit_id>
+  <Hit_def>RecName: Full=Alginate biosynthesis sensor protein KinB [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>O34206</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.91671</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>ALENAGEKNTWWLRRFQWVIMLMTLVSSVLML--FWHQIWVIR----PLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQMALRLK</Hsp_qseq>
+      <Hsp_hseq>ALAGISDAETSARHRAYLVAGLLGLVGVAILLIGFVTAHSIARRFGAPIETLARAADRIGEGDFDVTLPMTNVAEVGQLTRRFGLMAEALR</Hsp_hseq>
+      <Hsp_midline>AL    +  T    R   V  L+ LV   ++L  F     + R    P++ L   A+RIG+  FD+ +P     E  Q+ R F  MA  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|23396953|sp|P94414.1|YCLK_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sensor histidine kinase YclK [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P94414</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.93965</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>FQWVIMLMTLVSSVLMLFWHQIWVIRPLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQMALRLKTLYDDLE</Hsp_qseq>
+      <Hsp_hseq>YMFYAVISTLVITILVSWLLSKFHVKRIQKLREATDKVASGDYDIHLENSYGDEIGVLASDFNIMAKKLKQSRDEIE</Hsp_hseq>
+      <Hsp_midline>+ +  ++ TLV ++L+ +    + ++ +Q LRE  +++    +DI +      E   +   FN MA +LK   D++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|116136|sp|P11650.1|CFI1_PETHY</Hit_id>
+  <Hit_def>RecName: Full=Chalcone--flavonone isomerase A; Short=CHI-A; Short=Chalcone isomerase A [Petunia x hybrida]</Hit_def>
+  <Hit_accession>P11650</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.97406</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>LNHILPAVGAQSGNICLENGSD--TDISVHTAEHGKKPPLEKYHD----ETFP----IEYQNEKLGMLSLGFSDGTSLTGD----------DRTLLQTLIRQLGVSLAGAKQEEEKRLLAVLQE</Hsp_qseq>
+      <Hsp_hseq>VTMILPLTGKQYSEKVAENCVAHWKGIGTYTDDEGRA--IEKFLDVFRSETFPPGASIMFTQSPLGLLTISFAKDDSVTGTANAVIENKQLSEAVLESIIGKHGVSPA-AKCSVAERVAELLKK</Hsp_hseq>
+      <Hsp_midline>+  ILP  G Q      EN       I  +T + G+   +EK+ D    ETFP    I +    LG+L++ F+   S+TG              +L+++I + GVS A AK    +R+  +L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|75184858|sp|Q9M5B3.1|CFI3_PETHY</Hit_id>
+  <Hit_def>RecName: Full=Chalcone--flavonone isomerase C; Short=CHI-C; Short=Chalcone isomerase C [Petunia x hybrida]</Hit_def>
+  <Hit_accession>Q9M5B3</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.13823</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>LNHILPAVGAQSGNICLENGSD--TDISVHTAEHGKKPPLEKYHD----ETFP----IEYQNEKLGMLSLGFSDGTSLTGD----------DRTLLQTLIRQLGVSLAGAKQEEEKRLLAVLQE</Hsp_qseq>
+      <Hsp_hseq>VTTILPLTGKQYSEKVAENCVAHWKGIGTYTDDEGRA--IEKFLDVFRSETFPPGASIMFTQSPLGLLTISFAKDDSVTGTANAVIENKQLSEAVLESIIGKHGVSPA-AKCNVAERVAELLKK</Hsp_hseq>
+      <Hsp_midline>+  ILP  G Q      EN       I  +T + G+   +EK+ D    ETFP    I +    LG+L++ F+   S+TG              +L+++I + GVS A AK    +R+  +L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|543778|sp|Q04943.1|AFSQ2_STRCO</Hit_id>
+  <Hit_def>RecName: Full=Signal transduction histidine-protein kinase AfsQ2 [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>Q04943</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.21364</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>VIRPLQALREGAERIGQRHFDIPVPEDGTPEFKQVGRCFNQMALRLKTLYDDLEGQ-------VAEQTHNL</Hsp_qseq>
+      <Hsp_hseq>VLKPVHRLGVAARRLGEGKLDTRLRVSGTDELADLSRTFNSAAENLEKRVADMAGREQASRRFVADMSHEL</Hsp_hseq>
+      <Hsp_midline>V++P+  L   A R+G+   D  +   GT E   + R FN  A  L+    D+ G+       VA+ +H L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

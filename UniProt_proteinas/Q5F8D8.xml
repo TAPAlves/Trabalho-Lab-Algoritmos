@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2006-12-12" modified="2015-01-07" version="68">
+<accession>Q5F8D8</accession>
+<name>ARGB_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Acetylglutamate kinase</fullName>
+<ecNumber evidence="1">2.7.2.8</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">N-acetyl-L-glutamate 5-phosphotransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">NAG kinase</fullName>
+<shortName evidence="1">AGK</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">argB</name>
+<name type="ordered locus">NGO0844</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<text evidence="1">ATP + N-acetyl-L-glutamate = ADP + N-acetyl-L-glutamate 5-phosphate.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-L-ornithine from L-glutamate: step 2/4.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the acetylglutamate kinase family.</text>
+</comment>
+<dbReference type="EC" id="2.7.2.8" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89549.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207961.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8D8"/>
+<dbReference type="SMR" id="Q5F8D8">
+<property type="residue range" value="9-294"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0844"/>
+<dbReference type="EnsemblBacteria" id="AAW89549">
+<property type="protein sequence ID" value="AAW89549"/>
+<property type="gene ID" value="NGO0844"/>
+</dbReference>
+<dbReference type="GeneID" id="3282514"/>
+<dbReference type="KEGG" id="ngo:NGO0844"/>
+<dbReference type="PATRIC" id="20334856">
+<property type="gene designation" value="VBINeiGon24812_0998"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0548"/>
+<dbReference type="HOGENOM" id="HOG000233259"/>
+<dbReference type="KO" id="K00930"/>
+<dbReference type="OMA" id="MVIKYGG"/>
+<dbReference type="OrthoDB" id="EOG6T1WVF"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-791-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00068">
+<property type="reaction ID" value="UER00107"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003991">
+<property type="term" value="F:acetylglutamate kinase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004349">
+<property type="term" value="F:glutamate 5-kinase activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006526">
+<property type="term" value="P:arginine biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006561">
+<property type="term" value="P:proline biosynthetic process"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.1160.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00082_B">
+<property type="entry name" value="ArgB_B"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004662">
+<property type="entry name" value="AcgluKinase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001048">
+<property type="entry name" value="Asp/Glu/Uridylate_kinase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001057">
+<property type="entry name" value="Glu/AcGlu_kinase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00696">
+<property type="entry name" value="AA_kinase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000728">
+<property type="entry name" value="NAGK"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00474">
+<property type="entry name" value="GLU5KINASE"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53633">
+<property type="entry name" value="SSF53633"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00761">
+<property type="entry name" value="argB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0028">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0055">Arginine biosynthesis</keyword>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0418">Kinase</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Acetylglutamate kinase" id="PRO_0000264722">
+<location>
+<begin position="1"/>
+<end position="298"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="1">
+<location>
+<begin position="69"/>
+<end position="70"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="191"/>
+</location>
+</feature>
+<feature type="site" description="Transition state stabilizer" evidence="1">
+<location>
+<position position="34"/>
+</location>
+</feature>
+<feature type="site" description="Transition state stabilizer" evidence="1">
+<location>
+<position position="251"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00082"/>
+</source>
+</evidence>
+<sequence length="298" mass="31417" checksum="4DB408E115F0E29D" modified="2005-03-15" version="1">
+MEFENIISAADKARILAEALPYIRRFSGSVAVIKYGGNAMTEPALKEGFARDVVLLKLVG
+IHPVIVHGGGPQINAMLEKVGKKGEFVQGMRVTDKETMDIVEMVLGGHVNKEIVSMINTY
+GGHAVGVSGRDDHFIKAKKLLVDTPEQNSVDIGQVGTVESIDTGLVKGLIERGCIPVVAP
+VGVGEKGEAFNINADLVAGKLAEELNAEKLLMMTNIAGVMDKTGNLLTKLTPKRIDGLIA
+DGTLYGGMLPKIASAVEAAVNGVKATHIIDGRLPNALLLEIFTDAGIGSMILGRGEDA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

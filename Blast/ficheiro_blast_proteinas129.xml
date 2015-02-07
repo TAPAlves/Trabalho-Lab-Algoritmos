@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>46897</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>360</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>46897</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>360</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|68565360|sp|Q5RBD5.1|IVD_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Isovaleryl-CoA dehydrogenase, mitochondrial; Short=IVD; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RBD5</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>4.07978e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYP--EAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQA-ACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH----IWANT----AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>RQLRQTVAKFLQEHLAPKAQEIDRSNEFKNLREFWKQLGNLGVLGITAPVQYGGSGLGYLEHVLVMEEISRASGAVGLSYGAHSNLCINQLVRNGNEAQKEKYLPKLISGEYIGALAMSEP-NAGSDVVSMKLKAEKKGNHYILNGNKFWITN-GPDADVLIVYAKTDLAAVPASRGITAFIVEKGMPGFSTSKKLDKLGMRGSNTCELIFEDCKVPAANIL</Hsp_hseq>
+      <Hsp_midline>+ L   VA+ ++  L P   +IDR   +     F ++LG +G +GI A    GG+GLG    + V+ EI +  GA   S    +  C   L +  N+A K+KYL  ++ G+ +    MS      + +    L+AE     Y +NG   W++N G D     ++A T         G   FI      G S     +   + G++T  L F+D  +P  +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|125051|sp|P26440.1|IVD_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Isovaleryl-CoA dehydrogenase, mitochondrial; Short=IVD; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P26440</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>6.7687e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYP--EAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQA-ACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH----IWANT----AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>RQLRQTMAKFLQEHLAPKAQEIDRSNEFKNLREFWKQLGNLGVLGITAPVQYGGSGLGYLEHVLVMEEISRASGAVGLSYGAHSNLCINQLVRNGNEAQKEKYLPKLISGEYIGALAMSEP-NAGSDVVSMKLKAEKKGNHYILNGNKFWITN-GPDADVLIVYAKTDLAAVPASRGITAFIVEKGMPGFSTSKKLDKLGMRGSNTCELIFEDCKIPAANIL</Hsp_hseq>
+      <Hsp_midline>+ L   +A+ ++  L P   +IDR   +     F ++LG +G +GI A    GG+GLG    + V+ EI +  GA   S    +  C   L +  N+A K+KYL  ++ G+ +    MS      + +    L+AE     Y +NG   W++N G D     ++A T         G   FI      G S     +   + G++T  L F+D  IP  +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81669137|sp|O34421.1|ACDC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable acyl-CoA dehydrogenase YngJ [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34421</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.02794e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFS---AWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWANTAQIG----GGYVM--FITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQ-FAGYIQSIKAGFI---LLQIGIGAGVIDGSLGIIRLVNVVNAEVNSYLDDGYD--SLKARLDGAWAETERLAGLAWDNTPDNLATLKLREAAAVLALAAAQSAALHSGAKGYLMRSPAQRRVGEAMFVAI</Hsp_qseq>
+      <Hsp_hseq>QMVREMVKDFAKKEIAPHAEHVDQTGEFPMQTFKKMGELGLMGIPFPEEYGGSGGDTISYALAVEEVGKACGSTGLSYAAAVSLGASPLYYFGTEEQ--KQTHLTPLASGTALGSFGLTEPN---AGSDAGGTQTKAISNGDEYVINGEKCWITNASYARTVIVTAVTGKNKDGKNIISALIVPTDTPGLTITSPYDKMGVRGSNTAEILLEDVRVPAANLLGDPTKGFKQFLYTLDGGRISIAALAVGIAQAALDASLAYAKERKQFGQPISSFQAIQFKLADMAMEIDLARQMVLKAAWLKDHNRPFTKEAAYAKLFASEMATRACNQAIQIHGGSGYMKEYGVERMLRDAKLMEI</Hsp_hseq>
+      <Hsp_midline>Q +   V +  K ++ P  + +D+ G +P    +++G +G +GI   E  GG+G    +    + E+GK CG+T  S   A    A   Y   T  Q  K  +L  +  G  L   G++      AG +    Q + +  G  Y +NG   W++N         TA  G    G  ++   I      G+++ +  +   + G++T  +  +DV +P  +++  P + F  ++ ++  G I    L +GI    +D SL   +        ++S+    +    +   +D A     + A L   N P        +  A+ +A  A   A    G  GY+     +R + +A  + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|125052|sp|P12007.2|IVD_RAT</Hit_id>
+  <Hit_def>RecName: Full=Isovaleryl-CoA dehydrogenase, mitochondrial; Short=IVD; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P12007</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.62118e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYP--EAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQA-ACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH----IWANT----AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIA</Hsp_qseq>
+      <Hsp_hseq>KQLRHTISKFVQENLAPKAQEIDQSNDFKNLREFWKQLGSLGVLGITAPVQYGGSGLGYLEHVLVMEEISRASAAVGLSYGAHSNLCINQIVRNGNEAQKEKYLPKLISGEFIGALAMSEP-NAGSDVVSMRLKAEKKGDHYVLNGNKFWITN-GPDADVLVVYAKTDLTAVPASRGITAFIVEKDMPGFSTSKKLDKLGMRGSNTCELVFEDCKVPAANILS</Hsp_hseq>
+      <Hsp_midline>+ L   +++ V+  L P   +ID+   +     F ++LG++G +GI A    GG+GLG    + V+ EI +   A   S    +  C   + +  N+A K+KYL  ++ G+ +    MS      + +    L+AE     Y +NG   W++N G D     ++A T         G   FI      G S     +   + G++T  L F+D  +P  +I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|66773808|sp|Q9JHI5.1|IVD_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Isovaleryl-CoA dehydrogenase, mitochondrial; Short=IVD; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9JHI5</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.9614e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYP--EAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQA-ACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH----IWANT----AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIA</Hsp_qseq>
+      <Hsp_hseq>KQLRHTISKFLQENLAPKAQEIDQTNDFKNLREFWKQLGSLGVLGITAPVQYGGSGLGYLEHVLVMEEISRASGAVGLSYGAHSNLCVNQIVRNGNEAQKEKYLPKLISGEFIGALAMSEP-NAGSDVVSMKLKAEKKGDHYVLNGNKFWITN-GPDADILVVYAKTDLTAVPASRGITAFIVEKGMPGFSTSKKLDKLGMRGSNTCELVFEDCKVPAANVLS</Hsp_hseq>
+      <Hsp_midline>+ L   +++ ++  L P   +ID+   +     F ++LG++G +GI A    GG+GLG    + V+ EI +  GA   S    +  C   + +  N+A K+KYL  ++ G+ +    MS      + +    L+AE     Y +NG   W++N G D     ++A T         G   FI      G S     +   + G++T  L F+D  +P  ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1703066|sp|P52042.1|ACDS_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Acyl-CoA dehydrogenase, short-chain specific; AltName: Full=Butyryl-CoA dehydrogenase; AltName: Full=SCAD [Clostridium acetobutylicum ATCC 824]</Hit_def>
+  <Hit_accession>P52042</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.17473e-10</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>VAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAA-CAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDH---IWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQ-FAGYIQSIKAGFILLQIGIGA---GVIDGSLGIIRLVNVVNAEVNSYLD--DGYDSLKARLDGAWAETERL----AGLAWDNTPDNLATLKLREAAAVLALAAAQSAALHSGAKGYLMRSPAQRRVGEAMFVAI</Hsp_qseq>
+      <Hsp_hseq>VREFAENEVKPIAAEIDETERFPMENVKKMGQYGMMGIPFSKEYGGAGGDVLSYIIAVEELSKVCGTTGVILSAHTSLCASLINEHGTEEQKQKYLVPLAKGEKIGAYGLTEPN---AGTDSGAQQTVAVLEGDHYVINGSKIFITNGGVADTFVIFAMTDRTKGTKGISAFIIEKGFKGFSIGKVEQKLGIRASSTTELVFEDMIVPVENMIGKEGKGFPIAMKTLDGG----RIGIAAQALGIAEGAFNEARAYMKERKQFGRSLDKFQGLAWMMADMDVAIESARYLVYKAAYLKQAGLPYTVDAARAKLHAANVAMDVTTKAVQLFGGYGYTKDYPVERMMRDAKITEI</Hsp_hseq>
+      <Hsp_midline>V E  + ++KP+  +ID    +P   ++++G  G +GI   +  GG G  + + I  + E+ K CG T        + CA  +++   +  K KYL  + +G+ +   G++      AG +    Q   V  G  Y +NG+  +++N G      I+A T +  G  G   FI     +G S+    +   +  + T  L F+D+ +P E++I    + F   ++++  G    +IGI A   G+ +G+    R       +    LD   G   + A +D A      L    A L     P  +   + +  AA +A+     A    G  GY    P +R + +A    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|527504053|sp|Q9FS88.2|MBCD_SOLTU</Hit_id>
+  <Hit_def>RecName: Full=2-methylacyl-CoA dehydrogenase, mitochondrial; AltName: Full=2-methylbutyryl-CoA deshydrogenase; Short=2MBCD; AltName: Full=Isovaleryl-CoA dehydrogenase 1; Short=St-IVD1; Flags: Precursor [Solanum tuberosum]</Hit_def>
+  <Hit_accession>Q9FS88</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.18544e-10</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>NVAELVKTKLKPLVDDIDRKGYYPE-----AFMRELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQA-ACAWYL--HQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSN---IGEDHIWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>SVAKFAQENIAPYAEKIDRTNSFPKEINLWKLMGDFNLHGITAPEEYGGLNLGYLYHCIALEEISRASGAVAVSYGVQSNVCINQLVRNGTPDQ--KQKYLPKLISGDHIGALAMSEP-NAGSDVVSMKCRADRVDGGYVLNGNKMWCTNGPVANTLIVYAKTDTTAGSKGITAFIIEKEMPGFSTAQKLDKLGMRGSDTCELVFENCFVPNENVL</Hsp_hseq>
+      <Hsp_midline>+VA+  +  + P  + IDR   +P+       M +    G    E  GG  LG       L EI +  GA + S   Q+  C   L  + TP+Q  K KYL  ++ G  +    MS      + +     +A+ V+GGY +NG   W +N        ++A T    G  G   FI   +  G S     +   + G+ T  L F++ F+P+E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|122142996|sp|Q3SZI8.1|IVD_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Isovaleryl-CoA dehydrogenase, mitochondrial; Short=IVD; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q3SZI8</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.35775e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYP--EAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQA-ACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH----IWANT----AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>KQLRQTVAKFLQEHLAPQAQEIDQSNEFKNLREFWKQLGNLGVLGITAPVQYGGSGLGFLENVLVMEEISRVSGAVGLSYGAHSNLCINQIVRNGNETQKEKYLPKLISGEYIGALAMSEP-NAGSDVVSMKLKAEKKGDHYVLNGNKFWITN-GPDADVLVVYAKTDVTAVPASRGITAFIVEKGMPGFSTSKKLDKLGMRGSNTCELVFEDCEVPAANIL</Hsp_hseq>
+      <Hsp_midline>+ L   VA+ ++  L P   +ID+   +     F ++LG +G +GI A    GG+GLG    + V+ EI +  GA   S    +  C   + +  N+  K+KYL  ++ G+ +    MS      + +    L+AE     Y +NG   W++N G D     ++A T         G   FI      G S     +   + G++T  L F+D  +P  +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|75326460|sp|Q75IM9.2|IVD_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Isovaleryl-CoA dehydrogenase, mitochondrial; Short=IVD; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q75IM9</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.55344e-08</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>NVAELVKTKLKPLVDDIDRKGYYPE-----AFMRELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAA-CAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH---IWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKAGFILLQIGIGAGVI-------DGSLGIIRLVNVVNAEVNSY------LDDGYDSLKARLDGAWAETERLAGLAWDNTPDNLATLKLREAAAVLALAAAQSAALHSGAKGYLMRSPAQRRVGEAMFVAI</Hsp_qseq>
+      <Hsp_hseq>SVHKFAQETIAPHAAAIDASNHFPKDVNLWKLMGDFNLHGLTAPEEYGGMGLGYMYHCIAMEEISRASGSVGLSYGAHSNLCINQLVRHGSPAQKLKYLPKLISGEHVGALAMSEP-NSGSDVVSMKCKAEKVDGGYVINGNKMWCTNGPSAQTLVVYAKTDIAAGSKGITAFIIEKGMPGFSTAQKLDKLGMRGSDTCELVFENCFVPHENVLG--EEGKG-VYVMMSGLDLERLVLAAGPIGLMQACLDVAVPYVRQREQFGRPIGEFQFIQGKLADMYTSLQSSRSFVYSVARDCDNGKVDRKDCAGVILFAAERATQVALQAIQCL----GGNGYINEYPTGRLLRDAKLFEI</Hsp_hseq>
+      <Hsp_midline>+V +  +  + P    ID   ++P+       M +    G    E  GG GLG       + EI +  G+   S    +  C   L +  + A K KYL  ++ G+ +    MS      + +     +AE V+GGY +NG   W +N        ++A T    G  G   FI      G S     +   + G+ T  L F++ F+P E+++   E+  G +  + +G  L ++ + AG I       D ++  +R        +  +      L D Y SL++     ++          D        L   E A  +AL A Q      G  GY+   P  R + +A    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|527504049|sp|Q9FS87.2|IVD_SOLTU</Hit_id>
+  <Hit_def>RecName: Full=Isovaleryl-CoA dehydrogenase, mitochondrial; Short=IVD; AltName: Full=Isovaleryl-CoA dehydrogenase 2; Short=St-IVD2; Flags: Precursor [Solanum tuberosum]</Hit_def>
+  <Hit_accession>Q9FS87</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.96343e-07</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>NVAELVKTKLKPLVDDIDRKGYYPE-----AFMRELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAA-CAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH---IWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKAGFILLQIGIGAGVIDGSLGIIRLV</Hsp_qseq>
+      <Hsp_hseq>SVAQFAQENIAPHAEKIDRTNYFPQDVNLWKLMGNFNLLGITVPEEYGGLGLGYLYHCIAMEEISRASGSVGLSYGAHTNLCINQLVRNGTHEQKQKYLPKLISGEHVGALAMSEP-NAGSDVVSMKCKADRVEGGYVLNGNKMWCTNGPTAQTLVVYAKTDVTAGSKGITAFIIEKGMTGFSTAQKLDKLGMRGSDTCELVFENCFVPEENVLG-------------------QVGRGVYVLMSGLDLERLV</Hsp_hseq>
+      <Hsp_midline>+VA+  +  + P  + IDR  Y+P+       M     +G    E  GG GLG       + EI +  G+   S       C   L +      K KYL  ++ G+ +    MS      + +     +A+ VEGGY +NG   W +N        ++A T    G  G   FI      G S     +   + G+ T  L F++ F+P+E+++                    Q+G G  V+   L + RLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|110816334|sp|Q9SWG0.2|IVD_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Isovaleryl-CoA dehydrogenase, mitochondrial; Short=IVD; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SWG0</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>4.33745e-07</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>NVAELVKTKLKPLVDDIDRKGYYPE-----AFMRELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAA-CAWYLHQTPNQAVKDKYLADILQGKVLAGTGMS--NTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH---IWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>SVSKFAQDNIAPHAERIDKTNSFPKDVNLWKLMGEFNLHGITAPEEYGGLGLGYLYHCIAMEEISRASGSVALSYGAHSNLCINQLVRNGTAAQKEKYLPKLISGEHVGALAMSEPNAGSDVVGMK---CKAEKVDGGYILNGNKMWCTNGPSAETLVVYAKTDTKAGSKGITAFIIEKGMTGFSTAQKLDKLGMRGSDTCELVFENCFVPEENIL</Hsp_hseq>
+      <Hsp_midline>+V++  +  + P  + ID+   +P+       M E    G    E  GG GLG       + EI +  G+ + S    +  C   L +    A K+KYL  ++ G+ +    MS  N    + G++    +AE V+GGY +NG   W +N        ++A T    G  G   FI      G S     +   + G+ T  L F++ F+P+E+I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|20141460|sp|P34275.2|IVD_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable acyl-CoA dehydrogenase 6; AltName: Full=Probable isovaleryl-CoA dehydrogenase; Short=IVD [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>P34275</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>5.26199e-07</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>NVAELVKTKLKPLVDDIDRKGYYPEAFM-RELGAIGAVGIEAE---GGNGLGLATRIAVLREIGK-ECGATSFSAWCQAACAW-YLHQTPNQAVKDKYLADILQGKVLAGTGMS--NTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIWA-------NTAQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>SLAKLIKEKINPNVAQWEKSGRYPAHFVFKMLGQLGVFAVNKPVDYGGTGRDFAMSIAIAEQIGAVDCGSIPMSVMVQSDMSTPALAQFGSDSLRNRFLRPSINGDLVSSIAVSEPHAGSDVSAIRTH---ARRYGSDLIINGSKMWITN-GDQADWACVLVNTSNAKNLHKNKSLVCIPLDSIGVHRSTPLDKLGMRSSDTVQLFFEDVRVPSSYII</Hsp_hseq>
+      <Hsp_midline>++A+L+K K+ P V   ++ G YP  F+ + LG +G   +      GG G   A  IA+  +IG  +CG+   S   Q+  +   L Q  + ++++++L   + G +++   +S  +    ++ I  H   A        +NG+  W++N G+   WA       N   +     +        GV      +   +  + T  L F+DV +P   II</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|62286630|sp|Q96329.1|ACOX4_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A oxidase 4, peroxisomal; Short=AOX 4; AltName: Full=G6p; AltName: Full=Short-chain acyl-CoA oxidase; Short=AtCX4; Short=AtG6; Short=SAOX [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q96329</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.68998e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVG--IEAEGGNGLGLATRIAVLREIGK-ECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHN--------LQAECVEGGYTVNGALPWVSNIGEDHIW------ANTAQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKAGFILL---QIGIGAGVID</Hsp_qseq>
+      <Hsp_hseq>QAIRKKVRECMEKEVAPIMTEYWEKAEFPFHITPKLGAMGVAGGSIKGYGCPGLSITANAIATAEIARVDASCSTFILVHSSLGMLTIALCGSEAQKEKYLPSLAQ---------LNTVACWALTEPDNGSDASGLGTTATKVEGGWKINGQKRWIGNSTFADLLIIFARNTTTNQING----FIVKKDAPGLKATKIPNKIGLRMVQNGDILLQNVFVPDEDRLPGVNSFQDTSKVLAVSRVMVAWQPIGISMGIYD</Hsp_hseq>
+      <Hsp_midline>Q +   V E ++ ++ P++ +   K  +P     +LGA+G  G  I+  G  GL +        EI + +   ++F     +     +    ++A K+KYL  + Q          NTV   A  E  N          A  VEGG+ +NG   W+ N     +         T QI G    FI      G+     P    L       +  ++VF+PDED +     F    + +    +++    IGI  G+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|403399705|sp|C3UVB0.1|ACD_DESML</Hit_id>
+  <Hit_def>RecName: Full=Glutaryl-CoA dehydrogenase; Short=GDH(Des) [Desulfococcus multivorans]</Hit_def>
+  <Hit_accession>C3UVB0</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.33062e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYP--EAF--MRELGAIGAVGIEAEGGNGL--GLATRIAVLREIGKECGATSFSAWCQA-ACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHI---WANTAQIGG--GYVMFITGGQR-EGVSLQNCPEFCALEGTH---TFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKAGFILLQIGIGAGVIDGSLGIIRL</Hsp_qseq>
+      <Hsp_hseq>QMLQKEVRNFVNKKIVPFADQWDNENHFPYEEAVRPMGELGFFGTVIPEEYGGEGMDQGWLAAMIVTEEIARGSSALRVQLNMEVLGCAYTILTYGSEALKKKYVPKLSSAEFLGGFGITEPD---AGSDVMAMSSTAEDKGDHWLLNGSKTWISNAAQADVLIYYAYTDKAAGSRGLSAFVIEPRNFPGIKTSNLEKL----GSHASPTGELFLDNVKVPKENILGKP-------------------GDGARIVFGSLNHTRL</Hsp_hseq>
+      <Hsp_midline>Q L   V   V  K+ P  D  D + ++P  EA   M ELG  G V  E  GG G+  G    + V  EI +   A       +   CA+ +    ++A+K KY+  +   + L G G++      AG +   + +   + G  + +NG+  W+SN  +  +   +A T +  G  G   F+   +   G+   N  +     G+H   T  L   +V +P E+I+  P                   G GA ++ GSL   RL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|558445696|sp|G3KIM8.1|ACRC_CLOPR</Hit_id>
+  <Hit_def>RecName: Full=Acryloyl-CoA reductase (NADH); AltName: Full=Propionyl-CoA dehydrogenase [[Clostridium] propionicum]</Hit_def>
+  <Hit_accession>G3KIM8</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>6.47566e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>QTLLANVA-ELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATS--FSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSN-TVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH---IWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKA------GFILLQIGIGAGVIDGSL</Hsp_qseq>
+      <Hsp_hseq>QEMLKKLARQFAEIELEPVAEEIDREHVFPAENFKKMAEIGLTGIGIPKEFGGSGGGTLEKVIAVSEFGKKCMASASILSIHLIAPQAIYKYGTKEQ--KETYLPRLTKGGELGAFALTEPNAGSDAGAVKTTAILDSQTNEYVLNGTKCFISGGGRAGVLVIFALTEPKKGLKGMSAIIVEKGTPGFSIGKVESKMGIAGSETAELIFEDCRVPAANLLG--KEGKGFKIAMEALDGARIGVGAQAIGIAEGAIDLSV</Hsp_hseq>
+      <Hsp_midline>Q +L  +A +  + +L+P+ ++IDR+  +P    +++  IG  GI   +  GG+G G   ++  + E GK+C A++   S    A  A Y + T  Q  K+ YL  + +G  L    ++       AG  K     +     Y +NG   ++S  G      I+A T    G  G    I      G S+        + G+ T  L F+D  +P  +++   ++  G+  +++A      G     IGI  G ID S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1703067|sp|Q06319.1|ACDS_MEGEL</Hit_id>
+  <Hit_def>RecName: Full=Acyl-CoA dehydrogenase, short-chain specific; AltName: Full=Butyryl-CoA dehydrogenase; Short=BCAD; AltName: Full=SCAD [Megasphaera elsdenii]</Hit_def>
+  <Hit_accession>Q06319</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>6.79974e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGIEAE------GGNGLGLATRIAVLREIGK-ECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIW---ANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>QDFLKLAHDFGEKKLAPTVTERDHKGIYDKELIDELLSLGITGAYFEEKYGGSGDDGGDVLSYILAVEELAKYDAGVAITLSATVSLCANPIWQFGTEAQKEKFLVPLVEGTKLGAFGLTEPNAGTDASGQQTIATKNDDGTYTLNGSKIFITNGGAADIYIVFAMTDKSKGNHGITAFILEDGTPGFTYGKKEDKMGIHTSQTMELVFQDVKVPAENML</Hsp_hseq>
+      <Hsp_midline>Q  L    +  + KL P V + D KG Y +  + EL ++G  G   E      G +G  + + I  + E+ K + G     +   + CA  + Q   +A K+K+L  +++G  L   G++          +  +  +  +G YT+NG+  +++N G   I+   A T +  G  G   FI      G +     +   +  + T  L F+DV +P E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|75061870|sp|Q5RAS0.1|ACADS_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Short-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SCAD; AltName: Full=Butyryl-CoA dehydrogenase; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RAS0</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.20176e-05</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVLAGTGMSNTVK-HLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH---IWANT--AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQ-FAGYIQSIKAGFILLQIGIGAGVIDGSLGIIRLVNVVNAEVN---SYLDDGYDSLKARL------DGAWA-ETERLAGLAWDNT--PDNLATLKLREAAAVLALAAAQSAALHS-----GAKGYLMRSPAQRRVGEAMFVAI</Hsp_qseq>
+      <Hsp_hseq>QMLLQTCRDFAEKELFPIAAQVDKEHLFPAAQVKKMGGLGLLAMDVPEELGGAGLDYLAYAIAMEEISRGCASTGVIMSVNNS----LYLGPILKFGSKEQKQKWVTPFTSGDKIGCFALSEPGNGSDAGAASTTARAEG--DSWVLNGTKAWITNAWEASAAVVFASTDRALQNKGISAFLVPMPTPGLTLGKKEDKLGIRGSSTANLIFEDCRIPKDSILGEPGMGFKIAMQTLDMGRI--------GIASQALGIAQ--TALDCAVNYAENRMAFGAPLTKLQVIQFKLADMALALESARL--LTWRAAMLKDNKKPFIKEAAMAKLAASEAATAISHQAIQILGGMGYVTEMPAERHYRDARITEI</Hsp_hseq>
+      <Hsp_midline>Q LL    +  + +L P+   +D++  +P A ++++G +G + +   E  GG GL        + EI + C +T        +    L+  P     ++  K K++     G  +    +S       AG      +AE     + +NG   W++N  E     ++A+T  A    G   F+      G++L    +   + G+ T +L F+D  IP + I+  P   F   +Q++  G I        G+   +LGI +    ++  VN   + +  G    K ++      D A A E+ RL  L W      DN        A A LA + A +A  H      G  GY+   PA+R   +A    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2492633|sp|Q20772.1|GCDH_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable glutaryl-CoA dehydrogenase, mitochondrial; Short=GCD; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q20772</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>3.08497e-05</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>NAQTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGIEAEGGNGLGLAT--RIAVLREIGK-ECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMS--NTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH---IWANTAQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAG</Hsp_qseq>
+      <Hsp_hseq>DERSLMLSAREYCQERLLPRVTEAYRTEKFDPSLIPEMGSMGLLGAPYQGYGCAGTSTVGYGLIAREVERVDSGYRSTMSVQTSLVIGPIYNYGSEDQKQKYIPDLASGKKIGCFGLTEPNHGSNPGGMETKATWDETTKT-YKLNGSKTWISNSPVSDVMVVWARSARHNNKIKGFILERGMKGLTTPKIEGKLSLRASITGQIAMDDVPVPEENLLPNAEGLQG</Hsp_hseq>
+      <Hsp_midline>+ ++L+ +  E  + +L P V +  R   +  + + E+G++G +G   +G    G +T     + RE+ + + G  S  +   +     ++   ++  K KY+ D+  GK +   G++  N   +  G+E      E  +  Y +NG+  W+SN        +WA +A+       FI     +G++        +L  + T  +   DV +P+E+++   E   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|123738769|sp|Q2LQN9.1|CH1CO_SYNAS</Hit_id>
+  <Hit_def>RecName: Full=Cyclohex-1-ene-1-carbonyl-CoA dehydrogenase; Short=Ch1CoA [Syntrophus aciditrophicus SB]</Hit_def>
+  <Hit_accession>Q2LQN9</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>5.48148e-05</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>LLANVAELVKTKLKPLVDDIDRKGYYP---EAFMRELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHI---WANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQ---SIKAGFILLQ-IGIGAGVIDGSLGIIR</Hsp_qseq>
+      <Hsp_hseq>LMEMVRNLAVREIAPRAIEIDENHSFPVHARDLFADLGLLSPLVPVEYGGTGMDITTFAMVLEEIGKVCASTALMLLAQADGMLSIILDGSPALKEKYLPRFGEKSTLM-TAFAAT-EPGAGSDLLAMKTRAVKKGDKYVINGQKCFITNGSVADILTVWAYTDPSKGAKGMSTFVVERGTPGLIYGHNEKKMGMRGCPNSELFFEDLEVPAENLVGEEGKGFAYLMGALSINRVFCASQAVGIAQGALERAMQHTR</Hsp_hseq>
+      <Hsp_midline>L+  V  L   ++ P   +ID    +P        +LG +  +     GG G+ + T   VL EIGK C +T+     QA     +    + A+K+KYL    +   L  T  + T +  AG +   ++   V+ G  Y +NG   +++N     I   WA T    G  G   F+      G+   +  +   + G     L F+D+ +P E+++    +   Y+    SI   F   Q +GI  G ++ ++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|113019|sp|P16219.1|ACADS_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Short-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SCAD; AltName: Full=Butyryl-CoA dehydrogenase; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P16219</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>6.23972e-05</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVLAGTGMSNTVK-HLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH---IWANT--AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQ-FAGYIQSIKAGFILLQIGIGAGVIDGSLGIIRLVNVVNAEVN---SYLDDGYDSLKARL------DGAWA-ETERLAGLAWDNT--PDNLATLKLREAAAVLALAAAQSAALHS-----GAKGYLMRSPAQRRVGEAMFVAI</Hsp_qseq>
+      <Hsp_hseq>QMLLQTCRDFAEKELFPIAAQVDKEHLFPAAQVKKMGGLGLLAMDVPEELGGAGLDYLAYAIAMEEISRGCASTGVIMSVNNS----LYLGPILKFGSKEQKQAWVTPFTSGDKIGCFALSEPGNGSDAGAASTTARAEG--DSWVLNGTKAWITNAWEASAAVVFASTDRALQNKGISAFLVPMPTPGLTLGKKEDKLGIRGSSTANLIFEDCRIPKDSILGEPGMGFKIAMQTLDMGRI--------GIASQALGIAQ--TALDCAVNYAENRMAFGAPLTKLQVIQFKLADMALALESARL--LTWRAAMLKDNKKPFIKEAAMAKLAASEAATAISHQAIQILGGMGYVTEMPAERHYRDARITEI</Hsp_hseq>
+      <Hsp_midline>Q LL    +  + +L P+   +D++  +P A ++++G +G + +   E  GG GL        + EI + C +T        +    L+  P     ++  K  ++     G  +    +S       AG      +AE     + +NG   W++N  E     ++A+T  A    G   F+      G++L    +   + G+ T +L F+D  IP + I+  P   F   +Q++  G I        G+   +LGI +    ++  VN   + +  G    K ++      D A A E+ RL  L W      DN        A A LA + A +A  H      G  GY+   PA+R   +A    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|341940171|sp|Q07417.2|ACADS_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Short-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SCAD; AltName: Full=Butyryl-CoA dehydrogenase; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q07417</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>9.88569e-05</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDH---IWANT--AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQ-FAGYIQSIKAGFILLQ---IGIGAGVIDGSLGIIRLVNVVNAEVNSYLDDGYD--SLKARLDGAWAETERLAGLAWDNTPDNLATLKLREAAAVLALAAAQSAALHSGAKGYLMRSPAQRRVGEAMFVAI</Hsp_qseq>
+      <Hsp_hseq>QMLRQTCRDFAEKELVPIAAQLDREHLFPTAQVKKMGELGLLAMDVPEELSGAGLDYLAYSIALEEISRACASTGVIMSVNNS----LYLGPILKFGSAQQKQQWITPFTNGDKIGCFALSEPGN---GSDAGAASTTAREEGDSWVLNGTKAWITNSWEASATVVFASTDRSRQNKGISAFLVPMPTPGLTLGKKEDKLGIRASSTANLIFEDCRIPKENLLGEPGMGFKIAMQTLDMGRIGIASQALGIAQASLDCAVKYAENRNAFGAPLTKLQNIQFKLADMALALESARLLTWRAAMLKDNKKPFTKESAMAKLAASEAATAISHQAIQILGGMGYVTEMPAERYYRDARITEI</Hsp_hseq>
+      <Hsp_midline>Q L     +  + +L P+   +DR+  +P A ++++G +G + +   E   G GL        L EI + C +T        +    L+  P     +   K +++     G  +    +S       G +         E G  + +NG   W++N  E     ++A+T  ++   G   F+      G++L    +   +  + T +L F+D  IP E+++  P   F   +Q++  G I +    +GI    +D ++      N   A +    +  +    +   L+ A   T R A L  +  P    +   + AA+  A A +  A    G  GY+   PA+R   +A    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|300680836|sp|A8XNF0.1|ACAD1_CAEBR</Hit_id>
+  <Hit_def>RecName: Full=Probable medium-chain specific acyl-CoA dehydrogenase 1, mitochondrial; Short=MCAD; Flags: Precursor [Caenorhabditis briggsae]</Hit_def>
+  <Hit_accession>A8XNF0</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000170847</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>ELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDH---IWANT-----AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKAGFILLQIGIGAGVI</Hsp_qseq>
+      <Hsp_hseq>KFSKEVLVPNAAKFDESGEFPWEIVRQAHSLGLMNPQIPEKYGGPGMTTLETALIVEALSYGCTGLQLGIMGPSLAIAPVYIAGNEEQKKKYLGALAAEPIIASYCVT---EPGAGSDVNGVKTKCEKKGDEYIINGSKAWITGGGHAKWFFVLARSDSDPKAPAGKAFTAFIVDGDTPGISRGKKEKNMGQRCSDTRTITFEDVRVPAENVLGAPG--AGFKVAMGA-FDMTRPGVAAGAL</Hsp_hseq>
+      <Hsp_midline>+  K  L P     D  G +P   +R+  ++G +     E  GG G+       ++  +   C          +     ++   N+  K KYL  +    ++A   ++   +  AG + + ++ +C + G  Y +NG+  W++  G      + A +     A  G  +  FI  G   G+S     +      + T ++ F+DV +P E+++ AP   AG+  ++ A F + + G+ AG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|300681025|sp|A8WP91.2|ACAD2_CAEBR</Hit_id>
+  <Hit_def>RecName: Full=Probable medium-chain specific acyl-CoA dehydrogenase 2, mitochondrial; Short=MCAD; Flags: Precursor [Caenorhabditis briggsae]</Hit_def>
+  <Hit_accession>A8WP91</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000201134</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>ELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWANTAQ--------IGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKAGFILLQIGIGAGVI</Hsp_qseq>
+      <Hsp_hseq>KFSKEVLVPNAAKFDESGEFPWEIIRQAHSLGLMNPQIPEKYGGPGMTTLETTLIVEALSYGCTGLQLGIMGPSLAIAPVYIAGNEEQKKKYLGALAAEPIIASYCVTEPG---AGSDVNGVKTKCEKKGNEYIINGSKAWITGGGHAKWFFVLARSDPNPKTPAGKAFTAFIVDGDTSGITRGKKEKNMGQRCSDTRTITFEDVRVPEENVLGPPG--AGFKVAMSA-FDMTRPGVAAGAL</Hsp_hseq>
+      <Hsp_midline>+  K  L P     D  G +P   +R+  ++G +     E  GG G+       ++  +   C          +     ++   N+  K KYL  +    ++A   ++      AG + + ++ +C + G  Y +NG+  W++  G    +   A+         G  +  FI  G   G++     +      + T ++ F+DV +P+E+++  P   AG+  ++ A F + + G+ AG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2833314|sp|Q22347.1|ACADM_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable medium-chain specific acyl-CoA dehydrogenase 10, mitochondrial; Short=MCAD; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q22347</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000298138</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>ELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWANTAQ--------IGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKAGFILLQIGIGAGVI</Hsp_qseq>
+      <Hsp_hseq>KFSKDVLVPNAAKFDESGEFPWEIVRQAHSLGLMNPQIPEKYGGPGMTTLETALIVEALSYGCTGIQLGIMGPSLAIAPVYISGNEEQKKKYLGALAAEPIIASYCVT---EPGAGSDVNGVKTKCEKKGDEYIINGSKAWITGGGHAKWFFVLARSDPNPKTPAGKAFTAFIVDGDTPGITRGKKEKNMGQRCSDTRVITFEDVRVPAENVLGAPG--AGFKVAMEA-FDMTRPGVAAGAL</Hsp_hseq>
+      <Hsp_midline>+  K  L P     D  G +P   +R+  ++G +     E  GG G+       ++  +   C          +     ++ + N+  K KYL  +    ++A   ++   +  AG + + ++ +C + G  Y +NG+  W++  G    +   A+         G  +  FI  G   G++     +      + T  + F+DV +P E+++ AP   AG+  +++A F + + G+ AG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|123340107|sp|Q0S811.1|HSAA_RHOSR</Hit_id>
+  <Hit_def>RecName: Full=Flavin-dependent monooxygenase, oxygenase subunit HsaA; AltName: Full=3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione 4-hydroxylase, oxygenase subunit; AltName: Full=3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione monooxygenase [Rhodococcus jostii RHA1]</Hit_def>
+  <Hit_accession>Q0S811</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000458711</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MRELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIWANTAQIGG---------GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIA</Hsp_qseq>
+      <Hsp_hseq>LQETGFFRLLQPEQWGGYQADPVLFYSAVRKIASACGSTGWVSSIIGVHNWHLALFSQQAQEDVWGND-------TDVRISSSYAPMGA-------GQVVDGGYTVNGAWAWSS--GCDH--ASWAVLGGPVIKDGRPVDFVSFLI--PREDYRIDDVWNVVGLRGTGSNTVVVEDVFVPTHRVLS</Hsp_hseq>
+      <Hsp_midline>++E G    +  E  GG         + +R+I   CG+T + +       W+L     QA +D +  D           +S++   +          + V+GGYTVNGA  W S  G DH  A+ A +GG          +V F+    RE   + +      L GT + ++  +DVF+P   +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|123738770|sp|Q2LQP0.1|CHCOA_SYNAS</Hit_id>
+  <Hit_def>RecName: Full=Cyclohexane-1-carbonyl-CoA dehydrogenase; Short=ChCoA [Syntrophus aciditrophicus SB]</Hit_def>
+  <Hit_accession>Q2LQP0</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000525699</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>NAQTLLANVAELVKTKLKPLVDDIDRKGYY-PEAF--MRELGAIGAVGIEAEGGNGLGLATRIAV-LREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWA---NTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>DLKTAIDAIRKAVKDRIAPLAAEVDDSGVIKPEIYDLLWDLGLMTVTYPPEYGGSETNPGTLLCIGCEEIAKACASTALLLIIQAVGSFPLMHGGRKELLDRIAPRIVNNRELAGYLVSEPG---AGSDVKAIRTKAVKDGNDWVINGTKCWATNGPIASFYSCLCRTKDDKGVQGYSFFLVERNTPGLSVGKIEHKMGMRGSQTSEVILEDVRVPAENLL</Hsp_hseq>
+      <Hsp_midline>+ +T +  + + VK ++ PL  ++D  G   PE +  + +LG +        GG+     T + +   EI K C +T+     QA  ++ L     + + D+    I+  + LAG  +S      AG +   ++ + V+ G  + +NG   W +N      ++    T    G  GY  F+      G+S+        + G+ T  +  +DV +P E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|74852534|sp|Q54IM8.1|ACAD8_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Isobutyryl-CoA dehydrogenase, mitochondrial; AltName: Full=Acyl-CoA dehydrogenase family member 8 homolog; Flags: Precursor [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54IM8</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00222786</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>ELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWANTAQIGG-----GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQ-FAGYIQSIKAGFILLQIGIGAGVIDGS</Hsp_qseq>
+      <Hsp_hseq>DFAQEKMKPFAEKWDKEEYFPRDVMREAAELGFGGIYVREDVGGSGLSRLDASIIIEALASADVSTTAFISIHNMCAGLIDIYGTEEQRKKFLPSLVSMEKIASYCLTEPG---SGSDAGSLSTKATKDGDHYILNGSKAFISGGGDSEVYLVMVRTGAEKGPKGISCLLVEKDTPGLSFGKKEEKLGWNTQPTRALIFEDCRVPVGNLIGKEGQGFSIAMNALNGG----RINIGACSLGGA</Hsp_hseq>
+      <Hsp_midline>+  + K+KP  +  D++ Y+P   MRE   +G  GI   E  GG+GL       ++  +     +T+        CA  +     +  + K+L  ++  + +A   ++      +G +  +L  +  + G  Y +NG+  ++S  G+  ++    + G      G    +      G+S     E        T +L F+D  +P  ++I    Q F+  + ++  G    +I IGA  + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1168286|sp|P15651.2|ACADS_RAT</Hit_id>
+  <Hit_def>RecName: Full=Short-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SCAD; AltName: Full=Butyryl-CoA dehydrogenase; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P15651</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00312593</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDH---IWANT--AQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQ-FAGYIQSIKAGFILLQ---IGIGAGVIDGSLGIIRLVNVVNAEVNSYLDDGYD--SLKARLDGAWAETERLAGLAWDNTPDNLATLKLREAAAVLALAAAQSAALHSGAKGYLMRSPAQRRVGEAMFVAI</Hsp_qseq>
+      <Hsp_hseq>QMLRQTCRDFAEKELVPIAAQLDKEHLFPTSQVKKMGELGLLAMDVPEELSGAGLDYLAYSIALEEISRGCASTGVIMSVNNS----LYLGPILKFGSSQQKQQWITPFTNGDKIGCFALSEPGN---GSDAGAASTTAREEGDSWVLNGTKAWITNSWEASATVVFASTDRSRQNKGISAFLVPMPTPGLTLGKKEDKLGIRASSTANLIFEDCRIPKENLLGEPGMGFKIAMQTLDMGRIGIASQALGIAQASLDCAVKYAENRHAFGAPLTKLQNIQFKLADMALALESARLLTWRAAMLKDNKKPFTKESAMAKLAASEAATAISHQAIQILGGMGYVTEMPAERYYRDARITEI</Hsp_hseq>
+      <Hsp_midline>Q L     +  + +L P+   +D++  +P + ++++G +G + +   E   G GL        L EI + C +T        +    L+  P     +   K +++     G  +    +S       G +         E G  + +NG   W++N  E     ++A+T  ++   G   F+      G++L    +   +  + T +L F+D  IP E+++  P   F   +Q++  G I +    +GI    +D ++      +   A +    +  +    +   L+ A   T R A L  +  P    +   + AA+  A A +  A    G  GY+   PA+R   +A    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1168288|sp|P46703.1|ACDP_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Probable acyl-CoA dehydrogenase fadE25 [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>P46703</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00556643</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWANTAQI------GGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAP</Hsp_qseq>
+      <Hsp_hseq>LRATIRALAEKEIAPHAADVDQRARFPEEALAALNASGFNAIHVPEEYGGQGADSVAACIVIEEVARVDASASLIPAVNKLGTMGLILRGSEELKKQVLPSLAAEGAMASYALS---EREAGSDAASMRTRAKADGDDWILNGFKCWITNGGK-STWYTVMAVTDPDKGANGISAFIVHKDDEGFSIGPKEKKLGIKGSPTTELYFDKCRIPGDRIIGEP</Hsp_hseq>
+      <Hsp_midline>L A +  L + ++ P   D+D++  +PE  +  L A G   I   E  GG G        V+ E+ +   + S            L    ++ +K + L  +     +A   +S   +  AG +  +++      G  + +NG   W++N G+   W     +        G   FI     EG S+    +   ++G+ T  L F    IP + II  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|13878316|sp|P79273.1|ACADS_PIG</Hit_id>
+  <Hit_def>RecName: Full=Short-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SCAD; AltName: Full=Butyryl-CoA dehydrogenase; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>P79273</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0106526</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVL-------AGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH---IWANTAQI--GGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQ-FAGYIQSIKAGFILL---QIGIGAGVIDGSLGIIRLVNVVNAEVNSYLDDGYDSLKARL-DGAWA-ETERLAGLAWDNT--PDNLATLKLREAA-AVLALAAAQSAALHS-----GAKGYLMRSPAQRRVGEAMFVAI</Hsp_qseq>
+      <Hsp_hseq>QMLRQTCRDFAEKELVPIAAQVDKEHRFPEAQVKKMGELGLMAMDVPEELSGAGLDYLAYTIAMEEISRGCASTGVI----MSVNNFLYLGPILKFGSKEQKQQWITPFTSGDKVGCFALSEPGNGSDAGAAATTAQADHD--------SWVLSGTKAWITNAWEASAAVVFASTDRSLQNKGISAFLVPMPTAGLTLGKKEDKLGIRASSTANLIFEDCRIPKENLLGEPGMGFKIAMKTLDMGRIGIASKALGISQAALDCAVNYAENRRAFGVPLTK-----LQGIQFKLADMALALESARL--LTWRAAMLKDNKKNPFIKEPAMAKLAASEAATAITHQAIQILGGMGYVTEMPAERHYRDARITEI</Hsp_hseq>
+      <Hsp_midline>Q L     +  + +L P+   +D++  +PEA ++++G +G + +   E   G GL        + EI + C +T        +   +L+  P     ++  K +++     G  +        G G             H+         + ++G   W++N  E     ++A+T +     G   F+      G++L    +   +  + T +L F+D  IP E+++  P   F   ++++  G I +    +GI    +D ++            +          ++ +L D A A E+ RL  L W      DN     ++E A A LA + A +A  H      G  GY+   PA+R   +A    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|122144044|sp|Q3SZB4.1|ACADM_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Medium-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=MCAD; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q3SZB4</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0122711</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>ANVAELVKTKLKPLVDDIDRKGYYPEAFMR---ELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVLAGTGMSNTV--KHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIW--------ANTAQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>ATARKFAREEIIPLAAEYDKTGEYPVPLIKRAWELGLMNTHIPESCGGLGLGTFDSCLISEELAYGCTGVQ-----TAIEANSLGQMPVIIAGNDQQQKKYLGRMTEEPLMCAYCVTEPVAGSDVAGIK---TKAEKKGDEYIINGQKMWITNGGKANWYFLLARSDPDPKAPASKAFTGFIVEADTPGVQIGRKELNMGQRCSDTRGIVFEDVRVPKENVL</Hsp_hseq>
+      <Hsp_midline>A   +  + ++ PL  + D+ G YP   ++   ELG +     E+ GG GLG      +  E+   C          A  A  L Q P     N   + KYL  + +  ++    ++  V    +AGI+    +AE     Y +NG   W++N G+ + +           A     +  FI      GV +           + T  + F+DV +P E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|26006699|sp|Q9UKU7.1|ACAD8_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Isobutyryl-CoA dehydrogenase, mitochondrial; AltName: Full=Activator-recruited cofactor 42 kDa component; Short=ARC42; AltName: Full=Acyl-CoA dehydrogenase family member 8; Short=ACAD-8; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9UKU7</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0124021</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWANTAQIGG----GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKAGFILLQIGIGAGVID</Hsp_qseq>
+      <Hsp_hseq>DFAAREMAPNMAEWDQKELFPVDVMRKAAQLGFGGVYIQTDVGGSGLSRLDTSVIFEALATGCTSTTAYISIHNMCAWMIDSFGNEEQRHKFCPPLCTMEKFASYCLTEPG---SGSDAASLLTSAKKQGDHYILNGSKAFISGAGESDIYVVMCRTGGPGPKGISCIVVEKGTPGLSFGKKEKKVGWNSQPTRAVIFEDCAVPVANRIGSEGQ----------GFLIAVRGLNGGRIN</Hsp_hseq>
+      <Hsp_midline>+    ++ P + + D+K  +P   MR+   +G  G+  +   GG+GL       +   +   C +T+        CAW +    N+  + K+   +   +  A   ++      +G +  +L     + G  Y +NG+  ++S  GE  I+    + GG    G    +      G+S     +        T ++ F+D  +P  + I +  Q          GF++   G+  G I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|113018|sp|P08503.1|ACADM_RAT</Hit_id>
+  <Hit_def>RecName: Full=Medium-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=MCAD; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P08503</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0148917</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>ELVKTKLKPLVDDIDRKGYYPEAFMR---ELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVLAGTGMSNTV--KHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIW--------ANTAQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>KFAREEIIPVAPDYDKSGEYPFPLIKRAWELGLINTHIPESCGGLGLGTFDACLITEELAYGCTGVQ-----TAIEANSLGQMPVIIAGNDQQKKKYLGRMTEQPMMCAYCVTEPSAGSDVAGIK---TKAEKKGDEYVINGQKMWITNGGKANWYFVLTRSNPDPKVPASKAFTGFIVEADTPGIHIGKKELNMGQRCSDTRGITFEDVRVPKENVL</Hsp_hseq>
+      <Hsp_midline>+  + ++ P+  D D+ G YP   ++   ELG I     E+ GG GLG      +  E+   C          A  A  L Q P     N   K KYL  + +  ++    ++       +AGI+    +AE     Y +NG   W++N G+ + +                 +  FI      G+ +           + T  + F+DV +P E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|2492630|sp|P70584.1|ACDSB_RAT</Hit_id>
+  <Hit_def>RecName: Full=Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SBCAD; AltName: Full=2-methyl branched chain acyl-CoA dehydrogenase; Short=2-MEBCAD; AltName: Full=2-methylbutyryl-coenzyme A dehydrogenase; Short=2-methylbutyryl-CoA dehydrogenase; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P70584</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0189421</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>VAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYL---HQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDH-----IWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDI---IAAPEQFA-GYIQSIKAGFILLQIGIGAGVIDGSLGIIR</Hsp_qseq>
+      <Hsp_hseq>VKKFAQEQIAPLVSTMDENSKMEKSVIQGLFQQGMMGIEVEAKYGGTEASFLCSVLVIEELAKVDASVALLCDIQNTVINKLFRKHGTEEQ--KATYLPKLVTEKL----GSFCLSEAGAGSDSFALKTRADKSGNYYVINGSKMWISN--AEHAELFLVFANVDPPSGYRGITCFLVDRDTEGFQIGRRENKMGIRASSTCQLTFENVKVPETSVLGKIGHGYKYAIGSLNEGRIGIAAQMLGLAQGCFDYTIPYIK</Hsp_hseq>
+      <Hsp_midline>V +  + ++ PLV  +D      ++ ++ L   G +GIE E   GG        + V+ E+ K   + +     Q      L   H T  Q  K  YL  ++  K+    G     +  AG +   L+    + G  Y +NG+  W+SN   +H     ++AN     G  G   F+     EG  +        +  + T  L F++V +P+  +   I    ++A G +   + G     +G+  G  D ++  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|122144069|sp|Q3ZBF6.1|ACADS_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Short-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SCAD; AltName: Full=Butyryl-CoA dehydrogenase; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q3ZBF6</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0200534</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDH---IWANTAQI--GGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQ-FAGYIQSIKAGFILLQIGIGAGVIDGSLGIIRLV---NVVNAEVNSYLDDGYDSLKA---RL-DGAWA-ETERLAGLAWDNT--PDNLATLKLREAAAVLALAAAQSAALHS-----GAKGYLMRSPAQRRVGEAMFVAI</Hsp_qseq>
+      <Hsp_hseq>QMLRQTCRDFAEKELFPIAAQVDKEHRFPAAQVKKMGELGLMAMNVPEELSGAGLDYLAYSIAMEEISRGCASTGVIMSVNNS----LYLGPILKFGTKEQKQQWVAPFTSGDKIGCFALSEP-GNGSDAGAAATTARADGDSWVLSGTKAWITNAWEASAVVVFASTDRSLHNKGISAFLVPMPTPGLTLGKKEDKLGIRASSTANLIFEDRRIPKDSLLGEPGLGFKIAMQTLDTGRI--------GIASQALGIAQAALDCAVTYAENRSAFGAPLTKLQAIQFKLADMALALESARL--LTWRAAMLKDNKKPFTKEAAMAKLAASEAATAITHQAMQILGGMGYVKEMPAERHYRDARITEI</Hsp_hseq>
+      <Hsp_midline>Q L     +  + +L P+   +D++  +P A ++++G +G + +   E   G GL        + EI + C +T        +    L+  P      +  K +++A    G  +    +S    + +        A      + ++G   W++N  E     ++A+T +     G   F+      G++L    +   +  + T +L F+D  IP + ++  P   F   +Q++  G I        G+   +LGI +      V  AE  S        L+A   +L D A A E+ RL  L W      DN        A A LA + A +A  H      G  GY+   PA+R   +A    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|30923365|sp|Q9D7B6.2|ACAD8_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Isobutyryl-CoA dehydrogenase, mitochondrial; AltName: Full=Acyl-CoA dehydrogenase family member 8; Short=ACAD-8; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9D7B6</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.021541</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWANTAQIGG----GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAPEQFAGYIQSIKAGFILLQIGIGAGVID</Hsp_qseq>
+      <Hsp_hseq>DFAAREMAPNMAEWDQKELFPVDVMRKAAQLGFGGVYVRTDVGGSGLSRLDTSVIFEALATGCTSTTAYISIHNMCAWMIDSFGNEEQRHKFCPPLCTMEKFASYCLTEPG---SGSDAASLLTSAKQQGDHYILNGSKAFISGGGESDIYVVMCRTGGSGAKGISCIVVEKGTPGLSFGKKEKKVGWNSQPTRAVIFEDCAVPVANRIGTEGQ----------GFLIAMKGLNGGRIN</Hsp_hseq>
+      <Hsp_midline>+    ++ P + + D+K  +P   MR+   +G  G+      GG+GL       +   +   C +T+        CAW +    N+  + K+   +   +  A   ++      +G +  +L     + G  Y +NG+  ++S  GE  I+    + GG    G    +      G+S     +        T ++ F+D  +P  + I    Q          GF++   G+  G I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|148872486|sp|P41367.3|ACADM_PIG</Hit_id>
+  <Hit_def>RecName: Full=Medium-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=MCAD; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>P41367</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0243692</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>ANVAELVKTKLKPLVDDIDRKGYYPEAFMR---ELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVLAGTGMSN--TVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIW--------ANTAQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>ATARKFAREEIIPVAAEYDRTGEYPVPLLKRAWELGLMNTHIPESFGGLGLGIIDSCLITEELAYGCTGVQ-----TAIEANTLGQVPLIIGGNYQQQKKYLGRMTEEPLMCAYCVTEPGAGSDVAGIK---TKAEKKGDEYIINGQKMWITNGGKANWYFLLARSDPDPKAPASKAFTGFIVEADTPGVQIGRKEINMGQRCSDTRGIVFEDVRVPKENVL</Hsp_hseq>
+      <Hsp_midline>A   +  + ++ P+  + DR G YP   ++   ELG +     E+ GG GLG+     +  E+   C          A  A  L Q P     N   + KYL  + +  ++    ++       +AGI+    +AE     Y +NG   W++N G+ + +           A     +  FI      GV +           + T  + F+DV +P E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1168284|sp|P45952.1|ACADM_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Medium-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=MCAD; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P45952</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0263759</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>ANVAELVKTKLKPLVDDIDRKGYYPEAFMR---ELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTP-----NQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWANTAQ--------IGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>ATARKFAREEIIPVAPEYDKSGEYPFPLIKRAWELGLINAHIPESCGGLGLGTFDACLITEELAYGCTGVQ-----TAIEANSLGQMPVILAGNDQQKKKYLGRMTEQPMMCAYCVTEPS---AGSDVAAIKTKAEKKGDEYVINGQKMWITNGGKANWYFLLARSNPDPKVPASKAFTGFIVEADTPGIHIGKKELNMGQRCSDTRGIAFEDVRVPKENVL</Hsp_hseq>
+      <Hsp_midline>A   +  + ++ P+  + D+ G YP   ++   ELG I A   E+ GG GLG      +  E+   C          A  A  L Q P     N   K KYL  + +  ++    ++      AG +   ++ +  + G  Y +NG   W++N G+ + +   A+            +  FI      G+ +           + T  + F+DV +P E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|71164832|sp|P0A9V0.1|YDIO_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Probable acyl-CoA dehydrogenase YdiO [Escherichia coli O157:H7] &gt;gi|71164833|sp|P0A9U9.1|YDIO_ECOL6 RecName: Full=Probable acyl-CoA dehydrogenase YdiO [Escherichia coli CFT073] &gt;gi|71164834|sp|P0A9U8.1|YDIO_ECOLI RecName: Full=Probable acyl-CoA dehydrogenase YdiO [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0A9V0</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0566339</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAELVKTKL-KPLVDDIDRKGYYPEAFMREL--GAIGAVGIEAE-GGNGLGLATRIAVLREIGKECGATSF</Hsp_qseq>
+      <Hsp_hseq>ELLLASIRELITTNFPEEYFRTCDQNGTYPREFMRALADNGISMLGVPEEFGGIPADYVTQMLALMEVSK-CGAPAF</Hsp_hseq>
+      <Hsp_midline>+ LLA++ EL+ T   +      D+ G YP  FMR L    I  +G+  E GG      T++  L E+ K CGA +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|75062038|sp|Q5RF40.1|ACDSB_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SBCAD; AltName: Full=2-methyl branched chain acyl-CoA dehydrogenase; Short=2-MEBCAD; AltName: Full=2-methylbutyryl-coenzyme A dehydrogenase; Short=2-methylbutyryl-CoA dehydrogenase; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RF40</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0583049</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>ANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYL---HQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVS---NIGEDHIWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDI---IAAPEQFA-GYIQSIKAGFILLQIGIGAGVIDGSLGIIR</Hsp_qseq>
+      <Hsp_hseq>SSVKKFAQEQIAPLVSTMDENSKMEKSVIQGLFQQGLMGIEVDPEYGGTGASFLSTVLVIEELAKVDASVAVFCEIQNTLINTLIRKHGTEEQ--KGTYLPQLTTEKV----GSFCLSEAGAGSDSFALKTRADKEGDYYVLNGSKMWISSAEHAGLFLVMANVDPTIGYKGITSFLVDRDTPGLHIGKPENKLGLRASSTCPLTFENVKVPETNILGQIGHGYKYAIGSLNEGRIGIAAQMLGLAQGCFDYTIPYIK</Hsp_hseq>
+      <Hsp_midline>++V +  + ++ PLV  +D      ++ ++ L   G +GIE +   GG G    + + V+ E+ K   + +     Q      L   H T  Q  K  YL  +   KV    G     +  AG +   L+    + G  Y +NG+  W+S   + G   + AN     G  G   F+      G+ +        L  + T  L F++V +P+ +I   I    ++A G +   + G     +G+  G  D ++  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1168283|sp|P45954.1|ACDSB_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SBCAD; AltName: Full=2-methyl branched chain acyl-CoA dehydrogenase; Short=2-MEBCAD; AltName: Full=2-methylbutyryl-coenzyme A dehydrogenase; Short=2-methylbutyryl-CoA dehydrogenase; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P45954</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0813862</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>ANVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYL---HQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVS---NIGEDHIWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDI---IAAPEQFA-GYIQSIKAGFILLQIGIGAGVIDGSLGIIR</Hsp_qseq>
+      <Hsp_hseq>SSVKKFAQEQIAPLVSTMDENSKMEKSVIQGLFQQGLMGIEVDPEYGGTGASFLSTVLVIEELAKVDASVAVFCEIQNTLINTLIRKHGTEEQ--KATYLPQLTTEKV----GSFCLSEAGAGSDSFALKTRADKEGDYYVLNGSKMWISSAEHAGLFLVMANVDPTIGYKGITSFLVDRDTPGLHIGKPENKLGLRASSTCPLTFENVKVPEANILGQIGHGYKYAIGSLNEGRIGIAAQMLGLAQGCFDYTIPYIK</Hsp_hseq>
+      <Hsp_midline>++V +  + ++ PLV  +D      ++ ++ L   G +GIE +   GG G    + + V+ E+ K   + +     Q      L   H T  Q  K  YL  +   KV    G     +  AG +   L+    + G  Y +NG+  W+S   + G   + AN     G  G   F+      G+ +        L  + T  L F++V +P+ +I   I    ++A G +   + G     +G+  G  D ++  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|54036658|sp|P63428.1|ACDP_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Probable acyl-CoA dehydrogenase fadE25 [Mycobacterium bovis AF2122/97] &gt;gi|613779123|sp|P9WQG0.1|ACDP_MYCTO RecName: Full=Probable acyl-CoA dehydrogenase fadE25 [Mycobacterium tuberculosis CDC1551] &gt;gi|613779133|sp|P9WQG1.1|ACDP_MYCTU RecName: Full=Probable acyl-CoA dehydrogenase fadE25 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P63428</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.13053</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>LVKTKLKPLVDDIDRKGYYPEAFMRELGAIG--AVGIEAE-GGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDHIWANTAQI------GGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIAAP</Hsp_qseq>
+      <Hsp_hseq>LAEKEIAPHAAEVDEKARFPEEALVALNSSGFNAVHIPEEYGGQGADSVATCIVIEEVARVDASASLIPAVNKLGTMGLILRGSEELKKQVLPALAAEGAMASYALS---EREAGSDAASMRTRAKADGDHWILNGAKCWITNGGKS-TWYTVMAVTDPDRGANGISAFMVHKDDEGFTVGPKERKLGIKGSPTTELYFENCRIPGDRIIGEP</Hsp_hseq>
+      <Hsp_midline>L + ++ P   ++D K  +PE  +  L + G  AV I  E GG G        V+ E+ +   + S            L    ++ +K + L  +     +A   +S   +  AG +  +++      G  + +NGA  W++N G+   W     +        G   F+     EG ++        ++G+ T  L F++  IP + II  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|37077871|sp|Q9KJE8.1|BBSG_THAAR</Hit_id>
+  <Hit_def>RecName: Full=(R)-benzylsuccinyl-CoA dehydrogenase [Thauera aromatica]</Hit_def>
+  <Hit_accession>Q9KJE8</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.27826</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>QTLLANVAE-LVKTKLKPLVDDIDRK-------GY--YPEA----FMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATS---FSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVE--GGYTVNGALPWVSNIGEDHIW</Hsp_qseq>
+      <Hsp_hseq>QTMLKEVARRFTANELMPLEKVLLEREMRMWTDGYTLLPEADHARLMKITQEMGFWGIEVDEKLGGQGLGMFAKTLVVEEMSKSLIGFSHHGFTLPPDAPNLYYLEECGSPAQRDKYVRRYCRGEI--DSAMMAT-EPGAGSDISGLTTTAVRENGQWVINGSKIFISKCDKDELF</Hsp_hseq>
+      <Hsp_midline>QT+L  VA      +L PL   +  +       GY   PEA     M+    +G  GIE +   GG GLG+  +  V+ E+ K     S   F+    A   +YL +  + A +DKY+    +G++   + M  T +  AG +   L    V   G + +NG+  ++S   +D ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|26006698|sp|Q9DBL1.1|ACDSB_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial; Short=SBCAD; AltName: Full=2-methyl branched chain acyl-CoA dehydrogenase; Short=2-MEBCAD; AltName: Full=2-methylbutyryl-coenzyme A dehydrogenase; Short=2-methylbutyryl-CoA dehydrogenase; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9DBL1</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.384208</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>NVAELVKTKLKPLVDDIDRKGYYPEAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQT-PNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGG--YTVNGALPWVSNIGEDH-----IWANTAQIGG--GYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDI---IAAPEQFA-GYIQSIKAGFILLQIGIGAGVIDGSLGIIR</Hsp_qseq>
+      <Hsp_hseq>TVKKFAQEHVAPLVSSMDENSKMEKSVIQGLFQQGLMGIEVEAQYGGTEASFFCSVLVIEELAKVDASVALLCDIQNTIINNLFRKHASEEQKATYLPKLVTEKL----GSFCLSEAGAGSDSFAMKTRADKSGNYYVLNGSKMWISH--AEHAELFLVFANVDPSSGYRGITCFLVDRDTEGFQIGKRENKMGIRASSTCQLTFENVKVPETNILGKIGHGYKYAIGSLNEGRIGIAAQMLGLAQGCFDYTIPYIK</Hsp_hseq>
+      <Hsp_midline> V +  +  + PLV  +D      ++ ++ L   G +GIE E   GG        + V+ E+ K   + +     Q      L +   ++  K  YL  ++  K+    G     +  AG +   ++    + G  Y +NG+  W+S+   +H     ++AN     G  G   F+     EG  +        +  + T  L F++V +P+ +I   I    ++A G +   + G     +G+  G  D ++  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|130198|sp|P26698.1|PIGM_RHOST</Hit_id>
+  <Hit_def>RecName: Full=Pigment production hydroxylase [Rhodococcus sp. ATCC 21145]</Hit_def>
+  <Hit_accession>P26698</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.633647</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>GAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHI-WANTAQI----GGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPD</Hsp_qseq>
+      <Hsp_hseq>GILATLTPKEYGGLELGLDVAADIVRTISAVCPSTGWVTSFYIGAAWRVNIFTEQA----------QREVFADKPYTLT----AGTAAPLGQVQKVDGGYRITGQTAW--NSGSVHAEWFTFAGVVFEEGSAPTPLWFLVPREDVKVLDTWYIAGMSGTGSNDISVDDVFVPE</Hsp_hseq>
+      <Hsp_midline>G +  +  +  GG  LGL     ++R I   C +T +        AW ++    QA          Q +V A    + T    AG      Q + V+GGY + G   W  N G  H  W   A +    G           RE V + +      + GT +  ++  DVF+P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|6648069|sp|P50544.3|ACADV_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Very long-chain specific acyl-CoA dehydrogenase, mitochondrial; AltName: Full=MVLCAD; Short=VLCAD; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P50544</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.98919</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MRELGAIGAVGIEAEGGNGLGLA-TRIAVLREI-GKECGATSFSAWCQAACAW---YLHQTPNQAVKDKYLADILQGKVLAGTGMS--NTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIW----------ANTAQIGGGYVMFITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>LKELGAFG-LQVPSELG-GLGLSNTQYARLAEIVGMHDLGVSVTLGAHQSIGFKGILLYGT--KAQREKYLPRVASGQALAAFCLTEPSSGSDVASIRSSAIPSPCGKY-YTLNGSKIWISNGGLADIFTVFAKTPIKDAATGAVKEKITAFVVERSFGGVTHGLPEKKMGIKASNTSEVYFDGVKVPSENVL</Hsp_hseq>
+      <Hsp_midline>++ELGA G + + +E G GLGL+ T+ A L EI G      S +     +  +    L+ T  +A ++KYL  +  G+ LA   ++  ++   +A I    + + C +  YT+NG+  W+SN G   I+          A T  +      F+      GV+     +   ++ ++T  + F  V +P E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1168287|sp|P45953.1|ACADV_RAT</Hit_id>
+  <Hit_def>RecName: Full=Very long-chain specific acyl-CoA dehydrogenase, mitochondrial; Short=VLCAD; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P45953</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.2612</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MRELGAIGAVGIEAEGGNGLGLA-TRIAVLREI-GKECGATSFSAWCQAACAW---YLHQTPNQAVKDKYLADILQGKVLAGTGMS--NTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIW----------ANTAQIGGGYVMFITGGQREGVSLQNCPE-FCALEGTHTFSLNFKDVFIPDEDII</Hsp_qseq>
+      <Hsp_hseq>LKELGAFG-LQVPSELG-GLGLSNTQYARLAEIVGMHDLGVSVTLGAHQSIGFKGILLYGT--KAQKEKYLPRVASGQALAAFCLTEPSSGSDVASIRSSAVPSPCGKY-YTLNGSKIWISNGGLADIFTVFAKTPIKDAATGAVKEKITAFVVERSFGGVT-HGLPEKKMGIKASNTSEVYFDGVKVPAENVL</Hsp_hseq>
+      <Hsp_midline>++ELGA G + + +E G GLGL+ T+ A L EI G      S +     +  +    L+ T  +A K+KYL  +  G+ LA   ++  ++   +A I    + + C +  YT+NG+  W+SN G   I+          A T  +      F+      GV+    PE    ++ ++T  + F  V +P E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|47117359|sp|O06473.1|YFMO_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Multidrug efflux protein YfmO [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O06473</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.84102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MNAQTLLANVAELVKTKLKPLVDDIDRKGY-YPEAFMRELGAIGAVGIEAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGT--GMSNTVKHLAGIEKHNLQAECVEGGYT----VNGAL-PWVSNIGEDHIWANTAQIGGGYVMFI</Hsp_qseq>
+      <Hsp_hseq>MAVSAFLYNFGFFILLAYSPFVLDLDEHGLGYVFFGWGLLLAITSVFTAPLVHKALGTVRSLVVLF--------IAFAAILVIMGIWTDHQT-----------LIITCIVVAGAVLGMVNTIMTTAVMGSAPVERSIASSAYSSVRFIGGALAPWIAGMLSEHFTASTPYTVGGIVVFV</Hsp_hseq>
+      <Hsp_midline>M     L N    +     P V D+D  G  Y       L AI +V         LG    + VL          +F+A       W  HQT            I+   V+AG   GM NT+   A +    ++       Y+    + GAL PW++ +  +H  A+T    GG V+F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|614084434|sp|P9WJA0.1|HSAA_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Flavin-dependent monooxygenase, oxygenase subunit HsaA; AltName: Full=3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione 4-hydroxylase, oxygenase subunit; AltName: Full=3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione monooxygenase [Mycobacterium tuberculosis CDC1551] &gt;gi|614084438|sp|P9WJA1.1|HSAA_MYCTU RecName: Full=Flavin-dependent monooxygenase, oxygenase subunit HsaA; AltName: Full=3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione 4-hydroxylase, oxygenase subunit; AltName: Full=3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione monooxygenase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WJA0</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.96281</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>NAQTLLANVAELVK--TKLKPLVDDIDRKGYYPEAFMRELGAIGAVGI---EAEGGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLAGTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIWANTAQIGGGYVM---------FITGGQREGVSLQNCPEFCALEGTHTFSLNFKDVFIPDEDIIA</Hsp_qseq>
+      <Hsp_hseq>DAQSVLAAIDNLLPEIRDRAQATEDLRR---LPDETVKALDDVGFFTLLQPQQWGGLQCDPALFFEATRRLASVCGSTGWVSSIVGVHNWHL------ALFDQRAQEEVWGEDPSTRISSSYAPMGAGV--------VVDGGYLVNGSWNWSS--GCDH--ASWTFVGGPVIKDGRPVDFGSFLI--PRSEYEIKDVWYVVGLRGTGSNTLVVKDVFVPRHRFLS</Hsp_hseq>
+      <Hsp_midline>+AQ++LA +  L+          +D+ R    P+  ++ L  +G   +   +  GG     A      R +   CG+T + +       W+L      A+ D+   + + G+  +    S+     AG+         V+GGY VNG+  W S  G DH  A+   +GG  +          F+    R    +++      L GT + +L  KDVF+P    ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|116242943|sp|Q0NXR6.1|ACAD8_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Isobutyryl-CoA dehydrogenase, mitochondrial; AltName: Full=Acyl-CoA dehydrogenase family member 8; Short=ACAD-8; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q0NXR6</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>3.35441</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>KLKPLVDDIDRKGYYPEAFMRELGAIGAVGIEAE---GGNGLGLATRIAVLREIGKECGATSFSAWCQAACAWYLHQTPNQAVKDKYLADILQGKVLA-------GTGMSNTVKHLAGIEKHNLQAECVEGGYTVNGALPWVSNIGEDHIWANTAQIGG</Hsp_qseq>
+      <Hsp_hseq>EMAPHMAEWDQKELFPVDTMRKAAQLGFGGVYVQTDVGGAGLSRLDTSIIFEALATGCTSTTAYMSIHNMCVWIIDRFGSEEQRHRLCPPLCTMEKFASYCLTEPGSGSDAASLMTSAVRQHD--------HYILNGSKAFISGGGEADIYVVMCRTGG</Hsp_hseq>
+      <Hsp_midline>++ P + + D+K  +P   MR+   +G  G+  +   GG GL       +   +   C +T+        C W + +  ++  + +    +   +  A       G+G        + + +H+         Y +NG+  ++S  GE  I+    + GG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

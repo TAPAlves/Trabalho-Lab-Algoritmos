@@ -1,0 +1,714 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>21321</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>563</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>21321</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>563</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1170737|sp|P45295.1|LDHD_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=D-lactate dehydrogenase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45295</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>908.672</Hsp_bit-score>
+      <Hsp_score>2347</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>563</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>564</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>564</Hsp_align-len>
+      <Hsp_qseq>MNASQLISSLTQTVGEKYIITDPAKTEQYRQGYRFGEGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQVVCLPGSTLNQLELLLKPLGREPHSVIGSSCIGASVLGGVCNNSGGALVQRGPAYTEMALFAQINEEGRLELVNHLGIDLGDTPEEILTNLQGHHYQKKDIKQDAGKGHDHAYCEHVRQVDEPTAARFNADPARHYEASGCAGKLMVFAVRLDTFPQEKQTAVFYIGTNDINELTDIRRAALGEFESLPVSGEYIHRHAFDIADVYGKDTFYVIKKFGTHQLPKLFDLKARVDRFGKKVSFLPKHFSDKAMQFVSKFLPDHLPKSMRDYRDKYEHHLILKMGGKGVDEARAFLKEYFSHHG-GAFFECNAEETQAAMLHRFAVASAAIRYRSVHDDEVEDLVALDIALRRDDRDWFEKLPPEIDNKIIHKLYYGHFMCHVFHQDYIIKKGNGCMALEHEMLHLLDQRGAQYPAEHNVGHLYEAKPALKQFYRKLDPTNSFNPGIGKTSKKKNWAE</Hsp_qseq>
+      <Hsp_hseq>MSVQQLISRLTDIVGSRYIITDPTKTEAYRSGYRFGTGNALAVVRPATLLEFWNIVKVCVEHDVIVINQAANTGLTGGSTPDGNDYDRDIVVINTMRIDGIQLINNASQVICLPGSTLNELENQLKPFGREPHSVIGSSCIGASVIGGICNNSGGALVQRGPAYTEMALYAQLNEKGELELKNHLGIDLGETPEEILTNLQEKRYQVKDIRQDCGHGHDHYYCNYVRQVDEGSPARFNADPARHYEASGCAGKLAVFAVRLDTFPLEKETAVFYIGTNQTSVLSDIRRHMLVNFEVLPISGEYIHRDAFDIAAKYGKDTFWVIKKFGTHWLPKLFSLKSNVDRIGKKFFFLPQHLSDKFMQTVSKFIPEHLPQSLWDYRNKYEHHLIIKMGGKGIQEAREYLESYIADGSKGGYFECNAIETQAAMLHRFAVASAAIRYRAIHEKEVEEIVALDVALRRNDQDWFEVLPPEIDNRIISKLYYGHFMCHVFHQDYIVKKGYDYEELEYEMLKLLDKRGAQYPAEHNVGHLYEAKPTLRKFYKELDPTNSFNPGIGKTTRKKYWAE</Hsp_hseq>
+      <Hsp_midline>M+  QLIS LT  VG +YIITDP KTE YR GYRFG G ALAVVRP ++LE W I++ CVE DVIVI QAANTGLTGGSTPDGNDYDRDIV++NTMR++ IQ INN  QV+CLPGSTLN+LE  LKP GREPHSVIGSSCIGASV+GG+CNNSGGALVQRGPAYTEMAL+AQ+NE+G LEL NHLGIDLG+TPEEILTNLQ   YQ KDI+QD G GHDH YC +VRQVDE + ARFNADPARHYEASGCAGKL VFAVRLDTFP EK+TAVFYIGTN  + L+DIRR  L  FE LP+SGEYIHR AFDIA  YGKDTF+VIKKFGTH LPKLF LK+ VDR GKK  FLP+H SDK MQ VSKF+P+HLP+S+ DYR+KYEHHLI+KMGGKG+ EAR +L+ Y +    G +FECNA ETQAAMLHRFAVASAAIRYR++H+ EVE++VALD+ALRR+D+DWFE LPPEIDN+II KLYYGHFMCHVFHQDYI+KKG     LE+EML LLD+RGAQYPAEHNVGHLYEAKP L++FY++LDPTNSFNPGIGKT++KK WAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|126035|sp|P06149.3|DLD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=D-lactate dehydrogenase; AltName: Full=Respiratory D-lactate dehydrogenase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P06149</Hit_accession>
+  <Hit_len>571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>744.962</Hsp_bit-score>
+      <Hsp_score>1922</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>563</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>569</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>345</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>558</Hsp_align-len>
+      <Hsp_qseq>LISSLTQTVGEKYIITDPAKTEQYRQGYRFGEGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQVVCLPGSTLNQLELLLKPLGREPHSVIGSSCIGASVLGGVCNNSGGALVQRGPAYTEMALFAQINEEGRLELVNHLGIDLGDTPEEILTNLQGHHYQKKDIKQDAGKGHDHAYCEHVRQVDEPTAARFNADPARHYEASGCAGKLMVFAVRLDTFPQEKQTAVFYIGTNDINELTDIRRAALGEFESLPVSGEYIHRHAFDIADVYGKDTFYVIKKFGTHQLPKLFDLKARVDRFGKKVSFLPKHFSDKAMQFVSKFLPDHLPKSMRDYRDKYEHHLILKMGGKGVDEARAFLKEYFSHHGGAFFECNAEETQAAMLHRFAVASAAIRYRSVHDDEVEDLVALDIALRRDDRDWFEKLPPEIDNKIIHKLYYGHFMCHVFHQDYIIKKGNGCMALEHEMLHLLDQRGAQYPAEHNVGHLYEAKPALKQFYRKLDPTNSFNPGIGKTSKKKNWAE</Hsp_qseq>
+      <Hsp_hseq>FLNELARLVGSSHLLTDPAKTARYRKGFRSGQGDALAVVFPGSLLELWRVLKACVTADKIILMQAANTGLTEGSTPNGNDYDRDVVIISTLRLDKLHVLGKGEQVLAYPGTTLYSLEKALKPLGREPHSVIGSSCIGASVIGGICNNSGGSLVQRGPAYTEMSLFARINEDGKLTLVNHLGIDLGETPEQILSKLDDDRIKDDDVRHDGRHAHDYDYVHRVRDIEADTPARYNADPDRLFESSGCAGKLAVFAVRLDTFEAEKNQQVFYIGTNQPEVLTEIRRHILANFENLPVAGEYMHRDIYDIAEKYGKDTFLMIDKLGTDKMPFFFNLKGRTDAMLEKVKFFRPHFTDRAMQKFGHLFPSHLPPRMKNWRDKYEHHLLLKMAGDGVGEAKSWLVDYFKQAEGDFFVCTPEEGSKAFLHRFAAAGAAIRYQAVHSDEVEDILALDIALRRNDTEWYEHLPPEIDSQLVHKLYYGHFMCYVFHQDYIVKKGVDVHALKEQMLELLQQRGAQYPAEHNVGHLYKAPETLQKFYRENDPTNSMNPGIGKTSKRKNWQE</Hsp_hseq>
+      <Hsp_midline> ++ L + VG  +++TDPAKT +YR+G+R G+G ALAVV PGS+LE+W++L+ACV AD I++ QAANTGLT GSTP+GNDYDRD+VI++T+R++ +  +   EQV+  PG+TL  LE  LKPLGREPHSVIGSSCIGASV+GG+CNNSGG+LVQRGPAYTEM+LFA+INE+G+L LVNHLGIDLG+TPE+IL+ L     +  D++ D    HD+ Y   VR ++  T AR+NADP R +E+SGCAGKL VFAVRLDTF  EK   VFYIGTN    LT+IRR  L  FE+LPV+GEY+HR  +DIA+ YGKDTF +I K GT ++P  F+LK R D   +KV F   HF+D+AMQ      P HLP  M+++RDKYEHHL+LKM G GV EA+++L +YF    G FF C  EE   A LHRFA A AAIRY++VH DEVED++ALDIALRR+D +W+E LPPEID++++HKLYYGHFMC+VFHQDYI+KKG    AL+ +ML LL QRGAQYPAEHNVGHLY+A   L++FYR+ DPTNS NPGIGKTSK+KNW E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|294956519|sp|O23240.3|D2HDH_ARATH</Hit_id>
+  <Hit_def>RecName: Full=D-2-hydroxyglutarate dehydrogenase, mitochondrial; Short=AtD-2HGDH; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O23240</Hit_accession>
+  <Hit_len>559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.25892e-05</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>SQLISSLTQTVGEKYIITDPAKTEQYRQGYRFG-EGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQV-VCLPGSTLNQLELLLKPLGREPHSVIGSSCIGASVLGG-VCNNSGGALVQR</Hsp_qseq>
+      <Hsp_hseq>SKDVSYFKEILGEKNVVEDKERLETANTDWMHKYKGSSKLMLLPKNTQEVSQILEYCDSRRLAVVPQGGNTGLVGGSVP-----VFDEVIVNVGLMNKILSFDEVSGVLVCEAGCILENLATFLDTKGFIMPLDLGAK--GSCHIGGNVSTNAGGLRLIR</Hsp_hseq>
+      <Hsp_midline>S+ +S   + +GEK ++ D  + E     +    +G +  ++ P +  E+ +IL+ C    + V+ Q  NTGL GGS P       D VIVN   MN I + +    V VC  G  L  L   L   G      +G+   G+  +GG V  N+GG  + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|205716814|sp|Q1JPD3.2|D2HDH_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=D-2-hydroxyglutarate dehydrogenase, mitochondrial; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q1JPD3</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>5.77139e-05</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>IITDPAKTEQYRQGY-RFGEGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQV-VCLPGSTLNQLELLLKPLGREPHSVIGSSCIGASVLGG-VCNNSGGALVQR</Hsp_qseq>
+      <Hsp_hseq>VITDPEELEPPNVDWLRTVRGSSKVLLRPRTTQEVAHILRYCHERNLAVNPQGGNTGMVGGSTP-----VFDEIILSTALMNQVLSFHDVSGVLVCQAGCVLEALSQYVEERGFIMPLDLGAK--GSCHIGGNVATNAGGLRVLR</Hsp_hseq>
+      <Hsp_midline>+ITDP + E     + R   G +  ++RP +  E+  IL+ C E ++ V  Q  NTG+ GGSTP       D +I++T  MN + + ++   V VC  G  L  L   ++  G      +G+   G+  +GG V  N+GG  V R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|91208273|sp|Q8N465.3|D2HDH_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=D-2-hydroxyglutarate dehydrogenase, mitochondrial; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8N465</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000751018</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>IITDPAKTEQYRQGY-RFGEGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQV-VCLPGSTLNQLE</Hsp_qseq>
+      <Hsp_hseq>VVTDPEALQAPNVDWLRTLRGCSKVLLRPRTSEEVSHILRHCHERNLAVNPQGGNTGMVGGSVP-----VFDEIILSTARMNRVLSFHSVSGILVCQAGCVLEELS</Hsp_hseq>
+      <Hsp_midline>++TDP   +     + R   G +  ++RP +  E+  IL+ C E ++ V  Q  NTG+ GGS P       D +I++T RMN + + ++   + VC  G  L +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|97048478|sp|P84850.1|D2HDH_RAT</Hit_id>
+  <Hit_def>RecName: Full=D-2-hydroxyglutarate dehydrogenase, mitochondrial; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P84850</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00127704</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>IITDPAKTEQYRQGY-RFGEGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQV-VCLPGSTLNQLE</Hsp_qseq>
+      <Hsp_hseq>VITDPEQLQTCNVDWLRTVRGCSKVLLRPQTSEEVSQILRHCYKRNLAVNPQGGNTGMVGGSVPVFDE-----VILSTALMNQVISFHDVSGILVCQAGCVLEELS</Hsp_hseq>
+      <Hsp_midline>+ITDP + +     + R   G +  ++RP +  E+ +IL+ C + ++ V  Q  NTG+ GGS P  ++     VI++T  MN + + ++   + VC  G  L +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|74638424|sp|Q9C1X2.1|YN53_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Putative D-lactate dehydrogenase C713.03, mitochondrial; Flags: Precursor [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9C1X2</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00128953</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>TDPAKTEQYR----QGYRFGEGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQVVCL</Hsp_qseq>
+      <Hsp_hseq>TDPADLDAFNIDWMNKYR---GKTQLALKPKTTQQVSEILKYCNQKKLAVVPQGGNTGLVGGSVP-----VFDEIVLNLGLMNQIHTFDEISGVITL</Hsp_hseq>
+      <Hsp_midline>TDPA  + +       YR   GK    ++P +  ++ +IL+ C +  + V+ Q  NTGL GGS P       D +++N   MN I T +    V+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75232618|sp|Q7XI14.1|D2HDH_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Probable D-2-hydroxyglutarate dehydrogenase, mitochondrial; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q7XI14</Hit_accession>
+  <Hit_len>559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00226086</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINN-NEQVVCLPGSTLNQLELLLKPLGREPHSVIGS--SC-IGASVLGGVCNNSGG</Hsp_qseq>
+      <Hsp_hseq>KGSSQLLLLPKSTAEVSKILSYCNSRRLAVVPQGGNTGLVGGSVP---VYDE--VIISLGGMDKIITFDNVNGILTCEAGCVLENLSSYVENKGFIMPLDLGAKGSCHIG----GNISTNAGG</Hsp_hseq>
+      <Hsp_midline>+G +  ++ P S  E+ KIL  C    + V+ Q  NTGL GGS P    YD   VI++   M+ I T +N N  + C  G  L  L   ++  G      +G+  SC IG    G +  N+GG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|294956506|sp|B8B7X6.1|D2HDH_ORYSI</Hit_id>
+  <Hit_def>RecName: Full=Probable D-2-hydroxyglutarate dehydrogenase, mitochondrial; Flags: Precursor [Oryza sativa Indica Group]</Hit_def>
+  <Hit_accession>B8B7X6</Hit_accession>
+  <Hit_len>559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00234028</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINN-NEQVVCLPGSTLNQLELLLKPLGREPHSVIGS--SC-IGASVLGGVCNNSGG</Hsp_qseq>
+      <Hsp_hseq>KGSSQLLLLPKSTAEVSKILSYCNSRRLAVVPQGGNTGLVGGSVP---VYDE--VIISLGGMDKIITFDNVNGILTCEAGCVLENLSSYVENKGFIMPLDLGAKGSCHIG----GNISTNAGG</Hsp_hseq>
+      <Hsp_midline>+G +  ++ P S  E+ KIL  C    + V+ Q  NTGL GGS P    YD   VI++   M+ I T +N N  + C  G  L  L   ++  G      +G+  SC IG    G +  N+GG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|408360294|sp|Q8CIM3.3|D2HDH_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=D-2-hydroxyglutarate dehydrogenase, mitochondrial; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q8CIM3</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.0052666</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>IITDPAKTEQYRQGY-RFGEGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQV-VCLPGSTLNQLE</Hsp_qseq>
+      <Hsp_hseq>VITDPEQLQTCNVDWLKTVRGCSKVLLRPQTSEEVSQILRHCYKRNLAVNPQGGNTGMVGGSVPVFDE-----VILSTALMNQVISFHDVSGILVCQAGCVLEELS</Hsp_hseq>
+      <Hsp_midline>+ITDP + +     + +   G +  ++RP +  E+ +IL+ C + ++ V  Q  NTG+ GGS P  ++     VI++T  MN + + ++   + VC  G  L +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|205716433|sp|A1L258.1|D2HDH_DANRE</Hit_id>
+  <Hit_def>RecName: Full=D-2-hydroxyglutarate dehydrogenase, mitochondrial; Flags: Precursor [Danio rerio]</Hit_def>
+  <Hit_accession>A1L258</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00882859</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>ITDPAKTEQYRQGY-RFGEGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQVV-CLPGSTLNQLELLLK------PLGREPHSVIGSSCIGASVLGGVCNNSGGALVQR</Hsp_qseq>
+      <Hsp_hseq>ITDPDLLKSSNVDWLKTVQGSSDVLLRPKTTEGVSQILRYCNERNLAVCPQGGNTGLVGGSVP-----VFDEIILSTSLMNQVFAFDNISGILTCQAGCVLENLSHYLEERDFIMPLDLGAK---GSCHIG----GNVSTNAGGLRLLR</Hsp_hseq>
+      <Hsp_midline>ITDP   +     + +  +G +  ++RP +   + +IL+ C E ++ V  Q  NTGL GGS P       D +I++T  MN +   +N   ++ C  G  L  L   L+      PL        GS  IG    G V  N+GG  + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1168396|sp|P46681.1|DLD2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=D-lactate dehydrogenase [cytochrome] 2, mitochondrial; AltName: Full=Actin-interacting protein 2; AltName: Full=D-lactate ferricytochrome C oxidoreductase; Short=D-LCR; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P46681</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0125507</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>EGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMR</Hsp_qseq>
+      <Hsp_hseq>KGQSKLVLRPKSVEKVSLILNYCNDEKIAVVPQGGNTGLVGGSVPIFDELILSLANLNKIR</Hsp_hseq>
+      <Hsp_midline>+G++  V+RP S+ ++  IL  C +  + V+ Q  NTGL GGS P  ++    +  +N +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|281185486|sp|Q64455.2|PTPRJ_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase eta; Short=Protein-tyrosine phosphatase eta; Short=R-PTP-eta; AltName: Full=HPTP beta-like tyrosine phosphatase; AltName: Full=Protein-tyrosine phosphatase receptor type J; Short=R-PTP-J; AltName: Full=Susceptibility to colon cancer 1; AltName: CD_antigen=CD148; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q64455</Hit_accession>
+  <Hit_len>1238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.380444</Hsp_evalue>
+      <Hsp_query-from>293</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>945</Hsp_hit-from>
+      <Hsp_hit-to>1133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>EFESLPVSGEYIHRHAFDIADVYGKDTFYVIKKFGTHQLPKLFDLKARVDRFGKKVSFLPKHFSDKAMQFVSKFLPDHLPKSMRD-YRDKYEHHL-ILKMGGKGVDEARAFLKEYF-SHHGGAFFECNAEETQAAMLHRFAVASAAIR--------------YRSVHDDEVEDLVALDIALRRDDRDWFEKLPPE</Hsp_qseq>
+      <Hsp_hseq>EYEDLKLIGISLPKYTAEIAENRGKNRYNNVLPYDISRV-KLSVQTHSTDDY-INANYMPGYHSKK--DFIATQGP--LPNTLKDFWRMVWEKNVYAIVMLTKCVEQGRTKCEEYWPSKQAQDYGDITVAMTSEVVLPEWTIRDFVVKNMQNSESHPLRQFHFTSWPDHGVPDTTDLLINFRYLVRDYMKQIPPE</Hsp_hseq>
+      <Hsp_midline>E+E L + G  + ++  +IA+  GK+ +  +  +   ++ KL       D +    +++P + S K   F++   P  LP +++D +R  +E ++  + M  K V++ R   +EY+ S     + +     T   +L  + +    ++              + S  D  V D   L I  R   RD+ +++PPE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|374095489|sp|Q95XX1.3|PNCB_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Nicotinate phosphoribosyltransferase; Short=NAPRTase [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q95XX1</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.450373</Hsp_evalue>
+      <Hsp_query-from>311</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>IADVYGKDTFYVIKKFGTHQLPKLFDLKARVDRFGKKVSFLPK-----------HFSDKAMQFVSKFLPDHLPKSMRDYRDKYE-HHLILKMGGKGVDEARAFLKEYFSHHGGAFFECNAEETQAAMLHRFA--VASAAIRYRSVHDDEVEDLVALDIALRR</Hsp_qseq>
+      <Hsp_hseq>LTDFYQITMCYAYWKTGTHNEPAVFDVFFRKNPFQGEFTVFAGLEDCLRFVENFKFSQSDIDYVKKILPENAEPEFYEYLETLNGSHLTIEAVAEG---SVVFPKVPLLTINGPLAMCQLIETSILNLVNYASLVATNAARFRQASGWKIQ---LLEFGLRR</Hsp_hseq>
+      <Hsp_midline>+ D Y     Y   K GTH  P +FD+  R + F  + +                FS   + +V K LP++      +Y +     HL ++   +G   +  F K       G    C   ET    L  +A  VA+ A R+R     +++    L+  LRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|74859396|sp|Q55G10.1|PNCB_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Nicotinate phosphoribosyltransferase; Short=NAPRTase [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q55G10</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.585638</Hsp_evalue>
+      <Hsp_query-from>311</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>IADVYGKDTFYVIKKFGTHQLPKLFDLKARVDRFGKKVSFLPK-----------HFSDKAMQFVSKFLPDHLPKSMRDYRDKYEHHLILKMGGKGVDEARAFLKEYFSHHGGAFFECNAEETQAAMLHRFA--VASAAIRYRSVHDDEVEDLVALDIALRR</Hsp_qseq>
+      <Hsp_hseq>LTDLYQITMAYSLWKNNRHEIPAVFDLYFRKSPFGGEFTVFAGLEEVIRFVSDFHYTKEEVGFIKEMIPD-CEQEFLDYLSKLDSSSVTLYAMK--EGSVVFPRVPLLRVEGPMILCQLFETTLLCLVNFASLVATNAARHRLAVGKEK---VMLEFGLRR</Hsp_hseq>
+      <Hsp_midline>+ D+Y     Y + K   H++P +FDL  R   FG + +               H++ + + F+ + +PD   +   DY  K +   +     K  + +  F +       G    C   ET    L  FA  VA+ A R+R     E    V L+  LRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|84028654|sp|P0AEQ0.1|GLCD_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Glycolate oxidase subunit GlcD [Escherichia coli CFT073] &gt;gi|84028655|sp|P0AEP9.1|GLCD_ECOLI RecName: Full=Glycolate oxidase subunit GlcD [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEQ0</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.612757</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQVVCLPGSTLNQLELLLKP--LGREPHSVIGSSCIGASVLGGVCNNSGG</Hsp_qseq>
+      <Hsp_hseq>RPLLVVLPKQMEQVTAILAVCHRLRVPVVTRGAGTGLSGGALP----LEKGVLLVMARFKEILDINPVGRRARVQPGVRNLAISQAVAPHNLYYAPDP---SSQIACSIGGNVAENAGG</Hsp_hseq>
+      <Hsp_midline>+ L VV P  + ++  IL  C    V V+T+ A TGL+GG+ P     ++ +++V      I+       +    PG     +   + P  L   P     SS I  S+ G V  N+GG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81359248|sp|Q5PBG4.1|RPOB_ANAMM</Hit_id>
+  <Hit_def>RecName: Full=DNA-directed RNA polymerase subunit beta; Short=RNAP subunit beta; AltName: Full=RNA polymerase subunit beta; AltName: Full=Transcriptase subunit beta [Anaplasma marginale str. St. Maries]</Hit_def>
+  <Hit_accession>Q5PBG4</Hit_accession>
+  <Hit_len>1382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.75843</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>690</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>GRLELVNHLGIDLGDTPEEILTNLQGHHYQKKDIKQDAGKGH----DHAYCEHVRQVDEPTAARFNADPAR------HYEASGCAGKLM--------VFAVRLDTFPQEKQTAVFYIGTNDINELTDIRR-AALGEFESLPVSGEYIHRHAFDIADV----YGKDTFYVIKKFGTHQLPKLFDLKARVDRFGKKVSFLPKHFSDKAMQFVSKFLPDHLPKSMRDYRDKYEHHLILKMG-------GKGVDEARAFLKE-YFSHHGGAFFECNAEETQAAMLHRFAVASAA</Hsp_qseq>
+      <Hsp_hseq>GRIKLNSHLGLDV-DENTTVLTKEDIVQVVKKLVLLRDGEGVVDDIDHLGNRRVRSVGEFIENQFRIGILRLERMIMDYMSSVNFDNAMPCDFVNPKVLATVLKDFFSSSQLSQFMDQTNPLSEVTHKRRLSALGP------GGLTRERAGFEVRDVHPTHYGRICPIETPEGQNIGLISSLAIYAKINKYG----FIESPYRKVENRVVT---------------DKVEYLLAMQEGDYYIADAGAAIDENNRFVDDMLYCRHGGNFVMVKSEDVDYVDVSPKQIVSVA</Hsp_hseq>
+      <Hsp_midline>GR++L +HLG+D+ D    +LT        KK +    G+G     DH     VR V E    +F     R       Y +S      M        V A  L  F    Q + F   TN ++E+T  RR +ALG        G    R  F++ DV    YG+       +     L     + A+++++G    F+   +     + V+               DK E+ L ++ G       G  +DE   F+ +  +  HGG F    +E+     +    + S A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|229462746|sp|Q8KWX4.2|RPOB_ANAMF</Hit_id>
+  <Hit_def>RecName: Full=DNA-directed RNA polymerase subunit beta; Short=RNAP subunit beta; AltName: Full=RNA polymerase subunit beta; AltName: Full=Transcriptase subunit beta [Anaplasma marginale str. Florida]</Hit_def>
+  <Hit_accession>Q8KWX4</Hit_accession>
+  <Hit_len>1382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.92798</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>690</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>GRLELVNHLGIDLGDTPEEILTNLQGHHYQKKDIKQDAGKGH----DHAYCEHVRQVDEPTAARFNADPAR------HYEASGCAGKLM--------VFAVRLDTFPQEKQTAVFYIGTNDINELTDIRR-AALGEFESLPVSGEYIHRHAFDIADV----YGKDTFYVIKKFGTHQLPKLFDLKARVDRFGKKVSFLPKHFSDKAMQFVSKFLPDHLPKSMRDYRDKYEHHLILKMG-------GKGVDEARAFLKE-YFSHHGGAFFECNAEETQAAMLHRFAVASAA</Hsp_qseq>
+      <Hsp_hseq>GRIKLNSHLGLDV-DENTTVLTKEDIVQVVKKLVLLRDGEGVVDDIDHLGNRRVRSVGEFIENQFRIGILRLERMIMDYMSSVNFDNAMPCDFVNPKVLATVLKDFFSSSQLSQFMDQTNPLSEVTHKRRLSALGP------GGLTRERAGFEVRDVHPTHYGRICPIETPEGQNIGLISSLAIYAKINKYG----FIESPYRKVENRVVT---------------DKVEYLLAMQEGDYYIADAGAAIDENNRFVDDMLYCRHGGNFVMVKSEDVDYVDVSPKQIVSVA</Hsp_hseq>
+      <Hsp_midline>GR++L +HLG+D+ D    +LT        KK +    G+G     DH     VR V E    +F     R       Y +S      M        V A  L  F    Q + F   TN ++E+T  RR +ALG        G    R  F++ DV    YG+       +     L     + A+++++G    F+   +     + V+               DK E+ L ++ G       G  +DE   F+ +  +  HGG F    +E+     +    + S A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|731427|sp|P39976.1|DLD3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=D-lactate dehydrogenase [cytochrome] 3; AltName: Full=D-lactate ferricytochrome C oxidoreductase; Short=D-LCR [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P39976</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.9408</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TEQYRQGYRFGEGKALAVVRPGSILEMWKILQACVEADVIVITQAANTGLTGGSTP</Hsp_qseq>
+      <Hsp_hseq>NQDWMKKYR---GQSNLILLPNSTDKVSKIMKYCNDKKLAVVPQGGNTDLVGASVP</Hsp_hseq>
+      <Hsp_midline> + + + YR   G++  ++ P S  ++ KI++ C +  + V+ Q  NT L G S P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|56748564|sp|Q9M3G7.1|ATM_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase ATM; AltName: Full=Ataxia telangiectasia mutated homolog; Short=AtATM [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9M3G7</Hit_accession>
+  <Hit_len>3856</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>3.99792</Hsp_evalue>
+      <Hsp_query-from>413</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>1442</Hsp_hit-from>
+      <Hsp_hit-to>1525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>FFECNAEETQAAMLHRFAVASAAIRYRSVHDDEVEDLVALDIALR----RDDRDWFEKLPPEIDNK-IIHKLYYG-HFMCHVFHQDYIIKKGNG</Hsp_qseq>
+      <Hsp_hseq>LFECSVEA-----LTRICSNSSKI-----SGCQVPDVVQLPLVLRDPLLHDMDIYFLSIIPEVKEKGPLSDIFMGCALLCHFMHGSYITRKGKG</Hsp_hseq>
+      <Hsp_midline> FEC+ E      L R    S+ I        +V D+V L + LR     D   +F  + PE+  K  +  ++ G   +CH  H  YI +KG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|75315301|sp|Q9XI07.1|SWI3C_ARATH</Hit_id>
+  <Hit_def>RecName: Full=SWI/SNF complex subunit SWI3C; Short=AtSWI3C; AltName: Full=Transcription regulatory protein SWI3C [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9XI07</Hit_accession>
+  <Hit_len>807</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>5.11433</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>LTDIRRAALGEFESLPVSGEYIHRHAFDIADVYGKDTFYVIKKFGTHQLPKLFDLKARVDRFGKKVSFLPKH---FSDKAM---------QFVSKFLPDHLPKSMRDYRD</Hsp_qseq>
+      <Hsp_hseq>LPALENISFGQLQAL----STVPADSLDLERSDGSSSAYVISP------PPIMDGEGVVKRFGDLVHVLPMHSDWFAPNTVDRLERQVVPQFFSGKSPNHTPESYMEFRN</Hsp_hseq>
+      <Hsp_midline>L  +   + G+ ++L      +   + D+    G  + YVI        P + D +  V RFG  V  LP H   F+   +         QF S   P+H P+S  ++R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|75356604|sp|Q5FFD9.1|RPOB_EHRRG</Hit_id>
+  <Hit_def>RecName: Full=DNA-directed RNA polymerase subunit beta; Short=RNAP subunit beta; AltName: Full=RNA polymerase subunit beta; AltName: Full=Transcriptase subunit beta [Ehrlichia ruminantium str. Gardel]</Hit_def>
+  <Hit_accession>Q5FFD9</Hit_accession>
+  <Hit_len>1380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>7.47435</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>424</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>GRLELVNHLGIDLGDTPEEILTNLQGHHYQKKDIKQDAGKGH----DHAYCEHVRQVDEPTAARFNADPAR------HYEASGCAGKLM--------VFAVRLDTFPQEKQTAVFYIGTNDINELTDIRR-AALGEFESLPVSGEYIHRHAFDIADVY</Hsp_qseq>
+      <Hsp_hseq>GRIKLNDHLGLDISEDV-TVLTKDDIIHVIKKLVLLRDGEGFVDDIDHLGNRRVRSVGEFIENQFRIGILRLERMIMDYMSSVNFDNAMPCDFVNPKVLATVLKDFFSSSQLSQFMDQTNPLSEVTHKRRLSALGP------GGLTRERAGFEVRDVH</Hsp_hseq>
+      <Hsp_midline>GR++L +HLG+D+ +    +LT     H  KK +    G+G     DH     VR V E    +F     R       Y +S      M        V A  L  F    Q + F   TN ++E+T  RR +ALG        G    R  F++ DV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|68052281|sp|Q58T61.1|M5H43_BOMMX</Hit_id>
+  <Hit_def>RecName: Full=Maximins 5/H4 type 3; Contains: RecName: Full=Maximin-5; Contains: RecName: Full=Maximin-H4; Flags: Precursor [Bombina maxima]</Hit_def>
+  <Hit_accession>Q58T61</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.50475</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>QTINNNEQVVCLPGSTLNQLELLLKPLGREPHSVIGSSCIGASVLGGVCNNSGGALVQRGPAYTEMALFAQINEE-GRLELVNHLGIDLGDTPEE</Hsp_qseq>
+      <Hsp_hseq>RSVQNDEQ-------SLSQRDVLEEESLREIRS------IGAKILGGVKTFFKGALKELASTYLQRKRTAEDHEEMKRLEAVMR-DLDSLDYPEE</Hsp_hseq>
+      <Hsp_midline>+++ N+EQ       +L+Q ++L +   RE  S      IGA +LGGV     GAL +    Y +    A+ +EE  RLE V    +D  D PEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81353036|sp|Q5HC05.1|RPOB_EHRRW</Hit_id>
+  <Hit_def>RecName: Full=DNA-directed RNA polymerase subunit beta; Short=RNAP subunit beta; AltName: Full=RNA polymerase subunit beta; AltName: Full=Transcriptase subunit beta [Ehrlichia ruminantium str. Welgevonden]</Hit_def>
+  <Hit_accession>Q5HC05</Hit_accession>
+  <Hit_len>1380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>7.5383</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>424</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>GRLELVNHLGIDLGDTPEEILTNLQGHHYQKKDIKQDAGKGH----DHAYCEHVRQVDEPTAARFNADPAR------HYEASGCAGKLM--------VFAVRLDTFPQEKQTAVFYIGTNDINELTDIRR-AALGEFESLPVSGEYIHRHAFDIADVY</Hsp_qseq>
+      <Hsp_hseq>GRIKLNDHLGLDISEDV-TVLTKDDIIHVIKKLVLLRDGEGFVDDIDHLGNRRVRSVGEFIENQFRIGILRLERMIMDYMSSVNFDNAMPCDFVNPKVLATVLKDFFSSSQLSQFMDQTNPLSEVTHKRRLSALGP------GGLTRERAGFEVRDVH</Hsp_hseq>
+      <Hsp_midline>GR++L +HLG+D+ +    +LT     H  KK +    G+G     DH     VR V E    +F     R       Y +S      M        V A  L  F    Q + F   TN ++E+T  RR +ALG        G    R  F++ DV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

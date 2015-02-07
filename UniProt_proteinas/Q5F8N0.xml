@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-01-15" modified="2015-01-07" version="57">
+<accession>Q5F8N0</accession>
+<name>AROD_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">3-dehydroquinate dehydratase</fullName>
+<shortName evidence="1">3-dehydroquinase</shortName>
+<ecNumber evidence="1">4.2.1.10</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">Type I DHQase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Type I dehydroquinase</fullName>
+<shortName evidence="1">DHQ1</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">aroD</name>
+<name type="ordered locus">NGO0740</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Involved in the third step of the chorismate pathway, which leads to the biosynthesis of aromatic amino acids. Catalyzes the cis-dehydration of 3-dehydroquinate (DHQ) and introduces the first double bond of the aromatic ring to yield 3-dehydroshikimate.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">3-dehydroquinate = 3-dehydroshikimate + H(2)O.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Metabolic intermediate biosynthesis; chorismate biosynthesis; chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step 3/7.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homodimer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the type-I 3-dehydroquinase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.1.10" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89457.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207869.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8N0"/>
+<dbReference type="STRING" id="242231.NGO0740"/>
+<dbReference type="EnsemblBacteria" id="AAW89457">
+<property type="protein sequence ID" value="AAW89457"/>
+<property type="gene ID" value="NGO0740"/>
+</dbReference>
+<dbReference type="GeneID" id="3281808"/>
+<dbReference type="KEGG" id="ngo:NGO0740"/>
+<dbReference type="PATRIC" id="20334618">
+<property type="gene designation" value="VBINeiGon24812_0881"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0710"/>
+<dbReference type="HOGENOM" id="HOG000105514"/>
+<dbReference type="KO" id="K03785"/>
+<dbReference type="OMA" id="CTFGAGE"/>
+<dbReference type="OrthoDB" id="EOG6P33BK"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-697-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00053">
+<property type="reaction ID" value="UER00086"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003855">
+<property type="term" value="F:3-dehydroquinate dehydratase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009073">
+<property type="term" value="P:aromatic amino acid family biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009423">
+<property type="term" value="P:chorismate biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.20.20.70">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00214">
+<property type="entry name" value="AroD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013785">
+<property type="entry name" value="Aldolase_TIM"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001381">
+<property type="entry name" value="DHquinase_I"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01487">
+<property type="entry name" value="DHquinase_I"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01093">
+<property type="entry name" value="aroD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0028">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0057">Aromatic amino acid biosynthesis</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0704">Schiff base</keyword>
+<feature type="chain" description="3-dehydroquinate dehydratase" id="PRO_1000043177">
+<location>
+<begin position="1"/>
+<end position="254"/>
+</location>
+</feature>
+<feature type="region of interest" description="3-dehydroquinate binding" evidence="1">
+<location>
+<begin position="47"/>
+<end position="49"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor/acceptor" evidence="1">
+<location>
+<position position="144"/>
+</location>
+</feature>
+<feature type="active site" description="Schiff-base intermediate with substrate" evidence="1">
+<location>
+<position position="171"/>
+</location>
+</feature>
+<feature type="binding site" description="3-dehydroquinate" evidence="1">
+<location>
+<position position="83"/>
+</location>
+</feature>
+<feature type="binding site" description="3-dehydroquinate" evidence="1">
+<location>
+<position position="213"/>
+</location>
+</feature>
+<feature type="binding site" description="3-dehydroquinate" evidence="1">
+<location>
+<position position="232"/>
+</location>
+</feature>
+<feature type="binding site" description="3-dehydroquinate" evidence="1">
+<location>
+<position position="236"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00214"/>
+</source>
+</evidence>
+<sequence length="254" mass="27279" checksum="36F76B48397BD872" modified="2005-03-15" version="1">
+MHTSLTVKNTVIGSGRTKIAVPLVARDAADLSSVLSQIKNLPFDIVEFRADFLECAGSIG
+EVLRHTQAVRDALPDKPLLFTFRRHCEGGSFPCSDDYYFELLDALIESRLPDIIDIELFS
+GETAVRRAVANAQKNGIAALLCNHEFHRTPPQEEIVCRLKQMEDCGADICKIAVMPQSSE
+DVLTLLSATLEAKRLVAKPVITMSMGQTGAVSRLAGQVFGSSITFGSGTQNSAPGQIGVS
+ALRAALDCLESGAD
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

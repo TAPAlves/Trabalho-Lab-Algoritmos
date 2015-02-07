@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-02-04" version="70">
+<accession>Q5F862</accession>
+<name>Q5F862_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Methylenetetrahydrofolate reductase</fullName>
+<ecNumber evidence="1">1.5.1.20</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="3">NGO0929</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<text evidence="1">5-methyltetrahydrofolate + NAD(P)(+) = 5,10-methylenetetrahydrofolate + NAD(P)H.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>FAD</name>
+<dbReference type="ChEBI" id="CHEBI:57692"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="2">
+<text>One-carbon metabolism; tetrahydrofolate interconversion.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the methylenetetrahydrofolate reductase family.</text>
+</comment>
+<dbReference type="EC" id="1.5.1.20" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89625.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010951150.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208037.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F862"/>
+<dbReference type="SMR" id="Q5F862">
+<property type="residue range" value="3-292"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0929"/>
+<dbReference type="EnsemblBacteria" id="AAW89625">
+<property type="protein sequence ID" value="AAW89625"/>
+<property type="gene ID" value="NGO0929"/>
+</dbReference>
+<dbReference type="GeneID" id="3282606"/>
+<dbReference type="KEGG" id="ngo:NGO0929"/>
+<dbReference type="PATRIC" id="20335041">
+<property type="gene designation" value="VBINeiGon24812_1090"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0685"/>
+<dbReference type="HOGENOM" id="HOG000246232"/>
+<dbReference type="KO" id="K00297"/>
+<dbReference type="OMA" id="FIRAETG"/>
+<dbReference type="OrthoDB" id="EOG6D2KVW"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-867-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00193"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004489">
+<property type="term" value="F:methylenetetrahydrofolate reductase (NAD(P)H) activity"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009086">
+<property type="term" value="P:methionine biosynthetic process"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035999">
+<property type="term" value="P:tetrahydrofolate interconversion"/>
+<property type="evidence" value="IEA:UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.20.20.220">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029041">
+<property type="entry name" value="FAD-linked_oxidoreductase-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003171">
+<property type="entry name" value="Mehydrof_redctse"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004620">
+<property type="entry name" value="MTHF_reductase_bac"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02219">
+<property type="entry name" value="MTHFR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51730">
+<property type="entry name" value="SSF51730"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00676">
+<property type="entry name" value="fadh2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0028" evidence="2">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0274" evidence="1">FAD</keyword>
+<keyword id="KW-0285" evidence="1">Flavoprotein</keyword>
+<keyword id="KW-0560" evidence="1">Oxidoreductase</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU003862"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU004255"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89625.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="292" mass="33098" checksum="DE8F126A3584FB9D" modified="2005-03-15" version="1">
+MNYAKEINALNNSLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGA
+NSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEP
+AGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVIT
+QFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGL
+DDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILGARP
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

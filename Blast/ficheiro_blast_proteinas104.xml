@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>11133</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>119</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>11133</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|68565409|sp|Q5F8D0.1|CRCB_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Neisseria gonorrhoeae FA 1090] &gt;gi|226709257|sp|B4RLE2.1|CRCB_NEIG2 RecName: Full=Putative fluoride ion transporter CrcB [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>Q5F8D0</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>3.9335e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGIFAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_qseq>
+      <Hsp_hseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGIFAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_hseq>
+      <Hsp_midline>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGIFAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|18203138|sp|Q9JUL1.1|CRCB_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JUL1</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>1.49453e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGIFAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_qseq>
+      <Hsp_hseq>MLSNIIPLSIGAALGATARWLLNLAVPASLSPATGNLFANWTGAFLIGIFAETVNHPQWKLLLITGFLGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_hseq>
+      <Hsp_midline>MLSNI+PLSIGA  G TARWLLNLAVPASLSPATGNLFANWTGA LIGIFAETV+HPQWKLLLITGF GSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|189044171|sp|A9LYY6.1|CRCB_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9LYY6</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>4.79827e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGIFAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_qseq>
+      <Hsp_hseq>MLSNIIPLSIGAALGATARWLLNLAVPAAMSPATGNLFANWTGALLIGIFAETVNHPQWKLLLITGFLGSLTTLSGFSLETVTLLQSNRPASALSNIFLHTAGSLLLTWLGLKIGTAVK</Hsp_hseq>
+      <Hsp_midline>MLSNI+PLSIGA  G TARWLLNLAVPA++SPATGNLFANWTGALLIGIFAETV+HPQWKLLLITGF GSLTTLSGFSLETVTLLQSNRPASAL+NIFLHTAGSLLLTWLGLKIGTAVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|166215115|sp|A1KTV1.1|CRCB_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KTV1</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>1.25223e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGIFAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_qseq>
+      <Hsp_hseq>MLSNIIPLSIGAALGATARWLLNLAVPAAMSPATGNLFANWTGALLIGIFAETINHPQWKLLLITGFLGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGAAVK</Hsp_hseq>
+      <Hsp_midline>MLSNI+PLSIGA  G TARWLLNLAVPA++SPATGNLFANWTGALLIGIFAET++HPQWKLLLITGF GSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIG AVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|18203151|sp|Q9JZG6.1|CRCB_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZG6</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>5.66121e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGIFAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_qseq>
+      <Hsp_hseq>MLSNIIPLSIGAALGATARWLLNLAVPASIPPATGNLFANWIGAFLIGIFAETVNHPQWKLLLITGFLGSLTTLSGFSLETVTLLQLNRPASALANIFLHTAGSLLLTWLGLKIGAAVK</Hsp_hseq>
+      <Hsp_midline>MLSNI+PLSIGA  G TARWLLNLAVPAS+ PATGNLFANW GA LIGIFAETV+HPQWKLLLITGF GSLTTLSGFSLETVTLLQ NRPASALANIFLHTAGSLLLTWLGLKIG AVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|226709262|sp|B1J9E8.1|CRCB_PSEPW</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Pseudomonas putida W619]</Hit_def>
+  <Hit_accession>B1J9E8</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.61798e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPAT--GNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MLKSLLAIGLGAMVGAWLRWGLGMKLNA-LFPAVPPGTLLANLIGGYIIGLAIAFFSASPSLSPEWRLLLITGFCGGLTTFSTFSAEVVSLIQEGRILWALGSIALHVSGSLLMTAAGL</Hsp_hseq>
+      <Hsp_midline>ML ++L + +GA+ G   RW L + + A L PA   G L AN  G  +IG+    F+ + S  P+W+LLLITGF G LTT S FS E V+L+Q  R   AL +I LH +GSLL+T  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|259586033|sp|C5CTD2.1|CRCB_VARPS</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Variovorax paradoxus S110]</Hit_def>
+  <Hit_accession>C5CTD2</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.78034e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGIFAETVS-----HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLK</Hsp_qseq>
+      <Hsp_hseq>MLLPILAICMGASVGALARWGLALWFGAGGFMPWGTLAANLVGGYLVGVAIASFHLLPDLDPAWRLALVTGFLGGLTTFSSFSAEVVTMLLEGRPGVALLTAAAHLGGSLFLTWLGIR</Hsp_hseq>
+      <Hsp_midline>ML  IL + +GA  G  ARW L L   A      G L AN  G  L+G+   +        P W+L L+TGF G LTT S FS E VT+L   RP  AL     H  GSL LTWLG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|254765959|sp|B8IZV2.1|CRCB_DESDA</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Desulfovibrio desulfuricans subsp. desulfuricans str. ATCC 27774]</Hit_def>
+  <Hit_accession>B8IZV2</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>2.03385e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPA-TGNLFANWTGALLIGIF-----AETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MLKTLALISIGASCGAILRWFLGLMLNAIFLPIPLGTLAANLLGGYLIGVAVSMFNALSAVGPEFRLLIITGFLGGLTTFSTFTAEIGVLLQGQRIMTAVAAIVLHVCGSLIMMLLGM</Hsp_hseq>
+      <Hsp_midline>ML  +  +SIGA  G   RW L L + A   P   G L AN  G  LIG+      A +   P+++LL+ITGF G LTT S F+ E   LLQ  R  +A+A I LH  GSL++  LG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|47605526|sp|Q93TE2.1|CRCB_PSEYM</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Pseudomonas syringae pv. maculicola]</Hit_def>
+  <Hit_accession>Q93TE2</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>2.10644e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPA---SLSPATGNLFANWTGALLIGIF-----AETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MLKSLLVIAIGASLGAWLRWLLGMKLNALFPTIPP--GTVVANMVGGYIIGLAIAFLAASPSLSPEWRLLIITGFCGGLTTFSTFSAETVALIQEGRLLWALGSISLHVVGSLAMTAAGL</Hsp_hseq>
+      <Hsp_midline>ML ++L ++IGA  G   RWLL + + A   ++ P  G + AN  G  +IG+      A     P+W+LL+ITGF G LTT S FS ETV L+Q  R   AL +I LH  GSL +T  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|259586032|sp|C4LAI3.1|CRCB_TOLAT</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Tolumonas auensis DSM 9187]</Hit_def>
+  <Hit_accession>C4LAI3</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>2.53806e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPAT--GNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MLYSVLAISLGASAGAVSRWLLGLGF-NTLFPTIPPGTLLANLLGGYLIGIAVTFFAANPNLPPEWRLLVITGFLGGLTTFSTFSAEVTTLLQQGRLLWAGGAIAVHVIGSLVMTLLGM</Hsp_hseq>
+      <Hsp_midline>ML ++L +S+GA  G  +RWLL L    +L P    G L AN  G  LIGI    FA   +  P+W+LL+ITGF G LTT S FS E  TLLQ  R   A   I +H  GSL++T LG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166215113|sp|A6UV73.1|CRCB_META3</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Methanococcus aeolicus Nankai-3]</Hit_def>
+  <Hit_accession>A6UV73</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>2.69231e-16</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>RWLLNLAVPASLSPATGNLFANWTGALLIG--IFAETVSH--PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLG</Hsp_qseq>
+      <Hsp_hseq>RYVISGIIPAKFGIPTGTFIVNLIGSFIVGFVMYSSTVIDISPEYRLLIITGFCGALTTFSTFSYETFSLIENNEHIKFLTNIFINVMGCLIMIYVG</Hsp_hseq>
+      <Hsp_midline>R++++  +PA     TG    N  G+ ++G  +++ TV    P+++LL+ITGF G+LTT S FS ET +L+++N     L NIF++  G L++ ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|24211587|sp|Q8ZDH2.1|CRCB1_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB 1 [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q8ZDH2</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>6.24047e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI---FAETVSH--PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWL</Hsp_qseq>
+      <Hsp_hseq>MFNTLLAVFIGGGVGSMARWLVSLKLNSASAHLPVGTLIVNLVGAFIIGLTLAFFSRMTHIDPVWKLLITTGFCGGLTTFSTFSVEVVYLIQEGKLAWAAGTILLNVAGSLAMTML</Hsp_hseq>
+      <Hsp_midline>M + +L + IG   G+ ARWL++L +  AS     G L  N  GA +IG+   F   ++H  P WKLL+ TGF G LTT S FS+E V L+Q  + A A   I L+ AGSL +T L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|47605419|sp|Q7MRQ2.1|CRCB_WOLSU</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Wolinella succinogenes DSM 1740]</Hit_def>
+  <Hit_accession>Q7MRQ2</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>6.90253e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>LSNILPLSIGAIFGTTARWLLNLAVPASLSPAT--GNLFANWTGALLIGI-FAETVSHP----QWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MQTLLAIFVGAGFGALLRWFLGLKLNA-LAPLIPLGTLGANWLGGYLIGLALAFFSTHPLLSPEWRLLIITGFLGGLTTFSTFSAEMVSLLQWGRYGALALGVALHVGGSIGMTLLGI</Hsp_hseq>
+      <Hsp_midline>+  +L + +GA FG   RW L L + A L+P    G L ANW G  LIG+  A   +HP    +W+LL+ITGF G LTT S FS E V+LLQ  R  +    + LH  GS+ +T LG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|167009115|sp|A8GB06.1|CRCB_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GB06</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>6.91936e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIG----IFAE-TVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWL</Hsp_qseq>
+      <Hsp_hseq>MLSSLLAVFIGGGMGSVLRWAISMKMNPLNAHIPLGTLAVNLLGGFIIGLAIAIFSRLTHLDPTWKLLITTGFCGGLTTFSTFSLEVVYLLQDGRFMWALANMLLNLAGSLVMTLL</Hsp_hseq>
+      <Hsp_midline>MLS++L + IG   G+  RW +++ + P +     G L  N  G  +IG    IF+  T   P WKLL+ TGF G LTT S FSLE V LLQ  R   ALAN+ L+ AGSL++T L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|226709220|sp|B2I2S5.1|CRCB_ACIBC</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Acinetobacter baumannii ACICU]</Hit_def>
+  <Hit_accession>B2I2S5</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.06999e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MYYPLLSIALGSVLGAWLRWLLGLKLNPIYPQIPLGTVTVNLAGGFIIGFAMAYFAHSDLSPNYKLFVITGFCGALTTFSTFSIEIVTLLQSGKWGMAMLAISIHLIGSLIFTCLGL</Hsp_hseq>
+      <Hsp_midline>M   +L +++G++ G   RWLL L + P       G +  N  G  +IG     FA +   P +KL +ITGF G+LTT S FS+E VTLLQS +   A+  I +H  GSL+ T LGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|226709218|sp|B7H0W5.1|CRCB_ACIB3</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Acinetobacter baumannii AB307-0294] &gt;gi|226709219|sp|B7I4B4.1|CRCB_ACIB5 RecName: Full=Putative fluoride ion transporter CrcB [Acinetobacter baumannii AB0057] &gt;gi|226709222|sp|B0VEC3.1|CRCB_ACIBY RecName: Full=Putative fluoride ion transporter CrcB [Acinetobacter baumannii AYE]</Hit_def>
+  <Hit_accession>B7H0W5</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.09229e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MYYPLLSIALGSVLGAWLRWFLGLKLNPIYPQIPLGTVTVNLVGGFIIGFAMAYFAHSDLNPNYKLFVITGFCGALTTFSTFSIEIVTLLQSGKWGMAMLAISIHLIGSLIFTCLGL</Hsp_hseq>
+      <Hsp_midline>M   +L +++G++ G   RW L L + P       G +  N  G  +IG     FA +  +P +KL +ITGF G+LTT S FS+E VTLLQS +   A+  I +H  GSL+ T LGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|226709221|sp|B0VLD4.1|CRCB_ACIBS</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Acinetobacter baumannii SDF]</Hit_def>
+  <Hit_accession>B0VLD4</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.00652e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MYYPLLSIALGSVLGAWLRWFLGLKLNPIYPQIPLGTVTVNLVGGFIIGFAMAYFAHSDLSPNYKLFVITGFCGALTTFSTFSIEIVTLLQSGKWGMAMLAISIHLIGSLIFTCLGL</Hsp_hseq>
+      <Hsp_midline>M   +L +++G++ G   RW L L + P       G +  N  G  +IG     FA +   P +KL +ITGF G+LTT S FS+E VTLLQS +   A+  I +H  GSL+ T LGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|226709488|sp|A3M1Q4.2|CRCB_ACIBT</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Acinetobacter baumannii ATCC 17978]</Hit_def>
+  <Hit_accession>A3M1Q4</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.09089e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MYYPLLSIALGSVLGAWLRWFLGLKLNPIYPQIPLGTVTVNLVGGFIIGFAMAYFAHSDLSPNYKLFVITGFCGALTTFSTFSIEIVTLLQSGKWGMAMLAISIHLIGSLIFTCLGL</Hsp_hseq>
+      <Hsp_midline>M   +L +++G++ G   RW L L + P       G +  N  G  +IG     FA +   P +KL +ITGF G+LTT S FS+E VTLLQS +   A+  I +H  GSL+ T LGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|116247747|sp|Q21Y62.2|CRCB_ALBFT</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Rhodoferax ferrireducens T118]</Hit_def>
+  <Hit_accession>Q21Y62</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.24335e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGIFAETVS-----HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGT</Hsp_qseq>
+      <Hsp_hseq>LMISVLAICIGASLGALARWRLGLWLNPGAVLP-LGTLAANLIGGYLIGICVAVFQALPNLDPVWRLALITGFLGGLTTFSSFSAEVVGMLGQQRYALGFGTAGLHLFGSLLLTLAGIKTAT</Hsp_hseq>
+      <Hsp_midline>++ ++L + IGA  G  ARW L L + P ++ P  G L AN  G  LIGI            P W+L LITGF G LTT S FS E V +L   R A       LH  GSLLLT  G+K  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|166215112|sp|A1U6R3.1|CRCB_MARAV</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Marinobacter hydrocarbonoclasticus VT8]</Hit_def>
+  <Hit_accession>A1U6R3</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>2.87667e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPAT-GNLFANWTGALLIGIF-----AETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MWWSVLAVSVGAVIGANLRWGLGLWLNASYHAVPWGTLVANLSGGWLIGVLMAFFSQSSVLSPEWRLFAVTGLCGALTTFSTFSLEMFAALQEGKWGMALVGILAHVVGSILMTALGF</Hsp_hseq>
+      <Hsp_midline>M  ++L +S+GA+ G   RW L L + AS      G L AN +G  LIG+        +V  P+W+L  +TG  G+LTT S FSLE    LQ  +   AL  I  H  GS+L+T LG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|116247715|sp|Q1QUC2.1|CRCB_CHRSD</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Chromohalobacter salexigens DSM 3043]</Hit_def>
+  <Hit_accession>Q1QUC2</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>3.00089e-15</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>RWLLNLAVPASLSPA--TGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_qseq>
+      <Hsp_hseq>RWLLGMWLNA-LFPALPPGTLAANWLGAWLIGIAIALFAQLPQLSPEWRLFVVTGFLGALTTFSTFSAEMFGNLQAGRYAMALTGIAVHVAGSLAMTGLGIATFGALK</Hsp_hseq>
+      <Hsp_midline>RWLL + + A L PA   G L ANW GA LIGI    FA+     P+W+L ++TGF G+LTT S FS E    LQ+ R A AL  I +H AGSL +T LG+    A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|254765954|sp|A9IU75.1|CRCB_BORPD</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Bordetella petrii DSM 12804]</Hit_def>
+  <Hit_accession>A9IU75</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>3.81252e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>NILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGI-FAETVSHPQW----KLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_qseq>
+      <Hsp_hseq>NFLAVAIGAALGACARWLAGLWLNSSAWP-WGTLLVNLAGGYLIGLALAVLLAHPEWPQWIRLAAVTGFLGGLTTFSTFSAETVGMLERGAYATALGYAALSLVGSLALTALGLASAHALR</Hsp_hseq>
+      <Hsp_midline>N L ++IGA  G  ARWL  L + +S  P  G L  N  G  LIG+  A  ++HP+W    +L  +TGF G LTT S FS ETV +L+    A+AL    L   GSL LT LGL    A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|167009109|sp|A1TSC2.1|CRCB_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TSC2</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>5.01096e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGIFAETVS-----HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLK</Hsp_qseq>
+      <Hsp_hseq>MLLNIAVICLAACVGALMRWGFALWLNPGGLIP-WGTLAVNLIGGYCIGIALAVFTSRPDIDPAWRLLVITGFLGTLTTFSSFSGEVVTMLMQQRFGLAFGTIALHLGGSLALTWAGMR</Hsp_hseq>
+      <Hsp_midline>ML NI  + + A  G   RW   L + P  L P  G L  N  G   IGI     +      P W+LL+ITGF G+LTT S FS E VT+L   R   A   I LH  GSL LTW G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|68565473|sp|Q6FF10.1|CRCB_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6FF10</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>9.6612e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSP-ATGNLFANWTGALLIG----IFAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MYSSLLSIACGAVLGAWLRWFVGLKFNSTFQNFPLGTILVNLVGGFIIGFAIALFANMQLSSNYKLFVITGFCGALTTFSTFSAEVIDLLQQQKYGFAIALITIHLMGSLLCTVLGL</Hsp_hseq>
+      <Hsp_midline>M S++L ++ GA+ G   RW + L   ++      G +  N  G  +IG    +FA       +KL +ITGF G+LTT S FS E + LLQ  +   A+A I +H  GSLL T LGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|68565161|sp|Q66DF7.1|CRCB1_YERPS</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB 1 [Yersinia pseudotuberculosis IP 32953]</Hit_def>
+  <Hit_accession>Q66DF7</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>2.70363e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI---FAETVSH--PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWL</Hsp_qseq>
+      <Hsp_hseq>MFNTLLAVFIGGGVGSMARWLVSLKLNSASAHLPVGTLIVNLVGAFIIGLTLALFSRMTHIDPVWKLLITTGFCGGLTTFSTFSVEVVYLIQEGKLTWAAGTILLNVAGSLAMTML</Hsp_hseq>
+      <Hsp_midline>M + +L + IG   G+ ARWL++L +  AS     G L  N  GA +IG+       ++H  P WKLL+ TGF G LTT S FS+E V L+Q  +   A   I L+ AGSL +T L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|167009112|sp|A4W811.1|CRCB_ENT38</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4W811</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>4.41037e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI---FAETVSH--PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWFLSMRFNPMHQAIPLGTLTANLIGAFIIGVGLAWFNRMTHIDPMWKLLITTGFCGGLTTFSTFSAEVVFLLQDGRINWALANIAVNMLGSFAMT</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARW L++   P   +   G L AN  GA +IG+   +   ++H  P WKLL+ TGF G LTT S FS E V LLQ  R   ALANI ++  GS  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|549513|sp|P37002.1|CRCB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli K-12] &gt;gi|259586017|sp|C4ZWB3.1|CRCB_ECOBW RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P37002</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>5.19076e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWLLSMRFNPLHQAIPLGTLTANLIGAFIIGIGFAWFSRMTNIDPVWKVLITTGFCGGLTTFSTFSAEVVFLLQEGRFGWALLNVFVNLLGSFAMT</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARWLL++   P   +   G L AN  GA +IGI    F+   +  P WK+L+ TGF G LTT S FS E V LLQ  R   AL N+F++  GS  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|47605420|sp|Q7N768.1|CRCB_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N768</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.07201e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVP-ASLSPATGNLFANWTGALLIGI---FAETVSH--PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWL</Hsp_qseq>
+      <Hsp_hseq>MINIILAIFIGGGLGSVLRWFISLRLNNISSNIAIGTLTVNCIGALIIGLGLAYFNKSTHLDPAWKLMLTTGFCGGLTTFSTFSVEVVYLLLDGKLGWALGTVLLNLFGSLLMTML</Hsp_hseq>
+      <Hsp_midline>M++ IL + IG   G+  RW ++L +   S + A G L  N  GAL+IG+   +    +H  P WKL+L TGF G LTT S FS+E V LL   +   AL  + L+  GSLL+T L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|226709242|sp|B7N9N0.1|CRCB_ECOLU</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli UMN026]</Hit_def>
+  <Hit_accession>B7N9N0</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.12385e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWLLSMRFNPLHQAIPLGTLAANLIGAFIIGMGFAWFSRMTNIDPVWKVLITTGFCGGLTTFSTFSAEVVFLLQEGRLGWALLNVFVNLLGSFAMT</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARWLL++   P   +   G L AN  GA +IG+    F+   +  P WK+L+ TGF G LTT S FS E V LLQ  R   AL N+F++  GS  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|47605467|sp|Q83LX0.1|CRCB_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Shigella flexneri] &gt;gi|123343044|sp|Q0T6N5.1|CRCB_SHIF8 RecName: Full=Putative fluoride ion transporter CrcB [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q83LX0</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.1704e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWLLSMRFNPLHQAIPLGTLAANLIGAFIIGMGFAWFSRMTNIDPVWKVLITTGFCGGLTTFSTFSAEVVFLLQEGRFGWALLNVFVNLLGSFAMT</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARWLL++   P   +   G L AN  GA +IG+    F+   +  P WK+L+ TGF G LTT S FS E V LLQ  R   AL N+F++  GS  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|54036894|sp|P63861.1|CRCB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli O157:H7] &gt;gi|54040919|sp|P63860.1|CRCB_ECOL6 RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli CFT073] &gt;gi|116247721|sp|Q0TK48.1|CRCB_ECOL5 RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli 536] &gt;gi|116247722|sp|Q1RET6.1|CRCB_ECOUT RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli UTI89] &gt;gi|116247754|sp|Q32IV5.1|CRCB_SHIDS RecName: Full=Putative fluoride ion transporter CrcB [Shigella dysenteriae Sd197] &gt;gi|116247755|sp|Q3Z4G8.1|CRCB_SHISS RecName: Full=Putative fluoride ion transporter CrcB [Shigella sonnei Ss046] &gt;gi|167009110|sp|A7ZJ12.1|CRCB_ECO24 RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli O139:H28 str. E24377A] &gt;gi|167009111|sp|A7ZXQ1.1|CRCB_ECOHS RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli HS] &gt;gi|226709239|sp|B5YPX2.1|CRCB_ECO5E RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli O157:H7 str. EC4115] &gt;gi|226709241|sp|B7M5F2.1|CRCB_ECO8A RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli IAI1] &gt;gi|226709243|sp|B6I134.1|CRCB_ECOSE RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli SE11] &gt;gi|226709244|sp|B1LKL6.1|CRCB_ECOSM RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli SMS-3-5] &gt;gi|254765960|sp|B7UKR6.1|CRCB_ECO27 RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli O127:H6 str. E2348/69] &gt;gi|254765961|sp|B7L9G9.1|CRCB_ECO55 RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli 55989]</Hit_def>
+  <Hit_accession>P63861</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.25654e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWLLSMRFNPLHQAIPLGTLAANLIGAFIIGMGFAWFSRMTNIDPVWKVLITTGFCGGLTTFSTFSAEVVFLLQEGRFGWALLNVFVNLLGSFAMT</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARWLL++   P   +   G L AN  GA +IG+    F+   +  P WK+L+ TGF G LTT S FS E V LLQ  R   AL N+F++  GS  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|254765962|sp|B7MRR2.1|CRCB_ECO81</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>B7MRR2</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.25654e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWLLSMRFNPLHQAIPLGTLAANLIGAFIIGMGFAWFSRMTNIDPVWKVLITTGFCGGLTTFSTFSAEVVFLLQEGRFGWALLNVFVNLLGSFAMT</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARWLL++   P   +   G L AN  GA +IG+    F+   +  P WK+L+ TGF G LTT S FS E V LLQ  R   AL N+F++  GS  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|259586028|sp|A4SW33.1|CRCB_POLSQ</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Polynucleobacter necessarius subsp. asymbioticus QLW-P1DMWA-1]</Hit_def>
+  <Hit_accession>A4SW33</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.28138e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NILPLSIGAIFGTTARWLLNL--AVPASLSPATGNLFANWTGALLIGI---FAETVSH--PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK</Hsp_qseq>
+      <Hsp_hseq>SILAIFCGAGLGALLRTGFNLLSVGVASVIP-LGTLISNMVGGYLIGIALAFFGNNPHLSPEWKLLIITGFLGGLTTFSSFSAEVVTMIQRGEFTWALGTALLHLVGSLVLTLLGIWTYQAIK</Hsp_hseq>
+      <Hsp_midline>+IL +  GA  G   R   NL     AS+ P  G L +N  G  LIGI   F     H  P+WKLL+ITGF G LTT S FS E VT++Q      AL    LH  GSL+LT LG+    A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|116247753|sp|Q324R8.1|CRCB_SHIBS</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Shigella boydii Sb227] &gt;gi|189044169|sp|B1IYI2.1|CRCB_ECOLC RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli ATCC 8739] &gt;gi|226709276|sp|B2TTI6.1|CRCB_SHIB3 RecName: Full=Putative fluoride ion transporter CrcB [Shigella boydii CDC 3083-94]</Hit_def>
+  <Hit_accession>Q324R8</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.32191e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWLLSMRFNPLHQAIPLGTLTANLIGAFIIGMGFAWFSRMTNIDPVWKVLITTGFCGGLTTFSTFSAEVVFLLQEGRFGWALLNVFVNLLGSFAMT</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARWLL++   P   +   G L AN  GA +IG+    F+   +  P WK+L+ TGF G LTT S FS E V LLQ  R   AL N+F++  GS  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|122257577|sp|Q02H57.1|CRCB_PSEAB</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Pseudomonas aeruginosa UCBPP-PA14]</Hit_def>
+  <Hit_accession>Q02H57</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.36274e-13</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RWLLNLAVPASLSP-ATGNLFANWTGALLIG----IFAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>RWFLGLKLNSLLSSIPPGTLLANLVGGYVIGAAIAYFAQAPGIAPEWRLLIITGFCGGLTTFSTFSAEVVSLLQEGRLGWAAGAIATHVSGSLLMTLLGL</Hsp_hseq>
+      <Hsp_midline>RW L L + + LS    G L AN  G  +IG     FA+     P+W+LL+ITGF G LTT S FS E V+LLQ  R   A   I  H +GSLL+T LGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|116247717|sp|Q47AF6.1|CRCB_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47AF6</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.41489e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>NILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGIFAETVSHPQ------WKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>NFLVIGLGAAFGAWTRWLLGLSLNPLFVALPLGTLAANVIGGYLVGV-AVGIFHINTHFSLAWKLFAITGFLGGLTTFSTFSAEVVERLLAGQPAWAIGLASVHLAGSLTATYLGL</Hsp_hseq>
+      <Hsp_midline>N L + +GA FG   RWLL L++ P  ++   G L AN  G  L+G+ A  + H        WKL  ITGF G LTT S FS E V  L + +PA A+    +H AGSL  T+LGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|68565471|sp|Q6D7N0.1|CRCB_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D7N0</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.73801e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPAT--GNLFANWTGALLIG-IFAETVSHPQ----WKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGT</Hsp_qseq>
+      <Hsp_hseq>MFSTLLAVFIGGGVGSVARWQLGVKFN-SLYPTLPLGTLLANLIGAFVIGGALAFFLRHPHLDQDWKILITTGLCGGLTTFSTFSAEVVMFLQSGQLAAAGLHVLLNLAGSLLMTALAFALVT</Hsp_hseq>
+      <Hsp_midline>M S +L + IG   G+ ARW L +    SL P    G L AN  GA +IG   A  + HP     WK+L+ TG  G LTT S FS E V  LQS + A+A  ++ L+ AGSLL+T L   + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|18203004|sp|Q9HW19.1|CRCB_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Pseudomonas aeruginosa PAO1] &gt;gi|226709261|sp|B7UZG1.1|CRCB_PSEA8 RecName: Full=Putative fluoride ion transporter CrcB [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>Q9HW19</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.57921e-13</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RWLLNLAVPASL-SPATGNLFANWTGALLIG----IFAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>RWFLGLKLNSLLPSIPPGTLLANLVGGYVIGAAIAYFAQAPGIAPEWRLLIITGFCGGLTTFSTFSAEVVSLLQEGRLGWAAGAIATHVSGSLLMTLLGL</Hsp_hseq>
+      <Hsp_midline>RW L L + + L S   G L AN  G  +IG     FA+     P+W+LL+ITGF G LTT S FS E V+LLQ  R   A   I  H +GSLL+T LGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|167009113|sp|A6VB55.1|CRCB_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6VB55</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.94148e-13</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RWLLNLAVPASL-SPATGNLFANWTGALLIG----IFAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>RWFLGLKLNSLLPSIPPGTLLANLVGGYAIGAAIAYFAQAPGIAPEWRLLIITGFCGGLTTFSTFSAEVVTLLQEGRLGWAAGAIATHVGGSLLMTLLGL</Hsp_hseq>
+      <Hsp_midline>RW L L + + L S   G L AN  G   IG     FA+     P+W+LL+ITGF G LTT S FS E VTLLQ  R   A   I  H  GSLL+T LGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|226709246|sp|B2VHL9.1|CRCB_ERWT9</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Erwinia tasmaniensis]</Hit_def>
+  <Hit_accession>B2VHL9</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.97207e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPA---SLSPATGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MIKPLLAVMIGGCAGCVIRWLLAVRLNAWFPNLPP--GTLLVNLVGGLIIGATVAWFARYPGIDPNWKLLITTGLCGGMTTFSTFSLEVVTLLQAGNYLWAVISVLTHVTGSLLMT</Hsp_hseq>
+      <Hsp_midline>M+  +L + IG   G   RWLL + + A   +L P  G L  N  G L+IG     FA      P WKLL+ TG  G +TT S FSLE VTLLQ+     A+ ++  H  GSLL+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|54036897|sp|P63867.1|CRCB_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|54040922|sp|P63866.1|CRCB_SALTY RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|68565396|sp|Q57RU6.1|CRCB_SALCH RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67] &gt;gi|68565446|sp|Q5PM94.1|CRCB_SALPA RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|189044174|sp|A9MKE7.1|CRCB_SALAR RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-] &gt;gi|189044175|sp|A9MV77.1|CRCB_SALPB RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7] &gt;gi|226709266|sp|B5EZ69.1|CRCB_SALA4 RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|226709267|sp|B5FMM5.1|CRCB_SALDC RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853] &gt;gi|226709268|sp|B5QVN1.1|CRCB_SALEP RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|226709269|sp|B5R7X8.1|CRCB_SALG2 RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91] &gt;gi|226709270|sp|B4TAI2.1|CRCB_SALHS RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476] &gt;gi|226709271|sp|B4SYI7.1|CRCB_SALNS RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|226709272|sp|B5BCG4.1|CRCB_SALPK RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601] &gt;gi|226709273|sp|B4TPA0.1|CRCB_SALSV RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633] &gt;gi|254765967|sp|C0PW59.1|CRCB_SALPC RecName: Full=Putative fluoride ion transporter CrcB [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>P63867</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>4.105e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI-FA--ETVSH--PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWMLSMRFNPLHQAIPIGTLTANLLGAFIIGMGFAWFNRMTHIDPMWKVLITTGFCGGLTTFSTFSAEVVFLLQEGRFGWALLNVLINLLGSFAMT</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARW+L++   P   +   G L AN  GA +IG+ FA    ++H  P WK+L+ TGF G LTT S FS E V LLQ  R   AL N+ ++  GS  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|47605384|sp|P61395.1|CRCB_METMP</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Methanococcus maripaludis S2]</Hit_def>
+  <Hit_accession>P61395</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>4.21237e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIG--IFAETVSH--PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLG</Hsp_qseq>
+      <Hsp_hseq>MREILLIGLGGFFGAILRYLVSGIIPVKFGIPTGTLIVNLLGSFIIGFLIYSSLFGSLSTEYRLFIITGFCGALTTFSTFSYESFTMLEHNYYLKTGLNILLNVFGCLGMVYLG</Hsp_hseq>
+      <Hsp_midline>+  IL + +G  FG   R+L++  +P      TG L  N  G+ +IG  I++        +++L +ITGF G+LTT S FS E+ T+L+ N       NI L+  G L + +LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|24211590|sp|Q92QE1.1|CRCB_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q92QE1</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>5.7898e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>LSNILPLSIGAIFGTTARWLLNLAVPASLSPAT--GNLFANWTGALLIGIFAETVSH-----PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAV</Hsp_qseq>
+      <Hsp_hseq>MNHILLVGAGGALGSVLRYLVGLWMLQRAGPAFPWGTLFVNVTGSFLIGFLAEFIMHKMGASPEMRVFLITGVLGGYTTFSAFSLDAIALLEHGQTMSGLAYIVASVGLSMLAVFAGLALMRAM</Hsp_hseq>
+      <Hsp_midline>+++IL +  G   G+  R+L+ L +     PA   G LF N TG+ LIG  AE + H     P+ ++ LITG  G  TT S FSL+ + LL+  +  S LA I      S+L  + GL +  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|226709240|sp|B7NLY4.1|CRCB_ECO7I</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Escherichia coli IAI39]</Hit_def>
+  <Hit_accession>B7NLY4</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>5.90165e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLT</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWLLSMRFNPLHQAIPLGTLTANLIGAFIIGMGFAWFSRMTNIDPVWKVLITTGFCGGLTTFSTFSAEVVFLLQEGRFGWTLLNVFVNLLGSFAMT</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARWLL++   P   +   G L AN  GA +IG+    F+   +  P WK+L+ TGF G LTT S FS E V LLQ  R    L N+F++  GS  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|18202581|sp|Q58918.1|CRCB_METJA</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58918</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>6.12215e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIG-IFAETVSHP---QWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAV</Hsp_qseq>
+      <Hsp_hseq>MIRELLLIGVGGFFGAIFRYLISGIVPVKFGLPTGTLAVNLIGSFILGFLLYCSLFAPIPTEYKLFIGTGFCGALTTFSTFSYETFVLVDEGLLFKALLNILINVVGCLIMVYFGRVLALAI</Hsp_hseq>
+      <Hsp_midline>M+  +L + +G  FG   R+L++  VP      TG L  N  G+ ++G +   ++  P   ++KL + TGF G+LTT S FS ET  L+       AL NI ++  G L++ + G  +  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|47605477|sp|Q89RX3.1|CRCB2_BRADU</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB 2 [Bradyrhizobium diazoefficiens USDA 110]</Hit_def>
+  <Hit_accession>Q89RX3</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>6.49872e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPAT--GNLFANWTGALLIGIFAETVSHPQ--------WKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANI</Hsp_qseq>
+      <Hsp_hseq>VLSGVIAIVVGSVLGGCARYFISGAVARRLGETFPWGTMTINVTGAFLIGIFGALATHPGSMFASPNPW-LFAVTGFLGCYTTVSSFSLQTLTLARNGEPMHALGNV</Hsp_hseq>
+      <Hsp_midline>+LS ++ + +G++ G  AR+ ++ AV   L      G +  N TGA LIGIF    +HP         W L  +TGF G  TT+S FSL+T+TL ++  P  AL N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|259586026|sp|C6DBV4.1|CRCB_PECCP</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DBV4</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>8.22746e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPAT--GNLFANWTGALLIG-IFAETVSHPQ----WKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGT</Hsp_qseq>
+      <Hsp_hseq>MFSTLLAVFIGGGVGSVARWQLGVKFN-NLYPTLPLGTLLANLIGAFVIGGALAFFLRHPHLDQDWKILITTGLCGGLTTFSTFSAEVIMFLQSGQLAAAGLHVLLNLAGSLLMTALAFALVT</Hsp_hseq>
+      <Hsp_midline>M S +L + IG   G+ ARW L +    +L P    G L AN  GA +IG   A  + HP     WK+L+ TG  G LTT S FS E +  LQS + A+A  ++ L+ AGSLL+T L   + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|226709229|sp|B1YUI2.1|CRCB_BURA4</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>B1YUI2</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.16392e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAVPASLSPAT--GNLFANWTGALLIGIFAETVSH-----PQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGL</Hsp_qseq>
+      <Hsp_hseq>MFYSIVAIFVGAGFGAVLRWFLALALN-EFFPAVPLGTLAANLIGGYVIGVAAVVFTARVGLPPEWRLFVITGFLGGLTTFSTYSVEVMTHAVQGEFGWAIAVAALHLTGSFTLTALGM</Hsp_hseq>
+      <Hsp_midline>M  +I+ + +GA FG   RW L LA+     PA   G L AN  G  +IG+ A   +      P+W+L +ITGF G LTT S +S+E +T         A+A   LH  GS  LT LG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|226709247|sp|B7LLI6.1|CRCB_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LLI6</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.17812e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MLSNILPLSIGAIFGTTARWLLNLAV-PASLSPATGNLFANWTGALLIGI----FAETVS-HPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTA</Hsp_qseq>
+      <Hsp_hseq>MLQLLLAVFIGGGTGSVARWMLSMRFNPLHQAIPLGTLAANLLGAFIIGMGFAWFSRMTNIDPVWKVLITTGFCGGLTTFSTFSAEVVFLLQEGRFGWAMLNVLVNLLGSFAMTALAFWIFSA</Hsp_hseq>
+      <Hsp_midline>ML  +L + IG   G+ ARW+L++   P   +   G L AN  GA +IG+    F+   +  P WK+L+ TGF G LTT S FS E V LLQ  R   A+ N+ ++  GS  +T L   I +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|47605439|sp|Q7VPN2.1|CRCB_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Putative fluoride ion transporter CrcB [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VPN2</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>3.18371e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>LSNILPLSIGAIFGTTARWLLNLAV---PASLSPATGNLFANWTGALLIGIFAETVSHPQWKLLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKI</Hsp_qseq>
+      <Hsp_hseq>MMNMLLVSLGAVAGAILRW--QLAVWFNPFLTQFAFGTLFVNLCGCFLIGITLGVNLQDAQKLLFVTGFLGSFTTFSSFSAEVSQFILSEKYWRGLAVISAHLIGGLVLTILGILV</Hsp_hseq>
+      <Hsp_midline>+ N+L +S+GA+ G   RW   LAV   P     A G LF N  G  LIGI          KLL +TGF GS TT S FS E    + S +    LA I  H  G L+LT LG+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

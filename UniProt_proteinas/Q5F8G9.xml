@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-03-21" modified="2015-01-07" version="52">
+<accession>Q5F8G9</accession>
+<name>NNRD_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">ADP-dependent (S)-NAD(P)H-hydrate dehydratase</fullName>
+<ecNumber evidence="1">4.2.1.136</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">ADP-dependent NAD(P)HX dehydratase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">nnrD</name>
+<name type="ordered locus">NGO0804</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the dehydration of the S-form of NAD(P)HX at the expense of ADP, which is converted to AMP. Together with NAD(P)HX epimerase, which catalyzes the epimerization of the S- and R-forms, the enzyme allows the repair of both epimers of NAD(P)HX, a damaged form of NAD(P)H that is a result of enzymatic or heat-dependent hydration.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">ADP + (6S)-6-beta-hydroxy-1,4,5,6-tetrahydronicotinamide adenine-dinucleotide = AMP + phosphate + NADH.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">ADP + (6S)-6-beta-hydroxy-1,4,5,6-tetrahydronicotinamide adenine-dinucleotide phosphate = AMP + phosphate + NADPH.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homotetramer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the NnrD/CARKD family.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Contains 1 YjeF C-terminal domain.</text>
+</comment>
+<dbReference type="EC" id="4.2.1.136" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89518.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207930.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8G9"/>
+<dbReference type="STRING" id="242231.NGO0804"/>
+<dbReference type="EnsemblBacteria" id="AAW89518">
+<property type="protein sequence ID" value="AAW89518"/>
+<property type="gene ID" value="NGO0804"/>
+</dbReference>
+<dbReference type="GeneID" id="3281980"/>
+<dbReference type="KEGG" id="ngo:NGO0804"/>
+<dbReference type="PATRIC" id="20334762">
+<property type="gene designation" value="VBINeiGon24812_0951"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0063"/>
+<dbReference type="HOGENOM" id="HOG000024581"/>
+<dbReference type="OMA" id="PEATYWR"/>
+<dbReference type="OrthoDB" id="EOG6C018D"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-760-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052855">
+<property type="term" value="F:ADP-dependent NAD(P)H-hydrate dehydratase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046496">
+<property type="term" value="P:nicotinamide nucleotide metabolic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.1190.20">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01965">
+<property type="entry name" value="NADHX_dehydratase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029056">
+<property type="entry name" value="Ribokinase-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000631">
+<property type="entry name" value="YjeF_C"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01256">
+<property type="entry name" value="Carb_kinase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53613">
+<property type="entry name" value="SSF53613"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00196">
+<property type="entry name" value="yjeF_cterm"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51383">
+<property type="entry name" value="YJEF_C_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0520">NAD</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="ADP-dependent (S)-NAD(P)H-hydrate dehydratase" id="PRO_0000416146">
+<location>
+<begin position="1"/>
+<end position="296"/>
+</location>
+</feature>
+<feature type="domain" description="YjeF C-terminal" evidence="1">
+<location>
+<begin position="18"/>
+<end position="292"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ADP" evidence="1">
+<location>
+<begin position="202"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ADP" evidence="1">
+<location>
+<begin position="222"/>
+<end position="231"/>
+</location>
+</feature>
+<feature type="region of interest" description="NAD(P)HX" evidence="1">
+<location>
+<begin position="165"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="binding site" description="NAD(P)HX; via amide nitrogen" evidence="1">
+<location>
+<position position="111"/>
+</location>
+</feature>
+<feature type="binding site" description="NAD(P)HX" evidence="1">
+<location>
+<position position="232"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_01965"/>
+</source>
+</evidence>
+<sequence length="296" mass="30241" checksum="05E38075637EC2FB" modified="2005-03-15" version="1">
+MFPVFHLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASA
+AMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVE
+TVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQV
+QADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGS
+LLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAPAARWLRNWITESM
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

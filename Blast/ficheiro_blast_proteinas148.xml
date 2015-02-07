@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>5391</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>139</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>5391</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75355995|sp|Q5F882.1|FITB_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Toxin FitB; AltName: Full=Ribonuclease FitB; Short=RNase FitB; AltName: Full=Trafficking protein B [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F882</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>1.96953e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MILLDTNVISEPLRPQPNERVVAWLDSLILEDVYLSAITVAELRLGVALLLNGKKKNVLHERLEQSILPLFAGRILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRDTGSFFAADVAVFNPWHD</Hsp_qseq>
+      <Hsp_hseq>MILLDTNVISEPLRPQPNERVVAWLDSLILEDVYLSAITVAELRLGVALLLNGKKKNVLHERLEQSILPLFAGRILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRDTGSFFAADVAVFNPWHD</Hsp_hseq>
+      <Hsp_midline>MILLDTNVISEPLRPQPNERVVAWLDSLILEDVYLSAITVAELRLGVALLLNGKKKNVLHERLEQSILPLFAGRILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRDTGSFFAADVAVFNPWHD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2496669|sp|P55511.1|Y4JK_RHISN</Hit_id>
+  <Hit_def>RecName: Full=VapC ribonuclease Y4jK; Short=RNase Y4jK; AltName: Full=Putative plasmid stability protein Y4jK; AltName: Full=Toxin Y4jK [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55511</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>2.92542e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MILLDTNVISEPLRPQPNERVVAWLDSLILEDVYLSAITVAELRLGVALLLNGKKKNVLHERLEQSILPLFAGRILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRDTGSFFAADVAVFNPWH</Hsp_qseq>
+      <Hsp_hseq>MIVLDTNVISELWKAEPDRAVLAWIDAQMIETLYLSAITVAELRFGLAAMPAGKRRTIFQNRLEGEVLPALAGRVLPFDLDASRSYADLMAQAKTSGKVIGKADGYIAATAVAHGFMVATRDTSPFEAAGLDIINPWE</Hsp_hseq>
+      <Hsp_midline>MI+LDTNVISE  + +P+  V+AW+D+ ++E +YLSAITVAELR G+A +  GK++ +   RLE  +LP  AGR+LPFD   +  YA + + AKT GK I  ADGYIAATA  H   VATRDT  F AA + + NPW </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|29840857|sp|Q52562.2|STBB_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Plasmid stability protein StbB; AltName: Full=Ribonuclease StbB; Short=RNase StbB; AltName: Full=Toxin StbB [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q52562</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>1.13168e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MILLDTNVISEPLRPQPNERVVAWLDSLILEDVYLSAITVAELRLGVALLLNGKKKNVLHERLEQSILPLFAGRILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRDTGSFFAADVAVFNPWH</Hsp_qseq>
+      <Hsp_hseq>MILLDTNVISEPQRREPNAHVLDWIDAQALETLYLSTITVAELRAGIALMPVGKRQDSLRENLEKHLLPMFANRVLSFDMTCTKAYAELLAKSRAAGLAVETADAFIAAIALANGFTVATRDTGPFEAAGLNVINPWE</Hsp_hseq>
+      <Hsp_midline>MILLDTNVISEP R +PN  V+ W+D+  LE +YLS ITVAELR G+AL+  GK+++ L E LE+ +LP+FA R+L FD      YA++ + ++  G  +  AD +IAA A  +  TVATRDTG F AA + V NPW </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81345972|sp|P96917.2|VAPC5_MYCTU</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease VapC5; Short=RNase VapC5; AltName: Full=Toxin VapC5 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P96917</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000178668</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DSLILEDVYLSAITVAELRLGVALLLNGKKKNVLHERLE--QSILPLFAGRILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRD</Hsp_qseq>
+      <Hsp_hseq>EALIPDRVATTVVTLAELRVGV---LAAATTDIRAQRLATLESVADM---ETLPVDDDAARMWARLRIHLAESGRRVRINDLWIAAVAASRALPVITQD</Hsp_hseq>
+      <Hsp_midline>++LI + V  + +T+AELR+GV   L     ++  +RL   +S+  +     LP D+  A ++A++R +    G+ +   D +IAA A   +L V T+D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000178668</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DSLILEDVYLSAITVAELRLGVALLLNGKKKNVLHERLE--QSILPLFAGRILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRD</Hsp_qseq>
+      <Hsp_hseq>EALIPDRVATTVVTLAELRVGV---LAAATTDIRAQRLATLESVADM---ETLPVDDDAARMWARLRIHLAESGRRVRINDLWIAAVAASRALPVITQD</Hsp_hseq>
+      <Hsp_midline>++LI + V  + +T+AELR+GV   L     ++  +RL   +S+  +     LP D+  A ++A++R +    G+ +   D +IAA A   +L V T+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1723252|sp|Q10182.1|ERFD_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Ras modification protein erf4; AltName: Full=Meiotically up-regulated gene 91 protein [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q10182</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0118632</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>NVLHERLEQSILPLFAGRILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVAT-RDTG</Hsp_qseq>
+      <Hsp_hseq>HTLNEKLREAFCPWSIGNLLDGILSVLTIYISEFVFGSIHRKRIGAIDLYILDFATQHNLYVASLRNMG</Hsp_hseq>
+      <Hsp_midline>+ L+E+L ++  P   G +L     V  IY     +   H K I A D YI   A QH+L VA+ R+ G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0118632</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>NVLHERLEQSILPLFAGRILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVAT-RDTG</Hsp_qseq>
+      <Hsp_hseq>HTLNEKLREAFCPWSIGNLLDGILSVLTIYISEFVFGSIHRKRIGAIDLYILDFATQHNLYVASLRNMG</Hsp_hseq>
+      <Hsp_midline>+ L+E+L ++  P   G +L     V  IY     +   H K I A D YI   A QH+L VA+ R+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|613779508|sp|P9WF98.1|VPC14_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease VapC14; Short=RNase VapC14; AltName: Full=Toxin VapC14 [Mycobacterium tuberculosis CDC1551] &gt;gi|613779517|sp|P9WF99.1|VPC14_MYCTU RecName: Full=Ribonuclease VapC14; Short=RNase VapC14; AltName: Full=Toxin VapC14 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WF98</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0156774</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>LLDTNVISEPLRPQPNERVVAWLDSLILEDVYLSAITVAELRLGV</Hsp_qseq>
+      <Hsp_hseq>VLDTNVVSALRVPGRHPAVAAWADSVQVAEQFVVAITLAEIERGV</Hsp_hseq>
+      <Hsp_midline>+LDTNV+S    P  +  V AW DS+ + + ++ AIT+AE+  GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81341026|sp|O07783.3|VAPC4_MYCTU</Hit_id>
+  <Hit_def>RecName: Full=Toxin VapC4; AltName: Full=Ribonuclease VapC4; Short=RNase VapC4; AltName: Full=VapC-mt4 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>O07783</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.101803</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>LSAITVAELRLGVALLLNGKKKNVLHERLEQSILPLFAGRILPF--DEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRDTGSFFAADVAVFN</Hsp_qseq>
+      <Hsp_hseq>VSVVTLGELRLGV---LQASGPEAAARRLSTYQL---AQRFEPLGIDEAVSEAWALLVSKLRAAKLRVPINDSWIAATAVAHGIAILTQDNDYAAMPDVEVIT</Hsp_hseq>
+      <Hsp_midline>+S +T+ ELRLGV   L          RL    L   A R  P   DE V+  +A + S  +     +   D +IAATA  H + + T+D       DV V  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.101803</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>LSAITVAELRLGVALLLNGKKKNVLHERLEQSILPLFAGRILPF--DEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRDTGSFFAADVAVFN</Hsp_qseq>
+      <Hsp_hseq>VSVVTLGELRLGV---LQASGPEAAARRLSTYQL---AQRFEPLGIDEAVSEAWALLVSKLRAAKLRVPINDSWIAATAVAHGIAILTQDNDYAAMPDVEVIT</Hsp_hseq>
+      <Hsp_midline>+S +T+ ELRLGV   L          RL    L   A R  P   DE V+  +A + S  +     +   D +IAATA  H + + T+D       DV V  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2829491|sp|P71363.1|VAPC2_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease VapC2; Short=RNase VapC2; AltName: Full=Toxin VapC2 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P71363</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.287399</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>LLDTNVISEPLRPQPNERVVAWLDSLILEDVYLSAITVAELRLGVALLLNGKKKNVLHERLEQSILPLFAGR--ILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRDTGSF</Hsp_qseq>
+      <Hsp_hseq>MLDTNIVIYVIKRRPLEILSRFNQNA--GKMCVSSITVAELYYGA-------EKSEYPER-NIAVIEDFLSRLTILDYQPKHAAHFGNIKAELSKQGKLIGENDIHIAAHARSEGLILVSNNLREF</Hsp_hseq>
+      <Hsp_midline>+LDTN++   ++ +P E +  +  +     + +S+ITVAEL  G        +K+   ER   +++  F  R  IL +    AA +  I++     GK I   D +IAA A+   L + + +   F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.287399</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>LLDTNVISEPLRPQPNERVVAWLDSLILEDVYLSAITVAELRLGVALLLNGKKKNVLHERLEQSILPLFAGR--ILPFDEPVAAIYAQIRSYAKTHGKEIAAADGYIAATAKQHSLTVATRDTGSF</Hsp_qseq>
+      <Hsp_hseq>MLDTNIVIYVIKRRPLEILSRFNQNA--GKMCVSSITVAELYYGA-------EKSEYPER-NIAVIEDFLSRLTILDYQPKHAAHFGNIKAELSKQGKLIGENDIHIAAHARSEGLILVSNNLREF</Hsp_hseq>
+      <Hsp_midline>+LDTN++   ++ +P E +  +  +     + +S+ITVAEL  G        +K+   ER   +++  F  R  IL +    AA +  I++     GK I   D +IAA A+   L + + +   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|586243|sp|Q07861.1|VL1_HPV63</Hit_id>
+  <Hit_def>RecName: Full=Major capsid protein L1 [Human papillomavirus type 63]</Hit_def>
+  <Hit_accession>Q07861</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.00901</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KEIAAADGYIAATAKQHSLTVATRD-----TGSFFAADVAVFN</Hsp_qseq>
+      <Hsp_hseq>KEKVPTSAYIAAKAEQPQNTIATDNYFVAPSGSLVSSDVQIFN</Hsp_hseq>
+      <Hsp_midline>KE      YIAA A+Q   T+AT +     +GS  ++DV +FN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.00901</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KEIAAADGYIAATAKQHSLTVATRD-----TGSFFAADVAVFN</Hsp_qseq>
+      <Hsp_hseq>KEKVPTSAYIAAKAEQPQNTIATDNYFVAPSGSLVSSDVQIFN</Hsp_hseq>
+      <Hsp_midline>KE      YIAA A+Q   T+AT +     +GS  ++DV +FN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>60153</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>61</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>60153</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>61</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75410041|sp|Q9AEU1.1|NSS_STRGN</Hit_id>
+  <Hit_def>RecName: Full=Putative sugar transferase Nss [Streptococcus gordonii]</Hit_def>
+  <Hit_accession>Q9AEU1</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.22384</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>EKPELAQERLKNQ-GLLWDVELNPEEQKNFESAKVAKKPYTY</Hsp_qseq>
+      <Hsp_hseq>SRPELLLELSKGGLGLVWGVEDNPADEPEYYGLNISHKSATY</Hsp_hseq>
+      <Hsp_midline> +PEL  E  K   GL+W VE NP ++  +    ++ K  TY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|82000315|sp|Q5UQX5.1|YR883_MIMIV</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein R883 [Acanthamoeba polyphaga mimivirus]</Hit_def>
+  <Hit_accession>Q5UQX5</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.72695</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>MYHYQSEATQFLNRLIEEKPELAQERL-----KNQGLLWDVELNPEEQ</Hsp_qseq>
+      <Hsp_hseq>MFHKDTNVKEYFDSIIEKQKELALNKLDILLQKNHNIVWITE-NPGKQ</Hsp_hseq>
+      <Hsp_midline>M+H  +   ++ + +IE++ ELA  +L     KN  ++W  E NP +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|238064922|sp|A8YUT2.1|DAPEL_LACH4</Hit_id>
+  <Hit_def>RecName: Full=N-acetyldiaminopimelate deacetylase [Lactobacillus helveticus DPC 4571]</Hit_def>
+  <Hit_accession>A8YUT2</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.08418</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>NQGLLWDVELNPEEQKNFES</Hsp_qseq>
+      <Hsp_hseq>NQGGYWPVENNPELTKNFIS</Hsp_hseq>
+      <Hsp_midline>NQG  W VE NPE  KNF S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|226701389|sp|B7KCF5.1|SYS_CYAP7</Hit_id>
+  <Hit_def>RecName: Full=Serine--tRNA ligase; AltName: Full=Seryl-tRNA synthetase; Short=SerRS; AltName: Full=Seryl-tRNA(Ser/Sec) synthetase [Cyanothece sp. PCC 7424]</Hit_def>
+  <Hit_accession>B7KCF5</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.41025</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>IEEKPELAQERLKNQGLLWDVELNP-----EEQKNFESAKV</Hsp_qseq>
+      <Hsp_hseq>IRENPELVQEKLNRRSAAKDYDLTPILQLDERQRELESSRV</Hsp_hseq>
+      <Hsp_midline>I E PEL QE+L  +    D +L P     E Q+  ES++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|166222761|sp|A2C409.1|SYS_PROM1</Hit_id>
+  <Hit_def>RecName: Full=Serine--tRNA ligase; AltName: Full=Seryl-tRNA synthetase; Short=SerRS; AltName: Full=Seryl-tRNA(Ser/Sec) synthetase [Prochlorococcus marinus str. NATL1A]</Hit_def>
+  <Hit_accession>A2C409</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.06234</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>RLIEEKPELAQERLKNQGLLWDVELNP</Hsp_qseq>
+      <Hsp_hseq>RLLRENPNLISEGLKSRGM--DVDLGP</Hsp_hseq>
+      <Hsp_midline>RL+ E P L  E LK++G+  DV+L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123620933|sp|Q46JN0.1|SYS_PROMT</Hit_id>
+  <Hit_def>RecName: Full=Serine--tRNA ligase; AltName: Full=Seryl-tRNA synthetase; Short=SerRS; AltName: Full=Seryl-tRNA(Ser/Sec) synthetase [Prochlorococcus marinus str. NATL2A]</Hit_def>
+  <Hit_accession>Q46JN0</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.2108</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>RLIEEKPELAQERLKNQGLLWDVELNP</Hsp_qseq>
+      <Hsp_hseq>RLLRENPNLISEGLKSRGM--DVDLGP</Hsp_hseq>
+      <Hsp_midline>RL+ E P L  E LK++G+  DV+L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|46397900|sp|Q60310.2|Y3411_METJA</Hit_id>
+  <Hit_def>RecName: Full=UPF0304 protein MJECS11 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q60310</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>8.63745</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>YQSEATQFLNRLIEEKPELAQERLKNQGLLWDVELNPEEQKNFESAKVAKKPYTYYQ</Hsp_qseq>
+      <Hsp_hseq>YEIFYDEILGHIFDELPESEGQFVLDILSFYDIVVEPYKQKNPNDHEIINHPYSYFK</Hsp_hseq>
+      <Hsp_midline>Y+    + L  + +E PE   + + +    +D+ + P +QKN    ++   PY+Y++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

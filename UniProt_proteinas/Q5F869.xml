@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-02-04" version="54">
+<accession>Q5F869</accession>
+<name>Q5F869_NEIG1</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Putative succinate dehydrogenase hydrophobic membrane anchor protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="3">NGO0922</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>heme</name>
+<dbReference type="ChEBI" id="CHEBI:30413"/>
+</cofactor>
+<text evidence="2">The heme is bound between the two transmembrane subunits.</text>
+</comment>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89618.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208030.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F869"/>
+<dbReference type="STRING" id="242231.NGO0922"/>
+<dbReference type="EnsemblBacteria" id="AAW89618">
+<property type="protein sequence ID" value="AAW89618"/>
+<property type="gene ID" value="NGO0922"/>
+</dbReference>
+<dbReference type="GeneID" id="3281726"/>
+<dbReference type="KEGG" id="ngo:NGO0922"/>
+<dbReference type="PATRIC" id="20335027">
+<property type="gene designation" value="VBINeiGon24812_1083"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2142"/>
+<dbReference type="HOGENOM" id="HOG000160364"/>
+<dbReference type="KO" id="K00242"/>
+<dbReference type="OMA" id="GFWVIRI"/>
+<dbReference type="OrthoDB" id="EOG6SV5BS"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-860-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0020037">
+<property type="term" value="F:heme binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000104">
+<property type="term" value="F:succinate dehydrogenase activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006099">
+<property type="term" value="P:tricarboxylic acid cycle"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014312">
+<property type="entry name" value="Succ_DH_anchor"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000701">
+<property type="entry name" value="Succ_DH_Fumarate_Rdtase_TM-su"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01127">
+<property type="entry name" value="Sdh_cyt"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000169">
+<property type="entry name" value="SDH_D"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR02968">
+<property type="entry name" value="succ_dehyd_anc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0349" evidence="2">Heme</keyword>
+<keyword id="KW-0408" evidence="2">Iron</keyword>
+<keyword id="KW-0479" evidence="2">Metal-binding</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="metal ion-binding site" description="Iron (heme axial ligand); shared with second transmembrane subunit" evidence="2">
+<location>
+<position position="70"/>
+</location>
+</feature>
+<feature type="binding site" description="Ubiquinone" evidence="1">
+<location>
+<position position="82"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="PIRSR" id="PIRSR000169-1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="PIRSR" id="PIRSR000169-2"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89618.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="113" mass="13113" checksum="6D08D25495857F00" modified="2005-03-15" version="1">
+MVERKLTGAHYGLRDWVMQRATAVIMLIYTVALLVVLFALPKEYPAWQAFFSQAWVKVFT
+QVSFIAVFLHAWVGIRDLWMDYIKPFGVRLFLQVATIVWLVGCLVYSVKVIWG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

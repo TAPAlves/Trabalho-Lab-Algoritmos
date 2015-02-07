@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-06-07" modified="2015-01-07" version="59">
+<accession>Q5F8E8</accession>
+<name>HSCA_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Chaperone protein HscA homolog</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">hscA</name>
+<name type="ordered locus">NGO0829</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Chaperone involved in the maturation of iron-sulfur cluster-containing proteins. Has a low intrinsic ATPase activity which is markedly stimulated by HscB.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the heat shock protein 70 family.</text>
+</comment>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89539.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207951.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8E8"/>
+<dbReference type="SMR" id="Q5F8E8">
+<property type="residue range" value="393-619"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0829"/>
+<dbReference type="EnsemblBacteria" id="AAW89539">
+<property type="protein sequence ID" value="AAW89539"/>
+<property type="gene ID" value="NGO0829"/>
+</dbReference>
+<dbReference type="GeneID" id="3282201"/>
+<dbReference type="KEGG" id="ngo:NGO0829"/>
+<dbReference type="PATRIC" id="20334816">
+<property type="gene designation" value="VBINeiGon24812_0978"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0443"/>
+<dbReference type="HOGENOM" id="HOG000228136"/>
+<dbReference type="KO" id="K04044"/>
+<dbReference type="OMA" id="NSLVAYM"/>
+<dbReference type="OrthoDB" id="EOG6JMMSV"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-781-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016887">
+<property type="term" value="F:ATPase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016226">
+<property type="term" value="P:iron-sulfur cluster assembly"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006457">
+<property type="term" value="P:protein folding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.20.1270.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.34.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00679">
+<property type="entry name" value="HscA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018181">
+<property type="entry name" value="Heat_shock_70_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029048">
+<property type="entry name" value="HSP70_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029047">
+<property type="entry name" value="HSP70_peptide-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013126">
+<property type="entry name" value="Hsp_70_fam"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010236">
+<property type="entry name" value="ISC_FeS_clus_asmbl_HscA"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00012">
+<property type="entry name" value="HSP70"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00301">
+<property type="entry name" value="HEATSHOCK70"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF100920">
+<property type="entry name" value="SSF100920"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF100934">
+<property type="entry name" value="SSF100934"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01991">
+<property type="entry name" value="HscA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00297">
+<property type="entry name" value="HSP70_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00329">
+<property type="entry name" value="HSP70_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01036">
+<property type="entry name" value="HSP70_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0143">Chaperone</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Chaperone protein HscA homolog" id="PRO_0000078633">
+<location>
+<begin position="1"/>
+<end position="620"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00679"/>
+</source>
+</evidence>
+<sequence length="620" mass="66421" checksum="D442DE26A8679F04" modified="2005-03-15" version="1">
+MALLQISEPGMSAAPHRHRLAAGIDLGTTNSLVATVRSGSAACLPDADGRVTLPSVVRYL
+ENGGIEVGKTALSAQKTDPLNTVSSAKRLIGRTLADLHQNTHYLPYRFGDNQRFIELHTR
+QGVKTPVEVSAEILKTLKLRAEETLGGDLVGVVITVPAYFDDAQRQATKDAARLAGLNVL
+RLLNEPTAAAIAYGLDNASEGTFVVYDLGGGTFDVSVLQLTKGLFEVKATGGNSALGGDD
+FDHRLFCYLLEQNRLSQLNEQDSQLLLSLVRAAKEQLTTQTEARIQATLSDGMAIDTSIS
+RAEFHNLTQHLVMKTLEPVKQALKDAGVGKNEVKGVVMVGGSTRMPHVQQAVATFFGQTP
+LNNLNPDEVVALGAAIQANVLAGNKADGEWLLLDVTPLSLGLETYGGLAEKIIPRNSTIP
+TARAQDFTTFKDGQTAMTIHVVQGERELVSDCRSLAKFTLRGIPPMAAGAARIRVTFQID
+ADGLLSVSAQEQSTGVQAQIEVKPSYGLDDDTITQMLKDSMGNAAEDMAARARAEAVVEA
+ESLTDAVNAALELDSDLLDAEEFAQIQRDIADLQGRLKDGKAEDIRAAVAKLSRSTDNFA
+AKRMNRNIQRALTGQSVDNI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

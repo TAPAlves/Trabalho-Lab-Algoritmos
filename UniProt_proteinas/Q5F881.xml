@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-05-03" modified="2015-01-07" version="62">
+<accession>Q5F881</accession>
+<accession>Q9RF92</accession>
+<name>FITA_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName>Antitoxin FitA</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Trafficking protein A</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">fitA</name>
+<name type="synonym">vapB</name>
+<name type="ordered locus">NGO0908</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2000" name="Infect. Immun." volume="68" first="896" last="905">
+<title>Isolation of Neisseria gonorrhoeae mutants that show enhanced trafficking across polarized T84 epithelial monolayers.</title>
+<authorList>
+<person name="Hopper S."/>
+<person name="Wilbur J.S."/>
+<person name="Vasquez B.L."/>
+<person name="Larson J."/>
+<person name="Clary S."/>
+<person name="Mehr I.J."/>
+<person name="Seifert H.S."/>
+<person name="So M."/>
+</authorList>
+<dbReference type="PubMed" id="10639460"/>
+<dbReference type="DOI" id="10.1128/IAI.68.2.896-905.2000"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+<strain>MS11A</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2005" name="Biochemistry" volume="44" first="12515" last="12524">
+<title>Neisseria gonorrhoeae FitA interacts with FitB to bind DNA through its ribbon-helix-helix motif.</title>
+<authorList>
+<person name="Wilbur J.S."/>
+<person name="Chivers P.T."/>
+<person name="Mattison K."/>
+<person name="Potter L."/>
+<person name="Brennan R.G."/>
+<person name="So M."/>
+</authorList>
+<dbReference type="PubMed" id="16156663"/>
+<dbReference type="DOI" id="10.1021/bi0511080"/>
+</citation>
+<scope>DNA-BINDING</scope>
+<scope>SUBUNIT</scope>
+<scope>MUTAGENESIS OF ARG-7</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="J. Biol. Chem." volume="281" first="37942" last="37951">
+<title>Structure of FitAB from Neisseria gonorrhoeae bound to DNA reveals a tetramer of toxin-antitoxin heterodimers containing pin domains and ribbon-helix-helix motifs.</title>
+<authorList>
+<person name="Mattison K."/>
+<person name="Wilbur J.S."/>
+<person name="So M."/>
+<person name="Brennan R.G."/>
+</authorList>
+<dbReference type="PubMed" id="16982615"/>
+<dbReference type="DOI" id="10.1074/jbc.M605198200"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 2-78 IN COMPLEX WITH FITB BOUND TO DNA</scope>
+<scope>SUBUNIT</scope>
+<scope>DNA-BINDING</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="3">Antitoxin component of a toxin-antitoxin (TA) module. Plays a role in the speed with which bacteria traverse human epithelial cells; disruption of the locus increases the speed of trafficking about 2-4-fold. Binds to its own promoter, binding affinity of the FitAB complex is 20-30-fold higher than FitA alone. No nuclease activity was observed for the FitAB complex, perhaps because FitA (the antitoxin) prevents metal binding and thus catalysis by FitB.</text>
+</comment>
+<comment type="subunit">
+<text evidence="4 5">Homodimer in the absence of FitB; forms a heterodimer with FitB; 4 FitAB heterodimers form a complex that binds to fitAB promoter DNA. The complex is also seen in solution.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="3">Disruption of the fitAB operon leads to faster transepithelial cell trafficking of the bacterium; mutants adhere to and invade cells normally. Mutants grow normally in liquid culture but much faster within human cell lines A431 and T84; these latter 2 phenotypes were observed using MS11A bacteria with a disrupted fitAB locus.</text>
+</comment>
+<dbReference type="EMBL" id="AF200716">
+<property type="protein sequence ID" value="AAF19188.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89606.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_003688410.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208018.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="PDB" id="2BSQ">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.00"/>
+<property type="chains" value="E/F/G/H=2-78"/>
+</dbReference>
+<dbReference type="PDB" id="2H1C">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="B=46-64"/>
+</dbReference>
+<dbReference type="PDB" id="2H1O">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.00"/>
+<property type="chains" value="E/F/G/H=2-69"/>
+</dbReference>
+<dbReference type="PDBsum" id="2BSQ"/>
+<dbReference type="PDBsum" id="2H1C"/>
+<dbReference type="PDBsum" id="2H1O"/>
+<dbReference type="ProteinModelPortal" id="Q5F881"/>
+<dbReference type="SMR" id="Q5F881">
+<property type="residue range" value="2-69"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0908"/>
+<dbReference type="EnsemblBacteria" id="AAW89606">
+<property type="protein sequence ID" value="AAW89606"/>
+<property type="gene ID" value="NGO0908"/>
+</dbReference>
+<dbReference type="GeneID" id="3281660"/>
+<dbReference type="KEGG" id="ngo:NGO0908"/>
+<dbReference type="PATRIC" id="20334997">
+<property type="gene designation" value="VBINeiGon24812_1068"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG4691"/>
+<dbReference type="HOGENOM" id="HOG000142203"/>
+<dbReference type="OMA" id="CIMPVIT"/>
+<dbReference type="OrthoDB" id="EOG6HQSV9"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-848-MONOMER"/>
+<dbReference type="EvolutionaryTrace" id="Q5F881"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="IDA:UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043565">
+<property type="term" value="F:sequence-specific DNA binding"/>
+<property type="evidence" value="IDA:UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044001">
+<property type="term" value="P:migration in host"/>
+<property type="evidence" value="IMP:UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006355">
+<property type="term" value="P:regulation of transcription, DNA-templated"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010985">
+<property type="entry name" value="Ribbon_hlx_hlx"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF47598">
+<property type="entry name" value="SSF47598"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0238">DNA-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Antitoxin FitA" id="PRO_0000408086">
+<location>
+<begin position="1"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of DNA-binding, still binds FitB." evidence="4">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="7"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="4"/>
+<end position="6"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="11"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="28"/>
+<end position="43"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="48"/>
+<end position="59"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2BSQ"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2H1C"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10639460"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16156663"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16982615"/>
+</source>
+</evidence>
+<sequence length="78" mass="8434" checksum="29CC28FF3DCD9C73" modified="2005-03-15" version="1">
+MASVVIRNLSEATHNAIKFRARAAGRSTEAEIRLILDNIAKAQQTVRLGSMLASIGQEIG
+GVELEDVRGRNTDNEVSL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

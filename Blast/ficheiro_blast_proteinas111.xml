@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>11665</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>72</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>11665</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>72</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|161788987|sp|P0ACW6.2|YDCH_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YdcH [Escherichia coli K-12] &gt;gi|161788988|sp|P0ACW7.2|YDCH_SHIFL RecName: Full=Uncharacterized protein YdcH [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0ACW6</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.62003e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MFPEYRDLISKLKQENSRFARLFDEHNELDDKITGLANNPVTSGAETIDELKKAKLKLKDELYAILQKAAGK</Hsp_qseq>
+      <Hsp_hseq>MFPEYRDLISRLKNENPRFMSLFDKHNKLDHEIARKEGSDGRGYNAEVVRMKKQKLQLKDEMLKILQQESVK</Hsp_hseq>
+      <Hsp_midline>MFPEYRDLIS+LK EN RF  LFD+HN+LD +I     +        +  +KK KL+LKDE+  ILQ+ + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|166989578|sp|A8GKU7.1|GLGA_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Glycogen synthase; AltName: Full=Starch [bacterial glycogen] synthase [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GKU7</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.256399</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PEYRDLISKLKQENSRFARLFDEHNELDDKITGLANNPVTSGAETIDELK-KAKLKLKDELYAILQKAAG</Hsp_qseq>
+      <Hsp_hseq>PEFGYGMEGLLQERQRQGRLSGILNGVDDKIWDPSHDPRLTARYDADNLKNKAKNKLH------LQKAMG</Hsp_hseq>
+      <Hsp_midline>PE+   +  L QE  R  RL    N +DDKI   +++P  +     D LK KAK KL       LQKA G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|127773|sp|P24733.1|MYS_ARGIR</Hit_id>
+  <Hit_def>RecName: Full=Myosin heavy chain, striated muscle [Argopecten irradians]</Hit_def>
+  <Hit_accession>P24733</Hit_accession>
+  <Hit_len>1938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.329049</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>1485</Hsp_hit-from>
+      <Hsp_hit-to>1546</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>FPEYRDLISKLKQENSRFARLFDEHNELDDKITGLANNPVTSGAETIDELKKAKLKL---KDELYAILQKAAG</Hsp_qseq>
+      <Hsp_hseq>IEEYQDSIGALRRENKNLA---DEIHDLTDQL--------SEGGRSTHELDKARRRLEMEKEELQAALEEAEG</Hsp_hseq>
+      <Hsp_midline>  EY+D I  L++EN   A   DE ++L D++        + G  +  EL KA+ +L   K+EL A L++A G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|129051|sp|P26268.1|ODPT_ASCSU</Hit_id>
+  <Hit_def>RecName: Full=Pyruvate dehydrogenase E1 component subunit alpha type II, mitochondrial; Short=PDHA2; Short=PDHE1-A; Flags: Precursor, partial [Ascaris suum]</Hit_def>
+  <Hit_accession>P26268</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.950045</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>DKITGLANNPVTSGAETIDELKKAKLKLKDELYAILQKA</Hsp_qseq>
+      <Hsp_hseq>DPITGFKDKIVTAGLVTEDELKEVDKEIRKEVDAAVKQA</Hsp_hseq>
+      <Hsp_midline>D ITG  +  VT+G  T DELK+   +++ E+ A +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|187470773|sp|A1VJ84.1|CH601_POLNA</Hit_id>
+  <Hit_def>RecName: Full=60 kDa chaperonin 1; AltName: Full=GroEL protein 1; AltName: Full=Protein Cpn60 1 [Polaromonas naphthalenivorans CJ2]</Hit_def>
+  <Hit_accession>A1VJ84</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.50249</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RDLISKLKQENSRFARLFDEHNELDDKITGLANNP--VTSGAETIDELKKAKLKLKDELYA</Hsp_qseq>
+      <Hsp_hseq>RDRIATIRKERELAASDYDRE-KLDERAAKLSGGVALIKVGAATETELKERKLRVEDALHA</Hsp_hseq>
+      <Hsp_midline>RD I+ +++E    A  +D   +LD++   L+     +  GA T  ELK+ KL+++D L+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|129048|sp|P26267.1|ODPA_ASCSU</Hit_id>
+  <Hit_def>RecName: Full=Pyruvate dehydrogenase E1 component subunit alpha type I, mitochondrial; Short=PDHA1; Short=PDHE1-A; Flags: Precursor [Ascaris suum]</Hit_def>
+  <Hit_accession>P26267</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.21496</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>DKITGLANNPVTSGAETIDELKKAKLKLKDELYAILQKA</Hsp_qseq>
+      <Hsp_hseq>DPITGFKDKIVTAGLVTEDEIKEIDKQVRKEIDAAVKQA</Hsp_hseq>
+      <Hsp_midline>D ITG  +  VT+G  T DE+K+   +++ E+ A +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81385273|sp|Q65IA6.1|FTHS_BACLD</Hit_id>
+  <Hit_def>RecName: Full=Formate--tetrahydrofolate ligase; AltName: Full=Formyltetrahydrofolate synthetase; Short=FHS; Short=FTHFS [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q65IA6</Hit_accession>
+  <Hit_len>559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.62803</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>424</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RDLISKLKQENSRFARLFDEHNELDDKITGLANNPVTSGAETIDELKKAKLKL</Hsp_qseq>
+      <Hsp_hseq>REVIHVMEQKDNRFSYLYELTDSIEDKLAKISRT--VYGAEGVEFTEKAKKQL</Hsp_hseq>
+      <Hsp_midline>R++I  ++Q+++RF+ L++  + ++DK+  ++      GAE ++  +KAK +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|57013149|sp|Q5XCT5.1|Y643_STRP6</Hit_id>
+  <Hit_def>RecName: Full=UPF0342 protein M6_Spy0643 [Streptococcus pyogenes MGAS10394] &gt;gi|57013252|sp|Q8P1H4.1|Y873_STRP8 RecName: Full=UPF0342 protein spyM18_0873 [Streptococcus pyogenes MGAS8232] &gt;gi|150416268|sp|A2RF77.1|Y1181_STRPG RecName: Full=UPF0342 protein SpyM51181 [Streptococcus pyogenes str. Manfredo]</Hit_def>
+  <Hit_accession>Q5XCT5</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.43127</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FPEYRDL--ISKLKQENSRFARLFDEHNELDDKITGLANN---PVTSGAETIDELKKAKLKLKDELYA</Hsp_qseq>
+      <Hsp_hseq>LPEYQKVLEVKEAIQADASASQLFDEFVAMQEKIQGMMQSGQMPTAEEQTSIQELSQ-KIEANDQLKA</Hsp_hseq>
+      <Hsp_midline> PEY+ +  + +  Q ++  ++LFDE   + +KI G+  +   P      +I EL + K++  D+L A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|342179445|sp|P0DH12.1|Y545_STRP3</Hit_id>
+  <Hit_def>RecName: Full=UPF0342 protein SpyM3_0545 [Streptococcus pyogenes MGAS315] &gt;gi|342179446|sp|P0DH13.1|Y545_STRPQ RecName: Full=UPF0342 protein SPs1309 [Streptococcus pyogenes SSI-1]</Hit_def>
+  <Hit_accession>P0DH12</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.57919</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FPEYRDL--ISKLKQENSRFARLFDEHNELDDKITGLANN---PVTSGAETIDELKKAKLKLKDELYA</Hsp_qseq>
+      <Hsp_hseq>LPEYQKVLEVKEAIQADASTSQLFDEFVAMQEKIQGMMQSGQMPTAEEQTSIQELSQ-KIEANDQLKA</Hsp_hseq>
+      <Hsp_midline> PEY+ +  + +  Q ++  ++LFDE   + +KI G+  +   P      +I EL + K++  D+L A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|74626858|sp|O74467.1|SET5_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=SET domain-containing protein 5 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O74467</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.30216</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LISKLKQENSRFARLFDEHNELDDKITGLANNPVTSGAETIDELKKAKLKLKDEL</Hsp_qseq>
+      <Hsp_hseq>LSTKTKEEQEAFHRLFNAHPDTMGPFLG----PFYSNALTIDETKGGMFLLGSRM</Hsp_hseq>
+      <Hsp_midline>L +K K+E   F RLF+ H +      G    P  S A TIDE K     L   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123640113|sp|Q48U87.1|Y605_STRPM</Hit_id>
+  <Hit_def>RecName: Full=UPF0342 protein M28_Spy0605 [Streptococcus pyogenes MGAS6180] &gt;gi|150416304|sp|Q1JME3.1|Y681_STRPC RecName: Full=UPF0342 protein MGAS9429_Spy0681 [Streptococcus pyogenes MGAS9429] &gt;gi|150416305|sp|Q1JHJ0.1|Y681_STRPD RecName: Full=UPF0342 protein MGAS10270_Spy0681 [Streptococcus pyogenes MGAS10270] &gt;gi|150416306|sp|Q1JCG5.1|Y691_STRPB RecName: Full=UPF0342 protein MGAS2096_Spy0691 [Streptococcus pyogenes MGAS2096] &gt;gi|226707983|sp|B5XKU5.1|Y636_STRPZ RecName: Full=UPF0342 protein Spy49_0636 [Streptococcus pyogenes NZ131]</Hit_def>
+  <Hit_accession>Q48U87</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>6.58917</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FPEYRDL--ISKLKQENSRFARLFDEHNELDDKITGLANN---PVTSGAETIDELKKAKLKLKDELYA</Hsp_qseq>
+      <Hsp_hseq>LPEYQKVLEVKEAIQADASASELFDEFVAMQEKIQGMMQSGQMPTAEEQTSIQELSQ-KIEANDQLKA</Hsp_hseq>
+      <Hsp_midline> PEY+ +  + +  Q ++  + LFDE   + +KI G+  +   P      +I EL + K++  D+L A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|74582217|sp|O59725.1|MIC60_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=MICOS complex subunit mic60; AltName: Full=Mitofilin; Flags: Precursor [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O59725</Hit_accession>
+  <Hit_len>550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.26394</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>FPEYRDLISKLKQENSRFARLFDEHNELDDKITGLANNPVTSGAETIDELKKAKLKLKDELYAILQKAAGK</Hsp_qseq>
+      <Hsp_hseq>FQQLQELVRVVLHENGRVTRLVDVSNTLDDLNKDMRFHKLSEVRQHVNTLKEA--TKDDELAALASRVIEK</Hsp_hseq>
+      <Hsp_midline>F + ++L+  +  EN R  RL D  N LDD    +  + ++   + ++ LK+A     DEL A+  +   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|704000362|sp|Q59PD6.2|MAD1_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Spindle assembly checkpoint component MAD1 [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>Q59PD6</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.41614</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>PEYRDLISKLKQE----NSRFARLFDEHNELDDKITG---LANNPVTSGAETIDELKKAKLKLKDELYAILQK</Hsp_qseq>
+      <Hsp_hseq>SDYRKIIDEKNQELENLKLNFKYVYDEKNQLESKLTNQEQVSTNNINQLSDEIQTYKRENLKLTKDYNSLLDK</Hsp_hseq>
+      <Hsp_midline> +YR +I +  QE       F  ++DE N+L+ K+T    ++ N +   ++ I   K+  LKL  +  ++L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

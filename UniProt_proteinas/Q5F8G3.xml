@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="44">
+<accession>Q5F8G3</accession>
+<name>Q5F8G3_NEIG1</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="1">NGO0812</name>
+</gene>
+<organism evidence="1 2">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89524.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207936.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8G3"/>
+<dbReference type="STRING" id="242231.NGO0812"/>
+<dbReference type="EnsemblBacteria" id="AAW89524">
+<property type="protein sequence ID" value="AAW89524"/>
+<property type="gene ID" value="NGO0812"/>
+</dbReference>
+<dbReference type="GeneID" id="3281894"/>
+<dbReference type="KEGG" id="ngo:NGO0812"/>
+<dbReference type="PATRIC" id="20334780">
+<property type="gene designation" value="VBINeiGon24812_0960"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2843"/>
+<dbReference type="HOGENOM" id="HOG000022575"/>
+<dbReference type="OMA" id="VRYGFVS"/>
+<dbReference type="OrthoDB" id="EOG64FKBH"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-766-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019079">
+<property type="entry name" value="Capsule_synth_CapA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029052">
+<property type="entry name" value="Metallo-depent_PP-like"/>
+</dbReference>
+<dbReference type="Pfam" id="PF09587">
+<property type="entry name" value="PGA_cap"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56300">
+<property type="entry name" value="SSF56300"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="2">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="2">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89524.1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="205" mass="22699" checksum="DA0877DDB09FED75" modified="2005-03-15" version="1">
+MNIKYSGIENRFETAILKKNGVRYGFVSFAPNLAAVKLNDYAKFKKLIRKTKQKTDIVIV
+MFHGGAEGKQAEHLPFDTEIFYGENRGNVVEFARLAVDSGADVVFGQGAHVTRAVELYHD
+RFISYSGGNFATYGISGIAPIFKIITDKQGRFVSGNIIPITQVGDKIPKIDPEKTVIERI
+IYLNHSDFPNGNGLDVSPGGDITRR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="74">
+<accession>Q5F8J2</accession>
+<name>Q5F8J2_NEIG1</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative ABC transporter, ATP-binding protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">NGO0781</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="similarity">
+<text evidence="1">Belongs to the ABC transporter superfamily.</text>
+</comment>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89495.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207907.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8J2"/>
+<dbReference type="STRING" id="242231.NGO0781"/>
+<dbReference type="EnsemblBacteria" id="AAW89495">
+<property type="protein sequence ID" value="AAW89495"/>
+<property type="gene ID" value="NGO0781"/>
+</dbReference>
+<dbReference type="GeneID" id="3282192"/>
+<dbReference type="KEGG" id="ngo:NGO0781"/>
+<dbReference type="PATRIC" id="20334708">
+<property type="gene designation" value="VBINeiGon24812_0926"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0488"/>
+<dbReference type="HOGENOM" id="HOG000271640"/>
+<dbReference type="KO" id="K06158"/>
+<dbReference type="OMA" id="NYPVIVE"/>
+<dbReference type="OrthoDB" id="EOG6F297F"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-735-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016887">
+<property type="term" value="F:ATPase activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.300">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003593">
+<property type="entry name" value="AAA+_ATPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003439">
+<property type="entry name" value="ABC_transporter-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017871">
+<property type="entry name" value="ABC_transporter_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00005">
+<property type="entry name" value="ABC_tran"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SMART" id="SM00382">
+<property type="entry name" value="AAA"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00211">
+<property type="entry name" value="ABC_TRANSPORTER_1"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50893">
+<property type="entry name" value="ABC_TRANSPORTER_2"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067" evidence="1 2">ATP-binding</keyword>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0547" evidence="1 2">Nucleotide-binding</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU000684"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89495.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="640" mass="71830" checksum="09A01B16F430C961" modified="2005-03-15" version="1">
+MIEIKNLTLQRGLKVLLDKASAAVNPGQRVGLIGKNGTGKSSLFALIKGEITQDGGDISI
+PKNWRLASVSQETPDLDISALDYVLQGDAELQAFQTALRQAEVQNDGMKQAEYHAKLEEI
+DAYTAPARAAKLLNGLGFSQEEHSRPVKSFSGGWRMRLNLAQALICRADLLLLDEPTNHL
+DLETVLWLENHLASLPCTQIIISHDRDFLNAATTQTIELSQQKLTQYSGNYDFYQTERAQ
+RLAQQQAAYVKQQAQIKHLQSFIDRFKAKATKAVQAQSRMKALAKLERIAPAHLDSEFSF
+EFYNPDHLPNPLLKLEHADLGYEGKTVLHDITLSLESGARYGLLGVNGSGKSTFIKALAG
+KIDLLSGSIVHSEKLNIGYFAQHQLDTIRADQSPVWHIQQLSPEVREQEIRNFLGGFDFV
+GDMALQKTEPFSGGEKARLALAMIIWQKPNLLLLDEPTNHLDLDMRHALTLALQSFQGAL
+IVVSHDRSLLEATTDSFLLIDKGRLKNFDGDLNDYRQWRLAQENAATAPAASTQSQNRKD
+TKRIEAQIRQEKARRSKPIQQKIDKAEKEMVQLSEIQTGCEAFLTQEDAYLEANKEKLQN
+TLSELAKVKTQLAQIEETWLACQEELERIETEIEKQFAER
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

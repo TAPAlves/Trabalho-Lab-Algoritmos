@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>2775</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>215</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>2775</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>215</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81707192|sp|Q7DDE8.1|Y1124_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Putative lipoprotein NMB1124/NMB1162; Flags: Precursor [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q7DDE8</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.017</Hsp_bit-score>
+      <Hsp_score>1094</Hsp_score>
+      <Hsp_evalue>2.70295e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MKPLILGLAAVLALSACQVRKAPDLDYTSFKESKPASILVVPPLNESPDVNGTWGMLASTAAPISEAGYYVFPAAVVEETFKENGLTNAADIHAVRPEKLHQIFGNDAVLYITVTEYGTSYQILDSVTTVSAKARLVDSRNGKELWSGSASIREGSNNSNSGLLGALVGAVVNQIANSLTDRGYQVSKTAAYNLLSPYSRNGILKGPRFVEEQPK</Hsp_qseq>
+      <Hsp_hseq>MKPLILGLAAVLALSACQVQKAPDFDYTSFKESKPASILVVPPLNESPDVNGTWGVLASTAAPLSEAGYYVFPAAVVEETFKQNGLTNAADIHAVRPEKLHQIFGNDAVLYITVTEYGTSYQILDSVTTVSAKARLVDSRNGKELWSGSASIREGSNNSNSGLLGALVSAVVNQIANSLTDRGYQVSKTAAYNLLSPYSHNGILKGPRFVEEQPK</Hsp_hseq>
+      <Hsp_midline>MKPLILGLAAVLALSACQV+KAPD DYTSFKESKPASILVVPPLNESPDVNGTWG+LASTAAP+SEAGYYVFPAAVVEETFK+NGLTNAADIHAVRPEKLHQIFGNDAVLYITVTEYGTSYQILDSVTTVSAKARLVDSRNGKELWSGSASIREGSNNSNSGLLGALV AVVNQIANSLTDRGYQVSKTAAYNLLSPYS NGILKGPRFVEEQPK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|116242809|sp|Q8WXH0.3|SYNE2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Nesprin-2; AltName: Full=Nuclear envelope spectrin repeat protein 2; AltName: Full=Nucleus and actin connecting element protein; Short=Protein NUANCE; AltName: Full=Synaptic nuclear envelope protein 2; Short=Syne-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8WXH0</Hit_accession>
+  <Hit_len>6885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.52093</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>PDLDYTSFKESKPASILVVPPLNESPDVNGTWGMLASTAAPISEAGYYVFPAAVVEETFK---ENGLTNAADIHAVRPE</Hsp_qseq>
+      <Hsp_hseq>PSLDDVSVVDSSPAS---SPPAKKCSKVQARWQMSARKALLLWAQEQCATYESVNVTDFKSSWRNGMAFLAIIHALRPD</Hsp_hseq>
+      <Hsp_midline>P LD  S  +S PAS    PP  +   V   W M A  A  +          +V    FK    NG+   A IHA+RP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|127247|sp|P28611.1|MOTA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Motility protein A; AltName: Full=Chemotaxis protein MotA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P28611</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.90135</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>AAVLALSACQVRKAPDLDYTSFKESKPASI-LVVPPLNESPDVNGTWGMLASTAAPISEAGYYVFPAAV--VEETFKENGLTNAAD</Hsp_qseq>
+      <Hsp_hseq>AVVIAFPTKEIKKVPTLFRVLFKENKQLTIEELIPMFSE-------WAQLA------RREGLLALEASIEDVDDAFLKNGLSMAVD</Hsp_hseq>
+      <Hsp_midline>A V+A    +++K P L    FKE+K  +I  ++P  +E       W  LA         G     A++  V++ F +NGL+ A D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1169025|sp|P24893.2|COX1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I (mitochondrion) [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>P24893</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>3.91197</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>449</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ESPDVNGTWGMLASTAAPISEAGYYVFPAAVVEETFK</Hsp_qseq>
+      <Hsp_hseq>DYPDVYSVWNIIASYGSIISTAGLFLFIYVLLESFFS</Hsp_hseq>
+      <Hsp_midline>+ PDV   W ++AS  + IS AG ++F   ++E  F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|124831|sp|P18286.1|IPNS_STRJU</Hit_id>
+  <Hit_def>RecName: Full=Isopenicillin N synthase; Short=IPNS [Streptomyces jumonjinensis]</Hit_def>
+  <Hit_accession>P18286</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.34917</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>SNSGLLGALVGAVVNQIANSLTDRGYQVSKTAAYNLLSPYSRNGI---LKGPRFVE</Hsp_qseq>
+      <Hsp_hseq>SNHGVDVQLLQDVVNEFHRNMSDQEKHDLAINAYNKDNPHVRNGYYKAIKGKKAVE</Hsp_hseq>
+      <Hsp_midline>SN G+   L+  VVN+   +++D+        AYN  +P+ RNG    +KG + VE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|48474577|sp|Q8Z7A9.1|YCJF_SALTI</Hit_id>
+  <Hit_def>RecName: Full=UPF0283 membrane protein YcjF [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z7A9</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.10721</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>ISEAGYYVFPAAVVEETFKENGLTNAADIHAVRPEK---LHQIFGNDAVLYITVTEYGTSYQILDSVTTVSAKARLVDSRNGKELWSGSASIREGSNNSNSGLLGALVGAVVNQIANSLTDRGYQVSKTAAYNLLSPYSRNGILKGPRFVEE</Hsp_qseq>
+      <Hsp_hseq>FSEAESHTFAPAAIDERPEDEGVAEAAVDAALRPKRSLWRKMVMGGLALFGASVVGQGVQW-------TMNA-------------WQTQDWVALGGCAAGALIVGAGVGSVVTEWWRLWRLRQRAHERDEARELLHSHS---VVKGRAFCEK</Hsp_hseq>
+      <Hsp_midline> SEA  + F  A ++E  ++ G+  AA   A+RP++      + G  A+   +V   G  +       T++A             W     +  G   + + ++GA VG+VV +       R     +  A  LL  +S   ++KG  F E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|122194707|sp|Q1XDL8.1|PREA_PYRYE</Hit_id>
+  <Hit_def>RecName: Full=Prenyl transferase (chloroplast) [Pyropia yezoensis]</Hit_def>
+  <Hit_accession>Q1XDL8</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.18317</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>HQIFGNDAVLYITVTEYGTSYQILDSVTTVSAKARLVDSRNGKELWSGSASIREGSNNSNSGLLGALVGAVVNQIANSLTDRGYQVSKTAAYNLLSPYSRNGILKGPRFVEEQ</Hsp_qseq>
+      <Hsp_hseq>HQI-NND--LYLYGKHMGLAFQIMDDVLDITGSTKSLGKPAGADLING---------NLTSPLLFSLTQEAS---LNDLIDREFCNSTDIASTLFLIKRSGGITKAKDLAKEQ</Hsp_hseq>
+      <Hsp_midline>HQI  ND  LY+     G ++QI+D V  ++   + +    G +L +G         N  S LL +L         N L DR +  S   A  L       GI K     +EQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|51316526|sp|Q9DG67.1|RA54B_CHICK</Hit_id>
+  <Hit_def>RecName: Full=DNA repair and recombination protein RAD54B; AltName: Full=RAD54 homolog B [Gallus gallus]</Hit_def>
+  <Hit_accession>Q9DG67</Hit_accession>
+  <Hit_len>918</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.64761</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>682</Hsp_hit-from>
+      <Hsp_hit-to>716</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>VLYITVTEYGTSYQILDSVTTVSAKARLVDSRNGK</Hsp_qseq>
+      <Hsp_hseq>VLLETCKCYGYSYTRLDGNTPVSQRQQIVDSFNSK</Hsp_hseq>
+      <Hsp_midline>VL  T   YG SY  LD  T VS + ++VDS N K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|75430275|sp|Q54765.1|AAR_SYNE7</Hit_id>
+  <Hit_def>RecName: Full=Long-chain acyl-[acyl-carrier-protein] reductase; Short=AAR; Short=Acyl-ACP reductase [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>Q54765</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.71863</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LGLAAVLALSACQVRKAPDLDYTSFKESKPASILVVPPLNESPDVNGTWGMLASTAAPISEAGYYVFPAAVVEETFK-ENGLTNAADIHAVRPEKLHQIF</Hsp_qseq>
+      <Hsp_hseq>LGRGKILPLEA----ALPEADFIVWVASMPQGVVIDPATLKQPCVLIDGGYPKNLGSKVQGEGIYVLNGGVVEHCFDIDWQIMSAAEM--ARPER--QMF</Hsp_hseq>
+      <Hsp_midline>LG   +L L A      P+ D+  +  S P  +++ P   + P V    G   +  + +   G YV    VVE  F  +  + +AA++   RPE+  Q+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81544568|sp|Q9KQ48.1|BAMC_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein assembly factor BamC; Flags: Precursor [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KQ48</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>9.95694</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>44</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KPLILGLAAVLALSAC-----QVRKAP-DLDYTSFKESKP</Hsp_qseq>
+      <Hsp_hseq>RQLVLGSLAVLVLSACSSSPTQRRQAKDDFDYLETTEFKP</Hsp_hseq>
+      <Hsp_midline>+ L+LG  AVL LSAC     Q R+A  D DY    E KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

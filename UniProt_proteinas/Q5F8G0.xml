@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="67">
+<accession>Q5F8G0</accession>
+<name>Q5F8G0_NEIG1</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative UDP-N-acetylmuramate: L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase</fullName>
+<ecNumber evidence="2">6.3.2.8</ecNumber>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">NGO0815</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="similarity">
+<text evidence="1">Belongs to the MurCDEF family.</text>
+</comment>
+<dbReference type="EC" id="6.3.2.8" evidence="2"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89527.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207939.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8G0"/>
+<dbReference type="STRING" id="242231.NGO0815"/>
+<dbReference type="DNASU" id="3281819"/>
+<dbReference type="EnsemblBacteria" id="AAW89527">
+<property type="protein sequence ID" value="AAW89527"/>
+<property type="gene ID" value="NGO0815"/>
+</dbReference>
+<dbReference type="GeneID" id="3281819"/>
+<dbReference type="KEGG" id="ngo:NGO0815"/>
+<dbReference type="PATRIC" id="20334784">
+<property type="gene designation" value="VBINeiGon24812_0962"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0773"/>
+<dbReference type="HOGENOM" id="HOG000256032"/>
+<dbReference type="KO" id="K02558"/>
+<dbReference type="OMA" id="PPMSDQL"/>
+<dbReference type="OrthoDB" id="EOG64BQ73"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-769-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008763">
+<property type="term" value="F:UDP-N-acetylmuramate-L-alanine ligase activity"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071555">
+<property type="term" value="P:cell wall organization"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009252">
+<property type="term" value="P:peptidoglycan biosynthetic process"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.1190.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.720">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.190.20">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004101">
+<property type="entry name" value="Mur_ligase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013221">
+<property type="entry name" value="Mur_ligase_cen"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000713">
+<property type="entry name" value="Mur_ligase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005757">
+<property type="entry name" value="Murein_peptide_ligase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016040">
+<property type="entry name" value="NAD(P)-bd_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01225">
+<property type="entry name" value="Mur_ligase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02875">
+<property type="entry name" value="Mur_ligase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08245">
+<property type="entry name" value="Mur_ligase_M"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53244">
+<property type="entry name" value="SSF53244"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53623">
+<property type="entry name" value="SSF53623"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01081">
+<property type="entry name" value="mpl"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067" evidence="1">ATP-binding</keyword>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0436" evidence="1 2">Ligase</keyword>
+<keyword id="KW-0547" evidence="1">Nucleotide-binding</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU003630"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89527.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="458" mass="49446" checksum="C90E671A963848CD" modified="2005-03-15" version="1">
+MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLE
+EFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTA
+SMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDK
+RSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDT
+LDKGCWTPVEKFGTGHGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAA
+ARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGG
+ARILAVLEPRSNTMKLGTMKSALPASLKEADQVFCYAGGADWDVAEALAPLGCRLRVGKD
+FDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLDALR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

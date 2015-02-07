@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="54">
+<accession>Q5F837</accession>
+<name>Q5F837_NEIG1</name>
+<protein>
+<submittedName>
+<fullName evidence="7">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="7">NGO0961</name>
+</gene>
+<organism evidence="7 8">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="8">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="8">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="3">Participates in chromosomal partition during cell division. May act via the formation of a condensin-like complex containing Smc and ScpB that pull DNA away from mid-cell into both cell halves.</text>
+</comment>
+<comment type="subunit">
+<text evidence="6">Component of a cohesin-like complex composed of ScpA, ScpB and the Smc homodimer, in which ScpA and ScpB bind to the head domain of Smc. The presence of the three proteins is required for the association of the complex with DNA.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="5">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89650.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208062.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0961"/>
+<dbReference type="EnsemblBacteria" id="AAW89650">
+<property type="protein sequence ID" value="AAW89650"/>
+<property type="gene ID" value="NGO0961"/>
+</dbReference>
+<dbReference type="GeneID" id="3282601"/>
+<dbReference type="KEGG" id="ngo:NGO0961"/>
+<dbReference type="PATRIC" id="20335112">
+<property type="gene designation" value="VBINeiGon24812_1125"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1354"/>
+<dbReference type="HOGENOM" id="HOG000242825"/>
+<dbReference type="KO" id="K05896"/>
+<dbReference type="OMA" id="NILDIPM"/>
+<dbReference type="OrthoDB" id="EOG6CZQPX"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-892-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007049">
+<property type="term" value="P:cell cycle"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051301">
+<property type="term" value="P:cell division"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007059">
+<property type="term" value="P:chromosome segregation"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01805">
+<property type="entry name" value="ScpA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003768">
+<property type="entry name" value="ScpA"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02616">
+<property type="entry name" value="ScpA_ScpB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0131" evidence="2">Cell cycle</keyword>
+<keyword id="KW-0132" evidence="2">Cell division</keyword>
+<keyword id="KW-0159" evidence="4">Chromosome partition</keyword>
+<keyword id="KW-0181" evidence="8">Complete proteome</keyword>
+<keyword id="KW-0963" evidence="1">Cytoplasm</keyword>
+<keyword id="KW-1185" evidence="8">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00093939"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00093940"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00093941"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00093942"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00093943"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00093944"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89650.1"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="284" mass="31735" checksum="B7AB81C67CB58C6A" modified="2005-03-15" version="1">
+MPPIPALSAPSEHTVAWVFGQPVTDLPQDLFIPPDALKVVLGSFQGPLDLLLYLIRKQNI
+DVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEAD
+PRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKLPEVYIADLMQAWL
+GILSRAKHTRSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIAL
+LELAKEGLVGIVQEDGFGEIRISLNHEGAHSDGIFGTRGGRDVF
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

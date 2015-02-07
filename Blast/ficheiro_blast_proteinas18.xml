@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>23009</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>302</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>23009</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>302</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81622626|sp|Q9JMS3.1|YUAQ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YuaQ [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>Q9JMS3</Hit_accession>
+  <Hit_len>1371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00907153</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>904</Hsp_hit-from>
+      <Hsp_hit-to>964</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GTFTNGGIITLANQSYADKLTIEGNYVGKDGVLKVNTEWNSPGDDQGGNSQSDLLEITGDASGKTTV</Hsp_qseq>
+      <Hsp_hseq>GNVTNSGSLDLRSAAPGNILTIGGNYTGNNGTLLINTVL----DDS--SSATDKLVIKGDASGKTRV</Hsp_hseq>
+      <Hsp_midline>G  TN G + L + +  + LTI GNY G +G L +NT      DD   +S +D L I GDASGKT V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2506696|sp|P45508.2|YFAL_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YfaL; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P45508</Hit_accession>
+  <Hit_len>1250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0482025</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>739</Hsp_hit-from>
+      <Hsp_hit-to>854</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>IKLTKATFHLKKDTSLTTPEGTTLLSGGTLTLS---NTGI---SLSGTTSVFEKGTFTN-GGIITLANQSYADKLTIEGNYVGKDGVLKVNTEWNSPGDDQGGNSQSDLLEITGDASGKTTVI</Hsp_qseq>
+      <Hsp_hseq>LRLTGQDTSVALNASLFNGDGTLVNATDGVTLTGELNTNLETDSLTYLSNVTVNGNLTNTSGAVSLQNGVAGDTLTVNGDYTGG-GTLLLDSELN--GDD----SVSDQLVMNGNTAGNTTVV</Hsp_hseq>
+      <Hsp_midline>++LT     +  + SL   +GT + +   +TL+   NT +   SL+  ++V   G  TN  G ++L N    D LT+ G+Y G  G L +++E N  GDD    S SD L + G+ +G TTV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|75247485|sp|Q8RUF8.1|NILP3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Omega-amidase,chloroplastic; AltName: Full=Nitrilase-like protein 3; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8RUF8</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.525</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>NQSYADKLTIEGNYVGKDGVLKVNTEWNSPGDDQGGNSQSDLLEITGDASGKTTVIS-VGKDGKENIIDGSIGE-LSDRYKRSAAVVKVLGQDKGAETGKLNIED</Hsp_qseq>
+      <Hsp_hseq>NISHAKKAIEEAASKGAKLVL-LPEIWNSPYSNDSFPVYAEEIDAGGDASPSTAMLSEVSKRLKITIIGGSIPERVGDRLYNTCCVFGSDGELK-AKHRKIHLFD</Hsp_hseq>
+      <Hsp_midline>N S+A K   E    G   VL +   WNSP  +      ++ ++  GDAS  T ++S V K  K  II GSI E + DR   +  V    G+ K A+  K+++ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|62510792|sp|Q7BCK4.1|ICSA_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein IcsA autotransporter; Contains: RecName: Full=Outer membrane protein IcsA; Contains: RecName: Full=Outer membrane protein IcsA translocator; Flags: Precursor [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q7BCK4</Hit_accession>
+  <Hit_len>1102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>4.03726</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>587</Hsp_hit-from>
+      <Hsp_hit-to>781</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>TLLSGGTLTLSNTGIS-LSGTTSVFEKGTFTNGGIITLAN------QSYADKLTIEGNYVGKDGVLKVNTEWNSPGDDQGGNSQSDLLEITGDASGKTTVISVGKDGKENIIDGSIGELSDRYKRSAAVVKVLGQDKGAETGKLNIEDAKHTYTMRDTFSGTAKTTGAGELQLVSHKDEAGATEYFWTLTTPNQDKTIITPSAPAYALVPRQNLESGYAMLDTLHQRRGE</Hsp_qseq>
+      <Hsp_hseq>TLLNSGTVLINNINAPFLPDPVIVTGNMTLEKNGHVILNNSSSNVGQTYVQK----GNWHGKGGILSLGA---VLGND---NSKTDRLEIAGHASGITYVAVTNEGGS-----------GDKTLEGVQIISTDSSDKNAFIQKGRIVAGSYDYRLKQ---GTVSGLNTNKWYLTSQMDNQESKQ------MSNQESTQMSSRRASSQLVSSLNLGEG-----SIHTWRPE</Hsp_hseq>
+      <Hsp_midline>TLL+ GT+ ++N     L     V    T    G + L N      Q+Y  K    GN+ GK G+L +       G+D   NS++D LEI G ASG T V    + G             D+      ++     DK A   K  I    + Y ++    GT       +  L S  D   + +        NQ+ T ++    +  LV   NL  G     ++H  R E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|114565|sp|P22068.1|ATPB_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=ATP synthase subunit beta, mitochondrial; Flags: Precursor [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>P22068</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.31888</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>418</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GSIGELSDRYKRSAAVVKVLGQDKGAETGKLNIEDAKHTYTMRDTFSGTAKTTGAGELQLVSHKD</Hsp_qseq>
+      <Hsp_hseq>GSVQQMLQEYKSLQDIIAILGMDELSEADKLTVERARKVQRFLSQPFAVAEVFTGIEGRLVSLKD</Hsp_hseq>
+      <Hsp_midline>GS+ ++   YK    ++ +LG D+ +E  KL +E A+            A+     E +LVS KD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|68565708|sp|Q5YTD8.1|PDXS_NOCFA</Hit_id>
+  <Hit_def>RecName: Full=Pyridoxal biosynthesis lyase PdxS [Nocardia farcinica IFM 10152]</Hit_def>
+  <Hit_accession>Q5YTD8</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.29625</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>NAVLKITNGAMEFKSE-DIGTIKLTKATFHLKKDTS-----LTTPEGTTLLSGGTLTLSNTGISLSGTTSVFEKGTFTNGGIITLANQSYADKLTIEGNYVGKDGVLK</Hsp_qseq>
+      <Hsp_hseq>EALRRITEGAAMIRSKGEAGTGDVSNATTHMRKIRQEIRKLAALPEDELYVAAKELQAPYELVREVAETGKLPVVLFTAGGIATPADAAMMMQLGAEGVFVG-SGIFK</Hsp_hseq>
+      <Hsp_midline> A+ +IT GA   +S+ + GT  ++ AT H++K           PE    ++   L      +     T       FT GGI T A+ +   +L  EG +VG  G+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75171772|sp|Q9FN08.1|BGA10_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Beta-galactosidase 10; Short=Lactase 10; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FN08</Hit_accession>
+  <Hit_len>741</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.42717</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>527</Hsp_hit-from>
+      <Hsp_hit-to>600</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TKATFHLKKDTSLTTPEGTTLLSGGTLTLSNTGISL----SGTTSVFEKGTFTNGGIITLANQSYADKLTIEGNYV</Hsp_qseq>
+      <Hsp_hseq>THVPFKLKKPVALKAGENNIDLLSMTVGLANAGSFYEWVGAGLTSVSIKG--FNKGTLNLTNSKWSYKLGVEGEHL</Hsp_hseq>
+      <Hsp_midline>T   F LKK  +L   E    L   T+ L+N G       +G TSV  KG   N G + L N  ++ KL +EG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|74966877|sp|Q23551.3|UNC22_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Twitchin; AltName: Full=Uncoordinated protein 22 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q23551</Hit_accession>
+  <Hit_len>7158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>8.31288</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>3009</Hsp_hit-from>
+      <Hsp_hit-to>3156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>PEGTTLLSGGTLTLSNTGISLSGTTSVFEKG---TFTNGGIITLANQSYADKLTIEGNYVGK----DGVLKVNT--------EWNSPGDDQGGNSQSDLLEITGDASGK-TTVISVGKDGKENIIDGSIGELSDRYKRSAAVVKVLGQDKGAET</Hsp_qseq>
+      <Hsp_hseq>PDNREIRNGGRVKLDNPEYQSKLVVKQMERGDSGTFT----IKAVNANGEDEATVKINVIDKPTSPNGPLDVSDVHGDHVTLNWRAPDDDGGIPIENYVIEKYDTASGRWVPAAKVAGDKTTAVVDGLIP--GHEYKFRVAAVNAEGESDPLET</Hsp_hseq>
+      <Hsp_midline>P+   + +GG + L N            E+G   TFT    I   N +  D+ T++ N + K    +G L V+          W +P DD G   ++ ++E    ASG+      V  D    ++DG I      YK   A V   G+    ET</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|74582445|sp|O74429.1|VIP1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase; AltName: Full=Cortical actin cytoskeleton protein asp1; AltName: Full=InsP6 and PP-IP5 kinase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O74429</Hit_accession>
+  <Hit_len>920</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.66748</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>NAVLKITNGAMEFKSEDIGTIKLTKATFHLKKDTSLT--------TPEGTTL</Hsp_qseq>
+      <Hsp_hseq>NSVLAATNLATELKCEDINKLKQLRLALETKKDLPGTKVQLKPAYSPEGKLL</Hsp_hseq>
+      <Hsp_midline>N+VL  TN A E K EDI  +K  +     KKD   T        +PEG  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

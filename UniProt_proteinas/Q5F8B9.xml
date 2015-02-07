@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="48">
+<accession>Q5F8B9</accession>
+<name>Q5F8B9_NEIG1</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="1">NGO0867</name>
+</gene>
+<organism evidence="1 2">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89568.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207980.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8B9"/>
+<dbReference type="EnsemblBacteria" id="AAW89568">
+<property type="protein sequence ID" value="AAW89568"/>
+<property type="gene ID" value="NGO0867"/>
+</dbReference>
+<dbReference type="GeneID" id="3281889"/>
+<dbReference type="KEGG" id="ngo:NGO0867"/>
+<dbReference type="PATRIC" id="20334906">
+<property type="gene designation" value="VBINeiGon24812_1023"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1396"/>
+<dbReference type="HOGENOM" id="HOG000025367"/>
+<dbReference type="OMA" id="HWSQEEM"/>
+<dbReference type="OrthoDB" id="EOG6FV87D"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-810-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043565">
+<property type="term" value="F:sequence-specific DNA binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.260.40">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001387">
+<property type="entry name" value="Cro/C1-type_HTH"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010982">
+<property type="entry name" value="Lambda_DNA-bd_dom"/>
+</dbReference>
+<dbReference type="SMART" id="SM00530">
+<property type="entry name" value="HTH_XRE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF47413">
+<property type="entry name" value="SSF47413"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50943">
+<property type="entry name" value="HTH_CROC1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="2">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="2">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89568.1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="129" mass="15056" checksum="156870551982AB88" modified="2005-03-15" version="1">
+MEVHDKIRTLREVNQWTQEEMAEKLEMSVNGYSKIERGKSGINLDKLRQIAQIFNIDVVE
+LLAEQNRSFFFSIGDNTNNHHNIIGSDEMLVFENEKLRSLLDAKDELIRQKDSEIAVLKK
+LVILLEEKK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

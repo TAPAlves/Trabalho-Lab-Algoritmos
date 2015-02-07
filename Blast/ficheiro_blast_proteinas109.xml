@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>50709</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>82</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>50709</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>82</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|125342|sp|P22147.1|XRN1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-3&apos; exoribonuclease 1; AltName: Full=DNA strand transfer protein beta; Short=STP-beta; AltName: Full=KAR(-)-enhancing mutation protein; AltName: Full=Strand exchange protein 1; AltName: Full=p175 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P22147</Hit_accession>
+  <Hit_len>1528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.0426</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>CTYADRRFVTQESAAEIQAKS---RAIQ-ISERAERAEYRKERREEMMDAARAIKKANENSPNI</Hsp_qseq>
+      <Hsp_hseq>CTYIDHLFQT------IKPKKIFYMAIDGVAPRAKMNQQRARRFRTAMDAEKALKKAIENGDEI</Hsp_hseq>
+      <Hsp_midline>CTY D  F T      I+ K     AI  ++ RA+  + R  R    MDA +A+KKA EN   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|73919981|sp|Q5JEZ8.1|HTPX_THEKO</Hit_id>
+  <Hit_def>RecName: Full=Protease HtpX homolog [Thermococcus kodakarensis KOD1]</Hit_def>
+  <Hit_accession>Q5JEZ8</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.66919</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>ILLSVAAMLVTACTYADRRFVTQESAAEIQAKSRAI</Hsp_qseq>
+      <Hsp_hseq>ILAPIAAMLIQAAISRSREFLADEGGARISGKPHAL</Hsp_hseq>
+      <Hsp_midline>IL  +AAML+ A     R F+  E  A I  K  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|74760704|sp|Q96AG4.1|LRC59_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Leucine-rich repeat-containing protein 59; AltName: Full=Ribosome-binding protein p34; Short=p34 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96AG4</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.347</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RRFVTQESAAEIQAKSRAIQISERAERAEYR---KERREEMMDAARAIKKANENSP</Hsp_qseq>
+      <Hsp_hseq>RLEVEREAEKKREAKQRAKEAQERELRKREKAEEKERRRKEYDALKAAKREQEKKP</Hsp_hseq>
+      <Hsp_midline>R  V +E+  + +AK RA +  ER  R   +   KERR +  DA +A K+  E  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|75070060|sp|Q5E9X4.1|LRC59_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Leucine-rich repeat-containing protein 59 [Bos taurus]</Hit_def>
+  <Hit_accession>Q5E9X4</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.83255</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RRFVTQESAAEIQAKSRAIQISERAERAEYR---KERREEMMDAARAIKKANENSP</Hsp_qseq>
+      <Hsp_hseq>RLEIDREAEKKWEAKQRAKEAQERELRKREKAEEKERRRKEYDALKAAKREQEKKP</Hsp_hseq>
+      <Hsp_midline>R  + +E+  + +AK RA +  ER  R   +   KERR +  DA +A K+  E  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122065134|sp|Q9QZW0.2|AT11C_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Phospholipid-transporting ATPase 11C; AltName: Full=ATPase class VI type 11C; AltName: Full=P4-ATPase flippase complex alpha subunit ATP11C [Mus musculus]</Hit_def>
+  <Hit_accession>Q9QZW0</Hit_accession>
+  <Hit_len>1129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.13176</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>686</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>YADRRFVTQESAAEIQAKSRAIQISERAER------AEYRKERREEMMDAARAIKKA</Hsp_qseq>
+      <Hsp_hseq>YACRLFQTNTELLELTTKT--IEESERKEDRLHELLIEYRKKLLHEFPKSTRSLKKA</Hsp_hseq>
+      <Hsp_midline>YA R F T     E+  K+  I+ SER E        EYRK+   E   + R++KKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|74854643|sp|Q54R45.1|SSRA_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Translocon-associated protein subunit alpha; Short=TRAP-alpha; AltName: Full=Signal sequence receptor subunit alpha; Short=SSR-alpha; Flags: Precursor [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54R45</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>6.93512</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>MKKLILLSVAAMLVTACTYADRRFVTQESAAEIQAKS</Hsp_qseq>
+      <Hsp_hseq>MNKLITLLLAVLMIISCVYSDDVEITDDEVVQATPTS</Hsp_hseq>
+      <Hsp_midline>M KLI L +A +++ +C Y+D   +T +   +    S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

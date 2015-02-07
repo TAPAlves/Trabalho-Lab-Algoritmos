@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>27285</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>111</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>27285</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>111</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75356098|sp|Q5F8M8.1|Y742_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein NGO0742 [Neisseria gonorrhoeae FA 1090] &gt;gi|238690203|sp|B4RLX6.1|Y1136_NEIG2 RecName: Full=Nucleoid-associated protein NGK_1136 [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>Q5F8M8</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>7.35159e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQDLPPGVGDFFR</Hsp_qseq>
+      <Hsp_hseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQDLPPGVGDFFR</Hsp_hseq>
+      <Hsp_midline>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQDLPPGVGDFFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|12644642|sp|Q9JYT1.1|Y1444_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein NMB1444 [Neisseria meningitidis MC58] &gt;gi|166200385|sp|A1KUP8.1|Y1380_NEIMF RecName: Full=Nucleoid-associated protein NMC1380 [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>Q9JYT1</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>1.20069e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQDLPPGVGDFFR</Hsp_qseq>
+      <Hsp_hseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQGLPPGVGDFFR</Hsp_hseq>
+      <Hsp_midline>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ LPPGVGDFFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|12644639|sp|Q9JTS0.1|Y1657_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein NMA1657 [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JTS0</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>1.542e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQDLPPGVGDFFR</Hsp_qseq>
+      <Hsp_hseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARDKAEETANKTMGAFTQGLPPGVGDFFR</Hsp_hseq>
+      <Hsp_midline>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSAR KAEETANKTMGAFTQ LPPGVGDFFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|189038669|sp|A9M0G3.1|Y1355_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein NMCC_1355 [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9M0G3</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>1.09848e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQDLPPGVGDFFR</Hsp_qseq>
+      <Hsp_hseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARDKAEETANKTMGAFAQGLPPGVGDFFR</Hsp_hseq>
+      <Hsp_midline>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSAR KAEETANKTMGAF Q LPPGVGDFFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|47117449|sp|Q7NXL5.2|Y1611_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein CV_1611 [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NXL5</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>3.51723e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKAGIAGLMKQAQQMQENMKKAQEELAKVEVEGQSGAGMVKVTMTCSHDVKRVAIDDSVLEDAKEDKEMLEDLIAAAFNDAVRKVEATTQERMSGFTNGLNLPAGM</Hsp_hseq>
+      <Hsp_midline>MFGKAG+ GLMKQAQQMQENMKKAQ +LA+ E+EG++G G+VK+TMTC+H+V+++ I   ++++A +DKEMLEDLI AA   A  K E T  + M  FT   +LP G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123628052|sp|Q47HW8.1|Y807_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Daro_0807 [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47HW8</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>9.4133e-33</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGGLAGLMKQAQAMQENMKKAQEQLAQVEVEGVAGAGMVKVLMTCAHEVRRVNIDPSVM----DDREMLEDLIAAALNDAVRRGEALSKDKMSGFTSGLNLPPG</Hsp_hseq>
+      <Hsp_midline>K GL GLMKQAQ MQENMKKAQ +LA+ E+EG AG G+VK+ MTCAHEVR+++I P ++    DD+EMLEDLI AAL  A  + E  +   M  FT   +LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|238691284|sp|B2JG59.1|Y952_BURP8</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Bphy_0952 [Burkholderia phymatum STM815]</Hit_def>
+  <Hit_accession>B2JG59</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.73105e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMKQAQQMQENMKKMQEQLAQIEVEGQSGAGLVKVTMTCKNDVRRVSIDPSLL---ADDKDMLEDLVAAAFNDAVRKAEATAQEKMGGMTSGLPLPPG</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQQMQENMKK Q +LA+ E+EG++G GLVK+TMTC ++VR++ I P L+   ADDK+MLEDL+ AA   A  KAE TA + MG  T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|238687036|sp|A9AGY0.1|Y1796_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Bmul_1447/BMULJ_01796 [Burkholderia multivorans ATCC 17616]</Hit_def>
+  <Hit_accession>A9AGY0</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>6.37693e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGNLAGLMKQAQQMQENMRKMQEQLAQIEVEGQSGAGLVKVTMTCRNEVRRVSIDPSLL---ADDKDMLEDLVAAAFNDAVRKAEATSQEKMSGMTSGLPLPPG</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQQMQENM+K Q +LA+ E+EG++G GLVK+TMTC +EVR++ I P L+   ADDK+MLEDL+ AA   A  KAE T+ + M   T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122323079|sp|Q0BEV3.1|Y1764_BURCM</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Bamb_1764 [Burkholderia ambifaria AMMD] &gt;gi|166234798|sp|A4JEQ4.1|Y1753_BURVG RecName: Full=Nucleoid-associated protein Bcep1808_1753 [Burkholderia vietnamiensis G4] &gt;gi|238689150|sp|B1YRE8.1|Y1737_BURA4 RecName: Full=Nucleoid-associated protein BamMC406_1737 [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>Q0BEV3</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>7.91028e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGNLAGLMKQAQQMQENMKKMQEQLAQIEVEGQSGAGLVKVTMTCRNEVRRVAIDPSLL---ADDKDMLEDLVAAAFNDAVRKAEATSQEKMSGMTSGLPLPPG</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQQMQENMKK Q +LA+ E+EG++G GLVK+TMTC +EVR++ I P L+   ADDK+MLEDL+ AA   A  KAE T+ + M   T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123062918|sp|Q13Z79.1|Y2072_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Bxeno_A2072 [Burkholderia xenovorans LB400] &gt;gi|238689605|sp|B2T3S4.1|Y1827_BURPP RecName: Full=Nucleoid-associated protein Bphyt_1827 [Burkholderia phytofirmans PsJN]</Hit_def>
+  <Hit_accession>Q13Z79</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>9.39834e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMKQAQQMQENMKKMQEQLALIEVEGQSGAGLVKVTMTCKNDVRRVSIDPSLL---ADDKDMLEDLVAAAFNDAVRKAEATAQEKMGGMTSGLPLPPG</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQQMQENMKK Q +LA  E+EG++G GLVK+TMTC ++VR++ I P L+   ADDK+MLEDL+ AA   A  KAE TA + MG  T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|122977677|sp|Q1BGY8.1|Y6253_BURCA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Bcen_6253 [Burkholderia cenocepacia AU 1054] &gt;gi|123568318|sp|Q39FP5.1|Y5127_BURS3 RecName: Full=Nucleoid-associated protein Bcep18194_A5127 [Burkholderia lata] &gt;gi|166219530|sp|A0K7V0.1|Y1826_BURCH RecName: Full=Nucleoid-associated protein Bcen2424_1826 [Burkholderia cenocepacia HI2424] &gt;gi|238688542|sp|B1JTA6.1|Y1850_BURCC RecName: Full=Nucleoid-associated protein Bcenmc03_1850 [Burkholderia cenocepacia MC0-3] &gt;gi|238693092|sp|B4EAY3.1|Y1861_BURCJ RecName: Full=Nucleoid-associated protein BceJ2315_18610 [Burkholderia cenocepacia J2315]</Hit_def>
+  <Hit_accession>Q1BGY8</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.718e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGNLAGLMKQAQQMQENMKKMQEQLALIEVEGQSGAGLVKVTMTCRNEVRRVSIDPSLL---ADDKDMLEDLVAAAFNDAVRKAEATSQEKMSGMTSGLPLPPG</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQQMQENMKK Q +LA  E+EG++G GLVK+TMTC +EVR++ I P L+   ADDK+MLEDL+ AA   A  KAE T+ + M   T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123031423|sp|Q0I4S4.1|Y1309_HISS1</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein HS_1309 [Haemophilus somnus 129PT] &gt;gi|238688021|sp|B0UWK6.1|Y308_HISS2 RecName: Full=Nucleoid-associated protein HSM_0308 [Haemophilus somnus 2336]</Hit_def>
+  <Hit_accession>Q0I4S4</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>2.95902e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGKGGLGNLMKQAQQMQERMQKMQEEIAQLEVTGEAGAGLIKVTINGAHNCRRIDIDPSLME---DDKEMLEDLIAAAFNDAVRRAEEMQKEKMASVTAGMSLPPG</Hsp_hseq>
+      <Hsp_midline>MFGK GLG LMKQAQQMQE M+K Q ++A+ E+ GEAG GL+K+T+  AH  R+IDI P L++   DDKEMLEDLI AA   A  +AEE   + M + T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|166227684|sp|A0KKD5.1|Y2212_AERHH</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein AHA_2212 [Aeromonas hydrophila subsp. hydrophila ATCC 7966]</Hit_def>
+  <Hit_accession>A0KKD5</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>3.70976e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQERMQKMQEQLAQMEVVGEAGAGMVKVTMAGSHSVRRIEIDPSLME---DDKEMLEDLVAAAVNDAVRRVEEQNKSKMGELTGGMQLPPG</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQE M+K Q +LA+ E+ GEAG G+VK+TM  +H VR+I+I P L++   DDKEMLEDL+ AA+  A  + EE     MG  T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|189039789|sp|A8FX85.1|Y2851_SHESH</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Ssed_2851 [Shewanella sediminis HAW-EB3]</Hit_def>
+  <Hit_accession>A8FX85</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>3.70976e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQDKMAKVQEEIARMEVTGEAGAGLVKVTMTGSHSVRKVDIDPSLLE---DDKEMLEDLIAAACNDAARRVEENQKERMAEVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQ+ M K Q ++A  E+ GEAG GLVK+TMT +H VRK+DI P L++   DDKEMLEDLI AA   A  + EE   + M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|238688703|sp|B1KNK1.1|Y1794_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Swoo_1794 [Shewanella woodyi ATCC 51908]</Hit_def>
+  <Hit_accession>B1KNK1</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>6.08722e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQDKMAKVQEEIARMEVTGEAGAGLVKVTMTGSHSVRKVDIDPSLLE---DDKEMLEDLIAAACNDAARRVEENQKDKMAEVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQ+ M K Q ++A  E+ GEAG GLVK+TMT +H VRK+DI P L++   DDKEMLEDLI AA   A  + EE     M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|123536827|sp|Q2SWF8.1|Y2220_BURTA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein BTH_I2220 [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2SWF8</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>7.19431e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMKQAQQMQENMKKMQEQLALIEVEGQSGAGLVKVTMTCRNEVRRVSIDPSLL---ADDKDMLEDLVAAAFNDAVRKAEVTSQEKMSGMTAGLPLPPG</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQQMQENMKK Q +LA  E+EG++G GLVK+TMTC +EVR++ I P L+   ADDK+MLEDL+ AA   A  KAE T+ + M   T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81379866|sp|Q63UU7.1|Y1499_BURPS</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein BPSL1499 [Burkholderia pseudomallei K96243] &gt;gi|81604951|sp|Q62JU9.1|Y1360_BURMA RecName: Full=Nucleoid-associated protein BMA1360 [Burkholderia mallei ATCC 23344] &gt;gi|123598910|sp|Q3JRN6.1|Y2372_BURP1 RecName: Full=Nucleoid-associated protein BURPS1710b_2372 [Burkholderia pseudomallei 1710b] &gt;gi|166227681|sp|A3NA69.1|Y2205_BURP6 RecName: Full=Nucleoid-associated protein BURPS668_2205 [Burkholderia pseudomallei 668] &gt;gi|166227693|sp|A3NVY6.1|Y2243_BURP0 RecName: Full=Nucleoid-associated protein BURPS1106A_2243 [Burkholderia pseudomallei 1106a] &gt;gi|166227721|sp|A2S286.1|Y2346_BURM9 RecName: Full=Nucleoid-associated protein BMA10229_A0046 [Burkholderia mallei NCTC 10229] &gt;gi|166232616|sp|A3MK90.1|Y3622_BURM7 RecName: Full=Nucleoid-associated protein BMA10247_1122 [Burkholderia mallei NCTC 10247] &gt;gi|166232622|sp|A1V4L6.1|Y3650_BURMS RecName: Full=Nucleoid-associated protein BMASAVP1_A1850 [Burkholderia mallei SAVP1]</Hit_def>
+  <Hit_accession>Q63UU7</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>7.67432e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMKQAQQMQENMKKMQEQLALIEVEGQSGAGLVKVTMTCRNEVRRVAIDPSLL---ADDKDMLEDLVAAAFNDAVRKAEATSQEKMSGMTSGLPLPPG</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQQMQENMKK Q +LA  E+EG++G GLVK+TMTC +EVR++ I P L+   ADDK+MLEDL+ AA   A  KAE T+ + M   T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|47117489|sp|Q7WAY8.1|Y1222_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein BPP1222 [Bordetella parapertussis 12822] &gt;gi|47117495|sp|Q7WMF2.1|Y1439_BORBR RecName: Full=Nucleoid-associated protein BB1439 [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7WAY8</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.44824e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMRQAQQMQENMKKAQDALAEIQVEGAAGGGLVKVTMTCRHDVKRVAIDPSLLGE---DKDMLEDLVAAAFNDALRKAEATSQEKMASVTAGMPLPPGM</Hsp_hseq>
+      <Hsp_midline>K  L GLM+QAQQMQENMKKAQ  LAE ++EG AG GLVK+TMTC H+V+++ I P L+ E   DK+MLEDL+ AA   A  KAE T+ + M + T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|33301897|sp|Q87MQ3.1|Y2178_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein VP2178 [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87MQ3</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.55268e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQERMQKLQEEIANMEVTGESGAGLVKVTITGSHSVRRVDIDESLME---DDKEMLEDLIAAAFNDAARRVEETQKEKMASVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQE M+K Q ++A  E+ GE+G GLVK+T+T +H VR++DI   L++   DDKEMLEDLI AA   A  + EET  + M + T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|166227517|sp|A4SMN1.1|Y2087_AERS4</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein ASA_2087 [Aeromonas salmonicida subsp. salmonicida A449]</Hit_def>
+  <Hit_accession>A4SMN1</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.71058e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQERMQKMQEQLAEMEVVGEAGAGMVKVTMAGSHSVRRIEIDQSLME---DDKEMIEDLVAAAVNDAVRRVEEQSKSKMGELTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQE M+K Q +LAE E+ GEAG G+VK+TM  +H VR+I+I   L++   DDKEM+EDL+ AA+  A  + EE +   MG  T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123624673|sp|Q46ZF8.1|Y2111_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Reut_A2111 [Ralstonia eutropha JMP134] &gt;gi|166227524|sp|Q1LLG9.1|Y2128_RALME RecName: Full=Nucleoid-associated protein Rmet_2128 [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q46ZF8</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.35241e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMKQAQQMQENMKKMQEQLAQIEVEGQSGAGLVKVVMTCKNDVKRVTIDPSLL---ADDKDLLEDLVAAAFNDAVRKAEATTQEKMGSMTSGLPLPPG</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQQMQENMKK Q +LA+ E+EG++G GLVK+ MTC ++V+++ I P L+   ADDK++LEDL+ AA   A  KAE T  + MG+ T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|47117409|sp|Q7MIV3.1|Y2410_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein VV2410 [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MIV3</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.83342e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQERMQKLQEEIANMEVVGESGAGLVKVTITGSHSVRRVNIDESLME---DDKEMLEDLIAAAFNDAARRVEETQKEKMAAITGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQE M+K Q ++A  E+ GE+G GLVK+T+T +H VR+++I   L++   DDKEMLEDLI AA   A  + EET  + M A T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|342187328|sp|Q8DB23.2|Y2004_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein VV1_2004 [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8DB23</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>4.85694e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQERMQKLQEEIAXMEVVGESGAGLVKVTITGSHSVRRVNIDESLME---DDKEMLEDLIAAAFNDAARRVEETQKEKMAAITGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQE M+K Q ++A  E+ GE+G GLVK+T+T +H VR+++I   L++   DDKEMLEDLI AA   A  + EET  + M A T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|254807270|sp|B7VL97.1|Y917_VIBSL</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein VS_0917 [Vibrio tasmaniensis LGP32]</Hit_def>
+  <Hit_accession>B7VL97</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>7.00133e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNMMKQAQQMQERMQKLQEEIANMEVTGESGAGLVKVTITGSHSVRRVDIDESLME---DDKEMLEDLIAAAFNDAARRVEETQKEKMAGVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G +MKQAQQMQE M+K Q ++A  E+ GE+G GLVK+T+T +H VR++DI   L++   DDKEMLEDLI AA   A  + EET  + M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|166227689|sp|A3QF52.1|Y2234_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Shew_2234 [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QF52</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>8.13897e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQMMQDKMAKVQEEIARMEVTGEAGAGLVKVTMTGSHSVRKVEIDPSLLE---DDKEMLEDLIAAACNDAARRVEESQKEKMAEVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQ MQ+ M K Q ++A  E+ GEAG GLVK+TMT +H VRK++I P L++   DDKEMLEDLI AA   A  + EE+  + M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|67475997|sp|P0A8B5.1|YBAB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli K-12] &gt;gi|67475998|sp|P0A8B6.1|YBAB_ECOL6 RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli CFT073] &gt;gi|67476001|sp|P0A8B7.1|YBAB_ECO57 RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli O157:H7] &gt;gi|67476002|sp|P0A8B8.1|YBAB_SALTY RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|67476003|sp|P0A8B9.1|YBAB_SALTI RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|67476004|sp|P0A8C0.1|YBAB_SHIFL RecName: Full=Nucleoid-associated protein YbaB [Shigella flexneri] &gt;gi|75484548|sp|Q57S79.1|YBAB_SALCH RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67] &gt;gi|122958520|sp|Q0TKH0.1|YBAB_ECOL5 RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli 536] &gt;gi|123147207|sp|Q0T7B3.1|YBAB_SHIF8 RecName: Full=Nucleoid-associated protein YbaB [Shigella flexneri 5 str. 8401] &gt;gi|123560411|sp|Q325C5.1|YBAB_SHIBS RecName: Full=Nucleoid-associated protein YbaB [Shigella boydii Sb227] &gt;gi|123563328|sp|Q32J51.1|YBAB_SHIDS RecName: Full=Nucleoid-associated protein YbaB [Shigella dysenteriae Sd197] &gt;gi|123617862|sp|Q3Z4S8.1|YBAB_SHISS RecName: Full=Nucleoid-associated protein YbaB [Shigella sonnei Ss046] &gt;gi|166227562|sp|A1A8D7.1|YBAB_ECOK1 RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli APEC O1] &gt;gi|166919061|sp|A7ZXC9.1|YBAB_ECOHS RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli HS] &gt;gi|189041065|sp|B1IZC3.1|YBAB_ECOLC RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli ATCC 8739] &gt;gi|189041066|sp|A9MLY8.1|YBAB_SALAR RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-] &gt;gi|189041067|sp|A9MW90.1|YBAB_SALPB RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7] &gt;gi|226708987|sp|B7MDZ3.1|YBAB_ECO45 RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli S88] &gt;gi|226708988|sp|B7NIF9.1|YBAB_ECO7I RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli IAI39] &gt;gi|226708990|sp|B7N924.1|YBAB_ECOLU RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli UMN026] &gt;gi|226708991|sp|B1LJM8.1|YBAB_ECOSM RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli SMS-3-5] &gt;gi|226708992|sp|B7LLP9.1|YBAB_ESCF3 RecName: Full=Nucleoid-associated protein YbaB [Escherichia fergusonii ATCC 35469] &gt;gi|229484922|sp|B1XFQ8.1|YBAB_ECODH RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli str. K-12 substr. DH10B] &gt;gi|238058961|sp|B5Z3Y1.1|YBAB_ECO5E RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli O157:H7 str. EC4115] &gt;gi|238058962|sp|B6I0C3.1|YBAB_ECOSE RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli SE11] &gt;gi|238689518|sp|B2U4S4.1|YBAB_SHIB3 RecName: Full=Nucleoid-associated protein YbaB [Shigella boydii CDC 3083-94] &gt;gi|238690002|sp|B5EXM7.1|YBAB_SALA4 RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|238690234|sp|B4T9H8.1|YBAB_SALHS RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476] &gt;gi|238690326|sp|B5FKY9.1|YBAB_SALDC RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853] &gt;gi|238690392|sp|B5QU74.1|YBAB_SALEP RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|238690473|sp|B5R609.1|YBAB_SALG2 RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91] &gt;gi|238690700|sp|B4TMG3.1|YBAB_SALSV RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633] &gt;gi|238693546|sp|B4SWX8.1|YBAB_SALNS RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|254807357|sp|B7UKF1.1|YBAB_ECO27 RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli O127:H6 str. E2348/69] &gt;gi|254807358|sp|B7L796.1|YBAB_ECO55 RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli 55989] &gt;gi|254807359|sp|B7MQI6.1|YBAB_ECO81 RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli ED1a] &gt;gi|254807360|sp|C0Q809.1|YBAB_SALPC RecName: Full=Nucleoid-associated protein YbaB [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594] &gt;gi|259710205|sp|C4ZUS5.1|YBAB_ECOBW RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P0A8B5</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>8.87018e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGKGGLGNLMKQAQQMQEKMQKMQEEIAQLEVTGESGAGLVKVTINGAHNCRRVEIDPSLLE---DDKEMLEDLVAAAFNDAARRIEETQKEKMASVSSGMQLPPG</Hsp_hseq>
+      <Hsp_midline>MFGK GLG LMKQAQQMQE M+K Q ++A+ E+ GE+G GLVK+T+  AH  R+++I P L++   DDKEMLEDL+ AA   A  + EET  + M + +    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|189038958|sp|B0TP00.1|Y1591_SHEHH</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Shal_1591 [Shewanella halifaxensis HAW-EB4]</Hit_def>
+  <Hit_accession>B0TP00</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>9.06302e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQDKMAKVQEEIARMEVTGEAGAGLVKVTMTGSHSVRKVDIDASLLE---DDKEMLEDLIAAACNDAARRVEENQKEKMAEVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQ+ M K Q ++A  E+ GEAG GLVK+TMT +H VRK+DI   L++   DDKEMLEDLI AA   A  + EE   + M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|12644643|sp|Q9KT50.2|Y1055_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein VC_1055 [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KT50</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>9.66706e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQERMQKLQEEIANMEVTGESGAGLVKVTVTGSHSVRRVNIDESLME---DDKEMLEDLIAAAFNDAARRIEETQKEKMASITGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQE M+K Q ++A  E+ GE+G GLVK+T+T +H VR+++I   L++   DDKEMLEDLI AA   A  + EET  + M + T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|123513971|sp|Q2KVU6.1|Y915_BORA1</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein BAV0915 [Bordetella avium 197N]</Hit_def>
+  <Hit_accession>Q2KVU6</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.00428e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPGV</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMRQAQQMQENMKKAQDALADILVEGAAGGGLVKVTMSCRNDVKRIAIDPSLL---ADDKDMLEDLVAAAFNDALRKAEATSQEKMSALTAGLPLPPGM</Hsp_hseq>
+      <Hsp_midline>K  L GLM+QAQQMQENMKKAQ  LA+  +EG AG GLVK+TM+C ++V++I I P L+   ADDK+MLEDL+ AA   A  KAE T+ + M A T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|229544502|sp|A9HZ13.1|Y3552_BORPD</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Bpet3552 [Bordetella petrii DSM 12804]</Hit_def>
+  <Hit_accession>A9HZ13</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.21877e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQDLPPGVG</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMRQAQQMQENMKKAQDALAEIIVEGESGGGLVKVSMSCRHDVKRVAIDPSLL---ADDKDMLEDLVAAAFNDALRKVESTSQEKMASVTAGMPLPAG</Hsp_hseq>
+      <Hsp_midline>K  L GLM+QAQQMQENMKKAQ  LAE  +EGE+G GLVK++M+C H+V+++ I P L+   ADDK+MLEDL+ AA   A  K E T+ + M + T  +P   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|166227699|sp|A1SX02.1|Y2276_PSYIN</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Ping_2276 [Psychromonas ingrahamii 37]</Hit_def>
+  <Hit_accession>A1SX02</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.27853e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPG</Hsp_qseq>
+      <Hsp_hseq>MFSKEGMGDLMKKAQEMQENMKKAQAEIANTEVTGESGAGLVKITILGNHNVRKVEIDPSLME---DDKEMLEDLIAAAMNDAVHRIGEVNKNKMSGVSGGMELPPG</Hsp_hseq>
+      <Hsp_midline>MF K G+G LMK+AQ+MQENMKKAQA++A TE+ GE+G GLVKIT+   H VRK++I P L++   DDKEMLEDLI AA+  A  +  E     M   +   +LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|226736424|sp|B8CMY7.1|Y1717_SHEPW</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein swp_1717 [Shewanella piezotolerans WP3]</Hit_def>
+  <Hit_accession>B8CMY7</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.42366e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQDKMAKVQEEIARMEVTGEAGAGLVKVTMTGSHSVRKVDIDASLLE---DDKEMLEDLIAAACNDAARRVEENQKDKMAEVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQ+ M K Q ++A  E+ GEAG GLVK+TMT +H VRK+DI   L++   DDKEMLEDLI AA   A  + EE     M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|226708989|sp|B7M3W3.1|YBAB_ECO8A</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli IAI1]</Hit_def>
+  <Hit_accession>B7M3W3</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.6024e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGKGGLGNLMKQAQQMQEKMQKMQEEIAQLEVTGESGAGLIKVTINGAHNCRRVEIDPSLLE---DDKEMLEDLVAAAFNDAARRIEETQKEKMASVSSGMQLPPG</Hsp_hseq>
+      <Hsp_midline>MFGK GLG LMKQAQQMQE M+K Q ++A+ E+ GE+G GL+K+T+  AH  R+++I P L++   DDKEMLEDL+ AA   A  + EET  + M + +    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|166919060|sp|A7ZIN1.1|YBAB_ECO24</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein YbaB [Escherichia coli O139:H28 str. E24377A]</Hit_def>
+  <Hit_accession>A7ZIN1</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.76519e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGKGGLGNLMKQAQQMQEKMQKMQEEIAQLEVIGESGAGLVKVTINGAHNCRRVEIDPSLLE---DDKEMLEDLVAAAFNDAARRIEETQKEKMASVSSGMQLPPG</Hsp_hseq>
+      <Hsp_midline>MFGK GLG LMKQAQQMQE M+K Q ++A+ E+ GE+G GLVK+T+  AH  R+++I P L++   DDKEMLEDL+ AA   A  + EET  + M + +    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|238692739|sp|B3R1M7.1|Y1934_CUPTR</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein RALTA_A1934 [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>B3R1M7</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>2.01792e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMKQAQQMQENMKKMQEQLAQIEVEGQSGAGLVKVVMTCKNDVKRVTIDPSLLAE-GEDKDLLEDLVAAAFNDAVRKAEATTQEKMGSMTSGLPLPPG</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQQMQENMKK Q +LA+ E+EG++G GLVK+ MTC ++V+++ I P L+ E  +DK++LEDL+ AA   A  KAE T  + MG+ T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|166229371|sp|A7MUE5.1|Y3086_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein VIBHAR_03086 [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MUE5</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>2.89431e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQQMQDRMQKLQEEIANMEVTGESGAGLVKVTITGSHSVRRVEIDESLME---DDKEMLEDLIAAAFNDAARRVEETQKEKMASVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQQMQ+ M+K Q ++A  E+ GE+G GLVK+T+T +H VR+++I   L++   DDKEMLEDLI AA   A  + EET  + M + T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|47117482|sp|Q7VY13.1|Y1550_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein BP1550 [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q7VY13</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>3.34834e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMRQAQQMQENMKKAQDALAEIQVEGAAGGGLVKVTMTCRHDVKRVAIDASLLGE---DKDMLEDLVAAAFNDALRKAEATSQEKMASVTAGMPLPPGM</Hsp_hseq>
+      <Hsp_midline>K  L GLM+QAQQMQENMKKAQ  LAE ++EG AG GLVK+TMTC H+V+++ I   L+ E   DK+MLEDL+ AA   A  KAE T+ + M + T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|238689105|sp|B1Y1E3.1|Y1975_LEPCP</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Lcho_1975 [Leptothrix cholodnii SP-6]</Hit_def>
+  <Hit_accession>B1Y1E3</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>3.68845e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMKQAQAMQDNLKKAQDELANVEVEGQSGAGLVKVVMTCKHDVKRLSIDPSLL---ADDKDMLEDLVAAAFNDAVRRAEAVSQEKMGKLTAGMPLPPGM</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQ MQ+N+KKAQ +LA  E+EG++G GLVK+ MTC H+V+++ I P L+   ADDK+MLEDL+ AA   A  +AE  + + MG  T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|259646603|sp|C4L8U5.1|Y2216_TOLAT</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Tola_2216 [Tolumonas auensis DSM 9187]</Hit_def>
+  <Hit_accession>C4L8U5</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>4.46993e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQMMQERMQKMQEEVAKMEVTGESGAGMVKITITGSHNVRRVTIDPSLLQD--DDQEMLEDLIAAAFNDAVRRAEEQNKAKMAEITGGMQLPPG</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQ MQE M+K Q ++A+ E+ GE+G G+VKIT+T +H VR++ I P L+Q+  DD+EMLEDLI AA   A  +AEE     M   T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|81358352|sp|Q5P7F0.1|Y639_AROAE</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein AZOSEA06390 [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5P7F0</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>4.60059e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPGV</Hsp_qseq>
+      <Hsp_hseq>KGGIAGLMKQAQQMQENMKKMQDQLASVEVEGQSGAGMVKVLMTCKYDVRRVTIDDSVM----DDKEMLEDLLAAAVNDAVRRVETTTQEKMAGFTSGLNLPPGM</Hsp_hseq>
+      <Hsp_midline>K G+ GLMKQAQQMQENMKK Q +LA  E+EG++G G+VK+ MTC ++VR++ I   ++    DDKEMLEDL+ AA+  A  + E T  + M  FT   +LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|13431988|sp|P57825.1|Y205_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein PM0205 [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>P57825</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>5.57517e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGKGGLGNLMKQAQQMQDRMQKMQEEIAQLEVTGESGAGLVKITINGAHNCRRVEIDPSLME---DDKDMLEDLIAAAFNDAVRRAEELQKEKMASVTAGMALPPG</Hsp_hseq>
+      <Hsp_midline>MFGK GLG LMKQAQQMQ+ M+K Q ++A+ E+ GE+G GLVKIT+  AH  R+++I P L++   DDK+MLEDLI AA   A  +AEE   + M + T    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|254800622|sp|B8E702.1|Y1770_SHEB2</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Sbal223_1770 [Shewanella baltica OS223]</Hit_def>
+  <Hit_accession>B8E702</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>6.48023e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQMMQEKMAKVQEEIARMEMVGESGAGLVKVTMTGAHTVRKVEIDPSLME---DDKEMLEDLIAAACNDAARRIEENQKTKMAEVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQ MQE M K Q ++A  E+ GE+G GLVK+TMT AH VRK++I P L++   DDKEMLEDLI AA   A  + EE     M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|189038733|sp|A8H2P7.1|Y1509_SHEPA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Spea_1509 [Shewanella pealeana ATCC 700345]</Hit_def>
+  <Hit_accession>A8H2P7</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>6.8379e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQMMQDKMAKVQEEIARMEVTGEAGAGLVKVTMTGSHSVRKVDIDASLLE---DDKEMLEDLIAAACNDAARRVEENQKEKMAEVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQ MQ+ M K Q ++A  E+ GEAG GLVK+TMT +H VRK+DI   L++   DDKEMLEDLI AA   A  + EE   + M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|47117426|sp|Q7N0P1.1|Y3840_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein plu3840 [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N0P1</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>7.61352e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQ--DLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGKGGLGNLMKQAQQMQDKMQKMQEEIASLEVTGESGAGLVKVTINGAHNCRRVEIDPSLME---DDKEMLEDLIAAAFNDAARRIEETQKEKMAGISSGMQLPPG</Hsp_hseq>
+      <Hsp_midline>MFGK GLG LMKQAQQMQ+ M+K Q ++A  E+ GE+G GLVK+T+  AH  R+++I P L++   DDKEMLEDLI AA   A  + EET  + M   +    LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|166227710|sp|A4Y7T9.1|Y2301_SHEPC</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Sputcn32_2301 [Shewanella putrefaciens CN-32] &gt;gi|166234785|sp|A1RIP9.1|Y1707_SHESW RecName: Full=Nucleoid-associated protein Sputw3181_1707 [Shewanella sp. W3-18-1]</Hit_def>
+  <Hit_accession>A4Y7T9</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.24797e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQMMQEKMAKMQEEIARMEMVGESGAGLVKVTMTGAHTVRKVEIDPSLME---DDKEMLEDLIAAACNDAARRIEENQKAKMAEVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQ MQE M K Q ++A  E+ GE+G GLVK+TMT AH VRK++I P L++   DDKEMLEDLI AA   A  + EE     M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|81386887|sp|Q65SE6.1|Y1507_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein MS1507 [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65SE6</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.54705e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGKGGLGNLMKQAQQMQERMQKMQEEIAQLEVTGESGAGLVKVTINGAHNCRRVEIDPSLME---DDKDMLEDLIAAAFNDAARRADELQKEKMASVTAGMPIPPG</Hsp_hseq>
+      <Hsp_midline>MFGK GLG LMKQAQQMQE M+K Q ++A+ E+ GE+G GLVK+T+  AH  R+++I P L++   DDK+MLEDLI AA   A  +A+E   + M + T    +PPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|75353710|sp|Q5E465.1|Y1686_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein VF_1686 [Vibrio fischeri ES114] &gt;gi|238690293|sp|B5FFM5.1|Y1810_VIBFM RecName: Full=Nucleoid-associated protein VFMJ11_1810 [Vibrio fischeri MJ11]</Hit_def>
+  <Hit_accession>Q5E465</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.6124e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFG-KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPG</Hsp_qseq>
+      <Hsp_hseq>MFGGKGGMGNLMKQAQQMQDRMQKMQEEIANMEVTGESGAGLVKVTITGSHSVRRVEIDPSLMEE--DEKEMLEDLIAAAFNDASRRIEETQKEKMASVTGGMQMPPG</Hsp_hseq>
+      <Hsp_midline>MFG K G+G LMKQAQQMQ+ M+K Q ++A  E+ GE+G GLVK+T+T +H VR+++I P L++E  D+KEMLEDLI AA   A  + EET  + M + T    +PPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|166200338|sp|A1S562.1|Y1311_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Sama_1311 [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1S562</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>2.48158e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MFGKAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>MFGKGGMGNLMKQAQMMQEKMAKMQEEIARMEVTGESGAGLVKVTMTGTHNVRKVEIDPSLLE---DDKELLEDLVAAACNDAARRVEENQKTKMAEVTGGMQLPPGM</Hsp_hseq>
+      <Hsp_midline>MFGK G+G LMKQAQ MQE M K Q ++A  E+ GE+G GLVK+TMT  H VRK++I P L++   DDKE+LEDL+ AA   A  + EE     M   T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|166228397|sp|A2SIU9.1|Y2533_METPP</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Mpe_A2533 [Methylibium petroleiphilum PM1]</Hit_def>
+  <Hit_accession>A2SIU9</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>2.57876e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFT--QDLPPGV</Hsp_qseq>
+      <Hsp_hseq>KGQLAGLMKQAQAMQDNLKKAQDELALIEVEGQSGAGLVKVLMTCKHDVKRITIDPSLL---ADDKDMLEDLVAAAFNDAVRRAAATSEEKMGKLTAGMPLPPGM</Hsp_hseq>
+      <Hsp_midline>K  L GLMKQAQ MQ+N+KKAQ +LA  E+EG++G GLVK+ MTC H+V++I I P L+   ADDK+MLEDL+ AA   A  +A  T+ + MG  T    LPPG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|238691799|sp|B2U9S6.1|Y1036_RALPJ</Hit_id>
+  <Hit_def>RecName: Full=Nucleoid-associated protein Rpic_1036 [Ralstonia pickettii 12J]</Hit_def>
+  <Hit_accession>B2U9S6</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>3.1939e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>KAGLGGLMKQAQQMQENMKKAQAKLAETEIEGEAGNGLVKITMTCAHEVRKIDISPDLIQEAADDKEMLEDLILAALKSARGKAEETANKTMGAFTQD-------LPPG</Hsp_qseq>
+      <Hsp_hseq>KGQIAGLMKQAQQMQENMKKAQEQLALIEVEGVSGAGLVKVVMTCKNDVKRVSIDPSLLAE-GEDKDLLEDLIAAAFNDAVRKAEATTQEKMGSLTSGLGGMAGMLPPG</Hsp_hseq>
+      <Hsp_midline>K  + GLMKQAQQMQENMKKAQ +LA  E+EG +G GLVK+ MTC ++V+++ I P L+ E  +DK++LEDLI AA   A  KAE T  + MG+ T         LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-11-08" modified="2015-01-07" version="68">
+<accession>Q5F8H5</accession>
+<name>GLND_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Bifunctional uridylyltransferase/uridylyl-removing enzyme</fullName>
+<shortName evidence="1">UTase/UR</shortName>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">Bifunctional [protein-PII] modification enzyme</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Bifunctional nitrogen sensor protein</fullName>
+</alternativeName>
+<domain>
+<recommendedName>
+<fullName evidence="1">[Protein-PII] uridylyltransferase</fullName>
+<shortName evidence="1">PII uridylyltransferase</shortName>
+<shortName evidence="1">UTase</shortName>
+<ecNumber evidence="1">2.7.7.59</ecNumber>
+</recommendedName>
+</domain>
+<domain>
+<recommendedName>
+<fullName evidence="1">[Protein-PII]-UMP uridylyl-removing enzyme</fullName>
+<shortName evidence="1">UR</shortName>
+<ecNumber evidence="1">3.1.4.-</ecNumber>
+</recommendedName>
+</domain>
+</protein>
+<gene>
+<name type="primary" evidence="1">glnD</name>
+<name type="ordered locus">NGO0798</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Modifies, by uridylylation and deuridylylation, the PII regulatory proteins (GlnB and homologs), in response to the nitrogen status of the cell that GlnD senses through the glutamine level. Under low glutamine levels, catalyzes the conversion of the PII proteins and UTP to PII-UMP and PPi, while under higher glutamine levels, GlnD hydrolyzes PII-UMP to PII and UMP (deuridylylation). Thus, controls uridylylation state and activity of the PII proteins, and plays an important role in the regulation of nitrogen assimilation and metabolism.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">UTP + [protein-PII] = diphosphate + uridylyl-[protein-PII].</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">Uridylyl-[protein-PII] + H(2)O = UMP + [protein-PII].</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="enzyme regulation">
+<text evidence="1">Uridylyltransferase (UTase) activity is inhibited by glutamine, while glutamine activates uridylyl-removing (UR) activity.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">Has four distinct domains: an N-terminal nucleotidyltransferase (NT) domain responsible for UTase activity, a central HD domain that encodes UR activity, and two C-terminal ACT domains that seem to have a role in glutamine sensing.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the GlnD family.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Contains 2 ACT domains.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Contains 1 HD domain.</text>
+</comment>
+<dbReference type="EC" id="2.7.7.59" evidence="1"/>
+<dbReference type="EC" id="3.1.4.-" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89512.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207924.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8H5"/>
+<dbReference type="STRING" id="242231.NGO0798"/>
+<dbReference type="EnsemblBacteria" id="AAW89512">
+<property type="protein sequence ID" value="AAW89512"/>
+<property type="gene ID" value="NGO0798"/>
+</dbReference>
+<dbReference type="GeneID" id="3282021"/>
+<dbReference type="KEGG" id="ngo:NGO0798"/>
+<dbReference type="PATRIC" id="20334744">
+<property type="gene designation" value="VBINeiGon24812_0944"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2844"/>
+<dbReference type="HOGENOM" id="HOG000261778"/>
+<dbReference type="KO" id="K00990"/>
+<dbReference type="OMA" id="SLWNNWK"/>
+<dbReference type="OrthoDB" id="EOG6CCH44"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-752-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008773">
+<property type="term" value="F:[protein-PII] uridylyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016597">
+<property type="term" value="F:amino acid binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008081">
+<property type="term" value="F:phosphoric diester hydrolase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006807">
+<property type="term" value="P:nitrogen compound metabolic process"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006808">
+<property type="term" value="P:regulation of nitrogen utilization"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.3210.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00277">
+<property type="entry name" value="PII_uridylyl_transf"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002912">
+<property type="entry name" value="ACT_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010043">
+<property type="entry name" value="GlnD_Uridyltrans"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003607">
+<property type="entry name" value="HD/PDEase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006674">
+<property type="entry name" value="HD_domain"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013546">
+<property type="entry name" value="PII_UdlTrfase/GS_AdlTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08335">
+<property type="entry name" value="GlnD_UR_UTase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01966">
+<property type="entry name" value="HD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF006288">
+<property type="entry name" value="PII_uridyltransf"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00471">
+<property type="entry name" value="HDc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01693">
+<property type="entry name" value="UTase_glnD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51671">
+<property type="entry name" value="ACT"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-0548">Nucleotidyltransferase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Bifunctional uridylyltransferase/uridylyl-removing enzyme" id="PRO_0000192746">
+<location>
+<begin position="1"/>
+<end position="852"/>
+</location>
+</feature>
+<feature type="domain" description="HD" evidence="1">
+<location>
+<begin position="437"/>
+<end position="539"/>
+</location>
+</feature>
+<feature type="domain" description="ACT 1" evidence="1">
+<location>
+<begin position="673"/>
+<end position="757"/>
+</location>
+</feature>
+<feature type="domain" description="ACT 2" evidence="1">
+<location>
+<begin position="785"/>
+<end position="852"/>
+</location>
+</feature>
+<feature type="region of interest" description="Uridylyltransferase">
+<location>
+<begin position="1"/>
+<end position="318"/>
+</location>
+</feature>
+<feature type="region of interest" description="Uridylyl-removing">
+<location>
+<begin position="319"/>
+<end position="672"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00277"/>
+</source>
+</evidence>
+<sequence length="852" mass="96964" checksum="446EC476F5205885" modified="2005-03-15" version="1">
+MPENLSSALETFKQQRNAAEAHYLKANRVSVFFREYTAAVETLLAALWAEHFQNSALCLM
+AVGGFGRGEPYPCSDVDLAVVSPAPLSDGIQEQIARFIQTLWDCKLMPSVKSGSVDELCE
+SVRDDITGDTAFLEARFLFGNRQTADELAEKMNVQRNVAAFIEAKLVEMEHRHAKSQGSG
+AVLEPNIKSCPGGLRDIHTLLWIAKAQGLAANLPDLLKQRILTRAEAGMLSHGYRRLAHI
+RIRLHLNAKRAEDRLLFDLQPQVAESMGYQDENRRRQSEELMRVFYRAVKTVKQLGGILT
+PMLRSRVSSTPVRVTLRIDDDYIQVNNQIAARHTDIFFRRPEHIFKIVEIMQQRNDITAL
+EPQTLRAWWGATRKINRSFYQNSENRRRFAGFFRSGNGLTQTLRFLNLYGVLGRYLPAWE
+KIVGLLQHDLFHIYPVDDHILAVVRNVRRLALDMHSHELPYASALMQSFEKQDILYLAAF
+FHDIAKGRGGDHAVQGIADARQFAADHFLTEEESDLLAWLVENHLLMSAVAQKEDIQDPG
+VLDAFCKRVQTHERLSALYLLTISDIRGTNPKLWNAWRASLLESLFHAAGRCLAGNDGNP
+HALFGRRRQEAADLLTRAAVPEKQQKKLWNALGSAYFARHQSREILWHAANLVHDFEPPI
+VRSRILPQSDSFQVMVFMPNGPRLFARLCRIFSRHGFDILAARAFITEHDYILDTFIVQI
+PSQHAPEDYPDIQSALEAELNSFIHGHTVAETQSCNRRISRRSRYMPIAPSITITPEEDY
+PDRYSVEITAVNRPFLLADMAEVFFAHNVSLRYAKISTLDERVEDSFTVFSPDLKNPKIQ
+SSLKQALLEQLA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

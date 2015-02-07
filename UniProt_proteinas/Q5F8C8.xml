@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="51">
+<accession>Q5F8C8</accession>
+<name>Q5F8C8_NEIG1</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Putative dihydroneopterin aldolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="1">NGO0857</name>
+</gene>
+<organism evidence="1 2">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89559.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207971.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8C8"/>
+<dbReference type="STRING" id="242231.NGO0857"/>
+<dbReference type="EnsemblBacteria" id="AAW89559">
+<property type="protein sequence ID" value="AAW89559"/>
+<property type="gene ID" value="NGO0857"/>
+</dbReference>
+<dbReference type="GeneID" id="3282152"/>
+<dbReference type="KEGG" id="ngo:NGO0857"/>
+<dbReference type="PATRIC" id="20334882">
+<property type="gene designation" value="VBINeiGon24812_1011"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1539"/>
+<dbReference type="HOGENOM" id="HOG000217627"/>
+<dbReference type="KO" id="K01633"/>
+<dbReference type="OMA" id="MDFIFIE"/>
+<dbReference type="OrthoDB" id="EOG6ND0KG"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-801-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004150">
+<property type="term" value="F:dihydroneopterin aldolase activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006760">
+<property type="term" value="P:folic acid-containing compound metabolic process"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006156">
+<property type="entry name" value="Dihydroneopterin_aldolase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006157">
+<property type="entry name" value="FolB_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02152">
+<property type="entry name" value="FolB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00905">
+<property type="entry name" value="FolB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00525">
+<property type="entry name" value="folB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00526">
+<property type="entry name" value="folB_dom"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="2">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="2">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89559.1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="118" mass="13362" checksum="AAE9D22614DCDCBC" modified="2005-03-15" version="1">
+MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPEKAGSDDDIANTVHYAEVCETLR
+RHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGVREVGVEIERGKRED
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

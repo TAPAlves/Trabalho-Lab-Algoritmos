@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-01-15" modified="2015-01-07" version="66">
+<accession>Q5F8I0</accession>
+<name>LIPA_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Lipoyl synthase</fullName>
+<ecNumber evidence="1">2.8.1.8</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">Lip-syn</fullName>
+<shortName evidence="1">LS</shortName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Lipoate synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Lipoic acid synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Sulfur insertion protein LipA</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">lipA</name>
+<name type="ordered locus">NGO0793</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the radical-mediated insertion of two sulfur atoms into the C-6 and C-8 positions of the octanoyl moiety bound to the lipoyl domains of lipoate-dependent enzymes, thereby converting the octanoylated domains into lipoylated derivatives.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">Protein N(6)-(octanoyl)lysine + 2 sulfur-(sulfur carrier) + 2 S-adenosyl-L-methionine = protein N(6)-(lipoyl)lysine + 2 (sulfur carrier) + 2 L-methionine + 2 5'-deoxyadenosine.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>[4Fe-4S] cluster</name>
+<dbReference type="ChEBI" id="CHEBI:49883"/>
+</cofactor>
+<text evidence="1">Binds 2 [4Fe-4S] clusters per subunit. One cluster is coordinated with 3 cysteines and an exchangeable S-adenosyl-L-methionine.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Protein modification; protein lipoylation via endogenous pathway; protein N(6)-(lipoyl)lysine from octanoyl-[acyl-carrier-protein]: step 2/2.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the radical SAM superfamily. Lipoyl synthase family.</text>
+</comment>
+<dbReference type="EC" id="2.8.1.8" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89507.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207919.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8I0"/>
+<dbReference type="STRING" id="242231.NGO0793"/>
+<dbReference type="EnsemblBacteria" id="AAW89507">
+<property type="protein sequence ID" value="AAW89507"/>
+<property type="gene ID" value="NGO0793"/>
+</dbReference>
+<dbReference type="GeneID" id="3281929"/>
+<dbReference type="KEGG" id="ngo:NGO0793"/>
+<dbReference type="PATRIC" id="20334734">
+<property type="gene designation" value="VBINeiGon24812_0939"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0320"/>
+<dbReference type="HOGENOM" id="HOG000235997"/>
+<dbReference type="KO" id="K03644"/>
+<dbReference type="OMA" id="EEYVTPE"/>
+<dbReference type="OrthoDB" id="EOG6038ZS"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-747-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00538">
+<property type="reaction ID" value="UER00593"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051539">
+<property type="term" value="F:4 iron, 4 sulfur cluster binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016992">
+<property type="term" value="F:lipoate synthase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009249">
+<property type="term" value="P:protein lipoylation"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.20.20.70">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00206">
+<property type="entry name" value="Lipoyl_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013785">
+<property type="entry name" value="Aldolase_TIM"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006638">
+<property type="entry name" value="Elp3/MiaB/NifB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003698">
+<property type="entry name" value="Lipoyl_synth"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007197">
+<property type="entry name" value="rSAM"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR10949">
+<property type="entry name" value="PTHR10949"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04055">
+<property type="entry name" value="Radical_SAM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF005963">
+<property type="entry name" value="Lipoyl_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00729">
+<property type="entry name" value="Elp3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00510">
+<property type="entry name" value="lipA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0004">4Fe-4S</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0411">Iron-sulfur</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0949">S-adenosyl-L-methionine</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Lipoyl synthase" id="PRO_1000012241">
+<location>
+<begin position="1"/>
+<end position="327"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur 1 (4Fe-4S)" evidence="1">
+<location>
+<position position="66"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur 1 (4Fe-4S)" evidence="1">
+<location>
+<position position="71"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur 1 (4Fe-4S)" evidence="1">
+<location>
+<position position="77"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur 2 (4Fe-4S-S-AdoMet)" evidence="1">
+<location>
+<position position="92"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur 2 (4Fe-4S-S-AdoMet)" evidence="1">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur 2 (4Fe-4S-S-AdoMet)" evidence="1">
+<location>
+<position position="99"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00206"/>
+</source>
+</evidence>
+<sequence length="327" mass="37047" checksum="88EEE1076164C58D" modified="2005-03-15" version="1">
+MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQ
+KMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAES
+VKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKI
+LAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETD
+EDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIG
+AMVRSSYHADEQAAEALRESHGGCGHH
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>32841</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>87</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>32841</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>87</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|132164|sp|P06400.2|RB_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Retinoblastoma-associated protein; AltName: Full=p105-Rb; AltName: Full=pRb; Short=Rb; AltName: Full=pp110 [Homo sapiens]</Hit_def>
+  <Hit_accession>P06400</Hit_accession>
+  <Hit_len>928</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.15825</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RQPPKTKGNPINIIEQETKRTELRKI--------DAEIAKIIADAHKINAESVKIAQESRWYPMMAATGLVTA</Hsp_qseq>
+      <Hsp_hseq>KEPYKTAVIPINGSPRTPRRGQNRSARIAKQLENDTRIIEVLCKEHECNIDEVKNVYFKNFIPFMNSLGLVTS</Hsp_hseq>
+      <Hsp_midline>++P KT   PIN   +  +R + R          D  I +++   H+ N + VK      + P M + GLVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|73919054|sp|Q5NHV1.1|RS5_FRATT</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S5 [Francisella tularensis subsp. tularensis SCHU S4] &gt;gi|122325774|sp|Q0BNR0.1|RS5_FRATO RecName: Full=30S ribosomal protein S5 [Francisella tularensis subsp. holarctica OSU18] &gt;gi|123169580|sp|Q14JA3.1|RS5_FRAT1 RecName: Full=30S ribosomal protein S5 [Francisella tularensis subsp. tularensis FSC198] &gt;gi|171472961|sp|A0Q4K0.1|RS5_FRATN RecName: Full=30S ribosomal protein S5 [Francisella tularensis subsp. novicida U112] &gt;gi|171769924|sp|A7N9U2.1|RS5_FRATF RecName: Full=30S ribosomal protein S5 [Francisella tularensis subsp. holarctica FTNF002-00] &gt;gi|172044167|sp|A4IZR7.1|RS5_FRATW RecName: Full=30S ribosomal protein S5 [Francisella tularensis subsp. tularensis WY96-3418]</Hit_def>
+  <Hit_accession>Q5NHV1</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.26111</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>RTELRKIDAEIAKIIADAHKINAESVKIAQESRWYPMMAATG</Hsp_qseq>
+      <Hsp_hseq>RGKSREVPAAIQKAMENAKK-NMVSVNLNNDTLWYPVMSNHG</Hsp_hseq>
+      <Hsp_midline>R + R++ A I K + +A K N  SV +  ++ WYP+M+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|47605545|sp|Q9D7D7.1|CLD23_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Claudin-23 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9D7D7</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.62766</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>RQPPKTKGNPINIIEQETKRT</Hsp_qseq>
+      <Hsp_hseq>RPPPKSYTNPMDVLEGEEKKT</Hsp_hseq>
+      <Hsp_midline>R PPK+  NP++++E E K+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|13431956|sp|O08816.2|WASL_RAT</Hit_id>
+  <Hit_def>RecName: Full=Neural Wiskott-Aldrich syndrome protein; Short=N-WASP [Rattus norvegicus]</Hit_def>
+  <Hit_accession>O08816</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.57739</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>387</Hsp_hit-from>
+      <Hsp_hit-to>471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LPSDKRRQPPKTKGNPINIIEQETKRTELRKIDAEIAKIIADAHK---------INAESVKIAQESRWYPMMAATGLVTAIAAVL</Hsp_qseq>
+      <Hsp_hseq>LPSDGDHQVPASSGNKAALLDQIREGAQLKKVEQNSRPVSCSGRDALLDQIRQGIQLKSVSDGQESTPPTPAPTSGIVGALMEVM</Hsp_hseq>
+      <Hsp_midline>LPSD   Q P + GN   +++Q  +  +L+K++     +               I  +SV   QES        +G+V A+  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75082468|sp|Q6XQ97.1|SPANU_BPT1</Hit_id>
+  <Hit_def>RecName: Full=U-spanin; Flags: Precursor [Enterobacteria phage T1]</Hit_def>
+  <Hit_accession>Q6XQ97</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>7.88984</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>EQETKRTELRKIDAEIAKIIA----DAHKINAESVKIAQESRWYPMMAATGLVTAIAAVLALIFKF</Hsp_qseq>
+      <Hsp_hseq>EVKVSDSNIGKIDSSVKKSVEVSTIQANTVNAESITVTKSGSWYDPVVCWILV----FIVLLLFYF</Hsp_hseq>
+      <Hsp_midline>E +   + + KID+ + K +      A+ +NAES+ + +   WY  +    LV     ++ L+F F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

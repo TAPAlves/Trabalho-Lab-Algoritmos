@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>51441</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>118</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>51441</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>118</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|527504091|sp|Q9BSG1.4|ZNF2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger protein 2; AltName: Full=Zinc finger protein 2.2; AltName: Full=Zinc finger protein 661 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9BSG1</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.76934</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>YHCNSNGKSVY--TSDPSGSCADADLPKISSHQGGGYRLKIKKLSQEAKIHTGNKKKNKKHAGKKNRQAAKAPKENQ</Hsp_qseq>
+      <Hsp_hseq>YECNECGKAFYGVSSLNRHQKAHAGDPRYQCNECGKAFFDRSSLTQHQKIHTGDKPYECSECGKAFSQRCRLTRHQR</Hsp_hseq>
+      <Hsp_midline>Y CN  GK+ Y  +S      A A  P+   ++ G        L+Q  KIHTG+K       GK   Q  +  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|75070813|sp|Q5RBY9.1|ZNF2_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger protein 2 [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RBY9</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.08784</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>YHCNSNGKSVY--TSDPSGSCADADLPKISSHQGGGYRLKIKKLSQEAKIHTGNKKKNKKHAGKKNRQAAKAPKENQ</Hsp_qseq>
+      <Hsp_hseq>YECNECGKAFYGVSSLNRHQKAHAGDPRYQCNECGKAFFDRSSLTQHQKIHTGDKPYECSECGKAFSQRCRLTRHQR</Hsp_hseq>
+      <Hsp_midline>Y CN  GK+ Y  +S      A A  P+   ++ G        L+Q  KIHTG+K       GK   Q  +  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|42558877|sp|Q940Y5.2|PIN7_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Auxin efflux carrier component 7; Short=AtPIN7 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q940Y5</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.57038</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>GLLSLSGAAAQASIYHCNSNGKSVYTSDPSGSCADADLPKISSHQGGG---YRLKIKKLSQEAKIHTGNKKKNKKHAGKKNRQAAK</Hsp_qseq>
+      <Hsp_hseq>GRLSNFGPADMYSVQ--SSRGPTPRPSNFEESCAMASSPRFGYYPGGAPGSYPAPNPEFSTGNKTGSKAPKENHHHVGKSNSNDAK</Hsp_hseq>
+      <Hsp_midline>G LS  G A   S+   +S G +   S+   SCA A  P+   + GG    Y     + S   K  +   K+N  H GK N   AK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122135327|sp|Q29RZ4.1|ZNF2_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger protein 2 [Bos taurus]</Hit_def>
+  <Hit_accession>Q29RZ4</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.14428</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>YHCNSNGKSVY--TSDPSGSCADADLPKISSHQGGGYRLKIKKLSQEAKIHTGNKKKNKKHAGKKNRQAAKAPKENQ</Hsp_qseq>
+      <Hsp_hseq>YECNECGKAFYGVSSLNRHQKAHAGEPRYQCSECGKAFFDRSSLTQHQKIHTGDKPYECSECGKAFSQRCRLTRHQR</Hsp_hseq>
+      <Hsp_midline>Y CN  GK+ Y  +S      A A  P+    + G        L+Q  KIHTG+K       GK   Q  +  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122135920|sp|Q2KHW5.1|ACBG1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Long-chain-fatty-acid--CoA ligase ACSBG1; AltName: Full=Acyl-CoA synthetase bubblegum family member 1 [Bos taurus]</Hit_def>
+  <Hit_accession>Q2KHW5</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.29916</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>YFTGINIRLFAALGLLSLSGAAAQASIYHCN--SNGKSV</Hsp_qseq>
+      <Hsp_hseq>FFLGLNIRLYAGYGLSETSGPHFMSSPYNYRLYSSGKVV</Hsp_hseq>
+      <Hsp_midline>+F G+NIRL+A  GL   SG    +S Y+    S+GK V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|296434385|sp|Q96GR2.2|ACBG1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Long-chain-fatty-acid--CoA ligase ACSBG1; AltName: Full=Acyl-CoA synthetase bubblegum family member 1; Short=hBG1; Short=hsBG; Short=hsBGM; AltName: Full=Lipidosin [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96GR2</Hit_accession>
+  <Hit_len>724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.6708</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>YFTGINIRLFAALGLLSLSGAAAQASIYHCN--SNGKSV</Hsp_qseq>
+      <Hsp_hseq>FFLGLNIRLYAGYGLSETSGPHFMSSPYNYRLYSSGKLV</Hsp_hseq>
+      <Hsp_midline>+F G+NIRL+A  GL   SG    +S Y+    S+GK V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|48428075|sp|Q8IS44.1|DRD2L_DROME</Hit_id>
+  <Hit_def>RecName: Full=Dopamine D2-like receptor; Short=DD2R [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q8IS44</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.99355</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>394</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>KIKKLSQEA-----KIHTGNKKKNKKHAGKKNRQAAK</Hsp_qseq>
+      <Hsp_hseq>KDKKNSQASRFTIYKVHKASKKKREKSSAKKERKATK</Hsp_hseq>
+      <Hsp_midline>K KK SQ +     K+H  +KKK +K + KK R+A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|284018088|sp|Q9PVY8.2|FXC2B_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Forkhead box protein C2-B; Short=FoxC2-B; Short=FoxC2b; AltName: Full=Fork head domain-related protein 4&apos;; Short=FD-4&apos;; Short=xFD-4&apos;; Short=xFD4 B [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q9PVY8</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.47577</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>318</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>YHCNSNGKSVYTSD-PSGSCADADLPKISSHQGGGYRLKIKKLSQEAKIHTGNKKKN</Hsp_qseq>
+      <Hsp_hseq>FQCSMRAMSLYTGDRPSHMCAPSTLEEATSEHHNGTSSPLNSMSQESVLTSSHHQQT</Hsp_hseq>
+      <Hsp_midline>+ C+    S+YT D PS  CA + L + +S    G    +  +SQE+ + + + ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166198363|sp|Q4R4P9.2|ACBG1_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Long-chain-fatty-acid--CoA ligase ACSBG1; AltName: Full=Acyl-CoA synthetase bubblegum family member 1 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q4R4P9</Hit_accession>
+  <Hit_len>724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.77335</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>YFTGINIRLFAALGLLSLSGAAAQASI--YHCNSNGKSV</Hsp_qseq>
+      <Hsp_hseq>FFLGLNIRLYAGYGLSETSGPHFMSSPCNYRLYSSGKLV</Hsp_hseq>
+      <Hsp_midline>+F G+NIRL+A  GL   SG    +S   Y   S+GK V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

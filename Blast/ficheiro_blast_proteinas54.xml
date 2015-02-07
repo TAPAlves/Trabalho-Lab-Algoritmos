@@ -1,0 +1,714 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>28335</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>356</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>28335</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>356</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|8928516|sp|Q9ZCT3.1|Y630_RICPR</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein RP630 [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZCT3</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>5.08843e-49</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>AALVWLVYA---------LGDTLTPFAVAAVLAYVLDPLVEWLQKK--GLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGN------IVSSIGNL-LLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLREGAQKYFAGSFYR</Hsp_qseq>
+      <Hsp_hseq>TAVFWLVFLTLFISGFMLITDTIKPFFIAFIISYLLQPAIYFIESKLEISNKLASSIIYLIFLSIFFL-IFTILIPIIYGQIFTFINNIPKYKNYLQSEILPPIMGKIYS-IEPDIADKIK------HSLSDFINSIFTILGSIANNFWRYTIITINIFVLFLLIPIILFYFLRDWDKIITNMESLLPIKTRPKILEILSAINNLLSSYIRGQLNICLLLSTYYSIAFTLIGIDLALLLGILTGFLVIIPLLGTFISFLLTLIIGYLTFGITSKLLYIMIIYLIGNIGESYILTPKIIGDKIGLHPLWIIFAIFACGSLFGIIGIFFAIPIAGITKILLLNLIKFYKSSKFYR</Hsp_hseq>
+      <Hsp_midline> A+ WLV+          + DT+ PF +A +++Y+L P + +++ K    N+ ++S+  ++F  I  L +  I++P++ GQ     + +P+   ++Q+ +LP +   I   +E D A  I         LS+ + + F +L     N      I  +I  L LL P++L+YFL DW +    +  L+P +       I   +N +L  ++RGQL + L++   Y +   L+G+D    +G++ G LV +P LG F   LL  +   L FG  + +L +  ++ +G   ES+ +TPKI+GD+IGL P W+IF++ A G L G +G+   +P+A +T +LL    + Y +  FYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|8928489|sp|O34472.1|YRRI_BACSU</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein YrrI [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34472</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.52591e-23</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>WLVYALGDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLAL---LLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQ-----GGNI---VSSIGNLL-------LPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLL</Hsp_qseq>
+      <Hsp_hseq>WLV--IKTIFIPLIISIFISYLLLPVTEWLHGKGLPR---TLSILVIYVLFFGGIGWALYKGVPVLIVQLTDLSENIP-MFAETYNGLLLHVHN-------------------HTDDWPDGMHHRIDKMIRQTEAFFAGTIEGAISGIRNVLDYFLIAATIPFLVFYMVKDIELMKKTVWYLTPKSWRKRGSAFLRDVDDSLGDYIRGQLLVCLILGVIAGISFWVFGLPYPLILGLISGVTNVIPYFGPFIGAVPALLIAMTI--SVKAVLVVVITVFILQFMEGNILSPFIVGRSLKMHPVVIMLALLAGGELAGIVGMILAVPATAVLKVMM</Hsp_hseq>
+      <Hsp_midline>WLV  +     P  ++  ++Y+L P+ EWL  KGL R   ++S++V  ++    +   L   VP+L+ Q  +L+  +P +     N LL  + N                   HT +  + +      +++Q      G I   +S I N+L         P L++Y + D +     +  L P+ +    +    ++++ LG+++RGQLLV LI+G++ G+   + GL     +G+++G+   +PY G F G + A + A+    S   +L V     + QF+E   ++P IVG  + + P  ++ +L+A GEL G VGM+  +P  AV  V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2506918|sp|P43969.2|PERM_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Putative permease PerM homolog [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43969</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.66612e-22</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>VYALGDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLA--LLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVE-IDQASIIAWFQAHTGEL----SNALKAWFPVLMKQGGNIVSSIGNLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLREGAQK</Hsp_qseq>
+      <Hsp_hseq>IYFFGDLIAPLLIALVLSYLLEIPINFLNQY-LKCPRMLATILIFGSFIGLAAVFFLVLVPMLWNQTISLLSDLPA----MFNKSNEWLLNLPKNYPELIDYSMVDSIFNSVREKILGFGESAVKLSLASIM----NLVSLGIYAFLVPLMMFFMLKDKSELLQGVSRFLPKNRNLAFXR-WKEMQQQISNYIHGKLLEILIVTLITYIIFLIFGLNYPLLLAFAVGLSVLVPYIGAVIVTIPVALVALFQFGISPTFWYIIIAFAVSQLLDGNLLVPYLFSEAVNLHPLIIIISVLIFGGLWGFWGVFFAIPLATLVKAVINALPQD</Hsp_hseq>
+      <Hsp_midline>+Y  GD + P  +A VL+Y+L+  + +L +  L       ++++F   + LA    L++VPML  Q  +L S LP     M N    WL N    Y E ID + + + F +   ++     +A+K     +M    N+VS      L PL++++ L D      G+++ +P+    A+ R    + + +  ++ G+LL +LI+ L+  +  ++ GL+    +    G+ V VPY+GA    +   + AL QFG       +   FAV Q L+   + P +  + + L P  +I S++ FG L GF G+   +PLA +   ++    Q </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|8928521|sp|O32095.1|YUEF_BACSU</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein YueF [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32095</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>5.69474e-21</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>PFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLIL--LLALLL-----IIVPMLVGQFNNLASRLPQLIGFMQNTL----LPWLKNTIGGYVEID--QASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAV</Hsp_qseq>
+      <Hsp_hseq>PMLIAGILYFIFNPVVRLLEKK----IPRTLSILLIYLLFIGLLAFISASVGPIITAQVTGLFNNLPDYIKQIQALTKDLSHSQWFTWMMNQ--DYVSISKIEQSLTSFLQNLPQNITSSLSAVFGVVTNITLVIITV-------PFILFYMLKDGHRFPHLAVKILPASYRTEGLKIFKDLSDTLAAYFQGQLLICLFVGTACFIGYLIAGLPYALILGIVMAITNIIPYVGPFLGAAPAVIVGFMD-SPAKALFAIIVVVIVQQ-LDGNLLSPLVIGKRLNTHPLTIILLLIGAGSFGGILGMILAVPVYAV</Hsp_hseq>
+      <Hsp_midline>P  +A +L ++ +P+V  L+KK       ++S+++  L+   LLA +      II   + G FNNL   + Q+    ++        W+ N    YV I   + S+ ++ Q     ++++L A F V+      I++        P +L+Y L D  R+     K++P  +     +I  +L++ L  + +GQLL+ L +G    +G ++ GL     +G+V  I   +PY+G F G   A +   +       + A+  V  V Q L+   ++P ++G R+   P  +I  L+  G   G +GM+  +P+ AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|84028850|sp|P0AFJ0.1|PERM_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Putative permease PerM [Escherichia coli O157:H7] &gt;gi|84028929|sp|P0AFI9.1|PERM_ECOLI RecName: Full=Putative permease PerM [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AFJ0</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>3.4067e-20</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>LVYALGDTLTPFAVAAVLAYVLD-PLVEWLQKKGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASII-AWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAA</Hsp_qseq>
+      <Hsp_hseq>IIFFFSGLLAPLLVAIVLAYLLEWPTVR-LQSIGCSRRWATSIVLVVFVGILLLMAFVVLPIAWQQGIYLIRDMPG----MLNKLSDFAATLPRRYPALMDAGIIDAMAENMRSRMLTMGDSVVKISLASLVGLLTIAVYLVLVPLMVFFLLKDKEQMLNAVRRVLPRN-RGLAGQVWKEMNQQITNYIRGKVLEMIVVGIATWLGFLLFGLNYSLLLAVLVGFSVLIPYIGAFVVTIPVVGVALFQFGAGTEFWSCFAVYLIIQALDGNLLVPVLFSEAVNLHPLVIILSVVIFGGLWGFWGVFFAIPLAT</Hsp_hseq>
+      <Hsp_midline>+++     L P  VA VLAY+L+ P V  LQ  G +R  A+  V+V  + +LL +  +++P+   Q   L   +P     M N L  +       Y  +  A II A  +     +     +   + +     +++    L+L PL++++ L D ++    + +++PR   G   ++   +N+ +  ++RG++L M+++G+   LG +L GL+    + ++ G  V +PY+GAF   +     AL QFG+     + +AV+ + Q L+   + P +  + + L P  +I S++ FG L GF G+   +PLA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|8928520|sp|O32086.1|YUBA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein YubA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32086</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.15778e-19</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>PFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIG-GYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLP----PLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVL</Hsp_qseq>
+      <Hsp_hseq>PIILTGIVFYLLNPVVDFLERRRIRRIYSILLLYLLVIGLITITIVSIIPFLKEQIMSLIDNIPRYVDVVEN----QTKQLIGSNFVNQAQQTMNINISDLATKVSDQAATIVNSTFTGVGNFIGALTEIIISIVTVPFILFYLLKDGRKLPVYILKFVPTRLKEQTYTVLSEMNHRLSSYIRGQIIVSFCIGFLLFIGYLIIGLDYASLLAVIAACTSIVPYLGPTIAITPAIIIAIV--TSPLMLLKLVIVWTIVQLIEGKLISPQIMGKNLHIHPITIIFLLLTAGKLFGVVGIILAIPGYAVAKVI</Hsp_hseq>
+      <Hsp_midline>P  +  ++ Y+L+P+V++L+++ + R  + + + +  + L+   ++ I+P L  Q  +L   +P+ +  ++N      K  IG  +V   Q ++         ++S+             GN + ++  +++     P +L+Y L D ++    I K VP R       +   +N  L  ++RGQ++V   +G +  +G +++GLD    + ++A     VPYLG    +  A + A++   S   +L +  V+ + Q +E   I+P+I+G  + + P  +IF L+  G+L G VG++  +P  AV  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|8928467|sp|Q55147.1|Y063_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein sll0063 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55147</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>2.40512e-18</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>VAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQ-ASIIAW---FQAHTGELSNALKAWFPVLMKQGGNIVSSIG--------NLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLREG</Hsp_qseq>
+      <Hsp_hseq>IASVIAFLLNYPVAWLEKQGAKRFVAASFVFLTALIIFTALGVTLIPLALSQAQQLVARLPD-----------WLDSGQKQLVLLDQKAEILGWPVNFDGLIPQINSRLAAELQNLAGSTLNLALSLTVFTVVRLLDVLLTIILTFYLLLHTDDVWQSIIGWLPERFQKPF---SDTLRRSFQNYFLGQLVSATCMALGLISGFLLLKVPFGLLFGLTVGVMALIPFGGSVGIVLVTFLVALRDIGMALQLLAV--ALVIQQIVEN-GIAPRVLGSVTGLNPFWVLISLLTGARIGGLLGVIVAVPSA----VMIKEA</Hsp_hseq>
+      <Hsp_midline>+A+V+A++L+  V WL+K+G  R  A+  V + +LI+  AL + ++P+ + Q   L +RLP            WL +     V +DQ A I+ W   F     ++++ L A    L     N+  S+         ++LL  +L +Y LL        I   +P RF   +   +  L      +  GQL+    M L    G +L+ +  G   G+  G++  +P+ G+   +L+  + AL   G    +LAV     + Q +E+  I P+++G   GL+PFWV+ SL+    + G +G++  +P A    V+++E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|8928522|sp|O34991.1|YTVI_BACSU</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein YtvI [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34991</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.25011e-12</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>PFAVAAVLAYVLDPLVEWLQK-KGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVL-MKQGGNIVSSIGNL------------------------LLP--------PLLLYYFLL-DWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTG----LLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLREGAQK</Hsp_qseq>
+      <Hsp_hseq>PFLIALILSSVIHPVVDYLDKVTGFPRTINVLGVLAFFLLAAFGVLTILVAEIVTGTAYLAKTLPPHI------------STFISYCE-------KLFTTHIQPLYNELTLLFQELETNQQASIVTHIQTLGDSAAKNAGLLLSHILEMIPRFFALLPNTAAVLIFSLLATFFMTKDWHKLKAMLVLILPDRVTANSKAISSELKKAMTGFIKAQAVLVFITMVIVFIGLSLLKVEHAATIAFLIGLVDLLPYLGAGSVFVPWILYLSITGQLPQAIGIGILYL-VVLIQRQLTE-----PKILSKSIGIDPLATLIALFAGFKLFGFLGLIAGPAVLVIIQAFITTGALK</Hsp_hseq>
+      <Hsp_midline>PF +A +L+ V+ P+V++L K  G  R    + V+ F L+    +L I+V  +V     LA  LP  I            +T   Y E         F  H   L N L   F  L   Q  +IV+ I  L                        LLP         LL  +F+  DW +    +  ++P R       I+  L + +  F++ Q +++ I  ++  +GL L+ ++    I  + G++  +PYLGA +     +L  ++   L      GIL +  V    Q  E     PKI+   IG+ P   + +L A  +L GF+G++AG  +  +    +  GA K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|84028001|sp|P0AGM1.1|YHHT_ECO57</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 inner membrane protein YhhT [Escherichia coli O157:H7] &gt;gi|84028002|sp|P0AGM0.1|YHHT_ECOLI RecName: Full=UPF0118 inner membrane protein YhhT [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AGM1</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.73314e-12</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>VYALGDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIG------FMQNTLLPWLKNTIGGY---VEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVT</Hsp_qseq>
+      <Hsp_hseq>IHAAADIIVQLLLALFFAIVLNPLVTWFIRRGVQRPVAITIVVVVMLIALTAL----VGVLAASFNEFISMLPKFNKELTRKLFKLQEMLPFLNLHMSPERMLQRMDSEKVVTFTTALMTGLSGAMASVLLLVM----TVVFMLFEVRHVPYKMRFALNNPQI-----------HIAGLHRALKG-----VSHYLALKTLLSLWTGVIVWLGLELMGVQFALMWAVLAFLLNYVPNIGAVISAVPPMIQVLLFNGVYECIL-VGALFLVVHMVIGNILEPRMMGHRLGMSTMVVFLSLLIWGWLLGPVGMLLSVPLTSVC</Hsp_hseq>
+      <Hsp_midline>++A  D +    +A   A VL+PLV W  ++G+ R  A   V+V  LI L AL    V +L   FN   S LP+         F    +LP+L   +        +D   ++ +  A    LS A+ +   ++M     +V  +  +   P  + + L + Q              AG +  + G     +  +L  + L+ L  G++  LGL L+G+       ++A +L +VP +GA    +   +  LL  G +  IL V A+F V   +    + P+++G R+G+S   V  SL+ +G L+G VGML  +PL +V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|8928468|sp|Q55153.1|Y060_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein sll0060 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55153</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>8.92966e-12</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>FAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLALL-LIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPP-----------LLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLRE</Hsp_qseq>
+      <Hsp_hseq>FIIANLVAFILGYPVRWLQRYPRLKLPYAVALVLLTTAIILAVIGLLVIPKLVDQIRTVLQLLPHL-NALGDRHLESLDNLS------NQWEIPTNFRAWGRELSNE----FP---NQIRSITNQLINLLIWTAGSLVEAGFIFIMTVYLLLRGQTFWDGIFRWLPIDWRH---KVRQRLRHSFQNYYIGQATVAALLGVSLIISLSIFQVPLALLFGMFVGFMAFFPF-GGGTSIVLISIIASFQ-SIWLGIKVLAIATVVDQVVENG-LAPKLLGRVTGVHPVWILLSLMIGAKVAGLLGILVAIPIASFIRDMLND</Hsp_hseq>
+      <Hsp_midline>F +A ++A++L   V WLQ+    +   ++++++ +  ++LA++ L+++P LV Q   +   LP L   + +  L  L N        +Q  I   F+A   ELSN     FP    Q  +I + + NLL+             ++  Y LL  Q +  GI + +P  +     ++   L      +  GQ  V  ++G+   + L +  +      GM  G + F P+ G  T ++L ++ A  Q   W GI  +     V Q +E+  + PK++G   G+ P W++ SLM   ++ G +G+L  +P+A+    +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|614089055|sp|P9WFM4.1|Y205_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein MT0215 [Mycobacterium tuberculosis CDC1551] &gt;gi|614089061|sp|P9WFM5.1|Y205_MYCTU RecName: Full=UPF0118 membrane protein Rv0205 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WFM4</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>6.61539e-08</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>AAFAALVWLVYALGDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLLLYYFLLD----WQRWSCGIAKLVPRRFAGA----YTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAA</Hsp_qseq>
+      <Hsp_hseq>AAMVALLWVLNKFEVIVVPVLLALMLSALLVPPVDWLDSRGLPHAVAVTLVLLSGFAVLGGILTFVVSQFIAGLPHLVTEVERSIDSARRWLIEGPAHLRGEQIDNAGNAAIEALRNNQAKLTSG-------ALSTAATITELVTAAVLVLFTLIFFLYGGRSIWQYVTKAFPASVRDRVRAAGRAGYASLIG--------YARATFLVALTDAAGVGAGLAVMGVPLALPLASLVFFGAFIPLIGAVVAGFLAVVVALLAKGIGYALITVGLLIAVNQ-LEAHLLQPLVMGRAVSIHPLAVVLAIAAGGVLAGVVGALLAVPTVA</Hsp_hseq>
+      <Hsp_midline>AA  AL+W++      + P  +A +L+ +L P V+WL  +GL  A A   V++    +L  +L  +V   +    +L + + + I   +  L+    +  G  ++    + I   + +  +L++         +     I   +   +L    L +FL      WQ  +      V  R   A    Y  + G        + R   LV L      G GL ++G+     +  +     F+P +GA     LA V ALL  G    ++ V  + AV Q LE+  + P ++G  + + P  V+ ++ A G L G VG L  +P  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|384872653|sp|O51039.2|Y006_BORBU</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein BB_0006 [Borrelia burgdorferi B31]</Hit_def>
+  <Hit_accession>O51039</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.34978e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>RKGRGIKPWMGAGAAFAALVWLVYA-----LGDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQF-GSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLRE</Hsp_qseq>
+      <Hsp_hseq>NTNQGLKPWRVESVFYCIVIVLIFIGAFKIAEAVFKPLAISIVLGFLVYPVYTFLARFKVPK----FLIVFIIFFLLFSFSYLIFSFVYYSVTVLMKQLP----YYQNQLAFIMKDVLSRY-KVDSSVI------NDVNFSGYI---YPFLTRAYNEIIGFTSSLVVVFLLLYFLLSEIHVFEMKLDKAFKKPISTRFIGALDTINNQIGKYLGIKILVSCLTGILVFIGLTLFGQDFPLVWAVLSFVFNFIPSIGSILAVFFIVITSLIQFYPNLNIVLYVFIYNTSIQMLIGNILEPKMQGKRLDISPFLLLCFLFFWGWLWGIVGLLISYPFTVIVKVIVDN</Hsp_hseq>
+      <Hsp_midline>   +G+KPW      +  ++ L++            P A++ VL +++ P+  +L +  + +      ++     LL +   +I   +      L  +LP    + QN L   +K+ +  Y ++D + I      +    S  +   +P L +    I+    +L++  LLLY+ L +   +   + K   +  +  +      +N  +G++L  ++LV  + G++  +GL L G D      +++ +  F+P +G+   +    + +L+QF  + N +L V+      Q L    + PK+ G R+ +SPF ++  L  +G L G VG+L   P   +  V++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|84027916|sp|P0AFS5.1|TQSA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=AI-2 transport protein TqsA; AltName: Full=Transport of quorum-sensing signal protein [Escherichia coli K-12] &gt;gi|84027917|sp|P0AFS6.1|TQSA_SHIFL RecName: Full=AI-2 transport protein TqsA; AltName: Full=Transport of quorum-sensing signal protein [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFS5</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.80414e-05</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>GDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRA---SASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTL--LPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEV------LGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAI--GMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLREGA</Hsp_qseq>
+      <Hsp_hseq>AEIIVPFILALFIAVILNPLVQHMVRWRVPRVLAVSILMTIIVMAMVLLLA-------YLGSALNELTRTLPQYRNSIMTPLQALEPLLQRVGIDVSVDQL-------AHYID-PNAAMTLLTNLLTQLSNAMSSI----------FLLLLTVLFMLLEVPQL-PGKFQQMMARPVEGMAAIQRAIDSVSHYLVLKTAISIITGLVAWA--MLAALDVRFAFVWGLLAFALNYIPNIGSVLAAI-PPIAQVLVFNGFYEALLVLAGYLLINLVFGNILEPRIMGRGLGLSTLVVFLSLIFWGWLLGPVGMLLSVPLTIIVKIALEQTA</Hsp_hseq>
+      <Hsp_midline> + + PF +A  +A +L+PLV+ + +  + R    S  M+++V +++LLLA        L    N L   LPQ    +   L  L  L   +G  V +DQ        AH  +  NA       L+ Q  N +SSI          +  LL        + +L P +F     R    +  +      +  +L  +  + +I GLV     ML  LD  FA   G++A  L ++P +G+    +   +A +L F  +   L V A + +   +    + P+I+G  +GLS   V  SL+ +G L+G VGML  +PL  +  + L + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|8928512|sp|Q9X0R9.1|Y1187_THEMA</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein TM_1187 [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9X0R9</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>5.96453e-05</Hsp_evalue>
+      <Hsp_query-from>209</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>EFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLREGAQKYFAG</Hsp_qseq>
+      <Hsp_hseq>RFVGGQVLVAIFVGLFVGFGAFIFKIPSAFFLGMLAFVTDFVPYLGVVISAIPLLMLAFSVHG-LSGLLIGTIILVAANQLEMWVLAPKIQSNTLNVHWFIILIMILILGDLFSFGGVLIALPF----LIFLKNFWKQYVMG</Hsp_hseq>
+      <Hsp_midline> F+ GQ+LV + +GL  G G  +  + S F +GM+A +  FVPYLG     +   + A    G  +G+L    +      LE + + PKI  + + +  F ++  ++  G+L  F G+L  LP     L+ L+   ++Y  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|298286885|sp|Q04454.2|Y178_BACPE</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein BpOF4_00890; AltName: Full=ORF2 [Bacillus pseudofirmus OF4]</Hit_def>
+  <Hit_accession>Q04454</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000144131</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>PFAVAAVLAYVLDPLVEWLQKK-GLNRASASMSVMVFSLILLLALL--LIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPV--LMKQGGNIVSSIGNLLLPPLL----LYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFA--VGQF--------------LESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLREG</Hsp_qseq>
+      <Hsp_hseq>PLVAALLTALILTPAVNALQRKTKIKRNVAVM--LVFTVFVVFIGLSGYYIATKAITQGTQIVENSPQYISDINRAWLNFQRNLEEKYENLPPELVQEINITVTNTLSD-LRSNISDRNLIQDITSLISSIPGYLVTFLVYLIALFLFMLELPRLREKLYSYLSERTKEKVNFMTSRLSYVIWGFFKAQFLVSIIIFIVTLIGLLFIAPEVALLMAFIIWLIDFVPIIGSIV------------------ILAPWAIFQLIVGDVSTGSKLLILAAVLLIIRRTVEPKVMGKHIGLSPLATLIAMYLGLMLFGVIGFIIG-PLLVIAFTSAKEA</Hsp_hseq>
+      <Hsp_midline>P   A + A +L P V  LQ+K  + R  A M  +VF++ ++   L    I    + Q   +    PQ I  +    L + +N    Y  +    +       T  LS+ L++      L++   +++SSI   L+  L+    L+ F+L+  R    +   +  R       +T  L+ V+  F + Q LV +I+ +V  +GL+ +  +    +  +  ++ FVP +G+                    ILA WA+F   VG                +    + PK++G  IGLSP   + ++     L G +G + G PL  +     +E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|8928505|sp|P96604.1|YDBI_BACSU</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein YdbI [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P96604</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000146754</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>KPWMGAGAAFAALVWLVYALGDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRA-SASMSVMVFSLILLLALLL-----IIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIG-NLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRIT---GNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGE-LMGFVGMLAGLPL</Hsp_qseq>
+      <Hsp_hseq>HPGVRRFSIFVVLTGVLYLFKSMINLILLTFIFTFLMDRL-ELVVRQFVSQFFRVSQRVVITFLYMLLAVLLTVGGFVFYPVVAAQIQQLVKQIKH-IAYHPDSI-PFFDEITSVFGDIN--------------ISSYVKEGFNVVYTYLADI-STFGLQVVMALILSMFFLFEKKRLSEFMAKFKTSKLRVFYEEIAFFGSKFARTFGKVLEAQFIIALVNCILTFIALWIMHFPQLFGLSIMVFFLGLIPVAGVVISLIPLSIIAYSTGGGMYVLYIVLVIFAIHA-IETYFLNPKLMSAKTEL-PIFFTFTVLIFSEHFFGIWGLIIGIPI</Hsp_hseq>
+      <Hsp_midline> P +   + F  L  ++Y     +    +  +  +++D L E + ++ +++    S  V++  L +LLA+LL     +  P++  Q   L  ++   I +  +++ P+       + +I+              +S+ +K  F V+     +I S+ G  +++  +L  +FL + +R S  +AK    +    Y  I           G+ L  Q ++ L+  ++  + L ++     F + ++   L  +P  G    L+  ++ A    G    +  V  +FA+   +E++F+ PK++  +  L P +  F+++ F E   G  G++ G+P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1176280|sp|P44646.1|Y338_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein HI_0338 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44646</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00708225</Hsp_evalue>
+      <Hsp_query-from>246</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ILVFVPYLGAFTGLLLATVAALLQ------FGSWNGILAVWAVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLA</Hsp_qseq>
+      <Hsp_hseq>LLNYIPNIGSIIAAIPIIVQALLLNGFGIGFGVAIGVIAINMV--VGNIIE-----PKMMGQRLGLSTLVVFLSLLFWGWLLGTVGMLLSVPLT</Hsp_hseq>
+      <Hsp_midline>+L ++P +G+    +   V ALL       FG   G++A+  V  VG  +E     PK++G R+GLS   V  SL+ +G L+G VGML  +PL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|8928508|sp|Q58578.1|Y1177_METJA</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein MJ1177 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58578</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0313986</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>WMGAGAAFAALVWLVYALGDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLLL----YYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLES----FFITPKIVGDRIGLSPFWVIFSLM</Hsp_qseq>
+      <Hsp_hseq>YVRKGVIVGLLIMLLYIIWPFIDVLAYSCAFAYMALPVYNILRKKFNKTISAGLAISIY-----------ILPIMTITIYALLTFMEIILSFNTKSIEPYINEILSIYNSFMLERIINNEQI----IAKYIDEFIKYLVSQFSGKIIDVGYLIVKVIMVLFLTFYFLRDGDKAKNLIISFVPDEYKEKMRIYLSYLHDSYKNLFISCVSLSIIITILSYIGYLILGVPYAELFAIITGIFALLPILG---GWMVYISIAIYFFLIHDYTKAVF-MFIYGELFLSIAPDFVIRPYLVKKEVDIHPVLVVIAFL</Hsp_hseq>
+      <Hsp_midline>++  G     L+ L+Y +   +   A +   AY+  P+   L+KK     SA +++ ++           I+P++      L + +  ++ F   ++ P++   +  Y       II   Q     ++  +  +   L+ Q    +  +G L++  +++    +YFL D  +    I   VP  +          L++         + + +I+ ++  +G +++G+       ++ GI   +P LG   G ++    A+  F   +   AV+ +F  G+   S    F I P +V   + + P  V+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|8928484|sp|O27279.1|Y1211_METTH</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein MTH_1211 [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>O27279</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0331135</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>YYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVWAVFAVGQFLES--FFITPKIVGDRIGLSP</Hsp_qseq>
+      <Hsp_hseq>FYFARDGKRLVGYIRTLIPEETRPFMERMASETERVLLSIFYGHFLTALAIGLMAAVGFHLLGYPYAILLGIMTGLFQLIPVIGPWAAY---TPLSIYDFVTGN-ILRGVLVLIFGLFLSTIDIYLRPKLSGKYADIHP</Hsp_hseq>
+      <Hsp_midline>+YF  D +R    I  L+P        R+      VL     G  L  L +GL+  +G  L+G      +G++ G+   +P +G +      T  ++  F + N IL    V   G FL +   ++ PK+ G    + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|8928476|sp|Q9ZLR4.1|Y567_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein jhp_0514 [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZLR4</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.28059</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>WLVYALGDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTL------LPWLKNTIGGYVE-IDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAAL-LQFGSWNG--ILAVWAVFAVGQFLESF-------FITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLR</Hsp_qseq>
+      <Hsp_hseq>WMLYLYQDFLMDALIAGLLCVGLFQVKVFLNKRFSNVISSFLCVLVLASVVIVPLYFIVYKGSNVIFEINFEKLSALIKWLKGTITENLSHFPAIHDGVSKFLENFSAASITGYLLKVSSYIG-----------KYSLKLVTDALFILGLLFFFFYYGEKFYRYFLGVLPLEMNQSKKIFEEVAGILRIVL----LTSLITVILEGVAFGTMIIWFGHD-GWSLGILYGLASLVPAVGG--ALIWIPIAIYELYHGHVNEAIFIVLYSILLIGVLIDSVIKPILIVFIKKRIFKTTLKINEILIFFSMIAGISQFGFWGIIVGPTITAFFIALLR</Hsp_hseq>
+      <Hsp_midline>W++Y   D L    +A +L   L  +  +L K+  N  S+ + V+V + ++++ L  I+       F     +L  LI +++ T+       P + + +  ++E    ASI  +    +  +            K    +V+    +L      +Y+   + R+  G+  L   +    +  + G L  VL       L+ +++ G+ +G  ++  G D G+++G++ G+   VP +G    L+   +A   L  G  N    + ++++  +G  ++S        FI  +I    + ++   + FS++A     GF G++ G  + A  + LLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|8928513|sp|Q9X170.1|Y1349_THEMA</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein TM_1349 [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9X170</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.97768</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>FAVAAVLAY---VLDPLVEWLQK----KGLNRASASMSVMVFSLILLLALLLIIVPMLVGQFNNLASRLPQLIGFMQNTLLPWLKNTI-GGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLL-LYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAALLQFGSWNGILAVW--AVFAVGQFLESFFITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLREGAQKYFAG</Hsp_qseq>
+      <Hsp_hseq>FAVIVLMVFFTLLLDPVIRFLEKLKFGKYFSRVAA---LLLFFFVMVYSLYMIIPPV----FNEFGS----FIEFMTKVF----ESKIWKDY--IKSPELMPVFDKIMNFLEPKLTDFLNYVFSLVTTNFVSVTTIIVFTLFGLGYTVFYIREIASFFVLIYPKSVRAEAREFFRDVYASMGRYIRVIFINAVIIGLSYWIVFEAFNLKYSAIISLWAFVTNFIP----IVGVVLEYIPVLL-FSLTLGVKGVLLIALFAILIHAVAFVVFIQLMKGLEKLNPVYIILSILFFGKLFGLFGSFVGVPLALFFKVFWRKFLRPLFEA</Hsp_hseq>
+      <Hsp_midline>FAV  ++ +   +LDP++ +L+K    K  +R +A   +++F  +++ +L +II P+    FN   S     I FM        ++ I   Y  I    ++  F      L   L  +   +         S+  +++  L  L Y +   +  +     + P+           ++   +G ++R   +  +I+GL Y +      L     I + A +  F+P      G++L  +  LL F    G+  V   A+FA+     +F +  +++     L+P ++I S++ FG+L G  G   G+PLA    V  R+  +  F  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|81756260|sp|Q7MGA3.1|SSTT_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine transporter SstT; AltName: Full=Na(+)/serine-threonine symporter [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MGA3</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.30623</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>NEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILV</Hsp_qseq>
+      <Hsp_hseq>NSLIARFARGNLVIQILVGIILGISLALVSPSSAESVGMLGSLFV</Hsp_hseq>
+      <Hsp_midline>N ++  F RG L++ +++G++ G+ L LV   S  ++GM+  + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|75566979|sp|Q81495.3|POLG_HCVK3</Hit_id>
+  <Hit_def>RecName: Full=Genome polyprotein; Contains: RecName: Full=Core protein p21; AltName: Full=Capsid protein C; AltName: Full=p21; Contains: RecName: Full=Core protein p19; Contains: RecName: Full=Envelope glycoprotein E1; AltName: Full=gp32; AltName: Full=gp35; Contains: RecName: Full=Envelope glycoprotein E2; AltName: Full=NS1; AltName: Full=gp68; AltName: Full=gp70; Contains: RecName: Full=p7; Contains: RecName: Full=Protease NS2-3; Short=p23; Contains: RecName: Full=Serine protease NS3; AltName: Full=Hepacivirin; AltName: Full=NS3P; AltName: Full=p70; Contains: RecName: Full=Non-structural protein 4A; Short=NS4A; AltName: Full=p8; Contains: RecName: Full=Non-structural protein 4B; Short=NS4B; AltName: Full=p27; Contains: RecName: Full=Non-structural protein 5A; Short=NS5A; AltName: Full=p56; Contains: RecName: Full=RNA-directed RNA polymerase; AltName: Full=NS5B; AltName: Full=p68 [Hepatitis C virus (isolate HCV-K3a/650)]</Hit_def>
+  <Hit_accession>Q81495</Hit_accession>
+  <Hit_len>3021</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>4.14914</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>831</Hsp_hit-from>
+      <Hsp_hit-to>892</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LIGFMQNTLLPWLKNTIGGYVEIDQASIIAWFQAHTGELSNALKAWFPVLMKQGG-NIVSSIGNLLLPPLLL</Hsp_qseq>
+      <Hsp_hseq>LFGFF--TLSPWYKHWI--------ARLIWWNQYTICRCESALHVWVPPLLARGGRDGVILLTSLLYPSLIF</Hsp_hseq>
+      <Hsp_midline>L GF   TL PW K+ I        A +I W Q       +AL  W P L+ +GG + V  + +LL P L+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|8928454|sp|O25291.1|Y567_HELPY</Hit_id>
+  <Hit_def>RecName: Full=UPF0118 membrane protein HP_0567 [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25291</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>7.56605</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>WLVYALGDTLTPFAVAAVLAYVLDPLVEWLQKKGLNRASASMSVMVFSLILLLALLLIIVP----MLVGQFNNLASRLPQLIGFMQNTL--LPWLKNTIGGYVE-IDQASIIAWF---QAHTGELSNALKAWFPVLMKQGGNIVSSIGNLLLPPLLLYYFLLDWQRWSCGIAKLVPRRFAGAYTRITGNLNEVLGEFLRGQLLVMLIMGLVYGLGLMLVGLDSGFAIGMVAGILVFVPYLGAFTGLLLATVAAL-LQFGSWNG--ILAVWAVFAVGQFLESF-------FITPKIVGDRIGLSPFWVIFSLMAFGELMGFVGMLAGLPLAAVTLVLLR</Hsp_qseq>
+      <Hsp_hseq>WMIYLYQDFLMDALIAGLLCVGFFQVKVFLDKRFFNVVSSFLCVLILASVLIVPLYFIVYKSSNIIFEINFEKFSALIKWLKGIITENLSHFPTIHDGASKFLENFSAASITGYLLKISSYVGRYSLKL--------------ITDALFILGLLFFFFYYGERFYRYFLGVLPLGMNQSKKIFEEVAGILRIVL----LTSLITVILEGVAFGVMIVWFGHD-GWSLGILYGLASLVPAVGG--ALIWIPIAIYELYHGNVNEAIFIALYSILLISVLIDSVIKPILIVFIKKRIFKTTLKINEMLIFFSMIAGISQFGFWGIIVGPTITAFFIALLR</Hsp_hseq>
+      <Hsp_midline>W++Y   D L    +A +L      +  +L K+  N  S+ + V++ + +L++ L  I+      +    F   ++ +  L G +   L   P + +    ++E    ASI  +     ++ G  S  L              ++    +L      +Y+   + R+  G+  L   +    +  + G L  VL       L+ +++ G+ +G+ ++  G D G+++G++ G+   VP +G    L+   +A   L  G+ N    +A++++  +   ++S        FI  +I    + ++   + FS++A     GF G++ G  + A  + LLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-08-30" modified="2015-01-07" version="69">
+<accession>Q5F849</accession>
+<name>DAPA_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">4-hydroxy-tetrahydrodipicolinate synthase</fullName>
+<shortName evidence="1">HTPA synthase</shortName>
+<ecNumber evidence="1">4.3.3.7</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">dapA</name>
+<name type="ordered locus">NGO0947</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the condensation of (S)-aspartate-beta-semialdehyde [(S)-ASA] and pyruvate to 4-hydroxy-tetrahydrodipicolinate (HTPA).</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">Pyruvate + L-aspartate-4-semialdehyde = (4S)-4-hydroxy-2,3,4,5-tetrahydro-(2S)-dipicolinate + H(2)O.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Amino-acid biosynthesis; L-lysine biosynthesis via DAP pathway; (S)-tetrahydrodipicolinate from L-aspartate: step 3/4.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homotetramer; dimer of dimers.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the DapA family.</text>
+</comment>
+<comment type="caution">
+<text evidence="2">Was originally thought to be a dihydrodipicolinate synthase (DHDPS), catalyzing the condensation of (S)-aspartate-beta-semialdehyde [(S)-ASA] and pyruvate to dihydrodipicolinate (DHDP). However, it was shown in E.coli that the product of the enzymatic reaction is not dihydrodipicolinate but in fact (4S)-4-hydroxy-2,3,4,5-tetrahydro-(2S)-dipicolinic acid (HTPA), and that the consecutive dehydration reaction leading to DHDP is not spontaneous but catalyzed by DapB.</text>
+</comment>
+<dbReference type="EC" id="4.3.3.7" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89638.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208050.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F849"/>
+<dbReference type="STRING" id="242231.NGO0947"/>
+<dbReference type="EnsemblBacteria" id="AAW89638">
+<property type="protein sequence ID" value="AAW89638"/>
+<property type="gene ID" value="NGO0947"/>
+</dbReference>
+<dbReference type="GeneID" id="3281803"/>
+<dbReference type="KEGG" id="ngo:NGO0947"/>
+<dbReference type="PATRIC" id="20335077">
+<property type="gene designation" value="VBINeiGon24812_1108"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0329"/>
+<dbReference type="HOGENOM" id="HOG000173604"/>
+<dbReference type="KO" id="K01714"/>
+<dbReference type="OMA" id="HAVYLSK"/>
+<dbReference type="OrthoDB" id="EOG6W7235"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-880-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00034">
+<property type="reaction ID" value="UER00017"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008840">
+<property type="term" value="F:4-hydroxy-tetrahydrodipicolinate synthase"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016843">
+<property type="term" value="F:amine-lyase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019877">
+<property type="term" value="P:diaminopimelate biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009089">
+<property type="term" value="P:lysine biosynthetic process via diaminopimelate"/>
+<property type="evidence" value="IEA:UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.20.20.70">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00418">
+<property type="entry name" value="DapA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013785">
+<property type="entry name" value="Aldolase_TIM"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005263">
+<property type="entry name" value="DapA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002220">
+<property type="entry name" value="DapA-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020625">
+<property type="entry name" value="Dihydrodipicolinate_synth_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020624">
+<property type="entry name" value="Dihydrodipicolinate_synth_CS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR12128">
+<property type="entry name" value="PTHR12128"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00701">
+<property type="entry name" value="DHDPS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF001365">
+<property type="entry name" value="DHDPS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00146">
+<property type="entry name" value="DHPICSNTHASE"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00674">
+<property type="entry name" value="dapA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00665">
+<property type="entry name" value="DHDPS_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00666">
+<property type="entry name" value="DHDPS_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0028">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0220">Diaminopimelate biosynthesis</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0457">Lysine biosynthesis</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0704">Schiff base</keyword>
+<feature type="chain" description="4-hydroxy-tetrahydrodipicolinate synthase" id="PRO_0000103129">
+<location>
+<begin position="1"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor/acceptor" evidence="1">
+<location>
+<position position="133"/>
+</location>
+</feature>
+<feature type="active site" description="Schiff-base intermediate with substrate" evidence="1">
+<location>
+<position position="161"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyruvate" evidence="1">
+<location>
+<position position="45"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyruvate; via carbonyl oxygen" evidence="1">
+<location>
+<position position="203"/>
+</location>
+</feature>
+<feature type="site" description="Part of a proton relay during catalysis" evidence="1">
+<location>
+<position position="44"/>
+</location>
+</feature>
+<feature type="site" description="Part of a proton relay during catalysis" evidence="1">
+<location>
+<position position="107"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00418"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="291" mass="30751" checksum="688CD59FCEAF9882" modified="2005-03-15" version="1">
+MLQGSLVALITPMNQDGSIHYDQLRQLIDWHIENGTDGIVAAGTTGESATLSVEEHLSVI
+EETVKHVAKRVPVIAGTGANNTVEAIALSQAAEKAGADYTLSVVPYYNKPSQEGMYRHFK
+AVAEAAAIPMILYNVPGRTVVSMNNETILRLAEIPNIVGVKEASGNVGSNIELINRAPEG
+FAVLSGDDHTALPFMLCGGHGVITVAANAAPKLFADMCRAALQGDIALARELNDRLIPIY
+DTMFCEPSPAAPKWAVSALGRCGPHVRLPLVPLTEGGQAKVRAALKASGQL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

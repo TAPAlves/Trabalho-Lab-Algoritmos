@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="68">
+<accession>Q5F873</accession>
+<name>Q5F873_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1 3">Citrate synthase</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="4">NGO0918</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<text evidence="3">Acetyl-CoA + H(2)O + oxaloacetate = citrate + CoA.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the citrate synthase family.</text>
+</comment>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89614.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208026.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F873"/>
+<dbReference type="SMR" id="Q5F873">
+<property type="residue range" value="6-421"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0918"/>
+<dbReference type="EnsemblBacteria" id="AAW89614">
+<property type="protein sequence ID" value="AAW89614"/>
+<property type="gene ID" value="NGO0918"/>
+</dbReference>
+<dbReference type="GeneID" id="3281236"/>
+<dbReference type="KEGG" id="ngo:NGO0918"/>
+<dbReference type="PATRIC" id="20335019">
+<property type="gene designation" value="VBINeiGon24812_1079"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0372"/>
+<dbReference type="HOGENOM" id="HOG000021224"/>
+<dbReference type="KO" id="K01647"/>
+<dbReference type="OMA" id="FMAHWRE"/>
+<dbReference type="OrthoDB" id="EOG6P8TP4"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-856-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004108">
+<property type="term" value="F:citrate (Si)-synthase activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044262">
+<property type="term" value="P:cellular carbohydrate metabolic process"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006099">
+<property type="term" value="P:tricarboxylic acid cycle"/>
+<property type="evidence" value="IEA:UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.230.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.580.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016142">
+<property type="entry name" value="Citrate_synth-like_lrg_a-sub"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016143">
+<property type="entry name" value="Citrate_synth-like_sm_a-sub"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002020">
+<property type="entry name" value="Citrate_synthase-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016141">
+<property type="entry name" value="Citrate_synthase-like_core"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019810">
+<property type="entry name" value="Citrate_synthase_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024176">
+<property type="entry name" value="Citrate_synthase_bac-typ"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010953">
+<property type="entry name" value="Citrate_synthase_typ-I"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11739">
+<property type="entry name" value="PTHR11739"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00285">
+<property type="entry name" value="Citrate_synt"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF001369">
+<property type="entry name" value="Citrate_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00143">
+<property type="entry name" value="CITRTSNTHASE"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48256">
+<property type="entry name" value="SSF48256"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01798">
+<property type="entry name" value="cit_synth_I"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00480">
+<property type="entry name" value="CITRATE_SYNTHASE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0012" evidence="4">Acyltransferase</keyword>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<keyword id="KW-0808" evidence="4">Transferase</keyword>
+<keyword id="KW-0816" evidence="3">Tricarboxylic acid cycle</keyword>
+<feature type="active site" evidence="2">
+<location>
+<position position="304"/>
+</location>
+</feature>
+<feature type="active site" evidence="2">
+<location>
+<position position="362"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="PIRNR" id="PIRNR001369"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="PIRSR" id="PIRSR001369-1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU003370"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89614.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="427" mass="48121" checksum="A9B577F228559BD7" modified="2005-03-15" version="1">
+MSKSIKLNVPGRAGLELPVLEASIGHDVVDIRGLTKNTGLFAFDPGFVSTASCESKITYI
+DGDQGLLYYRGYPIEQLAEKSDYLEVCYLLIYGELPTPEQKAEFDNTVRRHTMVHEQLTW
+FFRGFRRDAHPMAMMVGVVGALSAFYQDSLDITNPEHRKIAIYRLISKIPTIAAMCYRYS
+NGLPFNYPKNNLSYSENFLHMMFATPCEDYKPNPVLARALDRIFILHADHEQNASTSTVR
+LAGSSGANPFACIAAGIACLWGASHGGANEAVLKMLDEIGDVSNVAAYMEGVKQRKYRLM
+GFGHRVYRNMDPRASIMRETCYEVLKELGLEDSPKFKLAMELEQIALKDPFFIERKLYPN
+VDFYSGIVLSALGIPTEMFTVIFALSRSVGWISHWHEMISDPSLKIGRPRQLYTGSERRD
+YVPAGER
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

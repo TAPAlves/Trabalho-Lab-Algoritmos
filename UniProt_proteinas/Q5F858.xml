@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2006-04-04" modified="2015-01-07" version="68">
+<accession>Q5F858</accession>
+<name>METX_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Homoserine O-acetyltransferase</fullName>
+<ecNumber evidence="1">2.3.1.31</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">Homoserine O-trans-acetylase</fullName>
+<shortName evidence="1">HTA</shortName>
+<shortName evidence="1">Homoserine transacetylase</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">metX</name>
+<name type="ordered locus">NGO0933</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Involved in the methionine biosynthesis. Catalyzes the transfer of the acetyl group from acetyl-CoA to the hydroxyl group of L-homoserine to yield O-acetyl-L-homoserine.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">Acetyl-CoA + L-homoserine = CoA + O-acetyl-L-homoserine.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Amino-acid biosynthesis; L-methionine biosynthesis via de novo pathway; O-acetyl-L-homoserine from L-homoserine: step 1/1.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homodimer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the AB hydrolase superfamily. HTA family.</text>
+</comment>
+<dbReference type="EC" id="2.3.1.31" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89629.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010951153.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208041.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F858"/>
+<dbReference type="STRING" id="242231.NGO0933"/>
+<dbReference type="EnsemblBacteria" id="AAW89629">
+<property type="protein sequence ID" value="AAW89629"/>
+<property type="gene ID" value="NGO0933"/>
+</dbReference>
+<dbReference type="GeneID" id="3282566"/>
+<dbReference type="KEGG" id="ngo:NGO0933"/>
+<dbReference type="PATRIC" id="20335049">
+<property type="gene designation" value="VBINeiGon24812_1094"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2021"/>
+<dbReference type="HOGENOM" id="HOG000246301"/>
+<dbReference type="KO" id="K00641"/>
+<dbReference type="OMA" id="EYFDANT"/>
+<dbReference type="OrthoDB" id="EOG67T5J4"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-871-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00051">
+<property type="reaction ID" value="UER00074"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004414">
+<property type="term" value="F:homoserine O-acetyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009086">
+<property type="term" value="P:methionine biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1820">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00296">
+<property type="entry name" value="Homoser_O_acetyltr"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029058">
+<property type="entry name" value="AB_hydrolase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000073">
+<property type="entry name" value="AB_hydrolase_1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008220">
+<property type="entry name" value="Homoserine_AcTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00561">
+<property type="entry name" value="Abhydrolase_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000443">
+<property type="entry name" value="Homoser_Ac_trans"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53474">
+<property type="entry name" value="SSF53474"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01392">
+<property type="entry name" value="homoserO_Ac_trn"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0012">Acyltransferase</keyword>
+<keyword id="KW-0028">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0486">Methionine biosynthesis</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Homoserine O-acetyltransferase" id="PRO_0000231874">
+<location>
+<begin position="1"/>
+<end position="379"/>
+</location>
+</feature>
+<feature type="active site" description="Nucleophile" evidence="1">
+<location>
+<position position="154"/>
+</location>
+</feature>
+<feature type="active site" evidence="1">
+<location>
+<position position="319"/>
+</location>
+</feature>
+<feature type="active site" evidence="1">
+<location>
+<position position="352"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00296"/>
+</source>
+</evidence>
+<sequence length="379" mass="42145" checksum="E6D341BB93507CE8" modified="2005-03-15" version="1">
+MSQNTSVGIVTPQKIPFEMPLVLENGKTLPRFDLMIETYGELNAEKNNAVLICHALSGNH
+HVAGRHSAEDKYTGWWDNMVGPGKPIDTERFFVVGLNNLGGCDGSSGPLSINPETGREYG
+ADFPMVTVKDWVKSQAALADYLGIEQWAAVVGGSLGGMQALQWAISYPERVRHALVIASA
+PKLSAQNIAFNDVARQAILTDPDFNEGHYRSHNTVPARGLRIARMMGHITYLAEDGLGKK
+FGRDLRSNGYQYGYSVEFEVESYLRYQGDKFVGRFDANTYLLMTKALDYFDPAADFGNSL
+TRAVQDVQAKFFVASFSTDWRFAPERSHELVKALIAAQKSVQYIEVKSAHGHDAFLMEDE
+AYMRAVTAYMNNVDKDCRL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,994 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>6095</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>105</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>6095</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>105</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|116073|sp|P23939.1|CEBA_BACAM</Hit_id>
+  <Hit_def>RecName: Full=BamHI control element [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>P23939</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.56042e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>DLRAVLAYNMRLFRVNKG-WSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLL</Hsp_qseq>
+      <Hsp_hseq>NIRLLFGQKVRQIRLSKSNMSQEKLAFECDLHRTYISDIERGTRNVSLDNIEKISKALGVQPKDLL</Hsp_hseq>
+      <Hsp_midline>++R +    +R  R++K   SQE+LA +C L RTY+S +ER   N++L NIEK++ ALGV    LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|141422|sp|P14307.1|YSMA_SERMA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator in smaI restriction system 5&apos;region [Serratia marcescens]</Hit_def>
+  <Hit_accession>P14307</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>9.38502e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DLRAVLAYNMRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLL</Hsp_qseq>
+      <Hsp_hseq>DIKEILAENVRSYRNINNLSQEQLAEISGLHRTYIGSVERKERNVTLSTLIILAKALNTSVPKLL</Hsp_hseq>
+      <Hsp_midline>D++ +LA N+R +R     SQE+LA   GL RTY+ +VERK  N+ LS +  +A AL  +  +LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2495432|sp|P55409.1|Y4DJ_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator y4dJ [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55409</Hit_accession>
+  <Hit_len>77</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>4.16916e-08</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>DLRAVLAYNMRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLLLPPQE</Hsp_qseq>
+      <Hsp_hseq>DMRKLVGSNFARLRREKGLTQEEVEARSGFSQQYLSSLERGRRNPTVITLYELAQALGVSHVELVTPTDE</Hsp_hseq>
+      <Hsp_midline>D+R ++  N    R  KG +QEE+  + G  + Y+S++ER R N  +  + ++A ALGV+  +L+ P  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1171067|sp|P43640.1|MUNC_MYCSP</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein MunI [Mycoplasma sp.]</Hit_def>
+  <Hit_accession>P43640</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.10448e-07</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>SQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLL</Hsp_qseq>
+      <Hsp_hseq>SQESFAAQIDLDRTYYSSIENGKRNVSLVNLEKISAGLGITLSELF</Hsp_hseq>
+      <Hsp_midline>SQE  A Q  LDRTY S++E  + N++L N+EK++A LG+   +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|134504|sp|P06533.1|SINR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator SinR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P06533</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>6.03121e-05</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>VLAYNMRLFRVNKGWSQEELARQCGLDRTYVSAVERK-RWNIALSNIEKMAAALGVAAYQLLLPPQE</Hsp_qseq>
+      <Hsp_hseq>MIGQRIKQYRKEKGYSLSELAEKAGVAKSYLSSIERNLQTNPSIQFLEKVSAVLDVSVHTLLDEKHE</Hsp_hseq>
+      <Hsp_midline>++   ++ +R  KG+S  ELA + G+ ++Y+S++ER  + N ++  +EK++A L V+ + LL    E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|133375|sp|P06153.2|RPC_BPPH1</Hit_id>
+  <Hit_def>RecName: Full=Immunity repressor protein [Bacillus phage phi105]</Hit_def>
+  <Hit_accession>P06153</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>6.31999e-05</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>MRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGV</Hsp_qseq>
+      <Hsp_hseq>IKAIRKERKLTQVQLAEKANLSRSYLADIERDRYNPSLSTLEAVAGALGI</Hsp_hseq>
+      <Hsp_midline>++  R  +  +Q +LA +  L R+Y++ +ER R+N +LS +E +A ALG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|134503|sp|P22753.1|SINR_BACLI</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator SinR [Bacillus licheniformis]</Hit_def>
+  <Hit_accession>P22753</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.000126467</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>VLAYNMRLFRVNKGWSQEELARQCGLDRTYVSAVERK-RWNIALSNIEKMAAALGVAAYQLLLPPQE</Hsp_qseq>
+      <Hsp_hseq>MIGQRIKQYRKEKGYSLSELAEKAGVAKSYLSSIERNLQTNPSIQFLEKVSAVLDVSVHTLLNEKDE</Hsp_hseq>
+      <Hsp_midline>++   ++ +R  KG+S  ELA + G+ ++Y+S++ER  + N ++  +EK++A L V+ + LL    E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|6686025|sp|P56811.2|TFX_METTM</Hit_id>
+  <Hit_def>RecName: Full=DNA-binding protein Tfx [Methanothermobacter marburgensis str. Marburg]</Hit_def>
+  <Hit_accession>P56811</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00239636</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>KGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAY</Hsp_qseq>
+      <Hsp_hseq>RGWSQKKIARELKTTRQNVSAIERK----AMENIEKSRNTLDFVKF</Hsp_hseq>
+      <Hsp_midline>+GWSQ+++AR+    R  VSA+ERK    A+ NIEK    L    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123131|sp|P23873.1|HIPB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Antitoxin HipB [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P23873</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.00338039</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LAYNMRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVA</Hsp_qseq>
+      <Hsp_hseq>LANAMKLVRQQNGWTQSELAKKIGIKQATISNFENNPDNTTLTTFFKILQSLELS</Hsp_hseq>
+      <Hsp_midline>LA  M+L R   GW+Q ELA++ G+ +  +S  E    N  L+   K+  +L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81590194|sp|Q8FHF3.1|HIPB_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Antitoxin HipB [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FHF3</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.00461903</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LAYNMRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVA</Hsp_qseq>
+      <Hsp_hseq>LANAMKLVRQQNGWTQSELAKKIGIKQATISNFENNPDNTSLTTFFKILQSLELS</Hsp_hseq>
+      <Hsp_midline>LA  M+L R   GW+Q ELA++ G+ +  +S  E    N +L+   K+  +L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|2829660|sp|P77626.1|YDCN_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator YdcN [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77626</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00507208</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>QDLRAVLAYNMRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLLLPPQ</Hsp_qseq>
+      <Hsp_hseq>ENLARFLSTTLKQLRQQRGWSLSRLAEATGVSKAMLGQIERNESSPTVATLWKIATGLNVPFSTFISPPQ</Hsp_hseq>
+      <Hsp_midline>++L   L+  ++  R  +GWS   LA   G+ +  +  +ER   +  ++ + K+A  L V     + PPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|6685999|sp|O27001.3|TFX_METTH</Hit_id>
+  <Hit_def>RecName: Full=DNA-binding protein Tfx [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>O27001</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.00801512</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>KGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEK</Hsp_qseq>
+      <Hsp_hseq>RGWSQKKIARELKTTRQNVSAIERK----AMENIEK</Hsp_hseq>
+      <Hsp_midline>+GWSQ+++AR+    R  VSA+ERK    A+ NIEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81556692|sp|P71049.1|SLRR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator SlrR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P71049</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0170554</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MRLFRVNKGWSQEELARQCGLDRTYVSAVERK-RWNIALSNIEKMAAALGVAAYQLL</Hsp_qseq>
+      <Hsp_hseq>IRLYRKRKGYSINQLAVESGVSKSYLSKIERGVHTNPSVQFLKKVSATLEVELTELF</Hsp_hseq>
+      <Hsp_midline>+RL+R  KG+S  +LA + G+ ++Y+S +ER    N ++  ++K++A L V   +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|3219928|sp|O27383.1|Y1328_METTH</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator MTH_1328 [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>O27383</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.0188977</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALG</Hsp_qseq>
+      <Hsp_hseq>IREHRKELGLTQEELAERVGVTRQTIIALEKGRYSPSLILAHRIARALG</Hsp_hseq>
+      <Hsp_midline>+R  R   G +QEELA + G+ R  + A+E+ R++ +L    ++A ALG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|3219980|sp|O28481.1|Y1793_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator AF_1793 [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O28481</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.0197884</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLLLPPQERL</Hsp_qseq>
+      <Hsp_hseq>IREFRAKYGMTQEELAKKVGVRRETIVFLEKGKYNPSLRLAYKIARVFNARIEDLFIFDDEEL</Hsp_hseq>
+      <Hsp_midline>+R FR   G +QEELA++ G+ R  +  +E+ ++N +L    K+A         L +   E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|3219886|sp|Q57720.2|Y272_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator MJ0272 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57720</Hit_accession>
+  <Hit_len>66</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.044241</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NMRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGV</Hsp_qseq>
+      <Hsp_hseq>KLKYYRALHNLTQEDLAKKLGVSRQTIIAIEKGKYDPSLKLAFKIAKFFGV</Hsp_hseq>
+      <Hsp_midline> ++ +R     +QE+LA++ G+ R  + A+E+ +++ +L    K+A   GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166228881|sp|A6UR76.1|Y1098_METVS</Hit_id>
+  <Hit_def>RecName: Full=Putative transcriptional regulatory protein Mevan_1098 [Methanococcus vannielii SB]</Hit_def>
+  <Hit_accession>A6UR76</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.217276</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>KGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLLLPP</Hsp_qseq>
+      <Hsp_hseq>KGHTQEEIAHVMGTSRANISMVEKR----ARENIEKAKNTLNI--YNDIIAP</Hsp_hseq>
+      <Hsp_midline>KG +QEE+A   G  R  +S VE++    A  NIEK    L +  Y  ++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|90101610|sp|O31417.1|YAZB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator YazB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31417</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.463963</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLLLPPQE</Hsp_qseq>
+      <Hsp_hseq>IRAFRKLKGYTQEGFAKALGISVSILGEIERGNRLPSAAIIQDAADVLNISADE-LAPPEK</Hsp_hseq>
+      <Hsp_midline>+R FR  KG++QE  A+  G+  + +  +ER     + + I+  A  L ++A + L PP++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|13638522|sp|P54138.2|MSHA_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=D-inositol 3-phosphate glycosyltransferase; AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase; Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase [Mycobacterium leprae TN] &gt;gi|310947070|sp|B8ZT88.1|MSHA_MYCLB RecName: Full=D-inositol 3-phosphate glycosyltransferase; AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase; Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase [Mycobacterium leprae Br4923]</Hit_def>
+  <Hit_accession>P54138</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.603145</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>KMAAALGVAAYQLLLPPQERLNLMT--NSADTRQVPSES</Hsp_qseq>
+      <Hsp_hseq>RLADELGITARVTFLPPQSRTNLATVFQAADLVAVPSYS</Hsp_hseq>
+      <Hsp_midline>++A  LG+ A    LPPQ R NL T   +AD   VPS S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|3219982|sp|O28646.1|Y1627_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator AF_1627 [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O28646</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.616371</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>FRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLLLPPQERL</Hsp_qseq>
+      <Hsp_hseq>FRAKFNMTQEELAKRVGVRRETIVFLEKGKYNPSLKLAYKIARVFNAKIEDIFIFDEEEL</Hsp_hseq>
+      <Hsp_midline>FR     +QEELA++ G+ R  +  +E+ ++N +L    K+A         + +  +E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|254766495|sp|B0C8H2.1|CYNS_ACAM1</Hit_id>
+  <Hit_def>RecName: Full=Cyanate hydratase; Short=Cyanase; AltName: Full=Cyanate hydrolase; AltName: Full=Cyanate lyase [Acaryochloris marina MBIC11017]</Hit_def>
+  <Hit_accession>B0C8H2</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.916415</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVA---AYQLLLPP</Hsp_qseq>
+      <Hsp_hseq>KGISFEDLEKIVGCDETWIASVIYRQASASTEEAEKIVTALGLPAELAEPLTVPP</Hsp_hseq>
+      <Hsp_midline>KG S E+L +  G D T++++V  ++ + +    EK+  ALG+    A  L +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|11134457|sp|O85264.1|RSTR_VIBCL</Hit_id>
+  <Hit_def>RecName: Full=Cryptic phage CTXphi transcriptional repressor RstR [Vibrio cholerae]</Hit_def>
+  <Hit_accession>O85264</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.02172</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>VLAYNMRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLL</Hsp_qseq>
+      <Hsp_hseq>MFSSKIRDLRVERDLNQEEVANGIGVGKNTYLAYEKGTQSPKLETVEKLAKFYGVPIAELV</Hsp_hseq>
+      <Hsp_midline>+ +  +R  RV +  +QEE+A   G+ +    A E+   +  L  +EK+A   GV   +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|81570807|sp|Q73SU4.1|MSHA_MYCPA</Hit_id>
+  <Hit_def>RecName: Full=D-inositol 3-phosphate glycosyltransferase; AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase; Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase [Mycobacterium avium subsp. paratuberculosis K-10]</Hit_def>
+  <Hit_accession>Q73SU4</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.85576</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>IEKMAAALGVAAYQLLLPPQERLNLMT--NSADTRQVPSES</Hsp_qseq>
+      <Hsp_hseq>LARLADELGISARVTFLPPQSRPNLATLFQAANLVAVPSYS</Hsp_hseq>
+      <Hsp_midline>+ ++A  LG++A    LPPQ R NL T   +A+   VPS S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|259016403|sp|Q09600.2|VPS11_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Vacuolar protein sorting-associated protein 11 homolog [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q09600</Hit_accession>
+  <Hit_len>980</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.87917</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>610</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>VLAYNMRLFRVNKGWSQEEL</Hsp_qseq>
+      <Hsp_hseq>ILECQMRLFKVNSDWSQERL</Hsp_hseq>
+      <Hsp_midline>+L   MRLF+VN  WSQE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|124408|sp|P13772.3|IMMF_BPPH1</Hit_id>
+  <Hit_def>RecName: Full=ImmF control region 10 kDa protein [Bacillus phage phi105]</Hit_def>
+  <Hit_accession>P13772</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.52031</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>44</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>RVNKGWSQEELARQCGLDRTYVSAVERKRW</Hsp_qseq>
+      <Hsp_hseq>RKEKHLKQTEMAKALGMSRTYLSDIENGRY</Hsp_hseq>
+      <Hsp_midline>R  K   Q E+A+  G+ RTY+S +E  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|38503404|sp|Q57637.2|Y173_METJA</Hit_id>
+  <Hit_def>RecName: Full=Putative transcriptional regulatory protein MJ0173 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57637</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.38616</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>KGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLLLPP</Hsp_qseq>
+      <Hsp_hseq>KGLTQEEIAKMLGTSRANISMIEKR----AKENIKKAYNTIKI--YNRIMAP</Hsp_hseq>
+      <Hsp_midline>KG +QEE+A+  G  R  +S +E++    A  NI+K    + +  Y  ++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|81342058|sp|O31943.1|YONR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=SPBc2 prophage-derived uncharacterized HTH-type transcriptional regulator YonR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31943</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>4.50332</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQLLLPPQERLNL</Hsp_qseq>
+      <Hsp_hseq>RTSKGYSQQRMADFLGITRQGYGKYEIGKAEPDLKTLTKLSNILGVSTDFLLKGTHAQFDL</Hsp_hseq>
+      <Hsp_midline>R +KG+SQ+ +A   G+ R      E  +    L  + K++  LGV+   LL     + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|310947065|sp|A0QLK5.1|MSHA_MYCA1</Hit_id>
+  <Hit_def>RecName: Full=D-inositol 3-phosphate glycosyltransferase; AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase; Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase [Mycobacterium avium 104]</Hit_def>
+  <Hit_accession>A0QLK5</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.17813</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>MAAALGVAAYQLLLPPQERLNLMT--NSADTRQVPSES</Hsp_qseq>
+      <Hsp_hseq>LADELGISARVTFLPPQSRPNLATLFQAANLVAVPSYS</Hsp_hseq>
+      <Hsp_midline>+A  LG++A    LPPQ R NL T   +A+   VPS S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|189027660|sp|A3DH61.1|DPO4_CLOTH</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase IV; Short=Pol IV [Ruminiclostridium thermocellum ATCC 27405]</Hit_def>
+  <Hit_accession>A3DH61</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.95839</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MGNKLTLPAELPDEQDLRAVL------------AYNMRLFRVN---KGWSQEELARQCGLD--RTYVSAVERKRWNIALS--NIEKMAAALGVAAYQLL</Hsp_qseq>
+      <Hsp_hseq>IGNSLTAPRDLTNNEDVRILIYVLSESVGERLRSHNLKGRTVQISIKDPELQTLERQAGLDIHTSITSEIAQKAYEIFLKSWNWSKNVRALGVRVTDLV</Hsp_hseq>
+      <Hsp_midline>+GN LT P +L + +D+R ++            ++N++   V    K    + L RQ GLD   +  S + +K + I L   N  K   ALGV    L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|310947078|sp|A1T3B5.1|MSHA_MYCVP</Hit_id>
+  <Hit_def>RecName: Full=D-inositol 3-phosphate glycosyltransferase; AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase; Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase [Mycobacterium vanbaalenii PYR-1]</Hit_def>
+  <Hit_accession>A1T3B5</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.42747</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>NIEKMAAALGVAAYQLLLPPQERLNLMT--NSADTRQVPSES</Hsp_qseq>
+      <Hsp_hseq>NLVNLAAELGMTDRVTFLPPQSRDNLVQVYRAADVVAVPSYS</Hsp_hseq>
+      <Hsp_midline>N+  +AA LG+      LPPQ R NL+    +AD   VPS S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|310947066|sp|B1MHQ0.1|MSHA_MYCA9</Hit_id>
+  <Hit_def>RecName: Full=D-inositol 3-phosphate glycosyltransferase; AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase; Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase [Mycobacterium abscessus ATCC 19977]</Hit_def>
+  <Hit_accession>B1MHQ0</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.29789</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>SNIEKMAAALGVAAYQLLLPPQ--ERLNLMTNSADTRQVPSES</Hsp_qseq>
+      <Hsp_hseq>TALQDLAVDLGIADRVTFLPPQTRERLAQVYRAADIVAVPSYS</Hsp_hseq>
+      <Hsp_midline>+ ++ +A  LG+A     LPPQ  ERL  +  +AD   VPS S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|133478|sp|P12254.2|RPSK_BACSU</Hit_id>
+  <Hit_def>RecName: Full=RNA polymerase sigma-K factor; AltName: Full=Sigma-27; AltName: Full=Stage IV sporulation protein CB; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P12254</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.41633</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>KGWSQEELARQCGLDRTYVSAVERK</Hsp_qseq>
+      <Hsp_hseq>KEKTQREIAKELGISRSYVSRIEKR</Hsp_hseq>
+      <Hsp_midline>K  +Q E+A++ G+ R+YVS +E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|8928490|sp|O34499.1|6PGL_BACSU</Hit_id>
+  <Hit_def>RecName: Full=6-phosphogluconolactonase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34499</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.57669</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>YNMRLFRVNKGWSQEELARQCGLDRTYVSAVERKRWNIALSNIEKMAAALGVAAYQL</Hsp_qseq>
+      <Hsp_hseq>YSFELDTEKKALSEPKLAAKLG-NPTYVAT---NKNNTILYSIEKADGQGGVAAYQI</Hsp_hseq>
+      <Hsp_midline>Y+  L    K  S+ +LA + G + TYV+     + N  L +IEK     GVAAYQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|238056722|sp|A3QF01.1|Y2183_SHELP</Hit_id>
+  <Hit_def>RecName: Full=YcgL domain-containing protein Shew_2183 [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QF01</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.58017</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>KRWNIALSNIEKMAAALGVAAYQLLLPP</Hsp_qseq>
+      <Hsp_hseq>KREQLALADIEKVKVELAEKGYYLQLPP</Hsp_hseq>
+      <Hsp_midline>KR  +AL++IEK+   L    Y L LPP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

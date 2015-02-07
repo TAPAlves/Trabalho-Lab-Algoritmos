@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>44735</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>467</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>44735</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>467</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|118671|sp|P11959.2|DLDH1_GEOSE</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>P11959</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>1.6477e-49</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRI---MGSAKFIDEHTVQI---DDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIF-GLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEE</Hsp_qseq>
+      <Hsp_hseq>IETETLVVGAGPGGYVAAIRAAQL-GQKVTIVEKGNLGGVCLNVGCIPSKALISASHRYEQAKHSEEMGIKAENVTID------FAKVQEWKASVVKKLTGGVEGLLKGNKVEIVKGEAYFVDANTVRVVNGDSAQTYTFKNAIIATGSRPIELPNFK-FSNRILDSTGALNLGEVPKSLVVIGGGYIGIELGTAYANFGTKVTILEGAGEILSGFEKQMAAIIKKRLKKKGVEVVTNALAKGAEEREDGVTVTYEANGETKTIDADYVLVTVGRRPNTDELGLEQIGIKMTNRGLIEVDQ-QCRTSVPNIFAIGDIVPGPALAHKASYEGKVAAEAIAGHP---SAVDYVAIPAVVFSDPECASVG--YFEQQAKDEGIDVIAAKFPFAANGRALALNDTDGFLKLVVRKEDGVIIGAQIIGPNASDMIAELGLAIEAGMTAEDIALTIHAHPTLGE</Hsp_hseq>
+      <Hsp_midline>I+ + +V+G G  G + A R A+L    V ++E    G  C  VGC+PSK LI+A+     A H++  G+  +  +I         +V+  +   V  +   VE      ++    G A F+D +TV++   D       K+ +IATGSRP+ LP ++   +R++ +    +   +PK + V G G IG+ELG A    G KV I  G G I+ G    + +   K +  + +++  +A  +   + +  V V +E +GE     A+Y+L  VGRRPN D +GLE I I    RG+   D    +TS+P+IF  GD      L H+A+ +GK+A +    +P   S +    I  VVF+ P+   VG  Y +  A+ +  + +  +  F   GR+  +    G ++L   K  G  IGA+I+GP A  +   L  A +  MT   +      HP + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|118672|sp|P21880.1|DLDH1_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex; AltName: Full=S complex, 50 kDa subunit [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P21880</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>1.81461e-48</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>455</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQIDDHIQIAAKSF---VIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIF-GLGGIIGGISDPVVSDEAKAVFGE-ELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEE</Hsp_qseq>
+      <Hsp_hseq>IETDTLVIGAGPGGYVAAIRAAQL-GQKVTVVEKATLGGVCLNVGCIPSKALINAGHRYENAKHSDDMGI--TAENVTVDFTKVQEWKASVVNKLTGGVAGLLKGNKVD-VVKGEAYFVDSNSVRVMDENSAQTYTFKNAIIATGSRPIELPNFK-YSERVLNSTGALALKEIPKKLVVIGGGYIGTELGTAYANFGTELVILEGGDEILPGFEKQMSSLVTRRLKKKGNVEIHTNAMAKGVEERPDGVTVTFEVKGEEKTVDADYVLITVGRRPNTDELGLEQVGIEMTDRGIVKTDK-QCRTNVPNIYAIGDIIEGPPLAHKASYEGKIAAEAIAGEPAEIDYL--GIPAVVFSEPELASVG--YTEAQAKEEGLDIVAAKFPFAANGRALSLNETDGFMKLITRKEDGLVIGAQIAGASASDMISELSLAIEGGMTAEDIAMTIHAHPTLGE</Hsp_hseq>
+      <Hsp_midline>I+ D +VIG G  G + A R A+L    V ++E    G  C  VGC+PSK LI A     +A H+D  G+    +++ V+  +V     S  ++  G V   ++    D  + G A F+D ++V++ D       +F   +IATGSRP+ LP ++   +R++ +    +   +PK++ V G G IG ELG A    G ++ I  G   I+ G    + S   + +  +  +++H +A  +   +    V V +E  GE+    A+Y+L  VGRRPN D +GLE + I+   RG+   D    +T++P+I+  GD     PL H+A+ +GKIA +     P     L      VVF+ P++  VG  Y +  A+ +  + V  +  F   GR+  +    G M+L   K  G  IGA+I G +A  +   L+ A +  MT   +      HP + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|7531099|sp|O84561.1|DLDH_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of 2-oxoglutarate dehydrogenase complex [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84561</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>4.35879e-47</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRR----VKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQI--DDHIQIAAKSFVIATGSRPVILP--QWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEE-LKLHLDAKTE--------VKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEE</Hsp_qseq>
+      <Hsp_hseq>DCVVIGAGPGGYVAAITAAQAGLKTALIEKREAGGTCLNRGCIPSKALLAGAEVVTQIRHADQFGIHVEGFSI--NYPAMVQRKDSVVRSIRDGLNGLIRSN-----KITVFSGRGSLISSTEVKILGENPSVIKAHSIILATGSEPRAFPGIPFSAESPRILCSTGVLNLKEIPQKMAIIGGGVIGCEFASLFHTLGSEVSVIEASSQILALNNPDISKTMFDKFTRQGLRFVLEASVSNIEDIGDRVRLTINGNVEEY------------DYVLVSIGRRLNTENIGLDKAGVICDERGVIPTDA-TMRTNVPNIYAIGDITGKWQLAHVASHQGIIAARNIAGHKEEIDYSAVPS---VIFTFPEVASVGL--SPTAAQQQKIPVKVTKFPFRAIGKAVAMGEADGFAAIISHETTQQILGAYVIGPHASSLISEITLAVRNELTLPCIYETIHAHPTLAE</Hsp_hseq>
+      <Hsp_midline>D VVIG G  G  A   A        LIE    G TC   GC+PSK L+A AE      H D FG+H++  SI  N   +++R    V+S RD   G + ++           G    I    V+I  ++   I A S ++ATGS P   P   + +   R++ +  V +   +P+++A+ G GVIG E     H LG +V +      I  +++P +S      F  + L+  L+A           V+L  +GNVE +            +Y+L ++GRR N +NIGL+   +  D RGV   D  TM+T++P+I+  GD + +  L H A+ QG IA  N AG    I      S   V+FT P++  VGL  +  AAQ Q     + +  F+  G++  M    G   + + + T + +GA ++GP A  L   +  A + ++T+P + +    HP + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|300669691|sp|Q04829.3|DLDH_HALVD</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase [Haloferax volcanii DS2]</Hit_def>
+  <Hit_accession>Q04829</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>1.21139e-45</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>471</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPAD---KRIMGSAKFIDEHTVQI------DDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFG-LGGIIGGISDPVVSDEAKAV--FGEEL--KLHLDAKTEVKLDADGNVEVHWE-QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLL-HEAADQGKIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDA</Hsp_qseq>
+      <Hsp_hseq>ELLVIGAGPGGYVAAIRAAQNGIDTTLVEKDAYGGTCLNYGCIPSKALITGANLAHEAGNAEEMGIHADP---VVD----MSQLRDWKSGVVDQLTGGVEKLCKANGVNLVEGTARFKDENAVRIAHGGEGQGSETIEFEHCIIATGSRVIQIPGFDFGDEPVWSSRDALEADTVPERLVVVGGGYIGMELSTTFAKLGADVTVVEMLDDILPGYE----SDVARVVRKRAEELGIDMHLGEGASGWREEDDGIMVTTETEDGEENEYRADKVLVAVGRSPVTDTMDIENAGLEADDRGFLSVDD-RRRTDVEHIYAVGDVVEDTPMLAHVASKEGIVAAEHVAGEPVAFD--SQAVPAAVFTDPEIGTVGMTEAD--AEEAGFTPVVGQMPFRASGRALTTNHADGFVRVVADEESGFVLGAQIVGPEASELIAELAFAIEMGATLEDVASTIHTHPTLAEAVMEAAENA</Hsp_hseq>
+      <Hsp_midline>+++VIG G  G  A   A  +  +  L+E + +G TC   GC+PSK LI  A   H A + +  G+H D    VV+    M +++  +   V  +   VE+         + G+A+F DE+ V+I           I  +  +IATGSR + +P +    + +  + D    DT+P+R+ V G G IG+EL     +LG  V +   L  I+ G      SD A+ V    EEL   +HL        + D  + V  E +DGE+  + A+ +L AVGR P  D + +EN  ++ D RG    D    +T + HI+  GD     P+L H A+ +G +A ++    P       ++    VFT P+IG VG+  A   A+      V+G++ F+  GR+       G +R+ A++ +G  +GA+IVGP A  L   LA+A +M  T+  +      HP + E +  A  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|60389610|sp|Q6GAB8.1|DLDH_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex; AltName: Full=Membrane-bound ribosome protein complex 50 kDa subunit [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|60389635|sp|Q6GHY9.1|DLDH_STAAR RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex; AltName: Full=Membrane-bound ribosome protein complex 50 kDa subunit [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|60392182|sp|P0A0E6.1|DLDH_STAAM RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex; AltName: Full=Membrane-bound ribosome protein complex 50 kDa subunit [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|60392183|sp|P0A0E7.1|DLDH_STAAW RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex; AltName: Full=Membrane-bound ribosome protein complex 50 kDa subunit [Staphylococcus aureus subsp. aureus MW2] &gt;gi|60392184|sp|P0A0E8.1|DLDH_STAAU RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex; AltName: Full=Membrane-bound ribosome protein complex 50 kDa subunit [Staphylococcus aureus] &gt;gi|60392195|sp|P99084.1|DLDH_STAAN RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex; AltName: Full=Membrane-bound ribosome protein complex 50 kDa subunit [Staphylococcus aureus subsp. aureus N315] &gt;gi|71153341|sp|Q5HGY8.1|DLDH_STAAC RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex; AltName: Full=Membrane-bound ribosome protein complex 50 kDa subunit [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>Q6GAB8</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>2.90812e-45</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQIDDHIQIAAKSF---VIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIF-GLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTIG---VVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEE</Hsp_qseq>
+      <Hsp_hseq>IETDTIVIGAGPGGYVAAIRAAQL-GQKVTIVEKGNLGGVCLNVGCIPSKALLHASHRFVEAQHSENLGVI--AESVSLNFQKVQEFKSSVVNKLTGGVEGLLKGNKVN-IVKGEAYFVDNNSLRVMDEKSAQTYNFKNAIIATGSRPIEIPNFK-FGKRVIDSTGALNLQEVPGKLVVVGGGYIGSELGTAFANFGSEVTILEGAKDILGGFEKQMTQPVKKGMKEKGVEIVTEAMAKSAEETDNGVKVTYEAKGEEKTIEADYVLVTVGRRPNTDELGLEELGVKFADRGLLEVDKQS-RTSISNIYAIGDIVPGLPLAHKASYEAKVAAEAID-----GQAAEVDYIGMPAVCFTEPELATVG--YSEAQAKEEGLAIKASKFPYAANGRALSLDDTNGFVKLITLKEDDTLIGAQVVGTGASDIISELGLAIEAGMNAEDIALTIHAHPTLGE</Hsp_hseq>
+      <Hsp_midline>I+ D +VIG G  G + A R A+L    V ++E    G  C  VGC+PSK L+ A+     A H++  GV    +S+ +N ++V     S  ++  G V   ++    +  + G A F+D +++++ D       +F   +IATGSRP+ +P ++  G R+I +    +   +P ++ V G G IG ELG A    G +V I  G   I+GG    +     K +  + +++  +A  +   + D  V+V +E  GE+    A+Y+L  VGRRPN D +GLE + +    RG+   D  + +TSI +I+  GD    LPL H+A+ + K+A +        G       IG   V FT P++  VG  Y++  A+ +       +  +   GR+  +    G ++L   K     IGA++VG  A  +   L  A +  M    +      HP + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|118675|sp|P09623.1|DLDH_PIG</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>P09623</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>7.27883e-45</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTV---QIDDHIQ-IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEE-LKLHLDAKT-EVKLDADGNVEVHWE--QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>IDADVTVIGSGPGGYVAAIKAAQLGFKTVCIEKNETLGGTCLNVGCIPSKALLNNSHYYHMAHGKDFASRGIEMSEVRLNLEKMMEQKSNAVKALTGGIAHLFKQNKV-VRVNGYGKITGKNQVTATKADGSTEVINTKNILIATGSEVTPFPGITIDEDTVVSSTGALSLKKVPEKMVVIGAGVIGVELGSVWQRLGADVTAVELLGHVGGIGIDMEVSKNFQRILQKQGFKFKLNTKVIGATKKSDGNIDVSIEAASGGKAEVITCDVLLVCIGRRPFTQNLGLEELGIELDPRGRIPVNT--RFQTKIPNIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPS---VIYTHPEVAWVGKSEEQL--KEEGIEYKVGKFPFAANSRAKTNADTDGMVKILGQKSTDRVLGAHIIGPGAGEMINEAALALEYGASCEDIARVCHAHPTLSEAFREA</Hsp_hseq>
+      <Hsp_midline>I AD+ VIG G  G + A + A+L    V + +N   G TC  VGC+PSK L+  +   H A   D     ++   + +N E++M +  +      G +    ++     R+ G  K   ++ V   + D   + I  K+ +IATGS     P      D ++ +    S   +P+++ V G GVIG+ELG    RLG  V    L G +GGI  D  VS   + +  ++  K  L+ K       +DGN++V  E    G+  V   + +L  +GRRP   N+GLE + I+ D RG +PV      QT IP+I+  GD      L H+A D+G I  +  AG   +I      S   V++T P++ +VG    Q+  + +  E+ +G+  F    R++      G +++  +K+T R +GA I+GP A  + +  A A +   +   +  +   HP + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|14194687|sp|Q9PJI3.1|DLDH_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of 2-oxoglutarate dehydrogenase complex [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PJI3</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>7.56928e-45</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSI----VVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQI--DDHIQIAAKSFVIATGSRPVILP--QWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEA---------KAVFGEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEE</Hsp_qseq>
+      <Hsp_hseq>DCVVIGAGPGGYVAAITAAQAGLKTALIEEREAGGTCLNRGCIPSKALLASAEIVAQIRHADQFGIHINGFSIDYPAMVQRKDTV--VRSIRDGLNGLIRSN-----KITVFSGRGSLISSTEVKILGETPSVIKAQSIILATGSEPRAFPGVPFSQQSPRILCSTGVLNLKEIPQKMAIIGGGVIGCEFASLFHTLGSEVSVIEASQQILALNNPDISKTMFDKFTRHGIRFMLGASVSSIEDMGDRVRLTINGNIEEY------------DYVLVSIGRRLNTENIGLDKAGVICDERGVIPTDS-TMRTNVPNIYAIGDITGKWQLAHVASHQGIVAARNIAGHKDEIDYSAVPS---VIFTFPEVASVGL--SPTSAQQQGIPVKVTKFPFRAIGKAVAMGESDGFAAIISHETSQQILGAYVIGPHASSLISEITLAIRNELTLPCIYETIHAHPTLAE</Hsp_hseq>
+      <Hsp_midline>D VVIG G  G  A   A        LIE    G TC   GC+PSK L+A+AE      H D FG+H++  SI    +V  ++ +  V+S RD   G + ++           G    I    V+I  +    I A+S ++ATGS P   P   +     R++ +  V +   +P+++A+ G GVIG E     H LG +V +      I  +++P +S            + + G  +    D    V+L  +GN+E +            +Y+L ++GRR N +NIGL+   +  D RGV   D  TM+T++P+I+  GD + +  L H A+ QG +A  N AG    I      S   V+FT P++  VGL  +  +AQ Q     + +  F+  G++  M  + G   + + + + + +GA ++GP A  L   +  A + ++T+P + +    HP + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81871300|sp|Q8CIZ7.1|DLDH_CRIGR</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Flags: Precursor [Cricetulus griseus]</Hit_def>
+  <Hit_accession>Q8CIZ7</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>6.59272e-44</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTV---QIDDHIQ-IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEE-LKLHLDAK-TEVKLDADGNVEVHWE--QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>IDADVTVIGSGPGGYVAAIKAAQLGFKTVCIEKNDTLGGTCLNVGCIPSKALLNNSHYYHLAHGRDFASRGIELSEVRLNLEKMMEQKSSAVKALIGGIAHLFKQNKV-VHVNGFGKITGKNQVTATKADGSSQVIGTKNILIATGSEVTPFPGITIDEDTIVSSTGALSLKKVPEKLVVIGAGVIGVELGSVWQRLGADVTAVEFLGHVGGIGIDMEISKNFQRILQKQGFKFKLNTKVTGATKRSDGKIDVSVEAASGGKAEVITCDVLLVCIGRRPFTQNLGLEELGIELDPRGRIPVNT--RFQTKIPNIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPS---VIYTHPEVAWVGKSEEQL--KEEGIEYKVGKFPFAANSRAKTNADTDGMVKILGQKSTDRVLGAHILGPGAGEMVNEAALALEYGASCEDIARVCHAHPTLSEAFREA</Hsp_hseq>
+      <Hsp_midline>I AD+ VIG G  G + A + A+L    V + +N+  G TC  VGC+PSK L+  +   H A   D     ++   + +N E++M +  S     +G +    ++      + G  K   ++ V   + D   Q I  K+ +IATGS     P      D ++ +    S   +P+++ V G GVIG+ELG    RLG  V      G +GGI  D  +S   + +  ++  K  L+ K T     +DG ++V  E    G+  V   + +L  +GRRP   N+GLE + I+ D RG +PV      QT IP+I+  GD      L H+A D+G I  +  AG   +I      S   V++T P++ +VG    Q+  + +  E+ +G+  F    R++      G +++  +K+T R +GA I+GP A  + +  A A +   +   +  +   HP + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|118572640|sp|O08749.2|DLDH_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>O08749</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>8.58141e-44</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTV---QIDDHIQ-IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEE-LKLHLDAK-TEVKLDADGNVEVHWE--QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>IEADVTVIGSGPGGYVAAIKSAQLGFKTVCIEKNETLGGTCLNVGCIPSKALLNNSHYYHMAHGKDFASRGIEIPEVRLNLEKMMEQKHSAVKALTGGIAHLFKQNKV-VHVNGFGKITGKNQVTATKADGSTQVIDTKNILVATGSEVTPFPGITIDEDTIVSSTGALSLKKVPEKLVVIGAGVIGVELGSVWQRLGADVTAVEFLGHVGGIGIDMEISKNFQRILQRQGFKFKLNTKVTGATKKSDGKIDVSVEAASGGKAEVITCDVLLVCIGRRPFTQNLGLEELGIELDPKGRIPVNN--RFQTKIPNIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPS---VIYTHPEVAWVGKSEEQL--KEEGIEFKIGKFPFAANSRAKTNADTDGMVKILGHKSTDRVLGAHILGPGAGEMVNEAALALEYGASCEDIARVCHAHPTLSEAFREA</Hsp_hseq>
+      <Hsp_midline>I+AD+ VIG G  G + A ++A+L    V + +N   G TC  VGC+PSK L+  +   H A   D     ++   + +N E++M +  S      G +    ++      + G  K   ++ V   + D   Q I  K+ ++ATGS     P      D ++ +    S   +P+++ V G GVIG+ELG    RLG  V      G +GGI  D  +S   + +   +  K  L+ K T     +DG ++V  E    G+  V   + +L  +GRRP   N+GLE + I+ D +G +PV +    QT IP+I+  GD      L H+A D+G I  +  AG   +I      S   V++T P++ +VG    Q+  + +  EF IG+  F    R++      G +++   K+T R +GA I+GP A  + +  A A +   +   +  +   HP + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1706444|sp|P49819.1|DLDH_CANFA</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Flags: Precursor [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>P49819</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>1.21927e-43</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>473</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVG-----FVVTDVEEWPADKRIMG----SAKFIDEHTVQIDDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEE-LKLHLDAK-TEVKLDADGNVEVHWE--QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIA--GDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>IDADVTVIGSGPGGYVAAIKAAQLGFKTVCVEKNETLGGTCLNVGCIPSKALLNNSHYYHMAHGKDFASRGIEMSEVRLNLEKMMEQKSTAVKALTGGIAHLFKQNKVVHVNGYGKITGKNQVTAKKADGSTQVID------TKNILIATGSEVTPFPGITIDEDTIVSSTGALSLKKVPEKMVVIGAGVIGVELGSVWQRLGADVTAVEFLGHVGGVGIDMEISKNFQRILQKQGFKFKLNTKVTGATKKSDGKIDVSIEGASGGKAEVITCDVLLVCIGRRPFTQNLGLEELGIELDPRGRIPVNT--RFQTKIPNIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVP-----IDYNCVPSVIYTHPEVAWVGKSEEQL--KEEGIEYKVGKFPFAANSRAKTNADTDGMVKILGQKSTDRVLGAHILGPGAGEMVNEAALALEYGASCEDIARVCHAHPTLSEAFREA</Hsp_hseq>
+      <Hsp_midline>I AD+ VIG G  G + A + A+L    V + +N   G TC  VGC+PSK L+  +   H A   D     ++   + +N E++M +  +      G     F    V       +I G    +AK  D  T  ID       K+ +IATGS     P      D ++ +    S   +P+++ V G GVIG+ELG    RLG  V      G +GG+  D  +S   + +  ++  K  L+ K T     +DG ++V  E    G+  V   + +L  +GRRP   N+GLE + I+ D RG +PV      QT IP+I+  GD      L H+A D+G I   G   G  P     +  + +  V++T P++ +VG    Q+  + +  E+ +G+  F    R++      G +++  +K+T R +GA I+GP A  + +  A A +   +   +  +   HP + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81885266|sp|Q6P6R2.1|DLDH_RAT</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q6P6R2</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.28019e-43</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQI---DDHIQ-IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEE-LKLHLDAK-TEVKLDADGNVEVHWE--QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>IDADVTVIGSGPGGYVAAIKAAQLGFKTVCIEKNETLGGTCLNVGCIPSKALLNNSHYYHLAHGKDFASRGIEIPEVRLNLEKMMEQKRSAVKALTGGIAHLFKQNKV-VHVNGFGKITGKNQVTATTADGSTQVIGTKNILIATGSEVTPFPGITIDEDTIVSSTGALSLKKVPEKLVVIGAGVIGVELGSVWQRLGADVTAVEFLGHVGGIGIDMEISKNFQRILQKQGFKFKLNTKVTGATKKSDGKIDVSVEAASGGKAEVITCDVLLVCIGRRPFTQNLGLEELGIELDPKGRIPVNT--RFQTKIPNIFAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPS---VIYTHPEVAWVGKSEEQL--KEEGVEFKVGKFPFAANSRAKTNADTDGMVKILGHKSTDRILGAHILGPGAGEMVNEAALALEYGASCEDVARVCHAHPTLSEAFREA</Hsp_hseq>
+      <Hsp_midline>I AD+ VIG G  G + A + A+L    V + +N   G TC  VGC+PSK L+  +   H A   D     ++   + +N E++M + +S      G +    ++      + G  K   ++ V     D   Q I  K+ +IATGS     P      D ++ +    S   +P+++ V G GVIG+ELG    RLG  V      G +GGI  D  +S   + +  ++  K  L+ K T     +DG ++V  E    G+  V   + +L  +GRRP   N+GLE + I+ D +G +PV      QT IP+IF  GD      L H+A D+G I  +  AG   +I      S   V++T P++ +VG    Q+  + +  EF +G+  F    R++      G +++   K+T R +GA I+GP A  + +  A A +   +   +  +   HP + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|62510603|sp|Q60HG3.1|DLDH_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Flags: Precursor [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q60HG3</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>1.78319e-43</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTV---QIDDHIQIA-AKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEE-LKLHLDAK-TEVKLDADGNVEVHWE--QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>IDADVTVIGSGPGGYVAAIKAAQLGFKTVCVEKNETLGGTCLNVGCIPSKALLNNSHYYHMAHGKDFASRGIEMSEVRLNLDKMMEQKSTAVKALTGGIAHLFKQNKV-IHVNGYGKITGKNQVTATKVDGGTQVVDTKNILIATGSEVTPFPGITIDEDTIVSSTGALSLKKVPEKMVVIGAGVIGVELGSVWQRLGADVTAVEFLGHVGGIGIDMEISKNFQRILQKQGFKFKLNTKVTGATKKSDGKIDVSIEAASGGKAEVITCDVLLVCIGRRPFTKNLGLEELGIELDPRGRIPVNTRF--QTKIPNIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPS---VIYTHPEVAWVGKSEEQL--KEEGIEYKVGKFPFAANSRAKTNADTDGMVKILGQKSTDRVLGAHILGPGAGEMVNEAALALEYGASCEDIARVCHAHPTLSEAFREA</Hsp_hseq>
+      <Hsp_midline>I AD+ VIG G  G + A + A+L    V + +N   G TC  VGC+PSK L+  +   H A   D     ++   + +N +++M +  +      G +    ++      + G  K   ++ V   ++D   Q+   K+ +IATGS     P      D ++ +    S   +P+++ V G GVIG+ELG    RLG  V      G +GGI  D  +S   + +  ++  K  L+ K T     +DG ++V  E    G+  V   + +L  +GRRP   N+GLE + I+ D RG +PV      QT IP+I+  GD      L H+A D+G I  +  AG   +I      S   V++T P++ +VG    Q+  + +  E+ +G+  F    R++      G +++  +K+T R +GA I+GP A  + +  A A +   +   +  +   HP + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|7531102|sp|Q9Z773.1|DLDH_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of 2-oxoglutarate dehydrogenase complex [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z773</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>5.41274e-43</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>453</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIM---GSAKFIDEHTVQI--DDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEE-LKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEE</Hsp_qseq>
+      <Hsp_hseq>DCVVIGAGPSGYVAAITAAQSKLRTALIEEDQAGGTCLNRGCIPSKALIAGANVVSHIKHAEQFGIHVDGYTI--DYPAMAKR----KNTVVQGIRQGLEGLIRSNKITVLKGTGSLVSSTEVKVIGQDTTIIKANHIILATGSEPRPFPGV-PFSSRILSSTGILELEVLPKKLAIIGGGVIGCEFASLFHTLGVEITVIEALDHILAVNNKEVSQTVTNKFTKQGIRILTKASISAIEESQNQVRITVNDQVEE----FDYVLVAIGRQFNTASIGLDNAGVIRDDRGVIPVDE-TMRTNVPNIYAIGDITGKWLLAHVASHQGVIAAKNISGHHEV---MDYSAIPSVIFTHPEIAMVGLSLQE--AEQQNLPAKLTKFPFKAIGKAVALGASDGFAAIVSHEITQQILGAYVIGPHASSLIGEMTLAIRNELTLPCIYETVHAHPTLSE</Hsp_hseq>
+      <Hsp_midline>D VVIG G +G  A   A        LIE +  G TC   GC+PSK LIA A    H  H + FG+H+D  +I  +   + +R    ++  V  +   +E      +I    G+   +    V++   D   I A   ++ATGS P   P       R++ +  +   + LPK++A+ G GVIG E     H LGV++ +      I  +++  VS      F ++ +++   A      ++   V +      E+     +Y+L A+GR+ N  +IGL+N  + +D RGV   D  TM+T++P+I+  GD + +  L H A+ QG IA  N   +  +   +  S I  V+FT P+I  VGL   +  A+ Q     + +  FK  G++  +  + G   + + + T + +GA ++GP A  L   +  A + ++T+P + +    HP + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|74957925|sp|O17953.2|DLDH_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>O17953</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>7.45168e-43</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>ADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADK--RIMGSAKFIDEHTVQI---DDHIQ-IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIG--GISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGN-----VEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>ADLVVIGGGPGGYVAAIKAAQLGMKTVCVEKNATLGGTCLNVGCIPSKALLNNSHYLHMAQHD--FAARGIDCTASLNLPKMMEAKSNSVKQLTGGIK---QLFKANKVGHVEGFATIVGPNTVQAKKNDGSVETINARNILIASGSEVTPFPGITIDEKQIVSSTGALSLGQVPKKMVVIGAGVIGLELGSVWQRLGAEVTAVEFLGHVGGMGIDGEVSKNFQRSLTKQGFKFLLNTKV---MGASQNGSTITVEVEGAKDGKKQTLECDTLLVSVGRRPYTEGLGLSNVQIDLDNRGRVPVNE--RFQTKVPSIFAIGDVIEGPMLAHKAEDEGILCVEGIAGGPVHIDYNCVPS---VVYTHPEVAWVGKAEEQLKQEGVA--YKIGKFPFVANSRAKTNNDQEGFVKVLADKQTDRMLGVHIIGPNAGEMIAEATLAMEYGASAEDVARVCHPHPTLSEAFREA</Hsp_hseq>
+      <Hsp_midline>AD+VVIGGG  G + A + A+L    V + +N   G TC  VGC+PSK L+  +   H A H   F       +  +N  ++M    +   +  G +    + + A+K   + G A  +  +TVQ    D  ++ I A++ +IA+GS     P       +++ +    S   +PK++ V G GVIGLELG    RLG +V      G +G  GI   V  +  +++  +  K  L+ K    + A  N     VEV   +DG+K     + +L +VGRRP  + +GL N+ ID D RG VPV +    QT +P IF  GD      L H+A D+G +  +  AG   +I      S   VV+T P++ +VG    Q+  +  A  + IG+  F    R++     +G +++ A+K T R +G  I+GP A  +      A +   +   +  +   HP + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|269849557|sp|P09622.2|DLDH_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=Glycine cleavage system L protein; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P09622</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.1749e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTV---QIDDHIQ-IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEE-LKLHLDAK-TEVKLDADGNVEVHWE--QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>IDADVTVIGSGPGGYVAAIKAAQLGFKTVCIEKNETLGGTCLNVGCIPSKALLNNSHYYHMAHGKDFASRGIEMSEVRLNLDKMMEQKSTAVKALTGGIAHLFKQNKV-VHVNGYGKITGKNQVTATKADGGTQVIDTKNILIATGSEVTPFPGITIDEDTIVSSTGALSLKKVPEKMVVIGAGVIGVELGSVWQRLGADVTAVEFLGHVGGVGIDMEISKNFQRILQKQGFKFKLNTKVTGATKKSDGKIDVSIEAASGGKAEVITCDVLLVCIGRRPFTKNLGLEELGIELDPRGRIPVNT--RFQTKIPNIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPS---VIYTHPEVAWVGKSEEQL--KEEGIEYKVGKFPFAANSRAKTNADTDGMVKILGQKSTDRVLGAHILGPGAGEMVNEAALALEYGASCEDIARVCHAHPTLSEAFREA</Hsp_hseq>
+      <Hsp_midline>I AD+ VIG G  G + A + A+L    V + +N   G TC  VGC+PSK L+  +   H A   D     ++   + +N +++M +  +      G +    ++      + G  K   ++ V   + D   Q I  K+ +IATGS     P      D ++ +    S   +P+++ V G GVIG+ELG    RLG  V      G +GG+  D  +S   + +  ++  K  L+ K T     +DG ++V  E    G+  V   + +L  +GRRP   N+GLE + I+ D RG +PV      QT IP+I+  GD      L H+A D+G I  +  AG   +I      S   V++T P++ +VG    Q+  + +  E+ +G+  F    R++      G +++  +K+T R +GA I+GP A  + +  A A +   +   +  +   HP + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|75040928|sp|Q5R4B1.1|DLDH_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R4B1</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>2.38242e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTV---QIDDHIQ-IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEE-LKLHLDAK-TEVKLDADGNVEVHWE--QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>IDADVTVIGSGPGGYVAAIKAAQLGFKTVCVEKNETLGGTCLNVGCIPSKALLNNSHYYHMAHGKDFASRGIEMSEVRLNLDKMMEQKSTAVKALTGGIAHLFKQNKV-VHVNGYGKITGKNQVTATKADGGTQVIDTKNILIATGSEVTPFPGIMIDEDTIVSSTGALSLKKVPEKMVVIGAGVIGVELGSVWQRLGADVTAVEFLGHVGGVGIDMEISKNFQRILQKQGFKFKLNTKVTGATKKSDGKIDVSIEAASGGKAEVITCDVLLVCIGRRPFTKNLGLEELGIELDPRGRIPVNT--RFQTKIPNIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPS---VIYTHPEVAWVGKSEEQL--KEEGIEYKVGKFPFAANSRAKTNADTDGMVKILGQKSTDRVLGAHILGPGAGGMVNEAALALEYGASCEDIARVCHAHPTLSEAFREA</Hsp_hseq>
+      <Hsp_midline>I AD+ VIG G  G + A + A+L    V + +N   G TC  VGC+PSK L+  +   H A   D     ++   + +N +++M +  +      G +    ++      + G  K   ++ V   + D   Q I  K+ +IATGS     P      D ++ +    S   +P+++ V G GVIG+ELG    RLG  V      G +GG+  D  +S   + +  ++  K  L+ K T     +DG ++V  E    G+  V   + +L  +GRRP   N+GLE + I+ D RG +PV      QT IP+I+  GD      L H+A D+G I  +  AG   +I      S   V++T P++ +VG    Q+  + +  E+ +G+  F    R++      G +++  +K+T R +GA I+GP A  + +  A A +   +   +  +   HP + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81871163|sp|Q811C4.1|DLDH_MESAU</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Flags: Precursor, partial [Mesocricetus auratus]</Hit_def>
+  <Hit_accession>Q811C4</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>5.15495e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>479</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>KKIQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVG-----FVVTDVEEWPADKRIMGSAKFIDEHTVQIDDHIQ-IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEE-LKLHLDAKTE-VKLDADGNVEVHWEQ--DGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLR</Hsp_qseq>
+      <Hsp_hseq>QPIDADVTVIGSGPGGYVAAIKAAQLGFKTVCIEKNETLGGTCLNVGCIPSKALLNNSHYYHLAHGKDFASRGIELSEVRLNLEKMMEQKSSAVKALTGGIAHLFKQNKVVHVNGFGNITGKNQVT---ATKADGSSQVIGTKNILIATGSEVTPFPGITIDEDTIVSSTGALSLKKVPEKLVVIGAGVIGVELGSVWQRLGAEVTAVEFLGHVGGIGIDMEISKKFQRILQKQGFKFKLNPKVPGATKRSDGKIDVSVEAAPGGKAEVIPCDVLLVCIGRRPFTQNLGLEELGIELDPRGRIPVNT--RFQTKIPNIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPS---VIYTHPEVAWVGKSEEQL--KEEGIEYKVGKFPFAANSRAKTNADTDGMVKILGQKSTDRVLGAHILGPGAGEMVNEAALALEYGASCEDIARVCHAHPTLSEAFR</Hsp_hseq>
+      <Hsp_midline>+ I AD+ VIG G  G + A + A+L    V + +N   G TC  VGC+PSK L+  +   H A   D     ++   + +N E++M +  S      G     F    V        I G  +       + D   Q I  K+ +IATGS     P      D ++ +    S   +P+++ V G GVIG+ELG    RLG +V      G +GGI  D  +S + + +  ++  K  L+ K       +DG ++V  E    G+  V   + +L  +GRRP   N+GLE + I+ D RG +PV      QT IP+I+  GD      L H+A D+G I  +  AG   +I      S   V++T P++ +VG    Q+  + +  E+ +G+  F    R++      G +++  +K+T R +GA I+GP A  + +  A A +   +   +  +   HP + E  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|7531097|sp|O34324.1|DLDH3_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of acetoin cleaving system [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34324</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.04423e-41</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>442</Hsp_align-len>
+      <Hsp_qseq>NVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIM---GSAKFIDEHTVQID----DHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEEL-----KLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNA-GRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTAL</Hsp_qseq>
+      <Hsp_hseq>NVLLIDKGKLGGTCLNEGCIPTKSLLESANVLDKIKHADSFGIELPAGAISVD----WSKMQSRKQQVVSQLVQGVQYLMKKNQIQVVKGTASFLSERKLLIEGENGKEIR-EADQVLIASGSEPIELPFAPFDGEWILDSKDALSLSEIPSSLVIVGGGVIGCEYAGLFARLGSQVTIIETADRL----IPAEDEDIARLFQEKLEEDGVEVHTSSRLG-RVDQTAKTAI-WKSGQREFKTKADYVLVAIGRKPRLDGLQLEQAGVDFSPKGIPVNG--HMQTNVPHIYACGDAIGGIQLAHAAFHEGIIAASHASGRDVKIN---EKHVPRCIYTSPEIACIGMTERQARSIY--GDVKIGEFSFSANGKALIKQQAEGKVKIMAEPEFGEIVGVSMIGPDVTELIGQAAAIMNGEMTADMAEHFIAAHPTLSETLHEAL</Hsp_hseq>
+      <Hsp_midline>NV LI+    G TC   GC+P+K L+ +A       H D FG+ L   +I V+      +++S + + V  +V  V+      +I    G+A F+ E  + I+      I+  A   +IA+GS P+ LP     G+ ++ + D  S   +P  + + G GVIG E      RLG +V I      +     P   ++   +F E+L     ++H  ++   ++D      + W+    +    A+Y+L A+GR+P +D + LE   +D   +G+PV     MQT++PHI+  GDA   + L H A  +G IA  +A GR   I     +     ++TSP+I  +G+   Q  + Y   +  IGE SF   G++ +    +G +++ AE   G  +G  ++GP    L    A     +MT          HP + E L  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|68052316|sp|Q5UWH2.1|DLDH3_HALMA</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase 3; AltName: Full=Dihydrolipoamide dehydrogenase 3 [Haloarcula marismortui ATCC 43049]</Hit_def>
+  <Hit_accession>Q5UWH2</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.30446e-41</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPAD---KRIMGSAKFIDEHTVQI------DDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFG-LGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNV--------EVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDADAK</Hsp_qseq>
+      <Hsp_hseq>DVLVIGAGPGGYVAAIRAAQLALD-VTLVEKGEYGGACLNRGCIPSKALIHGSKLASEAGQAEELGIYADP---TVALDEMINW----KDGVVDQLTSGIEQLCTAAGVNLLKGTAEFADENKVRIIHQGEGQGSESLKFENCIIATGSRPIEIPGFGFEDERIVSSDGALNFDTVPDELVIVGAGYIGMELATVYSRLGSDVSVIEMLEQALPSYEEDIASIVRKRAERLGVDFHFGYTADSWAASDGKAVLTAVPADEAAHDSDIE---LTADRILVAVGRRPVTDTLSIDDAGVETNAQGFIPTDS-TCRTNKEHIFAVGDVAGEPMLAHKGSKEGEVAAEVIAGEP--AAVDYQALPAAVFTDPEIGTVGLTENEAANKGMTP--VTGEFQFQASGRALTANRAEGFVRIIATKETERVIGAQIVGPEASELIAEIAAMIEMGAKLEDIGSTVHTHPTLSEAIMEAAQNAREK</Hsp_hseq>
+      <Hsp_midline>D++VIG G  G + A R A+L  D V L+E   +G  C   GC+PSK LI  ++    A   +  G++ D     V  +E++      +D  V  + + +E+         + G+A+F DE+ V+I           +  ++ +IATGSRP+ +P +    +R++ +D   ++DT+P  + + G G IG+EL     RLG  V +   L   +    + + S   K      +  H     +    +DG          E   + D E     A+ +L AVGRRP  D + +++  ++ +A+G    D  T +T+  HIF  GD + +  L H+ + +G++A +     P   +   ++    VFT P+IG VGL   + A +      V GE  F+  GR+      +G +R+ A K T R IGA+IVGP A  L   +A   +M   +  +      HP + E +  A ++A  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|347595646|sp|O05940.2|DLDH_RHIEC</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate and 2-oxoglutarate dehydrogenases complexes; AltName: Full=ORF-E3 [Rhizobium etli CFN 42]</Hit_def>
+  <Hit_accession>O05940</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>2.45357e-41</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>465</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>478</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRF---VGFVVTDVE---EW-------PADKRIMGSAKFIDEHTVQIDDHIQ----IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEE-LKLHLDAKTEVKLDADGNVEVHWE-QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDADAKL</Hsp_qseq>
+      <Hsp_hseq>DVIIIGSGPGGYVAAIRASQLGLKTAIVEREHMGGICLNWGCIPTKALLRSAEVLDHANHFKDFGLVLE-GSVKPDAKAVVGRSRAVSARLNAGVGFLMKKNKIDIIWGEAKLTKPGEIVVGKSSKPVVEPQHPLPKNVKGEGTYTAKHIIIATGARPRALPGIEPDGKLIWTYFEALKPDALPKSLIVMGSGAIGIEFASFYRSMGVDVTVVEVMPTIMPVEDAEITAIARKQLEKRGLKIFTSAKVTKVEKGAGSITAHVETSDGKVQQITADRMISAVGVQGNIENLGLEALGVKTD-RGCVVADGYG-KTNVAGIYAIGDVAGPPMLAHKAEHEGVVCVEKIAGLPNVHPTDKGKVPGCTYCNPQVASVGLTEAK--AKELGRDIRVGRFSFAANGKAIALGEDQGMVKVIFDKKTGELLGAHMVGAEVTELIQGFVVAMNLETTEEELMHTIFPHPTVSETMKEAVLDAYGRV</Hsp_hseq>
+      <Hsp_midline>D+++IG G  G  A   A        ++E    G  C   GC+P+K L+ +AE   HA H   FG+ L+  S+  + + V+ R ++   R    VGF++   +    W       P +  +  S+K + E    +  +++      AK  +IATG+RP  LP  +  G  +    +    D LPK + V G G IG+E       +GV V +  +   I  + D  ++  A+    +  LK+   AK        G++  H E  DG+     A+ M++AVG + N++N+GLE + +  D RG  VAD    +T++  I+  GD +    L H+A  +G +  +     PN+    +    G  + +PQ+  VGL  A+  A+    +  +G  SF   G++  +  ++G +++  +K TG  +GA +VG     L      A  ++ T  +++   F HP + E ++ A+ DA  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|68052317|sp|Q5UYG6.1|DLDH2_HALMA</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase 2; AltName: Full=Dihydrolipoamide dehydrogenase 2 [Haloarcula marismortui ATCC 43049]</Hit_def>
+  <Hit_accession>Q5UYG6</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>2.64586e-40</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPAD---KRIMGSAKFIDEHTVQI------DDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFG-LGGIIGGISD---PVVSDEAKAV-----FGEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGV-PVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGL</Hsp_qseq>
+      <Hsp_hseq>ELLVIGGGPGGYVAAIRGAQLGLDTT-LVERDAYGGTCLNHGCIPSKALISASDVAHDARQAESMGVFADP---AVD----MAGMTEWKDGVVTRLTRGVESLCKNAGVNLVEGTAEFVDDGTVRVAHGGEGQGSESLSFEHAIVATGSRPMAVPGFEFDGEHILSSKDALALESVPEKLLVVGAGYIGMELSTVFAKLGAEVTVVEMLDDVLPGYEDDIATVVRDRAEELGIDFNFGEAADNWEETDEGIRVQTVDEDEVVTEYNAEK-------CLVAVGREPVTDTLALDNIDLQTDENGVIPTDDQC--RTAFESVFAVGDVAGEPMLAHKAMAEGEVAARAAAGEPAAFD--HQAIPAAVFTDPEIATVGMTESE--AEAAGFEPVIGQMPVRANGRALTVNEKEGFVRVVADADEEFLLGAQIVGPEASELIAELGLGIEMGARLEDIAGTIHTHPTLSEAV</Hsp_hseq>
+      <Hsp_midline>+++VIGGG  G + A R A+L  D   L+E + +G TC   GC+PSK LI+A++  H A   +  GV  D     V+    M  +   +D  V  +   VE    +     + G+A+F+D+ TV++           ++ +  ++ATGSRP+ +P ++  G+ ++ + D  + +++P+++ V G G IG+EL     +LG +V +   L  ++ G  D    VV D A+ +     FGE      +    +++      EV  E + EK        L AVGR P  D + L+NI++  D  GV P  D    +T+   +F  GD + +  L H+A  +G++A   A   P       ++    VFT P+I  VG+  ++  A+    E VIG++  +  GR+  +   +G +R+ A+      +GA+IVGP A  L   L    +M   +  +      HP + E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2500124|sp|P75393.1|DLDH_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate complex [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75393</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>4.85658e-40</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>460</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQIDDHIQIAAKSFVIATGSRP--VILPQWQSLGDRLIINDDV--FSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSD-EAKAVFGEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDA</Hsp_qseq>
+      <Hsp_hseq>DLIIIGAGPAGYVAAEYAGKHKLKTLVVEKEYFGGVCLNVGCIPTKTLLKRAKIVDYLRHAQDYGISIN-GQVALNWNQLLEQKGKVVSKLVGGVKAIIASAKAET-VMGEAKVLDPNTVEVAGK-TYTTKSIVVATGSRPRYLTLPGFAEARQNGFVIDSTQALSLEGVPRKLVVVGGGVIGIEFAFLYASLGSEVTILQGVDRILEIFDTEVSDLVAKLLQTKNVKIITNA----QVTRANNNEVFYSQNGQEGSVVGDRILVSIGRIPNTE--CLDGLNLQRDERNRIVLNQ-DLQTSIPNIYIVGDANAQLMLAHFAYQQGRYAVNHILNKKQVKPAQKLTCPSCIYTNPEVASVG--YTEMELKKQGIPYVKTNLVLAHCGKAIADNETNGFVKMMFDPQTGKILGCCIIAATASDMIAELALAMGAGLTVFDIANSISPHPTINEMIADVCKKA</Hsp_hseq>
+      <Hsp_midline>D+++IG G AG  A   A  H     ++E   FG  C  VGC+P+K L+  A+   +  H   +G+ ++   + +N  +++ +      + VG V   +    A+  +MG AK +D +TV++        KS V+ATGSRP  + LP +        + D     S + +P+++ V G GVIG+E       LG +V I      I  I D  VSD  AK +  + +K+  +A    ++    N EV + Q+G++G  V + +L ++GR PN +   L+ +N+ +D R   V +   +QTSIP+I+I GDA+ QL L H A  QG+ A ++      +    + +    ++T+P++  VG  Y ++  + Q   +V   +   + G++       G +++  +  TG+ +G  I+   A  +   LA A    +TV  + +    HP I E +    + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|68052250|sp|Q9HN74.1|DLDH_HALSA</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase [Halobacterium sp. NRC-1]</Hit_def>
+  <Hit_accession>Q9HN74</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>6.57233e-40</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>467</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFV-----VTDVEEWPADKRIMGSAKFIDEHTVQIDDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDA-----DGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDA</Hsp_qseq>
+      <Hsp_hseq>DVAVVGAGPGGYVAAIRAGQLGLD-VTLVEKDAYGGTCLNYGCIPSKAMITASGVAHEAGHAEEMGVYADPD---VDVAEMVDWKDGVVDQLTGGVEKLCKANGVNLIEGRAEFAGSDKLRVVHGGDGQGSETIEYEHAIVSTGSRPIEVPGFDFGDDPVLDSRQALAMAELPSSMVIVGGGYIGMELSTVFAKLGVDVTVVEM---LDGILPQYGDDIARPVRQRAEELGIDFHFGLAADSWTDTDDGIVVTAADEDGEETEFETEKVLVAVGRQPVTDTLNLDAVGLEPNDDGRLETDH-EARTDVENVFAIGDVAPGPMLAHKASKEGEVAAEVIAGEP---AALDYQAVPAAVFTDPEIGTVGLTEDDAAA--QGFDPVVGTFPFNASGRALTTGHDDGFVEVVADEESGFLLGAQIVGPEASELVAELGLAIEMGATLEDVASTIHTHPTLSEATMEAAEHA</Hsp_hseq>
+      <Hsp_midline>D+ V+G G  G + A R  +L  D V L+E + +G TC   GC+PSK +I A+   H A H +  GV+ D D   V+  E++       D+  G V        V          GS K    H         I  +  +++TGSRP+ +P +    D ++ +    +   LP  + + G G IG+EL     +LGV V +  +   + GI      D A+ V     +L +D    +  D+     DG V    ++DGE+  F  E +L AVGR+P  D + L+ + ++ +  G    D    +T + ++F  GD +    L H+A+ +G++A +     P   + L    +   VFT P+IG VGL     AA  Q  + V+G   F   GR+     + G + + A++ +G  +GA+IVGP A  L   L  A +M  T+  +      HP + E    A   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|124106279|sp|P52992.2|DLDH_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of 2-oxoglutarate dehydrogenase complex [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>P52992</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>9.47064e-40</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>QADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVF---------GTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEV-MRRVKSERDRFVGFVVTDVEEWPADKRIM---GSAKFIDEHT--VQIDDHIQI-AAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIF-GLGGIIGGISDPVVSDEAKAVFGEELKLHLDAK-TEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQG-KIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDADAK</Hsp_qseq>
+      <Hsp_hseq>QFDVLVIGAGPGGYIAAIRAGQL-GLNVACCEGNPYDDPKGEARLGGTCLNVGCIPSKALLASSEEFENVQH------HLGDHGITVGDVKVDVAKMLKRKDDIVGKMTKGIEFLFRKNKVTLLKGYGKFVGKSAEGFQVDVAGEVVTAKQVIIATGSKARHLPGIKVDNDLVSDNEGALKFPAVPKKLGVIGAGVIGLELGSVWRRLGSDVTVLEALPAFLGAADEGVAKEAQKQLTKQGLKFSLGVNVNEVTTGKNGVTVKYTDKDGKAQTLEVDRLIVSVGRVPNTDNLGLDAVGLAADQRGFIEVDD-HCATKVPGLWAIGDVVRGPMLAHKAEDEGVAVAERIAGQKPHID---YNCVPWVIYTFPEIAWVGKTEAQLKAEGR--EYKAGQFPFMANGRALGMGHADGFVKMLADAKTDEILGVHIVAANASDLIAEAVVAMEFKAASEDIGRVCHPHPSMSEVMREAALAVDKR</Hsp_hseq>
+      <Hsp_midline>Q D++VIG G  G + A R  +L   NV   E N +         G TC  VGC+PSK L+A++E   +  H      HL    I V   +V + ++   +D  VG +   +E      ++    G  KF+ +     Q+D   ++  AK  +IATGS+   LP  +   D +  N+    +  +PK++ V G GVIGLELG    RLG  V +   L   +G   + V  +  K +  + LK  L     EV    +G    + ++DG+      + ++ +VGR PN DN+GL+ + +  D RG    D     T +P ++  GD      L H+A D+G  +A   AG+ P+I          V++T P+I +VG   AQ+ A+ +  E+  G+  F   GR+  M    G +++ A+  T   +G  IV   A  L      A + K     +  +   HP + E +R A    D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|13124714|sp|O00087.2|DLDH_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; Short=DLDH; Flags: Precursor [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O00087</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.63486e-39</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>471</Hsp_align-len>
+      <Hsp_qseq>QADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRI---MGSAKFIDEHTVQIDD-----HIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEE-LKLHLDAK-TEVKLDADG-NVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSG-LRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDA</Hsp_qseq>
+      <Hsp_hseq>EYDLCVIGGGPGGYVAAIRGAQLGLKTICVEKRGTLGGTCLNVGCIPSKALLNNSHIYHTVKH-DTKRRGIDVSGVSVNLSQMMK----AKDDSVKSLTSGIEYLFKKNKVEYAKGTGSFIDPQTLSVKGIDGAADQTIKAKNFIIATGSEVKPFPGVTIDEKKIVSSTGALSLSEVPKKMTVLGGGIIGLEMGSVWSRLGAEVTVVEFLPAVGGPMDADISKALSRIISKQGIKFKTSTKLLSAKVNGDSVEVEIENMKNNKRETYQTDVLLVAIGRVPYTEGLGLDKLGISMDKSNRVIMDS-EYRTNIPHIRVIGDATLGPMLAHKAEDEG-IA---AVEYIAKGQGHVNYNCIPAVMYTHPEVAWVGI--TEQKAKESGIKYRIGTFPFSANSRAKTNMDADGLVKVIVDAETDRLLGVHMIGPMAGELIGEATLALEYGASAEDVARVCHAHPTLSEATKEAMMAA</Hsp_hseq>
+      <Hsp_midline>+ D+ VIGGG  G + A R A+L    + + +    G TC  VGC+PSK L+  +   H   H D     +D   + VN  ++M+     +D  V  + + +E      ++    G+  FID  T+ +          I AK+F+IATGS     P       +++ +    S   +PK++ V G G+IGLE+G    RLG +V +      +GG  D  +S     +  ++ +K     K    K++ D   VE+   ++ ++  +  + +L A+GR P  + +GL+ + I  D     + D    +T+IPHI + GDA+    L H+A D+G IA   A  Y   G G +  + I  V++T P++ +VG+   +  A+    ++ IG   F    R++  +   G +++  +  T R +G  ++GP A  L      A +   +   +  +   HP + E  + A+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|59799813|sp|P0A0E4.1|MERA_STAES</Hit_id>
+  <Hit_def>RecName: Full=Mercuric reductase; AltName: Full=Hg(II) reductase [Staphylococcus epidermidis ATCC 12228] &gt;gi|59799814|sp|P0A0E5.1|MERA_STAAU RecName: Full=Mercuric reductase; AltName: Full=Hg(II) reductase [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>P0A0E4</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.86859e-39</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>531</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPF-GVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTD-----VEEWPADKRIMGSAKFIDEHTVQIDDHIQIAAKSFVIATGSRPVILPQWQSLGD-RLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADG-NVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI----GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>DLLIIGSGGAAFSAAIKANENGAKVAMVERGTVGGTCVNIGCVPSKTMLRAGEINGLA-QNNPFTGLQTS------TGAADLAQLTEQKDGLVSQMRQEKYIDLIEEYGFD-LIRGEASFIDDKTIQVNGQ-NITSKSFLIATGASPAV-PEIPGMNEVDYLTSTSALELKEVPQRLAVIGSGYIAAELGQMFHNLGTEVTLMQRSERLFKTYDPEISEAIDESLTEQGLNLITGVTYQKVEQNGKSTSIYIEVNGQEQVIEADQVLVATGRKPNTETLNLESAGVKTGKKGEVLTNEY-LQTSNNRIYAAGDVTLGPQFVYVAAYEGGIVANNA-----LGLAKRKIDLRFVPGVTFTNPSIATVGLTEQQ--AKEKGYDVKTSVLPLDAVPRALVNHETTGVYKLVVNAQTQKLIGAHIVSENAGDVIYAATLAVQFGLTIEDLTDSFAPYLTMAEGLKLA</Hsp_hseq>
+      <Hsp_midline>D+++IG G A   A   A  +   V ++E    G TC  +GC+PSK ++ A E    A   +PF G+          G   + ++  ++D  V  +  +     +EE+  D  I G A FID+ T+Q++    I +KSF+IATG+ P + P+   + +   + +        +P+R+AV G G I  ELGQ  H LG +V +      +    DP +S+       E+    +   T  K++ +G +  ++ E +G++ V  A+ +L A GR+PN + + LE+  +    +G  + +   +QTS   I+ AGD +     ++ AA +G I  +NA     +G   R+  +    GV FT+P I  VGL   Q  A+ +  +     +      R+ V     G  +L     T + IGA IV   A  + +    A Q  +T+  + D    +  + EGL+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|126987|sp|P16171.1|MERA_BACCE</Hit_id>
+  <Hit_def>RecName: Full=Mercuric reductase; AltName: Full=Hg(II) reductase [Bacillus cereus]</Hit_def>
+  <Hit_accession>P16171</Hit_accession>
+  <Hit_len>631</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>1.43752e-38</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>462</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>620</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPF-GVH-----LDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQIDDHIQIAAKSFVIATGSRPVILPQWQSLGD-RLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNV-EVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI----GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDAD</Hsp_qseq>
+      <Hsp_hseq>DYIIIGSGGAAFSSAIEAVALNAKVAMIERGTVGGTCVNVGCVPSKTLLRAGEINHLA-KNNPFVGLHTSASNVDLAPLVKQKNDLVTEMRNEK------YVNLIDDYGFE-LIKGESKFVNENTVEVNGN-QITAKRFLIATGASSTA-PNIPGLDEVDYLTSTSLLELKKVPNRLTVIGSGYIGMELGQLFHNLGSEVTLIQRSERLLKEYDPEISEAITKALTEQGINLVTGATYERVEQDGDIKKVHVEINGKKRIIEAEQLLIATGRKPIQTSLNLHAAGVEVGSRGEIVIDDY-LKTTNSRIYSAGDVTPGPQFVYVAAYEGGLAARNA-----IGGLNQKVNLEVVPGVTFTSPSIATVGLTEQQ--AKEKGYEVKTSVLPLDAVPRALVNRETTGVFKLVADAKTLKVLGAHVVAENAGDVIYAATLAVKFGLTVGDLRETMAPYLTMAEGLKLAVLTFD</Hsp_hseq>
+      <Hsp_midline>D ++IG G A   +   A   +  V +IE    G TC  VGC+PSK L+ A E  H A   +PF G+H     +D   +V    +++  +++E+       V  ++++  +  I G +KF++E+TV+++ + QI AK F+IATG+     P    L +   + +  +     +P R+ V G G IG+ELGQ  H LG +V +      +    DP +S+       E+    +   T  +++ DG++ +VH E +G+K +  AE +L A GR+P   ++ L    ++  +RG  V D   ++T+   I+ AGD +     ++ AA +G +A  NA     IG   ++  +    GV FTSP I  VGL   Q  A+ +  E     +      R+ V     G  +L A+  T + +GA +V   A  + +    A +  +TV  + +    +  + EGL+ A+   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|126994|sp|P08332.1|MERA_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Mercuric reductase; AltName: Full=Hg(II) reductase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P08332</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>7.4452e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>IVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERD-----RFVGFVVTDVEEWPADKRIMGSAKFIDEHT--VQIDDHIQ--IAAKSFVIATGSRPVI--------LPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVF---GEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDADAKLK</Hsp_qseq>
+      <Hsp_hseq>IAVIGSGGAAMAAALKAVEQGARVTLIERGTIGGTCVNVGCVPSKIMIRAAHI-AHLRRESPFDGGIAATTPTIQRTALLAQQQARVDELRHAKYEGI----LEGNPAITVLHGSARFKDNRNLIVQLNDGGERVVAFDRCLIATGASPAVPPIPGLKDTPYWTS--------TEALVSETIPKRLAVIGSSVVALELAQAFARLGAKVTILARSTLFFR-EDPAIGEAVTAAFRMEGIEVREHTQASQVAYI--NGVRDGEFVLTTAHGELRADKLLVATGRAPNTRKLALDATGVTLTPQGAIVIDP-GMRTSVEHIYAAGDCTDQPQFVYVAAAAGTRAAIN---MTGGDAALNLTAMPAVVFTDPQVATVG--YSEAEAHHDGIKTDSRTLTLDNVPRALANFDTRGFIKLVVEEGSGRLIGVQAVAPEAGELIQTAALAIRNRMTVQELADQLFPYLTMVEGLKLAAQTFNKDVK</Hsp_hseq>
+      <Hsp_midline>I VIG G A M A   A      V LIE    G TC  VGC+PSK++I AA    H     PF   +   +  +    ++ + ++  D     ++ G     +E  PA   + GSA+F D     VQ++D  +  +A    +IATG+ P +         P W S         +    +T+PKR+AV G  V+ LEL QA  RLG KV I     +     DP + +   A F   G E++ H  A     +  +G  +  +      G   A+ +L A GR PN   + L+   +    +G  V DP  M+TS+ HI+ AGD ++Q   ++ AA  G  A  N        + L  + +  VVFT PQ+  VG  Y++  A +   +     ++  N  R+      +G ++L  E+ +GR IG + V P A  L    A A + +MTV ++ D  F +  + EGL+ A +  +  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2500123|sp|Q54465.1|MERA_SHEPU</Hit_id>
+  <Hit_def>RecName: Full=Mercuric reductase; AltName: Full=Hg(II) reductase [Shewanella putrefaciens]</Hit_def>
+  <Hit_accession>Q54465</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>2.53751e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>IVVIGGGTAGMGAFRNARLHSDNVYLIEN-NVFGTTCARVGCMPSKLLIAAAEARHHALHTDPF-GV--HLDKDSIVVNGEEVMRRVKSERD-RFVGFVVTDVEEWPADKRIMGSAKFIDEHT--VQIDDHIQIA--AKSFVIATGSRPVI--------LPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQ-YQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDADAKLK</Hsp_qseq>
+      <Hsp_hseq>VAIIGTGSGAFACAIKAAEGGAKVTLIEGADVIGGCCVNVGCVPSKILIRAAQLAQQQ-RNNPFTGLENHAPQLSRALLTQQQTARVEELRAAKYQNILETN----PALSLLKGWAQFKNANTLIVRKNDGTEQAVHADKILIATGSTPTIPPIDGLTETPYWTS-------TEALFAQE-LPQHLVVIGSSVVALEIAQAYRRLGSEVTILARHTLLYR-EDPLLGEKLTGCFEKEGIRVLNSTQATKVTHDGS---QFTLETNAGDLRCDRLLVSTGRHANTCQLNLGAVGVTTNKKGEIVVNE-RMETNVPGIYAAGDCCNMPQFVYVAAAAGSRSGINMTGGY----AKLDLSTMPAVIFTDPQVATVGLTEEQANAQDIETDSRVL---EMENVPRALANFETDGFIKLVTEKATGRLIGAQILAHEGGELIQSAALAIRNRMTVTELADQLFPYLTMVEGLKLCAQTFNKDVK</Hsp_hseq>
+      <Hsp_midline>+ +IG G+        A      V LIE  +V G  C  VGC+PSK+LI AA+        +PF G+  H  + S  +  ++   RV+  R  ++   + T+    PA   + G A+F + +T  V+ +D  + A  A   +IATGS P I         P W S        + +F+ + LP+ + V G  V+ LE+ QA  RLG +V I     ++    DP++ ++    F +E    L++    K+  DG+    +  +   G    + +L + GR  N   + L  + +  + +G  V +   M+T++P I+ AGD  N    ++ AA  G  +G N  G Y    + L  ST+  V+FT PQ+  VGL   Q  AQ  + D  V+     +N  R+       G ++L  EKATGR IGA+I+      L    A A + +MTV ++ D  F +  + EGL+   +  +  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1706441|sp|P54533.1|DLDH2_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of branched-chain alpha-keto acid dehydrogenase complex; AltName: Full=LPD-Val [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54533</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>2.67837e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>QADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFV-----VTDVEEWPADKRIMGSAKF------IDEHTVQIDDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEE-LKLHLDAKT--EVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDADAK</Hsp_qseq>
+      <Hsp_hseq>EYDVVILGGGTGGYVAAIRAAQLGLKTA-VVEKEKLGGTCLHKGCIPSKALLRSAEVYRTAREADQFGV--ETAGVSLNFEKVQQRKQAVVDKLAAGVNHLMKKGKIDVYTGYGRILGPSIFSPLPGTISVERGNGEENDMLIPKQVIIATGSRPRMLPGLEVDGKSVLTSDEALQMEELPQSIIIVGGGVIGIEWASMLHDFGVKVTVIEYADRILPTEDLEISKEMESLLKKKGIQFITGAKVLPDTMTKTSDDISIQAEKDGETVTYSAEKMLVSIGRQANIEGIGLENTDIVTENGMISVNE--SCQTKESHIYAIGDVIGGLQLAHVASHEGIIAVEHFAGLNPH---PLDPTLVPKCIYSSPEAASVGLTEDE--AKANGHNVKIGKFPFMAIGKALVYGESDGFVKIVADRDTDDILGVHMIGPHVTDMISEAGLAKVLDATPWEVGQTIHPHPTLSEAIGEAALAADGK</Hsp_hseq>
+      <Hsp_midline>+ D+V++GGGT G + A R A+L      ++E    G TC   GC+PSK L+ +AE    A   D FGV  +   + +N E+V +R ++  D+    V        ++ +    RI+G + F      I       +++  +  K  +IATGSRP +LP  +  G  ++ +D+    + LP+ + + G GVIG+E    LH  GVKV +      I    D  +S E +++  ++ ++    AK   +       ++ +  E+DGE   + AE ML ++GR+ N++ IGLEN +I  +   + V +  + QT   HI+  GD    L L H A+ +G IA ++ AG  P+    L  + +   +++SP+   VGL   +  A+       IG+  F   G++ V   + G +++ A++ T   +G  ++GP    +      A  +  T  ++      HP + E +  A   AD K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|81539717|sp|Q9HUY1.1|DLDH3_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase 3; AltName: Full=Dihydrolipoamide dehydrogenase 3; Short=LPD-3 [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HUY1</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>7.27515e-37</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIE-NNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVE--------EWPADKRIMGSAKFIDEHTVQI----DDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFG-LGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHWE--QDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDADAK</Hsp_qseq>
+      <Hsp_hseq>DVIVIGAGPGGYNAAIRAGQLGLKVACVEGRETLGGTCLNVGCMPSKALLHASE-----LYAAASGGEFARLGIRVSPELDLAQMMKQKDESVAALTRGVEFLFRKHKVQW-----IKGWARLQGEGRVGVALADGGHAQLEARDIVIATGSEPAPLPGVPVDNQRILDSTGALELVEVPRHLVVIGAGVIGLELGSVWRRLGAQVTVLEYLERICPGLDGETARTLQRALTRQGMRFRLGTRVVAARSGEQGVELDLQPAAGGATESLQADYVLVAIGRRPYTEGLGLETVGLASDRRG--MLENQGQRSAAPGVWVIGDVTSGPMLAHKAEEEAIVCIERIAGHAAEMNAEVIPS---VIYTQPEVASVGLGEEQLQAARR--EYKVGRFPFSANSRAKINHESEGFIKILSDARSDQVLGVHMIGPGVSEMIGEACVAMEFSASAEDLALTCHPHPTRSEALRQAAMDVHGR</Hsp_hseq>
+      <Hsp_midline>D++VIG G  G  A   A      V  +E     G TC  VGCMPSK L+ A+E     L+    G    +  I V+ E  + ++  ++D  V  +   VE        +W     I G A+   E  V +      H Q+ A+  VIATGS P  LP       R++ +        +P+ + V G GVIGLELG    RLG +V +   L  I  G+         +A+  + ++  L  +       +  VE+  +    G      A+Y+L A+GRRP  + +GLE + +  D RG  + +    +++ P +++ GD ++   L H+A ++  +  +  AG    + + +  S   V++T P++  VGL   Q+ A  +  E+ +G   F    R+++   ++G +++ ++  + + +G  ++GP    +      A +   +   +      HP   E LR A  D   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2500119|sp|Q52109.1|MERA_ACICA</Hit_id>
+  <Hit_def>RecName: Full=Mercuric reductase; AltName: Full=Hg(II) reductase [Acinetobacter calcoaceticus]</Hit_def>
+  <Hit_accession>Q52109</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>7.47598e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>545</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>IVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPF--GV-----HLDKDSIVVNGEEVMRRVKSERD-RFVGFVVTDVEEWPADKRIMGSAKFIDEHT--VQIDDHIQ--IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVF-GEELKL--HLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>VVVIGSGGAAMAAALKAVEQGAHVSLIERGTIGGTCVNVGCVPSKIMIRAAHIAHLRRES-PFDGGIAATVPAIDRSKLLAQQQA---RVEELRHAKYEGI----LDGNPAITVVHGEARFKDEQSLVVRLNDGGERVVAFDRCLVATGASPAVPPIPGLKESPYWTSTEALVSDTLPERLAVIGSSVVALELAQAFARLGSQVTILARNTLFFR-DDPAIGEAVTAAFRAEGIKVLEHTQASQVAHVDGEFVLTTGY------GEIRADQLLVATGRAPNTRSLALEAAGVAANAQGAIVIDK-GMRTSTPHIYAAGDCTDQPQFVYVAAAAGTRAAIN---MTGGDAALDLTAMPAVVFTDPQVATVG--YSEAEAHHDGIETDSRTLTLDNVPRALANFDTRGFIKLVIEEGSGRLIGVQAVAPEAGELIQTAVLAIRNRMTVQELADQLFPYLTMVEGLKLA</Hsp_hseq>
+      <Hsp_midline>+VVIG G A M A   A     +V LIE    G TC  VGC+PSK++I AA   H    + PF  G+      +D+  ++   +    RV+  R  ++ G     ++  PA   + G A+F DE +  V+++D  +  +A    ++ATG+ P + P           + +    DTLP+R+AV G  V+ LEL QA  RLG +V I     +     DP + +   A F  E +K+  H  A     +D +  +   +      G   A+ +L A GR PN  ++ LE   +  +A+G  V D   M+TS PHI+ AGD ++Q   ++ AA  G  A  N        + L  + +  VVFT PQ+  VG  Y++  A +   E     ++  N  R+      +G ++L  E+ +GR IG + V P A  L      A + +MTV ++ D  F +  + EGL+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2500120|sp|P94188.1|MERA_ALCSP</Hit_id>
+  <Hit_def>RecName: Full=Mercuric reductase; AltName: Full=Hg(II) reductase [Alcaligenes sp.]</Hit_def>
+  <Hit_accession>P94188</Hit_accession>
+  <Hit_len>559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>1.05224e-36</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>543</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>NVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERD-----RFVGFVVTDVEEWPADKRIMGSAKFIDEHT--VQIDDHIQ--IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVF-GEELKL--HLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>NVTLIERGTIGGTCVNVGCVPSKIMIRAAHIAHLRRES-PFDGGIAATVPAIDRSKLLAQQQARVDELRHAKYEGI----LDDNPAITVLHGEARFKDDQSLAVRLNDGGERVVAFDRCLVATGASPAVPPIPGLKESPYWTSTEALVSDTIPERLAVIGSSVVALELAQAFARLGSKVTILARSTLFFR-EDPAIGEAVTAAFRAEGIKVLEYTQASQVAHVDGEFVLTTGY------GEIRADQLLVATGRAPNTRSLALEAAGVAANAQGAIVIDK-GMRTSTPHIYAAGDCTDQPQFVYVAAAAGTRAAIN---MTGGDAALDLTAMPAVVFTDPQVATVG--YSEAEAHHDGIETDSRTLTLDNVPRALANFDTRGFIKLVIEEGSGRLIGVQAVAPEAGELIQTAVLAIRNRMTVQELADQLFPYLTMVEGLKLA</Hsp_hseq>
+      <Hsp_midline>NV LIE    G TC  VGC+PSK++I AA   H    + PF   +      ++  +++ + ++  D     ++ G     +++ PA   + G A+F D+ +  V+++D  +  +A    ++ATG+ P + P           + +    DT+P+R+AV G  V+ LEL QA  RLG KV I     +     DP + +   A F  E +K+  +  A     +D +  +   +      G   A+ +L A GR PN  ++ LE   +  +A+G  V D   M+TS PHI+ AGD ++Q   ++ AA  G  A  N        + L  + +  VVFT PQ+  VG  Y++  A +   E     ++  N  R+      +G ++L  E+ +GR IG + V P A  L      A + +MTV ++ D  F +  + EGL+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|74851491|sp|Q54EW8.1|DLDH_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase, mitochondrial; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=Glycine cleavage system L protein; Flags: Precursor [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54EW8</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.33964e-36</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>481</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>FGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEV-MRRVKSERDRFVGFVVTDVEEWPADKRIM---GSAKFIDEHTVQI---DDHIQ-IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDE-AKAVFGEELKLHLDAK-TEVKLDADGNVEVHWEQDGE---KGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGD---NAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDA</Hsp_qseq>
+      <Hsp_hseq>LGGTCLNVGCIPSKALLNASHLYEEAT------TKMSKYGVKCSGVELDLGAMMQYKDKSVSGLTSGIEGLFKKNKVKYDKGFGKITGPNTVEVTLNDGSVKTIETKNIVIATGSEVTSLPNVNIDEESIISSTGALALKSVPKKLIVIGGGVIGLELGSVWSRLGSETTVVEFTNRIAAGADGEVAKKFQKSLEKQHMKFHLETKVTSVVKKSDGKVTVTVEQVGAGGFTGTLEADAVLVSVGRRPNTSGLGLESVGIPTDKAGRVEVGDHF--NTKVPSIFAIGDAIRGPMLAHKAEEEGIAIIEQIHNGGGHVNYG-----AIPSIIYTHPEVAWVGKTEEEL--QKEGIQYNIGRFPFVANSRAKTNDDVEGFVKFLAAKDSDRVLGAHIMGTNAGELIGECVLAMEYGASCEDIARTCHGHPTLSEAVKEAAMDA</Hsp_hseq>
+      <Hsp_midline> G TC  VGC+PSK L+ A+     A         + K  +  +G E+ +  +   +D+ V  + + +E      ++    G  K    +TV++   D  ++ I  K+ VIATGS    LP      + +I +    +  ++PK++ V G GVIGLELG    RLG +  +      I   +D  V+ +  K++  + +K HL+ K T V   +DG V V  EQ G     G   A+ +L +VGRRPN   +GLE++ I  D  G V V D     T +P IF  GDA     L H+A ++G    +   N G + N G     +   +++T P++ +VG    ++  Q +  ++ IG   F    R++     +G ++  A K + R +GA I+G  A  L      A +   +   +      HP + E ++ A  DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|172046687|sp|P85207.2|DLDH_THESS</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase [Thermus scotoductus SA-01]</Hit_def>
+  <Hit_accession>P85207</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>2.10579e-36</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGM-GAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRI---MGSAKFIDEHTVQIDDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDT---------LPKRVAVFGPGVIGLELGQALHRLGVKVEIFG-LGGIIGGISDPVVSDEAKAVFGEELKLHLDAKT---EVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>DLIVIGTGPGGYPAAIRGAQL-GLKVLAVEAAEVGGVCLNVGCIPTKALLHAAETVHHLKGAEGFGLKAKP-------ELDLKKLGAWRDGVVKKLTGGVAGLLKGNKVELLRGFARFKGPREIEVNGE-TYGAQSFIIATGSEPMPLKGFP-------FGEDV--WDSTRALRVEEGIPKRLLVIGGGAVGLELGQIYHRLGSEVTLIEYMPEILPAGDRETAALLRKALEKEGLKVRTGTKAVGYEKKQDGL-HVLLEAAQGGSQEEIVVDKILVAVGRRPRTEGLGLEKAGVKVDERGFIQVNA-RMETSAPGVYAIGDVARPPLLAHKAMKEGLVAAENAAGKNAL---FDFQVPSVVYTGPEWAGVGLTEEE--ARKAGYNVKVGKFPFSASGRALTLGGAEGLIKVVGDAETDLLLGVFVVGPQAGELIAEATLALEMGATVSDLGLTIHPHPTLSEGLMEA</Hsp_hseq>
+      <Hsp_midline>D++VIG G  G   A R A+L    V  +E    G  C  VGC+P+K L+ AAE  HH    + FG+           E  ++++ + RD  V  +   V       ++    G A+F     ++++      A+SF+IATGS P+ L  +          +DV  WD+         +PKR+ V G G +GLELGQ  HRLG +V +   +  I+        +   KA+  E LK+    K    E K D   +V +   Q G +   V + +L AVGRRP  + +GLE   +  D RG    +   M+TS P ++  GD +    L H+A  +G +A +NA     +          VV+T P+   VGL   +  A+       +G+  F   GR+  +   +G +++  +  T   +G  +VGP A  L      A +M  TV  +      HP + EGL  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|47606102|sp|Q7MBG9.1|STHA_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Soluble pyridine nucleotide transhydrogenase; Short=STH; AltName: Full=NAD(P)(+) transhydrogenase [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7MBG9</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>3.73074e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>MKKIQADIVVIGGGTAGMGAFRNARLHSDNVYLIE--NNVFGTTCARVGCMPSKLLIAAA----EARHHALHTD-------PFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQI----DDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEE--LKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMK---MTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>MQHIHFDAIVIGSGPGGEGAAMGLVKQGKSVAVIERYNNV-GGGCTHWGTIPSKALRHAVSRIIEFNQNPLYSDNSRVLRSSFAEILRRAEMVINQQTRMRQGFYERN--------------GCRMFSGEATFIDDHRVSVRYADDNHDILSADKIIIATGSRPYCPPDVDFTHSRIYNSDSILKLDHEPRHVIIYGAGVIGCEYASIFRGLGVKVDLINTRNHLLAFLDQEMSDALSYHFWNSGIVIRHNEEYSKIEGVDDG-VIVHL-KSGKK--VKADCLLYANGRTGNTDTLGLKNVGLEADSRGLLKVNKI-YQTSNENIYAVGDVIGYPSLASAAYDQGRIAAQ-AMTKGNAEVHLIEDIPTGIYTIPEISSVGKTEQQLTAMKVPYE--VGRAQFKHLARAQIAGMNVGSLKILFHRETKEILGIHCFGERAAEIIHIGQAIMEQKGESNTIEYFVNTTFNYPTMAEAYRVA</Hsp_hseq>
+      <Hsp_midline>M+ I  D +VIG G  G GA         +V +IE  NNV G  C   G +PSK L  A     E   + L++D        F   L +  +V+N +  MR+   ER+                +   G A FID+H V +    D+H  ++A   +IATGSRP   P       R+  +D +   D  P+ V ++G GVIG E       LGVKV++      +    D  +SD     F     +  H +  ++++   DG V VH  + G+K    A+ +L A GR  N D +GL+N+ ++ D+RG+   + +  QTS  +I+  GD      L   A DQG+IA   A    N    L       ++T P+I  VG    Q+ A     E  +G   FK+  R+++  +N G +++   + T   +G    G  A  + H+     + K    T+   ++  F +P + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|76364174|sp|Q9I1L9.1|DLDH1_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of branched-chain alpha-keto acid dehydrogenase complex; AltName: Full=LPD-Val [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9I1L9</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>9.87534e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>472</Hsp_align-len>
+      <Hsp_qseq>IQADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAE----ARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSER---DRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQID----DHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIF-GLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRR-----STIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>LKTSLLIVGGGPGGYVAAIRAGQLGIPTV-LVEGAALGGTCLNVGCIPSKALIHAAEEYLKARHYASRS-ALGIQVQAPSI-----DIARTVEWKDAIVDRLTSGVAALLKKHGVDV-VQGWARILDGKSVAVELAGGGSQRIECEHLLLAAGSQSVELPIL-PLGGKVISSTEALAPGSLPKRLVVVGGGYIGLELGTAYRKLGVEVAVVEAQPRILPGYDEELTKPVAQAL--RRLGVELYLGHSLLGPSENGVRVR-DGAGEEREIAADQVLVAVGRKPRSEGWNLESLGLDMNGRAVKVDD--QCRTSMRNVWAIGDLAGEPMLAHRAMAQGEMVAE-------LIAGKRRQFAPVAIPAVCFTDPEVVVAGLSPEQ--AKDAGLDCLVASFPFAANGRAMTLEANEGFVRVVARRDNHLVVGWQAVGKAVSELSTAFAQSLEMGARLEDIAGTIHAHPTLGEAVQEA</Hsp_hseq>
+      <Hsp_midline>++  ++++GGG  G + A R  +L    V L+E    G TC  VGC+PSK LI AAE    ARH+A  +   G+ +   SI     ++ R V+ +    DR    V   +++   D  + G A+ +D  +V ++       +I  +  ++A GS+ V LP    LG ++I + +  +  +LPKR+ V G G IGLELG A  +LGV+V +      I+ G  + +    A+A+    L + L     +   ++  V V  +  GE+    A+ +L AVGR+P  +   LE++ +D + R V V D    +TS+ +++  GD + +  L H A  QG++  +       + +G RR     +   V FT P++   GL   Q  A+    + ++    F   GR+  +  N+G +R+ A +     +G + VG A   L+   A + +M   +  +      HP + E ++ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|11132261|sp|P57303.1|DLDH_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate and 2-oxoglutarate dehydrogenases complexes [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57303</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>1.53095e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>469</Hsp_align-len>
+      <Hsp_qseq>KKIQADIVVIGGGTAGM-GAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRI---MGSAKFIDEHTVQI---DDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEELKLHLDA---KTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIA-----GDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGL</Hsp_qseq>
+      <Hsp_hseq>KKIYTQVVVIGSGPAGYSAAFRCADLGLDTVLIERYDKLGGVCLNVGCIPSKTLLHIAKVIKEAKELHKTGVSFNKPDIDI------KKIKNWKQHIVNKLTDGLSSMRKKRKIRIFQGHAIFETDKSLCVTNTEDKFTIFFDNAIIATGSKPIKIPSIPHDDIRIWDSTDALSLKKIPNNFLIIGSGIIGLEMATIYSALGSKVDIIDRFNHFLPVIDEDISSIYKKSINQQFNLMLNTHIDKVEVKKDALIVDMIH--ENIPKKNILYDAVLVAIGRTPNIDSLGLDRIGLKINNFGFIQVNNQL--KTNIPHIYAIGDVAGTPMLAHKGVHEGHIAAEVISGKNHYFEPKV-------IPSIAYTDPEIAWVGL--SEKEAKQENINYEVAIFPWNASGRAIASNCSIGKTKLIFNKQNNKIIGGSIVGSNAGELIGEVGLAIEMGCDAEDIALTIHAHPTLSESI</Hsp_hseq>
+      <Hsp_midline>KKI   +VVIG G AG   AFR A L  D V +   +  G  C  VGC+PSK L+  A+    A      GV  +K  I +      +++K+ +   V  +   +      ++I    G A F  + ++ +   +D   I   + +IATGS+P+ +P       R+  + D  S   +P    + G G+IGLE+      LG KV+I         + D  +S   K    ++  L L+    K EVK DA     +H  ++  K   + + +L A+GR PN+D++GL+ I +  +  G + V + L  +T+IPHI+  GD +    L H+   +G IA     G N    P +          + +T P+I +VGL  ++  A+ +   + +    +   GR+     + G  +L   K   + IG  IVG  A  L   +  A +M      +      HP + E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|399391|sp|P31046.1|DLDH3_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase 3; AltName: Full=Dihydrolipoamide dehydrogenase 3; Short=LPD-3 [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P31046</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>1.54318e-35</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>462</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>NVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRI-----MGSAKFIDEHTVQIDDHIQIA--AKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFG-LGGIIGGISDPVVSDEAKAVFGEELKLHLDAK-TEVKLDADG-NVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDAD</Hsp_qseq>
+      <Hsp_hseq>STLGGTCLNVGCMPSKALLHASEL-YEAASGDEFA-HL---GIEVKPTLNLAQMMKQKDESVTGLTKGIEYLFRKNKVDWIKGWGRLDGVGKVVVKAEDGSETALQAKDIVIATGSEPTPLPGVTIDNQRIIDSTGALSLPQVPKHLVVIGAGVIGLELGSVWRRLGSQVTVIEYLDRICPGTDTETAKTLQKALAKQGMVFKLGSKVTQATASADGVSLVLEPAAGGTAESLQADYVLVAIGRRPYTKGLNLESVGLETDKRGMLAQR--TPPTSVPGVWVIGDVTSGPMLAHKAEDEAVACIERIAGKPHEVNYNL---IPGVIYTRPELATVGKTEEQLKAEGRA--YKVGKFPFTANSRAKINHETEGFAKVIADAETDEVLGVHLVGPSVSEMIGEFCVAMEFSASAEDIALTCHPHPTRSEALRQAAMNVD</Hsp_hseq>
+      <Hsp_midline>+  G TC  VGCMPSK L+ A+E  + A   D F  HL    I V     + ++  ++D  V  +   +E      ++      G    + +  V+ +D  + A  AK  VIATGS P  LP       R+I +    S   +PK + V G GVIGLELG    RLG +V +   L  I  G          KA+  + +   L +K T+    ADG ++ +     G      A+Y+L A+GRRP    + LE++ ++ D RG+      T  TS+P +++ GD ++   L H+A D+     +  AG+   +   L     GV++T P++  VG    Q+ A+ +A  + +G+  F    R+++    +G  ++ A+  T   +G  +VGP+   +      A +   +   +      HP   E LR A  + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|6014978|sp|O18480.1|DLDH_MANSE</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 [Manduca sexta]</Hit_def>
+  <Hit_accession>O18480</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>2.32975e-35</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>467</Hsp_align-len>
+      <Hsp_qseq>ADIVVIGGGTAG-MGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQIDDHI---QIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGIS-DPVVSDEAKAVFGEELKLHLDAK--------TEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>ADLVVIGAGPGGYVAAIKAAQLGMKVVSVEKEPSLGGTCLNVGCIPSKALLHNTHLYHMAKH-DFKHRGIETGEVKFNFKAMMDYKVNAVKALTGGIAMLFQKNKV-KLVRGAGTIVAPNKVEVKGEKGVETVNTKNILIATGSEVTPFPGVTFDEKQIITSTGALSLESVPKKMLVIGAGVIGLELGSVYQRLGADVTAIEFLGSIGGIGIDMEVSKDYRILAKQGMKFKLETKVLGVKKEGSTVKVE---DVSIEGAKGGNKETMDCDVVLISIGRRPYTKDLGLDKVGIALDDRGRVPVNNKF--QTTVPGIYAIGDVIHGPMLAHKAEDEGIVCVEGIKGMP---VHFNYDAIPSVIYTSPEVGWV--RKTEEDLKKEGKAYKVRKFPFLANSRAKTNGEPDGFVKVLSDKATDVILGTHIIGPGGGELINEAVLAQEYGAAAEDVARVCHAHPTCAEALREA</Hsp_hseq>
+      <Hsp_midline>AD+VVIG G  G + A + A+L    V + +    G TC  VGC+PSK L+      H A H D     ++   +  N + +M    +      G +    ++    K + G+   +  + V++        +  K+ +IATGS     P       ++I +    S +++PK++ V G GVIGLELG    RLG  V      G IGGI  D  VS + + +  + +K  L+ K        + VK++   +V +   + G K     + +L ++GRRP   ++GL+ + I  D RG VPV +    QT++P I+  GD  +   L H+A D+G +  +     P          I  V++TSP++G+V  +  +   + +   + + +  F    R++      G +++ ++KAT   +G  I+GP    L +    A +       +  +   HP   E LR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|6014975|sp|P95596.1|DLDH_RHOCA</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate and 2-oxoglutarate dehydrogenases complexes [Rhodobacter capsulatus]</Hit_def>
+  <Hit_accession>P95596</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>3.63173e-35</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>446</Hsp_align-len>
+      <Hsp_qseq>AFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEW---PADKRIMGSAKFIDE-HTVQIDDHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFG-LGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHW--EQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQG-KIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>AIRCAQLGLKTACVEGRGALGGTCLNVGCIPSKALLHATHELHE-VHENFEKMGLMGAKVKVDWAKIDGNTKGIEFLFKKNKVTYLRGWGSIPAP----GQVKVGDEVHT----------AKNIVIATGSESSGLPGIEIDEQTVVTSTGALSLAKVPKSMVVIGAGVIGLELGSVYARLGAEVTVVEYLDAITPGMDAEVAKGLQRILTRQGLKFVLGAAVQGVDKAKGKNTVRYTLRKDESAHAIEAEVVLVATGRKPFTKGLGLEALGVEMLPRGQVKADS-HWATNVPGLYAIGDAIVGPMLAHKAEDEGMAVAEVIAGKHGHVNYDV---IPGVIYTTPEVAAVG--KTEDALKQEGRAYKVGKFSFMGNGRAKAVFQAEGFVKILADAATDRILGAHIIGPSAGDMIHEICVAMEFGASAQDLALTCHAHPTYSEAVREA</Hsp_hseq>
+      <Hsp_midline>A R A+L      +      G TC  VGC+PSK L+ A    H  +H +   + L    + V+  ++    K     F    VT +  W   PA     G  K  DE HT          AK+ VIATGS    LP  +     ++ +    S   +PK + V G GVIGLELG    RLG +V +   L  I  G+   V     + +  + LK  L A  +    A G   V +   +D       AE +L A GR+P    +GLE + ++   RG   AD     T++P ++  GDA     L H+A D+G  +A   AG++ ++   +     GV++T+P++  VG    + A + +   + +G+ SF   GR++ +   +G +++ A+ AT R +GA I+GP+A  + H +  A +   +   +      HP   E +R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|30179805|sp|P17239.2|MERA_ACIFR</Hit_id>
+  <Hit_def>RecName: Full=Mercuric reductase; AltName: Full=Hg(II) reductase [Acidithiobacillus ferrooxidans]</Hit_def>
+  <Hit_accession>P17239</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>1.38681e-34</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>531</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>IVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPF--GVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQIDDHIQIAAKSFV------IATGSRPVI--------LPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVF---GEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>IAVIGSGGAAMACALKAVERGARVTLIERSTIGGTCVNIGCVPSKIMIRAAHI-AHLRRESPFDGGIQAVAPTIQRTALLVQQQARVDELRHAKYEGI-LDGNPAITVLRGEARFKDSRSVVV--HLNDGGERVVMFDRCLVATGASPAVPPIPGLKDTPYWTS--------TEGLVSESIPERLAVIGSSVVALELAQAFARLGSHVTILARGTLFLR-EDPAIGEAITAAFRAEGIEVLEHTQA-SQVAY-ADGEFVLATGH----GELRADKLLVATGRAPNTRRLNLEAAGVAINAQGAIVIDQ-GMRTNSPNIYAAGDCTDQPQFVYVAAAAGTRAAIN---MMGGSAALDLTAMPAVVFTDPQVATVG--YSGAEAHRDGIETDSRTLTLDNVPRALANFNTRGFIKLVAEVGSGRLIGVQVVAPEAGELIQTAALAIRNRMTVQELADQLFPYLTMVEGLKLA</Hsp_hseq>
+      <Hsp_midline>I VIG G A M     A      V LIE +  G TC  +GC+PSK++I AA    H     PF  G+     +I      V ++ + +  R   +    ++  PA   + G A+F D  +V +  H+    +  V      +ATG+ P +         P W S         +    +++P+R+AV G  V+ LEL QA  RLG  V I   G +     DP + +   A F   G E+  H  A ++V   ADG   +        G   A+ +L A GR PN   + LE   +  +A+G  V D   M+T+ P+I+ AGD ++Q   ++ AA  G  A  N        + L  + +  VVFT PQ+  VG  Y+   A     E     ++  N  R+      +G ++L AE  +GR IG ++V P A  L    A A + +MTV ++ D  F +  + EGL+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81541333|sp|Q9I3D1.1|DLDH2_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of 2-oxoglutarate dehydrogenase complex; AltName: Full=Glycine oxidation system L-factor; AltName: Full=LPD-GLC [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9I3D1</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>4.95754e-34</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAG-MGAFRNARLHSDNVYLIENNV-------FGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVH-LDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQI---DDHIQI-AAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIF-GLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHW-EQDGE-KGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>DVVVIGAGPGGYVAAIRAAQLGLKTA-CIEKYIGKEGKVALGGTCLNVGCIPSKALLDSSYKYHEA--KEAFKVHGIEAKGVTIDVPAMVARKANIVKNLTGGIAT-LFKANGVTSFEGHGKLLANKQVEVTGLDGKTQVLEAENVIIASGSRPVEIPPAPLTDDIIVDSTGALEFQAVPKKLGVIGAGVIGLELGSVWARLGAEVTVLEALDKFLPAADEQIAKEALKVLTKQGLNIRLGARVTASEVKKKQVTVTFTDANGEQKETF--DKLIVAVGRRPVTTDLLAADSGVTLDERGFIYVDD-HCKTSVPGVFAIGDVVRGAMLAHKASEEGVMVAERIAGHKAQMNYDLIPS---VIYTHPEIAWVGKTEQTLKA--EGVEVNVGTFPFAASGRAMAANDTTGLVKVIADAKTDRVLGVHVIGPSAAELVQQGAIGMEFGTSAEDLGMMVFSHPTLSEALHEA</Hsp_hseq>
+      <Hsp_midline>D+VVIG G  G + A R A+L       IE  +        G TC  VGC+PSK L+ ++   H A   + F VH ++   + ++   ++ R  +      G + T + +        G  K +    V++   D   Q+  A++ +IA+GSRPV +P      D ++ +     +  +PK++ V G GVIGLELG    RLG +V +   L   +    + +  +  K +  + L + L A+          V V + + +GE K  F  + ++ AVGRRP   ++   +  +  D RG    D    +TS+P +F  GD      L H+A+++G +  +  AG    +   L  S   V++T P+I +VG     + A  +  E  +G   F   GR+       G +++ A+  T R +G  ++GP+A  L    A   +   +   +  M F HP + E L  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|25090164|sp|Q8K9T7.1|DLDH_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate and 2-oxoglutarate dehydrogenases complexes [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9T7</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>5.77276e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>471</Hsp_align-len>
+      <Hsp_qseq>KKIQADIVVIGGGTAGM-GAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRI---MGSAKFIDEHTVQIDDH---IQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEELKLHLDA---KTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLR-----RSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>QEIQSEVVIIGSGPAGYSAAFRCADLGLETVLIEHQERLGGVCLNVGCIPSKSLLHIAKIIKDASELSESGVFFNKPIIDI------KKINNWKEKIIKKLTTGLSNMGEKRKVRIVQGKALFNTDHSVLVKNKKNDFTIFFKHAIIATGSKPIKIPSLPNEDNRIWNSTDALSLKSIPNRFLIIGGGIIGLEMATIYSALGSKVDIVDRFNAFLPSVDKDITDIYIKSIKKRFKLLLNTHVKSVEKSKDNDLIVKIA-EENSDENVCCYDNILVAIGRSPNVDFLGLEKIGLKLNESGF-IEINQQLKTNISHIYAIGDVTGFPMLAHKAVQQAHIAAE-------VISGKKHYFEPKVIPSVAYTDPEIAWVGL--SEKEAENNDIDYEVSLFPWSASGRAHASNCTLGMTKLIFNKNTNKIIGGSIIGTNASELISEIGLAIEMGSDAEDISLTIHPHPTLSESISLA</Hsp_hseq>
+      <Hsp_midline>++IQ+++V+IG G AG   AFR A L  + V +      G  C  VGC+PSK L+  A+    A      GV  +K  I +      +++ + +++ +  + T +      +++    G A F  +H+V + +      I  K  +IATGS+P+ +P   +  +R+  + D  S  ++P R  + G G+IGLE+      LG KV+I           D  ++D       +  KL L+      E   D D  V++  E++ ++ V   + +L A+GR PNVD +GLE I +  +  G  +     ++T+I HI+  GD +    L H+A  Q  IA +       + SG +     +    V +T P+I +VGL  ++  A+    ++ +    +   GR+       G  +L   K T + IG  I+G  A  L   +  A +M      +      HP + E +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|126988|sp|P00392.1|MERA_PSEAI</Hit_id>
+  <Hit_def>RecName: Full=Mercuric reductase; AltName: Full=Hg(II) reductase [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P00392</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>6.92642e-34</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>472</Hsp_align-len>
+      <Hsp_qseq>IVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERD-----RFVGFVVTDVEEWPADKRIMGSAKFIDEH--TVQIDDHIQ--IAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVF---GEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTI-GVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDADAKLK</Hsp_qseq>
+      <Hsp_hseq>VAVIGSGGAAMAAALKAVEQGAQVTLIERGTIGGTCVNVGCVPSKIMIRAAHIAHLRRES-PFDGGIAATVPTIDRSKLLAQQQARVDELRHAKYEGILGGN----PAITVVHGEARFKDDQSLTVRLNEGGERVVMFDRCLVATGASPAVPPIPGLKESPYWTSTEALASDTIPERLAVIGSSVVALELAQAFARLGSKVTVLARNTLFFR-EDPAIGEAVTAAFRAEGIEVLEHTQASQVAHMDGE------FVLTTTHGELRADKLLVATGRTPNTRSLALDAAGVTVNAQGAIVIDQ-GMRTSNPNIYAAGDCTDQPQFVYVAAAAGTRAAIN---MTGGDAALDLTAMPAVVFTDPQVATVG--YSEAEAHHDGIETDSRTLTLDNVPRALANFDTRGFIKLVIEEGSHRLIGVQAVAPEAGELIQTAALAIRNRMTVQELADQLFPYLTMVEGLKLAAQTFNKDVK</Hsp_hseq>
+      <Hsp_midline>+ VIG G A M A   A      V LIE    G TC  VGC+PSK++I AA   H    + PF   +      ++  +++ + ++  D     ++ G +  +    PA   + G A+F D+   TV++++  +  +     ++ATG+ P + P           + +  + DT+P+R+AV G  V+ LEL QA  RLG KV +     +     DP + +   A F   G E+  H  A     +D +      +      G   A+ +L A GR PN  ++ L+   +  +A+G  V D   M+TS P+I+ AGD ++Q   ++ AA  G  A  N        + L  + +  VVFT PQ+  VG  Y++  A +   E     ++  N  R+      +G ++L  E+ + R IG + V P A  L    A A + +MTV ++ D  F +  + EGL+ A +  +  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|6166121|sp|P90597.1|DLDH_TRYCR</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase [Trypanosoma cruzi]</Hit_def>
+  <Hit_accession>P90597</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>7.87498e-34</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>AFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTD--PFGVHLDKDSIVVNGEEVMR---RVKSERDRFVGFVVTDVEEWPADKRIM---GSAKFIDEHTVQID----DHIQIAAKSFVIATGSRPVILPQWQSLGDRLIINDD-VFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHWEQDGEKG---VFVAEYMLAAVGRRPNVDNIGLENINIDKDARG-VPVADPLTMQTSIPHIFIAGDASNQLPLL-HEAADQGKIAGD-NAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTALRDADAK</Hsp_qseq>
+      <Hsp_hseq>SIKAAQLGMKTACVEKRGALGGTCLNVGCIPSKALLHATHVYHDA-HANFARYGL--------MGGEGVTMDSAKMQQQKERAVKGLTGGVEYLFKKNKVTYYKGEGSFETAHSIRVNGLDGKQEMFETKKTIIATGSEPTELP-FLPFDEKVVLSSTGALALPRVPKTMVVIGGGVIGLELGSVWARLGAKVTVVEFAPRCAPTLDEDVTNALVGALAKNEKMKFMTSTKVVGGTNNGDSVSLEVEGKNGKRETVTCEALLVSVGRRPFTGGLGLDKINVAKNERGFVKIGDHF--ETSIPDVYAIGDVVDKGPMLAHKAEDEGVACAEILAGKPGHVNYGVIPA---VIYTMPEVASVGKSEEELKKEGVA--YKVGKFPFNANSRAKAVSTEDGFVKVLVDKATDRILGVHIVCTTAGELIGEACLAMEYGASSEDVGRTCHAHPTMSEALKEACMALVAK</Hsp_hseq>
+      <Hsp_midline>+ + A+L      + +    G TC  VGC+PSK L+ A    H A H +   +G+        + GE V     +++ +++R V  +   VE      ++    G   F   H+++++           K  +IATGS P  LP +    ++++++     +   +PK + V G GVIGLELG    RLG KV +           D  V++       +  K+     T+V    +    V  E +G+ G       E +L +VGRRP    +GL+ IN+ K+ RG V + D    +TSIP ++  GD  ++ P+L H+A D+G    +  AG+  ++  G+  +   V++T P++  VG    ++  +  A  + +G+  F    R++ +    G +++  +KAT R +G  IV   A  L      A +   +   +      HP + E L+ A     AK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|118676|sp|P14218.3|DLDH_PSEFL</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of 2-oxoglutarate dehydrogenase complex [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>P14218</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>8.4551e-34</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAG-MGAFRNARLHSDNVYLIENNV-------FGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVH-LDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQI---DDHIQI-AAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIF-GLGGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHW-EQDGE-KGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>DVVVIGAGPGGYVAAIRAAQLGLKTA-CIEKYIGKEGKVALGGTCLNVGCIPSKALLDSSYKYHEA--KEAFKVHGIEAKGVTIDVPAMVARKANIVKNLTGGIAT-LFKANGVTSFEGHGKLLANKQVEVTGLDGKTQVLEAENVIIASGSRPVEIPPAPLSDDIIVDSTGALEFQAVPKKLGVIGAGVIGLELGSVWARLGAEVTVLEALDKFLPAADEQIAKEALKVLTKQGLNIRLGARVTASEVKKKQVTVTFTDANGEQKETF--DKLIVAVGRRPVTTDLLAADSGVTLDERGFIYVDD-HCKTSVPGVFAIGDVVRGAMLAHKASEEGVMVAERIAGHKAQMNYDLIPS---VIYTHPEIAWVGKTEQTLKA--EGVEVNVGTFPFAASGRAMAANDTTGLVKVIADAKTDRVLGVHVIGPSAAELVQQGAIGMEFGTSAEDLGMMVFSHPTLSEALHEA</Hsp_hseq>
+      <Hsp_midline>D+VVIG G  G + A R A+L       IE  +        G TC  VGC+PSK L+ ++   H A   + F VH ++   + ++   ++ R  +      G + T + +        G  K +    V++   D   Q+  A++ +IA+GSRPV +P      D ++ +     +  +PK++ V G GVIGLELG    RLG +V +   L   +    + +  +  K +  + L + L A+          V V + + +GE K  F  + ++ AVGRRP   ++   +  +  D RG    D    +TS+P +F  GD      L H+A+++G +  +  AG    +   L  S   V++T P+I +VG     + A  +  E  +G   F   GR+       G +++ A+  T R +G  ++GP+A  L    A   +   +   +  M F HP + E L  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|387942491|sp|D0VWY5.1|GASHR_MARGR</Hit_id>
+  <Hit_def>RecName: Full=Glutathione amide reductase; Short=GAR [Marichromatium gracile]</Hit_def>
+  <Hit_accession>D0VWY5</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.59047e-33</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>465</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVE---EWPADKRIMGSAKFIDEHTVQIDDHIQIAAKSFVIATGSRPVI--LPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDE-AKAVFGEELKLHLD-AKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGK------IAGDNAGR--YPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRT</Hsp_qseq>
+      <Hsp_hseq>DLIAIGGGSGGLAVAEKAAAFGKRVALIESKALGGTCVNVGCVPKKVMWYASHLAEAVRDAPGFGVQAS------GGTLDWPRLVAGRDRYIGAINSFWDGYVERLGITRVDGHARFVDAHTIEVEGQ-RLSADHIVIATGGRPIVPRLPGAE-LG---ITSDGFFALQQQPKRVAIIGAGYIGIELAGLLRSFGSEVTVVALEDRLLFQFDPLLSATLAENMHAQGIETHLEFAVAALERDAQGTTLV--AQDGTR-LEGFDSVIWAVGRAPNTRDLGLEAAGIEVQSNGMVPTDAY-QNTNVPGVYALGDITGRDQLTPVAIAAGRRLAERLFDGQSERKLDYDNIPT--------VVFAHPPLSKVGLSEPE-ARERLGDVLTVYETSFTPMRYALNEHGPKTAMKLVCAGPEQRVVGVHVIGDGADEMLQGFAVAVKMGATKADFDNTVAIHPGSAEELVT</Hsp_hseq>
+      <Hsp_midline>D++ IGGG+ G+     A      V LIE+   G TC  VGC+P K++  A+           FGV          G     R+ + RDR++G + +  +   E     R+ G A+F+D HT++++   +++A   VIATG RP++  LP  + LG   I +D  F+    PKRVA+ G G IG+EL   L   G +V +  L   +    DP++S   A+ +  + ++ HL+ A   ++ DA G   V   QDG + +   + ++ AVGR PN  ++GLE   I+  + G+   D     T++P ++  GD + +  L   A   G+        G +  +  Y NI +        VVF  P +  VGL   + A +   D   + E SF     +      K  M+L       R +G  ++G  A+ +    A A +M  T     +    HP   E L T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|238690525|sp|B5REZ6.1|STHA_SALG2</Hit_id>
+  <Hit_def>RecName: Full=Soluble pyridine nucleotide transhydrogenase; Short=STH; AltName: Full=NAD(P)(+) transhydrogenase [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91]</Hit_def>
+  <Hit_accession>B5REZ6</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.30618e-33</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>472</Hsp_align-len>
+      <Hsp_qseq>DIVVIGGGTAGMGAFRNARLHSDNVYLIE--NNVFGTTCARVGCMPSKLLIAAA----EARHHALHTD-------PFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIMGSAKFIDEHTVQIDDH----IQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGLGGIIGGISDPVVSDEAKAVFGEE-LKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDNAGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMK---MTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>DAVVIGSGPGGEGAAMGLVKQGARVAVIERYHNV-GGGCTHWGTIPSKALRHAVSRIIEFNHNPLYSDHSRLLRSSFADILNHADNVINQQTRMRQGFYERNHC--------------EILQGNAHFIDEHTLALECHDGTVETLTAEKFVIACGSRPYHPNDVDFSHPRIYDSDSILSLHHEPRHVIIYGAGVIGCEYASIFRGMDVKVDLINTRDRLLAFLDQEMSDSLSYHFWNSGVVIRHNEEYEKIEGCDDGVIMHL-KSGKK--LKADCLLYANGRTGNTDSLALENIGLETDSRGQLKVNSM-YQTALPHVYAVGDVIGYPSLASAAYDQGRIAAQALVKGEATAHLIEDIPTG-IYTIPEISSVGKTEQQLTAMKVPYE--VGRAQFKHLARAQIVGMNVGTLKILFHRETKEILGIHCFGERAAEIIHIGQAIMEQKGGGNTIEYFVNTTFNYPTMAEAYRVA</Hsp_hseq>
+      <Hsp_midline>D VVIG G  G GA          V +IE  +NV G  C   G +PSK L  A     E  H+ L++D        F   L+    V+N +  MR+   ER+                + + G+A FIDEHT+ ++ H      + A+ FVIA GSRP           R+  +D + S    P+ V ++G GVIG E       + VKV++      +    D  +SD     F    + +  + + E     D  V +H  + G+K    A+ +L A GR  N D++ LENI ++ D+RG    + +  QT++PH++  GD      L   A DQG+IA     +       +     G ++T P+I  VG    Q+ A     E  +G   FK+  R++++ +N G +++   + T   +G    G  A  + H+     + K    T+   ++  F +P + E  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1169352|sp|P43784.2|DLDH_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Dihydrolipoyl dehydrogenase; AltName: Full=Dihydrolipoamide dehydrogenase; AltName: Full=E3 component of pyruvate and 2-oxoglutarate dehydrogenases complexes [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43784</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>4.50546e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>KKIQADIVVIGGGTAGM-GAFRNARLHSDNVYLIENNVFGTTCARVGCMPSKLLIAAAEARHHALHTDPFGVHLDKDSIVVNGEEVMRRVKSERDRFVGFVVTDVEEWPADKRIM---GSAKFIDEHTVQIDDH----IQIAAKSFVIATGSRPVILPQWQSLGDRLIINDDVFSWDTLPKRVAVFGPGVIGLELGQALHRLGVKVEIFGL-GGIIGGISDPVVSDEAKAVFGEELKLHLDAKTEVKLDADGNVEVHWEQDGEKGVFVAEYMLAAVGRRPNVDNIGLENINIDKDARGVPVADPLTMQTSIPHIFIAGDASNQLPLLHEAADQGKIAGDN-AGRYPNIGSGLRRSTIGVVFTSPQIGFVGLKYAQVAAQYQADEFVIGEVSFKNQGRSRVMLVNKGHMRLYAEKATGRFIGAEIVGPAAEHLAHLLAWAHQMKMTVPQMLDMPFYHPVIEEGLRTA</Hsp_qseq>
+      <Hsp_hseq>KEIKTQVVVLGAGPAGYSAAFRCADLGLETVIVERYSTLGGVCLNVGCIPSKALLHVAKVIEEAKHANKNGIYFSEPRIELD------EVRAGKEAVVAKLTGGLAGMAKARKVTVVEGLATFTDSHTLVARDRDGNPTTVKFDNAIIAAGSRPVQLPFIPHEDPRIWDSTDALKLKEVPKKLLIMGGGIIGLEMGTVYNALGSEVEVVEMFDQVIPAADKDVVGIYTKQV-EKKFKLMLETKVTAVEAKDDGIYVSMEGKACNDTKRYDAVLVAIGRVPNGKLIDAGKAGVEVDDRGFIHVDK-QMRTNVPHIYAIGDIVGQPMLAHKGVHEGHVAAEVIAGQKHYFDPKVIPS---IAYTEPEVAWVG--KTEKECKQEGLNYEVAKFPWAASGRAIASECSEGMTKLIFDKDTHRVLGGAIVGSNGGELLGEIGLAIEMGCDAEDIALTIHAHPTLHESVGLA</Hsp_hseq>
+      <Hsp_midline>K+I+  +VV+G G AG   AFR A L  + V +   +  G  C  VGC+PSK L+  A+    A H +  G++  +  I ++       V++ ++  V  +   +      +++    G A F D HT+   D       +   + +IA GSRPV LP       R+  + D      +PK++ + G G+IGLE+G   + LG +VE+  +   +I      VV    K V  ++ KL L+ K       D  + V  E          + +L A+GR PN   I      ++ D RG    D   M+T++PHI+  GD   Q  L H+   +G +A +  AG+       +  S   + +T P++ +VG    +   + +   + + +  +   GR+     ++G  +L  +K T R +G  IVG     L   +  A +M      +      HP + E +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

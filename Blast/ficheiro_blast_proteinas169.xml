@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>36561</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>91</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>36561</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>91</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|73621762|sp|Q5F861.1|RL31B_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F861</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.13193e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_qseq>
+      <Hsp_hseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_hseq>
+      <Hsp_midline>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|226705184|sp|B4RL59.1|RL31B_NEIG2</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>B4RL59</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.01396e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_qseq>
+      <Hsp_hseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYPLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_hseq>
+      <Hsp_midline>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEY LFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|17433162|sp|Q9JZQ4.1|RL31B_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Neisseria meningitidis MC58] &gt;gi|166230224|sp|A1KTL1.1|RL31B_NEIMF RecName: Full=50S ribosomal protein L31 type B [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>Q9JZQ4</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>4.70345e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_qseq>
+      <Hsp_hseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAETHGKTMVWTDGKEYPLFSLDTSSASHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_hseq>
+      <Hsp_midline>MKPNIHPDNYRTVLFFDSSANEGWLIRSCA THGKTMVWTDGKEY LFSLDTSS+SHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|189042642|sp|A9M4E1.1|RL31B_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9M4E1</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>9.76361e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_qseq>
+      <Hsp_hseq>MKPNIHPDNYRTVLFFDSSANEGWMIRSCAETHGKTMVWTDGKEYPLFSLDTSSASHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_hseq>
+      <Hsp_midline>MKPNIHPDNYRTVLFFDSSANEGW+IRSCA THGKTMVWTDGKEY LFSLDTSS+SHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|17433161|sp|Q9JUT8.1|RL31B_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JUT8</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>3.85553e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_qseq>
+      <Hsp_hseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAETHGKTMVWTDGKEYPLFSLDTSSASHPVYTGKQRNVNTEGHASKFNQRFQSVMSSFRKDK</Hsp_hseq>
+      <Hsp_midline>MKPNIHPDNYRTVLFFDSSANEGWLIRSCA THGKTMVWTDGKEY LFSLDTSS+SHPVYTGKQRNVNTEG ASKFNQRFQSVMSSFRKDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|254801725|sp|B8F7K7.1|RL31B_HAEPS</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Haemophilus parasuis SH0165]</Hit_def>
+  <Hit_accession>B8F7K7</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>2.06335e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRK</Hsp_qseq>
+      <Hsp_hseq>MKKGIHPENYREVLFYDGSVQQGWIIRSCAATN-KTMVWEDGKEYPLYPLDTSSASHPVYTGKRREANTEGRASKFNERFKGISSLTKK</Hsp_hseq>
+      <Hsp_midline>MK  IHP+NYR VLF+D S  +GW+IRSCA T+ KTMVW DGKEY L+ LDTSS+SHPVYTGK+R  NTEGRASKFN+RF+ + S  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166230204|sp|A3N3B7.1|RL31B_ACTP2</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Actinobacillus pleuropneumoniae serovar 5b str. L20] &gt;gi|226705144|sp|B3GZ73.1|RL31B_ACTP7 RecName: Full=50S ribosomal protein L31 type B [Actinobacillus pleuropneumoniae serovar 7 str. AP76] &gt;gi|226705145|sp|B0BSZ3.1|RL31B_ACTPJ RecName: Full=50S ribosomal protein L31 type B [Actinobacillus pleuropneumoniae serovar 3 str. JL03]</Hit_def>
+  <Hit_accession>A3N3B7</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.01759e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSV</Hsp_qseq>
+      <Hsp_hseq>MKKGIHPENYREVLFYDGSVQMGWIIRSCAATT-KTMVWEDGKEYPFYPLDTSSASHPVYTGKRREVNTEGRASKFNERFKGM</Hsp_hseq>
+      <Hsp_midline>MK  IHP+NYR VLF+D S   GW+IRSCA T  KTMVW DGKEY  + LDTSS+SHPVYTGK+R VNTEGRASKFN+RF+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|39931808|sp|Q7VKH9.1|RL31B_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VKH9</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>5.1148e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMS</Hsp_qseq>
+      <Hsp_hseq>MKKGIHPENYREVLFYDASAQMGWVIRSCVATN-KSMMWEDGKEYPFYPLDTSSASHPVYTGKRREANTEGRASKFNERFKGMAS</Hsp_hseq>
+      <Hsp_midline>MK  IHP+NYR VLF+D+SA  GW+IRSC  T+ K+M+W DGKEY  + LDTSS+SHPVYTGK+R  NTEGRASKFN+RF+ + S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|17433159|sp|Q9CP41.1|RL31B_PASMU</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CP41</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.06484e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKKGIHPENYRTVLFYDSNAKQGFLIRSCART-TTTMKWEDGHEYPVFMCDTSSASHPYYTGKTRQIANEGRASDFVNRY</Hsp_hseq>
+      <Hsp_midline>MK  IHP+NYRTVLF+DS+A +G+LIRSCA T   TM W DG EY +F  DTSS+SHP YTGK R +  EGRAS F  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|31076896|sp|Q87MC5.1|RL31B_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87MC5</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.31543e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPD-YRPVVFHDTSVDEYFVVGSTLKT-DRTIEWKDGKTYPYFTLDVSSSSHPFYTGKQRVVQAEGRIANFNRRF</Hsp_hseq>
+      <Hsp_midline>MKP IHPD YR V+F D+S +E +++ S   T  +T+ W DGK Y  F+LD SSSSHP YTGKQR V  EGR + FN+RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166230226|sp|A6V1I9.1|RL31B_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6V1I9</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>7.47825e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVM</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPD-YRPVLFHDTSADVFFLIGSTAETD-KTHTHTDGKTYPYVTLDVSSASHPVYTGEQRKTKSEGRVAGFNKRFAGFV</Hsp_hseq>
+      <Hsp_midline>MKP IHPD YR VLF D+SA+  +LI S A T  KT   TDGK Y   +LD SS+SHPVYTG+QR   +EGR + FN+RF   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|148878577|sp|Q4K706.1|RL31B_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4K706</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.11823e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMS</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPD-YRTVLFHDTAADVYFLIGSTVDTD-RSHTYSDGKTYPYVALDVSSASHPVYTGQQRKTQSEGRIAGFNKRFASFGS</Hsp_hseq>
+      <Hsp_midline>MKP IHPD YRTVLF D++A+  +LI S   T  ++  ++DGK Y   +LD SS+SHPVYTG+QR   +EGR + FN+RF S  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|166230232|sp|A7N1X4.1|RL31B_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7N1X4</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>1.85461e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKDK</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPE-YRPVVFHDTSVDEYFVVGSTLQT-DRTIEWKDGKTYPYFTLDVSSESHPFYTGKQRVVQAEGRIANFNRRF----GQFSKDK</Hsp_hseq>
+      <Hsp_midline>MKP IHP+ YR V+F D+S +E +++ S   T  +T+ W DGK Y  F+LD SS SHP YTGKQR V  EGR + FN+RF      F KDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|226705146|sp|B6EHZ6.1|RL31B_ALISL</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Aliivibrio salmonicida LFI1238]</Hit_def>
+  <Hit_accession>B6EHZ6</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>1.99361e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSV</Hsp_qseq>
+      <Hsp_hseq>MKEGIHP-TYRKVLFHDTSVNKYFLIGSTLQTD-RTMKWEDGKEYPYMTLDISSESHPFYTGEQRVVSTEGRVANFNRRFGAL</Hsp_hseq>
+      <Hsp_midline>MK  IHP  YR VLF D+S N+ +LI S   T  +TM W DGKEY   +LD SS SHP YTG+QR V+TEGR + FN+RF ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|81307976|sp|Q4ZPH2.1|RL31B_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZPH2</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>2.03844e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKD</Hsp_qseq>
+      <Hsp_hseq>MKPDIHP-QYRTVLFHDTAADAYFLIGSTVDT-DRTQQHTDGTTYPYVALDVSSASHPMYTGQQRKATTEGRIAGFNKRFATFGSAGKKE</Hsp_hseq>
+      <Hsp_midline>MKP+IHP  YRTVLF D++A+  +LI S   T  +T   TDG  Y   +LD SS+SHP+YTG+QR   TEGR + FN+RF +  S+ +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|17433160|sp|Q9HY25.1|RL31B_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Pseudomonas aeruginosa PAO1] &gt;gi|122260741|sp|Q02R73.1|RL31B_PSEAB RecName: Full=50S ribosomal protein L31 type B [Pseudomonas aeruginosa UCBPP-PA14] &gt;gi|226705188|sp|B7V9F6.1|RL31B_PSEA8 RecName: Full=50S ribosomal protein L31 type B [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>Q9HY25</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>2.82433e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVM</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPE-YRPVLFHDTSADVYFLIGSTAETD-KTHTHTDGKTYPYVTLDVSSASHPVYTGEQRKTKSEGRVAGFNKRFAGFV</Hsp_hseq>
+      <Hsp_midline>MKP IHP+ YR VLF D+SA+  +LI S A T  KT   TDGK Y   +LD SS+SHPVYTG+QR   +EGR + FN+RF   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166230227|sp|A4VKH1.1|RL31B_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VKH1</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>5.11813e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPD-YRPVLFHDTAADVYFLIGSTAET-TRTHQHTDGNTYPYIALDVSSASHPIYTGKQRKTTTEGRIAGFNKRF</Hsp_hseq>
+      <Hsp_midline>MKP IHPD YR VLF D++A+  +LI S A T  +T   TDG  Y   +LD SS+SHP+YTGKQR   TEGR + FN+RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|31076909|sp|Q87XJ5.1|RL31B_PSESM</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q87XJ5</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.04778e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKD</Hsp_qseq>
+      <Hsp_hseq>MKPDIHP-AYRTVLFHDTAADAYFLIGSTVDT-DRTQQHTDGTTYPYVALDVSSASHPMYTGQQRKTTTEGRIAGFNKRFASFGSGSNKE</Hsp_hseq>
+      <Hsp_midline>MKP+IHP  YRTVLF D++A+  +LI S   T  +T   TDG  Y   +LD SS+SHP+YTG+QR   TEGR + FN+RF S  S   K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|259491836|sp|C3K860.1|RL31B_PSEFS</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Pseudomonas fluorescens SBW25]</Hit_def>
+  <Hit_accession>C3K860</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>2.72243e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRK</Hsp_qseq>
+      <Hsp_hseq>MKAGIHPD-YRTVLFHDTAADVFFLIGSTADS-DRTHVHSDGNTYPYIPLDVSSASHPIYTGQQRKTQVEGRIAGFNKRFASFGSGAKK</Hsp_hseq>
+      <Hsp_midline>MK  IHPD YRTVLF D++A+  +LI S A +  +T V +DG  Y    LD SS+SHP+YTG+QR    EGR + FN+RF S  S  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|254801739|sp|B7VIT0.1|RL31B_VIBSL</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Vibrio tasmaniensis LGP32]</Hit_def>
+  <Hit_accession>B7VIT0</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>5.5796e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPNIHPD-YRPVVFHDTSVDEYFLIGSTLKT-DRTIEWEDGNTYPYFTIEVSSKSHPFYTGKQRVLHKEGRVANFTRRF</Hsp_hseq>
+      <Hsp_midline>MKPNIHPD YR V+F D+S +E +LI S   T  +T+ W DG  Y  F+++ SS SHP YTGKQR ++ EGR + F +RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|122399503|sp|Q1GYX9.1|RL31B_METFK</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1GYX9</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>2.95088e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPE-YREVVFQDIGADFSFLTRSTIAAK-ETIKWTDGKEYPLVKIEVSSQSHPFYTGKQKILDTAGRVEKFRQKY</Hsp_hseq>
+      <Hsp_midline>MKP IHP+ YR V+F D  A+  +L RS      +T+ WTDGKEY L  ++ SS SHP YTGKQ+ ++T GR  KF Q++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|166230205|sp|A0KJJ1.1|RL31B_AERHH</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Aeromonas hydrophila subsp. hydrophila ATCC 7966]</Hit_def>
+  <Hit_accession>A0KJJ1</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>4.45955e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MRPDIHPE-YRQVLFHDLTANTYFLVGSTLKTD-RTKLWEDGNTYPYVTLDVSSASHPFYTGKQKQVSKEGQVARFGQRF</Hsp_hseq>
+      <Hsp_midline>M+P+IHP+ YR VLF D +AN  +L+ S   T  +T +W DG  Y   +LD SS+SHP YTGKQ+ V+ EG+ ++F QRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|166230206|sp|A4SNF0.1|RL31B_AERS4</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Aeromonas salmonicida subsp. salmonicida A449]</Hit_def>
+  <Hit_accession>A4SNF0</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.98018e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MRPNIHPE-YRQVLFHDLTANTYFLVGSTLKTD-RTKQWEDGNTYPYVTLDVSSASHPFYTGKQKQIGKEGQVARFGQRF</Hsp_hseq>
+      <Hsp_midline>M+PNIHP+ YR VLF D +AN  +L+ S   T  +T  W DG  Y   +LD SS+SHP YTGKQ+ +  EG+ ++F QRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|39931704|sp|Q7MIE7.1|RL31B_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MIE7</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>9.06207e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPE-YRKVVFHDTSVDHYFVVGSTLQT-DRTIEWEDGQTYPYFTIEVSSESHPFYTGKQRVVQKEGRVANFNRRF</Hsp_hseq>
+      <Hsp_midline>MKP IHP+ YR V+F D+S +  +++ S   T  +T+ W DG+ Y  F+++ SS SHP YTGKQR V  EGR + FN+RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|31076947|sp|Q8DBH7.1|RL31B_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8DBH7</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>9.45714e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPE-YRKVVFHDTSVDHYFVVGSTLQT-DRTIEWEDGQTYPYFTIEVSSESHPFYTGKQRVVQKEGRVANFNRRF</Hsp_hseq>
+      <Hsp_midline>MKP IHP+ YR V+F D+S +  +++ S   T  +T+ W DG+ Y  F+++ SS SHP YTGKQR V  EGR + FN+RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|226705177|sp|B2GHC3.1|RL31B_KOCRD</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Kocuria rhizophila DC2201]</Hit_def>
+  <Hit_accession>B2GHC3</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.75242e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKADIHPD-YHPVLFRDLASGKVILTRSTA-TSSKTETWEDGDEYPIIEVEISSESHPFYTGKQRIMDSAGRVERFNQRF</Hsp_hseq>
+      <Hsp_midline>MK +IHPD Y  VLF D ++ +  L RS A T  KT  W DG EY +  ++ SS SHP YTGKQR +++ GR  +FNQRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123255897|sp|Q1IE31.1|RL31B_PSEE4</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Pseudomonas entomophila L48]</Hit_def>
+  <Hit_accession>Q1IE31</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>2.28773e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKAGIHP-AYRPVLFHDTAADVYFLIGSTVDT-DRTQVHSDGQTYPYVALDVSSASHPVYTGQQRKTTVEGRVAGFNKRF</Hsp_hseq>
+      <Hsp_midline>MK  IHP  YR VLF D++A+  +LI S   T  +T V +DG+ Y   +LD SS+SHPVYTG+QR    EGR + FN+RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|31076885|sp|Q87DD6.1|RL31B_XYLFT</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Xylella fastidiosa Temecula1] &gt;gi|226705206|sp|B2IAE5.1|RL31B_XYLF2 RecName: Full=50S ribosomal protein L31 type B [Xylella fastidiosa M23]</Hit_def>
+  <Hit_accession>Q87DD6</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>3.40268e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPEIHP-IYREVVFHDVTSNFKFLTRSTMGT-KETTLWEDGLEYPLVKVEISSASHPFYTGKHKLVDTSGRIDKFKKRY</Hsp_hseq>
+      <Hsp_midline>MKP IHP  YR V+F D ++N  +L RS  GT  +T +W DG EY L  ++ SS+SHP YTGK + V+T GR  KF +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|17433254|sp|Q9PD45.1|RL31B_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Xylella fastidiosa 9a5c] &gt;gi|226705207|sp|B0U6Z3.1|RL31B_XYLFM RecName: Full=50S ribosomal protein L31 type B [Xylella fastidiosa M12]</Hit_def>
+  <Hit_accession>Q9PD45</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>6.52078e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPEIHP-IYREVVFHDVTSNFKFLTRSTMST-KETTLWEDGREYPLVKVEISSASHPFYTGKHKLVDTSGRIDKFKKRY</Hsp_hseq>
+      <Hsp_midline>MKP IHP  YR V+F D ++N  +L RS   T  +T +W DG+EY L  ++ SS+SHP YTGK + V+T GR  KF +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|226705185|sp|B1XU55.1|RL31B_POLNS</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Polynucleobacter necessarius subsp. necessarius STIR1]</Hit_def>
+  <Hit_accession>B1XU55</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.0829e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQS</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPE-YREIVFVDVSNNFSFKTRSTMATK-ETIKWEDGNEYPLAKIETSSESHPFYTGTQKIMDTAGRVEKFRQKFGS</Hsp_hseq>
+      <Hsp_midline>MKP IHP+ YR ++F D S N  +  RS   T  +T+ W DG EY L  ++TSS SHP YTG Q+ ++T GR  KF Q+F S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|22096023|sp|Q8Y062.1|RL31B_RALSO</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y062</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.08678e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQS</Hsp_qseq>
+      <Hsp_hseq>MKENTHP-NYREVVFQDMSSDFSFVTRSTIQTK-ESIVWKDGKEYPLAKIEVSSESHPFYTGTQKIMDTAGRVEKFRQKFGS</Hsp_hseq>
+      <Hsp_midline>MK N HP NYR V+F D S++  ++ RS   T  +++VW DGKEY L  ++ SS SHP YTG Q+ ++T GR  KF Q+F S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|166230233|sp|A1JNH5.1|RL31B_YERE8</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JNH5</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>1.3862e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMS</Hsp_qseq>
+      <Hsp_hseq>MKPGIHP-NYRTVVFHDTSADTYFTVGSTIAT--ARTIERDGQTYPYVTLDISSASHPYYTGKQKEFSKEGSAARFHQRYGSFLT</Hsp_hseq>
+      <Hsp_midline>MKP IHP NYRTV+F D+SA+  + + S   T     +  DG+ Y   +LD SS+SHP YTGKQ+  + EG A++F+QR+ S ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|118572979|sp|Q4FQE4.2|RL31B_PSYA2</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Psychrobacter arcticus 273-4]</Hit_def>
+  <Hit_accession>Q4FQE4</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>2.85093e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MRKDIHP-NYQEVLFHDTNADVFFLTRSTVKT--KTTREYEGSEYPYYPLDISSASHPFYTGEQRKTSTEGRVASFNKRF</Hsp_hseq>
+      <Hsp_midline>M+ +IHP NY+ VLF D++A+  +L RS   T  KT    +G EY  + LD SS+SHP YTG+QR  +TEGR + FN+RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|254801722|sp|C3PF16.1|RL31B_CORA7</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Corynebacterium aurimucosum ATCC 700975]</Hit_def>
+  <Hit_accession>C3PF16</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>2.92945e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRKD</Hsp_qseq>
+      <Hsp_hseq>MKKDIHPD-YHPVVFKDAGTGHSFLTKSTA-TSDRTVEWEDGNEYPLIVVDVTAESHPFWTGAQRVMDTAGRVEKFNQRFGAMARRKKKN</Hsp_hseq>
+      <Hsp_midline>MK +IHPD Y  V+F D+     +L +S A T  +T+ W DG EY L  +D ++ SHP +TG QR ++T GR  KFNQRF ++    +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|73621755|sp|Q6NIC5.1|RL31B_CORDI</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Corynebacterium diphtheriae NCTC 13129]</Hit_def>
+  <Hit_accession>Q6NIC5</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>3.25397e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSV</Hsp_qseq>
+      <Hsp_hseq>MKKDIHPD-YHPVVFQDAGTGHQFLTKSTA-TSDRTVAWEDGNEYPLIVVDVTSESHPFWTGAQRVMDTAGRVEKFNQRYGAL</Hsp_hseq>
+      <Hsp_midline>MK +IHPD Y  V+F D+     +L +S A T  +T+ W DG EY L  +D +S SHP +TG QR ++T GR  KFNQR+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|17865544|sp|P58472.1|RL31B_YERPE</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Yersinia pestis] &gt;gi|73621776|sp|Q66DR1.1|RL31B_YERPS RecName: Full=50S ribosomal protein L31 type B [Yersinia pseudotuberculosis IP 32953] &gt;gi|124056497|sp|Q1C4N1.1|RL31B_YERPA RecName: Full=50S ribosomal protein L31 type B [Yersinia pestis Antiqua] &gt;gi|124056498|sp|Q1CL42.1|RL31B_YERPN RecName: Full=50S ribosomal protein L31 type B [Yersinia pestis Nepal516] &gt;gi|166230234|sp|A4TPB9.1|RL31B_YERPP RecName: Full=50S ribosomal protein L31 type B [Yersinia pestis Pestoides F] &gt;gi|166987958|sp|A7FLA1.1|RL31B_YERP3 RecName: Full=50S ribosomal protein L31 type B [Yersinia pseudotuberculosis IP 31758] &gt;gi|226705208|sp|B2K6Y1.1|RL31B_YERPB RecName: Full=50S ribosomal protein L31 type B [Yersinia pseudotuberculosis PB1/+] &gt;gi|226705209|sp|B1JHP7.1|RL31B_YERPY RecName: Full=50S ribosomal protein L31 type B [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>P58472</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>3.3871e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMS</Hsp_qseq>
+      <Hsp_hseq>MKPNIHPP-YRTVVFHDTSADAYFTVGSTIAT--ERTIERDGQTYPYVTLDISSASHPYYTGKQKEFAKEGSTARFHQRFGSFLT</Hsp_hseq>
+      <Hsp_midline>MKPNIHP  YRTV+F D+SA+  + + S   T  +  +  DG+ Y   +LD SS+SHP YTGKQ+    EG  ++F+QRF S ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|189042643|sp|A4SYF9.1|RL31B_POLSQ</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Polynucleobacter necessarius subsp. asymbioticus QLW-P1DMWA-1]</Hit_def>
+  <Hit_accession>A4SYF9</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>3.49865e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPE-YREIVFVDVSNNFSFKTRSTMSTR-ETIKWEDGNEYPLAKIETSSESHPFYTGTQKIMDTAGRVEKFRQKF</Hsp_hseq>
+      <Hsp_midline>MKP IHP+ YR ++F D S N  +  RS   T  +T+ W DG EY L  ++TSS SHP YTG Q+ ++T GR  KF Q+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|226705147|sp|B3ESD7.1|RL31B_AMOA5</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Candidatus Amoebophilus asiaticus 5a2]</Hit_def>
+  <Hit_accession>B3ESD7</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>4.25939e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQ</Hsp_qseq>
+      <Hsp_hseq>MKKGIHP-TYREVVFLDTSSNFKFLTRSTLNSR-ETIKWEDGQEYPLIKVELSSASHPFYTGKKIFVDTAGRVEKFQQKYK</Hsp_hseq>
+      <Hsp_midline>MK  IHP  YR V+F D+S+N  +L RS   +  +T+ W DG+EY L  ++ SS+SHP YTGK+  V+T GR  KF Q+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226705166|sp|A5EVX0.1|RL31B_DICNV</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Dichelobacter nodosus VCS1703A]</Hit_def>
+  <Hit_accession>A5EVX0</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>4.39749e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKKDIHP-AYRPVVFYDASAEFKILTRSTVETK-ETIQWEDGNEYPLVRIDVSSKSHPFYTGKQNIVDTAGRVDRFRRKY</Hsp_hseq>
+      <Hsp_midline>MK +IHP  YR V+F+D+SA    L RS   T  +T+ W DG EY L  +D SS SHP YTGKQ  V+T GR  +F +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|148878578|sp|Q1Q8L9.1|RL31B_PSYCK</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Psychrobacter cryohalolentis K5]</Hit_def>
+  <Hit_accession>Q1Q8L9</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>4.69517e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MRKDIHP-NYQEVLFHDTNADVFFLTRSTVKT--KTTREYEGSEYPYYPLDISSASHPFYTGEQRKTSTEGRVASFNKRF</Hsp_hseq>
+      <Hsp_midline>M+ +IHP NY+ VLF D++A+  +L RS   T  KT    +G EY  + LD SS+SHP YTG+QR  +TEGR + FN+RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|122310696|sp|Q0A4Z6.1|RL31B_ALKEH</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Alkalilimnicola ehrlichii MLHE-1]</Hit_def>
+  <Hit_accession>Q0A4Z6</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>5.39435e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKQGIHP-KYREVVFQDISSDFAFITRSTVRTN-ETIQWEDGKEYPLFKVEVSSKSHPFYTGKQRALSSGGRVDQFQKKF</Hsp_hseq>
+      <Hsp_midline>MK  IHP  YR V+F D S++  ++ RS   T+ +T+ W DGKEY LF ++ SS SHP YTGKQR +++ GR  +F ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|17433165|sp|Q9KZJ5.1|R31B1_STRCO</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B 1 [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>Q9KZJ5</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>5.60604e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MQQDKHPD-YRPVVFRDRGAGYAFLTRSTA-TSDQTIVWDDGETYPVVEVEISSESHPFYTGKARTVDSEGRVARFERRY</Hsp_hseq>
+      <Hsp_midline>M+ + HPD YR V+F D  A   +L RS A T  +T+VW DG+ Y +  ++ SS SHP YTGK R V++EGR ++F +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|259491830|sp|C4LHF4.1|RL31B_CORK4</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Corynebacterium kroppenstedtii DSM 44385]</Hit_def>
+  <Hit_accession>C4LHF4</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>5.70783e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSSFRK</Hsp_qseq>
+      <Hsp_hseq>MKKNIHPD-YHPVVFKDASTGHQFLTRSTA-TSDRTVEWEDGNEYPLIVVDVTSESHPFWTGAQRVMDTAGRVEKFQRRYGNRLRRAKK</Hsp_hseq>
+      <Hsp_midline>MK NIHPD Y  V+F D+S    +L RS A T  +T+ W DG EY L  +D +S SHP +TG QR ++T GR  KF +R+ + +   +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|172048497|sp|A5WCS1.1|RL31B_PSYWF</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Psychrobacter sp. PRwf-1]</Hit_def>
+  <Hit_accession>A5WCS1</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>7.97273e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MRKDIHPE-YQEVLFHDTNADVFFLTRSTAKT--KATREYEGKEYPYYPLDISSASHPFYTGEQRKTSNEGRVASFNKRF</Hsp_hseq>
+      <Hsp_midline>M+ +IHP+ Y+ VLF D++A+  +L RS A T  K     +GKEY  + LD SS+SHP YTG+QR  + EGR + FN+RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|226705160|sp|B3QS57.1|RL31B_CHLT3</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Chloroherpeton thalassium ATCC 35110]</Hit_def>
+  <Hit_accession>B3QS57</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.10145e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKEGIHPKNYRPVVFQDLSNGDKFIVRSCIVT-SETIKMEDGHEYPLSKVEITNASHPFFTGQQMLLDTAGRVERFNKRF</Hsp_hseq>
+      <Hsp_midline>MK  IHP NYR V+F D S  + +++RSC  T  +T+   DG EY L  ++ +++SHP +TG+Q  ++T GR  +FN+RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|226705202|sp|B2FSI8.1|RL31B_STRMK</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Stenotrophomonas maltophilia K279a]</Hit_def>
+  <Hit_accession>B2FSI8</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.24387e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKADIHP-NYRDVVFHDVTSDFKILTRSTMAT-KETIQWEDGNEYPLVKVEISSASHPFYTGKHKVIDTSGRIDKFQKRY</Hsp_hseq>
+      <Hsp_midline>MK +IHP NYR V+F D +++   L RS   T  +T+ W DG EY L  ++ SS+SHP YTGK + ++T GR  KF +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|259491834|sp|C5CBS3.1|RL31B_MICLC</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Micrococcus luteus NCTC 2665]</Hit_def>
+  <Hit_accession>C5CBS3</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.31804e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQ</Hsp_qseq>
+      <Hsp_hseq>MKSEIHPD-YHYVIFNDLASGEKILTRTTANSD-KTAEWTDGNTYPVIDVEISAASHPFYTGKQRIMDTAGRVERFNARFK</Hsp_hseq>
+      <Hsp_midline>MK  IHPD Y  V+F D ++ E  L R+ A +  KT  WTDG  Y +  ++ S++SHP YTGKQR ++T GR  +FN RF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|189042647|sp|A4X8U8.1|RL31B_SALTO</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Salinispora tropica CNB-440]</Hit_def>
+  <Hit_accession>A4X8U8</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.34759e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRF</Hsp_qseq>
+      <Hsp_hseq>MKPGIHPE-YRPVVYRDKGADFAFLTRSTS-TSDQTIEWTDGNTYPVIDVQISSASHPFWTGKQRLLDTAGRVEKFRQKY</Hsp_hseq>
+      <Hsp_midline>MKP IHP+ YR V++ D  A+  +L RS + T  +T+ WTDG  Y +  +  SS+SHP +TGKQR ++T GR  KF Q++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|67472115|sp|P0A7N1.1|RL31B_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Escherichia coli K-12] &gt;gi|67472116|sp|P0A7N2.1|RL31B_ECOL6 RecName: Full=50S ribosomal protein L31 type B [Escherichia coli CFT073] &gt;gi|67472117|sp|P0A7N3.1|R31B1_ECO57 RecName: Full=50S ribosomal protein L31 type B 1 [Escherichia coli O157:H7] &gt;gi|118572978|sp|Q1RFP9.2|RL31B_ECOUT RecName: Full=50S ribosomal protein L31 type B [Escherichia coli UTI89] &gt;gi|148878581|sp|Q325R6.1|RL31B_SHIBS RecName: Full=50S ribosomal protein L31 type B [Shigella boydii Sb227] &gt;gi|226705167|sp|B7MCA6.1|RL31B_ECO45 RecName: Full=50S ribosomal protein L31 type B [Escherichia coli S88] &gt;gi|226705168|sp|B7NK70.1|RL31B_ECO7I RecName: Full=50S ribosomal protein L31 type B [Escherichia coli IAI39] &gt;gi|226705170|sp|B1XE39.1|RL31B_ECODH RecName: Full=50S ribosomal protein L31 type B [Escherichia coli str. K-12 substr. DH10B] &gt;gi|226705171|sp|B7N8J3.1|RL31B_ECOLU RecName: Full=50S ribosomal protein L31 type B [Escherichia coli UMN026] &gt;gi|226705173|sp|B1LHW4.1|RL31B_ECOSM RecName: Full=50S ribosomal protein L31 type B [Escherichia coli SMS-3-5] &gt;gi|254801723|sp|B7UJE5.1|RL31B_ECO27 RecName: Full=50S ribosomal protein L31 type B [Escherichia coli O127:H6 str. E2348/69]</Hit_def>
+  <Hit_accession>P0A7N1</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.34885e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSS</Hsp_qseq>
+      <Hsp_hseq>MKPNIHPE-YRTVVFHDTSVDEYFKIGSTIKTDRE--IELDGVTYPYVTIDVSSKSHPFYTGKLRTVASEGNVARFTQRFGRFVST</Hsp_hseq>
+      <Hsp_midline>MKPNIHP+ YRTV+F D+S +E + I S   T  +  +  DG  Y   ++D SS SHP YTGK R V +EG  ++F QRF   +S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|226705169|sp|B7M2U3.1|RL31B_ECO8A</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L31 type B [Escherichia coli IAI1] &gt;gi|226705172|sp|B6I084.1|RL31B_ECOSE RecName: Full=50S ribosomal protein L31 type B [Escherichia coli SE11]</Hit_def>
+  <Hit_accession>B7M2U3</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.53201e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKPNIHPDNYRTVLFFDSSANEGWLIRSCAGTHGKTMVWTDGKEYLLFSLDTSSSSHPVYTGKQRNVNTEGRASKFNQRFQSVMSS</Hsp_qseq>
+      <Hsp_hseq>MKPNIHPE-YRTVVFHDTSVDEYFKIGSTIKTDRE--IELDGVTYPYVTIDVSSKSHPFYTGKLRTVASEGNVARFTQRFGRFVST</Hsp_hseq>
+      <Hsp_midline>MKPNIHP+ YRTV+F D+S +E + I S   T  +  +  DG  Y   ++D SS SHP YTGK R V +EG  ++F QRF   +S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

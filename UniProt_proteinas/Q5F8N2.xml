@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-05-20" modified="2015-01-07" version="59">
+<accession>Q5F8N2</accession>
+<name>DPO4_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">DNA polymerase IV</fullName>
+<shortName evidence="1">Pol IV</shortName>
+<ecNumber evidence="1">2.7.7.7</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">dinB</name>
+<name type="ordered locus">NGO0738</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Poorly processive, error-prone DNA polymerase involved in untargeted mutagenesis. Copies undamaged DNA at stalled replication forks, which arise in vivo from mismatched or misaligned primer ends. These misaligned primers can be extended by PolIV. Exhibits no 3'-5' exonuclease (proofreading) activity. May be involved in translesional synthesis, in conjunction with the beta clamp from PolIII.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">Deoxynucleoside triphosphate + DNA(n) = diphosphate + DNA(n+1).</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 2 magnesium ions per subunit.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Monomer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the DNA polymerase type-Y family.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Contains 1 umuC domain.</text>
+</comment>
+<dbReference type="EC" id="2.7.7.7" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89455.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207867.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8N2"/>
+<dbReference type="STRING" id="242231.NGO0738"/>
+<dbReference type="EnsemblBacteria" id="AAW89455">
+<property type="protein sequence ID" value="AAW89455"/>
+<property type="gene ID" value="NGO0738"/>
+</dbReference>
+<dbReference type="GeneID" id="3281904"/>
+<dbReference type="KEGG" id="ngo:NGO0738"/>
+<dbReference type="PATRIC" id="20334614">
+<property type="gene designation" value="VBINeiGon24812_0879"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0389"/>
+<dbReference type="HOGENOM" id="HOG000082707"/>
+<dbReference type="KO" id="K02346"/>
+<dbReference type="OMA" id="RVLWERC"/>
+<dbReference type="OrthoDB" id="EOG6FZ4D8"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-695-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003684">
+<property type="term" value="F:damaged DNA binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003887">
+<property type="term" value="F:DNA-directed DNA polymerase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006281">
+<property type="term" value="P:DNA repair"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006261">
+<property type="term" value="P:DNA-dependent DNA replication"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.1490.100">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01113">
+<property type="entry name" value="DNApol_IV"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017961">
+<property type="entry name" value="DNA_pol_Y-fam_little_finger"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001126">
+<property type="entry name" value="DNA_repair_prot_UmuC-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017963">
+<property type="entry name" value="DNA_repair_prot_UmuC-like_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR022880">
+<property type="entry name" value="DNApol_IV"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00817">
+<property type="entry name" value="IMS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF11799">
+<property type="entry name" value="IMS_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF100879">
+<property type="entry name" value="SSF100879"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50173">
+<property type="entry name" value="UMUC"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0227">DNA damage</keyword>
+<keyword id="KW-0234">DNA repair</keyword>
+<keyword id="KW-0235">DNA replication</keyword>
+<keyword id="KW-0238">DNA-binding</keyword>
+<keyword id="KW-0239">DNA-directed DNA polymerase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0515">Mutator protein</keyword>
+<keyword id="KW-0548">Nucleotidyltransferase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="DNA polymerase IV" id="PRO_1000084903">
+<location>
+<begin position="1"/>
+<end position="352"/>
+</location>
+</feature>
+<feature type="domain" description="UmuC" evidence="1">
+<location>
+<begin position="6"/>
+<end position="186"/>
+</location>
+</feature>
+<feature type="active site" evidence="1">
+<location>
+<position position="105"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="10"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="104"/>
+</location>
+</feature>
+<feature type="site" description="Substrate discrimination" evidence="1">
+<location>
+<position position="15"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_01113"/>
+</source>
+</evidence>
+<sequence length="352" mass="39538" checksum="0B5BDD2E883543E7" modified="2005-03-15" version="1">
+MSLRKIIHIDMDAFYASVELREQPHLKGRPVVVAWEGARSVICAASYEARQFGLHSAMSV
+ATVKRLCPQAVYVPPHFDLYRQVSAQIHAVFRRYTDLIEPLSLDEAYLDVTRNFKNIPYA
+GEVAKEIRAAIFAETGLTASAGIAPNKFLAKIASDWRKPNGQFVLPPHKVMAFLETLPLG
+KIPGAGKVTLKKMQSLGMRTAGDLRRFERGELLNHFGRYGYRLYDLARGTDEHPVKAERE
+RLQISTEITLPEDLPLGQAAGHLPHLAEDLWRQITRKNVEAQSVTLKLKTYDFRIITRTL
+TYSSVLPDCAALLQAAQMLMARVPPQTEDAFRLIGIGVGRLVPKNQQQDLWA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

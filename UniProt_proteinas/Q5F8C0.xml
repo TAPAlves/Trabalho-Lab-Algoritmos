@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-04-26" modified="2015-01-07" version="73">
+<accession>Q5F8C0</accession>
+<name>GLYA_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Serine hydroxymethyltransferase</fullName>
+<shortName evidence="1">SHMT</shortName>
+<shortName evidence="1">Serine methylase</shortName>
+<ecNumber evidence="1">2.1.2.1</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">glyA</name>
+<name type="ordered locus">NGO0866</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1999" name="Mol. Microbiol." volume="33" first="635" last="650">
+<title>The opcA and (psi)opcB regions in Neisseria: genes, pseudogenes, deletions, insertion elements and DNA islands.</title>
+<authorList>
+<person name="Zhu P."/>
+<person name="Morelli G."/>
+<person name="Achtman M."/>
+</authorList>
+<dbReference type="PubMed" id="10417653"/>
+<dbReference type="DOI" id="10.1046/j.1365-2958.1999.01514.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="2">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the reversible interconversion of serine and glycine with tetrahydrofolate (THF) serving as the one-carbon carrier. This reaction serves as the major source of one-carbon groups required for the biosynthesis of purines, thymidylate, methionine, and other important biomolecules. Also exhibits THF-independent aldolase activity toward beta-hydroxyamino acids, producing glycine and aldehydes, via a retro-aldol mechanism.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">5,10-methylenetetrahydrofolate + glycine + H(2)O = tetrahydrofolate + L-serine.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>pyridoxal 5'-phosphate</name>
+<dbReference type="ChEBI" id="CHEBI:597326"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="1">
+<text>One-carbon metabolism; tetrahydrofolate interconversion.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Amino-acid biosynthesis; glycine biosynthesis; glycine from L-serine: step 1/1.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homodimer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the SHMT family.</text>
+</comment>
+<dbReference type="EC" id="2.1.2.1" evidence="1"/>
+<dbReference type="EMBL" id="AJ242839">
+<property type="protein sequence ID" value="CAB45001.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89567.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010951137.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207979.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8C0"/>
+<dbReference type="SMR" id="Q5F8C0">
+<property type="residue range" value="1-415"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0866"/>
+<dbReference type="PRIDE" id="Q5F8C0"/>
+<dbReference type="EnsemblBacteria" id="AAW89567">
+<property type="protein sequence ID" value="AAW89567"/>
+<property type="gene ID" value="NGO0866"/>
+</dbReference>
+<dbReference type="GeneID" id="3281886"/>
+<dbReference type="KEGG" id="ngo:NGO0866"/>
+<dbReference type="PATRIC" id="20334904">
+<property type="gene designation" value="VBINeiGon24812_1022"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0112"/>
+<dbReference type="HOGENOM" id="HOG000239404"/>
+<dbReference type="KO" id="K00600"/>
+<dbReference type="OMA" id="QAMTLEF"/>
+<dbReference type="OrthoDB" id="EOG6Z0QB2"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-809-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00193"/>
+<dbReference type="UniPathway" id="UPA00288">
+<property type="reaction ID" value="UER01023"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004372">
+<property type="term" value="F:glycine hydroxymethyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030170">
+<property type="term" value="F:pyridoxal phosphate binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019264">
+<property type="term" value="P:glycine biosynthetic process from serine"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035999">
+<property type="term" value="P:tetrahydrofolate interconversion"/>
+<property type="evidence" value="IEA:UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.640.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.1150.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00051">
+<property type="entry name" value="SHMT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015424">
+<property type="entry name" value="PyrdxlP-dep_Trfase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015421">
+<property type="entry name" value="PyrdxlP-dep_Trfase_major_sub1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015422">
+<property type="entry name" value="PyrdxlP-dep_Trfase_major_sub2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001085">
+<property type="entry name" value="Ser_HO-MeTrfase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019798">
+<property type="entry name" value="Ser_HO-MeTrfase_PLP_BS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11680">
+<property type="entry name" value="PTHR11680"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00464">
+<property type="entry name" value="SHMT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000412">
+<property type="entry name" value="SHMT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53383">
+<property type="entry name" value="SSF53383"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00096">
+<property type="entry name" value="SHMT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0028">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0554">One-carbon metabolism</keyword>
+<keyword id="KW-0663">Pyridoxal phosphate</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Serine hydroxymethyltransferase" id="PRO_0000113620">
+<location>
+<begin position="1"/>
+<end position="416"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="1">
+<location>
+<begin position="125"/>
+<end position="127"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="1">
+<location>
+<position position="35"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="1">
+<location>
+<position position="55"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="57"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="64"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="1">
+<location>
+<position position="65"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="1">
+<location>
+<position position="99"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate; via carbonyl oxygen" evidence="1">
+<location>
+<position position="121"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="1">
+<location>
+<position position="175"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="1">
+<location>
+<position position="203"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="1">
+<location>
+<position position="228"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="1">
+<location>
+<position position="235"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate; via amide nitrogen and carbonyl oxygen" evidence="1">
+<location>
+<position position="261"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="1">
+<location>
+<position position="361"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-(pyridoxal phosphate)lysine" evidence="1">
+<location>
+<position position="229"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00051"/>
+</source>
+</evidence>
+<sequence length="416" mass="44990" checksum="F53A0C9274D00219" modified="2005-03-15" version="1">
+MFSKSVTLAQYDPDLAAAIAQEDRRQQDHVELIASENYVSCAVMEAQGSQLTNKYAEGYP
+AKRYYGGCEYVDIVEQLAIDRVKELFGAAYANVQPHSGSQANQAVYASVLKPGDTILGMS
+LAHGGHLTHGASVNISGKLYNAVTYGLDENEVLDYAEVERLALEHKPKMIVAGASAYALQ
+IDWAKFREIADKVGAYLFVDMAHYAGLVAGGEYPNPVPFCDFVTTTTHKTLRGPRGGVIL
+CRDNTHEKALNSSIFPSLQGGPLMHVIAAKAVAFKEALQPEFKQYAKQVKINAAVMAEEL
+VKRGLRIVSGRTESHVFLVDLQPMKITGKAAEAALGKAHITVNKNAIPNDPEKPFVTSGI
+RIGSAAMTTRGFNETDARVLSNLVADVLANPEDEANLAKVRGQVTALCDKYPVYGT
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

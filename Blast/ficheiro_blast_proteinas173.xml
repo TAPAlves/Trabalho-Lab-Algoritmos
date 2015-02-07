@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>60645</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>193</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>60645</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>193</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|166234753|sp|A7MTX1.1|UBIE_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MTX1</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.54068e-05</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GQRVLDLGGGTGDLTAKFSRIVGDQGHVILADINNSMLNVGRDKLRDNGIVGNVHYVQANAEE--LPFPDDYFDVITISFCLRNVTDKDKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>G RVLDLG G G+L A  +      G+ I  D +N +  + R           V+ +QA+ EE    F D  FDVI +S  ++ + + +K LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|48474449|sp|Q8DDP9.1|UBIE_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Vibrio vulnificus CMCP6] &gt;gi|61217315|sp|Q7MQ33.1|UBIE_VIBVY RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q8DDP9</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.66512e-05</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GQRVLDLGGGTGDLTAKFSRIVGEKGHVILADINNSMLNVGRDKLRDSGIVGNVHYVQANAEE--LPFPDDYFDIITISFCLRNVTDKDKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>G RVLDLG G G+L A  +      G+ I  D +N +  + R           V+ +QA+ EE    F D  FD+I +S  ++ + + +K LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|48474408|sp|Q87TH4.1|UBIE_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87TH4</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>4.12342e-05</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GQRILDLGGGTGDLTAKFSRIVGDQGHVVLADINNSMLNVGRDKLRDNGIVGNVHYVQANAEE--LPFPDDYFDVITISFCLRNVTDKDKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>G R+LDLG G G+L A  +      G+ +  D +N +  + R           V+ +QA+ EE    F D  FDVI +S  ++ + + +K LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|61217193|sp|Q5QYG2.1|UBIE_IDILO</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Idiomarina loihiensis L2TR]</Hit_def>
+  <Hit_accession>Q5QYG2</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>7.364e-05</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGMKVLDIAGGTGDLTAQFSRRVGAEGEVVLADINDAMLKVGRDKLRDRGIIGNVRYVQADAEE--LPFDDNTFDVITIAFGLRNVTDKDKALRSMLRVLK</Hsp_hseq>
+      <Hsp_midline>+  G +VLD+  G G+L A  +      G  +  D ++ +  + R           V  +QAD EE    F+D +FDVI ++  ++ + + +K LR ++R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|48474668|sp|Q9KVQ6.1|UBIE_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gi|172047509|sp|A5F4E5.1|UBIE_VIBC3 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Vibrio cholerae O395] &gt;gi|254789978|sp|C3LPS5.1|UBIE_VIBCM RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Vibrio cholerae M66-2]</Hit_def>
+  <Hit_accession>Q9KVQ6</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000108963</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GQRILDLGGGTGDLTAKFSRIVGEKGHVILADINNSMLNVGRDKLRDSGVVGNVHYVQANAEE--LPFPDNYFDCITISFCLRNVTDKDKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>G R+LDLG G G+L A  +      G+ I  D +N +  + R           V+ +QA+ EE    F D  FD I +S  ++ + + +K LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|74997163|sp|Q54XD0.1|COQ3_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Hexaprenyldihydroxybenzoate methyltransferase, mitochondrial; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3,4-dihydroxy-5-hexaprenylbenzoate methyltransferase; Short=DHHB methyltransferase; Short=DHHB-MT; Short=DHHB-MTase; AltName: Full=3-demethylubiquinone-n 3-methyltransferase; AltName: Full=Dihydroxyhexaprenylbenzoate methyltransferase; Flags: Precursor [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54XD0</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000319014</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>EGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMS--------------RGVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>EGLNVIDVGCGVGLLTESLSRLGASKVVGLDAAKNNILMAISHASFDQKLNENIQNKSLNYLESTIENFYNIENDQQFDAVCSLEVIEHVDNPKQFIDYLSKIVK</Hsp_hseq>
+      <Hsp_midline>EG  V+D+GCG G L  +L+        G++   +N++ A+S              + +N +++ +E      NDQ FD +   + I+ + N ++ +  L ++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166234720|sp|A7MQL7.1|UBIE_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MQL7</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000797584</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQKVLDLAGGTGDLTAKFSRLVGESGKVVLADINDSMLKMGREKLRNIGIVGNVEYVQANAEA--LPFPDNTFDCITISFGLRNVTDKEKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>+  G +VLDL  G G+L A  +     SG  +  D ++ +  M R           V  +QA+ E     F D +FD I +S  ++ + + EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|167011611|sp|A8G8B8.1|UBIE_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8G8B8</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00103696</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQRVLDLAGGTGDLAAKFSRMVGEQGQVVLADINDSMLKMGREKLRDRGIIGNVNYVQANAEA--LPFPDNYFDCITISFGLRNVTDKDKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>+  G RVLDL  G G+L A  +      G  +  D ++ +  M R           VN +QA+ E     F D  FD I +S  ++ + + +K LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|48474949|sp|Q9CKD6.1|UBIE_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CKD6</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00141559</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRKGHKVLDLAGGTGDFTAKFSRLVGPSGEVILADINDSMLRVGREKLRNLGVVGNVNYVQANAEA--LPFPDNTFDCVIISFGLRNVTDKDKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>+ +G +VLDL  G G+  A  +     SG  I  D ++ +  + R           VN +QA+ E     F D +FD +++S  ++ + + +K LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|341958750|sp|C3SBS8.1|TNMT_ESCCA</Hit_id>
+  <Hit_def>RecName: Full=(S)-tetrahydroprotoberberine N-methyltransferase; Short=EcTNMT [Eschscholzia californica]</Hit_def>
+  <Hit_accession>C3SBS8</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00193464</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>RIPEGSRVLDLGCGDGELLAALAE-HKKCSGYGIEIDT--DNVIAAMSR-----GVNVIQADLEEGLTAFN-DQSFDVIVLSQTIQAMQNTEKILRCL</Hsp_qseq>
+      <Hsp_hseq>QIKDGQTVLDIGCGQGGLVLYIAEKYKNCHVTGLTNSKAQANYIEQQAEKLELTNVDVIFAD----VTKFDTDKTYDRILVVETIEHMKNIQLFMKKL</Hsp_hseq>
+      <Hsp_midline>+I +G  VLD+GCG G L+  +AE +K C   G+       N I   +       V+VI AD    +T F+ D+++D I++ +TI+ M+N +  ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166234756|sp|A1TSA0.1|UBIG_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TSA0</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00312285</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>EGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSRGVNVIQADLE------EGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>QGRRVLDVGCGGGILADAMA-RKGATVTGIDLATKSLKVAQLHALEAGTPDIQYREVSVEALAEESPASFDTVTCMEMLEHVPDPASVVQACARLVK</Hsp_hseq>
+      <Hsp_midline>+G RVLD+GCG G L  A+A  K  +  GI++ T ++  A    +     D++      E L   +  SFD +   + ++ + +   +++   RL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|189037605|sp|A9MIY3.1|UBIE_SALAR</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MIY3</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00393582</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQTVLDLAGGTGDLTAKFSRMVGETGKVILADINDSMLKMGREKLRNIGVIGNVEYVQANAEA--LPFPDNTFDCITISFGLRNVTEKEKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>+  G  VLDL  G G+L A  +     +G  I  D ++ +  M R           V  +QA+ E     F D +FD I +S  ++ +   EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|61249473|sp|P0A2K5.1|UBIE_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|61249474|sp|P0A2K6.1|UBIE_SALTI RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|75479505|sp|Q57HN8.1|UBIE_SALCH RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67] &gt;gi|81361314|sp|Q5PKP4.1|UBIE_SALPA RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|189037606|sp|A9MY97.1|UBIE_SALPB RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7] &gt;gi|254789961|sp|B5EZU8.1|UBIE_SALA4 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|254789962|sp|B5FNW6.1|UBIE_SALDC RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853] &gt;gi|254789963|sp|B5QW73.1|UBIE_SALEP RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|254789964|sp|B5RFM8.1|UBIE_SALG2 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91] &gt;gi|254789965|sp|B4TBR3.1|UBIE_SALHS RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476] &gt;gi|254789966|sp|B4SZ73.1|UBIE_SALNS RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|254789967|sp|C0Q3E1.1|UBIE_SALPC RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594] &gt;gi|254789968|sp|B5BIX9.1|UBIE_SALPK RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601] &gt;gi|254789969|sp|B4TNX9.1|UBIE_SALSV RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633]</Hit_def>
+  <Hit_accession>P0A2K5</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00400963</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQTVLDLAGGTGDLTAKFSRMVGETGKVILADINDSMLKMGREKLRNIGVIGNVEYVQANAEA--LPFPDNTFDCITISFGLRNVTEKEKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>+  G  VLDL  G G+L A  +     +G  I  D ++ +  M R           V  +QA+ E     F D +FD I +S  ++ +   EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|166234736|sp|A4XPM7.1|UBIE_PSEMY</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Pseudomonas mendocina ymp]</Hit_def>
+  <Hit_accession>A4XPM7</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00460907</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GNRVLDIAGGTGDLTRKFASIVGPTGEVVLADINDSMLKVGRDRLLDKGVAGNVQFVQADAEK--LPFPDNHFDVVTIAFGLRNVTHKEDALRSMLRVLK</Hsp_hseq>
+      <Hsp_midline>G+RVLD+  G G+L    A     +G  +  D ++ +  + R           V  +QAD E+    F D  FDV+ ++  ++ + + E  LR ++R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|115311881|sp|Q45EK7.1|TRM44_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable tRNA (uracil-O(2)-)-methyltransferase [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q45EK7</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00534672</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>DRIPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSRGVNVIQADLEEGLTAFNDQSFDVIV</Hsp_qseq>
+      <Hsp_hseq>DLLPKPNKFVDIGCGNG-LLVHLLNKIGMSGYGIDVRHRNIWKTTLKDVDLREMPVDPQIVVQNEPHFDLDV</Hsp_hseq>
+      <Hsp_midline>D +P+ ++ +D+GCG+G LL  L      SGYGI++   N+     + V++ +  ++  +   N+  FD+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|167011608|sp|A4WFY5.1|UBIE_ENT38</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4WFY5</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00549716</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQTVLDLAGGTGDLTAKFSRMVGDTGRVVLADINDSMLKMGREKLRNIGVVGNVEYVQANAEA--LPFPDNTFDCITISFGLRNVTDKEKALRSMYRVLK</Hsp_hseq>
+      <Hsp_midline>+  G  VLDL  G G+L A  +     +G  +  D ++ +  M R           V  +QA+ E     F D +FD I +S  ++ + + EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|56749765|sp|Q74LY0.1|MENG_LACJO</Hit_id>
+  <Hit_def>RecName: Full=Demethylmenaquinone methyltransferase [Lactobacillus johnsonii NCC 533]</Hit_def>
+  <Hit_accession>Q74LY0</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00606023</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMS----RGVNV-IQADLEEGLT---AFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GDFALDLCCGTGDLTIALAKQVGPSGNVIGLDFNQKMLDLADKKIRGQNLQKEIQLKQGDAMHLPYTDQSFDIVTIGFGLRNVPDADQVLKEIYRVLK</Hsp_hseq>
+      <Hsp_midline>G   LDL CG G+L  ALA+    SG  I +D +  +  ++    RG N+  +  L++G      + DQSFD++ +   ++ + + +++L+ + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|41019469|sp|Q8D1I3.1|UBIE_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia pestis] &gt;gi|61217232|sp|Q66FT0.1|UBIE_YERPS RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia pseudotuberculosis IP 32953] &gt;gi|122980379|sp|Q1CNB4.1|UBIE_YERPN RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia pestis Nepal516] &gt;gi|166234755|sp|A4TR39.1|UBIE_YERPP RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia pestis Pestoides F] &gt;gi|167011612|sp|A7FDE0.1|UBIE_YERP3 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia pseudotuberculosis IP 31758] &gt;gi|254789981|sp|B2K0Y4.1|UBIE_YERPB RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia pseudotuberculosis PB1/+] &gt;gi|254789982|sp|A9R431.1|UBIE_YERPG RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia pestis Angola] &gt;gi|254789983|sp|B1JP75.1|UBIE_YERPY RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>Q8D1I3</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0062588</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQRVLDLAGGTGDLTAKFSRLVGEQGEVILADINESMLRMGREKLRDKGIVGNVSYVQANAEA--LPFPDNYFDCITISFGLRNVTEKEKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>+  G RVLDL  G G+L A  +      G  I  D +  +  M R           V+ +QA+ E     F D  FD I +S  ++ +   EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|123246017|sp|Q1CBG0.1|UBIE_YERPA</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia pestis Antiqua]</Hit_def>
+  <Hit_accession>Q1CBG0</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00753224</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQRVLDLAGGTGDLTAKFSRLVGEQGEVILADINESMLRMGREKLRDKGIVGNVSYVQANAEA--LPFPDNFFDCITISFGLRNVTEKEKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>+  G RVLDL  G G+L A  +      G  I  D +  +  M R           V+ +QA+ E     F D  FD I +S  ++ +   EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|586830502|sp|Q944H0.2|PEAM2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Phosphomethylethanolamine N-methyltransferase; Short=AtPMEAMT; AltName: Full=Phosphoethanolamine N-methyltransferase 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q944H0</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00800642</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSRGVNV---IQADLEEGLT-AFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GQKVLDVGCGIGGGDFYMAENFDVHVVGIDLSVNMISFALERAIGLKCSVEFEVADCTTKTYPDNSFDVIYSRDTILHIQDKPALFRTFFKWLK</Hsp_hseq>
+      <Hsp_midline>G +VLD+GCG G     +AE+      GI++  + +  A+ R + +   ++ ++ +  T  + D SFDVI    TI  +Q+   + R   +  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|166234717|sp|A8ACY2.1|UBIE_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8ACY2</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00889697</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQTVLDLAGGTGDLTAKFSRLVGETGNVILADINDSMLKMGREKLRNIGVIGNVKYVQANAEA--LPFPDNTFDCITISFGLRNVTEKEKALRSMYRVLK</Hsp_hseq>
+      <Hsp_midline>+  G  VLDL  G G+L A  +     +G  I  D ++ +  M R           V  +QA+ E     F D +FD I +S  ++ +   EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|166234754|sp|A1JIF2.1|UBIE_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JIF2</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00940445</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQRVLDLAGGTGDLTAKFSRLVGEQGEVVLADINESMLRMGREKLRDKGIVGNVSYVQANAEA--LPFPDNYFDCITISFGLRNVTEKEKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>+  G RVLDL  G G+L A  +      G  +  D +  +  M R           V+ +QA+ E     F D  FD I +S  ++ +   EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|259550939|sp|C1DHS2.1|UBIE_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DHS2</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0118929</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGNRVLDIAGGTGDLTLQFSRLVGESGEVLLADINDSMLKVGRDRLLDRGVAGNVRFVQADAEK--LPFPDNHFDVITIAFGLRNVTRKEDALRSMLRVLK</Hsp_hseq>
+      <Hsp_midline>+  G+RVLD+  G G+L    +     SG  +  D ++ +  + R           V  +QAD E+    F D  FDVI ++  ++ +   E  LR ++R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81837305|sp|Q818X2.1|BIOC_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Malonyl-[acyl-carrier protein] O-methyltransferase; Short=Malonyl-ACP O-methyltransferase; AltName: Full=Biotin synthesis protein BioC [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q818X2</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0120214</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>LQLIYDRIPEGS--RVLDLGCGDGELLAALAE-HKKCSGYGIEIDTDNVIAAMSR-GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMR-LAKQAIVSFPNFGY</Hsp_qseq>
+      <Hsp_hseq>LSILKERYSETASIRILELGCGTGYVTEQLSKLFPKSHITAVDFAESMIAIAQTRQNVKNVTFHCEDIERLRLEESYDVIISNATFQWLNNLQQVLRNLFQHLSIDGILLFSTFGH</Hsp_hseq>
+      <Hsp_midline>L ++ +R  E +  R+L+LGCG G +   L++   K     ++     +  A +R  V  +    E+      ++S+DVI+ + T Q + N +++LR L + L+   I+ F  FG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|254789934|sp|B7LU01.1|UBIE_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LU01</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0127557</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQTVLDLAGGTGDLTAKFSRMVGETGKVVLADINESMLKMGREKLRNIGVIGNVEYVQANAEA--LPFPDNTFDCITISFGLRNVTEKEKALRSMYRVLK</Hsp_hseq>
+      <Hsp_midline>+  G  VLDL  G G+L A  +     +G  +  D +  +  M R           V  +QA+ E     F D +FD I +S  ++ +   EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|166234724|sp|A6TGL3.1|UBIE_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TGL3</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0131138</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQTVLDLAGGTGDLTAKFSRLVGETGRVMLADINDSMLKMGREKLRNIGIVGNVEYVQANAEA--LPFADNTFDCITISFGLRNVTDKEKALRSMYRVLK</Hsp_hseq>
+      <Hsp_midline>+  G  VLDL  G G+L A  +     +G  +  D ++ +  M R           V  +QA+ E     F D +FD I +S  ++ + + EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|341958748|sp|C3SBU5.1|TNMT1_PAPBR</Hit_id>
+  <Hit_def>RecName: Full=(S)-tetrahydroprotoberberine N-methyltransferase 1; Short=PbTNMT1 [Papaver bracteatum]</Hit_def>
+  <Hit_accession>C3SBU5</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0132483</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RIPEGSRVLDLGCGDGELLAALA-EHKKCSGYGIEIDTDNV----IAAMSRGVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCL</Hsp_qseq>
+      <Hsp_hseq>QIKDGQTVLDIGCGQGGLVLYIARKYKKCHVTGLTNSKAQVNYLLKQAEKLGLTNVDAILADVTQYESDKTYDRLLMIEAIEHMKNLQLFMKKL</Hsp_hseq>
+      <Hsp_midline>+I +G  VLD+GCG G L+  +A ++KKC   G+      V      A   G+  + A L +     +D+++D +++ + I+ M+N +  ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|109895905|sp|Q4K8M4.1|UBIG_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4K8M4</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.013957</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAA----MSRGVNVIQADLE-EGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GKKVLDVGCGGGILSEAMAQ-RGATVTGIDMGEAPLAVAQLHQLESGVNVEYRQITAEALAEEMPEQFDVVTCLEMLEHVPDPSSVIRACFRMVK</Hsp_hseq>
+      <Hsp_midline>G +VLD+GCG G L  A+A+ +  +  GI++    +  A    +  GVNV    +  E L     + FDV+   + ++ + +   ++R   R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|17369073|sp|Q9JWE6.1|UBIG_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JWE6</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0144041</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSRGVNVIQADLE------EGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GKRVLDVGCGGGILAESMARRGAAFVKGIDMAEQSLETARLHAALNNVADIEYECIRVEDLAEAEPHSFDVVTCMEMMEHVPDPAAIVRACAKLVK</Hsp_hseq>
+      <Hsp_midline>G RVLD+GCG G L  ++A        GI++   ++  A         AD+E      E L      SFDV+   + ++ + +   I+R   +L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|54039900|sp|P65347.1|Y092_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized methyltransferase Mb0092 [Mycobacterium bovis AF2122/97] &gt;gi|618798136|sp|P9WK02.1|Y089_MYCTO RecName: Full=Uncharacterized methyltransferase MT0098 [Mycobacterium tuberculosis CDC1551] &gt;gi|618798137|sp|P9WK03.1|Y089_MYCTU RecName: Full=Uncharacterized methyltransferase Rv0089 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P65347</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0144639</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IPEGSR-VLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSRGVNV----IQADLEEGLTA-FNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAKQ----AIVSF--PNF--GYWRNRVQIALGGHMPVSERMPYHWYDTPNIHWCTLKDFDLLCAKNNIRVL</Hsp_qseq>
+      <Hsp_hseq>VPLGTQCVLDVGCGDG-LLAARLARRIPYVTAVDIDAPVLRRAQTRFANAPIRWLHADI---MTAELPNAGFDAVVSNAALHHIEDTRTALSRLGGLVTPGGTLAVVTFVTPSLRNGLWHLTSWVACG----MANRVKGKWEHSAPIKWPPPQTLHEL--RSHVRAL</Hsp_hseq>
+      <Hsp_midline>+P G++ VLD+GCGDG LLAA    +      ++ID   +  A +R  N     + AD+   +TA   +  FD +V +  +  +++T   L  L  L       A+V+F  P+   G W     +A G    ++ R+   W  +  I W   +    L  ++++R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|24212081|sp|Q9FR44.1|PEAM1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Phosphoethanolamine N-methyltransferase 1; Short=AtNMT1; Short=PEAMT 1; AltName: Full=Protein XIPOTL 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FR44</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0150037</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSRGVNV---IQADLEEGLTA-FNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GQKVLDVGCGIGGGDFYMAEKFDVHVVGIDLSVNMISFALERAIGLSCSVEFEVADCTTKHYPDNSFDVIYSRDTILHIQDKPALFRTFFKWLK</Hsp_hseq>
+      <Hsp_midline>G +VLD+GCG G     +AE       GI++  + +  A+ R + +   ++ ++ +  T  + D SFDVI    TI  +Q+   + R   +  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|254789940|sp|B5XYI1.1|UBIE_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XYI1</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0151993</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQTVLDLAGGTGDLTAKFSRLVGETGRVMLADINDSMLKMGREKLRNIGIVGNVEYVQANAEA--LPFADNTFDCITISFGLRNVTDKEKALRSMYRVLK</Hsp_hseq>
+      <Hsp_midline>+  G  VLDL  G G+L A  +     +G  +  D ++ +  M R           V  +QA+ E     F D +FD I +S  ++ + + EK LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|254789953|sp|B4EWC9.1|UBIE_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4EWC9</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0153401</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>RVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>RVLDLAGGTGDLTAKFSRLVGENGEVVLADINDSMLKMGREKLRDHGIVGNVSYVQANAEE--LPFPDDYFDCITISFGLRNVTDKAKALRSMFRVLK</Hsp_hseq>
+      <Hsp_midline>RVLDL  G G+L A  +     +G  +  D ++ +  M R           V+ +QA+ EE    F D  FD I +S  ++ + +  K LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|109895907|sp|Q3K8T6.1|UBIG_PSEPF</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Pseudomonas fluorescens Pf0-1]</Hit_def>
+  <Hit_accession>Q3K8T6</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0157348</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAA----MSRGVNVIQADLE-EGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GKKVLDVGCGGGILSEAMAQ-RGATVTGIDMGEAPLAVAQLHQLESGVNVEYRQITAEALAEEMPEQFDVVTCLEMLEHVPDPSSVIRACFRMVK</Hsp_hseq>
+      <Hsp_midline>G +VLD+GCG G L  A+A+ +  +  GI++    +  A    +  GVNV    +  E L     + FDV+   + ++ + +   ++R   R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|317373537|sp|P22061.4|PIMT_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protein-L-isoaspartate(D-aspartate) O-methyltransferase; Short=PIMT; AltName: Full=L-isoaspartyl protein carboxyl methyltransferase; AltName: Full=Protein L-isoaspartyl/D-aspartyl methyltransferase; AltName: Full=Protein-beta-aspartate methyltransferase [Homo sapiens]</Hit_def>
+  <Hit_accession>P22061</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.016899</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LQLIYDRIPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEID</Hsp_qseq>
+      <Hsp_hseq>LELLFDQLHEGAKALDVGSGSGILTACFARMVGCTGKVIGID</Hsp_hseq>
+      <Hsp_midline>L+L++D++ EG++ LD+G G G L A  A    C+G  I ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|116248579|sp|Q4R5H0.3|PIMT_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Protein-L-isoaspartate(D-aspartate) O-methyltransferase; Short=PIMT; AltName: Full=L-isoaspartyl protein carboxyl methyltransferase; AltName: Full=Protein L-isoaspartyl/D-aspartyl methyltransferase; AltName: Full=Protein-beta-aspartate methyltransferase [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q4R5H0</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0176961</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LQLIYDRIPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEID</Hsp_qseq>
+      <Hsp_hseq>LELLFDQLHEGAKALDVGSGSGILTACFARMVGCTGKVIGID</Hsp_hseq>
+      <Hsp_midline>L+L++D++ EG++ LD+G G G L A  A    C+G  I ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|116248580|sp|Q5RA89.3|PIMT_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Protein-L-isoaspartate(D-aspartate) O-methyltransferase; Short=PIMT; AltName: Full=L-isoaspartyl protein carboxyl methyltransferase; AltName: Full=Protein L-isoaspartyl/D-aspartyl methyltransferase; AltName: Full=Protein-beta-aspartate methyltransferase [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RA89</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.01786</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LQLIYDRIPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEID</Hsp_qseq>
+      <Hsp_hseq>LELLFDQLHEGAKALDVGSGSGILTACFARMVGCTGKVIGID</Hsp_hseq>
+      <Hsp_midline>L+L++D++ EG++ LD+G G G L A  A    C+G  I ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|48474450|sp|Q8DGE4.1|MENG_THEEB</Hit_id>
+  <Hit_def>RecName: Full=2-phytyl-1,4-naphtoquinone methyltransferase; AltName: Full=Demethylphylloquinone methyltransferase [Thermosynechococcus elongatus BP-1]</Hit_def>
+  <Hit_accession>Q8DGE4</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0193108</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSG--YGIEIDTDNVIAAMSRGVNVIQADLEEG---LTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRL----AKQAIVSFPN--------FGYWR-NRVQIALGGHMPVSERMPYHWYDTPNIHWCTLKDFDLLCAKNNIRVLERAVMTGNRQVKHFPNLLGSLA</Hsp_qseq>
+      <Hsp_hseq>LPQGATALDLCCGTGDLTRLLARRVGRQGRVVGLDFAAAPLAIARQRSDHYPQIEWLQGDALAVPFAPQTFQGITIGYGLRNVVDIPQALREMFRLLVPGGRAAILDFSHPQTSALEQFQQWYLQQWVVPTARHYGLAAEYDYLW---PSIQ--AFPTPPTLCA-----LIQQA---GFERVKHYPLLGGLMA</Hsp_hseq>
+      <Hsp_midline>+P+G+  LDL CG G+L   LA      G   G++     +  A  R  +  Q +  +G      F  Q+F  I +   ++ + +  + LR + RL     + AI+ F +        F  W   +  +    H  ++    Y W   P+I          LCA     ++++A   G  +VKH+P L G +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|341958749|sp|C3SBU4.1|TNMT2_PAPBR</Hit_id>
+  <Hit_def>RecName: Full=Probable (S)-tetrahydroprotoberberine N-methyltransferase 2; Short=PbTNMT2 [Papaver bracteatum]</Hit_def>
+  <Hit_accession>C3SBU4</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0226187</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>RIPEGSRVLDLGCGDGELLAALAE-HKKCSGYGIEIDTDNVIAAMS-------RGVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCL</Hsp_qseq>
+      <Hsp_hseq>QIKDGQTVLDIGCGQGGLVLYVAQKYKNCHVTGLTNSKEQVNYILKQAEKLGLRNVDVILADVTQYES---DKTYDRILVIGVVEHMKNMQLFIKKL</Hsp_hseq>
+      <Hsp_midline>+I +G  VLD+GCG G L+  +A+ +K C   G+    + V   +        R V+VI AD+ +  +   D+++D I++   ++ M+N +  ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1730986|sp|P54458.1|YQEM_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative methyltransferase YqeM [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54458</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0241209</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAM-----SRGVNVIQADLEEGLTAFNDQSFDVIVL</Hsp_qseq>
+      <Hsp_hseq>LPEKGRILDLACGTGEISIRLAE-KGFEVTGIDLSEEMLSFAQQKVSSSQPILFLQQDMRE-ITGFDGQ-FDAVVI</Hsp_hseq>
+      <Hsp_midline>+PE  R+LDL CG GE+   LAE K     GI++  + +  A      S+ +  +Q D+ E +T F+ Q FD +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|37999899|sp|P59911.1|UBIE_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>P59911</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0258468</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRKGQKVLDLAGGTGDFSAKFSRIVGETGQVVLADINSSMLEVGRDKLRNLGVVGNINYVQANAEH--LPFADNTFDCVVISFGLRNVTDKDKALKSMYRVLK</Hsp_hseq>
+      <Hsp_midline>+ +G +VLDL  G G+  A  +     +G  +  D ++ +  + R           +N +QA+ E     F D +FD +V+S  ++ + + +K L+ + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|75400852|sp|Q8KZ94.1|REBMT_NOCAE</Hit_id>
+  <Hit_def>RecName: Full=Demethylrebeccamycin-D-glucose O-methyltransferase; AltName: Full=Rebeccamycin O-methyltransferase; AltName: Full=Rebeccamycin sugar 4&apos;-O-methyltransferase RebM [Lechevalieria aerocolonigenes]</Hit_def>
+  <Hit_accession>Q8KZ94</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0315416</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>LRDDLQLIYDRIPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSRGV-----NVIQADLEEGLT-AFNDQSFDVIVLSQTIQAMQNTEKILRCLMRL</Hsp_qseq>
+      <Hsp_hseq>LTDEMIALLD-VRSGDRVLDVGCGIGKPAVRLATARDVRVTGISISRPQVNQANARATAAGLANRVTFSYADAMDLPFEDASFDAVWALESLHHMPDRGRALREMARV</Hsp_hseq>
+      <Hsp_midline>L D++  + D +  G RVLD+GCG G+    LA  +     GI I    V  A +R       N +     + +   F D SFD +   +++  M +  + LR + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|189037623|sp|A9M0C4.1|UBIG_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9M0C4</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0329675</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSRGVNVIQADLE------EGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GKRVLDVGCGGGILAESMARRGAAFVKGIDMAEQSLETARLHAALNNVADIEYECIRVEDLAEAEPHSFDVVTCMEMMEHVPDPAAIVRACANLVK</Hsp_hseq>
+      <Hsp_midline>G RVLD+GCG G L  ++A        GI++   ++  A         AD+E      E L      SFDV+   + ++ + +   I+R    L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|57015268|sp|Q63159.2|COQ3_RAT</Hit_id>
+  <Hit_def>RecName: Full=Hexaprenyldihydroxybenzoate methyltransferase, mitochondrial; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3,4-dihydroxy-5-hexaprenylbenzoate methyltransferase; Short=DHHB methyltransferase; Short=DHHB-MT; Short=DHHB-MTase; AltName: Full=3-demethylubiquinone-9 3-methyltransferase; AltName: Full=Dihydroxyhexaprenylbenzoate methyltransferase; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q63159</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0353247</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAA---------MSRGVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GMKILDVGCGGGLLTEPLGR-LGASVVGIDPVAENIKIAQHHKSFDPVLDKRIQYRVCSLEETLNE-NAECFDAVVASEVVEHVNNLEMFIQCCYQVLK</Hsp_hseq>
+      <Hsp_midline>G ++LD+GCG G L   L      S  GI+   +N+  A         + + +      LEE L   N + FD +V S+ ++ + N E  ++C  ++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|67474763|sp|P0A887.1|UBIE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli K-12] &gt;gi|67474766|sp|P0A888.1|UBIE_ECO57 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli O157:H7] &gt;gi|67474767|sp|P0A889.1|UBIE_SHIFL RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Shigella flexneri] &gt;gi|123342348|sp|Q0SZ25.1|UBIE_SHIF8 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Shigella flexneri 5 str. 8401] &gt;gi|123558180|sp|Q31UF3.1|UBIE_SHIBS RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Shigella boydii Sb227] &gt;gi|123561227|sp|Q32A11.1|UBIE_SHIDS RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Shigella dysenteriae Sd197] &gt;gi|123615694|sp|Q3YVD2.1|UBIE_SHISS RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Shigella sonnei Ss046] &gt;gi|167011606|sp|A7ZU40.1|UBIE_ECO24 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli O139:H28 str. E24377A] &gt;gi|167011607|sp|A8A6U0.1|UBIE_ECOHS RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli HS] &gt;gi|189037021|sp|B1IW72.1|UBIE_ECOLC RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli ATCC 8739] &gt;gi|254789922|sp|B7UNG3.1|UBIE_ECO27 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli O127:H6 str. E2348/69] &gt;gi|254789924|sp|B7L996.1|UBIE_ECO55 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli 55989] &gt;gi|254789925|sp|B5YY82.1|UBIE_ECO5E RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli O157:H7 str. EC4115] &gt;gi|254789926|sp|B7NV33.1|UBIE_ECO7I RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli IAI39] &gt;gi|254789928|sp|B7M638.1|UBIE_ECO8A RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli IAI1] &gt;gi|254789929|sp|B1XAJ7.1|UBIE_ECODH RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli str. K-12 substr. DH10B] &gt;gi|254789930|sp|B7NFD6.1|UBIE_ECOLU RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli UMN026] &gt;gi|254789931|sp|B6I4H5.1|UBIE_ECOSE RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli SE11] &gt;gi|254789932|sp|B1LM21.1|UBIE_ECOSM RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli SMS-3-5] &gt;gi|254789973|sp|B2TVI4.1|UBIE_SHIB3 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Shigella boydii CDC 3083-94] &gt;gi|259550955|sp|C5A009.1|UBIE_ECOBW RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P0A887</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0357628</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQTVLDLAGGTGDLTAKFSRLVGETGKVVLADINESMLKMGREKLRNIGVIGNVEYVQANAEA--LPFPDNTFDCITISFGLRNVTDKDKALRSMYRVLK</Hsp_hseq>
+      <Hsp_midline>+  G  VLDL  G G+L A  +     +G  +  D +  +  M R           V  +QA+ E     F D +FD I +S  ++ + + +K LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166234767|sp|A6TBT7.1|UBIG_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TBT7</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0357751</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALA-EHKKCSGYGIEIDTDNV--IAAMSRGVNV--IQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GKKVLDVGCGGGILAESMAREGATVTGLDMGAEPLQVARLHALESGIQVDYVQETVEEH-AAKHPQQYDVVTCMEMLEHVPDPQSVVHACARLVK</Hsp_hseq>
+      <Hsp_midline>G +VLD+GCG G L  ++A E    +G  +  +   V  + A+  G+ V  +Q  +EE   A + Q +DV+   + ++ + + + ++    RL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1177017|sp|P42313.1|YXJB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative 23S rRNA (guanine-N(1)-)-methyltransferase YxjB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P42313</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0361454</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>EGSRVLDLGCGDGELLAALA----EHKKCSGYGIEIDTDNVIAAMSRGVNVIQADLEEGLTAFNDQSFDVIV</Hsp_qseq>
+      <Hsp_hseq>EAFTILDSGCGEGSHLNALCGFDYAGKAAIGTGIDLSKDGILKASKAFKDLMWAVADVARAPFHDRQFDVVL</Hsp_hseq>
+      <Hsp_midline>E   +LD GCG+G  L AL       K   G GI++  D ++ A     +++ A  +     F+D+ FDV++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|226725551|sp|B5XNZ3.1|UBIG_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XNZ3</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0367737</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALA-EHKKCSGYGIEIDTDNV--IAAMSRGVNV--IQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GKKVLDVGCGGGILAESMAREGATVTGLDMGAEPLQVAKLHALESGIQVDYVQETVEEH-AAKHPQQYDVVTCMEMLEHVPDPQSVVHACARLVK</Hsp_hseq>
+      <Hsp_midline>G +VLD+GCG G L  ++A E    +G  +  +   V  + A+  G+ V  +Q  +EE   A + Q +DV+   + ++ + + + ++    RL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|17369082|sp|Q9JXI7.2|UBIG_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JXI7</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.036806</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSRGVNVIQADLE------EGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>GKRVLDVGCGGGILAESMARRGAAFVKGIDMAEQSLETARLHAALNNVADIEYECIRVEDLAEAEPHSFDVVTCMEMMEHVPDPAAIVRACANLVK</Hsp_hseq>
+      <Hsp_midline>G RVLD+GCG G L  ++A        GI++   ++  A         AD+E      E L      SFDV+   + ++ + +   I+R    L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|48474462|sp|Q8FBJ0.1|UBIE_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli CFT073] &gt;gi|122421716|sp|Q1R477.1|UBIE_ECOUT RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli UTI89] &gt;gi|123343386|sp|Q0TAM1.1|UBIE_ECOL5 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli 536] &gt;gi|166234719|sp|A1AI22.1|UBIE_ECOK1 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli APEC O1] &gt;gi|254789923|sp|B7MHC0.1|UBIE_ECO45 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli S88] &gt;gi|254789927|sp|B7N2E1.1|UBIE_ECO81 RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>Q8FBJ0</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0371006</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPEGSRVLDLGCGDGELLAALAEHKKCSGYGIEIDTDNVIAAMSR----------GVNVIQADLEEGLTAFNDQSFDVIVLSQTIQAMQNTEKILRCLMRLAK</Hsp_qseq>
+      <Hsp_hseq>VRRGQTVLDLAGGTGDLTAKFSRLVGETGKVVLADINESMLKMGREKLRNIGVIGNVEYVQANAEA--LPFPDNTFDCITISFGLRNVTDKDKALRSMYRVLK</Hsp_hseq>
+      <Hsp_midline>+  G  VLDL  G G+L A  +     +G  +  D +  +  M R           V  +QA+ E     F D +FD I +S  ++ + + +K LR + R+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

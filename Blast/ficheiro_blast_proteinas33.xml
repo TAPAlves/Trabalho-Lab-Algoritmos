@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>4867</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>512</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>4867</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>512</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|83288412|sp|P0ADY2.1|PPID_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase D; Short=PPIase D; AltName: Full=Rotamase D [Escherichia coli CFT073] &gt;gi|83288413|sp|P0ADY1.1|PPID_ECOLI RecName: Full=Peptidyl-prolyl cis-trans isomerase D; Short=PPIase D; AltName: Full=Rotamase D [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0ADY2</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.03211e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>148</Hsp_gaps>
+      <Hsp_align-len>619</Hsp_align-len>
+      <Hsp_qseq>IEKYRTPA-----QVLLGLIALTFVGFGVST-VSHPGADYIVQVGDEKISEHSINNA-------MQNEQADGGS----------PWRDAVFQSLLQRAYLKQGAKLMGISVSSEQIKQMIVDDPNFHDANGKFSHALLSQYLSQRHMSEDQFVEEIRDQFALQNLVSLVQNGVLVGDAQAEQLIRLTQVNRTIRSHTFN----------------------------PDEF-IAQVK---------ASEADLQKFYNANKKDYLLPQAVKLEYVALNLK--------------DFA----------------------DKQTVSETEVKNAFEERVARLPA-------------HEAKP----SFEQEKAAVENELKMKKAVADFNKAKEKLGDDAFNHPSSLAEAAKNSGLKVETQETWLSRQDAQMSGMPENL-----INAVFSDDVLKKKH----NSEVLTINSETAWVVRAKEVREEKNLLFEEAKDAVRQAYIRTEAAKLAENKAKEVLTQLNGGK------AVDVKWSEVSVLGAQQARQSMPPEAYAELLKAKPANGKPAYVRLTGLPAPVIV----EAQAVTPPEDIAAQLPPAKQALAQQQSANTFDLLI</Hsp_qseq>
+      <Hsp_hseq>MDSLRTAANSLVLKIIFGIIIVSFILTGVSGYLIGGGNNYAAKVNDQEISRGQFENAFNSERNRMQQQLGDQYSELAANEGYMKTLRQQVLNRLIDEALLDQYARELKLGISDEQVKQAIFATPAFQ-VDGKFDNSRYNGILNQMGMTADQYAQALRNQLTTQQLINGVAGTDFMLKGETDELAALVAQQRVVREATIDVNALAAKQPVTEQEIASYYEQNKNNFMTPEQFRVSYIKLDAATMQQPVSDADIQSYYDQHQDQFTQPQRTRYSIIQTKTEDEAKAVLDELNKGGDFAALAKEKSADIISARNGGDMGWLEDATIPD-ELKNAGLKEKGQLSGVIKSSVGFLIVRLDDIQPAKVKSLDEVRDDIAAKVKHEKALDAYYALQQKVSDAASNDTESLAGAEQAAGVKA-TQTGWFSKDN-----LPEELNFKPVADAIFNGGLVGENGAPGINSDIITVDGDRAFVLRISEHKPEAVKPLADVQEQVKALVQHNKAEQQAKVDAEKLLVDLKAGKGAEAMQAAGLKFGEPKTL----SRSGRDPISQAAFALPLPAKDKPSYGMATDMQGNVVLLALDEVKQGSMPED---QKKAMVQGITQNNAQIVFEALM</Hsp_hseq>
+      <Hsp_midline>++  RT A     +++ G+I ++F+  GVS  +   G +Y  +V D++IS     NA       MQ +  D  S            R  V   L+  A L Q A+ + + +S EQ+KQ I   P F   +GKF ++  +  L+Q  M+ DQ+ + +R+Q   Q L++ V     +   + ++L  L    R +R  T +                            P++F ++ +K          S+AD+Q +Y+ ++  +  PQ  +   +    +              DFA                      +  T+ + E+KNA  +   +L                + +P    S ++ +  +  ++K +KA+  +   ++K+ D A N   SLA A + +G+K  TQ  W S+ +     +PE L      +A+F+  ++ +      NS+++T++ + A+V+R  E + E      + ++ V+      +A + A+  A+++L  L  GK      A  +K+ E   L    +R    P + A      PA  KP+Y   T +   V++    E +  + PED   Q     Q + Q  +   F+ L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|3183576|sp|P44092.2|PPID_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase D; Short=PPIase D; AltName: Full=Rotamase D [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44092</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>4.12924e-18</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>AQVLLGLIALTFVGFGVSTVSHPGAD-YIVQVGDEKISEHSINNAMQNE-----QADG-------GSP-----WRDAVFQSLLQRAYLKQGAKLMGISVSSEQIKQMIVDDPNFHDANGKFSHALLSQYLSQRHMSEDQFVEEIRDQFALQNLVSLVQNGVLVGDAQAEQLIRLTQVNRTIRSHTFNPDEFIAQVKASEADLQKFYNANKKDYLLPQAVKLEYVALNLKDFADKQTVSETEVKNAFEERVAR-LPAHEAKPSF--EQEKAAVENELKMKKAVADFNKAK</Hsp_qseq>
+      <Hsp_hseq>SKFILGLIAVSFLVGGMSGYLFSSNDTYAAKVNGEVISQQDFLNRYNQEFEIRAQREGEAFVAQSDSPEFVTALRQNIVNLMIDQELLRQYVKELKLGVSDEMIKRAIVTDPNFQ-VKGKFDNAVYQRILQQNHLTSDGYASILRASLPLEQIQNGVANSEFIVPAQVKNSAEVFFQKRLARLATLSLADEMAKQSVSDDEIKTYYEANQKSFVQPEQVKVQYIDLSADNISRNLQVTDVEIAQYYQDNKAQFMTQHLAHIQFANEQDAKVAYEELQKGANFADVAKAK</Hsp_hseq>
+      <Hsp_midline>++ +LGLIA++F+  G+S       D Y  +V  E IS+    N    E     Q +G        SP      R  +   ++ +  L+Q  K + + VS E IK+ IV DPNF    GKF +A+  + L Q H++ D +   +R    L+ + + V N   +  AQ +    +    R  R  T +  + +A+   S+ +++ +Y AN+K ++ P+ VK++Y+ L+  + +    V++ E+   +++  A+ +  H A   F  EQ+      EL+     AD  KAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|38605184|sp|Q7VKX4.1|PPID_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase D; Short=PPIase D; AltName: Full=Rotamase D [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VKX4</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>2.59133e-11</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>QVLLGLIALTFVGFGVSTVSHPGADY-IVQVGDEKISEHSINNAMQNEQ----ADGGSPWRD-------------AVFQSLLQRAYLKQGAKLMGISVSSEQIKQMIVDDPNFHDANGKFSHALLSQYLSQRHMSEDQFVEEIRDQFALQNLVSLVQNGVLVGD----AQAEQLIRLTQVNRTIRSHTFNPDEFIAQVKASEADLQKFYNANKKDYLLPQAVKLEYVALNLKDFADKQTVSETEVKNAFEERVA</Hsp_qseq>
+      <Hsp_hseq>KVIFALVSLSFVLTGIGT-GLVGADTSAVKVNGTTIDQHAFNTAKARQQNVLNAQLGERFWDLLDTPEYAKQFNQSVLDGLVNDELMRQYAKDLKLGISANQIKSQIVNSQIFQQ-DGKFNNELYQHTLRNNGLTADGYAAIVNEGM----LLSQIQKGIVESDFSVPVTEALLAKLLLQQRQVRLATYPIAKEIANQTASVEELQKYYDAKKTDLVEPEQLVVEYVTFMPKDIEKNIQVTDEQVATYYEKNKA</Hsp_hseq>
+      <Hsp_midline>+V+  L++L+FV  G+ T    GAD   V+V    I +H+ N A   +Q    A  G  + D             +V   L+    ++Q AK + + +S+ QIK  IV+   F   +GKF++ L    L    ++ D +   + +      L+S +Q G++  D         L +L    R +R  T+   + IA   AS  +LQK+Y+A K D + P+ + +EYV    KD      V++ +V   +E+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>9.63622e-09</Hsp_evalue>
+      <Hsp_query-from>255</Hsp_query-from>
+      <Hsp_query-to>443</Hsp_query-to>
+      <Hsp_hit-from>366</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>FEQEKAAVENELKMKKAVADFNKAKEKLGDDAFNHPSSLAEAAKNSGLKVETQETWLSRQDAQMSGMPENLINAVFSDDVLKKKHNSEVLTINSE---TAWVVRAKEVREEKNLLFEEAKDAVRQAYIRTEAAKLAENKAKEVLTQLNGGKAVDVKWSEVSVLGAQQARQSMPPEAYAELLKAKPANGKPAY</Hsp_qseq>
+      <Hsp_hseq>FEMVKDKIVKIIRDELLLTEYSNISHEMANKAFENSSSLAEVAQIAGVNVQT-STQFNREHIPADLNNEKVIKALFNGELRQSGQNSDALDVGNEREPKTMFVRVRDFYPERVRTFDEAKADIEQIVKHQKAEQLLLAKAEENVKALNEGNAVNVDFNEAETLVY--AKRADNPILFKTVFAMQKPTDKPTY</Hsp_hseq>
+      <Hsp_midline>FE  K  +   ++ +  + +++    ++ + AF + SSLAE A+ +G+ V+T  T  +R+        E +I A+F+ ++ +   NS+ L + +E       VR ++   E+   F+EAK  + Q     +A +L   KA+E +  LN G AV+V ++E   L    A+++  P  +  +   +    KP Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|11386976|sp|P57550.1|PPID_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase D; Short=PPIase D; AltName: Full=Rotamase D [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57550</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>6.46907e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>AQVLLGLIALTFVGFGVST-VSHPGADYIVQVGDEKISEHSINNAMQNEQAD-----GGSPWR------------DAVFQSLLQRAYLKQGAKLMG-ISVSSEQIKQMIVDDPNFHDANGKFSHALLSQYLSQRHMSEDQFVEEIRDQFALQNLVSLVQNGVLVGDAQAEQLIRLTQVNRTIRSHTFNPDEFIAQVKASEADLQKFYNANKKDYLLPQAVKLEYVALNLKDF</Hsp_qseq>
+      <Hsp_hseq>VKFILGVIILSLILSTISIYINRDFEKYIATVNGEKISFNLFKKMYFIEREKQKKILGKNFFKFSHNENFTKETYNYVLSQLINNVLLEQYAKNMNYLEVNDNTIKKIIYNSPIFQ-KNNKFSKERYLNYLTSINSTNHEYINIIKKKINTENLIHTISKSNFILKKEEKNIIKLLSQKRIIKKAIVKIDPSIYKKNITNQEAQIYFKKNQDNFYIPEKFKINFVELKTDNF</Hsp_hseq>
+      <Hsp_midline> + +LG+I L+ +   +S  ++     YI  V  EKIS +        E+       G + ++            + V   L+    L+Q AK M  + V+   IK++I + P F   N KFS      YL+  + +  +++  I+ +   +NL+  +     +   + + +I+L    R I+      D  I +   +  + Q ++  N+ ++ +P+  K+ +V L   +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|46396883|sp|Q89A98.1|PPID_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Putative peptidyl-prolyl cis-trans isomerase D; Short=PPIase D; AltName: Full=Rotamase D [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89A98</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0276336</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>DAVFQSLLQRAYLKQGAKLMGISVSSEQIKQMIVDDPNFHDANGKFSHALLSQYLSQRHMSEDQFVEEIRDQFALQNLVSLVQNGVLVGDAQAEQLIRLTQVNRTIRSHTFNPDEFIAQVKASEADLQKFYNANKKDYLLPQAVKLEYVALN</Hsp_qseq>
+      <Hsp_hseq>NIIYESLLQQ-YVHQ----LHFNIDYSHVKNYIYKQTIF-RQNQKFNKEKYYEYLKKLQISSNEYIKKVMTYLEIKEFIKTLTNTDFILNNEKNNILKLFEQGRIVNKSYVNLNNLKLIEHISNKELKRYYINHKHQFLSPKKFKISYFLIN</Hsp_hseq>
+      <Hsp_midline>+ +++SLLQ+ Y+ Q    +  ++    +K  I     F   N KF+     +YL +  +S +++++++     ++  +  + N   + + +   +++L +  R +     N +        S  +L+++Y  +K  +L P+  K+ Y  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81527992|sp|Q92GU9.1|Y1023_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein RC1023; Flags: Precursor [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92GU9</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.404595</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>LGLIALTFVGFGVSTVSHPGADYIVQVGDEKISEHSIN----NAMQNEQADGGSP-----WRDAVFQSLLQRAYLKQGAKLMGISVSSEQIKQMI--VDDPNFHDANGKFSHALLSQYLSQRHMSEDQFVEEIRDQFALQNLVSLVQNGVLVGDAQAE</Hsp_qseq>
+      <Hsp_hseq>LLLIITVFFTFNVAQASLP--NIVASVNDEPITLNEFRARKKMIMALNNVESLTPAQDKQLSDLALKSLIDESLLFQYAG--DREIPQEEIENAIKSIEDRN------KMPHGSLLQYLKSRSVNPDSFISQIKSELIKMNILSSLSRSVQVSNKEID</Hsp_hseq>
+      <Hsp_midline>L LI   F  F V+  S P  + +  V DE I+ +         M     +  +P       D   +SL+  + L Q A      +  E+I+  I  ++D N      K  H  L QYL  R ++ D F+ +I+ +    N++S +   V V + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|122475861|sp|Q212A9.1|LEU1_RHOPB</Hit_id>
+  <Hit_def>RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Rhodopseudomonas palustris BisB18]</Hit_def>
+  <Hit_accession>Q212A9</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.711669</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>518</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>DAQAEQLIRLTQVNRTIRSHTFNPDEFIAQVKASEADLQKFYNANKKDYLLPQA</Hsp_qseq>
+      <Hsp_hseq>DAQAEVSVRLAHEGRSMTARAADPDTLVASAKAYLSALNKIVMKRERDLPVPEA</Hsp_hseq>
+      <Hsp_midline>DAQAE  +RL    R++ +   +PD  +A  KA  + L K     ++D  +P+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|122417356|sp|Q1QJV3.1|LEU1_NITHX</Hit_id>
+  <Hit_def>RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Nitrobacter hamburgensis X14]</Hit_def>
+  <Hit_accession>Q1QJV3</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.34747</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>516</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>DAQAEQLIRLTQVNRTIRSHTFNPDEFIAQVKASEADLQKFYNANKKDYLLPQA</Hsp_qseq>
+      <Hsp_hseq>DAQAEVSVRLSQDGRAMTSKAADPDTLVASAKAYLGALNKIVMKHQRD--VPSA</Hsp_hseq>
+      <Hsp_midline>DAQAE  +RL+Q  R + S   +PD  +A  KA    L K    +++D  +P A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|152013372|sp|Q8IYL3.2|CA174_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=UPF0688 protein C1orf174 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8IYL3</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.3526</Hsp_evalue>
+      <Hsp_query-from>232</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>ETEVKNAFEERVARLPAHEAKPSFEQEKAAVENELKMKKAVADFNKAKEKLGDDAFNHPSSLAEAAKNSGLKVETQ-ETWLSRQDAQMSGMPENLINAVFSDD</Hsp_qseq>
+      <Hsp_hseq>ETPCENEFAEGSALLPGSEAGVSVQQGAASL--PLGGCRVVSDSRLAKTRDGLSVPKHSAGSGAEESNSSSTVQKQNEPGLQTEDVQKP--PLQMDNSVFLDD</Hsp_hseq>
+      <Hsp_midline>ET  +N F E  A LP  EA  S +Q  A++   L   + V+D   AK + G     H +       NS   V+ Q E  L  +D Q    P  + N+VF DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123612993|sp|Q3SQ49.1|LEU1_NITWN</Hit_id>
+  <Hit_def>RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Nitrobacter winogradskyi Nb-255]</Hit_def>
+  <Hit_accession>Q3SQ49</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.40612</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DAQAEQLIRLTQVNRTIRSHTFNPDEFIAQVKASEADLQKFYNANKKD</Hsp_qseq>
+      <Hsp_hseq>DAQAEVSVRLSQDGRAMTSKAADPDTLVASAKAYLGALNKIVMKHQRD</Hsp_hseq>
+      <Hsp_midline>DAQAE  +RL+Q  R + S   +PD  +A  KA    L K    +++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|254808481|sp|B6JB87.1|LEU1_OLICO</Hit_id>
+  <Hit_def>RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Oligotropha carboxidovorans OM5]</Hit_def>
+  <Hit_accession>B6JB87</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.02061</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DAQAEQLIRLTQVNRTIRSHTFNPDEFIAQVKASEADLQKFYNANKKD</Hsp_qseq>
+      <Hsp_hseq>DAQAEVSVRLSQDGRSVTARSSDPDTLVASAKAYLSALNKIISRQQRE</Hsp_hseq>
+      <Hsp_midline>DAQAE  +RL+Q  R++ + + +PD  +A  KA  + L K  +  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|122296456|sp|Q07PI3.1|LEU1_RHOP5</Hit_id>
+  <Hit_def>RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Rhodopseudomonas palustris BisA53]</Hit_def>
+  <Hit_accession>Q07PI3</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.36279</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DAQAEQLIRLTQVNRTIRSHTFNPDEFIAQVKASEADLQKFYNANKKD</Hsp_qseq>
+      <Hsp_hseq>DAQAEVSVRLSHEGRSVTSRASDPDTLVASAKAYLGALNKIVMKRQRD</Hsp_hseq>
+      <Hsp_midline>DAQAE  +RL+   R++ S   +PD  +A  KA    L K     ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|160358754|sp|A2ASS6.1|TITIN_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Titin; AltName: Full=Connectin [Mus musculus]</Hit_def>
+  <Hit_accession>A2ASS6</Hit_accession>
+  <Hit_len>35213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>4.45646</Hsp_evalue>
+      <Hsp_query-from>303</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>34740</Hsp_hit-from>
+      <Hsp_hit-to>34859</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>KVETQETWLSRQDAQMSGMPENLINAVFSDDV-LKKKHNSEVLTINSETAWVVRAKEVRE------EKNLLFEE-------AKDAVRQAYIRTEAAKLAENKAKEVLTQLNGGKAVDVKW</Hsp_qseq>
+      <Hsp_hseq>KVSTQKTSEVTSQKKASAQEEISQKALTSEEIKMSEVKSHETLAIKEEASKVLIAEEVKRSAAASLEKSIVHEEVTKTSQASEEVKTHAEIKTLSTQMNITKGQRATLKANIAGATDVKW</Hsp_hseq>
+      <Hsp_midline>KV TQ+T       + S   E    A+ S+++ + +  + E L I  E + V+ A+EV+       EK+++ EE       +++    A I+T + ++   K +    + N   A DVKW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|75536887|sp|Q4UMV2.1|Y255_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein RF_0255; Flags: Precursor [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UMV2</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>7.45692</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>LLGLIALTFVGFGVSTVSHPGADYIVQVGDEKISEHSIN----NAMQNEQADGGSP-----WRDAVFQSLLQRAYLKQGAKLMGISVSSEQIKQMIVDDP--NFHDANGKFSHALLSQYLSQRHMSEDQFVEEIRDQFALQNLVSLVQNGVLVGDAQAE</Hsp_qseq>
+      <Hsp_hseq>LLLIIITVFFAFNVAQASLP--NIVASVNYEPITLNEFRARKKMIMALNNVESLTPAQDKQLSDLAIKSLIDESLLFQYA-------GDREIPQEEIDNAIKSIEDHN-KMPHGSLLQYLKSRSVNPDSFISQIKSELIKMNILSSLSRSVQVSNKEID</Hsp_hseq>
+      <Hsp_midline>LL +I   F  F V+  S P  + +  V  E I+ +         M     +  +P       D   +SL+  + L Q A          +I Q  +D+   +  D N K  H  L QYL  R ++ D F+ +I+ +    N++S +   V V + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

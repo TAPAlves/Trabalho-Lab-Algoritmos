@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>29721</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>398</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>29721</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>398</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81784709|sp|Q9JZR5.1|Y928_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein NMB0928 [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZR5</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>793.882</Hsp_bit-score>
+      <Hsp_score>2049</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>387</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>MPSEPFGRHNMTNTLISITQDDTMTHIKPVIAALALIGLAACSGSKTEQPKLDYQSRSHRLIKLEVPPDLNNPDQGNLYRLPAGSGAVRASDLEKRRTPAVQQPADAEVLKSVKGVRLERDGSQRWLVVDGKSPAEIWPLLKAFWQENGFDIESEEPAIGQMETEWAENRAKIPQDSLRRLFDTVGLGGIYSTGERDKFIVRIEQGKNGVSDIFFAHKAMKEVYGDKNKDTTMWQPSASDPNLEAAFLTRFMQYLGVDGRQAENALAKKPTLPAANEMARIEGKSLIVFGDYGRNWRRTGLALDRIGLTVVGQNTERHAFLVQKAPNESNAVTEQKPGLFKRLLGKGKAEKPAEQPELIVYAEPVADGSRIVLLNKDGSAYAGKDASALLGKLHSELR</Hsp_qseq>
+      <Hsp_hseq>MPSEPFGRHNATNTLISITQDDTMTHIKPVIAALALIGLAACSGSKTEQPKLDYQSRSHRLIKLEVPPDLNNPDQGNLYRLPAGSGAVRASDLEKRRTPAVQQPADAEVLKSVKGVRLERDGSQRWLVVDGKSPAEIWPLLKAFWQENGFDIKSEEPAIGQMETEWAENRAKIPQDSLRRLFDKVGLGGIYSTGERDKFIVRIEQGKNGVSDIFFAHKAMKEVYGGKDKDTTVWQPSPSDPNLEAAFLTRFMQYLGVDGQQAENASAKKPTLPAANEMARIEGKSLIVFGDYGRNWRRTVLALDRIGLTVVGQNTERHAFLVQKAPNESNAVTEQKPGLFKRLLGKGKAEKPAEQPELIVYAEPVANGSRIVLLNKDGSAYAGKDASALLGKLHSELR</Hsp_hseq>
+      <Hsp_midline>MPSEPFGRHN TNTLISITQDDTMTHIKPVIAALALIGLAACSGSKTEQPKLDYQSRSHRLIKLEVPPDLNNPDQGNLYRLPAGSGAVRASDLEKRRTPAVQQPADAEVLKSVKGVRLERDGSQRWLVVDGKSPAEIWPLLKAFWQENGFDI+SEEPAIGQMETEWAENRAKIPQDSLRRLFD VGLGGIYSTGERDKFIVRIEQGKNGVSDIFFAHKAMKEVYG K+KDTT+WQPS SDPNLEAAFLTRFMQYLGVDG+QAENA AKKPTLPAANEMARIEGKSLIVFGDYGRNWRRT LALDRIGLTVVGQNTERHAFLVQKAPNESNAVTEQKPGLFKRLLGKGKAEKPAEQPELIVYAEPVA+GSRIVLLNKDGSAYAGKDASALLGKLHSELR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|123731833|sp|Q3SJU7.1|BAMC_THIDA</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein assembly factor BamC; Flags: Precursor [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SJU7</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>2.83968e-73</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>LIGLAACSGSKTEQPKLDYQSRSHRLIKLEVPPDLNNPDQGNLYRLP--AGSGAVRASDLEKRRTPAVQQPADAEVLKSVKGVRLERDGSQRWLVVDGKSPAEIWPLLKAFWQENGFDIESEEPAIGQMETEWAENRAKIPQDSLRRLFDTVGLGGIYSTGERDKFIVRIEQGKNGVSDIFFAHKAMKEVYGDKNKDTTMWQPSASDPNLEAAFLTRFMQYLGVDGRQAENALAKKPTLPAANEMARIEGKSLIVFGD-YGRNWRRTGLALDRIGLTVVGQNTERHAFLVQKAPNESNAVTEQKPGLFKRLLGKGKAEKPAEQPELIVYAEPVADG-SRIVLLNKDGSAYAGKDASALLGKLHSELR</Hsp_qseq>
+      <Hsp_hseq>MVTLAASGCGIVESKKIDYKS-SNKLPTLEIPPDLVAPTADNRYAIPDTEGSGTATLSTYSAERKAA--PSGTPSLLPAQDKARIERAGTQRWLVVQA-TPQQVWPVIKDFWQENGFIVNLESPETGVIETDWAENRAKIPQDVIRRTLGKV-LDGLYSTAERDKFRTRIEAGSGG-TEIYLSHRGMMEVYATEGKDKTVWQPRPADPELEAEMLRRLMLRFGVEENRAQTLLTAKQT-PDQARVIRDAGGSLLEMDEGFDRAWRRVGLALDRVGFAVEDRDRSKGTYFVRYIDPDADNASKRDEGMFAK-LAFWRSKKDQASPQLQIVVDEAGEGKSRVRVAGGEGRAADAATQNRIINLLHKELK</Hsp_hseq>
+      <Hsp_midline>++ LAA      E  K+DY+S S++L  LE+PPDL  P   N Y +P   GSG    S     R  A        +L +    R+ER G+QRWLVV   +P ++WP++K FWQENGF +  E P  G +ET+WAENRAKIPQD +RR    V L G+YST ERDKF  RIE G  G ++I+ +H+ M EVY  + KD T+WQP  +DP LEA  L R M   GV+  +A+  L  K T P    + R  G SL+   + + R WRR GLALDR+G  V  ++  +  + V+    +++  +++  G+F + L   +++K    P+L +  +   +G SR+ +   +G A      + ++  LH EL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|391737990|sp|C7RSI4.1|BAMC_ACCPU</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein assembly factor BamC; Flags: Precursor [Candidatus Accumulibacter phosphatis clade IIA str. UW-1]</Hit_def>
+  <Hit_accession>C7RSI4</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.868</Hsp_bit-score>
+      <Hsp_score>577</Hsp_score>
+      <Hsp_evalue>2.60149e-68</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>LIGLAACSGSKTEQPKLDYQSRS-HRLIKLEVPPDLNNPDQGNLYRLP--AGSGAVRASDLEKRRTPAVQQPADAEVLKSVKGVRLERDGSQRWLVVDGKSPAEIWPLLKAFWQENGFDIESEEPAIGQMETEWAENRAKIPQDSLRRLFDTVGLGGIYSTGERDKFIVRIEQGKN-GVSDIFFAHKAMKEVYGDKNKDTTMWQPSASDPNLEAAFLTRFMQYLGVDGRQAENAL--AKKPTLPAANEMARIEGK-SLIVFGDYGRNWRRTGLALDRIGLTVVGQNTERHAFLVQKAPNESNAVTEQKPGLFK-RLLGKGKAEKPAEQPELIVYAEPVADGSRIVLLNKDGSAYAGKDASALLGKLHSELR</Hsp_qseq>
+      <Hsp_hseq>LIGLAGCTGSLLEPKKIEYKTASANKVPTLEVPPDLTSPTRDDRYAVPDTSGKGAATFSAYSAERSPQARAQQKSDVLPEVDTARIERSGNQRWLVASG-SPDKLWGPVKDFWQETGFVIKLELPDAGVMETDWAENRAKIQQDFIRNILGKV-IDSVYSTAERDKFRTRLEPGSTPGTTDIFISHRGMYEIFVTEGKDQTKWQPRPADPELEAEMLRRLMVRLGSEEKRATAAMQAAQEKPLERAKMTRGPDGSGTLEVEESFDRAWRRVGLALDRVGFTVEDRDRSRGLYFVRYVDPEIDNEKKEEGFLSKLNIFKSSSSGKP--QTQYRIFVKDDASRSTVQVLTLEGGVDQSETSKRILSLLYDQLK</Hsp_hseq>
+      <Hsp_midline>LIGLA C+GS  E  K++Y++ S +++  LEVPPDL +P + + Y +P  +G GA   S     R+P  +    ++VL  V   R+ER G+QRWLV  G SP ++W  +K FWQE GF I+ E P  G MET+WAENRAKI QD +R +   V +  +YST ERDKF  R+E G   G +DIF +H+ M E++  + KD T WQP  +DP LEA  L R M  LG + ++A  A+  A++  L  A      +G  +L V   + R WRR GLALDR+G TV  ++  R  + V+    E +   +++  L K  +     + KP  Q +  ++ +  A  S + +L  +G     + +  +L  L+ +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|391737999|sp|A8FW15.1|BAMC_SHESH</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein assembly factor BamC; Flags: Precursor [Shewanella sediminis HAW-EB3]</Hit_def>
+  <Hit_accession>A8FW15</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.186613</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>LEVPPDLNNPDQGNLYRLPAGSGAVRASDLEKRRTPAVQQPADAEVLKSVKGVRLERDGSQRWLVV-----DGKSPAEIWPLLKAFWQENGFDIESEEPAIGQMETEWAENRAKIPQDSLRRLFDTVGLGGIYSTGERDKFIVRIE-QGKNGVSDIFFAHKAMKEVYGDKNKDTTMWQPSASDP-NLEAAFLTRFMQYLGVDGRQAENALAKKPTL----------PAANEMARIEGKSLIVFGDYGRNWRRTGLALDRIGLTVVGQNTERHAFLVQKAPNE---SNAVTEQK----PGLFKRLLGKGKAE</Hsp_qseq>
+      <Hsp_hseq>LTIPEGLNAPTYSKEFDIPKLNS--KADDKLVGKLLDIRPPL--QVLPMAEGTHVEESGDSIKIVVESIDKDVDLKQELYTVLNNYLASQSINVLSEDYDKGLIETDWIENEEVIDSSFW-------GSDEIYQLRQRYQFEVDVRPHGRSG--NIAINLIDHEESFDGKQQNILL---SGEDKRRYTIDMLNNAVAYMSVKRSQAIKAKRLRESLGIDVNVVKGAPATVEGEAAEQSYWLADAPFERTWDRLRIVLPEMGFEIVDMDSNKGLYYINVNDDSGFWSSLWSEKKLPVEEGSYRMLLKEGDSE</Hsp_hseq>
+      <Hsp_midline>L +P  LN P     + +P  +   +A D    +   ++ P   +VL   +G  +E  G    +VV     D     E++ +L  +      ++ SE+   G +ET+W EN   I            G   IY   +R +F V +   G++G  +I       +E +  K ++  +   S  D        L   + Y+ V   QA  A   + +L          PA  E    E    +    + R W R  + L  +G  +V  ++ +  + +    +    S+  +E+K     G ++ LL +G +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122971865|sp|Q15SZ5.1|BAMC_PSEA6</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein assembly factor BamC; Flags: Precursor [Pseudoalteromonas atlantica T6c]</Hit_def>
+  <Hit_accession>Q15SZ5</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.270367</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>AALALIGLAACSGSKTEQP---KLDY--QSRSHRLIKLEVPPDLNNPDQGNLYRLPAGSGAVRASDLEKRRTPAVQQPADAEVLKSVKGVRLERDGSQRWLV----VDGKSPAE--IWPLLKAFWQENGFDIESEEPAIGQMETEWA</Hsp_qseq>
+      <Hsp_hseq>TAIAVSVLSACSSLEERQIASGNFEYTKQQPGH---DIQVPADVDRPNFSQAYKLPALDADAPRNFIGKK----LKVVSPALVLPLVTGSHVD-DGSKDAKVFFDQVDDSQPLDTTIWNSLLSYLEEQGIGIESFDKDKQRLVTDWV</Hsp_hseq>
+      <Hsp_midline> A+A+  L+ACS  +  Q      +Y  Q   H    ++VP D++ P+    Y+LPA       + + K+    ++  + A VL  V G  ++ DGS+   V    VD   P +  IW  L ++ +E G  IES +    ++ T+W </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|59799159|sp|P69327.1|AMYG_ASPAW</Hit_id>
+  <Hit_def>RecName: Full=Glucoamylase; AltName: Full=1,4-alpha-D-glucan glucohydrolase; AltName: Full=Glucan 1,4-alpha-glucosidase; Flags: Precursor [Aspergillus awamori] &gt;gi|59799160|sp|P69328.1|AMYG_ASPNG RecName: Full=Glucoamylase; AltName: Full=1,4-alpha-D-glucan glucohydrolase; AltName: Full=Glucan 1,4-alpha-glucosidase; Flags: Precursor [Aspergillus niger]</Hit_def>
+  <Hit_accession>P69327</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.379017</Hsp_evalue>
+      <Hsp_query-from>340</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>FKRLLGKGKAEKPAEQPELIVYAEPVADGSRIVLLNKDGSAYAGKDASALLGKLHS</Hsp_qseq>
+      <Hsp_hseq>FATAVGSSCSWCDSQAPEILCYLQSFWTGS-FILANFD-SSRSGKDANTLLGSIHT</Hsp_hseq>
+      <Hsp_midline>F   +G   +   ++ PE++ Y +    GS  +L N D S+ +GKDA+ LLG +H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|391737994|sp|H2FU77.1|BAMC_OCESG</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein assembly factor BamC; Flags: Precursor [Oceanimonas sp. GK1]</Hit_def>
+  <Hit_accession>H2FU77</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.09583</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>VIAALALIGLAACSGSKTEQPK---LDYQSRSHRLIKLEVPPDLNNPDQGNLYRLPAGSGAVRASDLEKRRTPAVQQPADAEVLKSVKGVRLERDGSQRWLV---VDGKSPAEIWPLLKAFWQE---------NGFDIESEEPAIGQMETEWAENRAKIPQDSLRR</Hsp_qseq>
+      <Hsp_hseq>MISLLAVAVLAGCSNPETRSQANRGFDYEQETLRTAPLLIPEGLQAPRFNTEYVIPKGTAQGVTGKVLDIRPP-------TQVLPLVRGSEAMTEGSGLWFYQQRLDQPLERELNQALTVFFEQTDTDYDAVANGF--ESSGDAIGAPSQQF---RWQLMPDAVRR</Hsp_hseq>
+      <Hsp_midline>+I+ LA+  LA CS  +T        DY+  + R   L +P  L  P     Y +P G+       +   R P        +VL  V+G     +GS  W     +D     E+   L  F+++         NGF  ES   AIG    ++   R ++  D++RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|71152907|sp|P0A903.1|BAMC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein assembly factor BamC; Flags: Precursor [Escherichia coli K-12] &gt;gi|71152908|sp|P0A904.1|BAMC_SHIFL RecName: Full=Outer membrane protein assembly factor BamC; Flags: Precursor [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0A903</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.95426</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>IAALALIGL-AACSGSKTEQPKL---DYQSRSHRLIKLEVPPDLNNPDQGNLYRLPA--GSGAV-RASDLEKRRTPAVQQPADAEVLKSVKGVRLERDGSQRWLVVDGKSPAEIWPLLKAFWQENGFDIESEEPAIGQMETEWAE</Hsp_qseq>
+      <Hsp_hseq>VAGVSLVLLLAACSSDSRYKRQVSGDEAYLEAAPLAELHAPAGMILPVTSGDYAIPVTNGSGAVGKALDI---RPPA--QP-----LALVSGARTQFTGDTASLLVENGRGNTLWPQVVSVLQAKNYTITQRDDAGQTLTTDWVQ</Hsp_hseq>
+      <Hsp_midline>+A ++L+ L AACS     + ++   +    +  L +L  P  +  P     Y +P   GSGAV +A D+   R PA  QP     L  V G R +  G    L+V+      +WP + +  Q   + I   + A   + T+W +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|113792|sp|P22832.1|AMYG_ASPSH</Hit_id>
+  <Hit_def>RecName: Full=Glucoamylase; AltName: Full=1,4-alpha-D-glucan glucohydrolase; AltName: Full=Glucan 1,4-alpha-glucosidase; Flags: Precursor [Aspergillus shirousami]</Hit_def>
+  <Hit_accession>P22832</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.75303</Hsp_evalue>
+      <Hsp_query-from>340</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>FKRLLGKGKAEKPAEQPELIVYAEPVADGSRIVLLNKDGSAYAGKDASALLGKLHS</Hsp_qseq>
+      <Hsp_hseq>FATAVGSSCSWCDSQAPQILCYLQSFWTGSYI-LANFD-SSRSGKDTNTLLGSIHT</Hsp_hseq>
+      <Hsp_midline>F   +G   +   ++ P+++ Y +    GS I L N D S+ +GKD + LLG +H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|290463112|sp|B9HBA8.1|ACCC1_POPTR</Hit_id>
+  <Hit_def>RecName: Full=Biotin carboxylase 1, chloroplastic; AltName: Full=Acetyl-CoA carboxylase subunit A 1; Short=ACC; Flags: Precursor [Populus trichocarpa]</Hit_def>
+  <Hit_accession>B9HBA8</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>4.71211</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>455</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>WAENRAKIPQDSLRRLFDTVGLGGIYSTGERDKFIVRIEQGKNGVSDIFFAHKAMKEV</Hsp_qseq>
+      <Hsp_hseq>WAPTREKAIERMKRALDDTI-ITGVPTTIDYHKLILEIEDFKNGNVDTAFIPKHEKEL</Hsp_hseq>
+      <Hsp_midline>WA  R K  +   R L DT+ + G+ +T +  K I+ IE  KNG  D  F  K  KE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|113790|sp|P23176.1|AMYG_ASPKA</Hit_id>
+  <Hit_def>RecName: Full=Glucoamylase I; AltName: Full=1,4-alpha-D-glucan glucohydrolase; AltName: Full=Glucan 1,4-alpha-glucosidase; Flags: Precursor [Aspergillus kawachii]</Hit_def>
+  <Hit_accession>P23176</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.94811</Hsp_evalue>
+      <Hsp_query-from>340</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>FKRLLGKGKAEKPAEQPELIVYAEPVADGSRIVLLNKDGSAYAGKDASALLGKLHS</Hsp_qseq>
+      <Hsp_hseq>FATAVGSSCSWCDSQAPQILCYLQSFWTGSYI-LANFD-SRRSGKDTNTLLGSIHT</Hsp_hseq>
+      <Hsp_midline>F   +G   +   ++ P+++ Y +    GS I L N D S  +GKD + LLG +H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|13878347|sp|Q9JPA3.1|BCHB_RUBGI</Hit_id>
+  <Hit_def>RecName: Full=Light-independent protochlorophyllide reductase subunit B; Short=DPOR subunit B; Short=LI-POR subunit B [Rubrivivax gelatinosus IL144]</Hit_def>
+  <Hit_accession>Q9JPA3</Hit_accession>
+  <Hit_len>543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>8.48219</Hsp_evalue>
+      <Hsp_query-from>246</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>AFLTRFMQYLGVDGRQA-ENALAKKPTLPAANEMARIEGKSLIVFGDYGRNWRRTGLALDRIGLTVVGQNTERHAF</Hsp_qseq>
+      <Hsp_hseq>AFIAEVLQLAGLPADTPLPDALSRSPWYSRSVDSTYLTGKRVFIFGDATHAIAAARVATEEMGFTVVGLGTYSREF</Hsp_hseq>
+      <Hsp_midline>AF+   +Q  G+       +AL++ P    + +   + GK + +FGD         +A + +G TVVG  T    F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

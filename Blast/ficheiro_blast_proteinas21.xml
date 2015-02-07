@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>42369</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>204</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>42369</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>204</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|20138930|sp|P58747.1|MOBA_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Putative molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>P58747</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.244</Hsp_bit-score>
+      <Hsp_score>957</Hsp_score>
+      <Hsp_evalue>5.41957e-131</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>LKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQEG</Hsp_qseq>
+      <Hsp_hseq>MKTFALILAGGQASRMGGEDKGLALLGGKALIDHVIDRVRPQVSHIAISTNRNLEEYARRSPHIFPDARQWQHFGPLSALCTAANDLQLAAADWLLVVPCDMPYLPDDLVARFETVSKRTPLCNAYYVETPITMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQIDLQEG</Hsp_hseq>
+      <Hsp_midline>+KTFALILAGG A RMGGEDKGLALL G+ LID VI ++RPQVSHI IS NRNLEEYARRSPH+FPDARQWQHFGPLSALCTAANDLQLAAADWLL+VPCDMPYLPDDLVARFE+VSKRTPLCNA+YVETP+TMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQ DLQEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|13124355|sp|Q9JUA5.1|MOBA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JUA5</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>2.73196e-130</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>LKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQEG</Hsp_qseq>
+      <Hsp_hseq>MKTFALILADGQASRMGGEDKGLALLGGKALIDHVIDRVRPQVSHIAISTNRNLEEYARRSPHIFPDARQWQHFGPLSALCTAANDLQLATADWLLVVPCDMPYLPDDLVARFETVSKRTPLCNAYYVETPITMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQEG</Hsp_hseq>
+      <Hsp_midline>+KTFALILA G A RMGGEDKGLALL G+ LID VI ++RPQVSHI IS NRNLEEYARRSPH+FPDARQWQHFGPLSALCTAANDLQLA ADWLL+VPCDMPYLPDDLVARFE+VSKRTPLCNA+YVETP+TMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|166218965|sp|A1KU57.1|MOBA_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KU57</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>3.00181e-128</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>LKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQEG</Hsp_qseq>
+      <Hsp_hseq>MKTFALILADGQASRMGGEDKGLALLGGKALIDHVIDRVRPQVSHIAISTNRNLEEYARRSPHIFPDARQWQHFGPLSALCTAANDLQLATADWLLVVPCDMPYLPGDLVARFETVSKRTPLCNAYYVETPITMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQIDLQEG</Hsp_hseq>
+      <Hsp_midline>+KTFALILA G A RMGGEDKGLALL G+ LID VI ++RPQVSHI IS NRNLEEYARRSPH+FPDARQWQHFGPLSALCTAANDLQLA ADWLL+VPCDMPYLP DLVARFE+VSKRTPLCNA+YVETP+TMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQ DLQEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|123325731|sp|Q0HPK8.1|MOBA_SHESR</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella sp. MR-7]</Hit_def>
+  <Hit_accession>Q0HPK8</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>4.70076e-30</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>ALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARF----ESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQR</Hsp_qseq>
+      <Hsp_hseq>SLQIDAVILAGGMARRMGGDDKGLVELNGKAMIEHTIERIKPQVKEILINANRNQTRYAEFGFTVLSD-EHTGFLGPLAGMITAMGHTQ---ADYLLVVPCDCPLLPRDLVARLLAAIEANDAELAVASDGEREQPV-----VMLLKPSLRESMTAFLEAGERKIDFWYAKHR</Hsp_hseq>
+      <Hsp_midline>+L+  A+ILAGG+A RMGG+DKGL  L G+ +I+  I +I+PQV  I+I+ANRN   YA     V  D       GPL+ + TA    Q   AD+LL+VPCD P LP DLVAR     E+      + +    E PV     +M ++P + +S   +L +G + +  W  + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122943400|sp|Q0HDC7.1|MOBA_SHESM</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella sp. MR-4]</Hit_def>
+  <Hit_accession>Q0HDC7</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.07652e-29</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>ALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSK----RTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQR</Hsp_qseq>
+      <Hsp_hseq>SLQIDAVILAGGMARRMGGDDKGLVELNGKAMIEHTIERIKPQVKEILINANRNQTRYAEFGFTVLSD-EHTGFLGPLAGMITAMGHTQ---ADYLLVVPCDCPLLPRDLVARLLAAIKANDAELAVASDGEREQPV-----VMLLKPSLRESMTAFLEAGERKIDFWYAKHR</Hsp_hseq>
+      <Hsp_midline>+L+  A+ILAGG+A RMGG+DKGL  L G+ +I+  I +I+PQV  I+I+ANRN   YA     V  D       GPL+ + TA    Q   AD+LL+VPCD P LP DLVAR  +  K       + +    E PV     +M ++P + +S   +L +G + +  W  + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|166218977|sp|A0L2M8.1|MOBA_SHESA</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella sp. ANA-3]</Hit_def>
+  <Hit_accession>A0L2M8</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.44373e-29</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>ALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARF----ESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQR</Hsp_qseq>
+      <Hsp_hseq>SLQIDAVILAGGMARRMGGDDKGLVELNGKAMIEHTIERIKPQVKEILINANRNQTRYAEFGFTVLSD-EHTGFLGPLAGTITAMGHTQ---ADYLLVVPCDCPLLPRDLVARLLAAIEANDAELAVASDGEREQPV-----VMLLKPSLRESMTAFLEAGERKIDFWYAKHR</Hsp_hseq>
+      <Hsp_midline>+L+  A+ILAGG+A RMGG+DKGL  L G+ +I+  I +I+PQV  I+I+ANRN   YA     V  D       GPL+   TA    Q   AD+LL+VPCD P LP DLVAR     E+      + +    E PV     +M ++P + +S   +L +G + +  W  + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166218972|sp|A1S1S7.1|MOBA_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1S1S7</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.72193e-29</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>ALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARF----ESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>SLRIDAVILAGGQARRMGGQDKGLVELLGKPMIEHAITRIQPQVKEILINANRNQNLYAQFADCVFGD-EDSGFLGPLAGMVTAMGKTQ---ADLLLVVPCDCPCLPTDLVARMAAALEAEAADLAVASDGEYEQPV-----VMLLKPSLRDSMKAFLAAGERKIDFWYAKHKVAVVSFADQPNAFVNVNTPEQVEQ</Hsp_hseq>
+      <Hsp_midline>+L+  A+ILAGG A RMGG+DKGL  L G+P+I+  I +I+PQV  I+I+ANRN   YA+ +  VF D       GPL+ + TA    Q   AD LL+VPCD P LP DLVAR     E+ +    + +    E PV     +M ++P +  S   +L +G + +  W  + +   V F +    F ++NT   +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|30316028|sp|Q8E8E3.1|MOBA_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8E8E3</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>7.39345e-29</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>ALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARF----ESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSW</Hsp_qseq>
+      <Hsp_hseq>SLQIDAVILAGGMARRMGGDDKGLVELNGKAMIEHTIERIKPQVKEILINANRNQTRYAEFGFTVLSD-EHTGFLGPLAGMITAMGHTQ---ADYLLVVPCDCPLLPRDLVARLLAAIETNDAELAVASDGEYQQPV-----VMLLKPNLRESMKAFLEAGERKIDFW</Hsp_hseq>
+      <Hsp_midline>+L+  A+ILAGG+A RMGG+DKGL  L G+ +I+  I +I+PQV  I+I+ANRN   YA     V  D       GPL+ + TA    Q   AD+LL+VPCD P LP DLVAR     E+      + +    + PV     +M ++P + +S   +L +G + +  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|189082413|sp|A8HA20.1|MOBA_SHEPA</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella pealeana ATCC 700345]</Hit_def>
+  <Hit_accession>A8HA20</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>2.49503e-28</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>ALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYV------ETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFD-GHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>AAQVDAVILAGGMARRMGGNDKGLVELLNRPMIEHAIERIKPQVKEILINANRNQNRYSEFGFKVFSD-QDSGYLGPLAGMITAMSNTD---AEYLLVVPCDCPLLPTDLVARM--LAKLTAEDAELAVASDGKREQPV-----VMLLKPSLRESMKAFLDAGERKIDFWYAKHHYVVAEFSDQPNAFVNVNTPEQKQQ</Hsp_hseq>
+      <Hsp_midline>A +  A+ILAGG+A RMGG DKGL  L  RP+I+  I +I+PQV  I+I+ANRN   Y+     VF D +   + GPL+ + TA ++     A++LL+VPCD P LP DLVAR   ++K T       V      E PV     +M ++P + +S   +L +G + +  W  +       F      F ++NT    Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1170985|sp|P44899.1|MOBA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44899</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>4.81418e-28</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDAR-QWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYV----ETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>AVILAGGKARRMGGQDKGLQILGKQSLIEHIINRLQPQIHQISINANRNQTEYAKFGFPVFSDELPDFQ--GPLSGMLTA---LEKTKSDFILFTPCDTPFFPMNLLDKLKSAVKNDRTLIAYACDEEREHPV---FCLMSV--QLKEKLRHYLASGERRLLQFMKENGGISVKFTQEEGNFENFNTLDDLKK</Hsp_hseq>
+      <Hsp_midline>A+ILAGG A RMGG+DKGL +L  + LI+ +I +++PQ+  I I+ANRN  EYA+    VF D    +Q  GPLS + TA   L+   +D++L  PCD P+ P +L+ + +S  K      A+      E PV   + +M +  Q+ +    YL SG + L  ++++     V+F + +G+F + NT  DL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81336134|sp|Q4QM57.1|MOBA_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Haemophilus influenzae 86-028NP]</Hit_def>
+  <Hit_accession>Q4QM57</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>9.58934e-28</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDAR-QWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYV----ETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>AVILAGGKARRMGGQDKGLQILGKQSLIEHVINRLQPQIHQISINTNRNQTEYAKFGFPVFSDELPDFQ--GPLSGMLTA---LEKTKSDFILFTPCDTPFFPMNLLDKLKSAVKNDRTLIAYACDEEREHPV---FCLMSV--QLKEKLRHYLASGERRLLQFMKENGGISVKFTQEEGNFENFNTLDDLKK</Hsp_hseq>
+      <Hsp_midline>A+ILAGG A RMGG+DKGL +L  + LI+ VI +++PQ+  I I+ NRN  EYA+    VF D    +Q  GPLS + TA   L+   +D++L  PCD P+ P +L+ + +S  K      A+      E PV   + +M +  Q+ +    YL SG + L  ++++     V+F + +G+F + NT  DL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|189082412|sp|B0TN10.1|MOBA_SHEHH</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella halifaxensis HAW-EB4]</Hit_def>
+  <Hit_accession>B0TN10</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>9.67896e-28</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYV------ETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFD-GHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>AVILAGGMARRMGGNDKGLVELENRPMIEHAIERIQPQVKEILINANRNQNRYSEFGFKVISD-QDTGYLGPLAGMITAMSNTD---AEYLLVIPCDCPLLPTDLVARM--LAKLTAEDAELAVASDGKREQPV-----VMLLKPSLRASMKAFLDAGERKIDFWYAKHHYVVAEFSDQPNAFVNVNTPEQKQQ</Hsp_hseq>
+      <Hsp_midline>A+ILAGG+A RMGG DKGL  LE RP+I+  I +I+PQV  I+I+ANRN   Y+     V  D +   + GPL+ + TA ++     A++LL++PCD P LP DLVAR   ++K T       V      E PV     +M ++P +  S   +L +G + +  W  +       F      F ++NT    Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|238688688|sp|B1KL44.1|MOBA_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella woodyi ATCC 51908]</Hit_def>
+  <Hit_accession>B1KL44</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>2.15049e-27</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>ALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVAR----FESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFD-GHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>SLRIDAVILAGGMARRMGGNDKGLVELLDKPMIEHSIDRIKPQVKEIMINANRNQSRYADLGYPVFSDEDSG-YLGPLAGMITAMGQTQ---ADYLLVVPCDCPLLPLDLVERMLTKIQSEGAELAVASDGKREQPV-----VLLLKPSLRDSMKAFLDGGERKIDFWYAKHHCVVTEFSDQPNAFINVNTPEQKQQ</Hsp_hseq>
+      <Hsp_midline>+L+  A+ILAGG+A RMGG DKGL  L  +P+I+  I +I+PQV  I+I+ANRN   YA     VF D     + GPL+ + TA    Q   AD+LL+VPCD P LP DLV R     +S      + +    E PV     ++ ++P +  S   +L  G + +  W  +       F      F ++NT    Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|189082414|sp|A8FPG1.1|MOBA_SHESH</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella sediminis HAW-EB3]</Hit_def>
+  <Hit_accession>A8FPG1</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>3.16123e-27</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>ALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVAR----FESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFD-GHFADLNT</Hsp_qseq>
+      <Hsp_hseq>SLQIDAVILAGGMARRMGGNDKGLVELQAQPMIKHAIDRIKPQVREILINANRNQTRYAEFGYQVISDEDSG-YLGPLAGMITAMGQTQ---AKYLLVVPCDCPLLPADLVERMLSQLEKENADLAVASDGKREQPV-----VLLLKPELRDSMKAFLDAGERKIDFWYAKHNCAVADFSDQPNAFVNVNT</Hsp_hseq>
+      <Hsp_midline>+L+  A+ILAGG+A RMGG DKGL  L+ +P+I   I +I+PQV  I+I+ANRN   YA     V  D     + GPL+ + TA    Q   A +LL+VPCD P LP DLV R     E  +    + +    E PV     ++ ++P++  S   +L +G + +  W  +       F      F ++NT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|122298330|sp|Q07W69.1|MOBA_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>Q07W69</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>3.19431e-27</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVAR----FESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNT</Hsp_qseq>
+      <Hsp_hseq>AVILAGGMARRMGGNDKGLVDLNGQAMICHTINKLSTQVDQILINANRNQAQYEQWGYTVFSD-QDSGYLGPLAGMVTA---LKQTQADYLLVVPCDCPMLPTDLTARLLAALEQQQADLAVASDGEYEQPV-----VLLLKPHLAASMQAFLDAGERKIDFWYRQHKVAVESFADQPNAFVNINT</Hsp_hseq>
+      <Hsp_midline>A+ILAGG+A RMGG DKGL  L G+ +I   I K+  QV  I+I+ANRN  +Y +    VF D +   + GPL+ + TA   L+   AD+LL+VPCD P LP DL AR     E       + +    E PV     ++ ++P +  S   +L +G + +  W +Q +     F +    F ++NT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|13431700|sp|P57971.1|MOBA_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>P57971</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>6.10941e-27</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFES--VSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFD-GHFADLNTQTDLQ</Hsp_qseq>
+      <Hsp_hseq>AVILAGGQARRMGGVDKGLQLFRNQPLFEHIYQRLQPQIADVAINANRNQQRYAQSGLPVFSDDLAGFQ-GPLSGILTA---LQRAQSNFVLFVPCDCPFFPMDLFAKLKHAVISQHAQLA---YAHDGEREHPTFCLVSTSLAPALAQYLATGERRMLTFMQQQHAIAVDFSATPDAFKNINNLVDLQ</Hsp_hseq>
+      <Hsp_midline>A+ILAGG A RMGG DKGL L   +PL + +  +++PQ++ + I+ANRN + YA+    VF D       GPLS + TA   LQ A ++++L VPCD P+ P DL A+ +   +S+   L    Y       H     +   +  +   YL +G + + +++QQQ A  V F      F ++N   DLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166218976|sp|A4YCA5.1|MOBA_SHEPC</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella putrefaciens CN-32]</Hit_def>
+  <Hit_accession>A4YCA5</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>6.68092e-27</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVAR----FESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>AVILAGGMARRMGGDDKGLVELNGQPMIKHTIDRIKPQVKEILINANRNQTRYAEFGFKVISDEHSG-FLGPLAGMLAA---LGQTKADYLLTVPCDSPQLPMDLVERMLNAIETKGADMAVASNGEQEQPV-----VLLMKPSLRDSMEAFLKAGDRKILLWYAKQNYAVATFADQPNAFMNINTLEEKQQ</Hsp_hseq>
+      <Hsp_midline>A+ILAGG+A RMGG+DKGL  L G+P+I   I +I+PQV  I+I+ANRN   YA     V  D       GPL+ +  A   L    AD+LL VPCD P LP DLV R     E+      + +    E PV     ++ ++P +  S   +L +G + +  W  +Q      F +    F ++NT  + Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|226707468|sp|B8CVC1.1|MOBA_SHEPW</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella piezotolerans WP3]</Hit_def>
+  <Hit_accession>B8CVC1</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>8.88071e-27</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLV----ARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSW</Hsp_qseq>
+      <Hsp_hseq>AVILAGGMARRMGGNDKGLVELESQPMIKHAIDRINPQVKEILINANRNQKVYSEFGFEVISD-QDSGYLGPLAGMITAMSHTQ---ADYLMVVPCDCPLLPRDLVNRMLAQLTTADAELAVASDGKREQPV-----VMLLKPSLRASMKAFLDAGERKIDFW</Hsp_hseq>
+      <Hsp_midline>A+ILAGG+A RMGG DKGL  LE +P+I   I +I PQV  I+I+ANRN + Y+     V  D +   + GPL+ + TA +  Q   AD+L++VPCD P LP DLV    A+  +      + +    E PV     +M ++P +  S   +L +G + +  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|166218975|sp|A3QJA4.1|MOBA_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QJA4</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>1.03447e-25</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVAR----FESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFD-GHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>AVILAGGMARRMGGNDKGLVELNDQPMIKHAIDRIKPQVKQILINANRNQNRYAEFGYPVLSD-EDSGYLGPLAGMITAMGQTQ---ADYLLVVPCDCPLLPTDLVQRMLAAITAEDAEMAVASDGKREQPV-----VLLMKPALRGSMKAFLDAGERKIDFWYAKHHCVVCDFSDQPNAFVNVNTPEQKQQ</Hsp_hseq>
+      <Hsp_midline>A+ILAGG+A RMGG DKGL  L  +P+I   I +I+PQV  I+I+ANRN   YA     V  D     + GPL+ + TA    Q   AD+LL+VPCD P LP DLV R      +      + +    E PV     ++ ++P +  S   +L +G + +  W  +       F      F ++NT    Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81386590|sp|Q65QU6.1|MOBA_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65QU6</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>1.05412e-25</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGH-FADLNTQTDLQ</Hsp_qseq>
+      <Hsp_hseq>AVILAGGLGRRMGGVDKGLQFWRGKPLIETVYQRLHRQIERISINANRNREIYARFGVPVFSD-RLAGFQGPLSGILTA---LERATTDYVLFVPCDCPNFPLNLLEKLKSAVEFSQISLA-YAHDGERDHPTFCLVSTQLKNALADYLAGGERRMLYFMQMHGAVAVDFSTEKQGFININNLADLN</Hsp_hseq>
+      <Hsp_midline>A+ILAGGL  RMGG DKGL    G+PLI+ V  ++  Q+  I I+ANRN E YAR    VF D R     GPLS + TA   L+ A  D++L VPCD P  P +L+ + +S  + + +  A Y       H     +  Q+  +   YL  G + +  ++Q   A  V F  +   F ++N   DL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|166218973|sp|A3CYQ1.1|MOBA_SHEB5</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella baltica OS155] &gt;gi|189082411|sp|A9KW43.1|MOBA_SHEB9 RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella baltica OS195]</Hit_def>
+  <Hit_accession>A3CYQ1</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>1.13546e-25</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSK----RTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSW</Hsp_qseq>
+      <Hsp_hseq>AVILAGGMARRMGGDDKGLVELNGEAMIKHTIDRIKPQVKEILINANRNQTRYAEFGFKVISD-EHTGFLGPLAGMITAMGQTD---ADYLLVVPCDCPLLPTDLVPRMLAAIKAEDAEIAVASDGEYEQPV-----VLLLKPSLRDSMKAFLEAGERKVDFW</Hsp_hseq>
+      <Hsp_midline>A+ILAGG+A RMGG+DKGL  L G  +I   I +I+PQV  I+I+ANRN   YA     V  D       GPL+ + TA        AD+LL+VPCD P LP DLV R  +  K       + +    E PV     ++ ++P +  S   +L +G + +  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|254813441|sp|B8EDQ5.1|MOBA_SHEB2</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella baltica OS223]</Hit_def>
+  <Hit_accession>B8EDQ5</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>1.13546e-25</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSK----RTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSW</Hsp_qseq>
+      <Hsp_hseq>AVILAGGMARRMGGDDKGLVELNGEAMIKHTIDRIKPQVKEILINANRNQTRYAEFGFKVISD-EHTGFLGPLAGMITAMGQTD---ADYLLVVPCDCPLLPTDLVPRMLAAIKAENAEIAVASDGEYEQPV-----VLLLKPSLRDSMKAFLEAGERKVDFW</Hsp_hseq>
+      <Hsp_midline>A+ILAGG+A RMGG+DKGL  L G  +I   I +I+PQV  I+I+ANRN   YA     V  D       GPL+ + TA        AD+LL+VPCD P LP DLV R  +  K       + +    E PV     ++ ++P +  S   +L +G + +  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|166218974|sp|A6WUE5.1|MOBA_SHEB8</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella baltica OS185]</Hit_def>
+  <Hit_accession>A6WUE5</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.5811e-25</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSK----RTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSW</Hsp_qseq>
+      <Hsp_hseq>AVILAGGMARRMGGDDKGLVELNGEAMIKHTIDRIKPQVKEILINANRNQTRYAEFGFKVISD-EHTGFLGPLAGMITAMGQTD---ADYLLVVPCDCPLLPTDLVPRMLAAIKAENAELAVASDGEYEQPV-----VLLLKPSLRDSMKAFLEAGERKVDFW</Hsp_hseq>
+      <Hsp_midline>A+ILAGG+A RMGG+DKGL  L G  +I   I +I+PQV  I+I+ANRN   YA     V  D       GPL+ + TA        AD+LL+VPCD P LP DLV R  +  K       + +    E PV     ++ ++P +  S   +L +G + +  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|166218978|sp|A1RE29.1|MOBA_SHESW</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Shewanella sp. W3-18-1]</Hit_def>
+  <Hit_accession>A1RE29</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.61415e-25</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVAR----FESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSW</Hsp_qseq>
+      <Hsp_hseq>AVILAGGMARRMGGDDKGLVELNGEAMIKHTIDRIKPQVKEILINANRNQTRYAEFGFKVISDEHSG-FLGPLAGMITAMGQTD---ADYLLVVPCDCPLLPLDLVPRMLAAIEAEKAEIAVASDGEYEQPV-----VLLLKPSLRDSMKAFLEAGERKVDFW</Hsp_hseq>
+      <Hsp_midline>A+ILAGG+A RMGG+DKGL  L G  +I   I +I+PQV  I+I+ANRN   YA     V  D       GPL+ + TA        AD+LL+VPCD P LP DLV R     E+      + +    E PV     ++ ++P +  S   +L +G + +  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81399541|sp|Q6LQY0.1|MOBA_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LQY0</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>6.31496e-25</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>PPALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRP-------QILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFD-GHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>PSAEQTSWVILAGGQASRMGGNDKGLVELTGKAMIEHVIGTLSPQTSSITINANRNQERYSQYGS-VFGDNIQ-DYPGPLGGIHAAIHHLD---DEWIGFVPCDCPQLPHDLVER---------MANACSEDTDIAVAHDGEHIQPVVTLLHRRILPKLEAFLANGDRKIILLYRQCNMITVDFSDQPNAFVNLNTPEELQQ</Hsp_hseq>
+      <Hsp_midline>P A +T  +ILAGG A RMGG DKGL  L G+ +I+ VIG + PQ S I I+ANRN E Y++    VF D  Q  + GPL  +  A + L     +W+  VPCD P LP DLV R         + NA   +T + + ++  +I+P       +IL     +L +G + +    +Q     V F      F +LNT  +LQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|189082408|sp|B0UVP3.1|MOBA_HISS2</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Haemophilus somnus 2336]</Hit_def>
+  <Hit_accession>B0UVP3</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.10188e-24</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHF-GPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGH-FADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>AVILAGGQAKRMAGLDKGLQLLQGKPLYQHCLQRLTNQVSSISINANRHQAIYQQSGVEVFGD--ELEDFQGPLSGILTA---LERANTDFVLFVPCDSPFLPLNLCEKLQSAVENSKSLLA-YANDGEREHPAFSLLSTQLKLPLRVYLQSGHRQMLQFFRQHKAISVDFSLQKQAFVNMNTLQDIEK</Hsp_hseq>
+      <Hsp_midline>A+ILAGG A RM G DKGL LL+G+PL    + ++  QVS I I+ANR+   Y +    VF D  + + F GPLS + TA   L+ A  D++L VPCD P+LP +L  + +S  + +    A Y       H     +  Q+      YL SG + +  + +Q +A  V F      F ++NT  D+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|238692763|sp|B3R5L0.1|MOBA_CUPTR</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>B3R5L0</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>2.83201e-24</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYN-------IMYIRP-QILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQ</Hsp_qseq>
+      <Hsp_hseq>GLILAGGRGSRMGGTDKGLQPLHGTPMAMHTMMRLTPQVGGLMINANRNLAAYESFGVPVYTDSVP-DFAGPLAGMLAG---LEQCATPWMVTAPCDSPFLPTDLVARLAQAIE----AEGAELAIPVTLDPDGRRQTQPVFCLMPVSALDSLVAYLSGGGRKIETWAASHRLAEVLFDDAAAFANINTLDELR</Hsp_hseq>
+      <Hsp_midline> LILAGG   RMGG DKGL  L G P+    + ++ PQV  ++I+ANRNL  Y      V+ D+      GPL+ +      L+  A  W++  PCD P+LP DLVAR     +         +  PVT+  +       +  + P   L S + YL  G + + +W    R   V F+    FA++NT  +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|122945151|sp|Q0I1I3.1|MOBA_HISS1</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Haemophilus somnus 129PT]</Hit_def>
+  <Hit_accession>Q0I1I3</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>2.9611e-24</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHF-GPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGH-FADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>AVILAGGQAKRMAGLDKGLQLLQGKPLYQHCLQRLTHQVSSISINANRHQAIYQQSGVEVFGD--ELEDFQGPLSGILTA---LERANTDFVLFVPCDSPFLPLNLCEKLQSAVENSKSLLA-YANDGEREHPAFSLLSTQLKLPLRAYLQSGHRQMLQFFRQHKGISVDFRLQKQAFVNMNTLQDIEK</Hsp_hseq>
+      <Hsp_midline>A+ILAGG A RM G DKGL LL+G+PL    + ++  QVS I I+ANR+   Y +    VF D  + + F GPLS + TA   L+ A  D++L VPCD P+LP +L  + +S  + +    A Y       H     +  Q+      YL SG + +  + +Q +   V F      F ++NT  D+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|122946722|sp|Q0K8K6.1|MOBA_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q0K8K6</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>3.04321e-24</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYN-------IMYIRP-QILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQ</Hsp_qseq>
+      <Hsp_hseq>GLILAGGRGSRMGGTDKGLQPLHGTPMAMHTMMRLTPQVGGLMINANRNLAAYESFGVPVYTDTVP-DFAGPLAGMLAG---LEQCATPWMVTAPCDSPFLPTDLVARLAQAIE----AEGADLAIPVTLDEDGRRQTQPVFCLMPVSALDSLVAYLSGGGRKIETWAASHRLAEVLFDDAAAFANINTLDELR</Hsp_hseq>
+      <Hsp_midline> LILAGG   RMGG DKGL  L G P+    + ++ PQV  ++I+ANRNL  Y      V+ D       GPL+ +      L+  A  W++  PCD P+LP DLVAR     +         +  PVT+  +       +  + P   L S + YL  G + + +W    R   V F+    FA++NT  +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|30316010|sp|Q8D9M4.2|MOBA_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8D9M4</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>4.62434e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>PALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHF-GPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRP-------QILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>PTLTSW-VILAGGQASRMGGKDKGLIALNNKPLIEYVIDRLTPQTSNILINANRNQDDYQQYGP-VFGD--HFQNFPGPMGGIHAG---LLHASTDWVGFVPCDCPRINEDLVERF---------CRAVTDETDILVAHDGNHQQPVFTLYHKRVLPKLTAFLERGDRKIILLYKECHTQYVDFSDSPDCFVNLNTPEELTQ</Hsp_hseq>
+      <Hsp_midline>P L ++ +ILAGG A RMGG+DKGL  L  +PLI+ VI ++ PQ S+I+I+ANRN ++Y +  P VF D   +Q+F GP+  +      L  A+ DW+  VPCD P + +DLV RF         C A   ET + + ++  + +P       ++L     +L  G + +    ++   + V F +    F +LNT  +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|30316093|sp|Q8ZJS4.2|MOBA_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Yersinia pestis] &gt;gi|122979347|sp|Q1C231.1|MOBA_YERPA RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Yersinia pestis Antiqua] &gt;gi|123246780|sp|Q1CN57.1|MOBA_YERPN RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Yersinia pestis Nepal516] &gt;gi|166218981|sp|A4TSH1.1|MOBA_YERPP RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Yersinia pestis Pestoides F] &gt;gi|238687241|sp|A9QYH5.1|MOBA_YERPG RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Yersinia pestis Angola] &gt;gi|238691332|sp|B2JYK0.1|MOBA_YERPB RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Yersinia pseudotuberculosis PB1/+]</Hit_def>
+  <Hit_accession>Q8ZJS4</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>6.47865e-23</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGH-FADLNTQTD</Hsp_qseq>
+      <Hsp_hseq>GVILAGGRSSRMGGNDKGLIPLNGKPLFQYVIDRFKPQVSDLVINANRNQGLYKESGIPVIDDIIT-GFVGPLAGMHAG---LSYASTEWVVFAPCDVPALPSDLVSQLWQGKKQAL---AAYANDDERAHPTFALMHISLKTQLADYLIRGDRKLMLFLDSINAQRVKFSGKADLFSNLNTPAD</Hsp_hseq>
+      <Hsp_midline> +ILAGG + RMGG DKGL  L G+PL   VI + +PQVS +VI+ANRN   Y      V  D       GPL+ +      L  A+ +W++  PCD+P LP DLV++     K+     A Y       H     +   +      YL  G + L  +L    A+ V+F      F++LNT  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|61214257|sp|Q7MKR2.2|MOBA_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MKR2</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>6.47865e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>PALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHF-GPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRP-------QILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>PTLTSW-VILAGGQASRMGGKDKGLIALNNKPLIEYVIDRLTPQTSNILINANRNQDDYQQYGP-VFGD--HFQNFPGPMGGIHAG---LLHASTDWVGFVPCDCPRINEDLVERF---------CRAVTDETDILVAHDGDHQQPVFTLYHKRVLPKLTAFLERGDRKIILLYKECHTQYVDFSDSPDCFVNLNTPEELTQ</Hsp_hseq>
+      <Hsp_midline>P L ++ +ILAGG A RMGG+DKGL  L  +PLI+ VI ++ PQ S+I+I+ANRN ++Y +  P VF D   +Q+F GP+  +      L  A+ DW+  VPCD P + +DLV RF         C A   ET + + ++  + +P       ++L     +L  G + +    ++   + V F +    F +LNT  +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|123624551|sp|Q46YZ3.1|MOBA_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q46YZ3</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>9.86994e-23</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYN-------IMYIRP-QILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQ</Hsp_qseq>
+      <Hsp_hseq>GLILAGGRGSRMGGTDKGLQPLRGTPMAMHTMMRLTPQTGALMINANRNLAAYESFGVPVVTDSVP-DFAGPLAGMLAGLEQCQTG---WMVTAPCDSPFLPADLVPRLAQAIE----AEGAELAIPVTVDTDGRRQLQPVFCLMPVSMLDDLIAYLNGGGRKIETWATSHRLAEVLFDDAGAFANINTLDELR</Hsp_hseq>
+      <Hsp_midline> LILAGG   RMGG DKGL  L G P+    + ++ PQ   ++I+ANRNL  Y      V  D+      GPL+ +       Q     W++  PCD P+LP DLV R     +         +  PVT+  +       +  + P  +L   I YL  G + + +W    R   V F+  G FA++NT  +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|229486162|sp|A4SVU3.1|MOBA_POLSQ</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Polynucleobacter necessarius subsp. asymbioticus QLW-P1DMWA-1]</Hit_def>
+  <Hit_accession>A4SVU3</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.00731e-22</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTP--LCNAFYVETPVTMHYNIM-YIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQ</Hsp_qseq>
+      <Hsp_hseq>GLILAGGRAQRMGGIDKGLISFHQKPLIESAINRLKNQVGPILINANRNITKYAGYGYPVVMDETP-DFSGPLAGFSVG---LKACKTSYLLTSPCDSPLLPLDLAARLAAEMERGPFDLVYASSLESGKTWAQPVFCLMRANLQDSLTAFLTKGDLKIDRWFKELKSSTVIFDDAQAFANVNTPEELK</Hsp_hseq>
+      <Hsp_midline> LILAGG A RMGG DKGL     +PLI+  I +++ QV  I+I+ANRN+ +YA     V  D       GPL+        L+     +LL  PCD P LP DL AR  +  +R P  L  A  +E+  T    +   +R  +  S   +L  G   +  W ++ ++  V F+    FA++NT  +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|15214068|sp|P58221.1|MOBA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>P58221</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.25986e-22</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDL</Hsp_qseq>
+      <Hsp_hseq>GVVLAGGKARRMGGVDKGLLDLNGKPLWQHVADALMTQLSHVVVNANRHQEIYQAGGLKVIEDSLA-DYPGPLAGMLSV---MQQEAGEWFLFCPCDTPYIPHDLAARLNHQRKDAPVV---WVHDGERDHPTIAMVNRAIEPLLLEYLQAGERRVMAFMRLAGGHAVDFSDHKDAFVNVNTPEEL</Hsp_hseq>
+      <Hsp_midline> ++LAGG A RMGG DKGL  L G+PL   V   +  Q+SH+V++ANR+ E Y      V  D+    + GPL+ + +    +Q  A +W L  PCD PY+P DL AR     K  P+    +V      H  I  +   I    + YL +G + + ++++      V F +    F ++NT  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|167011824|sp|A7FCP0.1|MOBA_YERP3</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Yersinia pseudotuberculosis IP 31758] &gt;gi|238688494|sp|B1JR17.1|MOBA_YERPY RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>A7FCP0</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.0719e-22</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGH-FADLNTQTD</Hsp_qseq>
+      <Hsp_hseq>GVILAGGRSSRMGGNDKGLIPLNGKPLFQYVIDRFKPQVSDLLINANRNQGLYKESGIPVIDDIIT-GFVGPLAGMHAG---LSYASTEWVVFAPCDVPALPSDLVSQLWQGKKQAL---AAYANDDERAHPTFALMHISLKTQLADYLIRGDRKLMLFLDSINAQRVKFSGKADLFSNLNTPAD</Hsp_hseq>
+      <Hsp_midline> +ILAGG + RMGG DKGL  L G+PL   VI + +PQVS ++I+ANRN   Y      V  D       GPL+ +      L  A+ +W++  PCD+P LP DLV++     K+     A Y       H     +   +      YL  G + L  +L    A+ V+F      F++LNT  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|13124357|sp|Q9KRV8.1|MOBA_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KRV8</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.27336e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MKTSNFPKSPPALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHV---FPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSK</Hsp_qseq>
+      <Hsp_hseq>ITTQTLPTLQPS-DTSWVILAGGQASRMGGQDKGLIQLNGQPLVQHVIDKLAPQTPTLLINANRNQSQYQQFAPVISDEFPD-----YPGPLGGIHAG---LSHAPTDWVGFVPCDSPLICDDLVARFCQAVK</Hsp_hseq>
+      <Hsp_midline>+ T   P   P+  T  +ILAGG A RMGG+DKGL  L G+PL+  VI K+ PQ   ++I+ANRN  +Y + +P +   FPD     + GPL  +      L  A  DW+  VPCD P + DDLVARF    K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|417306|sp|P32173.1|MOBA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide biosynthesis protein A; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase; AltName: Full=Protein FA [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P32173</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>2.93453e-22</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDL</Hsp_qseq>
+      <Hsp_hseq>GVVLAGGKARRMGGVDKGLLELNGKPLWQHVADALMTQLSHVVVNANRHQEIYQASGLKVIEDSLA-DYPGPLAGMLSV---MQQEAGEWFLFCPCDTPYIPPDLAARLNHQRKDAPVV---WVHDGERDHPTIALVNRAIEPLLLEYLQAGERRVMVFMRLAGGHAVDFSDHKDAFVNVNTPEEL</Hsp_hseq>
+      <Hsp_midline> ++LAGG A RMGG DKGL  L G+PL   V   +  Q+SH+V++ANR+ E Y      V  D+    + GPL+ + +    +Q  A +W L  PCD PY+P DL AR     K  P+    +V      H  I  +   I    + YL +G + +  +++      V F +    F ++NT  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|254813442|sp|B7VNT9.1|MOBA_VIBSL</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Vibrio tasmaniensis LGP32]</Hit_def>
+  <Hit_accession>B7VNT9</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>4.63741e-22</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>KTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHV---FPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKR</Hsp_qseq>
+      <Hsp_hseq>QTSWVILAGGQASRMGGKDKGLVELNGSPLIQYVINKLSQQDVSITINANRNLDSYQAFAPVVSDSFPD-----YPGPLGGIHAG---LKNASTDWVGFVPCDSPQISDDLVERFCAAVKE</Hsp_hseq>
+      <Hsp_midline>+T  +ILAGG A RMGG+DKGL  L G PLI  VI K+  Q   I I+ANRNL+ Y   +P V   FPD     + GPL  +      L+ A+ DW+  VPCD P + DDLV RF +  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|30316090|sp|Q8Z2R9.1|MOBA_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z2R9</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>7.39882e-22</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>GVVLAGGKARRMGGADKGLLELDGKPLWRHVADALAPQLATVVISANRHLDIYQASGLKVIPDSIA-DFPGPLAGMLSV---FQQVAGDWFLFCPCDNPCIPHNLVDRLAAHRHGAPV---VWVHDGERDHPTIALINRAVEPQLTAYLQAGERRVMIFMRQVGGHAVDFSDCKEAFVNVNTPEELAQ</Hsp_hseq>
+      <Hsp_midline> ++LAGG A RMGG DKGL  L+G+PL   V   + PQ++ +VISANR+L+ Y      V PD+      GPL+ + +     Q  A DW L  PCD P +P +LV R  +     P+    +V      H  I  I   +      YL +G + +  +++Q     V F +    F ++NT  +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|254813435|sp|B9MA54.1|MOBA_ACIET</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Acidovorax ebreus TPSY]</Hit_def>
+  <Hit_accession>B9MA54</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>8.32518e-22</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQ---------ILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGH----FADLNTQTDLQ</Hsp_qseq>
+      <Hsp_hseq>GLILAGGRGSRMGGVDKGLQNFRGLPLALHTLMRLQPQVGDVMINANRNLAAYESFGVPVWPDGLA-DYAGPLAGFLTG---LERCETPWLLTVPCDTPLFPPDLAARLAQAATREGADIAMAAAPEADERDGTVRVRTQPVFCLLRVTLLESLVRFTQGGGRKIDRWTEQHACAVVAFDQPGDDPHAFYNANTLAELH</Hsp_hseq>
+      <Hsp_midline> LILAGG   RMGG DKGL    G PL    + +++PQV  ++I+ANRNL  Y      V+PD     + GPL+   T    L+     WLL VPCD P  P DL AR    + R     A             + +R Q         +L+S + +   G + +  W +Q     V F+  G     F + NT  +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|30316040|sp|Q8FBH7.1|MOBA_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FBH7</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.13283e-21</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDL</Hsp_qseq>
+      <Hsp_hseq>GVVLAGGKARRMGGVDKGLLELNGKPLWQYVADALMTQLSHVVVNANRHQEIYQVSGLKVIEDSLA-DYPGPLAGMLSV---MQQEAGEWFLFCPCDTPYIPHDLAARLTHQRKDAPVV---WVHDGERDHPTIALVNRAIEPLLLEYLQAGERRVMAFMRLAGGHAVDFSDRKEAFINVNTPEEL</Hsp_hseq>
+      <Hsp_midline> ++LAGG A RMGG DKGL  L G+PL   V   +  Q+SH+V++ANR+ E Y      V  D+    + GPL+ + +    +Q  A +W L  PCD PY+P DL AR     K  P+    +V      H  I  +   I    + YL +G + + ++++      V F +    F ++NT  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81425227|sp|Q7VY88.1|MOBA_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q7VY88</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.15863e-21</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFES--VSKRTPLC-NAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>GLILAGGRASRMGSVDKGLQNFHGMPLAMHTLLRLGPQVGDIMINANRNLAAYEAMGAPVWPDALP-DFPGPLAGF---AAGLERCETPYMVTAPCDTPNFPADMVSRLADALIAEGAQIAMAATTADGALRTQPVFCLMRIDLLDSLLEFLHSGQRKTEIWANQHRCAIVRFDDAQAFAGANTLAELRQ</Hsp_hseq>
+      <Hsp_midline> LILAGG A RMG  DKGL    G PL    + ++ PQV  I+I+ANRNL  Y      V+PDA      GPL+     A  L+     +++  PCD P  P D+V+R     +++   +   A   +  +        +R  +L S + +L SG +    W  Q R   VRF+    FA  NT  +L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|167011823|sp|A8GLJ4.1|MOBA_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GLJ4</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.77213e-21</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEF-DGHFADLNTQTD</Hsp_qseq>
+      <Hsp_hseq>GIILAGGRATRMGGEDKGLIQIAGIPLYQYVLSRLRPQVSLMAISANRNQARYGESGLPIVSDLTP-DFSGPLAGMLAG---LKHAATEWVVFVPCDVPDFPATLV---DQLWQQKGSSLAAYASDGERAHPTLALLHTSLAPQLKEYLARGERKLMLFLDAAGARKIAFSGQQAAFHNLNTRED</Hsp_hseq>
+      <Hsp_midline> +ILAGG A RMGGEDKGL  + G PL   V+ ++RPQVS + ISANRN   Y      +  D       GPL+ +      L+ AA +W++ VPCD+P  P  LV   + + ++     A Y       H  +  +   +      YL  G + L  +L    AR + F      F +LNT+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|30316094|sp|Q8ZKU9.1|MOBA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZKU9</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.86081e-21</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRF-EFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>GVVLAGGKARRMGGADKGLLELGGKPLWRHVADALAPQLATVVISANRHLDIYQASGLKVIPDSIA-DFPGPLAGMLSV---FQQVAGDWFLFCPCDNPCIPHNLVDRLAAQRHGAPV---VWVHDGERDHPTIALINRAVEPQLTAYLQAGERRVMIFMRQVGGHAVDFSDCKEAFVNVNTPEELAQ</Hsp_hseq>
+      <Hsp_midline> ++LAGG A RMGG DKGL  L G+PL   V   + PQ++ +VISANR+L+ Y      V PD+      GPL+ + +     Q  A DW L  PCD P +P +LV R  +     P+    +V      H  I  I   +      YL +G + +  +++Q     V F +    F ++NT  +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166218953|sp|A1W6R1.1|MOBA_ACISJ</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Acidovorax sp. JS42]</Hit_def>
+  <Hit_accession>A1W6R1</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.86273e-21</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>ALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQ---------ILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGH----FADLNTQTDLQ</Hsp_qseq>
+      <Hsp_hseq>GLILAGGRGSRMGGVDKGLQNFRGLPLALHTLMRLQPQVGDVMINANRNLAAYESFGVPVWPDGLA-DYAGPLAGFLTG---LERCETPWLLTVPCDTPLFPPDLAARLAQAAMREGADIAMAAAPEADERDGTVRVRTQPVFCLLRVTLLESLVRFTQGGGRKIDRWTEQHACAVVPFDQPGDDPHAFYNANTLAELH</Hsp_hseq>
+      <Hsp_midline> LILAGG   RMGG DKGL    G PL    + +++PQV  ++I+ANRNL  Y      V+PD     + GPL+   T    L+     WLL VPCD P  P DL AR    + R     A             + +R Q         +L+S + +   G + +  W +Q     V F+  G     F + NT  +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|226700967|sp|B5FEE3.1|MOBA_VIBFM</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Vibrio fischeri MJ11]</Hit_def>
+  <Hit_accession>B5FEE3</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>2.27815e-21</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>KTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHF-GPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQI</Hsp_qseq>
+      <Hsp_hseq>QTSWVILAGGQARRMGGKDKGFVLFQNKPLIEHALDTLTSQTDQIAINANRSIEEYSRYAV-TFSD--QFSEYPGPLAGMHSGLVNMN---SDWVGFIPCDSPNLPNNLVSL---------LCNAVKEDTDIVVAHDGEYMQPVV</Hsp_hseq>
+      <Hsp_midline>+T  +ILAGG A RMGG+DKG  L + +PLI+  +  +  Q   I I+ANR++EEY+R +   F D  Q+  + GPL+ + +   ++    +DW+  +PCD P LP++LV+          LCNA   +T + + ++  Y++P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|75353928|sp|Q5E4Z6.1|MOBA_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E4Z6</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>4.01189e-21</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>KTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHF-GPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQI</Hsp_qseq>
+      <Hsp_hseq>QTSWVILAGGQARRMGGKDKGFVLFQDKALIEHALDTLTSQTDQIAINANRSIEEYSRYAV-TFPD--QFSEYPGPLAGMHSGLVNMN---SDWVGFIPCDSPNLPNNLVSL---------LCNAVKEDTDIVVAHDGEYMQPVV</Hsp_hseq>
+      <Hsp_midline>+T  +ILAGG A RMGG+DKG  L + + LI+  +  +  Q   I I+ANR++EEY+R +   FPD  Q+  + GPL+ + +   ++    +DW+  +PCD P LP++LV+          LCNA   +T + + ++  Y++P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|238691790|sp|B2U956.1|MOBA_RALPJ</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Ralstonia pickettii 12J]</Hit_def>
+  <Hit_accession>B2U956</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>5.97228e-21</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>PALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYN------------IMYIRPQILQSAIPYLFSGMKTLRSWLQQQRARPVRFEFDGHFADLNTQTDLQE</Hsp_qseq>
+      <Hsp_hseq>PTSDITGLILAGGRGSRMGGVDKGLQTFRGAPMAMHTLMRLSPQVGHMLINANRNLAAYESFGVPVVADSVP-DFAGPLAGILAGLEQCQ---TRYLLTAPCDSPFVPTDLAAKLSQAMEE---ANA-RIAMPVTMEPDAQGQPRRQVQPVFCLIDALLADDLIVYLQGGGRKIETWTARHATVDVLFDDSTAFANINTLEELHQ</Hsp_hseq>
+      <Hsp_midline>P      LILAGG   RMGG DKGL    G P+    + ++ PQV H++I+ANRNL  Y      V  D+      GPL+ +       Q     +LL  PCD P++P DL A+     +     NA  +  PVTM  +               I   +    I YL  G + + +W  +     V F+    FA++NT  +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|226700966|sp|B6EKR0.1|MOBA_ALISL</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum cofactor guanylyltransferase; Short=MoCo guanylyltransferase; AltName: Full=GTP:molybdopterin guanylyltransferase; AltName: Full=Mo-MPT guanylyltransferase; AltName: Full=Molybdopterin guanylyltransferase; AltName: Full=Molybdopterin-guanine dinucleotide synthase; Short=MGD synthase [Aliivibrio salmonicida LFI1238]</Hit_def>
+  <Hit_accession>B6EKR0</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.05587e-20</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>KTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVISANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDDLVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQI</Hsp_qseq>
+      <Hsp_hseq>QTNWVILAGGQARRMGGQDKGFVTFQDKPLIEHALDTLRSQTDHIAINANRSIDNYSRYTV-TFKDEFT-DYPGPLAGMHAGLVNM---ASDWVGFIPCDSPNLPNNLISL---------LCNAVKDDTDIVVAHDGEYMQPVV</Hsp_hseq>
+      <Hsp_midline>+T  +ILAGG A RMGG+DKG    + +PLI+  +  +R Q  HI I+ANR+++ Y+R +   F D     + GPL+ +     ++   A+DW+  +PCD P LP++L++          LCNA   +T + + ++  Y++P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

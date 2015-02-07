@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>51925</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>261</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>51925</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>261</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81637729|sp|P94538.2|YSGA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized tRNA/rRNA methyltransferase YsgA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P94538</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>3.86623e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MKHISSTNNEHIRHLHRLLSQGKFRRQYAQTVLEGVHLLQVFLQSGRKPVGVYIP-EAKMPSEEVLKLTAVLPEDGI--FSVSDGILKKISSLSCADDILTLIDIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYED-------RVFATALREEKQAVLYGE-DLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLF</Hsp_qseq>
+      <Hsp_hseq>MKQIESAKNQKVKDWKKLHTK-KERTKTNTFLIEGEHLVEEALKSPGIVKEILVKDETRIPSD---------LETGIQCYMLSEDAFSAVTETETPQQIAAVCHMP-EEKLATARKVLLIDAVQDPGNLGTMIRTADAAGLDAVVLGDGTADAFNGKTLRSAQGSHFHIPVVRRN-----LPSYVDELKAEGVKVYGTALQ---NGAPYQEIPQSESFALIVGNEGAGVDAALLEKTDLNLYVPLYGQAESLNVAVAAAILVY</Hsp_hseq>
+      <Hsp_midline>MK I S  N+ ++   +L ++ K R +    ++EG HL++  L+S      + +  E ++PS+          E GI  + +S+     ++       I  +  +P    L       ++D VQDPGN+GT++R+A AAG+  VVLG G ADA++ K LR+  G+HF + +  +      L  Y D       +V+ TAL+       Y E    E  A + GNEGAGV  A+L++ D  + +P++   ESLNVA+AA I ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|3915481|sp|P74261.1|Y1673_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized tRNA/rRNA methyltransferase slr1673 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P74261</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>1.115e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>ISSTNNEHIRHLHRLLSQGKFRRQYAQTVLEGVHLLQVFLQSGRK-PVGVYIPEAKMPSEEVLKLTAVLPEDGIFS--VSDGILKKISSLSCADDIL-TLIDIPLGGTLPDKGDCA-VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFA-TALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRAA</Hsp_qseq>
+      <Hsp_hseq>ITSTQNPLVKQL-RQLHQTKGRKQQGQLLLEGTHLLEVALAQGKGFNHGCF---TAMWQEKNPVLADRLMAQSVHSYLVSGEVLAKMASTVNPDGVVATLTMDQFWRSPPPHARLGLVLERLQDPGNLGTILRTAAATGVEGIWLTADCVDPTSPKVLRSSAGSSLLLPQQQLQSLPPLLEKFHTQGLQLIATVPQATQTLWEIDFQRPTIVIFGSEGQGLSAPVLELTTHQVAIPQAPQVESLNVAIAVGVMLYEARRQQWA</Hsp_hseq>
+      <Hsp_midline>I+ST N  ++ L R L Q K R+Q  Q +LEG HLL+V L  G+    G +     M  E+   L   L    + S  VS  +L K++S    D ++ TL       + P       VL+ +QDPGN+GT+LR+AAA GV  + L   C D  SPKVLR+  G+  LL       L   L  +  +     A   +    L+  D   PT  +FG+EG G+   VL+     V IP     ESLNVA+A  + L+E  RQ+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81889274|sp|Q5ND52.1|MRM3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=rRNA methyltransferase 3, mitochondrial; AltName: Full=16S rRNA (guanosine(1370)-2&apos;-O)-methyltransferase; AltName: Full=16S rRNA [Gm1370] 2&apos;-O-methyltransferase; AltName: Full=RNA methyltransferase-like protein 1; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q5ND52</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>9.30054e-23</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>FRRQYAQTVLEGVHLLQVFLQSGRKPVGV------YIPEAKMPSEEVLKLTAVLPEDGIFSVSDGILKK--ISSLSCADDI-LTLIDIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLE-----------IWLA----HYE---------DRVFATALREEKQAVLYGEDL----------------------CEPTAWVFGNEGAGVGKAVLDRAD----KCVRIPMHDATESLNVAMAATICLFEQMRQ</Hsp_qseq>
+      <Hsp_hseq>FREKQGKILLEGRRLIADALKAGAVPKAFFFSRLEYVKELPVDKLKDVSLIKVKFED-IKDWSDLVTPQGIMGIFAKPDPVKMTYPETPLHHTLPL---VLICDNLRDPGNLGTILRSAAGAGCSKVLLTKGCVDAWEPKVLRAGMGAHFQVPIVNNVEWETVPNHLPPDTRVYVADNCGHYAQVQMSDKTGDRDWACDRRFLKFHK-YEEDLDTKTRKDWLPKLEVQSYDLDWTGAPAAVVIGGETHGVSLESLQLAESTGGKRLLIPVVPGVDSLNSAMAASILLFEGKRQ</Hsp_hseq>
+      <Hsp_midline>FR +  + +LEG  L+   L++G  P         Y+ E  +   + + L  V  ED I   SD +  +  +   +  D + +T  + PL  TLP      + D ++DPGN+GT+LRSAA AG   V+L +GC DAW PKVLRAGMGAHF + I +  + E           +++A    HY          DR +A   R  K    Y EDL                        P A V G E  GV    L  A+    K + IP+    +SLN AMAA+I LFE  RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|82184432|sp|Q6GPJ4.1|MRM3_XENLA</Hit_id>
+  <Hit_def>RecName: Full=rRNA methyltransferase 3, mitochondrial; AltName: Full=RNA methyltransferase-like protein 1; AltName: Full=rRNA (guanosine-2&apos;-O)-methyltransferase; Flags: Precursor [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q6GPJ4</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>1.07606e-22</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>92</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>KFRRQYAQTVLEGVHLLQVFLQSGRKPVGVYI---------PEAKMPSEEVLKLT---------AVLPED--GIFSVSDGILKKISSLSCADDILTLIDIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEI------------------------------------WLAHYEDRVFAT-------ALREEKQAVLYGEDL----------CEPTAWVFGNEGAGVGKAVLDRADKC----VRIPMHDATESLNVAMAATICLFEQMRQ</Hsp_qseq>
+      <Hsp_hseq>KFRDRHGQVLLEGQRLLTDALDSGAVLQTLFFSRVDYLKEFPPDKLRKTNLIKVNFENIKIWSDLVTPQGLMGIFAKPDHVK------------MTYPDTQTKHTLPLSLIC---DNIRDPGNLGTILRCAAGAGCSKVLLTKGCVDAWEPKVLRAGMGAHFRLPIITSLDWDIVPNYLPAGTKVFLADNFRPDNQNKPAEVSEKASDYGWVATDPKRIFITEDGYESSSDEEDNTDKLYIPGLEVQSYFERWAQGPCAVVIGGETHGLSIESLLLAEKSNGKRLNIPVVPGIDSLNSAMAASILLFEGKRQ</Hsp_hseq>
+      <Hsp_midline>KFR ++ Q +LEG  LL   L SG     ++          P  K+    ++K+           V P+   GIF+  D +             +T  D     TLP    C   D ++DPGN+GT+LR AA AG   V+L +GC DAW PKVLRAGMGAHF L I +  D +I                                    W+A    R+F T       +  E+    LY   L            P A V G E  G+    L  A+K     + IP+    +SLN AMAA+I LFE  RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|74734265|sp|Q9HC36.2|MRM3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=rRNA methyltransferase 3, mitochondrial; AltName: Full=16S rRNA (guanosine(1370)-2&apos;-O)-methyltransferase; AltName: Full=16S rRNA [Gm1370] 2&apos;-O-methyltransferase; AltName: Full=RNA methyltransferase-like protein 1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9HC36</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>5.61565e-22</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>FRRQYAQTVLEGVHLLQVFLQSGRKPVGVYIPEAKMPSE-EVLKLTAVLPEDGIFSVSDGILKKISSLSCADDILTLIDIP-----------LGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDI---------------------------YSQADLEIWLAHY----EDRVFATALREEKQAV---------------LYGEDLCE-PTAWVFGNEGAGVGKAVLDRAD----KCVRIPMHDATESLNVAMAATICLFEQMRQ</Hsp_qseq>
+      <Hsp_hseq>FREKQGKILLEGRRLISDALKAGAVPKMFFFSRLEYLKELPVDKLKGV----SLIKVKFEDIKDWSDLVTPQGIMGIFAKPDHVKMTYPKTQLQHSLPLLLIC---DNLRDPGNLGTILRSAAGAGCSKVLLTKGCVDAWEPKVLRAGMGAHFRMPIINNLEWETVPNYLPPDTRVYVADNCGLYAQAEMSNKASDHGWVCDQRVMKFHKYEEEEDVETGASQDWLPHVEVQSYDSDWTEAPAAVVIGGETYGVSLESLQLAESTGGKRLLIPVVPGVDSLNSAMAASILLFEGKRQ</Hsp_hseq>
+      <Hsp_midline>FR +  + +LEG  L+   L++G  P   +    +   E  V KL  V     +  V    +K  S L     I+ +   P           L  +LP    C   D ++DPGN+GT+LRSAA AG   V+L +GC DAW PKVLRAGMGAHF + I                           Y+QA++    + +    + RV      EE++ V                Y  D  E P A V G E  GV    L  A+    K + IP+    +SLN AMAA+I LFE  RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|160358655|sp|A4QNL8.1|MRM3_XENTR</Hit_id>
+  <Hit_def>RecName: Full=rRNA methyltransferase 3, mitochondrial; AltName: Full=RNA methyltransferase-like protein 1; AltName: Full=rRNA (guanosine-2&apos;-O)-methyltransferase; Flags: Precursor [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>A4QNL8</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>4.42755e-21</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>92</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>KFRRQYAQTVLEGVHLLQVFLQSG---------RKPVGVYIPEAKMPSEEVLKLT---------AVLPED--GIFSVSDGILKKISSLSCADDILTLIDIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEI------------------------------------WLAHYEDRV------FATALREEKQA----------VLYGEDLCE-PTAWVFGNEGAGVGKAVLDRADKC----VRIPMHDATESLNVAMAATICLFEQMRQ</Hsp_qseq>
+      <Hsp_hseq>KFRDRHGQVLLEGRRLLTDALESGAVLQTLFFSRVDYLKLFPPDKLRKANLIKVNFDNIKIWSDVVAPQGLMGIFAKPDH--EKISYPTTQ----TKHTLPLS---------LICDNIRDPGNLGTILRCAAGAGCNKVLLTKGCVDAWEPKVLRAGMGAHFRLPVISSLDWDIVPNYLSAGTKVFLADNFRPDMKHKTGDVSEKASDYGWVSTNPRRILITEEGYESSSDEEDNADKLYIPGLEVQSYFESWAQSPCAIVIGGETHGLSIESLLLAEKSNGKRLYIPVVPDIDSLNSAMAASILLFEGKRQ</Hsp_hseq>
+      <Hsp_midline>KFR ++ Q +LEG  LL   L+SG         R       P  K+    ++K+           V P+   GIF+  D   +KIS  +      T   +PL           + D ++DPGN+GT+LR AA AG   V+L +GC DAW PKVLRAGMGAHF L + S  D +I                                    W++    R+      + ++  EE  A            Y E   + P A V G E  G+    L  A+K     + IP+    +SLN AMAA+I LFE  RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|52783312|sp|Q87VK2.1|RLMB_PSESM</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q87VK2</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.73898e-20</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRAA</Hsp_qseq>
+      <Hsp_hseq>VLDGVTDPHNLGACLRTADAAGALAVIVPKDKSATLTPAVRKVACGAAEVIPLVAVTNLARTLEKLQQRGLWVVGTAGEAEVELYQQDLTGPTIIIMGAEGKGMRRLTREHCDYLVRLPMAGSVSSLNVSVATGVCLFEALRQRSA</Hsp_hseq>
+      <Hsp_midline>VLDGV DP N+G  LR+A AAG   V++ +  +   +P V +   GA  ++ + +  +L   L   + R ++      E +  LY +DL  PT  + G EG G+ +   +  D  VR+PM  +  SLNV++A  +CLFE +RQR+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|52783313|sp|Q88DE7.1|RLMB_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88DE7</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.51937e-18</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR---VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>VLDGVTDPHNLGACLRTADAAGATAVIVPKDKSATLTPVVRKVACGAAEVIPLVAVTNLARTLEKLQQRGLWVVGTAGEAEQE--IYQQDLTGPLVMIMGAEGKGMRRLTREHCDFLVKLPMAGSVSSLNVSVATGVCLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>VLDGV DP N+G  LR+A AAG   V++ +  +   +P V +   GA  ++ + +  +L   L   + R   V  TA   E++  +Y +DL  P   + G EG G+ +   +  D  V++PM  +  SLNV++A  +CLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|52783303|sp|Q7VTK4.1|RLMB_BORPE</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Bordetella pertussis Tohama I] &gt;gi|52783304|sp|Q7W7I7.1|RLMB_BORPA RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Bordetella parapertussis 12822] &gt;gi|52783305|sp|Q7WKX5.1|RLMB_BORBR RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7VTK4</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>2.45373e-18</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGVTDPHNLGACLRTADAAGVHAVIAPRDRAVGLNATVQRVACGAADTVPYLTVTNLARTMRELKERDVWLVGTDDQAGESMHQVDARRSMAWVMGAEGEGMRRLTRETCDQLVRIPMLGSVESLNVSVASAVCLYESVRQR</Hsp_hseq>
+      <Hsp_midline>+LDGV DP N+G  LR+A AAGV  V+  R  A   +  V R   GA   +   +  +L   +   ++R V+     ++    ++  D     AWV G EG G+ +   +  D+ VRIPM  + ESLNV++A+ +CL+E +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|82178059|sp|Q566V3.1|MRM3A_DANRE</Hit_id>
+  <Hit_def>RecName: Full=rRNA methyltransferase 3A, mitochondrial; AltName: Full=RNA methyltransferase-like protein 1A; AltName: Full=rRNA (guanosine-2&apos;-O)-methyltransferase; Flags: Precursor [Danio rerio]</Hit_def>
+  <Hit_accession>Q566V3</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>2.51035e-18</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>FRRQYAQTVLEGVHLLQVFLQSGRKPVGVY------IPEAKMPSEEVLKLTAVLPEDGIFSVSDGILKKISSLSCADDILTLIDIPLGGTLPDKGDCA--------VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRV-------FATALRE---------------------------------EKQAVLYGEDLCEPT-AWVFGNEGAGVGKAVLDRAD----KCVRIPMHDATESLNVAMAATICLFEQMRQ</Hsp_qseq>
+      <Hsp_hseq>FRDKEGKVLLEGRRLICDALSAGASPQMIFFSLLERLQELPLDKLQQAKLIKVKYED---------IKLWSDLVTPQGLIAIFSKPDASRLTFPKDARLQSVPLFLICDNVRDAGNLGTILRCAAAAGGDRVLLSKGCVDAWEPKVLRSAMGAHFRLPVFPNLDWDDISKHLPKNVIVHVADNYSTSTKQLVSGQTENVSSDDYSESDSDDDDDEEEDEDSLPHVKPQVYHECWAQRSAALVIGGETHGLSVEALRLAEETDGKRLFVPMAPGVESLNSAMAAGILLFEGRRQ</Hsp_hseq>
+      <Hsp_midline>FR +  + +LEG  L+   L +G  P  ++      + E  +   +  KL  V  ED         +K  S L     ++ +   P    L    D          + D V+D GN+GT+LR AAAAG   V+L +GC DAW PKVLR+ MGAHF L ++   D +    H    V       ++T+ ++                                   +  +Y E   + + A V G E  G+    L  A+    K + +PM    ESLN AMAA I LFE  RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|52783331|sp|Q9PC00.1|RLMB_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PC00</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>2.87331e-18</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>VLDGVQDPHNLGACLRSAAAAGVTAVIIPKDKSVGINATVRKTSSGAADRLPVIAVVNLARSLRELQKQDVWIYGLEGEAETSLYALDLRGKVALVLGGEADGLRRLTREHCDVLARIPMPGEVESLNVSVAAGVTLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>VLDGVQDP N+G  LRSAAAAGV  V++ +  +   +  V +   GA   L + +  +L   L   + + V+   L  E +  LY  DL    A V G E  G+ +   +  D   RIPM    ESLNV++AA + LFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|52783318|sp|Q8Y016.1|RLMB_RALSO</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y016</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>3.43313e-18</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>GILKKISSLSCADDILTLIDIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRA</Hsp_qseq>
+      <Hsp_hseq>GVVAKAEALSLALNLDELLDGIEGPPL-----LLVLDGVTDPHNLGACLRVADAAGAHAVIAPKDRSVGINTTVAKVASGAAETVPYITVTNLARTLRELQQRGVWVIGTADEAEQDLYRADFKGPIALVMGAEGEGMRRLTRETCDTLVSIPMAGSVESLNVSVASGVCLFEAVRQRS</Hsp_hseq>
+      <Hsp_midline>G++ K  +LS A ++  L+D   G  L       VLDGV DP N+G  LR A AAG   V+  +  +   +  V +   GA   +   +  +L   L   + R V+     +E +  LY  D   P A V G EG G+ +   +  D  V IPM  + ESLNV++A+ +CLFE +RQR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|52783302|sp|Q7VQP0.1|RLMB_BLOFL</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Candidatus Blochmannia floridanus]</Hit_def>
+  <Hit_accession>Q7VQP0</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>5.66705e-18</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLE---IWLAHYEDRVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>VLDGITDPHNLGACIRSADAAGVHMIIVPRDRSANVNATVRKVASGSSDRVPFVRVTNLSRTLKLLKKYNIYIVGSVLRSNQ--ILFNTRLIDPIALVMGSESSGIRRLTRENCDKLVHIPTLQSTVSLNVSVATGIFLFETVRQR</Hsp_hseq>
+      <Hsp_midline>VLDG+ DP N+G  +RSA AAGV  +++ R  +   +  V +   G+   +      +L      L  Y   +  + LR  +  +L+   L +P A V G+E +G+ +   +  DK V IP   +T SLNV++A  I LFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|52783315|sp|Q8EAG8.1|RLMB_SHEON</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EAG8</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>7.14025e-18</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>DDILTLIDIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>DELLAKTDLPF---------LLILDGVTDPHNLGACLRNADAAGVQGIIVPKDNSVGLTAVVSKVACGAAETVPLFQVTNLARTMRHLQEKGVWIVGTAGEADCELYQADLKGPLAIAMGAEGKGLRRLSRECCDTLVSIPMSGSVSSLNVSVATGICLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>D++L   D+P            +LDGV DP N+G  LR+A AAGV  +++ +  +   +  V +   GA   + ++   +L   + H +++ V+      E    LY  DL  P A   G EG G+ +   +  D  V IPM  +  SLNV++A  ICLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|52783310|sp|Q87D65.1|RLMB_XYLFT</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Xylella fastidiosa Temecula1]</Hit_def>
+  <Hit_accession>Q87D65</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>8.75664e-18</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>VLDGVQDPHNLGACLRSAAAAGVTAVIIPKDKSVGINATVRKTSSGAADRLPVIAVVNLARSLRELQKQDVWIYGLAGEVETSLYALDLRGNVALVLGGEADGLRRLTREHCDVLARIPMPGEVESLNVSVAAGVTLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>VLDGVQDP N+G  LRSAAAAGV  V++ +  +   +  V +   GA   L + +  +L   L   + + V+   L  E +  LY  DL    A V G E  G+ +   +  D   RIPM    ESLNV++AA + LFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|160358744|sp|A1L2E4.2|MRM3B_DANRE</Hit_id>
+  <Hit_def>RecName: Full=rRNA methyltransferase 3B, mitochondrial; AltName: Full=RNA methyltransferase-like protein 1B; AltName: Full=rRNA (guanosine-2&apos;-O)-methyltransferase; Flags: Precursor [Danio rerio]</Hit_def>
+  <Hit_accession>A1L2E4</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.2856e-17</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>LHRLLSQGKFRRQYAQTVLEGVHLLQVFLQSGRKPVGVYIPEAKMPSEEVLKLTAVLPEDGIFSVSDGILKKISSLSCADDILTLIDIPLGGTLPDKGD--------CAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDI---YSQADLEIWL-----AHYEDRVFA--------TALREEKQAVLYG-----------------------EDLCEP-----------TAWV-------FGNEGAGVGKAVLDRADKC----VRIPMHDATESLNVAMAATICLFEQMRQ</Hsp_qseq>
+      <Hsp_hseq>LARIAGSKKLREH--QVVLEGKHLVCSALDAGAEAQTLYFSSVDALRELPLD---KLRQTNVVKVKMEDAQVWSELDTSQEIIAIFKRPEASRLTFSEEKYGRAVPLTLICDTVRDPGNLGSVLRSAAAAGCHSVLLTKGCVDIWELKVLRAAMGAHFRLPIIPNLTWTDISNHLPKTSTVHVADNHSTTMGKHNDNTTPQKHRRPSDYGWVKGHQYQSKAHDDDDANDLCSLEDYCDENSKSLETQLYYTDWVAGHTSLIIGGETHGLSREALQLAERTSGRRLLIPMVDGVDSLNSAIAAGVLLFEGRKQ</Hsp_hseq>
+      <Hsp_midline>L R+    K R    Q VLEG HL+   L +G +   +Y        E  L     L +  +  V     +  S L  + +I+ +   P    L    +          + D V+DPGN+G+VLRSAAAAG  +V+L +GC D W  KVLRA MGAHF L I    +  D+   L      H  D            T  ++ ++   YG                       ED C+            T WV        G E  G+ +  L  A++     + IPM D  +SLN A+AA + LFE  +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|52783299|sp|Q7MYU6.1|RLMB_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7MYU6</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.47003e-17</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCA---DAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRAA</Hsp_qseq>
+      <Hsp_hseq>VLDGVTDPHNLGACLRSADAAGVHAVIIPRDRSAQLNATAKKVACGAAESVPLIRVTNLARTLRLLQEYNIWVVGTA--GEADHTLYQSKLTGPMALVMGAEGEGMRRLTREHCDELISIPMVGSVSSLNVSVATGVCLFEAVRQRSS</Hsp_hseq>
+      <Hsp_midline>VLDGV DP N+G  LRSA AAGV  V++ R  +   +A + KV      +  L+ + + A     L  Y   V  TA   E    LY   L  P A V G EG G+ +   +  D+ + IPM  +  SLNV++A  +CLFE +RQR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|52783288|sp|Q6D127.1|RLMB_PECAS</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D127</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.6449e-17</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGVTDPHNLGACLRNADGAGVHAVIVPRDRSAQLNATVKKVACGAAETIPVISVTNLARTMRLLQERNIWIVGTAGEADHTLYQSKLTGPLALVMGAEGEGMRRLTREHCDELISIPMAGSVSSLNVSVATGVCLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>+LDGV DP N+G  LR+A  AGV  V++ R  +   +  V +   GA   + + S  +L   +   ++R ++      E    LY   L  P A V G EG G+ +   +  D+ + IPM  +  SLNV++A  +CLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|52783308|sp|Q83CW6.1|RLMB_COXBU</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83CW6</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.68489e-17</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEI---WLAHYEDRVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRAA</Hsp_qseq>
+      <Hsp_hseq>ILDGVKDPHNLGACLRSANAFGVRAVIAPKDRAVGVTPVVRKVACGAAEMTPFIRVTNLSRTIDWLQKEGVWIVGTAV--EAETLIQEIDLTGDIAIVLGSEGAGLRRLTKERCDFLAQIPLRGSVESLNVSVACGICLYEVQRQREA</Hsp_hseq>
+      <Hsp_midline>+LDGV+DP N+G  LRSA A GV  V+  +  A   +P V +   GA  +       +L     WL      +  TA+  E + ++   DL    A V G+EGAG+ +   +R D   +IP+  + ESLNV++A  ICL+E  RQR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|52783327|sp|Q9HUM8.1|RLMB_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HUM8</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>2.93285e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>LDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>LDGVTDPHNLGACLRTADAAGVQAVIVPKDKSATLNATVRKVACGAAEVIPLVAVTNLARTLEKLQQRGLWVVGTAGEADKTLYQLDLKGPTVLVMGAEGKGMRRLTREHCDFLARLPMAGSVSSLNVSVATGVCLFEILRQR</Hsp_hseq>
+      <Hsp_midline>LDGV DP N+G  LR+A AAGV  V++ +  +   +  V +   GA  ++ + +  +L   L   + R ++      E    LY  DL  PT  V G EG G+ +   +  D   R+PM  +  SLNV++A  +CLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|52783311|sp|Q87L11.1|RLMB_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87L11</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>7.49834e-17</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>DDILTLIDIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRAA</Hsp_qseq>
+      <Hsp_hseq>DDILAQHETPL---------LLVLDGVTDPHNLGACLRNADAAGVAAIIVPKDRSAPMNATVSKVACGAAEVVPLIRVTNLARTMRTLQEQGIWFVGTAGEATHDIYQAKLTGPLAIVMGAEGDGMRRLTRETCDDLIKIPMAGSVSSLNVSVASGICLFEAVRQRLA</Hsp_hseq>
+      <Hsp_midline>DDIL   + PL           VLDGV DP N+G  LR+A AAGV  +++ +  +   +  V +   GA  ++ +    +L   +   +++ ++      E    +Y   L  P A V G EG G+ +   +  D  ++IPM  +  SLNV++A+ ICLFE +RQR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|52783298|sp|Q7MH13.1|RLMB_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Vibrio vulnificus YJ016] &gt;gi|52783314|sp|Q8DCT8.1|RLMB_VIBVU RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q7MH13</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>7.71262e-17</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRAA</Hsp_qseq>
+      <Hsp_hseq>ILDGVTDPHNLGACLRNADAAGVAAVIVPKDKSAPMTATVSKVACGAAETVPLVRVTNLARTMRHLQEQGIWIVGTAGEATHDIYQAKLTGSLAIVMGAEGDGMRRLTRETCDDLIKIPMAGAVSSLNVSVASGICLFEAVRQRLA</Hsp_hseq>
+      <Hsp_midline>+LDGV DP N+G  LR+A AAGV  V++ +  +   +  V +   GA   + +    +L   + H +++ ++      E    +Y   L    A V G EG G+ +   +  D  ++IPM  A  SLNV++A+ ICLFE +RQR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|52783294|sp|Q6LM40.1|RLMB_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LM40</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>2.15311e-16</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGVTDPHNLGACLRNADAAGAVAVIIPKDRAAQLTATASKVACGAAEVMPLVRVTNLARTMRALQDKGVWIVGTAGEATHDIYHSKLTGPLAIVMGAEGEGMRRLTRETCDDLIKIPMAGSVSSLNVSVATGICLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>+LDGV DP N+G  LR+A AAG   V++ +  A   +    +   GA  ++ +    +L   +   +D+ V+      E    +Y   L  P A V G EG G+ +   +  D  ++IPM  +  SLNV++A  ICLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|52783320|sp|Q8ZIV4.1|RLMB_YERPE</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q8ZIV4</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>3.97737e-16</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWL-AHYEDRVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>VLDGVTDPHNLGACLRSADAAGVHAVIVPRDRSAQLNAIAKKVASGAAENVPLIKVTNLARTLRVLQEHNVWIVGTAGEADHTLYQSKMTGPMALVMGAEGEGMRRLTREHCDELISIPMAGSVSSLNVSVATGVCLFEVVRQR</Hsp_hseq>
+      <Hsp_midline>VLDGV DP N+G  LRSA AAGV  V++ R  +   +    +   GA   + +    +L   L    E  V+      E    LY   +  P A V G EG G+ +   +  D+ + IPM  +  SLNV++A  +CLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|38258679|sp|P59968.1|Y905_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized tRNA/rRNA methyltransferase Mb0905 [Mycobacterium bovis AF2122/97] &gt;gi|614102408|sp|P9WFY2.1|Y881_MYCTO RecName: Full=Uncharacterized tRNA/rRNA methyltransferase MT0904 [Mycobacterium tuberculosis CDC1551]</Hit_def>
+  <Hit_accession>P59968</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>5.79567e-16</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>AVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFA-TALREEKQAVLYGEDLC----EPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQ</Hsp_qseq>
+      <Hsp_hseq>AVLEGVNDHENLGSIFRNAAGLSVDAVVFGTGCADPLYRRAVRVSMGHALLVPYARAADWPTELMTLKESGFRLLAMTPHGNACKLPEAIAAVSHERIALLVGAEGPGLTAAALRISDVRVRIPMSRGTDSLNVATAAALAFYERTRS</Hsp_hseq>
+      <Hsp_midline>AVL+GV D  N+G++ R+AA   V  VV G GCAD    + +R  MG   L+     AD    L   ++  F   A+     A    E +     E  A + G EG G+  A L  +D  VRIPM   T+SLNVA AA +  +E+ R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|614102413|sp|P9WFY3.1|Y881_MYCTU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized tRNA/rRNA methyltransferase Rv0881 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WFY3</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>6.51387e-16</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>AVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFA-TALREEKQAVLYGEDLC----EPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQ</Hsp_qseq>
+      <Hsp_hseq>AVLEGVNDHENLGSIFRNAAGLSVDAVVFGTGCADPLYRRAVRVSMGHALLVPYARAADWPTELMTLKESGFRLLAMTPHGNACKLPEAIAAVSHERIALLVGAEGPGLTAAALRISDVRVRIPMSRGTDSLNVATAAALAFYERTRS</Hsp_hseq>
+      <Hsp_midline>AVL+GV D  N+G++ R+AA   V  VV G GCAD    + +R  MG   L+     AD    L   ++  F   A+     A    E +     E  A + G EG G+  A L  +D  VRIPM   T+SLNVA AA +  +E+ R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|52783307|sp|Q82XD1.1|RLMB_NITEU</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82XD1</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>8.42715e-16</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRA</Hsp_qseq>
+      <Hsp_hseq>VLDGVKDPHNLGACLRVADAFGVHAVVVPKDRAVGLSATVHKVASGAVDTVPFFAVTNLARTLRELKEMGLWIVGTAADAPDTLDSVTLTRPLAWVLGAEDGGMRRLTREACDLLVSIPMSGSIESLNVSVSAGICLFETFRQHS</Hsp_hseq>
+      <Hsp_midline>VLDGV+DP N+G  LR A A GV  VV+ +  A   S  V +   GA   +  ++  +L   L   ++  ++      +    L    L  P AWV G E  G+ +   +  D  V IPM  + ESLNV+++A ICLFE  RQ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|52783321|sp|Q8ZKA2.1|RLMB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZKA2</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.42002e-15</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>DIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHY-EDRVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>DLPDLIALHDRPFLLILDGVTDPHNLGACLRSADAAGVHAVIVPKDRSAQLNATAKKVACGAAESVPLIRVTNLARTMRMLQEENIWIVGTAGEADHTLYQSKMPGRMALVMGAEGEGMRRLTREHCDELISIPMAGSVSSLNVSVATGICLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>D+P    L D+    +LDGV DP N+G  LRSA AAGV  V++ +  +   +    +   GA   + +    +L   +    E+ ++      E    LY   +    A V G EG G+ +   +  D+ + IPM  +  SLNV++A  ICLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|52783319|sp|Q8Z182.1|RLMB_SALTI</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z182</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.47524e-15</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>DIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHY-EDRVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>DLPDLIALHDRPFLLILDGVTDPHNLGACLRSADAAGVHAVIVPKDRSAQLNATAKKVACGAAESVPLIRVTNLARTMRMLQEENIWIVGTAGEADHTLYQSKMPGRMALVMGAEGEGMRRLTREHCDELISIPMAGSVSSLNVSVATGICLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>D+P    L D+    +LDGV DP N+G  LRSA AAGV  V++ +  +   +    +   GA   + +    +L   +    E+ ++      E    LY   +    A V G EG G+ +   +  D+ + IPM  +  SLNV++A  ICLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|52783330|sp|Q9KNY2.1|RLMB_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KNY2</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.20868e-15</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>DDILTLIDIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADL-EIWLAHYEDRVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRAA</Hsp_qseq>
+      <Hsp_hseq>DDILAQHEQPL---------LLVLDGVTDPHNLGACLRNADAAGVAAVIVPKDKSAPLTATVSKVACGAAETVPLVRVTNLARTMRALQEKGVWFVGTAGEATHDIYQSKLTGSLAIVMGAEGDGMRRLTRETCDDLIKIPMAGSVSSLNVSVACGVCLFEAVRQRMA</Hsp_hseq>
+      <Hsp_midline>DDIL   + PL           VLDGV DP N+G  LR+A AAGV  V++ +  +   +  V +   GA   + +    +L     A  E  V+      E    +Y   L    A V G EG G+ +   +  D  ++IPM  +  SLNV++A  +CLFE +RQR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|52783323|sp|Q9CJP3.1|RLMB_PASMU</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CJP3</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.54733e-15</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR--VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRAA</Hsp_qseq>
+      <Hsp_hseq>VLDGVTDPHNLGACLRTADAAGVCAVIVPKDKSAQLTAIARKVACGAAEVVPLIRVTNLARTLRELQQKHNIWVVGTAGEATNTLYQTQLTGGLALVMGAEGEGMRRLTREHCDQLISIPMAGSVSSLNVSVATGVCLFEIVRQRLA</Hsp_hseq>
+      <Hsp_midline>VLDGV DP N+G  LR+A AAGV  V++ +  +   +    +   GA  ++ +    +L   L   + +  ++      E    LY   L    A V G EG G+ +   +  D+ + IPM  +  SLNV++A  +CLFE +RQR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1176354|sp|P44906.1|RLMB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44906</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.57354e-15</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGR-------------GCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>VLDGVTDPHNLGACLRTADAAGAVAVIVPKDKSAQLTSIARKVACGAAETVPLIRVTNLSRTLRDL--QQNHNIW-------VVGTA--GEATETIYQSKLTGPLALVMGAEGEGMRRLTREHCDQLISIPMAGSVSSLNVSVATGVCLFEIVRQR</Hsp_hseq>
+      <Hsp_midline>VLDGV DP N+G  LR+A AAG   V++ +              C  A +  ++R    +  L D+  Q +  IW       V  TA   E    +Y   L  P A V G EG G+ +   +  D+ + IPM  +  SLNV++A  +CLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81675394|sp|Q5HRM1.1|TRMHL_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus epidermidis RP62A] &gt;gi|90110722|sp|Q8CTT9.2|TRMHL_STAES RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q5HRM1</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>3.54291e-15</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFATALREEKQAVLYGEDLCEPTAW--VFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGLEDPHNLGSILRTADASGVDAVIIPKRRSVALTQTVAKASTGAIQHVPVIRVTNLSKTIDELKDNGFWIAGTEANNATDY-RDLQADMSLGIVIGSEGQGMSRLVSDKCDFHIKIPMVGHVNSLNASVAASLMMYEVYRKR</Hsp_hseq>
+      <Hsp_midline>+LDG++DP N+G++LR+A A+GV  V++ +  + A +  V +A  GA   + +    +L   +   +D  F  A  E   A  Y  DL    +   V G+EG G+ + V D+ D  ++IPM     SLN ++AA++ ++E  R+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|52783780|sp|P63177.1|RLMB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Escherichia coli K-12] &gt;gi|52783781|sp|P63179.1|RLMB_ECO57 RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Escherichia coli O157:H7] &gt;gi|52783782|sp|P63180.1|RLMB_SHIFL RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Shigella flexneri] &gt;gi|54039247|sp|P63178.1|RLMB_ECOL6 RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>P63177</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>4.15145e-15</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHY-EDRVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQRA</Hsp_qseq>
+      <Hsp_hseq>ILDGVTDPHNLGACLRSADAAGVHAVIVPKDRSAQLNATAKKVACGAAESVPLIRVTNLARTMRMLQEENIWIVGTAGEADHTLYQSKMTGRLALVMGAEGEGMRRLTREHCDELISIPMAGSVSSLNVSVATGICLFEAVRQRS</Hsp_hseq>
+      <Hsp_midline>+LDGV DP N+G  LRSA AAGV  V++ +  +   +    +   GA   + +    +L   +    E+ ++      E    LY   +    A V G EG G+ +   +  D+ + IPM  +  SLNV++A  ICLFE +RQR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|90110723|sp|Q4L3J1.1|TRMHL_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L3J1</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>4.73293e-15</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>CAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFATALREEKQAVLYGEDLCE-PTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>VVILDGLEDPHNLGSILRTADASGVDGVIIPKRRSVALTQTVAKASTGAIQHVPVMRVTNLAKTIDELKEHGYWVAGAEADNATDYRDMAADMPLAIVIGSEGQGMSRLVKDKCDFYIKIPMVGHVNSLNASVAASLMMYEVYRKR</Hsp_hseq>
+      <Hsp_midline>  +LDG++DP N+G++LR+A A+GV  V++ +  + A +  V +A  GA   + +    +L   +   ++  +  A  E   A  Y +   + P A V G+EG G+ + V D+ D  ++IPM     SLN ++AA++ ++E  R+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|74871275|sp|Q9VW14.1|MRM3_DROME</Hit_id>
+  <Hit_def>RecName: Full=rRNA methyltransferase 3, mitochondrial; AltName: Full=RNA methyltransferase-like protein 1; AltName: Full=rRNA (guanosine-2&apos;-O)-methyltransferase; Flags: Precursor [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9VW14</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>4.97097e-15</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>KFRRQYAQTVLEGVHLLQVFLQSGRKPVGVYIPEAKMPS--EEVLKLTAVLPEDGIFSVSDGILKKISSLSCADDILTLIDIP----LGGTLPDKGD--------CAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQA---------------DLEIWLAHYEDRVFATALREEKQAVLYGE--DLCEPTAWVFGNEGAGVGKAVLDRAD------KCVRIPMHDATESLNVAMAATICLFEQMRQ</Hsp_qseq>
+      <Hsp_hseq>KRRDKNRQIIVEGRRLIQEALQCGLKMEVLLFSQKDQLALVKEEVGVAQVETGTKIYKVPQHDLKTWSSLVTPPGLMAIFDRPSDKGLEKNLAEQQRLGSQPFPITVVCDNIREPNNLGSIIRTCAALPCSQVVVTHGCCDPWESKALRGGCGGQFRVPIRDDVTWDELALTIPPEAADDCHVFIAETNQRK-----RENNQTIDYADIKGLGAHNLLIIGGESHGVSEEAYRFLNLVGGKGKCIYIPLAAGIDSLNVASALTLLLFELRRK</Hsp_hseq>
+      <Hsp_midline>K R +  Q ++EG  L+Q  LQ G K   +   +    +  +E + +  V     I+ V    LK  SSL     ++ + D P    L   L ++            V D +++P N+G+++R+ AA     VV+  GC D W  K LR G G  F + I                   D  +++A    R      RE  Q + Y +   L      + G E  GV +      +      KC+ IP+    +SLNVA A T+ LFE  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|90110724|sp|Q49V41.1|TRMHL_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49V41</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>5.79917e-15</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFATALREEKQAVLYGE-DLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGLEDPHNLGSILRTADASGVDGVIIPKRRSVALTQTVAKASTGAIQHIPVMRVTNLANTIETLKDNGYWIVGTEAENSTDYREMDAGMPLGIVIGSEGQGMSRLVKEKCDFYINIPMVGHVNSLNASVAASLMMYEVFRKR</Hsp_hseq>
+      <Hsp_midline>+LDG++DP N+G++LR+A A+GV  V++ +  + A +  V +A  GA   + +    +L   +   +D  +     E + +  Y E D   P   V G+EG G+ + V ++ D  + IPM     SLN ++AA++ ++E  R+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|52783301|sp|Q7VP36.1|RLMB_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VP36</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95504e-15</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR--VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGVTDPHNLGACLRTADAAGVDAVIVPKDKSATLTAIARKVACGAAEAMPLIRVTNLARTMRELQDKHQIWIVGTAGEATTDIYTSQLTGAIALVMGAEGDGMRRLTREHCDQLVSIPMAGSVSSLNVSVATGVCLFEIVRQK</Hsp_hseq>
+      <Hsp_midline>+LDGV DP N+G  LR+A AAGV  V++ +  +   +    +   GA   + +    +L   +   +D+  ++      E    +Y   L    A V G EG G+ +   +  D+ V IPM  +  SLNV++A  +CLFE +RQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|81649904|sp|Q6GBV6.1|TRMHL_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81651699|sp|Q6GJD7.1|TRMHL_STAAR RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|81704678|sp|Q7A1Q9.1|TRMHL_STAAW RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81706174|sp|Q7A794.1|TRMHL_STAAN RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus aureus subsp. aureus N315] &gt;gi|81782082|sp|Q99W72.1|TRMHL_STAAM RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>Q6GBV6</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.23553e-14</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFATALREEKQAVLYGEDLCEPT-AWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGLEDPHNLGSILRTADATGVDGVIIPKRRSVTLTQTVAKASTGAIEHVPVIRVTNLAKTIDELKDNGFWVAGTEANNATDYRNLEADMSLAIVIGSEGQGMSRLVSDKCDFYIKIPMVGHVNSLNASVAASLMMYEVFRKR</Hsp_hseq>
+      <Hsp_midline>+LDG++DP N+G++LR+A A GV  V++ +  +   +  V +A  GA   + +    +L   +   +D  F  A  E   A  Y     + + A V G+EG G+ + V D+ D  ++IPM     SLN ++AA++ ++E  R+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|75410372|sp|Q9AGT0.1|TRMHL_STAAE</Hit_id>
+  <Hit_def>RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus aureus subsp. aureus str. Newman] &gt;gi|81695161|sp|Q5HIE3.1|TRMHL_STAAC RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>Q9AGT0</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.27219e-14</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFATALREEKQAVLYGEDLCEPT-AWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGLEDPHNLGSILRTADATGVDGVIIPKRRSVTLTQTVAKASTGAIEHVPVIRVTNLAKTIDELKDNGFWVAGTEANNATDYRNLEADMSLAIVIGSEGQGMSRLVSDKCDFYIKIPMVGHVNSLNASVAASLMMYEVFRKR</Hsp_hseq>
+      <Hsp_midline>+LDG++DP N+G++LR+A A GV  V++ +  +   +  V +A  GA   + +    +L   +   +D  F  A  E   A  Y     + + A V G+EG G+ + V D+ D  ++IPM     SLN ++AA++ ++E  R+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|52783328|sp|Q9JUU8.2|RLMB_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JUU8</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>3.50355e-14</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGITDPHNLGACLRTADAMGVHAVIAPKDKSAGLNATVSKVASGAAETVPYITVTNLARTLRELKEYGIWIIGTDMGGNADLYHCDLPDSAAWVMGNEGDGMRRLTREHCDMLVSIPMFGTVESMNVSVSAGMVLSETRRQR</Hsp_hseq>
+      <Hsp_midline>+LDG+ DP N+G  LR+A A GV  V+  +  +   +  V +   GA   +   +  +L   L   ++  ++         A LY  DL +  AWV GNEG G+ +   +  D  V IPM    ES+NV+++A + L E  RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|52783290|sp|Q6FF50.1|RLMB_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6FF50</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>6.62198e-14</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>DKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVFAT---ALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>DQALLLALDQVTDPHNLGACIRTAAAMGIAAVIVPRDRSASLTPTARKVAAGGAEKVKFIQVTNLARTLAHIKAHFFVKVVGTMLDEKALPIQKYDFSGNVAIVMGAEDTGLRPITQSQCDQTVYIPMSGNLQSLNVSVAAGMALYEACRQR</Hsp_hseq>
+      <Hsp_midline>D+     LD V DP N+G  +R+AAA G+  V++ R  + + +P   +   G    +      +L   LAH +   F      + +EK   +   D     A V G E  G+      + D+ V IPM    +SLNV++AA + L+E  RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|52783329|sp|Q9JZR3.1|RLMB_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZR3</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>9.3231e-14</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGITDPHNLGACLRTADAMGVHAVIAPKDKSAGLNATVSKVACGAAETVPYITVTNLARTLRELKEYGIWIIGTDMSGESDLYHCNLPDSAAWVMGNEGDGMRRLTREHCDMLVSIPMFGTVESMNVSVSAGMVLSETRRQR</Hsp_hseq>
+      <Hsp_midline>+LDG+ DP N+G  LR+A A GV  V+  +  +   +  V +   GA   +   +  +L   L   ++  ++        ++ LY  +L +  AWV GNEG G+ +   +  D  V IPM    ES+NV+++A + L E  RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|52783300|sp|Q7NYX3.1|RLMB_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NYX3</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.9542e-13</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGVTDPHNLGACLRVADAMGAHAVIAPKDRSATLNATVSKVACGAAEVVPYITVTNLARTLRDLKDAGVWIAGTTMEADTDLYHFDASGPLAWVMGAEGEGMRRLTREHCDVLVSIPMFGTVESLNVSVSSGMVLSESRRQR</Hsp_hseq>
+      <Hsp_midline>+LDGV DP N+G  LR A A G   V+  +  +   +  V +   GA  ++   +  +L   L   +D  V+      E    LY  D   P AWV G EG G+ +   +  D  V IPM    ESLNV++++ + L E  RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|52783316|sp|Q8PAG5.1|RLMB_XANCP</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Xanthomonas campestris pv. campestris str. ATCC 33913]</Hit_def>
+  <Hit_accession>Q8PAG5</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.46966e-12</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGVQDPHNLGACLRSAAAAGVTAVVIPKDKSATVNATVRKTSAGAADRIPVVAVTNLARCLRDLQKQGVWLYGLAGEAEASLYSVDLRGNVGLVLGGEGDGLRRLTREHCDGLVKIPMPGDIESLNVSVATGVTLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>+LDGVQDP N+G  LRSAAAAGV  VV+ +  +   +  V +   GA   + + +  +L   L   + + V+   L  E +A LY  DL      V G EG G+ +   +  D  V+IPM    ESLNV++A  + LFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2500862|sp|P75424.1|Y355_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized tRNA/rRNA methyltransferase MG252 homolog [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75424</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>6.29703e-12</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>AVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDRVF---ATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLF</Hsp_qseq>
+      <Hsp_hseq>VMLHEIQDPHNFGAILRTCMAAEVDGIIFKKHNQAPINSTVIRTSMGTVFYQNLVQVTNLSYAITTLQKHGFWTVATTLDERLKPKDYRQVDFDKRILLVGNEDKGLNALLLKNADLKVKIPMNPKLNSLNVSVAVGIILF</Hsp_hseq>
+      <Hsp_midline> +L  +QDP N G +LR+  AA V  ++  +      +  V+R  MG  F  ++    +L   +   +   F   AT L E  +   Y +   +    + GNE  G+   +L  AD  V+IPM+    SLNV++A  I LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|52783317|sp|Q8PM64.1|RLMB_XANAC</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PM64</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>7.91429e-12</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDGVQDPHNLGACLRSAAAAGVTAVVIPKDKSATVNATVRKTSAGAADRIPVVAVTNLARCLRDLQKQGVWLYGLAGEAEASLYSVDLRGNVGLVLGGEADGLRRLTREHCDGLVKIPMPGEIESLNVSVATGVTLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>+LDGVQDP N+G  LRSAAAAGV  VV+ +  +   +  V +   GA   + + +  +L   L   + + V+   L  E +A LY  DL      V G E  G+ +   +  D  V+IPM    ESLNV++A  + LFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|586908|sp|Q06753.2|YACO_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative TrmH family tRNA/rRNA methyltransferase YacO [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>Q06753</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>8.24028e-12</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>ILDELEDPHNLGSIMRTADAVGAHGIVIPKRRAVGLTTTVAKASTGAIEHIPVARVTNLARTLEEMKERGIWVVGTDASAREDFRNMDGNMPLALVIGSEGKGMGRLVKEKCDFLIKLPMAGKVTSLNASVAAGLLMYEVYRKR</Hsp_hseq>
+      <Hsp_midline>+LD ++DP N+G+++R+A A G   +V+ +  A   +  V +A  GA   + +    +L   L   ++R ++        +      D   P A V G+EG G+G+ V ++ D  +++PM     SLN ++AA + ++E  R+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|254800512|sp|A4T5L0.1|Y1447_MYCGI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized tRNA/rRNA methyltransferase Mflv_1447 [Mycobacterium gilvum PYR-GCK]</Hit_def>
+  <Hit_accession>A4T5L0</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.18214e-11</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>LDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYEDR-VFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>LDNISDPRNLGAIVRSVAAFGGHGVVLPQRRSASVTAVAWRTSAGAAARTPVARATNLNRTLKQYADAGLQVVGLDAGGDTTIDEIDGLTPTIVVVGSEGKGLSRLVRENCDRIVSIPMAGPTESLNASVAAGVVLAEIARQR</Hsp_hseq>
+      <Hsp_midline>LD + DP N+G ++RS AA G   VVL +  + + +    R   GA     +    +L   L  Y D  +    L       +   D   PT  V G+EG G+ + V +  D+ V IPM   TESLN ++AA + L E  RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|52783332|sp|Q9RED7.1|RLMB_BURSP</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (guanosine-2&apos;-O-)-methyltransferase RlmB; AltName: Full=23S rRNA (guanosine2251 2&apos;-O)-methyltransferase; AltName: Full=23S rRNA Gm2251 2&apos;-O-methyltransferase [Burkholderia sp.]</Hit_def>
+  <Hit_accession>Q9RED7</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.33592e-11</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>GILKKISSLSCADDILTLIDIPLGGTLPDKGDCAVLDGVQDPGNVGTVLRSAAAAGVGTVVLGRGCADAWSPKVLRAGMGAHFLLDIYSQADLEIWLAHYED---RVFATALREEKQAVLYGEDLCEPTAWVFGNEGAGVGKAVLDRADKCVRIPMHDATESLNVAMAATICLFEQMRQR</Hsp_qseq>
+      <Hsp_hseq>GVVARVTEATRAHSLETLLDTIEGQPL-----LLALDGVTDPHNLGACLRVADGAGAHAVIAPRRRAAGLTAAAAKAANGAAETVPYLTVINLARALRALKNAGIQVIGTA--DDATTSLFDIQLDGALALVMGAEGAGMRRLTREACDEVVRIPLAGHVQSLNVSVASGICLFEAVRQR</Hsp_hseq>
+      <Hsp_midline>G++ +++  + A  + TL+D   G  L        LDGV DP N+G  LR A  AG   V+  R  A   +    +A  GA   +   +  +L   L   ++   +V  TA  ++    L+   L    A V G EGAG+ +   +  D+ VRIP+    +SLNV++A+ ICLFE +RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

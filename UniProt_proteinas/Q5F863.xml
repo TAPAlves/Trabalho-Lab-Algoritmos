@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-01-15" modified="2015-01-07" version="71">
+<accession>Q5F863</accession>
+<name>METE_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase</fullName>
+<ecNumber evidence="1">2.1.1.14</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">Cobalamin-independent methionine synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Methionine synthase, vitamin-B12 independent isozyme</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">metE</name>
+<name type="ordered locus">NGO0928</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the transfer of a methyl group from 5-methyltetrahydrofolate to homocysteine resulting in methionine formation.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">5-methyltetrahydropteroyltri-L-glutamate + L-homocysteine = tetrahydropteroyltri-L-glutamate + L-methionine.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Zn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29105"/>
+</cofactor>
+<text evidence="1">Binds 1 zinc ion per subunit.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Amino-acid biosynthesis; L-methionine biosynthesis via de novo pathway; L-methionine from L-homocysteine (MetE route): step 1/1.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the vitamin-B12 independent methionine synthase family.</text>
+</comment>
+<dbReference type="EC" id="2.1.1.14" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89624.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208036.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F863"/>
+<dbReference type="STRING" id="242231.NGO0928"/>
+<dbReference type="PRIDE" id="Q5F863"/>
+<dbReference type="EnsemblBacteria" id="AAW89624">
+<property type="protein sequence ID" value="AAW89624"/>
+<property type="gene ID" value="NGO0928"/>
+</dbReference>
+<dbReference type="GeneID" id="3282587"/>
+<dbReference type="KEGG" id="ngo:NGO0928"/>
+<dbReference type="PATRIC" id="20335039">
+<property type="gene designation" value="VBINeiGon24812_1089"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0620"/>
+<dbReference type="HOGENOM" id="HOG000246221"/>
+<dbReference type="KO" id="K00549"/>
+<dbReference type="OMA" id="FTKFGWV"/>
+<dbReference type="OrthoDB" id="EOG6FFS3G"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-866-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00051">
+<property type="reaction ID" value="UER00082"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003871">
+<property type="term" value="F:5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008270">
+<property type="term" value="F:zinc ion binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009086">
+<property type="term" value="P:methionine biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00172">
+<property type="entry name" value="Meth_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013215">
+<property type="entry name" value="Cbl-indep_Met_Synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006276">
+<property type="entry name" value="Cobalamin-indep_Met_synthase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002629">
+<property type="entry name" value="Met_Synth_C/arc"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08267">
+<property type="entry name" value="Meth_synt_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01717">
+<property type="entry name" value="Meth_synt_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000382">
+<property type="entry name" value="MeTrfase_B12_ind"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01371">
+<property type="entry name" value="met_syn_B12ind"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0028">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0486">Methionine biosynthesis</keyword>
+<keyword id="KW-0489">Methyltransferase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0862">Zinc</keyword>
+<feature type="chain" description="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase" id="PRO_1000017257">
+<location>
+<begin position="1"/>
+<end position="758"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc" evidence="1">
+<location>
+<position position="643"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc" evidence="1">
+<location>
+<position position="645"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc" evidence="1">
+<location>
+<position position="728"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00172"/>
+</source>
+</evidence>
+<sequence length="758" mass="85013" checksum="1EF1567F4AA09850" modified="2005-03-15" version="1">
+MTTLHFSGFPRVGAFRELKFAQEKYWRKEISEQELLDVAKDLREKNWKHQAAANADYVAV
+GDFTFYDHILDLQVATGAIPARFGFDSQNLPLEQFFQLARGNKDQFAIEMTKWFDTNYHY
+LVPEFHADTEFKANAKHYVQQLQEAQTLGLKAKPTVVGPLTFLWVGKEKGSVEFDRLSLL
+PKLLPVYVEILTALVEAGAEWIQIDEPALAVDLPKEWVEAYKDVYATLNKVSAKILLGTY
+FGSVAEHAALLKSLPVDGLHIDLVRAPEQLDAFAGYDKVLSAGVIDGRNIWRANLNKVLE
+TVGPLQAKLGERLWISSSCSLLHTPFDLSVEEKLKANKPDLYSWLAFTLQKTQELRVLKA
+ALNEGRDSVAEELAASQAAADSRANSSEIHRADVAKRLADLPVNAGQRKSPFADRIKAQQ
+AWLNLPLLPTTNIGSFPQTTEIRQARAAFKKGELSASDYEAAMKKEIALVVEEQEKLDLD
+VLVHGEAERNDMVEYFGELLSGFAFTQYGWVQSYGSRCVKPPIIFGDVSRPEAMTVAWST
+YAQNLTKRPMKGMLTGPVTILQWSFVRNDIPRATVCKQIALALNDEVLDLEKAGIKVIQI
+DEPAIREGLPLKRADWDAYLNWAGESFRLSSAGCEDSTQIHTHMCYSEFNDILPAIAAMD
+ADVITIETSRSDMELLAAFGEFKYPNDIGPGVYDIHSPRVPTEAEVEHLLRKAIEVVPVE
+RLWVNPDCGLKTRGWKETLEQLQVMMNVTRKLRAELAK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

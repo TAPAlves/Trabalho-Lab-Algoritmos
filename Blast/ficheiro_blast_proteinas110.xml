@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>22993</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>324</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>22993</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>324</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81311192|sp|Q5F8C3.1|F16PA_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Neisseria gonorrhoeae FA 1090] &gt;gi|224472963|sp|B4RLD4.2|F16PA_NEIG2 RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>Q5F8C3</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.692</Hsp_bit-score>
+      <Hsp_score>1724</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_hseq>
+      <Hsp_midline>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|224472935|sp|A9LYX9.1|F16PA_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9LYX9</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>652.129</Hsp_bit-score>
+      <Hsp_score>1681</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>314</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMTGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILEKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYMFTLNAENEFVLTKEKPKVPESTKEFAINMSNRRHWLPPVQQYIDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYPQDKRDPAKPGKLRLMYEANPMSLILEQAGASASNAYQAMLDIQPENLHQRVAVFMGSSEEVDYLNRLHSK</Hsp_hseq>
+      <Hsp_midline>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGM GTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSIL KPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVY+FTLNAENEFVLTKE PKVPESTKEFAINMSNRRHWLPPVQQY+DELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMY QDKRDP+KPGKLRLMYEANPM+LILEQAGASASNAYQAMLDIQPE+LHQRVAV MGSSEEVDYLNRLHSK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|224472898|sp|A1IRQ3.1|F16PA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Neisseria meningitidis Z2491] &gt;gi|224472936|sp|A1KTU6.1|F16PA_NEIMF RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1IRQ3</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>645.966</Hsp_bit-score>
+      <Hsp_score>1665</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>313</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDSFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILEKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYMFTLNAENEFVLTKEKPKVPESTKEFAINMSNRRHWLPPVQQYIDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYPQDKRDPSKPGKLRLMYEANPMALILEQAGASASNARQDILGIRPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_hseq>
+      <Hsp_midline>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED+FVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSIL KPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVY+FTLNAENEFVLTKE PKVPESTKEFAINMSNRRHWLPPVQQY+DELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMY QDKRDPSKPGKLRLMYEANPMALILEQAGASASNA Q +L I+PESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81857584|sp|Q9JZH1.1|F16PA_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZH1</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>645.195</Hsp_bit-score>
+      <Hsp_score>1663</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANSAVAGLASEEEDTFVNAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILEKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYMFTLNAENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYIDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYPQDKRDPAKPGKLRLMYEANPMSLILEQAGASASNAYQAMLDIQPENLHQRVAVFMGSSEEVAYLDRLHAK</Hsp_hseq>
+      <Hsp_midline>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKAN AVAGLASEEEDTFV+AGENGRYLVLFDPLDGSSNIDVNISVGTIFSIL KPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVY+FTLNAENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQY+DELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMY QDKRDP+KPGKLRLMYEANPM+LILEQAGASASNAYQAMLDIQPE+LHQRVAV MGSSEEV YL+RLH+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|224495093|sp|B3R3R6.1|F16A1_CUPTR</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1 1; Short=FBPase class 1 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 1 [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>B3R3R6</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>1.33747e-132</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVS-ACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE-GALATES-FLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>SLTRYLVEEQRKHNTIQPELRLLIEVVARACKAISNAVSKGALAGVLGSAGTGNVQGETQQKLDVIANEVLLDANEWGGHLAAMASEEMESFYEIPNRYPKGEYLLMFDPLDGSSNIDVNVSIGTIFSVLHMPKPGQTVTEADFLQPGTHQVAAGYAVYGPQTTLVLTVGNGVHMFTLDREAGSFVLTQSNVTIPEDTKEFAINMSNMRHWAPPVRKYIDECLAGDEGPRGKNFNMRWVASMVADVHRILTRGGIFMYPWDKREPEKPGKLRLMYEANPMAMLVEQAGGAATNGEQRILDVQPEKLHQRVSVILGSKNEVERVTRYHQE</Hsp_hseq>
+      <Hsp_midline>+LTR+L E  +++   +    +L+ VV+ AC  I+  V  GALAGVLG AGTGN+QGE Q+KLDVIAN +++D  +    +A +ASEE ++F         G YL++FDPLDGSSNIDVN+S+GTIFS+L  P+ G   TE+ FLQ G  Q+AAGY +YGPQT LV T G+GV++FTL+ E   FVLT+ N  +PE TKEFAINMSN RHW PPV++Y+DE LAG+ G RGKN+NMRWVASMVA++HRIL RGG+FMY  DKR+P KPGKLRLMYEANPMA+++EQAG +A+N  Q +LD+QPE LHQRV+VI+GS  EV+ + R H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123033168|sp|Q0KCY0.1|F16A1_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1 1; Short=FBPase class 1 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 1 [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q0KCY0</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>1.71782e-132</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVS-ACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE-GALATES-FLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>SLTRYLVEEQRKHNTIQPELRLLIEVVARACKAISNAVSKGALAGVLGSAGTGNVQGETQQKLDVIANEVLLDANEWGGHLAAMASEEMESFYEIPNRYPKGEYLLMFDPLDGSSNIDVNVSIGTIFSVLHMPKPGQTVTEADFMQPGTHQVAAGYAVYGPQTTLVLTVGNGVHMFTLDREAGSFVLTHSNVTIPDDTKEFAINMSNMRHWAPPVRRYIDECLAGEEGPRGKNFNMRWVASMVADVHRILTRGGVFMYPWDKREPEKPGKLRLMYEANPMAMLVEQAGGAATNGHQRIMDVQPEKLHQRVSVILGSKNEVERVTRYH</Hsp_hseq>
+      <Hsp_midline>+LTR+L E  +++   +    +L+ VV+ AC  I+  V  GALAGVLG AGTGN+QGE Q+KLDVIAN +++D  +    +A +ASEE ++F         G YL++FDPLDGSSNIDVN+S+GTIFS+L  P+ G   TE+ F+Q G  Q+AAGY +YGPQT LV T G+GV++FTL+ E   FVLT  N  +P+ TKEFAINMSN RHW PPV++Y+DE LAGE G RGKN+NMRWVASMVA++HRIL RGGVFMY  DKR+P KPGKLRLMYEANPMA+++EQAG +A+N +Q ++D+QPE LHQRV+VI+GS  EV+ + R H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|224495106|sp|Q1LQ15.1|F16A1_RALME</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1 1; Short=FBPase class 1 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 1 [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LQ15</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>1.16596e-131</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVS-ACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILA--KPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>SLTRYLVEEQRKHNTIEPELRLLIEVVARACKAISNAVSKGALAGVLGSAGTGNVQGETQQKLDVIANEVLLDANEWGGHLAAMASEEMDSFYEIPNRYPKGEYLLLFDPLDGSSNIDVNVSIGTIFSVLHMHKPGQTVTEHDFMQPGTQQVAAGYAVYGPQTTLVLTVGNGVHMFTLDREAGSFVLTQSDVMIPEDTKEFAINMSNMRHWAPPVRRYIDECLAGDEGPRGKNFNMRWIASMVADVHRILTRGGVFMYPWDKREPEKPGKLRLMYEANPMAFLVEQAGGAATNGQQRILDVEPTKLHQRVSVILGSKNEVERVTRYHQE</Hsp_hseq>
+      <Hsp_midline>+LTR+L E  +++   E    +L+ VV+ AC  I+  V  GALAGVLG AGTGN+QGE Q+KLDVIAN +++D  +    +A +ASEE D+F         G YL+LFDPLDGSSNIDVN+S+GTIFS+L   KP   +    F+Q G QQ+AAGY +YGPQT LV T G+GV++FTL+ E   FVLT+ +  +PE TKEFAINMSN RHW PPV++Y+DE LAG+ G RGKN+NMRW+ASMVA++HRIL RGGVFMY  DKR+P KPGKLRLMYEANPMA ++EQAG +A+N  Q +LD++P  LHQRV+VI+GS  EV+ + R H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123624416|sp|Q46YH7.1|F16PA_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q46YH7</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>1.08592e-130</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVS-ACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE-GALATES-FLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>SLTRYLVEEQRKHNTIQPELRLLIEVVARACKAISNSVNKGALAGVLGSAGTGNVQGETQQKLDVIANEVLLDANEWGGHLAAMASEEMESFYEIPNRYPKGEYLLMFDPLDGSSNIDVNVSIGTIFSVLHMPKPGQTVTEADFLQPGTHQVAAGYAVYGPQTTLVLTVGNGVHVFTLDREAGSFVLTQSDVQIPEDTKEFAINMSNMRHWAPPVRKYIDECLAGDEGPRGKNFNMRWIASMVADVHRILTRGGIFMYPWDKREPEKAGKLRLMYEANPMAMLIEQAGGAATNGHIRILDVQPEKLHQRVSVILGSKNEVERVTRYHHE</Hsp_hseq>
+      <Hsp_midline>+LTR+L E  +++   +    +L+ VV+ AC  I+  V  GALAGVLG AGTGN+QGE Q+KLDVIAN +++D  +    +A +ASEE ++F         G YL++FDPLDGSSNIDVN+S+GTIFS+L  P+ G   TE+ FLQ G  Q+AAGY +YGPQT LV T G+GV+VFTL+ E   FVLT+ + ++PE TKEFAINMSN RHW PPV++Y+DE LAG+ G RGKN+NMRW+ASMVA++HRIL RGG+FMY  DKR+P K GKLRLMYEANPMA+++EQAG +A+N +  +LD+QPE LHQRV+VI+GS  EV+ + R H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81834635|sp|Q7NVB6.1|F16PA_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NVB6</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>1.40376e-130</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQ-NQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEE-EDTFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGAL-ATES-FLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAEN-EFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRFLIEQQRKAGTLPPELRLLIETVGRACKAISYSVNKGALADVLGEAGTGNIQGEAQKKLDVIANDFLLDANEWGGSLAAMASEEMELPYHIPGEYPKGEYLLMFDPLDGSSNIDVNISVGTIFSILRCPEGVTQPTETDFLQPGTHQVAAGYTVYGPQTMLVLTFGSGVHGFTLDREHGSFVLTHPDMKVPERTAEFAINMSNMRHWEAPVRRYVEEMLAGKTGPRGRDFNMRWVASMVAEVHRIITRGGIFMYPKDARDPSKAGKLRLMYEGNPMAFIIEQAGGAATNGHQRILDIVPTKLHERVAVFLGSKEEVELVTRYHSE</Hsp_hseq>
+      <Hsp_midline>TL+RFL E  ++   LP  L  ++ +V  AC  I+  V  GALA VLG AGTGNIQGE QKKLDVIAN+ ++D  +   ++A +ASEE E  +   GE   G YL++FDPLDGSSNIDVNISVGTIFSIL  PEG    TE+ FLQ G  Q+AAGY +YGPQT LV TFG GV+ FTL+ E+  FVLT  + KVPE T EFAINMSN RHW  PV++YV+E+LAG+TG RG+++NMRWVASMVAE+HRI+ RGG+FMY +D RDPSK GKLRLMYE NPMA I+EQAG +A+N +Q +LDI P  LH+RVAV +GS EEV+ + R HS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|224472949|sp|A5WA74.1|F16PA_PSEP1</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas putida F1]</Hit_def>
+  <Hit_accession>A5WA74</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>1.48389e-130</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDT-FVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALAT------ESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHHVSKGALGGVLGSMGTENVQGEVQKKLDVISNDILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPNQYLSQNESLNEEAFLQPGTEQVAAGYAIYGPQTMLILTLGNGVKGFTLDRELGSFVLTHENIRVPETTAEFAINMSNQRHWEAPVQRYVGELLAGETGPLKKNYNMRWIASMVADVHRILTRGGLFMYPRDAREPSKPGKLRLMYEANPMSFIIEQAGGASTNGYDRILDIKPESLHQRVSVILGSKEEVERVTAYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDVI+N+I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNIDVN+SVGTIFS+L  P   L+       E+FLQ G +Q+AAGY +YGPQT L+ T G+GV  FTL+ E   FVLT EN +VPE+T EFAINMSN+RHW  PVQ+YV ELLAGETG   KNYNMRW+ASMVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ I+EQAG +++N Y  +LDI+PESLHQRV+VI+GS EEV+ +   H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81840418|sp|Q88CY9.1|F16PA_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88CY9</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>2.34341e-130</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDT-FVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALAT------ESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHHVSKGALGGVLGSMGTENVQGEVQKKLDVISNDILLEANEWGGHLAGMASEEMDNAYQIPGRYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPNQYLSQNESLNEEAFLQPGTEQVAAGYAIYGPQTMLILTLGNGVKGFTLDRELGSFVLTHENIRVPETTAEFAINMSNQRHWEAPVQRYVGELLAGETGPLKKNYNMRWIASMVADVHRILTRGGLFMYPRDAREPSKPGKLRLMYEANPMSFIIEQAGGASTNGYDRILDIKPESLHQRVSVILGSKEEVERVTAYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDVI+N+I+++  +    +AG+ASEE D  +   G    G YL++FDPLDGSSNIDVN+SVGTIFS+L  P   L+       E+FLQ G +Q+AAGY +YGPQT L+ T G+GV  FTL+ E   FVLT EN +VPE+T EFAINMSN+RHW  PVQ+YV ELLAGETG   KNYNMRW+ASMVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ I+EQAG +++N Y  +LDI+PESLHQRV+VI+GS EEV+ +   H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|224492898|sp|B2U8C4.1|F16PA_RALPJ</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Ralstonia pickettii 12J]</Hit_def>
+  <Hit_accession>B2U8C4</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>5.66856e-130</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LTRFL-PEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE-GALATES-FLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>LTRYLIEEQREHNTIPAELRLLLEVVARACKAISHSVNKGALAGVLGSAGTGNVQGETQQKLDVIANEVLLEANEYGGNLAAMASEEMESFYEIPHRYPKGEYLLLFDPLDGSSNIDVNVSIGTIFSVLHMPKAGEAVTEADFMQPGSKQVAAGYAVYGPQTTLVLTVGNGVHMFTLDREVGSFVLTHRDVKIPVDTKEFAINMSNMRHWAPPVRRYIDECLAGTEGPRGKDFNMRWIASMVADVHRILTRGGIFMYPWDKREPGKAGKLRLMYEANPMAFLVEQAGGAATNGEQRILDIQPEKLHQRVAVVLGSKNEVDRVTQYH</Hsp_hseq>
+      <Hsp_midline>LTR+L  E  + N +P  L  +L  V  AC  I+  V  GALAGVLG AGTGN+QGE Q+KLDVIAN ++++  +    +A +ASEE ++F         G YL+LFDPLDGSSNIDVN+S+GTIFS+L  P+ G   TE+ F+Q G +Q+AAGY +YGPQT LV T G+GV++FTL+ E   FVLT  + K+P  TKEFAINMSN RHW PPV++Y+DE LAG  G RGK++NMRW+ASMVA++HRIL RGG+FMY  DKR+P K GKLRLMYEANPMA ++EQAG +A+N  Q +LDIQPE LHQRVAV++GS  EVD + + H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81849555|sp|Q8XXI7.1|F16PA_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8XXI7</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>6.11707e-130</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>LTRFL-PEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE-GALATES-FLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>LTRYLIEEQREHNTIPAELRLLLEVVARACKAISHSVNKGALAGVLGSAGTGNVQGETQQKLDVIANEVLLEANEYGGNLAAMASEEMESFYEIPHRYPKGEYLLLFDPLDGSSNIDVNVSIGTIFSVLHMPKPGQTVTEADFMQPGVRQVAAGYAVYGPQTTLVLTVGNGVHMFTLDREVGSFILTNRDVKIPADTKEFAINMSNMRHWAPPVRRYIDECLAGTEGPRGKDFNMRWIASMVADVHRILTRGGIFMYPWDKREPGKAGKLRLMYEANPMAFLVEQAGGAATNGHQRILEIQPEKLHQRVAVILGSKNEVDRVTQYHRE</Hsp_hseq>
+      <Hsp_midline>LTR+L  E  + N +P  L  +L  V  AC  I+  V  GALAGVLG AGTGN+QGE Q+KLDVIAN ++++  +    +A +ASEE ++F         G YL+LFDPLDGSSNIDVN+S+GTIFS+L  P+ G   TE+ F+Q G +Q+AAGY +YGPQT LV T G+GV++FTL+ E   F+LT  + K+P  TKEFAINMSN RHW PPV++Y+DE LAG  G RGK++NMRW+ASMVA++HRIL RGG+FMY  DKR+P K GKLRLMYEANPMA ++EQAG +A+N +Q +L+IQPE LHQRVAVI+GS  EVD + + H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|122401502|sp|Q1I3Q0.1|F16PA_PSEE4</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas entomophila L48]</Hit_def>
+  <Hit_accession>Q1I3Q0</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>8.36826e-130</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDT-FVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATE------SFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHHVSKGALGGVLGSMGTENVQGEVQKKLDVISNDILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPNQYLSQNESLNEAAFLQPGTEQVAAGYAIYGPQTMLILTLGNGVKGFTLDRELGSFVLTHENIRVPETTAEFAINMSNQRHWEAPVQRYVGELLAGETGPLKKNYNMRWIASMVADVHRILTRGGLFMYPRDAREPSKPGKLRLMYEANPMSFIIEQAGGASTNGYDRILDIKPESLHQRVSVILGSKEEVERVTAYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDVI+N+I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNIDVN+SVGTIFS+L  P   L+        +FLQ G +Q+AAGY +YGPQT L+ T G+GV  FTL+ E   FVLT EN +VPE+T EFAINMSN+RHW  PVQ+YV ELLAGETG   KNYNMRW+ASMVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ I+EQAG +++N Y  +LDI+PESLHQRV+VI+GS EEV+ +   H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|224472950|sp|B0KM65.1|F16PA_PSEPG</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas putida GB-1]</Hit_def>
+  <Hit_accession>B0KM65</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>1.60732e-129</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDT-FVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALAT------ESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHHVSKGALGGVLGSMGTENVQGEVQKKLDVISNDILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPNQYLSQNESLNEEAFLQPGTEQVAAGYAIYGPQTMLILTLGNGVKGFTLDRELGSFVLTHENIQVPATTAEFAINMSNQRHWEAPVQRYVGELLAGETGPLKKNYNMRWIASMVADVHRILTRGGLFMYPRDAREPSKPGKLRLMYEANPMSFIIEQAGGASTNGYDRILDIKPESLHQRVSVILGSKEEVERVTAYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDVI+N+I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNIDVN+SVGTIFS+L  P   L+       E+FLQ G +Q+AAGY +YGPQT L+ T G+GV  FTL+ E   FVLT EN +VP +T EFAINMSN+RHW  PVQ+YV ELLAGETG   KNYNMRW+ASMVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ I+EQAG +++N Y  +LDI+PESLHQRV+VI+GS EEV+ +   H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|224472951|sp|B1J2P7.1|F16PA_PSEPW</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas putida W619]</Hit_def>
+  <Hit_accession>B1J2P7</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.252</Hsp_bit-score>
+      <Hsp_score>970</Hsp_score>
+      <Hsp_evalue>8.21719e-129</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDT-FVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATE------SFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHHVSKGALGGVLGSMGTENVQGEVQKKLDVISNDILLEANEWGGHLAGMASEEMDNAYQIPGRYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPNEYLSQNETLNENAFLQPGTEQVAAGYAIYGPQTMLILTLGNGVKGFTLDRELGSFVLTHENIQVPATTAEFAINMSNQRHWEAPVQRYVGELLAGETGPLKKNYNMRWIASMVADVHRILTRGGLFMYPRDAREPSKPGKLRLMYEANPMSFIIEQAGGASTNGYERILDIKPESLHQRVSVILGSKEEVERVTAYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDVI+N+I+++  +    +AG+ASEE D  +   G    G YL++FDPLDGSSNIDVN+SVGTIFS+L  P   L+        +FLQ G +Q+AAGY +YGPQT L+ T G+GV  FTL+ E   FVLT EN +VP +T EFAINMSN+RHW  PVQ+YV ELLAGETG   KNYNMRW+ASMVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ I+EQAG +++N Y+ +LDI+PESLHQRV+VI+GS EEV+ +   H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|259646326|sp|C1DHU3.1|F16PA_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DHU3</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>1.41693e-128</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDT-FVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE------GALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSHNTPADLRFLIEVVARACKEISHAVSKGALGGVLGSMGTENVQGEVQKKLDVMSNEILLEANEWGGHLAGMASEEMDSAYQIPGKYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPDQYLTQNDSLNEQAFLQPGTQQVAAGYAIYGPQTMLMLTLGNGVKGFTLDRELGSFVLTHDNLCVPETTAEFAINMSNQRHWEPPVKRYVDELLAGKTGPLDKDYNMRWIASMVADVHRILTRGGIFMYPRDAREPSKPGKLRLMYEANPMSFIIEQAGGAATNGTQRILDIQPESLHQRVAVFLGSKAEVERITDYH</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + +  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDV++N I+++  +    +AG+ASEE D+ +   G+   G YL++FDPLDGSSNIDVN+SVGTIFS+L  P+       +L  ++FLQ G QQ+AAGY +YGPQT L+ T G+GV  FTL+ E   FVLT +N  VPE+T EFAINMSN+RHW PPV++YVDELLAG+TG   K+YNMRW+ASMVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ I+EQAG +A+N  Q +LDIQPESLHQRVAV +GS  EV+ +   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|224472948|sp|A4XPL2.1|F16PA_PSEMY</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas mendocina ymp]</Hit_def>
+  <Hit_accession>A4XPL2</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.015</Hsp_bit-score>
+      <Hsp_score>959</Hsp_score>
+      <Hsp_evalue>3.10421e-127</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED-TFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE-----GALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSHNTPADLRFLIEVVARACKAISHQVSKGALGGVLGSLDSENVQGEVQKKLDVISNEILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPDRNGDTGDLGEDAFLQPGTQQVAAGYAIYGPQTMLMLTLGDGVKGFTLDRELGSFVLTHDNIKVPESTKEFAINMSNQRHWEAPVQRYVSELLAGETGPLGRNYNMRWIASMVADVHRILTRGGVFMYPRDAREPDKPGKLRLMYEANPMSMIIEQAGGAATDGSQRILDIQPTSLHQRVPVFLGSKEEVLRVTAYH</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + +  P  L  ++  V  AC  I+ +V  GAL GVLG   + N+QGE QKKLDVI+N I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNIDVN+SVGTIFS+L  P+     G L  ++FLQ G QQ+AAGY +YGPQT L+ T G GV  FTL+ E   FVLT +N KVPESTKEFAINMSN+RHW  PVQ+YV ELLAGETG  G+NYNMRW+ASMVA++HRIL RGGVFMY +D R+P KPGKLRLMYEANPM++I+EQAG +A++  Q +LDIQP SLHQRV V +GS EEV  +   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|224472952|sp|A4VGC9.1|F16PA_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VGC9</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.244</Hsp_bit-score>
+      <Hsp_score>957</Hsp_score>
+      <Hsp_evalue>7.02385e-127</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED-TFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEG------ALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKAISHQVSKGALGGVLGSAGSENVQGEVQKKLDVLSNEILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPDACFSQNDALGEEAFLQPGTKQVAAGYAIYGPQTMLVLTLGHGVMGFTLDRELGSFVLTHENLCVPQSTAEFAINMSNQRHWEAPVQRYVGELLAGKEGPLGKNYNMRWIASMVADVHRILTRGGIFMYPRDAREPDKAGKLRLMYEANPMSMIIEQAGGAATTGTQRILEIQPQSLHQRVPVFLGSKEEVERVTGYH</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC  I+ +V  GAL GVLG AG+ N+QGE QKKLDV++N I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNIDVN+SVGTIFS+L  P+       AL  E+FLQ G +Q+AAGY +YGPQT LV T GHGV  FTL+ E   FVLT EN  VP+ST EFAINMSN+RHW  PVQ+YV ELLAG+ G  GKNYNMRW+ASMVA++HRIL RGG+FMY +D R+P K GKLRLMYEANPM++I+EQAG +A+   Q +L+IQP+SLHQRV V +GS EEV+ +   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|224495126|sp|A1TN89.1|F16PA_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TN89</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>1.71175e-126</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQL-PEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEG--ALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAEN-EFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHS</Hsp_qseq>
+      <Hsp_hseq>SLTRYLVEQQRVDGLIPSQLRLLLEVVARACKHISHAVNKGALGGVLGSASSENVQGEIQKKLDIIANEVLIEANEWGGHLAAMASEEMDSIYVVPNRYPQGEYLLLFDPLDGSSNIDVNVSIGTIFSVLKKPEGHPGVTTEDFLQAGSSQVAAGYCIYGPQTTLVLTVGDGVAMFTLDREQGSFVLVEENVKIPADTREFAINMSNMRHWDAPVKRYIDECLAGTEGPREKDFNMRWIASMVADVHRILTRGGIFLYPWDKREPNKPGKLRLMYEANPMSWLIEQAGGAATNGKERILDIQPKQLHERVSVILGSKNEVERVTRYHS</Hsp_hseq>
+      <Hsp_midline>+LTR+L E  + + L P  L  +L  V  AC  I+  V  GAL GVLG A + N+QGE QKKLD+IAN ++I+  +    +A +ASEE D+          G YL+LFDPLDGSSNIDVN+S+GTIFS+L KPEG   + TE FLQ G  Q+AAGY +YGPQT LV T G GV +FTL+ E   FVL +EN K+P  T+EFAINMSN RHW  PV++Y+DE LAG  G R K++NMRW+ASMVA++HRIL RGG+F+Y  DKR+P+KPGKLRLMYEANPM+ ++EQAG +A+N  + +LDIQP+ LH+RV+VI+GS  EV+ + R HS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123638664|sp|Q48PL3.1|F16PA_PSE14</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas syringae pv. phaseolicola 1448A]</Hit_def>
+  <Hit_accession>Q48PL3</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>6.24873e-126</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDT-FVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEG------ALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHAVSKGALGGVLGSMGTENVQGEVQKKLDVISNEILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDINAPVGTIFSVLRCPNEYLSQNEALNEKAFLQPGTEQVAAGYAIYGPQTMLVLTLGDGVKGFTLDREMGSFVLTHEDIKIPESTQEFAINMSNQRHWEAPVQRYVNELLAGEEGPLKKNYNMRWVAAMVADVHRILTRGGLFMYPRDSREPSKPGKLRLMYEANPMSFLVEQAGGASTDGHQRILDIQPEGLHQRVAVYLGSKEEVERATAYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDVI+N I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNID+N  VGTIFS+L  P        AL  ++FLQ G +Q+AAGY +YGPQT LV T G GV  FTL+ E   FVLT E+ K+PEST+EFAINMSN+RHW  PVQ+YV+ELLAGE G   KNYNMRWVA+MVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ ++EQAG ++++ +Q +LDIQPE LHQRVAV +GS EEV+     H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|224472943|sp|B1XVF7.1|F16PA_POLNS</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Polynucleobacter necessarius subsp. necessarius STIR1]</Hit_def>
+  <Hit_accession>B1XVF7</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>9.57281e-126</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>LPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAK--PEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLN-AENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHS</Hsp_qseq>
+      <Hsp_hseq>LPTGLQDLLIAVVNTCSKLSHEVAQGALIGLLGPAGTGNVQGEVQQKLDIIANDLLIDGVQGCKSLAGLASEEMELPVPVQGTGDYLLLFDPLDGSSNIDVNVSIGTIFSVLKKQDPAAPLQTSDFLLSGRHQVAAGYVVYGPQTTMALTLGDGVVMFTLNKVTGEFLLIKDSVTISHSTKEFAINMSNMRHWADPVRRYVEECLAGVSGARDKDFNMRWIASMVADVHRVLSRGGVFMYPWDQREPHKPGKLRLMYEVNPMSFLVEQAGGVSTNGTDLIMDLQPTDLHERVSVMLGSKEEIDRIQHYHS</Hsp_hseq>
+      <Hsp_midline>LP  L  +L++VV+ C++++ +V  GAL G+LG AGTGN+QGE Q+KLD+IAN+++ID ++   ++AGLASEE +  V     G YL+LFDPLDGSSNIDVN+S+GTIFS+L K  P   L T  FL +GR Q+AAGYV+YGPQT +  T G GV +FTLN    EF+L K++  +  STKEFAINMSN RHW  PV++YV+E LAG +G R K++NMRW+ASMVA++HR+L RGGVFMY  D+R+P KPGKLRLMYE NPM+ ++EQAG  ++N    ++D+QP  LH+RV+V++GS EE+D +   HS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|224472944|sp|A4SWM3.1|F16PA_POLSQ</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Polynucleobacter necessarius subsp. asymbioticus QLW-P1DMWA-1]</Hit_def>
+  <Hit_accession>A4SWM3</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>1.44218e-125</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>PEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAK--PEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLN-AENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHS</Hsp_qseq>
+      <Hsp_hseq>PAGLQELLIAVTQTCSTLSHEVAQGALIGLLGSAGTGNVQGEVQQKLDIIANDLLIEGVQGCKSLAGLASEEMELPVPVQGTGDYLLLFDPLDGSSNIDVNVSIGTIFSILKKQDPQAPLQTADFLLSGRHQVAAGYVVYGPQTTMALTLGDGVVMFTLNKVTGEFLLIKDAVTIAHSTKEFAINMSNMRHWADPVKRYVEECLAGVGGAREKDFNMRWIASMVADVHRVLSRGGVFMYPWDQREPHKPGKLRLMYEANPMSFLVEQAGGASTNGTQLIMDLQPTDLHERVSVMLGSKEEIDRLQHYHS</Hsp_hseq>
+      <Hsp_midline>P  L  +L++V   C+ ++ +V  GAL G+LG AGTGN+QGE Q+KLD+IAN+++I+ ++   ++AGLASEE +  V     G YL+LFDPLDGSSNIDVN+S+GTIFSIL K  P+  L T  FL +GR Q+AAGYV+YGPQT +  T G GV +FTLN    EF+L K+   +  STKEFAINMSN RHW  PV++YV+E LAG  G R K++NMRW+ASMVA++HR+L RGGVFMY  D+R+P KPGKLRLMYEANPM+ ++EQAG +++N  Q ++D+QP  LH+RV+V++GS EE+D L   HS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|224488128|sp|A9BW85.1|F16PA_DELAS</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Delftia acidovorans SPH-1]</Hit_def>
+  <Hit_accession>A9BW85</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>1.71622e-125</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQL-PEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEE-EDTFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEG--ALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAEN-EFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>SLTRYLVEQQRVDGLIPGQLRLLLEVVARACKRISQSVNKGAIGDVLGTAGSENVQGEVQKKLDIIANEVLIEANEWGGHLAAMASEEMEGIYLVPNRYPHGEYLLMFDPLDGSSNIDVNVSIGTIFSVLKKPEGHPGVTEQDFMQPGTQQVAAGYCIYGPQTTLVLTVGDGVSMFTLDREQGSFVLVQENIRIPEDTKEFAINMSNMRHWDTPVKRYVDECLAGVEGPRGKDFNMRWIASMVADVHRIMTRGGIFMYPWDRREPNKPGKLRLMYEANPMAWLVEQAGGAATNGKQRILDIQPTQLHERVSVILGSKNEVEKVTQYHSE</Hsp_hseq>
+      <Hsp_midline>+LTR+L E  + + L P  L  +L  V  AC  I+  V  GA+  VLG AG+ N+QGE QKKLD+IAN ++I+  +    +A +ASEE E  ++      +G YL++FDPLDGSSNIDVN+S+GTIFS+L KPEG   +  + F+Q G QQ+AAGY +YGPQT LV T G GV +FTL+ E   FVL +EN ++PE TKEFAINMSN RHW  PV++YVDE LAG  G RGK++NMRW+ASMVA++HRI+ RGG+FMY  D+R+P+KPGKLRLMYEANPMA ++EQAG +A+N  Q +LDIQP  LH+RV+VI+GS  EV+ + + HS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|123606287|sp|Q3KJG0.1|F16PA_PSEPF</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas fluorescens Pf0-1]</Hit_def>
+  <Hit_accession>Q3KJG0</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>1.83346e-125</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED-TFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEG------ALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHAVSKGALGGVLGSMGTENVQGEVQKKLDVLSNEILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDINAPVGTIFSVLRCPNEYLSQNEALDEKAFLQPGTQQVAAGYAIYGPQTMLVLTLGHGVKGFTLDREMGSFVLTHEDITIPESTQEFAINMSNQRHWEAPVQRYVSELLAGEEGPLKKNYNMRWVAAMVADVHRILTRGGLFMYPRDSREPSKPGKLRLMYEANPMSFLVEQAGGASTDGHQRILDIKPEGLHQRVAVFLGSKEEVARATAYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDV++N I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNID+N  VGTIFS+L  P        AL  ++FLQ G QQ+AAGY +YGPQT LV T GHGV  FTL+ E   FVLT E+  +PEST+EFAINMSN+RHW  PVQ+YV ELLAGE G   KNYNMRWVA+MVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ ++EQAG ++++ +Q +LDI+PE LHQRVAV +GS EEV      H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|81856938|sp|Q9HU73.1|F16PA_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas aeruginosa PAO1] &gt;gi|254783764|sp|B7V3K3.1|F16PA_PSEA8 RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>Q9HU73</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>2.95823e-125</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED-TFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE------GALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSHNTPADLRFLIEVVARACKEISHAVSKGALGGVLGSMGTENVQGEVQKKLDVMSNEILLEANEWAGNLAGMASEEMDHPYQIPGRYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPNEYLNQNDTLREEAFLQPGTTQVAAGYAIYGPQTMLMLTLGNGVKGFTLDRELGSFVLTHDNISVPESTAEFAINMSNQRHWEAPVKRYVEELLAGKEGPLGKNYNMRWIASMVADVHRILTRGGVFMYPRDAREPEKPGKLRLMYEANPMSFIIEQAGGAATNGTQRILDIKPENLHQRVAVFLGSKQEVERITGYHAE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + +  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDV++N I+++  +    +AG+ASEE D  +   G    G YL++FDPLDGSSNIDVN+SVGTIFS+L  P         L  E+FLQ G  Q+AAGY +YGPQT L+ T G+GV  FTL+ E   FVLT +N  VPEST EFAINMSN+RHW  PV++YV+ELLAG+ G  GKNYNMRW+ASMVA++HRIL RGGVFMY +D R+P KPGKLRLMYEANPM+ I+EQAG +A+N  Q +LDI+PE+LHQRVAV +GS +EV+ +   H++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|122256726|sp|Q02EQ6.1|F16PA_PSEAB</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas aeruginosa UCBPP-PA14]</Hit_def>
+  <Hit_accession>Q02EQ6</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>3.40733e-125</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED-TFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE------GALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSHNTPADLRFLIEVVARACKEISHAVSKGALGGVLGSMGTENVQGEVQKKLDVMSNEILLEANEWAGNLAGMASEEMDHPYQIPGRYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPSEYLNQNDTLREEAFLQPGTTQVAAGYAIYGPQTMLMLTLGNGVKGFTLDRELGSFVLTHDNISVPESTAEFAINMSNQRHWEAPVKRYVEELLAGKEGPLGKNYNMRWIASMVADVHRILTRGGVFMYPRDAREPEKPGKLRLMYEANPMSFIIEQAGGAATNGTQRILDIKPENLHQRVAVFLGSKQEVERITGYHAE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + +  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDV++N I+++  +    +AG+ASEE D  +   G    G YL++FDPLDGSSNIDVN+SVGTIFS+L  P         L  E+FLQ G  Q+AAGY +YGPQT L+ T G+GV  FTL+ E   FVLT +N  VPEST EFAINMSN+RHW  PV++YV+ELLAG+ G  GKNYNMRW+ASMVA++HRIL RGGVFMY +D R+P KPGKLRLMYEANPM+ I+EQAG +A+N  Q +LDI+PE+LHQRVAV +GS +EV+ +   H++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|224472947|sp|A6VDM7.1|F16PA_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6VDM7</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>4.37535e-125</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED-TFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPE------GALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSHNTPADLRFLIEVVARACKEISHAVSKGALGGVLGSMGTENVQGEVQKKLDVMSNEILLEANEWAGNLAGMASEEMDHPYQIPGRYPKGAYLLVFDPLDGSSNIDVNVSVGTIFSVLRCPNEYLNQNDTLREEAFLQPGTTQVAAGYAIYGPQTMLMLTLGNGVKGFTLDRELGSFVLTHDNISVPESTAEFAINMSNQRHWEAPVKRYVEELLAGKEGPLGKNYNMRWIASMVADVHRILTRGGVFMYPRDAREPEKPGKLRLMYEANPMSFIIEQAGGAATNGTQRILDIKPENLHQRVAVFLGSKQEVERITGYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + +  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDV++N I+++  +    +AG+ASEE D  +   G    G YL++FDPLDGSSNIDVN+SVGTIFS+L  P         L  E+FLQ G  Q+AAGY +YGPQT L+ T G+GV  FTL+ E   FVLT +N  VPEST EFAINMSN+RHW  PV++YV+ELLAG+ G  GKNYNMRW+ASMVA++HRIL RGGVFMY +D R+P KPGKLRLMYEANPM+ I+EQAG +A+N  Q +LDI+PE+LHQRVAV +GS +EV+ +   H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|224492892|sp|A0KSW7.1|F16PA_SHESA</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Shewanella sp. ANA-3]</Hit_def>
+  <Hit_accession>A0KSW7</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>5.83799e-125</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>LAQHLTSKAVNESLSQLILTLADTSKAISHAVRHGALAGVLGATEQENVQGETQKKLDIITNDMLKDALKADGTVRGLASEEEDHVVEVCANGQYLVCFDPLDGSSNIDINSLVGTIFSVLPAPQGELTETSFLQSGRNQLAAGYVLYGPSTMLALTTGQGVQLFTLHPETNEFLLTNAAMSISPDTQEFAINMSNQRFWEAPMQTYIADLLLGKIGPREKSFNMRWIAAMVGDVHRVLSRGGIFTYPTDNKDPKKPYKLRLMYEANPMALLVEQAGGKASTGYETILDIQPTQIHQRVAVILGSANEVDACLSYH</Hsp_hseq>
+      <Hsp_midline>L +HL    + E+L  ++L++      I+  VR GALAGVLG     N+QGE QKKLD+I N+++ D LKA+  V GLASEEED  V    NG+YLV FDPLDGSSNID+N  VGTIFS+L  P+G L   SFLQ+GR QLAAGYVLYGP T L  T G GV +FTL+ E NEF+LT     +   T+EFAINMSN+R W  P+Q Y+ +LL G+ G R K++NMRW+A+MV ++HR+L RGG+F Y  D +DP KP KLRLMYEANPMAL++EQAG  AS  Y+ +LDIQP  +HQRVAVI+GS+ EVD     H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|81827399|sp|Q6F982.1|F16PA_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6F982</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>7.94938e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>MDTLTRFLPEHLQQ---NQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENE-FVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>MSNLT--LAQYLQQKNGNLTPE-LAQVIETIANSCKKIDHAIQKGALADLLGSAGNENVQGETQKKLDVLSNDFLIDALKVHPHVGGLASEELDEFTPGQQDGKYLVLFDPLDGSSNIDINMCVGTIFSILPAKNSITQTQDFMQAGTEQVAAGYVLYGPSTMMALTCGEGVAFFTFDPESQTFILTSDAIQLDADTQEFAINASNQRHWEEPVKRYIDELLAGKTSVRGKDFNMRWVACMVADIHRILCRSGIFMYPYDLKDPSKAGRLRLMYEANPMSFLIEQAGGSATTGRVRIMDIQPNDLHQRVPVIIGSKNEVDLVTSYH</Hsp_hseq>
+      <Hsp_midline>M  LT  L ++LQQ   N  PE L  V+ ++ ++C +I+  ++ GALA +LG AG  N+QGE QKKLDV++N+ +ID LK +P V GLASEE D F    ++G+YLVLFDPLDGSSNID+N+ VGTIFSIL        T+ F+Q G +Q+AAGYVLYGP T +  T G GV  FT + E++ F+LT +  ++   T+EFAIN SN+RHW  PV++Y+DELLAG+T  RGK++NMRWVA MVA+IHRIL R G+FMY  D +DPSK G+LRLMYEANPM+ ++EQAG SA+     ++DIQP  LHQRV VI+GS  EVD +   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|81845746|sp|Q8EAB6.1|F16PA_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EAB6</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>8.41006e-125</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>LAQHLTSKAVNESLAQLILTLADTSKAISHAVRHGALAGVLGATEQENVQGETQKKLDIITNDMLKDALKADGTVRGLASEEEDHVVEVSANGQYLVCFDPLDGSSNIDINSLVGTIFSVLPAPQGELTEASFLQSGRNQLAAGYVLYGPSTMLALTTGQGVQLFTLHPETNEFLLTNATMSISPDTSEFAINMSNQRFWEAPMQTYIADLLLGKIGPREKSFNMRWIAAMVGDVHRVLSRGGIFTYPTDNKDPKKPYKLRLMYEANPMAFLVEQAGGKASTGYETILDIQPTQIHQRVAVILGSANEVDACLSYH</Hsp_hseq>
+      <Hsp_midline>L +HL    + E+L  ++L++      I+  VR GALAGVLG     N+QGE QKKLD+I N+++ D LKA+  V GLASEEED  V    NG+YLV FDPLDGSSNID+N  VGTIFS+L  P+G L   SFLQ+GR QLAAGYVLYGP T L  T G GV +FTL+ E NEF+LT     +   T EFAINMSN+R W  P+Q Y+ +LL G+ G R K++NMRW+A+MV ++HR+L RGG+F Y  D +DP KP KLRLMYEANPMA ++EQAG  AS  Y+ +LDIQP  +HQRVAVI+GS+ EVD     H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|123658557|sp|Q4KJP6.1|F16PA_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4KJP6</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>1.18957e-124</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED-TFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEG------ALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHAVSKGALGGVLGSMGTENVQGEVQKKLDVISNEILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDINAPVGTIFSVLRCPNEYLSQNEALNEKAFLQPGTQQVAAGYAIYGPQTMLVLTLGDGVKGFTLDREMGSFVLTHEDIKIPESTQEFAINMSNERHWEAPVKRYVEELLAGDTGPLKKNYNMRWVAAMVADVHRILTRGGLFMYPRDSREPEKPGKLRLMYEANPMSFLVEQAGGASTDGHKRILDIQPEGLHQRVAVFLGSKEEVARVTGYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDVI+N I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNID+N  VGTIFS+L  P        AL  ++FLQ G QQ+AAGY +YGPQT LV T G GV  FTL+ E   FVLT E+ K+PEST+EFAINMSN RHW  PV++YV+ELLAG+TG   KNYNMRWVA+MVA++HRIL RGG+FMY +D R+P KPGKLRLMYEANPM+ ++EQAG ++++ ++ +LDIQPE LHQRVAV +GS EEV  +   H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|122944385|sp|Q0HRA0.1|F16PA_SHESR</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Shewanella sp. MR-7]</Hit_def>
+  <Hit_accession>Q0HRA0</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>1.2362e-124</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>LAQHLTSKAVNESLSQLILTLADTSKAISHAVRHGALAGVLGATEQENVQGETQKKLDIITNDMLKDALKADGTVRGLASEEEDHVVEVSANGQYLVCFDPLDGSSNIDINSLVGTIFSVLPAPAGELTETSFLQSGRNQLAAGYVLYGPSTMLALTTGQGVQLFTLHPETNEFLLTNAAMSISPDTQEFAINMSNQRFWEAPMQTYIADLLLGKIGPREKSFNMRWIAAMVGDVHRVLSRGGIFTYPTDNKDPKKPYKLRLMYEANPMALLVEQAGGKASTGYETILDIQPTQIHQRVAVILGSANEVDACLSYH</Hsp_hseq>
+      <Hsp_midline>L +HL    + E+L  ++L++      I+  VR GALAGVLG     N+QGE QKKLD+I N+++ D LKA+  V GLASEEED  V    NG+YLV FDPLDGSSNID+N  VGTIFS+L  P G L   SFLQ+GR QLAAGYVLYGP T L  T G GV +FTL+ E NEF+LT     +   T+EFAINMSN+R W  P+Q Y+ +LL G+ G R K++NMRW+A+MV ++HR+L RGG+F Y  D +DP KP KLRLMYEANPMAL++EQAG  AS  Y+ +LDIQP  +HQRVAVI+GS+ EVD     H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|224495127|sp|B2HWU2.1|F16PA_ACIBC</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Acinetobacter baumannii ACICU] &gt;gi|224495128|sp|B0VT80.1|F16PA_ACIBS RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Acinetobacter baumannii SDF]</Hit_def>
+  <Hit_accession>B2HWU2</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>1.38419e-124</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENE-FVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>TLSQFLQQE-KGNLTPE-LAQVIDTIAATCKTIDQALQKGALAGILGSAGNENVQGETQKKLDVISNDYLIDALKVHPHVGGLASEELDDFTPAQENGEYLVLFDPLDGSSNIDINMCVGTIFSILPAKNAVTQAQDFMQAGTQQVAAGYVLYGPSTMMALTVGNGVAFFTLDPETQTFLLTTENVQVSADTQEFAINASNQRHWEQPVKQYIEELLAGKTSVREKDFNMRWVACMVGDVHRILCRGGIFLYPYDLKDPKKAGRLRLMYEANPMSMLIEQAGGASTTGRVRILEIEPTELHQRVPVIIGSKNEVERVTSYH</Hsp_hseq>
+      <Hsp_midline>TL++FL +  + N  PE L  V+ ++ + C  I+  ++ GALAG+LG AG  N+QGE QKKLDVI+N+ +ID LK +P V GLASEE D F  A ENG YLVLFDPLDGSSNID+N+ VGTIFSIL         + F+Q G QQ+AAGYVLYGP T +  T G+GV  FTL+ E + F+LT EN +V   T+EFAIN SN+RHW  PV+QY++ELLAG+T  R K++NMRWVA MV ++HRIL RGG+F+Y  D +DP K G+LRLMYEANPM++++EQAG +++     +L+I+P  LHQRV VI+GS  EV+ +   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|122968007|sp|Q12D67.1|F16PA_POLSJ</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Polaromonas sp. JS666]</Hit_def>
+  <Hit_accession>Q12D67</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>1.49346e-124</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEH-LQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFV---SAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATE--SFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAEN-EFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHS</Hsp_qseq>
+      <Hsp_hseq>SLTRYLVEQQRREGHIPAQLRLLLEVVARACKGISQSVNKGALGGVLGTAGSENVQGEVQKKLDIIANEVLIEANEWGGHLAAMASEEMDSIYLVPNRYPQGEYLLLFDPLDGSSNIDVNVSIGTIFSVLKKPDDHAGVEEKDFLQPGNKQVAAGYCVYGPQTTLVLTVGDGVAMFTLDREQGSFVLIEENVRIPEDTKEFAINMSNMRHWDAPVKRYIDECLQGTEGPRGKDFNMRWVASMVADVHRILSRGGIFMYPWDKREPEKAGKLRLMYEANPMGWIVEQAGGSATNGKQRILDIQPGKLHERVSVILGSKNEVERVTGYHS</Hsp_hseq>
+      <Hsp_midline>+LTR+L E   ++  +P  L  +L  V  AC  I+  V  GAL GVLG AG+ N+QGE QKKLD+IAN ++I+  +    +A +ASEE D+     +    G YL+LFDPLDGSSNIDVN+S+GTIFS+L KP+     E   FLQ G +Q+AAGY +YGPQT LV T G GV +FTL+ E   FVL +EN ++PE TKEFAINMSN RHW  PV++Y+DE L G  G RGK++NMRWVASMVA++HRIL RGG+FMY  DKR+P K GKLRLMYEANPM  I+EQAG SA+N  Q +LDIQP  LH+RV+VI+GS  EV+ +   HS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|75503787|sp|Q4ZZI0.1|F16PA_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZZI0</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>1.57814e-124</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED-TFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEG------ALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHAVSKGALGGVLGSMGTENVQGEVQKKLDVISNEILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDINAPVGTIFSVLRCPNEYLSQNEALNEKAFLQPGTEQVAAGYAIYGPQTMLVLTLGDGVKGFTLDREMGSFVLTHEDITIPESTQEFAVNMSNQRHWEAPVQRYVSELLAGEDGPLKKNYNMRWVAAMVADVHRILTRGGLFMYPRDSREPSKPGKLRLMYEANPMSFLVEQAGGASTDGHQRILDIQPEGLHQRVAVYLGSKEEVERATAYH</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDVI+N I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNID+N  VGTIFS+L  P        AL  ++FLQ G +Q+AAGY +YGPQT LV T G GV  FTL+ E   FVLT E+  +PEST+EFA+NMSN+RHW  PVQ+YV ELLAGE G   KNYNMRWVA+MVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ ++EQAG ++++ +Q +LDIQPE LHQRVAV +GS EEV+     H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|224495934|sp|A3M7W9.2|F16PA_ACIBT</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Acinetobacter baumannii ATCC 17978]</Hit_def>
+  <Hit_accession>A3M7W9</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>1.64725e-124</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENE-FVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>TLSQFLQQE-KGNLTPE-LAQVIDTIAATCKTIDQALQKGALAGILGSAGNENVQGETQKKLDVISNDYLIDALKVHPHVGGLASEELDDFTLAQENGEYLVLFDPLDGSSNIDINMCVGTIFSILPAKNAVTQAQDFMQAGTQQVAAGYVLYGPSTMMALTVGNGVAFFTLDPETQTFLLTTENVQVSADTQEFAINASNQRHWEQPVKQYIEELLAGKTSVREKDFNMRWVACMVGDVHRILCRGGIFLYPYDLKDPKKAGRLRLMYEANPMSMLIEQAGGASTTGRVRILEIEPTELHQRVPVIIGSKNEVERVTSYH</Hsp_hseq>
+      <Hsp_midline>TL++FL +  + N  PE L  V+ ++ + C  I+  ++ GALAG+LG AG  N+QGE QKKLDVI+N+ +ID LK +P V GLASEE D F  A ENG YLVLFDPLDGSSNID+N+ VGTIFSIL         + F+Q G QQ+AAGYVLYGP T +  T G+GV  FTL+ E + F+LT EN +V   T+EFAIN SN+RHW  PV+QY++ELLAG+T  R K++NMRWVA MV ++HRIL RGG+F+Y  D +DP K G+LRLMYEANPM++++EQAG +++     +L+I+P  LHQRV VI+GS  EV+ +   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|224492923|sp|B2FU10.1|F16PA_STRMK</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Stenotrophomonas maltophilia K279a]</Hit_def>
+  <Hit_accession>B2FU10</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>1.96444e-124</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGA--LATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAEN-EFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>SLTRFLIQEQHAGRINADLRQLIAVVARACTSISIAVSKGALGGVLGDAGTGNVQGEAQKKLDVISNEILLEANAWGGHLAACASEEMDHSQPVPDIYPRGDFLLLFDPLDGSSNIDVNVSVGTIFSVLRCPTNVELPGDDAFLQPGSKQIAAGYCIYGPSTQLVLTVGHGTHAFTLDREKGEFVLTTENMQIPAATQEFAINMSNQRHWEAPMQAYVGDLLAGKEGTRGKNFNMRWIASMVADVHRILTRGGIFIYPWDKKDPSKAGKLRLMYEANPMGLLVEQAGGAAWTGRERILDIQPDQLHQRVPVFLGSREEVAEAVRYH</Hsp_hseq>
+      <Hsp_midline>+LTRFL +     ++   L  ++  V  ACT I+  V  GAL GVLG AGTGN+QGE QKKLDVI+N I+++       +A  ASEE D      +    G +L+LFDPLDGSSNIDVN+SVGTIFS+L  P        ++FLQ G +Q+AAGY +YGP TQLV T GHG + FTL+ E  EFVLT EN ++P +T+EFAINMSN+RHW  P+Q YV +LLAG+ GTRGKN+NMRW+ASMVA++HRIL RGG+F+Y  DK+DPSK GKLRLMYEANPM L++EQAG +A    + +LDIQP+ LHQRV V +GS EEV    R H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|224472929|sp|A2RQ29.1|F16PA_HERSE</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Herbaspirillum seropedicae]</Hit_def>
+  <Hit_accession>A2RQ29</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>2.1814e-124</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQ-QNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGAL--ATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>SLTQHLIEQQRLHNKIPSELRLLIEVVGRACKSISHAVGKGALGEVLGSAGSENVQGEVQKKLDVISNEILLEANEWGGHLAAMASEEMETIHRIPNRYPKGEYLLMFDPLDGSSNIDVNVSIGTIFSVLKAPEGMTEPTEQDFMQPGTRQVAAGYAVYGPQTVLVLTTGDGVHCFTLDREMGAWVLTQKDIKIPEDTKEFAINASNQRHWFPPVKRYVDEMLAGSTGVRGKDFNMRWIASMVADVHRILNRGGIFMYPADAREPNKPGKLRLMYEANPMAFIVEQAGGAATDGTRRILDIQPEKLHQRVAVFLGSKNEVDLVTSYHQQ</Hsp_hseq>
+      <Hsp_midline>+LT+ L E  +  N++P  L  ++  V  AC  I+  V  GAL  VLG AG+ N+QGE QKKLDVI+N I+++  +    +A +ASEE +T          G YL++FDPLDGSSNIDVN+S+GTIFS+L  PEG      + F+Q G +Q+AAGY +YGPQT LV T G GV+ FTL+ E   +VLT+++ K+PE TKEFAIN SN+RHW PPV++YVDE+LAG TG RGK++NMRW+ASMVA++HRIL RGG+FMY  D R+P+KPGKLRLMYEANPMA I+EQAG +A++  + +LDIQPE LHQRVAV +GS  EVD +   H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|224492893|sp|A1S351.1|F16PA_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1S351</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>2.50988e-124</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>LPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLN-AENEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHS</Hsp_qseq>
+      <Hsp_hseq>LSQSLKQSAISEELASLLTVLANSSKDISQAVRRGALAGVLGVAGTENVQGEDQKKLDVITNDMLKDALAAQGSVKALASEEEDEIVPLAQDGQFLVCFDPLDGSSNIDINSLVGTIFSVLPAPSGDVSEQSFLQPGRKQLAAGYVLYGPSTMLALTTGQGVQLFTLDPVSGDYLLTVDGVQISKDTGEFAINMSNQRFWEPGMQAYIADLIQGKEGPRGKNFNMRWIAAMVGDVHRVLCRGGLFTYPTDTKDPKKPFKLRLMYEANPMAFLVEQAGGKASTGYETILDIAPSEIHQRVAVILGSANEVDACLGYHN</Hsp_hseq>
+      <Hsp_midline>L + L+Q+ + E L  +L  + ++  +I+  VR GALAGVLG+AGT N+QGEDQKKLDVI N+++ D L A  +V  LASEEED  V   ++G++LV FDPLDGSSNID+N  VGTIFS+L  P G ++ +SFLQ GR+QLAAGYVLYGP T L  T G GV +FTL+    +++LT +  ++ + T EFAINMSN+R W P +Q Y+ +L+ G+ G RGKN+NMRW+A+MV ++HR+L RGG+F Y  D +DP KP KLRLMYEANPMA ++EQAG  AS  Y+ +LDI P  +HQRVAVI+GS+ EVD     H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|123029955|sp|Q0HMI8.1|F16PA_SHESM</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Shewanella sp. MR-4]</Hit_def>
+  <Hit_accession>Q0HMI8</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>2.76382e-124</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>LAQHLTSKAVNESLSQLILTLADTSKAISHAVRHGALAGVLGATEQENVQGETQKKLDIITNDMLKDALKVDGTVRGLASEEEDHVVEVSANGKYLVCFDPLDGSSNIDINSLVGTIFSVLPAPAGELTETSFLQSGRNQLAAGYVLYGPSTMLALTTGQGVQLFTLHPETNEFLLTNAAMSISPDTQEFAINMSNQRFWEAPMQTYIADLLLGKIGPREKSFNMRWIAAMVGDVHRVLSRGGIFTYPTDNKDPKKPYKLRLMYEANPMALLVEQAGGKASTGYETILDIQPTQIHQRVAVILGSANEVDACLSYH</Hsp_hseq>
+      <Hsp_midline>L +HL    + E+L  ++L++      I+  VR GALAGVLG     N+QGE QKKLD+I N+++ D LK +  V GLASEEED  V    NG+YLV FDPLDGSSNID+N  VGTIFS+L  P G L   SFLQ+GR QLAAGYVLYGP T L  T G GV +FTL+ E NEF+LT     +   T+EFAINMSN+R W  P+Q Y+ +LL G+ G R K++NMRW+A+MV ++HR+L RGG+F Y  D +DP KP KLRLMYEANPMAL++EQAG  AS  Y+ +LDIQP  +HQRVAVI+GS+ EVD     H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81839955|sp|Q87UX4.1|F16PA_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q87UX4</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>2.96466e-124</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEED-TFVSAGE--NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEG------ALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>TLSRYLIEQTRSNNTPADLRFLIEVVARACKEISHAVSKGALGGVLGSMGTENVQGEVQKKLDVISNEILLEANEWGGHLAGMASEEMDNAYQIPGKYPKGAYLLVFDPLDGSSNIDINAPVGTIFSVLRCPNEYLSQNEALNEKAFLQPGTEQVAAGYAIYGPQTMLVLTLGDGVKGFTLDREMGSFVLTHEDITIPETTQEFAVNMSNQRHWEAPVQRYVSELLAGEDGPLKKNYNMRWVAAMVADVHRILTRGGLFMYPRDSREPSKPGKLRLMYEANPMSFLVEQAGGASTDGHQRILDIQPEGLHQRVAVYLGSKEEVERATAYHKE</Hsp_hseq>
+      <Hsp_midline>TL+R+L E  + N  P  L  ++  V  AC EI+  V  GAL GVLG  GT N+QGE QKKLDVI+N I+++  +    +AG+ASEE D  +   G+   G YL++FDPLDGSSNID+N  VGTIFS+L  P        AL  ++FLQ G +Q+AAGY +YGPQT LV T G GV  FTL+ E   FVLT E+  +PE+T+EFA+NMSN+RHW  PVQ+YV ELLAGE G   KNYNMRWVA+MVA++HRIL RGG+FMY +D R+PSKPGKLRLMYEANPM+ ++EQAG ++++ +Q +LDIQPE LHQRVAV +GS EEV+     H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|224492895|sp|A3D0P6.1|F16PA_SHEB5</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Shewanella baltica OS155]</Hit_def>
+  <Hit_accession>A3D0P6</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>4.35598e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>MQTLT----QHLTSQAVNDSLSHLILTLADTSKAISHAVRHGALAGVLGATEQENVQGETQKKLDIITNDMLKDALKADGTVRGLASEEEDHVVEVSKNGQYLVCFDPLDGSSNIDINSLVGTIFSVLPAPAGELTETSFLQSGRAQLAAGYVLYGPSTMLALTTGQGVQLFTLHPETNEFLLTNAAMSISPETQEFAINMSNQRFWEAPMQTYIADLLLGKIGPREKSFNMRWIAAMVGDVHRVLSRGGIFTYPTDNKDPKKPYKLRLMYEANPMAFLVEQAGGKASTGYETILDIQPTQIHQRVAVILGSSNEVDACLSYH</Hsp_hseq>
+      <Hsp_midline>M TLT    +HL    + ++L  ++L++      I+  VR GALAGVLG     N+QGE QKKLD+I N+++ D LKA+  V GLASEEED  V   +NG+YLV FDPLDGSSNID+N  VGTIFS+L  P G L   SFLQ+GR QLAAGYVLYGP T L  T G GV +FTL+ E NEF+LT     +   T+EFAINMSN+R W  P+Q Y+ +LL G+ G R K++NMRW+A+MV ++HR+L RGG+F Y  D +DP KP KLRLMYEANPMA ++EQAG  AS  Y+ +LDIQP  +HQRVAVI+GSS EVD     H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|224495092|sp|B2JEJ7.1|F16A1_BURP8</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1 1; Short=FBPase class 1 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 1 [Burkholderia phymatum STM815]</Hit_def>
+  <Hit_accession>B2JEJ7</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.155</Hsp_bit-score>
+      <Hsp_score>936</Hsp_score>
+      <Hsp_evalue>1.03637e-123</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQ-LPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGEN---GRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATE-SFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>TLTKYLIEQQRENNNLPADLRLLIEVVARACKAISYHVSKGALGDALGTAGSENVQGEVQKKLDILSNEILLEANEWGGNLAGMASEEMEQFFPIPANYPKGEYLLVFDPLDGSSNIDVNVSIGTIFSVLRCPDGQQPTEQSFLQKGTQQVAAGYAVYGPQTVLVLTTGNGVNCFTLDRELGSWVLTQSDMRIPVETREYAINASNQRHWYEPVQQYIGELNAGKDGPRQADFNMRWIASMVADVHRILNRGGIFMYPADKRDPSKPGKLRLMYEANPMSFIVEQAGGAATNGEKRILDIQPKSLHERVAVFLGSKNEVDRVTRYH</Hsp_hseq>
+      <Hsp_midline>TLT++L E  ++N  LP  L  ++  V  AC  I+  V  GAL   LG AG+ N+QGE QKKLD+++N I+++  +    +AG+ASEE + F     N   G YL++FDPLDGSSNIDVN+S+GTIFS+L  P+G   TE SFLQ G QQ+AAGY +YGPQT LV T G+GV  FTL+ E   +VLT+ + ++P  T+E+AIN SN+RHW  PVQQY+ EL AG+ G R  ++NMRW+ASMVA++HRIL RGG+FMY  DKRDPSKPGKLRLMYEANPM+ I+EQAG +A+N  + +LDIQP+SLH+RVAV +GS  EVD + R H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|224492922|sp|B4SR24.1|F16PA_STRM5</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Stenotrophomonas maltophilia R551-3]</Hit_def>
+  <Hit_accession>B4SR24</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.155</Hsp_bit-score>
+      <Hsp_score>936</Hsp_score>
+      <Hsp_evalue>1.1183e-123</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGA--LATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAEN-EFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>SLTRFLIQEQHAGRINADLRQLIAVVARACTSISIAVSKGALGGVLGDAGTGNVQGEAQKKLDVISNEILLEANAWGGHLAACASEEMDHSQPVPDIYPRGDFLLLFDPLDGSSNIDVNVSVGTIFSVLRCPTNVELPGDDAFLQPGSKQIAAGYCIYGPSTQLVLTVGHGTHAFTLDREKGEFVLTTENMQIPAATQEFAINMSNQRHWEAPMQAYVGDLLAGKEGARGKNFNMRWIASMVADVHRILTRGGIFIYPWDKKDPSKAGKLRLMYEANPMGLLVEQAGGAAWTGRERILDIQPDQLHQRVPVFLGSREEVAEAVRYH</Hsp_hseq>
+      <Hsp_midline>+LTRFL +     ++   L  ++  V  ACT I+  V  GAL GVLG AGTGN+QGE QKKLDVI+N I+++       +A  ASEE D      +    G +L+LFDPLDGSSNIDVN+SVGTIFS+L  P        ++FLQ G +Q+AAGY +YGP TQLV T GHG + FTL+ E  EFVLT EN ++P +T+EFAINMSN+RHW  P+Q YV +LLAG+ G RGKN+NMRW+ASMVA++HRIL RGG+F+Y  DK+DPSK GKLRLMYEANPM L++EQAG +A    + +LDIQP+ LHQRV V +GS EEV    R H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|224492896|sp|A4Y373.1|F16PA_SHEPC</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Shewanella putrefaciens CN-32]</Hit_def>
+  <Hit_accession>A4Y373</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.77</Hsp_bit-score>
+      <Hsp_score>935</Hsp_score>
+      <Hsp_evalue>1.28012e-123</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>LAQHLTSQAVNDSLSQLILTLADTSKAISHAVRHGALAGVLGATEQENVQGETQKKLDIITNDMLKDALKADGTVRGLASEEEDHVVEVSTNGQYLVCFDPLDGSSNIDINSLVGTIFSILPASAGELTETSFLQSGRNQLAAGYVLYGPSTMLALTTGQGVQLFTLHPETNEFLLTNAAMSISADTQEFAINMSNQRFWEAPMQTYIADLLLGKIGPREKSFNMRWIAAMVGDVHRVLSRGGIFTYPTDNKDPKKPYKLRLMYEANPMAFLVEQAGGKASTGYETILDIQPTQIHQRVAVILGSSNEVDACLSYH</Hsp_hseq>
+      <Hsp_midline>L +HL    + ++L  ++L++      I+  VR GALAGVLG     N+QGE QKKLD+I N+++ D LKA+  V GLASEEED  V    NG+YLV FDPLDGSSNID+N  VGTIFSIL    G L   SFLQ+GR QLAAGYVLYGP T L  T G GV +FTL+ E NEF+LT     +   T+EFAINMSN+R W  P+Q Y+ +LL G+ G R K++NMRW+A+MV ++HR+L RGG+F Y  D +DP KP KLRLMYEANPMA ++EQAG  AS  Y+ +LDIQP  +HQRVAVI+GSS EVD     H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|224495633|sp|A2SJJ0.1|F16A2_METPP</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1 2; Short=FBPase class 1 2; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 2 [Methylibium petroleiphilum PM1]</Hit_def>
+  <Hit_accession>A2SJJ0</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.77</Hsp_bit-score>
+      <Hsp_score>935</Hsp_score>
+      <Hsp_evalue>1.56411e-123</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TLTRFL-PEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGE---NGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEG--ALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAEN-EFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLHSK</Hsp_qseq>
+      <Hsp_hseq>SLTQYLVEEQRERGRIPAQLRLLLEVVARACKSIAISVNKGALGGVLGSAGSENVQGEVQKKLDIIANEVLIEANEWGGALAAMASEEMDSIYVVPNRYPQGEYLLLFDPLDGSSNIDVNVSIGTIFSVLKKQSDTPGVSTQDFLQPGSAQVAAGYCVYGPQTTLVLTVGDGVAMFTLDREQGSWVLTTDEVRIPEDTREFAVNMSNQRHWAPPMQRYIDECLQGKDGPRGKDFNMRWVASMVADVHRILCRGGVFMYPWDKREPAKAGKLRLMYEANPMGFIVEQAGGAATNGKQRVLDLQPSQLHERVSVILGSKNEVERASAYHRE</Hsp_hseq>
+      <Hsp_midline>+LT++L  E  ++ ++P  L  +L  V  AC  I   V  GAL GVLG AG+ N+QGE QKKLD+IAN ++I+  +   A+A +ASEE D+          G YL+LFDPLDGSSNIDVN+S+GTIFS+L K      ++T+ FLQ G  Q+AAGY +YGPQT LV T G GV +FTL+ E   +VLT +  ++PE T+EFA+NMSN+RHW PP+Q+Y+DE L G+ G RGK++NMRWVASMVA++HRIL RGGVFMY  DKR+P+K GKLRLMYEANPM  I+EQAG +A+N  Q +LD+QP  LH+RV+VI+GS  EV+  +  H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|123611216|sp|Q3SFS6.1|F16PA_THIDA</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SFS6</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.77</Hsp_bit-score>
+      <Hsp_score>935</Hsp_score>
+      <Hsp_evalue>1.68899e-123</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALG---GVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEE-EDTFVSAGEN--GRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALAT--ESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>TLTQFIIE--EQRRTAGATGDFTSLLNDVVTACKAISNAVNKGALLGVMGALESENVQGETQKKLDVITNDIMIRSNEWAGHLAGMASEEMDDVYAIPGQYPLGKYLLVFDPLDGSSNVDVNISVGTIFSILKAPVAGRAAKAEDFLQAGTKQVCAGYAIYGSSTMLVLTFGHGTNGFTLDRDVGEFVLTHPAMKIPTETKEFAINASNMRFWEKPVQRYVDECLAGKTGPRGKDFNMRWVASMVAEVHRILTRGGIFMYPKDTKDPSKAGKLRLMYEANPMAFIVEQAGGAATTGYQRILDIAPEGLHQRVPVILGSKTEVDTVTGYH</Hsp_hseq>
+      <Hsp_midline>TLT+F+ E  +Q +   A G    +L  VV+AC  I+  V  GAL GV+G   + N+QGE QKKLDVI N+IMI + +    +AG+ASEE +D +   G+   G+YL++FDPLDGSSN+DVNISVGTIFSIL  P    A   E FLQ G +Q+ AGY +YG  T LV TFGHG   FTL+ +  EFVLT    K+P  TKEFAIN SN R W  PVQ+YVDE LAG+TG RGK++NMRWVASMVAE+HRIL RGG+FMY +D +DPSK GKLRLMYEANPMA I+EQAG +A+  YQ +LDI PE LHQRV VI+GS  EVD +   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|224492911|sp|A6WSQ6.1|F16PA_SHEB8</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Shewanella baltica OS185]</Hit_def>
+  <Hit_accession>A6WSQ6</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.385</Hsp_bit-score>
+      <Hsp_score>934</Hsp_score>
+      <Hsp_evalue>2.06533e-123</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAE-NEFVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>LAQHLTSQAVNDSLSHLILTLADTSKAISHAVRHGALAGVLGATEQENVQGETQKKLDIITNDMLKDALKADGTVRGLASEEEDHVVEVSQNGQYLVCFDPLDGSSNIDINSLVGTIFSVLPAPAGELTETSFLQSGRAQLAAGYVLYGPSTMLALTTGQGVQLFTLHPETNEFLLTNAAMSISPDTQEFAINMSNQRFWEAPMQTYIADLLLGKIGPREKSFNMRWIAAMVGDVHRVLSRGGIFTYPTDNKDPKKPYKLRLMYEANPMAFLVEQAGGKASTGYETILDITPTHIHQRVAVILGSSNEVDACLSYH</Hsp_hseq>
+      <Hsp_midline>L +HL    + ++L  ++L++      I+  VR GALAGVLG     N+QGE QKKLD+I N+++ D LKA+  V GLASEEED  V   +NG+YLV FDPLDGSSNID+N  VGTIFS+L  P G L   SFLQ+GR QLAAGYVLYGP T L  T G GV +FTL+ E NEF+LT     +   T+EFAINMSN+R W  P+Q Y+ +LL G+ G R K++NMRW+A+MV ++HR+L RGG+F Y  D +DP KP KLRLMYEANPMA ++EQAG  AS  Y+ +LDI P  +HQRVAVI+GSS EVD     H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|224495130|sp|B0VDK0.1|F16PA_ACIBY</Hit_id>
+  <Hit_def>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Acinetobacter baumannii AYE]</Hit_def>
+  <Hit_accession>B0VDK0</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.999</Hsp_bit-score>
+      <Hsp_score>933</Hsp_score>
+      <Hsp_evalue>2.09792e-123</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>TLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGEDQKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNISVGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENE-FVLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAEIHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPESLHQRVAVIMGSSEEVDYLNRLH</Hsp_qseq>
+      <Hsp_hseq>TLSQFLQQE-KGNLTPE-LAQVIDTIAATCKTIDQALQKGALAGILGSAGNENVQGETQKKLDVISNDYLIDALKVHPHVGGLASEELDDFTPAQENGEYLVLFDPLDGSSNIDINMCVGTIFSILPAKNAITQAQDFMQAGTQQVAAGYVLYGPSTMMALTVGNGVAFFTLDPVTQTFLLTTENVQVSADTQEFAINASNQRHWEQPVKQYIEELLAGKTSVREKDFNMRWVACMVGDVHRILCRGGIFLYPYDLKDPKKAGRLRLMYEANPMSMLIEQAGGASTTGRVRILEIEPTELHQRVPVIIGSKNEVERVTSYH</Hsp_hseq>
+      <Hsp_midline>TL++FL +  + N  PE L  V+ ++ + C  I+  ++ GALAG+LG AG  N+QGE QKKLDVI+N+ +ID LK +P V GLASEE D F  A ENG YLVLFDPLDGSSNID+N+ VGTIFSIL         + F+Q G QQ+AAGYVLYGP T +  T G+GV  FTL+   + F+LT EN +V   T+EFAIN SN+RHW  PV+QY++ELLAG+T  R K++NMRWVA MV ++HRIL RGG+F+Y  D +DP K G+LRLMYEANPM++++EQAG +++     +L+I+P  LHQRV VI+GS  EV+ +   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

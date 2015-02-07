@@ -1,0 +1,1537 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>32295</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>287</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>32295</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>287</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81390271|sp|Q68XR2.1|CLPB_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68XR2</Hit_accession>
+  <Hit_len>858</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0227151</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRRAVQVLSRRMKNNPVLIGAPGVGKTAIIEGLAQRIFNKDVPETLINCRIIELDIGALIAGAQYRGEFEKRLKSVLSEIKESSGEIILFIDELHLLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R   Q ++ R  NN ++ GA G GK+++++ L     +K +       R+IE+D   LI            L  +L+ +KE   + I+F D+L    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|226739139|sp|A9A6N2.1|RFCL_METM6</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Methanococcus maripaludis C6]</Hit_def>
+  <Hit_accession>A9A6N2</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0259492</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>LSRLAGVGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDK------SDLIGLPYLLALLKERPEKFIVFCDDLSFESGD-------ETYKALKTA</Hsp_qseq>
+      <Hsp_hseq>LNDVAGHNKTKETLIEWIESFVSGQKQKPILLAGPPGSGKTTLAYAIAKDYAYDVIELNASDKRNKDVISQVVGTAATSKSITGR--RTLIVLDEVDGLSGNDDRGGVAEIIKVLKTA</Hsp_hseq>
+      <Hsp_midline>L+ +AG  +  E L+   E F++G+    +L++G  G+GK++L  A+  +YA   + L   DK      S ++G       +  R  + ++  D++   SG+       E  K LKTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|54035883|sp|Q92JK8.1|CLPB_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92JK8</Hit_accession>
+  <Hit_len>857</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0270787</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRRTVQVLSRRMKNNPVLIGEPGVGKTAIIEGLAQRIFSKDVPESLINCRIIELDMGALIAGAKYRGEFEERLKAVLSEIKESSGEIILFIDELHLLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q ++ R  NN ++ G  G GK+++++ L      K +       R+IE+D   LI            L  +L+ +KE   + I+F D+L    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|166977385|sp|A6VIW1.1|RFCL_METM7</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Methanococcus maripaludis C7]</Hit_def>
+  <Hit_accession>A6VIW1</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0332014</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>LSRLAGVGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD</Hsp_qseq>
+      <Hsp_hseq>LNDVAGHNKTKESLIEWIESFINGQKQKPILLAGPPGSGKTTLAYAIAKDYA---FDVIELNASD</Hsp_hseq>
+      <Hsp_midline>L+ +AG  +  E L+   E FI G+    +L++G  G+GK++L  A+  +YA     +IE++ SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122990886|sp|Q1RGR1.1|CLPB_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RGR1</Hit_accession>
+  <Hit_len>858</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0416714</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRRTVQVLSRRMKNNPVLIGEPGVGKTAIIEGLAQRIFSKDVPETLINCRIIELDMGALIAGAKYRGEFEERLKAVLGEIKESSGEIILFIDELHLLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q ++ R  NN ++ G  G GK+++++ L      K +       R+IE+D   LI            L  +L  +KE   + I+F D+L    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|134035410|sp|Q4UN57.2|CLPB_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UN57</Hit_accession>
+  <Hit_len>858</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0420393</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRRTVQVLSRRMKNNPVLIGEPGVGKTAIIEGLAQRIFSKDVPESLMNCRIIELDMGALIAGAKYRGEFEERLKAVLGEIKESSGEIILFIDELHLLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q ++ R  NN ++ G  G GK+++++ L      K +       R+IE+D   LI            L  +L  +KE   + I+F D+L    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|54035920|sp|Q9ZEA9.1|CLPB_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZEA9</Hit_accession>
+  <Hit_len>858</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0479649</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRRAVQVLSRRMKNNPVLIGAPGVGKTAIIEGLAQRIFSKDVPETLINCRIIELDIGALIAGAQYRGEFEKRLKAVLSEIKESSGEIILFIDELHLLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R   Q ++ R  NN ++ GA G GK+++++ L      K +       R+IE+D   LI            L  +L+ +KE   + I+F D+L    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|310943115|sp|B2UMY1.1|FTSH_AKKM8</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent zinc metalloprotease FtsH [Akkermansia muciniphila ATCC BAA-835]</Hit_def>
+  <Hit_accession>B2UMY1</Hit_accession>
+  <Hit_len>812</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0492179</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>FRWQSAGKKGFLEH--------LPDPHVFPLSRLAGVGRQTELL------VRNTEQF--IAGRPANNVLMSGARGTGKSSLVKALLHE-----YADKGLRLIEVDKSDLIGLPYLLALLKE--RPEKFIVFCDDLSF-------------ESGDETYKALKTALDGGLSQRCANVMVYATSNRRHLM</Hsp_qseq>
+      <Hsp_hseq>FRAQSGGARGAMSFGKSRARLISPDKNKVTFKDVAGISEAKEEVWELVEFLRNPEKFRDLGATIPRGVLMVGAPGTGKTLLARAIAGESNASFYSISGSDFVEMFVG--VGASRVRDMFEQAKRTAPSLIFIDEIDAVGRQRGYGMGGGNDEREQTLNALLVEMDG--FENNSNVIVIAATNRADIL</Hsp_hseq>
+      <Hsp_midline>FR QS G +G +           PD +      +AG+    E +      +RN E+F  +       VLM GA GTGK+ L +A+  E     Y+  G   +E+     +G   +  + ++  R    ++F D++               +  ++T  AL   +DG   +  +NV+V A +NR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166977384|sp|A4FZL6.1|RFCL_METM5</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Methanococcus maripaludis C5]</Hit_def>
+  <Hit_accession>A4FZL6</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0805421</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>LSRLAGVGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD</Hsp_qseq>
+      <Hsp_hseq>LNDVAGHNKTKQALINWIESFVNGQKQKPILLAGPPGSGKTTLAHAIAKDYA---FDVIELNASD</Hsp_hseq>
+      <Hsp_midline>L+ +AG  +  + L+   E F+ G+    +L++G  G+GK++L  A+  +YA     +IE++ SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|311033365|sp|Q7WSY8.2|CLPB_PROFC</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Propionibacterium freudenreichii subsp. shermanii CIRM-BIA1]</Hit_def>
+  <Hit_accession>Q7WSY8</Hit_accession>
+  <Hit_len>866</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.18909</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDL</Hsp_qseq>
+      <Hsp_hseq>IGRDSE--IRRVAQVLSRRTKNNPVLIGEAGVGKTAVVEGLAQRIVKGDVPDSLKGRRLVSLDLASMVAGAKYRGEFEERLKAVLNEIKSAEGQIITFIDEL</Hsp_hseq>
+      <Hsp_midline>+GR +E  +R   Q ++ R  NN ++ G  G GK+++V+ L             KG RL+ +D + ++            L  +L  +K    + I F D+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|50400880|sp|Q6M0E9.1|RFCL_METMP</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Methanococcus maripaludis S2]</Hit_def>
+  <Hit_accession>Q6M0E9</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.21704</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>LSRLAGVGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDK------SDLIGLPYLLALLKERPEKFIVFCDDLSFESGD-------ETYKALKTA</Hsp_qseq>
+      <Hsp_hseq>LNDVAGHNKTKQALIEWIESIIGGQNQKPILLAGPPGSGKTTLAYAIANDYAFDVIELNASDKRNKDVISQVVGTAATSKSLTGR--RTLIVLDEVDGLSGNDDRGGVAEIIKVLKTA</Hsp_hseq>
+      <Hsp_midline>L+ +AG  +  + L+   E  I G+    +L++G  G+GK++L  A+ ++YA   + L   DK      S ++G       L  R  + ++  D++   SG+       E  K LKTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|310946751|sp|B1ZMG6.1|FTSH_OPITP</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent zinc metalloprotease FtsH [Opitutus terrae PB90-1]</Hit_def>
+  <Hit_accession>B1ZMG6</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.218941</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>GRPANNVLMSGARGTGKSSLVKALLHE-----YADKGLRLIEVDKSDLIGLPYLLALLKERPEKF--IVFCDDL--------SFESG------DETYKALKTALDGGLSQRCANVMVYATSNRRHLMPEYLD</Hsp_qseq>
+      <Hsp_hseq>GRMPKGVLLVGPPGTGKTMLAKAVAGEARANFYSLSGSDFVELYVG--VGASRVRSLFKKARETAPSIIFIDEIDAIGRQRSAAESGGAQQEHDQTLNALLVAMDGFDSDDA--VVVFGATNR----PDTMD</Hsp_hseq>
+      <Hsp_midline>GR    VL+ G  GTGK+ L KA+  E     Y+  G   +E+     +G   + +L K+  E    I+F D++        + ESG      D+T  AL  A+DG  S     V+V+  +NR    P+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1176230|sp|P42811.1|PRS2_METTM</Hit_id>
+  <Hit_def>RecName: Full=Putative 26S protease regulatory subunit homolog MTBMA_c13930 [Methanothermobacter marburgensis str. Marburg]</Hit_def>
+  <Hit_accession>P42811</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.245737</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>NVLMSGARGTGKSSLVKALLHE-----YADKGLRLIEVDKSDLIGLPYLLALLKERPEKFIVFCDDLS-------FES--GD--ETYKALKTALDGGLSQRCANVMVYATSNRRHLMPEYLDENAGTTGVRGEIHQK</Hsp_qseq>
+      <Hsp_hseq>NVLFHGSPGTGKTMLAKSLANELRVPLYLIKATSLIGEHVGDGARQIHELYELASKTAPSVIFIDEMDAIGLDRRFQSLRGDVSEVVNALLTEMD-GINQNWGVVTIGATNN-----PELLD-NAIRSRFEEEIEFK</Hsp_hseq>
+      <Hsp_midline>NVL  G+ GTGK+ L K+L +E     Y  K   LI     D     + L  L  +    ++F D++        F+S  GD  E   AL T +D G++Q    V + AT+N     PE LD NA  +    EI  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|54035836|sp|Q88Q71.1|CLPB_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88Q71</Hit_accession>
+  <Hit_len>854</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.25653</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDGGLSQRCANVMVYATSNRRHLMPEYLDENAGTTGVRGEIH---------QKEAVEEKVSLSDRFGLWLSFYPFDQNDYLAAVRSWLEDFDVPYDEAARTAALQWA</Hsp_qseq>
+      <Hsp_hseq>IGRDDE--IRRTVQVLQRRTKNNPVLIGEPGVGKTAIAEGLAQRIINGEVPDGLKGKRLLALDMGALIAGAKYRGEFEERLKSLLNELSKQEGQIILFIDELHTMVGAGKGEG---AMDAG------NMLKPALA-------------------RGELHCVGATTLNEYRQFIEKDAALERRFQKVLVEEPSEE-DTIAILRGLKERYEVHHKVAITDGAIIAA</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q +  R  NN ++ G  G GK+++ + L     +       KG RL+ +D   LI            L  LL  L ++  + I+F D+L    G    +    A+D G      N++  A +                   RGE+H          ++ +E+  +L  RF   L   P ++ D +A +R   E ++V +  A    A+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|259585252|sp|C3N5N1.1|RFCL_SULIA</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Sulfolobus islandicus M.16.27] &gt;gi|259585254|sp|C3MVD2.1|RFCL_SULIM RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Sulfolobus islandicus M.14.25]</Hit_def>
+  <Hit_accession>C3N5N1</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.309177</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>EQFIAGRP-ANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD</Hsp_qseq>
+      <Hsp_hseq>ESWLNGKPNAKAVLLHGPPGVGKTTLAEALAHDY---NLELLEMNASD</Hsp_hseq>
+      <Hsp_midline>E ++ G+P A  VL+ G  G GK++L +AL H+Y    L L+E++ SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|259585236|sp|C3MQ13.1|RFCL_SULIL</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Sulfolobus islandicus L.S.2.15] &gt;gi|259585591|sp|C3NE95.1|RFCL_SULIY RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Sulfolobus islandicus Y.G.57.14]</Hit_def>
+  <Hit_accession>C3MQ13</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.317507</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>EQFIAGRP-ANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD</Hsp_qseq>
+      <Hsp_hseq>ESWLNGKPNAKAVLLHGPPGVGKTTLAEALAHDY---NLELLEMNASD</Hsp_hseq>
+      <Hsp_midline>E ++ G+P A  VL+ G  G GK++L +AL H+Y    L L+E++ SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|259585253|sp|C4KHA7.1|RFCL_SULIK</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Sulfolobus islandicus M.16.4]</Hit_def>
+  <Hit_accession>C4KHA7</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.317507</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>EQFIAGRP-ANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD</Hsp_qseq>
+      <Hsp_hseq>ESWLNGKPNAKAVLLHGPPGVGKTTLAEALAHDY---NLELLEMNASD</Hsp_hseq>
+      <Hsp_midline>E ++ G+P A  VL+ G  G GK++L +AL H+Y    L L+E++ SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|54035806|sp|Q7UM33.2|CLPB_RHOBA</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Rhodopirellula baltica SH 1]</Hit_def>
+  <Hit_accession>Q7UM33</Hit_accession>
+  <Hit_len>881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.318123</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>619</Hsp_hit-from>
+      <Hsp_hit-to>806</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>RPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD---------LIGLP----------YLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDG------GLSQRCANVMVYATSNRRHLMPEYLDENAGTTGVRGEIHQKEAVEEKVSLS------DRFGLWLSFYPFDQNDYLAAVRSWLEDF</Hsp_qseq>
+      <Hsp_hseq>RPIGSFLFLGPTGVGKTELCKALAEVMFDDESAMVRIDMSEFMERHSVSRLIGAPPGYVGYEEGGKLTEAVRRRP-YAVILLDEMEKAHPDVFNVLLQVLDDGRLTDGQGRTVNFTNTVVVMTSNVGSQVIQRVTEEGG-----GEDEMRQAVEDALKARFLPEFLNRIDDTVIFHPLQQTQIRRIVQLQLEEL</Hsp_hseq>
+      <Hsp_midline>RP  + L  G  G GK+ L KAL     D    ++ +D S+         LIG P           L   ++ RP   ++  D++     D     L+   DG      G +    N +V  TSN    + + + E  G     GE   ++AVE+ +         +R    + F+P  Q      V+  LE+ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>7.4964</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDNE--IRRVIQVLSRRTKNNPVLIGQPGVGKTAIAEGLALRIFEGDVPQSLKGKKVVSLDMGALVAGAKFRGDFEERLKSVLREVKDSDGKVILFIDELHLVVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R   Q ++ R  NN ++ G  G GK+++ + L     +       KG +++ +D   L+            L  +L  +K+   K I+F D+L    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|54035911|sp|Q9PGC1.1|CLPB_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PGC1</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.34916</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>596</Hsp_hit-from>
+      <Hsp_hit-to>786</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>RPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD---------LIGLP----------YLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDGGLSQRCA------NVMVYATSNRRHLMPEYLDENAGTTGVRGEIHQKEAVEEKVS------LSDRFGLWLSFYPFDQNDYLAAVRSWLEDFD</Hsp_qseq>
+      <Hsp_hseq>RPSGSFLFLGPTGVGKTELCKALAEFLFDSQDAMVRIDMSEFMEKHSVARLIGAPPGYVGYEEGGYLTELVRRRPYSLILL-DEVEKAHSDVFNILLQVLDDGRLTDGQGRTVDFRNTVIVMTSN---LGSHQIQELSGDDSPEVYTQMKAAVMEVVQAHFRPEFINRLDDIVVFHPLDKAQIKQIARIQLQGLE</Hsp_hseq>
+      <Hsp_midline>RP+ + L  G  G GK+ L KAL     D    ++ +D S+         LIG P          YL  L++ RP   I+  D++     D     L+   DG L+          N ++  TSN   L    + E +G          K AV E V         +R    + F+P D+       R  L+  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.44772</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD----KGL---RLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDL</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRRTIQVLQRRTKNNPVLIGEPGVGKTAIVEGLAQRIVNGEVPEGLRSKRLLSLDLGALIAGAKFRGEFEERLKGVLNDLAKNEGRVILFIDEL</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q +  R  NN ++ G  G GK+++V+ L     +    +GL   RL+ +D   LI            L  +L  L +   + I+F D+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|54035835|sp|Q889C2.1|CLPB_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q889C2</Hit_accession>
+  <Hit_len>854</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.377378</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDGGLSQRCANVMVYATSNRRHLMPEYLDENAGTTGVRGEIH---------QKEAVEEKVSLSDRFGLWLSFYPFDQNDYLAAVRSWLEDFDVPYDEAARTAALQWA</Hsp_qseq>
+      <Hsp_hseq>IGRDDE--IRRTIQVLQRRTKNNPVLIGEPGVGKTAIAEGLAQRIINGEVPDGLRGKRLLSLDMGALIAGAKYRGEFEERLKSLLNELSKQEGQIILFIDELHTMVG---------AGKGEGSMDAGNMLKPALA-------------------RGELHCVGATTLNEYRQYIEKDAALERRFQKVLVDEPSEE-DTIAILRGLKERYEVHHKVAITDGAIIAA</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q +  R  NN ++ G  G GK+++ + L     +       +G RL+ +D   LI            L  LL  L ++  + I+F D+L    G         A  G  S    N++  A +                   RGE+H          ++ +E+  +L  RF   L   P ++ D +A +R   E ++V +  A    A+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|347602485|sp|Q7XL03.2|CLPD2_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpD2, chloroplastic; AltName: Full=ATP-dependent Clp protease ATP-binding subunit ClpD homolog 2; AltName: Full=Casein lytic proteinase D2; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q7XL03</Hit_accession>
+  <Hit_len>937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.403031</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>279</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSDL-IGLPYLLALLKERPE</Hsp_qseq>
+      <Hsp_hseq>IGRKDE--IERVVQIICRRTKNNPILLGEAGVGKTAIAEGLAHKIANGDVPIFLVGKRILSLDVALLMAGAKERGE</Hsp_hseq>
+      <Hsp_midline>+GR+ E  +    Q I  R  NN ++ G  G GK+++ + L H+ A+  + +  V K  L + +  L+A  KER E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2493734|sp|P74361.1|CLPB2_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB 2 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P74361</Hit_accession>
+  <Hit_len>872</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.479656</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDLSFESGDETYKALKTALDGGLSQRCANVM--VYATSNRRHLMPEYLDENAGTTGVRGEIHQKEAVEEKVSLSDRFGLWLSFYPFDQNDYLAAVRSWLEDFDVPYDEAARTAALQWAQMRGNR</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--VRRTIQILSRRTKNNPVLIGEPGVGKTAIAEGLAQRIINHDVPESLRDRKLISLDMGALIAGAKYRGEFEERLKAVLKEVTDSQGQIILFIDEIHTVVG---AGATQGAMDAG------NLLKPMLARGALRCIGATTLDE------------YRKYIEKDAALERRFQEVLVDEP-NVLDTISILRGLKERYEVHHGVKIADSALVAAAMLSNR</Hsp_hseq>
+      <Hsp_midline>+GR  E  VR T Q ++ R  NN ++ G  G GK+++ + L     +  +       +LI +D   LI G  Y       L A+LKE  +   + I+F D++    G     A + A+D G      N++  + A    R +    LDE             ++ +E+  +L  RF   L   P +  D ++ +R   E ++V +      +AL  A M  NR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.9215</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>547</Hsp_hit-from>
+      <Hsp_hit-to>736</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>TDWNALAFRWQSAGKKGFLEHLPDP-HVFPLSRLAGVGRQTELLVRNTEQFIAG-----RPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD---------LIGLP----------YLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDGGLSQRCA------NVMVYATSNRRHLMPEYLDENAG</Hsp_qseq>
+      <Hsp_hseq>SKWTGIPISKLVESEKEKLLHLEDELH----SRVIGQDEAVTAVAEAIQRSRAGLSDPNRPTASFIFLGPTGVGKTELAKALAKNLFDTEEALVRIDMSEYMEKHAVSRLMGAPPGYVGYEEGGQLTEAIRRRPYSVILF-DEIEKAHGDVFNVMLQILDDGRLTDAQGHVVDFKNTIIIMTSN---LGSQYILDVAG</Hsp_hseq>
+      <Hsp_midline>+ W  +        +K  L HL D  H    SR+ G       +    ++  AG     RP  + +  G  G GK+ L KAL     D    L+ +D S+         L+G P           L   ++ RP   I+F D++    GD     L+   DG L+          N ++  TSN   L  +Y+ + AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|158513389|sp|A3DNV8.1|RFCL_STAMF</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Staphylothermus marinus F1]</Hit_def>
+  <Hit_accession>A3DNV8</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.493423</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>EQFIAGRPANNV-LMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSDL</Hsp_qseq>
+      <Hsp_hseq>ESWLKGKPSKKAALLYGPAGCGKTSLVEAAANEY---GLEIVEMNASDF</Hsp_hseq>
+      <Hsp_midline>E ++ G+P+    L+ G  G GK+SLV+A  +EY   GL ++E++ SD </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|205829057|sp|A7ZAW1.1|MNME_BACA2</Hit_id>
+  <Hit_def>RecName: Full=tRNA modification GTPase MnmE [Bacillus amyloliquefaciens subsp. plantarum str. FZB42]</Hit_def>
+  <Hit_accession>A7ZAW1</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.506865</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>LNEFLDKAYAVLRRLDAVLPPEPGHTDWNALAFRWQSAGKKGFLEHLPDPHVFPLSRLAGVGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHE</Hsp_qseq>
+      <Hsp_hseq>MNQMEGRLSALVRRLRDELLETLAHVEVNIDYPEYDDVEEM--------THQLLVEKASGVKKEIEALLRTSEQGKILREGLSTVIIGRPNVGKSSLLNSLVHE</Hsp_hseq>
+      <Hsp_midline>+N+   +  A++RRL   L     H + N     +    +          H   + + +GV ++ E L+R +EQ    R   + ++ G    GKSSL+ +L+HE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|310943106|sp|A9GAW6.1|FTSH3_SORC5</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent zinc metalloprotease FtsH 3 [Sorangium cellulosum So ce56]</Hit_def>
+  <Hit_accession>A9GAW6</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.599694</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSDL------IGLPYLLALLKE--RPEKFIVFCDDL--------------SFESGDETYKALKTALDGGLSQRCANVMVYATSNRRHLM</Hsp_qseq>
+      <Hsp_hseq>LGGRPPRGVLLTGEPGTGKTLLARAVACE---AGVRFLSASGSSFQEMFVGVGASRVRALFAEARKSAPCIVFIDEIDAVGRARAKGHGDSASAEHDQTLNQLLVEMDGFDHE--TGIVVIASTNRADML</Hsp_hseq>
+      <Hsp_midline>+ GRP   VL++G  GTGK+ L +A+  E    G+R +    S        +G   + AL  E  +    IVF D++              +    D+T   L   +DG   +    ++V A++NR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|3334301|sp|O27092.1|PRS2_METTH</Hit_id>
+  <Hit_def>RecName: Full=Putative 26S protease regulatory subunit homolog MTH_1011 [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>O27092</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.60788</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NVLMSGARGTGKSSLVKALLHE-----YADKGLRLIEVDKSDLIGLPYLLALLKERPEKFIVFCDDLSFESGDETYKALK-----------TALDGGLSQRCANVMVYATSNRRHLMPEYLDE</Hsp_qseq>
+      <Hsp_hseq>NVLFHGSPGTGKTMLAKSLANELKVPLYLIKATSLIGEHVGDGARQIHELYELASKTAPSVIFIDEMDAIGLDRRYQSLRGDVSEVVNALLTEMD-GINQNWGVVTIGATNN-----PELLDK</Hsp_hseq>
+      <Hsp_midline>NVL  G+ GTGK+ L K+L +E     Y  K   LI     D     + L  L  +    ++F D++     D  Y++L+           T +D G++Q    V + AT+N     PE LD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|31076745|sp|Q96UX5.1|HSP78_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Heat shock protein 78, mitochondrial; Flags: Precursor [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>Q96UX5</Hit_accession>
+  <Hit_len>812</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.633813</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLH-----EYAD--KGLRLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDLSF-------ESGDETYKALKTALDGGLSQRCANVMVYATSNRRHLMPEYLDENAGTTGVRGEIHQKEAVEEKVSLSDRFGLWLSFYPFDQNDYLAAVRSWLEDFDVPYDEAARTAALQWAQMRGNR</Hsp_qseq>
+      <Hsp_hseq>IGRDHE--IRRTIQILSRRTKNNPVLIGNAGTGKTAVMEGLAQRIIRGEVPDSMKDKQIITLDLAGIISGAKYRGDFESKLKSILKEVEEKNGKVILFIDEFHLLMGLGKAEGSIDASNLLKPALARGKLSMCG-----ATT-----IEEY----------------RKYVEKDAALARRFSPVTVNEPTGE-DTISILRGLKERYEVHHGVRIMDSALVTAALYSNR</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q ++ R  NN ++ G  GTGK+++++ L       E  D  K  ++I +D + +I G  Y       L ++LKE  E   K I+F D+          E   +    LK AL  G    C      AT+     + EY                ++ VE+  +L+ RF       P  + D ++ +R   E ++V +      +AL  A +  NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|54035824|sp|Q82SD8.1|CLPB_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82SD8</Hit_accession>
+  <Hit_len>863</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.680059</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDL</Hsp_qseq>
+      <Hsp_hseq>IGRDDE--IRRTIQVLQRRTKNNPVLIGEPGVGKTAIVEGLAQRIVNGEVPETLKNKRVLSLDMAALLAGAKYRGEFEERLKAVLKELAQDEGRTIVFIDEL</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q +  R  NN ++ G  G GK+++V+ L     +       K  R++ +D + L+ G  Y       L A+LKE  +   + IVF D+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|310943095|sp|B3DY14.1|FTSH2_METI4</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent zinc metalloprotease FtsH 2 [Methylacidiphilum infernorum V4]</Hit_def>
+  <Hit_accession>B3DY14</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.711879</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>QFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSDL------IGLPYLLALLKE--RPEKFIVFCDDL-------------SFESGDETYKALKTALDGGLSQRCANVMVYATSNRRHLM</Hsp_qseq>
+      <Hsp_hseq>QKLGGRIPKGVLMVGPPGTGKTLLAKAIAGE-AD--VPFFSISGSDFVEMFVGVGASRVRDMFEQARRHAPCIVFIDEIDAVGRARGTGLGGGHDEREQTLNALLVEMDGIESQE--GVIVIAATNRKDVL</Hsp_hseq>
+      <Hsp_midline>Q + GR    VLM G  GTGK+ L KA+  E AD  +    +  SD       +G   +  + ++  R    IVF D++               +  ++T  AL   +DG  SQ    V+V A +NR+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|259585461|sp|C3NHF4.1|RFCL_SULIN</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Sulfolobus islandicus Y.N.15.51]</Hit_def>
+  <Hit_accession>C3NHF4</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.736594</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>EQFIAGRP-ANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD</Hsp_qseq>
+      <Hsp_hseq>ESWLNGKPNAKAVLLHGPPGVGKTTLAEAVAHDY---NLELLEMNASD</Hsp_hseq>
+      <Hsp_midline>E ++ G+P A  VL+ G  G GK++L +A+ H+Y    L L+E++ SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|54035919|sp|Q9Z6E4.1|CLPB_STRAL</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Streptomyces albus G]</Hit_def>
+  <Hit_accession>Q9Z6E4</Hit_accession>
+  <Hit_len>857</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.85321</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDGG</Hsp_qseq>
+      <Hsp_hseq>IGRDQE--IRRVVQVLSRRTKNNPVLIGEPGVGKTAVVEGLAQRIVKGDVPESLKDKRLVSLDLGAMVAGAKYRGEFEERLKTVLSEIKESDGQIVTFIDELHTVVG---AGAADSAMDAG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R   Q ++ R  NN ++ G  G GK+++V+ L             K  RL+ +D   ++            L  +L+ +KE   + + F D+L    G     A  +A+D G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|166977386|sp|A6URV8.1|RFCL_METVS</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Methanococcus vannielii SB]</Hit_def>
+  <Hit_accession>A6URV8</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.878458</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>LSRLAGVGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD</Hsp_qseq>
+      <Hsp_hseq>LNDVAGHSKTKEALCYWIESFIRGNKQKPVLLFGPPGSGKTTMAHAIANDY---NFDVIELNASD</Hsp_hseq>
+      <Hsp_midline>L+ +AG  +  E L    E FI G     VL+ G  G+GK+++  A+ ++Y      +IE++ SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|54035866|sp|Q8PHQ4.2|CLPB_XANAC</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PHQ4</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.884226</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDL</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRRTIQVLQRRTKNNPVLIGEPGVGKTAIVEGLAQRIINGEVPEGLRGKRVLSLDMGALIAGAKFRGEFEERLKAVLSDLSKNEGQIILFIDEL</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q +  R  NN ++ G  G GK+++V+ L     +       +G R++ +D   LI            L  +L+ L +   + I+F D+L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.10387</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>596</Hsp_hit-from>
+      <Hsp_hit-to>786</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>RPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD---------LIGLP----------YLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDGGLSQRCA------NVMVYATSNRRHLMPEYLDENAGTTGVRGEIHQKEAVEEKVS------LSDRFGLWLSFYPFDQNDYLAAVRSWLEDFD</Hsp_qseq>
+      <Hsp_hseq>RPSGSFLFLGPTGVGKTELCKALADFLFDSTEAMIRIDMSEFMEKHSVARLIGAPPGYVGYEEGGYLTEAVRRRPYSLILL-DEVEKAHPDVFNILLQVLDDGRLTDGQGRTVDFRNTVIVMTSN---LGSHQIQELSGDDSAEAYTQMKAAVMGVVQAHFRPEFINRLDDIVVFHPLDKAQIKSIARIQLQGLE</Hsp_hseq>
+      <Hsp_midline>RP+ + L  G  G GK+ L KAL     D    +I +D S+         LIG P          YL   ++ RP   I+  D++     D     L+   DG L+          N ++  TSN   L    + E +G          K AV   V         +R    + F+P D+    +  R  L+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|54035864|sp|Q8P6A0.1|CLPB_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Xanthomonas campestris pv. campestris str. ATCC 33913]</Hit_def>
+  <Hit_accession>Q8P6A0</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.948418</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDL</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRRTIQVLQRRTKNNPVLIGEPGVGKTAIVEGLAQRIINGEVPEGLRGKRVLSLDMGALIAGAKFRGEFEERLKAVLSDLSKNEGQIILFIDEL</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q +  R  NN ++ G  G GK+++V+ L     +       +G R++ +D   LI            L  +L+ L +   + I+F D+L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.25521</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>596</Hsp_hit-from>
+      <Hsp_hit-to>786</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>RPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD---------LIGLP----------YLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDGGLSQRCA------NVMVYATSNRRHLMPEYLDENAGTTGVRGEIHQKEAVEEKVS------LSDRFGLWLSFYPFDQNDYLAAVRSWLEDFD</Hsp_qseq>
+      <Hsp_hseq>RPSGSFLFLGPTGVGKTELCKALADFLFDSTEAMIRIDMSEFMEKHSVSRLIGAPPGYVGYEEGGYLTEAVRRRPYSLILL-DEVEKAHADVFNILLQVLDDGRLTDGQGRTVDFRNTVIVMTSN---LGSHQIQELSGDGSAEAYTQMKAAVMGVVQAHFRPEFINRLDDIVVFHPLDKAQIKSIARIQLQGLE</Hsp_hseq>
+      <Hsp_midline>RP+ + L  G  G GK+ L KAL     D    +I +D S+         LIG P          YL   ++ RP   I+  D++     D     L+   DG L+          N ++  TSN   L    + E +G          K AV   V         +R    + F+P D+    +  R  L+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|81661369|sp|Q7URM7.1|FTSH2_RHOBA</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent zinc metalloprotease FtsH 2 [Rhodopirellula baltica SH 1]</Hit_def>
+  <Hit_accession>Q7URM7</Hit_accession>
+  <Hit_len>728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.956958</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>RQTELLVRNTEQF--IAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSDLIGLPYLLALLKERP--------EKFIVFCDDL-------------SFESGDETYKALKTALDGGLSQRCANVMVYATSNRRHLMPEYLD</Hsp_qseq>
+      <Hsp_hseq>REVVDFLKNSEKYQSLGGRIPKGVLLVGPPGTGKTLLAKAIAGE---AGVPFFSLSGSDFVEMFVGVGAARVRDMFTQAVNRAPCIIFIDELDALGKSRSGSVVGGHDEREQTLNALLVEMDGFDSN--SGVIVVAATNR----PETLD</Hsp_hseq>
+      <Hsp_midline>R+    ++N+E++  + GR    VL+ G  GTGK+ L KA+  E    G+    +  SD + +   +   + R            I+F D+L               +  ++T  AL   +DG  S   + V+V A +NR    PE LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|3122631|sp|O26824.1|PAN_METTH</Hit_id>
+  <Hit_def>RecName: Full=Proteasome-activating nucleotidase; Short=PAN; AltName: Full=Proteasomal ATPase; AltName: Full=Proteasome regulatory ATPase; AltName: Full=Proteasome regulatory particle [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>O26824</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.990722</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQF--IAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVD-KSDLIG-----LPYLLALLKERPEKFIVFCDDL---------SFESGD----ETYKALKTALDGGLSQRCANVMVYATSNRRHLMPEYLD</Hsp_qseq>
+      <Hsp_hseq>VKETVELPLKKPELFEKIGIEPPKGVLLYGPPGTGKTLLAKAVAHETNATFIKIVASEFVRKYIGEGARLVRGVFELAKEKSPS-IIFIDEIDAVAAKRLKSSTSGDREVQRTLMQLLAELDGFESR--GNVGIVAATNR----PDILD</Hsp_hseq>
+      <Hsp_midline>V    EL ++  E F  I   P   VL+ G  GTGK+ L KA+ HE     ++++  +     IG     +  +  L KE+    I+F D++         S  SGD     T   L   LDG  S+   NV + A +NR    P+ LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|158513781|sp|A5UMF4.1|RFCL_METS3</Hit_id>
+  <Hit_def>RecName: Full=Replication factor C large subunit; Short=RFC large subunit; AltName: Full=Clamp loader large subunit [Methanobrevibacter smithii ATCC 35061]</Hit_def>
+  <Hit_accession>A5UMF4</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.02954</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LSRLAGVGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSDLIGLPYLLALLKERPEKFIVFCDDLSFESGDET</Hsp_qseq>
+      <Hsp_hseq>LDEVVGNNKEKALIQKWVDNWKAGNPQKPLLLVGPPGIGKTTLAQAIAREFSE----YIELNASDKRSQDVIKSTIGESSSSKSLFGDDYKLLILDEV</Hsp_hseq>
+      <Hsp_midline>L  + G  ++  L+ +  + + AG P   +L+ G  G GK++L +A+  E+++     IE++ SD      + + + E      +F DD      DE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|54035807|sp|Q7V2A3.1|CLPB_PROMP</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Prochlorococcus marinus subsp. pastoris str. CCMP1986]</Hit_def>
+  <Hit_accession>Q7V2A3</Hit_accession>
+  <Hit_len>860</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.04418</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDL</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRRTIQILSRRTKNNPVLIGEPGVGKTAIVEGLAQRIVNGDVPSSLNNRQLISIDMGSLIAGAKYRGEFEERIKNVLKKVKSSEGKIILFIDEI</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R T Q ++ R  NN ++ G  G GK+++V+ L     +  +       +LI +D   LI            +  +L  +K    K I+F D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|54035877|sp|Q8YUL9.1|CLPB1_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB 1 [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>Q8YUL9</Hit_accession>
+  <Hit_len>880</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.0754</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDLSFESGDETYKALKTALDGG</Hsp_qseq>
+      <Hsp_hseq>IGRDDE--IRRVIQVLSRRSKNNPVLIGEPGVGKTAIAEALAQRIVNGDVPESLKNRQLISLDIGSLIAGAKYRGEFEDRLKAVLREVTESNGNIVLFIDELHTVVG--TGSNQQGAMDAG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R   Q ++ R  NN ++ G  G GK+++ +AL     +       K  +LI +D   LI G  Y       L A+L+E  E     ++F D+L    G  T    + A+D G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|75161490|sp|Q8VYJ7.1|CLPB4_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB4, mitochondrial; AltName: Full=ATP-dependent Clp protease ATP-binding subunit ClpB homolog 4; AltName: Full=Casein lytic proteinase B4; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8VYJ7</Hit_accession>
+  <Hit_len>964</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.10743</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>680</Hsp_hit-from>
+      <Hsp_hit-to>861</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSD---------LIGLP----------YLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDG------GLSQRCANVMVYATSNR-RHLMPEYLDENAGTTGVRGEIHQKEAVEE-----KVSLSDRFGLWLSFYPFDQND</Hsp_qseq>
+      <Hsp_hseq>NRPIASFMFMGPTGVGKTELAKALAGYLFNTENAIVRVDMSEYMEKHSVSRLVGAPPGYVGYEEGGQLTEVVRRRPYSVVLF-DEIEKAHPDVFNILLQLLDDGRITDSQGRTVSFKNCVVIMTSNIGSHHILETLRNNEDSKEAVYEIMKRQVVELARQNFRPEFMNRIDEYIVFQPLDSNE</Hsp_hseq>
+      <Hsp_midline> RP  + +  G  G GK+ L KAL     +    ++ VD S+         L+G P           L  +++ RP   ++F D++     D     L+   DG      G +    N +V  TSN   H + E L  N  +     EI +++ VE      +    +R   ++ F P D N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|81651440|sp|Q6GIB2.1|CLPB_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GIB2</Hit_accession>
+  <Hit_len>869</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.11181</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRNTIRILSRKTKNNPVLIGEPGVGKTAIVEGLAQRIVKKDVPESLLDKTVFELDLSALVAGAKYRGEFEERLKAVLKEVKESDGRIILFIDEIHMLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +RNT + ++ +  NN ++ G  G GK+++V+ L      K +        + E+D S L+ G  Y       L A+LKE  E   + I+F D++    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|54035781|sp|Q7A6G6.1|CLPB_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Staphylococcus aureus subsp. aureus N315] &gt;gi|54035889|sp|Q99VB5.1|CLPB_STAAM RecName: Full=Chaperone protein ClpB [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>Q7A6G6</Hit_accession>
+  <Hit_len>869</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.12159</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRNTIRILSRKTKNNPVLIGEPGVGKTAIVEGLAQRIVKKDVPESLLDKTVFELDLSALVAGAKYRGEFEERLKAVLKEVKESDGRIILFIDEIHMLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +RNT + ++ +  NN ++ G  G GK+++V+ L      K +        + E+D S L+ G  Y       L A+LKE  E   + I+F D++    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81649655|sp|Q6GAV1.1|CLPB_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81694855|sp|Q5HHB0.1|CLPB_STAAC RecName: Full=Chaperone protein ClpB [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>Q6GAV1</Hit_accession>
+  <Hit_len>869</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.12159</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRNTIRILSRKTKNNPVLIGEPGVGKTAIVEGLAQRIVKKDVPESLLDKTVFELDLSALVAGAKYRGEFEERLKAVLKEVKESDGRIILFIDEIHMLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +RNT + ++ +  NN ++ G  G GK+++V+ L      K +        + E+D S L+ G  Y       L A+LKE  E   + I+F D++    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|54035863|sp|Q8NXE7.1|CLPB_STAAW</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Staphylococcus aureus subsp. aureus MW2]</Hit_def>
+  <Hit_accession>Q8NXE7</Hit_accession>
+  <Hit_len>869</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.15145</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRNTIRILSRKTKNNPVLIGEPGVGKTAIVEGLAQRIVKKDVPESLLDKTVFELDLSALVAGAKYRGEFEERLKAVLKEVKESDGRIILFIDEIHMLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +RNT + ++ +  NN ++ G  G GK+++V+ L      K +        + E+D S L+ G  Y       L A+LKE  E   + I+F D++    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|54035845|sp|Q8CPT5.1|CLPB_STAES</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CPT5</Hit_accession>
+  <Hit_len>869</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.32461</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRNTIRILSRKTKNNPVLIGEPGVGKTAIVEGLAQRIVRKDVPESLLDKTIFELDLSALVAGAKYRGEFEERLKAVLKEVKESEGRIILFIDEIHMLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +RNT + ++ +  NN ++ G  G GK+++V+ L      K +        + E+D S L+ G  Y       L A+LKE  E   + I+F D++    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|81675085|sp|Q5HQI5.1|CLPB_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q5HQI5</Hit_accession>
+  <Hit_len>869</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.33626</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGL-------RLIEVDKSDLI-GLPY-------LLALLKERPE---KFIVFCDDLSFESG</Hsp_qseq>
+      <Hsp_hseq>IGRDEE--IRNTIRILSRKTKNNPVLIGEPGVGKTAIVEGLAQRIVRKDVPESLLDKTIFELDLSALVAGAKYRGEFEERLKAVLKEVKESEGRIILFIDEIHMLVG</Hsp_hseq>
+      <Hsp_midline>+GR  E  +RNT + ++ +  NN ++ G  G GK+++V+ L      K +        + E+D S L+ G  Y       L A+LKE  E   + I+F D++    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|54035823|sp|Q82EU9.1|CLPB1_STRAW</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein ClpB 1 [Streptomyces avermitilis MA-4680 = NBRC 14893]</Hit_def>
+  <Hit_accession>Q82EU9</Hit_accession>
+  <Hit_len>870</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.6062</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYAD-------KGLRLIEVDKSDLIG-----------LPYLLALLKERPEKFIVFCDDL</Hsp_qseq>
+      <Hsp_hseq>IGRDQE--IRRVVQVLSRRTKNNPVLIGEPGVGKTAVVEGLAQRIVKGDVPESLKNKRLVALDLGAMVAGAKYRGEFEERLKTVLAEIKDSDGQIITFIDEL</Hsp_hseq>
+      <Hsp_midline>+GR  E  +R   Q ++ R  NN ++ G  G GK+++V+ L             K  RL+ +D   ++            L  +LA +K+   + I F D+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|8134613|sp|O43933.1|PEX1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Peroxisome biogenesis factor 1; AltName: Full=Peroxin-1; AltName: Full=Peroxisome biogenesis disorder protein 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>O43933</Hit_accession>
+  <Hit_len>1283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.64718</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>547</Hsp_hit-from>
+      <Hsp_hit-to>692</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>VFPLSRLAGVGRQTELLVRNTEQF---IAGRPANNVLMS-------------GARGTGKSSLVKALLHEYADK--------------GLRLIEVDKSDLIGLPYLLALLKERPEKFIVFCDDLSFESGDETYKALKTALDGGLSQRCANVM</Hsp_qseq>
+      <Hsp_hseq>ILPFLKLSSLGGVNSLGVSSLEHITHSLLGRPLSRQLMSLVAGLRNGALLLTGGKGSGKSTLAKAICKEAFDKLDAHVERVDCKALRGKRLENIQKTLEVAFSEAVWM-----QPSVVLLDDLDLIAGLPAVPEHEHSPDAVQSQRLAHAL</Hsp_hseq>
+      <Hsp_midline>+ P  +L+ +G    L V + E     + GRP +  LMS             G +G+GKS+L KA+  E  DK              G RL  + K+  +     + +     +  +V  DDL   +G       + + D   SQR A+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|55976362|sp|Q64NF1.1|ISTB_BACFR</Hit_id>
+  <Hit_def>RecName: Full=Insertion sequence IS21-like putative ATP-binding protein [Bacteroides fragilis YCH46]</Hit_def>
+  <Hit_accession>Q64NF1</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.69728</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>DPHVFPLSRLAGVGRQTELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIEVDKSDLIGLPYLLALLKER</Hsp_qseq>
+      <Hsp_hseq>DLDLYDFSRTEGIDQRQ---MRELRELVWIRRTYNLLLVGDSGTGKTFIASGLIHEAVKAGY------KAYLLTLEELFVCLKTK</Hsp_hseq>
+      <Hsp_midline>D  ++  SR  G+ ++    +R   + +  R   N+L+ G  GTGK+ +   L+HE    G       K+ L+ L  L   LK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|2492597|sp|Q55774.1|Y182_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ABC transporter ATP-binding protein sll0182 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55774</Hit_accession>
+  <Hit_len>661</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.70818</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>466</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>TELLVRNTEQFIAGRPANNVLMSGARGTGKSSLVKALLHEYADKGLRLIE-VDKSDLIGLP----YLLALLKER---PEKFIVFCDDLSFES--------------GDETYKALKTALDGGLSQRCANVMVYATSNRRHLMPE</Hsp_qseq>
+      <Hsp_hseq>SRILVRDLSLAVA--PGNHLLIMGPSGSGKSSLLRAIAGLW-DSGQGTIERPELADLLFLPQRPYMILGTLREQLIYPSAQSIADDDFLLETLNKVNLPDLAERFGGLDSLENWSSVLSLGEQQRIALARVFINQPRYAILDE</Hsp_hseq>
+      <Hsp_midline>+ +LVR+    +A  P N++L+ G  G+GKSSL++A+   + D G   IE  + +DL+ LP     +L  L+E+   P    +  DD   E+              G ++ +   + L  G  QR A   V+    R  ++ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>8781</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>222</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>8781</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>222</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|269969361|sp|B4EY85.1|HDA_PROMH</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4EY85</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>9.37388e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>NQLIFDFAAHDYPSFDKFLGTENAELVYVLQ----HKHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYI--DAASMPLTDAAFEAEYLA---VDQVEKL-GNEEQAL-LFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>SQLSLPLSLPDDETFDSFYAGENASLVAAIQTAIHQSHGSYIYFWSRDGGGKSHLLHAACAELSLAGDAVGYVPLDKRAYFVPDVLEGMEHLSLVCIDNVQCIAGDEEWELALFNLYNRVLELGRTCLLITGDRPPRQIDLQLPDLASRLDWGQIYRLQPLSDEEKIQALQLRAKLRGFELPEDVGRFVLKRLDRKMRTLFEMLDELDHASIVAQRKLTIPFVKDILK</Hsp_hseq>
+      <Hsp_midline>+QL    +  D  +FD F   ENA LV  +Q      H  +IY W  +G GKSHLL A  A+   AG    Y+  D  +  + D     E+L+   +D V+ + G+EE  L LF+++NR    G+  LL+  +  P+Q+ ++  DL +R+ +  +Y ++PL+D+EKI AL   A  R   +  ++  ++LK   R M +L  MLD LD+ ++   +++T+P ++ +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|269969359|sp|B5XNQ6.1|HDA_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Klebsiella pneumoniae 342] &gt;gi|269969360|sp|A6TCA8.1|HDA_KLEP7 RecName: Full=DnaA regulatory inactivator Hda [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>B5XNQ6</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>2.56648e-30</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>DYPSFDKFLGTENAELVYVLQH----KHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYI--DAASMPLTDAAFEAEYLA---VDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>DDETFASFWPGDNPSLLAALQNVLRQEHSGYIYIWSREGAGRSHLLHAACAELSQRGDAVGYVPLDKRTWFVPEVLEGMEQLALVCIDNIECVAGDEPWEMAIFNLYNRILESGKTRLLITGDRPPRQLNLGLPDLASRLDWGQIYKLQPLSDEDKLQALQLRARLRGFEMPEDVCRFLLKRLDREMRSLFMTLDQLDHASITAQRKLTIPFVKEILK</Hsp_hseq>
+      <Hsp_midline>D  +F  F   +N  L+  LQ+    +H  +IY+W  EGAG+SHLL A  A+  + G    Y+  D  +  + +     E LA   +D +E +  +E  +  +F+++NR   SGK  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D++K+ AL   A  R   +  ++  +LLK   R+M SL M LD LD+ ++T  +++T+P ++++LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|189042483|sp|A9MHP3.1|HDA_SALAR</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MHP3</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>3.93591e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYVLQH----KHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYI--DAASMPLTDAAFEAEYLA---VDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFWPGDNASLLAALQNVLRQEHSGYIYLWAREGAGRSHLLHAACAELSQRGDAVGYVPLDKRTWFVPEVLDGMEHLSLVCIDNIECVAGDELWEMAIFDLYNRILESGKTRLLITGDRPPRQLNLGLPDLASRLDWGQIYKLQPLSDEDKLQALQLRARLRGFELPEDVGRFLLKRLDREMRTLFMTLDQLDHASITAQRKLTIPFVKEILK</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   +NA L+  LQ+    +H  +IY+W  EGAG+SHLL A  A+  + G    Y+  D  +  + +     E+L+   +D +E +  +E  +  +F ++NR   SGK  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D++K+ AL   A  R   +  ++  +LLK   R+M +L M LD LD+ ++T  +++T+P ++++LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|57012732|sp|Q7CQ21.1|HDA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|57012734|sp|Q8XEQ0.1|HDA_SALTI RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|75481740|sp|Q57LL3.1|HDA_SALCH RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67] &gt;gi|226740573|sp|B5F171.1|HDA_SALA4 RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|226740574|sp|B5FQI8.1|HDA_SALDC RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853] &gt;gi|226740575|sp|B5R558.1|HDA_SALEP RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|226740576|sp|B5RCW8.1|HDA_SALG2 RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91] &gt;gi|226740577|sp|B4TD71.1|HDA_SALHS RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476] &gt;gi|226740578|sp|B4T0M5.1|HDA_SALNS RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|226740580|sp|B4TR72.1|HDA_SALSV RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633] &gt;gi|254800192|sp|C0PYR0.1|HDA_SALPC RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594] &gt;gi|269969427|sp|A9N2Y3.2|HDA_SALPB RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7]</Hit_def>
+  <Hit_accession>Q7CQ21</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>4.10254e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYVLQH----KHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYI--DAASMPLTDAAFEAEYLA---VDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFWPGDNASLLAALQNVLRQEHSGYIYLWAREGAGRSHLLHAACAELSQRGDAVGYVPLDKRTWFVPEVLDGMEHLSLVCIDNIECVAGDELWEMAIFDLYNRILESGKTRLLITGDRPPRQLNLGLPDLASRLDWGQIYKLQPLSDEDKLQALQLRARLRGFELPEDVGRFLLKRLDREMRTLFMTLDQLDHASITAQRKLTIPFVKEILK</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   +NA L+  LQ+    +H  +IY+W  EGAG+SHLL A  A+  + G    Y+  D  +  + +     E+L+   +D +E +  +E  +  +F ++NR   SGK  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D++K+ AL   A  R   +  ++  +LLK   R+M +L M LD LD+ ++T  +++T+P ++++LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|269849587|sp|B7LKE6.2|HDA_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LKE6</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>5.91055e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYVLQH----KHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYIDAAS----MP-LTDAAFEAEYLAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFWPGDNSSLLAALQNVLRQEHSGYIYLWAREGAGRSHLLHAACAELSQRGDAVGYVPLDKRTWFVPEVLDGMEQLSLVCIDNIECIAGDELWEMAIFDLYNRILESGKTRLLITGDRPPRQLNLGLPDLASRLDWGQIYKLQPLSDEDKLQALQLRARLRGFELPEDVGRFLLKRLDREMRTLFMTLDQLDRASITAQRKLTIPFVKEILK</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   +N+ L+  LQ+    +H  +IY+W  EGAG+SHLL A  A+  + G    Y+        +P + D   +   + +D +E +  +E  +  +F ++NR   SGK  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D++K+ AL   A  R   +  ++  +LLK   R+M +L M LD LD  ++T  +++T+P ++++LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81599733|sp|Q5PL41.1|HDA_SALPA</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|226740579|sp|B5BB08.1|HDA_SALPK RecName: Full=DnaA regulatory inactivator Hda [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601]</Hit_def>
+  <Hit_accession>Q5PL41</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>6.08234e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYVLQH----KHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYI--DAASMPLTDAAFEAEYLA---VDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFWPGDNASLLAALQNVLRQEHSGYIYLWAREGAGRSHLLHAACAELSQRGDAVGYVPLDKRTWFVPEVLDGMEHLSLVCIDNIECVAGDELWEMAIFDLYNRILESGKTRLLITGDRPPRQLNLGLPDLASRLDWGQIYKLQPLSDEDKLQALQLRARLRGFELPEDVGRFLLKRLDREMRTLFMTLDQLDHASITAQRKLTIPFVKEILK</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   +NA L+  LQ+    +H  +IY+W  EGAG+SHLL A  A+  + G    Y+  D  +  + +     E+L+   +D +E +  +E  +  +F ++NR   SGK  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D++K+ AL   A  R   +  ++  +LLK   R+M +L M LD LD+ ++T  +++T+P ++++LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|57012731|sp|Q6D7R8.1|HDA_PECAS</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D7R8</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>8.39924e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYV----LQHKHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYI--DAASMPLTDAAFEAEYLA---VDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLL</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFYPGENASLLAAVNNALYQEHGSYIYFWSREGGGRSHLLHAACAELSRQERAVGYVPLDKRAYFVPDVLEGMEQLALVCIDNIESIAGDEAWEMAVFNLYNRIQETGRALLLITGDRPPRQLNIRLPDLASRLDWGQIYKLQPLSDDEKGEALQLRARLRGFELPEDVSRFLLKRLDREMRTLFMTLDQLDHASITAQRKLTIPFVKEIL</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   ENA L+      L  +H  +IY W  EG G+SHLL A  A+     +   Y+  D  +  + D     E LA   +D +E +  +E  +  +F+++NR + +G+  LL+  +  P+QL IR  DL +R+ +  +Y+++PL+D EK +AL   A  R   +  ++  +LLK   R+M +L M LD LD+ ++T  +++T+P ++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|269849566|sp|A7ZPT9.2|HDA_ECO24</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli O139:H28 str. E24377A] &gt;gi|269849567|sp|B7UGN4.2|HDA_ECO27 RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli O127:H6 str. E2348/69] &gt;gi|269849568|sp|B7MHX7.2|HDA_ECO45 RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli S88] &gt;gi|269849569|sp|B7LCN6.2|HDA_ECO55 RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli 55989] &gt;gi|269849570|sp|P69933.2|HDA_ECO57 RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli O157:H7] &gt;gi|269849571|sp|B5Z033.2|HDA_ECO5E RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli O157:H7 str. EC4115] &gt;gi|269849572|sp|B7NQN5.2|HDA_ECO7I RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli IAI39] &gt;gi|269849573|sp|B7MYC3.2|HDA_ECO81 RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli ED1a] &gt;gi|269849574|sp|B7M7K0.2|HDA_ECO8A RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli IAI1] &gt;gi|269849575|sp|C4ZX71.2|HDA_ECOBW RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli BW2952] &gt;gi|269849576|sp|B1XAX1.2|HDA_ECODH RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli str. K-12 substr. DH10B] &gt;gi|269849577|sp|A8A2Y8.2|HDA_ECOHS RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli HS] &gt;gi|269849578|sp|A1ADY9.2|HDA_ECOK1 RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli APEC O1] &gt;gi|269849579|sp|Q0TEZ2.2|HDA_ECOL5 RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli 536] &gt;gi|269849580|sp|P69932.2|HDA_ECOL6 RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli CFT073] &gt;gi|269849581|sp|B1IWG4.2|HDA_ECOLC RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli ATCC 8739] &gt;gi|269849582|sp|P69931.2|HDA_ECOLI RecName: Full=DnaA regulatory inactivator Hda; AltName: Full=DnaA paralog; Short=Dp [Escherichia coli K-12] &gt;gi|269849583|sp|B7N678.2|HDA_ECOLU RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli UMN026] &gt;gi|269849584|sp|B6I568.2|HDA_ECOSE RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli SE11] &gt;gi|269849585|sp|B1LNE6.2|HDA_ECOSM RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli SMS-3-5] &gt;gi|269849586|sp|Q1R8P2.2|HDA_ECOUT RecName: Full=DnaA regulatory inactivator Hda [Escherichia coli UTI89] &gt;gi|269849588|sp|B2TXS1.2|HDA_SHIB3 RecName: Full=DnaA regulatory inactivator Hda [Shigella boydii CDC 3083-94] &gt;gi|269849589|sp|Q31XZ6.2|HDA_SHIBS RecName: Full=DnaA regulatory inactivator Hda [Shigella boydii Sb227] &gt;gi|269849590|sp|Q32D72.2|HDA_SHIDS RecName: Full=DnaA regulatory inactivator Hda [Shigella dysenteriae Sd197] &gt;gi|269849591|sp|Q0T224.2|HDA_SHIF8 RecName: Full=DnaA regulatory inactivator Hda [Shigella flexneri 5 str. 8401] &gt;gi|269849592|sp|P69934.2|HDA_SHIFL RecName: Full=DnaA regulatory inactivator Hda [Shigella flexneri] &gt;gi|269849593|sp|Q3YZ56.2|HDA_SHISS RecName: Full=DnaA regulatory inactivator Hda [Shigella sonnei Ss046]</Hit_def>
+  <Hit_accession>A7ZPT9</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>9.42769e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYVLQH----KHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYI--DAASMPLTDAAFEAEYLA---VDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFWPGDNSSLLAALQNVLRQEHSGYIYLWAREGAGRSHLLHAACAELSQRGDAVGYVPLDKRTWFVPEVLDGMEHLSLVCIDNIECIAGDELWEMAIFDLYNRILESGKTRLLITGDRPPRQLNLGLPDLASRLDWGQIYKLQPLSDEDKLQALQLRARLRGFELPEDVGRFLLKRLDREMRTLFMTLDQLDRASITAQRKLTIPFVKEILK</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   +N+ L+  LQ+    +H  +IY+W  EGAG+SHLL A  A+  + G    Y+  D  +  + +     E+L+   +D +E +  +E  +  +F ++NR   SGK  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D++K+ AL   A  R   +  ++  +LLK   R+M +L M LD LD  ++T  +++T+P ++++LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254800193|sp|A1JL00.1|HDA_YERE8</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JL00</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>2.99834e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYVLQ----HKHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYID----AASMP-LTDAAFEAEYLAVDQVEKLGNEEQ--ALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFYPGENPSLLAAIQSAVHQSHGSYIYFWSREGGGRSHLLHAACAELSQKGEAVGYVPLDKRAYFVPEVLDGMEQLALVCIDNIECIAGDEQWEMAMFNLYNRIVETGRTRLLITGDRPPRQLNLGLPDLASRLDWGQIYKLQPLSDDEKLQALQLRAKLRGFELPEDVGRFLLKRLDREMRTLFMTLDQLDRASITAQRKLTIPFVKEILS</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   EN  L+  +Q      H  +IY W  EG G+SHLL A  A+  + G+   Y+     A  +P + D   +   + +D +E +  +EQ    +F+++NR   +G+  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D EK+ AL   A  R   +  ++  +LLK   R+M +L M LD LD  ++T  +++T+P ++++L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|167008785|sp|A8AD95.1|HDA_CITK8</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8AD95</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>8.66883e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYVLQH----KHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYI--DAASMPLTDAAFEAEYLA---VDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLL</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFWPGDNASLLAALQNVLRQEHSGYIYLWSREGAGRSHLLHAACAELSQRGDAVGYVPLDKRTWFVPEVLDGMEHLSLVCIDNIECVAGDELWEMAIFDLYNRILESGKTRLLITGDRPPRQLKLGLPDLASRLDWGQIYKLQPLSDEDKLQALQLRARLRGFELPEDVGRFLLKRLDREMRTLFITLDQLDHASITAQRKLTIPFVKEIL</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   +NA L+  LQ+    +H  +IY+W  EGAG+SHLL A  A+  + G    Y+  D  +  + +     E+L+   +D +E +  +E  +  +F ++NR   SGK  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D++K+ AL   A  R   +  ++  +LLK   R+M +L + LD LD+ ++T  +++T+P ++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|57012730|sp|Q668E8.1|HDA_YERPS</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Yersinia pseudotuberculosis IP 32953] &gt;gi|122980224|sp|Q1CK37.1|HDA_YERPN RecName: Full=DnaA regulatory inactivator Hda [Yersinia pestis Nepal516] &gt;gi|123245695|sp|Q1C5P5.1|HDA_YERPA RecName: Full=DnaA regulatory inactivator Hda [Yersinia pestis Antiqua] &gt;gi|167008790|sp|A4TMP0.1|HDA_YERPP RecName: Full=DnaA regulatory inactivator Hda [Yersinia pestis Pestoides F] &gt;gi|226740582|sp|B2K9J7.1|HDA_YERPB RecName: Full=DnaA regulatory inactivator Hda [Yersinia pseudotuberculosis PB1/+] &gt;gi|226740584|sp|B1JSF7.1|HDA_YERPY RecName: Full=DnaA regulatory inactivator Hda [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>Q668E8</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>9.2801e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYVLQ----HKHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYIDAASMPLTDAAF----------EAEYLAVDQVEKLGNEEQ--ALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFYPGENPSLLAAIQSAVHQPHGSYIYFWSREGGGRSHLLHAACAELSQQGEAVGYV-----PLDKRAYFIPEVLEGMEQLALVCIDNIECIAGDEQWEMAMFNLYNRIVETGRTRLLITGDRPPRQLNLGLPDLASRLDWGQIYKLQPLSDDEKLQALQLRAKLRGFELPEDVGRFLLKRLDREMRTLFMTLDQLDRASITAQRKLTIPFVKEILS</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   EN  L+  +Q      H  +IY W  EG G+SHLL A  A+  + G+   Y+     PL   A+          +   + +D +E +  +EQ    +F+++NR   +G+  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D EK+ AL   A  R   +  ++  +LLK   R+M +L M LD LD  ++T  +++T+P ++++L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|57012735|sp|Q8ZCC1.1|HDA_YERPE</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Yersinia pestis] &gt;gi|167008789|sp|A7FG40.1|HDA_YERP3 RecName: Full=DnaA regulatory inactivator Hda [Yersinia pseudotuberculosis IP 31758] &gt;gi|226740583|sp|A9QZX0.1|HDA_YERPG RecName: Full=DnaA regulatory inactivator Hda [Yersinia pestis Angola]</Hit_def>
+  <Hit_accession>Q8ZCC1</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.36814e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>QLIFDFAAHDYPSFDKFLGTENAELVYVLQ----HKHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYIDAASMPLTDAAF----------EAEYLAVDQVEKLGNEEQ--ALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>QLSLPLYLPDDETFASFYPGENPSLLAAIQSAVHQPHGSYIYFWSREGGGRSHLLHAACAELSQQGEAVGYV-----PLDKRAYFIPEVLEGMEQLALVCIDNIECIAGDEQWEMAMFNLYNRIVETGRTRLLITGDRPPRQLNLGLPDLASRLDWGQIYKLQPLSDDEKLQALQLRAKLRGFELPEDVGRFLLKRLDREMRTLFMTLDQLDRASITAQRKLTIPFVKEILS</Hsp_hseq>
+      <Hsp_midline>QL       D  +F  F   EN  L+  +Q      H  +IY W  EG G+SHLL A  A+  + G+   Y+     PL   A+          +   + +D +E +  +EQ    +F+++NR   +G+  LL+  +  P+QL +   DL +R+ +  +Y+++PL+D EK+ AL   A  R   +  ++  +LLK   R+M +L M LD LD  ++T  +++T+P ++++L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|6136705|sp|O86235.1|Y122B_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1225.1 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>O86235</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.17618e-26</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>PFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYID-AASMPLTDAAFE----AEYLAVDQVEK-LGNEEQAL-LFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLL</Hsp_qseq>
+      <Hsp_hseq>PFFYIWGDKGSGKTHLLRAFSNEYLINQRTAIYVPLSKSQYFSTAVLENLEQQELVCLDDLQSVIGNDEWELAIFDLFNRIKASGKTLLLISADKSPSALSVKLPDLNSRLTWGEIYQLNSLTDEQKIKVLQLAAYQRGFQLSDETANFLITRLARDMHTLFEALDLLDKASLQAQRNLTIPFVKKIL</Hsp_hseq>
+      <Hsp_midline>PF Y+WG++G+GK+HLL+A+  + L   + A Y+  + S   + A  E     E + +D ++  +GN+E  L +F +FNR + SGK  LL+ ++ +P  L ++  DL +R+ +  +Y++  LTD++KI  L   A  R   +  E   +L+    RDM +L   LD LD  ++   + +T+P ++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|269969358|sp|A7ML17.1|HDA_CROS8</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7ML17</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>4.66549e-25</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>DYPSFDKFLGTENAELVYVLQ----HKHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYI--DAASMPLTDAAFEAEYLA---VDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLL</Hsp_qseq>
+      <Hsp_hseq>DDETFASFWPGDNPSLLAALQTMLRHDRSGYIYFWSREGGGRSHLLHAACAELSQRGDAVGYVPLDKRTWFVPEVLEGMEQLSLVCIDNIECIAGDEPWEMAIFNLYNRILESGNTRLLITGDRPPRQLNLKLPDLASRLDWGQIYRLQPLSDDDKLQALQLRARMRGFELPEDVGRFLLKRLDREMRTLFLTLDQLDRASISAQRKLTIPFVKDTL</Hsp_hseq>
+      <Hsp_midline>D  +F  F   +N  L+  LQ    H    +IY W  EG G+SHLL A  A+  + G    Y+  D  +  + +     E L+   +D +E +  +E  +  +F+++NR   SG   LL+  +  P+QL ++  DL +R+ +  +Y ++PL+D +K+ AL   A  R   +  ++  +LLK   R+M +L + LD LD  +++  +++T+P ++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|57012733|sp|Q7N3G5.1|HDA_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=DnaA regulatory inactivator Hda [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N3G5</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.67067e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>NQLIFDFAAHDYPSFDKFLGTENAELVYVLQ----HKHDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYID----AASMP-LTDAAFEAEYLAVDQVEKL-GNEE-QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIR-EDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLL</Hsp_qseq>
+      <Hsp_hseq>SQLSLPLYLPDDETFASFFPGENATLLAAIKLAINQPHGSYIYFWSRDSGGRSHLLHAACAELSLKDEAVGYVPLDKRAYFIPEVLDGMEHLSLVCIDNIESIAGDEEWEMAIFNLYNRILEIGRTCLLISGDRPPRQINLKLPDLASRLDWGQIYKLQPLSDDEKLQALQLRAKLRGFELPEDVGRFLLKRLDREMRTLFMALNQLDHASIVAQRKLTIPFVKDIL</Hsp_hseq>
+      <Hsp_midline>+QL       D  +F  F   ENA L+  ++      H  +IY W  +  G+SHLL A  A+     +   Y+     A  +P + D       + +D +E + G+EE +  +F+++NR    G+  LL+  +  P+Q+ ++  DL +R+ +  +Y+++PL+D EK+ AL   A  R   +  ++  +LLK   R+M +L M L+ LD+ ++   +++T+P ++ +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|71151795|sp|Q5HXF5.1|DNAA_CAMJR</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Campylobacter jejuni RM1221]</Hit_def>
+  <Hit_accession>Q5HXF5</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.15728e-14</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>SFDKFLGTENAELVY----VLQHK------HDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAY------IDAASMPLTDAAFE--------AEYLAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLV-IREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>TFDSFVVGDSNKYAYGACKAITHKDKLGKLYNP-IFVYGPTGLGKTHLLQAVGNASLEMGKKVIYATSENFINDFTSNLKNGSLDKFHEKYRNCDVLLIDDVQFLGKTDKIQEEFFFIFNEIKNND-GQIIMTSDNPPNMLKGITERLKSRFAHGIIADITPPQLDTKIAIIRKKCEFNDINLSNDIINYIATSLGDNIREIEGIIISLNAYATILGQEITLELAKSVMK</Hsp_hseq>
+      <Hsp_midline>+FD F+  ++ +  Y     + HK      ++P I+V+G  G GK+HLLQA    +LE GK   Y      I+  +  L + + +         + L +D V+ LG  +  Q   F IFN  +N+  G +++ S+  P  L  I E L++R A+ ++ ++ P     KI  +        + + ++I  Y+      ++  +  ++ +L+ YA  +G+ ITL L + ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166201874|sp|A1VX79.1|DNAA_CAMJJ</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Campylobacter jejuni subsp. jejuni 81-176]</Hit_def>
+  <Hit_accession>A1VX79</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.21234e-14</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>SFDKFLGTENAELVY----VLQHK------HDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAY------IDAASMPLTDAAFE--------AEYLAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLV-IREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>TFDSFVVGDSNKYAYGACKAITHKDKLGKLYNP-IFVYGPTGLGKTHLLQAVGNASLEMGKKVIYATSENFINDFTSNLKNGSLDKFHEKYRNCDVLLIDDVQFLGKTDKIQEEFFFIFNEIKNND-GQIIMTSDNPPNMLKGITERLKSRFAHGIIADITPPQLDTKIAIIRKKCEFNDINLSNDIINYIATSLGDNIREIEGIIISLNAYATILGQEITLELAKSVMK</Hsp_hseq>
+      <Hsp_midline>+FD F+  ++ +  Y     + HK      ++P I+V+G  G GK+HLLQA    +LE GK   Y      I+  +  L + + +         + L +D V+ LG  +  Q   F IFN  +N+  G +++ S+  P  L  I E L++R A+ ++ ++ P     KI  +        + + ++I  Y+      ++  +  ++ +L+ YA  +G+ ITL L + ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|166201873|sp|A7H194.1|DNAA_CAMJD</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Campylobacter jejuni subsp. doylei 269.97]</Hit_def>
+  <Hit_accession>A7H194</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>3.62308e-14</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAWVAQALEAGKNAAY------IDAASMPLTDAAFE--------AEYLAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLV-IREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>IFVYGPTGLGKTHLLQAVGNASLEMGKKVIYATSENFINDFTSNLKNGSLDKFHEKYRNCDVLLIDDVQFLGKTDKIQEEFFFIFNEIKNND-GQIIMTSDNPPNMLKGITERLKSRFAHGIIADITPPQLDTKIAIIRKKCEFNDINLSNDIINYIATSLGDNIREIEGIIISLNAYATILGQEITLELAKSVMK</Hsp_hseq>
+      <Hsp_midline>I+V+G  G GK+HLLQA    +LE GK   Y      I+  +  L + + +         + L +D V+ LG  +  Q   F IFN  +N+  G +++ S+  P  L  I E L++R A+ ++ ++ P     KI  +        + + ++I  Y+      ++  +  ++ +L+ YA  +G+ ITL L + ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|14194686|sp|Q9PJB0.1|DNAA_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q9PJB0</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>4.12444e-14</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAWVAQALEAGKNAAY------IDAASMPLTDAAFE--------AEYLAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLV-IREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>IFVYGPTGLGKTHLLQAVGNASLEMGKKVIYATSENFINDFTSNLKNGSLDKFHEKYRNCDVLLIDDVQFLGKTDKIQEEFFFIFNEIKNND-GQIIMTSDNPPNMLKGITERLKSRFAHGIIADITPPQLDTKIAIIRKKCEFNDINLSNDIINYIATSLGDNIREIEGIIISLNAYATILGQEITLELAKSVMK</Hsp_hseq>
+      <Hsp_midline>I+V+G  G GK+HLLQA    +LE GK   Y      I+  +  L + + +         + L +D V+ LG  +  Q   F IFN  +N+  G +++ S+  P  L  I E L++R A+ ++ ++ P     KI  +        + + ++I  Y+      ++  +  ++ +L+ YA  +G+ ITL L + ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|172046981|sp|A8FJG5.1|DNAA_CAMJ8</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Campylobacter jejuni subsp. jejuni 81116]</Hit_def>
+  <Hit_accession>A8FJG5</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>5.54538e-14</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAWVAQALEAGKNAAY------IDAASMPLTDAAFE--------AEYLAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLV-IREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>IFIYGPTGLGKTHLLQAVGNASLEMGKKVIYATSENFINDFTSNLKNGSLDKFHEKYRNCDVLLIDDVQFLGKTDKIQEEFFFIFNEIKNND-GQIIMTSDNPPNMLKGITERLKSRFAHGIIADITPPQLDTKIAIIRKKCEFNDINLSNDIINYIATSLGDNIREIEGIIISLNAYATILGQEITLELAKSVMK</Hsp_hseq>
+      <Hsp_midline>I+++G  G GK+HLLQA    +LE GK   Y      I+  +  L + + +         + L +D V+ LG  +  Q   F IFN  +N+  G +++ S+  P  L  I E L++R A+ ++ ++ P     KI  +        + + ++I  Y+      ++  +  ++ +L+ YA  +G+ ITL L + ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|61212685|sp|Q7MSY2.1|DNAA_WOLSU</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Wolinella succinogenes DSM 1740]</Hit_def>
+  <Hit_accession>Q7MSY2</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>6.01541e-12</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>SFDKFLGTENAELVYVLQHK--------HDPFIYVWGEEGAGKSHLLQAWVAQALEAGKNAAYIDAASM--------------PLTDAAFEAEYLAVDQVEKLGNEEQAL--LFSIFNRFRNSGKGFLLLGSEYTPQQLV-IREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLKQQ</Hsp_qseq>
+      <Hsp_hseq>TFDSFVVGNSNRFAYEVSQNVAKKQGIAYNPLL-IYGGTGLGKTHLLNSIGNYNVAKGKSVIYVTSEQFLNDYLYHIRNNTMDRFRDKYRACDYLLIDDVQFFGGKPQIQEEFFHTFNELHNKNKQ-IVLTSDKTPKQIAGLEERLKSRFEWGMVSDIQPPELETKINIIKKKCEFDGIYLSNEIISYIATNMDNNIREIEGIIIKLNAYANLMNQEITLQFAKNVLKEQ</Hsp_hseq>
+      <Hsp_midline>+FD F+   +    Y +           ++P + ++G  G GK+HLL +     +  GK+  Y+ +                    D     +YL +D V+  G + Q     F  FN   N  K  ++L S+ TP+Q+  + E L++R  + +V +++P   + KI+ +        + + +EI  Y+  +   ++  +  ++  L+ YA  M + ITL   + +LK+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|152013510|sp|A0R7K1.1|DNAA_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium smegmatis str. MC2 155] &gt;gi|152013511|sp|P0C557.1|DNAA_MYCSM RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium smegmatis]</Hit_def>
+  <Hit_accession>A0R7K1</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>2.37476e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKASFKRSYRDIDILLVDDIQFIEGKEGIQEEFFHTFNTLHNSNKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMDRLDVPDDVLELIASSIERNIRELEGALIRVTAFASLNKTRIDRSLAEVVLR</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D   A+F+  Y     L VD ++ +  +E  Q   F  FN   NS K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L   L  +  +A     RI   L   +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|11132617|sp|Q9ZH76.1|DNAA_STRRE</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Streptomyces reticuli]</Hit_def>
+  <Hit_accession>Q9ZH76</Hit_accession>
+  <Hit_len>643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.19652e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYIDAASM------PLTDA---AFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFIYGESGLGKTHLLHAIGHYARSLYPGTRVRYVSSEEFTNEFINSIRDGKGDSFRKRYREMDILLVDDIQFLADKESTQEEFFHTFNTLHNANKQ-IVLSSDRPPKQLVTLEDRLRNRFEWGLITDVQPPELETRIAILRKKAVQEQLNAPPEVLEFIASRISRNIRELEGALIRVTAFASLNRQPVDLGLTEIVLK</Hsp_hseq>
+      <Hsp_midline>++++GE G GK+HLL A    A++L  G    Y+ +          + D    +F   Y     L VD ++ L ++E  Q   F  FN   N+ K  ++L S+  P+QLV  ED LR R  + L+ +V+P   + +I  L   A   Q+    E+ E++     R++  L   L  +  +A    + + L L   +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|38257424|sp|Q82FD8.1|DNAA_STRAW</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Streptomyces avermitilis MA-4680 = NBRC 14893]</Hit_def>
+  <Hit_accession>Q82FD8</Hit_accession>
+  <Hit_len>653</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.92664e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>350</Hsp_hit-from>
+      <Hsp_hit-to>546</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYI--------------DAASMPLTDAAFEAEYLAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFIYGESGLGKTHLLHAIGHYARSLYPGTRVRYVSSEEFTNEFINSIRDGKGDSFRKRYREMDILLVDDIQFLADKESTQEEFFHTFNTLHNANK-QIVLSSDRPPKQLVTLEDRLRNRFEWGLITDVQPPELETRIAILRKKAVQEQLNAPPEVLEFIASRISRNIRELEGALIRVTAFASLNRQPVDLGLTEIVLK</Hsp_hseq>
+      <Hsp_midline>++++GE G GK+HLL A    A++L  G    Y+              D           E + L VD ++ L ++E  Q   F  FN   N+ K  ++L S+  P+QLV  ED LR R  + L+ +V+P   + +I  L   A   Q+    E+ E++     R++  L   L  +  +A    + + L L   +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|118710|sp|P27902.1|DNAA_STRCO</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>P27902</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.15374e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYIDAASM------PLTDA---AFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFIYGESGLGKTHLLHAIGHYARSLYPGTRVRYVSSEEFTNEFINSIRDGKGDSFRKRYREMDILLVDDIQFLADKESTQEEFFHTFNTLHNANK-QIVLSSDRPPKQLVTLEDRLRNRFEWGLITDVQPPELETRIAILRKKAVQEQLNAPPEVLEFIASRISRNIRELEGALIRVTAFASLNRQPVDLGLTEIVLK</Hsp_hseq>
+      <Hsp_midline>++++GE G GK+HLL A    A++L  G    Y+ +          + D    +F   Y     L VD ++ L ++E  Q   F  FN   N+ K  ++L S+  P+QLV  ED LR R  + L+ +V+P   + +I  L   A   Q+    E+ E++     R++  L   L  +  +A    + + L L   +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|6226596|sp|P49990.2|DNAA_MYCAV</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium avium]</Hit_def>
+  <Hit_accession>P49990</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.70722e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYI--------------DAASMPLTDAAFEAEYLAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRFFPGMRVKYVSTEEFTNDFINSLRDDRKVPFKRTIRDVDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMERLAVPDDVLELIASSIERNIREL</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ    G    Y+              D   +P      + + L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|11132615|sp|Q9ZH75.1|DNAA_STRAQ</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Streptomyces anulatus]</Hit_def>
+  <Hit_accession>Q9ZH75</Hit_accession>
+  <Hit_len>624</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>8.37543e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYIDAASM------PLTDA---AFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFIYGESGLGKTHLLHAIGHYARSLYPGTRVRYVSSEEFTNEFINSIRDGKGDTFRKRYRDVDILLVDDIQFLASKESTQEEFFHTFNTLHNANKQ-IVLSSDRPPKQLVTLEDRLRNRFEWGLTTDVQPPELETRIAILRKKAVQEQLNAPPEVLEFIASRISRNIRELEGALIRVTAFASLNRQPVDLGLTEIVLK</Hsp_hseq>
+      <Hsp_midline>++++GE G GK+HLL A    A++L  G    Y+ +          + D     F   Y     L VD ++ L ++E  Q   F  FN   N+ K  ++L S+  P+QLV  ED LR R  + L  +V+P   + +I  L   A   Q+    E+ E++     R++  L   L  +  +A    + + L L   +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|14195657|sp|P46388.3|DNAA_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>P46388</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>8.82824e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRSYRDVDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMERLAVPGDVLELIASSIERNIREL</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|226735850|sp|B1VPF0.1|DNAA_STRGG</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Streptomyces griseus subsp. griseus NBRC 13350]</Hit_def>
+  <Hit_accession>B1VPF0</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.06114e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>319</Hsp_hit-from>
+      <Hsp_hit-to>515</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYIDAASM------PLTDA---AFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFIYGESGLGKTHLLHAIGHYARSLYPGTRVRYVSSEEFTNEFINSIRDGKGDTFRKRYRDVDILLVDDIQFLASKESTQEEFFHTFNTLHNANKQ-IVLSSDRPPKQLVTLEDRLRNRFEWGLTTDVQPPELETRIAILRKKAVQEQLNAPPEVLEFIASRISRNIRELEGALIRVTAFASLNRQPVDLGLTEIVLK</Hsp_hseq>
+      <Hsp_midline>++++GE G GK+HLL A    A++L  G    Y+ +          + D     F   Y     L VD ++ L ++E  Q   F  FN   N+ K  ++L S+  P+QLV  ED LR R  + L  +V+P   + +I  L   A   Q+    E+ E++     R++  L   L  +  +A    + + L L   +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|167016897|sp|A8EQT0.1|DNAA_ARCB4</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Arcobacter butzleri RM4018]</Hit_def>
+  <Hit_accession>A8EQT0</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.13629e-09</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>SFDKFLGTENAELVY--VLQHKHDPFI-----YVWGEEGAGKSHLLQAWVAQALEAGKNAAYIDAASMPLTDAAF---------------EAEYLAVDQVEKLGNEEQAL--LFSIFNRFRNSGKGFLLLGSEYTPQQLV-IREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLKQQ</Hsp_qseq>
+      <Hsp_hseq>TFDSFVVGPSNQMAYNASLAVANKPGIQYNPLFIYGGTGLGKTHLLQAVGNHAIEKGNTVIYVTIEQF-MNDFTFSIKNKNMEHFRNKYRKCDVLLIDDIQFLSGKEQTQEEFFHTFNELHNAKKQ-IVMTSDRLPSQIAGLVDRLKSRFEWGLTADVQIPGLETKIAIIEKKSELNGICLSREIINFIATNLDNSIREIEGVLIRINASASLLNQEITLPMVQGLLKEQ</Hsp_hseq>
+      <Hsp_midline>+FD F+   + ++ Y   L   + P I     +++G  G GK+HLLQA    A+E G    Y+      + D  F               + + L +D ++ L  +EQ     F  FN   N+ K  +++ S+  P Q+  + + L++R  + L  +V+    + KI  +   +    + +  EI  ++  +    +  +  +L  ++  A  + + ITLP+++ LLK+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|166214683|sp|A5TY69.1|DNAA_MYCTA</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium tuberculosis H37Ra] &gt;gi|618730355|sp|P9WNW2.1|DNAA_MYCTO RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium tuberculosis CDC1551] &gt;gi|618730356|sp|P9WNW3.1|DNAA_MYCTU RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>A5TY69</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.4337e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRSYRDVDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMERLAVPDDVLELIASSIERNIREL</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|254777908|sp|C1AIZ8.1|DNAA_MYCBT</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium bovis BCG str. Tokyo 172]</Hit_def>
+  <Hit_accession>C1AIZ8</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.54372e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRSYRDVDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMERLAVPDDVLELIASSIERNIREL</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|123179824|sp|Q1BG61.1|DNAA_MYCSS</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium sp. MCS] &gt;gi|166214681|sp|A3PSD7.1|DNAA_MYCSJ RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium sp. JLS] &gt;gi|166214682|sp|A1U8S0.1|DNAA_MYCSK RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium sp. KMS]</Hit_def>
+  <Hit_accession>Q1BG61</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.70554e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYA----VTMGKRITLPLLRQLLKQQET</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKASFKRSYRDIDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMDRLDVPDDVLELIASSIERNIRELEGALIRVTAFASLNKTPIDKSLAEIVLRDLISDAST</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D   A+F+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L   L  +  +A      + K +   +LR L+    T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|13431486|sp|Q9L7L7.1|DNAA_MYCPA</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium avium subsp. paratuberculosis K-10]</Hit_def>
+  <Hit_accession>Q9L7L7</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.82661e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRSYRDVDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMERLAVPDDVLELIASSIERNIREL</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|166214684|sp|A0PKB2.1|DNAA_MYCUA</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium ulcerans Agy99]</Hit_def>
+  <Hit_accession>A0PKB2</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.89717e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYA----VTMGKRITLPLLRQLLKQQET</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRSYRDVDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMERLAVPDDVLELIASSIERNIRELEGALIRVTAFASLNKTPIDKALAEIVLRDLIADADT</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L   L  +  +A      + K +   +LR L+   +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|226735828|sp|B2HI46.1|DNAA_MYCMM</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium marinum M]</Hit_def>
+  <Hit_accession>B2HI46</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>2.28293e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRSYRDVDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMERLAVPDDVLELIASSIERNIREL</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|32700077|sp|P49991.2|DNAA_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium bovis AF2122/97]</Hit_def>
+  <Hit_accession>P49991</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>2.54456e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRSYRDVDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMERLAIPDDVLELIASSIERNIREL</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ +  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|254777897|sp|C3PE72.1|DNAA_CORA7</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Corynebacterium aurimucosum ATCC 700975]</Hit_def>
+  <Hit_accession>C3PE72</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>2.88075e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITL</Hsp_qseq>
+      <Hsp_hseq>LFIWGGSGLGKTHLLHAAGNYAQVLHPGLRVKYVSSEEFTNDYINSLRDDRQESFKRRYRNLDILMVDDIQFLEGKESTQEEFFHTFNALHQANKQ-IILSSDRPPKQLTTLEDRLRTRFEGGLITDIQPPDLETRIAILMKKASADGTDVDRSVLELIASRFESSIRELEGALIRVSAYSSLVNEPISL</Hsp_hseq>
+      <Hsp_midline>+++WG  G GK+HLL A    AQ L  G    Y+ +          L D    +F+  Y     L VD ++ L  +E  Q   F  FN    + K  ++L S+  P+QL   ED LRTR    L+ +++P   + +I  L   A+A    VD  + E +   +   +  L   L  +  Y+  + + I+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|61212728|sp|Q7VH57.1|DNAA_HELHP</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Helicobacter hepaticus ATCC 51449]</Hit_def>
+  <Hit_accession>Q7VH57</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>3.31944e-09</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>SFDKFLGTENAELVY-----VLQHKHDPF--IYVWGEEGAGKSHLLQAWVAQALEAGKNAAYIDAASM--------------PLTDAAFEAEYLAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLV-IREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLKQQETQ</Hsp_qseq>
+      <Hsp_hseq>TFENFVVGKSNEYAYTIAKLVLQQQASAYNPVLLYGKSGLGKTHLLNAIGNDVKEKNKNVLYVTSEDFLNDYMDKIKRKTMDSFRDKYRKCDYLLIDDVQFFGGKEGIQEELLHTFNTLHNSQKQ-IVMTSDKPPKEIKGLEERLRTRFEWGAMAEITNPELETKIAIIKSKCEVNRIVLENEVIDYIASNIYGNIRQIEGILSTINAHINLSPESSSLKIAKNVLKNYQIE</Hsp_hseq>
+      <Hsp_midline>+F+ F+  ++ E  Y     VLQ +   +  + ++G+ G GK+HLL A      E  KN  Y+ +                    D   + +YL +D V+  G +E  Q  L   FN   NS K  +++ S+  P+++  + E LRTR  +  + E+     + KI  + +     ++ +++E+ +Y+  +   ++  +  +L T++ +     +  +L + + +LK  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|166214685|sp|A1T102.1|DNAA_MYCVP</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium vanbaalenii PYR-1]</Hit_def>
+  <Hit_accession>A1T102</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>3.81848e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYA----VTMGKRITLPLLRQLLKQQET</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRRASFKRTYRDIDVLLVDDIQFIEGKDGIQEEFFHTFNTLHNANKQ-IVISSDRPPKQLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMDRLDVPGDVLELIASRIERNIRELEGALIRVTAFASLNKTPIDKSLAEIVLRDLISDSST</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D   A+F+  Y     L VD ++ +  ++  Q   F  FN   N+ K  +++ S+  P+QL   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L   L  +  +A      + K +   +LR L+    T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|61212619|sp|Q6NKL7.1|DNAA_CORDI</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Corynebacterium diphtheriae NCTC 13129]</Hit_def>
+  <Hit_accession>Q6NKL7</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>8.96524e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASMPLTD-----------AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYL</Hsp_qseq>
+      <Hsp_hseq>LFIWGDSGLGKTHLMHAIGNYAQELDPKLKVKYV--SSEEFTNDYINSVRDDRQEAFKRRYRDLDILMVDDIQFLQGKEGTQEEFFHTFNALQQADKQ-IVLSSDRPPKQLTTLEDRLRTRFQSGLIADIYPPDLETRIAILLNKASAEGITADRDVLELI</Hsp_hseq>
+      <Hsp_midline>+++WG+ G GK+HL+ A    AQ L+      Y+  +S   T+            AF+  Y     L VD ++ L  +E  Q   F  FN  + + K  ++L S+  P+QL   ED LRTR    L+ ++ P   + +I  L N A+A  +T D ++ E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|226735827|sp|B1MDH6.1|DNAA_MYCA9</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Mycobacterium abscessus ATCC 19977]</Hit_def>
+  <Hit_accession>B1MDH6</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.02195e-08</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAW--VAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFIWGESGLGKTHLLHAAGNYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRRVAFKRSYRDIDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVISSDRPPKGLATLEDRLRTRFEWGLITDVQPPELETRIAILRKKAQMDRLDVPDDVLELIASRIERNIRELEGALIRVTAFASLNKSPIELSLAEIVLR</Hsp_hseq>
+      <Hsp_midline>+++WGE G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+ L   ED LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L   L  +  +A      I L L   +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|123144805|sp|Q0SAG7.1|DNAA_RHOSR</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Rhodococcus jostii RHA1]</Hit_def>
+  <Hit_accession>Q0SAG7</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.30377e-08</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQL-VIREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFVWGASGLGKTHLLHAAGHYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRRYRETDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVVSSDRPPKQLATLEERLRTRFEWGLITDVQPPELETRIAILSKKARMDRLEVPDDVLELIASRIERNIREL</Hsp_hseq>
+      <Hsp_midline>++VWG  G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL  + E LRTR  + L+ +V+P   + +I  L+  A   ++ V  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|254777911|sp|C1B7S7.1|DNAA_RHOOB</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Rhodococcus opacus B4]</Hit_def>
+  <Hit_accession>C1B7S7</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.52776e-08</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQL-VIREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFIWGASGLGKTHLLHAAGHYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRRYRETDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVVSSDRPPKQLATLEERLRTRFEWGLITDVQPPELETRIAILSKKARMDRLEVPDDVLELIASRIERNIREL</Hsp_hseq>
+      <Hsp_midline>+++WG  G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL  + E LRTR  + L+ +V+P   + +I  L+  A   ++ V  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|71151806|sp|Q5HJZ9.1|DNAA_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q5HJZ9</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.60138e-08</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAWVAQALEAGKNAAYIDAASMPLTDA-----------AFEAEY-----LAVDQVEKLGNEEQAL--LFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFIYGGVGLGKTHLMHAIGHHVLSNKPNAKVIYTSSEKFTNEFIKSIRDNETEAFREKYRKIDVLLIDDIQFIQNKEQTQEEFFHTFNELHQNNKQ-IVISSDRPPKEIAKLEDRLRSRFEWGLIVDITPPDYETRMAILQKKIEEENLDIPPEALNYIANQIQSNIRELEGALTRLLAYSKLQGKPITTELTAEALK</Hsp_hseq>
+      <Hsp_midline>++++G  G GK+HL+ A     L    NA  I  +S   T+            AF  +Y     L +D ++ + N+EQ     F  FN    + K  +++ S+  P+++   ED LR+R  + L+ ++ P   + ++  L        + +  E   Y+    + ++  L   L  L  Y+   GK IT  L  + LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|38257580|sp|Q8CQK7.1|DNAA_STAES</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CQK7</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.69398e-08</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQAWVAQALEAGKNAAYIDAASMPLTDA-----------AFEAEY-----LAVDQVEKLGNEEQAL--LFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFIYGGVGLGKTHLMHAIGHHVLSNKPNAKVIYTSSEKFTNEFIKSIRDNETEAFREKYRKIDVLLIDDIQFIQNKEQTQEEFFHTFNELHQNNKQ-IVISSDRPPKEIAKLEDRLRSRFEWGLIVDITPPDYETRMAILQKKIEEENLDIPPEALNYIANQIQSNIRELEGALTRLLAYSKLQGKPITTELTAEALK</Hsp_hseq>
+      <Hsp_midline>++++G  G GK+HL+ A     L    NA  I  +S   T+            AF  +Y     L +D ++ + N+EQ     F  FN    + K  +++ S+  P+++   ED LR+R  + L+ ++ P   + ++  L        + +  E   Y+    + ++  L   L  L  Y+   GK IT  L  + LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|61212513|sp|Q5Z3Z8.1|DNAA_NOCFA</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Nocardia farcinica IFM 10152]</Hit_def>
+  <Hit_accession>Q5Z3Z8</Hit_accession>
+  <Hit_len>662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>2.11237e-08</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>360</Hsp_hit-from>
+      <Hsp_hit-to>556</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQL-VIREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>LFVWGASGLGKTHLLHAAGHYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRRYRETDILLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVVSSDRPPKQLATLEERLRTRFEWGLITDVQPPELETRIAILRKKARMDRLDVPHDVLELIASRVERNIRELEGALIRVTAFASLNGQPLDLSLAEVVLR</Hsp_hseq>
+      <Hsp_midline>++VWG  G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL  + E LRTR  + L+ +V+P   + +I  L   A   ++ V  ++ E +     R++  L   L  +  +A   G+ + L L   +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|123774818|sp|Q47U23.1|DNAA_THEFY</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Thermobifida fusca YX]</Hit_def>
+  <Hit_accession>Q47U23</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>2.24899e-08</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYIDAASM------PLTDA---AFEAEY-----LAVDQVEKLGNEEQAL--LFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYL</Hsp_qseq>
+      <Hsp_hseq>LFVYGGSGLGKTHLLHAIGHYTQRLYEGARVRYVSSEEFTNEFINSIRDGKADGFRRRYRDIDVLLVDDIQFLENKEQTQEEFFHTFNTLHNSNKQ-IVISSDRPPKQLVTLEDRLRNRFEWGLITDVQPPELETRIAILRKKAAQEGLNAPPEVLEFI</Hsp_hseq>
+      <Hsp_midline>++V+G  G GK+HLL A     Q L  G    Y+ +          + D     F   Y     L VD ++ L N+EQ     F  FN   NS K  +++ S+  P+QLV  ED LR R  + L+ +V+P   + +I  L   AA   +    E+ E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|259645258|sp|C0ZLE1.1|DNAA_RHOE4</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Rhodococcus erythropolis PR4]</Hit_def>
+  <Hit_accession>C0ZLE1</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>3.23823e-08</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IYVWGEEGAGKSHLLQA--WVAQALEAGKNAAYIDAASM------PLTD---AAFEAEY-----LAVDQVEKLGNEE--QALLFSIFNRFRNSGKGFLLLGSEYTPQQL-VIREDLRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSL</Hsp_qseq>
+      <Hsp_hseq>LFIWGASGLGKTHLLHAAGHYAQRLFPGMRVKYVSTEEFTNDFINSLRDDRKVAFKRRYRETDVLLVDDIQFIEGKEGIQEEFFHTFNTLHNANKQ-IVVSSDRPPKQLATLEERLRTRFEWGLITDVQPPELETRIAILSKKARMDRLEVPHDVLELIASRIERNIREL</Hsp_hseq>
+      <Hsp_midline>+++WG  G GK+HLL A    AQ L  G    Y+            L D    AF+  Y     L VD ++ +  +E  Q   F  FN   N+ K  +++ S+  P+QL  + E LRTR  + L+ +V+P   + +I  L+  A   ++ V  ++ E +     R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|71151799|sp|Q5FUU1.1|DNAA_GLUOX</Hit_id>
+  <Hit_def>RecName: Full=Chromosomal replication initiator protein DnaA [Gluconobacter oxydans 621H]</Hit_def>
+  <Hit_accession>Q5FUU1</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>3.96584e-08</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>SFDKFLGTENAELVY-----VLQHKHDPF---IYVWGEEGAGKSHLLQAWVAQALEAGK-NAAYIDA--------------ASMPLTDAAFEAEYLAVDQVEKL--GNEEQALLFSIFNRFRNSGKGFLLLGSEYTPQQLVIRED-LRTRMAYCLVYEVKPLTDQEKIDALANMAAARQVTVDSEIFEYLLKHWRRDMDSLMMMLDTLDNYAVTMGKRITLPLLRQLLK</Hsp_qseq>
+      <Hsp_hseq>TFDTFIVGKPNEFAYACARRVAEKPSSPGFNPLFLYGGVGLGKTHLMHAIGTELTRTGKVSVAYMSAEKFMYRFIAAIRSQSTMEFKEQLRSVDVLMIDDLQFLIGKDNTQEEFFHTFNALVDAGRQ-IIVSADKSPSDLSGLEDRLRTRLGCGMVADIHATTFELRISILEAKAKASGTHVPSKVLEYLAHKITTNVRELEGALNRLIAHADLVGRPVTLDTTQDVLK</Hsp_hseq>
+      <Hsp_midline>+FD F+  +  E  Y     V +    P    ++++G  G GK+HL+ A   +    GK + AY+ A              ++M   +     + L +D ++ L   +  Q   F  FN   ++G+  +++ ++ +P  L   ED LRTR+   +V ++   T + +I  L   A A    V S++ EYL      ++  L   L+ L  +A  +G+ +TL   + +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

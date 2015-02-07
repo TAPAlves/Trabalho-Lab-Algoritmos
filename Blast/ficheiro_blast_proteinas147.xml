@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>3235</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>484</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>3235</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>484</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|259495067|sp|B9E9G9.1|LUTB_MACCJ</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Macrococcus caseolyticus JCSC5402]</Hit_def>
+  <Hit_accession>B9E9G9</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>2.31989e-114</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>ETFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAGEKP-THIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITE---QMQRLRVEAQR-SPT-ETVPHPIRGQGASHT</Hsp_qseq>
+      <Hsp_hseq>ETFKQAVKTELKDDFMRGAVSSAQDRLRERKLKTQEDLGNWEEWRDHSEEIRQHTLANLDYYLNMLSENVAAKGGHVFFAETAEEANQYVQKVLRDKNAKKVAKSKSMVTEEIGLNEAMEAVGCEVIETDLGEYILQVDDHNPPSHIVVPALHLNKEQIEKVFKEKLGYDKSSQPEELALFARQKLREEFLSADVGVTGCNFGVAESGSFSLVTNEGNARMVTTLPKTQITVMGMERLVPTHEELEVLVSMLTRSAVGQKLTSYVTTLTGPRAEDEIDGPEEFHLIIVDNGRSKILG-TQFQSILQCIRCAACVNVCPVYRQTGGHSYGSIYPGPIGAVLSPLLGGYDTYKELPYASTLCGACTEACPVKIPLHDLLLEHRRVIVEEEHMSPVAERLVMKGFAQGASHS</Hsp_hseq>
+      <Hsp_midline>ETFKQ     L+D  +R ++ +A D L  ++     D    +  RD  E IRQ +L+ L   L  L EN+   G  V +AET  EA Q +  ++  KN K + K KSMV+EEI LN  +EA G + +E+DLGE+I+Q+    P +HIV+PA+H  KEQ+ ++F + LG   +   ++L  FAR+ LR+ + +ADVG++G NF VAE+G+  LV NEGN R+ TT+P   I + G+E++V    ++  L S+L RSA+GQ +T+Y   +TGPR  +E+DGP+E HL+++DNGRS+     Q +  LQCIRC AC+N CPVY + GG +YG+ YPGPIG ++SP L G D  ++LP A T+CGAC E CPV+IP+ +   + +R+ VE +  SP  E +      QGASH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|259495062|sp|A8FDN5.1|LUTB_BACP2</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus pumilus SAFR-032]</Hit_def>
+  <Hit_accession>A8FDN5</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.517</Hsp_bit-score>
+      <Hsp_score>898</Hsp_score>
+      <Hsp_evalue>9.98526e-114</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>472</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>ETFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEEL---QSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR---VEAQ-RSP-TETVPHPIRGQGAS----HTFGEQMAWRTFNGIFSGSKTYRAFGWAATKFRNLTPRKQLGWTQNRVPMKPAKKTLHELMAEKMRQKEQ</Hsp_qseq>
+      <Hsp_hseq>KAFKERIGEGLEDTVMRGAVSSAQERLYERR---LSASEELGNWEKWRELGEEIRQHTLAHLDDYLYQLSESVSARGGHVFFAKTKEEASAYIQHVAQKKEAKKIVKSKSMVTEEIEMNQALEEIGCEVVESDLGEYILQVDDHEPPSHIVAPALHMTKEQIREVFHEKLGYEMSETPEDMTSFVRAILREKFLEADMGVTGCNFAVANTGSICLVTNEGNADLVTAIPKTHIAVMGMERMVPTMEELDVLVGLLCRSAVGQKLTSYISVV-GPKGEEEVDGPEEFHLVIVDNGRSNILG-TAFQPVLQCIRCAACINVCPVYRHVGGHSYGSIYPGPIGAVLSPLLGGYDDYQELPFASSLCAACTDACPVKIPLHELLIKHRQVIVEKEGRAPKAEMMAMKMFGMGASTPGMYQFGTKAAPLLMNRMASNGQISKGIG----------PLKN--WTDIRDLPAPSKERFRDWF--KKRQKEE</Hsp_hseq>
+      <Hsp_midline>+ FK+     L+D  +R ++ +A + L  +R   L+  EEL   +  R+L E IRQ +L+ L   L QL E+++  G  V +A+T  EA   I  +   K  K +VK KSMV+EEIE+N  LE  G + VESDLGE+I+Q+   E P+HIV PA+H TKEQ+ E+FH+ LG  +++  + +T F R  LR+ +  AD+G++G NFAVA TG++CLV NEGN  L T +P  HI + G+E++V  + ++  L  LL RSA+GQ +T+Y +++ GP+  EE+DGP+E HLV++DNGRS        +  LQCIRC AC+N CPVY  +GG +YG+ YPGPIG ++SP L G D  ++LP A ++C AC + CPV+IP+ E + + R   VE + R+P  E +   + G GAS    + FG + A    N + S  +  +  G          P K   WT  R    P+K+   +    K RQKE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2494447|sp|P77536.1|YKGF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized electron transport protein YkgF [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77536</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.977</Hsp_bit-score>
+      <Hsp_score>894</Hsp_score>
+      <Hsp_evalue>4.1981e-113</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAGEKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR</Hsp_qseq>
+      <Hsp_hseq>FKTRIRQQIEDPIMRKAVANAQQRIGANRQKMVDELGHWEEWRDRAAQIRDHVLSNLDAYLYQLSEKVTQNGGHVYFARTKEDATRYILQVAQRKNARKVVKSKSMVTEEIGVNHVLQDAGIQVIETDLGEYILQLDQDPPSHVVVPAIHKDRHQIRRVLHERLGYEGPETPEAMTLFIRQKIREDFLSAEIGITGCNFAVAETGSVCLVTNEGNARMCTTLPKTHIAVMGMERIAPTFAEVDVLITMLARSAVGARLTGYNTWLTGPREAGHVDGPEEFHLVIVDNGRSEVLAS-EFRDVLRCIRCGACMNTCPAYRHIGGHGYGSIYPGPIGAVISPLLGGYKDFKDLPYACSLCTACDNVCPVRIPLSKLILRHR</Hsp_hseq>
+      <Hsp_midline>FK      ++D  +RK++  A   +   R+ ++ +    +  RD    IR   LS L A L QL E +T+ G  V++A T  +A + I  +   KN + +VK KSMV+EEI +NH L+  GI+ +E+DLGE+I+Q+  + P+H+V+PAIHK + Q+  + H+ LG    +  + +T F R+ +R+ + +A++G++G NFAVAETG++CLV NEGN R+ TT+P  HI + G+E++    ++V  L ++L RSA+G  +T Y   +TGPR +  +DGP+E HLV++DNGRS+  A  + R  L+CIRCGACMN CP Y  IGG  YG+ YPGPIG +ISP L G    +DLP AC++C AC  VCPVRIP+++ + R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81555738|sp|O07021.2|LUTB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O07021</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.821</Hsp_bit-score>
+      <Hsp_score>891</Hsp_score>
+      <Hsp_evalue>1.29982e-112</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>ETFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR---VEAQ-RSPTETVPHPIRGQGASHTFGEQMAWRTFNGIFSGSKTYRAFG--WAATKFRNLTPRKQL--------GWTQNRVPMKPAKKTLHELMAEK</Hsp_qseq>
+      <Hsp_hseq>DAFKERVSQGIDNEFMRGAVSGAQERLRTRRLEAAEELGNWEEWRSLSEEIRQHVLENLDFYLGQLAENVAKRGGHVYFAKTAEEASSYIRDVIQKKNGKKIVKSKSMVTEEINLNEVLEKEGCEVVETDLGEYILQIDDHDPPSHIVAPALHKNKEQIRDVFKERLDYQHTEKPEELVMHARAILRKKFLEADIGITGCNFAIADTGSVSLVTNEGNGRLVSTLPKTQITVMGMERIVPSFSEFEVLVSMLTRSAVGQRLTSYITALTGPKLEGEVDGPEEFHLVIVDNGRSNILG-TEFQSVLQCIRCAACINVCPVYRHVGGHSYGSIYSGPIGAVLSPLLGGYDDYKELPYASSLCAACSEACPVKIPLHELLLKHRQNIVEKEGRAP----------------ISEKLAMKAF-GLGASSLSLYKMGSKWAPAAMTPFTEDEKISKGPGPLKNWTQIRDFPAPHKSRFRDWFADR</Hsp_hseq>
+      <Hsp_midline>+ FK+  +  + ++ +R ++  A + L T+R     +    +  R L E IRQ  L  L   L QL EN+ K G  V++A+T  EA   I D+I  KNGK +VK KSMV+EEI LN  LE +G + VE+DLGE+I+Q+   + P+HIV PA+HK KEQ+ ++F + L    T+  ++L   AR  LR  +  AD+G++G NFA+A+TG++ LV NEGNGRL +T+P   I + G+E++V   S+   L S+L RSA+GQ +T+Y   +TGP+   E+DGP+E HLV++DNGRS      + +  LQCIRC AC+N CPVY  +GG +YG+ Y GPIG ++SP L G D  ++LP A ++C AC E CPV+IP+ E + + R   VE + R+P                  E++A + F G+ + S +    G  WA       T  +++         WTQ R    P K    +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|259495064|sp|C5D586.1|LUTB_GEOSW</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Geobacillus sp. WCH70]</Hit_def>
+  <Hit_accession>C5D586</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>3.58721e-111</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>TFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLRV-----EAQRSPTETVPHPIRGQGASHTF</Hsp_qseq>
+      <Hsp_hseq>NFHERVETNLHNTFMRGAVAGAQERLHTRRLEAAEELGNWEEWRALGEEIRQHTLENLDYYLMQLSENVAKRGGHVFFAQTAEEANNYIRNVVIQKNAKKIVKSKSMVTEEINLNAVLEAAGCEVIETDLGEYILQVDDHDPPSHIVAPALHKNKEQIRDVFRQKLGYKQTEKPEELALHARKMLRHEYLTADIGITGCNFAIAESGSITLVTNEGNADLVTALPKTQITVMGMERIVPTFEEMEVLVSLLTRSAVGQKLTSYITVLTGPRDEGDVDGPEEFHLVIVDNGRSNILG-TEFQPVLQCIRCAACVNVCPVYRHIGGHSYGSIYSGPIGAVLSPLLGGYDDYKELPYASSLCAACTEACPVKIPLHELLLKHRQVIVEREGKAPISEKLAMKAFGLGASSSF</Hsp_hseq>
+      <Hsp_midline> F +    +L +  +R ++  A + L T+R     +    +  R L E IRQ +L  L   L QL EN+ K G  V +A+T  EA   I +++  KN K +VK KSMV+EEI LN  LEA G + +E+DLGE+I+Q+   + P+HIV PA+HK KEQ+ ++F Q LG   T+  ++L   ARK LR  Y TAD+G++G NFA+AE+G++ LV NEGN  L T +P   I + G+E++V    ++  L SLL RSA+GQ +T+Y  ++TGPR   ++DGP+E HLV++DNGRS      + +  LQCIRC AC+N CPVY  IGG +YG+ Y GPIG ++SP L G D  ++LP A ++C AC E CPV+IP+ E + + R      E +   +E +     G GAS +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|259495208|sp|A7Z901.2|LUTB_BACA2</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus amyloliquefaciens subsp. plantarum str. FZB42]</Hit_def>
+  <Hit_accession>A7Z901</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>1.20438e-110</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>TFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLRVEAQRSPTETVPHPIRGQGASHTFGEQMAWRTFNGIFSGSKTYRAFG--WAATKFRNLTPRKQLG--------WTQNRVPMKPAKKTLHELMAEKMRQK</Hsp_qseq>
+      <Hsp_hseq>AFKERVSEGIDNEFMRGAVSGAQERLRTRRLQAAEELGNWEDWRSHAEEIRQHVLDNLDFYLEQLAENVANRGGHVFFAETAEEASSYIRDVIRQKNAKKIVKSKSMVTEEINMNEVLEEEGCEVTETDLGEYILQIDDHDPPSHIVAPALHKNKEQIRDVFKERLEYKQTEKPEELVMHARSVLRKKFLEADVGITGCNFAIADTGSVSLVTNEGNGRLVSALPKTQITVMGMERIVPSFSEFEVLVSMLTRSAVGQRLTSYITALTGPRQQGEADGPEEFHLVVVDNGRSRILG-TEFQSVLQCIRCAACINVCPVYRHVGGHSYGSIYSGPIGAVLSPLLGGYDEYKELPYASSLCAACTEACPVKIPLHELLLKHR---QNIVEKEGKAPI---------SEKLAMKAF-GLGSSSPSLYKMGSKWAPAAMTPFTEDDKISKGPGPLKEWTAIRDFPAPHKSRFRDWFKDREKQK</Hsp_hseq>
+      <Hsp_midline> FK+  +  + ++ +R ++  A + L T+R     +    +  R   E IRQ  L  L   LEQL EN+   G  V +AET  EA   I D+I  KN K +VK KSMV+EEI +N  LE +G +  E+DLGE+I+Q+   + P+HIV PA+HK KEQ+ ++F + L    T+  ++L   AR  LR  +  ADVG++G NFA+A+TG++ LV NEGNGRL + +P   I + G+E++V   S+   L S+L RSA+GQ +T+Y   +TGPR+  E DGP+E HLV++DNGRS+     + +  LQCIRC AC+N CPVY  +GG +YG+ Y GPIG ++SP L G D  ++LP A ++C AC E CPV+IP+ E + + R   Q    +    PI          E++A + F G+ S S +    G  WA       T   ++         WT  R    P K    +   ++ +QK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|259495060|sp|A7GMJ3.1|LUTB_BACCN</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus cytotoxicus NVH 391-98]</Hit_def>
+  <Hit_accession>A7GMJ3</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>2.21308e-110</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>471</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAGEKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR---VEAQ-RSP-TETVPHPIRGQGAS----HTFGEQMAWRTFNGIFSGSKTYRAFGWAATKFRNLTPRKQLGWTQNRVPMKPAKKTLHELMAE</Hsp_qseq>
+      <Hsp_hseq>FNDRVGDGIQDSFMRGAVTSAQTRLYTNRLKAADELGNWEEWRELGEQIRQHTLENLDYYLMQLSENVSKRGGNVFFAKTKEEAANYIQEVAKKKNAKKVVKSKSMVTEEISMNHALEEIGCEVVESDLGEYILQVDNDPPSHIVAPALHKNKTQIRDVFKEKLGYENSDDPYEMTKFVRKHLRKKFMDAEIGITGCNFAVANTGSLCLVTNEGNADLVMSIPKTQIAVMGMERMVPTMEELDVLVGLLCRSAVGQKLTSYVT-VAGPIQEEEIDGPEEFHLVIVDNGRSEILG-SEFRQVLQCIRCAACINVCPVYRHVGGHSYGSIYPGPIGAVLSPLLGGYDDYKELPYASSLCGACTEACPVKIPLHDLLLKHRQVIVEKEGRAPLAEKLAMKMFSMGASSAALYKIGSKMAPVALSPFTSGNRVTKGVG----------PLKN--WTEIREFPAPSKERFRDWYKE</Hsp_hseq>
+      <Hsp_midline>F       +QD  +R ++ +A   L T R     +    +  R+L E IRQ +L  L   L QL EN++K G  V +A+T  EA   I ++   KN K +VK KSMV+EEI +NH LE  G + VESDLGE+I+Q+  + P+HIV PA+HK K Q+ ++F + LG   +DD  ++T F RK LR  +  A++G++G NFAVA TG+LCLV NEGN  L  ++P   I + G+E++V  + ++  L  LL RSA+GQ +T+Y   + GP + EE+DGP+E HLV++DNGRS+     + R+ LQCIRC AC+N CPVY  +GG +YG+ YPGPIG ++SP L G D  ++LP A ++CGAC E CPV+IP+ + + + R   VE + R+P  E +   +   GAS    +  G +MA    +   SG++  +  G          P K   WT+ R    P+K+   +   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81601010|sp|Q5WJE0.1|LUTB_BACSK</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>Q5WJE0</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.502</Hsp_bit-score>
+      <Hsp_score>872</Hsp_score>
+      <Hsp_evalue>8.98994e-110</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQM---QRLRVEAQRSP-TETVPHPIRGQGASHTFGEQMAWRTFNGIFSGSKT--YRAFGWAATKFRNLTPRKQLGWTQNRVPMKPAKKTLHELMAEKMRQKEQA</Hsp_qseq>
+      <Hsp_hseq>FSKRVEKGLQDGFMRQAVSSAQERLKTSKGSAEKELGNWEEWRTLAEEIRSHTLNHIDFYLHQLSENVEKAGGHVYFAQTAEEANQYIKEIVSSKEAQKVVKSKSMVTEEISMNKALEDIGCEVIETDLGEYILQIDDHDPPSHIVAPALHKNKEQIRDTFKARKGYTKSENPQELTLFAREQLRKEFLSADVGITGCNFAVAESGSISLVTNEGNARLATALPKTHIAVMGMERIVPTWEELDILVSMLCRSAVGQKLTSYVTGLTGPREDGDADGPEEFHLVIVDNGRSNILG-TEFQAALHCIRCAACINVCPVYRHVGGHSYGSIYPGPIGAVLTPLLEGYEDHKELPYASSLCAACTDACPVKIPLHELLIKHRRVIAEQKRTARTEALAMKGFGIGAS----SPMLYK------AGTKVVPFLLFPFVKDGAIPKGPGPLKGWTDVRHLPAPAKERFRDWF--KARQKEGA</Hsp_hseq>
+      <Hsp_midline>F +     LQD  +R+++ +A + L T + +   +    +  R L E IR  +L+ +   L QL EN+ K G  V++A+T  EA Q I +I+++K  + +VK KSMV+EEI +N  LE  G + +E+DLGE+I+Q+   + P+HIV PA+HK KEQ+ + F    G   +++  +LT FAR+ LR  + +ADVG++G NFAVAE+G++ LV NEGN RL+T +P  HI + G+E++V    ++  L S+L RSA+GQ +T+Y   +TGPR   + DGP+E HLV++DNGRS      + +  L CIRC AC+N CPVY  +GG +YG+ YPGPIG +++P L G +  ++LP A ++C AC + CPV+IP+ E +   +R+  E +R+  TE +     G GAS      M ++      +G+K   +  F +         P    GWT  R    PAK+   +    K RQKE A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81569853|sp|Q73BK1.1|LUTB_BACC1</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus cereus ATCC 10987] &gt;gi|81613899|sp|Q6HLP1.1|LUTB_BACHK RecName: Full=Lactate utilization protein B [Bacillus thuringiensis serovar konkukian str. 97-27] &gt;gi|81688879|sp|Q63E66.1|LUTB_BACCZ RecName: Full=Lactate utilization protein B [Bacillus cereus E33L] &gt;gi|81715349|sp|Q81TG1.1|LUTB_BACAN RecName: Full=Lactate utilization protein B [Bacillus anthracis] &gt;gi|259495052|sp|C3P4C4.1|LUTB_BACAA RecName: Full=Lactate utilization protein B [Bacillus anthracis str. A0248] &gt;gi|259495053|sp|C3LAQ3.1|LUTB_BACAC RecName: Full=Lactate utilization protein B [Bacillus anthracis str. CDC 684] &gt;gi|259495054|sp|A0RBC8.1|LUTB_BACAH RecName: Full=Lactate utilization protein B [Bacillus thuringiensis str. Al Hakam] &gt;gi|259495057|sp|C1EM11.1|LUTB_BACC3 RecName: Full=Lactate utilization protein B [Bacillus cereus 03BB102] &gt;gi|259495059|sp|B7I0L0.1|LUTB_BACC7 RecName: Full=Lactate utilization protein B [Bacillus cereus AH187] &gt;gi|259495061|sp|B9IUP4.1|LUTB_BACCQ RecName: Full=Lactate utilization protein B [Bacillus cereus Q1]</Hit_def>
+  <Hit_accession>Q73BK1</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>5.03236e-109</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>472</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>467</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAGEKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR---VEAQ-RSP-TETVPHPIRGQGAS----HTFGEQMAWRTFNGIFSGSKTYRAFGWAATKFRNLTPRKQLGWTQNRVPMKPAKKTLHE</Hsp_qseq>
+      <Hsp_hseq>FNDRVGDGIQDSFMRGAVSSAQTRLYTNRLKAADELGNWEEWRELGEEIRQHTLENLDYYLMQLSENVSKRGGHVYFAKTKEEAAKYIQDVAKKKQAKKVVKSKSMVTEEISMNHALEEIGCEVLESDLGEYILQVDNDPPSHIIAPALHKNRTQIRDVFKEKLGYENSDDPYEMTKFVRKQLREKFMDAEIGVTGCNFAVANTGSLCLVTNEGNADLVMSIPKTQIAVMGMERMVPTMEELDVLVGLLCRSAVGQKLTSYVT-VAGPIQEEEVDGPEEFHLVVVDNGRSQILG-SEFRQVLQCIRCAACVNVCPVYRHVGGHSYGSIYSGPIGAVLTPLLGGYDDYKELPYASSLCGACTEACPVKIPLHDLLLKHRQVIVEQEGRAPLAEKLAMKMFSMGASSAALYKMGSKMAPAAMSPFTSGNRVSKGVG----------PLKN--WTDIREFPAPSKERFRD</Hsp_hseq>
+      <Hsp_midline>F       +QD  +R ++ +A   L T R     +    +  R+L E IRQ +L  L   L QL EN++K G  V++A+T  EA + I D+   K  K +VK KSMV+EEI +NH LE  G + +ESDLGE+I+Q+  + P+HI+ PA+HK + Q+ ++F + LG   +DD  ++T F RK LR+ +  A++G++G NFAVA TG+LCLV NEGN  L  ++P   I + G+E++V  + ++  L  LL RSA+GQ +T+Y   + GP + EE+DGP+E HLV++DNGRSQ     + R+ LQCIRC AC+N CPVY  +GG +YG+ Y GPIG +++P L G D  ++LP A ++CGAC E CPV+IP+ + + + R   VE + R+P  E +   +   GAS    +  G +MA    +   SG++  +  G          P K   WT  R    P+K+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81580737|sp|Q81GA4.1|LUTB_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus cereus ATCC 14579] &gt;gi|259495056|sp|B7IMD4.1|LUTB_BACC2 RecName: Full=Lactate utilization protein B [Bacillus cereus G9842] &gt;gi|259495058|sp|B7HH59.1|LUTB_BACC4 RecName: Full=Lactate utilization protein B [Bacillus cereus B4264]</Hit_def>
+  <Hit_accession>Q81GA4</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.191</Hsp_bit-score>
+      <Hsp_score>866</Hsp_score>
+      <Hsp_evalue>6.72395e-109</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>472</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>467</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAGEKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR---VEAQ-RSP-TETVPHPIRGQGAS----HTFGEQMAWRTFNGIFSGSKTYRAFGWAATKFRNLTPRKQLGWTQNRVPMKPAKKTLHE</Hsp_qseq>
+      <Hsp_hseq>FNDRVGDGIQDSFMRGAVSSAQTRLYTNRLKAADELGNWEEWRELGEQIRQHTLENLDYYLMQLSENVSKRGGHVYFAKTKEEAAKYIQDVAKKKQAKKVVKSKSMVTEEISMNHALEEIGCEVLESDLGEYILQVDNDPPSHIIAPALHKNRTQIRDVFKEKLGYENSDDPYEMTKFVRKQLREKFMDAEIGVTGCNFAVANTGSLCLVTNEGNADLVMSIPKTQIAVMGMERMVPTMEELDVLVGLLCRSAVGQKLTSYVT-VAGPIQEEEVDGPEEFHLVVVDNGRSQILG-SEFRSVLQCIRCAACVNVCPVYRHVGGHSYGSIYSGPIGAVLTPLLGGYDDYKELPYASSLCGACTEACPVKIPLHDLLLKHRQVIVEQEGRAPLAEKLAMKMFSMGASSAALYKMGSKMAPAAMSPFTSGNRVSKGVG----------PLKN--WTDIREFPAPSKERFRD</Hsp_hseq>
+      <Hsp_midline>F       +QD  +R ++ +A   L T R     +    +  R+L E IRQ +L  L   L QL EN++K G  V++A+T  EA + I D+   K  K +VK KSMV+EEI +NH LE  G + +ESDLGE+I+Q+  + P+HI+ PA+HK + Q+ ++F + LG   +DD  ++T F RK LR+ +  A++G++G NFAVA TG+LCLV NEGN  L  ++P   I + G+E++V  + ++  L  LL RSA+GQ +T+Y   + GP + EE+DGP+E HLV++DNGRSQ     + R  LQCIRC AC+N CPVY  +GG +YG+ Y GPIG +++P L G D  ++LP A ++CGAC E CPV+IP+ + + + R   VE + R+P  E +   +   GAS    +  G +MA    +   SG++  +  G          P K   WT  R    P+K+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259495163|sp|A9VKN1.1|LUTB2_BACWK</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B 2 [Bacillus weihenstephanensis KBAB4]</Hit_def>
+  <Hit_accession>A9VKN1</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>3.18719e-108</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAGEKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR---VEAQ-RSP-TETVPHPIRGQGAS----HTFGEQMAWRTFNGIFSGSKTYRAFG</Hsp_qseq>
+      <Hsp_hseq>FNDRVGDGIQDSFMRGAVSSAQTRLYTNRLKAADELGNWEEWRELGEQIRQHTLENLDYYLMQLSENVSKRGGHVYFAKTKEDAAKYIQDVAKKKQAKKVVKSKSMVTEEISMNHALEEIGCEVLESDLGEYILQVDNDPPSHIIAPALHKNRTQIRDVFKEKLGYENSDDPYEMTKFVRKQLREKFMDAEIGVTGCNFAVANTGSLCLVTNEGNADLVMSIPKTQIAVMGMERMVPTMEELDVLVGLLCRSAVGQKLTSYVT-VAGPIQEEEVDGPEEFHLVVVDNGRSQILG-SEFRSILQCIRCAACVNVCPVYRHVGGHSYGSIYSGPIGAVLTPLLGGYDDYKELPYASSLCGACTEACPVKIPLHDLLLKHRQVIVEQEGRAPLAEKLAMKMFSMGASSAALYKMGSKMAPAAMSPFTSGNRVSKGVG</Hsp_hseq>
+      <Hsp_midline>F       +QD  +R ++ +A   L T R     +    +  R+L E IRQ +L  L   L QL EN++K G  V++A+T  +A + I D+   K  K +VK KSMV+EEI +NH LE  G + +ESDLGE+I+Q+  + P+HI+ PA+HK + Q+ ++F + LG   +DD  ++T F RK LR+ +  A++G++G NFAVA TG+LCLV NEGN  L  ++P   I + G+E++V  + ++  L  LL RSA+GQ +T+Y   + GP + EE+DGP+E HLV++DNGRSQ     + R  LQCIRC AC+N CPVY  +GG +YG+ Y GPIG +++P L G D  ++LP A ++CGAC E CPV+IP+ + + + R   VE + R+P  E +   +   GAS    +  G +MA    +   SG++  +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|259495055|sp|B7JF01.1|LUTB_BACC0</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus cereus AH820]</Hit_def>
+  <Hit_accession>B7JF01</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.88</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>5.45002e-108</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAGEKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR---VEAQ-RSP-TETVPHPIRGQGAS----HTFGEQMAWRTFNGIFSGSKTYRAFG</Hsp_qseq>
+      <Hsp_hseq>FNDRVGDGIQDSFMRGAVSSAQTRLYTNRLKAADELGNWEEWRELGEEIRQHTLENLDYYLMQLSENVSKRGGHVYFAKTKEEAAKYIQDVAKKKQAKKVVKSKSMVTEEISMNHALEEIGCEVLESDLGEYILQVDNDPPSHIIAPALHKNRTQIRNVFKEKLGYENSDDPYEMTKFVRKQLREKFMDAEIGVTGCNFAVANTGSLCLVTNEGNADLVMSIPKTQIAVMGMERMVPTMEELDVLVGLLCRSAVGQKLTSYVT-VAGPIQEEEVDGPEEFHLVVVDNGRSQILG-SEFRQVLQCIRCAACVNVCPVYRHVGGHSYGSIYSGPIGAVLTPLLGGYNDYKELPYASSLCGACTEACPVKIPLHDLLLKHRQVIVEQEGRAPLAEKLAMKMFSMGASSAALYKMGSKMAPAAMSPFTSGNRVSKGVG</Hsp_hseq>
+      <Hsp_midline>F       +QD  +R ++ +A   L T R     +    +  R+L E IRQ +L  L   L QL EN++K G  V++A+T  EA + I D+   K  K +VK KSMV+EEI +NH LE  G + +ESDLGE+I+Q+  + P+HI+ PA+HK + Q+  +F + LG   +DD  ++T F RK LR+ +  A++G++G NFAVA TG+LCLV NEGN  L  ++P   I + G+E++V  + ++  L  LL RSA+GQ +T+Y   + GP + EE+DGP+E HLV++DNGRSQ     + R+ LQCIRC AC+N CPVY  +GG +YG+ Y GPIG +++P L G +  ++LP A ++CGAC E CPV+IP+ + + + R   VE + R+P  E +   +   GAS    +  G +MA    +   SG++  +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|259495065|sp|A4IK95.1|LUTB_GEOTN</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Geobacillus thermodenitrificans NG80-2]</Hit_def>
+  <Hit_accession>A4IK95</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.183</Hsp_bit-score>
+      <Hsp_score>853</Hsp_score>
+      <Hsp_evalue>6.8706e-107</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR</Hsp_qseq>
+      <Hsp_hseq>FWKRVEENLQNDFMRGAVAGMQDRGYVRRLGVIEELGHWEEWRSLAEQIRKHTLENLDYYLMQLSENVAKRGGHVFFAQTAEEANDYIRRIALEKQAKKIVKSKSMVTEEINLNPVLEAIGCDVVETDLGEYILQIDDHDPPSHIVGPALHKNKEQIRDVFHRKLGYNKSSDPVELARHARETLRRDYLTADIGITGCNFAIAESGSITLVTNEGNADLVTSLPKTQITVMGMERIVPTFKEMEVLVSMLTRSAVGQKLTSYITVLTGPREQGDADGPEEFHLVIVDNGRSSILG-TEFQPVLQCIRCAACVNVCPVYRHIGGHSYGSIYSGPIGAVLSPLLGGYDDYKELPYASSLCAACTEVCPVKIPLHELLIKHR</Hsp_hseq>
+      <Hsp_midline>F +    +LQ+  +R ++    D    +R  V+ +    +  R L E IR+ +L  L   L QL EN+ K G  V +A+T  EA   I  I   K  K +VK KSMV+EEI LN  LEA G   VE+DLGE+I+Q+   + P+HIV PA+HK KEQ+ ++FH+ LG   + D  +L   AR+ LR  Y TAD+G++G NFA+AE+G++ LV NEGN  L T++P   I + G+E++V    ++  L S+L RSA+GQ +T+Y  ++TGPR   + DGP+E HLV++DNGRS      + +  LQCIRC AC+N CPVY  IGG +YG+ Y GPIG ++SP L G D  ++LP A ++C AC EVCPV+IP+ E + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|259495164|sp|B7GLD5.1|LUTB_ANOFW</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Anoxybacillus flavithermus WK1]</Hit_def>
+  <Hit_accession>B7GLD5</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.643</Hsp_bit-score>
+      <Hsp_score>849</Hsp_score>
+      <Hsp_evalue>2.00791e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>MTTQTIKFHMKPETFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR</Hsp_qseq>
+      <Hsp_hseq>MKINTGEFHERVEK-------GIHNTFMRGAVAGAQERLRTRRLEAAQELGNWEEWRALGEEIRQHTLENLDYYLMQLSENVKKRGGHVFFAQTAEEANDYICRVVASKQAKKIVKSKSMVTEEIHMNAALEKLGCEVIETDLGEYILQVDDHDPPSHIVAPALHKNKEQIRDVFQQKLAYTKTEKPEELALHARAMLRQQYLTADVGITGCNFAVAESGSITLVTNEGNADLVTALPKTQITVMGMERIVPTFEEMEVLVSLLTRSAVGQKLTSYITVLTGPREEGEVDGPEEFHLVIVDNGRSDILG-TEFQPVLQCIRCAACVNVCPVYRHIGGHSYGSIYSGPIGAVLSPLLGGYDDYKELPYASTLCAACTEACPVKIPLHELLLKHR</Hsp_hseq>
+      <Hsp_midline>M   T +FH + E         + +  +R ++  A + L T+R     +    +  R L E IRQ +L  L   L QL EN+ K G  V +A+T  EA   I  ++ +K  K +VK KSMV+EEI +N  LE  G + +E+DLGE+I+Q+   + P+HIV PA+HK KEQ+ ++F Q L    T+  ++L   AR  LR  Y TADVG++G NFAVAE+G++ LV NEGN  L T +P   I + G+E++V    ++  L SLL RSA+GQ +T+Y  ++TGPR   E+DGP+E HLV++DNGRS      + +  LQCIRC AC+N CPVY  IGG +YG+ Y GPIG ++SP L G D  ++LP A T+C AC E CPV+IP+ E + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|81608908|sp|Q65EM0.1|LUTB_BACLD</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q65EM0</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.257</Hsp_bit-score>
+      <Hsp_score>848</Hsp_score>
+      <Hsp_evalue>3.53367e-106</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>481</Hsp_align-len>
+      <Hsp_qseq>ETFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLRVEAQRSPTETVPHPIRGQGASHTFGEQMAWRTFNGIFSGSKTYR-AFGWAATKFRNLT----------PRKQLGWTQNRVPMKPAKKTLHELMAEKMRQK</Hsp_qseq>
+      <Hsp_hseq>QKFKERVSDGLDNEFMRGAVSSAQERLRARRLEAAKELGNWEEWRSLAEEIRQHVLENLDYYLEQLAENVAKKGGHVFFAQTAEEATGYIRDVVKKKNGKKIVKSKSMVTEEINMNEALESDGCEVVETDLGEYILQIDDHDPPSHIVAPALHKNKEQIRDVFKERIGYRNTEKPEELVMHARAVLRKKFLEADIGITGCNFAIADTGSVSLVTNEGNGRLVTTIPKTQITVMGMERIVPSFDEFEVLVGMLTRSAVGQRLTSYITALTGPRLPGEADGPEEFHLVIVDNGRSNILG-TEFQSVLQCIRCAACINVCPVYRHVGGHSYGSIYSGPIGAVLSPLLGGYDDYKELPYASSLCAACSEACPVKIPLHELLLKHR---QRIVEKEGRAPI---------SEKLAMKAFGLGTSAPSLYKMGSKWAPAAMKPFKEDGKITKGPGPLKQ--WTQIRDFPAPNKSRFRDWFEDRRKEK</Hsp_hseq>
+      <Hsp_midline>+ FK+  +  L ++ +R ++ +A + L  +R     +    +  R L E IRQ  L  L   LEQL EN+ K G  V +A+T  EA   I D++  KNGK +VK KSMV+EEI +N  LE+ G + VE+DLGE+I+Q+   + P+HIV PA+HK KEQ+ ++F + +G   T+  ++L   AR  LR  +  AD+G++G NFA+A+TG++ LV NEGNGRL TT+P   I + G+E++V    +   L  +L RSA+GQ +T+Y   +TGPR   E DGP+E HLV++DNGRS      + +  LQCIRC AC+N CPVY  +GG +YG+ Y GPIG ++SP L G D  ++LP A ++C AC E CPV+IP+ E + + R   QR   +    PI          E++A + F    S    Y+    WA    +             P KQ  WTQ R    P K    +   ++ ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|259495063|sp|C4L0S1.1|LUTB_EXISA</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Exiguobacterium sp. AT1b]</Hit_def>
+  <Hit_accession>C4L0S1</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>8.19971e-105</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>ETFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAGEKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITE---QMQRLRVEAQR</Hsp_qseq>
+      <Hsp_hseq>EKFQDRRKDGIEDAFMRQAVSSAQNRLRDGRLNAAGELGDWEAFRDHSEEIRQHVLEHLDYYLYQLSENVSKRGGSVFFAETPEEANRYIREVIRSKQAKHVVKSKSMVTEEIGLNEALQEEGCTVVESDLGEWILQLDEDPPSHIVAPALHKDRNAVHETFTAH-GYTGSNDPTELGRYARQELRKDFLKAEVGITGCNFAIAESGAVGLVTNEGNGRMVTSLPDTVISVMGMERVVPSYEEFEVLVNMLCRSAVGQRLTSYITTFAGTRAVGEVDGPEEFHLVIVDNKRSNILG-TQFQSVLQCIRCAACINVCPVYRHIGGHAYGSIYPGPIGAVLAPLLDGYENYKELPYASSLCGACTEACPVKIPLHELLIEHRRVIVEEKK</Hsp_hseq>
+      <Hsp_midline>E F+      ++D  +R+++ +A + L   R     +  + ++ RD  E IRQ  L  L   L QL EN++K G  V +AETP EA + I ++I +K  K +VK KSMV+EEI LN  L+ +G   VESDLGE+I+Q+  + P+HIV PA+HK +  V E F  + G   ++D  +L  +AR+ LR  +  A+VG++G NFA+AE+G + LV NEGNGR+ T++P   I + G+E+VV    +   L ++L RSA+GQ +T+Y     G R   E+DGP+E HLV++DN RS      Q +  LQCIRC AC+N CPVY  IGG AYG+ YPGPIG +++P L G +  ++LP A ++CGAC E CPV+IP+ E   + +R+ VE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81558091|sp|Q5L301.1|LUTB_GEOKA</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Geobacillus kaustophilus HTA426]</Hit_def>
+  <Hit_accession>Q5L301</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>1.34063e-104</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR</Hsp_qseq>
+      <Hsp_hseq>FWKRVRENLDNDFMRGAVAGMQDRGYVRRLGVIEELGHWEEWRSLAEQIRKHTLENLDFYLMQLSENVAKRGGHVFFAQTAEEANEYIRRVALEKQAKKIVKSKSMVTEEINLNPVLEAIGCQVVETDLGEYILQIDDHDPPSHIVGPALHKNKEQIRDVFQRKLGYTKSSDPVELARHAREMLRRDYLTADIGITGCNFAIAESGSITLVTNEGNADLVTALPKTQITVMGMERIVPTFEEMEVLVSMLTRSAVGQKLTSYITVLTGPRDEGDVDGPEEFHLVIVDNGRSSILG-TEFQPVLQCIRCAACVNVCPVYRHIGGHSYGSIYSGPIGAVLSPLLGGYDDYKELPYASSLCAACTEACPVKIPLHELLIKHR</Hsp_hseq>
+      <Hsp_midline>F +    +L +  +R ++    D    +R  V+ +    +  R L E IR+ +L  L   L QL EN+ K G  V +A+T  EA + I  +   K  K +VK KSMV+EEI LN  LEA G + VE+DLGE+I+Q+   + P+HIV PA+HK KEQ+ ++F + LG   + D  +L   AR+ LR  Y TAD+G++G NFA+AE+G++ LV NEGN  L T +P   I + G+E++V    ++  L S+L RSA+GQ +T+Y  ++TGPR   ++DGP+E HLV++DNGRS      + +  LQCIRC AC+N CPVY  IGG +YG+ Y GPIG ++SP L G D  ++LP A ++C AC E CPV+IP+ E + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|259495066|sp|B1HVX5.1|LUTB_LYSSC</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Lysinibacillus sphaericus C3-41]</Hit_def>
+  <Hit_accession>B1HVX5</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>1.73372e-104</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>FKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR</Hsp_qseq>
+      <Hsp_hseq>FQDRVTKELENQFMRSAVSRAQDRFQTRRLQQTQELGDWEEWRSHGEEIRKHVLENLDYYLYQLSDNVAKRGGHVFFAQTAQEATAYIQDIAKKKNAAKIVKSKSMVTEEINLNAALEELGCEVIETDLGEYILQVADHEPPSHIVAPALHKNKEQIRDVFKAKQGYTQSEKPEELALYVREKLRDEYLTADIGITGCNFAIAESGSITLVTNEGNADLVTALPKTQVTVMGMERIVPTFEEMEVLVSLLTRSAVGQKLTSYITTLTGIKDEGDTDGPEEFHLVIVDNGRS-AILGGEFQPILQCIRCAACVNACPVYRHVGGHTYGSIYSGPLGVVLSPLLGGYDDFKELPYASTLCGACTDACPVKIPLHQLIHRHR</Hsp_hseq>
+      <Hsp_midline>F+      L+++ +R ++  A D   T+R     +  + +  R   E IR+  L  L   L QL +N+ K G  V +A+T  EA   I DI   KN   +VK KSMV+EEI LN  LE  G + +E+DLGE+I+Q+A  E P+HIV PA+HK KEQ+ ++F    G   ++  ++L  + R+ LRD Y TAD+G++G NFA+AE+G++ LV NEGN  L T +P   + + G+E++V    ++  L SLL RSA+GQ +T+Y   +TG +   + DGP+E HLV++DNGRS A    + +  LQCIRC AC+N CPVY  +GG  YG+ Y GP+G ++SP L G D  ++LP A T+CGAC + CPV+IP+ + + R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81747076|sp|Q8ET91.1|LUTB_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8ET91</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>9.26236e-104</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>476</Hsp_align-len>
+      <Hsp_qseq>TFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEEL---QSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAGEKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR-VEAQRSPTETVPHPIRGQGASHTFGEQMAWRTFNGIFSGSKTYRAF--GWAATKFRNLTPRKQLGWTQNRVPMKPAKKTLHELMAEKMRQKEQ</Hsp_qseq>
+      <Hsp_hseq>SYKERIDKGIDNDFMRQAVSSAQGRF---RKGRLSQAEELGNWEDWRQLGSEIRTHTLENIDYYLHQLSEQVEKRGGNVFFAQTAEEANEYIENVVKKKQAKKVVKTKSMVTEEIGLNEALEKSGAEVVESDLGEWILQLDEDPPSHIVTPALHKNRQQIRETFADKRGYDKTDSPEELAAFAREQLRQDFLTADVGITGCNFAIAESGAITLVTNEGNAEMVTSLPDTQITVMGMERLVPTWEDMEVLVSLLTRAAVGQKLTSYITAYTGARLEEEIDGPDDYHLVIVDNGRSKILG-TEFQSALHCIRCAACINVCPVYRHVGGHAYNSIYPGPIGAVLTPLLDGYDDHKELPYASSLCAACTEACPVKIPLHEQLIRHREIIVEKEKKSPVSEKIMMKGFAQWASNPAAYKL------STKVARTALKPWTKDEFVENGPGPLKGWTDVRDFPAPGKQSFRAWWSERAKGEKQ</Hsp_hseq>
+      <Hsp_midline>++K+     + +  +R+++ +A       RK  L+  EEL   +  R L   IR  +L  +   L QL E + K G  V +A+T  EA + I +++  K  K +VK KSMV+EEI LN  LE  G + VESDLGE+I+Q+  + P+HIV PA+HK ++Q+ E F    G   TD  ++L  FAR+ LR  + TADVG++G NFA+AE+G + LV NEGN  + T++P   I + G+E++V    D+  L SLL R+A+GQ +T+Y    TG R  EE+DGP + HLV++DNGRS+     + +  L CIRC AC+N CPVY  +GG AY + YPGPIG +++P L G D  ++LP A ++C AC E CPV+IP+ EQ+ R R +  ++     V   I  +G +       A++        +K  R     W   +F    P    GWT  R    P K++     +E+ + ++Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81786963|sp|Q9KBU1.1|LUTB_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KBU1</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>1.34462e-102</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TFKQNAAISLQDKPLRKSLRTAMDML-MTKRKAVLTDEEEL---QSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR</Hsp_qseq>
+      <Hsp_hseq>SFDERVEKGIDNLFMRQAVSSAQERLKLAKAKA----EEELGDWQEWRTLAEEIRSHTLDNLDYYLEQLSDNVSKNGGYVYFAQTAEEANVYIKEIAMKQQAKKIIKSKSMVTEEIGMNQALESIGCEVIESDLGEYILQIDDHDPPSHIVAPALHKNKEQIRETFKEKKGYSKSANPQELTLFAREQLRKEFLQADIGITGCNFAVAESGSITLVTNEGNARLATTIPKTQITVMGMERIVPTWEELDILVSMLCRSAVGQKLTSYVTGLTSTKEAGDVDGPEEFHLVIVDNGRSNILG-TEFQAALHCIRCAACINVCPIYRHVGGHSYGSIYPGPIGAVLTPLLEGYDDHEELPYASSLCAACTDACPVKIPLHELLIKHR</Hsp_hseq>
+      <Hsp_midline>+F +     + +  +R+++ +A + L + K KA    EEEL   Q  R L E IR  +L  L   LEQL +N++K G  V++A+T  EA   I +I   +  K ++K KSMV+EEI +N  LE+ G + +ESDLGE+I+Q+   + P+HIV PA+HK KEQ+ E F +  G   + +  +LT FAR+ LR  +  AD+G++G NFAVAE+G++ LV NEGN RL+TT+P   I + G+E++V    ++  L S+L RSA+GQ +T+Y   +T  + + ++DGP+E HLV++DNGRS      + +  L CIRC AC+N CP+Y  +GG +YG+ YPGPIG +++P L G D   +LP A ++C AC + CPV+IP+ E + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|259495162|sp|A9VI77.1|LUTB1_BACWK</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein B 1 [Bacillus weihenstephanensis KBAB4]</Hit_def>
+  <Hit_accession>A9VI77</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>1.83414e-99</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>472</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>491</Hsp_align-len>
+      <Hsp_qseq>ETFKQNAAISLQDKPLRKSLRTAMDMLMTKRKAVLTDEEELQSLRDLCEHIRQRSLSKLPALLEQLEENLTKLGVKVHWAETPAEACQIIHDIITAKNGKLMVKGKSMVSEEIELNHYLEAKGIKAVESDLGEFIVQMAG-EKPTHIVMPAIHKTKEQVSELFHQNLGTPLTDDVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAYAEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR---VEAQRSPTETVPHPIRGQGASHTFGEQMAWRT-FNGIFSGSKTYRAFGWAATKF--------------RNLTPRKQLGWTQNRVPMKPAKKTLHELMAEKMRQKEQA</Hsp_qseq>
+      <Hsp_hseq>DPFHKRTATGIGDQFMRQAVRKAQDGLRVKKLKATESLGNWEEWRALGEEIRKHTLENLDYYLYELSENIEKNGGFVYFAKTAEDAREYVKEIVKKKNAKKIVKSKSMVTEEISLNEAIEEAGAEVLETDLAEFILQVNDHDPPSHIVVPCLHKDKEHICEIFKTKLNYTGTSDPTEMARFVRSYLRDDFFAADIGVTGCNFAVAESGSISIVANEGNARLTTTLPKTLITVMGMERIVPTWEELDVLVTLLCRSSVGQKLTSYITGLTEPGGT---DGPEEFHLVIVDNGRSDIVGT-EFQSVLQCIRCAACINVCPVYRHIGGHAYGSIYPGPIGAVLTPLLGGYDEYKDLPYASSLCGACTEACPVKIPLHDLLIKHRSRIVEEKQSP--------------------VAWNVAMKGFEKAVKSPRLFSFAAKSAPYALKPLAKGDKIERGIGPLK--AWTDARDFPVPKKQPFREWFEKHVKENDDG</Hsp_hseq>
+      <Hsp_midline>+ F +  A  + D+ +R+++R A D L  K+          +  R L E IR+ +L  L   L +L EN+ K G  V++A+T  +A + + +I+  KN K +VK KSMV+EEI LN  +E  G + +E+DL EFI+Q+   + P+HIV+P +HK KE + E+F   L    T D  ++  F R  LRD +  AD+G++G NFAVAE+G++ +V NEGN RL+TT+P   I + G+E++V    ++  L +LL RS++GQ +T+Y   +T P  +   DGP+E HLV++DNGRS      + +  LQCIRC AC+N CPVY  IGG AYG+ YPGPIG +++P L G D  +DLP A ++CGAC E CPV+IP+ + + + R   VE ++SP                    +AW     G     K+ R F +AA                 R + P K   WT  R    P K+   E   + +++ +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|81786962|sp|Q9KBU0.1|LUTC_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KBU0</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>7.0155e-06</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>ADIGITFADYTLAESGTVVLLSGNGKGRSVSLLPTYYIAIIPKSTLVPRMSQVTRELHL--KAASGERLPSCINFISGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>AD+G++  ++ +AE+GT+ L+   G GR  + +P  +I I     +V ++S V     L  ++A G+ + +  N I+GP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|294862441|sp|P84621.2|HDLC_ARCPA</Hit_id>
+  <Hit_def>RecName: Full=Heterodisulfide reductase subunit C-like protein [Archaeoglobus profundus DSM 5631]</Hit_def>
+  <Hit_accession>P84621</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.01019e-05</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>RTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGL-DATRDLPT--ACTMCGACVEVCPVRIPITEQMQRLR</Hsp_qseq>
+      <Hsp_hseq>RLMYCMQCGACASICPL-ARVGFEWYNK-------KLIKALILGLRDELLDDPTPWACVACNRCTEICPRRVSPFEVMFAMR</Hsp_hseq>
+      <Hsp_midline>R + C++CGAC + CP+  R+G   Y         ++I   +LGL D   D PT  AC  C  C E+CP R+   E M  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|259495080|sp|A7GMJ4.1|LUTC_BACCN</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus cytotoxicus NVH 391-98]</Hit_def>
+  <Hit_accession>A7GMJ4</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>6.16688e-05</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>ELFHQNLGTPLTD--DVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQAY</Hsp_qseq>
+      <Hsp_hseq>ELPSQNVEVNIWDPEEKDENIRFAEKA--------NIGIAFSDYTLAESGTIVVQSRKGQGRSLHFLPTVYFSIIPRETIVPRITQA--VRDMNARVEKGEAVASCINFITGPSNSADI----EMNLVVGVHGPLKAY</Hsp_hseq>
+      <Hsp_midline>EL  QN+   + D  + D+   FA KA        ++G++  ++ +AE+GT+ +   +G GR    +P V+  I   E +V +++    +  +  R   G+ + +  N ITGP  S ++    EM+LV+  +G  +AY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|41017092|sp|Q58274.1|HDRC2_METJA</Hit_id>
+  <Hit_def>RecName: Full=CoB--CoM heterodisulfide reductase iron-sulfur subunit C 2 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58274</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>7.78687e-05</Hsp_evalue>
+      <Hsp_query-from>308</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>AEDQMRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTA--CTMCGACVEVCPVRIPITEQMQRLRVEAQRSPTETVPH</Hsp_qseq>
+      <Hsp_hseq>GEDIVKSIKACYQCGTCTGSCPSGRR---TAYRTR------KVLRKVLLGLDDVLDSDDIWYCTTCYTCYERCPRDVKITEIIKTLRNIAAQKGNMALAH</Hsp_hseq>
+      <Hsp_midline> ED ++    C +CG C   CP   R    AY T       +++   LLGLD   D      CT C  C E CP  + ITE ++ LR  A +     + H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|119995|sp|P07508.1|FER_CLOTM</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin [Ruminiclostridium thermocellum]</Hit_def>
+  <Hit_accession>P07508</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00033428</Hsp_evalue>
+      <Hsp_query-from>315</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIP</Hsp_qseq>
+      <Hsp_hseq>TDACISCGACESECPV--------------SPISPGDSVYVIDADA-------CIECGACANVCPVDAP</Hsp_hseq>
+      <Hsp_midline>T  CI CGAC + CPV               PI    S +++  DA       C  CGAC  VCPV  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|259495079|sp|B7I0L1.1|LUTC_BACC7</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus cereus AH187] &gt;gi|259495081|sp|B9IUP5.1|LUTC_BACCQ RecName: Full=Lactate utilization protein C [Bacillus cereus Q1]</Hit_def>
+  <Hit_accession>B7I0L1</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000699653</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>IAERANIGIAFSDYTLAESGTIVVQSHKGQGRSLHFLPTVYLAIIPRETLVPRITQA--VEDMNKRVENGETVASCINFITGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>I   A++G++  ++ +AE+GT+ +  ++G GR    +P V++ I   E +V +++    +  +  R   G+ + +  N ITGP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|259495069|sp|A9VKN2.1|LUTC2_BACWK</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C 2 [Bacillus weihenstephanensis KBAB4]</Hit_def>
+  <Hit_accession>A9VKN2</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000787194</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>IAEKANIGIAFSDYTLAESGTIVVQSHKGQGRSLHFLPTVYFAIIPRETLVPRITQA--VQDMNSRVEKGEAVASCINFITGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>I   A++G++  ++ +AE+GT+ +  ++G GR    +P V+  I   E +V +++    +  +  R   G+ + +  N ITGP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|259495086|sp|B9E9H0.1|LUTC_MACCJ</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Macrococcus caseolyticus JCSC5402]</Hit_def>
+  <Hit_accession>B9E9H0</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00088825</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>ANVGITFSDVTLAESGTVVLYADKGKGRSVSLLPATYIAIVPKSTIVPRFTQAAQQMNAMMEDQ--ENFPTCINLITGPSNSADI----EMKLVV</Hsp_hseq>
+      <Hsp_midline>A+VG++  +  +AE+GT+ L  ++G GR  + +P  +I I     +V + +      + +      +N  T  N+ITGP  S ++    EM LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|259495084|sp|C5D585.1|LUTC_GEOSW</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Geobacillus sp. WCH70]</Hit_def>
+  <Hit_accession>C5D585</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000896789</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>DVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQA</Hsp_qseq>
+      <Hsp_hseq>DVHIWDASAGRKNIDYAEQANVGITFSDITLAESGTVVLFSGNGKGRTVSFLPKTYIAIIAKSTIVPRMTQAAAY--IHEQIEKGHLIPSCINFITGPSNSADI----EMNLVVGVHGPMKA</Hsp_hseq>
+      <Hsp_midline>DV      A +   D    A+VG++  +  +AE+GT+ L    G GR  + +P  +I I     +V +++       +  +   G  I +  N ITGP  S ++    EM+LV+  +G  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|81410485|sp|Q73BK0.1|LUTC_BACC1</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus cereus ATCC 10987]</Hit_def>
+  <Hit_accession>Q73BK0</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000901821</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>IAERANIGIAFSDYTLAESGTIVVQSHKGQGRSLHFLPTVYFAIIPRETLVPRITQA--VEDMNKRVENGETVASCINFITGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>I   A++G++  ++ +AE+GT+ +  ++G GR    +P V+  I   E +V +++    +  +  R   G+ + +  N ITGP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|81688878|sp|Q63E65.1|LUTC_BACCZ</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus cereus E33L] &gt;gi|81715348|sp|Q81TG0.1|LUTC_BACAN RecName: Full=Lactate utilization protein C [Bacillus anthracis] &gt;gi|259495072|sp|C3P4C5.1|LUTC_BACAA RecName: Full=Lactate utilization protein C [Bacillus anthracis str. A0248] &gt;gi|259495073|sp|C3LAQ2.1|LUTC_BACAC RecName: Full=Lactate utilization protein C [Bacillus anthracis str. CDC 684] &gt;gi|259495074|sp|A0RBC9.1|LUTC_BACAH RecName: Full=Lactate utilization protein C [Bacillus thuringiensis str. Al Hakam] &gt;gi|259495075|sp|B7JF02.1|LUTC_BACC0 RecName: Full=Lactate utilization protein C [Bacillus cereus AH820] &gt;gi|259495077|sp|C1EM12.1|LUTC_BACC3 RecName: Full=Lactate utilization protein C [Bacillus cereus 03BB102]</Hit_def>
+  <Hit_accession>Q63E65</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000926665</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>IAERANIGIAFSDYTLAESGTIVVQSHKGQGRSLHFLPTVYFAIIPRETLVPRITQA--VQDMNTRVENGEEVASCINFITGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>I   A++G++  ++ +AE+GT+ +  ++G GR    +P V+  I   E +V +++    +  +  R   G+ + +  N ITGP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81396790|sp|Q6HLP0.1|LUTC_BACHK</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus thuringiensis serovar konkukian str. 97-27]</Hit_def>
+  <Hit_accession>Q6HLP0</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000943606</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>IAERANIGIAFSDYTLAESGTIVVQSHKGQGRSLHFLPTVYFAIIPRETLVPRITQA--VQDMNTRVENGEEVASCINFITGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>I   A++G++  ++ +AE+GT+ +  ++G GR    +P V+  I   E +V +++    +  +  R   G+ + +  N ITGP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|259495068|sp|A9VI78.1|LUTC1_BACWK</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C 1 [Bacillus weihenstephanensis KBAB4]</Hit_def>
+  <Hit_accession>A9VI78</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00125632</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>ADLGITFSDMTLAESGTVVLFNDGLKGRHVSLLPESYIAIVPKSTIVPRLTQATKL--IHNQSKAGENLPACVNFVSGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>AD+G++  +  +AE+GT+ L  +   GR  + +P  +I I     +V +L+    L  +  +S  G+N+    N ++GP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|259495076|sp|B7IMD5.1|LUTC_BACC2</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus cereus G9842]</Hit_def>
+  <Hit_accession>B7IMD5</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00192758</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>ANIGIAFSDYTLAESGTIVVQSHKGQGRSLHFLPTVYLAIIPRETLVPRITQA--VQDMNSRVEDGETAASCINFITGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>A++G++  ++ +AE+GT+ +  ++G GR    +P V++ I   E +V +++    +  +  R   G+   +  N ITGP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|259495078|sp|B7HH60.1|LUTC_BACC4</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus cereus B4264]</Hit_def>
+  <Hit_accession>B7HH60</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00248152</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>ANIGIAFSDYTLAESGTIVVQSHKGQGRSLHFLPTVYFAIIPRETLVPRITQA--VQDMNSRVENGETAASCINFITGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>A++G++  ++ +AE+GT+ +  ++G GR    +P V+  I   E +V +++    +  +  R   G+   +  N ITGP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|119983|sp|P14073.1|FER_BUTME</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin [[Butyribacterium] methylotrophicum]</Hit_def>
+  <Hit_accession>P14073</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00696047</Hsp_evalue>
+      <Hsp_query-from>315</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>TLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITE</Hsp_qseq>
+      <Hsp_hseq>TDECIACGSCADQCPVEAISEGSIY------EIDEAL----------------CTDCGACADQCPVEAIVPE</Hsp_hseq>
+      <Hsp_midline>T +CI CG+C + CPV     G+ Y       I E +                CT CGAC + CPV   + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|120014|sp|P00193.1|FER_PEPAS</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin [Peptoniphilus asaccharolyticus]</Hit_def>
+  <Hit_accession>P00193</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00983493</Hsp_evalue>
+      <Hsp_query-from>318</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>CIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITE</Hsp_qseq>
+      <Hsp_hseq>CIACGACKPECPVNIQQGS------------------IYAIDAD-----SCIDCGSCASVCPVGAPNPE</Hsp_hseq>
+      <Hsp_midline>CI CGAC   CPV  + G                   +  +DA      +C  CG+C  VCPV  P  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|85682778|sp|P96797.4|HDRD_METBF</Hit_id>
+  <Hit_def>RecName: Full=CoB--CoM heterodisulfide reductase iron-sulfur subunit D [Methanosarcina barkeri str. Fusaro]</Hit_def>
+  <Hit_accession>P96797</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0108166</Hsp_evalue>
+      <Hsp_query-from>311</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>QMRRTLQCIRCGACMNHCPVYTRIGGA-------------AYGTTYPGPIGEIISPHLLG---LDATRDLPTACTMCGACVEVCPVRIPITEQMQRLR</Hsp_qseq>
+      <Hsp_hseq>QLMELDACVRCGECVKWCPTYAASGGKPGLAPRDKILRWRQYMNKSYGLKAKLFGPQEVSPSELEEFKDDVHGCTTCGVCATVCEAGINTVEIWEAIR</Hsp_hseq>
+      <Hsp_midline>Q+     C+RCG C+  CP Y   GG               Y     G   ++  P  +    L+  +D    CT CG C  VC   I   E  + +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|3023737|sp|Q50570.1|FDHB_METTF</Hit_id>
+  <Hit_def>RecName: Full=Formate dehydrogenase subunit beta [Methanothermobacter thermautotrophicus]</Hit_def>
+  <Hit_accession>Q50570</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0116566</Hsp_evalue>
+      <Hsp_query-from>312</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MRRTLQCIRCGACMNHCPVYTRIGGAAYGTTYPGPI--GEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITEQMQRLRVEAQRS</Hsp_qseq>
+      <Hsp_hseq>MDELNKCIKCYSCREACPI-CYCEECSLETKTPEWIEKGKIPPSPLFHLERMLHMVDSCTNCGQCEELCPAEIPLAKIWHEINCRVQET</Hsp_hseq>
+      <Hsp_midline>M    +CI+C +C   CP+       +  T  P  I  G+I    L  L+    +  +CT CG C E+CP  IP+ +    +    Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|119990|sp|P00195.2|FER_CLOPA</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin [Clostridium pasteurianum]</Hit_def>
+  <Hit_accession>P00195</Hit_accession>
+  <Hit_len>56</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0121309</Hsp_evalue>
+      <Hsp_query-from>318</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>CIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITE</Hsp_qseq>
+      <Hsp_hseq>CVSCGACASECPVNAISQGDS----------------IFVIDAD-----TCIDCGNCANVCPVGAPVQE</Hsp_hseq>
+      <Hsp_midline>C+ CGAC + CPV     G +                +  +DA       C  CG C  VCPV  P+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81435461|sp|Q81GA3.1|LUTC_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q81GA3</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0155157</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>ANIGIAFSDYTLAESGTIVVQSHKGQGRSLHFLPTVYFAIIPRETLVPRITQA--VQDMNSHVENGETAASCINFITGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>A++G++  ++ +AE+GT+ +  ++G GR    +P V+  I   E +V +++    +  +      G+   +  N ITGP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81366817|sp|Q5WJD9.1|LUTC_BACSK</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>Q5WJD9</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0168565</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>ADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQN-ITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>ADVGITFSDITLAESGTVTLFSSNGKGRSVSLLPRYYIAIIPKSTLVARMTQAARHI----RQLTGEGRLPSCINFISGPSNSADI----EMSLVV</Hsp_hseq>
+      <Hsp_midline>ADVG++  +  +AE+GT+ L  + G GR  + +P  +I I     +VA+++          R   G+  + +  N I+GP  S ++    EM LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|81384488|sp|Q65EM1.1|LUTC_BACLD</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q65EM1</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0322917</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>ADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVLLDNGRSQA</Hsp_qseq>
+      <Hsp_hseq>ANIGVTFSEITLAESGTVVLFSSKDKGRSVSLLPTTYIAIVPKSTIVPRMTQASAI--IKQKIADGDVIPSCINYVTGPSNSADI----EMDLVVGVHGPVKA</Hsp_hseq>
+      <Hsp_midline>A++G++     +AE+GT+ L  ++  GR  + +P  +I I     +V +++    +  +  + A G  I +  N +TGP  S ++    EM LV+  +G  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|81342193|sp|O32259.1|LUTC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32259</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0337663</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>GTPLTD-DVDQLTGFARKALRDIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNIT--TYFNMITGPRRSEELDGPQEMHLVLLDNGRSQA</Hsp_qseq>
+      <Hsp_hseq>GTPVWEWDADKGEENIKKAEQ-----ANVGITFSEITLAESGTVVLFSSKDIGRSVSLLPTTYIAIVPKSSIVPRMTQA----SDIIRQNIANGVTVPSCINYITGPSNSADI----EMDLVVGVHGPVKA</Hsp_hseq>
+      <Hsp_midline>GTP+ + D D+     +KA +     A+VG++     +AE+GT+ L  ++  GR  + +P  +I I     +V +++      S + R  I   +T  +  N ITGP  S ++    EM LV+  +G  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|313104326|sp|Q50754.6|HDRC_METTM</Hit_id>
+  <Hit_def>RecName: Full=CoB--CoM heterodisulfide reductase iron-sulfur subunit C [Methanothermobacter marburgensis str. Marburg]</Hit_def>
+  <Hit_accession>Q50754</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0415233</Hsp_evalue>
+      <Hsp_query-from>318</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGL-DATRDLPT--ACTMCGACVEVCPVRIPITEQMQRLRVEAQRS</Hsp_qseq>
+      <Hsp_hseq>CFQCGTCTGSCP---------SGRRTPYRVRQIIRKANVGLKDEIISDPTLWMCTTCYSCQERCPRKVKIVDVVKLARNEAAKA</Hsp_hseq>
+      <Hsp_midline>C +CG C   CP          G   P  + +II    +GL D     PT   CT C +C E CP ++ I + ++  R EA ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|259495070|sp|B7GLD4.1|LUTC_ANOFW</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Anoxybacillus flavithermus WK1]</Hit_def>
+  <Hit_accession>B7GLD4</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0482279</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>ANIGMTWSDITLAESGTVVLLNNRDQGRTISFLPTTYVALIPKSTIVPRMTQAAHIIR-------EKHVPSCINFITGPSNSADI----EMNLVV</Hsp_hseq>
+      <Hsp_midline>A++G++  +  +AE+GT+ L+ N   GR  + +P  ++ +     +V +++    +          +++ +  N ITGP  S ++    EM+LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|20141076|sp|P22846.2|FER_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>P22846</Hit_accession>
+  <Hit_len>56</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0526296</Hsp_evalue>
+      <Hsp_query-from>318</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>CIRCGACMNHCPVYTRIGGAAYGTTYPGPIGEIISPHLLGLDATRDLPTACTMCGACVEVCPVRIPITE</Hsp_qseq>
+      <Hsp_hseq>CVSCGACAAECPV----DAISQGDTQ------------FVIDAD-----TCIDCGNCANVCPVGAPVQE</Hsp_hseq>
+      <Hsp_midline>C+ CGAC   CPV       + G T               +DA       C  CG C  VCPV  P+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|81784471|sp|Q9JYT7.1|Y1437_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein NMB1437 [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JYT7</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0612899</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>DIYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEEL</Hsp_qseq>
+      <Hsp_hseq>EFFTNIDAGFSGAQCGIARTGTLMLFSSPEEPRTLSLVPPVHFCLFDTSKMYNEFHN-----AVEGEKLVENGMPTNVFLISGPSKTADI</Hsp_hseq>
+      <Hsp_midline>+ ++  D G SG    +A TGTL L  +    R  + VPPVH  +    K+  +  +     ++     +   + T   +I+GP ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|81747075|sp|Q8ET90.1|LUTC_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Lactate utilization protein C [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8ET90</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0623956</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IYSTADVGLSGVNFAVAETGTLCLVENEGNGRLSTTVPPVHIVITGIEKVVAKLSDVPPLYSLLPRSAIGQNITTYFNMITGPRRSEELDGPQEMHLVL</Hsp_qseq>
+      <Hsp_hseq>IAEKADVGISFSDITLAESGTVTLKNDKDNGRSISLMPKSYIAIIPKETLVPRMTQAAKQIHDDHMNGIQTPSSVCF--VTGPSNSADI----EMNLIV</Hsp_hseq>
+      <Hsp_midline>I   ADVG+S  +  +AE+GT+ L  ++ NGR  + +P  +I I   E +V +++           + I    +  F  +TGP  S ++    EM+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -69,14 +69,24 @@ for k in featcds:
 print "Lista de proteinas hipoteticas (ID):"
 hypo=[]
 locus=[]
+unreviewed=[]
 for k in featcds:
     if k.qualifiers["product"]==["hypothetical protein"]:
         hypo.append(k.qualifiers["protein_id"][0])
         locus.append(k.qualifiers["locus_tag"][0])
+        unreviewed.append(">"+str(k.qualifiers["locus_tag"][0])+"\n")
+        unreviewed.append(str(k.qualifiers["translation"][0])+"\n\n")
 for i in range (len(hypo)):
     print locus[i],hypo[i]
 
 
+
+
+#impressao da sequencia para posterior analise da localizacao
+guardar=open("proteinas_unreviewed"+".txt","w")
+for i in range (len(unreviewed)):
+    guardar.write(str(unreviewed[i]))
+guardar.close()
 
 
 

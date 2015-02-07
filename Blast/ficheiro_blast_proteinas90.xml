@@ -1,0 +1,1388 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>9219</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>239</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>9219</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>239</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2506151|sp|P31808.3|YCIK_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase YciK [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P31808</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.47992e-35</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGEAGSERKSYGDVLPAFVWWASAESKGRSG</Hsp_qseq>
+      <Hsp_hseq>LNDRIILVTGASDGIGREAAMTYARYGATVILLGRNEEKLRQVASHINEETGRQPQWFILDLLTCTSENCQQLAQRIA-VNYPRLDGVLHNAGLLGDVCPMSEQNPQVWQDVMQVNVNATFMLTQALLPLLLKSDAGSLVFTSSSVGRQGRANWGAYAASKFATEGMMQVLADEYQQ--RLRVNCINPGGTRTAMRASAFPTEDPQKLKTPADIMPLYLWLMGDDSRRKTG</Hsp_hseq>
+      <Hsp_midline>L D+ ILVTGAS G+G + A  YA  GATVIL+ R+++KL +    I E    +P     DL++   +  ++ A  IA     +LDG++H AG    + P+  Q    W +  ++N  A   LT+AL PLL +S   S++F   S G   +A WG + ASK A   + +V ADE+++   LR N + PG   +  R  + P E   + K+  D++P ++W    +S+ ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20141366|sp|P37694.2|HETN_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=Ketoacyl reductase HetN [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>P37694</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>2.63145e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQ--GKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAAL</Hsp_qseq>
+      <Hsp_hseq>MTTLTGKTVLLTGASRGLGVYIARALAKEQATVVCVSRSQSGLAQTCNAVKAAGG-KAIAIPFDV-----RNTSQLSALVQQAQDIVGPIDVLINNAGIEINGTFANY-SLAEIQSIFNTNLLAAMELTRLLLPSMMERGSGRIVNIASLAGKKGVAFNSVYSASKAGL</Hsp_hseq>
+      <Hsp_midline>M TLT KT+L+TGAS+GLG  +A+A A E ATV+ V+R Q  L +  +A+  AG  +  AI FD+     +   + +A + +A    G +D +++ AG     +  ++ ++AE  + +  N +A M LTR L P + +     ++ +    G+   A+   + ASKA L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|82193364|sp|Q566S6.1|DRS7B_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 7B [Danio rerio]</Hit_def>
+  <Hit_accession>Q566S6</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.95075e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>PTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPE-----PFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGE</Hsp_qseq>
+      <Hsp_hseq>PNIQDKVVVITGASSGLGKECARVFHAAGARLILCGRDQRRLQEVVEELGNKTYGKTKTYTPCTVTFDL--SNTSVVCSAAAEILK-RHGHVDVLINIAGVSYRGNILDTH-VSVQREVMETNYFGPVALTQAILPSMVDRGSGHIVVISSVQGKISIPYRSAYAASKHAMQAYYDCLRAEVDSLG-LHVSVLSPGYVRTNMSINAVTGD</Hsp_hseq>
+      <Hsp_midline>P + DK +++TGAS GLG++ A+ + A GA +IL  R Q++L++  + +    + +     P  + FDL  +        AA I +   G +D +++ AG  Y  + LD   V+        N   P+ LT+A+ P +       ++ +    G+    Y   + ASK A+         E +  G L  +VL PG + +   I +  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|61249469|sp|P0A2D1.1|UCPA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Oxidoreductase UcpA [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|61249472|sp|P0A2D2.1|UCPA_SALTI RecName: Full=Oxidoreductase UcpA [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P0A2D1</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>3.50528e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEA--TQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGE-TPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQ</Hsp_qseq>
+      <Hsp_hseq>MGKLTGKTALITGASQGIGEGIARVFARHGANLILL-DISDEIEKLADELGGRGH------RCTAVKADVRDFASVQAAVARAKETEGRIDILVNNAGVCRLGNFLDMSE-EDRDFHIDINIKGVWNVTKAVLPEMIKRKDGRIVMMSSVTGDMVADPGETAYALSKAAIVGLTKSLAVEYAQSG-IRVNAICPGYVRTPM</Hsp_hseq>
+      <Hsp_midline>M  LT KT L+TGASQG+GE +A+ +A  GA +IL+     ++EK  D +   GH      R   + A+ ++F    A +A A  T+G++D +V+ AG     + LD     +      IN      +T+A+ P + +  D  ++ +    G+         +  SKAA+  L K  A E+ + G +R N + PG + +P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|73920131|sp|Q9ASX2.1|TRNH1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Tropinone reductase homolog At1g07440 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9ASX2</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.14118e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>TLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEK-EFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSP</Hsp_qseq>
+      <Hsp_hseq>SLKAKTVLVTGGTKGIGHAIVEEFAGFGAVIHTCARNEYELNECLSKWQKKG----FQVTGSVCDASLRPEREKLMQTVSSMFGGKLDILINNLGAIRSKPTLDY-TAEDFSFHISTNLESAYHLSQLAHPLLKASGCGNIIFMSSIAGVVSASVGSIYSATKGALNQLARNLACEWASDG-IRANAVAPAVIATP</Hsp_hseq>
+      <Hsp_midline>+L  KT+LVTG ++G+G  + + +A  GA +   AR++ +L +      + G    F +   +  A  + E E+   T++    GKLD +++  G   +   LD+ T  ++      N  +   L++   PLLK S   ++IF+    G    +    + A+K ALN L +  A EW   G +RAN + P  I +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75527692|sp|Q8RJB2.1|BZRD_BACCE</Hit_id>
+  <Hit_def>RecName: Full=Benzil reductase ((S)-benzoin forming) [Bacillus cereus]</Hit_def>
+  <Hit_accession>Q8RJB2</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>6.22403e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>ILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAE--EKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQ-SPDASVIFVGESHGETPKAYWGGFGASKAALNYLCK-VAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>VIITGTSQGLGEAIATQLLEESTTVISISRREN---KELTKLAEQYNSNCIFHSLDLQDVHNLETNFKEIISSIKEDNVSSIH-LINNAGTVAPMKPIEKAESEQFITNVHINLLAPMILTSTFMKHTKEWKVDKRVINISSGAGKNPYFGWGAYCTTKAGVNMFTQCVATEEVEKEYPVKIVAFAPGVVDT</Hsp_hseq>
+      <Hsp_midline>+++TG SQGLGE +A     E  TVI ++R +    K    + E  +        DL      E  F+   ++I E     +  +++ AG    + P++     +++    IN +APM LT       K+   D  VI +    G+ P   WG +  +KA +N   + VA +E E+   ++     PG +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81916546|sp|Q99J47.1|DRS7B_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 7B [Mus musculus]</Hit_def>
+  <Hit_accession>Q99J47</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>8.41221e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGH---PEPFAIRFDLMSAEEKEFERFAATIAEATQ--GKLDGIVHCAGYFYALSPLDFQTVAEWVNQ-YRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LRNAVVVVTGATSGLGRECAKVFHAAGAKLVLCGRNVKALEELSRELAGSSQGQTHQPFVVTFDLADPGT-----IAAAAAEILQCFGYVDVLINNAGISYRGTISD--TIVDVDRKVMEINYFGPVALTKALLPSMVERKQGHIVAISSIQGKISIPFRSAYSASKHATQAFFDCLRAEMEE-ANIKVTVISPGYIHT</Hsp_hseq>
+      <Hsp_midline>L +  ++VTGA+ GLG + AK + A GA ++L  R+ K LE+    +  +      +PF + FDL           AA  AE  Q  G +D +++ AG  Y  +  D  T+ +   +   IN   P+ LT+AL P + +     ++ +    G+    +   + ASK A          E E   N++  V+ PG I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81673350|sp|Q5HLD8.1|Y2049_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase SERP2049 [Staphylococcus epidermidis RP62A] &gt;gi|81842541|sp|Q8CN40.1|Y2036_STAES RecName: Full=Uncharacterized oxidoreductase SE_2036 [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q5HLD8</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>8.47764e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFP-LLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSP</Hsp_qseq>
+      <Hsp_hseq>MAKVKEKVAVVTGASSGIGEAIAKKLSQQGASIVLVGRNEQRLNEIAQQL-----NTPAKVVSADVTVKSNIDDMLKAVIDHF--GHIDIVVNSAGQSLSSKITDYN-VEQWDTMIDVNIKGTLHVLQATLPYLLKQSS-GHIINLASVSGFEPTKTNAVYGATKAAIHAITQSLEKELARTG-VKVTSISPGMVDTP</Hsp_hseq>
+      <Hsp_midline>M  + +K  +VTGAS G+GE +AK  + +GA+++LV R++++L +    +       P  +    ++ +    +   A I     G +D +V+ AG   +    D+  V +W     +N    + + +A  P LLKQS    +I +    G  P      +GA+KAA++ + +    E  R G ++   + PG +++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81696258|sp|Q6G6J1.1|Y2370_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase SAS2370 [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81762001|sp|Q8NUV9.1|Y2403_STAAW RecName: Full=Uncharacterized oxidoreductase MW2403 [Staphylococcus aureus subsp. aureus MW2]</Hit_def>
+  <Hit_accession>Q6G6J1</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>9.85862e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEE-KEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGEAGSERKSYG--DVLPAFVWWASAESKGRSGEI</Hsp_qseq>
+      <Hsp_hseq>MTVLTDKIAVVTGAGSGIGEAIATLLHEEGAKVVLAGRNKEKLQNVANQL---SQDSVKVVPTDVTNKEEVDELIK----IAQQTFGGLDIVINSAGQMLSSKITDYQ-VDEWDSMIDVNIKGTLYTVQAALPTMLEQSSGHLINIASISGFEVTKSSTIYSATKAAVHTITQGLEKELAKTG-VKVTSISPGMVDTAITAAYNP----SDRKKLDPQDIAEAVLYALTQPSHVNVNEI</Hsp_hseq>
+      <Hsp_midline>M  LTDK  +VTGA  G+GE +A     EGA V+L  R+++KL+   + +          +  D+ + EE  E  +    IA+ T G LD +++ AG   +    D+Q V EW +   +N    +   +A  P + +     +I +    G         + A+KAA++ + +    E  + G ++   + PG +++      +P    S+RK     D+  A ++  +  S     EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|20140660|sp|Q92EK7.1|Y452_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase Lin0452 [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q92EK7</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.08175e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>TLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKE------FERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGG--FGASKAALNYLCKVAADEWERFG-NLRANVLVPGPINSP--QRIKSHPGEAGSER--KSYG---DVLPAFVWWA</Hsp_qseq>
+      <Hsp_hseq>TIKNKVIIITGASSGIGEATAILLAEKGAKLVLAARRVEKLEKIVQTI-KASSGEAIFAKTDVTKREDNKKLVELAIERY---------GKVDAIFLNAGIMPN-SPLSALKEDEWEQMIDINIKGVLNGIAAVLPSFIAQKSGHIIATSSVAG--LKAYPGGAVYGATKWAVRDLMEVLRMESAQEGTNIRTATIYPAAINTELLETITDKETEQGMTNLYKQYGVTPDRIASIVAYA</Hsp_hseq>
+      <Hsp_midline>T+ +K I++TGAS G+GE  A   A +GA ++L AR  +KLEK    I +A   E    + D+   E+ +       ER+         GK+D I   AG     SPL      EW     IN    +    A+ P         +I      G   KAY GG  +GA+K A+  L +V   E  + G N+R   + P  IN+   + I     E G     K YG   D + + V +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|34395995|sp|P46331.2|YXBG_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase YxbG [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P46331</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>2.629e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSP</Hsp_qseq>
+      <Hsp_hseq>MGRLENKTAVITGAATGIGQATAEVFANEGARVIIGDINKDQMEETVDAIRKNGGQ---AESFHLDVSDENSVKAFADQIKDAC-GTIDILFNNAGVDQEGGKVHEYPVDLFDRIIAVDLRGTFLCSKYLIPLMLENG-GSIINTSSMSGRAADLDRSGYNAAKGGITNLTKAMAIDYARNG-IRVNSISPGTIETP</Hsp_hseq>
+      <Hsp_midline>M  L +KT ++TGA+ G+G+  A+ +A EGA VI+   ++ ++E+  DAI + G     A  F L  ++E   + FA  I +A  G +D + + AG       +    V  +     ++       ++ L PL+ ++   S+I      G        G+ A+K  +  L K  A ++ R G +R N + PG I +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81693754|sp|Q5HD73.1|Y2488_STAAC</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase SACOL2488 [Staphylococcus aureus subsp. aureus COL] &gt;gi|122538683|sp|Q2FVD5.1|Y2778_STAA8 RecName: Full=Uncharacterized oxidoreductase SAOUHSC_02778 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123484507|sp|Q2FE21.1|Y2422_STAA3 RecName: Full=Uncharacterized oxidoreductase SAUSA300_2422 [Staphylococcus aureus subsp. aureus USA300]</Hit_def>
+  <Hit_accession>Q5HD73</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>3.12813e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEE-KEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>MTVLTDKVAVVTGAGSGIGEAIATLLHEEGAKVVLAGRNKEKLQNVANQL---SQDSVKVVPTDVTNKEEVDELIK----IAQQTFGGLDIVINSAGQMLSSKITDYQ-VDEWDSMIDVNIKGTLYTAQAALPTMLEQSSGHLINIASISGFEVTKSSTIYSATKAAVHTITQGLEKELAKTG-VKVTSISPGMVDT</Hsp_hseq>
+      <Hsp_midline>M  LTDK  +VTGA  G+GE +A     EGA V+L  R+++KL+   + +          +  D+ + EE  E  +    IA+ T G LD +++ AG   +    D+Q V EW +   +N    +   +A  P + +     +I +    G         + A+KAA++ + +    E  + G ++   + PG +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81705075|sp|Q7A3L9.1|Y2266_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase SA2266 [Staphylococcus aureus subsp. aureus N315] &gt;gi|81780930|sp|Q99RF5.1|Y2478_STAAM RecName: Full=Uncharacterized oxidoreductase SAV2478 [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>Q7A3L9</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>3.49202e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEE-KEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGEAGSERK</Hsp_qseq>
+      <Hsp_hseq>MTVLTDKIAVVTGAGSGIGEAIATLLHEEGAKVVLAGRNKDKLQNVANQL---AQDSVKVVPTDVTNKEEVDELMK----IAQQTFGGLDIVINSAGQMLSSKITDYQ-VDEWDSMIDVNIKGTLYTAQAALPTMLEQSSGHLINIASISGFEVTKSSTIYSATKAAVHTITQGLEKELAKTG-VKVTSISPGMVDTAITAAYNP----SDRK</Hsp_hseq>
+      <Hsp_midline>M  LTDK  +VTGA  G+GE +A     EGA V+L  R++ KL+   + +          +  D+ + EE  E  +    IA+ T G LD +++ AG   +    D+Q V EW +   +N    +   +A  P + +     +I +    G         + A+KAA++ + +    E  + G ++   + PG +++      +P    S+RK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>3.49202e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEE-KEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGEAGSERK</Hsp_qseq>
+      <Hsp_hseq>MTVLTDKIAVVTGAGSGIGEAIATLLHEEGAKVVLAGRNKDKLQNVANQL---AQDSVKVVPTDVTNKEEVDELMK----IAQQTFGGLDIVINSAGQMLSSKITDYQ-VDEWDSMIDVNIKGTLYTAQAALPTMLEQSSGHLINIASISGFEVTKSSTIYSATKAAVHTITQGLEKELAKTG-VKVTSISPGMVDTAITAAYNP----SDRK</Hsp_hseq>
+      <Hsp_midline>M  LTDK  +VTGA  G+GE +A     EGA V+L  R++ KL+   + +          +  D+ + EE  E  +    IA+ T G LD +++ AG   +    D+Q V EW +   +N    +   +A  P + +     +I +    G         + A+KAA++ + +    E  + G ++   + PG +++      +P    S+RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|14917052|sp|P37440.3|UCPA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Oxidoreductase UcpA [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P37440</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.10931e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATI--AEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGE-TPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQ</Hsp_qseq>
+      <Hsp_hseq>MGKLTGKTALITGALQGIGEGIARTFARHGANLILL-DISPEIEKLADELCGRGH------RCTAVVADVRDPASVAAAIKRAKEKEGRIDILVNNAGVCRLGSFLDMSD-DDRDFHIDINIKGVWNVTKAVLPEMIARKDGRIVMMSSVTGDMVADPGETAYALTKAAIVGLTKSLAVEYAQSG-IRVNAICPGYVRTPM</Hsp_hseq>
+      <Hsp_midline>M  LT KT L+TGA QG+GE +A+ +A  GA +IL+     ++EK  D +   GH      R   + A+ ++    AA I  A+  +G++D +V+ AG     S LD     +      IN      +T+A+ P +    D  ++ +    G+         +  +KAA+  L K  A E+ + G +R N + PG + +P </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.10931e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATI--AEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGE-TPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQ</Hsp_qseq>
+      <Hsp_hseq>MGKLTGKTALITGALQGIGEGIARTFARHGANLILL-DISPEIEKLADELCGRGH------RCTAVVADVRDPASVAAAIKRAKEKEGRIDILVNNAGVCRLGSFLDMSD-DDRDFHIDINIKGVWNVTKAVLPEMIARKDGRIVMMSSVTGDMVADPGETAYALTKAAIVGLTKSLAVEYAQSG-IRVNAICPGYVRTPM</Hsp_hseq>
+      <Hsp_midline>M  LT KT L+TGA QG+GE +A+ +A  GA +IL+     ++EK  D +   GH      R   + A+ ++    AA I  A+  +G++D +V+ AG     S LD     +      IN      +T+A+ P +    D  ++ +    G+         +  +KAA+  L K  A E+ + G +R N + PG + +P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|20178145|sp|Q8XBJ4.2|UCPA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Oxidoreductase UcpA [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8XBJ4</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.10931e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATI--AEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGE-TPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQ</Hsp_qseq>
+      <Hsp_hseq>MGKLTGKTALITGALQGIGEGIARTFARHGANLILL-DISPEIEKLADELCGRGH------RCTAVVADVRDPASVAAAIKRAKEKEGRIDILVNNAGVCRLGSFLDMSD-DDRDFHIDINIKGVWNVTKAVLPEMIARKDGRIVMMSSVTGDMVADPGETAYALTKAAIVGLTKSLAVEYAQSG-IRVNAICPGYVRTPM</Hsp_hseq>
+      <Hsp_midline>M  LT KT L+TGA QG+GE +A+ +A  GA +IL+     ++EK  D +   GH      R   + A+ ++    AA I  A+  +G++D +V+ AG     S LD     +      IN      +T+A+ P +    D  ++ +    G+         +  +KAA+  L K  A E+ + G +R N + PG + +P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|17433744|sp|P25145.2|Y432_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase Lmo0432; AltName: Full=ORFA [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>P25145</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>6.76041e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>TLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKE------FERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGG--FGASKAALNYLCKVAADEWERFG-NLRANVLVPGPINSP--QRIKSHPGEAG--SERKSYG---DVLPAFVWWA</Hsp_qseq>
+      <Hsp_hseq>TIKNKVIIITGASSGIGKATALLLAEKGAKLVLAARRVEKLEKIVQTI-KANSGEAIFAKTDVTKREDNKKLVELAIERY---------GKVDAIFLNAGIMPN-SPLSALKEDEWEQMIDINIKGVLNGIAAVLPSFIAQKSGHIIATSSVAG--LKAYPGGAVYGATKWAVRDLMEVLRMESAQEGTNIRTVTIYPAAINTELLETITDKETEQGMTSLYKQYGITPDRIASIVAYA</Hsp_hseq>
+      <Hsp_midline>T+ +K I++TGAS G+G+  A   A +GA ++L AR  +KLEK    I +A   E    + D+   E+ +       ER+         GK+D I   AG     SPL      EW     IN    +    A+ P         +I      G   KAY GG  +GA+K A+  L +V   E  + G N+R   + P  IN+   + I     E G  S  K YG   D + + V +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|167016876|sp|A4IGM4.1|DHI1L_XENTR</Hit_id>
+  <Hit_def>RecName: Full=Hydroxysteroid 11-beta-dehydrogenase 1-like protein; AltName: Full=11-beta-hydroxysteroid dehydrogenase type 3; Short=11-DH3; Short=11-beta-HSD3; Flags: Precursor [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>A4IGM4</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>8.88093e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>TLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQ--GKLDGIVHCAGYFYALSPLDFQTVAEW---VNQYR----INTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAAL</Hsp_qseq>
+      <Hsp_hseq>TLANTRVLVTGASTGIGEEIAYHYARAGAKLVLTARREHALQEVKSRCLELGAKNVFLVVADMASHNARE-----QVVAEALSALGGLDYLV--------LNHIGWTPFKMWDGDVNHTRWLMEVNFLSYIHLATAALPYLTQS-KGSIIVLSSLTAKTPIPYTTSYAASKFAL</Hsp_hseq>
+      <Hsp_midline>TL +  +LVTGAS G+GE++A  YA  GA ++L AR +  L++     +E G    F +  D+ S   +E       +AEA    G LD +V        L+ + +     W   VN  R    +N ++ + L  A  P L QS   S+I +     +TP  Y   + ASK AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81696419|sp|Q6GDV6.1|Y2567_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase SAR2567 [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GDV6</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.01258e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>MTVLTDKIAVVTGAGSGIGEAIATLLHEEGAKVVLAGRNKDKLQNVANQLAQD------SVKVVPTDVTKKEEVDELIKMAQQTFGGLDIVINSAGQMLSSKITDYQ-VDEWDSMIDVNIKGTLYTAKAALPTMLEQSSGHLINIASISGFEVTKSSTIYSATKAAVHTITQGLEKELAKTG-VKVTSISPGMVDT</Hsp_hseq>
+      <Hsp_midline>M  LTDK  +VTGA  G+GE +A     EGA V+L  R++ KL+   + + +       +++       +KE       +A+ T G LD +++ AG   +    D+Q V EW +   +N    +   +A  P + +     +I +    G         + A+KAA++ + +    E  + G ++   + PG +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|308153603|sp|Q5RCF8.3|DHRS4_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 4; AltName: Full=NADPH-dependent carbonyl reductase/NADP-retinol dehydrogenase; Short=CR; Short=PHCR; AltName: Full=NADPH-dependent retinol dehydrogenase/reductase; Short=NDRD; AltName: Full=Peroxisomal short-chain alcohol dehydrogenase; Short=PSCD [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RCF8</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>6.38285e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LANKVALVTASTDGIGFAIARRLAQDGAHVVVSSRKQQNVDQAVATLQGEGLSVTGTV-CHVGKAEDR--ERLVAT-AVKLHGGIDILVSNAAVNPFFGSLMDVTEEVWDKTLDINVKAPALMTKAVVPEMEKRGGGSVVIVSSIAAFSPSPGFSPYNVSKTALLGLTKTLAIELAPR-NIRVNCLAPGLIKT</Hsp_hseq>
+      <Hsp_midline>L +K  LVT ++ G+G  +A+  A +GA V++ +R Q+ +++A   +   G      +   +  AE++  ER  AT A    G +D +V  A        L   T   W     IN  AP  +T+A+ P +++    SV+ V      +P   +  +  SK AL  L K  A E     N+R N L PG I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81669157|sp|O34782.1|YVRD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase YvrD [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34782</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>7.80729e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQ-GKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGP</Hsp_qseq>
+      <Hsp_hseq>LKEKLVLITGSTSGIGKAAAKSFLQEGAAVIVNGRKQETVDRTIEEL--SGYGTVHGAAADLSKTDEA-----AAFIEKVNEIGDIDILVNNLGFFEVKDFADV-TDEEWNQYFEVNVMSAVRTSRHFLPKMLAKNSGRILNIASEAGVKPLPTMIPYSMTKTALISLSRGMA-EMTKGTNVTVNSVLPGP</Hsp_hseq>
+      <Hsp_midline>L +K +L+TG++ G+G+  AK++  EGA VI+  R Q+ +++  + +  +G+        DL   +E      AA I +  + G +D +V+  G+F      D  T  EW   + +N ++ +  +R   P +       ++ +    G  P      +  +K AL  L +  A E  +  N+  N ++PGP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|308153604|sp|Q9BTZ2.3|DHRS4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 4; AltName: Full=NADPH-dependent carbonyl reductase/NADP-retinol dehydrogenase; Short=CR; Short=PHCR; AltName: Full=NADPH-dependent retinol dehydrogenase/reductase; Short=NRDR; Short=humNRDR; AltName: Full=Peroxisomal short-chain alcohol dehydrogenase; Short=PSCD; AltName: Full=SCAD-SRL; AltName: Full=Short-chain dehydrogenase/reductase family member 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9BTZ2</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.20868e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LANKVALVTASTDGIGFAIARRLAQDGAHVVVSSRKQQNVDQAVATLQGEGLSVTGTV-CHVGKAEDR--ERLVAT-AVKLHGGIDILVSNAAVNPFFGSIMDVTEEVWDKTLDINVKAPALMTKAVVPEMEKRGGGSVVIVSSIAAFSPSPGFSPYNVSKTALLGLTKTLAIELAPR-NIRVNCLAPGLIKT</Hsp_hseq>
+      <Hsp_midline>L +K  LVT ++ G+G  +A+  A +GA V++ +R Q+ +++A   +   G      +   +  AE++  ER  AT A    G +D +V  A        +   T   W     IN  AP  +T+A+ P +++    SV+ V      +P   +  +  SK AL  L K  A E     N+R N L PG I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|29336564|sp|Q9LBG2.1|LVR_LEIAQ</Hit_id>
+  <Hit_def>RecName: Full=Levodione reductase; AltName: Full=(6R)-2,2,6-trimethyl-1,4-cyclohexanedione reductase [Leifsonia aquatica]</Hit_def>
+  <Hit_accession>Q9LBG2</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.21074e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAP-MGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSP</Hsp_qseq>
+      <Hsp_hseq>FTDRVVLITGGGSGLGRATAVRLAAEGAKLSLVDVSSEGLEASKAAVLETA-PDAEVLTTVADVSDEAQVEAYVTATTERF-GRIDGFFNNAGIEGKQNPTESFTAAEFDKVVSINLRGVFLGLEKVL-KIMREQGSGMVVNTASVGGIRGIGNQSGYAAAKHGVVGLTRNSAVEYGRYG-IRINAIAPGAIWTP</Hsp_hseq>
+      <Hsp_midline> TD+ +L+TG   GLG   A   AAEGA + LV    + LE +  A++E   P+   +      ++E + E +     E   G++DG  + AG     +P +  T AE+     IN     +GL + L  ++++     V+      G        G+ A+K  +  L + +A E+ R+G +R N + PG I +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|487523270|sp|P0DKC6.1|HSD1B_ARATH</Hit_id>
+  <Hit_def>RecName: Full=11-beta-hydroxysteroid dehydrogenase 1B; AltName: Full=17-beta-hydroxysteroid dehydrogenase 1B; AltName: Full=Hydroxysteroid dehydrogenase 1; Short=AtHSD1 [Arabidopsis thaliana] &gt;gi|487523350|sp|P0DKC5.1|HSD1A_ARATH RecName: Full=11-beta-hydroxysteroid dehydrogenase 1A; AltName: Full=17-beta-hydroxysteroid dehydrogenase 1A; AltName: Full=Hydroxysteroid dehydrogenase 1; Short=AtHSD1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P0DKC6</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.51145e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQ---GKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LYGKVVLITGASSGIGEQLAYEYACRGACLALTARRKNRLEEVAEIARELGSPNVVTVHADVSKPDD------CRRIVDDTITHFGRLDHLVNNAGMTQISMFENIEDITRTKAVLDTNFWGSVYTTRAALPYLRQS-NGKIVAMSSSAAWLTAPRMSFYNASKAAL--LSFFETMRIELGGDVHITIVTPGYIES</Hsp_hseq>
+      <Hsp_midline>L  K +L+TGAS G+GEQ+A  YA  GA + L AR + +LE+  +   E G P    +  D+   ++         I + T    G+LD +V+ AG        + + +         N    +  TRA  P L+QS +  ++ +  S           + ASKAAL  L        E  G++   ++ PG I S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|62286565|sp|Q8GAV9.1|CPNA_COMS9</Hit_id>
+  <Hit_def>RecName: Full=Cyclopentanol dehydrogenase [Comamonas sp. NCIMB 9872] &gt;gi|62286574|sp|Q937L4.1|CPNA_COMTE RecName: Full=Cyclopentanol dehydrogenase [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>Q8GAV9</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.78528e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MPTLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSP--QRIKSHPGEA</Hsp_qseq>
+      <Hsp_hseq>MGRVNDKVVLVTGGAMGMGLTHCTLLAREGATVYLSDMNEELGHQAVAEIRRQGGKAHF-LHLDVTN--ENHWTGAVDTIL-AESDRLDALVNNAGIL-TLKPVQDTSNEEWDRIFEINVRSVFLGTRAVIEPMRKAHKGCIVNVSSIYGLVGAPGAAAYEASKGAVRLFTKACAVDLAPF-NIRVNSVHPGVIATPMTQQILDAPQSA</Hsp_hseq>
+      <Hsp_midline>M  + DK +LVTG + G+G       A EGATV L   +++   +A   I   G    F +  D+ +  E  +     TI  A   +LD +V+ AG    L P+   +  EW   + IN  +    TRA+   ++++    ++ V   +G         + ASK A+    K  A +   F N+R N + PG I +P  Q+I   P  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|84027955|sp|P0AG85.1|YGHA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase YghA [Escherichia coli O157:H7] &gt;gi|84027956|sp|P0AG84.1|YGHA_ECOLI RecName: Full=Uncharacterized oxidoreductase YghA [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AG85</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.80677e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDA--IVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAA-LNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGEAGSERKSYG------------DVLPAFVWWASAESKGRSGEI</Hsp_qseq>
+      <Hsp_hseq>LKDRKALVTGGDSGIGRAAAIAYAREGADV-AISYLPVEEEDAQDVKKIIEECGRKAVLLPGDL---SDEKFARSLVHEAHKALGGLDIMALVAGKQVAIPDIADLTSEQFQKTFAINVFALFWLTQEAIPLLPKG--ASIITTSSIQAYQPSPHLLDYAATKAAILNYSRGLAKQVAEK--GIRVNIVAPGPIWTALQISG--GQTQDKIPQFGQQTPMKRAGQPAELAPVYVYLASQESSYVTAEV</Hsp_hseq>
+      <Hsp_midline>L D+  LVTG   G+G   A AYA EGA V  ++    + E A D   I+E    +   +  DL    +++F R     A    G LD +   AG   A+  +   T  ++   + IN  A   LT+   PLL +   AS+I         P  +   + A+KAA LNY   +A    E+   +R N++ PGPI +  +I    G+   +   +G            ++ P +V+ AS ES   + E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.80677e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDA--IVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAA-LNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGEAGSERKSYG------------DVLPAFVWWASAESKGRSGEI</Hsp_qseq>
+      <Hsp_hseq>LKDRKALVTGGDSGIGRAAAIAYAREGADV-AISYLPVEEEDAQDVKKIIEECGRKAVLLPGDL---SDEKFARSLVHEAHKALGGLDIMALVAGKQVAIPDIADLTSEQFQKTFAINVFALFWLTQEAIPLLPKG--ASIITTSSIQAYQPSPHLLDYAATKAAILNYSRGLAKQVAEK--GIRVNIVAPGPIWTALQISG--GQTQDKIPQFGQQTPMKRAGQPAELAPVYVYLASQESSYVTAEV</Hsp_hseq>
+      <Hsp_midline>L D+  LVTG   G+G   A AYA EGA V  ++    + E A D   I+E    +   +  DL    +++F R     A    G LD +   AG   A+  +   T  ++   + IN  A   LT+   PLL +   AS+I         P  +   + A+KAA LNY   +A    E+   +R N++ PGPI +  +I    G+   +   +G            ++ P +V+ AS ES   + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|14548232|sp|Q9RPT1.1|RHLG_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Rhamnolipids biosynthesis 3-oxoacyl-[acyl-carrier-protein] reductase; AltName: Full=3-ketoacyl-acyl carrier protein reductase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9RPT1</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.10737e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>TLTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDAS----VIFVGESHGETP---KAYWGGFGASKAALNYLCKVAADEWERFG-NLRANVLVPGPINSPQRIKSH</Hsp_qseq>
+      <Hsp_hseq>SLAGRIALVTGGSRGIGQMIAQGLLEAGARVFICARDAEACADTATRLSAYGDCQ--AIPADLSS--EAGARRLAQALGELS-ARLDILVNNAGTSWG-AALESYPVSGWEKVMQLNVTSVFSCIQQLLPLLRRSASAENPARVINIGSVAGISAMGEQAY--AYGPSKAALHQLSRMLAKEL--VGEHINVNVIAPGRF--PSRMTRH</Hsp_hseq>
+      <Hsp_midline>+L  +  LVTG S+G+G+ +A+     GA V + AR  +        +   G  +  AI  DL S  E    R A  + E +  +LD +V+ AG  +  + L+   V+ W    ++N  +     + L PLL++S  A     VI +G   G +    +AY   +G SKAAL+ L ++ A E    G ++  NV+ PG    P R+  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|162416270|sp|Q6IAN0.2|DRS7B_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 7B [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6IAN0</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.67421e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHP------EPFAIRFDLMSAEEKEFERFAATIAEATQ--GKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LRNAVVVITGATSGLGKECAKVFYAAGAKLVLCGRNGGALEELIRELT-ASHATKVQTHKPYLVTFDLTDSGA-----IVAAAAEILQCFGYVDILVNNAGISYRGTIMD-TTVDVDKRVMETNYFGPVALTKALLPSMIKRRQGHIVAISSIQGKMSIPFRSAYAASKHATQAFFDCLRAEMEQY-EIEVTVISPGYIHT</Hsp_hseq>
+      <Hsp_midline>L +  +++TGA+ GLG++ AK + A GA ++L  R+   LE+    +  A H       +P+ + FDL  +         A  AE  Q  G +D +V+ AG  Y  + +D  TV         N   P+ LT+AL P + +     ++ +    G+    +   + ASK A          E E++  +   V+ PG I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|162416286|sp|Q5R6U1.2|DRS7B_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 7B [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R6U1</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.67421e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHP------EPFAIRFDLMSAEEKEFERFAATIAEATQ--GKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LRNAVVVITGATSGLGKECAKVFYAAGAKLVLCGRNGGALEELIRELT-ASHATKVQTHKPYLVTFDLTDSGA-----IVAAAAEILQCFGYVDILVNNAGISYRGTIMD-TTVDVDKRVMETNYFGPVALTKALLPSMIKRRQGHIVAISSIQGKISIPFRSAYAASKHATQAFFDCLRAEMEQY-EIEVTVISPGYIHT</Hsp_hseq>
+      <Hsp_midline>L +  +++TGA+ GLG++ AK + A GA ++L  R+   LE+    +  A H       +P+ + FDL  +         A  AE  Q  G +D +V+ AG  Y  + +D  TV         N   P+ LT+AL P + +     ++ +    G+    +   + ASK A          E E++  +   V+ PG I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|162416309|sp|Q7Q732.3|DHRS7_ANOGA</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family protein 7-like [Anopheles gambiae]</Hit_def>
+  <Hit_accession>Q7Q732</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.91811e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEA-----GHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGEAGS</Hsp_qseq>
+      <Hsp_hseq>LNGKVVLITGASSGLGEALAHSFFLAGCKVVLAARRKDELERVRKDLLELHATVPTHP-PIILPLDL--SDLNSIGGKVQSVLE-IHGAIDILVNNGGISVRGDALSTAIDVD-IRIMLVNYFGSVALTKACLPSMMARKEGRIVSISSVQGKFAIPHRSAYSASKHAMQAFCDSLRAEVAK-DNIKVTLISPGYINTALSLNALTGTGAS</Hsp_hseq>
+      <Hsp_midline>L  K +L+TGAS GLGE +A ++   G  V+L AR + +LE+    ++E       HP P  +  DL  ++         ++ E   G +D +V+  G       L      + +    +N    + LT+A  P +    +  ++ +    G+    +   + ASK A+   C     E  +  N++  ++ PG IN+   + +  G   S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|357529068|sp|Q5BE65.2|TSC10_EMENI</Hit_id>
+  <Hit_def>RecName: Full=3-ketodihydrosphingosine reductase tsc10; AltName: Full=3-dehydrosphinganine reductase; AltName: Full=KDS reductase [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>Q5BE65</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.04009e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>KTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAE---EKEFERFAATIAEATQGKLDGIVHCA------GYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPL----LKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRAN</Hsp_qseq>
+      <Hsp_hseq>RTVVITGGSEGMGKAVACQLAQKGANIVIVARTLQKLEEAIEAI-KGSAANVNKQRFHYISADLTKPEECERIMTEVTEWNDGMPPDIVWCCAGYCTPGYFVETSVQTLKDQMDTVYWTAANTAHAI-LRKWLVPINPSHQRPLPRRHLIFTCSTLAFVPIAGYAPYSPAKAAMRALSDTLCQEIEVYNGSRAS</Hsp_hseq>
+      <Hsp_midline>+T+++TG S+G+G+ VA   A +GA +++VAR  +KLE+A +AI +         RF  +SA+    +E ER    + E   G    IV C       GYF   S    +   + V     NT   + L + L P+     +  P   +IF   +    P A +  +  +KAA+  L      E E +   RA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|57013229|sp|Q83RE8.2|YDFG_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent L-serine/L-allo-threonine dehydrogenase YdfG [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q83RE8</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>3.94405e-10</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>ILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKA-----ALNYLCKVAADEWERFGNLRANVLVPGPIN----SPQRIKSHPGEAGSERKSYGDVLPAF-------VWWASA</Hsp_qseq>
+      <Hsp_hseq>VLVTGATAGFGECITRRFIQQGHKVIATGRRQERLQELTDELGDNLYIAQLDVR------NRAAIEEMLASLP-AEWSNIDILVNNAGLALGMEPAHKASVEDWETMIDTNNKGLVYMTRAVLPGMVERNHGHIINIGSTAGSWPYAGGNVYGATKAFVRQFSLNLRTDLHGT------TVRVTDIEPGLVGGTEFSNVRFK---GDDGKAEKTYQNTVALTPEDVSEAVWWVST</Hsp_hseq>
+      <Hsp_midline>+LVTGA+ G GE + + +  +G  VI   R Q++L++  D + +  +     +R           E   A++  A    +D +V+ AG    + P    +V +W      N    + +TRA+ P + +     +I +G + G  P A    +GA+KA     +LN    +          +R   + PG +     S  R K   G+ G   K+Y + +          VWW S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|75313891|sp|Q9STY7.1|HSD3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=11-beta-hydroxysteroid dehydrogenase-like 3; AltName: Full=17-beta-hydroxysteroid dehydrogenase-like 3; AltName: Full=Hydroxysteroid dehydrogenase 3; Short=AtHSD3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9STY7</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>4.66776e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>KTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEE-KEFERFAATIAEATQ--GKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>KVVLITGASSGIGEHVAYEYAKKGAYLALVARRRDRLEIVAETSRQLGSGNVIIIPGDVSNVEDCKKF------IDETIRHFGKLDHLINNAGVFQTVLFEDFTQIQDANPIMDINFWGTTYITYFAIPHLRKS-KGKIVAITSGSANIPLPLASIYAASKAALLRFFETLRIELS--PDIKITIVLPGVVST</Hsp_hseq>
+      <Hsp_midline>K +L+TGAS G+GE VA  YA +GA + LVAR + +LE   +   + G      I  D+ + E+ K+F      I E  +  GKLD +++ AG F  +   DF  + +      IN      +T    P L++S    ++ +       P      + ASKAAL    +    E     +++  +++PG +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>4.66776e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>KTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEE-KEFERFAATIAEATQ--GKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>KVVLITGASSGIGEHVAYEYAKKGAYLALVARRRDRLEIVAETSRQLGSGNVIIIPGDVSNVEDCKKF------IDETIRHFGKLDHLINNAGVFQTVLFEDFTQIQDANPIMDINFWGTTYITYFAIPHLRKS-KGKIVAITSGSANIPLPLASIYAASKAALLRFFETLRIELS--PDIKITIVLPGVVST</Hsp_hseq>
+      <Hsp_midline>K +L+TGAS G+GE VA  YA +GA + LVAR + +LE   +   + G      I  D+ + E+ K+F      I E  +  GKLD +++ AG F  +   DF  + +      IN      +T    P L++S    ++ +       P      + ASKAAL    +    E     +++  +++PG +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|408360290|sp|Q99LB2.3|DHRS4_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 4; AltName: Full=NADPH-dependent carbonyl reductase/NADP-retinol dehydrogenase; Short=CR; Short=PHCR; AltName: Full=NADPH-dependent retinol dehydrogenase/reductase; Short=NDRD; Short=mouNRDR; AltName: Full=Peroxisomal short-chain alcohol dehydrogenase; Short=PSCD [Mus musculus]</Hit_def>
+  <Hit_accession>Q99LB2</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>4.85221e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPL--DFQTVAE--WVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LSNKVALVTASTDGIGFAIARRLAEDGAHVVVSSRKQQNVDRAV-ATLQGEGLSVTGIVCHVGKAEDR--EKLITTALKRHQG-IDILVSNA----AVNPFFGNLMDVTEEVWDKVLSINVTATAMMIKAVVPEMEKRGGGSVVIVGSVAGFTRFPSLGPYNVSKTALLGLTKNFAAELAP-KNIRVNCLAPGLIKT</Hsp_hseq>
+      <Hsp_midline>L++K  LVT ++ G+G  +A+  A +GA V++ +R Q+ +++A  A ++        I   +  AE++  E+   T  +  QG +D +V  A    A++P   +   V E  W     IN  A   + +A+ P +++    SV+ VG   G T     G +  SK AL  L K  A E     N+R N L PG I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|124053461|sp|Q9X6U2.2|BDHA_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=D-beta-hydroxybutyrate dehydrogenase; Short=BDH; AltName: Full=3-hydroxybutyrate dehydrogenase; Short=3-HBDH [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q9X6U2</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.38758e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMS--AEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSP</Hsp_qseq>
+      <Hsp_hseq>LNGKTALVTGSTSGIGLGIAKALAAQGANIIVNGFGDADAAKAE--IAQAGQGIRVGYHGADMSKAAEIEDMMRY----AQSDFGGADILVNNAGIQHVAAIEDFPP-ERWDAIIAINLTSAFHTTRLALPGMKQKDWGRIINVASTHGLVASAQKSAYVAAKHGIVGFTKVTALETAQTG-VTANAICPGWVLTP</Hsp_hseq>
+      <Hsp_midline>L  KT LVTG++ G+G  +AKA AA+GA +I+         KA   I +AG           MS  AE ++  R+    A++  G  D +V+ AG  +  +  DF     W     IN  +    TR   P +KQ     +I V  +HG    A    + A+K  +    KV A E  + G + AN + PG + +P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.38758e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMS--AEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSP</Hsp_qseq>
+      <Hsp_hseq>LNGKTALVTGSTSGIGLGIAKALAAQGANIIVNGFGDADAAKAE--IAQAGQGIRVGYHGADMSKAAEIEDMMRY----AQSDFGGADILVNNAGIQHVAAIEDFPP-ERWDAIIAINLTSAFHTTRLALPGMKQKDWGRIINVASTHGLVASAQKSAYVAAKHGIVGFTKVTALETAQTG-VTANAICPGWVLTP</Hsp_hseq>
+      <Hsp_midline>L  KT LVTG++ G+G  +AKA AA+GA +I+         KA   I +AG           MS  AE ++  R+    A++  G  D +V+ AG  +  +  DF     W     IN  +    TR   P +KQ     +I V  +HG    A    + A+K  +    KV A E  + G + AN + PG + +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|48428882|sp|Q9GKX2.1|DHRS4_RABIT</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 4; AltName: Full=NADPH-dependent carbonyl reductase/NADP-retinol dehydrogenase; Short=CR; Short=PHCR; AltName: Full=NADPH-dependent retinol dehydrogenase/reductase; Short=NDRD; AltName: Full=Peroxisomal short-chain alcohol dehydrogenase; Short=PSCD; AltName: Full=rabNRDR, partial [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>Q9GKX2</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.53211e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LANKVAIVTASTDGIGLAIARRLAQDGAHVVISSRKQQNVDRAVAALQAEGLSVTGTV-CHVGKAEDR--ERLVAT-ALNLHGGIDILVSNAAVNPFFGKLMDVTEEVWDKILDINVKAMALMTKAVVPEMEKRGGGSVVIVASIAAFNPFSGLGPYNVSKTALVGLTKNLALELA-AQNIRVNCLAPGLIKT</Hsp_hseq>
+      <Hsp_midline>L +K  +VT ++ G+G  +A+  A +GA V++ +R Q+ +++A  A+   G      +   +  AE++  ER  AT A    G +D +V  A        L   T   W     IN  A   +T+A+ P +++    SV+ V       P +  G +  SK AL  L K  A E     N+R N L PG I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|21542423|sp|Q09517.2|LE767_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Very-long-chain 3-oxooacyl-coA reductase let-767; AltName: Full=Lethal protein 767; AltName: Full=Putative steroid dehydrogenase let-767; AltName: Full=Short-chain dehydrogenase 10 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q09517</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.46133e-10</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>LVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEA-GHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFY----ALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFG</Hsp_qseq>
+      <Hsp_hseq>VVTGATDGIGKAYAFELARRGFNVLLVSRTQSKLDETKKEILEKYSSIEVRTAAFDFTNAAPSAYKDLLATLNQVEIGVL---INNVGMSYEYPDVLHKVD-GGIERLANITTINTLPPTLLSAGILPQMVARKAGVIVNVGSSAGANQMALWAVYSATKKYVSWLTAILRKEYEHQG</Hsp_hseq>
+      <Hsp_midline>+VTGA+ G+G+  A   A  G  V+LV+R Q KL++    I+E     E     FD  +A    ++   AT+ +   G L   ++  G  Y     L  +D   +    N   INT+ P  L+  + P +       ++ VG S G    A W  + A+K  +++L  +   E+E  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|3915581|sp|Q22230.1|YVX3_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase T05C12.3 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q22230</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>8.33604e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVE--AGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIV--HCAGYFYA----LSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPI</Hsp_qseq>
+      <Hsp_hseq>LKGKVALVTGGGTGIGKAIATTFAHLGASVAIAARRMEKLEQTAEEIMKTTGGICEPFRMDIKDPGMVSDTFDKI-----DKKFGKHPDILVNNAAGNFIMATERLSPNAHGTIIDIVLKGTMNVTTELGKR-----CIQSKTGASVTSITAAYARSGAPFIVPSAVSKAGVEIMTKSLATEWSKYG-LRFNAVSPGPI</Hsp_hseq>
+      <Hsp_midline>L  K  LVTG   G+G+ +A  +A  GA+V + AR  +KLE+  + I++   G  EPF +           F++      +   GK   I+  + AG F      LSP    T+ + V +  +N    +G        ++    ASV  +  ++  +   +      SKA +  + K  A EW ++G LR N + PGPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|487523351|sp|P0DKC7.1|HSD4A_ARATH</Hit_id>
+  <Hit_def>RecName: Full=11-beta-hydroxysteroid dehydrogenase-like 4A; AltName: Full=17-beta-hydroxysteroid dehydrogenase-like 4A; AltName: Full=Hydroxysteroid dehydrogenase 4; Short=AtHSD4 [Arabidopsis thaliana] &gt;gi|487524327|sp|Q9LUF2.2|HSD4B_ARATH RecName: Full=11-beta-hydroxysteroid dehydrogenase-like 4B; AltName: Full=17-beta-hydroxysteroid dehydrogenase-like 4B; AltName: Full=Hydroxysteroid dehydrogenase 7; Short=AtHSD7 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P0DKC7</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>9.02721e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>KTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAA-TIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAAL</Hsp_qseq>
+      <Hsp_hseq>KVVIITGSSSGIGEHLAYEYARRGAYLTLVARREDRLQVVADRCRKLGSPDVAVVRGDV--SVIKDCKRFVQETISRF--GRLDHLVNNAGIAEAKFFEDYSEISDVLPIVNTNFWGPVYATHFAIPHLKKT-KGKIIAVASPAGWSGVPRMSIYAASKAAM</Hsp_hseq>
+      <Hsp_midline>K +++TG+S G+GE +A  YA  GA + LVAR + +L+   D   + G P+   +R D+  +  K+ +RF   TI+    G+LD +V+ AG   A    D+  +++ +     N   P+  T    P LK++    +I V    G +       + ASKAA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|34395851|sp|Q9CXR1.2|DHRS7_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 7; AltName: Full=Retinal short-chain dehydrogenase/reductase 4; Short=retSDR4; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9CXR1</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.0841e-09</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGH---PEPFAIRFDLMSAEEKEFERFAATIAEATQ-GKLDGIVHCAGYFYALSPL--DFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LTDMVVWVTGASSGIGEELAFQLSKLGVSLVLSARRAQELERVKRRCLENGNLKEKDILVLPLDLTDTSSHE----AATKAVLQEFGKIDILVNNGGRSQRSLVLETNLDVFKELIN---LNYIGTVSLTKCVLPHMIERKQGKIVTVNSIAGIASVSLSSGYCASKHALRGFFNALHSELGQYPGITFCNVYPGPVQS</Hsp_hseq>
+      <Hsp_midline>LTD  + VTGAS G+GE++A   +  G +++L AR  ++LE+     +E G+    +   +  DL      E    AAT A   + GK+D +V+  G       L  +     E +N   +N +  + LT+ + P + +     ++ V    G    +   G+ ASK AL         E  ++  +    + PGP+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|57013247|sp|Q8FHD2.2|YDFG_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent L-serine/L-allo-threonine dehydrogenase YdfG [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FHD2</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.24353e-09</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>ILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKA-----ALNYLCKVAADEWERFGNLRANVLVPGPIN----SPQRIKSHPGEAGSERKSYGDVLPAF-------VWWAS</Hsp_qseq>
+      <Hsp_hseq>VLVTGATAGFGECITRRFIQQGHKVIATGRRQERLQELKDELGDNLYIAQLDVR------NRAAIEEMLASLP-AEWSNIDILVNNAGLALGMEPAHKASIEDWETMIDTNNKGLVYMTRAVLPGMVERNHGHIINIGSTAGSWPYAGGNVYGATKAFVRQFSLNLRTDLHGTA------VRVTDIEPGLVGGTEFSNVRFK---GDDGKAEKTYQNTVALTPEDVSEAVWWVS</Hsp_hseq>
+      <Hsp_midline>+LVTGA+ G GE + + +  +G  VI   R Q++L++  D + +  +     +R           E   A++  A    +D +V+ AG    + P    ++ +W      N    + +TRA+ P + +     +I +G + G  P A    +GA+KA     +LN    +          +R   + PG +     S  R K   G+ G   K+Y + +          VWW S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|218526905|sp|B2B3L4.2|MKAR_PODAN</Hit_id>
+  <Hit_def>RecName: Full=Very-long-chain 3-oxoacyl-CoA reductase; AltName: Full=3-ketoacyl-CoA reductase; Short=3-ketoreductase; Short=KAR; AltName: Full=Microsomal beta-keto-reductase [Podospora anserina S mat+]</Hit_def>
+  <Hit_accession>B2B3L4</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.3173e-09</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEK-AYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTV--AEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFG-----------------NLRANVLVPGPINSPQRIKSHPGEAG</Hsp_qseq>
+      <Hsp_hseq>VVTGASDGLGKEFASQLASKGFNLVLVSRTQSKLDALAKELRLKWSGLETKVLAMDFSQDNDEDYERLAKLIAGLDVGIL---INNVGQSHSI-PVSFLDTEKTELQSIVTINCLGTLKTTKVVAPILAARKKGLILTMGSFAGTMPTPYLATYSGSKAFLQHWSSSLASELAPHGVDVQFVISYLVTTAMSKVRRTSLLIPGP---KQFVKAALGKIG</Hsp_hseq>
+      <Hsp_midline>+VTGAS GLG++ A   A++G  ++LV+R Q KL+  A +  ++    E   +  D     ++++ER A  IA    G L   ++  G  +++ P+ F      E  +   IN +  +  T+ + P+L       ++ +G   G  P  Y   +  SKA L +     A E    G                   R ++L+PGP    Q +K+  G+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|123909150|sp|Q0VFE7.1|DRS7B_XENTR</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 7B [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>Q0VFE7</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.68441e-09</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKL-----EKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGEAGS</Hsp_qseq>
+      <Hsp_hseq>LQDAVVVITGATSGLGRECAKVFYAAGTRLVLCGRSEEGLKNLVQELSQMRIKSAQLHKPHMVIFDLSDVE--AVNSAANEILHLT-GRVDILINNAGISYRGTILDTKVSVDRM-VMDTNYFGPVALTKALIPSMIKNRRGHIVVISSVQGKISIPFRSAYSASKHATQAFFDCLRAEMSPY-EIDVTVVNPGYIKTNLSLNAVTGDGSN</Hsp_hseq>
+      <Hsp_midline>L D  +++TGA+ GLG + AK + A G  ++L  R ++ L     E +   I  A   +P  + FDL   E       A  I   T G++D +++ AG  Y  + LD +   + +     N   P+ LT+AL P + ++    ++ +    G+    +   + ASK A          E   +  +   V+ PG I +   + +  G+  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.68441e-09</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKL-----EKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINSPQRIKSHPGEAGS</Hsp_qseq>
+      <Hsp_hseq>LQDAVVVITGATSGLGRECAKVFYAAGTRLVLCGRSEEGLKNLVQELSQMRIKSAQLHKPHMVIFDLSDVE--AVNSAANEILHLT-GRVDILINNAGISYRGTILDTKVSVDRM-VMDTNYFGPVALTKALIPSMIKNRRGHIVVISSVQGKISIPFRSAYSASKHATQAFFDCLRAEMSPY-EIDVTVVNPGYIKTNLSLNAVTGDGSN</Hsp_hseq>
+      <Hsp_midline>L D  +++TGA+ GLG + AK + A G  ++L  R ++ L     E +   I  A   +P  + FDL   E       A  I   T G++D +++ AG  Y  + LD +   + +     N   P+ LT+AL P + ++    ++ +    G+    +   + ASK A          E   +  +   V+ PG I +   + +  G+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81889413|sp|Q5RJY4.1|DRS7B_RAT</Hit_id>
+  <Hit_def>RecName: Full=Dehydrogenase/reductase SDR family member 7B [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q5RJY4</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.86289e-09</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>LTDKTILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHP-----EPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQ-YRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKAALNYLCKVAADEWERFGNLRANVLVPGPINS</Hsp_qseq>
+      <Hsp_hseq>LRNAVVVVTGATSGLGKECARVFHAAGAKVVLCGRNVKALEEFTRELADSSSSQGQTHQPCVVTFDL--ADPGAIAPAAAEILQCF-GYVDILINNAGISYRGAISD--TIVDVDRKVMEINYFGPVALTKALLPSMVERKRGHIVAISSIQGKISIPFRSAYAASKHATQAFFDCLRAEMKD-SDIEVTVISPGYIHT</Hsp_hseq>
+      <Hsp_midline>L +  ++VTGA+ GLG++ A+ + A GA V+L  R+ K LE+    + ++        +P  + FDL  A+       AA I +   G +D +++ AG  Y  +  D  T+ +   +   IN   P+ LT+AL P + +     ++ +    G+    +   + ASK A          E +   ++   V+ PG I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|57013254|sp|Q8X505.1|YDFG_ECO57</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent L-serine/L-allo-threonine dehydrogenase YdfG [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8X505</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>2.05421e-09</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>ILVTGASQGLGEQVAKAYAAEGATVILVARHQKKLEKAYDAIVEAGHPEPFAIRFDLMSAEEKEFERFAATIAEATQGKLDGIVHCAGYFYALSPLDFQTVAEWVNQYRINTVAPMGLTRALFPLLKQSPDASVIFVGESHGETPKAYWGGFGASKA-----ALNYLCKVAADEWERFGNLRANVLVPGPIN----SPQRIKSHPGEAGSERKSYGDVLPAF-------VWWASA</Hsp_qseq>
+      <Hsp_hseq>VLVTGATAGFGECITRRFIQQGHKVIATGRRQERLQELKDELGDNLYIAQLDVR------NRAAIEEMLASLP-AEWCNIDILVNNAGLALGMEPAHKASIEDWETMIDTNNKGLVYMTRAVLPGMVERNHGHIINIGSTAGSWPYAGGNVYGATKAFVRQFSLNLRTDLHGTA------VRVTDIEPGLVGGTEFSNVRFK---GDDGKAEKTYQNTVALTPEDVSEAVWWVST</Hsp_hseq>
+      <Hsp_midline>+LVTGA+ G GE + + +  +G  VI   R Q++L++  D + +  +     +R           E   A++  A    +D +V+ AG    + P    ++ +W      N    + +TRA+ P + +     +I +G + G  P A    +GA+KA     +LN    +          +R   + PG +     S  R K   G+ G   K+Y + +          VWW S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

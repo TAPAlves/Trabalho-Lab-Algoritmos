@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>5189</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>123</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>5189</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81906745|sp|Q9JKL4.1|NDUF3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3; AltName: Full=Protein 2P1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9JKL4</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>1.42545e-05</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>EILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFRTLVFLHSEGRRAWAWLQP</Hsp_qseq>
+      <Hsp_hseq>EIVVVGTGNKTERLHPQVLQAMRQRGIAVEVQDTPNACATFNFLCHEGRVTGAALIP</Hsp_hseq>
+      <Hsp_midline>EI+++GTG   E +HP+++    + GI+VE  +T +A  T  FL  EGR   A L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|134035397|sp|A1L1F1.1|NDUF3_DANRE</Hit_id>
+  <Hit_def>RecName: Full=NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3 [Danio rerio]</Hit_def>
+  <Hit_accession>A1L1F1</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>2.1705e-05</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>YECGAGGIRLAGQSFHKPVLVHKDSVCLPQCRTLSDLTPENLLSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFRTLVFLHSEGR</Hsp_qseq>
+      <Hsp_hseq>YSYSPRGFNINGNTVFGPCAVLPPAILQWNVGSHSDISVESLSLFYLLEPQIEVLVLGTGARTERLHAEVLEELKKRGIAVEVQDTPNACATFNFLSSEKR</Hsp_hseq>
+      <Hsp_midline>Y     G  + G +   P  V   ++      + SD++ E+L          E+L++GTGA  E +H +++ +  + GI+VE  +T +A  T  FL SE R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81861023|sp|O08776.1|NDUF3_RAT</Hit_id>
+  <Hit_def>RecName: Full=NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3; AltName: Full=Nuclear protein E3-3 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>O08776</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000273603</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>EILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFRTLVFLHSEGRRAWAWLQP</Hsp_qseq>
+      <Hsp_hseq>EIVVVGTGNKTERLHSQVLQAMRQRGIAVEIQDTPNACATFNFLCHEGRVTGAALIP</Hsp_hseq>
+      <Hsp_midline>EI+++GTG   E +H +++    + GI+VE  +T +A  T  FL  EGR   A L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122135751|sp|Q2HJI2.1|NDUF3_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3 [Bos taurus]</Hit_def>
+  <Hit_accession>Q2HJI2</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000312494</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MLFEENPIDGQFAEYECGAGGIRLAGQSFHKPVLVHKDSVCLPQCRTLSDLTPEN--LLSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFRTLVFLHSEGRRAWAWLQP</Hsp_qseq>
+      <Hsp_hseq>LLQRESPLAMYIDSYS--SRGFVVNGNRVFGPCALLPQSVVQWNVGSYQDITEESFSLFWMLEPRI--EIVVVGTGDRTERLQPHVLRAMRQRGIAVEVQDTPNACATFNFLCHEGRVTGAALIP</Hsp_hseq>
+      <Hsp_midline>+L  E+P+      Y   + G  + G     P  +   SV      +  D+T E+  L   ++P    EI+++GTG   E + P ++    + GI+VE  +T +A  T  FL  EGR   A L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|82182922|sp|Q6DFN1.1|NDUF3_XENTR</Hit_id>
+  <Hit_def>RecName: Full=NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3 [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>Q6DFN1</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000662918</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>EILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFRTLVFLHSEGRRAWAWLQP</Hsp_qseq>
+      <Hsp_hseq>EILVVGTGDRVERLDPNILKFMRQKGVAVEVQDTANACATFNFLVSERRITAAALIP</Hsp_hseq>
+      <Hsp_midline>EIL++GTG   E + P I+    + G++VE  +T +A  T  FL SE R   A L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|74733183|sp|Q9BU61.1|NDUF3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9BU61</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00308908</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>EILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFRTLVFLHSEGRRAWAWLQP</Hsp_qseq>
+      <Hsp_hseq>EIVVVGTGDRTERLQSQVLQAMRQRGIAVEVQDTPNACATFNFLCHEGRVTGAALIP</Hsp_hseq>
+      <Hsp_midline>EI+++GTG   E +  +++    + GI+VE  +T +A  T  FL  EGR   A L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|267491|sp|P29962.1|Y1784_RHOCB</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein RCAP_rcc01784; AltName: Full=ORF124 [Rhodobacter capsulatus SB 1003]</Hit_def>
+  <Hit_accession>P29962</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00320673</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>PIDGQFAEYECGAGGIRLAGQSFHKPVLVHKDSVCLPQCRTLSDLTPENLLSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFRTLVFLHSEGRRAWAWLQP</Hsp_qseq>
+      <Hsp_hseq>PIDGY------GPGFFRIAGAVHRGGLLIHAEA-AMPWT-GFDDLAALRALAG-----QVDLLLCGMGADIAHLPKGLQVELEALGVMAEPMSTASAARHYNVLLSEGRRVGAALLP</Hsp_hseq>
+      <Hsp_midline>PIDG       G G  R+AG      +L+H ++  +P      DL     L+        ++L+ G GA    +   +  +   +G+  E M+T SA R    L SEGRR  A L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|127267|sp|P18152.1|MP13_FRATH</Hit_id>
+  <Hit_def>RecName: Full=13 kDa major membrane protein [Francisella tularensis subsp. holarctica LVS]</Hit_def>
+  <Hit_accession>P18152</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0100024</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>PEILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFRTLVFLHSEGRRA</Hsp_qseq>
+      <Hsp_hseq>PEIILIGTGEKQLLPPLEIINQIAKAGKSVDFMASDTACKTYNLLVNENRNV</Hsp_hseq>
+      <Hsp_midline>PEI++IGTG  Q     +I+   ++ G SV+ M +D+A +T   L +E R  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166229036|sp|A7FYI3.1|TIG_CLOB1</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium botulinum A str. ATCC 19397] &gt;gi|166229037|sp|A5I6W2.1|TIG_CLOBH RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium botulinum A str. Hall]</Hit_def>
+  <Hit_accession>A7FYI3</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.852453</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>SDIKPVDYPEILIIGTGAAQEFIH</Hsp_qseq>
+      <Hsp_hseq>NNIKPVDYPQIDVVQIGEGKDFIY</Hsp_hseq>
+      <Hsp_midline>++IKPVDYP+I ++  G  ++FI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|166229038|sp|A7GIH3.1|TIG_CLOBL</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium botulinum F str. Langeland]</Hit_def>
+  <Hit_accession>A7GIH3</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.852453</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>SDIKPVDYPEILIIGTGAAQEFIH</Hsp_qseq>
+      <Hsp_hseq>NNIKPVDYPQIDVVQIGEGKDFIY</Hsp_hseq>
+      <Hsp_midline>++IKPVDYP+I ++  G  ++FI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|229558043|sp|B1IND8.1|TIG_CLOBK</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium botulinum B1 str. Okra]</Hit_def>
+  <Hit_accession>B1IND8</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.852453</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>SDIKPVDYPEILIIGTGAAQEFIH</Hsp_qseq>
+      <Hsp_hseq>NNIKPVDYPQIDVVQIGEGKDFIY</Hsp_hseq>
+      <Hsp_midline>++IKPVDYP+I ++  G  ++FI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|238688795|sp|B1L1D8.1|TIG_CLOBM</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium botulinum A3 str. Loch Maree]</Hit_def>
+  <Hit_accession>B1L1D8</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.852453</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>SDIKPVDYPEILIIGTGAAQEFIH</Hsp_qseq>
+      <Hsp_hseq>NNIKPVDYPQIDVVQIGEGKDFIY</Hsp_hseq>
+      <Hsp_midline>++IKPVDYP+I ++  G  ++FI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|254788994|sp|C1FLA7.1|TIG_CLOBJ</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium botulinum A2 str. Kyoto]</Hit_def>
+  <Hit_accession>C1FLA7</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.852453</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>SDIKPVDYPEILIIGTGAAQEFIH</Hsp_qseq>
+      <Hsp_hseq>NNIKPVDYPQIDVVQIGEGKDFIY</Hsp_hseq>
+      <Hsp_midline>++IKPVDYP+I ++  G  ++FI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|259533557|sp|C3KU78.1|TIG_CLOB6</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium botulinum Ba4 str. 657]</Hit_def>
+  <Hit_accession>C3KU78</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.852453</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>SDIKPVDYPEILIIGTGAAQEFIH</Hsp_qseq>
+      <Hsp_hseq>NNIKPVDYPQIDVVQIGEGKDFIY</Hsp_hseq>
+      <Hsp_midline>++IKPVDYP+I ++  G  ++FI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|238691650|sp|B2TPC0.1|TIG_CLOBB</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium botulinum B str. Eklund 17B (NRP)]</Hit_def>
+  <Hit_accession>B2TPC0</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.885371</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>DIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGI</Hsp_qseq>
+      <Hsp_hseq>DIRPVDYPKVDIVEIGEGKELVYTATVTTYPEVEI</Hsp_hseq>
+      <Hsp_midline>DI+PVDYP++ I+  G  +E ++   +  +  + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|238691975|sp|B2UX14.1|TIG_CLOBA</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium botulinum E3 str. Alaska E43]</Hit_def>
+  <Hit_accession>B2UX14</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.885371</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>DIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGI</Hsp_qseq>
+      <Hsp_hseq>DIRPVDYPKVDIVEIGEGKELVYTATVTTYPEVEI</Hsp_hseq>
+      <Hsp_midline>DI+PVDYP++ I+  G  +E ++   +  +  + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|118574068|sp|Q891J6.2|TIG_CLOTE</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium tetani E88]</Hit_def>
+  <Hit_accession>Q891J6</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.077</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>DIKPVDYPEILIIGTGAAQEFIH</Hsp_qseq>
+      <Hsp_hseq>EIKPVDYPQIDIVEIGEGKDFVY</Hsp_hseq>
+      <Hsp_midline>+IKPVDYP+I I+  G  ++F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|189035933|sp|A5N2K9.1|TIG_CLOK5</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium kluyveri DSM 555] &gt;gi|254788996|sp|B9E686.1|TIG_CLOK1 RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium kluyveri NBRC 12016]</Hit_def>
+  <Hit_accession>A5N2K9</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.2099</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>TLSDLTPENLLSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRI</Hsp_qseq>
+      <Hsp_hseq>TYPDALKEN---NVNPVDYPKIEVVQIGEGKEFIYTAEVTVFPEV</Hsp_hseq>
+      <Hsp_midline>T  D   EN   ++ PVDYP+I ++  G  +EFI+   +  F  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|189035932|sp|A6LT26.1|TIG_CLOB8</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Clostridium beijerinckii NCIMB 8052]</Hit_def>
+  <Hit_accession>A6LT26</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.45386</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>PENL-LSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRI</Hsp_qseq>
+      <Hsp_hseq>PEALNAENIKPVDYPQVDIVELGEGKELVYTATVTTYPEV</Hsp_hseq>
+      <Hsp_midline>PE L   +IKPVDYP++ I+  G  +E ++   +  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|121698595|sp|Q466A1.1|COFC_METBF</Hit_id>
+  <Hit_def>RecName: Full=2-phospho-L-lactate guanylyltransferase; Short=LP guanylyltransferase [Methanosarcina barkeri str. Fusaro]</Hit_def>
+  <Hit_accession>Q466A1</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.35288</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>KPVDYPEILIIGTGAAQEFIHPKIMADFSR</Hsp_qseq>
+      <Hsp_hseq>EPEDLVELLIHGSGAAKEYISKKFRLEMSR</Hsp_hseq>
+      <Hsp_midline>+P D  E+LI G+GAA+E+I  K   + SR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|226712311|sp|B2THF2.1|PSD_CLOBB</Hit_id>
+  <Hit_def>RecName: Full=Phosphatidylserine decarboxylase proenzyme; Contains: RecName: Full=Phosphatidylserine decarboxylase alpha chain; Contains: RecName: Full=Phosphatidylserine decarboxylase beta chain [Clostridium botulinum B str. Eklund 17B (NRP)]</Hit_def>
+  <Hit_accession>B2THF2</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.44123</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GQFAEYECGAGGIRLAGQSFHKPVLVHKDSVCLPQCRTLSDLTPENLLSDIKPVDYPEILIIGTGAAQEFIHPKIMAD</Hsp_qseq>
+      <Hsp_hseq>GKFCDTKCSAKKIPDFVRDFNIDMNIAEKNI--SEFNSFNDFFVRNLTSTSRPIDYNEDIFISPGDGRITVYDNIDLD</Hsp_hseq>
+      <Hsp_midline>G+F + +C A  I    + F+  + + + ++   +  + +D    NL S  +P+DY E + I  G  +  ++  I  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|81784246|sp|Q9JY06.1|TSAD_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase; AltName: Full=N6-L-threonylcarbamoyladenine synthase; Short=t(6)A synthase; AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD; AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JY06</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.21816</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GAGGIRLAGQSFHKPVLVHKDSVCLPQCRTLSDLTPENLLSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGISVE</Hsp_qseq>
+      <Hsp_hseq>GLGGALLAGSSYANALALALDKPVIP-VHHLEGHLLSPLLAEEKP-DFPFVALLVSGGHTQIMAVRGIGDYALLGESVD</Hsp_hseq>
+      <Hsp_midline>G GG  LAG S+   + +  D   +P    L       LL++ KP D+P + ++ +G   + +  + + D++ +G SV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|122565075|sp|Q30BK9.1|TSAD_NEIME</Hit_id>
+  <Hit_def>RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase; AltName: Full=N6-L-threonylcarbamoyladenine synthase; Short=t(6)A synthase; AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD; AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>Q30BK9</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.37147</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GAGGIRLAGQSFHKPVLVHKDSVCLPQCRTLSDLTPENLLSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGISVE</Hsp_qseq>
+      <Hsp_hseq>GLGGALLAGSSYANALALALDKPVIP-VHHLEGHLLSPLLAEEKP-DFPFVALLVSGGHTQIMAVRGIGDYALLGESVD</Hsp_hseq>
+      <Hsp_midline>G GG  LAG S+   + +  D   +P    L       LL++ KP D+P + ++ +G   + +  + + D++ +G SV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|158512666|sp|A1IQ95.1|TSAD_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase; AltName: Full=N6-L-threonylcarbamoyladenine synthase; Short=t(6)A synthase; AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD; AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>A1IQ95</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.47615</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GAGGIRLAGQSFHKPVLVHKDSVCLPQCRTLSDLTPENLLSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGISVE</Hsp_qseq>
+      <Hsp_hseq>GLGGALLAGSSYANALALALDKPVIP-VHHLEGHLLSPLLAEEKP-DFPFVALLVSGGHTQIMAVRGIGDYALLGESVD</Hsp_hseq>
+      <Hsp_midline>G GG  LAG S+   + +  D   +P    L       LL++ KP D+P + ++ +G   + +  + + D++ +G SV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|6685261|sp|Q9Y6J0.1|CABIN_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Calcineurin-binding protein cabin-1; AltName: Full=Calcineurin inhibitor; Short=CAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y6J0</Hit_accession>
+  <Hit_len>2220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.88637</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>1445</Hsp_hit-from>
+      <Hsp_hit-to>1548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>GIRLAGQSFHKPVLVHKDSVCLP-----QCRTLSDLTPENLLSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFR-TLVFLHSEGRRAWAW</Hsp_qseq>
+      <Hsp_hseq>GFRAAEQGVQKPAAETPASACIPGKPSASTPTLWDGKKRGDLPG-EPVAFPQGLPAGAEEQRQFLTEQCIASF-RLCLSRFPQHYKSLYRLAFLYTYSKTHRNLQW</Hsp_hseq>
+      <Hsp_midline>G R A Q   KP      S C+P        TL D      L   +PV +P+ L  G    ++F+  + +A F R+ +S    +  S +R   ++ +S+  R   W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|82592889|sp|Q49W02.1|GPMI_STAS1</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-independent phosphoglycerate mutase; Short=BPG-independent PGAM; Short=Phosphoglyceromutase; Short=iPGM [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49W02</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.994</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>PVLVHKDSVCLPQCRTLSDLTPENLLSDIKPVDYPE</Hsp_qseq>
+      <Hsp_hseq>PVIVTKDGVTLRETGRLGDLAPT--LLDLLNVDQPE</Hsp_hseq>
+      <Hsp_midline>PV+V KD V L +   L DL P   L D+  VD PE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|73921805|sp|Q5N0Z7.1|PROA_SYNP6</Hit_id>
+  <Hit_def>RecName: Full=Gamma-glutamyl phosphate reductase; Short=GPR; AltName: Full=Glutamate-5-semialdehyde dehydrogenase; AltName: Full=Glutamyl-gamma-semialdehyde dehydrogenase; Short=GSA dehydrogenase [Synechococcus elongatus PCC 6301] &gt;gi|116255870|sp|Q31KX4.1|PROA_SYNE7 RecName: Full=Gamma-glutamyl phosphate reductase; Short=GPR; AltName: Full=Glutamate-5-semialdehyde dehydrogenase; AltName: Full=Glutamyl-gamma-semialdehyde dehydrogenase; Short=GSA dehydrogenase [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>Q5N0Z7</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.12093</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IRLAGQSFHKPVLVHKDSVCLPQCRTLSDLTPENLLSDIKPVDYP------EILIIGTGAAQEFIHPKIMADFSRIGISVECMNTDSAFRTLVFLHSEGRRAW</Hsp_qseq>
+      <Hsp_hseq>VRFVQDNTHIPVLGHADGICHLYVDQAAAIEKTVTITVDAKTQYPAACNAIETLLIHEAIAPQFL-PVVAAALHEKGVS---LRGDAAAQTIVPMEAATEEDW</Hsp_hseq>
+      <Hsp_midline>+R    + H PVL H D +C       + +     ++      YP      E L+I    A +F+ P + A     G+S   +  D+A +T+V + +     W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|75356446|sp|Q5FAC2.1|TSAD_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase; AltName: Full=N6-L-threonylcarbamoyladenine synthase; Short=t(6)A synthase; AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD; AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD [Neisseria gonorrhoeae FA 1090] &gt;gi|226709710|sp|B4RQ33.1|TSAD_NEIG2 RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase; AltName: Full=N6-L-threonylcarbamoyladenine synthase; Short=t(6)A synthase; AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD; AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>Q5FAC2</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.94906</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GAGGIRLAGQSFHKPVLVHKDSVCLPQCRTLSDLTPENLLSDIKPVDYPEILIIGTGAAQEFIHPKIMADFSRIGISVE</Hsp_qseq>
+      <Hsp_hseq>GLGGALLAGSSYANALALALDKPVIP-VHHLEGHLLSPLLAEEKP-DFPFVALLVSGGHTQIMAVRGIGDYELLGESVD</Hsp_hseq>
+      <Hsp_midline>G GG  LAG S+   + +  D   +P    L       LL++ KP D+P + ++ +G   + +  + + D+  +G SV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>60213</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>284</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>60213</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>284</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81438522|sp|Q87BI4.1|SCPA_XYLFT</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Xylella fastidiosa Temecula1]</Hit_def>
+  <Hit_accession>Q87BI4</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>6.02844e-75</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>EHTVAWVFGQPVTDLPQDLFIPPDALKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEA-DPRAELVRRLLAYEQMKLAAQGLDALPRAGRDF--AWAYLPLEIAAETKLPEVYIADLMQAWLGILSRAKHTRSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAHSDG</Hsp_qseq>
+      <Hsp_hseq>EIPLAMVHGQPVLQIPQDLYIPPDALEVILDAFEGPLDLLLYLIRRQNLNILDIPVAEITRQYVDYINVMQELRFELAAEYLVMAAILAEIKSRMLLPRPPDIENEEGEDPRAELVRRLQEYERFKQAAEDLDALPRMDRDNSAAHAFVPDQTTVRIP-PPVNMKELLLALQDVLKRAELFSGHAIRREALSVRQRMGDILAHLEGGKFHPFTALFTAEEGKLGVLVTFLAILELAKEQLLDIVQEASLGPIYIK-SLATHHTNG</Hsp_hseq>
+      <Hsp_midline>E  +A V GQPV  +PQDL+IPPDAL+V+L +F+GPLDLLLYLIR+QN+++LDIP+ EIT QY+ YI  M+  +F+LAAEYL+MAA+L EIKSR+LLPR   +E+EE  DPRAELVRRL  YE+ K AA+ LDALPR  RD   A A++P +       P V + +L+ A   +L RA+    H + +E LSVR +M  IL  L       F ALF  E+G   V+V F+A+LELAKE L+ IVQE   G I I  +    H++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|158706360|sp|Q9PAP4.2|SCPA_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PAP4</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>8.50899e-75</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>EHTVAWVFGQPVTDLPQDLFIPPDALKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEA-DPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKL---PEVYIADLMQAWLGILSRAKHTRSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS</Hsp_qseq>
+      <Hsp_hseq>EIPLAMVHGQPVLQIPQDLYIPPDALEVILDAFEGPLDLLLYLIRRQNLNILDIPVAEITRQYVDYINVMQELRFELAAEYLVMAAILAEIKSRMLLPRPPNIENEEGEDPRAELVRRLQEYERFKQAAEDLDALPRLDRDNSAAH--AFVADQTTVRIPPPVNMKELLLALQDVLKRAELFSGHAIRREALSVRQRMGDILAHLEDGKFHPFTTLFTAEEGKLGVLVTFLAILELAKEQLLDIVQEASLGPIYIK</Hsp_hseq>
+      <Hsp_midline>E  +A V GQPV  +PQDL+IPPDAL+V+L +F+GPLDLLLYLIR+QN+++LDIP+ EIT QY+ YI  M+  +F+LAAEYL+MAA+L EIKSR+LLPR   +E+EE  DPRAELVRRL  YE+ K AA+ LDALPR  RD + A+    +A +T +   P V + +L+ A   +L RA+    H + +E LSVR +M  IL  L +     F  LF  E+G   V+V F+A+LELAKE L+ IVQE   G I I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81629001|sp|Q83CP8.1|SCPA_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83CP8</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>1.97223e-69</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>VFGQPVTDLPQDLFIPPDALKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRD--FAWAYLPLEIAAETKLPEVYIADLMQAWLGILSRAKHTRSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>VSGQPLSKLPEDLYIPPDALRVFLEAFEGPLDLLLYLIKKHNIDILDIPIAEITRQYMQFVDLMREMRIELAAEYLVMAAMLAEIKSRLLLPRPVVEEENEQDPRAELVRRLQEYERYKKAAYDLDQLPRVGRDTFIADAAVPPMNTAKIH-PTAELPELLNALKDVLQRASLYNAHSIAREPLSIRERMSRILSLVDKENFIAFTRLFTVEEGRMGVVVTLIATLELIRQSVIELVQAEPFALIHI</Hsp_hseq>
+      <Hsp_midline>V GQP++ LP+DL+IPPDAL+V L +F+GPLDLLLYLI+K NID+LDIP+ EIT QY+ ++  M   + +LAAEYL+MAAML EIKSRLLLPR    E+ E DPRAELVRRL  YE+ K AA  LD LPR GRD   A A +P    A+   P   + +L+ A   +L RA    +H + +E LS+R +M+ IL  +++     F  LF  E+G   V+V  IA LEL ++ ++ +VQ + F  I I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|254767840|sp|C0ZC76.1|SCPA_BREBN</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Brevibacillus brevis NBRC 100599]</Hit_def>
+  <Hit_accession>C0ZC76</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>1.47302e-40</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>ALKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEA--------VEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWA-----YLPLEIAAETKLPEVYIADLMQAWLGILSRAKHTRSHEVI-QETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLN-HEGAHSDGI</Hsp_qseq>
+      <Hsp_hseq>AYSIKLDSFEGPLDLLLHLIDKAEVDIYDIPVAEITEQYLATIDKMQELQLDVASEFVVMAATLLSIKSKMLLPKKEEHVFQQFLDMDVDEIDPREELVARLLEYKRYKMLAENLREM-EIGRNQVFTRPAENLSPYVREEDHTVTNVTLYDLINALEKLVKKTKEKEPMTTVSRDEISIKDRMTEIRQAVRSGGMVRFSELFTQGATRTEIVTTFLALLELMKAKHITCVQNQLFQDIIICENGTEGAHTDGL</Hsp_hseq>
+      <Hsp_midline>A  + L SF+GPLDLLL+LI K  +D+ DIP+ EIT QYL  I +M+  Q D+A+E+++MAA L+ IKS++LLP+ E         ++ +E DPR ELV RLL Y++ K+ A+ L  +   GR+  +        P     +  +  V + DL+ A   ++ + K       + ++ +S++ +MT I + +   G+ RF  LF        ++  F+ALLEL K   +  VQ   F +I I  N  EGAH+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123466482|sp|A0AK63.1|SCPA_LISW6</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Listeria welshimeri serovar 6b str. SLCC5334]</Hit_def>
+  <Hit_accession>A0AK63</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>2.18012e-40</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVED-----EEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAE---TKLPE--VYIADLMQAWLGILSRAK-----HTRSHEVIQETLSVRAQMTAILRRLNEHGI--CRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>VDAFEGPLDLLLHLIGQLEVDIYDIPMAEITDQYMEFVHTMQEMELDVASEYLVMAATLLAIKSKMLLPKQELEIDYDTLEEEEDPRDALVEKLMEYKRFKEAAKELKE-KEAERSFYFSKPPMDLAEYDDGTKVAELDVSLNDMLSAFNKMLRRKKLNKPLHTR---ITTQEISIDDRMNSVLGKLNQQKNHRLRFDELFE-EQTKEQLVVTFLALLELMKRKLVEVEQSESFADLYV</Hsp_hseq>
+      <Hsp_midline>+ +F+GPLDLLL+LI +  +D+ DIPM EIT QY+ ++  M+  + D+A+EYL+MAA L+ IKS++LLP+ E   D     EE DPR  LV +L+ Y++ K AA+ L     A R F ++  P+++A     TK+ E  V + D++ A+  +L R K     HTR   +  + +S+  +M ++L +LN+      RF  LF  EQ    ++V F+ALLEL K  LV + Q + F ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|41018094|sp|Q8Y5V4.1|SCPA_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Listeria monocytogenes EGD-e] &gt;gi|56749620|sp|Q71Y63.1|SCPA_LISMF RecName: Full=Segregation and condensation protein A [Listeria monocytogenes serotype 4b str. F2365] &gt;gi|259495730|sp|C1KWQ2.1|SCPA_LISMC RecName: Full=Segregation and condensation protein A [Listeria monocytogenes serotype 4b str. CLIP 80459]</Hit_def>
+  <Hit_accession>Q8Y5V4</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>5.60848e-40</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>LGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVED-----EEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAE---TKLPE--VYIADLMQAWLGILSRAK-----HTRSHEVIQETLSVRAQMTAILRRLN---EHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>VDAFEGPLDLLLHLIGQLEVDIYDIPMAEITDQYMEFVHTMQEMELDVASEYLVMAATLLAIKSKMLLPKQELEIDYDTLEEEEDPRDALVEKLMEYKRFKEAAKELKE-KEAERSFYFSKPPMDLAEYDDGTKVAELDVSLNDMLSAFNKMLRRKKLNKPLHTR---ITTQEISIDQRMDSVLEKLNLQVNHRL-RFDELFE-EQTKEQLVVTFLALLELMKRKLVEVEQAESFADLYV</Hsp_hseq>
+      <Hsp_midline>+ +F+GPLDLLL+LI +  +D+ DIPM EIT QY+ ++  M+  + D+A+EYL+MAA L+ IKS++LLP+ E   D     EE DPR  LV +L+ Y++ K AA+ L     A R F ++  P+++A     TK+ E  V + D++ A+  +L R K     HTR   +  + +S+  +M ++L +LN    H + RF  LF  EQ    ++V F+ALLEL K  LV + Q + F ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|41018017|sp|Q8CSH0.2|SCPA_STAES</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Staphylococcus epidermidis ATCC 12228] &gt;gi|81674521|sp|Q5HP55.1|SCPA_STAEQ RecName: Full=Segregation and condensation protein A [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q8CSH0</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>7.21131e-40</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEI----AAETKLPE--VYIADLMQAWLGILSRAKHT--RSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>EVKLDAFNGPLDLLLHLIQKYEIDIYDIPMKALTEQYMQYVHAMNQLEINVASEYLVMASELLMIKSKLLLPQTSIEEDIEEDPREDLVGRLIEYQNYKEYTEILNTM-KEERDLYFTKHPTDLTHLETNESWDPNQTIDLTELIVAYQRVKNRVELNTPKSVEIKKETFTIQQATAQVTERLKQHESFNFFSLFTFHEPVEQVVTHFLAILEMSKSGIVNIKQTKQFDDIDI</Hsp_hseq>
+      <Hsp_midline>+V L +F GPLDLLL+LI+K  ID+ DIPM  +T QY+ Y+  M   + ++A+EYL+MA+ L+ IKS+LLLP+T   ED E DPR +LV RL+ Y+  K   + L+ + +  RD  +   P ++      E+  P   + + +L+ A+  + +R +    +S E+ +ET +++     +  RL +H    F +LF   +    V+ +F+A+LE++K G+V I Q   F +I I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|254767846|sp|B8DBX5.1|SCPA_LISMH</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Listeria monocytogenes HCC23]</Hit_def>
+  <Hit_accession>B8DBX5</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>5.93445e-39</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVED-----EEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAE---TKLPE--VYIADLMQAWLGILSRAK-----HTRSHEVIQETLSVRAQMTAILRRLNE--HGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>VDAFEGPLDLLLHLIGQLEVDIYDIPMAEITDQYMEFVHTMQEMELDVASEYLVMAATLLAIKSKMLLPKQELEIDYDTLEEEEDPRDALVEKLMEYKRFKEAAKELKE-KEAERSFYFSKPPMDLAEYDDGTKVAELDVSLNDMLSAFNKMLRRKKLNKPLHTR---ITTQEISIDERMDSVLGKLHQQVNHRLRFDELFE-EQTKEQLVVTFLALLELMKRKLVEVEQAESFADLYV</Hsp_hseq>
+      <Hsp_midline>+ +F+GPLDLLL+LI +  +D+ DIPM EIT QY+ ++  M+  + D+A+EYL+MAA L+ IKS++LLP+ E   D     EE DPR  LV +L+ Y++ K AA+ L     A R F ++  P+++A     TK+ E  V + D++ A+  +L R K     HTR   +  + +S+  +M ++L +L++  +   RF  LF  EQ    ++V F+ALLEL K  LV + Q + F ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|41018102|sp|Q92A57.1|SCPA_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q92A57</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>1.18446e-38</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVED-----EEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAE---TKLPE--VYIADLMQAWLGILSRAK-----HTRSHEVIQETLSVRAQMTAILRRLNEHGI--CRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>AFEGPLDLLLHLIGQLEVDIYDIPMAEITDQYMEFVHTMQEMELDVASEYLVMAATLLAIKSKMLLPKQELEIDYDTLEEEEDPRDALVEKLMEYKRFKEAAKELKE-KEAERSFYFSKPPMDLAEYDEGTKVAELDVSLNDMLSAFNKMLRRKKLNKPLHTR---ITTQEISIDDRMNSVLGKLHQQTNHRLRFDELFE-EQTKEQLVVTFLALLELMKRKLVEVEQSASFADLYV</Hsp_hseq>
+      <Hsp_midline>+F+GPLDLLL+LI +  +D+ DIPM EIT QY+ ++  M+  + D+A+EYL+MAA L+ IKS++LLP+ E   D     EE DPR  LV +L+ Y++ K AA+ L     A R F ++  P+++A     TK+ E  V + D++ A+  +L R K     HTR   +  + +S+  +M ++L +L++      RF  LF  EQ    ++V F+ALLEL K  LV + Q   F ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|167016550|sp|A7Z671.1|SCPA_BACA2</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus amyloliquefaciens subsp. plantarum str. FZB42]</Hit_def>
+  <Hit_accession>A7Z671</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>3.08714e-38</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEA--VED---EEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLP---LEIAAETKLPE----VYIADLMQAWLGILSRAKHTRSHE--VIQETLSVRAQMTAILRRLNEHG-ICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS</Hsp_qseq>
+      <Hsp_hseq>QVKIDTFEGPLDLLLHLINRLEIDIYDIPVATITEQYLLYVHTMQELELDVASEYLVMAATLLSIKSRMLLPKQEEELFEDEMLEEEDPRDELIEKLIEYRKYKTAAKDLKE-REEERQKSFTKPPSDLSEYAKEIKQTEQKLSVTVYDMIGAFQKVLQRKKITRPKETTITRQEIPIEDRMNEIVKSLKTAGRRINFTELF-PSRQKDHLVVTFLAVLELMKNQQIIIEQEENFSDIYIT</Hsp_hseq>
+      <Hsp_midline>+V + +F+GPLDLLL+LI +  ID+ DIP+  IT QYL Y+  M+  + D+A+EYL+MAA L+ IKSR+LLP+ E    ED   EE DPR EL+ +L+ Y + K AA+ L       R  ++   P    E A E K  E    V + D++ A+  +L R K TR  E  + ++ + +  +M  I++ L   G    F  LF P +   +++V F+A+LEL K   + I QE+ F +I I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|82581639|sp|Q4L6J5.1|SCPA_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L6J5</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>3.30278e-37</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETK------LPEVYIADLMQAWLGILSR--AKHTRSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>EVKLDAFNGPLDLLLHLIQKYEIDIYDIPMKSLTEQYMQYVHAMKQLEINVASEYLVMASELLMIKSKLLLPQHDVDDNLEEDPREDLVGRLIEYQNYKEYTQLLTE-KKEEREHYFTKHPTDLSHLEKNVTWDECQTLDLTDLIVAYQRVKSRLALNKPKTVEIIKESFTIQQATEKVTTQLRHHTSFNFFSLFTFSEPIEQVVTHFLAILEMSKSGVINIEQVRSFDDIRI</Hsp_hseq>
+      <Hsp_midline>+V L +F GPLDLLL+LI+K  ID+ DIPM  +T QY+ Y+  M+  + ++A+EYL+MA+ L+ IKS+LLLP+ +  ++ E DPR +LV RL+ Y+  K   Q L    +  R+  +   P +++   K         + + DL+ A+  + SR      ++ E+I+E+ +++     +  +L  H    F +LF   +    V+ +F+A+LE++K G++ I Q   F +IRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|82581640|sp|Q49XU3.1|SCPA_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49XU3</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>5.5825e-37</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEI----AAETKLPE--VYIADLMQAWLGILSRAK-HT-RSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>EVKLDAFNGPLDLLLHLIQKIEIDIYDIPMKALTEQYMQYIHTMNQLEINIASEYLVMASELLMIKSKMLLPQTNEVEDLDDDPRDELVDRLIEYQNYKAYTEFLNE-RKVERALYFSKHPTDLSHLESNETWSPDNTIDLTELIIAYQKVKNRVEFHTPKTVDIRKETFTIQQATSQVTDKLKQHESFNFFSLFNFTEPIEMVVTHFLAILEMSKSGIVNIEQAKSFDDINI</Hsp_hseq>
+      <Hsp_midline>+V L +F GPLDLLL+LI+K  ID+ DIPM  +T QY+ YI  M   + ++A+EYL+MA+ L+ IKS++LLP+T  VED + DPR ELV RL+ Y+  K   + L+   +  R   ++  P ++    + ET  P+  + + +L+ A+  + +R + HT ++ ++ +ET +++   + +  +L +H    F +LFN  +    V+ +F+A+LE++K G+V I Q   F +I I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|56749562|sp|Q6GGK3.2|SCPA_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GGK3</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>4.25306e-36</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIA----AETKLPE--VYIADLMQAWLGILSRAKHT--RSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>EVKLDAFNGPLDLLLHLIQKFEIDIYDIPMQALTEQYMQYVHAMKQLEINIASEYLVLASELLMIKSKMLLPQSTSDIDVDDDPREDLVGRLIEYQNYKEYTAILNDM-KEERDFYFTKRPTELSHLETDESWDPNHTIDLTELIVAYQRVKNRVELNTPKSVEIRKETFTIQQATEQVTSRLKDKDHFNFFSLFTFSEPIEQVVTHFLAILEMSKAGIINIEQQRNFEDINI</Hsp_hseq>
+      <Hsp_midline>+V L +F GPLDLLL+LI+K  ID+ DIPM  +T QY+ Y+  M+  + ++A+EYL++A+ L+ IKS++LLP++ +  D + DPR +LV RL+ Y+  K     L+ + +  RDF +   P E++     E+  P   + + +L+ A+  + +R +    +S E+ +ET +++     +  RL +     F +LF   +    V+ +F+A+LE++K G++ I Q+  F +I I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|41017862|sp|P60223.1|SCPA_STAAM</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|41017863|sp|P60224.1|SCPA_STAAN RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus N315] &gt;gi|41017864|sp|P60225.1|SCPA_STAAW RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus MW2] &gt;gi|56749515|sp|Q6G969.2|SCPA_STAAS RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81694451|sp|Q5HFS7.1|SCPA_STAAC RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus COL] &gt;gi|122539458|sp|Q2FY76.1|SCPA_STAA8 RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123485740|sp|Q2FGN7.1|SCPA_STAA3 RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus USA300] &gt;gi|189046139|sp|A6U1W4.1|SCPA_STAA2 RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus JH1] &gt;gi|189046140|sp|A5IT23.1|SCPA_STAA9 RecName: Full=Segregation and condensation protein A [Staphylococcus aureus subsp. aureus JH9]</Hit_def>
+  <Hit_accession>P60223</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>7.01109e-36</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIA----AETKLPE--VYIADLMQAWLGILSRAKHT--RSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>EVKLDAFNGPLDLLLHLIQKFEIDIYDIPMQALTEQYMQYVHAMKQLEINIASEYLVLASELLMIKSKMLLPQSTSDMDVDDDPREDLVGRLIEYQNYKEYTAILNDM-KEERDFYFTKRPTDLSHLETDESWDPNHTIDLTELIVAYQRVKNRVELNTPKSVEIRKETFTIQQATEQVTSRLKDKDHFNFFSLFTFSEPIEQVVTHFLAILEMSKAGIINIEQQRNFEDINI</Hsp_hseq>
+      <Hsp_midline>+V L +F GPLDLLL+LI+K  ID+ DIPM  +T QY+ Y+  M+  + ++A+EYL++A+ L+ IKS++LLP++ +  D + DPR +LV RL+ Y+  K     L+ + +  RDF +   P +++     E+  P   + + +L+ A+  + +R +    +S E+ +ET +++     +  RL +     F +LF   +    V+ +F+A+LE++K G++ I Q+  F +I I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|189046138|sp|A7GS82.1|SCPA_BACCN</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus cytotoxicus NVH 391-98]</Hit_def>
+  <Hit_accession>A7GS82</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>2.44391e-35</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>SFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTE-----AVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAA-----ETKLP-EVYIADLMQAWLGILSRAKHTR--SHEVIQETLSVRAQMTAILRRLNE-HGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISL-NHEGA</Hsp_qseq>
+      <Hsp_hseq>SFEGPLDLLLHLIHRYEIDIYNIPVAEITEQYLSYIHTMKELQLDVASEYLVMAATLLQIKSKMLLPKQEEDVHDSGEDFIDDPRQELMERLIEYKKYKQVAAELKEREQE-RAQLYTRPPIDFTSFQQEEAANLPLDVTLYDMLAAFQKMMRRKKSKRPVTARITRQEIPIEQRMTDILQKLETLGGRQSFYDLFADEEREV-MVVTFLAILELMKHQQIVIEQEQNFDEIFLSCANHNSK</Hsp_hseq>
+      <Hsp_midline>SF+GPLDLLL+LI +  ID+ +IP+ EIT QYL YI  M+  Q D+A+EYL+MAA L++IKS++LLP+ E     + ED   DPR EL+ RL+ Y++ K  A  L    +  R   +   P++  +        LP +V + D++ A+  ++ R K  R  +  + ++ + +  +MT IL++L    G   F+ LF  E+    ++V F+A+LEL K   + I QE  F EI +S  NH   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|41018145|sp|Q9KCL1.1|SCPA_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KCL1</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>3.62064e-35</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>VVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDE-----EADPRAELVRRLLAYEQMKLAAQGLDA-----------LPRAGRDFAWAYLPLEIAAETKLPEVYIADLMQAWLGILSRAKHT--RSHEVIQETLSVRAQMTAILRRLNE-HGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAHSD</Hsp_qseq>
+      <Hsp_hseq>VKLDTFEGPLDLLLHLINQAEVDIYDIPVALITEQYMAYIHTMQELQLDVASEYLVMAATLLQIKSKMLLPKQEEIFDETFEYEEEDPREELMFRLIEYRRYKEAAQELKEKEGERSQVHTRLPDNLDD----YLTEEERQRQSIQGVTLFDMLAAYQKLLKRRAYSRPRTSTVKVEEYSIDERMTDILMDLEKCNGKCRFQDLF-VEKGRGHMVVTFLAMLELMKTDAIYCEQNENFADIWI-YRREGKNRD</Hsp_hseq>
+      <Hsp_midline>V L +F+GPLDLLL+LI +  +D+ DIP+  IT QY+ YI  M+  Q D+A+EYL+MAA L++IKS++LLP+ E + DE     E DPR EL+ RL+ Y + K AAQ L             LP    D    YL  E      +  V + D++ A+  +L R  ++  R+  V  E  S+  +MT IL  L + +G CRF  LF  E+G  +++V F+A+LEL K   +   Q + F +I I    EG + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|41017956|sp|Q7ZAM4.1|SCPA_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q7ZAM4</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>8.16211e-35</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>DALKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVE--DEE--ADPRAELVRRLLAYEQMKLAAQGLDALPRAGRD--------FAWAYLPLEIAAETKLPEVYIADLMQAWLGILSRAKHTRSHEVIQETLS--VRAQMTAILRRL--NEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>EGYKVKLDTFEGPLDLLLHLINQFEIDIYDIPVAQITQQYMEYIHTMQHLELNIASEYLVMASTLLAIKSQMLLPKQELEDDLDEEYMEDPREELMQRLIEYRKYKEIAERLKEKESEDNQLYTRPPVVFEFKDIPEKIT--TNQTDISIFDMVGALKNMLKRKEWTEPHDTTVQRMDIPIETRMKEVLQQVQSNSDGLV-FDKLF-PSPTKNYIVVTFVAVLELMKDKQIYAVQERHFEEL</Hsp_hseq>
+      <Hsp_midline>+  KV L +F+GPLDLLL+LI +  ID+ DIP+ +IT QY+ YI  M+  + ++A+EYL+MA+ L+ IKS++LLP+ E  +  DEE   DPR EL++RL+ Y + K  A+ L                 F +  +P +I   T   ++ I D++ A   +L R + T  H+   + +   +  +M  +L+++  N  G+  F  LF P     Y++V F+A+LEL K+  +  VQE  F E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|41017957|sp|Q812U6.1|SCPA_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus cereus ATCC 14579] &gt;gi|254767834|sp|B7IWH0.1|SCPA_BACC2 RecName: Full=Segregation and condensation protein A [Bacillus cereus G9842] &gt;gi|254767836|sp|B7H949.1|SCPA_BACC4 RecName: Full=Segregation and condensation protein A [Bacillus cereus B4264]</Hit_def>
+  <Hit_accession>Q812U6</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.48411e-34</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>SFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAV-----EDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAA-----ETKLP-EVYIADLMQAWLGILSRAKHTR--SHEVIQETLSVRAQMTAILRRLN-EHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGA</Hsp_qseq>
+      <Hsp_hseq>AFEGPLDLLLHLIHRYEIDIYNIPVADITEQYLSYVHTMKELQLDVASEYLVMAATLLQIKSKMLLPKHEEDVLDNGDDFIDDPRQELMERLIEYKKYKQVATELKEREQE-RAQLYTRPPIDFTSLQQEEETSLPLDVTLYDMLAAFQKLMRRKKAKKPVTTRITRQEIPIEQRMTDILKQLKIKGGRQSFYDLFVDDEREI-MVVTFLAVLELMKNQQIIIEQEHNFDEIFVSSSNKSA</Hsp_hseq>
+      <Hsp_midline>+F+GPLDLLL+LI +  ID+ +IP+ +IT QYL Y+  M+  Q D+A+EYL+MAA L++IKS++LLP+ E       +D   DPR EL+ RL+ Y++ K  A  L    +  R   +   P++  +     ET LP +V + D++ A+  ++ R K  +  +  + ++ + +  +MT IL++L  + G   F+ LF  ++    ++V F+A+LEL K   + I QE  F EI +S +++ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|466185|sp|P35154.1|SCPA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P35154</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.5571e-34</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPR-----TEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLP---LEIAAETKLPE----VYIADLMQAWLGILSRAKHTRSHE--VIQETLSVRAQMTAILRRLNEHGI-CRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS</Hsp_qseq>
+      <Hsp_hseq>QVKIDTFEGPLDLLLHLINRLEIDIYDIPVAKITEQYLLYVHTMRVLELDIASEYLVMAATLLSIKSRMLLPKQEEELFEDELLEEEDPREELIEKLIEYRKYKDAAKDLKE-REEERQKSFTKPPSDLSEYAKEVKQSEQKLSVTVYDMIGAFQKVLKRKKINRPMETTITRQDIPIEARMNEIVHSLKSRGTRINFMDLF-PYEQKEHLVVTFLAVLELMKNQLVLIEQEHNFSDIYIT</Hsp_hseq>
+      <Hsp_midline>+V + +F+GPLDLLL+LI +  ID+ DIP+ +IT QYL Y+  M   + D+A+EYL+MAA L+ IKSR+LLP+      E    EE DPR EL+ +L+ Y + K AA+ L       R  ++   P    E A E K  E    V + D++ A+  +L R K  R  E  + ++ + + A+M  I+  L   G    F  LF P +   +++V F+A+LEL K  LV I QE  F +I I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|56749592|sp|Q6HEA8.1|SCPA_BACHK</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus thuringiensis serovar konkukian str. 97-27] &gt;gi|81686387|sp|Q635M2.1|SCPA_BACCZ RecName: Full=Segregation and condensation protein A [Bacillus cereus E33L] &gt;gi|254767833|sp|B7JL37.1|SCPA_BACC0 RecName: Full=Segregation and condensation protein A [Bacillus cereus AH820] &gt;gi|254767835|sp|C1EQT2.1|SCPA_BACC3 RecName: Full=Segregation and condensation protein A [Bacillus cereus 03BB102]</Hit_def>
+  <Hit_accession>Q6HEA8</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>2.5704e-34</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>SFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAV-----EDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAA-----ETKLP-EVYIADLMQAWLGILSRAKHTR--SHEVIQETLSVRAQMTAILRRLN-EHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS</Hsp_qseq>
+      <Hsp_hseq>AFEGPLDLLLHLIHRYEIDIYNIPVAEITEQYLSYVHTMKELQLDVASEYLVMAATLLQIKSKMLLPKHEEDVLDNGDDFIDDPRQELMERLIEYKKYKQVATELKEREQE-RAQLYTRPPIDFTSLQQEEETNLPLDVTLYDMLAAFQKLMRRKKAKKPVTTRITRQEIPIEQRMTDILKQLEIQGGRQSFYDLFVDDEREI-MVVTFLAVLELMKNQQIIIEQEHNFDEIFVS</Hsp_hseq>
+      <Hsp_midline>+F+GPLDLLL+LI +  ID+ +IP+ EIT QYL Y+  M+  Q D+A+EYL+MAA L++IKS++LLP+ E       +D   DPR EL+ RL+ Y++ K  A  L    +  R   +   P++  +     ET LP +V + D++ A+  ++ R K  +  +  + ++ + +  +MT IL++L  + G   F+ LF  ++    ++V F+A+LEL K   + I QE  F EI +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|56749632|sp|Q731P0.1|SCPA_BACC1</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus cereus ATCC 10987]</Hit_def>
+  <Hit_accession>Q731P0</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>2.59717e-34</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>SFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAV-----EDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAA-----ETKLP-EVYIADLMQAWLGILSRAKHTR--SHEVIQETLSVRAQMTAILRRLN-EHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS</Hsp_qseq>
+      <Hsp_hseq>AFEGPLDLLLHLIHRYEIDIYNIPVAEITEQYLSYVHTMKELQLDVASEYLVMAATLLQIKSKMLLPKHEEDVLDNGDDFIDDPRQELMERLIEYKKYKQVATELKEREQE-RAQLYTRPPIDFTSLQQEEETSLPLDVTLYDMLAAFQKLMRRKKAKKPVTTRITRQEIPIEQRMTDILKQLEIQGGRQSFYDLFVDDEREI-MVVTFLAVLELMKNQQIVIEQEHNFDEIFVS</Hsp_hseq>
+      <Hsp_midline>+F+GPLDLLL+LI +  ID+ +IP+ EIT QYL Y+  M+  Q D+A+EYL+MAA L++IKS++LLP+ E       +D   DPR EL+ RL+ Y++ K  A  L    +  R   +   P++  +     ET LP +V + D++ A+  ++ R K  +  +  + ++ + +  +MT IL++L  + G   F+ LF  ++    ++V F+A+LEL K   + I QE  F EI +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|41017965|sp|Q81MH0.1|SCPA_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus anthracis] &gt;gi|254767565|sp|C3P7J3.1|SCPA_BACAA RecName: Full=Segregation and condensation protein A [Bacillus anthracis str. A0248] &gt;gi|254767568|sp|C3LIS3.1|SCPA_BACAC RecName: Full=Segregation and condensation protein A [Bacillus anthracis str. CDC 684]</Hit_def>
+  <Hit_accession>Q81MH0</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>3.50707e-34</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>SFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAV-----EDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAA-----ETKLP-EVYIADLMQAWLGILSRAKHTR--SHEVIQETLSVRAQMTAILRRLN-EHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS</Hsp_qseq>
+      <Hsp_hseq>AFEGPLDLLLHLIHRYEIDIYNIPVAEITEQYLSYVHTMKELQLDVASEYLVMAATLLQIKSKMLLPKHEEDVLDNGDDFIDDPRQELMERLIEYKKYKQVATELKEREQE-RAQLYTRPPIDFTSLQQEEETNLPLDVTLYDMLAAFQKLMRRKKAEKPVTTRITRQEIPIEQRMTDILKQLEIQGGRQSFYDLFVDDEREI-MVVTFLAVLELMKNQQIIIEQEHNFDEIFVS</Hsp_hseq>
+      <Hsp_midline>+F+GPLDLLL+LI +  ID+ +IP+ EIT QYL Y+  M+  Q D+A+EYL+MAA L++IKS++LLP+ E       +D   DPR EL+ RL+ Y++ K  A  L    +  R   +   P++  +     ET LP +V + D++ A+  ++ R K  +  +  + ++ + +  +MT IL++L  + G   F+ LF  ++    ++V F+A+LEL K   + I QE  F EI +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|254767839|sp|A9VFG1.1|SCPA_BACWK</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus weihenstephanensis KBAB4]</Hit_def>
+  <Hit_accession>A9VFG1</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>3.77072e-34</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>SFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAV-----EDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAA-----ETKLP-EVYIADLMQAWLGILSR--AKHTRSHEVIQETLSVRAQMTAILRRLN-EHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGA</Hsp_qseq>
+      <Hsp_hseq>AFEGPLDLLLHLINRYEIDIYNIPVAKITEQYLSYVHTMKELQLDVASEYLVMAATLLQIKSKMLLPKQEEDVPDNGEDFIDDPRQELMERLIEYKKYKQVATELKEREQE-RAQLYTRPPIDFTSFQQEEETSLPLDVTLYDMLAAFQKLMRRKKAKTPVTTRITRQEIPIAQRMTDILQQLEVRGGRQSFYDLFADEEREI-MVVTFLAVLELMKNQQIIIEQEHNFDEIFVSSSNKSV</Hsp_hseq>
+      <Hsp_midline>+F+GPLDLLL+LI +  ID+ +IP+ +IT QYL Y+  M+  Q D+A+EYL+MAA L++IKS++LLP+ E       ED   DPR EL+ RL+ Y++ K  A  L    +  R   +   P++  +     ET LP +V + D++ A+  ++ R  AK   +  + ++ + +  +MT IL++L    G   F+ LF  E+    ++V F+A+LEL K   + I QE  F EI +S +++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|254767848|sp|B9DNT5.1|SCPA_STACT</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Staphylococcus carnosus subsp. carnosus TM300]</Hit_def>
+  <Hit_accession>B9DNT5</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>6.64202e-34</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEA-VEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKLP------EVYIADLMQAWLGILSRAKHT--RSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS</Hsp_qseq>
+      <Hsp_hseq>EVKLDAFNGPLDLLLHLIHKYEIDIYDIPMKALTEQYMNYIHAMKKLEINIASEYLVVASELLMIKSKMLLPQHDTEMDDEIEDPREDLVGRLIEYQNYKEYTEFLNELKEQREQF-YSKHPTDLSHLESIETWDDSQTIDLTELIMAYQRIKTRTSFNTPKSVTIQKETFTIEQASKQVTEKLAVSNSINFFSLFTFKENTEEIVTHFLAILEMSKTGIIQINQVKDFADINIT</Hsp_hseq>
+      <Hsp_midline>+V L +F GPLDLLL+LI K  ID+ DIPM  +T QY++YI  M+  + ++A+EYL++A+ L+ IKS++LLP+ +  ++DE  DPR +LV RL+ Y+  K   + L+ L      F ++  P +++    +        + + +L+ A+  I +R      +S  + +ET ++      +  +L       F +LF  ++    ++ +F+A+LE++K G++ I Q   F +I I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|254767837|sp|B7HN36.1|SCPA_BACC7</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus cereus AH187] &gt;gi|254767838|sp|B9IWS1.1|SCPA_BACCQ RecName: Full=Segregation and condensation protein A [Bacillus cereus Q1]</Hit_def>
+  <Hit_accession>B7HN36</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.08336e-33</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>SFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAV-----EDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAA-----ETKLP-EVYIADLMQAWLGILSRAKHTR--SHEVIQETLSVRAQMTAILRRLN-EHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS</Hsp_qseq>
+      <Hsp_hseq>AFEGPLDLLLHLIHRYEIDIYNIPVAEITEQYLSYVHTMKELQLDVASEYLVMAATLLQIKSKMLLPKHEEDVLDNGDDFIDDPRQELMERLIEYKKYKQVATELKEREQE-RAQLYTRPPIDFTSLQQEEETSLPLDVTLYDMLAAFQKLMRRKKAKKPVTTRITRQEIPIEQRMTDILKLLEIQGGRQSFYDLFVDDEREI-MVVTFLAVLELMKNQQIVIEQEHNFDEIFVS</Hsp_hseq>
+      <Hsp_midline>+F+GPLDLLL+LI +  ID+ +IP+ EIT QYL Y+  M+  Q D+A+EYL+MAA L++IKS++LLP+ E       +D   DPR EL+ RL+ Y++ K  A  L    +  R   +   P++  +     ET LP +V + D++ A+  ++ R K  +  +  + ++ + +  +MT IL+ L  + G   F+ LF  ++    ++V F+A+LEL K   + I QE  F EI +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|254767860|sp|B0K9H1.1|SCPA_THEP3</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Thermoanaerobacter pseudethanolicus ATCC 33223] &gt;gi|254767861|sp|B0K158.1|SCPA_THEPX RecName: Full=Segregation and condensation protein A [Thermoanaerobacter sp. X514]</Hit_def>
+  <Hit_accession>B0K9H1</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.75079e-33</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>VVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRT----EAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDF-----AWAYLPLEIAAETKLPEVYIADLMQAWLGILSRAKHTRSH-EVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAHSD</Hsp_qseq>
+      <Hsp_hseq>VKLEVFEGPFDLLFHLIEKNEIDLMDIPISVILDQYMEYIKTLQEMDLNVASEFIVMAATLLEIKSKMLLPKQKFEGQQLEMEEVDPREELVTKLIEYKKYKIIAQTFKEMCKIGSRFFREEPEVKYIDKKIAFNYSSEDIY-----KAYLKVISKNNAKEDEIEIKKDEYTVESKIKELLVKLVKKTVLWFSEFIKKSRAKGEIIVSFIAVLELVRLNKIIAEQKTTYGDILIKSFGRGEKNE</Hsp_hseq>
+      <Hsp_midline>V L  F+GP DLL +LI K  ID++DIP+  I  QY+ YI  ++    ++A+E+++MAA L+EIKS++LLP+     + +E EE DPR ELV +L+ Y++ K+ AQ    + + G  F        Y+  +IA      ++Y     +A+L ++S+        E+ ++  +V +++  +L +L +  +  F       +    +IV+FIA+LEL +   +   Q+  +G+I I     G  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|81385178|sp|Q65HX1.1|SCPA_BACLD</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q65HX1</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>2.29561e-31</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPR------TEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEI---AAETKLPE----VYIADLMQAWLGILSRAKHTRSHE--VIQETLSVRAQMTAILRRL-NEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS</Hsp_qseq>
+      <Hsp_hseq>QVKIEAFEGPLDLLLHLINRLEIDIYDIPVAKITEQYLLYVHTMRELELDVASEYLVMAATLLSIKSRMLLPKQEEELFDEEFLEEEEDPREELIEKLIEYRKYKSAAQNLKE-REEERQKAFAKPPSDLSDYAKEIKLSEQKLSVTVYDMLGAFQKVLNRKKINRPSETRISRQEIPIEERMTQIVDCLKSSRKRMHFMELF-PYEQKEHLVVTFLAILELMKNQLIIIEQEHNFSDIYIT</Hsp_hseq>
+      <Hsp_midline>+V + +F+GPLDLLL+LI +  ID+ DIP+ +IT QYL Y+  M   + D+A+EYL+MAA L+ IKSR+LLP+       E   +EE DPR EL+ +L+ Y + K AAQ L       R  A+A  P ++   A E KL E    V + D++ A+  +L+R K  R  E  + ++ + +  +MT I+  L +      F  LF P +   +++V F+A+LEL K  L+ I QE  F +I I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|41018082|sp|Q8RAA1.1|SCPA_THETN</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Caldanaerobacter subterraneus subsp. tengcongensis MB4]</Hit_def>
+  <Hit_accession>Q8RAA1</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>2.48914e-31</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>VVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPR---TEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKLPEVYIADLMQAWLGILSRAKHTRSH-EVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRIS-LNHEGAHSD</Hsp_qseq>
+      <Hsp_hseq>VKLEIFEGPFDLLFHLIEKNEIDLMDIPISIILDQYMEYIRSLQEMDLDVASEFIVMAATLVEIKSRMLLPKFRLEEEAEKIEEDPREELVKQLIEYKKYKEIAQLLSGICGINRRFFKEEPDLNYIDKRVALNYSVEDIVNVYRKILERNKEKENKIEIKKEEYTVVSKIKELLTYLVKKPALWFSEIVRKSRSKLEVVVSFVALLELIKLNRVAAEQQTAYGDIFIRFLGREGRKHD</Hsp_hseq>
+      <Hsp_midline>V L  F+GP DLL +LI K  ID++DIP+  I  QY+ YI  ++    D+A+E+++MAA L+EIKSR+LLP+    E  E  E DPR ELV++L+ Y++ K  AQ L  +    R F      L    +       + D++  +  IL R K   +  E+ +E  +V +++  +L  L +     F  +    +    V+V+F+ALLEL K   V   Q+  +G+I I  L  EG   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|41017981|sp|Q834U4.1|SCPA_ENTFA</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Enterococcus faecalis V583]</Hit_def>
+  <Hit_accession>Q834U4</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.24709e-29</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTE------AVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEI----AAETKLP--EVYIADLMQAWLGILSRAKHTRSHE--VIQETLSVRAQMTAI---LRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAHSDG</Hsp_qseq>
+      <Hsp_hseq>INLKLDVFEGPLDLLLHLIQKLEIDIYDIPITAVTEQYMSYIHAMQTLELEVAGEYLVMAATLMAIKSQMLLPKQELEIIDDEDFFEEEDPREALVAQLLEYRKFKYAATVLHE-KEEERKLYYTKEPMDMDDYKEEDTTLPPNQINTIDLFLAFHAMLEKKKNRQPVETTVASDDVSIEEKISAISERMRQVQKGKAVSFDSFFDS-YSKQEIVTTFMALLELMKTGAIYAEQENNYSEILL-FNTETQQEDT</Hsp_hseq>
+      <Hsp_midline>+ + L  F+GPLDLLL+LI+K  ID+ DIP+  +T QY+ YI  M+  + ++A EYL+MAA L+ IKS++LLP+ E          EE DPR  LV +LL Y + K AA  L       R   +   P+++      +T LP  ++   DL  A+  +L + K+ +  E  V  + +S+  +++AI   +R++ +     F + F+       ++  F+ALLEL K G +   QE+ + EI +  N E    D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|41018111|sp|Q97HF0.1|SCPA_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Clostridium acetobutylicum ATCC 824]</Hit_def>
+  <Hit_accession>Q97HF0</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.50821e-29</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ALKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRT--EAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDF--AWAYLPLEIAAETK-------LPEVYIADLMQAWLGIL----SRAKHTRS--HEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>TLNINIDNFQGPFDLLLHLIRKNKMDIYDIKIFDITNQYIQYLNEMKEMDLEITSEFIVMAATLIEIKSKYLLPKTKEEEEEKEESDPTKELVSKLVEYKKFKLAA---DFLKNRELDYGEVFSKKPEIIDDRTEDADNKDILKDITLLDMYKLFEKLMEMYRSRINTNNSLPDKIAPDIYKIEDKMDEISEIIKSNKEIYFSNIINKCSNKIEVVVTFLALLELIKLKDIKVYQSNNFKDIYI</Hsp_hseq>
+      <Hsp_midline> L + + +FQGP DLLL+LIRK  +D+ DI + +IT QY+ Y+ +M+    ++ +E+++MAA LIEIKS+ LLP+T  E  E EE+DP  ELV +L+ Y++ KLAA   D L     D+   ++  P  I   T+       L ++ + D+ + +  ++    SR     S   ++  +   +  +M  I   +  +    F  + N       V+V F+ALLEL K   + + Q + F +I I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|122482546|sp|Q24V65.1|SCPA_DESHY</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Desulfitobacterium hafniense Y51] &gt;gi|254767843|sp|B8FPL1.1|SCPA_DESHD RecName: Full=Segregation and condensation protein A [Desulfitobacterium hafniense DCB-2]</Hit_def>
+  <Hit_accession>Q24V65</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.5503e-29</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>VVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPR--TEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDAL-----PRAGRDFAWAYLPLEIAAETKLPEVYIADLMQAWLGILSRAKHTRSHEVIQ-ETLSVRAQMTAILRR--LNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>VELPAFQGPMDLLLHLIQQEKVDIYDIPIARITDQFIQVVRQMEDLDMEVTTEFLVLAAQLLQIKSRYLLPKPVKDVTVEEEGDPRQELVERLLAYRAFKQAAETLGEIQISSGQRYFREVDVDGLRSQFTPADPLAGIHFEALWHAFQRIIERAEQGEEIRTVEPDEIPIEVMVNDVLRRVILHPRGL-RFSQLIRGTKRME-IIVSFLALLELLKSGKVHCEQSSQNEEI</Hsp_hseq>
+      <Hsp_midline>V L +FQGP+DLLL+LI+++ +D+ DIP+  IT Q++  + QME    ++  E+L++AA L++IKSR LLP+   +   +EE DPR ELV RLLAY   K AA+ L  +      R  R+     L  +      L  ++   L  A+  I+ RA+       ++ + + +   +  +LRR  L+  G+ RF  L    +    +IV+F+ALLEL K G V   Q     EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|123047289|sp|Q0SS18.1|SCPA_CLOPS</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Clostridium perfringens SM101]</Hit_def>
+  <Hit_accession>Q0SS18</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.01652e-28</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>VVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDE--EADPRAELVRRLLAYEQM-KLAAQGLDALPRAGRDFAWAYLPLEIAAETKLPEVYIA-----DLMQAWLGILSRAKHTRSHEVIQETLSV-RAQMT---AILR-RLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>IKLKNFDGPFDLLLHLIKKNEMSITEIKIHEITKQYLEYIALMKELDLEITSEFIVMAATLIEIKSKSLLPKV-KVEDETCEEDLQKILMEKLQEYKKFKKISAYLRERELSTGEVFTKKAEIIEVEADNKLDDDYFKNITMLDLYKLYNNLMRIYGEKQNVNVMEKKISVDKYKITDKINFLRDKLSEKSVVRFSEFIPQCECKLEVVVTFMAMLELIKRSEIKVIQYENFGEI</Hsp_hseq>
+      <Hsp_midline>+ L +F GP DLLL+LI+K  + + +I + EIT QYL YIA M+    ++ +E+++MAA LIEIKS+ LLP+   VEDE  E D +  L+ +L  Y++  K++A   +     G  F      +E+ A+ KL + Y       DL + +  ++      ++  V+++ +SV + ++T     LR +L+E  + RF       +    V+V F+A+LEL K   + ++Q + FGEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|41018092|sp|Q8XJF4.1|SCPA_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Clostridium perfringens str. 13] &gt;gi|123344655|sp|Q0TPF1.1|SCPA_CLOP1 RecName: Full=Segregation and condensation protein A [Clostridium perfringens ATCC 13124]</Hit_def>
+  <Hit_accession>Q8XJF4</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.21966e-28</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>VVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDE--EADPRAELVRRLLAYEQM-KLAAQGLDALPRAGRDFAWAYLPLEIAAETKLPEVYIA-----DLMQAWLGILSRAKHTRSHEVIQETLSV-RAQMT---AILR-RLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>IKLKNFDGPFDLLLHLIKKNEMSITEIKIHEITKQYLEYIALMKELDLEITSEFIVMAATLIEIKSKSLLPKV-KVEDETCEEDLQKILMEKLQEYKKFKKISAYLRERELSTGEVFTKKAEIIEVEVDNKLDDDYFKNITMLDLYKLYNNLMRIYGEKQNVNVMEKKISVDKYKITDKINFLRDKLSEKSIVRFSEFIPQCECKLEVVVTFMAMLELIKRSEIKVVQYENFGEI</Hsp_hseq>
+      <Hsp_midline>+ L +F GP DLLL+LI+K  + + +I + EIT QYL YIA M+    ++ +E+++MAA LIEIKS+ LLP+   VEDE  E D +  L+ +L  Y++  K++A   +     G  F      +E+  + KL + Y       DL + +  ++      ++  V+++ +SV + ++T     LR +L+E  I RF       +    V+V F+A+LEL K   + +VQ + FGEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|41018136|sp|Q9EUR2.1|SCPA_STRMT</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Streptococcus mitis]</Hit_def>
+  <Hit_accession>Q9EUR2</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.59551e-28</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETK--LPEVYIADLMQAWLGILSRAKH--TRSHEVI-QETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAH</Hsp_qseq>
+      <Hsp_hseq>MDIKLKDFEGPLDLLLHLVSKYKMDIYDVPITEVIEQYLAYVSTLQAMRLEVTGEYMVMASQLMLIKSRKLLPKVAEVTDLEDDLEQDLLSQIEEYRKFKLLGEHLEA-KHQERAQYYSKAPRELMYEDAELVHDKTTIDLFLAFSNILAKKKEEFAQNHTTILRDEYKIEDMMIIVKESLTGRDQLRLQDLFKEAQNVQEVITLFLATLELIKTQELILVQEESFGDIYLMEKKEESQ</Hsp_hseq>
+      <Hsp_midline>+ + L  F+GPLDLLL+L+ K  +D+ D+P+ E+  QYL Y++ ++A + ++  EY++MA+ L+ IKSR LLP+   V D E D   +L+ ++  Y + KL  + L+A     R   ++  P E+  E    + +    DL  A+  IL++ K    ++H  I ++   +   M  +   L      R   LF   Q    VI  F+A LEL K   + +VQE+ FG+I +    E + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|41018128|sp|Q9CG33.1|SCPA_LACLA</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>Q9CG33</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>1.0556e-27</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPR-TEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKLPEVYIA-DLMQAWLGILSRAK---HTRSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>INIKIKNFEGPLDLLLHLVSQYEMDIFEVPLVPVIEQYLIYIQTMKELELEVAGEYMLMASQLMLIKSRRLLPTVTETFIEDTEQLEYDLLAQIDEYRKYKMLSQDLDELHQERSHFYSKAKTEIITDETVLLQDKSALDLFLAFTKILELQRQHFQDENTKIAAEKFTIADKILELSTRFTEQKICKFSDLFSSSTNKDELVTTFMALLELIKNQQISFSQGELFGEI</Hsp_hseq>
+      <Hsp_midline>+ + + +F+GPLDLLL+L+ +  +D+ ++P+V +  QYL YI  M+  + ++A EY+LMA+ L+ IKSR LLP  TE   ++      +L+ ++  Y + K+ +Q LD L +    F        I  ET L +   A DL  A+  IL   +      + ++  E  ++  ++  +  R  E  IC+F  LF+       ++  F+ALLEL K   +   Q + FGEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|189046141|sp|A8AYT8.1|SCPA_STRGC</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Streptococcus gordonii str. Challis]</Hit_def>
+  <Hit_accession>A8AYT8</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>2.40902e-27</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETK--LPEVYIADLMQAWLGILSRAKHTRSHE---VIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>MDIKIKDFEGPLDLLLHLVSKYQMDIYDVPITEVIEQYLAYVATLQAMRLEVAGEYMVMASQLMLIKSRKLLPKVVDDADLEEDLEHDLLSQIVEYRKFKLLGEKM-AEQHEERALYYSKPKIELVYEDAELVHDRSAIDLFLAFSGLLAKKREEFRHSHTTIVKDEYKIEDMMDVVLERCKSQKKLALQELFTETKDMNEVITLFLATLELVKVQEIQLFQEENFGSI</Hsp_hseq>
+      <Hsp_midline>+ + +  F+GPLDLLL+L+ K  +D+ D+P+ E+  QYL Y+A ++A + ++A EY++MA+ L+ IKSR LLP+     D E D   +L+ +++ Y + KL  + + A     R   ++   +E+  E    + +    DL  A+ G+L++ +    H    ++++   +   M  +L R           LF   +    VI  F+A LEL K   + + QE+ FG I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|41018134|sp|Q9EUQ7.1|SCPA_STRR6</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae R6] &gt;gi|122278048|sp|Q04IT2.1|SCPA_STRP2 RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae D39] &gt;gi|254767852|sp|C1C9E2.1|SCPA_STRP7 RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae 70585] &gt;gi|254767853|sp|B1I886.1|SCPA_STRPI RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae Hungary19A-6] &gt;gi|254767854|sp|B8ZNI0.1|SCPA_STRPJ RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae ATCC 700669] &gt;gi|254767857|sp|C1CGA0.1|SCPA_STRZJ RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae JJA] &gt;gi|254767858|sp|C1CMI6.1|SCPA_STRZP RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae P1031]</Hit_def>
+  <Hit_accession>Q9EUQ7</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>3.71354e-27</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETK--LPEVYIADLMQAWLGILSRAKH--TRSHEVI-QETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAH</Hsp_qseq>
+      <Hsp_hseq>MDIKLKDFEGPLDLLLHLVSKYQMDIYDVPITEVIEQYLAYVSTLQAMRLEVTGEYMVMASQLMLIKSRKLLPKVAEVTDLGDDLEQDLLSQIEEYRKFKLLGEHLEA-KHQERAQYYSKAPTELIYEDAELVHDKTTIDLFLAFSNILAKKKEEFAQNHTTILRDEYKIEDMMIIVKESLIGRDQLRLQDLFKEAQNVQEVITLFLATLELIKTQELILVQEESFGDIYLMEKKEESQ</Hsp_hseq>
+      <Hsp_midline>+ + L  F+GPLDLLL+L+ K  +D+ D+P+ E+  QYL Y++ ++A + ++  EY++MA+ L+ IKSR LLP+   V D   D   +L+ ++  Y + KL  + L+A     R   ++  P E+  E    + +    DL  A+  IL++ K    ++H  I ++   +   M  +   L      R   LF   Q    VI  F+A LEL K   + +VQE+ FG+I +    E + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|167016551|sp|A8FEQ8.1|SCPA_BACP2</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Bacillus pumilus SAFR-032]</Hit_def>
+  <Hit_accession>A8FEQ8</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>5.22386e-27</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>KVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPR------TEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKLPE-------VYIADLMQAWLGILSRAKHTR--SHEVIQETLSVRAQMTAILRRLNE-HGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>QVKIDSFEGPLDLLLHLINRLEIDIYDIPVAKITEQYLLYVHTMRELELDVASEYLVMAATLLSIKSRMLLPKQEEELFDEDLLEEEEDPREELIGKLIEYRKYKDAAQELKE-REEERQNAFTKPPSDLSEFAKESEAKDTNLHVTVYDMLGAFQKVLNRKKITKPAPSRITRQEIPIEDKMNEIMNHLRKTKKRTNFMTLFQHDQK-EHLVVTFLAVLELMKSHQIMLEQEGNFEDIYI</Hsp_hseq>
+      <Hsp_midline>+V + SF+GPLDLLL+LI +  ID+ DIP+ +IT QYL Y+  M   + D+A+EYL+MAA L+ IKSR+LLP+       E + +EE DPR EL+ +L+ Y + K AAQ L       R  A+   P +++   K  E       V + D++ A+  +L+R K T+     + ++ + +  +M  I+  L +      F  LF  +Q   +++V F+A+LEL K   + + QE  F +I I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|254767851|sp|B5E1Y8.1|SCPA_STRP4</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae G54]</Hit_def>
+  <Hit_accession>B5E1Y8</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>6.01258e-27</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETK--LPEVYIADLMQAWLGILSRAKH--TRSHEVI-QETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAH</Hsp_qseq>
+      <Hsp_hseq>MDIKLKDFEGPLDLLLHLVSKYQMDIYDVPITEVIEQYLAYVSTLQAMRLEVTGEYMVMASQLMLIKSRKLLPKVAEVTDLGDDLEQDLLSQIEEYRKFKLLGEHLEA-KHQERAQYYSKAPTELIYEDAELVHDKTTIDLFLAFSNILAKKKEEFAQNHTTILRDEYKIEDMMIIVKESLIGRDQLRLQDLFKEAQNVQEIITLFLATLELIKTQELILVQEESFGDIYLMEKKEESQ</Hsp_hseq>
+      <Hsp_midline>+ + L  F+GPLDLLL+L+ K  +D+ D+P+ E+  QYL Y++ ++A + ++  EY++MA+ L+ IKSR LLP+   V D   D   +L+ ++  Y + KL  + L+A     R   ++  P E+  E    + +    DL  A+  IL++ K    ++H  I ++   +   M  +   L      R   LF   Q    +I  F+A LEL K   + +VQE+ FG+I +    E + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|254767859|sp|C1CTA6.1|SCPA_STRZT</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae Taiwan19F-14]</Hit_def>
+  <Hit_accession>C1CTA6</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>8.2047e-27</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETK--LPEVYIADLMQAWLGILSRAKH--TRSHEVI-QETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAH</Hsp_qseq>
+      <Hsp_hseq>MDIKLKDFEGPLDLLLHLVSKYQMDIYDVPITEVIEQYLAYVSTLQAMRLEVTGEYMVMASQLMLIKSRKLLPKVAEVTDLGDDLEQDLLSQIEEYRKFKLLGEHLES-KHQERAQYYSKAPTELIYEDAELVHDKTTIDLFLAFSNILAKKKEEFAQNHTTILRDEYKIEDMMIIVKESLIGRDQLRLQDLFKEAQNVQEVITLFLATLELIKTQELILVQEESFGDIYLMEKKEESQ</Hsp_hseq>
+      <Hsp_midline>+ + L  F+GPLDLLL+L+ K  +D+ D+P+ E+  QYL Y++ ++A + ++  EY++MA+ L+ IKSR LLP+   V D   D   +L+ ++  Y + KL  + L++     R   ++  P E+  E    + +    DL  A+  IL++ K    ++H  I ++   +   M  +   L      R   LF   Q    VI  F+A LEL K   + +VQE+ FG+I +    E + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|122940143|sp|Q02YQ8.1|SCPA_LACLS</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Lactococcus lactis subsp. cremoris SK11]</Hit_def>
+  <Hit_accession>Q02YQ8</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>8.97913e-27</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPR-TEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKLPEVYIA-DLMQAWLGILSRAKHT---RSHEVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>INIKIKNFEGPLDLLLHLVSQYEMDIFEVPLVPVIEQYLIYIQTMKELELELAGEYMLMASQLMLIKSRRLLPTVTETFIEDTEQLEYDLLAQIDEYRKYKMLSEDLDELHQERSHYYSKSKTEIITDETVLLQDKTALDLFLAFSKILELQRQQIEDDNTTIAAEKFTIADKIFELNQRFTEQKICKFTDLFSDKTKKDELVTTFMALLELIKNQQVSFSQGELFGEI</Hsp_hseq>
+      <Hsp_midline>+ + + +F+GPLDLLL+L+ +  +D+ ++P+V +  QYL YI  M+  + +LA EY+LMA+ L+ IKSR LLP  TE   ++      +L+ ++  Y + K+ ++ LD L +    +        I  ET L +   A DL  A+  IL   +      +  +  E  ++  ++  + +R  E  IC+F  LF+ +     ++  F+ALLEL K   V   Q + FGEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|41018115|sp|Q97NX5.1|SCPA_STRPN</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae TIGR4] &gt;gi|259495731|sp|B2ISX4.1|SCPA_STRPS RecName: Full=Segregation and condensation protein A [Streptococcus pneumoniae CGSP14]</Hit_def>
+  <Hit_accession>Q97NX5</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.23716e-26</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETK--LPEVYIADLMQAWLGILSRAKH--TRSHEVI-QETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAH</Hsp_qseq>
+      <Hsp_hseq>MDIKLKDFEGPLDLLLHLVSKYQMDIYDVPITEVIEQYLAYVSTLQAMRLEVTGEYMVMASQLMLIKSRKLLPKVAEVTDLGDDLEQDLLSQIEEYRKFKLLGEHLEA-KHQERAQYYSKAPTELIYEDAELVHDKTTIDLFLTFSNILAKKKEEFAQNHTTILRDEYKIEDMMIIVKESLIGRDQLRLQDLFKEAQNVQEVITLFLATLELIKTQELILVQEESFGDIYLMEKKEESQ</Hsp_hseq>
+      <Hsp_midline>+ + L  F+GPLDLLL+L+ K  +D+ D+P+ E+  QYL Y++ ++A + ++  EY++MA+ L+ IKSR LLP+   V D   D   +L+ ++  Y + KL  + L+A     R   ++  P E+  E    + +    DL   +  IL++ K    ++H  I ++   +   M  +   L      R   LF   Q    VI  F+A LEL K   + +VQE+ FG+I +    E + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|41018124|sp|Q9A1B2.1|SCPA_STRP1</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Streptococcus pyogenes serotype M1]</Hit_def>
+  <Hit_accession>Q9A1B2</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.57938e-26</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLE--IAAETKLPE-VYIADLMQAWLGILS--RAKHTRSHEVIQ-ETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>MDIKLKDFEGPLDLLLHLVSQYKVDIYEVPIVEVIEQYLNYIETLQVMKLEVAGDYMLMASQLMLIKSRRLLPKV--VEHIEEDLEQDLLEKIEEYSRFKAVSQAL--AKQHDQRAKWYSKPKQELIFEDAILQEDKTVMDLFLAFSNIMAAKRAVLKNNHTVIERDDYKIEDMMASIKQRLEKENVIRLSAIFEECQTLNEVISIFLASLELIKLHVVFVEQLSNFGAI</Hsp_hseq>
+      <Hsp_midline>+ + L  F+GPLDLLL+L+ +  +D+ ++P+VE+  QYL+YI  ++  + ++A +Y+LMA+ L+ IKSR LLP+   VE  E D   +L+ ++  Y + K  +Q L    +  +   W   P +  I  +  L E   + DL  A+  I++  RA    +H VI+ +   +   M +I +RL +  + R  A+F   Q    VI  F+A LEL K  +V + Q   FG I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|167016552|sp|A2RKH5.1|SCPA_LACLM</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Lactococcus lactis subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>A2RKH5</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.10218e-26</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPR-TEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKLPEVYIA-DLMQAWLGILSRAKHTRSHE---VIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>INIKIKNFEGPLDLLLHLVSQYEMDIFEVPLVPVIEQYLIYIQTMKELELELAGEYMLMASQLMLIKSRRLLPTVTETFIEDTEQLEYDLLAQIDEYRKYKMLSEDLDELHQERSHYYSKSKTEIITDETVLLQDKTALDLFLAFSKILELQRQQIEDDNTMIAAEKFTIADKIFELNQKFTEQKICKFTDLFSDKTNKDELVTTFMALLELIKNQQVSFSQGELFGEI</Hsp_hseq>
+      <Hsp_midline>+ + + +F+GPLDLLL+L+ +  +D+ ++P+V +  QYL YI  M+  + +LA EY+LMA+ L+ IKSR LLP  TE   ++      +L+ ++  Y + K+ ++ LD L +    +        I  ET L +   A DL  A+  IL   +     +   +  E  ++  ++  + ++  E  IC+F  LF+ +     ++  F+ALLEL K   V   Q + FGEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|357529047|sp|Q88VY7.2|SCPA_LACPL</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Lactobacillus plantarum WCFS1]</Hit_def>
+  <Hit_accession>Q88VY7</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.4087e-26</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPR----TEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDF---AWAYLPLEIAAETKLPEVYIADLMQAWLGILSRAKHTR--SHEVIQETLSVRAQMTAILRRLNE--HGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEGAHSD</Hsp_qseq>
+      <Hsp_hseq>ITIKISEFEGPLDLLLHLIRQNKMDIYDIPIAAITQQYLDYLHSMRALKLDIAGDYLVMAATLMTIKSRFLLPQPEPDEMDEDNEDDDPRDSLVAELLAYKVYQEAAGELREKEQARHQHFTREAMLVPADLSAPKLTAGITLDDLQAAFRQLVAKRRRVRPLTKTVVAETINIDERMTQITTQLQHQPQGL-DFADLFTVSASDEMLVTTFMAVLELTKQDQVALQQAEPLSPIHLYLRQDEQHDE</Hsp_hseq>
+      <Hsp_midline>+ + +  F+GPLDLLL+LIR+  +D+ DIP+  IT QYL Y+  M A + D+A +YL+MAA L+ IKSR LLP+        ++E+ DPR  LV  LLAY+  + AA  L    +A           +P +++A      + + DL  A+  ++++ +  R  +  V+ ET+++  +MT I  +L     G+  F  LF        ++  F+A+LEL K+  V + Q +    I + L  +  H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|56749641|sp|Q74JM3.1|SCPA_LACJO</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Lactobacillus johnsonii NCC 533]</Hit_def>
+  <Hit_accession>Q74JM3</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.66798e-26</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>DALKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDE--EADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKL-PEVYIADLMQAWLGILSRAKHTRSHEVIQETLSVRA--------------QMTAILR-RLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>DELTLDLPNFTGPLDLLLHLIRSQKIDIYDIPIAKITGQYLANLARWQTLDLQIAGEYFVMASTLLRIKSQYLLPKNDFIEEDQYQEDPRTELVEQLVQYSVFQRIAEYF-----KKRD---EEMPITVAKDPSVSPKKEIEPLP---LGEITSDELANTFKVVLERFKLRKPQVGKIEVHETSIEEMTSFLKNRLQKKRSTSFFDCIKSFQDLDQVIGLFLAVLELCRDHKILVKQNRDFGDLEL</Hsp_hseq>
+      <Hsp_midline>D L + L +F GPLDLLL+LIR Q ID+ DIP+ +ITGQYL  +A+ +     +A EY +MA+ L+ IKS+ LLP+ + +E++  + DPR ELV +L+ Y   +  A+         RD     +P+ +A +  + P+  I  L    LG ++  +   + +V+ E   +R               +MT+ L+ RL +     F       Q    VI  F+A+LEL ++  + + Q   FG++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|122273521|sp|Q043U7.1|SCPA_LACGA</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Lactobacillus gasseri ATCC 33323 = JCM 1131]</Hit_def>
+  <Hit_accession>Q043U7</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>3.22439e-26</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>DALKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDE--EADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKL-PEVYIADLMQAWLGILSRAKHTRSHEVIQETLSVRA--------------QMTAILR-RLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRI</Hsp_qseq>
+      <Hsp_hseq>DELTLDLPNFTGPLDLLLHLIRSQKIDIYDIPIAKITGQYLANLARWQTLDLQIAGEYFVMASTLLRIKSQYLLPKNDFVEEDQYQEDPRAELVEQLVQYSVFQRIAEYF-----KKRD---EEMPITVAKDPSVSPKKKVEPLP---LGEITSDELANTFKVVLERFKLRKPQVGQIEVHEASIEEMTTFLKDKLHHRKSTSFFDCIKNFQDLDQVIGLFLAVLELCRDHKILVKQNRDFGDLEL</Hsp_hseq>
+      <Hsp_midline>D L + L +F GPLDLLL+LIR Q ID+ DIP+ +ITGQYL  +A+ +     +A EY +MA+ L+ IKS+ LLP+ + VE++  + DPRAELV +L+ Y   +  A+         RD     +P+ +A +  + P+  +  L    LG ++  +   + +V+ E   +R               +MT  L+ +L+      F       Q    VI  F+A+LEL ++  + + Q   FG++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|167016580|sp|A3CPQ7.1|SCPA_STRSV</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Streptococcus sanguinis SK36]</Hit_def>
+  <Hit_accession>A3CPQ7</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>3.95001e-26</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETK--LPEVYIADLMQAWLGILSRAKH--TRSH-EVIQETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>MDIKLKDFEGPLDLLLHLVSKYQVDIYDVPITEVIEQYLAYVATLQAMKLEVTGEYMVMASQLMLIKSRKLLPKVADNAELEDDLEQDLLSQIEEYRRFKLLGEKM-SLQHDDRALYYSKPKLELVYEDAELLHDKSTIDLFLAFSKVIAKKQEEFSKSHTTIVRDEYKIEDMMEVVRQRCAGKSRLALQEIFAETKDMNEVITLFLATLELVKVQEVQVIQEENFGNI</Hsp_hseq>
+      <Hsp_midline>+ + L  F+GPLDLLL+L+ K  +D+ D+P+ E+  QYL Y+A ++A + ++  EY++MA+ L+ IKSR LLP+     + E D   +L+ ++  Y + KL  + + +L    R   ++   LE+  E    L +    DL  A+  ++++ +   ++SH  ++++   +   M  + +R           +F   +    VI  F+A LEL K   V ++QE+ FG I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|41017952|sp|Q7ZAL1.1|SCPA_STRA5</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Streptococcus agalactiae 2603V/R] &gt;gi|123601422|sp|Q3JZU0.1|SCPA_STRA1 RecName: Full=Segregation and condensation protein A [Streptococcus agalactiae A909]</Hit_def>
+  <Hit_accession>Q7ZAL1</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>4.97885e-26</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLPRTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETK--LPEVYIADLMQAWLGILSRAKH--TRSHEVIQ-ETLSVRAQMTAILRRLNEHGICRFHALFNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEI</Hsp_qseq>
+      <Hsp_hseq>MDIKLKDFEGPLDLLLHLVSKYEVDIYDVPIVEVIEQYLAYIATLQAMRLEVAGEYMLMASQLMLIKSRNLLPKVVESNPIEDDPEMELLSQLEEYRRFKVLSEEL-ANQHQERAKYFSKPKQEVIFEDAILLHDKSVMDLFLTFSQMMSQKQKELSNSQTVIEKEDYRIEDMMIVIERHFNLKKKTTLQEVFADCQTKSEMITLFLAMLELIKLHQITVEQDSNFSQV</Hsp_hseq>
+      <Hsp_midline>+ + L  F+GPLDLLL+L+ K  +D+ D+P+VE+  QYL YIA ++A + ++A EY+LMA+ L+ IKSR LLP+       E DP  EL+ +L  Y + K+ ++ L A     R   ++    E+  E    L +  + DL   +  ++S+ +   + S  VI+ E   +   M  I R  N         +F   Q  + +I  F+A+LEL K   + + Q+  F ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|122448958|sp|Q1WTK0.1|SCPA_LACS1</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein A [Lactobacillus salivarius UCC118]</Hit_def>
+  <Hit_accession>Q1WTK0</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>6.8172e-26</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LKVVLGSFQGPLDLLLYLIRKQNIDVLDIPMVEITGQYLHYIAQMEAYQFDLAAEYLLMAAMLIEIKSRLLLP--RTEAVEDEEADPRAELVRRLLAYEQMKLAAQGLDALPRAGRDFAWAYLPLEIAAETKLPEVYIADLMQAWLGILSRAKHTRSHEVIQ-----ETLSVRAQMTAILRRLNEH-GICRFHAL--FNPEQGAAYVIVNFIALLELAKEGLVGIVQEDGFGEIRISLNHEG-AHSDGI</Hsp_qseq>
+      <Hsp_hseq>LTFKLDQFEGPLDLLLHLIKQNEMDIYDIQVAEITSQYIDYLHQMQDLRLDIAGEYLVIAATLLNIKSKMLLPVEQEQQVEEDYVDPREDLVQQLVSHQLYQEVAAKFHVMEKQRMELFSREQAVNEDVTYEVSEGTTIDLLQKAFAKLMARKKVKKIKKIKRKIIPERYTIKEEIENIEHTLKMHKGTMNFTDLFDFDGEVEVEKVVTSFLALLELVRVGRVSASQEENNGPILMT--YEGKAEEDAI</Hsp_hseq>
+      <Hsp_midline>L   L  F+GPLDLLL+LI++  +D+ DI + EIT QY+ Y+ QM+  + D+A EYL++AA L+ IKS++LLP  + + VE++  DPR +LV++L++++  +  A     + +   +       +      ++ E    DL+Q     L   K  +  + I+     E  +++ ++  I   L  H G   F  L  F+ E     V+ +F+ALLEL + G V   QE+  G I ++  +EG A  D I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

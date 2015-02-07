@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>2399</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>435</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>2399</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>435</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|12230902|sp|P29365.2|DHOM_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P29365</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.449</Hsp_bit-score>
+      <Hsp_score>1308</Hsp_score>
+      <Hsp_evalue>1.00216e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>MKPVNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQICPSAA--FVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALIQKGVIDQT-TAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRMESLH</Hsp_qseq>
+      <Hsp_hseq>MKPVKVGICGLGTVGGGTFNVLERNAEEIARRAGRGIEVA---QIAARRPNPKCDTGATPITADIFDVACNPEIDVVVELIGGYTLAHELVLKAIENGKHVVTANKALIAVHGNEIFAKAREKGVIVAFEAAVAGGIPVIKAIREGLSANRINWLAGIINGTGNFILSEMREKGRTFPDVLAEAQALGYAEADPTFDVEGIDAAHKLTILASIAFGIPLQFDKAYTEGISKLTSADVNYADALGYRIKHLGVARRTESGFELRVHPTLIPSDRLIANVNGVMNAVMVNGDAVGSTLYYGAGAGMEPTASSVVADLVDVVRAMTSDPENRVPHLAFQPDALSDHPILPIEACESAYYLRIQAKDHPGVLAQVATILSERGINIESIMQKEAEEQDGLVPMILVTHRVIEQRINDAIAALEALEGVSGPVVRIRVEQLN</Hsp_hseq>
+      <Hsp_midline>MKPV +G+ GLGTVGGG   VL  NAEEI+RR GR I ++    ++  +    C + A     D F++    ++DVVVEL GG  +A E VLKAIENGKH+VTANK L+A +GNEIF  A ++ VIV FEAAVAGGIP+IKA+REGL+ANRI  +AGIINGT NFILSEMREKG  F DVL EAQALGYAEADPTFD+EG DA HK+TI++++AFG P+ F   Y EGISKL S D+ YA+ LGYRIK LGV R+T  G ELRVHPTLIP  RL+ANV+GVMNAV VN D VG TLYYGAGAG  PTAS+VVAD++D+ R + +D  +RVPHLAFQP  +    ILP++   S+YYLR+QAKD PG L Q+A +L++  ++IE+++QK   +Q     ++++TH  +E+ I  AIAA+EAL+ V  P+  IR+E L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|585051|sp|P37144.1|DHON_METGL</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Methylobacillus glycogenes]</Hit_def>
+  <Hit_accession>P37144</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>4.72926e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>MKPVNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQICPSAAFV-KDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALIQKGVID-QTTAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRMESL</Hsp_qseq>
+      <Hsp_hseq>MKPINVGLLGIGTVGGGTYTVLTRNQEEIARRAGRPIAITRVADRNLELARQVTGGKIDVTDDAFAIVSDPAIDIVVELIGGYTVARELVLKAIENGKHVVTANKALIACMAMKFLPLRRKKASSSLLKLPLLVVSPLFKAVREGLAANRIEWIAGIINGTTNFILSEMREKGLAFADVLKEAQRLGYAEADPTFDVEGIDAAHKLMILAAMLW----LFVHSLCRGITKLDAVDI---------------TKRTDKGVELRVHPTLIPEKRLICQCEWRNECCAGQGRCCWPTLYYGAGAGAEPTASA-VADLVD-----GTDRGISCPHLAFQPDRLVDLPILPIGEISSAYYLRLRAVDKPGVLADVTRILGDRQISIDAMIQKEPQEGEDQADIIILTHVTVEKNMDDAIAAIEALPAISGKVTRLRMEEL</Hsp_hseq>
+      <Hsp_midline>MKP+N+GLLG+GTVGGG   VL  N EEI+RR GR I I+ + D + E ARQ+      V  D F +V+   +D+VVEL GG  +A+E VLKAIENGKH+VTANK L+A    +  PL  K+      +  +    P+ KA+REGLAANRI+ IAGIINGT+NFILSEMREKG AFADVLKEAQ LGYAEADPTFD+EG DA HK+ I++A+ +     F      GI+KLD+ DI               T++T KG+ELRVHPTLIPE RL+   +               TLYYGAGAGA PTASA VAD++D       D     PHLAFQP ++    ILP+ EI+S+YYLR++A D+PG L  +  +L    +SI+A+IQK   + +  A+I+ILTH TVEK++  AIAAIEAL  +   +T +RME L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|11132649|sp|Q9ZL20.1|DHOM_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZL20</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>1.36821e-109</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>KPVNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRI--SAMCDLSEEKARQICPSAAFVKDPFE-LVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIAR-----LVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALIQKGVIDQTTAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRMES</Hsp_qseq>
+      <Hsp_hseq>KRLNIGLVGLGCVGSTVAKILQENQEIIKDRAGVEIKIKKAVVRDVKKHKGY-----AFEISDDLESVIEDKGIDIVVELMGGVEAPYLLAKKTLAKQKAFVTANKAMLAYHRYELEQIA--KNTPIGFEASVCGGIPIIKALKDGLSANHILSFKGILNGTSNYILSQMFKNQASFKDALKDAQHLGYAELNPEFDIKGIDAAHKLLILASLAYGIDAKLEEILIEGIEKIEPDDMEFAKEFGYSIKLLGIAKKHQDCIELRVHPSMIKNECMLSKVDGVMNAISVIGDKVGETLYYGAGAGGEPTASAVISDIIEIARKKSSLMLGFETPQKLP-------------LKPKEEIQCAYYARLLVSDEKGVFSQISAILAQNDISLNNVLQKEIPQSNKAKILFSTHTTNEKSMLNALKELENLQSVLDTPKMIRLEN</Hsp_hseq>
+      <Hsp_midline>K +NIGL+GLG VG   A +L++N E I  R G EI+I  + + D+ + K       A  + D  E ++  K +D+VVEL GG         K +   K  VTANK +LA +  E+  +A  +N  + FEA+V GGIPIIKAL++GL+AN I S  GI+NGTSN+ILS+M +  ++F D LK+AQ LGYAE +P FDI+G DA HK+ I+++LA+G         +EGI K++  D+++A+E GY IKLLG+ +K    IELRVHP++I    +L+ VDGVMNA+ V  D VGETLYYGAGAG  PTASAV++DII+IAR     ++  +T  ++P             + P +EI  +YY R+   DE G   QI+A+LAQ ++S+  ++QK +     A+I+  TH+T EK + +A+  +E L  V     MIR+E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|3023647|sp|P56429.1|DHOM_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>P56429</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.413</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>4.29965e-108</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>KPVNIGLLGLGTVGGGAAAVLRDNAEEISRR--LGREIRISAMCDLSEEKARQICPSAAFVKDPFE-------LVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIAR-----LVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALIQKGVIDQTTAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRMES</Hsp_qseq>
+      <Hsp_hseq>KRLNIGLVGLGCVGSAVAKILQENQEIIKDRAGVGIGIKKAVVRDVKKHKGY-----------PFEISNDLESLIEDEEIDIVVELMGGVEAPYLLAKKTLAKQKAFVTANKAMLAYHRYELEQTA--KNTPIGFEASVCGGIPIIKALKDGLSANHILSFKGILNGTSNYILSQMFKNQASFKDALKDAQHLGYAELNPEFDIKGIDAAHKLLILASLAYGIDAKLEEILIEGIEKIEPDDMEFAKEFGYSIKLLGIAKKHPDCIELRVHPSMIKNECMLSKVDGVMNAISVIGDKVGETLYYGAGAGGEPTASAVISDIIEIARKKSSLMLGFETPQKLP-------------LKPKEEIQCAYYARLLVSDEKGVFSQISAILAQNDISLNNVLQKEILHSNKAKILFSTHTTNEKSMLNALKELENLQSVLDTPKMIRLEN</Hsp_hseq>
+      <Hsp_midline>K +NIGL+GLG VG   A +L++N E I  R  +G  I+ + + D+ + K             PFE       L+  +++D+VVEL GG         K +   K  VTANK +LA +  E+   A  +N  + FEA+V GGIPIIKAL++GL+AN I S  GI+NGTSN+ILS+M +  ++F D LK+AQ LGYAE +P FDI+G DA HK+ I+++LA+G         +EGI K++  D+++A+E GY IKLLG+ +K    IELRVHP++I    +L+ VDGVMNA+ V  D VGETLYYGAGAG  PTASAV++DII+IAR     ++  +T  ++P             + P +EI  +YY R+   DE G   QI+A+LAQ ++S+  ++QK ++    A+I+  TH+T EK + +A+  +E L  V     MIR+E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1706419|sp|P52986.1|DHOM_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P52986</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>3.63787e-99</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQI-CPSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLL----GVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALIQKGVIDQTTAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRMES</Hsp_qseq>
+      <Hsp_hseq>VKIGLLGLGTVGSGTVEILQD--PQGRSPLLKAIEVKAVGVRSLDKPRQVNLPPEVLTTDLEAIVTDPDIAIVVELMGGLEPARSLILQAIAHKKHIVTANKAVIARYGPEIYEAANQHGVYVLLEAAVGGGIPIIKPLKQSLGGNRIQSIVGILNGTTNYILSRMTSEGADFDEVLTAAQQLGYAEADPSADVDGLDAADKIAILASLGFGGRVKREDVACEGIRSVSAVDIAYADRLGFVIKLLAIADGNAGEDSEALQLRVHPTLIAKDHPLASVNGVYNGVLVTGDPLGQVMFYGRGAGAGPTASAVVSDVINIVGIITSSDENPALDPLLSCTHQHYCQVSPIEDLVTRFYCRFLCADVPGVIGHLGMGFGNHGVSLESLVQIGFTD-GCAEIVVVTHDVREGDYRAALEEISQLEAVKEIPSVIRVLS</Hsp_hseq>
+      <Hsp_midline>V IGLLGLGTVG G   +L+D   +    L + I + A+   S +K RQ+  P      D   +V   D+ +VVEL GG   A+  +L+AI + KHIVTANK ++A YG EI+  A +  V V  EAAV GGIPIIK L++ L  NRI+SI GI+NGT+N+ILS M  +G+ F +VL  AQ LGYAEADP+ D++G DA  KI I+++L FG  +       EGI  + + DI YA+ LG+ IKLL    G   +  + ++LRVHPTLI +   LA+V+GV N V V  D +G+ ++YG GAGA PTASAVV+D+I+I  ++ +   +                + P++++ + +Y R    D PG +G +        VS+E+L+Q G  D   AEIV++TH   E   ++A+  I  L+ V++  ++IR+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|6648065|sp|P19582.2|DHOM_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P19582</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>3.38594e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>MKPVNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQI-CPSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALIQ---KGVIDQTTAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRME</Hsp_qseq>
+      <Hsp_hseq>MKAIRVGLLGLGTVGSGVVKIIQDHQDKLMHQVGCPVTIKKVLVKDLEKKREVDLPKEVLTTEVYDVIDDPDVDVVIEVIGGVEQTKQYLVDALRSKKHVVTANKDLMAVYGSELLAEAKENGCDIYFEASVAGGIPILRTLEEGLSSDRITKMMGIVNGTTNFILTKMIKEKSPYEEVLKEAQDLGFAEADPTSDVEGLDAARKMAILARLGFSMNVDLEDVKVKGISQITDEDISFSKRLGYTMKLIGIAQRDGSKIEVSVQPTLLPDHHPLSAVHNEFNAVYVYGEAVGETMFYGPGAGSMPTATSVVSDLVAVMKNMRLGVTGN----SFVGPQYEKNMKSPSD-IYAQQFLRIHVKDEVGSFSKITSVFSERGVSFEKILQLPIKG--HDELAEIVIVTHHTSEADFSDILQNLNDLEVVQEVKSTYRVE</Hsp_hseq>
+      <Hsp_midline>MK + +GLLGLGTVG G   +++D+ +++  ++G  + I  +     EK R++  P      + ++++   DVDVV+E+ GG    K+ ++ A+ + KH+VTANK L+A YG+E+   A++    + FEA+VAGGIPI++ L EGL+++RI  + GI+NGT+NFIL++M ++ S + +VLKEAQ LG+AEADPT D+EG DA  K+ I++ L F   ++     ++GIS++   DI +++ LGY +KL+G+ ++ G  IE+ V PTL+P+   L+ V    NAV V  + VGET++YG GAG++PTA++VV+D++ + + +           +F   Q +     P D I +  +LR+  KDE G+  +I ++ ++  VS E ++Q   KG      AEIVI+TH T E      +  +  L+ V++  +  R+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|118593|sp|P08499.1|DHOM_CORGL</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Corynebacterium glutamicum ATCC 13032]</Hit_def>
+  <Hit_accession>P08499</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>6.8949e-89</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGLGTVGGGAAAVLRDNAEEISRRLGR--EIRISAMCDLSEEKARQICPSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGV----TRKTGK-GIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEADTAHRVPHLAFQPAQVQAQTILPMD--EITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALIQKGVIDQTTAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRME</Hsp_qseq>
+      <Hsp_hseq>VGIALLGFGTVGTEVMRLMTEYGDELAHRIGGPLEVRGIAVSDIS--KPREGVAPELLTEDAFALIEREDVDIVVEVIGGIEYPREVVLAALKAGKSVVTANKALVAAHSAELADAAEAANVDLYFEAAVAGAIPVVGPLRRSLAGDQIQSVMGIVNGTTNFILDAMDSTGADYADSLAEATRLGYAEADPTADVEGHDAASKAAILASIAFHTRVTADDVYCEGISNISAADIEAAQQAGHTIKLLAICEKFTNKEGKSAISARVHPTLLPVSHPLASVNKSFNAIFVEAEAAGRLMFYGNGAGGAPTASAVLGDVVGAAR-------NKV-HGGRAPGESTYANLPIADFGETTTRYHLDMDVEDRVGVLAELASLFSEQGISLRTIRQEERDDD--ARLIVVTHSALESDLSRTVELLKAKPVVKAINSVIRLE</Hsp_hseq>
+      <Hsp_midline>V I LLG GTVG     ++ +  +E++ R+G   E+R  A+ D+S  K R+        +D F L+ R+DVD+VVE+ GG    +E VL A++ GK +VTANK L+A +  E+   AE  NV + FEAAVAG IP++  LR  LA ++I+S+ GI+NGT+NFIL  M   G+ +AD L EA  LGYAEADPT D+EG+DA  K  I++++AF T +     Y EGIS + + DI+ A++ G+ IKLL +    T K GK  I  RVHPTL+P S  LA+V+   NA+ V A+  G  ++YG GAG  PTASAV+ D++  AR       ++V H    P +     +   D  E T+ Y+L +  +D  G L ++A+L +++ +S+  + Q+   D   A ++++THS +E  +   +  ++A   V+   ++IR+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|14285411|sp|Q9CGD8.1|DHOM_LACLA</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>Q9CGD8</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>5.69121e-87</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSE---EKARQICPSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALI-QKGVIDQTTAEIVILTH</Hsp_qseq>
+      <Hsp_hseq>VNIAILGFGTVGTGLPTLISENKEKLSKILDEEIVISKVLMRDEKAIEKARAQGYQYDFVLTLEEILADSEISIVVELMGRIEPAKTYITKVIKAGKNVVTANKDLLAVHGTELRALAEKHHVALYYEAAVAGGIPILRTLANSFSSDKITHLLGILNGTSNFMMTKMSEEAWTYDQSLAKAQELGYAESDPTNDVDGIDASYKLAILSEFAFGMTLSPDQISKSGLRTIQKTDVEIAQQFGYVLKLTGEINEVESGIFAEVSPTFLPKSHPLASVNGVMNAVFIESDGIGDSMFYGAGAGQKPTATSVLADIVRIVKREKDGTIGKSFNEYARPTSLAN----PHD-IVNKYYFSVETPDSTGQLLRLVELFTSEDVSFEQVLQQKG--DGHRAVVVIISH</Hsp_hseq>
+      <Hsp_midline>VNI +LG GTVG G   ++ +N E++S+ L  EI IS +    E   EKAR       FV    E++A  ++ +VVEL G    AK  + K I+ GK++VTANK LLA +G E+  LAEK +V + +EAAVAGGIPI++ L    ++++I  + GI+NGTSNF++++M E+   +   L +AQ LGYAE+DPT D++G DA +K+ I+S  AFG  ++       G+  +   D++ A++ GY +KL G   +   GI   V PT +P+S  LA+V+GVMNAV + +D +G++++YGAGAG  PTA++V+ADI+ I +  +  T  +  +   +P  +      P D I + YY  V+  D  G L ++  L   E+VS E ++ QKG  D   A +VI++H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1706417|sp|P52985.1|DHOM_LACLC</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>P52985</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>2.8832e-86</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMC---DLSEEKARQICPSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALI-QKGVIDQTTAEIVILTH</Hsp_qseq>
+      <Hsp_hseq>VNIAILGFGTVGTGLPTLLSENKEKLAKILDEEIVISKVLMRDNKAIEKARSQGFNYDFVLNLDDILADSEISIVVELMGRIEPAKTYITQAIEAGKNVVTANKDLLAVHGVELRSLAQKHHVALYYEAAVAGGIPILRTLANSFSSDKITHLLGILNGTSNFMMTKMSEEGWTYDESLAKAQELGYAESDPTNDVDGIDASYKLAILSEFAFGMTLAPDDIAKSGLRSIQKTDVEIAQQFGYVLKLTGEINEVDSGIFAEVSPTFLPKSHPLASVNGVMNAVFIESEGIGDSVFYGAGAGQKPTATSVLADIVRIVKRVKDGTIGK----SFNEYARSTSLANPHD-IENKYYFSVETPDSTGQLLLLVELFTSENVSFEQVLQQKG--NGKRAVVVIISH</Hsp_hseq>
+      <Hsp_midline>VNI +LG GTVG G   +L +N E++++ L  EI IS +    + + EKAR    +  FV +  +++A  ++ +VVEL G    AK  + +AIE GK++VTANK LLA +G E+  LA+K +V + +EAAVAGGIPI++ L    ++++I  + GI+NGTSNF++++M E+G  + + L +AQ LGYAE+DPT D++G DA +K+ I+S  AFG  +        G+  +   D++ A++ GY +KL G   +   GI   V PT +P+S  LA+V+GVMNAV + ++ +G++++YGAGAG  PTA++V+ADI+ I + V+  T  +    +F           P D I + YY  V+  D  G L  +  L   ENVS E ++ QKG  +   A +VI++H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|54036972|sp|P63630.1|DHOM_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Mycobacterium bovis AF2122/97] &gt;gi|618730340|sp|P9WPX0.1|DHOM_MYCTO RecName: Full=Homoserine dehydrogenase; Short=HDH [Mycobacterium tuberculosis CDC1551] &gt;gi|618730341|sp|P9WPX1.1|DHOM_MYCTU RecName: Full=Homoserine dehydrogenase; Short=HDH [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P63630</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.077</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>6.39133e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>KPVNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQICPSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRK--TGKG---IELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIAR-LVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALIQKGVIDQ----TTAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRME</Hsp_qseq>
+      <Hsp_hseq>KPVGVAVLGLGNVGSEVVRIIENSAEDLAARVGAPLVLRGIGVRRVTTDRGV-PIELLTDDIEELVAREDVDIVVEVMGPVEPSRKAILGALERGKSVVTANKALLATSTGELAQAAESAHVDLYFEAAVAGAIPVIRPLTQSLAGDTVLRVAGIVNGTTNYILSAMDSTGADYASALADASALGYAEADPTADVEGYDAAAKAAILASIAFHTRVTADDVYREGITKVTPADFGSAHALGCTIKLLSICERITTDEGSQRVSARVYPALVPLSHPLAAVNGAFNAVVVEAEAAGRLMFYGQGAGGAPTASAVTGDLVMAARNRVLGSRGPRESKYAQLP-------VAPMGFIETRYYVSMNVADKPGVLSAVAAEFAKREVSIAEVRQEGVVDEGGRRVGARIVVVTHLATDAALSETVDALDDLDVVQGVSSVIRLE</Hsp_hseq>
+      <Hsp_midline>KPV + +LGLG VG     ++ ++AE+++ R+G  + +  +        R + P      D  ELVAR+DVD+VVE+ G    +++A+L A+E GK +VTANK LLA    E+   AE  +V + FEAAVAG IP+I+ L + LA + +  +AGI+NGT+N+ILS M   G+ +A  L +A ALGYAEADPT D+EG DA  K  I++++AF T +     Y EGI+K+   D   A  LG  IKLL +  +  T +G   +  RV+P L+P S  LA V+G  NAV V A+  G  ++YG GAG  PTASAV  D++  AR  V      R    A  P       + PM  I + YY+ +   D+PG L  +AA  A+  VSI  + Q+GV+D+      A IV++TH   +  +   + A++ LD V+   ++IR+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1169334|sp|P46806.1|DHOM_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>P46806</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>2.80014e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>KPVNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQICPSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTG-----KGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEADTAHRVPHLAFQPAQVQAQTILPMDE---ITSSYYLRVQAKDEPGTLGQIAALLAQENVSIEALIQKGVID----QTTAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRMESL</Hsp_qseq>
+      <Hsp_hseq>RTVGVAVLGLGNVGSEVVRIIEGSADDLAARIGAPLMLRGIGVRRVAVDRGV-PVDLLTDNIEELVSRADVDIVVEVMGPVELSRKAILSALEHGKSVVTANKALLAASTGELAQAAESAHVDLYFEAAVAGAIPVIRPLTQSLAGDTVLRVAGIVNGTTNYILSAMDSTGADYDSALAGARALGYAEADPTADVEGHDAAAKAAILASIAFHTRVTADDVYREGITKITPADFVSARALGCTIKLLFICERITAADGQQRVSARVYPALVPMSHPLATVSGAFNAVVVEAEAAGRLMFYGQGAGGAPTASAVTGDLVMAAR-------NRV--LGSRGPKESKYAQLPMETIGFISTRYYVSMNVADKPGVLSGVAAEFAKREVSIAEVRQEGVVDDGGRRVGARIVVVTHGATDAALSETVDALADLDVVQGVTSVLRLEGI</Hsp_hseq>
+      <Hsp_midline>+ V + +LGLG VG     ++  +A++++ R+G  + +  +        R + P      +  ELV+R DVD+VVE+ G   ++++A+L A+E+GK +VTANK LLA    E+   AE  +V + FEAAVAG IP+I+ L + LA + +  +AGI+NGT+N+ILS M   G+ +   L  A+ALGYAEADPT D+EG+DA  K  I++++AF T +     Y EGI+K+   D   A  LG  IKLL +  +       + +  RV+P L+P S  LA V G  NAV V A+  G  ++YG GAG  PTASAV  D++  AR       +RV  L  +  +      LPM+    I++ YY+ +   D+PG L  +AA  A+  VSI  + Q+GV+D    +  A IV++TH   +  +   + A+  LD V+   +++R+E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|585050|sp|P37143.1|DHOM_METGL</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Methylobacillus glycogenes]</Hit_def>
+  <Hit_accession>P37143</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>3.62177e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>MKPVNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRIS-AMCDLSEEKARQICPSAAFV-KDPFELVARKD------VDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKS---IAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEADTAHRVPHLAFQPAQVQAQTILPMDEITSSYYLRVQAKDEPGTLGQIAALLAQ---ENVSIEALIQKGVIDQTTAEIVILTHSTVEKHIKSAIAAIEALDCVEKPITMIRMESL</Hsp_qseq>
+      <Hsp_hseq>MKPINVGLLGIGTVGGGTYTVLTRN-QEGNRAPCRPPNCHHARRDRNLELARKVTGGQIDVTDDAFAVVVRPRHRHRGRIDRRIHHRARTGYEGDRERQAR------VAANKALMLAWQRDFRRVAQQKGVIVAFEAAVAGGIPIIKAVAAG--AGRQPSSRVLRAIINGTTNFILSEMREKGLAFADVLKEAQPRLCEATRPSTSRAWT--AHKLMILAAIGFGIPMQFDKAYVEGISKLDALDIRYAEELGYRQAAWHAPSAPARGVELARAPDPDPRETPDRQCQRRHNAVLV-SDACRSHLVYRPDA-CRRHASAVVADIVDGTRTAYHRRAPAVPHLLSSPTSSWT-CRFAIGEVSSAYYLRLRAVDKPGRDGHVTRILATGSLHRCDDSEGNRRQAERRRSGRHHHPDHVTVEKNMDDAIVAIEALPAISGSVTRLRMEEL</Hsp_hseq>
+      <Hsp_midline>MKP+N+GLLG+GTVGGG   VL  N +E +R   R      A  D + E AR++      V  D F +V R        +D  +     TG   +   +A       V ANK L+  +  +   +A+++ VIV FEAAVAGGIPIIKA+  G  A R  S   +  IINGT+NFILSEMREKG AFADVLKEAQ        P+         HK+ I++A+ FG PM F   Y+EGISKLD+ DI+YAEELGYR           +G+EL   P   P            NAV V +D     L Y   A     ASAVVADI+D  R      A  VPHL   P          + E++S+YYLR++A D+PG  G +  +LA             ++    + +       H TVEK++  AI AIEAL  +   +T +RME L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|32699517|sp|Q58997.1|DHOM_METJA</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58997</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>3.86218e-43</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCD----------LSEEKARQICPSAAFVKD-PFELVARKDVDVVVELFGG-----------TG-IAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDI</Hsp_qseq>
+      <Hsp_hseq>MDIIIVGFGAIGKGIAKVLYDKKDYLKKNY-EEFKVVAITDSSGAAIDEDGLDLLKAIEVKEKTGKIKNYPEKGREMSSIDVIKEVDADVVVEVTPSNLETGDPAKTHILESFKNKKHVVTANKGPLALCYKELIEEAKKHGVIFRHEASVGGAMPIINLAKETLAGNEILSIRGILNGTTNYILTKMEKEGLDFETALKEAKELGIAETDPTQDIEGLDTAAKIVILANSIMGMNKTIKDVKVKGISRITPEALFLANKRGYTIKLIGQIKDG----YLIVEPMLVPIDSPL-NVKGTLNVAMFETDLAKEVVVVGRGAGPIETASAILSDLIHI</Hsp_hseq>
+      <Hsp_midline>++I ++G G +G G A VL D  + + +    E ++ A+ D          L   KA ++      +K+ P +      +DV+ E+              TG  AK  +L++ +N KH+VTANK  LA    E+   A+K  VI + EA+V G +PII   +E LA N I SI GI+NGT+N+IL++M ++G  F   LKEA+ LG AE DPT DIEG D   KI I++    G         ++GIS++    +  A + GY IKL+G  +       L V P L+P    L NV G +N      D+  E +  G GAG + TASA+++D+I I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1351904|sp|P49079.1|AKH1_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase 1, chloroplastic; Short=AK-HD 1; Short=AK-HSDH 1; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase; Flags: Precursor [Zea mays]</Hit_def>
+  <Hit_accession>P49079</Hit_accession>
+  <Hit_len>920</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>4.5607e-14</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>648</Hsp_hit-from>
+      <Hsp_hit-to>918</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>VVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQ---FEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIM---SALAFG---------TPMNFSAC-----YLEGISKLD---SRDIKYAEELGYRIKLLGVTRKTGKG--IELRVHPTLIPESRLLANVDGVMNAVRVNADMVGET--LYYGAGAGALPTASAVVADIIDIARLVEA</Hsp_qseq>
+      <Hsp_hseq>VLVDCTADTSVASH-YYDWLKKGIHVITPNKKANSGPLDRYLKLRTLQRASYTHYFYEATVGAGLPIISTLRGLLETGDKILRIEGIFSGTLSYIFNNF-EGARTFSDVVAEAKKAGYTEPDPRDDLSGTDVARKVIILARESGLGLELSDIPVRSLVPEALKSCTSADEYMQKLPSFDEDWARERKNAEAAGEVLRYVGVVDVVSKKGQVELRAYKRDHP----FAQLSGSDNIIAFTTSRYKDQPLIVRGPGAGAEVTAGGVFCDILRLSSYLGA</Hsp_hseq>
+      <Hsp_midline>V+V+    T +A       ++ G H++T NKK  +   +    L   Q        +EA V  G+PII  LR  L   ++I  I GI +GT ++I +   E    F+DV+ EA+  GY E DP  D+ G D   K+ I+   S L             P    +C     Y++ +   D   +R+ K AE  G  ++ +GV     K   +ELR +    P     A + G  N +        +   +  G GAGA  TA  V  DI+ ++  + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1351905|sp|P49080.1|AKH2_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase 2, chloroplastic; Short=AK-HD 2; Short=AK-HSDH 2; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase; Flags: Precursor [Zea mays]</Hit_def>
+  <Hit_accession>P49080</Hit_accession>
+  <Hit_len>917</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>2.47537e-13</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>645</Hsp_hit-from>
+      <Hsp_hit-to>915</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>VVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQ---FEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIM---SALAFG---------TPMNFSACYL--EGISKLDSRDIKY------AEELGYRIKLLG---VTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGET--LYYGAGAGALPTASAVVADIIDIARLVEA</Hsp_qseq>
+      <Hsp_hseq>VLVDCTADTSVASH-YYDWLKKGIHVITPNKKANSGPLDQYLKLRTMQRASYTHYFYEATVGAGLPIISTLRGLLETGDKILRIEGIFSGTLSYIFNNF-EGTRAFSDVVAEAREAGYTEPDPRDDLSGTDVARKVVVLARESGLRLELSDIPVKSLVPETLASCSSADEFMQKLPSFDEDWARQRSDAEAAGEVLRYVGALDAVNRSGQ-VELRRYRRDHP----FAQLSGSDNIIAFTTSRYKEQPLIVRGPGAGAEVTAGGVFCDILRLASYLGA</Hsp_hseq>
+      <Hsp_midline>V+V+    T +A       ++ G H++T NKK  +   ++   L   Q        +EA V  G+PII  LR  L   ++I  I GI +GT ++I +   E   AF+DV+ EA+  GY E DP  D+ G D   K+ ++   S L             P   ++C    E + KL S D  +      AE  G  ++ +G      ++G+ +ELR +    P     A + G  N +        E   +  G GAGA  TA  V  DI+ +A  + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|75200025|sp|Q9SA18.1|AKH1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase 1, chloroplastic; Short=AK-HD 1; Short=AK-HSDH 1; AltName: Full=Beta-aspartyl phosphate homoserine 1; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SA18</Hit_accession>
+  <Hit_len>911</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>6.32479e-13</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>660</Hsp_hit-from>
+      <Hsp_hit-to>904</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>GKHIVTANKKL----LAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIM---SALAFG---------TPMNFSAC-----YLEGISKLD---SRDIKYAEELGYRIKLLGVTRKTGKG--IELRVHPTLIPESRLLANVDGVMNAVRVNADMVGET--LYYGAGAGALPTASAVVADIIDIA</Hsp_qseq>
+      <Hsp_hseq>GIHVVTPNKKANSGPLDQY-LKIRDLQRKSYTHYFYEATVGAGLPIISTLRGLLETGDKILRIEGIFSGTLSYLFNNFVGTRS-FSEVVAEAKQAGFTEPDPRDDLSGTDVARKVTILARESGLKLDLEGLPVQNLVPKPLQACASAEEFMEKLPQFDEELSKQREEAEAAGEVLRYVGVVDAVEKKGTVELKRYKKDHP----FAQLSGADNIIAFTTKRYKEQPLIVRGPGAGAQVTAGGIFSDILRLA</Hsp_hseq>
+      <Hsp_midline>G H+VT NKK     L +Y  +I  L  K      +EA V  G+PII  LR  L   ++I  I GI +GT +++ +      S F++V+ EA+  G+ E DP  D+ G D   K+TI+   S L             P    AC     ++E + + D   S+  + AE  G  ++ +GV     K   +EL+ +    P     A + G  N +        E   +  G GAGA  TA  + +DI+ +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|399368|sp|P31116.1|DHOM_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P31116</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.31171e-12</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>KAIENGKHIVTANKKLLAE---YGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGS---AFADVLKEAQALGYAEADPTFDIEGNDAGHKITI---MSALAFGTPMNF</Hsp_qseq>
+      <Hsp_hseq>KFVENGISIATPNKKAFSSDLATWKALFS-NKPTNGFVYHEATVGAGLPIISFLREIIQTGDEVEKIEGIFSGTLSYIFNEFSTSQANDVKFSDVVKVAKKLGYTEPDPRDDLNGLDVARKVTIVGRISGVEVESPTSF</Hsp_hseq>
+      <Hsp_midline>K +ENG  I T NKK  +        +F   +  N  V  EA V  G+PII  LRE +   + ++ I GI +GT ++I +E     +    F+DV+K A+ LGY E DP  D+ G D   K+TI   +S +   +P +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|74657409|sp|Q5B998.1|DHOM_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Homoserine dehydrogenase; Short=HDH [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>Q5B998</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>2.71554e-11</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>IENGKHIVTANKKLLAE---YGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMRE-KGSA---FADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALA---FGTPMNFSACYL------------EGISKLDSRDIKY----------AEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGET--LYYGAGAGALPTASAVVADIIDI</Hsp_qseq>
+      <Hsp_hseq>LRKGISVVTPNKKGFSSDLSLWKEIFAAAAEGKALVYHESTVGAGLPVISTLKDLVNTGDEVTRIEGVFSGTLSFLFNTFAPASGSSSAKWSEVVSQAKELGYTEPDPRDDLNGMDVARKLTILARIAGLDVQSPDSFPIESLIPAELTSLPSSADGIAQFMARLPEFDSQMAAIKEGAEKAGKVVRYVGSVDVAKK--EVRVGLQQFDKDSAIAGLKGSDNIISFYTRRYGSNPLIVQGAGAGGDVTAMGVTADLLKV</Hsp_hseq>
+      <Hsp_midline>+  G  +VT NKK  +       EIF  A +   +V  E+ V  G+P+I  L++ +   + +  I G+ +GT +F+ +      GS+   +++V+ +A+ LGY E DP  D+ G D   K+TI++ +A     +P +F    L            +GI++  +R  ++          AE+ G  ++ +G      K  E+RV      +   +A + G  N +       G    +  GAGAG   TA  V AD++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|18202257|sp|O94671.1|DHOM_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Probable homoserine dehydrogenase; Short=HDH [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O94671</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>2.84123e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGLGTVGGGAAAVLR---DNAEEISRRLGREIRISAM-----------CDLSEEKARQICPSAAFVKDPF-ELVARKDVD-VVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAE----YGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAA-NRIKSIAGIINGTSNFILSEMREKG----SAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALA</Hsp_qseq>
+      <Hsp_hseq>VNVAIVGTGNIGGELLNQIKGFNENASTNGTTSFNVVAISSMEGHYVSKDYQPINLSEWKNLTSQNQGAYSLDALVDFLAKSPLPAILVDNTASEAIA-QSYPKFLSKKINIATPNKKAFSASNDVYQN-IIKASKESGALLMHEASVGAGLPIISTLKELIATGDEIIKIEGIFSGTLSYIFNVWSPNGKKGTASFSDIVKIAKQNGYTEPDPRDDLNGMDVARKVTILSRIA</Hsp_hseq>
+      <Hsp_midline>VN+ ++G G +GG     ++   +NA          + IS+M            +LSE K        A+  D   + +A+  +  ++V+      IA ++  K +    +I T NKK  +     Y N I   +++   ++  EA+V  G+PII  L+E +A  + I  I GI +GT ++I +     G    ++F+D++K A+  GY E DP  D+ G D   K+TI+S +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|25008086|sp|Q8K9U9.1|AKH_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase; Short=AK-HD; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9U9</Hit_accession>
+  <Hit_len>814</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>3.2231e-11</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>558</Hsp_hit-from>
+      <Hsp_hit-to>812</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>IAKEAVLKAIENGKHIVTANKKLLAE---YGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAA-NRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMS-ALAFGT-----------PMNF-----SACYLEGISKLD---SRDIKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYY--------GAGAGALPTASAVVADIIDI</Hsp_qseq>
+      <Hsp_hseq>ILSKQYISFIKKGFHIITSNKKANTDSLKYYSEIRTTALKENKKFLYETNVGAGLPVINTLQSLFSTGDCLISFKGILSGSLSFIFGKL-EEGVLLSEATKEAKKLGFTEPNPFDDLSGIDVARKLLVLAREIGYSIELKDISIEPILPERFKKYQNSEEFLFKLKELDSFFSERVNKARDIGNVLRFIGSIEKNGK---CSVKIEEINSNNPLYKVKNGENA------LTFYTNYYQPIPLVLRGYGAGNDVTASGVFSDLLRI</Hsp_hseq>
+      <Hsp_midline>I  +  +  I+ G HI+T+NKK   +   Y +EI   A K+N    +E  V  G+P+I  L+   +  + + S  GI++G+ +FI  ++ E+G   ++  KEA+ LG+ E +P  D+ G D   K+ +++  + +             P  F     S  +L  + +LD   S  +  A ++G  ++ +G   K GK     V    I  +  L  V    NA      +   T YY        G GAG   TAS V +D++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|38372169|sp|Q89AR4.1|AKH_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase; Short=AK-HD; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AR4</Hit_accession>
+  <Hit_len>816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>3.98038e-11</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>551</Hsp_hit-from>
+      <Hsp_hit-to>814</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>VVVELFGGTGIAKEAVLKAIENGKHIVTANKK---LLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEG---------------ISKLDSRD------IKYAEELGYRIKLLGVTRKTGKGIELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYY--------GAGAGALPTASAVVADIIDI</Hsp_qseq>
+      <Hsp_hseq>IIVDCTSDKNIANQYI-SFINCGFHIVTPNKKANTTNWKYYEDIRLAAQKEKKKFFYETNVGAGLPVIENLKNLLRTGDTLIHFKGILSGSLSFIFGKL-EDNISLSEATKQAQSLGFTEPNPKDDLSGIDVARKLLIL-AREVGYKLELKDIKIEPLLPKEFNNISNTTDFITKLKELDQIFCNRVKKARKLGKRLRFVGIINQKG---NCQVKIDEVDHNDPLYNIKNGENALAFYSK------YYQPIPLVLRGYGAGNNVTASGIFSDVLRI</Hsp_hseq>
+      <Hsp_midline>++V+      IA + +   I  G HIVT NKK      +Y  +I   A+K+     +E  V  G+P+I+ L+  L   + +    GI++G+ +FI  ++ E   + ++  K+AQ+LG+ E +P  D+ G D   K+ I+ A   G  +      +E                I+KL   D      +K A +LG R++ +G+  + G     +V    +  +  L N+    NA+   +       YY        G GAG   TAS + +D++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|584740|sp|P37142.1|AKH_DAUCA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase, chloroplastic; Short=AK-HD; Short=AK-HSDH; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase; Flags: Precursor, partial [Daucus carota]</Hit_def>
+  <Hit_accession>P37142</Hit_accession>
+  <Hit_len>921</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>6.5229e-11</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>670</Hsp_hit-from>
+      <Hsp_hit-to>919</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>GKHIVTANKKL----LAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL--AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSAC------------------YLEGISKLDS---RDIKYAEELGYRIKLLGVTRKTG-KG-IELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEA</Hsp_qseq>
+      <Hsp_hseq>GIHVITPNKKANSGPLDQY-LKLRALQRRSYTHYFYEATVVAGLPIITTL-QGLLETGDKILRIEGIFSGTLSYIFNNFKST-TPFSEVVSEAKAAGYTEPDPRDDLAGTDVARKVIIL-ARGSGLKLELSDIPVQSLVPEPLRGIASAEEFLLQLPQFDSDMTRKREDAENAGEVLRYVGVVDAVNQKGVVELKRYKKEHPFAQLSGSDN--INAFTTERYNKQPPIIRGPGAGAEVTAGGVFSDILRLASYLGA</Hsp_hseq>
+      <Hsp_midline>G H++T NKK     L +Y  ++  L  +      +EA V  G+PII  L +GL    ++I  I GI +GT ++I +  +   + F++V+ EA+A GY E DP  D+ G D   K+ I+ A   G  +  S                    +L  + + DS   R  + AE  G  ++ +GV      KG +EL+ +    P ++L  + +  +NA           +  G GAGA  TA  V +DI+ +A  + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1168401|sp|P44505.1|AKH_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase; Short=AK-HD; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44505</Hit_accession>
+  <Hit_len>815</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>9.29142e-11</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>566</Hsp_hit-from>
+      <Hsp_hit-to>718</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>KAIENGKHIVTANKKLLAE---YGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAA-NRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMNFSACYLEGISKLDSRDIKYAEEL</Hsp_qseq>
+      <Hsp_hseq>RALKEGFHVVTPNKKANTRELVYYNELRQNAQASQHKFLYETNVGAGLPVIENLQNLLAAGDELEYFEGILSGSLSFIFGKL-EEGLSLSEVTALAREKGFTEPDPRDDLSGQDVARKLLILAREA-GIELELSDVEVEGVLPKGFSDGKSADEF</Hsp_hseq>
+      <Hsp_midline>+A++ G H+VT NKK       Y NE+   A+       +E  V  G+P+I+ L+  LAA + ++   GI++G+ +FI  ++ E+G + ++V   A+  G+ E DP  D+ G D   K+ I++  A G  +  S   +EG+      D K A+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|75100442|sp|O81852.1|AKH2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase 2, chloroplastic; Short=AK-HD 2; Short=AK-HSDH 2; AltName: Full=Beta-aspartyl phosphate homoserine 2; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O81852</Hit_accession>
+  <Hit_len>916</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.32059e-10</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>644</Hsp_hit-from>
+      <Hsp_hit-to>914</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>VVVELFGGTGIAKEAVLKAIENGKHIVTANKKL----LAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIM---SALAFG---------TPMNFSAC-----YLEGISKLD---SRDIKYAEELGYRIKLLGVTRKTG-KG-IELRVHPTLIPESRLLANVDGVMNAVRVNADMVGETLYYGAGAGALPTASAVVADIIDIARLVEA</Hsp_qseq>
+      <Hsp_hseq>VVVDCTADSAIASR-YYDWLRKGIHVITPNKKANSGPLDQY-LKLRDLQRKSYTHYFYEATVGAGLPIISTLRGLLETGDKILRIEGICSGTLSYLFNNFVGDRS-FSEVVTEAKNAGFTEPDPRDDLSGTDVARKVIILARESGLKLDLADLPIRSLVPEPLKGCTSVEEFMEKLPQYDGDLAKERLDAENSGEVLRYVGVVDAVNQKGTVELRRYKKEHPFAQ-LAGSDNII-AFTTTRYKDHPLIVRGPGAGAQVTAGGIFSDILRLASYLGA</Hsp_hseq>
+      <Hsp_midline>VVV+    + IA       +  G H++T NKK     L +Y  ++  L  K      +EA V  G+PII  LR  L   ++I  I GI +GT +++ +      S F++V+ EA+  G+ E DP  D+ G D   K+ I+   S L             P     C     ++E + + D   +++   AE  G  ++ +GV      KG +ELR +    P ++ LA  D ++ A           +  G GAGA  TA  + +DI+ +A  + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|34395933|sp|P00561.2|AK1H_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase 1; AltName: Full=Aspartokinase I/homoserine dehydrogenase I; Short=AKI-HDI; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P00561</Hit_accession>
+  <Hit_len>820</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.12125e-09</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>568</Hsp_hit-from>
+      <Hsp_hit-to>687</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>IENGKHIVTANKKLLA---EYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMS</Hsp_qseq>
+      <Hsp_hseq>LREGFHVVTPNKKANTSSMDYYHQLRYAAEKSRRKFLYDTNVGAGLPVIENLQNLLNAGDELMKFSGILSGSLSYIFGKLDE-GMSFSEATTLAREMGYTEPDPRDDLSGMDVARKLLILA</Hsp_hseq>
+      <Hsp_midline>+  G H+VT NKK      +Y +++   AEK      ++  V  G+P+I+ L+  L A + +   +GI++G+ ++I  ++ E G +F++    A+ +GY E DP  D+ G D   K+ I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|113540|sp|P27725.1|AK1H_SERMA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase 1; AltName: Full=Aspartokinase I/homoserine dehydrogenase I; Short=AKI-HDI; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase [Serratia marcescens]</Hit_def>
+  <Hit_accession>P27725</Hit_accession>
+  <Hit_len>819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>2.8175e-07</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>550</Hsp_hit-from>
+      <Hsp_hit-to>687</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>VVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLA---EYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMS</Hsp_qseq>
+      <Hsp_hseq>VIVDCTSSQAVADQYV-DFLADGFHVVTPNKKANTSSMNYYQQLRAAAAGSHRKFLYDTNVGAGLPVIENLQNLLNAGDELVRFSGILSGSLSFIFGKLDEGLSLSAATL-QARANGYTEPDPRDDLSGMDVARKLLILA</Hsp_hseq>
+      <Hsp_midline>V+V+      +A + V   + +G H+VT NKK       Y  ++   A   +    ++  V  G+P+I+ L+  L A + +   +GI++G+ +FI  ++ E  S  A  L +A+A GY E DP  D+ G D   K+ I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|11386623|sp|P57290.1|AKH_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase; Short=AK-HD; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57290</Hit_accession>
+  <Hit_len>816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.53351e-06</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>563</Hsp_hit-from>
+      <Hsp_hit-to>688</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>EAVLKAIENGKHIVTANKKLLA---EYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMS</Hsp_qseq>
+      <Hsp_hseq>EQYVNFIDNNFHVVTSNKKANTSEWNYYKKIRKSVAQTGKKFLYETNVGAGLPVIETLQNLFKSGDNLICFKGILSGSLSFIFGRL-EEGILLSQATREAKELGFTEPNPCDDLSGIDVARKLLILA</Hsp_hseq>
+      <Hsp_midline>E  +  I+N  H+VT+NKK       Y  +I     +      +E  V  G+P+I+ L+    + + +    GI++G+ +FI   + E+G   +   +EA+ LG+ E +P  D+ G D   K+ I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|416596|sp|P00562.3|AK2H_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartokinase/homoserine dehydrogenase 2; AltName: Full=Aspartokinase II/homoserine dehydrogenase II; Short=AKII-HDII; Includes: RecName: Full=Aspartokinase; Includes: RecName: Full=Homoserine dehydrogenase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P00562</Hit_accession>
+  <Hit_len>810</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>4.11868e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>457</Hsp_hit-from>
+      <Hsp_hit-to>681</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>KPVNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCD----------LSEEKARQICPSAAFVKDPFELV----ARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGN---EIFPLAEKQNVIVQFEAAVAGGIPIIKALREGL-AANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMS</Hsp_qseq>
+      <Hsp_hseq>KRIGLVLFGKGNIGSRWLELFAREQSTLSARTGFEFVLAGVVDSRRSLLSYDGLDASRALAFFNDEAVEQDEESLFLWMRAHPYDDLVVLDVTASQQLADQYLDFASHGFHVISANKLAGASDSNKYRQIHDAFEKTGRHWLYNATVGAGLPINHTVRDLIDSGDTILSISGIFSGTLSWLFLQF-DGSVPFTELVDQAWQQGLTEPDPRDDLSGKDVMRKLVILA</Hsp_hseq>
+      <Hsp_midline>K + + L G G +G     +       +S R G E  ++ + D          L   +A       A  +D   L     A    D+VV     +    +  L    +G H+++ANK   A   N   +I    EK      + A V  G+PI   +R+ + + + I SI+GI +GT +++  +  +    F +++ +A   G  E DP  D+ G D   K+ I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|166988312|sp|A6USM7.1|ASPD_METVS</Hit_id>
+  <Hit_def>RecName: Full=Probable L-aspartate dehydrogenase [Methanococcus vannielii SB]</Hit_def>
+  <Hit_accession>A6USM7</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000981947</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>LLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQIC--PSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVT------ANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKA</Hsp_qseq>
+      <Hsp_hseq>MLKVGIVGCGAVASLITKAL-LSERIPKA-RVLAFYDVNYEKAKKLSEETGAESCVSIDELVS-KDLDLILECASVSAV-EETVLKSILSGKDVIIMSVGAFANKKLFLN----LYKLAEEKNQKIYVPSGAVAGIDAIKA</Hsp_hseq>
+      <Hsp_midline>+L +G VG GA A L   A  +S R+ +  R+ A  D++ EKA+++     A       ELV+ KD+D+++E    + + +E VLK+I +GK ++       ANKKL       ++ LAE++N  +   +    GI  IKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|209572942|sp|A9H5B7.1|IOLG_GLUDA</Hit_id>
+  <Hit_def>RecName: Full=Inositol 2-dehydrogenase; AltName: Full=Myo-inositol 2-dehydrogenase; Short=MI 2-dehydrogenase [Gluconacetobacter diazotrophicus PA1 5]</Hit_def>
+  <Hit_accession>A9H5B7</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00959926</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKAR----QICPSAAFVKDPFELVARKDVD-VVVELFGGTGIAKEAVLKAIENGKHI</Hsp_qseq>
+      <Hsp_hseq>LGIGVIGTGA--IGQDHIRRVSRALSGG-RIVALNDINADNARRAAQEWAPDAVICDTARDLVARPDVQAVMVTSWGGT--HAEYVLDAIAAGKPV</Hsp_hseq>
+      <Hsp_midline>LG+G +G GA  + +D+   +SR L    RI A+ D++ + AR    +  P A       +LVAR DV  V+V  +GGT    E VL AI  GK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|226729168|sp|A9A7M3.1|ASPD_METM6</Hit_id>
+  <Hit_def>RecName: Full=Probable L-aspartate dehydrogenase [Methanococcus maripaludis C6]</Hit_def>
+  <Hit_accession>A9A7M3</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0170021</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>LLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQIC--PSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYG--NEIFPLAEKQNVIVQFEAAVAGGIPIIKA</Hsp_qseq>
+      <Hsp_hseq>MLKIGVVGCGAIASLITKAL-MSDRLNKA-EVLAFYDGNLEKAEKLAMETGADFCRSLDELVS-KDLDLIVECASVTAV-EDTVIKSLNNGKDVIIMSVGALADKDLFLKLYKLAEKLGRKIYIPSGAIAGIDAVKS</Hsp_hseq>
+      <Hsp_midline>+L +G VG GA A L   A  +S RL +   + A  D + EKA ++     A F +   ELV+ KD+D++VE    T + ++ V+K++ NGK ++  +   LA+     +++ LAEK    +   +    GI  +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|254765739|sp|B9E7J8.1|HUTG_MACCJ</Hit_id>
+  <Hit_def>RecName: Full=Formimidoylglutamase; AltName: Full=Formiminoglutamase; AltName: Full=Formiminoglutamate hydrolase [Macrococcus caseolyticus JCSC5402]</Hit_def>
+  <Hit_accession>B9E7J8</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0337237</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFIL--SEMREKGSAFADVLKEAQALGY</Hsp_qseq>
+      <Hsp_hseq>VTTEEKFVEDVQHEYAELIDKTNDYAKFHLLIGGGHDISYAHFKGLKALYPEQSIGVINIDAHFDLRDSEYGTSGTGFKQILDEDADAGY</Hsp_hseq>
+      <Hsp_midline>VT  +K + +  +E   L +K N   +F   + GG  I  A  +GL A   +   G+IN  ++F L  SE    G+ F  +L E    GY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|189027755|sp|A9KMX2.1|DXR_CLOPH</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase [Lachnoclostridium phytofermentans ISDg]</Hit_def>
+  <Hit_accession>A9KMX2</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0368541</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>IGLLG-LGTVGGGAAAVLRDNAEEISRRLGREIRISAMC-----DLSEEKARQICPSAAFVKD---PFELVAR-KDVDVVVE---------------------LFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNV</Hsp_qseq>
+      <Hsp_hseq>ISVLGSTGSIGTQTLEVVRNN---------KDLKVSALAASSNITLLEEQIREFHPKLVCVYDREKALELKKRVSDLEVTVEAGMDGLIACATEESADIVVSAVVGMIGI--KPVMEAILRGKDIAFANKETLVTAGHLIMPLVKKHNV</Hsp_hseq>
+      <Hsp_midline>I +LG  G++G     V+R+N         +++++SA+       L EE+ R+  P    V D     EL  R  D++V VE                     + G  GI  + V++AI  GK I  ANK+ L   G+ I PL +K NV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|259493866|sp|C0ZWI9.1|IOLG_RHOE4</Hit_id>
+  <Hit_def>RecName: Full=Inositol 2-dehydrogenase; AltName: Full=Myo-inositol 2-dehydrogenase; Short=MI 2-dehydrogenase [Rhodococcus erythropolis PR4]</Hit_def>
+  <Hit_accession>C0ZWI9</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0452493</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQIC---PSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIV</Hsp_qseq>
+      <Hsp_hseq>LRIAVLGVGIMGA-------DHVDRITNKIGGA-RVTVVNDYSLARAEEIAALTPGSRVVVDPFDAIAAEDVDAVVLATPGPTHEKQ-VLACLEAGKPVL</Hsp_hseq>
+      <Hsp_midline>+ I +LG+G +G        D+ + I+ ++G   R++ + D S  +A +I    P +  V DPF+ +A +DVD VV    G    K+ VL  +E GK ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|209572934|sp|A7ZAH5.1|IOLG_BACA2</Hit_id>
+  <Hit_def>RecName: Full=Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase; AltName: Full=Myo-inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase; Short=MI 2-dehydrogenase/DCI 3-dehydrogenase [Bacillus amyloliquefaciens subsp. plantarum str. FZB42]</Hit_def>
+  <Hit_accession>A7ZAH5</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0608</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>IGLLGLGTVGGGAAAVLRDNAEEISRRL-GREIRISAMCDLSEEKARQICP----SAAFVKDPFELVARKDVDVVVELFGGTGIAKEA-VLKAIENGKHI</Hsp_qseq>
+      <Hsp_hseq>IGVIGTGAIG-------KEHINRITNKLSGAEI--TAVTDVNQEAAQQTVQDFNLNASVYPDDDSLLAAENVDAV--LVTSWGPAHESSVLKAIQHGKHV</Hsp_hseq>
+      <Hsp_midline>IG++G G +G       +++   I+ +L G EI  +A+ D+++E A+Q       +A+   D   L+A ++VD V  L    G A E+ VLKAI++GKH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|209572998|sp|A0R191.1|IOLG_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=Inositol 2-dehydrogenase; AltName: Full=Myo-inositol 2-dehydrogenase; Short=MI 2-dehydrogenase [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0R191</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.190923</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>MKPVNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQIC---PSAAFVKDPFELVARKDVDVVV</Hsp_qseq>
+      <Hsp_hseq>MSDLRVAVLGVGVMGA-------DHVERLSTRIA-GVKVAVVNDFIETRAEEIAAGVPGCRVVSDPLEAIADPDVDAVV</Hsp_hseq>
+      <Hsp_midline>M  + + +LG+G +G        D+ E +S R+   ++++ + D  E +A +I    P    V DP E +A  DVD VV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|109940176|sp|P93422.2|SYH_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Histidine--tRNA ligase; AltName: Full=Histidyl-tRNA synthetase; Short=HisRS [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>P93422</Hit_accession>
+  <Hit_len>788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.241658</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>IENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEAD-PTFDI</Hsp_qseq>
+      <Hsp_hseq>VTNGKEVLSVNSALLAEWGTELSLL---------FDPKCPRLVSLVDKVKEIVETNEVRRLPKIPKGTRDFGKEQMAIREHAFSIITGVFKMHGAVSLDTPVFEL</Hsp_hseq>
+      <Hsp_midline>+ NGK +++ N  LLAE+G E+  L         F+      + ++  ++E +  N ++ +  I  GT +F   +M  +  AF+ +    +  G    D P F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|12644032|sp|Q9XFS9.2|DXR_ARATH</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase, chloroplastic; Short=1-deoxyxylulose-5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase; AltName: Full=Protein PIGMENT-DEFECTIVE EMBRYO 129; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9XFS9</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.270069</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>VDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNV-IVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMN-FSACYLEG</Hsp_qseq>
+      <Hsp_hseq>VTVVTGIVGCAGL--KPTVAAIEAGKDIALANKETLIAGGPFVLPLANKHNVKILPADSEHSAIFQCIQGLPEGALRKIILTASG--GAFRDWPVEKLKE--------VKVADALKH----PNWNM-----GKKITVDSATLFNKGLEVIEAHYLFG</Hsp_hseq>
+      <Hsp_midline>V VV  + G  G+  +  + AIE GK I  ANK+ L   G  + PLA K NV I+  ++  +     I+ L EG     I + +G      ++ + +++E        +K A AL +    P +++     G KIT+ SA  F   +    A YL G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|116256299|sp|Q9XES0.2|DXR_MENPI</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase, chloroplastic; Short=1-deoxyxylulose-5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase; Flags: Precursor [Mentha x piperita]</Hit_def>
+  <Hit_accession>Q9XES0</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.280588</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>VDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNV-IVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADV----LKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMN-FSACYLEG</Hsp_qseq>
+      <Hsp_hseq>VTVVTGIVGCAGL--KPTVAAIEAGKDIALANKETLIAGGPFVLPLAKKHNVKILPADSEHSAIFQCIQGLPEG-ALRRI-------------ILT---ASGGAFRDLPVEKLKEVK-VADALKHPNWNM-----GKKITVDSATLFNKGLEVIEAHYLFG</Hsp_hseq>
+      <Hsp_midline>V VV  + G  G+  +  + AIE GK I  ANK+ L   G  + PLA+K NV I+  ++  +     I+ L EG A  RI             IL+     G AF D+    LKE + +  A   P +++     G KIT+ SA  F   +    A YL G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|110808217|sp|Q8W250.2|DXR_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase, chloroplastic; Short=1-deoxyxylulose-5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q8W250</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.503425</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>VDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNV-IVQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMN-FSACYLEG</Hsp_qseq>
+      <Hsp_hseq>VTVVTGIVGCAGL--KPTVAAIEAGKDIALANKETLIAGGPFVLPLAQKHKVKILPADSEHSAIFQCIQGLPEGALRRIILTASG--GAFRDWPVDKLKE--------VKVADALKH----PNWNM-----GKKITVDSATLFNKGLEVIEAHYLFG</Hsp_hseq>
+      <Hsp_midline>V VV  + G  G+  +  + AIE GK I  ANK+ L   G  + PLA+K  V I+  ++  +     I+ L EG     I + +G      ++ + +++E        +K A AL +    P +++     G KIT+ SA  F   +    A YL G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|81367280|sp|Q5WKY6.1|IOLG_BACSK</Hit_id>
+  <Hit_def>RecName: Full=Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase; AltName: Full=Myo-inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase; Short=MI 2-dehydrogenase/DCI 3-dehydrogenase [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>Q5WKY6</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.75841</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQICPS----AAFVKDPFELVARKDVDVVVELFGGTGIAKEA-VLKAIENGKHI</Hsp_qseq>
+      <Hsp_hseq>VRVGVIGTGAIG-------QDHIRRLECKLSG-AKVTAVTDVNQDLARKVANTYAKQATVYANDRELIAARDVDAV--LVASWGPAHEASVLAALEAGKRV</Hsp_hseq>
+      <Hsp_midline>V +G++G G +G       +D+   +  +L    +++A+ D++++ AR++  +    A    +  EL+A +DVD V  L    G A EA VL A+E GK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|238687811|sp|B0SM60.1|DXR_LEPBP</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase [Leptospira biflexa serovar Patoc strain &apos;Patoc 1 (Paris)&apos;] &gt;gi|238687839|sp|B0SDN1.1|DXR_LEPBA RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase [Leptospira biflexa serovar Patoc strain &apos;Patoc 1 (Ames)&apos;]</Hit_def>
+  <Hit_accession>B0SM60</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.879184</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGL-GTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQICPSAAFVKDP----------------------FELVARKDVDVVVE-LFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIV</Hsp_qseq>
+      <Hsp_hseq>VGVSVLGISGSVGTSTVKVLRQFPDQFDLR---SFSVHSNWNVAKALVEEFSPEVICITDPKLVGKFGDSYLSTKILYGDKALIDLVQLPSVGVVVTAVMGARGVL--PTIAAIEAGKKIAIANKETLVTFGPLINRLVAKHNTVM</Hsp_hseq>
+      <Hsp_midline>V + +LG+ G+VG     VLR   ++   R      + +  ++++    +  P    + DP                       +LV    V VVV  + G  G+     + AIE GK I  ANK+ L  +G  I  L  K N ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81175169|sp|Q8R622.2|DXR_FUSNN</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase [Fusobacterium nucleatum subsp. nucleatum ATCC 25586]</Hit_def>
+  <Hit_accession>Q8R622</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.968905</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>GTVGGGAAAVLRDNAEEIS-------------RRLGREIRISAMCDLSEEKARQICPSAAFVKDPF-------ELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANK-----------KLLAEYGN-EIFPLAEKQNVIVQ</Hsp_qseq>
+      <Hsp_hseq>GSIGTNALELIRNNREQYQVVGISGNKNIDLLKKQIEEFKPISIYVGSEQDAIYLKKEYSFIKEVYFGENGLAELSKNSDYDIILTAVSG-AIGIDATVEAIKRGKRIALANKETMVSAGVYINKLLKEYPKAEIVPVDSEHSALFQ</Hsp_hseq>
+      <Hsp_midline>G++G  A  ++R+N E+               ++   E +  ++   SE+ A  +    +F+K+ +       EL    D D+++    G  I  +A ++AI+ GK I  ANK           KLL EY   EI P+  + + + Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|123046568|sp|Q0SH07.1|IOLG_RHOSR</Hit_id>
+  <Hit_def>RecName: Full=Inositol 2-dehydrogenase; AltName: Full=Myo-inositol 2-dehydrogenase; Short=MI 2-dehydrogenase [Rhodococcus jostii RHA1]</Hit_def>
+  <Hit_accession>Q0SH07</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.5835</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VNIGLLGLGTVGGGAAAVLRDNAEEISRRLGREIRISAMCDLSEEKARQIC---PSAAFVKDPFELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIV</Hsp_qseq>
+      <Hsp_hseq>LRIAVLGVGMMGA-------DHVARITERI-KGATVAVVNDYFIEKAEQIAAGIPGCRVIGDPLDAIADPDVDAVVLATPGPTHEKQ-LLACLEHGKPVM</Hsp_hseq>
+      <Hsp_midline>+ I +LG+G +G        D+   I+ R+ +   ++ + D   EKA QI    P    + DP + +A  DVD VV    G    K+ +L  +E+GK ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|254781711|sp|B9KHS0.1|SYDND_ANAMF</Hit_id>
+  <Hit_def>RecName: Full=Aspartate--tRNA(Asp/Asn) ligase; AltName: Full=Aspartyl-tRNA synthetase; Short=AspRS; AltName: Full=Non-discriminating aspartyl-tRNA synthetase; Short=ND-AspRS [Anaplasma marginale str. Florida]</Hit_def>
+  <Hit_accession>B9KHS0</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.30621</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>VQFEAAVAGGIPIIKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFA</Hsp_qseq>
+      <Hsp_hseq>VTYEADGTAKGPIAKFLSEDELA-RIRSAAGVGNGDSVFFMSDTADKAADFA</Hsp_hseq>
+      <Hsp_midline>V +EA      PI K L E   A RI+S AG+ NG S F +S+  +K + FA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|239938622|sp|O31753.2|DXR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31753</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.57301</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>NIGLLG-LGTVGGGAAAVLR---DNAEEISRRLGREI------------RISAMCDL-SEEKARQI-----CPSAAFVKDPFELVARKDVDVVVE-LFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNV</Hsp_qseq>
+      <Hsp_hseq>NICLLGATGSIGEQTLDVLRAHQDQFQLVSMSFGRNIDKAVPMIEVFQPKFVSVGDLDTYHKLKQMSFSFECQIGLGEEGLIEAAVMEEVDIVVNALLGSVGLI--PTLKAIEQKKTIALANKETLVTAGHIVKEHAKKYDV</Hsp_hseq>
+      <Hsp_midline>NI LLG  G++G     VLR   D  + +S   GR I            +  ++ DL +  K +Q+     C      +   E    ++VD+VV  L G  G+     LKAIE  K I  ANK+ L   G+ +   A+K +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|254782008|sp|B0CD21.1|DXR_ACAM1</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase [Acaryochloris marina MBIC11017]</Hit_def>
+  <Hit_accession>B0CD21</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>4.93222</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>EIRISAMC-----DLSEEKARQICPSAAFVKDPFELVARKD----VDVVVELFGG-----------------TGIAKEA----VLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNV</Hsp_qseq>
+      <Hsp_hseq>QFRIVGMAAGRNIELLSQQIRQFRPEIVAIADPNQLSDLKDAIADVDPQPQLLAGEAGVVEVAAYGDAESVVTGIVGCAGLLPTIAAIKAGKDIALANKETLIAGGPVVLPLVEKHGV</Hsp_hseq>
+      <Hsp_midline>+ RI  M      +L  ++ RQ  P    + DP +L   KD    VD   +L  G                 TGI   A     + AI+ GK I  ANK+ L   G  + PL EK  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|31340051|sp|Q8D2G6.1|DXR_WIGBR</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase [Wigglesworthia glossinidia endosymbiont of Glossina brevipalpis]</Hit_def>
+  <Hit_accession>Q8D2G6</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>4.95735</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MCDLSEEKARQICPSAAFV--KDPFELVARKDVDVVVE-LFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEK-QNVIVQFEA---AVAGGIPIIKALREGLAA-NRIKSIAGIINGTSNFILSEMREKGSAFADVLKEAQALGYAEADPTFDIEGNDAGHKITIMSALAFGTPMN</Hsp_qseq>
+      <Hsp_hseq>LLDLKQGLLKNKCKTSVLFGSNDICNLSSSKEVDIVISATVGLSGIF--FLFSAIKSGKKILLANKEILVSCGHFFMKQVEKYKSIIIPIDSEHNAIFQSLPLDFQKKLGIASINKYGIYKLILTGS-----------GGPFRNV--ELRDLKKVSPDQACNHPNWKMGKKISIDSA----TMMN</Hsp_hseq>
+      <Hsp_midline>+ DL +   +  C ++      D   L + K+VD+V+    G +GI    +  AI++GK I+ ANK++L   G+      EK +++I+  ++   A+   +P+    + G+A+ N+      I+ G+           G  F +V  E + L     D   +      G KI+I SA    T MN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|238690099|sp|B4F2C9.1|DXR_PROMH</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4F2C9</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>5.36173</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ELVARKDVDVVVELFGGTGIAKEAVLKAIENGKHIVTANKKLL-----------AEYGNEIFPLAEKQNVIVQ</Hsp_qseq>
+      <Hsp_hseq>EIAALDEADQVMSAITGVAGLK-PTLAAIEKGKRILLANKESLITSGRLFFDAVAKYGAKVLPIDSEHNAIYQ</Hsp_hseq>
+      <Hsp_midline>E+ A  + D V+    G    K   L AIE GK I+ ANK+ L           A+YG ++ P+  + N I Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|254782017|sp|C0ZF60.1|DXR_BREBN</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase; Short=DXP reductoisomerase; AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase; AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase [Brevibacillus brevis NBRC 100599]</Hit_def>
+  <Hit_accession>C0ZF60</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.86625</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>AMCDLSEEKARQICPSAAFVKDPFELVARKDVD--VVVELFGGTGIAKEAVLKAIENGKHIVTANKKLLAEYGNEIFPLAEKQNVIVQFEAAVAGGIPI---IKALREGLAANRIKSIAGIINGTSNFILSEMREKGSAFADVLKE-------AQALGYAEADPTFDIEGNDAGHKITIMSA</Hsp_qseq>
+      <Hsp_hseq>AAVELRDRLAGKSQPEIVYGAEGLELVARHEAANFVMTAVVGSVGVAP--TLAAIEAGKTIGLANKETLVSAGPVVMKRAKEKGVSI---------IPVDSEHSAVYQCLQGERMEDVAKII----------LTASGGSFRHLSREDLEQVTVEQAL----AHPNWSM-----GAKITIDSA</Hsp_hseq>
+      <Hsp_midline>A  +L +  A +  P   +  +  ELVAR +    V+  + G  G+A    L AIE GK I  ANK+ L   G  +   A+++ V +         IP+     A+ + L   R++ +A II          +   G +F  + +E        QAL    A P + +     G KITI SA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2009-07-28" modified="2015-02-04" version="70">
+<accession>Q5F8D4</accession>
+<name>LEU1_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">2-isopropylmalate synthase</fullName>
+<ecNumber evidence="1">2.3.3.13</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">Alpha-IPM synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Alpha-isopropylmalate synthase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">leuA</name>
+<name type="ordered locus">NGO0848</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the condensation of the acetyl group of acetyl-CoA with 3-methyl-2-oxobutanoate (2-oxoisovalerate) to form 3-carboxy-3-hydroxy-4-methylpentanoate (2-isopropylmalate).</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">Acetyl-CoA + 3-methyl-2-oxobutanoate + H(2)O = (2S)-2-isopropylmalate + CoA.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine from 3-methyl-2-oxobutanoate: step 1/4.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homotetramer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the alpha-IPM synthase/homocitrate synthase family. LeuA type 1 subfamily.</text>
+</comment>
+<dbReference type="EC" id="2.3.3.13" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89553.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207965.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8D4"/>
+<dbReference type="STRING" id="242231.NGO0848"/>
+<dbReference type="EnsemblBacteria" id="AAW89553">
+<property type="protein sequence ID" value="AAW89553"/>
+<property type="gene ID" value="NGO0848"/>
+</dbReference>
+<dbReference type="GeneID" id="3282216"/>
+<dbReference type="KEGG" id="ngo:NGO0848"/>
+<dbReference type="PATRIC" id="20334864">
+<property type="gene designation" value="VBINeiGon24812_1002"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0119"/>
+<dbReference type="HOGENOM" id="HOG000046859"/>
+<dbReference type="KO" id="K01649"/>
+<dbReference type="OMA" id="WSVHCHN"/>
+<dbReference type="OrthoDB" id="EOG6CGCF3"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-795-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00048">
+<property type="reaction ID" value="UER00070"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003852">
+<property type="term" value="F:2-isopropylmalate synthase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009098">
+<property type="term" value="P:leucine biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.20.20.70">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01025">
+<property type="entry name" value="LeuA_type1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013709">
+<property type="entry name" value="2-isopropylmalate_synth_dimer"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002034">
+<property type="entry name" value="AIPM/Hcit_synth_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013785">
+<property type="entry name" value="Aldolase_TIM"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005671">
+<property type="entry name" value="LeuA_bact_synth"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000891">
+<property type="entry name" value="PYR_CT"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00682">
+<property type="entry name" value="HMGL-like"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08502">
+<property type="entry name" value="LeuA_dimer"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00917">
+<property type="entry name" value="LeuA_dimer"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF110921">
+<property type="entry name" value="SSF110921"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00973">
+<property type="entry name" value="leuA_bact"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00815">
+<property type="entry name" value="AIPM_HOMOCIT_SYNTH_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00816">
+<property type="entry name" value="AIPM_HOMOCIT_SYNTH_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50991">
+<property type="entry name" value="PYR_CT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0028">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0100">Branched-chain amino acid biosynthesis</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0432">Leucine biosynthesis</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="2-isopropylmalate synthase" id="PRO_1000149225">
+<location>
+<begin position="1"/>
+<end position="517"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_01025"/>
+</source>
+</evidence>
+<sequence length="517" mass="55336" checksum="08BB5773D8CB7910" modified="2005-03-15" version="1">
+MTQANRVIIFDTTLRDGEQSPGAAMTKEEKIRVARQLEKLGADIIEAGFAAASPGDFEAV
+NAIAKTITKSTVCSLSRAIERDIRQAGKAVAPAPKKRIHTFIATSPIHMEYKLKMKPKQV
+IEAAVKAVKIAREYTDDVEFSCEDALRSQIDFLAEICGAVIEAGATTINIPDTVGYSIPY
+KTEEFFRELIAKTPNGGKVVWSAHCHNDLGLAVANSLAALKGGARQVECTVNGLGERAGN
+ASVEEIVMALKVRHDLFGLETGIDTTQIVPSSKLVSTITGYPVQPNKAIVGANAFSHESG
+IHQDGVLKHRETYEIMSAESVGWSANRLSLGKLSGRNAFKTKLADLGIELESEEALNAAF
+ARFKELADKKREIFDEDLHALVSDEMGNMNAESYKFISQKISTETGEEPRADIVFGIKGE
+EKRASATGSGPVDAIFKAIESVAQSGATLQIYSVNAVTQGTESQGETSVRLARGNRVVNG
+QGADTDILAATAKAYLSALSKLEFSAAKPKAQGSGTI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

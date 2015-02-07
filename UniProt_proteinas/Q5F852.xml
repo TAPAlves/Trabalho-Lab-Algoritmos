@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-01-15" modified="2015-01-07" version="63">
+<accession>Q5F852</accession>
+<name>MIAA_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">tRNA dimethylallyltransferase</fullName>
+<ecNumber evidence="1">2.5.1.75</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">Dimethylallyl diphosphate:tRNA dimethylallyltransferase</fullName>
+<shortName evidence="1">DMAPP:tRNA dimethylallyltransferase</shortName>
+<shortName evidence="1">DMATase</shortName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Isopentenyl-diphosphate:tRNA isopentenyltransferase</fullName>
+<shortName evidence="1">IPP transferase</shortName>
+<shortName evidence="1">IPPT</shortName>
+<shortName evidence="1">IPTase</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">miaA</name>
+<name type="ordered locus">NGO0940</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the transfer of a dimethylallyl group onto the adenine at position 37 in tRNAs that read codons beginning with uridine, leading to the formation of N6-(dimethylallyl)adenosine (i(6)A).</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">Dimethylallyl diphosphate + adenine(37) in tRNA = diphosphate + N(6)-dimethylallyladenine(37) in tRNA.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="subunit">
+<text evidence="1">Monomer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the IPP transferase family.</text>
+</comment>
+<dbReference type="EC" id="2.5.1.75" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89635.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208047.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F852"/>
+<dbReference type="STRING" id="242231.NGO0940"/>
+<dbReference type="EnsemblBacteria" id="AAW89635">
+<property type="protein sequence ID" value="AAW89635"/>
+<property type="gene ID" value="NGO0940"/>
+</dbReference>
+<dbReference type="GeneID" id="3281618"/>
+<dbReference type="KEGG" id="ngo:NGO0940"/>
+<dbReference type="PATRIC" id="20335065">
+<property type="gene designation" value="VBINeiGon24812_1102"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0324"/>
+<dbReference type="HOGENOM" id="HOG000039996"/>
+<dbReference type="KO" id="K00791"/>
+<dbReference type="OMA" id="EIFHTTG"/>
+<dbReference type="OrthoDB" id="EOG661HB3"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-877-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052381">
+<property type="term" value="F:tRNA dimethylallyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008033">
+<property type="term" value="P:tRNA processing"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.300">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00185">
+<property type="entry name" value="IPP_trans"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002627">
+<property type="entry name" value="IPPT"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018022">
+<property type="entry name" value="tRNA_delta_PyrP_Trfase"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11088">
+<property type="entry name" value="PTHR11088"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01715">
+<property type="entry name" value="IPPT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00174">
+<property type="entry name" value="miaA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0819">tRNA processing</keyword>
+<feature type="chain" description="tRNA dimethylallyltransferase" id="PRO_1000020624">
+<location>
+<begin position="1"/>
+<end position="313"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP" evidence="1">
+<location>
+<begin position="11"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="1">
+<location>
+<begin position="13"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="region of interest" description="Interaction with substrate tRNA" evidence="1">
+<location>
+<begin position="36"/>
+<end position="39"/>
+</location>
+</feature>
+<feature type="region of interest" description="Interaction with substrate tRNA" evidence="1">
+<location>
+<begin position="160"/>
+<end position="164"/>
+</location>
+</feature>
+<feature type="region of interest" description="Interaction with substrate tRNA" evidence="1">
+<location>
+<begin position="243"/>
+<end position="248"/>
+</location>
+</feature>
+<feature type="site" description="Interaction with substrate tRNA" evidence="1">
+<location>
+<position position="102"/>
+</location>
+</feature>
+<feature type="site" description="Interaction with substrate tRNA" evidence="1">
+<location>
+<position position="124"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00185"/>
+</source>
+</evidence>
+<sequence length="313" mass="34855" checksum="A27BEE85933889E0" modified="2005-03-15" version="1">
+MPTPKAFTLLGPTACGKTALALKIAETLPVEIISLDSALLYTGMDIGTAKPSASERAFVP
+HHLIDIITPVQTYSAARFVEDCTRLTGEITARGKCPLIVGGTMMYFRALTQGLNDLPEAD
+ACLRADLDEQKQMYGLDFLYRTLQKVDPETACRLKPNDSQRIGRALEVYYLTGRPMSAHL
+NGQPEHTLPFELYTAALIPEDRARLHENIALRFHLMLEQGFIGEVENLRRRYPGLTADSP
+AIRCVGYRQAWEHLDGATDRQTFIEKGIAATRQLAKRQLTWLRKTPLDCVADPFSDGTSG
+TRLIEAAKRFFGE
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

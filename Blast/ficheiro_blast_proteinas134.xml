@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>36415</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>93</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>36415</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>93</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|71164852|sp|P39393.3|YJIV_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative uncharacterized protein YjiV [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P39393</Hit_accession>
+  <Hit_len>906</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.38658</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>SERLSDGIGAIRERRNIEAPAFQIGRRTKPPALAHRSGLLASAPDPVFRFAMRGDPQRRNGIIT</Hsp_qseq>
+      <Hsp_hseq>SRTWTEMVNELKERADIRGPVLQYNHYLKPEVFNENGGPLKLSEMLLFREFMR-RPKRTNSLET</Hsp_hseq>
+      <Hsp_midline>S   ++ +  ++ER +I  P  Q     KP       G L  +   +FR  MR  P+R N + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|74861644|sp|Q86L14.1|PUR9_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional purine biosynthesis protein purH; Includes: RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase; AltName: Full=AICAR transformylase; Includes: RecName: Full=IMP cyclohydrolase; AltName: Full=ATIC; AltName: Full=IMP synthase; AltName: Full=Inosinicase [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q86L14</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.50039</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>DGIGAIRERRNIEAPAFQIGRRTKPPALAHRSGLLASAPDPVFRFAMRGDPQRRNGIITGFLKNSTV</Hsp_qseq>
+      <Hsp_hseq>DGDAALKAVREFDRCACVVIKHTNPCGLS--VGVNDSEQAEVYKRAFNGDPKSAYGGILGFNRTLTL</Hsp_hseq>
+      <Hsp_midline>DG  A++  R  +  A  + + T P  L+   G+  S    V++ A  GDP+   G I GF +  T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|123523321|sp|Q2P866.1|PUR9_XANOM</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional purine biosynthesis protein PurH; Includes: RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase; AltName: Full=AICAR transformylase; Includes: RecName: Full=IMP cyclohydrolase; AltName: Full=ATIC; AltName: Full=IMP synthase; AltName: Full=Inosinicase [Xanthomonas oryzae pv. oryzae MAFF 311018]</Hit_def>
+  <Hit_accession>Q2P866</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.82055</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>KEMPSERLSDGIGAIRERRNIEAPAFQIGRRTKPPALAHRSGL-----LASAPDPVFRF</Hsp_qseq>
+      <Hsp_hseq>KELSYNNLADADAAWECVRQFDAPACVIVKHANPCGVAVGAGCGDAYELAYATDPTSAF</Hsp_hseq>
+      <Hsp_midline>KE+    L+D   A    R  +APA  I +   P  +A  +G      LA A DP   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|238689545|sp|B2SRB2.1|PUR9_XANOP</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional purine biosynthesis protein PurH; Includes: RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase; AltName: Full=AICAR transformylase; Includes: RecName: Full=IMP cyclohydrolase; AltName: Full=ATIC; AltName: Full=IMP synthase; AltName: Full=Inosinicase [Xanthomonas oryzae pv. oryzae PXO99A]</Hit_def>
+  <Hit_accession>B2SRB2</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.87788</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>KEMPSERLSDGIGAIRERRNIEAPAFQIGRRTKPPALAHRSGL-----LASAPDPVFRF</Hsp_qseq>
+      <Hsp_hseq>KELSYNNLADADAAWECVRQFDAPACVIVKHANPCGVAVGAGCGDAYELAYATDPTSAF</Hsp_hseq>
+      <Hsp_midline>KE+    L+D   A    R  +APA  I +   P  +A  +G      LA A DP   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75436912|sp|Q5H5H7.1|PUR9_XANOR</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional purine biosynthesis protein PurH; Includes: RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase; AltName: Full=AICAR transformylase; Includes: RecName: Full=IMP cyclohydrolase; AltName: Full=ATIC; AltName: Full=IMP synthase; AltName: Full=Inosinicase [Xanthomonas oryzae pv. oryzae KACC 10331]</Hit_def>
+  <Hit_accession>Q5H5H7</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.93579</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>KEMPSERLSDGIGAIRERRNIEAPAFQIGRRTKPPALAHRSGL-----LASAPDPVFRF</Hsp_qseq>
+      <Hsp_hseq>KELSYNNLADADAAWECVRQFDAPACVIVKHANPCGVAVGAGCGDAYELAYATDPTSAF</Hsp_hseq>
+      <Hsp_midline>KE+    L+D   A    R  +APA  I +   P  +A  +G      LA A DP   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|32171678|sp|Q8PQ19.1|PUR9_XANAC</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional purine biosynthesis protein PurH; Includes: RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase; AltName: Full=AICAR transformylase; Includes: RecName: Full=IMP cyclohydrolase; AltName: Full=ATIC; AltName: Full=IMP synthase; AltName: Full=Inosinicase [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PQ19</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.29553</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>KEMPSERLSDGIGAIRERRNIEAPAFQIGRRTKPPALAHRSGL-----LASAPDPVFRF</Hsp_qseq>
+      <Hsp_hseq>KELSYNNLADADAAWECVRQFDAPACVIVKHANPCGVAVGAGCGDAYELAYATDPTSAF</Hsp_hseq>
+      <Hsp_midline>KE+    L+D   A    R  +APA  I +   P  +A  +G      LA A DP   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123586028|sp|Q3BY85.1|PUR9_XANC5</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional purine biosynthesis protein PurH; Includes: RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase; AltName: Full=AICAR transformylase; Includes: RecName: Full=IMP cyclohydrolase; AltName: Full=ATIC; AltName: Full=IMP synthase; AltName: Full=Inosinicase [Xanthomonas campestris pv. vesicatoria str. 85-10]</Hit_def>
+  <Hit_accession>Q3BY85</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.29553</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>KEMPSERLSDGIGAIRERRNIEAPAFQIGRRTKPPALAHRSGL-----LASAPDPVFRF</Hsp_qseq>
+      <Hsp_hseq>KELSYNNLADADAAWECVRQFDAPACVIVKHANPCGVAVGAGCGDAYELAYATDPTSAF</Hsp_hseq>
+      <Hsp_midline>KE+    L+D   A    R  +APA  I +   P  +A  +G      LA A DP   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|39931506|sp|Q83CL8.2|FUMC_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Fumarate hydratase class II; Short=Fumarase C [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83CL8</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>9.22267</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>EMPSERLSDGIGAIRERRNIEAPAFQIGRRTKPPALAHRSGLLASA</Hsp_qseq>
+      <Hsp_hseq>EVPSEKY---YGAQSQRSLIN---FAIGRETMPPELIRAFGVLKKA</Hsp_hseq>
+      <Hsp_midline>E+PSE+     GA  +R  I    F IGR T PP L    G+L  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166231023|sp|A0LVJ8.1|MURI_ACIC1</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase [Acidothermus cellulolyticus 11B]</Hit_def>
+  <Hit_accession>A0LVJ8</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>9.50593</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>17</Hsp_align-len>
+      <Hsp_qseq>ASAPDPVFRFAMRGDPQ</Hsp_qseq>
+      <Hsp_hseq>ASAPPPVHRFAATGDPE</Hsp_hseq>
+      <Hsp_midline>ASAP PV RFA  GDP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

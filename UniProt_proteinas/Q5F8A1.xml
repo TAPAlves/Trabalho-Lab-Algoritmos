@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-02-04" version="53">
+<accession>Q5F8A1</accession>
+<name>Q5F8A1_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="4">Alkyl hydroperoxide reductase AhpD</fullName>
+<ecNumber evidence="2">1.11.1.15</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="9">NGO0887</name>
+</gene>
+<organism evidence="9 10">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="10">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="10">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="6">Antioxidant protein with alkyl hydroperoxidase activity. Required for the reduction of the AhpC active site cysteine residues and for the regeneration of the AhpC enzyme activity.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="3">2 R'-SH + ROOH = R'-S-S-R' + H(2)O + ROH.</text>
+</comment>
+<dbReference type="EC" id="1.11.1.15" evidence="2"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89586.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_003706302.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207998.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8A1"/>
+<dbReference type="STRING" id="242231.NGO0887"/>
+<dbReference type="EnsemblBacteria" id="AAW89586">
+<property type="protein sequence ID" value="AAW89586"/>
+<property type="gene ID" value="NGO0887"/>
+</dbReference>
+<dbReference type="GeneID" id="3281121"/>
+<dbReference type="KEGG" id="ngo:NGO0887"/>
+<dbReference type="PATRIC" id="20334949">
+<property type="gene designation" value="VBINeiGon24812_1044"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2128"/>
+<dbReference type="HOGENOM" id="HOG000218410"/>
+<dbReference type="OMA" id="ACHYCVP"/>
+<dbReference type="OrthoDB" id="EOG6P5ZKB"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-828-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004601">
+<property type="term" value="F:peroxidase activity"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051920">
+<property type="term" value="F:peroxiredoxin activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.20.1290.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029032">
+<property type="entry name" value="AhpD-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004675">
+<property type="entry name" value="AhpD_core"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003779">
+<property type="entry name" value="CMD-like"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02627">
+<property type="entry name" value="CMD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF69118">
+<property type="entry name" value="SSF69118"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00778">
+<property type="entry name" value="ahpD_dom"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0049" evidence="5">Antioxidant</keyword>
+<keyword id="KW-0181" evidence="10">Complete proteome</keyword>
+<keyword id="KW-1015" evidence="7">Disulfide bond</keyword>
+<keyword id="KW-0560" evidence="1">Oxidoreductase</keyword>
+<keyword id="KW-0575" evidence="1">Peroxidase</keyword>
+<keyword id="KW-0676" evidence="8">Redox-active center</keyword>
+<keyword id="KW-1185" evidence="10">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00088496"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00088503"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00088505"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00088523"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00088542"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00088543"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00088556"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00088557"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89586.1"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="182" mass="19151" checksum="008F85E17E01B8C7" modified="2005-03-15" version="1">
+MARLTVHTLETAPEAAKPRVEAVPKNNGFIPNLIGVLANAPEALAFYQEVGKLNAANSLT
+AGEVEVIRIIAVRTNQCSFCVAGHTKLATLKKLLSEQSLNAARALAAGKSDDAKLGALAA
+FTQAVMAKKGAVSDDELNAFLEAGYNRQQAVEVVMGVALATLCNYANNLAQTEINPKLQA
+YA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

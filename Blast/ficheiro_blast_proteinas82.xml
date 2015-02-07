@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>25043</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>65</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>25043</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>65</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81475251|sp|Q8FF46.1|ISCX_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Protein IscX [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FF46</Hit_accession>
+  <Hit_len>66</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.27286e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKWTDTRRIAEELYDLHGEAIDPKTVRFTQLRDLIMALPEFDDDPARCGERILEAVQQAWIDEAE</Hsp_qseq>
+      <Hsp_hseq>LKWTDSREIGEALYDAYPD-IDPKTVRFTDMHQWICALEDFDDDPQASNEKILEAILLVWLDEAE</Hsp_hseq>
+      <Hsp_midline>+KWTD+R I E LYD + + IDPKTVRFT +   I AL +FDDDP    E+ILEA+   W+DEAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1175984|sp|P44668.1|ISCX_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Protein IscX [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44668</Hit_accession>
+  <Hit_len>64</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.63942e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKWTDTRRIAEELYDLHGEAIDPKTVRFTQLRDLIMALPEFDDDPARCGERILEAVQQAWIDEAE</Hsp_qseq>
+      <Hsp_hseq>MKWTDAQLIAEELYDRNPD-LDPKTVRFTDLHKWICELENFDDDPNKSNESILEAILLKWLDEFE</Hsp_hseq>
+      <Hsp_midline>MKWTD + IAEELYD + + +DPKTVRFT L   I  L  FDDDP +  E ILEA+   W+DE E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|82592924|sp|P0C0M0.1|ISCX_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Protein IscX [Escherichia coli O157:H7] &gt;gi|82592925|sp|P0C0L9.1|ISCX_ECOLI RecName: Full=Protein IscX [Escherichia coli K-12] &gt;gi|82592926|sp|P0C0M1.1|ISCX_SHIFL RecName: Full=Protein IscX [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0C0M0</Hit_accession>
+  <Hit_len>66</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.51069e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKWTDTRRIAEELYDLHGEAIDPKTVRFTQLRDLIMALPEFDDDPARCGERILEAVQQAWIDEAE</Hsp_qseq>
+      <Hsp_hseq>LKWTDSREIGEALYDAYPD-LDPKTVRFTDMHQWICDLEDFDDDPQASNEKILEAILLVWLDEAE</Hsp_hseq>
+      <Hsp_midline>+KWTD+R I E LYD + + +DPKTVRFT +   I  L +FDDDP    E+ILEA+   W+DEAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2495641|sp|Q51384.1|Y3808_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein PA3808 [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q51384</Hit_accession>
+  <Hit_len>66</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.2934e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MKWTDTRRIAEELYDLHGEAIDPKTVRFTQLRDLIMALPEFDDDPARCGERILEAVQQAWIDE</Hsp_qseq>
+      <Hsp_hseq>LKWTDVLEIAIQL-DESKPEVDPRYVNFVDLRRWVVELPEFSDDPQRSGEKVLEAIQAAWIEE</Hsp_hseq>
+      <Hsp_midline>+KWTD   IA +L D     +DP+ V F  LR  ++ LPEF DDP R GE++LEA+Q AWI+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|238689249|sp|B2J1W7.1|AROC_NOSP7</Hit_id>
+  <Hit_def>RecName: Full=Chorismate synthase; Short=CS; AltName: Full=5-enolpyruvylshikimate-3-phosphate phospholyase [Nostoc punctiforme PCC 73102]</Hit_def>
+  <Hit_accession>B2J1W7</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.4462</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>EELYDLHGEAIDPKTVRFTQLRDLIMALPEFDDDPARCGERILEAVQQ</Hsp_qseq>
+      <Hsp_hseq>KRIKDLEG-VVDPNTVTLEQVESNIVRCPD-----AECGDRMIELIEQ</Hsp_hseq>
+      <Hsp_midline>+ + DL G  +DP TV   Q+   I+  P+     A CG+R++E ++Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|39931468|sp|Q81P62.1|HIS82_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Bacillus anthracis]</Hit_def>
+  <Hit_accession>Q81P62</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.37512</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>DDDPARCGERILEAVQQAWIDEA</Hsp_qseq>
+      <Hsp_hseq>NENPFGCSPRVLDELQKSWLDHA</Hsp_hseq>
+      <Hsp_midline>+++P  C  R+L+ +Q++W+D A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1346432|sp|P49046.1|LEGU_CANEN</Hit_id>
+  <Hit_def>RecName: Full=Legumain; AltName: Full=Asparaginyl endopeptidase; Flags: Precursor [Canavalia ensiformis]</Hit_def>
+  <Hit_accession>P49046</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.45372</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>MKWTDTRRIAEELYDLHGEAIDPKTVRF</Hsp_qseq>
+      <Hsp_hseq>MQYGDTNITAEKLYLYHG--FDPATVNF</Hsp_hseq>
+      <Hsp_midline>M++ DT   AE+LY  HG   DP TV F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81410062|sp|Q736A5.1|HIS82_BACC1</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Bacillus cereus ATCC 10987]</Hit_def>
+  <Hit_accession>Q736A5</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.45628</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>DDDPARCGERILEAVQQAWIDEA</Hsp_qseq>
+      <Hsp_hseq>NENPFGCSPRVLDELQKSWLDHA</Hsp_hseq>
+      <Hsp_midline>+++P  C  R+L+ +Q++W+D A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81395732|sp|Q6HHF6.1|HIS82_BACHK</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Bacillus thuringiensis serovar konkukian str. 97-27]</Hit_def>
+  <Hit_accession>Q6HHF6</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.49743</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>DDDPARCGERILEAVQQAWIDEA</Hsp_qseq>
+      <Hsp_hseq>NENPFGCSPRVLDELQKSWLDHA</Hsp_hseq>
+      <Hsp_midline>+++P  C  R+L+ +Q++W+D A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|20978521|sp|Q9NZU5.1|LMCD1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=LIM and cysteine-rich domains protein 1; AltName: Full=Dyxin [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9NZU5</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.59837</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>FTQLRDLIMALPEFDDDPARC</Hsp_qseq>
+      <Hsp_hseq>FYRRRQLMHQLPIYDQDPSRC</Hsp_hseq>
+      <Hsp_midline>F + R L+  LP +D DP+RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

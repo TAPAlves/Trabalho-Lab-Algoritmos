@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="71">
+<accession>Q5F842</accession>
+<name>Q5F842_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Aspartokinase</fullName>
+<ecNumber evidence="1">2.7.2.4</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">NGO0956</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<text evidence="1">ATP + L-aspartate = ADP + 4-phospho-L-aspartate.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the aspartokinase family.</text>
+</comment>
+<dbReference type="EC" id="2.7.2.4" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89645.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208057.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F842"/>
+<dbReference type="SMR" id="Q5F842">
+<property type="residue range" value="246-404"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0956"/>
+<dbReference type="EnsemblBacteria" id="AAW89645">
+<property type="protein sequence ID" value="AAW89645"/>
+<property type="gene ID" value="NGO0956"/>
+</dbReference>
+<dbReference type="GeneID" id="3282184"/>
+<dbReference type="KEGG" id="ngo:NGO0956"/>
+<dbReference type="PATRIC" id="20335097">
+<property type="gene designation" value="VBINeiGon24812_1118"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0527"/>
+<dbReference type="HOGENOM" id="HOG000293093"/>
+<dbReference type="KO" id="K00928"/>
+<dbReference type="OMA" id="INIMMIS"/>
+<dbReference type="OrthoDB" id="EOG6NSGHC"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-887-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016597">
+<property type="term" value="F:amino acid binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004072">
+<property type="term" value="F:aspartate kinase activity"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009089">
+<property type="term" value="P:lysine biosynthetic process via diaminopimelate"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.1160.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002912">
+<property type="entry name" value="ACT_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001048">
+<property type="entry name" value="Asp/Glu/Uridylate_kinase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005260">
+<property type="entry name" value="Asp_kin_monofn"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001341">
+<property type="entry name" value="Asp_kinase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018042">
+<property type="entry name" value="Aspartate_kinase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027795">
+<property type="entry name" value="GATS-like_ACT_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00696">
+<property type="entry name" value="AA_kinase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01842">
+<property type="entry name" value="ACT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13840">
+<property type="entry name" value="ACT_7"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000726">
+<property type="entry name" value="Asp_kin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53633">
+<property type="entry name" value="SSF53633"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00656">
+<property type="entry name" value="asp_kin_monofn"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00657">
+<property type="entry name" value="asp_kinases"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51671">
+<property type="entry name" value="ACT"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00324">
+<property type="entry name" value="ASPARTOKINASE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0418" evidence="1 2">Kinase</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<keyword id="KW-0808" evidence="1 2">Transferase</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU003448"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89645.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="405" mass="43398" checksum="0C1743D30FFC2872" modified="2005-03-15" version="1">
+MALIVHKYGGTSVGSPERIKNVAKRVAKARAEGHDIVVVVSAMSGETNRLVALAHEMQEH
+PDPRELDVVLATGEQVTIGLLAMALKDIGVDAKSYTGWQVSLKTDTAHTKARIESIDDEK
+MRADLAAGKVVIVAGFQGISSEGNISTLGRGGSDTSAVALAAALKADECQIYTDVDGVYT
+TDPRVVPEARRMDTVTFEEMIELASLGSKVLQIRSVEFAGKYKVRLRVLSSLQDGGNGTL
+ITFEEDDNMERAAVTGIAFDKNQARINVRGVPDKPGVAYQILGAVADANIEVDMIIQNVG
+SEGTTDFSFTVPRGDYKQTLEILSERKDSIGAASIDGDDTVCKVSAVGLGMRSHVGVAAK
+IFRTLAEEGINIQMISTSEIKVSVLIDEKYMELATRVLHKAFDLG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

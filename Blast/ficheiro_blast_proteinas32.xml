@@ -1,0 +1,1218 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>1117</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>124</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>1117</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|140642|sp|P24178.1|YFFB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Protein YffB [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P24178</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>9.65029e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLEC--GSRVYVGFSEETYDGIFN</Hsp_qseq>
+      <Hsp_hseq>MVTLYGIKNCDTIKKARRWLEANNIDYRFHDYRVDGLDSELLNDFINELGWEALLNTRGTTWRKLD-ETTRNKITDAASAAALMTEMPAIIKRPLL-CVPGKPMLLGFSDSSYQQFFH</Hsp_hseq>
+      <Hsp_midline>M+ L+GI NCDT+KKA+  L    +++ F D++        +  ++ ++    L N RGT+WRKLD ET +  ++  A A  LM+EMP++IKRP+L C  G  + +GFS+ +Y   F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1175963|sp|P44515.1|Y103_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_0103 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44515</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>6.39402e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEETYDGIF</Hsp_qseq>
+      <Hsp_hseq>MITVYGIKNCDTVKKALKWLADHNIEHKLHDYRVDGLDLNFLTQAETQFGWDVLVNKRSTTWRNLDEQVKNSLDKTTALSV--LAENPTLIKRPIILQDGKALIGFNEKEYQAAF</Hsp_hseq>
+      <Hsp_midline>MI ++GI NCDTVKKA   LA + +E    D++        +     Q     L NKR T+WR LD + +     +TA +V  ++E P+LIKRP++    +  +GF+E+ Y   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|42560357|sp|P60376.1|SPX_LACLM</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Lactococcus lactis subsp. cremoris MG1363] &gt;gi|42560360|sp|P60375.1|SPX2_LACLA RecName: Full=Regulatory protein Spx 2; AltName: Full=Thermoresistant insertional mutant protein A [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>P60376</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>6.02046e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVP--LATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MITIYTAPSCTSCKKAKTWLSYHHIPFNERNLIADPLSTTEISQILQKCDDGVEGLISSRNRFVKTLGVDFEDISLS---QAIKIISENPQIMRRPIIMDEKRLHVGYNEE</Hsp_hseq>
+      <Hsp_midline>MI ++  P+C + KKAK  L+ + + F  R+      S  EI   L++    +  L + R    + L  + +  +LS   +A+K++SE P +++RP++    R++VG++EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|11136042|sp|O32175.1|YUSI_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YusI [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32175</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>6.41743e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>IILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQ--VPLATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEETYD</Hsp_qseq>
+      <Hsp_hseq>LTFYWYPKCGTCRKAKKWLEEHGKEINEIHIAEQPPSKEELKALYEKSGLDLKKFFNTSGMKYRELNLKEKLYHMSED-EQLELLASDGMLIKRPLTTDGEKVTVGFKEDQFE</Hsp_hseq>
+      <Hsp_midline>+  +  P C T +KAK  L  +G E       +Q PS+ E+ +  E+  + L   FN  G  +R+L+ + +   +S   E ++L++    LIKRP+   G +V VGF E+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|342179349|sp|P0CZ82.1|SPX_STRP3</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Streptococcus pyogenes MGAS315] &gt;gi|342179350|sp|P0CZ83.1|SPX_STRPQ RecName: Full=Regulatory protein Spx [Streptococcus pyogenes SSI-1]</Hit_def>
+  <Hit_accession>P0CZ82</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.40876e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEETYDGIFNR</Hsp_qseq>
+      <Hsp_hseq>MVTLFLSPSCTSCRKARAWLVKHEVDFQEHNIITSPLSRDELMSILSFTENGTEDIISTRSKVFQKLDVDVEELSIS---DLIDLIAKNPSLLRRPIIMDQKRMQIGFNEDEIRAFLSR</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KA+  L  + ++F   +      S  E+ S L      T  + + R   ++KLD + ++ ++S   + + L+++ PSL++RP++    R+ +GF+E+      +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|42559563|sp|P60381.1|SPX_STRP1</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Streptococcus pyogenes serotype M1] &gt;gi|42559564|sp|P60382.1|SPX_STRP8 RecName: Full=Regulatory protein Spx [Streptococcus pyogenes MGAS8232]</Hit_def>
+  <Hit_accession>P60381</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>6.31737e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEETYDGIFNR</Hsp_qseq>
+      <Hsp_hseq>MVTLFLSPSCTSCRKARAWLVKHEVDFQEHNIITSPLSRDELMSILSFTENGTEDIISTRSKVFQKLDIDVEELSIS---DLIDLIAKNPSLLRRPIIMDQKRMQIGFNEDEIRAFLSR</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KA+  L  + ++F   +      S  E+ S L      T  + + R   ++KLD + ++ ++S   + + L+++ PSL++RP++    R+ +GF+E+      +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|60390671|sp|Q5XBX9.1|SPX_STRP6</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Streptococcus pyogenes MGAS10394]</Hit_def>
+  <Hit_accession>Q5XBX9</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.54129e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEETYDGIFNR</Hsp_qseq>
+      <Hsp_hseq>MVTLFLSPSCTSCRKARAWLVKHEVDFQEHNIITSPLSRDELMSILSFTENGTEDIISTRSKVFQKLDIDVEELSISG---LIDLIAKNPSLLRRPIIMDQKRMQIGFNEDEIRAFLSR</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KA+  L  + ++F   +      S  E+ S L      T  + + R   ++KLD + ++ ++S     + L+++ PSL++RP++    R+ +GF+E+      +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|42559637|sp|Q8DU17.1|SPX_STRMU</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Streptococcus mutans UA159]</Hit_def>
+  <Hit_accession>Q8DU17</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.04024e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVTLFLSPSCTSCRKARAWLNRHDVVFQEHNIMTSPLSRDELLKILSYTENGTEDIISTRSKVFQKLDIDVDELSVS---ELINLISKNPSLLRRPIIMDNKRMQIGFNED</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KA+  L  + + F   +      S  E+   L      T  + + R   ++KLD +  + ++S   E + L+S+ PSL++RP++    R+ +GF+E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|251757392|sp|P54503.2|MGSR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein MgsR; AltName: Full=Modulator of the general stress response [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54503</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>7.92949e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>IILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVP--LATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFS</Hsp_qseq>
+      <Hsp_hseq>LTFYSYPSCTSCRKTKHWLKAHQIEFNERHLFRETPTREELKYILSLTTEGIDEILATRSQTFKNLNLNIEEMTVN---EVLELLIEKPKLLRRPILVDNKKLVIGYN</Hsp_hseq>
+      <Hsp_midline>+  +  P+C + +K K+ L  + +EF  R   ++ P+  E+   L      +  +   R  +++ L+   ++  ++   E ++L+ E P L++RP+L    ++ +G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|42559623|sp|Q88V55.1|SPX_LACPL</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Lactobacillus plantarum WCFS1]</Hit_def>
+  <Hit_accession>Q88V55</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>8.21184e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVILYTAPSCTSCRKAKAWLQTHDIDFQEHNLFTEPLSIEKIKQILQLTESGTEEIISTRSKAFQQLNVDINDLSLN---ELFDMITHDPSLLRRPIMLDEKRLQVGYNED</Hsp_hseq>
+      <Hsp_midline>M+IL+  P+C + +KAK  L  + ++F   +   +  S  +I   L+     T  + + R  ++++L+ +    +L+   E   +++  PSL++RP++    R+ VG++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|42559638|sp|Q8DZV0.1|SPX_STRA5</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Streptococcus agalactiae 2603V/R] &gt;gi|42559640|sp|Q8E5J8.1|SPX_STRA3 RecName: Full=Regulatory protein Spx [Streptococcus agalactiae NEM316]</Hit_def>
+  <Hit_accession>Q8DZV0</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>6.62876e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEETYDGIFNR</Hsp_qseq>
+      <Hsp_hseq>MITLFLSPSCTSCRKARAWLSKHEVAFEEHNIITSPLNKEELLQILSFTENGTEDIISTRSKVFQKLAIDVDELSTSSLME---LISENPSLLRRPIILDKKRMQIGFNEDEIRAFLPR</Hsp_hseq>
+      <Hsp_midline>MI L   P+C + +KA+  L+ + + F   +      ++ E+   L      T  + + R   ++KL  +  + + SS  E   L+SE PSL++RP++    R+ +GF+E+       R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|42559635|sp|Q8DPA8.1|SPX_STRR6</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Streptococcus pneumoniae R6] &gt;gi|42559681|sp|Q97Q26.1|SPX_STRPN RecName: Full=Regulatory protein Spx [Streptococcus pneumoniae TIGR4]</Hit_def>
+  <Hit_accession>Q8DPA8</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>7.59292e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEETYDGIFNR</Hsp_qseq>
+      <Hsp_hseq>MITLFLSPSCTSCRKAKAWLEKHKVPFVEHNIMTSPLTRKELQHILSLTENGTDDIISTRSKIFQKLNIDVESISVS---ELLHLIEQYPSLLRRPIIIDAKRMQIGFNEDEIRAFLPR</Hsp_hseq>
+      <Hsp_midline>MI L   P+C + +KAK  L  + + F   +      +  E+   L      T  + + R   ++KL+ + +  ++S   E + L+ + PSL++RP++    R+ +GF+E+       R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|42559819|sp|Q8ERT7.1|SPX1_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx 1 [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8ERT7</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>9.06753e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVTLYTSPSCTSCRKARAWLEEHNIPFTERNIFSEPLSLDEIKEILRMTEDGTDEIISTRSKVFQKLDVNIDQLPMKN---LFNLIQKNPGLLRRPIILDEKRLQVGYNED</Hsp_hseq>
+      <Hsp_midline>M+ L+  P+C + +KA+  L  + + F  R+   +  S  EI   L      T  + + R   ++KLD    Q  + +      L+ + P L++RP++    R+ VG++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|11135548|sp|O31602.1|SPX_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31602</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>9.65439e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVTLYTSPSCTSCRKARAWLEEHEIPFVERNIFSEPLSIDEIKQILRMTEDGTDEIISTRSKVFQKLNVNVESMPLQ---DLYRLINEHPGLLRRPIIIDEKRLQVGYNED</Hsp_hseq>
+      <Hsp_midline>M+ L+  P+C + +KA+  L  + + F  R+   +  S  EI   L      T  + + R   ++KL+   +   L    +  +L++E P L++RP++    R+ VG++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|42559875|sp|Q9CI20.1|SPX1_LACLA</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx 1 [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>Q9CI20</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000144379</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEETYDGIFNRQ</Hsp_qseq>
+      <Hsp_hseq>MIDLYLSPSCTSCRKARAWLQSHKVPFVEHNILTQPMTTNDLRHILTKTENGTEDIISTRSKVFQKLAVDVDNLTIN---ELLDLVTEFPNLLRRPIITDSKHLQIGFNEDEIRAFLPRE</Hsp_hseq>
+      <Hsp_midline>MI L+  P+C + +KA+  L  + + F   +   Q  +  ++   L +    T  + + R   ++KL  +     ++   E + L++E P+L++RP++     + +GF+E+       R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|42559560|sp|P60378.1|SPX_STAAM</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|42559561|sp|P60379.1|SPX_STAAN RecName: Full=Regulatory protein Spx [Staphylococcus aureus subsp. aureus N315] &gt;gi|42559562|sp|P60380.1|SPX_STAAW RecName: Full=Regulatory protein Spx [Staphylococcus aureus subsp. aureus MW2] &gt;gi|60390699|sp|Q6GAS9.1|SPX_STAAS RecName: Full=Regulatory protein Spx [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|60390703|sp|Q6GI88.1|SPX_STAAR RecName: Full=Regulatory protein Spx [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|81694837|sp|Q5HH87.1|SPX_STAAC RecName: Full=Regulatory protein Spx [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>P60378</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000363652</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVTLFTSPSCTSCRKAKAWLQEHDIPYTERNIFSEHLTIDEIKQILKMTEDGTDEIISTRSKTYQKLNVDIDSLPLQ---DLYSIIQDNPGLLRRPIILDNKRLQVGYNED</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KAK  L  + + +  R+   +  +  EI   L+     T  + + R  +++KL+ +     L    +   ++ + P L++RP++    R+ VG++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|42559697|sp|Q9K8Z1.1|SPX_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K8Z1</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000417324</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSE</Hsp_qseq>
+      <Hsp_hseq>MVTLLTSPSCTSCRKAKAWLEEHNIPFEERNIFSSPLTVEEVKEVVRMTEDGTDEIISTRSKVFQELDVELEALPLQT---LFKIISENPGLLRRPIIFDEKRLQVGYNE</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KAK  L  + + F  R+      +  E+   +      T  + + R   +++LD E +   L +     K++SE P L++RP++    R+ VG++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|42559630|sp|Q8CT68.1|SPX_STAES</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Staphylococcus epidermidis ATCC 12228] &gt;gi|81675077|sp|Q5HQH3.1|SPX_STAEQ RecName: Full=Regulatory protein Spx [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q8CT68</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.000515889</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVTLFTSPSCTSCRKAKAWLQEHDIPYTERNIFSEHLTIDEIKQILKMTEDGTDEIISTRSKTYQKLNVDIDSLPLQ---DLYSIIQDNPGLLRRPIILDDKRLQVGYNED</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KAK  L  + + +  R+   +  +  EI   L+     T  + + R  +++KL+ +     L    +   ++ + P L++RP++    R+ VG++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|42559559|sp|P60377.1|SPX_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Listeria innocua Clip11262] &gt;gi|42559706|sp|Q9RGX0.2|SPX_LISMO RecName: Full=Regulatory protein Spx [Listeria monocytogenes EGD-e] &gt;gi|60390716|sp|Q71XH4.1|SPX_LISMF RecName: Full=Regulatory protein Spx [Listeria monocytogenes serotype 4b str. F2365]</Hit_def>
+  <Hit_accession>P60377</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000805876</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVTLYTSPSCTSCRKARAWLEEHDIPYKERNIFSEPLSLDEIKEILRMTEDGTDEIISTRSKTFQKLNVDLDSLPLQQLFE---LIQKNPGLLRRPIIIDEKRLQVGYNED</Hsp_hseq>
+      <Hsp_midline>M+ L+  P+C + +KA+  L  + + +  R+   +  S  EI   L      T  + + R  +++KL+ +     L    E   L+ + P L++RP++    R+ VG++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|42559614|sp|Q830U3.1|SPX_ENTFA</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Enterococcus faecalis V583]</Hit_def>
+  <Hit_accession>Q830U3</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000882691</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MLTLYTSPSCTSCRKARAWLQEHEIPFKERNIFSEPLNIEELKAILIMTEDGTEEIISTRSKVFQKLNMDLDELPLQDLLELVQ---ENPGLLRRPIMIDEKRLQVGFNED</Hsp_hseq>
+      <Hsp_midline>M+ L+  P+C + +KA+  L  + + F  R+   +  +  E+ + L      T  + + R   ++KL+ +  +  L    E V+   E P L++RP++    R+ VGF+E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|82582263|sp|Q4L505.1|SPX_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L505</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00115703</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVTLFTSPSCTSCRKAKAWLQEHDIPYTERNIFSEHLTIDEIKQILKMTEDGTDEIISTRSKTYQKLNVDIDSLPLQ---DLYAIIQDNPGLLRRPIILDEKRLQVGYNED</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KAK  L  + + +  R+   +  +  EI   L+     T  + + R  +++KL+ +     L    +   ++ + P L++RP++    R+ VG++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|82582264|sp|Q49WC6.1|SPX_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49WC6</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00125988</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVTLFTSPSCTSCRKAKAWLQEHDIPYTERNIFSEHLTIDEIKQILKMTEDGTDEIISTRSKTYQKLNVDIDALPLQ---DLYSIIQDNPGLLRRPIILDEKRLQVGYNED</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KAK  L  + + +  R+   +  +  EI   L+     T  + + R  +++KL+ +     L    +   ++ + P L++RP++    R+ VG++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|140707|sp|P19434.1|YGL1_STRVR</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein in glnII region; AltName: Full=ORF1 [Streptomyces viridochromogenes]</Hit_def>
+  <Hit_accession>P19434</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0029846</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>PNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLA--TLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGS-RVYVGFSEETYDGIFNR</Hsp_qseq>
+      <Hsp_hseq>PACSKCRSAVQLLDAEGADYTVRRYLEDVPSEDEIRQVLDRLGLEPWDITRTQEAEAKELGVKEWARDASARDQWIKALAEHPKLIQRPIITADDGTAVVGRTDEAVRDALSR</Hsp_hseq>
+      <Hsp_midline>P C   + A   L   G ++  R + + +PSE EI   L+++ L    +   +    ++L  +   +  S+  + +K ++E P LI+RP++        VG ++E      +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|42559787|sp|Q81AZ5.1|SPX2_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx 2 [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q81AZ5</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00406686</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVP--LATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVILYTTASCASCRKAKAWLEEHQIDYIEKNIVSNSMTVDELKSILRLTEEGATEIISTRSKTFQDLNINIDELSLN---EFYTLIIEHPLMLRRPIMLDEKRLQIGFNEE</Hsp_hseq>
+      <Hsp_midline>M+IL+   +C + +KAK  L  + +++  ++      +  E+ S L         + + R  +++ L+    + +L+   E   L+ E P +++RP++    R+ +GF+EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|42559789|sp|Q81MW4.1|SPX2_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx 2 [Bacillus anthracis]</Hit_def>
+  <Hit_accession>Q81MW4</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00492626</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVP--LATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVVLYTTASCASCRKAKAWLEENQIDYTEKNIVSNSMTVDELKSILRLTEEGATEIISTRSKTFQDLNINIEELSLN---EFYKLIIEHPLMLRRPIMLDEKRLQIGFNDE</Hsp_hseq>
+      <Hsp_midline>M++L+   +C + +KAK  L    +++  ++      +  E+ S L         + + R  +++ L+   ++ +L+   E  KL+ E P +++RP++    R+ +GF++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|60390668|sp|Q5WEZ7.1|SPX_BACSK</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>Q5WEZ7</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0183966</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSE</Hsp_qseq>
+      <Hsp_hseq>MVTLLTSPSCTSCRKAKAWLEEHDIPFEERNIFASPLSVEEVKQVVRMTEDGTDEIISTRSKVFQELDVELESLPLQ---KLFTIISDNPGLLRRPIIFDEKRLQVGYND</Hsp_hseq>
+      <Hsp_midline>M+ L   P+C + +KAK  L  + + F  R+      S  E+   +      T  + + R   +++LD E +   L    +   ++S+ P L++RP++    R+ VG+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|42559788|sp|Q81GK7.1|SPX1_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx 1 [Bacillus cereus ATCC 14579] &gt;gi|42559790|sp|Q81TR6.1|SPX1_BACAN RecName: Full=Regulatory protein Spx 1 [Bacillus anthracis]</Hit_def>
+  <Hit_accession>Q81GK7</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0645497</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MIILHGIPNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>MVTLYSSPSCTSCRKAKLWLEENHIPYTERNIFSDPLTIEEIKEILRMTESGTDEIISTRSKVFQELNVNLESLPLQ---DLYKMIRDYPGILRRPIMIDEKRLQVGYNED</Hsp_hseq>
+      <Hsp_midline>M+ L+  P+C + +KAK  L    + +  R+      +  EI   L      T  + + R   +++L+   +   L    +  K++ + P +++RP++    R+ VG++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|42559818|sp|Q8ERE2.1|SPX2_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein Spx 2 [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8ERE2</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.118041</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>NCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLAT--LFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEE</Hsp_qseq>
+      <Hsp_hseq>SCSSTRKARQWFKKHGIAYKERNILRQPLTINELQEILRMTVEGTDEIISTRSKIFKELNLNLDELPLQKLLE---LIHEHPRLLKSPILMDEKRFQVGYHED</Hsp_hseq>
+      <Hsp_midline>+C + +KA+     +G+ +  R+  +Q  +  E+   L      T  + + R   +++L+    +  L    E   L+ E P L+K P+L    R  VG+ E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|731608|sp|P38738.1|OCA5_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Oxidant-induced cell-cycle arrest protein 5 [Saccharomyces cerevisiae S288c] &gt;gi|332319769|sp|B3LS90.1|OCA5_YEAS1 RecName: Full=Oxidant-induced cell-cycle arrest protein 5 [Saccharomyces cerevisiae RM11-1a] &gt;gi|332319771|sp|B5VJQ0.1|OCA5_YEAS6 RecName: Full=Oxidant-induced cell-cycle arrest protein 5 [Saccharomyces cerevisiae AWRI1631] &gt;gi|332319772|sp|A6ZSM1.1|OCA5_YEAS7 RecName: Full=Oxidant-induced cell-cycle arrest protein 5 [Saccharomyces cerevisiae YJM789]</Hit_def>
+  <Hit_accession>P38738</Hit_accession>
+  <Hit_len>679</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.94501</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>569</Hsp_hit-from>
+      <Hsp_hit-to>613</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>FRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALS</Hsp_qseq>
+      <Hsp_hseq>FNEFKLLEFEEAEISEFLNNVPLLTKFDD--SSYRKLYENTESSITS</Hsp_hseq>
+      <Hsp_midline>F +FK     EAEI  +L  VPL T F+   +S+RKL   T+    S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|332319770|sp|C7GIQ7.1|OCA5_YEAS2</Hit_id>
+  <Hit_def>RecName: Full=Oxidant-induced cell-cycle arrest protein 5 [Saccharomyces cerevisiae JAY291]</Hit_def>
+  <Hit_accession>C7GIQ7</Hit_accession>
+  <Hit_len>679</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.96396</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>569</Hsp_hit-from>
+      <Hsp_hit-to>613</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>FRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALS</Hsp_qseq>
+      <Hsp_hseq>FNEFKLLEFEEAEISEFLNNVPLLTKFDD--SSYRKLYENTESSITS</Hsp_hseq>
+      <Hsp_midline>F +FK     EAEI  +L  VPL T F+   +S+RKL   T+    S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1723107|sp|P47373.1|Y127_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MG127 [Mycoplasma genitalium G37]</Hit_def>
+  <Hit_accession>P47373</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.09416</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>TLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVL</Hsp_qseq>
+      <Hsp_hseq>SLFSKRADQIKATNSVSVEEL--SISELIKLVRERPSLLRRPII</Hsp_hseq>
+      <Hsp_midline>+LF+KR    +  ++ + ++   S +E +KL+ E PSL++RP++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|66773863|sp|Q5R4T7.2|MKKS_PONAB</Hit_id>
+  <Hit_def>RecName: Full=McKusick-Kaufman/Bardet-Biedl syndromes putative chaperonin; AltName: Full=Protein Bbs6 homolog [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R4T7</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.53264</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>354</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>EFGFRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQ</Hsp_qseq>
+      <Hsp_hseq>KFGSKHFFHLIPNEATICSLL-------LCNRNDTAWDELKLTCQ</Hsp_hseq>
+      <Hsp_midline>+FG + F   +P+EA ICS L       L N+  T+W +L    Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|3334199|sp|O49852.1|GCSP_FLATR</Hit_id>
+  <Hit_def>RecName: Full=Glycine dehydrogenase (decarboxylating), mitochondrial; AltName: Full=Glycine cleavage system P protein; AltName: Full=Glycine decarboxylase; AltName: Full=Glycine dehydrogenase (aminomethyl-transferring); Flags: Precursor [Flaveria trinervia]</Hit_def>
+  <Hit_accession>O49852</Hit_accession>
+  <Hit_len>1034</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.81184</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>NCD--TVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSL-IKRPVLECGSRVYVGFSE</Hsp_qseq>
+      <Hsp_hseq>NCHPQTIDICKTRADGFDLKVVTSDLKDFDYSSGDVCGVLVQYP--------GTEGELLDYSEFIKNAHANGVKVVMASDLLALTILKPPGELGADIVVGSAQ</Hsp_hseq>
+      <Hsp_midline>NC   T+   K R  G+ L+    D K    S  ++C  L Q P        GT    LD     K   +    V + S++ +L I +P  E G+ + VG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|3334198|sp|O49850.1|GCSP_FLAAN</Hit_id>
+  <Hit_def>RecName: Full=Glycine dehydrogenase (decarboxylating), mitochondrial; AltName: Full=Glycine cleavage system P protein; AltName: Full=Glycine decarboxylase; AltName: Full=Glycine dehydrogenase (aminomethyl-transferring); Flags: Precursor [Flaveria anomala]</Hit_def>
+  <Hit_accession>O49850</Hit_accession>
+  <Hit_len>1034</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.83917</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>NCD--TVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSL-IKRPVLECGSRVYVGFSE</Hsp_qseq>
+      <Hsp_hseq>NCHPQTIDICKTRADGFDLKVVTSDLKDFDYSSGDVCGVLVQYP--------GTEGELLDYSEFIKNAHANGVKVVMASDLLALTILKPPGELGADIVVGSAQ</Hsp_hseq>
+      <Hsp_midline>NC   T+   K R  G+ L+    D K    S  ++C  L Q P        GT    LD     K   +    V + S++ +L I +P  E G+ + VG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1346116|sp|P49361.1|GCSPA_FLAPR</Hit_id>
+  <Hit_def>RecName: Full=Glycine dehydrogenase (decarboxylating) A, mitochondrial; AltName: Full=Glycine cleavage system P protein A; AltName: Full=Glycine decarboxylase A; AltName: Full=Glycine dehydrogenase (aminomethyl-transferring) A; Flags: Precursor [Flaveria pringlei]</Hit_def>
+  <Hit_accession>P49361</Hit_accession>
+  <Hit_len>1037</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.89509</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>NCD--TVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSL-IKRPVLECGSRVYVGFSE</Hsp_qseq>
+      <Hsp_hseq>NCHPQTIDICKTRADGFDLKVVTSDLKDFDYSSGDVCGVLVQYP--------GTEGELLDYSEFIKNAHANGVKVVMASDLLALTILKPPGELGADIVVGSAQ</Hsp_hseq>
+      <Hsp_midline>NC   T+   K R  G+ L+    D K    S  ++C  L Q P        GT    LD     K   +    V + S++ +L I +P  E G+ + VG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1346117|sp|P49362.1|GCSPB_FLAPR</Hit_id>
+  <Hit_def>RecName: Full=Glycine dehydrogenase (decarboxylating) B, mitochondrial; AltName: Full=Glycine cleavage system P protein B; AltName: Full=Glycine decarboxylase B; AltName: Full=Glycine dehydrogenase (aminomethyl-transferring) B; Flags: Precursor [Flaveria pringlei]</Hit_def>
+  <Hit_accession>P49362</Hit_accession>
+  <Hit_len>1034</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.09731</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>NCD--TVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSL-IKRPVLECGSRVYVGFSE</Hsp_qseq>
+      <Hsp_hseq>NCHPQTIDICKTRADGFDLKVVTSDLKDFDYSSGDVCGVLVQYP--------GTEGELLDYSEFIKNAHANGVKVVMASDLLALTILKPPGELGADIVVGSAQ</Hsp_hseq>
+      <Hsp_midline>NC   T+   K R  G+ L+    D K    S  ++C  L Q P        GT    LD     K   +    V + S++ +L I +P  E G+ + VG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|332319773|sp|C8ZA35.1|OCA5_YEAS8</Hit_id>
+  <Hit_def>RecName: Full=Oxidant-induced cell-cycle arrest protein 5 [Saccharomyces cerevisiae EC1118]</Hit_def>
+  <Hit_accession>C8ZA35</Hit_accession>
+  <Hit_len>679</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.71942</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>569</Hsp_hit-from>
+      <Hsp_hit-to>613</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>FRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALS</Hsp_qseq>
+      <Hsp_hseq>FNEFKLLEFEEAEIPEFLNNVPLLTKFDD--SSYRKLYENTESSITS</Hsp_hseq>
+      <Hsp_midline>F +FK     EAEI  +L  VPL T F+   +S+RKL   T+    S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|140609|sp|P14301.1|YDRA_RHORU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized 15.7 kDa protein in draG 3&apos;region [Rhodospirillum rubrum]</Hit_def>
+  <Hit_accession>P14301</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.96247</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>PNCDTVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLDAETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSEETYDG</Hsp_qseq>
+      <Hsp_hseq>PGCRNNTRQKALLIASGHRVEAHDIRQQPWTAETLRPYFGDKPVAQWINPAAP--RVKAGEVRPEALDES-EALALMVKDALLIRRPLMAVGQTKTCGFDRAAVNA</Hsp_hseq>
+      <Hsp_midline>P C    + K  L   G      D ++Q  +   +  +    P+A   N      R    E + +AL  + EA+ LM +   LI+RP++  G     GF     + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|46576630|sp|Q94B78.2|GCSP1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Glycine dehydrogenase (decarboxylating) 1, mitochondrial; AltName: Full=Glycine cleavage system P protein 1; AltName: Full=Glycine decarboxylase 1; AltName: Full=Glycine decarboxylase P-protein 1; Short=AtGLDP1; AltName: Full=Glycine dehydrogenase (aminomethyl-transferring) 1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q94B78</Hit_accession>
+  <Hit_len>1037</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.02082</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>NCD--TVKKAKNRLAGYGLEFGFRDFKKQMPSEAEICSWLEQVPLATLFNKRGTSWRKLD-AETQQKALSSTAEAVKLMSEMPSLIKRPVLECGSRVYVGFSE</Hsp_qseq>
+      <Hsp_hseq>NCHPQTIDVCKTRADGFDLKVVTSDLKDIDYSSGDVCGVLVQYP--------GTEGEVLDYAEFVKNAHANGVKVVMATDLLALTVLKPPGEFGADIVVGSAQ</Hsp_hseq>
+      <Hsp_midline>NC   T+   K R  G+ L+    D K    S  ++C  L Q P        GT    LD AE  + A ++  + V     +   + +P  E G+ + VG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|2496307|sp|P75509.1|Y266_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MG127 homolog [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75509</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.19112</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>TLFNKRGTSWRKLDAETQQKALSSTA-EAVKLMSEMPSLIKRPVL</Hsp_qseq>
+      <Hsp_hseq>SLFSKRADQIR---SNTNQSVEDLTIPELIKLIRERPSILRRPII</Hsp_hseq>
+      <Hsp_midline>+LF+KR    R   + T Q     T  E +KL+ E PS+++RP++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2499353|sp|P56155.1|PYRF_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Orotidine 5&apos;-phosphate decarboxylase; AltName: Full=OMP decarboxylase; Short=OMPDCase; Short=OMPdecase [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>P56155</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.71895</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>KLDAETQQKALSSTAEAVK-LMSEMPSLIKRPVLECGSRVYVGFSEETYDGIFNRQAPCR</Hsp_qseq>
+      <Hsp_hseq>KLDIDMLTVHLSSAKSALTALMQRLNALKKRPLI-MGVSALTSFSEEEFLMVYN--APLK</Hsp_hseq>
+      <Hsp_midline>KLD +     LSS   A+  LM  + +L KRP++  G      FSEE +  ++N  AP +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|7387626|sp|Q9ZN53.1|PYRF_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Orotidine 5&apos;-phosphate decarboxylase; AltName: Full=OMP decarboxylase; Short=OMPDCase; Short=OMPdecase [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZN53</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.71895</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>KLDAETQQKALSSTAEAVK-LMSEMPSLIKRPVLECGSRVYVGFSEETYDGIFNRQAPCR</Hsp_qseq>
+      <Hsp_hseq>KLDIDMLTVHLSSAKSALTILMQRLNALKKRPLI-MGVSALTSFSEEEFLMVYN--APLK</Hsp_hseq>
+      <Hsp_midline>KLD +     LSS   A+  LM  + +L KRP++  G      FSEE +  ++N  AP +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

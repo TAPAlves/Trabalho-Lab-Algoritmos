@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2006-03-07" modified="2015-01-07" version="64">
+<accession>Q5F8G6</accession>
+<name>ILVD_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Dihydroxy-acid dehydratase</fullName>
+<shortName evidence="1">DAD</shortName>
+<ecNumber evidence="1">4.2.1.9</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">ilvD</name>
+<name type="ordered locus">NGO0809</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<text evidence="1">2,3-dihydroxy-3-methylbutanoate = 3-methyl-2-oxobutanoate + H(2)O.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>[4Fe-4S] cluster</name>
+<dbReference type="ChEBI" id="CHEBI:49883"/>
+</cofactor>
+<text evidence="1">Binds 1 [4Fe-4S] cluster.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Amino-acid biosynthesis; L-isoleucine biosynthesis; L-isoleucine from 2-oxobutanoate: step 3/4.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Amino-acid biosynthesis; L-valine biosynthesis; L-valine from pyruvate: step 3/4.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the IlvD/Edd family.</text>
+</comment>
+<dbReference type="EC" id="4.2.1.9" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89521.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207933.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0809"/>
+<dbReference type="EnsemblBacteria" id="AAW89521">
+<property type="protein sequence ID" value="AAW89521"/>
+<property type="gene ID" value="NGO0809"/>
+</dbReference>
+<dbReference type="GeneID" id="3281902"/>
+<dbReference type="KEGG" id="ngo:NGO0809"/>
+<dbReference type="PATRIC" id="20334776">
+<property type="gene designation" value="VBINeiGon24812_0958"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0129"/>
+<dbReference type="HOGENOM" id="HOG000173155"/>
+<dbReference type="KO" id="K01687"/>
+<dbReference type="OMA" id="QGRNMAG"/>
+<dbReference type="OrthoDB" id="EOG6MSS24"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-763-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00047">
+<property type="reaction ID" value="UER00057"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00049">
+<property type="reaction ID" value="UER00061"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051539">
+<property type="term" value="F:4 iron, 4 sulfur cluster binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004160">
+<property type="term" value="F:dihydroxy-acid dehydratase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009097">
+<property type="term" value="P:isoleucine biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009099">
+<property type="term" value="P:valine biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00012">
+<property type="entry name" value="IlvD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015928">
+<property type="entry name" value="Aconitase/3IPM_dehydase_swvl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004404">
+<property type="entry name" value="DihydroxyA_deHydtase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000581">
+<property type="entry name" value="DiOHA_6PGluconate_deHydtase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020558">
+<property type="entry name" value="DiOHA_6PGluconate_deHydtase_CS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR21000">
+<property type="entry name" value="PTHR21000"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00920">
+<property type="entry name" value="ILVD_EDD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52016">
+<property type="entry name" value="SSF52016"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00110">
+<property type="entry name" value="ilvD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00886">
+<property type="entry name" value="ILVD_EDD_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00887">
+<property type="entry name" value="ILVD_EDD_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0004">4Fe-4S</keyword>
+<keyword id="KW-0028">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0100">Branched-chain amino acid biosynthesis</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0411">Iron-sulfur</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Dihydroxy-acid dehydratase" id="PRO_0000225398">
+<location>
+<begin position="1"/>
+<end position="619"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)" evidence="1">
+<location>
+<position position="122"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)" evidence="1">
+<location>
+<position position="198"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00012"/>
+</source>
+</evidence>
+<sequence length="619" mass="66842" checksum="CE3227FFF3065E8E" modified="2005-03-15" version="1">
+MPEYRSKTSTHGRNMAGARALWRATGVMETDFGKPIIAVANSFTQFVPGHVHLHNMGQLV
+AREIEKAGAIAKEFNTIAIDDGIAMGHSGMLYSLPSRDLIADSIEYMVNAHCADALVCIS
+NCDKITPGMLIAAMRLNIPTIFVSGGPMEAGKVIGVANIQPERRLDLIDAMIESADDNVS
+NRQVEEVEQNACPTCGSCSGMFTANSMNCLTEALGLSLPGNGSYLATHAGRKELFLEAGR
+MIVEITKRYYEQDDETVLPRSIATKKAFENAMTMDIAMGGSTNTILHLLAVANEAGVDFK
+MADIDRLSRVVPCICKTAPNNHDYYMEDVHRAGGIFAILKELDKAGKLHTDVYTIHAPTL
+KDAIEKWDVTNPENTRAIERFKAAPGGVRTTQAFSQNRIWKTLDLDREKGCIRDVAHAYS
+QDGGLAVLFGNIAERGCVVKTAGVDESILKFTGRARVFESQEAAVEGILGNQIVAGNIVI
+IRYEGPKGGPGMQEMLYPTSYLKSKGLGKACALLTDGRFSGGTSGLSIGHASPEAAEGGA
+IGLVHEGDTIEIDIPKRSIRLVISDEELAARRAEMEARGSKAWKPENRDRYVSAALRAYG
+AMATSADKGAVRDVSQIER
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

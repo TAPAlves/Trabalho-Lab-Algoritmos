@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>32603</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>82</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>32603</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>82</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|205829224|sp|A8MQ27.1|NEU1B_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=E3 ubiquitin-protein ligase NEURL1B; AltName: Full=Neuralized-2; Short=NEUR2; AltName: Full=Neuralized-like protein 1B; AltName: Full=Neuralized-like protein 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>A8MQ27</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.882743</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>PKPPPDFLIWRPAHHFRPIETPVLKDCVYFHRRFKGRRYSADG-VQTAFRRHFHSFGVS</Hsp_qseq>
+      <Hsp_hseq>PSPPARLLATRPCCGPGPERRPVLGEAPRFHAQAKGKNVRLDGHSRRATRRNSFCNGVT</Hsp_hseq>
+      <Hsp_midline>P PP   L  RP     P   PVL +   FH + KG+    DG  + A RR+    GV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|226711322|sp|B6YT12.1|GCSPB_THEON</Hit_id>
+  <Hit_def>RecName: Full=Probable glycine dehydrogenase (decarboxylating) subunit 2; AltName: Full=Glycine cleavage system P-protein subunit 2; AltName: Full=Glycine decarboxylase subunit 2; AltName: Full=Glycine dehydrogenase (aminomethyl-transferring) subunit 2 [Thermococcus onnurineus NA1]</Hit_def>
+  <Hit_accession>B6YT12</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.3361</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GRAGHTFPKPPPDFLIWRPAHHFR--PIETPVLK--DCVYFHRRFKGRRYSAD</Hsp_qseq>
+      <Hsp_hseq>GRVGYTLPKPIEDVEIRVPEKLKRKSPLNLPELSEPEVVKHYTRLSGMNYGVD</Hsp_hseq>
+      <Hsp_midline>GR G+T PKP  D  I  P    R  P+  P L   + V  + R  G  Y  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|238689213|sp|B2GJ87.1|LIPB_KOCRD</Hit_id>
+  <Hit_def>RecName: Full=Octanoyltransferase; AltName: Full=Lipoate-protein ligase B; AltName: Full=Lipoyl/octanoyl transferase; AltName: Full=Octanoyl-[acyl-carrier-protein]-protein N-octanoyltransferase [Kocuria rhizophila DC2201]</Hit_def>
+  <Hit_accession>B2GJ87</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.7027</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VYFHRRFKGRRYSADGVQTAFRRHFHSFGVSVRMAL-PVRAISPCGL</Hsp_qseq>
+      <Hsp_hseq>VLADERGPDRKISAIGVQVSKRATMHGFALNCSNDLRPFGKIIPCGI</Hsp_hseq>
+      <Hsp_midline>V    R   R+ SA GVQ + R   H F ++    L P   I PCG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|34222989|sp|Q92SW6.1|RIMP_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Ribosome maturation factor RimP [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q92SW6</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.76966</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>DFLIWRPAHHFRPIETPVLKDCVYFHRRFKGRRYSADGVQTAFRRHFHSFGVSVRMALPVRAISPCGL</Hsp_qseq>
+      <Hsp_hseq>DFIRWQ--GHLVKCETSVMVDG---RKRFRGKIVSVDEDGFRLERDQPAYGEEAAVAIPFTALSEARL</Hsp_hseq>
+      <Hsp_midline>DF+ W+   H    ET V+ D     +RF+G+  S D       R   ++G    +A+P  A+S   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123789260|sp|Q0MW30.1|NEU1B_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=E3 ubiquitin-protein ligase NEURL1B; AltName: Full=Neuralized-2; Short=NEUR2; AltName: Full=Neuralized-like protein 1B; AltName: Full=Neuralized-like protein 2; AltName: Full=Neuralized-like protein 3 [Mus musculus]</Hit_def>
+  <Hit_accession>Q0MW30</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>6.43678</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MGRAGH-TFP--KPPPDFLIWRPAHHFRPIETPVLKDCVYFHRRFKGRRYSADG-VQTAFRRHFHSFGVS</Hsp_qseq>
+      <Hsp_hseq>MGNTVHRTLPDSSPPARLLATRPCYGPGPERRAVLGEAPRFHAQAKGKNVRLDGHSRRATRRNSFCNGVT</Hsp_hseq>
+      <Hsp_midline>MG   H T P   PP   L  RP +   P    VL +   FH + KG+    DG  + A RR+    GV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|254765072|sp|C3MC63.1|RIMP_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Ribosome maturation factor RimP [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>C3MC63</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.17078</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>DFLIWRPAHHFRPIETPVLKDCVYFHRRFKGRRYSADGVQTAFRRHFHSFGVSVRMALPVRAISPCGL</Hsp_qseq>
+      <Hsp_hseq>DFVRWQ--GHLMKCETSIMVDG---RKRFRGKIVSVDEEGFRLERDQPAYGEEAVVAIPFTALSDARL</Hsp_hseq>
+      <Hsp_midline>DF+ W+   H    ET ++ D     +RF+G+  S D       R   ++G    +A+P  A+S   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

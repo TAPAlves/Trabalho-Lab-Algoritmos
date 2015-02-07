@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>11375</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>60</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>11375</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>60</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|189044135|sp|A5GFA1.1|CLPX_GEOUR</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX [Geobacter uraniireducens Rf4]</Hit_def>
+  <Hit_accession>A5GFA1</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.46817</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>LWVNAGAFGMQEDDTPQSDYEKRLGLGAKLKNKNTPKAGE</Hsp_qseq>
+      <Hsp_hseq>LFVCGGAFAGLENIIQQRIGVKTLGFGADVKKKIEKKAGE</Hsp_hseq>
+      <Hsp_midline>L+V  GAF   E+   Q    K LG GA +K K   KAGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|298351758|sp|B2RRE7.1|OTUD4_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=OTU domain-containing protein 4 [Mus musculus]</Hit_def>
+  <Hit_accession>B2RRE7</Hit_accession>
+  <Hit_len>1107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.87822</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VNAGAFGMQEDDTPQSDYEKRLGLGAKLKNKN</Hsp_qseq>
+      <Hsp_hseq>VDQGGVGPLEDETPMDAYLRKLGLYRKLVAKD</Hsp_hseq>
+      <Hsp_midline>V+ G  G  ED+TP   Y ++LGL  KL  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|254763849|sp|B9M0Y2.1|CLPX_GEODF</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX [Geobacter daltonii FRC-32]</Hit_def>
+  <Hit_accession>B9M0Y2</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.16065</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>LWVNAGAFGMQEDDTPQSDYEKRLGLGAKLKNKNTPKAGE</Hsp_qseq>
+      <Hsp_hseq>LFICGGAFAGLENIIQQRIGVKTLGFGADVKKKIEKKAGE</Hsp_hseq>
+      <Hsp_midline>L++  GAF   E+   Q    K LG GA +K K   KAGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|123756422|sp|Q39UH3.1|CLPX_GEOMG</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX [Geobacter metallireducens GS-15]</Hit_def>
+  <Hit_accession>Q39UH3</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.40364</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>LWVNAGAFGMQEDDTPQSDYEKRLGLGAKLKNKNTPKAGE</Hsp_qseq>
+      <Hsp_hseq>LFICGGAFAGLDNIIQQRIGVKTLGFGADVKSKVEKKAGE</Hsp_hseq>
+      <Hsp_midline>L++  GAF   ++   Q    K LG GA +K+K   KAGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|62899979|sp|Q73YL5.1|COX2_MYCPA</Hit_id>
+  <Hit_def>RecName: Full=Probable cytochrome c oxidase subunit 2; AltName: Full=Cytochrome aa3 subunit 2; AltName: Full=Cytochrome c oxidase polypeptide II; Flags: Precursor [Mycobacterium avium subsp. paratuberculosis K-10]</Hit_def>
+  <Hit_accession>Q73YL5</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.49682</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>IGFCAFVVALLSLWVNAGAFGMQEDDTPQSDYEKRLGLGA</Hsp_qseq>
+      <Hsp_hseq>LGVLAIVLSGCSSWADALALGWPKGITPQAHLNRELWIGA</Hsp_hseq>
+      <Hsp_midline>+G  A V++  S W +A A G  +  TPQ+   + L +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123574093|sp|Q3A3X6.1|CLPX_PELCD</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX [Pelobacter carbinolicus DSM 2380]</Hit_def>
+  <Hit_accession>Q3A3X6</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.99628</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>LWVNAGAFGMQEDDTPQSDYEKRLGLGAKLKNKNTPKAGE</Hsp_qseq>
+      <Hsp_hseq>LFICGGAFSGLESVIKQRSGTKALGFGAEIKEKKEEGVGE</Hsp_hseq>
+      <Hsp_midline>L++  GAF   E    Q    K LG GA++K K     GE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|61211572|sp|Q74C83.1|CLPX_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX [Geobacter sulfurreducens PCA]</Hit_def>
+  <Hit_accession>Q74C83</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.42239</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>LWVNAGAFGMQEDDTPQSDYEKRLGLGAKLKNKNTPKAGE</Hsp_qseq>
+      <Hsp_hseq>LFICGGAFAGLDSIIQQRIGVKKLGFGADVKSKVEKRAGE</Hsp_hseq>
+      <Hsp_midline>L++  GAF   +    Q    K+LG GA +K+K   +AGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|238692096|sp|B3E1Z3.1|CLPX_GEOLS</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX [Geobacter lovleyi SZ]</Hit_def>
+  <Hit_accession>B3E1Z3</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.47552</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>LWVNAGAFGMQEDDTPQSDYEKRLGLGAKLKNKNTPKAGE</Hsp_qseq>
+      <Hsp_hseq>LFICGGAFAGLDGVIQQRIGKKTLGFGADVKKKLEKKAGE</Hsp_hseq>
+      <Hsp_midline>L++  GAF   +    Q   +K LG GA +K K   KAGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|119515|sp|P28770.1|EPD1_ONCMY</Hit_id>
+  <Hit_def>RecName: Full=Ependymin-1; AltName: Full=Ependymin I; Short=EPD-I; Flags: Precursor [Oncorhynchus mykiss]</Hit_def>
+  <Hit_accession>P28770</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>6.68935</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>34</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>27</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>AFVVALLSLWVNAGAFGMQEDDTPQ</Hsp_qseq>
+      <Hsp_hseq>AFAVAALSIWLCLGATTLAESHGPQ</Hsp_hseq>
+      <Hsp_midline>AF VA LS+W+  GA  + E   PQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|313104060|sp|P14932.2|Y2001_METTM</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MTBMA_p00010 [Methanothermobacter marburgensis str. Marburg]</Hit_def>
+  <Hit_accession>P14932</Hit_accession>
+  <Hit_len>804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>7.12409</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>734</Hsp_hit-from>
+      <Hsp_hit-to>762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>DTPQSDYEKRLGLGAKLKNKNTPKAGEKRQ</Hsp_qseq>
+      <Hsp_hseq>DTPENLEERRVTLKKKLKDKSI-SAGEKME</Hsp_hseq>
+      <Hsp_midline>DTP++  E+R+ L  KLK+K+   AGEK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|284433507|sp|B4R4H1.1|NO66_DROSI</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lysine-specific demethylase and histidyl-hydroxylase NO66; AltName: Full=Histone lysine demethylase NO66 [Drosophila simulans]</Hit_def>
+  <Hit_accession>B4R4H1</Hit_accession>
+  <Hit_len>847</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>7.88675</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>LLSLWVNAGAFGMQEDDTPQSDYEKRLGLGAKLKNKNTPKAGE</Hsp_qseq>
+      <Hsp_hseq>LLDNWTSS------KDIAKTADHERRLQAEADAKNNDTKKAGQ</Hsp_hseq>
+      <Hsp_midline>LL  W ++      +D    +D+E+RL   A  KN +T KAG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|166223086|sp|A4SPR3.1|HTPX_AERS4</Hit_id>
+  <Hit_def>RecName: Full=Protease HtpX; AltName: Full=Heat shock protein HtpX [Aeromonas salmonicida subsp. salmonicida A449]</Hit_def>
+  <Hit_accession>A4SPR3</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.20564</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>41</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>MFWYVIGFC-AFVVALLSLWVNAGAFGMQEDDTPQSDYEKRL</Hsp_qseq>
+      <Hsp_hseq>MFCAVFGFGGSFISLLMSKWMAKRSYGVQVIEQPRNETEHWL</Hsp_hseq>
+      <Hsp_midline>MF  V GF  +F+  L+S W+   ++G+Q  + P+++ E  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|597439645|sp|Q01804.4|OTUD4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=OTU domain-containing protein 4; AltName: Full=HIV-1-induced protein HIN-1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q01804</Hit_accession>
+  <Hit_len>1114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.56795</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>NAGAFGMQEDDTPQSDYEKRLGLGAKLKNKN</Hsp_qseq>
+      <Hsp_hseq>DQGGAGPREDATPMDAYLRKLGLYRKLVAKD</Hsp_hseq>
+      <Hsp_midline>+ G  G +ED TP   Y ++LGL  KL  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|74713154|sp|Q7RTX8.1|HIN1L_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative HIN1-like protein</Hit_def>
+  <Hit_accession>Q7RTX8</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.77417</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>NAGAFGMQEDDTPQSDYEKRLGLGAKLKNKN</Hsp_qseq>
+      <Hsp_hseq>DQGGAGPREDATPMDAYLRKLGLYRKLVAKD</Hsp_hseq>
+      <Hsp_midline>+ G  G +ED TP   Y ++LGL  KL  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|224487913|sp|P0C8S2.1|DRAXI_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Draxin; AltName: Full=Dorsal inhibitory axon guidance protein; AltName: Full=Dorsal repulsive axon guidance protein; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>P0C8S2</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.94914</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TPQSDYEKRLGLGAKLKNKNTP</Hsp_qseq>
+      <Hsp_hseq>TPQASHHRRRGLGKKERGPGTP</Hsp_hseq>
+      <Hsp_midline>TPQ+ + +R GLG K +   TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

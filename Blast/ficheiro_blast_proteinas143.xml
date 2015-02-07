@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>57307</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>525</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>57307</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>525</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|160332301|sp|P75919.2|CLSC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase C; Short=CL synthase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P75919</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>8.17445e-141</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>525</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>GLSDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRI--IRSGNIGKGLQ--ALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPAT-KDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRK--TYPNEPEAKLWKRIAAKILSLLPIEGLL</Hsp_qseq>
+      <Hsp_hseq>GQCGLFPLEKSLDAFAARYRLAEMAEHTLDVQYYIWQDDMSGRLLFSALLAAAKRGVRVRLLLDDNNTPGLDDILRLLDSHPRIEVRLFNPFSFRLLRPLGYITDFSRLNRRMHNKSFTVDGVVTLVGGRNIGDAYFGAGEEPLFSDLDVMAIGPVVEDVADDFARYWYCKSVSPLQQVLDVPEGEMADRIELPASWHNDAMTH----RYLRKMESSPFINHLVDGTLPLIWAKTRLLSDDPAKGEGKAKRHSLLPQRLFDIMGSPSERIDIISSYFVPTRAGVAQLLRMVRKGVKIAILTNSLAANDVAVVHAGYARWRKKLLRYGVELYELKPTREQSSTLHDRGITGNSGASLHAKTFSIDGKTVFIGSFNFDPRSTLLNTEMGFVIESETLAQLIDKRFIQSQYDAAWQLRLDRWGRINWVDRHAKKEIILKKEPATSFWKRVMVRLASILPVEWLL</Hsp_hseq>
+      <Hsp_midline>G   ++ L+   +AFAAR  L E AEH+LD+QYYIW++D+SGRLLF+ +  AA+RGVRVRLLLDDNNT GLDD+L  LDSHP IEVRLFNPF  R  R LGY+TDF RLNRRMHNKSFT D   T++GGRNIGD YF  GE+ +F+DLD++A G VV +V+ DF RYW   S     ++  +  G +   ++  A  +ND  +     RY   +E SP    +  G +     +TRL+SD PAKG  + +R   +  RL D +  P + + ++S YFVPT++G   L ++V+ G+ + +LTNSL A DVA VH+GY ++RK LL+ G++LYEL+P     +T  D+G+TG+S  SLHAKTF +DGK +FIGSFN DPRS  LNTEMG VIES  +A+ +++    +  + A+++ LD+  R+ W D   +K      EP    WKR+  ++ S+LP+E LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|12230794|sp|Q9ZMP2.1|Y190_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein jhp_0176 [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZMP2</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>1.55709e-68</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>520</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLD----DLLLALDSHPNIEVRLFNPFVLRK--WRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRS--------GNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQK-IQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTY----PNEPEAKLWKRIAAKILSLLP</Hsp_qseq>
+      <Hsp_hseq>LLEDGFDALLHRVGLIRMSQKSIDMQTYIYKNDLSSQVIAKELLNAANRGVKVRILLDDN---GLDSDFSDIML-LNFHKNIEVKIFNPYYIRNKGLRYFEMLADYERIKKRMHNKLFIVDNFAVIIGGRNIGDNYFDNDLDTNFLDLDALFFGGVASKAKESFENYWRFHRSIPVS-LLRTHKRLKNNVKEIAKLHEKIPISAEDANEFEKKVNDFIERFQKYQYPIYYG-------NAIFLADLPAK-IDTPLY-SPIKIAFEKALKNAKDSVFIASSYFIPGKKIMKIFKNQISKGIELNILTNSLSSTDAIVVYGAWERYRNKLVRMGANVYEIRNDFFNRQIKGR---FSTKHSLHGKTIVFDDALTLLGSFNIDPRSAYINTESAVLFDNPSFAKRVRLSLKDHAQQ-SWHLVLYRH-RVIWE--ATEEGILIHEKNSPDTSFFLRLIKEWSKVLP</Hsp_hseq>
+      <Hsp_midline>LL+D  +A   R  LI  ++ S+D+Q YI++ND+S +++   +  AA RGV+VR+LLDDN   GLD    D++L L+ H NIEV++FNP+ +R    R    L D+ R+ +RMHNK F  DN A I+GGRNIGD YF    DT F DLD L  G V  +    F+ YW  H +   + ++R+          I K  + +  + E +     +  + +E+   YQ  I  G           ++D PAK +D      PI    + ALK  + SV++ S YF+P K         +  GI++ +LTNSL +TD   V+  + +YR  L++ G  +YE++ +      K +    S+  SLH KT + D     +GSFN+DPRSA +NTE  V+ ++P  A+++  +L D   + ++ + L +H R+ W   AT +       N P+   + R+  +   +LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2493740|sp|P56117.1|Y190_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HP_0190 [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>P56117</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>3.28816e-68</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>422</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLD----DLLLALDSHPNIEVRLFNPFVLRK--WRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRI---IRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQW</Hsp_qseq>
+      <Hsp_hseq>LLEDGFDALLHRVGLIRMSQKSIDMQTYIYKNDLSSQVIAKELLNAANRGVKVRILLDDN---GLDSDFSDIML-LNFHKNIEVKIFNPYYIRNKGLRYFEMLADYERIKKRMHNKLFIVDNFAVIIGGRNIGDNYFDNDLDTNFLDLDALFFGGVASKAKESFERYWRFHRSIPVSLLRTHKRLKNNAKEIAKLHEKIPISAEDKNQFEKKV--NDFIDRFQKYQYPIYYGNAIFLADSPKK-IDTPLY-SPIKIAFEKALKNAKDSVFIASSYFIPGKKMMKIFKNQISKGIELNILTNSLSSTDAIVVYGAWERYRNQLVRMGANVYEIRNDFFNRQIKGR---FSTKHSLHGKTIVFDDNLTLLGSFNIDPRSAYINTESAVLFDNPSFAKRVRLSLKDHAQQ-SWHLVVYRH-RVIW</Hsp_hseq>
+      <Hsp_midline>LL+D  +A   R  LI  ++ S+D+Q YI++ND+S +++   +  AA RGV+VR+LLDDN   GLD    D++L L+ H NIEV++FNP+ +R    R    L D+ R+ +RMHNK F  DN A I+GGRNIGD YF    DT F DLD L  G V  +    F+RYW  H +   + +    R  N  K +  L      S     ++ + V  +    + Q  +          ++DSP K +D      PI    + ALK  + SV++ S YF+P K         +  GI++ +LTNSL +TD   V+  + +YR  L++ G  +YE++ +      K +    S+  SLH KT + D     +GSFN+DPRSA +NTE  V+ ++P  A+++  +L D   + ++ + + +H R+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|123461420|sp|A0ALI7.1|CLS_LISW6</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Listeria welshimeri serovar 6b str. SLCC5334]</Hit_def>
+  <Hit_accession>A0ALI7</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>6.16047e-21</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGED-TVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQME</Hsp_qseq>
+      <Hsp_hseq>NEVELFIDGHEKFDALIADIEKAKDHIHLIYYIFHSDELGNRLMRVLERKAAEGLNVKIIYDAMGSRTTKKSFFRTFEKNGGLVRPFFPSKLP-------LINF-RLNYRNHRKLAIIDGDISYIGGFNIGDEYLGLSKKFGYWRDTHLRVHGKAVYAMQTRFIMDWNSASSTN---------------------------------KIDYKPRYFPTFHGK---GHTSMQIVSSGP------DSEWQQIKNGYIKMINAAKKTIYLQSPYFIPDASLLEAIKIAALSGVDVRVMIPN--KPDHAFVYRATTNYAGELMETGAKIF----------IYDNGF-------IHAKTLVVDGEIASVGTANMDFRSFRLNFEVNAFIYEKKMVQKLE</Hsp_hseq>
+      <Hsp_midline>+++ L  D HE F A  A IE A+  + L YYI+ +D  G  L  ++   A  G+ V+++ D   +R                VR F P  L        L +F RLN R H K    D   + +GG NIGDEY  + +    + D  +   G  V  +   F   W S S+ N                                  ++  P Y     G+        +++S  P      D     I       +   +K++YL SPYF+P  S  +A+      G+DV V+  +    D A V+     Y   L++ G K++            D G        +HAKT +VDG+   +G+ N+D RS RLN E+   I   K+ +++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|3025309|sp|P71040.2|CLSA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Major cardiolipin synthase ClsA; Short=CL synthase 2 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P71040</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>8.41183e-21</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>443</Hsp_align-len>
+      <Hsp_qseq>ERTESRHFNTSKPVLLDNILQIRHTPHNNGL-----SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVG-EDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRS--------GNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLAD</Hsp_qseq>
+      <Hsp_hseq>EDLETKQFQFNNRATFDNKDLIYMLIMNNHAVFTEDNSVDVITDGRDKFQRLLSDISKAKDHIHLQYYIYKGDELGKKLRDALIQKAKEGVQVRVLYDELGSRTLRKKFFKELREAGGHVEVFFPSKLRPINL--------RLNYRNHRKLVIIDGMTGYVGGFNVGDEYLGLNPKFGYWRDTHIRLQGTAVHAIQTRFILDWNQASHHHTLTYIPNHFPDYGPKGNVGMQIVTSGPDSE------------------WEQIKNGYI-------KMISNA-------------------------KRSILIQTPYFIPDASLLDALRIACLSGIDVNIMIPN--KPDHAFVYWATLSYIGDLLKAGATVY----------IYDNGF-------IHAKTIVVDDEIASVGTANIDVRSFRLNFEVNAFIYDITIAKKLVSTFKE</Hsp_hseq>
+      <Hsp_midline>E  E++ F  +     DN   I     NN       + + ++ D  + F    + I  A+  + LQYYI++ D  G+ L + +   A+ GV+VR+L D+  +R L              V +F P  LR            RLN R H K    D     +GG N+GDEY  +  +   + D  I   G+ V  +   F   W   S H+    I +        GN+G  +   G + E                  +++I+ G I       ++IS++                         ++S+ + +PYF+P  S  DAL      GIDV ++  +    D A V+   + Y   LLKAG  +Y            D G        +HAKT +VD +   +G+ N+D RS RLN E+   I    IA+++  T  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|73917805|sp|Q6GEY7.1|CLS2_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 2; Short=CL synthase 2 [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GEY7</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.3108e-20</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>84</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYL-TDFP----RLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLAD</Hsp_qseq>
+      <Hsp_hseq>NDLKVYTDGQEKFDDLIQDIRNATDYIHFQYYIIQNDELGRTILNELGKKAEQGVEVKILYDDMGSRGL-------------RKKGLHPFRNKGGHAEAFFPSKLPLINLRMNNRNHRKIVVIDGQIGYVGGFNVGDEY--LGKSKKFGYWRDTHLRIVGDAVNALQLRFILDWNSQ----ATR-----------DHISYDD--------RYFPDVNSGG-------------TIGVQIASSGP------DEEWEQIKYGYLKMISSAKKSIYIQSPYFIPDQAFLDSIKIAALGGVDVNIMIPN--KPDHPFVFWATLKNAASLLDAGVKVFHY----------DNGF-------LHSKTLVIDDEIASVGTANMDHRSFTLNFEVNAFIYDQQIAKKLKQAFID</Hsp_hseq>
+      <Hsp_midline>+D+ +  D  E F      I +A   +  QYYI +ND  GR + N +   AE+GV V++L DD  +RGL               +  +PF  +   A  +  +  P    R+N R H K    D +   +GG N+GDEY  +G+   F    D  +   G  V  +   F   W S     ATR             + Y+D        RY   V                 ++  ++ S  P      D     I       +   +KS+Y+ SPYF+P ++  D++      G+DV ++  +    D   V    +K    LL AG+K++            D G        LH+KT ++D +   +G+ N+D RS  LN E+   I   +IA+++++   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|54036846|sp|P63801.1|CLS_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Staphylococcus aureus subsp. aureus N315] &gt;gi|54036847|sp|P63802.1|CLS_STAAW RecName: Full=Cardiolipin synthase; Short=CL synthase [Staphylococcus aureus subsp. aureus MW2] &gt;gi|54040736|sp|P63800.1|CLS_STAAM RecName: Full=Cardiolipin synthase; Short=CL synthase [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|73917811|sp|Q6G7M2.1|CLS_STAAS RecName: Full=Cardiolipin synthase; Short=CL synthase [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81694071|sp|Q5HEB2.1|CLS2_STAAC RecName: Full=Cardiolipin synthase 2; Short=CL synthase 2 [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>P63801</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.67554e-20</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>84</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYL-TDFP----RLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLAD</Hsp_qseq>
+      <Hsp_hseq>NDLKIYTDGQEKFDDLIQDIRNATDYIHFQYYIIQNDELGRTILNELGKKAEQGVEVKILYDDMGSRGL-------------RKKGLRPFRNKGGHAEAFFPSKLPLINLRMNNRNHRKIVVIDGQIGYVGGFNVGDEY--LGKSKKFGYWRDTHLRIVGDAVNALQLRFILDWNSQ----ATR-----------DHISYDD--------RYFPDVNSGG-------------TIGVQIASSGP------DEEWEQIKYGYLKMISSAKKSIYIQSPYFIPDQAFLDSIKIAALGGVDVNIMIPN--KPDHPFVFWATLKNAASLLDAGVKVFHY----------DNGF-------LHSKTLVIDDEIASVGTANMDHRSFTLNFEVNAFIYDQQIAKKLKQAFID</Hsp_hseq>
+      <Hsp_midline>+D+ +  D  E F      I +A   +  QYYI +ND  GR + N +   AE+GV V++L DD  +RGL               +   PF  +   A  +  +  P    R+N R H K    D +   +GG N+GDEY  +G+   F    D  +   G  V  +   F   W S     ATR             + Y+D        RY   V                 ++  ++ S  P      D     I       +   +KS+Y+ SPYF+P ++  D++      G+DV ++  +    D   V    +K    LL AG+K++            D G        LH+KT ++D +   +G+ N+D RS  LN E+   I   +IA+++++   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81558040|sp|Q5L1S5.1|CLS_GEOKA</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Geobacillus kaustophilus HTA426]</Hit_def>
+  <Hit_accession>Q5L1S5</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>2.32178e-20</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEM</Hsp_qseq>
+      <Hsp_hseq>SQTAVLTNGEETFSSIFAELEKAEHHIHLEYYIVRHDEIGQQLKRVLMEKARQGVRVRFLYDAVGSWKLSNAYIEELRAAGVEMIPFSPV------RLPFLSN--QINFRNHRKIIVIDGGVGFVGGLNIGDEY--LGKNKYFGFWRDTHLLIRGEAVRTLQLIFLQDWYYMTGE---RLLTPDYLSPPL-------------------IVEEG------QGG--------VQLIAGGP------DQKWEVIKQLYFAMITSAKRSIWVASPYFVPDEDILTALKVAALSGIDVRLLAP--KRPDKKIVFYASRSYFPELLEAGVKIYEY----------EKGF-------LHSKVIVVDGELASIGTANMDMRSFHLNFEV</Hsp_hseq>
+      <Hsp_midline>S   +L +  E F++  A +E AEH + L+YYI R+D  G+ L  ++   A +GVRVR L D   +  L +  +       +E+  F+P        L +L++  ++N R H K    D     +GG NIGDEY  +G++  F    D  +L  G  V  +   F + W   +     R++    +   L                    VE+       Q G         +LI+  P      D++   I       +   ++S+++ SPYFVP +    AL      GIDV +L    +  D   V      Y   LL+AG+K+YE           +KG        LH+K  +VDG+   IG+ N+D RS  LN E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|167009028|sp|A4IL76.1|CLS_GEOTN</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Geobacillus thermodenitrificans NG80-2]</Hit_def>
+  <Hit_accession>A4IL76</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>6.98543e-20</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEM</Hsp_qseq>
+      <Hsp_hseq>SQTAVLTNGEETFAAIFDELEKAQHHIHLEYYIVRHDEIGQKLKHVLMEKACQGVHVRFLYDAVGSWKLSNAYIEELRAAGVEMIPFSPV------RLPFLSN--QINFRNHRKIIVIDGGVGFVGGLNIGDEY--LGKDEYFGFWRDTHLLIRGEAVRTLQLIFLQDWYYMTGER----------------------------LLTPEYLSPPLIVEEGQGG--------VQLIAGGP------DQKWEVIKQLYFAMITSAKRSIWVASPYFVPDEDILTALKVAALSGIDVRLLAP--KRPDKKIVFYASRSYFPELLEAGVKIYEY----------EKGF-------LHSKVIVVDGELASIGTANMDMRSFHLNFEV</Hsp_hseq>
+      <Hsp_midline>S   +L +  E FAA    +E A+H + L+YYI R+D  G+ L +++   A +GV VR L D   +  L +  +       +E+  F+P        L +L++  ++N R H K    D     +GG NIGDEY  +G+D  F    D  +L  G  V  +   F + W   +                               L   E +    + ++ Q G         +LI+  P      D++   I       +   ++S+++ SPYFVP +    AL      GIDV +L    +  D   V      Y   LL+AG+K+YE           +KG        LH+K  +VDG+   IG+ N+D RS  LN E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|38604681|sp|Q927Z0.1|CLS_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q927Z0</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>9.83556e-20</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>82</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYW----ASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQME</Hsp_qseq>
+      <Hsp_hseq>NEVELFIDGHEKFDALIADIEKAKDHIHLIYYIFHSDELGNRLMRVLERKAAEGLNVKIIYDAMGSRTTKKSFFRTFEKNGGLVRPFFPSKLP-------LINF-RLNYRNHRKLAIIDGDVGYIGGFNIGDEY--LGRSKKFGYWRDTHLRVHGKAVYAMQTRFIMDWNSASSTHKIDYKARYFPTFH-GKGHTSM---------------QIVSSGP--------DSEWQQIKNGYIK----------------------MINAAKKTIYLQSPYFIPDASLLEAIKIAALSGVDVRVMIPN--KPDHAFVYRATTNYAGELMETGAKIF----------IYDNGF-------IHAKTLVVDGEIASVGTANMDFRSFRLNFEVNAFIYEKKMVQKLE</Hsp_hseq>
+      <Hsp_midline>+++ L  D HE F A  A IE A+  + L YYI+ +D  G  L  ++   A  G+ V+++ D   +R                VR F P  L        L +F RLN R H K    D     +GG NIGDEY  +G    F    D  +   G  V  +   F   W    ++H      R   + + GKG  ++               + V   P          +WQ ++   I                        +   +K++YL SPYF+P  S  +A+      G+DV V+  +    D A V+     Y   L++ G K++            D G        +HAKT +VDG+   +G+ N+D RS RLN E+   I   K+ +++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|38604659|sp|Q8EM16.1|CLS_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8EM16</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.53286e-19</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>HNNGLSDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVF-ADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQME</Hsp_qseq>
+      <Hsp_hseq>QNNGVD---IFTDGQTKFDALLEDIEKAKKHIHIQYYIMRSDGLGNRLADMLIKKVNEGVEVRVLYDDMGSRSLKNSYIKRLKRAGVMVEAFFP--------SRFIVNF-KINYRNHRKLAIIDGYIGYLGGFNVGDEYLGINKKFGYWRDTHLRVIGDAVQSMQTRFILDW---------------------------NQASRDTIL-YNE-----DYYQTVSAGNVGMQ-----IVTSGP------DSEYEQIKNGYIKMIMEANDYICIQTPYFIPDESLRDALKIAVLSGVHVKIMIPN--KPDHPFVYWATLSYCGDLIQAGAEIFIYQNGF-----------------LHAKTIIVDGRIASVGTANIDVRSFRLNFEVNGFLYDSEVVNRLQ</Hsp_hseq>
+      <Hsp_midline> NNG+    +  D    F A    IE A+  + +QYYI R+D  G  L +++      GV VR+L DD  +R L +  +       + V  F P          ++ +F ++N R H K    D     LGG N+GDEY  + +   +  D  +   G  V  +   F   W                           ++ SR  +L Y E       YQ +  G +  Q     +++  P      D     I       + +    + + +PYF+P +S  DAL   V  G+ V ++  +    D   V+   + Y   L++AG +++  Q                    LHAKT IVDG+   +G+ N+D RS RLN E+   +   ++  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|254763879|sp|B8DBK8.1|CLS_LISMH</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Listeria monocytogenes HCC23]</Hit_def>
+  <Hit_accession>B8DBK8</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>2.38637e-19</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>82</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYW----ASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQME</Hsp_qseq>
+      <Hsp_hseq>NEVELFVDGHEKFDALIADIENAKDHIHLIYYIFHSDELGNRLMRVLERKAAEGLNVKIIYDAMGSRTTKKSFFRTFQKNGGLVRPFFPSKLP-------LINF-RLNYRNHRKLAIIDGDVGYIGGFNIGDEY--LGASKKFGYWRDTHLRVHGKAVYAMQTRFIMDWNSASSTHKIDYKARYFPTFH-GKGHTSM---------------QIVSSGP--------DSEWQQIKNGYIK----------------------MINAAKKTIYLQSPYFIPDASLLEAIKIAALSGVDVRVMIPN--KPDHAFVYRATTNYAGELMETGAKIF----------IYDNGF-------IHAKTLVVDGEIASVGTANMDFRSFRLNFEVNAFIYEKQMVQKLE</Hsp_hseq>
+      <Hsp_midline>+++ L  D HE F A  A IE+A+  + L YYI+ +D  G  L  ++   A  G+ V+++ D   +R                VR F P  L        L +F RLN R H K    D     +GG NIGDEY  +G    F    D  +   G  V  +   F   W    ++H      R   + + GKG  ++               + V   P          +WQ ++   I                        +   +K++YL SPYF+P  S  +A+      G+DV V+  +    D A V+     Y   L++ G K++            D G        +HAKT +VDG+   +G+ N+D RS RLN E+   I   ++ +++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|38604677|sp|Q8Y4E3.1|CLS_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Listeria monocytogenes EGD-e] &gt;gi|73917810|sp|Q71WS5.1|CLS_LISMF RecName: Full=Cardiolipin synthase; Short=CL synthase [Listeria monocytogenes serotype 4b str. F2365] &gt;gi|259491277|sp|C1KYS0.1|CLS_LISMC RecName: Full=Cardiolipin synthase; Short=CL synthase [Listeria monocytogenes serotype 4b str. CLIP 80459]</Hit_def>
+  <Hit_accession>Q8Y4E3</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>3.18522e-19</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>82</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYW----ASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQME</Hsp_qseq>
+      <Hsp_hseq>NEVELFVDGHEKFDALIADIEKAKDHIHLIYYIFHSDELGNRLMRVLERKAAEGLNVKIIYDAMGSRTTKKSFFRTFQKNGGLVRPFFPSKLP-------LINF-RLNYRNHRKLAIIDGDVGYIGGFNIGDEY--LGASKKFGYWRDTHLRVHGKAVYAMQTRFIMDWNSASSTHKIDYKARYFPTFH-GKGHTSM---------------QIVSSGP--------DSEWQQIKNGYIK----------------------MINAAKKTIYLQSPYFIPDASLLEAIKIAALSGVDVRVMIPN--KPDHAFVYRATTNYAGELMETGAKIF----------IYDNGF-------IHAKTLVVDGEIASVGTANMDFRSFRLNFEVNAFIYEKQMVQKLE</Hsp_hseq>
+      <Hsp_midline>+++ L  D HE F A  A IE A+  + L YYI+ +D  G  L  ++   A  G+ V+++ D   +R                VR F P  L        L +F RLN R H K    D     +GG NIGDEY  +G    F    D  +   G  V  +   F   W    ++H      R   + + GKG  ++               + V   P          +WQ ++   I                        +   +K++YL SPYF+P  S  +A+      G+DV V+  +    D A V+     Y   L++ G K++            D G        +HAKT +VDG+   +G+ N+D RS RLN E+   I   ++ +++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|75499990|sp|Q4ZL66.1|CLSA_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZL66</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.13526e-18</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>85</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>SWLPPLEERTESRHFNTSKPVLLDNILQIRHTPH--NNGLSDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTV-FADLDILATGSVVGEVSHDF--DRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTL</Hsp_qseq>
+      <Hsp_hseq>NWRPWMEEAVAAR--RSEAYAALRAMPKLGNMPALANN---KVKLLINGEETFGAIFQAIREAKKTILVQFFIIHDDKLGRELQSLLLEKAAEGVAIFVLYDRIGSHALPGAYIDKLRDGGVQIK---AFATRG----GWLNRF-QINFRNHRKIVVVDGLKGYIGGHNVGDEYMGLKPPLAPWRDTHVQVIGPVVACLQESFAEDWFWAT----------------RELPPLSLPDEFP-----------EDGVLCQLLTSGPADAQETCSLFFVE---------------------AIHAAEERVWITSPYFIPDEAVTAALTLAVLRGVDVRLLLPS--RPDHYVVYAASSLYAFDAVRAGVRVFRYEPGF-----------------LHQKVVLVDNEITAIGSANLDNRSFRLNFELMLLTVDSDFSSQVESML</Hsp_hseq>
+      <Hsp_midline>+W P +EE   +R   +     L  + ++ + P   NN    + LL +  E F A    I  A+ ++ +Q++I  +D  GR L +L+   A  GV + +L D   +  L    +       ++++    F  R     G+L  F ++N R H K    D     +GG N+GDEY  +      + D  +   G VV  +   F  D +WA+                + L  L   DE             E   L Q + +G  D Q   +    +                     A+   E+ V++ SPYF+P ++ T AL   V  G+DV +L  S    D   V++    Y    ++AG++++  +P                   LH K  +VD +   IGS NLD RS RLN E+ ++      + Q+E  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|259491275|sp|C5D794.1|CLS_GEOSW</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Geobacillus sp. WCH70]</Hit_def>
+  <Hit_accession>C5D794</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.49483e-18</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEM</Hsp_qseq>
+      <Hsp_hseq>VLTNGEETFSTIFEELEKATHHIHLEYYIVRHDEVGQKLKTILIEKAKKGVHVRFLYDAVGSWKLSKTYIQELRDAGVEMIPFSPV------RLPFLSN--TINFRNHRKIIVIDGTIGFVGGLNIGDEY--LGKDKYFGFWRDTHLWIRGEAVRTLQLIFLQDWYYMT-------------GKTL----------------------LTPEYLSPELVHYDGQG-GVQLIAGGP------DQKWEVIKHLYFAMITSAQRSIWIASPYFVPDEDILTALKIAALSGLDVRILAP--KRPDKKIVFYASRSYFPELLEAGVKIYEY----------SKGF-------LHSKIMIVDGELASIGTANMDMRSFHLNFEV</Hsp_hseq>
+      <Hsp_midline>+L +  E F+     +E A H + L+YYI R+D  G+ L  ++   A++GV VR L D   +  L    +       +E+  F+P        L +L++   +N R H K    D     +GG NIGDEY  +G+D  F    D  +   G  V  +   F + W   +             GK L                       +P Y   +    D Q    +LI+  P      D++   I       +   ++S+++ SPYFVP +    AL      G+DV +L    +  D   V      Y   LL+AG+K+YE            KG        LH+K  IVDG+   IG+ N+D RS  LN E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122401189|sp|Q1I2L0.1|CLSA_PSEE4</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas entomophila L48]</Hit_def>
+  <Hit_accession>Q1I2L0</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>1.7469e-18</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>81</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>SWLPPLEERTESRHFNTSKPVLLDNILQIRHTPHNNGLSDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGED-TVFADLDILATGSVVGEVSHDF--DRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTL</Hsp_qseq>
+      <Hsp_hseq>NWRPWVEEALTARESDSYAALRAMPKLGRMPCLANN---EVKLLIDGEATFKAIFAAIEAARNTVLVQFFIIHDDTLGKQLQRLLLRKAAEGVQVFVLYDRVGSHALPGSYSQVLRDGGVQIQ---AFATRR----GWFNRF-QVNFRNHRKIVVVDGLRGFLGGHNVGDEYLGANPHLSPWRDTHVQIAGPVLACLQESFAEDWYWAT----------------RQLPPLILPDTYP-----------ENGVLCQALASGPADPQET---------------------CALFFLEAIHSATRRVWITSPYFIPDEAIFAALRLAVLRGVDVRVLIPS--RPDHRIVYAASSLFAFEAVRAGVRMFRYQPGF-----------------LHQKVVLVDDEVSAIGSANLDNRSFRLNFEITLLTVDRAFADQVEQML</Hsp_hseq>
+      <Hsp_midline>+W P +EE   +R  ++   +     L       NN   ++ LL D    F A  A IE+A +++ +Q++I  +D  G+ L  L+   A  GV+V +L D   +  L      +     ++++    F  R+    G+   F ++N R H K    D     LGG N+GDEY       + + D  +   G V+  +   F  D YWA+                + L  L   D              E   L Q + +G  D Q                        A    +A+    + V++ SPYF+P ++   AL   V  G+DV VL  S    D   V++    +    ++AG++++  QP                   LH K  +VD +   IGS NLD RS RLN E+ ++      A+Q+E+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|38257312|sp|Q87TY7.1|CLSA_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q87TY7</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.16645e-18</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>442</Hsp_align-len>
+      <Hsp_qseq>SWLPPLEERTESRHFNTSKPVLLDNILQIRHTPHNNGL-----SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTV-FADLDILATGSVVGEVSHDF--DRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTL</Hsp_qseq>
+      <Hsp_hseq>NWRPWIEEAVAARR--------SDAYAALRAMPRLGNMPALANNKVRLLINGEETFGAIFQAIREAKQTILIQFFIIHDDNLGRQLQTLLLEKAAQGVAIFVLYDRIGSHALPGAYIDTLRDGGVQIK---AFATRG----GWLNRF-QINFRNHRKIVVVDGLKGYIGGHNVGDEYMGLKPPLAPWRDTHVEVIGPVVACLQESFAEDWFWAT----------------RELPPLSLPDEFP-----------EDGVLCQLLTSGPADAQETCSLFFVE---------------------AIHAAEERVWITSPYFIPDEAVSAALTLAVLRGVDVRLLLPS--RPDHYVVYAASSLYAFDAVRAGVRVFRYEPGF-----------------LHQKVVLVDNDITAIGSANLDNRSFRLNFELMLLTVDSDFSSQVEAML</Hsp_hseq>
+      <Hsp_midline>+W P +EE   +R          D    +R  P    +     + + LL +  E F A    I  A+ ++ +Q++I  +D  GR L  L+   A +GV + +L D   +  L    +       ++++    F  R     G+L  F ++N R H K    D     +GG N+GDEY  +      + D  +   G VV  +   F  D +WA+                + L  L   DE             E   L Q + +G  D Q   +    +                     A+   E+ V++ SPYF+P ++ + AL   V  G+DV +L  S    D   V++    Y    ++AG++++  +P                   LH K  +VD     IGS NLD RS RLN E+ ++      + Q+E  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|20137660|sp|Q9K8Z4.1|CLS_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K8Z4</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>6.86094e-18</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>77</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>ILQIRHTPHNNGLS---DIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPK</Hsp_qseq>
+      <Hsp_hseq>LFRLAHRLANNPISFSTNTKVLTDGKETFAHIKQALRMATHHIHLEYYIVRDDEIGQEIKEILMQKAKEGIHVRFLYDGVGSWKLSKSYIQDLKQAGVEIVPFAPV------KLPFINH--TINYRNHRKIIVIDGTVGFVGGLNIGDEY--LGKDPYFGFWRDTHLYVRGEAVRTLQLIFLRDWAHETG----------------------------------ETILKPSYLSPALTNMKDDGGVQ--MIASGP------DTRWEINKKLFFSMITSAKKSIWITSPYFIPDEDILSALKIAALSGIDVRILVPN--RPDKRIVFHASRSYFPELLEAGVKVYEYT----------RGF-------LHSKIIIVDNEIASIGTSNMDMRSFHLNFEVNAFLYRTK</Hsp_hseq>
+      <Hsp_midline>+ ++ H   NN +S   +  +L D  E FA     +  A H + L+YYI R+D  G+ +  ++   A+ G+ VR L D   +  L    +       +E+  F P        L ++     +N R H K    D     +GG NIGDEY  +G+D  F    D  +   G  V  +   F R WA  +                                   ET+ +        T   D   VQ  +I+  P      D R           +   +KS+++ SPYF+P +    AL      GIDV +L  +    D   V      Y   LL+AG+K+YE            +G        LH+K  IVD +   IG+ N+D RS  LN E+   +   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|73917806|sp|Q5HMD3.1|CLS2_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 2; Short=CL synthase 2 [Staphylococcus epidermidis RP62A] &gt;gi|73920197|sp|Q8CNK3.2|CLS2_STAES RecName: Full=Cardiolipin synthase 2; Short=CL synthase 2 [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q5HMD3</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>7.02171e-18</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>102</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTD--FP--------RLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQ---ALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLAD--------TTPEYAYRVTLDK</Hsp_qseq>
+      <Hsp_hseq>NDLTIYTDGHQKFDDLINDIRHAQSYIHIQYYIIHSDNLGKQLLHELEKKAEEGIEVKMLYDDMGSRDL------------------RKKDLKKFRQKGGHAESFFPSKLPLINLRMNNRNHRKIVVIDGTIGYVGGFNVGDEY--IGKSKKFG--------------------YWRD------THLRIKGDAVNALQLRFILDWNSQSTRDNL------TYESRYFPDVDSG----GTIGIQIASSGP----DEDWEQIK-YGYLK-MISSAKESIYIQSPYFIPDQAFLDSIKIAALGGVDVNIMVPN--KRDHPFVYWATLKNVASLLEAGVNVYHY----------DNGF-------LHSKTLVIDDEVASVGTANMDNRSFTLNFEVNAFIYDEGVARSLKQAFINDMKLSNKLTSEEYAKRNLLVK</Hsp_hseq>
+      <Hsp_midline>+D+ +  D H+ F      I  A+  + +QYYI  +D  G+ L + +   AE G+ V++L DD  +R L                      L+K+R  G   +  FP        R+N R H K    D     +GG N+GDEY  +G+   F                     YW        T +   G+    LQ    L +N +++R  L        +S  +  + +G     ++  ++ S  P    D D  +    G L+  +   ++S+Y+ SPYF+P ++  D++      G+DV ++  +    D   V+   +K    LL+AG+ +Y            D G        LH+KT ++D +   +G+ N+D RS  LN E+   I    +A  +++   +        T+ EYA R  L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|38604753|sp|Q81V75.1|CLS1_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 1; Short=CL synthase 1 [Bacillus anthracis]</Hit_def>
+  <Hit_accession>Q81V75</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>3.53127e-17</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYF-KVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLAD</Hsp_qseq>
+      <Hsp_hseq>LLTNGDQTFSEILQAIEQAKHHIHIQYYIYKSDEIGTKVRDALIKKAKDGVIVRFLYDGLGSNTLRRRFLQPMKEAGIEIVEFDP-IFSAWL-------LETVNYRNHRKIVIVDGEIGFTGGLNVGDEYLGRSKKFPVWRDSHLKVEGKALYKLQAIFLEDWLYASS--------------GLNTYSWDPFMNR----QYFPGKEISNAEGAVQ------------IVASGPSSD-DKSIRNTLLA-----VMGSAKKSIWIATPYFIPDQETLTLLRLSAISGIDVRILYPG--KSDSIISDQASQSYFTPLLKAGASIYSYKDGF-----------------MHAKILLVDDKIATIGTANMDVRSFELNYEIISVLYESETVHDIKRDFED</Hsp_hseq>
+      <Hsp_midline>LL +  + F+     IE A+H + +QYYI+++D  G  + + +   A+ GV VR L D   +  L    L       IE+  F+P +   W           +N R H K    D      GG N+GDEY  +  +  V+ D  +   G  + ++   F   W   S+              GL    ++   +R    +Y    E S     +Q            +++  P+   D+  R   +A      +   +KS+++ +PYF+P +     L      GIDV +L      +D          Y  PLLKAG  +Y  +                    +HAK  +VD K   IG+ N+D RS  LN E+  V+   +    ++R   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|8134365|sp|O66043.1|CLS_BACPE</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Bacillus pseudofirmus OF4]</Hit_def>
+  <Hit_accession>O66043</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>3.56118e-17</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETV-EQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEM</Hsp_qseq>
+      <Hsp_hseq>SETKVLTDGKETYAHILQALKMAEHHIHLEYYIVRHDDLGNQIKDILISKAKEGVHVRFLYDGVGSWKLSKSYVEELRDAGVEMVSFSPV------KLPFLTH--TINYRNHRKIIVIDGVVGFVGGLNIGDEY--LGKDAYFG--------------------YWRD------THLYVRGEAVRTLQLIFLQDWHYQTG-----ETILNQTYLSPSLSMTKGD-GGVQ--MIASGP------DTRWEVNKKLFFSMITSAKKSIWIASPYFIPDDDILSALKIAALSGIDVRILVPN--RPDKRIVFHASRSYFPELLEAGVKVYEY----------NRGF-------MHSKIIIVDHEIASIGTSNMDMRSFHLNFEV</Hsp_hseq>
+      <Hsp_midline>S+  +L D  E +A     ++ AEH + L+YYI R+D  G  + +++   A+ GV VR L D   +  L    +       +E+  F+P        L +LT    +N R H K    D     +GG NIGDEY  +G+D  F                     YW        T +   G   + LQ +   D   +       ET+  Q+ L   +   + D   VQ  +I+  P      D R           +   +KS+++ SPYF+P      AL      GIDV +L  +    D   V      Y   LL+AG+K+YE           ++G        +H+K  IVD +   IG+ N+D RS  LN E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1176950|sp|P45860.1|CLS1_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable cardiolipin synthase YwiE; Short=CL synthase 1 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P45860</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>4.55877e-17</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>475</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>86</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>NGLSDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHD-FDRYWASHSAHNATRIIRSGNIGKGLQALGYND--ETSRHALLRYRET-----VEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPE</Hsp_qseq>
+      <Hsp_hseq>NTKSNIKVLKNGEETFPDIFKAMRKAESYIHIEYYMFKSDMLGRGMMDIMMEKARQGVEVRFLYDAAGSMKLARRDIMRMKQAGVDIVPFSPL------KYGFFNQ--KLNFRNHRKIVIIDGKTGFVGGLNVGKEY-----------------------ISRDPYIGFWRD------THLRLEGEIVQTLHAIFMLDWEYVSNEVLIDQEEYNTPVPVEGGGIYQIVATG----------------------PDMKESMSDLYYEMISSAQKSIWIATPYFVPNESIRTALKAAATKGVEVRVMVP--EKNDSFLTQYASRSYFPELLLEGIEVYSYQ----------KGF-------MHQKVMIIDGDLASVGTANMDMRSFQLNFEVNVFFTDAEAIRTLEAHFEEDMQE</Hsp_hseq>
+      <Hsp_midline>N  S+I +L +  E F      +  AE  + ++YY++++D+ GR + ++M   A +GV VR L D   +  L    +       +++  F+P         G+     +LN R H K    D +   +GG N+G EY                       +S D +  +W        T +   G I + L A+   D    S   L+   E      VE   +YQ + TG                         K  ++    + +   +KS+++ +PYFVP +S   AL      G++V V+    +  D          Y   LL  GI++Y  Q          KG        +H K  I+DG    +G+ N+D RS +LN E+ V     +    +E    +   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|38604748|sp|Q81I00.1|CLS1_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 1; Short=CL synthase 1 [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q81I00</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>2.80395e-16</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYF-KVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLAD</Hsp_qseq>
+      <Hsp_hseq>LLTNGDQTFSEILRAIEQAKHHIHIQYYIYKSDEIGTKVRDALIQKAKDGVIVRFLYDGLGSNTLRRRFLQPMKEAGIEIVEFDP-IFSAWL-------LETVNYRNHRKIVIVDGEIGFTGGLNVGDEYLGRSKKFPVWRDSHLKIEGKALYKLQAIFLEDWLYASS--------------GLNTYSWDQFMNR----QYFPGKEISNAEGAVQ------------IVASGPSSD-DKSIRNTLLA-----VMGSAKKSIWIATPYFIPDQETLTLLRLSAIAGIDVRILYPG--KSDSIISDQASQSYFTPLLKAGASIYSYKDGF-----------------MHAKIVLVDDTIATIGTANMDVRSFELNYEIISVLYESKTVHDIKRDFEE</Hsp_hseq>
+      <Hsp_midline>LL +  + F+     IE A+H + +QYYI+++D  G  + + +   A+ GV VR L D   +  L    L       IE+  F+P +   W           +N R H K    D      GG N+GDEY  +  +  V+ D  +   G  + ++   F   W   S+              GL    ++   +R    +Y    E S     +Q            +++  P+   D+  R   +A      +   +KS+++ +PYF+P +     L      GIDV +L      +D          Y  PLLKAG  +Y  +                    +HAK  +VD     IG+ N+D RS  LN E+  V+   K    ++R   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|229485952|sp|B1JFN5.1|CLSA_PSEPW</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas putida W619]</Hit_def>
+  <Hit_accession>B1JFN5</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>3.19388e-16</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>489</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>82</Hsp_gaps>
+      <Hsp_align-len>422</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGED-TVFADLDILATGSVVGEVSHDF--DRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLD---KHNRLQ</Hsp_qseq>
+      <Hsp_hseq>NQVKLLIDGRATFDAIFAAIEQAREVVLVQFFIIHNDTIGKALQQLLLRKAADGVKVFVLYDRVGSHALPASYSQSLRDAGVQI---HAFATRR----GWFNRF-QVNFRNHRKIVVVDGVTGFIGGHNVGDEYLGGNPHLSPWRDTHVQIGGPVLACLQESFAEDWYWAT----------------RQLPPLILPDAYPDNGV-----------LCQALASGPADPQETCSLFFIE---------------------AIHSATRRVWITSPYFIPDEAVFAALRLAVLRGVDVRILIPA--RPDHRIVYAASSLFAFEAVRAGVRMFRYQPGF-----------------LHQKVVLVDDEVSAIGSANLDNRSFRLNFEITLLTVDRDFADQVE-TMLTTDFEQAREITPEDSSKTHRIQ</Hsp_hseq>
+      <Hsp_midline>+ + LL D    F A  A IE A   + +Q++I  ND  G+ L  L+   A  GV+V +L D   +  L            +++   + F  R+    G+   F ++N R H K    D     +GG N+GDEY       + + D  +   G V+  +   F  D YWA+                + L  L   D    + +           L Q + +G  D Q   +    +                     A+    + V++ SPYF+P ++   AL   V  G+DV +L  +    D   V++    +    ++AG++++  QP                   LH K  +VD +   IGS NLD RS RLN E+ ++      A+Q+E T+  T  E A  +T +   K +R+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|189044159|sp|B0KR91.1|CLSA_PSEPG</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas putida GB-1]</Hit_def>
+  <Hit_accession>B0KR91</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>3.74529e-16</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>81</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>SWLPPLEERTESRHFNTSKPVLLDNILQIRHTP--HNNGLSDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYF-KVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLAD</Hsp_qseq>
+      <Hsp_hseq>NWRPWVEEALTAR--ESESYAALRAMPKLSRMPCLANN---QVKLLINGQATFDAIFAAIEKARDVVLVQFFIIHDDTLGKALQQLLLRKAAEGVQVFVLYDRVGSHALPASYSQVLRDGGVQI---HAFATRR----GWFNRF-QVNFRNHRKIVVVDGLVGFIGGHNVGDEYLGKHPQLSPWRDTHVQISGPVLACLQESFAEDWYWATRQLPPLILPDAYPDNGV-------------------------LCQALASGPADPQETCSLF---------------------FLEAIHSATRRVWITSPYFIPDEAVFAALRLAVLRGVDVRVLIPS--RPDHRIVYAASSLFAFEAVRAGVRVFRYQPGF-----------------LHQKVVLVDDDVSAIGSANLDNRSFRLNFEITLLTVDRSFADQVEHMLND</Hsp_hseq>
+      <Hsp_midline>+W P +EE   +R   +     L  + ++   P   NN    + LL +    F A  A IE A   + +Q++I  +D  G+ L  L+   A  GV+V +L D   +  L      +     +++   + F  R+    G+   F ++N R H K    D     +GG N+GDEY  K  + + + D  +  +G V+  +   F   W   +      I+       G+                         L Q + +G  D Q   +                         +A+    + V++ SPYF+P ++   AL   V  G+DV VL  S    D   V++    +    ++AG++++  QP                   LH K  +VD     IGS NLD RS RLN E+ ++      A+Q+E  L D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|123344732|sp|Q0TQG9.1|CLS_CLOP1</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Clostridium perfringens ATCC 13124]</Hit_def>
+  <Hit_accession>Q0TQG9</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>3.80586e-16</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>LEERTESRHFNTSKP-VLLDNI------LQIRHTPHNNGL----SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDD--NNTRGLD-DLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNI-GKGLQALGYNDETSRHA-LLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYV--KYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTL</Hsp_qseq>
+      <Hsp_hseq>LDDKTKQKYLNSFKSHYKLDNISLKYKDLIMMNFNNDNSTYTQRNDIDLYFDANSLFEEMIDEINKAEKFIHMEFYIFKSDEIGKKILQALTKKAKEGVEVKLLVDSIGNSIHKKDIDKLKAAGG----DFKIFFPGFCK------YIN--LRINYRNHRKILIIDSKVAFLGGFNIGDEY--LGKDK---------------NIGH-----W--RDTHTKIKGLAINDLEGRFLLDWSYANESDLDIDLKKYFINPHSTDLPKKI---------IGAQIVSSGP------DHTEQQIKNGYFKIINSAKKNLFIQTPYFVPDEPMLEALRLAALSGVDVKIML----PGNPDHKFMGWIANSYFESLLNAGAKIY----------LYEKGF-------LHAKTIVADSSICSVGTANMDIRSFSLNFESNIFIYNEAISKSMEEQF</Hsp_hseq>
+      <Hsp_midline>L+++T+ ++ N+ K    LDNI      L + +  ++N      +DI L  D +  F      I  AE  + +++YI+++D  G+ +   +   A+ GV V+LL+D   N+    D D L A       + ++F P   +      Y+    R+N R H K    D++   LGG NIGDEY  +G+D                 + H     W     H   + +   ++ G+ L    Y +E+     L +Y      + L +KI         +  +++S  P      D  +  I       +   +K++++ +PYFVP +   +AL      G+DV ++       +      G++   Y + LL AG K+Y            +KG        LHAKT + D     +G+ N+D RS  LN E  + I +  I++ ME   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|124007128|sp|P0C2E2.1|CLS_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>P0C2E2</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>3.94304e-16</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>LEERTESRHFNTSKP-VLLDNI------LQIRHTPHNNGL----SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDD--NNTRGLD-DLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNI-GKGLQALGYNDETSRHA-LLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYV--KYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTL</Hsp_qseq>
+      <Hsp_hseq>LDDKTKQKYLNSFKSHYKLDNISLKYKDLIMMNFNNDNSTYTQRNDIDLYFDANSLFEEMIDEINKAEKFIHMEFYIFKSDEIGKKILQALTKKAKEGVEVKLLVDSIGNSIHKKDIDKLKAAGG----DFKIFFPGFCK------YIN--LRINYRNHRKILIIDSKVAFLGGFNIGDEY--LGKDK---------------NIGH-----W--RDTHTKIKGLAINDLEGRFLLDWSYANESDLDIDLKKYFINPHSTDLPKKI---------IGAQIVSSGP------DHTEQQIKNGYFKIINSAKKNLFIQTPYFVPDEPMLEALRLAALSGVDVKIML----PGNPDHKFMGWIANSYFESLLNAGAKIY----------LYEKGF-------LHAKTIVADSSICSVGTANMDIRSFSLNFESNIFIYNEAISKSMEEQF</Hsp_hseq>
+      <Hsp_midline>L+++T+ ++ N+ K    LDNI      L + +  ++N      +DI L  D +  F      I  AE  + +++YI+++D  G+ +   +   A+ GV V+LL+D   N+    D D L A       + ++F P   +      Y+    R+N R H K    D++   LGG NIGDEY  +G+D                 + H     W     H   + +   ++ G+ L    Y +E+     L +Y      + L +KI         +  +++S  P      D  +  I       +   +K++++ +PYFVP +   +AL      G+DV ++       +      G++   Y + LL AG K+Y            +KG        LHAKT + D     +G+ N+D RS  LN E  + I +  I++ ME   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|38604752|sp|Q81TR2.1|CLS2_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 2; Short=CL synthase 2 [Bacillus anthracis]</Hit_def>
+  <Hit_accession>Q81TR2</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>4.25783e-16</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>LDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFP----RLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRID---WQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTY</Hsp_qseq>
+      <Hsp_hseq>LTNGDETFQAILDGLKRAKHHIHMEYYIVRDDKLGTEIKDILIQKSKEGVVVRFLYDAVGSFKLSKSYIEELNDAGVEMIPFFP------------VRFPILNDKINYRNHRKIVIIDGNEGFVGGLNIGDEY--LGKDKYFG--------------------FWRD------THLYLRGEAVQSLQLIFLQD--------WFYMTGEAVLAPEYLQAKAVEGEHWGGVQ--LVAGGP------DNKWETIKHLYFAMIASARKSIWIATPYFIPDDDILSALKVAALAGIDVRLLMPS--KPDKRTVFYASRSYFPELLDAGVKIYEYE----------KGF-------LHSKVVIVDSDLASIGTANMDMRSFHLNFEVNAFLYDTDSIRKLVQDFKDDLEE-SSEIHVDRFHKRRLHRRIVESTY</Hsp_hseq>
+      <Hsp_midline>L +  E F A    ++ A+H + ++YYI R+D  G  + +++   ++ GV VR L D   +  L    +   +   +E+  F P              FP    ++N R H K    D     +GG NIGDEY  +G+D  F                     +W        T +   G   + LQ +   D         +  T E     + +Q   ++   W  VQ  L++  P      D +   I       +    KS+++ +PYF+P      AL      GIDV +L  S    D   V      Y   LL AG+K+YE +          KG        LH+K  IVD     IG+ N+D RS  LN E+   +       ++ +   D   E +  + +D+ ++ + H      TY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|73917804|sp|Q5HPM5.1|CLS1_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 1; Short=CL synthase 1 [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q5HPM5</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>4.96949e-16</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>517</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>103</Hsp_gaps>
+      <Hsp_align-len>450</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTD--FP--------RLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTYPNEPEAKLWKRIAAKILS</Hsp_qseq>
+      <Hsp_hseq>LFTDGHKLYEKVLEDIYNAQDYIHLEYYTFELDGLGKRILDALETKLKEGLEVKLLYDDVGSK---------------KVRLSK---FKHFRALGGEVEAFFPSKVPLINFRMNNRNHRKIIIIDGQIGYIGGFNVGDDYLGLGKLGYWRDTHTRVQGEVIDALQLRFILDWNSQSH-------------------------------RPQFKFDQKYFPKKIG----DKGNAAIQIASSGPAFDLHQ------IEYGYTKMIMSAKKSIYLQSPYFIPDQSYINALKMAANSGVEVNLMIPC--KPDHPFVYWATFSNAADLLDSGVNIYTYQNGF-----------------IHSKILMIDDEISSIGSANMDFRSFELNFEVNAFIYDEDIAKQLRQ---------AFEKDIEQSKLL------TKKVYDKRPLSIKFKEGLAKLIS</Hsp_hseq>
+      <Hsp_midline>L  D H+ +      I +A+  + L+YY +  D  G+ + + +    + G+ V+LL DD  ++               +VRL      + +RALG   +  FP        R+N R H K    D +   +GG N+GD+Y  +G+   + D      G V+  +   F   W S S                                R +   +Q    +KI     D  +   ++ S  PA  L +      I       +   +KS+YL SPYF+P +S  +AL      G++V ++       D   V+         LL +G+ +Y  Q                    +H+K  ++D +   IGS N+D RS  LN E+   I    IA+Q+ +         A+   +++   L      T+K Y   P +  +K   AK++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|38257350|sp|Q9HTH0.1|CLSA_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas aeruginosa PAO1] &gt;gi|122256438|sp|Q02DW8.1|CLSA_PSEAB RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas aeruginosa UCBPP-PA14] &gt;gi|226706603|sp|B7V5T6.1|CLSA_PSEA8 RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>Q9HTH0</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.00634e-15</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>89</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>WLPPLEERTESRHFNTSKPVLLDNILQIRHTP--HNNGLSDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDF--DRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTL</Hsp_qseq>
+      <Hsp_hseq>WRPWVEEALAARQVSGYKG--LKALVRMTRTPTLANN---RVRLLVNGEASFEAMFKAISAARQVILVQFFIVRDDALGQRLQQLLLERAANGVEVFFLYDAIGSHALPHRYVERLRQGGVQMHGFST-------GSGMLNRF-QVNFRNHRKVVVVDGECGFVGGHNVGVEY--LGEKPPLAPWRDTHMELRGPAVACLQESFAEDWYWATHSL---------------------------------------PPL---ILPPQYDSEGALCQVVASGPADA------QETCSLFFVEMINAAHERVWITSPYFVPDEAVMAALRLAVLRGVDVRLLIPS--RPDHRTVYAASSLYALEAIRAGVKVFRYQPGF-----------------LHQKVVLVDRDTAAVGSANLDNRSFRLNFEVMVVTVDEGFAGEVEAML</Hsp_hseq>
+      <Hsp_midline>W P +EE   +R  +  K   L  ++++  TP   NN    + LL +   +F A    I +A   + +Q++I R+D  G+ L  L+   A  GV V  L D   +  L    +       +++  F+          G L  F ++N R H K    D     +GG N+G EY  +GE    A   D  +   G  V  +   F  D YWA+HS                                         PL   I   + D +    ++++  PA        +   +    + +    + V++ SPYFVP ++   AL   V  G+DV +L  S    D   V++    Y    ++AG+K++  QP                   LH K  +VD     +GS NLD RS RLN E+ VV      A ++E  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|123341778|sp|Q0ST20.1|CLS_CLOPS</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CL synthase [Clostridium perfringens SM101]</Hit_def>
+  <Hit_accession>Q0ST20</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>2.31011e-15</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>LEERTESRHFNTSKP-VLLDNI------LQIRHTPHNNGL----SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDD--NNTRGLD-DLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFA---DLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHA-LLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTL</Hsp_qseq>
+      <Hsp_hseq>LDDKTKQKYLNSFKSHYKLDNISLKYKDLIMMNFNNDNSTYTQRNDIDLYFDANSLFQEMIYEINKAEKFIHMEFYIFKSDEIGKKILQALTKKAKEGVEVKLLVDSIGNSIHKKDIDKLKAAGG----DFKIFFPGFCK------YIN--LRINYRNHRKILIIDSKVAFLGGFNIGDEY--LGKDKNIGNWRDTHTKIKGLAINDLEARFLLDWS------------------------YANESDLDIDLKKYFINPHSTNLPNNI---------IGAQIVSSGP------DHTEQQIKNGYFKIINSAKKNLFIQTPYFVPDEPMLEALRLAALSGVDVKIMLPG--NPDHKFMEWIANSYFESLLNAGVKIY----------LYEKGF-------LHAKTIVADSSICSVGTANMDIRSFSLNFESNIFIYNEAISKSMEEQF</Hsp_hseq>
+      <Hsp_midline>L+++T+ ++ N+ K    LDNI      L + +  ++N      +DI L  D +  F      I  AE  + +++YI+++D  G+ +   +   A+ GV V+LL+D   N+    D D L A       + ++F P   +      Y+    R+N R H K    D++   LGG NIGDEY  +G+D       D      G  + ++   F   W+                        Y +E+     L +Y      + L   I         +  +++S  P      D  +  I       +   +K++++ +PYFVP +   +AL      G+DV ++       D   +      Y + LL AG+K+Y            +KG        LHAKT + D     +G+ N+D RS  LN E  + I +  I++ ME   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|226706636|sp|A5WB80.1|CLSA_PSEP1</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas putida F1]</Hit_def>
+  <Hit_accession>A5WB80</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>3.31857e-15</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGED---TVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVT</Hsp_qseq>
+      <Hsp_hseq>NQVKLLINGKATFDAIFAAIEKARDVVLVQFFIIHDDTLGKALQQLLLRKAAEGVQVFVLYDRVGSHALPASYSQMLRDGGVQI---HAFATRR----GWFNRF-QVNFRNHRKIVVVDGLLGFIGGHNVGDEY--LGEHPQLSPWRDTHVQISGPVLACLQESFAEDW-----YWATR---------QLPPLILPDTYP-----------DNGVLCQALASGPADPQETCSLF---------------------FLEAIHSATRRVWITSPYFIPDEAVFAALRLAVLRGVDVRVLIPS--RPDHRIVYAASSLFAFEAVRAGVRMFRYQPGF-----------------LHQKVVLVDDDVSAIGSANLDNRSFRLNFEITLLTVDRGFADQVEHMLHEDF-EHAREIT</Hsp_hseq>
+      <Hsp_midline>+ + LL +    F A  A IE A   + +Q++I  +D  G+ L  L+   A  GV+V +L D   +  L      +     +++   + F  R+    G+   F ++N R H K    D     +GG N+GDEY  +GE    + + D  +  +G V+  +   F   W     + ATR          L  L   D              +   L Q + +G  D Q   +                         +A+    + V++ SPYF+P ++   AL   V  G+DV VL  S    D   V++    +    ++AG++++  QP                   LH K  +VD     IGS NLD RS RLN E+ ++      A+Q+E  L +   E+A  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|38604747|sp|Q81GK4.1|CLS2_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 2; Short=CL synthase 2 [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q81GK4</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>6.44361e-15</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>LDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFP----RLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYND--ETSRHALLRYRETVEQSPLYQKIQTGRID-WQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTY</Hsp_qseq>
+      <Hsp_hseq>LTNGDETFRAILNGLKRAKHHIHMEYYIVRDDKLGTEIKDILIQKSKEGVVVRFLYDAVGSFKLSKSYIEELNDAGVEMIPFFP------------VRFPILNDKINYRNHRKIVVIDGNEGFVGGLNIGDEY--LGKNKYFG--------------------FWRD------THLYLRGEAVQSLQLIFLQDWFYMTGEAVL--------APEYLQAKAVEGDHWGGVQ--LVAGGP------DNKWETIKHLYFAMIASARKSIWIATPYFIPDDDILSALKVAALAGIDVRLLMPS--KPDKRTVFYASRSYFPELLDAGVKIYEYE----------KGF-------LHSKIVIVDSDLASIGTANMDMRSFHLNFEVNAFLYDTDSIRKLVQDFKDDLEE-SSEIHGDHFHKRRLHRRIVESTY</Hsp_hseq>
+      <Hsp_midline>L +  E F A    ++ A+H + ++YYI R+D  G  + +++   ++ GV VR L D   +  L    +   +   +E+  F P              FP    ++N R H K    D     +GG NIGDEY  +G++  F                     +W        T +   G   + LQ +   D    +  A+L        +P Y + +    D W  VQ  L++  P      D +   I       +    KS+++ +PYF+P      AL      GIDV +L  S    D   V      Y   LL AG+K+YE +          KG        LH+K  IVD     IG+ N+D RS  LN E+   +       ++ +   D   E +  +  D  ++ + H      TY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|401648|sp|P31048.1|CLSA_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P31048</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>8.13148e-15</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTV--FADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTL</Hsp_qseq>
+      <Hsp_hseq>NQVKLLVNGKATFDAIFAAIEKARDVVLVQFFIIHDDTLGKALQQLLLRKAAEGVQVFVLYDRVGSHALPASYSQQLRNGGVQI---HAFATRR----GWFNRF-QVNFRNHRKIVVVDGLLGFIGGHNVGDEYLG-GHPQLSPWRDTHVQISGPVLACLQESFAEDW-----YWATR---------QLPPLILPDAYP-----------DNGVLCQALASGPADPQETCSLF---------------------FLEAIHSATRRVWITSPYFIPDEAVFAALRLAVLRGVDVRVLIPS--RPDHRIVYAASSLFAFEAVRAGVRMFRYQPGF-----------------LHQKVVLVDDEVSAIGSANLDNRSFRLNFEITLLTVDRNFADQVEHML</Hsp_hseq>
+      <Hsp_midline>+ + LL +    F A  A IE A   + +Q++I  +D  G+ L  L+   A  GV+V +L D   +  L         +  +++   + F  R+    G+   F ++N R H K    D     +GG N+GDEY   G   +  + D  +  +G V+  +   F   W     + ATR          L  L   D              +   L Q + +G  D Q   +                         +A+    + V++ SPYF+P ++   AL   V  G+DV VL  S    D   V++    +    ++AG++++  QP                   LH K  +VD +   IGS NLD RS RLN E+ ++      A+Q+E  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|38604822|sp|Q8CPD8.1|CLS1_STAES</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 1; Short=CL synthase 1 [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CPD8</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.79214e-14</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>517</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>103</Hsp_gaps>
+      <Hsp_align-len>452</Hsp_align-len>
+      <Hsp_qseq>IYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTD--FP--------RLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTYPNEPEAKLWKRIAAKILS</Hsp_qseq>
+      <Hsp_hseq>IDLFTDGHKLYEKVLEDIYNAQDYIHLEYYTFELDGLGKRILDALETKLKEGLEVKLLYDDVGSK---------------KVRLSK---FKHFRALGGEVEAFFPSKVPLINFRMNNRNHRKIIIIDGQIGYVGGFNVGDDYLGLGKLGYWRDTHTRVQGEGIDALQLRFILDWNSQSH-------------------------------RPQFKFDQKYFPKKIG----DKGNAAIQIASSGPAFDLHQ------IEYGYTKMIMSAKKSIYLQSPYFIPDQSYINALKMAANSGVEVNLMIPC--KPDHPFVYWATFSNAADLLDSGVNIYTYQNGF-----------------IHSKILMIDDEISSIGSANMDFRSFELNFEVNAFIYDEDIAKQLRQ---------AFEKDIEQSKLL------TKEVYDKRPLSIKFKEGLAKLIS</Hsp_hseq>
+      <Hsp_midline>I L  D H+ +      I +A+  + L+YY +  D  G+ + + +    + G+ V+LL DD  ++               +VRL      + +RALG   +  FP        R+N R H K    D +   +GG N+GD+Y  +G+   + D      G  +  +   F   W S S                                R +   +Q    +KI     D  +   ++ S  PA  L +      I       +   +KS+YL SPYF+P +S  +AL      G++V ++       D   V+         LL +G+ +Y  Q                    +H+K  ++D +   IGS N+D RS  LN E+   I    IA+Q+ +         A+   +++   L      T++ Y   P +  +K   AK++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|81694582|sp|Q5HGA3.1|CLS1_STAAC</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 1; Short=CL synthase 1 [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>Q5HGA3</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.88713e-14</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>517</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>103</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>IESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALG------YLTDFPRLNRRM----HNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTYPNEPEAKLWKRIAAKILS</Hsp_qseq>
+      <Hsp_hseq>IKNAKEYIHLEYYTFALDGLGKRILHALEEKLKQGLEVKILYDDVGSK-------------NVKMANFDHF-----KSLGGEVEAFFASKLPLLNFRMNNRNHRKIIVIDGQLGYVGGFNIGDEYLGLGKLGYWRDTHLRIQGDAVDALQLRFILDWNSQA---------------------------------HRPQFEYDVKYFPKKNGPLGNSPIQ--IAASGPASDWHQ------IEYGYTKMIMSAKKSVYLQSPYFIPDNSYINAIKIAAKSGVDVHLMIPC--KPDHPLVYWATFSNASDLLSSGVKIY----------TYENGF-------IHSKMCLIDDEIVSVGTANMDFRSFELNFEVNAFVYDENLAK-------DLRVAYEHDITKSKQ--------LTKESYANRPLSVKFKESLAKLVS</Hsp_hseq>
+      <Hsp_midline>I++A+  + L+YY +  D  G+ + + +    ++G+ V++L DD  ++             N+++  F+ F     ++LG      + +  P LN RM    H K    D +   +GG NIGDEY  +G+   + D  +   G  V  +   F   W S +                                 +R   E    Y   + G +    +Q  + +  PA    +      I       +   +KSVYL SPYF+P  S  +A+    + G+DV ++       D   V+         LL +G+K+Y          T + G        +H+K  ++D + + +G+ N+D RS  LN E+   +    +A+       D    Y + +T  K          T+++Y N P +  +K   AK++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|73917803|sp|Q6GH88.1|CLS1_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 1; Short=CL synthase 1 [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GH88</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>3.9857e-14</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>517</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>103</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>IESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALG------YLTDFPRLNRRM----HNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTYPNEPEAKLWKRIAAKILS</Hsp_qseq>
+      <Hsp_hseq>IKNAKEYIHLEYYTFALDGLGKRILHALEEKLKQGLEVKILYDDVGSK-------------NVKMANFDHF-----KSLGGEVEAFFASKLPLLNFRMNNRNHRKIIIIDGQLGYVGGFNIGDEYLGLGKLGYWRDTHLRIQGDAVDALQLRFILDWNSQA---------------------------------HRPQFEYDVKYFPKKNGPLGNSPIQ--IAASGPASDWHQ------IEYGYTKMIMSAKKSVYLQSPYFIPDNSYINAIKIAAKSGVDVHLMIPC--KPDHPLVYWATFSNASDLLSSGVKIY----------TYENGF-------IHSKMCLIDDEIVSVGTANMDFRSFELNFEVNAFVYDENLAK-------DLRVAYEHDITKSKQ--------LTEESYANRPLSVKFKESLAKLVS</Hsp_hseq>
+      <Hsp_midline>I++A+  + L+YY +  D  G+ + + +    ++G+ V++L DD  ++             N+++  F+ F     ++LG      + +  P LN RM    H K    D +   +GG NIGDEY  +G+   + D  +   G  V  +   F   W S +                                 +R   E    Y   + G +    +Q  + +  PA    +      I       +   +KSVYL SPYF+P  S  +A+    + G+DV ++       D   V+         LL +G+K+Y          T + G        +H+K  ++D + + +G+ N+D RS  LN E+   +    +A+       D    Y + +T  K          T ++Y N P +  +K   AK++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|238693186|sp|B4EWI7.1|CLSA_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4EWI7</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>2.53132e-12</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>487</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>96</Hsp_gaps>
+      <Hsp_align-len>471</Hsp_align-len>
+      <Hsp_qseq>SCSSWLPPLEERTESRH-FNTSKPVLLDNILQIRHTPHN-NGL--SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDL-------LLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGD-EYFK----VGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNR</Hsp_qseq>
+      <Hsp_hseq>SVVAWL---EELKKCKHIFAKHYSDVAEPIFQLTAKRQGINGVKGNKIQLLTTCEDSLNAITRDINNARDNIEMVFYIWQSGGLVEEVTEALIQAAKRGVKCRIMVDSAGSRSFFRTNGPARMRAAGIEFVESLQVNLFR-FFLR------------RMDLRQHRKIVLIDNYISYTGSMNMVDPRYFKQDAGVGQ---WIDIMVRMEGPVSTTLGIIYAFDWEMETGERHLPPPPDNNIMPFEQANGHT-----------------------------------TQVIASGP--GFPEEL----IQQSLITAIYSARKELVMTTPYFVPSDDLAHAISTAAMRGVDVSIIVP--RSNDSFLVRWASRAFFTEILEAGVKVFQFE----------DGL-------LHTKSVMVDGQLSMVGSVNLDMRSLWLNFEITVVIDDECFASDLSIVQYDYIAR-STQLTLDEWEK</Hsp_hseq>
+      <Hsp_midline>S  +WL   EE  + +H F      + + I Q+       NG+  + I LL    ++  A    I +A  ++++ +YIW++      +   +  AA+RGV+ R+++D   +R               ++   +++V LF  F LR            R++ R H K    DN  +  G  N+ D  YFK    VG+   + D+ +   G V   +   +   W   +           NI    QA G+                                    T++I+  P  G   +     I   L  A+    K + + +PYFVP+     A++     G+DV+++    ++ D   V      +   +L+AG+K+++ +           GL       LH K+ +VDG+   +GS NLD RS  LN E+ VVI+    A  +     D     + ++TLD+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|32130360|sp|Q8ZQP4.1|CLSB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase B; Short=CL synthase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZQP4</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.48831e-11</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFD-----------RYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVI</Hsp_qseq>
+      <Hsp_hseq>NQIQLLENGDQFYPAVFEAIAQAQQKIILETFILFEDEVGKKLHTALLKAAQRGVKAEVLLDGYGSPDLSDAFVGELTSAGVIFRYYDP----RPRLLGLRTN---IFRRMHRKIVVIDDRIAFVGGINYSAEHMSDYGPQAKQDYAVRVEGPVVADILQ-FEVENLPGQSPARRWWKRH--HQAEENRHPGEA----QALFVWRDNEEH-----RDDIERH--YLKMLT---------------------------------------QAKREVIIANAYFFPGYRLLHAMRKAARRGVSVKLIVQG--EPDMPIVKVGARLLYNYLVKGGVQVYEYRRR-----------------PLHGKVALMDDHWATVGSSNLDPLSLSLNLEANLII</Hsp_hseq>
+      <Hsp_midline>+ I LL++  + + A    I  A+  + L+ +I   D  G+ L   +  AA+RGV+  +LLD   +  L D  +   +   +  R ++P    + R LG  T+   + RRMH K    D+R   +GG N   E+          D  +   G VV ++   F+           R+W  H  H A      G      QAL    +   H     R+ +E+   Y K+ T                                       Q ++ V + + YF P      A+ K  + G+ V ++       D+  V  G       L+K G+++YE +                    LH K  ++D     +GS NLDP S  LN E  ++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|32130358|sp|Q8Z883.1|CLSB_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase B; Short=CL synthase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z883</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.92343e-11</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFD-----------RYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVI</Hsp_qseq>
+      <Hsp_hseq>NQIQLLENGDQFYPAVFEAIAQAQQKIILETFILFEDEVGKKLHAALLKAAQRGVKAEVLLDGYGSPDLSDAFVGELTSAGVIFRYYDP----RPRLLGLRTN---IFRRMHRKIVVIDDRIAFVGGINYSAEHMSDYGPQAKQDYAVRVEGPVVADILQ-FEVENLPGQSPARRWWKRH--HQAEENRHPGEA----QALFVWRDNEEH-----RDDIERH--YLKMLT---------------------------------------QAKREVIIANAYFFPGYRLLHAMRKAARRGVSVKLIVQG--EPDMPIVKVGARLLYNYLVKGGVQVYEYRRR-----------------PLHGKVALMDDHWATVGSSNLDPLSLSLNLEANLII</Hsp_hseq>
+      <Hsp_midline>+ I LL++  + + A    I  A+  + L+ +I   D  G+ L   +  AA+RGV+  +LLD   +  L D  +   +   +  R ++P    + R LG  T+   + RRMH K    D+R   +GG N   E+          D  +   G VV ++   F+           R+W  H  H A      G      QAL    +   H     R+ +E+   Y K+ T                                       Q ++ V + + YF P      A+ K  + G+ V ++       D+  V  G       L+K G+++YE +                    LH K  ++D     +GS NLDP S  LN E  ++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|38604679|sp|Q8ZEI2.1|CLSA_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Yersinia pestis] &gt;gi|123245811|sp|Q1C7R0.1|CLSA_YERPA RecName: Full=Cardiolipin synthase A; Short=CL synthase [Yersinia pestis Antiqua] &gt;gi|123246513|sp|Q1CJ46.1|CLSA_YERPN RecName: Full=Cardiolipin synthase A; Short=CL synthase [Yersinia pestis Nepal516] &gt;gi|167009030|sp|A7FI50.1|CLSA_YERP3 RecName: Full=Cardiolipin synthase A; Short=CL synthase [Yersinia pseudotuberculosis IP 31758] &gt;gi|167009031|sp|A4TJ85.1|CLSA_YERPP RecName: Full=Cardiolipin synthase A; Short=CL synthase [Yersinia pestis Pestoides F] &gt;gi|238687336|sp|A9R8K8.1|CLSA_YERPG RecName: Full=Cardiolipin synthase A; Short=CL synthase [Yersinia pestis Angola]</Hit_def>
+  <Hit_accession>Q8ZEI2</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>6.95189e-11</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>503</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>SCSSWLPPLEERTESRH-FNTSKPVLLDNILQIRHTPHN-NGL--SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWR-NDISGRLLFNLMYLAAERGVRVRLLLDDNNTRG-LDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILA--TGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTYPNEP</Hsp_qseq>
+      <Hsp_hseq>STARWLSELKE---CQHIFANSNSEVASPLFQLCERRQGINGVKGNQLQLLTTTDDTLKALVRDIELARHNIEMVFYIWQPGGLVDQVAESLM-AAARRGVHCRLLLDSAGSKQFFRSPYPAMMRNAGIE-------VVEALKVNVFRMFLRRMDLRQHRKIVLIDNYVAYTGSMNMVDPRFFKQDAGVGQWIDMMARMEGPVATTLGIVYACDWEIETGKRILPPPPDANI------MPFEEETG-HTI----QVIASGPGF---------------------PEEMIHQALLTAVYAAREQLIMTTP---------YFVPSDDLLHAICTAAQRGVDVSIIVP--RENDSMMVRWASRAFFTELLNAGVKIYQFE----------GGL-------LHSKSVLVDGQLSLVGTVNLDMRSLWLNFEITLVIDDDGFGADLAQVQDDYIARSALLDGERWNKRPLWHRVTERLFYFFSP</Hsp_hseq>
+      <Hsp_midline>S + WL  L+E    +H F  S   +   + Q+       NG+  + + LL    +   A    IE A H++++ +YIW+   +  ++  +LM  AA RGV  RLLLD   ++        A+  +  IE       V+   +   +     R++ R H K    DN     G  N+ D  F   +  V   +D++A   G V   +   +   W   +           NI      + + +ET  H +    + +   P +                     P + + +       A R Q  +  P         YFVP+     A+    Q G+DV+++    +  D   V      +   LL AG+K+Y+ +           GL       LH+K+ +VDG+   +G+ NLD RS  LN E+ +VI+       + +   D     A       + R  WH    R  Y   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81639384|sp|Q66AL9.1|CLSA_YERPS</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Yersinia pseudotuberculosis IP 32953] &gt;gi|238691379|sp|B2K3U5.1|CLSA_YERPB RecName: Full=Cardiolipin synthase A; Short=CL synthase [Yersinia pseudotuberculosis PB1/+]</Hit_def>
+  <Hit_accession>Q66AL9</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>8.21422e-11</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>503</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>SCSSWLPPLEERTESRH-FNTSKPVLLDNILQIRHTPHN-NGL--SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWR-NDISGRLLFNLMYLAAERGVRVRLLLDDNNTRG-LDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILA--TGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTYPNEP</Hsp_qseq>
+      <Hsp_hseq>STARWLSELKE---CQHIFANSNSEVATPLFQLCERRQGINGVKGNQLQLLTTTDDTLKALVRDIELARHNIEMVFYIWQPGGLVDQVAESLM-AAARRGVHCRLLLDSAGSKQFFRSPYPAMMRNAGIE-------VVEALKVNVFRMFLRRMDLRQHRKIVLIDNYVAYTGSMNMVDPRFFKQDAGVGQWIDMMARMEGPVATTLGIVYACDWEIETGKRILPPPPDANI------MPFEEETG-HTI----QVIASGPGF---------------------PEEMIHQALLTAVYAAREQLIMTTP---------YFVPSDDLLHAICTAAQRGVDVSIIVP--RENDSMMVRWASRAFFTELLNAGVKIYQFE----------GGL-------LHSKSVLVDGQLSLVGTVNLDMRSLWLNFEITLVIDDDGFGADLAQVQDDYIARSALLDGERWNKRPLWHRVTERLFYFFSP</Hsp_hseq>
+      <Hsp_midline>S + WL  L+E    +H F  S   +   + Q+       NG+  + + LL    +   A    IE A H++++ +YIW+   +  ++  +LM  AA RGV  RLLLD   ++        A+  +  IE       V+   +   +     R++ R H K    DN     G  N+ D  F   +  V   +D++A   G V   +   +   W   +           NI      + + +ET  H +    + +   P +                     P + + +       A R Q  +  P         YFVP+     A+    Q G+DV+++    +  D   V      +   LL AG+K+Y+ +           GL       LH+K+ +VDG+   +G+ NLD RS  LN E+ +VI+       + +   D     A       + R  WH    R  Y   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|238688443|sp|B1JKT9.1|CLSA_YERPY</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>B1JKT9</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.17738e-10</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>503</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>SCSSWLPPLEERTESRH-FNTSKPVLLDNILQIRHTPHN-NGL--SDIYLLDDPHEAFAARAALIESAEHSLDLQYYIWR-NDISGRLLFNLMYLAAERGVRVRLLLDDNNTRG-LDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILA--TGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYRVTLDKHNRLQWHDPATRKTYPNEP</Hsp_qseq>
+      <Hsp_hseq>STARWLSELKE---CQHIFANSNSEVASPLFQLCERRQGINGVKGNQLQLLTTTDDTLKALVRDIELARHNIEMVFYIWQPGGLVDQVAESLM-AAARRGVHCRLLLDSAGSKQFFRSPYPAMMRNAGIE-------VVEALKVNVFRMFLRRMDLRQHRKIVLIDNYVAYTGSMNMVDPRFFKQDAGVGQWIDMMARMEGPVATTLGIVYACDWEIETGKRILPPPPDANI------MPFEEETG-HTI----QVIASGPGF---------------------PEEMIHQALLTAVYAAREQLIMTTP---------YFVPSDDLLHAICTAAQRGVDVSIIVP--RENDSMMVRWASRAFFTELLNAGVKIYQFE----------GGL-------LHSKSVLVDGQLSLVGTVNLDMRSLWLNFEITLVIDDDGFGADLAQVQDDYIARSALLDGELWNKRPLWHRVTERLFYFFSP</Hsp_hseq>
+      <Hsp_midline>S + WL  L+E    +H F  S   +   + Q+       NG+  + + LL    +   A    IE A H++++ +YIW+   +  ++  +LM  AA RGV  RLLLD   ++        A+  +  IE       V+   +   +     R++ R H K    DN     G  N+ D  F   +  V   +D++A   G V   +   +   W   +           NI      + + +ET  H +    + +   P +                     P + + +       A R Q  +  P         YFVP+     A+    Q G+DV+++    +  D   V      +   LL AG+K+Y+ +           GL       LH+K+ +VDG+   +G+ NLD RS  LN E+ +VI+       + +   D     A       + R  WH    R  Y   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|31340000|sp|Q8D2I8.1|CLSA_WIGBR</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Wigglesworthia glossinidia endosymbiont of Glossina brevipalpis]</Hit_def>
+  <Hit_accession>Q8D2I8</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.99598e-10</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>84</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>RHTPHNNGLS-----DIYLLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALG--YLTDFPR-LNRRMHNKSFTADNRATILGGRNIGDEYF-----KVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMER</Hsp_qseq>
+      <Hsp_hseq>RLCKHRQGIGGVKSEKINILNDPDNVMQSVINDINLAKISIEMIFYIWHPGGWTNYVVEVLIKAANRGVKCRLILDSAGSKNF---------LKSIQVKIMRKSGIKIVEALNLNILQIFLRRMDLRQHRKMILIDNYIGYTGSMNMIDPKFFKKNRKIGE---WIDIMIRMEGPVA-----------------SAMRIIFSCD---------WEIETGENIFYAPYDT-------KKCNIIKKD-NNYKTQVIPSGPGVS------EGVIHQVLLTAIYSAKKILIMTTPYLVPSDDILHAICTASQRGVSVYIIIPKF--IDSILVKWASRSFFSELLHAGVLIYQFEG----------GL-------LHTKSILVDDQLSLVGTVNLDMRSLWLNFEITLMVDNRNFGKKLKK</Hsp_hseq>
+      <Hsp_midline>R   H  G+       I +L+DP     +    I  A+ S+++ +YIW        +  ++  AA RGV+ RL+LD   ++             +I+V++     ++   AL    L  F R ++ R H K    DN     G  N+ D  F     K+GE   + D+ I   G V                  +A RII S +         +  ET  +      +T       +K    + D  + +T++I   P         +  I   L  A+   +K + + +PY VP+     A+    Q G+ V ++       D   V      +   LL AG+ +Y+ +           GL       LH K+ +VD +   +G+ NLD RS  LN E+ +++++    +++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1176955|sp|P45865.1|CLSB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Minor cardiolipin synthase ClsB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P45865</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.83474e-10</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>IESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLAD</Hsp_qseq>
+      <Hsp_hseq>IRQAASSVHMMFFIMKNDEVSHNMYTLLKTKAQAGVSVYLLLDWAGCRAIKKTALQTMKNAGVHVHVMNRPRFP--------FFFFHMQKRNHRKITVIDGKIGYIGGFNIAEEY--LGKKAKFGNWEDYHL-RMIGEGVHDLQTLFASDLKRNT-----------GIE-LG-------------------SDVWPKLQQGTISHKIYATDGYS---------------LENIYLANIAQAKNRLTVCTPYYIPSKPLQEALINARKNGVSVRIIVP--MKSDHPLVREAAFTYYSELLDAGCLIYRYYQGF-----------------YHVKALIIDDHLSIIGTANFDKRSLFLNEEVNVEIDDEAFTSEVYATIEE</Hsp_hseq>
+      <Hsp_midline>I  A  S+ + ++I +ND     ++ L+   A+ GV V LLLD    R +    L    +  + V + N               F  + +R H K    D +   +GG NI +EY  +G+   F + +      ++GE  HD    +AS    N            G++ LG                   S ++ K+Q G I  +   T   S               +       + Q +  + + +PY++P+K   +AL    ++G+ V ++      +D   V      Y   LL AG  +Y                        H K  I+D     IG+ N D RS  LN E+ V I+      ++  T+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|189044160|sp|A9MPD5.1|CLSA_SALAR</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MPD5</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>9.4211e-10</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGL-DDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIE</Hsp_qseq>
+      <Hsp_hseq>LLTDSDDVMQALIRDIQLARHNIEMVFYIWQPGGMADQVAESLMAAARRGIHCRLMLDSAGSVAFFRSPWAAMMRNAGIEV--VEALKVNLMRVF-----LRRMDLRQHRKMVMIDNYIAYTGSMNMVDPRFFKQDAGVGQWVDLMA--RMEGPVA-------------TAMGIVYSCD---------WEIETGKRIL-------PPSPDVNIMPFEQASGHTIHT--IASGP--GFPEDL----IHQALLTATYAAREYLIMTTPYFVPSDDLLHAICTAAQRGVDVSIILP--RKNDSLLVGWASRAFFSELLAAGVKIYQFE----------GGL-------LHTKSVLVDGELSLVGTVNLDMRSLWLNFEITLVID</Hsp_hseq>
+      <Hsp_midline>LL D  +   A    I+ A H++++ +YIW+       +   +  AA RG+  RL+LD   +         A+  +  IEV       +   R         R++ R H K    DN     G  N+ D  F   +  V   +D++A   + G V+              A  I+ S +         +  ET +  L         SP    +   +    ++ T  I+  P  G   D     I   L  A     + + + +PYFVP+     A+    Q G+DV+++    +  D   V      +   LL AG+K+Y+ +           GL       LH K+ +VDG+   +G+ NLD RS  LN E+ +VI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|167009022|sp|A8AG50.1|CLSA_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8AG50</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.28052e-09</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGL-DDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILA--TGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIE</Hsp_qseq>
+      <Hsp_hseq>LLTDSDDVMQALIRDIQLARHNIEMVFYIWQPGGMADQVAESLMAAARRGIHCRLMLDSAGSVAFFRSPWAAMMRNAGIEV--VEALKVNLMRVF-----LRRMDLRQHRKMVMIDNYIAYTGSMNMVDPRFFKQDAGVGQWVDLMARMEGPVATAMGIVYSCDWEIETGKRILPPPPDVNIMPFEQASGHTIHT-----------------------------------IASGP--GFPEDL----IHQALLTAAYSAREYLIMTTPYFVPSDDLLHAICTAAQRGVDVSIILP--RKNDSMLVGWASRAFFTELLAAGVKIYQFE----------GGL-------LHTKSVLVDGELSLVGTVNLDMRSLWLNFEITLVID</Hsp_hseq>
+      <Hsp_midline>LL D  +   A    I+ A H++++ +YIW+       +   +  AA RG+  RL+LD   +         A+  +  IEV       +   R         R++ R H K    DN     G  N+ D  F   +  V   +D++A   G V   +   +   W   +           NI    QA G+   T                                   I+  P  G   D     I   L  A     + + + +PYFVP+     A+    Q G+DV+++    +  D   V      +   LL AG+K+Y+ +           GL       LH K+ +VDG+   +G+ NLD RS  LN E+ +VI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|238690476|sp|B5R6L2.1|CLSA_SALG2</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91]</Hit_def>
+  <Hit_accession>B5R6L2</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.36157e-09</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGL-DDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILA--TGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIE</Hsp_qseq>
+      <Hsp_hseq>LLTDSDDVMQALIRDIQLARHNIEMVFYIWQPGGMADQVAESLMAAARRGIHCRLMLDSAGSVAFFRSPWAAMMRNAGIEV--VEALKVNLMRVF-----LRRMDLRQHRKMVMIDNYIAYTGSMNMVDPRFFKQDAGVGQWVDLMARMEGPVATAMGIVYSCDWEIETGKRILPPPPDVNIMPFEQASGHTIHT-----------------------------------IASGP--GFPEDL----IHQALLTATYAAREYLIMTTPYFVPSDDLLHAICTAAQRGVDVSIILP--RKNDSLLVGWASRAFFSELLAAGVKIYQFE----------GGL-------LHTKSVLVDGELSLVGTVNLDMRSLWLNFEITLVID</Hsp_hseq>
+      <Hsp_midline>LL D  +   A    I+ A H++++ +YIW+       +   +  AA RG+  RL+LD   +         A+  +  IEV       +   R         R++ R H K    DN     G  N+ D  F   +  V   +D++A   G V   +   +   W   +           NI    QA G+   T                                   I+  P  G   D     I   L  A     + + + +PYFVP+     A+    Q G+DV+++    +  D   V      +   LL AG+K+Y+ +           GL       LH K+ +VDG+   +G+ NLD RS  LN E+ +VI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|54036845|sp|P63799.1|CLSA_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|54040735|sp|P63798.1|CLSA_SALTY RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|75483048|sp|Q57NS0.1|CLSA_SALCH RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67] &gt;gi|189044161|sp|A9MWP9.1|CLSA_SALPB RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7] &gt;gi|238690046|sp|B5F4L0.1|CLSA_SALA4 RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|238690379|sp|B5FU52.1|CLSA_SALDC RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853] &gt;gi|238690454|sp|B5R3N1.1|CLSA_SALEP RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|238690668|sp|B4TJM2.1|CLSA_SALHS RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476] &gt;gi|238693509|sp|B4SUC9.1|CLSA_SALNS RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|238693715|sp|B4TX53.1|CLSA_SALSV RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633] &gt;gi|254763880|sp|C0Q393.1|CLSA_SALPC RecName: Full=Cardiolipin synthase A; Short=CL synthase [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>P63799</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.42259e-09</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>LLDDPHEAFAARAALIESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGL-DDLLLALDSHPNIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGDEYFKVGEDTVFADLDILA--TGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIE</Hsp_qseq>
+      <Hsp_hseq>LLTDSDDVMQALIRDIQLARHNIEMVFYIWQPGGMADQVAESLMAAARRGIHCRLMLDSAGSVAFFRSPWAAMMRNAGIEV--VEALKVNLMRVF-----LRRMDLRQHRKMVMIDNYIAYTGSMNMVDPRFFKQDAGVGQWVDLMARMEGPVATAMGIVYSCDWEIETGKRILPPPPDVNIMPFEQASGHTIHT-----------------------------------IASGP--GFPEDL----IHQALLTATYAAREYLIMTTPYFVPSDDLLHAICTAAQRGVDVSIILP--RKNDSLLVGWASRAFFSELLAAGVKIYQFE----------GGL-------LHTKSVLVDGELSLVGTVNLDMRSLWLNFEITLVID</Hsp_hseq>
+      <Hsp_midline>LL D  +   A    I+ A H++++ +YIW+       +   +  AA RG+  RL+LD   +         A+  +  IEV       +   R         R++ R H K    DN     G  N+ D  F   +  V   +D++A   G V   +   +   W   +           NI    QA G+   T                                   I+  P  G   D     I   L  A     + + + +PYFVP+     A+    Q G+DV+++    +  D   V      +   LL AG+K+Y+ +           GL       LH K+ +VDG+   +G+ NLD RS  LN E+ +VI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|167009027|sp|A7MNA4.1|CLSA_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase A; Short=CL synthase [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MNA4</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.48633e-09</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>IESAEHSLDLQYYIWRNDISGRLLFNLMYLAAERGVRVRLLLDDNNTRGLDDLLLALDSHP------NIEVRLFNPFVLRKWRALGYLTDFPRLNRRMHNKSFTADNRATILGGRNIGD-EYFK----VGEDTVFADLDILATGSVVGEVSHDFDRYWASHSAHNATRIIRSGNIGKGLQALGYNDETSRHALLRYRETVEQSPLYQKIQTGRIDWQSVQTRLISDSPAKGLDRDRRKPPIAGRLQDALKQPEKSVYLVSPYFVPTKSGTDALAKLVQDGIDVTVLTNSLQATDVAAVHSGYVKYRKPLLKAGIKLYELQPNHAVPATKDKGLTGSSVTSLHAKTFIVDGKRIFIGSFNLDPRSARLNTEMGVVIESPKIAEQMERTLADTTPEYAYR</Hsp_qseq>
+      <Hsp_hseq>IQLARHNIEMVFYIWQPGGMADQVAESLMAAARRGVHCRLMLDSAGS-------VAFFRSPWAGMMRNAGIEVVEALKVNLMRVF-----LRRMDLRQHRKMIMIDNYIAYTGSMNMVDPRYFKQDAGVGQ---WVDLMARMEGPVATAMGIVYSCDWEIETGKRLLPPPPDANIMPFEQASGHTIHT-----------------------------------IASGP--GFPEDL----IHQALLTSVYAAREYLIMTTPYFVPSDDLLHAICTAAQRGVDVSIILP--RKNDSLLVGWASRAFFSELLAAGVKIYQFE----------GGL-------LHTKSVLVDGELSLVGTVNLDMRSLWLNFEITLVIDDAGFGAD----LAEVQDDYISR</Hsp_hseq>
+      <Hsp_midline>I+ A H++++ +YIW+       +   +  AA RGV  RL+LD   +       +A    P      N  + +     +   R         R++ R H K    DN     G  N+ D  YFK    VG+   + DL     G V   +   +   W   +           NI    QA G+   T                                   I+  P  G   D     I   L  ++    + + + +PYFVP+     A+    Q G+DV+++    +  D   V      +   LL AG+K+Y+ +           GL       LH K+ +VDG+   +G+ NLD RS  LN E+ +VI+           LA+   +Y  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

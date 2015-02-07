@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="68">
+<accession>Q5F898</accession>
+<name>Q5F898_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">D-lactate dehydrogenase</fullName>
+<ecNumber evidence="1">1.1.1.28</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="3">NGO0890</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">First component of the membrane-bound D-lactate oxidase, which is believed to play an important role in the energization of the active transport of a variety of sugars and amino acids.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">(R)-lactate + NAD(+) = pyruvate + NADH.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>FAD</name>
+<dbReference type="ChEBI" id="CHEBI:57692"/>
+</cofactor>
+</comment>
+<comment type="similarity">
+<text evidence="2">Contains FAD-binding PCMH-type domain.</text>
+</comment>
+<dbReference type="EC" id="1.1.1.28" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89589.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208001.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F898"/>
+<dbReference type="SMR" id="Q5F898">
+<property type="residue range" value="5-561"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0890"/>
+<dbReference type="EnsemblBacteria" id="AAW89589">
+<property type="protein sequence ID" value="AAW89589"/>
+<property type="gene ID" value="NGO0890"/>
+</dbReference>
+<dbReference type="GeneID" id="3281117"/>
+<dbReference type="KEGG" id="ngo:NGO0890"/>
+<dbReference type="PATRIC" id="20334953">
+<property type="gene designation" value="VBINeiGon24812_1046"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0277"/>
+<dbReference type="HOGENOM" id="HOG000122232"/>
+<dbReference type="KO" id="K03777"/>
+<dbReference type="OMA" id="HNVGHEY"/>
+<dbReference type="OrthoDB" id="EOG6Z3KJX"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-831-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008720">
+<property type="term" value="F:D-lactate dehydrogenase activity"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050660">
+<property type="term" value="F:flavin adenine dinucleotide binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051287">
+<property type="term" value="F:NAD binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008762">
+<property type="term" value="F:UDP-N-acetylmuramate dehydrogenase activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006089">
+<property type="term" value="P:lactate metabolic process"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055085">
+<property type="term" value="P:transmembrane transport"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.1370.20">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.43.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.465.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.610">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016169">
+<property type="entry name" value="CO_DH_flavot_FAD-bd_sub2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016172">
+<property type="entry name" value="D-lactate_DH_C-sub1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016173">
+<property type="entry name" value="D-lactate_DH_C-sub2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012256">
+<property type="entry name" value="D_lactate_DH"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016166">
+<property type="entry name" value="FAD-bd_2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016167">
+<property type="entry name" value="FAD-bd_2_sub1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016164">
+<property type="entry name" value="FAD-linked_Oxase-like_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015409">
+<property type="entry name" value="Lactate_DH_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006094">
+<property type="entry name" value="Oxid_FAD_bind_N"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01565">
+<property type="entry name" value="FAD_binding_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF09330">
+<property type="entry name" value="Lact-deh-memb"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000101">
+<property type="entry name" value="D-lactate_dh"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF55103">
+<property type="entry name" value="SSF55103"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56176">
+<property type="entry name" value="SSF56176"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51387">
+<property type="entry name" value="FAD_PCMH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0274" evidence="1">FAD</keyword>
+<keyword id="KW-0285" evidence="1">Flavoprotein</keyword>
+<keyword id="KW-0520" evidence="1">NAD</keyword>
+<keyword id="KW-0560" evidence="1">Oxidoreductase</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="PIRNR" id="PIRNR000101"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00172482"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89589.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="563" mass="63390" checksum="DC0C9B135682E23A" modified="2005-03-15" version="1">
+MNASQLISSLTQTVGEKYIITDPAKTEQYRQGYRFGEGKALAVVRPGSILEMWKILQACV
+EADVIVITQAANTGLTGGSTPDGNDYDRDIVIVNTMRMNIIQTINNNEQVVCLPGSTLNQ
+LELLLKPLGREPHSVIGSSCIGASVLGGVCNNSGGALVQRGPAYTEMALFAQINEEGRLE
+LVNHLGIDLGDTPEEILTNLQGHHYQKKDIKQDAGKGHDHAYCEHVRQVDEPTAARFNAD
+PARHYEASGCAGKLMVFAVRLDTFPQEKQTAVFYIGTNDINELTDIRRAALGEFESLPVS
+GEYIHRHAFDIADVYGKDTFYVIKKFGTHQLPKLFDLKARVDRFGKKVSFLPKHFSDKAM
+QFVSKFLPDHLPKSMRDYRDKYEHHLILKMGGKGVDEARAFLKEYFSHHGGAFFECNAEE
+TQAAMLHRFAVASAAIRYRSVHDDEVEDLVALDIALRRDDRDWFEKLPPEIDNKIIHKLY
+YGHFMCHVFHQDYIIKKGNGCMALEHEMLHLLDQRGAQYPAEHNVGHLYEAKPALKQFYR
+KLDPTNSFNPGIGKTSKKKNWAE
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

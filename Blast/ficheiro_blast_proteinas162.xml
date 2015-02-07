@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>42215</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>125</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>42215</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|60392191|sp|P69054.1|DHSC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Escherichia coli K-12] &gt;gi|60392192|sp|P69055.1|DHSC_ECO57 RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>P69054</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.34424e-20</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KLRPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLD-AHKGLELNTARNTAKAVFASALVLTVVLGALLW</Hsp_qseq>
+      <Hsp_hseq>KQRPVNLDLQTIRFPITAIASILHRVSGVITFVAVGILLWLLGTSLSSPEGFEQASAIMGSFFVKFIMWGILTALAYHVVVGIRHMMMDFGYLEETFEAGKRSAKISFVITVVLSLLAGVLVW</Hsp_hseq>
+      <Hsp_midline>K RPV LDL  IR PI  I SILHR+SGV  F+ +  LL+ L  +LS    FE   AI+    VK ++ GIL A  +H + GIR + +D  +        + +AK  F   +VL+++ G L+W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|54036973|sp|P63726.1|DHSC_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|54040872|sp|P63725.1|DHSC_SALTY RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P63726</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.82039e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KLRPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLD-AHKGLELNTARNTAKAVFASALVLTVVLGALLW</Hsp_qseq>
+      <Hsp_hseq>KQRPVNLDLQTIRFPITAIASILHRVSGVITFIAVGILLWLLGTSLSSPEGFQQAADIMDGFIVKFIMWGILTALAYHVIVGIRHMLMDFGYLEETFEAGQRSAKISFVITVVLSLLAGVLVW</Hsp_hseq>
+      <Hsp_midline>K RPV LDL  IR PI  I SILHR+SGV  FI +  LL+ L  +LS    F+    I+   +VK ++ GIL A  +H + GIR + +D  +        + +AK  F   +VL+++ G L+W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2493412|sp|Q59659.1|DHSC_PARDE</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Paracoccus denitrificans]</Hit_def>
+  <Hit_accession>Q59659</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>3.65518e-14</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTV</Hsp_qseq>
+      <Hsp_hseq>RPLSPHLQVYRLPLAAITSIMTRITGHALVAGIVLITWWLVAAVTSPGAFACADWVVRSWLGFIILTGSMWALWYHLLAGLRHLFYDAGYGLEIEQAHKSSQALIAGSVVLAV</Hsp_hseq>
+      <Hsp_midline>RP+   L   RLP+  I SI+ RI+G  L   +  + ++L   ++   AF     +V   L  ++L G +WA  +H LAG+R LF DA  GLE+  A  +++A+ A ++VL V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1706427|sp|P51055.1|DHSC_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>P51055</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.62697e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFL-SGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVLGALLW</Hsp_qseq>
+      <Hsp_hseq>RPVNLDLTKFHFPPMAILSIGHRISGFVLFLCMPLMFYLLHRATASAESFYHLHQLLLHNGWIKLAVWIMLSATLFHLFAGIRHLAMDLGFWESVPEGRISAYTVFVVSFIAIVLAGVWIW</Hsp_hseq>
+      <Hsp_midline>RPV LDL     P   I+SI HRISG  LF+ +P + Y L   T S ES +  ++ ++ +  +KL +  +L A L H  AGIR L +D      +   R +A  VF  + +  V+ G  +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75536045|sp|Q4UKC1.1|DHSC_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UKC1</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.5402e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVL</Hsp_qseq>
+      <Hsp_hseq>RPTSPHLSIYKLQISSTLSILHRMTGVALFFAVSILAWWL--ILSKYD--NNYLQFANCCIIKICLVAVSYAWFYHLCNGIRHLFWDIGYGFSIKAVNITGWCVVVCSILLTMLL</Hsp_hseq>
+      <Hsp_midline>RP    L   +L I   +SILHR++GV LF  +  L ++L   LS+      Y    +  ++K+ L+ + +A+ +H   GIR LF D   G  +     T   V   +++LT++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|729336|sp|P41085.1|DHSC_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>P41085</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>8.99703e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVL</Hsp_qseq>
+      <Hsp_hseq>RPTSPHLTIYKPQISSTLSILHRMTGVALFFVVSILVWWL--ILSKYD--NNYLQLASCCIIKICLVAFSYSWCYHLCNGIRHLFWDIGYGFSIKAVNITGWCVVVCSILLTMLL</Hsp_hseq>
+      <Hsp_midline>RP    L   +  I   +SILHR++GV LF ++  L+++L   LS+      Y  + S  ++K+ L+   +++ +H   GIR LF D   G  +     T   V   +++LT++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81390260|sp|Q68XP1.1|DHSC_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68XP1</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.35935e-08</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVL</Hsp_qseq>
+      <Hsp_hseq>RPTSPHLTIYKPQISSTLSILHRMTGVALFFVVSILVWWL--ILSKYD--NNYLQLARCCIIKICLVAFSYAWCYHLCNGIRHLFWDIGYGFSIRAVNITGWCVVVCSILLTMLL</Hsp_hseq>
+      <Hsp_midline>RP    L   +  I   +SILHR++GV LF ++  L+++L   LS+      Y  +    ++K+ L+   +A+ +H   GIR LF D   G  +     T   V   +++LT++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|21362479|sp|Q92J99.1|DHSC_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92J99</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>6.29886e-08</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVL</Hsp_qseq>
+      <Hsp_hseq>RPTSPHLTIYKPQISSTLSILYRMTGVALFFAVSILVWWL--ILSKYD--NNYLQLAECCIIKICLVAVSYAWFYHLCNGIRHLFWDIGYGFSIKLVNITGWCVVVGSVLLTVLL</Hsp_hseq>
+      <Hsp_midline>RP    L   +  I   +SIL+R++GV LF  +  L+++L   LS+      Y  +    ++K+ L+ + +A+ +H   GIR LF D   G  +     T   V   +++LTV+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|21362398|sp|P70097.1|C560_CRIGR</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b560 subunit, mitochondrial; AltName: Full=Integral membrane protein CII-3; AltName: Full=QPs-1; Short=QPs1; Flags: Precursor [Cricetulus griseus]</Hit_def>
+  <Hit_accession>P70097</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00286963</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIG-----ILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVLGAL</Hsp_qseq>
+      <Hsp_hseq>RPVSPHLTIYRWSLPMVMSICHRGTGVALSGGVS--LFGLSALL-LPGNFESYLMFIKSLCLGPALIHSAKFVLVFPLMYHSLNGIRHLIWDLGKGLSISQVYQSGVAVLMLAVLSSVGLAAM</Hsp_hseq>
+      <Hsp_midline>RPV   L   R  +P ++SI HR +GV L   +   L+ LS  L     FE+Y   +    +   LI      +++  ++HSL GIR L  D  KGL ++    +  AV   A++ +V L A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|122425294|sp|Q1RHB5.1|DHSC_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b556 subunit; Short=Cytochrome b-556 [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RHB5</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.0823642</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQ-ESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVL</Hsp_qseq>
+      <Hsp_hseq>RPTSPHLTIYKPQISSTLSILHRMTGVALFFAVSILAWWF--ILSKFDSNYIKLANCCCIIKICLILTSFAWFY--HLCNGIRHLFWDIGLGFSIKAVNLTGWSVVICSVLFTILL</Hsp_hseq>
+      <Hsp_midline>RP    L   +  I   +SILHR++GV LF  +  L ++    LS+ +S +           + L+L    W Y  H   GIR LF D   G  +     T  +V   +++ T++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|290463150|sp|D0VWV4.2|C560_PIG</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b560 subunit, mitochondrial; AltName: Full=Succinate-ubiquinone oxidoreductase cytochrome B large subunit; Short=CYBL; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>D0VWV4</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.144959</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTL---SQESAFETYRAIVSHP-LVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVLGAL</Hsp_qseq>
+      <Hsp_hseq>RPLSPHITIYRWSLPMAMSICHR--GTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM</Hsp_hseq>
+      <Hsp_midline>RP+   +   R  +P  +SI HR  G G+ +     L+ LS  L   + ES  E  +++   P L+     GI++  ++H+  GIR L  D  KGL +     +   V    ++ +V L A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1705529|sp|P35720.2|C560_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b560 subunit, mitochondrial; AltName: Full=Integral membrane protein CII-3; AltName: Full=QPs-1; Short=QPs1; AltName: Full=Succinate dehydrogenase complex subunit C; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>P35720</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.329053</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>IPGIVSILHRISGVGLFIMLPFLLYFLSGTL---SQESAFETYRAIVSHP-LVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVLGAL</Hsp_qseq>
+      <Hsp_hseq>LPMAMSICHR--GTGIALSAGVSLFGLSALLVPGSFESHLEFVKSLCLGPALIHTAKFALVFPLMYHTWNGIRHLMWDLGKGLTISQLHQSGVAVLVLTVLSSVGLAAM</Hsp_hseq>
+      <Hsp_midline>+P  +SI HR  G G+ +     L+ LS  L   S ES  E  +++   P L+      +++  ++H+  GIR L  D  KGL ++    +  AV    ++ +V L A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1705531|sp|P80481.1|C560_RECAM</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b560 subunit; AltName: Full=Succinate dehydrogenase, subunit III (mitochondrion) [Reclinomonas americana]</Hit_def>
+  <Hit_accession>P80481</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.923754</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLL---------------YFLSGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVV</Hsp_qseq>
+      <Hsp_hseq>RPISPHLTIYKLQITNTLSIFHRITGGVLALTLCFFILILKMLNFHLSSYAFYSIAYTLNQYSGF----LFIAISFFLLLFI------FYHLFAGLRHLVWDAGYALEIENVYLTGYIMLGLAFLFTLI</Hsp_hseq>
+      <Hsp_midline>RP+   L   +L I   +SI HRI+G  L + L F +               Y ++ TL+Q S F      ++     L+ I       +H  AG+R L  DA   LE+     T   +   A + T++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|14285415|sp|P72109.1|DHSD_NATPH</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase hydrophobic membrane anchor subunit [Natronomonas pharaonis]</Hit_def>
+  <Hit_accession>P72109</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.27382</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ILHRISGVGLFIMLPFLLYFL----SGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVL</Hsp_qseq>
+      <Hsp_hseq>IFHKFTG---WVLIGYLFTHVAVLSTATVDAATYTQTLQGLESLLVVRFLEVGLLAVAVFHILNGIRLLFVDLGVGLE---AQDKA---FYAALIVTAAI</Hsp_hseq>
+      <Hsp_midline>I H+ +G   ++++ +L   +    + T+   +  +T + + S  +V+ + +G+L   + H L GIR LF+D   GLE   A++ A   F +AL++T  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|14285417|sp|Q9HQ63.2|DHSD_HALSA</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase hydrophobic membrane anchor subunit [Halobacterium sp. NRC-1]</Hit_def>
+  <Hit_accession>Q9HQ63</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.43805</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSH----PLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNTARNTAKAVFASALVLTVVL</Hsp_qseq>
+      <Hsp_hseq>VFHKFTG---WVLVGYLFTHISVLSTSLQGAQVYNSTLSGLESLAIVRLLEVGLLAVAVFHILNGIRLLFVDLGVGLE---AQDKS---FYASLVLTGVI</Hsp_hseq>
+      <Hsp_midline>+ H+ +G   ++++ +L   +S   +     + Y + +S      +V+L+ +G+L   + H L GIR LF+D   GLE   A++ +   F ++LVLT V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|300669718|sp|Q9Y4D8.5|HECD4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Probable E3 ubiquitin-protein ligase HECTD4; AltName: Full=HECT domain-containing protein 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y4D8</Hit_accession>
+  <Hit_len>3996</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.57136</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>863</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>YLDLPNIRLPIPGIVSILHRISG</Hsp_qseq>
+      <Hsp_hseq>YFDLPRIRLP-PGIMIKLREISG</Hsp_hseq>
+      <Hsp_midline>Y DLP IRLP PGI+  L  ISG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|21362402|sp|Q9CZB0.1|C560_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase cytochrome b560 subunit, mitochondrial; AltName: Full=Integral membrane protein CII-3; AltName: Full=QPs-1; Short=QPs1; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9CZB0</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.04702</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>RPVYLDLPNIRLPIPGIVSILHRISGVGLFIMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIG-----ILWAYLHHSLAGIRFLFLDAHKGLEL</Hsp_qseq>
+      <Hsp_hseq>RPLSPHLTIYKWSLPMALSVCHRGSGIALSGGVS--LFGLSALL-LPGNFESYLMFVKSLCLGPTLIYSAKFVLVFPLMYHSLNGIRHLLWDLGKGLAI</Hsp_hseq>
+      <Hsp_midline>RP+   L   +  +P  +S+ HR SG+ L   +   L+ LS  L     FE+Y   V    +   LI      +++  ++HSL GIR L  D  KGL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|6174895|sp|O43511.1|S26A4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Pendrin; AltName: Full=Sodium-independent chloride/iodide transporter; AltName: Full=Solute carrier family 26 member 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>O43511</Hit_accession>
+  <Hit_len>780</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.3876</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>GVGLF-IMLPFLLYFLSGTLSQESAFETYRAIVSHPLVKLVLIGILWAYLHHSLAGIRFLFLDAHKGLELNT------ARNTAKAVFASALVLTVVLGALLW</Hsp_qseq>
+      <Hsp_hseq>GYGLYSAFFPILTYFIFGT-------SRHISVGPFPVVSLMVGSVVL-----SMAPDEHFLVSSSNGTVLNTTMIDTAARDTARVLIASALTLLVGIIQLIF</Hsp_hseq>
+      <Hsp_midline>G GL+    P L YF+ GT         + ++   P+V L++  ++      S+A      + +  G  LNT      AR+TA+ + ASAL L V +  L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

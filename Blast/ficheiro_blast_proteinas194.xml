@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>35491</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>258</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>35491</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>258</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2495206|sp|Q46927.1|TCDA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=tRNA threonylcarbamoyladenosine dehydratase; AltName: Full=t(6)A37 dehydratase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>Q46927</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>2.40046e-85</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>RRFGGIARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPLLANLRYTLRKRYGFSRDTKEKMRVPCVYSTENIMPPQS-GAACSADAA---PQGLSCA-GYGASMLVTASFGLYCAQAAVEHIAGK</Hsp_qseq>
+      <Hsp_hseq>QRFGGTARLYGEKALQLFADAHICVVGIGGVGSWAAEALARTGIGAITLIDMDDVCVTNTNRQIHALRDNVGLAKAEVMAERIRQINPECRVTVVDDFVTPDNVAQYMSVGYSYVIDAIDSVRPKAALIAYCRRNKIPLVTTGGAGGQIDPTQIQVTDLAKTIQDPLAAKLRERLKSDFGVVKNSKGKLGVDCVFSTEALVYPQSDGTVCAMKATAEGPKRMDCASGFGAATMVTATFGFVAVSHALKKMMAK</Hsp_hseq>
+      <Hsp_midline>+RFGG ARLYG+ AL  F+ AH+CVVG+GGVGSWA EALARTGIG +TLID+D+V  +N NRQ+HAL  + G AK   + ERI QINP+C V  ++DFVT DN+ +Y   G+ +VIDAID VR KAA+ AY    K P V +GGAGGQ +P  IQ  DL++   DPL A LR  L+  +G  +++K K+ V CV+STE ++ PQS G  C+  A    P+ + CA G+GA+ +VTA+FG      A++ +  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2495207|sp|Q57097.1|TCDA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=tRNA threonylcarbamoyladenosine dehydratase; AltName: Full=t(6)A37 dehydratase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57097</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>1.71355e-82</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>RRFGGIARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPLLANLRYTLRKRYGFSRDTKEKMRVPCVYSTENIMPPQSGAACSADAAPQGLSCA-GYGASMLVTASFGLYCAQAAVEHIAGKK</Hsp_qseq>
+      <Hsp_hseq>QRFGGIGRLYTPDSLARLRQAHICVIGIGGVGSWVVEALARSGIGELTLIDMDDICVTNINRQLPAMSGTIGKLKTEVMSERVKLINPECTVNIIDDFISPENQSDYLNRGYDYVIDAIDNVKTKASLIAYCKRNKINVITIGGAGGQTDPTQIQIADLSKTIQDPLLAKVRSVLRKDYNFSQNPKRKFSIDAVFSTQPLIFPQMTEGCSTSAT---MNCANGFGAATMITATFGFFAVSRVIDKLLKKK</Hsp_hseq>
+      <Hsp_midline>+RFGGI RLY   +L    QAH+CV+G+GGVGSW VEALAR+GIG LTLID+D++  +N NRQL A++G  GK K   + ER+  INP+C V  I+DF++ +N  +Y  +G+D+VIDAID V+ KA++ AY    K   +  GGAGGQ +P  IQ ADLS+   DPLLA +R  LRK Y FS++ K K  +  V+ST+ ++ PQ    CS  A    ++CA G+GA+ ++TA+FG +     ++ +  KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|281312490|sp|O32037.3|TCDA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=tRNA threonylcarbamoyladenosine dehydratase; AltName: Full=t(6)A37 dehydratase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32037</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.12022e-32</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>VGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPLLANLRYTLRK</Hsp_qseq>
+      <Hsp_hseq>VGSFAAEALARSGVGRILLVDKDDVDITNVNRQLHALLSTVGQPKVDLMKARIADINPECEVIALKMFYTEETYEQFFDYGLDYVIDASDTICYKIHLMKECLKRDIPLISSMGAANKTDPTRFQIADISKTHTDPIAKVVRTKLRK</Hsp_hseq>
+      <Hsp_midline>VGS+A EALAR+G+GR+ L+D D+V  +N NRQLHAL    G+ KV  ++ RI  INP+CEV  ++ F TE+   ++F  G D+VIDA D +  K  +    ++R  P + S GA  + +P   Q AD+S+   DP+   +R  LRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|731629|sp|P38756.1|TCD1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=tRNA threonylcarbamoyladenosine dehydratase 1; AltName: Full=t(6)A37 dehydratase 1 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38756</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>7.96106e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>IARLY---GDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYF---GKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPLLANLRYTLRKR</Hsp_qseq>
+      <Hsp_hseq>LARNYAFLGEEGMRKIKEQYIVIVGAGEVGSWVCTMLIRSGCQKIMIIDPENISIDSLNTHCCAVLSDIGKPKVQCLKEHLSKIAPWSEIKARAKAWTKENSHDLIFADGESPTFIVDCLDNLESKVDLLEYAHHNKIDVISSMGVATKSDPTRVSINDISMTEFDPISRCVRRKLRKR</Hsp_hseq>
+      <Hsp_midline>+AR Y   G+  +    + ++ +VG G VGSW    L R+G  ++ +ID +N++  + N    A+  D GK KV  L+E +++I P  E+       T++N  +     G+   F++D +D +  K  +  Y    K   + S G   + +P  +   D+S    DP+   +R  LRKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|48474743|sp|O13861.1|TCD_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=tRNA threonylcarbamoyladenosine dehydratase; AltName: Full=t(6)A37 dehydratase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O13861</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>5.75527e-18</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>LYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPL</Hsp_qseq>
+      <Hsp_hseq>FFGEDGMERLRNSFVIVVGCGGVGSWVINMLARSGVQKIRIVDFDQVSLSSLNRHSIATLQDVGTPKTLAIKKAIKKFAPWIEVDARNALFNPDSADDLLSGNPDFVIDAIDNIQTKVDLLSYCYNHKLPVIASTGSACKSDPTRVNIADISATSEDPL</Hsp_hseq>
+      <Hsp_midline> +G+  +     + V VVG GGVGSW +  LAR+G+ ++ ++D D V+ S+ NR   A   D G  K  A+++ I +  P  EV         D+  +      DFVIDAID ++ K  + +Y    K P + S G+  + +P  +  AD+S  + DPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|549663|sp|P36101.1|TCD2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=tRNA threonylcarbamoyladenosine dehydratase 2; AltName: Full=t(6)A37 dehydratase 2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P36101</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.06427e-14</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>GDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEY-FGKGF-DFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPLLANLRYTLRKRYGFSRDTKEKMRVPCVYSTENIMPPQS</Hsp_qseq>
+      <Hsp_hseq>GEDTIEKLSNQYVVVVGAGGVGSWVVNSLVRSGCRKIRVVDFDQVSLSSLNRHSCAILNDVGTPKVECLRRHMREIAPWCEIDPINELWTLQNGERLTLGNGTPDFIVDCIDNIDTKVDLLEFAYNHGIKVISSMGASAKSDPTKLNVGDLATTEEDPLARVVRRKLKKRGILS-------GIPVVFSAEKPDPKKA</Hsp_hseq>
+      <Hsp_midline>G+  +   S  +V VVG GGVGSW V +L R+G  ++ ++D D V+ S+ NR   A+  D G  KV  LR  + +I P CE+  I +  T  N      G G  DF++D ID +  K  +  +        + S GA  + +P  +   DL+    DPL   +R  L+KR   S        +P V+S E   P ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|127233|sp|P12282.1|MOEB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=MoaD protein adenylase; AltName: Full=Molybdopterin-converting factor subunit 1 adenylase; AltName: Full=Sulfur carrier protein MoaD adenylyltransferase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P12282</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>2.98101e-13</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>FSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>LKDSRVLIVGLGGLGCAASQYLASAGVGNLTLLDFDTVSLSNLQRQTLHSDATVGQPKVESARDALTRINPHIAITPVNALLDDAELAALIAE-HDLVLDCTDNVAVRNQLNAGCFAAKVPLV-SGAA</Hsp_hseq>
+      <Hsp_midline>   + V +VG+GG+G  A + LA  G+G LTL+D D V+ SN  RQ        G+ KV + R+ +T+INP   +  +   + +  L     +  D V+D  D V V+  + A     K P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75120515|sp|Q6B908.1|MOEB_GRATL</Hit_id>
+  <Hit_def>RecName: Full=Probable molybdopterin-synthase adenylyltransferase; AltName: Full=MoaD protein adenylase; AltName: Full=Molybdopterin-converting factor subunit 1 adenylase; AltName: Full=Sulfur carrier protein MoaD adenylyltransferase (chloroplast) [Gracilaria tenuistipitata var. liui]</Hit_def>
+  <Hit_accession>Q6B908</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>6.51354e-13</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>GDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMA</Hsp_qseq>
+      <Hsp_hseq>GDSGQKRLKAAKILFIGAGGLAASAILYLAASGVNCLGVADDDKVDYSNLHRQILYNNKDVGKLKVGIVYDRIKMINPECNVNVYSSLVDEYN-CEYIIKNYDIVIDTTDNFQSRYIIS</Hsp_hseq>
+      <Hsp_midline>GDS       A +  +G GG+ + A+  LA +G+  L + D D V  SN +RQ+     D GK KV  + +RI  INP+C V      V E N  EY  K +D VID  D  + +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|226707526|sp|B4NXF7.1|MOCS3_DROYA</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Drosophila yakuba]</Hit_def>
+  <Hit_accession>B4NXF7</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.15569e-12</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>FGVQGQLKLKNSSVLIVGLGGLGCPAAQYLAAAGCGRLGLIDYDEVERSNFHRQILHSESRCGMSKAESARIALLELNPHCEIHCHSRLLYSQN-ALHIIRGYDVVLDCSDNVPTRYLLSDACVMLRKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>+G         + V +VG+GG+G  A + LA  G GRL LID D V  SN +RQ+       G +K  + R  + ++NP CE+      +   N   +  +G+D V+D  D V  +  ++   V  ++P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|401238|sp|P31252.1|UBE13_WHEAT</Hit_id>
+  <Hit_def>RecName: Full=Ubiquitin-activating enzyme E1 3 [Triticum aestivum]</Hit_def>
+  <Hit_accession>P31252</Hit_accession>
+  <Hit_len>1053</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>3.784e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>444</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>SSRRFGGIARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGI-----GRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFV---TEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPLLANLRYTLRKRYGFSRDTKEKMRVPC</Hsp_qseq>
+      <Hsp_hseq>SNNRYDAQVSVFGSKLQKKMEEANTFVVGSGALGCEFLKNLALMGVSCSSKGKLTITDDDIIEKSNLSRQFLFRDWNIGQAKSTVAATAASAINPSLHIDALQNRACPDTENVFHDTFWEGLDVVINALDNVNARMYMDMRCLYFQKPLLESGTLGAKCNIQMV-------IPH----------LTENYGASRDPPEKQAPMC</Hsp_hseq>
+      <Hsp_midline>S+ R+     ++G        +A+  VVG G +G   ++ LA  G+     G+LT+ D D + +SN +RQ      + G+AK T      + INP   +  +++     TE+   + F +G D VI+A+D V  +  M    +  ++P + SG  G + N  ++       + H          L + YG SRD  EK    C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.91201</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEY</Hsp_qseq>
+      <Hsp_hseq>VYGRETMRRLFASDVLVSGLNGLGAEIAKNLALAGVKSVTIHDVKTVKMWDLSGNFFLSEDDIGKNRAAACVAKLQELNNAVLISALTEELTTEHLSKF</Hsp_hseq>
+      <Hsp_midline>+YG   +     + V V G+ G+G+   + LA  G+  +T+ D+  V   + +        D GK +  A   ++ ++N    +  + + +T ++L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1170993|sp|P45211.1|MOEB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=MoaD protein adenylase; AltName: Full=Molybdopterin-converting factor subunit 1 adenylase; AltName: Full=Sulfur carrier protein MoaD adenylyltransferase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45211</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.05351e-12</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>SKMLIVGLGGLGCAASQYLAAAGVGNLTLLDFDTVSLSNLQRQVLHCDARLNMPKVESAKIALEQINPHINIETINAKLDEEKLAEIIPH-FDIVLDCTDNVEIRNQLDRQCNHMKVPLI-SGAA</Hsp_hseq>
+      <Hsp_midline>+ + +VG+GG+G  A + LA  G+G LTL+D D V+ SN  RQ+          KV + +  + QINP   +  I   + E+ L E     FD V+D  D V ++  +       K P + SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|417995|sp|P30138.2|THIF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Sulfur carrier protein ThiS adenylyltransferase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P30138</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>6.57666e-12</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>AHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSG--GAGGQ</Hsp_qseq>
+      <Hsp_hseq>SQVLIIGLGGLGTPAALYLAGAGVGTLVLADDDDVHLSNLQRQILFTTEDIDRPKSQVSQQRLTQLNPDIQLTALQQRLTGEALKDAVARA-DVVLDCTDNMATRQEINAACVALNTPLITASAVGFGGQ</Hsp_hseq>
+      <Hsp_midline>+ V ++G+GG+G+ A   LA  G+G L L D D+V  SN  RQ+   T D  + K    ++R+TQ+NP  ++  ++  +T + L +   +  D V+D  D +  +  + A  V    P + +   G GGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2501437|sp|Q06624.1|RHC31_YEAST</Hit_id>
+  <Hit_def>RecName: Full=DNA damage tolerance protein RHC31; AltName: Full=RAD31 homolog [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q06624</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.08057e-11</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>RLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEV-FEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQ--PFVLSGGAG</Hsp_qseq>
+      <Hsp_hseq>RLWGMTAQANMRSAKVLLINLGAIGSEITKSIVLSGIGHLTILDGHMVTEEDLGSQFFIGSEDVGQWKIDATKERIQDLNPRIELNFDKQDLQEKD---EEFFQQFDLVVAT--EMQIDEAIKINTLTRKLNIPLYVAGSNG</Hsp_hseq>
+      <Hsp_midline>RL+G +A  +   A V ++ +G +GS   +++  +GIG LT++D   V E +   Q    + D G+ K+ A +ERI  +NP+ E+ F+ +D   +D   E F + FD V+    ++++  A+    + RK   P  ++G  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|122106457|sp|Q17CA7.1|MOCS3_AEDAE</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Aedes aegypti]</Hit_def>
+  <Hit_accession>Q17CA7</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.37326e-11</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>FSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>LKRSSVLVVGAGGLGCPSALYLAGAGIGRIGILDYDEVELTNLHRQLLHTECSVGLTKVESVRSYLEELNSQIEIVTHHIQLTSDNALQTL-ESYDIVVDATDNVATRYLLNDACVLLKKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>  ++ V VVG GG+G  +   LA  GIGR+ ++D D V  +N +RQL       G  KV ++R  + ++N Q E+      +T DN  +   + +D V+DA D V  +  +    V  K+P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|226707554|sp|Q7PY41.4|MOCS3_ANOGA</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Anopheles gambiae]</Hit_def>
+  <Hit_accession>Q7PY41</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>3.28106e-11</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>FSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>LKKASVLVVGAGGLGCPAALYLAGAGIGRIGVLDYDEVELTNLHRQLLHTEATVGLTKVTSVQSYLEQLNSQIEIETHHAQLTSENALALL-EPYDVVVDATDNVATRYLLNDACVLLRKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>  +A V VVG GG+G  A   LA  GIGR+ ++D D V  +N +RQL       G  KVT+++  + Q+N Q E+      +T +N      + +D V+DA D V  +  +    V  ++P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|226707523|sp|B4HYP0.1|MOCS3_DROSE</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Drosophila sechellia]</Hit_def>
+  <Hit_accession>B4HYP0</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>3.62148e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>FGVQGQLKLKNSSVLIVGMGGLGCPAAQYLAAAGCGHLGLVDYDEVERSNFHRQILHSEDRCGMSKAESARIALNELNPHCEIHCHSRMLYPHN-AMHIIRGYDVVLDCTDNVPTRYLLSDACVMLNKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>+G         + V +VG+GG+G  A + LA  G G L L+D D V  SN +RQ+       G +K  + R  + ++NP CE+      +   N   +  +G+D V+D  D V  +  ++   V   +P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|226713600|sp|A2R3H4.1|UBA4_ASPNC</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase uba4; AltName: Full=Common component for nitrate reductase and xanthine dehydrogenase protein F; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase uba4; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase uba4 [Aspergillus niger CBS 513.88]</Hit_def>
+  <Hit_accession>A2R3H4</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>7.96157e-11</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>RRFGG--IARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFV</Hsp_qseq>
+      <Hsp_hseq>RRYGRQMIVPQLGIQGQLKLRSAKVLIVGAGGLGCPAALYLAGAGVGTLGLVDGDAVESSNLHRQVLHRTRNIGKLKVDSAIEYLKELNPHSKYIAHREHLAPEAAPEIFSN-YDLILDCTDNPATRYLISDTAVLLGKPLV</Hsp_hseq>
+      <Hsp_midline>RR+G   I    G         A V +VG GG+G  A   LA  G+G L L+D D V  SN +RQ+   T + GK KV +  E + ++NP  +     + +  +  PE F   +D ++D  D    +  ++   V   +P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|226707525|sp|B4N7R4.1|MOCS3_DROWI</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Drosophila willistoni]</Hit_def>
+  <Hit_accession>B4N7R4</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>8.90128e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>FGVQGQLRLKNSSVLIVGMGGLGCPAAQYLAAAGVGYLGLIDYDQVERSNFHRQTLHTEARCGMAKTESARIALLELNPSCRIHCHSELINSHNASNIM-RSYDVVLDCSDNVATRYLLNDACVIFRKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>+G         + V +VG+GG+G  A + LA  G+G L LID D V  SN +RQ        G AK  + R  + ++NP C +    + +   N      + +D V+D  D V  +  +    V  ++P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|75027153|sp|Q9VLJ8.1|MOCS3_DROME</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9VLJ8</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.1942e-10</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>FGVQGQLKLKNSSVLIVGLGGLGCPAAQYLAAAGCGHLGLVDYDEVERSNFHRQILHSEDRCGMSKAESARIALLELNPHCEIQCHSRMLYPHN-AMHIIRGYDVVLDCTDNVPTRYLLSDACVMLSKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>+G         + V +VG+GG+G  A + LA  G G L L+D D V  SN +RQ+       G +K  + R  + ++NP CE+      +   N   +  +G+D V+D  D V  +  ++   V   +P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|226713598|sp|A1CAZ7.1|UBA4_ASPCL</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase uba4; AltName: Full=Common component for nitrate reductase and xanthine dehydrogenase protein F; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase uba4; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase uba4 [Aspergillus clavatus NRRL 1]</Hit_def>
+  <Hit_accession>A1CAZ7</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.827e-10</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>AHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFV</Hsp_qseq>
+      <Hsp_hseq>ARVLIVGAGGLGCPAALYLAGAGVGTLGLVDGDTVEHSNLHRQVLHRSKNVGKFKVDSAIEYLRELNPHPTYVPYRAHLTPQEAPEIF-KDYDIVLDCTDNPATRYLISDTAVLLGKPLV</Hsp_hseq>
+      <Hsp_midline>A V +VG GG+G  A   LA  G+G L L+D D V  SN +RQ+   + + GK KV +  E + ++NP          +T    PE F K +D V+D  D    +  ++   V   +P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|74850695|sp|Q54C02.1|UBA5_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Ubiquitin-like modifier-activating enzyme 5; Short=Ubiquitin-activating enzyme 5 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54C02</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.84969e-10</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>VCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDF--VTEDNLPEYF-----------GKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSG</Hsp_qseq>
+      <Hsp_hseq>VIIVGLGGIGSVAAEMLTRCGIGKLLLFDYDTVEIANMNR-LFFRPEQSGKSKTMAAQETLSSINPDVQ-FESHNYNITTIDNF-EHFKGRIEKGGLVEGEPVDLVLGCVDNFEARTAINQACLELGKSWMESG</Hsp_hseq>
+      <Hsp_midline>V +VG+GG+GS A E L R GIG+L L D D V  +N NR L       GK+K  A +E ++ INP  + FE  ++   T DN  E+F           G+  D V+  +D    + A+    +E  + ++ SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|226707518|sp|B0W377.1|MOCS3_CULQU</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Culex quinquefasciatus]</Hit_def>
+  <Hit_accession>B0W377</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.17313e-10</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>FSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>LKRASVLVVGAGGLGCPSSLYLAGAGVGHIGILDYDEVELTNLHRQLLHTESTVGLTKVDSARDYLQELNSQIEVSTHHTQLTSDNALTILEQ-YDIVVDATDNVATRYLLNDACVLLKKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>  +A V VVG GG+G  +   LA  G+G + ++D D V  +N +RQL       G  KV + R+ + ++N Q EV      +T DN      + +D V+DA D V  +  +    V  K+P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|226713779|sp|O59954.2|UBA4_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase uba4; AltName: Full=Common component for nitrate reductase and xanthine dehydrogenase protein F; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase uba4; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase uba4 [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>O59954</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.93761e-10</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>RRFGG--IARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFV</Hsp_qseq>
+      <Hsp_hseq>RRYGRQMIVPQFGLQGQLKLRDAKVLIVGAGGLGCPAALYLAGAGVGTIGLVDGDTVEASNLHRQVLHRSRNVGKLKVDSAIEYLRELNPHPTYIAHQAHLTPREAPDIF-KDYDLILDCTDNPATRYLISDTAVLLGKPLV</Hsp_hseq>
+      <Hsp_midline>RR+G   I   +G         A V +VG GG+G  A   LA  G+G + L+D D V  SN +RQ+   + + GK KV +  E + ++NP       +  +T    P+ F K +D ++D  D    +  ++   V   +P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|121735794|sp|Q0CFD4.1|UBA4_ASPTN</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase uba4; AltName: Full=Common component for nitrate reductase and xanthine dehydrogenase protein F; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase uba4; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase uba4 [Aspergillus terreus NIH2624]</Hit_def>
+  <Hit_accession>Q0CFD4</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>4.00608e-10</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>RRFGG--IARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFV</Hsp_qseq>
+      <Hsp_hseq>RRYGRQMIVPQLGLPGQLKLRSARVLIVGAGGLGCPAALYLAGAGVGTLGLIDGDMVDVSNLHRQVLHRSANVGKLKVDSAIEYLRELNPHPTYIPHRAHLTPQEAPEIF-QNYDVILDCTDNPATRYLISDTAVLLGKPLV</Hsp_hseq>
+      <Hsp_midline>RR+G   I    G         A V +VG GG+G  A   LA  G+G L LID D V  SN +RQ+   + + GK KV +  E + ++NP          +T    PE F + +D ++D  D    +  ++   V   +P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|136632|sp|P20973.1|UBE11_WHEAT</Hit_id>
+  <Hit_def>RecName: Full=Ubiquitin-activating enzyme E1 1 [Triticum aestivum]</Hit_def>
+  <Hit_accession>P20973</Hit_accession>
+  <Hit_len>1051</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>4.53588e-10</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>444</Hsp_hit-from>
+      <Hsp_hit-to>626</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RFGGIARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGI-----GRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFV---TEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPLLANLRYTLRKRYGFSRDTKEKMRVPC</Hsp_qseq>
+      <Hsp_hseq>RYDAQISVFGSKLQNKLEEAKIFMVGSGALGCEFLKNLALMGISCSQNGNLTLTDDDVIEKSNLSRQFLFRDWNIGQPKSTVAATAAMVINPKLHVEALQNRASPETENVFNDAFWENLDAVVNALDNVTARMYIDSRCVYFQKPLLESGTLGAKCNTQMV-------IPH----------LTENYGASRDPPEKQAPMC</Hsp_hseq>
+      <Hsp_midline>R+     ++G        +A + +VG G +G   ++ LA  GI     G LTL D D + +SN +RQ      + G+ K T        INP+  V  +++     TE+   + F +  D V++A+D V  +  + +  V  ++P + SG  G + N  ++       + H          L + YG SRD  EK    C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.00034</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEY</Hsp_qseq>
+      <Hsp_hseq>VYGRETMKRLFGSNVLVSGLQGLGAEIAKNLVLAGVKSVTLHDDGNVELWDLSSNFFLSENDVGQNRAQACVQKLQELNNAVLVSALTGDLTKEHLSKF</Hsp_hseq>
+      <Hsp_midline>+YG   +     ++V V G+ G+G+   + L   G+  +TL D  NV   + +        D G+ +  A  +++ ++N    V  +   +T+++L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|226707500|sp|B6TNK6.1|MOC31_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3-1; AltName: Full=Molybdenum cofactor synthesis protein 3-1; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase 1; AltName: Full=Adenylyltransferase MOCS3-1; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase 1; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase 1; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase 1; AltName: Full=Sulfurtransferase MOCS3-1 [Zea mays]</Hit_def>
+  <Hit_accession>B6TNK6</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>4.66074e-10</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGG</Hsp_qseq>
+      <Hsp_hseq>FGVEGQRKLSQSSILVVGAGGLGSPLALYLAACGVGRLGIVDGDDVELNNLHRQIIHKEAYVGQSKVKSAADACREINSSIKVVEYHHTLKPCNALE-VARKYDIVVDATDNLPTRYMISDCCVLLNKPLV-SGAALG</Hsp_hseq>
+      <Hsp_midline>+G       SQ+ + VVG GG+GS     LA  G+GRL ++D D+V  +N +RQ+       G++KV +  +   +IN   +V E    +   N  E   + +D V+DA D +  +  ++   V   +P V SG A G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|614095513|sp|P9WMN6.1|MOEZ_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Probable adenylyltransferase/sulfurtransferase MoeZ; Includes: RecName: Full=Sulfur carrier protein CysO adenylyltransferase; Includes: RecName: Full=Sulfur carrier protein CysO sulfurtransferase [Mycobacterium tuberculosis CDC1551] &gt;gi|614095519|sp|P9WMN7.1|MOEZ_MYCTU RecName: Full=Probable adenylyltransferase/sulfurtransferase MoeZ; Includes: RecName: Full=Sulfur carrier protein CysO adenylyltransferase; Includes: RecName: Full=Sulfur carrier protein CysO sulfurtransferase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WMN6</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>6.01178e-10</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>HFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFV</Hsp_qseq>
+      <Hsp_hseq>RLKNARVLVIGAGGLGAPTLLYLAAAGVGTIGIVDFDVVDESNLQRQVIHGVADVGRSKAQSARDSIVAINPLIRVRLHELRLAPSNAVDLF-KQYDLILDGTDNFATRYLVNDAAVLAGKPYV</Hsp_hseq>
+      <Hsp_midline>    A V V+G GG+G+  +  LA  G+G + ++D D V ESN  RQ+     D G++K  + R+ I  INP   V   E  +   N  + F K +D ++D  D    +  +    V   +P+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|226707524|sp|B4LRB9.1|MOCS3_DROVI</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Drosophila virilis]</Hit_def>
+  <Hit_accession>B4LRB9</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>6.47164e-10</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>FGVSGQLKLKNSAVLIVGLGGLGCPAAQYLCSAGCGNLGLVDYDEVERSNLHRQTLHTVARCGMSKTESARIALLELNPHCRITCYPRLLNSSN-AMHIMRAYDIVLDCSDNVATRYLLNDACTMLRKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>+G S       + V +VG+GG+G  A + L   G G L L+D D V  SN +RQ        G +K  + R  + ++NP C +      +   N   +  + +D V+D  D V  +  +       ++P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|401237|sp|P31251.1|UBE12_WHEAT</Hit_id>
+  <Hit_def>RecName: Full=Ubiquitin-activating enzyme E1 2 [Triticum aestivum]</Hit_def>
+  <Hit_accession>P31251</Hit_accession>
+  <Hit_len>1051</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.47979e-10</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>444</Hsp_hit-from>
+      <Hsp_hit-to>626</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RFGGIARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGI-----GRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFV---TEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPLLANLRYTLRKRYGFSRDTKEKMRVPC</Hsp_qseq>
+      <Hsp_hseq>RYDAQISVFGSTLQNKLEEAKIFMVGSGALGCEFLKNLALMGISCSQNGNLTVTDDDVIEKSNLSRQFLFRDWNIGQPKSTVAATAAMVINPKLHVEALQNRASPETENVFNDAFWENLDAVVNALDNVTARMYIDSRCVYFQKPLLESGTLGAKCNTQMV-------IPH----------LTENYGASRDPPEKQAPMC</Hsp_hseq>
+      <Hsp_midline>R+     ++G +      +A + +VG G +G   ++ LA  GI     G LT+ D D + +SN +RQ      + G+ K T        INP+  V  +++     TE+   + F +  D V++A+D V  +  + +  V  ++P + SG  G + N  ++       + H          L + YG SRD  EK    C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.48476</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEY</Hsp_qseq>
+      <Hsp_hseq>VYGRETMKPLFGSNVLVSGLQGLGAEIAKNLVLAGVKSVTLHDDGNVELWDLSSNFFLSENDVGQNRAQACVQKLQELNNAVLVSALTGDLTKEHLSKF</Hsp_hseq>
+      <Hsp_midline>+YG   +     ++V V G+ G+G+   + L   G+  +TL D  NV   + +        D G+ +  A  +++ ++N    V  +   +T+++L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|42559902|sp|Q9Z1F9.1|SAE2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=SUMO-activating enzyme subunit 2; AltName: Full=Anthracycline-associated resistance ARX; AltName: Full=Ubiquitin-like 1-activating enzyme E1B; AltName: Full=Ubiquitin-like modifier-activating enzyme 2 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9Z1F9</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>8.01373e-10</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>SQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAG</Hsp_qseq>
+      <Hsp_hseq>SGGRVLVVGAGGIGCELLKNLVLTGFSHIDLIDLDTIDVSNLNRQFLFQKKHVGRSKAQVAKESVLQFHPQANIEAHHDSIMNPDYNVEFFRQFILVMNALDNRAARNHVNRMCLAADVPLIESGTAG</Hsp_hseq>
+      <Hsp_midline>S   V VVG GG+G   ++ L  TG   + LIDLD +  SN NRQ        G++K    +E + Q +PQ  +    D +   +    F + F  V++A+D    +  +    +    P + SG AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|122066571|sp|P31254.2|UBA1Y_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Ubiquitin-like modifier-activating enzyme 1 Y; AltName: Full=Ubiquitin-activating enzyme E1; AltName: Full=Ubiquitin-activating enzyme E1 Y [Mus musculus]</Hit_def>
+  <Hit_accession>P31254</Hit_accession>
+  <Hit_len>1058</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>9.6197e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>439</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MSDNALTSSRRFGGIARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIG-----RLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFV---TEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKN</Hsp_qseq>
+      <Hsp_hseq>MEDKCLPHQNRYDGQVAVFGSDLQEKLGKQKYFLVGAGAIGCELLKNFAMIGLGCGEDGEITVTDMDTIEKSNLNRQFLFRPWDITKLKSETAAAAVRDINPHIRIFSHQNRVGPETEHVYDDDFFQKLDGVANALDNVDARLYVDRRCVYYRKPLLESGTLGTKGN</Hsp_hseq>
+      <Hsp_midline>M D  L    R+ G   ++G        +    +VG G +G   ++  A  G+G      +T+ D+D + +SN NRQ      D  K K       +  INP   +F  ++ V   TE    + F +  D V +A+D V  +  +    V  ++P + SG  G + N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|74693410|sp|Q756K6.1|UBA4_ASHGO</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase UBA4; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Adenylyltransferase UBA4; Includes: RecName: Full=Sulfurtransferase UBA4 [Ashbya gossypii ATCC 10895]</Hit_def>
+  <Hit_accession>Q756K6</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.09168e-09</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>GDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFV</Hsp_qseq>
+      <Hsp_hseq>GLSGQVKLRSARVLIVGAGGLGCPALQYLAGAGIGHLGIVDNDVVEESNLHRQPLHDTSKVGLLKCDSAKEALSRLNPYCSIKTYPVRLSYANAFEIF-PSWDLILDCTD-----SPMSRYLI</Hsp_hseq>
+      <Hsp_midline>G S       A V +VG GG+G  A++ LA  GIG L ++D D V ESN +RQ    T   G  K  + +E ++++NP C +      ++  N  E F   +D ++D  D     + M+ Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1723404|sp|P51335.1|MOEB_PORPU</Hit_id>
+  <Hit_def>RecName: Full=Probable molybdopterin-synthase adenylyltransferase; AltName: Full=MoaD protein adenylase; AltName: Full=Molybdopterin-converting factor subunit 1 adenylase; AltName: Full=Sulfur carrier protein MoaD adenylyltransferase (chloroplast) [Porphyra purpurea]</Hit_def>
+  <Hit_accession>P51335</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>2.55311e-09</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>FSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAID</Hsp_qseq>
+      <Hsp_hseq>LKQSSILCVGAGGLGSPALIYLAASGIGKIGIVDNDIIDISNLQRQILYTVNDIGLSKAYIAKKKILEINPTCNVQIFNTRLQSINAIEII-RQYDIIIDGTD</Hsp_hseq>
+      <Hsp_midline>  Q+ +  VG GG+GS A+  LA +GIG++ ++D D +  SN  RQ+     D G +K    +++I +INP C V      +   N  E   + +D +ID  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|75220397|sp|P92974.1|UBE12_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Ubiquitin-activating enzyme E1 2; Short=AtUBA2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P92974</Hit_accession>
+  <Hit_len>1077</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>3.11065e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>653</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RFGGIARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGI-----GRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFV---TEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKNPALIQTADLSRVTHDPLLANLRYTLRKRYGFSRDTKEKMRVPC</Hsp_qseq>
+      <Hsp_hseq>RYDAQISVFGSTLQKKLEDARVFVVGAGALGCEFLKNLALMGVSCGTQGKLTVTDDDVIEKSNLSRQFLFRDWNIGQAKSTVAATAAAGINSRLNIDALQNRVGPETENVFDDSFWENLTVVVNALDNVTARLYVDSRCVYFQKPLLESGTLGAKCNTQMV-------IPH----------LTENYGASRDPPEKQAPMC</Hsp_hseq>
+      <Hsp_midline>R+     ++G +       A V VVG G +G   ++ LA  G+     G+LT+ D D + +SN +RQ      + G+AK T        IN +  +  +++ V   TE+   + F +    V++A+D V  +  + +  V  ++P + SG  G + N  ++       + H          L + YG SRD  EK    C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|226707519|sp|B3MLX7.1|MOCS3_DROAN</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Drosophila ananassae]</Hit_def>
+  <Hit_accession>B3MLX7</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.1996e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>FGVQGQLRLKNSSVLIVGMGGLGCPAAQYLAAAGCGKLGLIDYDEVERSNFHRQILHSEARCGMSKAESARIALLELNQHCEIRCHTRLLNSRN-AMHIIRTYDVVLDCSDNVATRYLLNDACVMLRKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>+G         + V +VG+GG+G  A + LA  G G+L LID D V  SN +RQ+       G +K  + R  + ++N  CE+      +   N   +  + +D V+D  D V  +  +    V  ++P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|42559898|sp|Q9UBT2.2|SAE2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=SUMO-activating enzyme subunit 2; AltName: Full=Anthracycline-associated resistance ARX; AltName: Full=Ubiquitin-like 1-activating enzyme E1B; AltName: Full=Ubiquitin-like modifier-activating enzyme 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9UBT2</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.27704e-09</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAG</Hsp_qseq>
+      <Hsp_hseq>VLVVGAGGIGCELLKNLVLTGFSHIDLIDLDTIDVSNLNRQFLFQKKHVGRSKAQVAKESVLQFYPKANIVAYHDSIMNPDYNVEFFRQFILVMNALDNRAARNHVNRMCLAADVPLIESGTAG</Hsp_hseq>
+      <Hsp_midline>V VVG GG+G   ++ L  TG   + LIDLD +  SN NRQ        G++K    +E + Q  P+  +    D +   +    F + F  V++A+D    +  +    +    P + SG AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|190358874|sp|Q7SXG4.2|SAE2_DANRE</Hit_id>
+  <Hit_def>RecName: Full=SUMO-activating enzyme subunit 2; AltName: Full=Ubiquitin-like 1-activating enzyme E1B; AltName: Full=Ubiquitin-like modifier-activating enzyme 2 [Danio rerio]</Hit_def>
+  <Hit_accession>Q7SXG4</Hit_accession>
+  <Hit_len>650</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.51565e-09</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GGIARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAG</Hsp_qseq>
+      <Hsp_hseq>GPLRKQLADS----LSSCRVLVVGAGGIGCELLKNLVLTGFKNIEVIDLDTIDVSNLNRQFLFQKKHVGKSKAQVAKESVLRFCPSANITAYHDSIMNPDYNVEFFRNFQLVMNALDNRAARNHVNRMCLAADIPLIESGTAG</Hsp_hseq>
+      <Hsp_midline>G + +   DS     S   V VVG GG+G   ++ L  TG   + +IDLD +  SN NRQ        GK+K    +E + +  P   +    D +   +    F + F  V++A+D    +  +    +    P + SG AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|226707521|sp|B4KI53.1|MOCS3_DROMO</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Drosophila mojavensis]</Hit_def>
+  <Hit_accession>B4KI53</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>4.83316e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>FGVSGQMKLKNSAVLIVGLGGLGCPAAQYLASAGCGNLGLVDYDEVEPSNLHRQTLHTVSRCGISKAESARIALLELNPHCRIICYSNLLNSFNAMQII-PAYDVILDCSDNVATRYLLNDACSILQKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>+G S       + V +VG+GG+G  A + LA  G G L L+D D V  SN +RQ        G +K  + R  + ++NP C +    + +   N  +     +D ++D  D V  +  +       ++P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|74689685|sp|Q6CBK1.1|UBA4_YARLI</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase UBA4; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Adenylyltransferase UBA4; Includes: RecName: Full=Sulfurtransferase UBA4 [Yarrowia lipolytica CLIB122]</Hit_def>
+  <Hit_accession>Q6CBK1</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>5.44463e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQ-LHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAID</Hsp_qseq>
+      <Hsp_hseq>FGISGQLDLRSKRILVVGAGGLGSPAIQYLAGAGIGHITIIDDDTVEESNLHRQTIHA--GNVNVPKSESAAEFVGKLNPCISVTPMVVRLSPSNSFSVF-EGHDLVLDCTD</Hsp_hseq>
+      <Hsp_midline>+G S         + VVG GG+GS A++ LA  GIG +T+ID D V ESN +RQ +HA  G+    K  +  E + ++NP   V  +   ++  N    F +G D V+D  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|226707520|sp|B4JBC4.1|MOCS3_DROGR</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3; AltName: Full=Molybdenum cofactor synthesis protein 3; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase MOCS3; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase MOCS3 [Drosophila grimshawi]</Hit_def>
+  <Hit_accession>B4JBC4</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>5.49049e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGA</Hsp_qseq>
+      <Hsp_hseq>FGIGGQLKLKNSAVLIVGIGGLGCPAAQYLAGAGCGSLGLVDYDQVERSNLHRQTLHTVARCGLSKAESARIALLELNPHCHITCHASLLNRFNAMDIM-HGYDVVLDCSDNVATRYLLNDACVMLGKPLV-SGSA</Hsp_hseq>
+      <Hsp_midline>+G         + V +VG+GG+G  A + LA  G G L L+D D V  SN +RQ        G +K  + R  + ++NP C +      +   N  +    G+D V+D  D V  +  +    V   +P V SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|119367489|sp|Q28GH3.1|SAE2_XENTR</Hit_id>
+  <Hit_def>RecName: Full=SUMO-activating enzyme subunit 2; AltName: Full=Ubiquitin-like 1-activating enzyme E1B; AltName: Full=Ubiquitin-like modifier-activating enzyme 2 [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>Q28GH3</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>6.72231e-09</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>SQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAG</Hsp_qseq>
+      <Hsp_hseq>STSRLLVVGAGGIGCELLKNLVLTGFINLDVIDLDTIDVSNLNRQFLFQKKHVGRSKAQVAKESVLQFCPEANITAYHDSIMNPDYNVEFFKQFTMVMNALDNNAARNHVNRMCLAAGIPLIESGTAG</Hsp_hseq>
+      <Hsp_midline>S + + VVG GG+G   ++ L  TG   L +IDLD +  SN NRQ        G++K    +E + Q  P+  +    D +   +    F K F  V++A+D    +  +    +    P + SG AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|121797049|sp|Q2TWN3.1|UBA4_ASPOR</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase uba4; AltName: Full=Common component for nitrate reductase and xanthine dehydrogenase protein F; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase uba4; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase uba4 [Aspergillus oryzae RIB40]</Hit_def>
+  <Hit_accession>Q2TWN3</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>8.02565e-09</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>SALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFV</Hsp_qseq>
+      <Hsp_hseq>SSQLKLRSAKVLIVGAGGLGCPAAQYLAGAGVGTLGLVDGDTVESSNLHRQVLHRSKNVGKLKVDSAIESLRDLNPHPTYIAHRAHLAPQDAADIF-KNYDLILDCTDNPATRYLISDTAVLLGKPLV</Hsp_hseq>
+      <Hsp_midline>S+      A V +VG GG+G  A + LA  G+G L L+D D V  SN +RQ+   + + GK KV +  E +  +NP          +   +  + F K +D ++D  D    +  ++   V   +P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|74673359|sp|Q4WV19.1|UBA4_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase uba4; AltName: Full=Common component for nitrate reductase and xanthine dehydrogenase protein F; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase uba4; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase uba4 [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>Q4WV19</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.17875e-08</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>AHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFV</Hsp_qseq>
+      <Hsp_hseq>ARVLIVGAGGLGCPAALYLAGAGVGTLGLVDGDTVENSNLHRQVLHRSKNVGTFKVDSAIEYLRELNPHPTYVPYRAHLTPQEAPGIF-KDYDIVLDCTDNPATRYLISDTAVLLGKPLV</Hsp_hseq>
+      <Hsp_midline>A V +VG GG+G  A   LA  G+G L L+D D V  SN +RQ+   + + G  KV +  E + ++NP          +T    P  F K +D V+D  D    +  ++   V   +P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|226707501|sp|B4FAT0.1|MOC32_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3-2; AltName: Full=Molybdenum cofactor synthesis protein 3-2; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase 2; AltName: Full=Adenylyltransferase MOCS3-2; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase 2; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase 2; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase 2; AltName: Full=Sulfurtransferase MOCS3-2 [Zea mays]</Hit_def>
+  <Hit_accession>B4FAT0</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.18857e-08</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>YGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGG</Hsp_qseq>
+      <Hsp_hseq>FGVEGQRKLSQSSILVVGAGGLGSPLALYLAACGVGCLGIVDGDDVELNNLHRQIIHKEAYVGQSKVKSAADACREINSAIKVVEHHHTLKPCNALE-IARKYDIVVDATDNLPTRYMISDCCVLLNKPLV-SGAALG</Hsp_hseq>
+      <Hsp_midline>+G       SQ+ + VVG GG+GS     LA  G+G L ++D D+V  +N +RQ+       G++KV +  +   +IN   +V E    +   N  E   + +D V+DA D +  +  ++   V   +P V SG A G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|290463407|sp|O23034.2|UBA5_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Ubiquitin-like modifier-activating enzyme 5; Short=Ubiquitin-activating enzyme 5 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O23034</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.18961e-08</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYF---------------GKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSG</Hsp_qseq>
+      <Hsp_hseq>VAIVGIGGVGSVAAEMLTRCGIGRLLLYDYDTVELANMNR-LFFRPDQVGMTKTDAAVQTLAEINPDVVLESFTMNITTVQGFETFTSSLTNKSFCPSKEGGSGVDLVLSCVDNYEARMAVNQACNELRQTWMESG</Hsp_hseq>
+      <Hsp_midline>V +VG+GGVGS A E L R GIGRL L D D V  +N NR L       G  K  A  + + +INP   +      +T     E F               G G D V+  +D    + A+     E +Q ++ SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|226713013|sp|A6ZT19.1|UBA4_YEAS7</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase UBA4; AltName: Full=Needs CLA4 to survive protein 3; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Adenylyltransferase UBA4; Includes: RecName: Full=Sulfurtransferase UBA4 [Saccharomyces cerevisiae YJM789]</Hit_def>
+  <Hit_accession>A6ZT19</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>1.30761e-08</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>FSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAID</Hsp_qseq>
+      <Hsp_hseq>LKNTRVLVVGAGGLGCPALPYLAGAGVGQIGIVDNDVVETSNLHRQVLHDSSRVGMLKCESARQYITKLNPHINVVTYPVRLNSSNAFDIF-KGYNYILDCTD</Hsp_hseq>
+      <Hsp_midline>     V VVG GG+G  A+  LA  G+G++ ++D D V  SN +RQ+   +   G  K  + R+ IT++NP   V      +   N  + F KG+++++D  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|226713599|sp|B0Y0P7.1|UBA4_ASPFC</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase uba4; AltName: Full=Common component for nitrate reductase and xanthine dehydrogenase protein F; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Molybdopterin-synthase adenylyltransferase; AltName: Full=Adenylyltransferase uba4; AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase; Includes: RecName: Full=Molybdopterin-synthase sulfurtransferase; AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase; AltName: Full=Sulfurtransferase uba4 [Aspergillus fumigatus A1163]</Hit_def>
+  <Hit_accession>B0Y0P7</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>1.31842e-08</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>AHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFV</Hsp_qseq>
+      <Hsp_hseq>ARVLIVGAGGLGCPAALYLAGAGVGTLGLVDGDTVENSNLHRQVLHSSKNVGTFKVDSAIEYLRELNPHPTYVPYRAHLTPQEAPGIF-KDYDIVLDCTDNPATRYLISDTAVLLGKPLV</Hsp_hseq>
+      <Hsp_midline>A V +VG GG+G  A   LA  G+G L L+D D V  SN +RQ+   + + G  KV +  E + ++NP          +T    P  F K +D V+D  D    +  ++   V   +P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|731699|sp|P38820.1|UBA4_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Adenylyltransferase and sulfurtransferase UBA4; AltName: Full=Needs CLA4 to survive protein 3; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Adenylyltransferase UBA4; Includes: RecName: Full=Sulfurtransferase UBA4 [Saccharomyces cerevisiae S288c] &gt;gi|226713011|sp|B3LSM6.1|UBA4_YEAS1 RecName: Full=Adenylyltransferase and sulfurtransferase UBA4; AltName: Full=Needs CLA4 to survive protein 3; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Adenylyltransferase UBA4; Includes: RecName: Full=Sulfurtransferase UBA4 [Saccharomyces cerevisiae RM11-1a] &gt;gi|226713012|sp|B5VK45.1|UBA4_YEAS6 RecName: Full=Adenylyltransferase and sulfurtransferase UBA4; AltName: Full=Needs CLA4 to survive protein 3; AltName: Full=Ubiquitin-like protein activator 4; Includes: RecName: Full=Adenylyltransferase UBA4; Includes: RecName: Full=Sulfurtransferase UBA4 [Saccharomyces cerevisiae AWRI1631]</Hit_def>
+  <Hit_accession>P38820</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>1.40897e-08</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>FSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAID</Hsp_qseq>
+      <Hsp_hseq>LKNTKVLVVGAGGLGCPALPYLAGAGVGQIGIVDNDVVETSNLHRQVLHDSSRVGMLKCESARQYITKLNPHINVVTYPVRLNSSNAFDIF-KGYNYILDCTD</Hsp_hseq>
+      <Hsp_midline>     V VVG GG+G  A+  LA  G+G++ ++D D V  SN +RQ+   +   G  K  + R+ IT++NP   V      +   N  + F KG+++++D  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|182702190|sp|A3KMV5.1|UBA1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Ubiquitin-like modifier-activating enzyme 1; AltName: Full=Ubiquitin-activating enzyme E1 [Bos taurus]</Hit_def>
+  <Hit_accession>A3KMV5</Hit_accession>
+  <Hit_len>1058</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>1.79896e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>442</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>DNALTSSRRFGGIARLYGDSALTHFSQAHVCVVGVGGVGSWAVEALARTGIG-----RLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEY---FGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAGGQKN</Hsp_qseq>
+      <Hsp_hseq>DKCLPRQNRYDGQVAVFGSDLQERLGKQKYFLVGAGAIGCELLKNFAMIGLGCAEDGEIVVTDMDTIEKSNLNRQFLFRPWDVTKLKSDTAAAAVRQMNPHIRVTSHQNRVGPDTERIYDDDFFQNLDGVTNALDNVDARMYMDRRCVYYRKPLLESGTLGTKGN</Hsp_hseq>
+      <Hsp_midline>D  L    R+ G   ++G        +    +VG G +G   ++  A  G+G      + + D+D + +SN NRQ      D  K K       + Q+NP   V   ++ V  D    Y   F +  D V +A+D V  +  M    V  ++P + SG  G + N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|74582149|sp|O42939.1|UBA2_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Ubiquitin-activating enzyme E1-like; AltName: Full=Pmt3-activating enzyme subunit 2 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O42939</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.04298e-08</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>ALTHFSQAHVCVVGVGGVGSWAVEALARTGIGRLTLIDLDNVAESNANRQLHALTGDFGKAKVTALRERITQINPQCEVFEIEDFVTEDNLPEYFGKGFDFVIDAIDQVRVKAAMAAYFVERKQPFVLSGGAG</Hsp_qseq>
+      <Hsp_hseq>ALRNFKSAKVLLVGAGGIGCELLKNLLMSGVKEVHIIDLDTIDLSNLNRQFLFRKKHVKQPKAIVAAKTASSFNPNVKLEAYHANIKEDRFNVAWFRQFDLVFNALDNLDARRHVNKQCLLASVPLIESGTTG</Hsp_hseq>
+      <Hsp_midline>AL +F  A V +VG GG+G   ++ L  +G+  + +IDLD +  SN NRQ         + K     +  +  NP  ++      + ED     + + FD V +A+D +  +  +    +    P + SG  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

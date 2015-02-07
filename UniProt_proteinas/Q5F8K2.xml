@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-01-23" modified="2015-01-07" version="77">
+<accession>Q5F8K2</accession>
+<name>LOLD_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Lipoprotein-releasing system ATP-binding protein LolD</fullName>
+<ecNumber evidence="1">3.6.3.-</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">lolD</name>
+<name type="ordered locus">NGO0770</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Part of the ABC transporter complex LolCDE involved in the translocation of mature outer membrane-directed lipoproteins, from the inner membrane to the periplasmic chaperone, LolA. Responsible for the formation of the LolA-lipoprotein complex in an ATP-dependent manner.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">The complex is composed of two ATP-binding proteins (LolD) and two transmembrane proteins (LolC and LolE).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cell inner membrane</location>
+<topology evidence="1">Peripheral membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the ABC transporter superfamily. Lipoprotein translocase (TC 3.A.1.125) family.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Contains 1 ABC transporter domain.</text>
+</comment>
+<dbReference type="EC" id="3.6.3.-" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89485.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207897.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8K2"/>
+<dbReference type="STRING" id="242231.NGO0770"/>
+<dbReference type="EnsemblBacteria" id="AAW89485">
+<property type="protein sequence ID" value="AAW89485"/>
+<property type="gene ID" value="NGO0770"/>
+</dbReference>
+<dbReference type="GeneID" id="3282041"/>
+<dbReference type="KEGG" id="ngo:NGO0770"/>
+<dbReference type="PATRIC" id="20334688">
+<property type="gene designation" value="VBINeiGon24812_0916"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1136"/>
+<dbReference type="KO" id="K09810"/>
+<dbReference type="OMA" id="FFREIAD"/>
+<dbReference type="OrthoDB" id="EOG6T7N3V"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-725-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043190">
+<property type="term" value="C:ATP-binding cassette (ABC) transporter complex"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016887">
+<property type="term" value="F:ATPase activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042954">
+<property type="term" value="F:lipoprotein transporter activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.300">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003593">
+<property type="entry name" value="AAA+_ATPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003439">
+<property type="entry name" value="ABC_transporter-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017871">
+<property type="entry name" value="ABC_transporter_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015854">
+<property type="entry name" value="ABC_transpr_LolD"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011924">
+<property type="entry name" value="LolD_lipo_ATP-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00005">
+<property type="entry name" value="ABC_tran"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00382">
+<property type="entry name" value="AAA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR02211">
+<property type="entry name" value="LolD_lipo_ex"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00211">
+<property type="entry name" value="ABC_TRANSPORTER_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50893">
+<property type="entry name" value="ABC_TRANSPORTER_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51244">
+<property type="entry name" value="LOLD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0997">Cell inner membrane</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="chain" description="Lipoprotein-releasing system ATP-binding protein LolD" id="PRO_0000272109">
+<location>
+<begin position="1"/>
+<end position="231"/>
+</location>
+</feature>
+<feature type="domain" description="ABC transporter" evidence="1">
+<location>
+<begin position="6"/>
+<end position="231"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP" evidence="1">
+<location>
+<begin position="42"/>
+<end position="49"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_01708"/>
+</source>
+</evidence>
+<sequence length="231" mass="25259" checksum="1CE7B3A5166BA48D" modified="2005-03-15" version="1">
+MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDM
+PSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRK
+EAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRAN
+ARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQGANA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

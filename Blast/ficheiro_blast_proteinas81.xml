@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>6333</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>133</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>6333</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|82592873|sp|P0ACH0.1|HSLR_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Heat shock protein 15; Short=HSP15 [Escherichia coli O157:H7] &gt;gi|82592874|sp|P0ACG9.1|HSLR_ECOL6 RecName: Full=Heat shock protein 15; Short=HSP15 [Escherichia coli CFT073] &gt;gi|82592875|sp|P0ACG8.1|HSLR_ECOLI RecName: Full=Heat shock protein 15; Short=HSP15 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0ACH0</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>7.25896e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MKDKHDSSAMRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPEARLLYEEDAKTAALREECKQLDQFSRITSAHPDGRPTKRDRRQLDRLKKGD</Hsp_qseq>
+      <Hsp_hseq>MKEK-PAVEVRLDKWLWAARFYKTRALAREMIEGGKVHYNGQRSKPSKIVELNATLTLRQGNDERTVIVKAITEQRRPASEAALLYEETAESVEKREKMALARKLNALTMPHPDRRPDKKERRDLLRFKHGD</Hsp_hseq>
+      <Hsp_midline>MK+K  +  +RLDKWLWAARF+KTR+LA++ IE G+V  NG + K SK +++   + L   +    + VK +  QRRPA EA LLYEE A++   RE+     + + +T  HPD RP K++RR L R K GD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1176867|sp|P44754.1|HSLR_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Heat shock protein 15 homolog; Short=HSP15 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44754</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>4.47999e-29</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPEARLLYEEDAKTAALREECKQLDQFSRITSAHPDGRPTKRDRRQLDRLKKGD</Hsp_qseq>
+      <Hsp_hseq>VRLDKWLWAARFYKTRSIAKAMIESGKVHYNNQRAKVSKIVEVGAMLKLRQGNEEKEIKIIALSDQRRGAPEAQLLYQETESSVKKREEIAWARKNNSLSMPHPDRRPNKKERRDLLKFKHQD</Hsp_hseq>
+      <Hsp_midline>+RLDKWLWAARF+KTRS+A+  IE G+V  N  + K SK +++G ++ L   +   +IK+  L+ QRR APEA+LLY+E   +   REE     + + ++  HPD RP K++RR L + K  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|7387782|sp|Q44264.1|HSLR_AERSA</Hit_id>
+  <Hit_def>RecName: Full=Heat shock protein 15 homolog; Short=HSP15 [Aeromonas salmonicida]</Hit_def>
+  <Hit_accession>Q44264</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.8498e-25</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>SSAMRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPEARLLYEEDAKTAALREECKQLDQFSRITSAHPDGRPTKRDRRQLDRLKK</Hsp_qseq>
+      <Hsp_hseq>TTQVRLDKWLWAARFYKTRSLARDQIEGGKVHYNGQRSKPGKAVEAGALIRVWQGQDEREVRVLQVSEQRKSAPLAQLLYEETEASLKKRAENSEARRFNSQFAPSPERRPDKQERRQLIKVKQ</Hsp_hseq>
+      <Hsp_midline>++ +RLDKWLWAARF+KTRSLA+  IE G+V  NG + K  K ++ G +I +       +++V  ++ QR+ AP A+LLYEE   +   R E  +  +F+   +  P+ RP K++RRQL ++K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|17433248|sp|Q9KGI8.1|Y073_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein BH0073 [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KGI8</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>8.2318e-06</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>MRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPEARLLYE</Hsp_qseq>
+      <Hsp_hseq>MRLDKFLKVSRLIKRRTLAKEVCEQGRITVNGNVAKAGTVVKEGDELVIRFGQKLVTVEITNVKETVRK-EEASTLYE</Hsp_hseq>
+      <Hsp_midline>MRLDK+L  +R  K R+LA++  E GR+ VNG+  K    +  GD + +        +++  +    R   EA  LYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|586886|sp|P37557.1|YABO_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YabO [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P37557</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>6.43994e-05</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>MRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGD</Hsp_qseq>
+      <Hsp_hseq>MRLDKFLKVSRLIKRRTLAKEVADQGRISINGNQAKASSDVKPGD</Hsp_hseq>
+      <Hsp_midline>MRLDK+L  +R  K R+LA++  + GR+ +NG++ K S  +  GD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20140663|sp|Q92F59.2|Y248_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein Lin0248 [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q92F59</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.000114471</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>MRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGD</Hsp_qseq>
+      <Hsp_hseq>MRLDKYLKVSRLIKRRTVAKEVAEKGRIAVNGVTAKPGTNVKSGD</Hsp_hseq>
+      <Hsp_midline>MRLDK+L  +R  K R++A++  E GR+ VNG   K    +  GD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|7388544|sp|Q9ZIM1.2|Y216_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein Lmo0216 [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q9ZIM1</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00011683</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>MRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGD</Hsp_qseq>
+      <Hsp_hseq>MRLDKYLKVSRLIKRRTVAKEVAEKGRIAVNGVTAKPGTNVKSGD</Hsp_hseq>
+      <Hsp_midline>MRLDK+L  +R  K R++A++  E GR+ VNG   K    +  GD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|7388503|sp|Q9ZJJ0.1|YE23_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein jhp_1318 [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZJJ0</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.000118756</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>MRIDKFLQSVGLVKRRVLATDMCNVGAVWLNGSCAKPSKEVKTGDVISL</Hsp_hseq>
+      <Hsp_midline>MR+DK+L +    K R LA     +G V +NGS  K SK +  GD+I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|54039869|sp|P64406.1|Y007_STRR6</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein spr0007 [Streptococcus pneumoniae R6] &gt;gi|54042363|sp|P64405.1|Y007_STRPN RecName: Full=Uncharacterized protein SP_0007 [Streptococcus pneumoniae TIGR4]</Hit_def>
+  <Hit_accession>P64406</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00028229</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>MRLDKYLKVSRIIKRRTVAKEVADKGRIKVNGILAKSSTDLKVNDQVEI</Hsp_hseq>
+      <Hsp_midline>MRLDK+L  +R  K R++A++  + GR++VNG   K+S  + + D +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|7388493|sp|O25966.1|Y1423_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HP_1423 [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25966</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000500519</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>MRIDKFLQSVGLVKRRVLATDMCNVGAVWLNGSCAKASKEVKAGDTISL</Hsp_hseq>
+      <Hsp_midline>MR+DK+L +    K R LA     +G V +NGS  K SK +  GD I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|226699096|sp|B6JDU6.1|RS4_OLICO</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Oligotropha carboxidovorans OM5]</Hit_def>
+  <Hit_accession>B6JDU6</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00323584</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPEARLLYEEDAKTAALREECKQLDQFSRITS</Hsp_qseq>
+      <Hsp_hseq>RLDAIVYRAKFVPTMFAARQFINHGHIKVNGKRVNIPSYKVKVGDVIE-----------VKDASKQLALVLEANQLAERDVPDFLDVDHGKQTAKFTRIPS</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G ++VNG +V   S  + +GD+I+           VK  + Q     EA  L E D       +  KQ  +F+RI S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|3915406|sp|O50310.1|Y723_CHLP8</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase Cpar_0723; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase [Chlorobaculum parvum NCIB 8327]</Hit_def>
+  <Hit_accession>O50310</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00710105</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>SAMRLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVKNSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPE-------ARLLYEED</Hsp_qseq>
+      <Hsp_hseq>TPMRIDRYLTQQVENMTRNKVQAAIEEGRVLVNGKPVKSNYRVKSCDHIHLTF--------------LRPPAPELAPEDIPITILYEDD</Hsp_hseq>
+      <Hsp_midline>+ MR+D++L       TR+  Q  IE GRV VNG  VK++  +   D I LT                R PAPE         +LYE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|152112255|sp|Q07R54.2|RS4_RHOP5</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Rhodopseudomonas palustris BisA53]</Hit_def>
+  <Hit_accession>Q07R54</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0169018</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNS</Hsp_qseq>
+      <Hsp_hseq>RLDTVVYRAKFVATMFAARQFINHGHVKVNGKRVNISSYKVKVGDLIEVKESS</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G V+VNG +V  +S  + +GD+I++  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|171472975|sp|A0QSL7.1|RS4_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0QSL7</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0267747</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL---TLNSLPHKI</Hsp_qseq>
+      <Hsp_hseq>RLDNVVYRAGLARTRRMARQLVSHGHFLVNGVKVDIPSYRVSQYDIIDVKEKSLNTLPFQI</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A   +TR +A++ +  G   VNG KV   S  +   DIID+   +LN+LP +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|152112236|sp|A1T519.1|RS4_MYCVP</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Mycobacterium vanbaalenii PYR-1] &gt;gi|189045387|sp|A4TEJ4.1|RS4_MYCGI RecName: Full=30S ribosomal protein S4 [Mycobacterium gilvum PYR-GCK]</Hit_def>
+  <Hit_accession>A1T519</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0303946</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKV----KNSKTIDIGDIIDLTLNSLPHKI</Hsp_qseq>
+      <Hsp_hseq>RLDNVVYRAGLARTRRMARQLVSHGHFTVNGVKVDVPSYRVSQYDIIDVKDKSINTLPFEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A   +TR +A++ +  G   VNG KV          DI D+ D ++N+LP ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|41017838|sp|Q89ID3.1|RS4_BRADU</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Bradyrhizobium diazoefficiens USDA 110]</Hit_def>
+  <Hit_accession>Q89ID3</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0312279</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVSTIFAARQFINHGHIKVNGRKVNISSYQLKVGDVVEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G ++VNG KV  +S  + +GD++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|123407656|sp|Q2ITR6.1|RS4_RHOP2</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Rhodopseudomonas palustris HaA2]</Hit_def>
+  <Hit_accession>Q2ITR6</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0337567</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNS</Hsp_qseq>
+      <Hsp_hseq>RLDTVVYRAKFVSTMFAARQFINHGHIKVNGKRVNISSYKVRVGDLIEVKESS</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G ++VNG +V  +S  + +GD+I++  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|254764599|sp|B8EL92.1|RS4_METSB</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Methylocella silvestris BL2]</Hit_def>
+  <Hit_accession>B8EL92</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0337567</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNS</Hsp_qseq>
+      <Hsp_hseq>RLDAVIYRAKFVPTVFAARQFVNHGHVKVNGKRVNIASYLVKVGDVIEVKESS</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G V+VNG +V   S  + +GD+I++  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|32700063|sp|P45811.3|RS4_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Mycobacterium bovis AF2122/97] &gt;gi|152112232|sp|A1KPE4.1|RS4_MYCBP RecName: Full=30S ribosomal protein S4 [Mycobacterium bovis BCG str. Pasteur 1173P2] &gt;gi|172047916|sp|A5U8D4.1|RS4_MYCTA RecName: Full=30S ribosomal protein S4 [Mycobacterium tuberculosis H37Ra] &gt;gi|254764600|sp|C1AHR6.1|RS4_MYCBT RecName: Full=30S ribosomal protein S4 [Mycobacterium bovis BCG str. Tokyo 172] &gt;gi|614125773|sp|P9WH34.1|RS4_MYCTO RecName: Full=30S ribosomal protein S4 [Mycobacterium tuberculosis CDC1551] &gt;gi|614125780|sp|P9WH35.1|RS4_MYCTU RecName: Full=30S ribosomal protein S4 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P45811</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0457641</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK----NSKTIDIGDIIDLTLNSLPHKI</Hsp_qseq>
+      <Hsp_hseq>RLDNVIYRAGLARTRRMARQLVSHGHFNVNGVHVNVPSYRVSQYDIVDVRDKSLNTVPFQI</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A   +TR +A++ +  G   VNG  V          DI D+ D +LN++P +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|61215639|sp|Q73S44.1|RS4_MYCPA</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Mycobacterium avium subsp. paratuberculosis K-10] &gt;gi|152112231|sp|A0QKU6.1|RS4_MYCA1 RecName: Full=30S ribosomal protein S4 [Mycobacterium avium 104]</Hit_def>
+  <Hit_accession>Q73S44</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0475812</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL---TLNSLPHKI</Hsp_qseq>
+      <Hsp_hseq>RLDNVVYRAGLARTRRMARQLVTHGHFTVNGVRVDVPSYRVSQYDIIDVREQSLNSVPFQI</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A   +TR +A++ +  G   VNG +V   S  +   DIID+   +LNS+P +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|122476766|sp|Q218M1.1|RS4_RHOPB</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Rhodopseudomonas palustris BisB18]</Hit_def>
+  <Hit_accession>Q218M1</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0502966</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNS</Hsp_qseq>
+      <Hsp_hseq>RLDTVVYRAKFVSTMFAARQFINHGHVKVNGKRVNIASYKVKVGDLVEVKESS</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G V+VNG +V   S  + +GD++++  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|61215592|sp|Q6N9G0.3|RS4_RHOPA</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4; AltName: Full=RRP-S4 [Rhodopseudomonas palustris CGA009] &gt;gi|226699113|sp|B3Q7H1.1|RS4_RHOPT RecName: Full=30S ribosomal protein S4 [Rhodopseudomonas palustris TIE-1]</Hit_def>
+  <Hit_accession>Q6N9G0</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0533166</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVSTMFAARQFINHGHIKVNGKRVNIPSYKVRVGDVIEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G ++VNG +V   S  + +GD+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123735552|sp|Q13A88.1|RS4_RHOPS</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Rhodopseudomonas palustris BisB5]</Hit_def>
+  <Hit_accession>Q13A88</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0706633</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDTVVYRSKFVSTMFAARQFINHGHIKVNGKRVNISSYKVRVGDVIEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ ++F  T   A++ I  G ++VNG +V  +S  + +GD+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|226699093|sp|B2HCX3.1|RS4_MYCMM</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Mycobacterium marinum M]</Hit_def>
+  <Hit_accession>B2HCX3</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0820177</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK----NSKTIDIGDIIDLTLNSLPHKI</Hsp_qseq>
+      <Hsp_hseq>RLDNVVYRAGLARTRRMARQLVSHGHFSVNGVHVNVPSYRVSQYDIIDVRDNSLNTVPFQI</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A   +TR +A++ +  G   VNG  V          DI D+ D +LN++P +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|90101703|sp|Q4FLJ0.1|RS4_PELUB</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Candidatus Pelagibacter ubique HTCC1062]</Hit_def>
+  <Hit_accession>Q4FLJ0</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0833396</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPEARLLYEEDAKTAALR</Hsp_qseq>
+      <Hsp_hseq>RLDSVVYRARFSTTVFSARQLINHGHVRVNGKKVNIGSYVVKEEDIIEIRDKSKQLAIIDIALASKERETPEYINLDEKNKKVTFVR</Hsp_hseq>
+      <Hsp_midline>RLD  ++ ARF  T   A++ I  G V+VNG KV   S  +   DII++   S    I    L  + R  PE   L E++ K   +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|189045363|sp|A8I889.1|RS4_AZOC5</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Azorhizobium caulinodans ORS 571]</Hit_def>
+  <Hit_accession>A8I889</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0841522</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVPTIFAARQFVNHGHVKVNGRRVNIPSYQVKVGDVIEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G V+VNG +V   S  + +GD+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|122316382|sp|Q0AQX8.1|RS4_MARMM</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Maricaulis maris MCS10]</Hit_def>
+  <Hit_accession>Q0AQX8</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0858011</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPEARLLYEEDAKTAALREECKQLDQFSRITSA</Hsp_qseq>
+      <Hsp_hseq>RLDAIVYRCKFVPTVFASRQFVNHGHVKVNGIKVNIPSYRCKPGDVIEVRERSRSMALVLEALDSPERDLPE---YIDLDAK--AMKATFVRMPEFSEVPYA</Hsp_hseq>
+      <Hsp_midline>RLD  ++  +F  T   +++ +  G V+VNG KV   S     GD+I++   S    + ++ L+   R  PE     + DAK  A++    ++ +FS +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|152112235|sp|A0PMB6.1|RS4_MYCUA</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Mycobacterium ulcerans Agy99]</Hit_def>
+  <Hit_accession>A0PMB6</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0860984</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK----NSKTIDIGDIIDLTLNSLPHKI</Hsp_qseq>
+      <Hsp_hseq>RLDNVVYRAGLARTRRMARQLVSHGHFSVNGVHVNVPSYRVSQYDIIDVRDNSLNTVPFQI</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A   +TR +A++ +  G   VNG  V          DI D+ D +LN++P +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|226701078|sp|A7IMS4.1|RS4_XANP2</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Xanthobacter autotrophicus Py2]</Hit_def>
+  <Hit_accession>A7IMS4</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0927249</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVPTIFAARQFVSHGHVKVNGQRVNIPSYLVKVGDVVEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G V+VNG +V   S  + +GD++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|26399431|sp|Q8YGM5.1|RS4_BRUME</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Brucella melitensis bv. 1 str. 16M] &gt;gi|172048262|sp|A5VQ09.1|RS4_BRUO2 RecName: Full=30S ribosomal protein S4 [Brucella ovis ATCC 25840] &gt;gi|189045365|sp|A9MAK7.1|RS4_BRUC2 RecName: Full=30S ribosomal protein S4 [Brucella canis ATCC 23365] &gt;gi|189045366|sp|B0CLF6.1|RS4_BRUSI RecName: Full=30S ribosomal protein S4 [Brucella suis ATCC 23445] &gt;gi|254764573|sp|C0RIG4.1|RS4_BRUMB RecName: Full=30S ribosomal protein S4 [Brucella melitensis ATCC 23457]</Hit_def>
+  <Hit_accession>Q8YGM5</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0973323</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPE</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVPTIFAARQFINHGHVNVNGRRVNIQSYRLKVGDVVEVREKSKQLAIVLEAVQLAERDVPD</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G V VNG +V   S  + +GD++++   S    I ++ +    R  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|75505300|sp|Q57DS5.1|RS4_BRUAB</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Brucella abortus bv. 1 str. 9-941] &gt;gi|90101677|sp|Q2YNH2.1|RS4_BRUA2 RecName: Full=30S ribosomal protein S4 [Brucella abortus 2308] &gt;gi|226697812|sp|B2S567.1|RS4_BRUA1 RecName: Full=30S ribosomal protein S4 [Brucella abortus S19]</Hit_def>
+  <Hit_accession>Q57DS5</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.102168</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPE</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVPTIFAARQFINHGHVNVNGRRVNIQSYRLKVGDVVEVREKSKQLAIVLEAVQLAERDVPD</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G V VNG +V   S  + +GD++++   S    I ++ +    R  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|26399355|sp|P59128.1|RS4_BRUSU</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Brucella suis 1330]</Hit_def>
+  <Hit_accession>P59128</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.106208</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPE</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVPTIFAARQFINHGHVNVNGRRVNIQSYRLKVGDVVEVREKSKQLAIVLEAVQLAERDVPD</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G V VNG +V   S  + +GD++++   S    I ++ +    R  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|122418035|sp|Q1QMT5.1|RS4_NITHX</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Nitrobacter hamburgensis X14]</Hit_def>
+  <Hit_accession>Q1QMT5</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.111482</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPEARLLYEEDAKTAALREECKQLDQFSRI</Hsp_qseq>
+      <Hsp_hseq>RLDTVVYRAKFVPTMFAARQFINHGHVKVNGRRVNIPSYKLKVGDAIE-----------VKDASKQLALVLEANQLAERDVPDFIDADHNKQTAKFVRI</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G V+VNG +V   S  + +GD I+           VK  + Q     EA  L E D       +  KQ  +F RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|61215422|sp|Q5Z1L0.1|RS4_NOCFA</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Nocardia farcinica IFM 10152]</Hit_def>
+  <Hit_accession>Q5Z1L0</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.181632</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL---TLNSLPHKIKVKGLNHQRRPAP</Hsp_qseq>
+      <Hsp_hseq>RLDNVVYRAGLARTRRQARQLVSHGHFLVNGVKVDVPSYRVSQYDIIDVKEKSLSTLPFQVARETLGE--RPVP</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A   +TR  A++ +  G   VNG KV   S  +   DIID+   +L++LP ++  + L    RP P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|172046996|sp|A4YRT2.1|RS4_BRASO</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Bradyrhizobium sp. ORS 278]</Hit_def>
+  <Hit_accession>A4YRT2</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.184462</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDTVVFRAKFVSTMFAARQFINHGHIKVNGRKVNIASYQVKPGDVIEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G ++VNG KV   S  +  GD+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|172047313|sp|A5EMG8.1|RS4_BRASB</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Bradyrhizobium sp. BTAi1]</Hit_def>
+  <Hit_accession>A5EMG8</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.188065</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDTVVFRAKFVSTMFAARQFINHGHIKVNGRKVNIASYQVKPGDVIEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G ++VNG KV   S  +  GD+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|226699089|sp|B1M7L0.1|RS4_METRJ</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Methylobacterium radiotolerans JCM 2831]</Hit_def>
+  <Hit_accession>B1M7L0</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.230411</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPE</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVATPFAARQFVNHGHVKVNGVRVNIPSYQVKAGDLIEVKESSRQLEIVIVATQLSERDVPD</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G V+VNG +V   S  +  GD+I++  +S   +I +       R  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|226697805|sp|B2IJM5.1|RS4_BEII9</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Beijerinckia indica subsp. indica ATCC 9039]</Hit_def>
+  <Hit_accession>B2IJM5</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.234909</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVPTVFASRQFINHGHIKVNGRRVNIASYQVRVGDVIEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   +++ I  G ++VNG +V   S  + +GD+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226699092|sp|B1MGA0.1|RS4_MYCA9</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Mycobacterium abscessus ATCC 19977]</Hit_def>
+  <Hit_accession>B1MGA0</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.254801</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL---TLNSLPHKI</Hsp_qseq>
+      <Hsp_hseq>RLDNVVYRAGLARTRRMARQLVSHGHFTVNNVKVDVPSYRVSQYDIIDIKPKSLNTLPFEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A   +TR +A++ +  G   VN  KV   S  +   DIID+   +LN+LP ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|7388198|sp|Q9X799.1|RS4_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Mycobacterium leprae TN] &gt;gi|254764601|sp|B8ZSH7.1|RS4_MYCLB RecName: Full=30S ribosomal protein S4 [Mycobacterium leprae Br4923]</Hit_def>
+  <Hit_accession>Q9X799</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.275277</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK----NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAP</Hsp_qseq>
+      <Hsp_hseq>RLDNVIYRAGLARTRRMARQLVSHGHFSVNGVHVNVPSYRVSQYDIIDIRDKSLDTVPFQIARETVGD--RPIP</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A   +TR +A++ +  G   VNG  V          DI DI D +L+++P +I  + +    RP P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|254764604|sp|C0QQQ0.1|RS4_PERMH</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Persephonella marina EX-H1]</Hit_def>
+  <Hit_accession>C0QQQ0</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.332588</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDNVVYRLGFAKTRRQARQLVRHGHFLVNGRKVDIPSYRVDPGDIIEL</Hsp_hseq>
+      <Hsp_midline>RLD  ++   F KTR  A++ +  G   VNG KV   S  +D GDII+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|254764562|sp|B9JVV3.1|RS4_AGRVS</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Agrobacterium vitis S4]</Hit_def>
+  <Hit_accession>B9JVV3</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.352414</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDAIVYRAKFVPTVFAARQFVNHGHVSVNGVKVNIGSYRCKAGDVIEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G V VNG KV   S     GD+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|259495284|sp|C5CGH5.1|RS4_KOSOT</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Kosmotoga olearia TBF 19.5.1]</Hit_def>
+  <Hit_accession>C5CGH5</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.357297</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKV-KNSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDNVVYRMGFASSRKQARQLVSHGHVLVNGRKVNKASYSVRPGDIIEI</Hsp_hseq>
+      <Hsp_midline>RLD  ++   F  +R  A++ +  G V VNG KV K S ++  GDII++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|254764597|sp|B8IB09.1|RS4_METNO</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Methylobacterium nodulans ORS 2060]</Hit_def>
+  <Hit_accession>B8IB09</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.395663</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNS</Hsp_qseq>
+      <Hsp_hseq>RLDAVIYRAKFVATPFAARQFVNHGHIKVNGQRVNIPSFLVKPGDVIEVKESS</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G ++VNG +V   S  +  GD+I++  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|189045368|sp|B0T660.1|RS4_CAUSK</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Caulobacter sp. K31]</Hit_def>
+  <Hit_accession>B0T660</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.399497</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDAIVYRAKFVPTVFAARQFVNHGHVTVNGKRVNIASYRCKIGDVIAV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G V VNG +V   S    IGD+I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|171704561|sp|A6X1K6.1|RS4_OCHA4</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Ochrobactrum anthropi ATCC 49188]</Hit_def>
+  <Hit_accession>A6X1K6</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.508343</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPE</Hsp_qseq>
+      <Hsp_hseq>RLDAVVYRAKFVPTIFAARQFINHGHVNVNGRRVNVQSYRLKTGDVVEVREKSKQLVIVLEAVQLAERDVPD</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G V VNG +V   S  +  GD++++   S    I ++ +    R  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|254764606|sp|C3MD82.1|RS4_RHISN</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>C3MD82</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.513263</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDL</Hsp_qseq>
+      <Hsp_hseq>RLDAIVYRAKFVPTVFAARQFVNHGHVKVNGVRVNIGSYRCKAGDVIEV</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G V+VNG +V   S     GD+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|152112254|sp|Q1MG11.1|RS4_RHIL3</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Rhizobium leguminosarum bv. viciae 3841]</Hit_def>
+  <Hit_accession>Q1MG11</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.533422</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPE</Hsp_qseq>
+      <Hsp_hseq>RLDAIVYRAKFVPTVFAARQFVNHGHVSVNGVRVNIGSYRCKAGDVIEVREKSKQLVIVLEAVSLAERDVPD</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G V VNG +V   S     GD+I++   S    I ++ ++   R  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|90101700|sp|Q3ST14.1|RS4_NITWN</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Nitrobacter winogradskyi Nb-255]</Hit_def>
+  <Hit_accession>Q3ST14</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.559732</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNSLPHKIKVKGLNHQRRPAPEARLLYEEDAKTAALREECKQLDQFSRI</Hsp_qseq>
+      <Hsp_hseq>RLDTVVYRAKFVPTIFAARQFINHGHVKVNGRRVNIPSYKLKVGDTVE-----------VKDASKQLALVLEANQLAERDVPDFIDADHNKQSAKFIRI</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ I  G V+VNG +V   S  + +GD ++           VK  + Q     EA  L E D       +  KQ  +F RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|171460831|sp|A6U9M8.1|RS4_SINMW</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S4 [Sinorhizobium medicae WSM419]</Hit_def>
+  <Hit_accession>A6U9M8</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.581707</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RLDKWLWAARFFKTRSLAQKHIELGRVQVNGSKVK-NSKTIDIGDIIDLTLNS</Hsp_qseq>
+      <Hsp_hseq>RLDAIVYRAKFVPTVFAARQFVNHGHVKVNGVRVNIGSYRCKPGDVIEVKESS</Hsp_hseq>
+      <Hsp_midline>RLD  ++ A+F  T   A++ +  G V+VNG +V   S     GD+I++  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

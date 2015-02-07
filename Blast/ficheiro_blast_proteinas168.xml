@@ -1,0 +1,1022 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>59243</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>292</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>59243</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>292</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81784704|sp|Q9JZQ3.1|METF_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZQ3</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>597.045</Hsp_bit-score>
+      <Hsp_score>1538</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MNYAKEINALNNSLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILGARP</Hsp_qseq>
+      <Hsp_hseq>MNYAKEINALNNSLSDLKGDINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAAPHLTGIDASPDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPSWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILGVRP</Hsp_hseq>
+      <Hsp_midline>MNYAKEINALNNSLSDLKG+INVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAA HLTGIDAS DELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIP WLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILG RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1170934|sp|P45208.1|METF_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45208</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.153</Hsp_bit-score>
+      <Hsp_score>1328</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MNYAKEINALNNSLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILGARP</Hsp_qseq>
+      <Hsp_hseq>MSYAKEIDTLNQHIADFNKKINVSFEFFPPKNEKMETLLWDSIHRLKVLKPKFVSVTYGANSGERDRTHGIVKAIKQETGLEAAPHLTGIDATPEELKQIARDYWDSGIRRIVALRGDEPKGYAKKPFYASDLVELLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDIENYLRFRDRCASIGIDTEIVPGILPVTNFKQLQKMASFTNVKIPAWLVKAYDGLDNDPTTRNLVAASVAMDMVKILSREGVNDFHFYTLNRSELTYAICHMLGVRP</Hsp_hseq>
+      <Hsp_midline>M+YAKEI+ LN  ++D    INVSFEFFPPKNE+MET+LWDSIHRL+ L PKFVSVTYGANSGERDRTHGIVK IKQETGLEAA HLTGIDA+ +EL+QIA+DYWDSGIRRIVALRGDEP GY KKPFYA DLV+LLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFD+E YLRFRDRC  +GID EIVPGILPVTNFKQL KMA  TNVKIP WL + Y+GLD+D  TRNLVAAS+A+DMVK+LSREGV DFHFYTLNRSELTYAICH+LG RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|84028093|sp|P0AEZ1.1|METF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Escherichia coli K-12] &gt;gi|84028094|sp|P0AEZ2.1|METF_SHIFL RecName: Full=5,10-methylenetetrahydrofolate reductase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AEZ1</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.21</Hsp_bit-score>
+      <Hsp_score>1162</Hsp_score>
+      <Hsp_evalue>5.00161e-159</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>YAKEINALNNSLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILGARP</Hsp_qseq>
+      <Hsp_hseq>HASQRDALNQSLAEVQGQINVSFEFFPPRTSEMEQTLWNSIDRLSSLKPKFVSVTYGANSGERDRTHSIIKGIKDRTGLEAAPHLTCIDATPDELRTIARDYWNNGIRHIVALRGDLPPGSGKPEMYASDLVTLLKEVADFDISVAAYPEVHPEAKSAQADLLNLKRKVDAGANRAITQFFFDVESYLRFRDRCVSAGIDVEIIPGILPVSNFKQAKKFADMTNVRIPAWMAQMFDGLDDDAETRKLVGANIAMDMVKILSREGVKDFHFYTLNRAEMSYAICHTLGVRP</Hsp_hseq>
+      <Hsp_midline>+A + +ALN SL++++G INVSFEFFPP+  +ME  LW+SI RL +L PKFVSVTYGANSGERDRTH I+K IK  TGLEAA HLT IDA+ DELR IA+DYW++GIR IVALRGD P G  K   YA DLV LL+ VADFDISVAAYPEVHPEAKSAQADL+NLKRK+DAGAN  ITQFFFDVE YLRFRDRCV  GIDVEI+PGILPV+NFKQ  K A +TNV+IP W++QM++GLDDD  TR LV A+IA+DMVK+LSREGVKDFHFYTLNR+E++YAICH LG RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|20141497|sp|P11003.2|METF_SALTY</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P11003</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.284</Hsp_bit-score>
+      <Hsp_score>1157</Hsp_score>
+      <Hsp_evalue>2.8081e-158</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>YAKEINALNNSLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILGARP</Hsp_qseq>
+      <Hsp_hseq>HANQREALNQSLAEVQGQINVSFEFFPPRTSEMEQTLWNSIDRLSSLKPKFVSVTYGANSGERDRTHSVIKGIKERTGLEAAPHLTCIDATRDELRTIARDYWNNGIRHIVALRGDLPPGSGKPEMYAADLVGLLKEVADFDISVAAYPEVHPEAKSAQADLLNLKRKVDAGANRAITQFFFDVESYLRFRDRCVSAGIDVEIIPGILPVSNFKQAKKFADMTNVRIPSWMSLMFEGLDNDAETRKLVGANIAMDMVKILSREGVKDFHFYTLNRAEMSYAICHTLGVRP</Hsp_hseq>
+      <Hsp_midline>+A +  ALN SL++++G INVSFEFFPP+  +ME  LW+SI RL +L PKFVSVTYGANSGERDRTH ++K IK+ TGLEAA HLT IDA+ DELR IA+DYW++GIR IVALRGD P G  K   YA DLV LL+ VADFDISVAAYPEVHPEAKSAQADL+NLKRK+DAGAN  ITQFFFDVE YLRFRDRCV  GIDVEI+PGILPV+NFKQ  K A +TNV+IP W+S M+EGLD+D  TR LV A+IA+DMVK+LSREGVKDFHFYTLNR+E++YAICH LG RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|6016545|sp|P71319.1|METF_PECCC</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Pectobacterium carotovorum subsp. carotovorum]</Hit_def>
+  <Hit_accession>P71319</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.203</Hsp_bit-score>
+      <Hsp_score>1149</Hsp_score>
+      <Hsp_evalue>4.77379e-157</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>YAKEINALNNSLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILGARP</Hsp_qseq>
+      <Hsp_hseq>HANQREALNQSLAELQGRINVSFEFFPPRTSDMEETLWSSIDRLSSLKPKFVSVTYGANSGERDRTHSIIKTIKERTGLEAAPHLTCIDASREQLREIAQDYWESGIRHIVALRGDLPQEGGKPDMYAADLVSLLKEVGDFDISVAAYPEVHPEAKSAQADLINLKHKIDAGANRAITQFFFDVESYLRFRDRCVATGIDVEIVPGILPVSNFKQLQKFATMTNVRVPNWMTTMFDGLDNDPETRKMVGASIAMDMVKILSREGVKDFHFYTLNRAELSYAICHTLGVRP</Hsp_hseq>
+      <Hsp_midline>+A +  ALN SL++L+G INVSFEFFPP+   ME  LW SI RL +L PKFVSVTYGANSGERDRTH I+K IK+ TGLEAA HLT IDAS ++LR+IA+DYW+SGIR IVALRGD P    K   YA DLV LL+ V DFDISVAAYPEVHPEAKSAQADLINLK KIDAGAN  ITQFFFDVE YLRFRDRCV  GIDVEIVPGILPV+NFKQL K A +TNV++P W++ M++GLD+D  TR +V ASIA+DMVK+LSREGVKDFHFYTLNR+EL+YAICH LG RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|11133458|sp|P57154.1|METF_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57154</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.673</Hsp_bit-score>
+      <Hsp_score>901</Hsp_score>
+      <Hsp_evalue>1.44758e-119</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>LNNSLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>MNQKLENIRNNIQCSFEFFPPKNSFLEENLWSTVNRLSLLKPKFFSVTYGANTGEREKTYDTVQKIYKKTGIITAAHLTCIDSTPHKLKEIAYNYWNSGIKSIVALRGDTLEKDYRHTMYAVDLVLLLKKIADFDISVAAYPELHPESKNVKSDILNLKKKVDAGASRAITQFFFNIESYLRFRDNCIKNKINIDIIPGILPVCNFQKLKRFSSMTNVKIPKWMLDMFNGLDDDIFTQKIIGSSIAIDMVKKLSCEGVKNFHFYTLNQSDITYSICHILG</Hsp_hseq>
+      <Hsp_midline>+N  L +++ NI  SFEFFPPKN  +E  LW +++RL  L PKF SVTYGAN+GER++T+  V++I ++TG+  A+HLT ID++  +L++IA +YW+SGI+ IVALRGD      +   YA DLV LL+ +ADFDISVAAYPE+HPE+K+ ++D++NLK+K+DAGA+  ITQFFF++E YLRFRD C+   I+++I+PGILPV NF++L + + +TNVKIPKW+  M+ GLDDD  T+ ++ +SIAIDMVK LS EGVK+FHFYTLN+S++TY+ICHILG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|38258065|sp|Q89B13.1|METF_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89B13</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.961</Hsp_bit-score>
+      <Hsp_score>868</Hsp_score>
+      <Hsp_evalue>1.89951e-114</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>ALNNSLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDR-THGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHIL</Hsp_qseq>
+      <Hsp_hseq>TLNQHLMNICEKVNISFEFFPPNNILSEKNLWQVIDKLKLLTPKFFSVTHGTNSKIRATCTSNIVKKIKKYTGIETVPHLTCINSTEEELKVIAKTYWDSGIRHILALRGDIFNTNCKPKIYAVDLIKLLKSIANFEISVAAYPEVHPEAVNAKYDIINLKRKVEAGATRAITQFFFNIDCFLRFRDLCVKNNITIDIVPGIFPISNFKQLLKFSSVSNVSIPKWLCCMFHGLDNDLNTSRIIGSSIAIDMVKVLYSEGIRSFHFYTLNKSEISFAICKIL</Hsp_hseq>
+      <Hsp_midline> LN  L ++   +N+SFEFFPP N   E  LW  I +L+ L PKF SVT+G NS  R   T  IVK+IK+ TG+E   HLT I+++ +EL+ IAK YWDSGIR I+ALRGD      K   YA DL+KLL+S+A+F+ISVAAYPEVHPEA +A+ D+INLKRK++AGA   ITQFFF+++ +LRFRD CV   I ++IVPGI P++NFKQL K + V+NV IPKWL  M+ GLD+D  T  ++ +SIAIDMVKVL  EG++ FHFYTLN+SE+++AIC IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|25008738|sp|Q8KA62.1|METF_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8KA62</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>3.88217e-109</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>LSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>LENLNDKIQCSFEFFPPKNLDTEKKLFSSVVKLSLLKPFLFSVTYGANSGERKKTYSIVQRIHKKTGITTAPHLTCVDASLSELKEIAKFYWENGIRSIVALRGDVPNKSYQHKIYALDLVVLLKKIADFDISVAAYPEIHPESKNAQSDILNLKKKADAGANRAITQFFFNVESYLRFRDNCIKNNINIEIIPGILPIYNFEQLKKFSSMTNVSIPKWMFEMFNGLDEDLETQKIIGSNIVINIVKTLLYEGVKNFHFYTLNKSDVIYSICHMFG</Hsp_hseq>
+      <Hsp_midline>L +L   I  SFEFFPPKN   E  L+ S+ +L  L P   SVTYGANSGER +T+ IV+RI ++TG+  A HLT +DAS  EL++IAK YW++GIR IVALRGD P    +   YA DLV LL+ +ADFDISVAAYPE+HPE+K+AQ+D++NLK+K DAGAN  ITQFFF+VE YLRFRD C+   I++EI+PGILP+ NF+QL K + +TNV IPKW+ +M+ GLD+D  T+ ++ ++I I++VK L  EGVK+FHFYTLN+S++ Y+ICH+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|6016544|sp|O67422.1|METF_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67422</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>1.88671e-67</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>KGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGD---------EPAGYEKKPFYAEDLVKLLR-SVAD-FDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAI</Hsp_qseq>
+      <Hsp_hseq>KGVFSISFEFFPPKTEEGERQLFETIRKLEKLNPTFVSVTYGAGGSTRDRTRNIVQKIHEETNLTVMAHLTCIAHTREELIDILQDYKNIGIENILALRGDVPRDKPDWRPPKGACK---YAKELVELIRKEFGDWFSIGVASYPEGHPESPNLEWEVKYFKEKVEAGADFSITQMFFVNDYYYRFVEMCKNAGIDISIIPGIMPITNFKQIRKFASLCGATIPQSLIEKLEKVEDKPEEVKKIGIEFAINQCLDLIEHGVPGLHFYTLNKSDATLKI</Hsp_hseq>
+      <Hsp_midline>KG  ++SFEFFPPK E+ E  L+++I +L+ L+P FVSVTYGA    RDRT  IV++I +ET L   +HLT I  + +EL  I +DY + GI  I+ALRGD          P G  K   YA++LV+L+R    D F I VA+YPE HPE+ + + ++   K K++AGA+  ITQ FF  + Y RF + C   GID+ I+PGI+P+TNFKQ+ K A +    IP+ L +  E ++D       +    AI+    L   GV   HFYTLN+S+ T  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|6016546|sp|O54235.1|METF_STRLI</Hit_id>
+  <Hit_def>RecName: Full=5,10-methylenetetrahydrofolate reductase [Streptomyces lividans]</Hit_def>
+  <Hit_accession>O54235</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>8.314e-57</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>GNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPA-------GYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>GKTTYSFEFSAPKTPKGEKNLWSALRRVEAVAPDFVSVTYGAGGSTRAGTVRETQQIVADTTLTPVAHLTAVDHSVAELRNIIGQYADAGIRNMLAVRGDPPGDPNADWIAHPEGLTYAAELVRLIKESGDFCVGVAAFPEMHPRSADWDTDVTNFVDKCRAGADYAITQMFFQPDSYLRLRDRVAAAGCATPVIPEVMPVTSVKMLERLPKLSNASFPAELKERILTAKDDPAAVRSIGIEFATEFCARLLAEGVPGLHFITLNNSTATLEIYENLG</Hsp_hseq>
+      <Hsp_midline>G    SFEF  PK  + E  LW ++ R++ + P FVSVTYGA    R  T    ++I  +T L   +HLT +D S  ELR I   Y D+GIR ++A+RGD P         + +   YA +LV+L++   DF + VAA+PE+HP +     D+ N   K  AGA++ ITQ FF  + YLR RDR    G    ++P ++PVT+ K L ++ +++N   P  L +      DD      +    A +    L  EGV   HF TLN S  T  I   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|75313342|sp|Q9SE60.1|MTHR1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase 1; Short=AtMTHFR1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SE60</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>1.45947e-46</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>KGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEK------KPFYAEDLVKLLRSVAD--FDISVAAYPEVHPEA---------KSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>QGQTAFSFEFFPPKTEDGVENLFERMDRLVSYGPTFCDITWGAGGSTADLTLEIASRMQNVICVETMMHLTCTNMPIEKIDHALETIRSNGIQNVLALRGDPPHGQDKFVQVEGGFACALDLVNHIRSKYGDYFGITVAGYPEAHPDVIEADGLATPESYQSDLAYLKKKVDAGADLIVTQLFYDTDIFLKFVNDCRQIGINCPIVPGIMPISNYKGFLRMAGFCKTKIPAELTAALEPIKDNDEAVKAYGIHFATEMCKKILAHGITSLHLYTLNVDKSAIGILMNLG</Hsp_hseq>
+      <Hsp_midline>+G    SFEFFPPK E     L++ + RL +  P F  +T+GA     D T  I  R++    +E   HLT  +   +++    +    +GI+ ++ALRGD P G +K          A DLV  +RS     F I+VA YPE HP+          +S Q+DL  LK+K+DAGA+ ++TQ F+D + +L+F + C  +GI+  IVPGI+P++N+K   +MA     KIP  L+   E + D+           A +M K +   G+   H YTLN  +    I   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|22096355|sp|O80585.2|MTHR2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase 2; Short=AtMTHFR2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O80585</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>1.61862e-45</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>SLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEK-----KPF-YAEDLVKLLRSVAD--FDISVAAYPEVHPEA---------KSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>SLAD-EGKTAFSFEFFPPKTEDGVDNLFERMDRMVAYGPTFCDITWGAGGSTADLTLDIASRMQNVVCVESMMHLTCTNMPVEKIDHALETIRSNGIQNVLALRGDPPHGQDKFVQVEGGFDCALDLVNHIRSKYGDYFGITVAGYPEAHPDVIGENGLASNEAYQSDLEYLKKKIDAGADLIVTQLFYDTDIFLKFVNDCRQIGISCPIVPGIMPINNYRGFLRMTGFCKTKIPVEVMAALEPIKDNEEAVKAYGIHLGTEMCKKMLAHGVKSLHLYTLNMEKSALAILMNLG</Hsp_hseq>
+      <Hsp_midline>SL+D +G    SFEFFPPK E     L++ + R+    P F  +T+GA     D T  I  R++    +E+  HLT  +   +++    +    +GI+ ++ALRGD P G +K       F  A DLV  +RS     F I+VA YPE HP+          ++ Q+DL  LK+KIDAGA+ ++TQ F+D + +L+F + C  +GI   IVPGI+P+ N++   +M      KIP  +    E + D++         +  +M K +   GVK  H YTLN  +   AI   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase 1; AltName: Full=ZmMTHFR1 [Zea mays]</Hit_def>
+  <Hit_accession>Q9SE94</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>6.19661e-44</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>GNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEK------KPFYAEDLVKLLRSVAD--FDISVAAYPEVHPEAKSAQA---------DLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>GRTAFSFEYFPPKTEEGVENLFERMDRMVAHGPSFCDITWGAGGSTADLTLEIANRMQNMVCVETMMHLTCTNMPVEKIDHALETIKSNGIQNVLALRGDPPHGQDKFVQVEGGFACALDLVQHIRAKYGDYFGITVAGYPEAHPDAIQGEGGATLEAYSNDLAYLKRKVDAGADLIVTQLFYDTDIFLKFVNDCRQIGITCPIVPGIMPINNYKGFLRMTGFCKTKIPSEITAALDPIKDNEEAVRQYGIHLGTEMCKKILATGIKTLHLYTLNMDKSAIGILMNLG</Hsp_hseq>
+      <Hsp_midline>G    SFE+FPPK E+    L++ + R+    P F  +T+GA     D T  I  R++    +E   HLT  +   +++    +    +GI+ ++ALRGD P G +K          A DLV+ +R+     F I+VA YPE HP+A   +          DL  LKRK+DAGA+ ++TQ F+D + +L+F + C  +GI   IVPGI+P+ N+K   +M      KIP  ++   + + D++         +  +M K +   G+K  H YTLN  +    I   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Probable methylenetetrahydrofolate reductase [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q75HE6</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>1.96584e-43</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>GNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEK------KPFYAEDLVKLLRSVAD--FDISVAAYPEVHPEA---------KSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>GRTVFSFEYFPPKTEEGLDNLFERMDRMVAHGPNFCDITWGAGGSTADLTLEIANRMQNMVCVETMMHLTCTNMPVEKIDDALTTIKSNGIQNVLALRGDPPHGQDKFVQVAGGFACALDLVQHIRAKYGDYFGITVAGYPEAHPDAIQSTEGATPEAYSNDLAYLKQKVDAGADLIITQLFYDTDIFLKFVNDCRQIGITCPIVPGIMPINNYKGFLRMTGFCKTKIPAEITAALEPIKDNEEAVKAYGIHLGTEMCKKILATGIKTLHLYTLNMEKSALGILMNLG</Hsp_hseq>
+      <Hsp_midline>G    SFE+FPPK E+    L++ + R+    P F  +T+GA     D T  I  R++    +E   HLT  +   +++         +GI+ ++ALRGD P G +K          A DLV+ +R+     F I+VA YPE HP+A         ++   DL  LK+K+DAGA+ +ITQ F+D + +L+F + C  +GI   IVPGI+P+ N+K   +M      KIP  ++   E + D++         +  +M K +   G+K  H YTLN  +    I   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1723442|sp|Q10258.1|MTHR1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase 1 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q10258</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>8.05373e-40</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>DLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTL-HPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGD-----EPAGYEKKPFYAEDLVKLLRS--VADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPK-WLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGVKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>DWKEKVTYSYEFFPPKTSTGVQNLYNRIDRMKTWGRPMFVDVTWGAGGTSSELTPGIVNVIQTDFEVDTCMHLTCTNMSTEMIDAALKRAHETGCRNILALRGDPVKDTDWTEGESGFRYASDLVRYIRTHYNDEFCIGVAGYPEGYSPDDDIDESIKHLKLKVDEGADFIVTQMFYDVDNFIAWVDKVRAAGINIPIFPGIMPIQAWDSFIRRAKWSGVKIPQHFMDTLVPVKDDDEGVRER-GVELIVEMCRKLIASGITRLHFYTMNLEKAVKMIIERLG</Hsp_hseq>
+      <Hsp_midline>D K  +  S+EFFPPK       L++ I R++T   P FV VT+GA     + T GIV  I+ +  ++   HLT  + S + +    K   ++G R I+ALRGD     +    E    YA DLV+ +R+    +F I VA YPE +         + +LK K+D GA+ ++TQ F+DV+ ++ + D+    GI++ I PGI+P+  +    + A+ + VKIP+ ++  +    DDD+G R      + ++M + L   G+   HFYT+N  +    I   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1709159|sp|P46151.2|MTHR1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase 1 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P46151</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>5.29057e-39</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>VSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYE-------KKPF-YAEDLVKLLR-SVAD-FDISVAAYPEVHPEAKSAQ------ADLINLKRKIDAGANHVITQFFFDVERYLR----FRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKW-LSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREG---VKDFHFYTLNRSELTYAICHILGARP</Hsp_qseq>
+      <Hsp_hseq>ISLEFFPPKTELGTRNLMERMHRMTALDPLFITVTWGAGGTTAEKTLTLASLAQQTLNIPVCMHLTCTNTEKAIIDDALDRCYNAGIRNILALRGDPPIGEDWLDSQSNESPFKYAVDLVRYIKQSYGDKFCVGVAAYPEGHCEGEAEGHEQDPLKDLVYLKEKVEAGADFVITQLFYDVEKFLTFEMLFRER---ISQDLPLFPGLMPINSYLLFHRAAKLSHASIPPAILSRFPPEIQSDDNAVKSIGVDILIELIQEIYQRTSGRIKGFHFYTLN---LEKAIAQIVSQSP</Hsp_hseq>
+      <Hsp_midline>+S EFFPPK E     L + +HR+  L P F++VT+GA     ++T  +    +Q   +    HLT  +     +       +++GIR I+ALRGD P G +       + PF YA DLV+ ++ S  D F + VAAYPE H E ++         DL+ LK K++AGA+ VITQ F+DVE++L     FR+R   +  D+ + PG++P+ ++    + A++++  IP   LS+    +  D      +   I I++++ + +     +K FHFYTLN   L  AI  I+   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|75061139|sp|Q5I598.1|MTHR_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase [Bos taurus]</Hit_def>
+  <Hit_accession>Q5I598</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>1.59258e-38</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>GNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTY--GANSGERDRTHGIV--KRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAG----YEKKPF-YAEDLVKLLRS-VAD-FDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGL-DDDQGTRNLVAASIAIDMVKVLSREG-VKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>GDKWFSLEFFPPRTAQGAVNLISRFDRMGAGGPLFVDVTWHPAGDPGSDKETSSMVIASTAVNYCGLETILHMTCCHQSREEITGHLNKAKQLGLKNILALRGD-PIGDQWEEEEGGFNYATDLVKHIRNEFGDYFDVCVAGYPKGHPEGESFEADLKHLKEKVAAGADFIITQLFFEAETFFRFVKACSEIGITCPVLPGIFPIQGYHSLRQLVKLSKLEVPQQIKDVIEPIKDNDAAIRNY-GIEQAVSLCQELLASGLVPGLHFYTLNREVATIEVLKRLG</Hsp_hseq>
+      <Hsp_midline>G+   S EFFPP+  Q    L     R+    P FV VT+    + G    T  +V         GLE   H+T    S +E+          G++ I+ALRGD P G     E+  F YA DLVK +R+   D FD+ VA YP+ HPE +S +ADL +LK K+ AGA+ +ITQ FF+ E + RF   C  +GI   ++PGI P+  +  L ++ +++ +++P+ +  + E + D+D   RN      A+ + + L   G V   HFYTLNR   T  +   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|116242663|sp|P53128.2|MTHR2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase 2; AltName: Full=YmL45 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P53128</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>2.79544e-38</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>GNINVSFEFFPPKNEQMETMLWDSIHRL-QTLHPKFVSVTYGANSGERDR-THGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEK-KPF-----YAEDLVKLLRSVAD--FDISVAAYPEVHPEA--KSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREG-VKDFHFYTLNRSELTYAICHILGARP</Hsp_qseq>
+      <Hsp_hseq>GKPTYSFEYFVPKTTQGVQNLYDRMDRMYEASLPQFIDITWNAGGGRLSHLSTDLVATAQSVLGLETCMHLTCTNMPISMIDDALENAYHSGCQNILALRGDPPRDAENWTPVEGGFQYAKDLIKYIKSKYGDHFAIGVAGYPECHPELPNKDVKLDLEYLKQKIDAGGDFIITQMFYDVDNFINWCSQVRAAGMDVPIIPGIMPITTYAAFLRRAQWGQISIPQHFSSRLDPIKDDDELVRDIGTNLIVEMCQKLLDSGYVSHLHIYTMNLEKAPLMILERLNILP</Hsp_hseq>
+      <Hsp_midline>G    SFE+F PK  Q    L+D + R+ +   P+F+ +T+ A  G     +  +V   +   GLE   HLT  +     +    ++ + SG + I+ALRGD P   E   P      YA+DL+K ++S     F I VA YPE HPE   K  + DL  LK+KIDAG + +ITQ F+DV+ ++ +  +    G+DV I+PGI+P+T +    + AQ   + IP+  S   + + DD      +  ++ ++M + L   G V   H YT+N  +    I   L   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|56405339|sp|P42898.3|MTHR_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase [Homo sapiens]</Hit_def>
+  <Hit_accession>P42898</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>7.10117e-38</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>GNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTY--GANSGERDRTHG--IVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAG----YEKKPF-YAEDLVKLLRS-VAD-FDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGL-DDDQGTRNLVAASIAIDMVKVLSREG-VKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>GDKWFSLEFFPPRTAEGAVNLISRFDRMAAGGPLYIDVTWHPAGDPGSDKETSSMMIASTAVNYCGLETILHMTCCRQRLEEITGHLHKAKQLGLKNIMALRGD-PIGDQWEEEEGGFNYAVDLVKHIRSEFGDYFDICVAGYPKGHPEAGSFEADLKHLKEKVSAGADFIITQLFFEADTFFRFVKACTDMGITCPIVPGIFPIQGYHSLRQLVKLSKLEVPQEIKDVIEPIKDNDAAIRN-YGIELAVSLCQELLASGLVPGLHFYTLNREMATTEVLKRLG</Hsp_hseq>
+      <Hsp_midline>G+   S EFFPP+  +    L     R+    P ++ VT+    + G    T    I        GLE   H+T      +E+          G++ I+ALRGD P G     E+  F YA DLVK +RS   D FDI VA YP+ HPEA S +ADL +LK K+ AGA+ +ITQ FF+ + + RF   C  +GI   IVPGI P+  +  L ++ +++ +++P+ +  + E + D+D   RN     +A+ + + L   G V   HFYTLNR   T  +   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|62287023|sp|Q60HE5.1|MTHR_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q60HE5</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>3.58461e-37</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>GNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTY--GANSGERDRTHG--IVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAG----YEKKPF-YAEDLVKLLRS-VAD-FDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGL-DDDQGTRNLVAASIAIDMVKVLSREG-VKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>GDKWFSLEFFPPRTAEGAVNLISRFDRMAAGGPLFIDVTWHPAGDPGSDKETSSMMIASTAVNYCGLETILHMTCCCQRLEEITGHLHKAKQLGLKNIMALRGD-PIGDQWEEEEGGFNYAVDLVKHIRSEFGDYFDLCVAGYPKGHPEAGSFEADLKHLKEKVSAGADFIITQLFFEADTFFRFVKACTDMGITCPIVPGIFPIQGYHSLRQLVKQSKLEVPQEIKDVIEPIKDNDAAIRN-YGIELAVSLCHELLASGLVPGLHFYTLNREMATTEVLKRLG</Hsp_hseq>
+      <Hsp_midline>G+   S EFFPP+  +    L     R+    P F+ VT+    + G    T    I        GLE   H+T      +E+          G++ I+ALRGD P G     E+  F YA DLVK +RS   D FD+ VA YP+ HPEA S +ADL +LK K+ AGA+ +ITQ FF+ + + RF   C  +GI   IVPGI P+  +  L ++ + + +++P+ +  + E + D+D   RN     +A+ +   L   G V   HFYTLNR   T  +   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|341940976|sp|Q9WU20.2|MTHR_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase [Mus musculus]</Hit_def>
+  <Hit_accession>Q9WU20</Hit_accession>
+  <Hit_len>654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>8.11667e-37</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>GNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTY--GANSGERDRTHG--IVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAG----YEKKPF-YAEDLVKLLRS-VAD-FDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGL-DDDQGTRNLVAASIAIDMVKVLSREG-VKDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>GDKWFSLEFFPPRTAEGAVNLISRFDRMAAGGPLFVDVTWHPAGDPGSDKETSSMMIASTAVNYCGLETILHMTCCQQRPEEITGHLHRAKQLGLKNIMALRGD-PVGDHWEAEEGGFSYATDLVKHIRTEFADYFDICVAGYPRGHPDAESFEDDLKHLKEKVSAGADFIITQLFFEASTFFSFVKACTEIGISCPILPGIFPIQGYTSLRQLVKLSKLEVPQKIKDVIEPIKDNDAAIRN-YGIELAVSLCRELLDSGLVPGLHFYTLNREVATMEVLKQLG</Hsp_hseq>
+      <Hsp_midline>G+   S EFFPP+  +    L     R+    P FV VT+    + G    T    I        GLE   H+T      +E+          G++ I+ALRGD P G     E+  F YA DLVK +R+  AD FDI VA YP  HP+A+S + DL +LK K+ AGA+ +ITQ FF+   +  F   C  +GI   I+PGI P+  +  L ++ +++ +++P+ +  + E + D+D   RN     +A+ + + L   G V   HFYTLNR   T  +   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|21542426|sp|Q17693.2|MTHR_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable methylenetetrahydrofolate reductase [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q17693</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.64319e-32</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>SFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTY--GANSGERDR---THGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYE---KKPFYAEDLVKLLRSVAD--FDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQMYEGLDDDQGTRNLVAASIAIDMVKVLSREGV-KDFHFYTLNRSELTYAICHILG</Hsp_qseq>
+      <Hsp_hseq>SLEFFPPRFVNGVPNFLERVERLSEGGSVFVDMTWHMGSDPANVDKVTSSSSIAASMLDYCGVDTMLHMTCVQYNKADTLKHLEQAKAMGLRSILALRGDLPPGTELEDTHQFRALDMIRWIREEYGNYFSIGCAGYPLGHPQAPSYKADLMYLKAKCDAGANFVITQLFFEAETFEKFVRDCREIGITQPIIPGIMPIMGYESIKRIAKLSQLEIPQHILDDLEPIKHDDDAVQKYGTERCIEMCRRLLDNGTAPSIHLYTMNREGSIREILKSLG</Hsp_hseq>
+      <Hsp_midline>S EFFPP+         + + RL      FV +T+  G++    D+   +  I   +    G++   H+T +  +  +  +  +     G+R I+ALRGD P G E      F A D+++ +R      F I  A YP  HP+A S +ADL+ LK K DAGAN VITQ FF+ E + +F   C  +GI   I+PGI+P+  ++ + ++A+++ ++IP+ +    E +  D            I+M + L   G     H YT+NR      I   LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|19855065|sp|O74927.2|MTHR2_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Methylenetetrahydrofolate reductase 2 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O74927</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.80679e-22</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>GNINVSFEFFPPKNEQMETMLWDSIHRL-QTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASH---DELRQIAKDYWDSGIRRIVALRGDEPAG---YEKKPFYAEDLVKLLRSVAD-----FDISVAAYPEVH-----PE-AKSAQADLINLKRKIDAGANHVITQFFFDVERYLRF----RDRCVMLGIDVEIVPGILPVTNFKQLGKMAQVTNVKIPKWLSQ-MYEGLDDDQGTRNLVAASIAIDMVKVL--SREG-VKDFHFYTLN</Hsp_qseq>
+      <Hsp_hseq>GNAFYSFEYFPPKTTVGLENLSSRITRMSRNMMPLFSSVTWGTAGSTAEVSIYLAKMLEQHHKIPACLHLTCTNVDKAIIDKALETAKEY---GIRNILALRGDPPLNSDHWEGKVSEFEHAVDLVRYIREKYGDYFCIGVAAYPEGHVDSNVPELSKDPLRDIPFLIEKVEAGADFIITQIFYEPEAFIKFENFVRNHSSNALRNIPIIPAIMPIQSYGSLKRMTRLCGCSVPSSLMQRLNAAKPDDEAIKNIGVEHI-VDMIKKIMDNVQGRVHGFHFCTLN</Hsp_hseq>
+      <Hsp_midline>GN   SFE+FPPK       L   I R+ + + P F SVT+G      + +  + K ++Q   + A  HLT  +      D+  + AK+Y   GIR I+ALRGD P     +E K    E  V L+R + +     F I VAAYPE H     PE +K    D+  L  K++AGA+ +ITQ F++ E +++F    R+       ++ I+P I+P+ ++  L +M ++    +P  L Q +     DD+  +N+    I +DM+K +  + +G V  FHF TLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123642546|sp|Q49XG5.1|TYRA_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Prephenate dehydrogenase; Short=PDH [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49XG5</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.87489</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>HRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVM-----------LGIDVEIVPGILP-VTNFKQLGKMAQVTNVKIPKWLSQMYEGL</Hsp_qseq>
+      <Hsp_hseq>HLLQTTSAKFISTT----AEEHDFVTGIVSHVPHII----ASSLVHLNAQHVEDSSLVKTLAAGGFRDITRIASSNPIMW--RDITIENKNTILR--------------ILKEWKNQMSDVINI---IEHNNPDELYDFFNDAKVY---RDQLPLKQQGALSVEYDLYVDIPDKPGMISKVTNILSLHNIS-ISNLRILEVREDIYGAL</Hsp_hseq>
+      <Hsp_midline>H LQT   KF+S T    + E D   GIV  +        AS L  ++A H E   + K     G R I  +    P  +  +    E+   +LR              +  E K+  +D+IN+   I+      +  FF D + Y   RD+  +           L +D+   PG++  VTN   L  ++ ++N++I +    +Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|90110647|sp|Q2QLG0.1|ASZ1_CALJA</Hit_id>
+  <Hit_def>RecName: Full=Ankyrin repeat, SAM and basic leucine zipper domain-containing protein 1; AltName: Full=Germ cell-specific ankyrin, SAM and basic leucine zipper domain-containing protein [Callithrix jacchus]</Hit_def>
+  <Hit_accession>Q2QLG0</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.21997</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>LEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKSAQA--DLINLKRKIDAGANHVIT</Hsp_qseq>
+      <Hsp_hseq>LEVFLHGLGLEHMTDLLKE-----RDITLRQLLTMREDE---FTKNGFTSKDQQKILAALKELEVEEIPFGELSEEAKLEISGDEFLNFLLKLNKQCGHLIT</Hsp_hseq>
+      <Hsp_midline>LE   H  G++   D L++      D  +R+++ +R DE   + K  F ++D  K+L ++ + ++    + E+  EAK   +  + +N   K++    H+IT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|118572918|sp|Q09YH1.1|ASZ1_SAIBB</Hit_id>
+  <Hit_def>RecName: Full=Ankyrin repeat, SAM and basic leucine zipper domain-containing protein 1; AltName: Full=Germ cell-specific ankyrin, SAM and basic leucine zipper domain-containing protein [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>Q09YH1</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.36108</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>LEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKS--AQADLINLKRKIDAGANHVIT</Hsp_qseq>
+      <Hsp_hseq>LEVFLHGLGLEHMTDLLKE-----RDITLRQLLTMREDE---FTKNGFASKDQQKILAALKELEVEEIQFGELSEEAKLEISGDEFLNFLLKLNKQCGHLIT</Hsp_hseq>
+      <Hsp_midline>LE   H  G++   D L++      D  +R+++ +R DE   + K  F ++D  K+L ++ + ++    + E+  EAK   +  + +N   K++    H+IT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|118572907|sp|Q09YK6.1|ASZ1_ATEGE</Hit_id>
+  <Hit_def>RecName: Full=Ankyrin repeat, SAM and basic leucine zipper domain-containing protein 1; AltName: Full=Germ cell-specific ankyrin, SAM and basic leucine zipper domain-containing protein [Ateles geoffroyi]</Hit_def>
+  <Hit_accession>Q09YK6</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.67076</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>LEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKS--AQADLINLKRKIDAGANHVIT</Hsp_qseq>
+      <Hsp_hseq>LEVFLHGLGLEHMTDLLKE-----RDITLRHLLTMREDE---FTKNGFTSKDQQKILTALKELEVEEIQFGELSEEAKLEISGDEFLNFLLKLNKQCGHLIT</Hsp_hseq>
+      <Hsp_midline>LE   H  G++   D L++      D  +R ++ +R DE   + K  F ++D  K+L ++ + ++    + E+  EAK   +  + +N   K++    H+IT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|90110648|sp|Q2QLB5.1|ASZ1_CALMO</Hit_id>
+  <Hit_def>RecName: Full=Ankyrin repeat, SAM and basic leucine zipper domain-containing protein 1; AltName: Full=Germ cell-specific ankyrin, SAM and basic leucine zipper domain-containing protein [Callicebus moloch]</Hit_def>
+  <Hit_accession>Q2QLB5</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.94062</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>LEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYPEVHPEAKS--AQADLINLKRKIDAGANHVIT</Hsp_qseq>
+      <Hsp_hseq>LEVFLHGLGLEHMTDLLKE-----RDITLRHLLTMREDE---FTKNGFTSKDQQKILAALKELEVEEIQFGELSEEAKLEISGDEFLNFLLKLNKQCGHLIT</Hsp_hseq>
+      <Hsp_midline>LE   H  G++   D L++      D  +R ++ +R DE   + K  F ++D  K+L ++ + ++    + E+  EAK   +  + +N   K++    H+IT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|84029559|sp|Q4K5U4.1|SYI_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Isoleucine--tRNA ligase; AltName: Full=Isoleucyl-tRNA synthetase; Short=IleRS [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4K5U4</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.69774</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>499</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>IVKRIKQETGLEA-----ASHLTGIDAS-HDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKP</Hsp_qseq>
+      <Hsp_hseq>VAQRVEQE-GIEAWFKMDAAELLGDEAAQYDKISDTLDVWFDSGTTHWHVLRGSHPMGHESGP</Hsp_hseq>
+      <Hsp_midline>+ +R++QE G+EA     A+ L G +A+ +D++      ++DSG      LRG  P G+E  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|166229760|sp|A4VI60.1|SYI_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=Isoleucine--tRNA ligase; AltName: Full=Isoleucyl-tRNA synthetase; Short=IleRS [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VI60</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.99998</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>499</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>IVKRIKQETGLEAASHLTGIDASHDELRQIAK-----DYW-DSGIRRIVALRGDEPAGYEKKP</Hsp_qseq>
+      <Hsp_hseq>VAQRVEQ-GGIEAWSKLDAAELLGDEAAQYEKITDTLDVWFDSGTTHWHVMRGSHPMGHEQGP</Hsp_hseq>
+      <Hsp_midline>+ +R++Q  G+EA S L   +   DE  Q  K     D W DSG      +RG  P G+E+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|238056516|sp|B2KD62.1|KDSB_ELUMP</Hit_id>
+  <Hit_def>RecName: Full=3-deoxy-manno-octulosonate cytidylyltransferase; AltName: Full=CMP-2-keto-3-deoxyoctulosonic acid synthase; Short=CKS; Short=CMP-KDO synthase [Elusimicrobium minutum Pei191]</Hit_def>
+  <Hit_accession>B2KD62</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.06222</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>LEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDISVAAYP</Hsp_qseq>
+      <Hsp_hseq>LTSEACQSGTDRIYEAVKNGSEDY-------VLNLQGDEPF---VKPQTIKGVIKLLKKDSKIDIATACYP</Hsp_hseq>
+      <Hsp_midline>L + +  +G D  ++ ++  ++DY       ++ L+GDEP     KP   + ++KLL+  +  DI+ A YP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|91208053|sp|Q2RMS4.1|TRMB_RHORT</Hit_id>
+  <Hit_def>RecName: Full=tRNA (guanine-N(7)-)-methyltransferase; AltName: Full=tRNA (guanine(46)-N(7))-methyltransferase; AltName: Full=tRNA(m7G46)-methyltransferase [Rhodospirillum rubrum ATCC 11170]</Hit_def>
+  <Hit_accession>Q2RMS4</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.67803</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>LQTLHPKFVSVTYGANSGERDRTHGIVKR----IKQETGLEAASHLTGIDASHDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKPFYAEDLVKLLRSVADFDIS--VAAYPEVHPEAKSAQADLINLKRKID</Hsp_qseq>
+      <Hsp_hseq>LDTMLPALTLPLAGLGEGERLDPRGLFPRPVDQLWLEIGFGGGEHLVAQAAAHPEVGLIGSEVFAYGVGK--ALSQIDETGVDNIRLWPEDVRQVLPALPDGCLQRLFVLFPDPWPKRRHARRRMIQPARLDD</Hsp_hseq>
+      <Hsp_midline>L T+ P       G   GER    G+  R    +  E G     HL    A+H E+  I  + +  G+ +  AL   +  G +    + ED+ ++L ++ D  +      +P+  P+ + A+  +I   R  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|84029558|sp|Q48NK6.1|SYI_PSE14</Hit_id>
+  <Hit_def>RecName: Full=Isoleucine--tRNA ligase; AltName: Full=Isoleucyl-tRNA synthetase; Short=IleRS [Pseudomonas syringae pv. phaseolicola 1448A]</Hit_def>
+  <Hit_accession>Q48NK6</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.7629</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>499</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>IVKRIKQETGLEA-----ASHLTGIDAS-HDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKP</Hsp_qseq>
+      <Hsp_hseq>VAQRVEKE-GIEAWFKLDASELLGDEAAKYDKISDTLDVWFDSGTTHWHVLRGSHPMGHESGP</Hsp_hseq>
+      <Hsp_midline>+ +R+++E G+EA     AS L G +A+ +D++      ++DSG      LRG  P G+E  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|75503516|sp|Q4ZYJ4.1|SYI_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Isoleucine--tRNA ligase; AltName: Full=Isoleucyl-tRNA synthetase; Short=IleRS [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZYJ4</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.87109</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>499</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>IVKRIKQETGLEA-----ASHLTGIDAS-HDELRQIAKDYWDSGIRRIVALRGDEPAGYEKKP</Hsp_qseq>
+      <Hsp_hseq>VAQRVEKE-GIEAWFKLDASELLGDEAGKYDKISDTLDVWFDSGTTHWHVLRGSHPMGHESGP</Hsp_hseq>
+      <Hsp_midline>+ +R+++E G+EA     AS L G +A  +D++      ++DSG      LRG  P G+E  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|46396678|sp|O94494.1|SIM4_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Centromere protein sim4; AltName: Full=Silencing in the middle of the centromere protein 4 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O94494</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.92225</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>NALNNSLSDLKGNINVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKR</Hsp_qseq>
+      <Hsp_hseq>NAIDNNISDLKKNLH--------SNKKLEAVLKEELHQIKKFSSDLQSLK--SSMGERQKQQAAMSR</Hsp_hseq>
+      <Hsp_midline>NA++N++SDLK N++         N+++E +L + +H+++       S+   ++ GER +    + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

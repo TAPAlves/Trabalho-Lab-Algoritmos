@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="50">
+<accession>Q5F8C6</accession>
+<name>Q5F8C6_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Ribosomal RNA large subunit methyltransferase J</fullName>
+<ecNumber evidence="1">2.1.1.266</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">23S rRNA (adenine(2030)-N6)-methyltransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">23S rRNA m6A2030 methyltransferase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">rlmJ</name>
+<name type="ordered locus" evidence="2">NGO0859</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Specifically methylates the adenine in position 2030 of 23S rRNA.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">S-adenosyl-L-methionine + adenine(2030) in 23S rRNA = S-adenosyl-L-homocysteine + N(6)-methyladenine(2030) in 23S rRNA.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Monomer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the RlmJ family.</text>
+</comment>
+<dbReference type="EC" id="2.1.1.266" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89561.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010951135.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207973.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8C6"/>
+<dbReference type="STRING" id="242231.NGO0859"/>
+<dbReference type="EnsemblBacteria" id="AAW89561">
+<property type="protein sequence ID" value="AAW89561"/>
+<property type="gene ID" value="NGO0859"/>
+</dbReference>
+<dbReference type="GeneID" id="3282364"/>
+<dbReference type="KEGG" id="ngo:NGO0859"/>
+<dbReference type="PATRIC" id="20334886">
+<property type="gene designation" value="VBINeiGon24812_1013"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2961"/>
+<dbReference type="HOGENOM" id="HOG000262479"/>
+<dbReference type="OMA" id="TYAIWYP"/>
+<dbReference type="OrthoDB" id="EOG6Q8J0P"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-803-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0036307">
+<property type="term" value="F:23S rRNA (adenine(2030)-N(6))-methyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003723">
+<property type="term" value="F:RNA binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070475">
+<property type="term" value="P:rRNA base methylation"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.150">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00934">
+<property type="entry name" value="23SrRNA_methyltr_J"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007473">
+<property type="entry name" value="RlmJ"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029063">
+<property type="entry name" value="SAM-dependent_MTases"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04378">
+<property type="entry name" value="RsmJ"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53335">
+<property type="entry name" value="SSF53335"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0489" evidence="1">Methyltransferase</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<keyword id="KW-0694" evidence="1">RNA-binding</keyword>
+<keyword id="KW-0698" evidence="1">rRNA processing</keyword>
+<keyword id="KW-0949" evidence="1">S-adenosyl-L-methionine</keyword>
+<keyword id="KW-0808" evidence="1">Transferase</keyword>
+<feature type="region of interest" description="S-adenosyl-L-methionine binding" evidence="1">
+<location>
+<begin position="144"/>
+<end position="145"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="1">
+<location>
+<position position="165"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine" evidence="1">
+<location>
+<position position="19"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine; via carbonyl oxygen" evidence="1">
+<location>
+<position position="42"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine" evidence="1">
+<location>
+<position position="98"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine" evidence="1">
+<location>
+<position position="116"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine" evidence="1">
+<location>
+<position position="165"/>
+</location>
+</feature>
+<feature type="site" description="Interaction with substrate rRNA" evidence="1">
+<location>
+<position position="4"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00934"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89561.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="281" mass="31935" checksum="7EEC42BFD106005F" modified="2005-03-15" version="1">
+MLSYRHAFHAGNHADMLKHFTLFLVLQYFNRKDKPYWYIDTHGGAGVYNLEGSEAQKVGE
+YRQGIALLRQAQNLPAELSDFAAHIQKILPSPELYCGSPWLAQSLTCVGDKLRLFELHPT
+DFVHLQNNMGEAGLGKRGQVLREDGYKGLISLLPPPPRRAAVLIDPPYEEKQDYRRVTET
+LKAALKRFESGCYLIWYPCLSREESRKLPEELKKLLPDNYLYAELHVHAPKTDGFGMHGS
+GMFVINPPYLLAEQLAANLPALTRLLAQDEGARYLLDSKIR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

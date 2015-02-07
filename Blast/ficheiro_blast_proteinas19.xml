@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>47473</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>218</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>47473</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>218</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|118438|sp|P13800.2|DEGU_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein DegU; AltName: Full=Protease production enhancer protein [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P13800</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>1.28858e-51</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSL-------ISPQPAQRT-----QALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIR</Hsp_qseq>
+      <Hsp_hseq>VNIVIIDDHQLFREGVKRILDFEPTFEVVAEGDDGDEAARIVEHYHPDVVIMDINMPNVNGVEATKQLVELYPESKVIILSIHDDENYVTHALKTGARGYLLKEMDADTLIEAVKVVAEGGSYLHPKVTHNLVNEFRRLATSGVSAHPQHEVYPEIRRPLHILTRRECEVLQMLADGKSNRGIGESLFISEKTVKNHVSNILQKMNVNDRTQAVVVAIK</Hsp_hseq>
+      <Hsp_midline>+ I++IDDH LFR G+K +L  +  FEV+ E  DG    +++    PDVV++D++MP +NG EA  Q++ + P+  VI+L++ +D + +T  ++ GARGYLLK ++AD L+E+++  AEG +   P++T  LV          +S  P         + L  LT RE E+L  LA G SN+ I   L ++E TVK HV N+L+K+N++ R QA V AI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1706361|sp|P54662.1|DEGU_BREBE</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein DegU [Brevibacillus brevis]</Hit_def>
+  <Hit_accession>P54662</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.14569e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVK-------------SLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRH</Hsp_qseq>
+      <Hsp_hseq>IQIVIIDDHQLFREGVKRILAMEPEFEVVADGEDGENAVELVEKYNPDVILMDINMPKVNGVEATRDLIQRYPDVKVLVLSIHDDESYVTHVLKTGASGYLLKEMDADALIEAVKVVAQGGAYIHPKVTHNLIKEYRRLVNEDEQESSEIGFKEVEYRKPLHILTRRECEVLQLMTDGYSNRMIGEALYISEKTVKNHVSNILQKMNVNDRTQAVVESIKN</Hsp_hseq>
+      <Hsp_midline>I+I++IDDH LFR G+K +L+ +  FEV+ +  DG + ++++ +  PDV+L+D++MP +NG EA   +I   P   V++L++ +D   +T  ++ GA GYLLK ++AD L+E+++  A+G     P++T  L+K             S I  +  +  + L  LT RE E+L  +  G+SN++I   L ++E TVK HV N+L+K+N++ R QA V +I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81696298|sp|Q6G850.1|VRAR_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Response regulator protein VraR [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81696461|sp|Q6GFH3.1|VRAR_STAAR RecName: Full=Response regulator protein VraR [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|81704309|sp|Q7A0I0.1|VRAR_STAAW RecName: Full=Response regulator protein VraR [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81704831|sp|Q7A2Q1.1|VRAR_STAAM RecName: Full=Response regulator protein VraR [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|81705432|sp|Q7A4R9.1|VRAR_STAAN RecName: Full=Response regulator protein VraR [Staphylococcus aureus subsp. aureus N315] &gt;gi|90116383|sp|P0C0Z1.1|VRAR_STAA1 RecName: Full=Response regulator protein VraR [Staphylococcus aureus subsp. aureus Mu3]</Hit_def>
+  <Hit_accession>Q6G850</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.10071e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTIKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNVPQ</Hsp_qseq>
+      <Hsp_hseq>MTIKVLFVDDHEMVRIGISSYLSTQSDIEVVGEGASGKEAIAKAHELKPDLILMDLLMEDMDGVEATTQIKKDLPQIKVLMLTSFIEDKEVYRALDAGVDSYILKTTSAKDIADAVRKTSRGESVFEPEVLVKMRNRM-----KKRAELYEMLTEREMEILLLIAKGYSNQEIASASHITIKTVKTHVSNILSKLEVQDRTQAVIYAFQHNLIQ</Hsp_hseq>
+      <Hsp_midline>MTIK++ +DDH + R GI + LS Q   EV+GE A G   I     L+PD++L+DL M  M+G EA +QI    PQ  V+MLT   +  ++   +  G   Y+LK  +A  + +++RK + G++VF PE+  K+   +      +R +    LT RE+EIL  +A G+SN+ IA    +   TVK HV N+L KL +  R QA +YA +HN+ Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|400374|sp|P31802.1|NARP_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Nitrate/nitrite response regulator protein NarP [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P31802</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.62156e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNVPQ</Hsp_qseq>
+      <Hsp_hseq>FQVMIVDDHPLMRRGVRQLLELDPGSEVVAEAGDGASAIDLANRLDIDVILLDLNMKGMSGLDTLNALRRDGVTAQIIILTVSDASSDVFALIDAGADGYLLKDSDPEVLLEAIRAGAKGSKVFSERVNQYLRE---REMFGAEEDPFSVLTERELDVLHELAQGLSNKQIASVLNISEQTVKVHIRNLLRKLNVRSRVAATILFLQQRGAQ</Hsp_hseq>
+      <Hsp_midline> +++++DDH L R G++ LL    G EV+ EA DG S I + +RL  DV+LLDL+M GM+G + L+ +        +I+LTVS+ S D+   +  GA GYLLK+ + + LLE+IR  A+G  VFS  +   L +              S LT REL++L  LA G SNK IA  L+++E TVKVH++NLLRKLN+ SRV A +  ++    Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1171656|sp|P44845.1|NARP_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Nitrate/nitrite response regulator protein homolog [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44845</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.51393e-43</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHN</Hsp_qseq>
+      <Hsp_hseq>LKVLLIDDHPLMRRGIKQLVELDDNFEVVADVSSGTEGISVALQTSPDVIILDLNMKGLSGLDTLKGLRAEGVDARILILTVSDAKNDIYTLIDAGADGYLLKDTEPDTLLEQIKRIAQGEVILSDSIKNLLLERTHEDNP------LDSLTDREMGVLRQIATGLSNKQIAAQLFISEETVKVHIRNLLRKLNVHSRVAATVLFFEQN</Hsp_hseq>
+      <Hsp_midline>+K++LIDDH L R GIK L+     FEV+ + + G  GI +  +  PDV++LDL+M G++G + L  + +      +++LTVS+  +D+   +  GA GYLLK+   D LLE I++ A+G+ + S  +   L++      P      L SLT RE+ +L  +A G SNK IA  L ++E TVKVH++NLLRKLN+ SRV A V     N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|68051995|sp|O32197.1|LIAR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein LiaR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32197</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.74192e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQAL--SSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>IRVLLIDDHEMVRMGLAAFLEAQPDIEVIGEASDGSEGVRLAVELSPDVILMDLVMEGMDGIEATKQICRELSDPKIIVLTSFIDDDKVYPVIEAGALSYLLKTSKAAEIADAIRAASKGE----PKLESKVAGKVLSRLRHSGENALPHESLTKRELEILCLIAEGKTNKEIGEELFITIKTVKTHITNILSKLDVSDRTQAAVYAHRNHL</Hsp_hseq>
+      <Hsp_midline>I+++LIDDH + R G+ A L  Q   EVIGEA+DG  G+++   L PDV+L+DL M GM+G EA  QI        +I+LT   D D +   +  GA  YLLK   A  + ++IR A++G+    P++ +K+   ++S        AL   SLT RELEIL  +A G +NK I   L +   TVK H+ N+L KL++S R QAAVYA R+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81818210|sp|P94439.1|YFIK_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transcriptional regulatory protein YfiK [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P94439</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>5.4292e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLV------KSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>IKIIITDDQDIVREGLASLLQLREELDVIATARNGQEAFEKAKELEPDIVLMDIRMPVSNGVEGTKLITSSLPSVKVLMLTTFKDSALIAEALEEGASGYLLKDMSADTIVKAVMTVHSGGMVLPPELTAQMLNEWKREKQLKGINEIEKPNELLDLTEREIEVLAELGYGLNNKEIAEKLYITEGTVKNHVSNIISKLAVRDRTQAAIYSVRYGV</Hsp_hseq>
+      <Hsp_midline>IKII+ DD  + R G+ +LL  +   +VI  A +G    +    L+PD+VL+D+ MP  NG E    I S  P   V+MLT  +DS  + E +  GA GYLLK+++AD +++++     G  V  PE+TA+++      K L      ++   L  LT RE+E+L  L  G +NK IA  L + E TVK HV N++ KL +  R QAA+Y++R+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|20141933|sp|P55184.2|YXJL_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transcriptional regulatory protein YxjL [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P55184</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>2.91709e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSS-LTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNVPQ</Hsp_qseq>
+      <Hsp_hseq>IRVALADDQPLVREGFRYVINAQTDMTVSGEAGDGHDIIALAKQTKPDVILMDVQMPRCSGIEAAKDIMSALPNTKIVILTTFDTEEYVFEGIRAGAVGYLLKDTLPEELIDAIRAAARGEAIFRTVTAAKIISETFRAKQQTHAEELAEPFTKRELEVLQQMAYGLRNEDIAEKLFVSESTVKTHVHRILQKCNAQDRTQAVVFAIRNGIVQ</Hsp_hseq>
+      <Hsp_midline>I++ L DD  L R G + +++ Q    V GEA DG   I +  + +PDV+L+D+ MP  +G EA   I+S  P   +++LT  +  + + E +R GA GYLLK+   + L+++IR AA G+ +F     AK++      +     + L+   T RELE+L  +A G  N+ IA  L ++ESTVK HV  +L+K N   R QA V+AIR+ + Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81321267|sp|Q7WZY4.1|NREC_STACT</Hit_id>
+  <Hit_def>RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus carnosus subsp. carnosus TM300]</Hit_def>
+  <Hit_accession>Q7WZY4</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>4.89806e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMP-GMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLI--SPQPAQRTQ-ALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIR</Hsp_qseq>
+      <Hsp_hseq>MKIVIADDHAVVRTGFSMILNFQDDMEVVDTAADGVEAYQKVMQHQPDVLIMDLSMPPGESGLIATSKIVESFPDTKILILTMYDDEEYLFHVLRNGAKGYILKNAPDEQLISAVRTVYRGDTYIDPKMTTSLVNEFVNNTGQDANSTNDPFRILSKRELEILPLIAKGYGNKEIAEKLFVSVKTVEAHKTHIMQKLNLKSKPELVEYALK</Hsp_hseq>
+      <Hsp_midline>+KI++ DDH + R+G   +L+ Q   EV+  AADG+   + + + QPDV+++DL MP G +G  A S+I+   P   +++LT+ +D + L   +R GA+GY+LKN   + L+ ++R    GD    P+MT  LV   +  + Q A  T      L+ RELEIL  +A G+ NK IA  L ++  TV+ H  ++++KLNL S+ +   YA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|84028640|sp|P0AF30.1|NARL_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Nitrate/nitrite response regulator protein NarL [Escherichia coli O157:H7] &gt;gi|84028641|sp|P0AF29.1|NARL_ECOL6 RecName: Full=Nitrate/nitrite response regulator protein NarL [Escherichia coli CFT073] &gt;gi|84028642|sp|P0AF28.1|NARL_ECOLI RecName: Full=Nitrate/nitrite response regulator protein NarL [Escherichia coli K-12] &gt;gi|84028643|sp|P0AF31.1|NARL_SHIFL RecName: Full=Nitrate/nitrite response regulator protein NarL [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AF30</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>3.98432e-38</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>IILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVY</Hsp_qseq>
+      <Hsp_hseq>ILLIDDHPMLRTGVKQLISMAPDITVVGEASNGEQGIELAESLDPDLILLDLNMPGMNGLETLDKLREKSLSGRIVVFSVSNHEEDVVTALKRGADGYLLKDMEPEDLLKALHQAAAGEMVLSEALTPVLAASLRANR-ATTERDVNQLTPRERDILKLIAQGLPNKMIARRLDITESTVKVHVKHMLKKMKLKSRVEAAVW</Hsp_hseq>
+      <Hsp_midline>I+LIDDH + R+G+K L+S      V+GEA++G  GI++   L PD++LLDL+MPGMNG E L ++   +    +++ +VS   +D+   ++ GA GYLLK++  + LL+++ +AA G+ V S  +T  L  SL + + A   + ++ LTPRE +IL  +A G  NK+IAR LD+ ESTVKVHV+++L+K+ L SRV+AAV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81814998|sp|O07528.1|YHCZ_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transcriptional regulatory protein YhcZ [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O07528</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>6.78643e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>MKIVIADDHHVVRKGLRFFFATQDDIEVVGEAATGLEALRVIEETKPDLVLMDLSMPEMDGIQAIKKAIQQFPDTNIIVLTSYSDQEHVIPALQAGAKAYQLKDTEPEELVKT-RQVHGGEYKLSTAIMPHVLTHMKNQHDPEK-EKYYQLTRREKDVLTEIANGKSNKEIAAALFISEKTVKTHVSNLLAKLEVADRTQAALFAVKYNL</Hsp_hseq>
+      <Hsp_midline>+KI++ DDH + R G++   + Q   EV+GEAA GL  +++I   +PD+VL+DL MP M+G +A+ + I   P   +I+LT   D + +   ++ GA+ Y LK+   + L+++ R+   G+   S  +   ++  + +    ++ +    LT RE ++L  +A G SNK IA  L ++E TVK HV NLL KL ++ R QAA++A+++N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81694172|sp|Q5HEP0.1|VRAR_STAAC</Hit_id>
+  <Hit_def>RecName: Full=Response regulator protein VraR [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>Q5HEP0</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>1.53606e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTIKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNVPQ</Hsp_qseq>
+      <Hsp_hseq>MTIKVLFVDDHEMVRIGISSYLSTQSDIEVVGEGASGKEAIAKAHELKPDLILMDLLMDDMDGVEATTQIKKDLPQIKVLMLTSFIEDKEVYRALDAGVDSYILKTTSAKDIADAVRKTSRGESVFEPEVLVKMRNRM-----KKRAELYEMLTEREMEILLLIAKGYSNQEIASASHITIKTVKTHVSNILSKLEVQDRTQAVIYAFQHNLIQ</Hsp_hseq>
+      <Hsp_midline>MTIK++ +DDH + R GI + LS Q   EV+GE A G   I     L+PD++L+DL M  M+G EA +QI    PQ  V+MLT   +  ++   +  G   Y+LK  +A  + +++RK + G++VF PE+  K+   +      +R +    LT RE+EIL  +A G+SN+ IA    +   TVK HV N+L KL +  R QA +YA +HN+ Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81674015|sp|Q5HN50.1|VRAR_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Response regulator protein VraR [Staphylococcus epidermidis RP62A] &gt;gi|81842704|sp|Q8CNP9.1|VRAR_STAES RecName: Full=Response regulator protein VraR [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q5HN50</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>4.62454e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTIKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNVPQ</Hsp_qseq>
+      <Hsp_hseq>MAIKVLFVDDHEMVRIGISSYLSTQEDIEVVGEGASGKDAITKAHELKPDLILMDLLMDDMDGVEATTEIKKDLPQIKVVMLTSFIEDKEVYRALDSGVDSYILKTTSASDIADAVRKTYEGESVFEPEVLVKMRNRM-----KKRAELYEMLTEREMEILLLIAKGYSNQEIASASHITIKTVKTHVSNILSKLEVQDRTQAVIYAFQHNLIQ</Hsp_hseq>
+      <Hsp_midline>M IK++ +DDH + R GI + LS Q   EV+GE A G   I     L+PD++L+DL M  M+G EA ++I    PQ  V+MLT   +  ++   +  G   Y+LK  +A  + +++RK  EG++VF PE+  K+   +      +R +    LT RE+EIL  +A G+SN+ IA    +   TVK HV N+L KL +  R QA +YA +HN+ Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81693835|sp|Q5HDG5.1|NREC_STAAC</Hit_id>
+  <Hit_def>RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus COL] &gt;gi|81696270|sp|Q6G6T0.1|NREC_STAAS RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81704173|sp|Q7A029.1|NREC_STAAW RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81705142|sp|Q7A3U5.1|NREC_STAAN RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus N315] &gt;gi|81855884|sp|Q99RN8.1|NREC_STAAM RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|123735950|sp|Q2FEA6.1|NREC_STAA3 RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus USA300] &gt;gi|205829240|sp|A7X623.1|NREC_STAA1 RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus Mu3] &gt;gi|205829241|sp|A6U4C0.1|NREC_STAA2 RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus JH1] &gt;gi|205829243|sp|A5IVH2.1|NREC_STAA9 RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus JH9] &gt;gi|205829244|sp|A6QJN1.1|NREC_STAAE RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus str. Newman] &gt;gi|205829245|sp|A8Z580.1|NREC_STAAT RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus USA300_TCH1516] &gt;gi|205829309|sp|Q2FVM7.2|NREC_STAA8 RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus NCTC 8325]</Hit_def>
+  <Hit_accession>Q5HDG5</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>8.26815e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDM-PGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLIS---PQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIR</Hsp_qseq>
+      <Hsp_hseq>MKIVIADDHAVVRTGFSMILNYQNDMEVVATAADGVEAYQKVMEYKPDVLLMDLSMPPGESGLIATSKIADSFPETKILILTMFDDEEYLFHVLRNGAKGYILKNAPDEQLLLAIRTVYKGETYVDMKLTTSLVNEFVSNSNQDTANTTDPFKILSKRELEILPLIAKGYGNKEIAEKLFVSVKTVEAHKTHIMTKLGLKSKPELVEYALK</Hsp_hseq>
+      <Hsp_midline>+KI++ DDH + R+G   +L+ Q+  EV+  AADG+   + +   +PDV+L+DL M PG +G  A S+I    P+  +++LT+ +D + L   +R GA+GY+LKN   + LL +IR   +G+     ++T  LV   +S      A  T     L+ RELEIL  +A G+ NK IA  L ++  TV+ H  +++ KL L S+ +   YA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|2851490|sp|Q51373.2|GACA_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Response regulator GacA; AltName: Full=Global activator [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q51373</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>1.22257e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>IKVLVVDDHDLVRTGITRMLADIEGLQVVGQADCGEDCLKLARELKPDVVLMDVKMPGIGGLEATRKLLRSQPDIKVVVVTVCEEDPFPTRLMQAGAAGYMTKGAGLEEMVQAIRQVFAGQRYISPQIAQQL--ALKSFQPQQHDSPFDSLSEREIQIALMIANCHKVQSISDKLCLSPKTVNTYRYRIFEKLSITSDVELALLAVRHGM</Hsp_hseq>
+      <Hsp_midline>IK++++DDH L R+GI  +L+   G +V+G+A  G   +K+   L+PDVVL+D+ MPG+ G EA  +++   P   V+++TV E+    T  M+ GA GY+ K    + ++++IR+   G    SP++  +L  +L S QP Q      SL+ RE++I   +A  H  + I+  L L+  TV  +   +  KL+++S V+ A+ A+RH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81696432|sp|Q6GE42.1|NREC_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|123741052|sp|Q2YZ42.1|NREC_STAAB RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus aureus RF122]</Hit_def>
+  <Hit_accession>Q6GE42</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>3.06797e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDM-PGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLIS---PQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIR</Hsp_qseq>
+      <Hsp_hseq>MKIVIADDHAVVRTGFSMILNYQNDMEVVATAADGVEAYQKVMEYKPDVLLMDLSMPPGESGLIATSKIADSFPETKILILTMFDDEEYLFHVLRNGAKGYILKNAPDEQLLLAIRTVYKGETYVDMKLTTSLVNEFVSNSNQDTANTSDPFKILSKRELEILPLIAKGYGNKEIAEKLFVSVKTVEAHKTHIMTKLGLKSKPELVEYALK</Hsp_hseq>
+      <Hsp_midline>+KI++ DDH + R+G   +L+ Q+  EV+  AADG+   + +   +PDV+L+DL M PG +G  A S+I    P+  +++LT+ +D + L   +R GA+GY+LKN   + LL +IR   +G+     ++T  LV   +S      A  +     L+ RELEIL  +A G+ NK IA  L ++  TV+ H  +++ KL L S+ +   YA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|88952437|sp|Q4L7J5.1|VRAR_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Response regulator protein VraR [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L7J5</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>2.02059e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTIKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNVPQ</Hsp_qseq>
+      <Hsp_hseq>MTIKVLFVDDHEMVRIGISSYLSTQSDIEIVGEGESGKDAIAKAHELKPDLILMDLLMDDMDGVEATTQIKKDLPHIKVVMLTSFIEDKEVYRALDAGVDSYILKTTSASDIADAVRKTFNGESVFEPEVLVKMRNRM-----KKRAELYEMLTEREMEILLLIAKGYSNQEIASASHITIKTVKTHVSNILSKLEVQDRTQAVIYAFQHNLIQ</Hsp_hseq>
+      <Hsp_midline>MTIK++ +DDH + R GI + LS Q   E++GE   G   I     L+PD++L+DL M  M+G EA +QI    P   V+MLT   +  ++   +  G   Y+LK  +A  + +++RK   G++VF PE+  K+   +      +R +    LT RE+EIL  +A G+SN+ IA    +   TVK HV N+L KL +  R QA +YA +HN+ Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81842572|sp|Q8CN75.1|NREC_STAES</Hit_id>
+  <Hit_def>RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CN75</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.72609e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDM-PGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSS----LTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIR</Hsp_qseq>
+      <Hsp_hseq>MKIVIADDHAVVRTGFSMILNYQEDMEVVATAADGVEAYQKVLEHRPDVLILDLSMPPGESGLIATSKISESFPETKILILTMFDDEEYLFHMLKSGAKGYILKNSPDEQLILAVRTVYQGETYVDMKLTTSLVNEFVNQSQTDEVSSSSDPFKILSKRELEILPLIAKGYGNKDIAEKLFVSVKTVEAHKTHIMTKLNLKSKPELVEYALK</Hsp_hseq>
+      <Hsp_midline>+KI++ DDH + R+G   +L+ Q   EV+  AADG+   + +   +PDV++LDL M PG +G  A S+I    P+  +++LT+ +D + L   ++ GA+GY+LKN   + L+ ++R   +G+     ++T  LV   ++        + S     L+ RELEIL  +A G+ NK IA  L ++  TV+ H  +++ KLNL S+ +   YA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81673409|sp|Q5HLK6.1|NREC_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q5HLK6</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>4.1538e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDM-PGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSS----LTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIR</Hsp_qseq>
+      <Hsp_hseq>MKIVIADDHAVVRTGFSMILNYQEDMEVVATAADGVEAYQKVLEHRPDVLILDLSMPPGESGLIATSKISESFPDTKILILTMFDDEEYLFHVLKSGAKGYILKNSPDEQLILAVRTVYQGETYVDMKLTTSLVNEFVNQSQTDEVSSSSDPFKILSKRELEILPLIAKGYGNKDIAEKLFVSVKTVEAHKTHIMTKLNLKSKPELVEYALK</Hsp_hseq>
+      <Hsp_midline>+KI++ DDH + R+G   +L+ Q   EV+  AADG+   + +   +PDV++LDL M PG +G  A S+I    P   +++LT+ +D + L   ++ GA+GY+LKN   + L+ ++R   +G+     ++T  LV   ++        + S     L+ RELEIL  +A G+ NK IA  L ++  TV+ H  +++ KLNL S+ +   YA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|123748665|sp|Q4L8Q6.1|NREC_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Oxygen regulatory protein NreC; AltName: Full=Nitrogen regulation protein C [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L8Q6</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>2.20692e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDM-PGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQA---LSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIR</Hsp_qseq>
+      <Hsp_hseq>MKIVIADDHAVVRTGFSMILNFQEDMEVVATAADGGEAYQKVMEHKPDVLIMDLSMPPGESGLIATSKISESFPETKILILTMYDDEEYLFHVLRNGAKGYILKNAPDEQLLLAVRTVYKGETYVDMKLTTSLVNEFVNHKHSDDVSTNDPFKILSKRELEILPLIAKGYGNKDIAEKLFVSVKTVEAHKTHIMTKLDLKSKPELVEYALK</Hsp_hseq>
+      <Hsp_midline>+KI++ DDH + R+G   +L+ Q   EV+  AADG    + +   +PDV+++DL M PG +G  A S+I    P+  +++LT+ +D + L   +R GA+GY+LKN   + LL ++R   +G+     ++T  LV   ++ + +           L+ RELEIL  +A G+ NK IA  L ++  TV+ H  +++ KL+L S+ +   YA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|88952438|sp|Q49YS9.1|VRAR_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Response regulator protein VraR [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49YS9</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>2.23008e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTIKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNVPQ</Hsp_qseq>
+      <Hsp_hseq>MPIKVLFVDDHEMVRIGISSYLSTQSDIDVVGEGKSGKDAIEKAHELKPDLILMDLLMDDMDGVEATEQVKKDLPNIKVVMLTSYIEDNEVYRALDSGVDSYILKTTSASDIAEAIRKTYNNESVFEAEVLVKMRNRM-----KQRAELYEMLTEREMEILLLIAKGYSNQEIASASHITIKTVKTHVSNILSKLEVQDRTQAVIYAFQHNLIQ</Hsp_hseq>
+      <Hsp_midline>M IK++ +DDH + R GI + LS Q   +V+GE   G   I+    L+PD++L+DL M  M+G EA  Q+    P   V+MLT   + +++   +  G   Y+LK  +A  + E+IRK    ++VF  E+  K+   +      QR +    LT RE+EIL  +A G+SN+ IA    +   TVK HV N+L KL +  R QA +YA +HN+ Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|68566110|sp|P96686.1|YDFI_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein YdfI [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P96686</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>5.72872e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>KIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>KVLIVDDHLVVREGLKLLIETNDQYTIIGEAENGKVAVRLADELEPDIILMDLYMPEMSGLEAIKQIKEKHDTPIIILTTYNEDH-LMIEGIELGAKGYLLKDTSSETLFHTMDAAIRGNVLLQPDILKRLQEIQFERMKKQRNE--TQLTEKEVIVLKAIAKGLKSKAIAFDLGVSERTVKSRLTSIYNKLGANSRTEAVTIAMQKGI</Hsp_hseq>
+      <Hsp_midline>K++++DDH + R G+K L+     + +IGEA +G   +++   L+PD++L+DL MP M+G EA+ QI   +    +I+ T +ED   + E + +GA+GYLLK+ +++ L  ++  A  G+ +  P++  +L +        QR +  + LT +E+ +L  +A G  +K IA  L ++E TVK  + ++  KL  +SR +A   A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|3023834|sp|Q52376.2|GACA_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Response regulator GacA; AltName: Full=Global activator [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q52376</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>1.68929e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>IKVLVVDDHDLVRTGITRMLADIDGLQVVGQADSGEESLKKARELKPDVVLMDVKMPGIGGLEATRKMLRSHPDIKVVAVTVCEEDPFPTRLLQAGAAGYMTKGAGLAEMVQAIRLVFAGQRYISPQIAQQL--ALKSFQPQVNNSPFDLLSEREIQIALMIVGCQKVQTISDKLCLSPKTVNTYRYRIFEKLSISSDVELALLAVRHGM</Hsp_hseq>
+      <Hsp_midline>IK++++DDH L R+GI  +L+   G +V+G+A  G   +K    L+PDVVL+D+ MPG+ G EA  +++  +P   V+ +TV E+    T  ++ GA GY+ K      ++++IR    G    SP++  +L  +L S QP         L+ RE++I   +      + I+  L L+  TV  +   +  KL++SS V+ A+ A+RH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|3023833|sp|P95582.1|GACA_PSEVI</Hit_id>
+  <Hit_def>RecName: Full=Response regulator GacA; AltName: Full=Global activator [Pseudomonas viridiflava]</Hit_def>
+  <Hit_accession>P95582</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>3.78244e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>IRVLVVDDHDLVRTGITRMLADIDGLQVVGQADSGEESLKKARELKPDVVLMDVKMPGIGGLEATRKLLRSHPDIKVVAVTVCEEDPFPTRLLQAGAAGYMTKGAGLAEMVQAIRLVFAGQRYISPQIAQQL--ALKSFQPQVNNSPFDLLSEREIQIALMIVGCQKVQTISDKLCLSPKTVNTYRYRIFEKLSISSDVELALLAVRHGM</Hsp_hseq>
+      <Hsp_midline>I+++++DDH L R+GI  +L+   G +V+G+A  G   +K    L+PDVVL+D+ MPG+ G EA  +++  +P   V+ +TV E+    T  ++ GA GY+ K      ++++IR    G    SP++  +L  +L S QP         L+ RE++I   +      + I+  L L+  TV  +   +  KL++SS V+ A+ A+RH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|614103326|sp|P9WGM4.1|NARL_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Probable transcriptional regulatory protein NarL [Mycobacterium tuberculosis CDC1551] &gt;gi|614103335|sp|P9WGM5.1|NARL_MYCTU RecName: Full=Probable transcriptional regulatory protein NarL [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WGM4</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.03524e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSS-LTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>VRVVVGDDHPLFREGVVRALSLSGSVNVVGEADDGAAALELIKAHLPDVALLDYRMPGMDGAQVAAAVRSYELPTRVLLISAHDEPAIVYQALQQGAAGFLLKDSTRTEIVKAVLDCAKGRDVVAPSLVGGLAGEI-----RQRAAPVAPVLSAREREVLNRIACGQSIPAIAAELYVAPSTVKTHVQRLYEKLGVSDRAAAVAEAMRQRL</Hsp_hseq>
+      <Hsp_midline>+++++ DDH LFR G+   LS      V+GEA DG + +++I    PDV LLD  MPGM+G +  + + S      V++++  ++   + + ++ GA G+LLK+     +++++   A+G +V +P +   L   +      QR   ++  L+ RE E+L  +A G S   IA  L +A STVK HVQ L  KL +S R  A   A+R  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|123384334|sp|Q1M7A0.1|MCTR_RHIL3</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein MctR [Rhizobium leguminosarum bv. viciae 3841]</Hit_def>
+  <Hit_accession>Q1M7A0</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>2.50835e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSS-LTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNVPQPV</Hsp_qseq>
+      <Hsp_hseq>IRVLLIDNHPLVLDGLKAVLETFDHIEVAGTAGLAQTGLEIGRQILPQVVLMDINMPKLSGIDAIELFRNELPQARVVMLSMHDSREYISSSVMHGAAGYILKDVSTDEIVSAIETVAGGGTYFSSGVFDALM--------GERVEEGSDPLTPRERDILGLIVAGRSNKEIAETLGITSATAETHRKNLKKKLGITTTAGLIRYALDHGIVSKV</Hsp_hseq>
+      <Hsp_midline>I+++LID+H L   G+KA+L      EV G A    +G+++  ++ P VVL+D++MP ++G +A+    +  PQ  V+ML++ +  + ++  +  GA GY+LK+++ D ++ +I   A G   FS  +   L+         +R +  S  LTPRE +ILG + AG SNK IA  L +  +T + H +NL +KL +++      YA+ H +   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|417023|sp|P32967.1|GACA_PSEPH</Hit_id>
+  <Hit_def>RecName: Full=Response regulator GacA; AltName: Full=Global activator; AltName: Full=Global antibiotic and cyanide control protein [Pseudomonas protegens CHA0]</Hit_def>
+  <Hit_accession>P32967</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>2.96434e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>IRVLVVDDHDLVRTGITRMLADIDGLQVVGQAESGEESLLKARELKPYVVLMDVKMPGIGGLEATRKLLRSHPDIKVVAVTVCEEDPFPTRLLQAGAAGYLTKGAGLNEMVQAIRLVFAGQRYISPQIAQQLV--FKSFQPSSDS-PFDALSEREIQIALMIVGCQKVQIISDKLCLSPKTVNTYRYRIFEKLSISSDVELTLLAVRHGM</Hsp_hseq>
+      <Hsp_midline>I+++++DDH L R+GI  +L+   G +V+G+A  G   +     L+P VVL+D+ MPG+ G EA  +++  +P   V+ +TV E+    T  ++ GA GYL K    + ++++IR    G    SP++  +LV    S QP+  +    +L+ RE++I   +      +II+  L L+  TV  +   +  KL++SS V+  + A+RH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|83288180|sp|P0AED5.1|UVRY_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Response regulator UvrY [Escherichia coli K-12] &gt;gi|83288181|sp|P0AED6.1|UVRY_SHIFL RecName: Full=Response regulator UvrY [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AED5</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>1.47302e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>INVLLVDDHELVRAGIRRILEDIKGIKVVGEASCGEDAVKWCRTNAVDVVLMDMSMPGIGGLEATRKIARSTADVKIIMLTVHTENPLPAKVMQAGAAGYLSKGAAPQEVVSAIRSVYSGQRYIASDIAQQMALSQIEPEKTE--SPFASLSERELQIMLMITKGQKVNEISEQLNLSPKTVNSYRYRMFSKLNIHGDVELTHLAIRHGL</Hsp_hseq>
+      <Hsp_midline>I ++L+DDH L R+GI+ +L    G +V+GEA+ G   +K       DVVL+D+ MPG+ G EA  +I        +IMLTV  ++    + M+ GA GYL K      ++ +IR    G    + ++  ++  S I P+  +     +SL+ REL+I+  +  G     I+  L+L+  TV  +   +  KLN+   V+    AIRH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|54039838|sp|P66798.1|UVRY_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Response regulator UvrY [Escherichia coli O157:H7] &gt;gi|54042601|sp|P66797.1|UVRY_ECOL6 RecName: Full=Response regulator UvrY [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>P66798</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.83149e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>INVLLVDDHELVRAGIRRILEDIKGIKVVGEASCGEDAVKWCRANAVDVVLMDMSMPGIGGLEATRKIARSTADVKIIMLTVHTENPLPAKVMQAGAAGYLSKGAAPQEVVSAIRSVYSGQRYIASDIAQQMALSQIEPEKTE--SPFASLSERELQIMLMITKGQKVNEISEQLNLSPKTVNSYRYRMFSKLNIHGDVELTHLAIRHGL</Hsp_hseq>
+      <Hsp_midline>I ++L+DDH L R+GI+ +L    G +V+GEA+ G   +K       DVVL+D+ MPG+ G EA  +I        +IMLTV  ++    + M+ GA GYL K      ++ +IR    G    + ++  ++  S I P+  +     +SL+ REL+I+  +  G     I+  L+L+  TV  +   +  KLN+   V+    AIRH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|614140189|sp|P9WMF8.1|DEVR_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein DevR (DosR) [Mycobacterium tuberculosis CDC1551] &gt;gi|614140198|sp|P9WMF9.1|DEVR_MYCTU RecName: Full=Transcriptional regulatory protein DevR (DosR) [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WMF8</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.92856e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNVPQP</Hsp_qseq>
+      <Hsp_hseq>VKVFLVDDHEVVRRGLVDLLGADPELDVVGEAGSVAEAMARVPAARPDVAVLDVRLPDGNGIELCRDLLSRMPDLRCLILTSYTSDEAMLDAILAGASGYVVKDIKGMELARAVKDVGAGRSLLDNRAAAALMAKLRG--AAEKQDPLSGLTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGMERRTQAAVFATELKRSRP</Hsp_hseq>
+      <Hsp_midline>+K+ L+DDH + R G+  LL      +V+GEA      +  +   +PDV +LD+ +P  NG E    ++S  P    ++LT     + + + +  GA GY++K+I    L  +++    G ++      A L+  L     A++   LS LT +E  +LG L+ G +NK IA  + LAE TVK +V  LL KL +  R QAAV+A      +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|81814911|sp|O07019.1|YVFU_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transcriptional regulatory protein YvfU [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O07019</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>2.63687e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYA</Hsp_qseq>
+      <Hsp_hseq>IRLFIAEDQRMLLGALGSLLDLEEDMTVIGQALNGEEALHAILKLEPDVCIMDIEMPVRSGLNVAEELMKKGCVSKVIILTTFARPGYFERAVKAGAHGYLLKDGEIDDLADAIRKCVKGKRVFSPELTFNMMR---DENP---------LTVREQEILRLAALGKTTKDITLELYLSQGTVRNYISEIIQKLNAKNRTEAASIA</Hsp_hseq>
+      <Hsp_midline>I++ + +D  +    + +LL  +    VIG+A +G   +  I +L+PDV ++D++MP  +G     +++       VI+LT           ++ GA GYLLK+   D L ++IRK  +G  VFSPE+T  +++      P         LT RE EIL   A G + K I   L L++ TV+ ++  +++KLN  +R +AA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|61219948|sp|P0A4H2.1|BVGA_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Virulence factors putative positive transcription regulator BvgA [Bordetella pertussis Tohama I] &gt;gi|61219950|sp|P0A4H3.1|BVGA_BORBR RecName: Full=Virulence factors putative positive transcription regulator BvgA [Bordetella bronchiseptica RB50] &gt;gi|61219953|sp|P0A4H4.1|BVGA_BORPA RecName: Full=Virulence factors putative positive transcription regulator BvgA [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>P0A4H2</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>6.07636e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MTIKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>MYNKVLIIDDHPVLRFAVRVLMEKE-GFEVIGETDNGIDGLKIAREKIPNLVVLDIGIPKLDGLEVIARLQSLGLPLRVLVLTGQPPSLFARRCLNSGAAGFVCKHENLHEVINAAKAVMAGYTYF-PSTT--LSEMRMGDNAKSDSTLISVLSNRELTVLQLLAQGMSNKDIADSMFLSNKTVSTYKTRLLQKLNATSLVELIDLAKRNNL</Hsp_hseq>
+      <Hsp_midline>M  K+++IDDH + R  ++ L+ ++ GFEVIGE  +G+ G+K+     P++V+LD+ +P ++G E ++++ S+     V++LT    S     C+  GA G++ K+ N   ++ + +    G   F P  T  L +  +       +  +S L+ REL +L  LA G SNK IA  + L+  TV  +   LL+KLN +S V+    A R+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81815765|sp|O34723.1|DESR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein DesR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34723</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>7.65803e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQA</Hsp_qseq>
+      <Hsp_hseq>ISIFIAEDQQMLLGALGSLLNLEDDMEVVGKGTTGQDAVDFVKKRQPDVCIMDIEMPGKTGLEAAEELKDTGCK--IIILTTFARPGYFQRAIKAGVKGYLLKDSPSEELANAIRSVMNGKRIYAPELMEDLY-SEANP-----------LTDREKEVLELVADGKNTKEIAQELSIKSGTVRNYISMILEKLEVKNRIEA</Hsp_hseq>
+      <Hsp_midline>I I + +D  +    + +LL+ +   EV+G+   G   +  + + QPDV ++D++MPG  G EA  ++     +  +I+LT           ++ G +GYLLK+  ++ L  +IR    G  +++PE+   L  S  +P           LT RE E+L  +A G + K IA+ L +   TV+ ++  +L KL + +R++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|120173|sp|P26319.1|FIMZ_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Fimbriae Z protein [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P26319</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.83338e-22</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>IILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRH</Hsp_qseq>
+      <Hsp_hseq>VIIMDEHPIVRMSIEVLLGKNSNIQVVLKTDDSRTAIEYLRTYPVDLVILDIELPGTDGFTLLKRIKSIQEHTRILFLSSKSEAFYAGRAIRAGANGFVSKRKDLNDIYNAVKMILSGYSFF-PSETLNFISNTRTPKGGHHDMPLSN---REVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIVELIDYAKSH</Hsp_hseq>
+      <Hsp_midline>+I++D+H + R  I+ LL +    +V+ +  D  + I+ +     D+V+LD+++PG +G   L +I SI     ++ L+   ++      +R GA G++ K  + + +  +++    G + F P  T   + +  +P+       LS+   RE+ +L YLA G SNK IA  L L+  T+  H  N+  KL L S V+   YA  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|13959718|sp|P24908.2|TRPO_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Putative transcriptional regulator [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P24908</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>3.93932e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>KIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>KVLIVDDHPAIRLAVRLLFERD-GFTIVGEADNGAEALQVARKKSPDLAILDIGIPKIDGLEVIARLKSLKLDTKVLVLTRQNPAQFAPRCLQAGAMGFVSKRENLSELLLAAKAVLAGYIHFP---TGAL-RSINQQSRDNEARMLESLSDREMTVLQYLANGNTNKAIAQQLFLSEKTVSTYKSRIMLKLNAHSLAGLIDFARRHEL</Hsp_hseq>
+      <Hsp_midline>K++++DDH   R  ++ L  R  GF ++GEA +G   +++  +  PD+ +LD+ +P ++G E ++++ S+     V++LT    +     C++ GA G++ K  N   LL + +    G   F    T  L +S+         + L SL+ RE+ +L YLA G++NK IA+ L L+E TV  +   ++ KLN  S      +A RH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|84029410|sp|P0AGA8.1|UHPA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein UhpA [Escherichia coli O157:H7] &gt;gi|84029411|sp|P0AGA7.1|UHPA_ECOL6 RecName: Full=Transcriptional regulatory protein UhpA [Escherichia coli CFT073] &gt;gi|84029412|sp|P0AGA6.1|UHPA_ECOLI RecName: Full=Transcriptional regulatory protein UhpA [Escherichia coli K-12] &gt;gi|84029413|sp|P0AGA9.1|UHPA_SHIFL RecName: Full=Transcriptional regulatory protein UhpA [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AGA8</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>5.59962e-22</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQ-QAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAA</Hsp_qseq>
+      <Hsp_hseq>ITVALIDDHLIVRSGFAQLLGLEPDLQVVAEFGSGREALAGLPGRGVQVCICDISMPDISGLELLSQL----PKGMATIMLSVHDSPALVEQALNAGARGFLSKRCSPDELIAAVHTVATGGCYLTPDIAIKLASGRQDP-----------LTKRERQVAEKLAQGMAVKEIAAELGLSPKTVHVHRANLMEKLGVSNDVELA</Hsp_hseq>
+      <Hsp_midline>I + LIDDH + RSG   LL  +   +V+ E   G   +  +      V + D+ MP ++G E LSQ+    P+  A IML+V +    + + +  GARG+L K  + D L+ ++   A G    +P++  KL      P           LT RE ++   LA G + K IA  L L+  TV VH  NL+ KL +S+ V+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|136767|sp|P27667.1|UHPA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein UhpA [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P27667</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.04641e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQ-QAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAA</Hsp_qseq>
+      <Hsp_hseq>ITVALIDDHLIVRSGFAQLLGLEPDLQVVAEFGSGREALAGLPGRGVQVCICDISMPDISGLELLSQL----PKGMATIVLSVHDSPALVEQALNAGARGFLSKRCSPDELIAAVHTVATGGCYLTPDIAVKLAAGRQDP-----------LTKRERQVAEKLAQGMAVKEIAAELGLSPKTVHVHRANLLEKLGVSNDVELA</Hsp_hseq>
+      <Hsp_midline>I + LIDDH + RSG   LL  +   +V+ E   G   +  +      V + D+ MP ++G E LSQ+    P+  A I+L+V +    + + +  GARG+L K  + D L+ ++   A G    +P++  KL      P           LT RE ++   LA G + K IA  L L+  TV VH  NLL KL +S+ V+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|82581665|sp|P0ACZ6.1|EVGA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Positive transcription regulator EvgA [Escherichia coli O157:H7] &gt;gi|82581666|sp|P0ACZ5.1|EVGA_ECOL6 RecName: Full=Positive transcription regulator EvgA [Escherichia coli CFT073] &gt;gi|82581667|sp|P0ACZ4.1|EVGA_ECOLI RecName: Full=Positive transcription regulator EvgA [Escherichia coli K-12] &gt;gi|82581668|sp|P0ACZ7.1|EVGA_SHIFL RecName: Full=Positive transcription regulator EvgA [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0ACZ6</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>3.95964e-21</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>ILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAIRHNV</Hsp_qseq>
+      <Hsp_hseq>IIIDDHPLAIAAIRNLLIK-NDIEILAELTEGGSAVQRVETLKPDIVIIDVDIPGVNGIQVLETLRKRQYSGIIIIVSAKNDHFYGKHCADAGANGFVSKKEGMNNIIAAIEAAKNGYCYF-PFSLNRFVGSLTSDQ-----QKLDSLSKQEISVMRYILDGKDNNDIAEKMFISNKTVSTYKSRLMEKLECKSLMDLYTFAQRNKI</Hsp_hseq>
+      <Hsp_midline>I+IDDH L  + I+ LL + +  E++ E  +G S ++ +  L+PD+V++D+D+PG+NG + L  +        +I+++   D      C   GA G++ K    + ++ +I  A  G   F P    + V SL S Q     Q L SL+ +E+ ++ Y+  G  N  IA  + ++  TV  +   L+ KL   S +    +A R+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|61220921|sp|P0A4H5.1|CHEY_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Chemotaxis protein CheY [Listeria monocytogenes EGD-e] &gt;gi|61220922|sp|P0A4H6.1|CHEY_LISIN RecName: Full=Chemotaxis protein CheY [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>P0A4H5</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>3.09233e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAE</Hsp_qseq>
+      <Hsp_hseq>LKLLIVDDAMFMRTMIKNIV-KDSDFEVVAEAENGLEAVKKYDEVKPDIVTLDITMPEMDGLEALAQIMAKDPSAKVIMCSAMGQQGMVVDAIKKGAKDFIVKPFQADRVLEALEKAAK</Hsp_hseq>
+      <Hsp_midline>+K++++DD    R+ IK ++ +   FEV+ EA +GL  +K    ++PD+V LD+ MP M+G EAL+QI++ +P   VIM +       + + ++ GA+ +++K   AD +LE++ KAA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|408387569|sp|A8R3T0.1|AGMR_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Glycerol metabolism activator; AltName: Full=DNA-binding response regulator; AltName: Full=Protein AgmR [Pseudomonas putida]</Hit_def>
+  <Hit_accession>A8R3T0</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>2.72717e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>KIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISR-LQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRT----QALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYA</Hsp_qseq>
+      <Hsp_hseq>KILIADDHPLFREAIHNVITDGFPGSEVMETADLDSALSLTGQHDDLDLILLDLNMPGMHGLGGLINLRNEAPTIPVVIVSAEQDKQVVLQAITYGAVGFITKSSPRSQMTDAIEQILNG-NVYLPPDIIRTQKSTGRRNQSEHAGFAPELLQALTRKQLLVLERMTKGESNKQIAYNLDIAETTVKAHVSAILRKLNVHNRVQAILSA</Hsp_hseq>
+      <Hsp_midline>KI++ DDH LFR  I  +++       + E AD  S + +  +    D++LLDL+MPGM+G   L  + +  P   V++++  +D   + + +  GA G++ K+     + ++I +   G NV+ P    +  KS      ++      + L +LT ++L +L  +  G SNK IA +LD+AE+TVK HV  +LRKLN+ +RVQA + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|121420|sp|P29369.1|AGMR_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Glycerol metabolism activator; AltName: Full=Protein AgmR [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P29369</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>4.0651e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>KIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMI-SRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQA------LSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYA</Hsp_qseq>
+      <Hsp_hseq>KILIADDHPLFREAIHNVIADGFPGSEVMETADLDSALGLTQEHDDLDLILLDLNMPGMHGLNGLMNLRNEAPTIPVVIVSAEQDKQVVLQAITYGAVGFITKSSPRAQMTEAIEQILNG-NVYLPSDVIRTQKS--SPRRSGHEEHGISPELLQALTRKQLLVLERMTKGESNKQIAYNLDIAETTVKAHVSAILRKLKVHNRVQAILSA</Hsp_hseq>
+      <Hsp_midline>KI++ DDH LFR  I  +++       + E AD  S + +       D++LLDL+MPGM+G   L  + +  P   V++++  +D   + + +  GA G++ K+     + E+I +   G NV+ P    +  KS  SP+ +   +       L +LT ++L +L  +  G SNK IA +LD+AE+TVK HV  +LRKL + +RVQA + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|84028127|sp|P0AEL9.1|FIMZ_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Fimbriae Z protein [Escherichia coli O157:H7] &gt;gi|84028128|sp|P0AEL8.1|FIMZ_ECOLI RecName: Full=Fimbriae Z protein [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEL9</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.37211e-17</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>IILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYA</Hsp_qseq>
+      <Hsp_hseq>VIIMDTHPIIRMSIEVLLQKNSELQIVLKTDDYRITIDYLRTRPVDLIIMDIDLPGTDGFTFLKRIKQIQSTVKVLFLSSKSECFYAGRAIQAGANGFVSKCNDQNDIFHAVQMILSGYTFF-PSETLNYIK---SNKCSTNSSTVTVLSNREVTILRYLVSGLSNKEIADKLLLSNKTVSAHKSNIYGKLGLHSIVELIDYA</Hsp_hseq>
+      <Hsp_midline>+I++D H + R  I+ LL +    +++ +  D    I  +     D++++D+D+PG +G   L +I  I     V+ L+   +       ++ GA G++ K  + + +  +++    G   F P  T   +K   S + +  +  ++ L+ RE+ IL YL +G SNK IA  L L+  TV  H  N+  KL L S V+   YA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|408407588|sp|A8R3S7.1|EXAE_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional activator protein ExaE [Pseudomonas putida]</Hit_def>
+  <Hit_accession>A8R3S7</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>4.87728e-17</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVKSLISPQPAQ--RTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYAI</Hsp_qseq>
+      <Hsp_hseq>MGILLVDDHPMIRLGLAHFLGEGLNGLPVREAGSGEEALQQVQEELPGLVIMDFDLPGISGLETTRRLRQRLPQLRVLFFSEHTELGLVRQALDAGACGFLSKAAAPAVVLEAVRRVLAGHAYIEQPLATQLA---CQPHPGQGGGNARLQGLTQREIEVFLMLAKGTPTRLIAQQLCISAKTVSNYLTLLKSKLQVSSHAELVHLAI</Hsp_hseq>
+      <Hsp_midline>+ I+L+DDH + R G+   L        + EA  G   ++ +    P +V++D D+PG++G E   ++    PQ  V+  +   +   + + +  GA G+L K      +LE++R+   G       +  +L      P P Q      L  LT RE+E+   LA G   ++IA+ L ++  TV  ++  L  KL +SS  +    AI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|6094276|sp|P56644.1|SGAR_HYPME</Hit_id>
+  <Hit_def>RecName: Full=Probable transcriptional regulatory protein SgaR [Hyphomicrobium methylovorum]</Hit_def>
+  <Hit_accession>P56644</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>8.70936e-17</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGDNVFSPEMTAKLVK-SLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQA</Hsp_qseq>
+      <Hsp_hseq>IEVSIVDQNPVVRTGLETLLVRDGRFSVSGIYASGEDLLAALQTKPVEIVIVGWSLPDMTGGDVLTRVRKEKWRTRIIIYTGERSSEVLRTAIKSGAWGFVAKTEEPQVLLEAVVSVARG------RLSLPYVDIDLLNHDP------LESLTARERELLAALANGWTNLQIAARTGISRNTVKYHLKNLYDKLGVSNRAMA</Hsp_hseq>
+      <Hsp_midline>I++ ++D + + R+G++ LL R   F V G  A G   +  +     ++V++   +P M G + L+++     +  +I+ T    S+ L   ++ GA G++ K      LLE++   A G       ++   V   L++  P      L SLT RE E+L  LA G +N  IA    ++ +TVK H++NL  KL +S+R  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|116903|sp|P14204.1|CMPA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein ComA; AltName: Full=Competence protein A [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P14204</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.93891e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>KIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLS------GIKMISRLQPDVVLLDLDMPG-MNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAEGD-----NVFSPEMTAKLVKSLISPQPAQRTQALSSLTPRELEILGYLAAGHSNKIIARHLDLAESTVKVHVQNLLRKLNLSSRVQAAVYA</Hsp_qseq>
+      <Hsp_hseq>KILVIDDHPAVMEGTKTILETDSNLSV-----DCLSPEPSEQFIKQHDFSSYDLILMDLNLGGEVNGMELSKQILQENPHCKIIVYTGYEVEDYFEEAIRAGLHGAISKTESKEKITQYIYHVLNGEILVDFAYFKQLMTQQKTKPAPSSQKEQDV-----LTPRECLILQEVEKGFTNQEIADALHLSKRSIEYSLTSIFNKLNVGSRTEAVLIA</Hsp_hseq>
+      <Hsp_midline>KI++IDDH     G K +L       V     D LS       IK       D++L+DL++ G +NG E   QI+  NP   +I+ T  E  D   E +R G  G + K  + + + + I     G+       F   MT +  K   S Q  Q       LTPRE  IL  +  G +N+ IA  L L++ +++  + ++  KLN+ SR +A + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|116278|sp|P24072.3|CHEY_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Chemotaxis protein CheY [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P24072</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.96037e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MTIKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRK</Hsp_qseq>
+      <Hsp_hseq>MAHRILIVDDAAFMRMMIKDILVK-NGFEVVAEAENGAQAVEKYKEHSPDLVTMDITMPEMDGITALKEIKQIDAQARIIMCSAMGQQSMVIDAIQAGAKDFIVKPFQADRVLEAINK</Hsp_hseq>
+      <Hsp_midline>M  +I+++DD    R  IK +L + +GFEV+ EA +G   ++      PD+V +D+ MP M+G  AL +I  I+ Q  +IM +       + + ++ GA+ +++K   AD +LE+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|3023497|sp|Q56312.1|CHEY_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Chemotaxis protein CheY [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q56312</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>2.65333e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MTIKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRKAAE</Hsp_qseq>
+      <Hsp_hseq>MGKRVLIVDDAAFMRMMLKDIITK-AGYEVAGEATNGREAVEKYKELKPDIVTMDITMPEMNGIDAIKEIMKIDPNAKIIVCSAMGQQAMVIEAIKAGAKDFIVKPFQPSRVVEALNKVSK</Hsp_hseq>
+      <Hsp_midline>M  +++++DD    R  +K ++++  G+EV GEA +G   ++    L+PD+V +D+ MP MNG +A+ +I+ I+P   +I+ +       + E ++ GA+ +++K      ++E++ K ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1176639|sp|P45709.1|CCDB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Protein CcdB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P45709</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.23693e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLTECMRIGARGYLLKNINADFLLESIRK</Hsp_qseq>
+      <Hsp_hseq>RVLVVDDAKFMRVKIREILE-EANYIIAGEAADGEQAADLYKKLRPDLVTMDITMPVKNGIKALRDILTFDPKAKVIMCTAMRQQRIVTEAIELGAKDFIVKPFEETKVLEAVSR</Hsp_hseq>
+      <Hsp_midline>+++++DD    R  I+ +L  +  + + GEAADG     +  +L+PD+V +D+ MP  NG +AL  I++ +P+  VIM T       +TE + +GA+ +++K      +LE++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|50400266|sp|P62638.1|CHEB1_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=Chemotaxis response regulator protein-glutamate methylesterase of group 1 operon [Geobacter sulfurreducens PCA]</Hit_def>
+  <Hit_accession>P62638</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>4.74625e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVS-EDSDDLTECMRIGARGYLLKNI--NAD----FLLESIRKA-AEGDNVFSPEMTAKLVKSLISP----QPAQR-TQALSS</Hsp_qseq>
+      <Hsp_hseq>LRVLVVDDSSFMRMVIRSVLEKDPAIEVVGIAVDGMEGVEKALALKPDLITMDIEMPRLDGISALKQVMAKCPTRVLMVSTLTCEGAKATFDALDAGAIDYIPKNVTDSADAQRVFREELLRKVKGAASSIFGRPMTTSAPRAIIAPPRQVQPAPRPSQALAG</Hsp_hseq>
+      <Hsp_midline>++++++DD +  R  I+++L +    EV+G A DG+ G++    L+PD++ +D++MP ++G  AL Q+++  P + +++ T++ E +    + +  GA  Y+ KN+  +AD    F  E +RK      ++F   MT    +++I+P    QPA R +QAL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|81825304|sp|Q65JK6.1|CHEB_BACLD</Hit_id>
+  <Hit_def>RecName: Full=Chemotaxis response regulator protein-glutamate methylesterase [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q65JK6</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>6.88419e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>IKIILIDDHTLFRSGIKALLSRQHGFEVIGEAADGLSGIKMISRLQPDVVLLDLDMPGMNGREALSQIISINPQQAVIMLTVSEDSDDLT-ECMRIGARGYLLK</Hsp_qseq>
+      <Hsp_hseq>IRVLVVDDSAFMRNMITKFLTSNHEIAVAGTARNGEEALQKIKELRPDVITLDIEMPVMNGKETLKRIMASDPLPVVMVSSLTQQGADITIECLELGAIDFVAK</Hsp_hseq>
+      <Hsp_midline>I+++++DD    R+ I   L+  H   V G A +G   ++ I  L+PDV+ LD++MP MNG+E L +I++ +P   V++ ++++   D+T EC+ +GA  ++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

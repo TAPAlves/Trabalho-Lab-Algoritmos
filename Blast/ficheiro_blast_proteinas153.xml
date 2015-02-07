@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>40175</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>95</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>40175</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>95</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|74693643|sp|Q757K7.1|GPI18_ASHGO</Hit_id>
+  <Hit_def>RecName: Full=GPI mannosyltransferase 2; AltName: Full=GPI mannosyltransferase II; Short=GPI-MT-II; AltName: Full=Glycosylphosphatidylinositol-anchor biosynthesis protein 18 [Ashbya gossypii ATCC 10895]</Hit_def>
+  <Hit_accession>Q757K7</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.21099</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>ALWQMYVMMTETYTLNRFKDKELVWRVALLFISFSLAVYLLCPNSRKKGIVFFILG</Hsp_qseq>
+      <Hsp_hseq>SVWLLYALTLRTFP----KNRELAYKTSLLFILSSAAGFLLAPYSEPLSFAFSFLG</Hsp_hseq>
+      <Hsp_midline>++W +Y +   T+     K++EL ++ +LLFI  S A +LL P S      F  LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|14916856|sp|O26061.2|THYX_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Thymidylate synthase ThyX; Short=TS; Short=TSase [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O26061</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.02131</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>EIVGIFFIPMGIISMCMAALWQMYVMMTETYTLNRFKDKELVWRVALLFISFSLAVYL</Hsp_qseq>
+      <Hsp_hseq>EVICKHYTPLDIASQAIRTCWQSFEYSDDGGC----KDKELIHRVGNIFRHSSTLEHL</Hsp_hseq>
+      <Hsp_midline>E++   + P+ I S  +   WQ +    +       KDKEL+ RV  +F   S   +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|60390109|sp|Q8EA87.1|MDTL_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtL [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EA87</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.13735</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>SMCMAALWQMYVMMTETYTLNRFKDKELVWRVALLFISFSL</Hsp_qseq>
+      <Hsp_hseq>TMAMMALVSMLASFSTPFLLNRFKEKSLILFSQGLFVAAAL</Hsp_hseq>
+      <Hsp_midline>+M M AL  M    +  + LNRFK+K L+     LF++ +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|12644050|sp|O14682.2|ENC1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Ectoderm-neural cortex protein 1; Short=ENC-1; AltName: Full=Kelch-like protein 37; AltName: Full=Nuclear matrix protein NRP/B; AltName: Full=p53-induced gene 10 protein [Homo sapiens]</Hit_def>
+  <Hit_accession>O14682</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.41843</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>FIPMGIISMCMAALWQMYVM----MTETYTLNRFKDKELV---WRVALLFISFSLAVYLLCPNSRKKGIVFFILGG</Hsp_qseq>
+      <Hsp_hseq>YLPELLQTVRLALLPAIYLMENVAMEELITKQR-KSKEIVEEAIRCKLKILQNDGVVTSLCARPRKTGHALFLLGG</Hsp_hseq>
+      <Hsp_midline>++P  + ++ +A L  +Y+M    M E  T  R K KE+V    R  L  +     V  LC   RK G   F+LGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|341940653|sp|O35709.2|ENC1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Ectoderm-neural cortex protein 1; Short=ENC-1 [Mus musculus]</Hit_def>
+  <Hit_accession>O35709</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.41843</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>FIPMGIISMCMAALWQMYVM----MTETYTLNRFKDKELV---WRVALLFISFSLAVYLLCPNSRKKGIVFFILGG</Hsp_qseq>
+      <Hsp_hseq>YLPELLQTVRLALLPAIYLMENVAMEELITKQR-KSKEIVEEAIRCKLKILQNDGVVTSLCARPRKTGHALFLLGG</Hsp_hseq>
+      <Hsp_midline>++P  + ++ +A L  +Y+M    M E  T  R K KE+V    R  L  +     V  LC   RK G   F+LGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

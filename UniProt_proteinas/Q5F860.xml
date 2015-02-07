@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-09-11" modified="2015-02-04" version="48">
+<accession>Q5F860</accession>
+<name>RL36_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">50S ribosomal protein L36</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">rpmJ</name>
+<name type="ordered locus">NGO0931</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="similarity">
+<text evidence="1">Belongs to the ribosomal protein L36P family.</text>
+</comment>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89627.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208039.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F860"/>
+<dbReference type="STRING" id="242231.NGO0931"/>
+<dbReference type="EnsemblBacteria" id="AAW89627">
+<property type="protein sequence ID" value="AAW89627"/>
+<property type="gene ID" value="NGO0931"/>
+</dbReference>
+<dbReference type="GeneID" id="3282568"/>
+<dbReference type="KEGG" id="ngo:NGO0931"/>
+<dbReference type="PATRIC" id="20335045">
+<property type="gene designation" value="VBINeiGon24812_1092"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0257"/>
+<dbReference type="HOGENOM" id="HOG000111585"/>
+<dbReference type="KO" id="K02919"/>
+<dbReference type="OrthoDB" id="EOG676ZC2"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-869-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005840">
+<property type="term" value="C:ribosome"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003735">
+<property type="term" value="F:structural constituent of ribosome"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006412">
+<property type="term" value="P:translation"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00251">
+<property type="entry name" value="Ribosomal_L36"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000473">
+<property type="entry name" value="Ribosomal_L36"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR18804">
+<property type="entry name" value="PTHR18804"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00444">
+<property type="entry name" value="Ribosomal_L36"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF57840">
+<property type="entry name" value="SSF57840"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01022">
+<property type="entry name" value="rpmJ_bact"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0687">Ribonucleoprotein</keyword>
+<keyword id="KW-0689">Ribosomal protein</keyword>
+<feature type="chain" description="50S ribosomal protein L36" id="PRO_0000302252">
+<location>
+<begin position="1"/>
+<end position="41"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00251"/>
+</source>
+</evidence>
+<sequence length="41" mass="4959" checksum="BC026117293EAA31" modified="2005-03-15" version="1">
+MQVLSSLKTAKQRHRDCQIVRRRGKVYVICKSNPRFKSRQR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

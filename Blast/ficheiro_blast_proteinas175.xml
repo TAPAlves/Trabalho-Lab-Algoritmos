@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>22589</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>383</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>22589</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>383</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|74948677|sp|Q9VWR8.1|DPY19_DROME</Hit_id>
+  <Hit_def>RecName: Full=C-mannosyltransferase dpy-19 homolog [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9VWR8</Hit_accession>
+  <Hit_len>872</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.92749</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>VIPQNALQNDGGVFQTASVRLVKIPFVPQQDFDKLLHLADCAVIRGEDSFVRT---QLAGKPFFWHIYPQDENV</Hsp_qseq>
+      <Hsp_hseq>VILSHALIGCGFFF--LYVQHVRVIFETRTNIQQLNQLEREALLRREDALYYAFYKQLAEGPDFWHGYEQLKNV</Hsp_hseq>
+      <Hsp_midline>VI  +AL   G  F    V+ V++ F  + +  +L  L   A++R ED+       QLA  P FWH Y Q +NV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|510785801|sp|D5EY15.1|XYL3A_PRER2</Hit_id>
+  <Hit_def>RecName: Full=Xylan 1,4-beta-xylosidase; AltName: Full=1,4-beta-D-xylan xylohydrolase; AltName: Full=Alpha-L-arabinofuranosidase; Short=Arabinosidase; AltName: Full=Beta-D-xylosidase; AltName: Full=Exo-1,4-beta-xylosidase; Flags: Precursor [Prevotella ruminicola 23]</Hit_def>
+  <Hit_accession>D5EY15</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>7.41007</Hsp_evalue>
+      <Hsp_query-from>247</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>431</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>KIPFVPQQDF--DKLL--HLA-DCAVIRGEDSFV-----RTQLAGKPFFWHIYPQDENVHLDKLHAF</Hsp_qseq>
+      <Hsp_hseq>KLVYIPGCDLTNDKVMECHLATDCVTPDGKKGLKGTFWNNTEMAGKPFTTEYYTKPVNVTTAGMHVF</Hsp_hseq>
+      <Hsp_midline>K+ ++P  D   DK++  HLA DC    G+          T++AGKPF    Y +  NV    +H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|122544872|sp|Q2NBU9.1|PSD_ERYLH</Hit_id>
+  <Hit_def>RecName: Full=Phosphatidylserine decarboxylase proenzyme; Contains: RecName: Full=Phosphatidylserine decarboxylase alpha chain; Contains: RecName: Full=Phosphatidylserine decarboxylase beta chain [Erythrobacter litoralis HTCC2594]</Hit_def>
+  <Hit_accession>Q2NBU9</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.85326</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>WLNWEYLSAEESNERLHLMPSPQEGVQKYFWFMGFSEKSGGLIRERDYREAVRFDTEALRRRLVLPEKNAPEWLLFGYRGDVW</Hsp_qseq>
+      <Hsp_hseq>FLNADLDKASEENERQHLLVSRPDGLQ-----IGFTQIA-GLVARRIVPFVKQGDIVAVGQRIGL--------IRFGSRVDVY</Hsp_hseq>
+      <Hsp_midline>+LN +   A E NER HL+ S  +G+Q     +GF++ + GL+  R      + D  A+ +R+ L        + FG R DV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

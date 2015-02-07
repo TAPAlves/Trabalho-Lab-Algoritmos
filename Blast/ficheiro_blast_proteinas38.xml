@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>55233</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>581</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>55233</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>581</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1169571|sp|P45158.1|RECD_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=RecBCD enzyme subunit RecD; AltName: Full=Exonuclease V subunit RecD; Short=ExoV subunit RecD; AltName: Full=Helicase/nuclease RecBCD subunit RecD [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45158</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>2.4358e-54</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>637</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>543</Hsp_align-len>
+      <Hsp_qseq>APLILEGRRLFLGRMWQLEYDLAAEIKR-LAAAGTSAPDAAGARQNLAKWF--QGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKL---EGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGFLPEHGFSVS----ANPPVLAQNTAHLSFSHRFGDNSGIGCLARAAVSGD-EGAWALFDRFPDELEHSECSP-----NARVERLYRAHKAYWQAVKD----------------GNIEAAYAGISDIVVLAAWRQD---AEDFNEAYCSYVRRK--MNIPEHLAYFAGEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYFADADGFKKVAVSCLPEFEPAFAMTVHKSQGSEYRE-VWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFCQAVNTVKVRQTALGSMLE</Hsp_qseq>
+      <Hsp_hseq>APMAFQFGALYFYRAWQDEYRIVQYIKNTLKKYRTLAFSYDEIHQKLEKYFPEKQEKTDWQKVAVATAIKSPFSIITGGPGTGKTTTVTRLLLVLQELFDCKLHIKLVAPTGKAASRLEESIKNALGFMQEKMNVSHSLFNAIPQKASTLHSLLGVNAFNDYTRYNSHNPLQLDVLVVDETSMIDLPMMAKLINALKPETRLILLGDQAQLASVEAGAVLGELAQ-FVTQPYSHEQAAYLLATTGYKVEGSDCSNP--IRDCLCHLTESRRFDKDSGIGKLSEFIQKGKADDSLELFDHYPQELHFNSLNDEGDAVNQVVKSAVENYRTFLKMLDDLRKQKIDPNAKNEQGISYAEAIQVQFNSVRFLTALRNNNLGVENLNKEIALALREQKLLWFRNEQDWYIGKPIMITENDHNVRLYNGDIGLCLAN-GK-----VWF----GNREVLTNRIPAHEPAFMMTIHKSQGSEFKHTVMVLPTEVNPV---------LSRELVFTGVTRAKKELTVFADEKIWKTAIRQTVKRQSGLGKLLE</Hsp_hseq>
+      <Hsp_midline>AP+  +   L+  R WQ EY +   IK  L    T A       Q L K+F  +   ++ Q+ A A A+   F +ITGGPGTGKTTTV +LL ++    +   HI L APTGKAA+ +  ++  ++        V   L      +  T+H LL ++       ++   PL  DVL+VDE SM+D  +M +L+ A+K   R+ILLGD+ QL SV  GAVL  L+Q  V    +H++ A  L   G+ V     +NP  +     HL+ S RF  +SGIG L+     G  + +  LFD +P EL  +  +      N  V+     ++ + + + D                   EA     + +  L A R +    E+ N+     +R +  +       ++ G+PIMI +ND+ + L+NGDIGL + + G+      +F    G ++V  + +P  EPAF MT+HKSQGSE++  V +LP    P          LS+EL++T +TRA+++   F  +K +  A+     RQ+ LG +LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2507018|sp|P04993.2|RECD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=RecBCD enzyme subunit RecD; AltName: Full=Exodeoxyribonuclease V 67 kDa polypeptide; AltName: Full=Exodeoxyribonuclease V alpha chain; AltName: Full=Exonuclease V subunit RecD; Short=ExoV subunit RecD; AltName: Full=Helicase/nuclease RecBCD subunit RecD [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P04993</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>7.65909e-54</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>574</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>604</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>75</Hsp_gaps>
+      <Hsp_align-len>583</Hsp_align-len>
+      <Hsp_qseq>SGNEVLANCTERLFQALQNGHSFIRLSGDEADALSALAPVVGTSAAPLILEGRRLFLGRMWQLEYDLAAEIKRLAAAGTSAPDAAGARQNLAKWFQGAGS-EGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLA-LICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQK-----TVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLSFSHRFGDNSGIGCLARAAVSGDEGAW-ALFDRFPDELEHSECSPNARVERLYRAHKAYWQAVKDGNIEAAYAGISDIVVLAAWRQDAEDFNEAYCSY-------------------------VRRKMNIPEHLAYFAGEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYFADADG-FKKVAVSCLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFCQAVNTVKVRQTALGSML</Hsp_qseq>
+      <Hsp_hseq>ASHPLLATCVSEIGE-LQNWEECL---------LASQAVSRGDEPTPMILCGDRLYLNRMWCNERTVARFFNEVNHA--IEVDEALLAQTLDKLFPVSDEINWQKVAAAVALTRRISVISGGPGTGKTTTVAKLLAALIQMADGERCRIRLAAPTGKAAARLTESLGKALRQLPLTDEQKKRIPE-DASTLHRLLGAQPGSQRLRHHAGNPLHLDVLVVDEASMIDLPMMSRLIDALPDHARVIFLGDRDQLASVEAGAVLGDICAYANAGFTAERARQLSRLTGTHVPAGTGTEAAS--LRDSLCLLQKSYRFGSDSGIGQLAAAINRGDKTAVKTVFQQDFTDIE----------KRLLQSGEDYI-----AMLEEALAGYGRYLDLLQARAEPDLIIQAFNEYQLLCALREGPFGVAGLNERIEQFMQQKRKIHRHPHSRWYEGRPVMIARNDSALGLFNGDIGIALD---RGQGTRVWFAMPDGNIKSVQPSRLPEHETTWAMTVHKSQGSEFDHAALILPSQRT--------PVVTRELVYTAVTRARRRLSLYADERILSAAIATRTERRSGLAALF</Hsp_hseq>
+      <Hsp_midline>+ + +LA C   + + LQN    +         L++ A   G    P+IL G RL+L RMW  E  +A     +  A     D A   Q L K F  +     Q+ AAA+AL +   VI+GGPGTGKTTTVAKLLA LI   +     I LAAPTGKAAA +  +L +++      +  ++ + + +  T+HRLL   P   +       PL  DVL+VDEASM+D  +M +L+ A+   ARVI LGD +QL SV  GAVL  +        T        RL G     G    A    L  +   L  S+RFG +SGIG LA A   GD+ A   +F +   ++E          +RL ++ + Y        +E A AG    + L   R + +   +A+  Y                          +RK++   H  ++ G P+MI +ND AL LFNGDIG+ ++   R      +FA  DG  K V  S LPE E  +AMTVHKSQGSE+    L+ PS             +++EL+YTA+TRAR +   +  ++    A+ T   R++ L ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|614115553|sp|P9WHJ0.1|RECD_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=RecBCD enzyme subunit RecD; AltName: Full=Exonuclease V subunit RecD; Short=ExoV subunit RecD; AltName: Full=Helicase/nuclease RecBCD subunit RecD [Mycobacterium tuberculosis CDC1551] &gt;gi|614115556|sp|P9WHJ1.1|RECD_MYCTU RecName: Full=RecBCD enzyme subunit RecD; AltName: Full=Exonuclease V subunit RecD; Short=ExoV subunit RecD; AltName: Full=Helicase/nuclease RecBCD subunit RecD [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WHJ0</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.36175e-51</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>553</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>533</Hsp_align-len>
+      <Hsp_qseq>CTERLFQALQNGHSFIRLSGDEADALSAL--APVVGTSAAPLILEGRRLFLGRMWQLEYDLAAEIKRLAAAGTSAPDAAGARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALICGE----NENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLSFSHRFGDNSGIGCLARAAVSGDEGAWALFDRFPDE----LEHSECSPNARVERLYRAHKAYWQAVKDGNIEAAYAGISDIVVLAAWRQDAE---DFNEAYCSYVRRKMNIPEHLAYFAGEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYFADADGFKKVAVSCLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGK</Hsp_qseq>
+      <Hsp_hseq>CVDLLSIARVAGHDDLPWP-DPADWLAAVRASPLLADPPVLHLYDDRLLYLDRYWREEEQVCADL--LALLTSRRP--AGV-PDLRRLFP-TGFDEQRRAAEIALSQGVTVLTGGPGTGKTTTVARLLALVAEQAELAGEPRPRIALAAPTGKAAARLAEAVRREMAKLDATD--RARLGDLHAVTLHRLLG-AKPGARFRQDRQNRLPHNVIVVDETSMVSLTLMARLAEAVRPGARLILVGDADQLASVEAGAVLADLVD-------------------GFSVRDDALV-----AQLRTSHRFG--KVIGTLAEAIRAGDGDAVLGLLRSGEERIEFVDDEDPAPRLRAVLVPHALRLR-EAALLGASDVALATLDEHRLLCAHRDGPTGVLHWNRRVQAWLAEETGQPPWTPWYAGRPLLVTANDYGLRVYNGDTGVVL--AGPTG-LRAVISGASGPLDVATGRLGDVETMHAMTIHKSQGSQVDEVTVLMPQE------DSRL--LTRELLYTAVTRAKRKVRVVGSE</Hsp_hseq>
+      <Hsp_midline>C + L  A   GH  +    D AD L+A+  +P++       + + R L+L R W+ E  + A++  LA   +  P  AG   +L + F   G + QR AA +AL Q   V+TGGPGTGKTTTVA+LLAL+  +     E  P IALAAPTGKAAA +A A+ R +   DA +  R  L  L   T+HRLL  + P  +   D    LP +V++VDE SM+   LM +L +AV+ GAR+IL+GD +QL SV  GAVL+ L                     GFSV  +  V     A L  SHRFG    IG LA A  +GD  A     R  +E    ++  + +P  R   +  A +   +A   G  + A A + +  +L A R        +N    +++  +   P    ++AG P+++  NDY L ++NGD G+++   G  G L A  + A G   VA   L + E   AMT+HKSQGS+  EV +L P +      D  L  L++ELLYTA+TRA+ K    G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|32129524|sp|Q89AB2.1|RECD_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=RecBCD enzyme subunit RecD; AltName: Full=Exonuclease V subunit RecD; Short=ExoV subunit RecD; AltName: Full=Helicase/nuclease RecBCD subunit RecD [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AB2</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>1.31349e-47</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>571</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>611</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>536</Hsp_align-len>
+      <Hsp_qseq>GTSAAPLILEGRRLFLGRMWQLEYDLAAEIKRLAAAGTSAPDAAGARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHI----RPLPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQ--KTVLDGETHQRLAGFLP---------EHGFSVSANPPVLAQNTAHLSFSHRFGDNSGIGCLARAAVSGD-EGAWALFDRFPDELEHSECSP----NARVERLYRAHKAYWQAVKDG----NIEAAYAGISDIVVLAAWRQDAEDFNEAYCSYVR-----RKMNIPEHLAYFAGEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYF--ADADGFKKVAVSCLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFCQAVNTVKVRQTALG</Hsp_qseq>
+      <Hsp_hseq>GSKNTPFIFYKNNFYINKFWLAEQKILKFISQ--KQNFKLINKNKIQKILKNIFNTNIDDTQKLAIILSIINNITFIIGGPGTGKTTIILKILLVLIRLHKKKINIKLTALTGKAANRLSESIHENIKKLNLTEH-EKNIFNQKTTTLHNLLDLKPNK---SFNYSCCKNKLYNLNLLIIDEASMIDITIMDKLISSIPKTTKIIFLGDYNQLPSISGGNILKNICSYYQEGFSTTTNKFLKQLFPNRITIKTIKKHQFS-NINDKIIM-----LKKSYRFKKKSDIFKISEMLTKNKINNIKTLYQNINNDVNFKQISSKTNYNNIIFEITNSYSKYWSALKQSLPFLKIINIFNNYKILCILKNGLFGITELNLAIEKEMKKIGWIKKVTIINGQTWYFGKPILILKNNEEMNLFNGECGLTLLDANKK--LKVFFLPKNQEQIYSIPIHLVPEHQTNWTMTVHKSQGSEFSEVVLILPTIMTSI--------LTKELIYTAVTRSKKKLTIYSDENIFIKSLKKNIIRYSGLS</Hsp_hseq>
+      <Hsp_midline>G+   P I      ++ + W  E  +   I +         +    ++ L   F     + Q+ A  L+++     I GGPGTGKTT + K+L ++   ++   +I L A TGKAA  ++ ++H +I   +  E   +++   +  T+H LL L P K   +F++     +    ++LI+DEASM+D  +M +L+ ++    ++I LGD NQLPS+  G +L  +    +      T++ L    P         +H FS + N  ++      L  S+RF   S I  ++             L+    +++   + S     N  +  +  ++  YW A+K       I   +     + +L        + N A    ++     +K+ I     ++ G+PI+I +N+  + LFNG+ GL + D  ++  L  +F   + +    + +  +PE +  + MTVHKSQGSE+ EV L+ P+   S         L+KEL+YTA+TR+++K   +  +  F +++    +R + L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|597501022|sp|A0QS28.1|RECD_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=RecBCD enzyme subunit RecD; AltName: Full=Exonuclease V subunit RecD; Short=ExoV subunit RecD; AltName: Full=Helicase/nuclease RecBCD subunit RecD [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0QS28</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>5.73505e-46</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>574</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>513</Hsp_align-len>
+      <Hsp_qseq>LILEGRRLFLGRMWQLEYDLAAEIKRLAAAGTSAPDAAGARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTV----AKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRP--LPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLSFSHRFGDNSGIGCLARAAVSGDEGAWALFDRFPDE-LEHSECSPNARVERLYRAHKAYW-QAVKDGNIEAAYAGISDIVVLAAWRQ---DAEDFNEAYCSYVRRKMNIPEHLAYFAGEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYFADADGFKKVAVSCLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFCQAVNTVKVRQTALGSML</Hsp_qseq>
+      <Hsp_hseq>LRLFGDLLYLDRYWLEEQQVCDDVLALVSA-----RPGGAVPDVSRLF-GAGFEEQRAAAKVALSQGLTVLTGGPGTGKTTTVARLLALLAEQAALAGKPSPRIALAAPTGKAAARLQEAVQLEIDQLDLIE--RRRLTGLHATTLHRLLG-PRPDTSSRFRHHRANRLPHDVIVVDETSMVSLTMMARLLEAVRPQTRLVLVGDPDQLASVEAGAVLADLVE-------------------GLG--------SRGVAELKTSHRFGES--IGALASAIRTGDADAALAVLAAGGEHIEWVHEDPVEQLREVVVPHAMRLRQAAILGDQREALATLDEHRLLCAHRRGPAGVDHWNRQVQRWLGEETGEPLWGSWYVGRPILVTANDYGLKLYNGDTGVV---VATPDGMRAVIGDAGTF---ATGRLTDVETMHAMTIHKSQGSQADEVTVLLPSE------DSRL--LTRELFYTAVTRAKTRVRVVGAEAEVRAAIERQAVRATGLRKRL</Hsp_hseq>
+      <Hsp_midline>L L G  L+L R W  E  +  ++  L +A        GA  ++++ F GAG E QR AA +AL Q   V+TGGPGTGKTTTV    A L        +  P IALAAPTGKAAA +  A+   I+  D  E  RR L  L   T+HRLL    P   + F H R   LP DV++VDE SM+   +M +LL+AV+   R++L+GD +QL SV  GAVL+ L +                   G          ++  A L  SHRFG++  IG LA A  +GD  A         E +E     P  ++  +   H     QA   G+   A A + +  +L A R+     + +N     ++  +   P   +++ G PI++  NDY L+L+NGD G++   V     + A   DA  F   A   L + E   AMT+HKSQGS+  EV +L PS+      D  L  L++EL YTA+TRA+ +    G +     A+    VR T L   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|11132309|sp|P57530.1|RECD_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=RecBCD enzyme subunit RecD; AltName: Full=Exonuclease V subunit RecD; Short=ExoV subunit RecD; AltName: Full=Helicase/nuclease RecBCD subunit RecD [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57530</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.10949e-38</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>565</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>600</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>GTSAAPLILEGRRLFLGRMWQLEYDLAAEIKRLAAAGTSAPDAAGARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHL-LKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGF--LPEHGFSVSANPPV---LAQNTAHLSFSHRFGDNSGIGCLARAAVSGDEGAW-ALFDRFPDELEHSECSPNARVERLYR----AHKAYWQAV-KDGNIEAAYAGISDIVVLAAWRQ---DAEDFNEAYCSYVRRKMNIPEHL-----AYFAGEPIMIRQNDYALELFNGDIGLIMEDVGRQGSL-AAYFADADGFKKVAVSCLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFCQAV--NTVKV</Hsp_qseq>
+      <Hsp_hseq>GGTSTPLVLHKKKIYLYKMWKSESNIFNYL--YTKNKKNKINQKKCSKILENLFPQKNMSFQKIAVALTLINNITFIIGGPGTGKTTTILKIIIALIKSSKKSIKIQLSAPTGKATTHLNEILKNNI--FDLYFSEKEKCSLPSTATTIHQLLGIQKISQKSFFNKSNCLDLDVLIIDEISMVDILMMEKILSSISKNTKLIFIGDHNQLGPIESGSILRKICYYAN-DGYSFKSMISIEKLTQYKLCKKINKKTTNFISDNICVLNKNYRFNKNSGIYTLSNAIFKKKTRIIESLFDNSIKNIFFYETNSSEQYKKMIKNICLNYEDFWEKIYKKATMKEIIESFQNYQVLCILHDGLFGVNIINKKLEENMYKK-NIIKYFYIDGEEWYIGKPIMIINNNRALNVSNGNIGI--TNINKNGILQVSFLKENNTINNIPVKILRNYKTAWAITVHKSQGSEFMNTALILPNFNS--------HILNKDTLYTGITRSRKILSIFSDKKIFLNTIFKNTNKI</Hsp_hseq>
+      <Hsp_midline>G ++ PL+L  ++++L +MW+ E ++   +        +  +     + L   F       Q+ A AL L+     I GGPGTGKTTT+ K++  +   ++    I L+APTGKA  H+   L  +I  FD   + +    L     T+H+LL +     ++ F+    L  DVLI+DE SM+D  +M ++L ++    ++I +GD NQL  +  G++L  +      DG + + +     L ++      N      ++ N   L+ ++RF  NSGI  L+ A          +LFD     +   E + + + +++ +     ++ +W+ + K   ++       +  VL             N+     + +K NI ++       ++ G+PIMI  N+ AL + NG+IG+   ++ + G L  ++  + +    + V  L  ++ A+A+TVHKSQGSE+    L+ P+             L+K+ LYT ITR+R+    F  KK F   +  NT K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|25008434|sp|Q8K9A8.1|RECD_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=RecBCD enzyme subunit RecD; AltName: Full=Exonuclease V subunit RecD; Short=ExoV subunit RecD; AltName: Full=Helicase/nuclease RecBCD subunit RecD [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9A8</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>3.15381e-38</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>528</Hsp_align-len>
+      <Hsp_qseq>GTSAAPLILEGRRLFLGRMWQLEYDLAAEIKRLAAAGT-SAPDAAGARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQ--------TVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLS-------FSHRFGDNSGIGCLARAAVSGDEGAWALFDR-FPDELE-------HSECSPNARVERLYRAHKAYWQAVKD-GNIEAAYAGISDIVVLAAWRQDAEDFN--------EAYCSYVRRKMNIPEHLAYFAGEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYFADADGF-KKVAVSCLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFCQAV</Hsp_qseq>
+      <Hsp_hseq>GSIITPLVFYKDKIYLYKIWKAEKKI---LERLYEKNQFDTIDTQQCLNILNNLFSKKKHDLQKIAVILTLINNIIFITGGPGTGKTTIILKIIIALIKNAKKKIKIQLSAPTGKATENLIEILN--------DKWLNRYLLKEEKKQFSFNPIMTIHQLLGISKKSEKIFFNKNNLLMIDILIIDEASMIDILMMSNILSALSKKTKIIFIGDHNQLKPVKSSSILKYICS-YAEDGYS-LKTQSILQEITQNSIINYKINKKNTSYISDKICVLKKSYRFEKKTGIYILSNAVYNKET---KIFEKLFKNSIENVFFYEINSEIEYKKMINIIINNNKIFWRKIYEKKNIKEIIKTFKNHQILCIVKNGFFGVNFINKILEEEMYKRNIFNKRFYINNKLWYIGKPIIITENNQCLGIFNGEIGI--TNLSQKNTLQVSFLKKDNFIENIPIEILKNYKTSWSITVHKAQGSEFNNISLILP--------NKNLKILKKDILYTGITRTRKQLNIFSTKEIFIKTV</Hsp_hseq>
+      <Hsp_midline>G+   PL+    +++L ++W+ E  +   ++RL         D       L   F     + Q+ A  L L+   + ITGGPGTGKTT + K++  +    +    I L+APTGKA  ++   L+         + + R+LLK E +        T+H+LL +S    +  F+    L  D+LI+DEASM+D  +M  +L A+    ++I +GD NQL  V   ++L  +      DG +  +    L E   +   N  +  +NT+++S        S+RF   +GI  L+ A  + +     +F++ F + +E       +SE      +  +   +K +W+ + +  NI+       +  +L   +      N        E Y   +  K     +  ++ G+PI+I +N+  L +FNG+IG+   ++ ++ +L   F   D F + + +  L  ++ ++++TVHK+QGSE+  + L+ P        +  L  L K++LYT ITR R++   F  K+ F + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81858841|sp|Q9RT63.1|RECDL_DEIRA</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent RecD-like DNA helicase [Deinococcus radiodurans R1]</Hit_def>
+  <Hit_accession>Q9RT63</Hit_accession>
+  <Hit_len>715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.11892e-20</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>RLFLGRMWQLEYDLAAEIKRLAAAGTSAPDAAGARQNLAKW-FQGAGSEGQRDAAALALLQF----FMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIG</Hsp_qseq>
+      <Hsp_hseq>RIYLPHVLRAEKKLASLIRTLLAT----PPADGAGND--DWAVPKKARKGLSEEQASVLDQLAGHRLVVLTGGPGTGKSTTTKAVADL--AESLGL-EVGLCAPTGKAARRLGEVTGRTAS------------------TVHRLLGYGPQGFR--HNHLEPAPYDLLIVDEVSMMGDALMLSLLAAVPPGARVLLVGDTDQLPPVDAG</Hsp_hseq>
+      <Hsp_midline>R++L  + + E  LA+ I+ L A     P A GA  +   W       +G  +  A  L Q      +V+TGGPGTGK+TT   +  L   E+  L  + L APTGKAA  +     R+ +                  TVHRLL   P   +   +H+ P P+D+LIVDE SM+  ALML LL AV  GARV+L+GD +QLP V  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.04078e-08</Hsp_evalue>
+      <Hsp_query-from>439</Hsp_query-from>
+      <Hsp_query-to>577</Hsp_query-to>
+      <Hsp_hit-from>588</Hsp_hit-from>
+      <Hsp_hit-to>712</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYFADADG-FKKVAVSCLPEFEPAFAMTVHKSQGSEYREVW-LLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFCQ--AVNTVKVRQTALGSMLERV</Hsp_qseq>
+      <Hsp_hseq>GDTVVQTKNDYNNEIFNGTLGMVLKAEG-----ARLTVDFDGNVVELTGAELFNLQLGYALTVHRAQGSEWGTVLGVLHEAHMPM---------LSRNLVYTALTRARDRF-FSAGSASAWQIAAARQREARNTAL---LERI</Hsp_hseq>
+      <Hsp_midline>G+ ++  +NDY  E+FNG +G++++  G     A    D DG   ++  + L   +  +A+TVH++QGSE+  V  +L  +  P          LS+ L+YTA+TRAR++F F  G  +  Q  A    + R TAL   LER+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81342330|sp|O34481.1|RECDL_BACSU</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent RecD-like DNA helicase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34481</Hit_accession>
+  <Hit_len>798</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.49195e-17</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>574</Hsp_query-to>
+      <Hsp_hit-from>399</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>97</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>ENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFD--VLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLSFSHRFGDNSGIGCLARAAVSGDEGAWALFDRFPDELEHSECSPNARVERLYRAHKAYWQAVKDGNIEAAYAGIS--DIVVLAAWRQDAEDFNEAYCSYVRRKMNIPEH---------LAYFAGEPIMIRQNDYALELFNGDIGLIM------EDVGRQG-SLAAYFADADGFKKVAVSCLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFCQAV--NTVKVRQTALGSML</Hsp_qseq>
+      <Hsp_hseq>KDEAFP-IVLAAPTGRAAKRMSEST------------------GLPAVTIHRLLGWNGAE---GFTHTEDQPIEGKLLIIDEASMLDIWLANHLFKAIPDHIQIIIVGDEDQLPSVGPGQVLRDLLASQVIP----------------------------TVRLTDIYRQAEGSSIVELAHQMKNG---------LLPNNL----TAPTKDRSFIRCGGSQIKEVVEKVVANALKKGYTAKDIQVLAPMYRGKAGINELNV-MLQDILNPPKEKRRELKFGDVVYRTGDKILQLVNQPENNVFNGDIGEITSIFYAKENTEKEDMAVVSFDGNEMTFTKKDFN---QFTHAYCCSIHKSQGSEFPIVVL------PVVKGYYRM--LRRNLLYTAITRAKKFLILCGEEEALEWGVKNNDATVRQTSLKNRL</Hsp_hseq>
+      <Hsp_midline>++E  P I LAAPTG+AA  M+ +                    L   T+HRLL  +  +    F H    P +  +LI+DEASMLD  L   L KA+    ++I++GDE+QLPSVG G VL  L    V+                             T  L+  +R  + S I  LA    +G           P+ L     +P      +        + V+     A   G +  DI VLA   +     NE     ++  +N P+          + Y  G+ I+   N     +FNGDIG I       E+  ++  ++ ++  +   F K   +   +F  A+  ++HKSQGSE+  V L      P  +G   +  L + LLYTAITRA++  +  G ++     V  N   VRQT+L + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|34223099|sp|Q58914.1|Y1519_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ1519 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58914</Hit_accession>
+  <Hit_len>1175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.38105e-08</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>583</Hsp_hit-from>
+      <Hsp_hit-to>718</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>VITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLK-----LEGQT--VHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTG--ARVILLGDENQLPSVGIGA</Hsp_qseq>
+      <Hsp_hseq>ILTGPAGTGKTTVIKTIMELM-KEVLGLNKIYILTPTGKSAM----VVNEKLNNLATAKTIHRYIAEEFKDYFEGDNYFILRLDKITGNDKKE---------IDALIIDESSMVDIETMGRLLGTIKLDNLKYLIFVGDINQLPPVGAGK</Hsp_hseq>
+      <Hsp_midline>++TG  GTGKTT +  ++ L+  E   L  I +  PTGK+A      ++  +N     + + R++ +      EG    + RL K++    +           D LI+DE+SM+D   M +LL  +K      +I +GD NQLP VG G </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000440294</Hsp_evalue>
+      <Hsp_query-from>491</Hsp_query-from>
+      <Hsp_query-to>547</Hsp_query-to>
+      <Hsp_hit-from>956</Hsp_hit-from>
+      <Hsp_hit-to>1004</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>EFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKF</Hsp_qseq>
+      <Hsp_hseq>EMEHAYAITIHKSQGSGFENVILIIPKGLN--------KFVSKEMLYTAITRAKKRL</Hsp_hseq>
+      <Hsp_midline>E E A+A+T+HKSQGS +  V L+ P              +SKE+LYTAITRA+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|82000106|sp|Q5UQ92.1|YR530_MIMIV</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein R530 [Acanthamoeba polyphaga mimivirus]</Hit_def>
+  <Hit_accession>Q5UQ92</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>4.31052e-07</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>FFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPP----------KMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTG-ARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLSFSHRFGD---NSGIGCLARAAVSGDEGAWALFDRFPDELEHSEC</Hsp_qseq>
+      <Hsp_hseq>FYLI--GFAGSGKTYTISKITKKFLVD-ELIENIYYCAPTHKALKVLESYIKSNINASDKDLSN-----KIKFMTIHKLLEFKPIIQTETGSKVFKSTKESKFLKNISKNLVVIDECSMISQEMVDELNKYINLYPIKIIYMGDPKQLPPV--GEVESLIFSTIPNNYQYHIVLDEIMRTNSVDIKAVCSVIRNWNLNDQINQKLIDVFNNSTTRRFRMYHIRNDYNKSSWFKSFIKEIQNNEV</Hsp_hseq>
+      <Hsp_midline>F+++  G  G+GKT T++K+      + E + +I   APT KA   +   +  +IN  D   +      K++  T+H+LL+  P           K       ++ +  +++++DE SM+   ++ +L K +     ++I +GD  QLP V  G V S++      + + H  L   +  +   + A   V+     +   + +  D   NS         +  D    + F  F  E++++E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2499023|sp|Q44363.1|TRAA_RHIRD</Hit_id>
+  <Hit_def>RecName: Full=Conjugal transfer protein TraA [Agrobacterium tumefaciens]</Hit_def>
+  <Hit_accession>Q44363</Hit_accession>
+  <Hit_len>1100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>5.91495e-07</Hsp_evalue>
+      <Hsp_query-from>239</Hsp_query-from>
+      <Hsp_query-to>557</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>743</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>VLIVDEASMLDTALMLQLL-KAVKTGARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLSFSHRFGD---NSGIGCLARAAVSGDEGAWALFDRFPDELEHSECSPNARVERLYRAHKAYWQAVKDGNIEAAYAGISDIVVLAAWRQDAEDFN-EAYCSYVRRKMNIPEHL--------AYFAGEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYFADADGFKKVAVS--CLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFC</Hsp_qseq>
+      <Hsp_hseq>IFIMDEAGMVASKQMAGFVDTAVRAGAKIVLVGDPEQLQPIEAGAAFRAIADRI-----------------GY-------------AELETIYRQREEWMRKASLDLARGNVENALSAYRANVRITGERLKAEA-----VERL----------IADWNHD--YDQTKTILILAHLRRDVRMLNVMAREKLVERGMVGEGHLFRTADGERRFDAGDQIVFLKNEGSLGLKNGMIGHVV--VAAANRIVATVGEGDQRRQVIVEQRFYNNLDHGYATTIHKSQGATVDRVKVL------------ASLSLDRHLTYVAMTRHREDLQLYYGTRSFS</Hsp_hseq>
+      <Hsp_midline>+ I+DEA M+ +  M   +  AV+ GA+++L+GD  QL  +  GA    ++ +                  G+             A L   +R  +         LAR  V     A+    R   E   +E      VERL          + D N +  Y     I++LA  R+D    N  A    V R M    HL         + AG+ I+  +N+ +L L NG IG ++  V     + A   + D  ++V V        +  +A T+HKSQG+    V +L            A   L + L Y A+TR RE    + G ++F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|20141965|sp|Q44349.2|TRAA_AGRT5</Hit_id>
+  <Hit_def>RecName: Full=Conjugal transfer protein TraA [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>Q44349</Hit_accession>
+  <Hit_len>1100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>3.45594e-06</Hsp_evalue>
+      <Hsp_query-from>239</Hsp_query-from>
+      <Hsp_query-to>557</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>743</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>VLIVDEASMLDTALMLQLLKAV-KTGARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLSFSHRFGDNSGIGCLARAAVSGDEGAWALFDRFPDELEHSECSPNARV--ERLYRAHKAYWQAVKDGNIEAAYAGISDIVVLAAWRQDAEDFN-EAYCSYVRRKMNIPEHL--------AYFAGEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYFADADGFKKVAVS--CLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFC</Hsp_qseq>
+      <Hsp_hseq>VFVMDEAGMVASKQMAGFVDAVVRAGAKIVLVGDPEQLQPIEAGAAFRAIVDRI-----------------GY-------------AELETIYRQREDWMRKASLDLARGNVEKALALYN------------ANARIVGERL--KAEAVERLIADWNRD--YDQTKTTLILAHLRRDVRMLNVMAREKLVERGIVGEGHVFRTADGERRFHAGDQIVFLKNETLLGVKNGMIGHVVEAV--PNRIVAVVGDRDHRRHVVVEQRFYSNLDHGYATTIHKSQGATVDRVKVL------------ASLSLDRHLTYVAMTRHREDLQLYYGCRSFA</Hsp_hseq>
+      <Hsp_midline>V ++DEA M+ +  M   + AV + GA+++L+GD  QL  +  GA    +  +                  G+             A L   +R  ++         A    E A AL++             NAR+  ERL    +A  + + D N +  Y      ++LA  R+D    N  A    V R +    H+         + AG+ I+  +N+  L + NG IG ++E V     + A   D D  + V V        +  +A T+HKSQG+    V +L            A   L + L Y A+TR RE    + G ++F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|408360130|sp|Q6NVF4.2|HELB_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=DNA helicase B [Mus musculus]</Hit_def>
+  <Hit_accession>Q6NVF4</Hit_accession>
+  <Hit_len>1074</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>4.3357e-05</Hsp_evalue>
+      <Hsp_query-from>239</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>566</Hsp_hit-from>
+      <Hsp_hit-to>931</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>89</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>VLIVDEASMLDTAL---MLQLLKAVKTGARVILLGDENQLPSVGIGAVL-----SVLSQKTVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLSFSH--RFGDNSGIGCLARAAVSGDEGAWALFDRFPDELEHSECSPNARVERLYRAHKAYWQAVKDGNIEAAYAGISDIVVLAAWRQDAEDFNEAYCSYVRRKMNIPEH---LAYFAGEPIMIRQNDY---------------------------------ALELFNGDIGLIMEDVG----RQGSLAAYFADAD-----GFKKVAVSCLPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSK-ELLYTAITRAREKFVFFGGKKTFCQAVNTVKV-RQTALGSMLERVFS</Hsp_qseq>
+      <Hsp_hseq>VLVVDEGSLVSVGIFKSVLQLLCKHSKLSKLIILGDVRQLPSIEPGNMLQDVFETLKSRQCAIELKTNHRTESQL-------------IVDNATRISRRQFPKFDAELNICGNPTLPLSIQDKTF-IFVRLPEEDSRSQSSKGEHRSNLYTAVKTLLQGKDFCSFESSKTS----QFIAFRRQDCDLINDCCCKHYTGHL-IKDHEKKLIFAVGDKICCTRNAYLSDLLPDKDQEAEGKGYGDAPDDDAKIKQDFESSTRLCNGEIFFITRDVTDVTFKRKRLLTINNEAGLEVTVDFSKLMANC--QIKHAWARTIHTFQGSEENTVVYVV-----------GKAGRQHWQHVYTAVTRGRSRVYIIAQESELRSATRKRGFPRQTRLKHFLQKKLS</Hsp_hseq>
+      <Hsp_midline>VL+VDE S++   +   +LQLL      +++I+LGD  QLPS+  G +L     ++ S++  ++ +T+ R    L             +  N   +S     +F     I       +S  +  + +F R P+E   S+ S       LY A K   Q     + E++         +A  RQD +  N+  C +    + I +H   L +  G+ I   +N Y                                 +  L NG+I  I  DV     ++  L     +A       F K+  +C  + + A+A T+H  QGSE   V  +              +G    + +YTA+TR R +      +     A       RQT L   L++  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|408360056|sp|Q5ZKG3.2|DNA2_CHICK</Hit_id>
+  <Hit_def>RecName: Full=DNA replication ATP-dependent helicase/nuclease DNA2; AltName: Full=DNA replication ATP-dependent helicase-like homolog; Includes: RecName: Full=DNA replication nuclease DNA2; Includes: RecName: Full=DNA replication ATP-dependent helicase DNA2 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5ZKG3</Hit_accession>
+  <Hit_len>992</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>8.59882e-05</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>584</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>ARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALI--CGEN---ENLPHIALAAPTGKAAAHM--------ARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPL----PFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLP</Hsp_qseq>
+      <Hsp_hseq>AKEAVASILKGLNKPQKQAMKQVLLSRDYTLIVGMPGTGKTTTICALVRILSACGFSVLLTSFTHTAVDNILLKLAKFKVGFLRLGRAQKVHPDIRKFTEEEICRSKSIK-SVTDLEELYNSQPVVATACMGINHPIFVQKQFDFCIVDEASQISQPICLGPLFCSK---RFVLVGDHQQLP</Hsp_hseq>
+      <Hsp_midline>A++ +A   +G     ++    + L + + +I G PGTGKTTT+  L+ ++  CG +    +  H A+     K A           A+ +H  I  F   E  R   +K     +  L    P    A      P+     FD  IVDEAS +   + L  L   K   R +L+GD  QLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|20141288|sp|P32270.2|DDA_BPT4</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase dda [Enterobacteria phage T4]</Hit_def>
+  <Hit_accession>P32270</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>9.18807e-05</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>SEGQRDA-----AALALLQFFMVITGGPGTGKTTTVAKLL-ALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQ--AAFDHIRPLP----FDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLS</Hsp_qseq>
+      <Hsp_hseq>TEGQKNAFNIVMKAIKEKKHHVTINGPAGTGKTTLTKFIIEALISTGGTG---IILAAPT-----HAAKKILSKLSG-------------KEASTIHSILKINPVTYEENVLFEQ-KEVPDLAKCRVLICDEVSMYDRKLFKILLSTIPPWCTIIGIGDNKQIRPVEPGENTAYIS</Hsp_hseq>
+      <Hsp_midline>+EGQ++A      A+   +  + I G  GTGKTT    ++ ALI         I LAAPT     H A+ +   ++G              E  T+H +LK++P   +    F+  + +P      VLI DE SM D  L   LL  +     +I +GD  Q+  V  G   + +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|190359604|sp|Q8NG08.2|HELB_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=DNA helicase B; Short=hDHB [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8NG08</Hit_accession>
+  <Hit_len>1087</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000453132</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>511</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>897</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>132</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>VITGGPGTGKTTTVAKLLALI-----------CGENENLPH---------------------IALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTAL---MLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVL-----SQKTVLDGETHQRLAGFLPEHGFSVSANPPVLAQNTAHLSFSH--RFGDNSGIGCLARAAVSGDEGAWALFDRFPDELEHSECSPNARVERLYRAHKAYWQAVKDGNIEAAYAGISDIVVLAAWRQDAEDFNEAYCSYVRRKMNIPEH--LAYFAGEPIMIRQNDY-----------------------------------------ALELFNGDIGLIMEDV-----GRQGSLA----AYFADADGFKKVAVSCLPEFEPAFAMTVHKSQGSEYREV</Hsp_qseq>
+      <Hsp_hseq>VISGKGGCGKTTIVSRLFKHIEQLEEREVKKACEDFEQDQNASEEWITFTEQSQLEADKAIEVLLTAPTGKAAG-----LLRQKTGLHAYTLCQVNY-SFYSWTQTMMTTNKPWK----FSSVR-----VLVVDEGSLVSVGIFKSVLNLLCEHSKLSKLIILGDIRQLPSIEPGNLLKDLFETLKSRNCAIELKTNHR-------------AESQLIVDNATRISRRQFPKFDAELNISDNPTLPISIQDKTF-IFVRLPEEDASSQSSKTNHHSCLYSAVKTLLQ---ENNLQNAKTS----QFIAFRRQDCDLINDCCCKHYTGHLTKDHQSRLVFGIGDKICCTRNAYLSDLLPENISGSQQNNDLDASSEDFSGTLPDFAKNKRDFESNVRLCNGEIFFITNDVTDVTFGKRRSLTINNMAGLEVTVDFKKLMKYC--RIKHAWARTIHTFQGSEEQTV</Hsp_hseq>
+      <Hsp_midline>VI+G  G GKTT V++L   I           C + E   +                     + L APTGKAA      L R   G  A    + +       T   +    P K    F  +R     VL+VDE S++   +   +L LL      +++I+LGD  QLPS+  G +L  L     S+   ++ +T+ R             A   ++  N   +S     +F     I       +S  +  + +F R P+E   S+ S       LY A K   Q   + N++ A         +A  RQD +  N+  C +    +       L +  G+ I   +N Y                                          + L NG+I  I  DV     G++ SL     A       FKK+   C    + A+A T+H  QGSE + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2499024|sp|P55418.1|TRAA_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Probable conjugal transfer protein TraA [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55418</Hit_accession>
+  <Hit_len>1102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00259847</Hsp_evalue>
+      <Hsp_query-from>439</Hsp_query-from>
+      <Hsp_query-to>565</Hsp_query-to>
+      <Hsp_hit-from>637</Hsp_hit-from>
+      <Hsp_hit-to>751</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>GEPIMIRQNDYALELFNGDIGLIMEDVGRQGSLAAYFADADGFKKVAVSC--LPEFEPAFAMTVHKSQGSEYREVWLLPPSDAPSDEGDDALSGLSKELLYTAITRAREKFVFFGGKKTFCQAVNTVKV</Hsp_qseq>
+      <Hsp_hseq>GDQIVFLKNEGALGVKNGMRGKVVE--AAQNRIVAEIGEVEHRRQVMVESRFYNNLDHGYATTIHKSQGATVDRVKVL------------ASLSLDRHLTYVAMTRHREDLGVYYGARSFAKSGGLIQI</Hsp_hseq>
+      <Hsp_midline>G+ I+  +N+ AL + NG  G ++E    Q  + A   + +  ++V V        +  +A T+HKSQG+    V +L            A   L + L Y A+TR RE    + G ++F ++   +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>4.48168</Hsp_evalue>
+      <Hsp_query-from>239</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>VLIVDEASMLDTALM-LQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQK</Hsp_qseq>
+      <Hsp_hseq>IFVLDEAGMVSSRQMALFVETATKAGAKLVLVGDPEQLQPIEAGAAFRAIADR</Hsp_hseq>
+      <Hsp_midline>+ ++DEA M+ +  M L +  A K GA+++L+GD  QL  +  GA    ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|408407704|sp|E1BMP7.3|DNA2_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=DNA replication ATP-dependent helicase/nuclease DNA2; AltName: Full=DNA replication ATP-dependent helicase-like homolog; Includes: RecName: Full=DNA replication nuclease DNA2; Includes: RecName: Full=DNA replication ATP-dependent helicase DNA2 [Bos taurus]</Hit_def>
+  <Hit_accession>E1BMP7</Hit_accession>
+  <Hit_len>1061</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0143849</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>615</Hsp_hit-from>
+      <Hsp_hit-to>792</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>ARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALI--CGENENLPHIALAAPTGKAAAHM----------------ARALHRSINGFDAPEAVRRHLLK---LEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLP</Hsp_qseq>
+      <Hsp_hseq>AKDTVACILKGLNKPQRQAMKKVLLSKDYTLIVGMPGTGKTTTICTLVRILYACGFS-----VLLTSYTHSAVDNILLKLAKFKIGFLRLGQIQKVHPDIQKFTEEEICRSKSIKSLALLEELYNSQLIVATTCMGINHPIFSRKTFDFCIVDEASQISQPVCLGPLFFSR---RFVLVGDHQQLP</Hsp_hseq>
+      <Hsp_midline>A+  +A   +G     ++    + L + + +I G PGTGKTTT+  L+ ++  CG +     + L + T  A  ++                 + +H  I  F   E  R   +K   L  +  +  L ++   M           FD  IVDEAS +   + L  L   +   R +L+GD  QLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|118786|sp|P27414.1|FTSY_SULAC</Hit_id>
+  <Hit_def>RecName: Full=Signal recognition particle receptor FtsY; Short=SRP receptor; AltName: Full=Docking protein; AltName: Full=P41 [Sulfolobus acidocaldarius DSM 639]</Hit_def>
+  <Hit_accession>P27414</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0147339</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>FFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHI---RPLPFDVLIVDEASML--DTALMLQL---LKAVKTGARVILL</Hsp_qseq>
+      <Hsp_hseq>FVIIFFGVNGVGKTTTIAKVVNML--KKNNLSTIIAASDTFRAAAQEQLAYHAS---------------KLEVQLIRGKYGADPASV--AFDAISFAKSRNIDVVLIDTAGRMHIDSDLVEELKRVLRIAKPDFRILIL</Hsp_hseq>
+      <Hsp_midline>F ++  G  G GKTTT+AK++ ++  +  NL  I  A+ T +AAA    A H S               KLE Q +       P  +  AFD I   +    DV+++D A  +  D+ L+ +L   L+  K   R+++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|408407614|sp|D3ZG52.1|DNA2_RAT</Hit_id>
+  <Hit_def>RecName: Full=DNA replication ATP-dependent helicase/nuclease DNA2; AltName: Full=DNA replication ATP-dependent helicase-like homolog; Includes: RecName: Full=DNA replication nuclease DNA2; Includes: RecName: Full=DNA replication ATP-dependent helicase DNA2 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>D3ZG52</Hit_accession>
+  <Hit_len>1059</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0193931</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>615</Hsp_hit-from>
+      <Hsp_hit-to>792</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>ARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALI--CGEN---ENLPHIALAAPTGKAAAH--------MARALHRSINGFDAPEAVR-RHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPL----PFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLP</Hsp_qseq>
+      <Hsp_hseq>AKDTVANILKGLNKPQRQAMKKVLLSKDYTLIVGMPGTGKTTTICALVRILSACGFSVLLTSYTHSAVDNILLKLAKFKIGFLRLGQSHKVHPDIQKFTEEEMCRLRSIASLAH--LEELYNSHPVVATTCMGISHPMFSRKTFDFCIVDEASQISQPICLGPLFFSR---RFVLVGDHKQLP</Hsp_hseq>
+      <Hsp_midline>A+  +A   +G     ++    + L + + +I G PGTGKTTT+  L+ ++  CG +    +  H A+     K A           +  +H  I  F   E  R R +  L    +  L    P           P+     FD  IVDEAS +   + L  L   +   R +L+GD  QLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|550540858|sp|A5WFR0.1|PIF1_PSYWF</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase pif1 [Psychrobacter sp. PRwf-1]</Hit_def>
+  <Hit_accession>A5WFR0</Hit_accession>
+  <Hit_len>659</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0195459</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>RDAAALALLQF--FMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFD-APEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTA---LMLQLLKAVKT------GARVILLGDENQLPSVG</Hsp_qseq>
+      <Hsp_hseq>KQATALDILKTGKNVFLTGSAGSGKTYTLNEYIHYLRARR--VP-VATTASTGIAATHMNGITIHSWSGIGIKDELTERDLVNLSRKKVLK-------------DRLQETA--VLIIDEISMLHAKQLNLVNQVLKHMRQNDKPFGGIQVVVAGDFFQLPPVG</Hsp_hseq>
+      <Hsp_midline>+ A AL +L+    + +TG  G+GKT T+ + +  +      +P +A  A TG AA HM      S +G     E   R L+ L  + V +             D ++     VLI+DE SML      L+ Q+LK ++       G +V++ GD  QLP VG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|14195021|sp|Q9UUA2.1|PIF1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase pfh1; AltName: Full=DNA repair and recombination helicase pfh1; AltName: Full=PIF1 helicase homolog; AltName: Full=RRM3/PIF1 homolog 1; Flags: Precursor [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9UUA2</Hit_accession>
+  <Hit_len>805</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0235877</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>QFFMVITGGPGTGKTTTVAKLLALICGE-NENLPHIALAAPTGKAAAHMARALHRSINGFD-APEAVRRHLLKLEG--QTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKT---------GARVILLGDENQLPSV</Hsp_qseq>
+      <Hsp_hseq>QHSIFFTGSAGTGKSVLLRKIIEVLKSKYRKQSDRVAVTASTGLAACNIGGVTLHSFAGVGLARESVDLLVSKIKKNKKCVNRWLRTR-----------------VLIIDEVSMVDAELMDKLEEVARVIRKDSKPFGGIQLVLTGDFFQLPPV</Hsp_hseq>
+      <Hsp_midline>Q  +  TG  GTGK+  + K++ ++  +  +    +A+ A TG AA ++      S  G   A E+V   + K++   + V+R L+                   VLI+DE SM+D  LM +L +  +          G +++L GD  QLP V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81829124|sp|Q6MHJ5.1|PIF1_BDEBA</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase pif1 [Bdellovibrio bacteriovorus HD100]</Hit_def>
+  <Hit_accession>Q6MHJ5</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0251411</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>512</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>103</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>AAALALLQF--FMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEA---VRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKT---GARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQR----LAGFLPEHGFSVSANPPVLAQNTAHLSFSHRFGDNSGIGCLARAAVSGDEGAWALFDRFPDEL-----EHSECSPNARV-ERLYRAHKAYWQAVKDGN-----IEAAYAGISDIVVLAAWRQDAEDFNEAYCSYVRRKMNIPEHLAYFAGEPIMIRQNDYALELFNGDIGLIME----------DVGRQGSLA-AYFA--DADGFKKVAVSCLPEFEPAFAMTVHKSQGSEYREVW</Hsp_qseq>
+      <Hsp_hseq>ASALDLLRSGENVFLTGGAGSGKSFLIRQFMREL--DPKEMP---ILASTGAAAVLLGGRTFHSFFGLGIMEGGADATYERASKDKRLMSRLRKVEG----VIIDEISMIPGQALMIAEA-------LSQRARESKLPWGGMRVIAVGDFAQLPPVT----------------HTGQRDWCFLNGVWEVSGF-----------QTVMLSHNQRVSDNLFLDVLS------DVRHGKVTERVREFLNEHVQDHDEDDPGTRLFPRKINAEKFNERKLAEIDETEVVIESIYSG-----------------SERHIETLKKASPIAEKLILKIGCQVMFLQNDPQRRWVNGTRGTVVDITADQITVRKDRGREVQVSKSSFAIQDAEGNIMAQVEQFP-LTLAYATTIHKSQGATLDDLW</Hsp_hseq>
+      <Hsp_midline>A+AL LL+    + +TGG G+GK+  + + +  +  + + +P   + A TG AA  +      S  G    E            + + + RL K+         D I  +P   L++ EA       + Q  +  K    G RVI +GD  QLP V                  T QR    L G     GF            T  LS + R  DN  +  L+      D     + +R  + L     +H E  P  R+  R   A K   + + + +     IE+ Y+G                 +E +   +++   I E L    G  +M  QND      NG  G +++          D GR+  ++ + FA  DA+G     V   P    A+A T+HKSQG+   ++W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81390099|sp|Q68WT1.1|UVRD_RICTY</Hit_id>
+  <Hit_def>RecName: Full=DNA helicase II [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68WT1</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.025499</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MVITGGPGTGKTTTVAKLLALICGENENLPHIALAAP-TGKAAAHMARALHRSINGF</Hsp_qseq>
+      <Hsp_hseq>LLLLAGAGTGKTKVLTSRIANIIQQNLALPHNILAVTFTNKAAKEMSERVHNLINCY</Hsp_hseq>
+      <Hsp_midline>+++  G GTGKT  +   +A I  +N  LPH  LA   T KAA  M+  +H  IN +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|6226298|sp|Q9ZD95.1|UVRD_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Probable DNA helicase II homolog [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZD95</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0263903</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MVITGGPGTGKTTTVAKLLALICGENENLPHIALAAP-TGKAAAHMARALHRSINGF</Hsp_qseq>
+      <Hsp_hseq>LLLLAGAGTGKTKVLTSRIANIIHQNLALPHNILAVTFTNKAAKEMSERVHNLINCY</Hsp_hseq>
+      <Hsp_midline>+++  G GTGKT  +   +A I  +N  LPH  LA   T KAA  M+  +H  IN +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|119368660|sp|Q6ZQJ5.2|DNA2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=DNA replication ATP-dependent helicase/nuclease DNA2; AltName: Full=DNA replication ATP-dependent helicase-like homolog; Includes: RecName: Full=DNA replication nuclease DNA2; Includes: RecName: Full=DNA replication ATP-dependent helicase DNA2 [Mus musculus]</Hit_def>
+  <Hit_accession>Q6ZQJ5</Hit_accession>
+  <Hit_len>1062</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0305132</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>616</Hsp_hit-from>
+      <Hsp_hit-to>798</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>ARQNLAKWFQGAGSEGQRDAAALALL-QFFMVITGGPGTGKTTTVAKLLALI--CGENENLPHIALAAPTGKAAAHM----------------ARALHRSINGFDAPEAVR-RHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPL----PFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPSVGIG</Hsp_qseq>
+      <Hsp_hseq>AKDTVANILKGL-NKPQRQAMKRVLLSKDYTLIVGMPGTGKTTTICALVRILSACGFS-----VLLTSYTHSAVDNILLKLAKFKVGFLRLGQSHKVHPDIQKFTEEEICRSRSIASLAH--LEELYNSHPIVATTCMGINHPIFSRKTFDFCIVDEASQISQPVCLGPLFFSR---RFVLVGDHQQLPPLVVN</Hsp_hseq>
+      <Hsp_midline>A+  +A   +G  ++ QR A    LL + + +I G PGTGKTTT+  L+ ++  CG +     + L + T  A  ++                +  +H  I  F   E  R R +  L    +  L    P           P+     FD  IVDEAS +   + L  L   +   R +L+GD  QLP + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|82105075|sp|Q8QHA5.1|DNA2_XENLA</Hit_id>
+  <Hit_def>RecName: Full=DNA replication ATP-dependent helicase/nuclease DNA2; AltName: Full=DNA replication ATP-dependent helicase-like homolog; Includes: RecName: Full=DNA replication nuclease DNA2; Includes: RecName: Full=DNA replication ATP-dependent helicase DNA2 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q8QHA5</Hit_accession>
+  <Hit_len>1053</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0483323</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>614</Hsp_hit-from>
+      <Hsp_hit-to>793</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>PDAAGARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALI--CGENENLPHIALAAPTGKAAAHM----------------ARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPL----PFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLP</Hsp_qseq>
+      <Hsp_hseq>PDAKDI---VASILRGLNKPQKQAMKRVLLSKDYTLIVGMPGTGKTTTICTLVRILYACGFS-----VLLTSYTHSAVDNILLKLKKFQVGFLRLGRTQKLHPDVQEFSEEEICKAKSIK-SLSALEELYNSQPVVATTCMGVNHPIFTRRRFDFCIVDEASQISQPICLGPLFF---ADRFVLVGDHQQLP</Hsp_hseq>
+      <Hsp_midline>PDA      +A   +G     ++    + L + + +I G PGTGKTTT+  L+ ++  CG +     + L + T  A  ++                 + LH  +  F   E  +   +K     +  L    P           P+     FD  IVDEAS +   + L  L       R +L+GD  QLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|122123491|sp|Q384Y1.1|PIF1_TRYB2</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase PIF1; AltName: Full=DNA repair and recombination helicase PIF1; Flags: Precursor [Trypanosoma brucei brucei TREU927]</Hit_def>
+  <Hit_accession>Q384Y1</Hit_accession>
+  <Hit_len>929</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.169183</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>SEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALICG--ENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRP---LPFDVLIVDEASMLDTALMLQLLKAVKT----------GARVILLGDENQL</Hsp_qseq>
+      <Hsp_hseq>NEEQEKVINLALKGHLMYIGGSAGTGKTV----LLRALCRRMQAEGL-RVAMTATTGVAGCHIG------------------------GSTFHHAMGVS-----AQGDFVRKNHLLSYDAIIIDEVSMLPKKMFEEFDRVLREEAGAPDVPFGGVQIILCGDFLQL</Hsp_hseq>
+      <Hsp_midline>+E Q     LAL    M I G  GTGKT     LL  +C   + E L  +A+ A TG A  H+                         G T H  + +S     A  D +R    L +D +I+DE SML   +  +  + ++           G ++IL GD  QL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|166224779|sp|A6T2G3.1|MURE_JANMA</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase [Janthinobacterium sp. Marseille]</Hit_def>
+  <Hit_accession>A6T2G3</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.203793</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>LANCTERLFQALQNGHSFIRLSGDEADALSALAPVVGTSAAPLILEGRRLFLGRMWQLEYDLA----AEIK----RLAAAGTSAPD---------AAGARQNLAKWFQGAGSEGQRDAAALALLQFFMVITGGPG----TGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMAR</Hsp_qseq>
+      <Hsp_hseq>LASDSRRIAQ----GDVFVAYPGDEADGRSYIANAIERGAQAVIYEAA----GCTWDAEWDVAHLAIDDLKEHAGEIAAAYYAHPDRSMFTVAITGTNGKTSCAQWLGSALSRLGQPTAVIGTLGVGIFTNGGHGSFDVTGYTTPDAVLLQRSLVNVSNLGATALAIEASSIGLHQGR</Hsp_hseq>
+      <Hsp_midline>LA+ + R+ Q    G  F+   GDEAD  S +A  +   A  +I E      G  W  E+D+A     ++K     +AAA  + PD             + + A+W   A S   +  A +  L   +   GG G    TG TT  A LL        NL   ALA        H  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|123862743|sp|Q196V4.1|VF030_IIV3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein 106R [Invertebrate iridescent virus 3]</Hit_def>
+  <Hit_accession>Q196V4</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.290323</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>LKLEGQTVHRLLK--LSPPKMQAAFDHIRP--------LPFDVLIVDEASMLDTALMLQLLKAVKT---------GARVILLGDENQLPSVGIGAVLSVLSQK</Hsp_qseq>
+      <Hsp_hseq>LNLGGSTVHSFLGIGLGVDTVDELYDRILKNHDKRELWLRLDVLVIDEVSMLQPELFDKLERLARKLRSSSERFGGIQIIATGDLFQLPCVGNDSSLIVDSKK</Hsp_hseq>
+      <Hsp_midline>L L G TVH  L   L    +   +D I          L  DVL++DE SML   L  +L +  +          G ++I  GD  QLP VG  + L V S+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|731644|sp|P38766.1|RRM3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase RRM3; AltName: Full=Regulation of Ty1 transposition protein 104; AltName: Full=rDNA recombination mutation protein 3 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38766</Hit_accession>
+  <Hit_len>723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.322503</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>TGGPGTGKTT---TVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPF-DVLIVDEASMLDTALMLQLLKAVKT---------GARVILLGDENQLPSVG</Hsp_qseq>
+      <Hsp_hseq>TGSAGTGKSVILQTIIRQLSSLYGKES----IAITASTGLAAVTIGGSTLHKWSG-----------IGIGNKTIDQLVK----KIQSQKDLLAAWRYTKVLIIDEISMVDGNLLDKLEQIARRIRKNDDPFGGIQLVLTGDFFQLPPVA</Hsp_hseq>
+      <Hsp_midline>TG  GTGK+    T+ + L+ + G+      IA+ A TG AA  +  +     +G           + +  +T+ +L+K    K+Q+  D +    +  VLI+DE SM+D  L+ +L +  +          G +++L GD  QLP V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81555904|sp|O31626.1|YJCD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative ATP-dependent DNA helicase YjcD [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31626</Hit_accession>
+  <Hit_len>759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.3934</Hsp_evalue>
+      <Hsp_query-from>498</Hsp_query-from>
+      <Hsp_query-to>545</Hsp_query-to>
+      <Hsp_hit-from>669</Hsp_hit-from>
+      <Hsp_hit-to>725</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MTVHKSQGSEYREVWLLPPSDA--PSD-------EGDDALSGLSKELLYTAITRARE</Hsp_qseq>
+      <Hsp_hseq>MTIHRSKGLEFKTVYVLGTVDGSIPHDFSLETARKGDEAALEEERRLLYVAMTRAKQ</Hsp_hseq>
+      <Hsp_midline>MT+H+S+G E++ V++L   D   P D       +GD+A     + LLY A+TRA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|74998106|sp|Q580X6.1|PIF5_TRYB2</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase PIF5; AltName: Full=DNA repair and recombination helicase PIF5; Flags: Precursor [Trypanosoma brucei brucei TREU927]</Hit_def>
+  <Hit_accession>Q580X6</Hit_accession>
+  <Hit_len>928</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.723208</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>SEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQL---LKAVKT------GARVILLGDENQLPSV</Hsp_qseq>
+      <Hsp_hseq>SPEQQRALRLALKGRNLFITGGAGSGKSLLIREIVYQLRHNKRRC--VYVTATTGVAALNVRGSTVNSFAGVKFGDGDARQLLKW----VRRSRRAAG----------RWRYCQTLIIDEISMMDPLLLDKLDVIARAIRRRNEPFGGIQVILCGDFLQLPPI</Hsp_hseq>
+      <Hsp_midline>S  Q+ A  LAL    + ITGG G+GK+  + +++  +         + + A TG AA ++  +   S  G    +   R LLK     V R  + +           R      LI+DE SM+D  L+ +L    +A++       G +VIL GD  QLP +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|190360116|sp|P0C6X9.1|R1AB_CVMA5</Hit_id>
+  <Hit_def>RecName: Full=Replicase polyprotein 1ab; Short=pp1ab; AltName: Full=ORF1ab polyprotein; Contains: RecName: Full=Host translation inhibitor nsp1; Short=nsp1; AltName: Full=p28; Contains: RecName: Full=Non-structural protein 2; Short=nsp2; AltName: Full=p65; Contains: RecName: Full=Papain-like proteinase; Short=PL-PRO; AltName: Full=Non-structural protein 3; Short=nsp3; AltName: Full=p210; Contains: RecName: Full=Non-structural protein 4; Short=nsp4; AltName: Full=Peptide HD2; AltName: Full=p44; Contains: RecName: Full=3C-like proteinase; Short=3CL-PRO; Short=3CLp; AltName: Full=M-PRO; AltName: Full=nsp5; AltName: Full=p27; Contains: RecName: Full=Non-structural protein 6; Short=nsp6; Contains: RecName: Full=Non-structural protein 7; Short=nsp7; AltName: Full=p10; Contains: RecName: Full=Non-structural protein 8; Short=nsp8; AltName: Full=p22; Contains: RecName: Full=Non-structural protein 9; Short=nsp9; AltName: Full=p12; Contains: RecName: Full=Non-structural protein 10; Short=nsp10; AltName: Full=Growth factor-like peptide; Short=GFL; AltName: Full=p15; Contains: RecName: Full=RNA-directed RNA polymerase; Short=Pol; Short=RdRp; AltName: Full=nsp12; AltName: Full=p100; Contains: RecName: Full=Helicase; Short=Hel; AltName: Full=nsp13; AltName: Full=p67; Contains: RecName: Full=Guanine-N7 methyltransferase; Short=ExoN; AltName: Full=nsp14; Contains: RecName: Full=Uridylate-specific endoribonuclease; AltName: Full=NendoU; AltName: Full=nsp15; AltName: Full=p35; Contains: RecName: Full=2&apos;-O-methyltransferase; AltName: Full=nsp16 [Murine hepatitis virus strain A59]</Hit_def>
+  <Hit_accession>P0C6X9</Hit_accession>
+  <Hit_len>7176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.908675</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>5655</Hsp_hit-from>
+      <Hsp_hit-to>5788</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>LQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFD----APEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLP---FDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPS</Hsp_qseq>
+      <Hsp_hseq>MKRYCTVQGPPGTGKSHLAIGLAVYYC-----TARVVYTAASHAAVDALCEKAHKFLNINDCTRIVPAKVR--------VDCYDKFKVNDTTRKYVFTTINALPELVTDIIVVDEVSML-TNYELSVINSRVRAKHYVYIGDPAQLPA</Hsp_hseq>
+      <Hsp_midline>++ +  + G PGTGK+     L    C        +   A +  A   +    H+ +N  D     P  VR           +   K++    +  F  I  LP    D+++VDE SML T   L ++ +       + +GD  QLP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|74679665|sp|Q59RQ0.1|PIF1_CANAL</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase PIF1; AltName: Full=DNA repair and recombination helicase PIF1 [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>Q59RQ0</Hit_accession>
+  <Hit_len>906</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.04046</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>386</Hsp_hit-from>
+      <Hsp_hit-to>516</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MVITGGPGTGKTTTVAKLLALICGENENLPH-IALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKT---------GARVILLGDENQLPSV</Hsp_qseq>
+      <Hsp_hseq>LFYTGSAGTGKSVL---LRSIIKSLRDKYPKGVAVTASTGLAACNIGGITLHSFAGFGLGQGKVENLIK----KIKRNKK--------AFTRWRET--RVLIIDEISMVDGHLLNKLNEIAKNLRRNNRPFGGIQLVACGDFYQLPPV</Hsp_hseq>
+      <Hsp_midline>+  TG  GTGK+     L ++I    +  P  +A+ A TG AA ++      S  GF   +    +L+K     + R  K        AF   R     VLI+DE SM+D  L+ +L +  K          G +++  GD  QLP V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|3913289|sp|O23760.1|COMT1_CLABR</Hit_id>
+  <Hit_def>RecName: Full=Caffeic acid 3-O-methyltransferase; Short=CAOMT; Short=COMT; AltName: Full=S-adenosysl-L-methionine:caffeic acid 3-O-methyltransferase; Flags: Precursor [Clarkia breweri]</Hit_def>
+  <Hit_accession>O23760</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.10207</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SFIRLSGDEADALSALAPVV--------GTSAAPLILEGRRLFLGRMWQLEYD--LAAEIKRLAAAGTSAPDAAGARQNLAKWFQGAGSEGQRDAAALALLQFFMVITG----------GPGTGK--TTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDA</Hsp_qseq>
+      <Hsp_hseq>SLRELPDGKVERLYGLAPVCKFLTKNEDGVSLAPLCLMNQDKVLMESWYYLKDAILDGGIPFNKAYGMTAFEYHGTDPRFNKVF----NRGMSDHSTITMKKIFEMYTGFEALNTIVDVGGGTGAVLSMIVAKYPS-IKGINFDLPHVIEDAPIYPGVEHVGGDMFVSVPKGDA</Hsp_hseq>
+      <Hsp_midline>S   L   + + L  LAPV         G S APL L  +   L   W    D  L   I    A G +A +  G      K F    + G  D + + + + F + TG          G GTG   +  VAK  + I G N +LPH+   AP      H+   +  S+   DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|74676343|sp|Q03195.1|RLI1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Translation initiation factor RLI1; AltName: Full=ATP-binding cassette sub-family E member RLI1; AltName: Full=RNase L inhibitor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q03195</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.13142</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>380</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>FMVITGGPGTGKTTTVAKLL--ALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLL-KLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTGARV-ILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRLAGFLPEHGF</Hsp_qseq>
+      <Hsp_hseq>ILVMMGENGTGKTTLI-KLLAGALKPDEGQDIPKLNVSMKPQKIAPKF-------------PGTVRQLFFKKIRGQFLN-------PQFQT--DVVKPLRIDDIIDQEVQHLSGGELQRVAIVLALGIPADIYLIDE---PSAYLDSEQRIICSKVIRRFILHNKKTAFIVEHDF</Hsp_hseq>
+      <Hsp_midline> +V+ G  GTGKTT + KLL  AL   E +++P + ++    K A                P  VR+    K+ GQ ++       P+ Q   D ++PL  D +I  E   L    + ++   +  G    I L DE   PS  + +   ++  K +     H +   F+ EH F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|550540861|sp|Q5AXT5.2|PIF1_EMENI</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase PIF1; AltName: Full=DNA repair and recombination helicase PIF1 [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>Q5AXT5</Hit_accession>
+  <Hit_len>745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.13352</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MVITGGPGTGKTTTVAKLLALICGENENLP-HIALAAPTGKAAAHMARALHRSINGF-----DAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKT---------GARVILLGDENQLPSVGIG</Hsp_qseq>
+      <Hsp_hseq>IFFTGSAGTGKSVLMREIIKKLRDKYRKEPDRIAVTASTGLAACNIEGVTLHSFAGIGLGKEPVPELVKK--IKKNQKARNRWLRTK-----------------VLVIDEVSMVDGDLFDKLEEIARLIRNNGRPFGGIQLVVTGDFFQLPPVPEG</Hsp_hseq>
+      <Hsp_midline>+  TG  GTGK+  + +++  +  +    P  IA+ A TG AA ++      S  G        PE V++  +K   +  +R L+                   VL++DE SM+D  L  +L +  +          G ++++ GD  QLP V  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|190360113|sp|P0C6X6.1|R1AB_CVHOC</Hit_id>
+  <Hit_def>RecName: Full=Replicase polyprotein 1ab; Short=pp1ab; AltName: Full=ORF1ab polyprotein; Contains: RecName: Full=Host translation inhibitor nsp1; Short=nsp1; AltName: Full=p28; Contains: RecName: Full=Non-structural protein 2; Short=nsp2; AltName: Full=p65; Contains: RecName: Full=Papain-like proteinase; Short=PL-PRO; AltName: Full=Non-structural protein 3; Short=nsp3; AltName: Full=p210; Contains: RecName: Full=Non-structural protein 4; Short=nsp4; AltName: Full=Peptide HD2; AltName: Full=p44; Contains: RecName: Full=3C-like proteinase; Short=3CL-PRO; Short=3CLp; AltName: Full=M-PRO; AltName: Full=nsp5; AltName: Full=p27; Contains: RecName: Full=Non-structural protein 6; Short=nsp6; Contains: RecName: Full=Non-structural protein 7; Short=nsp7; AltName: Full=p10; Contains: RecName: Full=Non-structural protein 8; Short=nsp8; AltName: Full=p22; Contains: RecName: Full=Non-structural protein 9; Short=nsp9; AltName: Full=p12; Contains: RecName: Full=Non-structural protein 10; Short=nsp10; AltName: Full=Growth factor-like peptide; Short=GFL; AltName: Full=p15; Contains: RecName: Full=RNA-directed RNA polymerase; Short=Pol; Short=RdRp; AltName: Full=nsp12; AltName: Full=p100; Contains: RecName: Full=Helicase; Short=Hel; AltName: Full=nsp13; AltName: Full=p67; Contains: RecName: Full=Guanine-N7 methyltransferase; Short=ExoN; AltName: Full=nsp14; Contains: RecName: Full=Uridylate-specific endoribonuclease; AltName: Full=NendoU; AltName: Full=nsp15; AltName: Full=p35; Contains: RecName: Full=2&apos;-O-methyltransferase; AltName: Full=nsp16 [Human coronavirus OC43]</Hit_def>
+  <Hit_accession>P0C6X6</Hit_accession>
+  <Hit_len>7095</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.19183</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>5570</Hsp_hit-from>
+      <Hsp_hit-to>5703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLP---FDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPS</Hsp_qseq>
+      <Hsp_hseq>MKRYCTVQGPPGTGKSHLAIGLAVFYC-----TARVVYTAASHAAVDALCEKAYKFLNINDCTRIVPAK-VRVE---CYDKFKINDTTRKYVFTTINALPEMVTDIVVVDEVSML-TNYELSVINARIRAKHYVYIGDPAQLPA</Hsp_hseq>
+      <Hsp_midline>++ +  + G PGTGK+     L    C        +   A +  A   +    ++ +N  D    V    +++E    +   K++    +  F  I  LP    D+++VDE SML T   L ++ A       + +GD  QLP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|317373494|sp|P38935.3|SMBP2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=DNA-binding protein SMUBP-2; AltName: Full=ATP-dependent helicase IGHMBP2; AltName: Full=Glial factor 1; Short=GF-1; AltName: Full=Immunoglobulin mu-binding protein 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>P38935</Hit_accession>
+  <Hit_len>993</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.20903</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GTSAPDAAGARQNLAKWFQGAGSEGQRDAAALALLQF-FMVITGGPGTGKTTTVAKLL</Hsp_qseq>
+      <Hsp_hseq>GRSAPSPASEIHPLT-FFNTCLDTSQKEAVLFALSQKELAIIHGPPGTGKTTTVVEII</Hsp_hseq>
+      <Hsp_midline>G SAP  A     L  +F       Q++A   AL Q    +I G PGTGKTTTV +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|17380277|sp|O76512.1|RENT1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Regulator of nonsense transcripts 1; AltName: Full=ATP-dependent helicase smg-2; AltName: Full=Nonsense mRNA reducing factor 1; AltName: Full=Up-frameshift suppressor 1 homolog [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>O76512</Hit_accession>
+  <Hit_len>1069</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.30724</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>447</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRS</Hsp_qseq>
+      <Hsp_hseq>NSSQMQAVKQVLTRPLSLIQGPPGTGKTVVSATIVYHLVQKTEG--NVLVCSPSNIAVDHLAEKIHKT</Hsp_hseq>
+      <Hsp_midline>+  Q  A    L +   +I G PGTGKT   A ++  +  + E   ++ + +P+  A  H+A  +H++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|82020140|sp|Q5XXP4.1|POLN_CHIK3</Hit_id>
+  <Hit_def>RecName: Full=Non-structural polyprotein; AltName: Full=Polyprotein nsP1234; Short=P1234; Contains: RecName: Full=P123; Contains: RecName: Full=mRNA-capping enzyme nsP1; AltName: Full=Non-structural protein 1; Contains: RecName: Full=Protease nsP2; AltName: Full=Non-structural protein 2; Short=nsP2; Contains: RecName: Full=Non-structural protein 3; Short=nsP3; Contains: RecName: Full=RNA-directed RNA polymerase nsP4; AltName: Full=Non-structural protein 4; Short=nsP4 [Chikungunya virus strain Senegal 37997]</Hit_def>
+  <Hit_accession>Q5XXP4</Hit_accession>
+  <Hit_len>2474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.48766</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>702</Hsp_hit-from>
+      <Hsp_hit-to>818</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>EGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLA----LICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLPFDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQ</Hsp_qseq>
+      <Hsp_hseq>EGLRIRPACPYKTAVIGVFGVPGSGKSAIIKNLVTRQDLVTSGKKENCQEIST-------------------------DVMRQRNLEISARTVDSLLLNGCNR-----------PVDVLYVDEAFACHSGTLLALIALVRPRQKVVLCGDPKQ</Hsp_hseq>
+      <Hsp_midline>EG R   A       + + G PG+GK+  +  L+     +  G+ EN   I+                          + +R+  L++  +TV  LL     +           P DVL VDEA    +  +L L+  V+   +V+L GD  Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|3915204|sp|O34863.1|UVRA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=UvrABC system protein A; Short=UvrA protein; AltName: Full=Excinuclease ABC subunit A [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34863</Hit_accession>
+  <Hit_len>957</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.66384</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>524</Hsp_hit-from>
+      <Hsp_hit-to>710</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>TERLFQALQN----GHSFIRLSGDEADALSALAPVVGTSAAPLILEGRRLFLGRMWQLEYDLAAEIKRLAAAGTSAPDAAGARQNLAKWFQ--GAGSEGQRDAAALALLQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIR</Hsp_qseq>
+      <Hsp_hseq>NDRLISALKNMRDLGNTLIVVEHDE-DTMMAADYLIDIGPGAGIHGGQVISAGTPEEVMEDPNSLTGSYLSGKKFIPLPPERRKPDGRYIEIKGASENNLKKVNAKFPLGTFTAVTGVSGSGKSTLVNEIL-----------HKALAQKLHKAKAKPGS--HKEIKGLDHLDKV----IDIDQAPIGRTPRSNPATYTGVFDDIR</Hsp_hseq>
+      <Hsp_midline> +RL  AL+N    G++ I +  DE D + A   ++       I  G+ +  G   ++  D  +      +     P     R+   ++ +  GA     +   A   L  F  +TG  G+GK+T V ++L           H ALA    KA A      H+ I G D  + V    + ++   + R  + +P      FD IR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|190360107|sp|P0C6X0.1|R1AB_CVBQ</Hit_id>
+  <Hit_def>RecName: Full=Replicase polyprotein 1ab; Short=pp1ab; AltName: Full=ORF1ab polyprotein; Contains: RecName: Full=Host translation inhibitor nsp1; Short=nsp1; AltName: Full=p28; Contains: RecName: Full=Non-structural protein 2; Short=nsp2; AltName: Full=p65; Contains: RecName: Full=Papain-like proteinase; Short=PL-PRO; AltName: Full=Non-structural protein 3; Short=nsp3; AltName: Full=p210; Contains: RecName: Full=Non-structural protein 4; Short=nsp4; AltName: Full=Peptide HD2; AltName: Full=p44; Contains: RecName: Full=3C-like proteinase; Short=3CL-PRO; Short=3CLp; AltName: Full=M-PRO; AltName: Full=nsp5; AltName: Full=p27; Contains: RecName: Full=Non-structural protein 6; Short=nsp6; Contains: RecName: Full=Non-structural protein 7; Short=nsp7; AltName: Full=p10; Contains: RecName: Full=Non-structural protein 8; Short=nsp8; AltName: Full=p22; Contains: RecName: Full=Non-structural protein 9; Short=nsp9; AltName: Full=p12; Contains: RecName: Full=Non-structural protein 10; Short=nsp10; AltName: Full=Growth factor-like peptide; Short=GFL; AltName: Full=p15; Contains: RecName: Full=RNA-directed RNA polymerase; Short=Pol; Short=RdRp; AltName: Full=nsp12; AltName: Full=p100; Contains: RecName: Full=Helicase; Short=Hel; AltName: Full=nsp13; AltName: Full=p67; Contains: RecName: Full=Guanine-N7 methyltransferase; Short=ExoN; AltName: Full=nsp14; Contains: RecName: Full=Uridylate-specific endoribonuclease; AltName: Full=NendoU; AltName: Full=nsp15; AltName: Full=p35; Contains: RecName: Full=2&apos;-O-methyltransferase; AltName: Full=nsp16 [Bovine coronavirus strain Quebec]</Hit_def>
+  <Hit_accession>P0C6X0</Hit_accession>
+  <Hit_len>7059</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.83675</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>5570</Hsp_hit-from>
+      <Hsp_hit-to>5703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLP---FDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPS</Hsp_qseq>
+      <Hsp_hseq>MKRYCTVQGPPGTGKSHLAIGLAVYYC-----TARVVYTAASHAAVDALCEKAYKFLNINDCTRIVPAK-VRVE---CYDKFKINDTTRKYVFTTINALPEMVTDIVVVDEVSML-TNYELSVINARIRAKHYVYIGDPAQLPA</Hsp_hseq>
+      <Hsp_midline>++ +  + G PGTGK+     L    C        +   A +  A   +    ++ +N  D    V    +++E    +   K++    +  F  I  LP    D+++VDE SML T   L ++ A       + +GD  QLP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|190360104|sp|P0C6W7.1|R1AB_CVBEN</Hit_id>
+  <Hit_def>RecName: Full=Replicase polyprotein 1ab; Short=pp1ab; AltName: Full=ORF1ab polyprotein; Contains: RecName: Full=Host translation inhibitor nsp1; Short=nsp1; AltName: Full=p28; Contains: RecName: Full=Non-structural protein 2; Short=nsp2; AltName: Full=p65; Contains: RecName: Full=Papain-like proteinase; Short=PL-PRO; AltName: Full=Non-structural protein 3; Short=nsp3; AltName: Full=p210; Contains: RecName: Full=Non-structural protein 4; Short=nsp4; AltName: Full=Peptide HD2; AltName: Full=p44; Contains: RecName: Full=3C-like proteinase; Short=3CL-PRO; Short=3CLp; AltName: Full=M-PRO; AltName: Full=nsp5; AltName: Full=p27; Contains: RecName: Full=Non-structural protein 6; Short=nsp6; Contains: RecName: Full=Non-structural protein 7; Short=nsp7; AltName: Full=p10; Contains: RecName: Full=Non-structural protein 8; Short=nsp8; AltName: Full=p22; Contains: RecName: Full=Non-structural protein 9; Short=nsp9; AltName: Full=p12; Contains: RecName: Full=Non-structural protein 10; Short=nsp10; AltName: Full=Growth factor-like peptide; Short=GFL; AltName: Full=p15; Contains: RecName: Full=RNA-directed RNA polymerase; Short=Pol; Short=RdRp; AltName: Full=nsp12; AltName: Full=p100; Contains: RecName: Full=Helicase; Short=Hel; AltName: Full=nsp13; AltName: Full=p67; Contains: RecName: Full=Guanine-N7 methyltransferase; Short=ExoN; AltName: Full=nsp14; Contains: RecName: Full=Uridylate-specific endoribonuclease; AltName: Full=NendoU; AltName: Full=nsp15; AltName: Full=p35; Contains: RecName: Full=2&apos;-O-methyltransferase; AltName: Full=nsp16 [Bovine enteric coronavirus (strain 98TXSF-110-ENT)]</Hit_def>
+  <Hit_accession>P0C6W7</Hit_accession>
+  <Hit_len>7094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.83691</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>5570</Hsp_hit-from>
+      <Hsp_hit-to>5703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLP---FDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPS</Hsp_qseq>
+      <Hsp_hseq>MKRYCTVQGPPGTGKSHLAIGLAVYYC-----TARVVYTAASHAAVDALCEKAYKFLNINDCTRIVPAK-VRVE---CYDKFKINDTTRKYVFTTINALPEMVTDIVVVDEVSML-TNYELSVINARIRAKHYVYIGDPAQLPA</Hsp_hseq>
+      <Hsp_midline>++ +  + G PGTGK+     L    C        +   A +  A   +    ++ +N  D    V    +++E    +   K++    +  F  I  LP    D+++VDE SML T   L ++ A       + +GD  QLP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|190360105|sp|P0C6W8.1|R1AB_CVBLU</Hit_id>
+  <Hit_def>RecName: Full=Replicase polyprotein 1ab; Short=pp1ab; AltName: Full=ORF1ab polyprotein; Contains: RecName: Full=Host translation inhibitor nsp1; Short=nsp1; AltName: Full=p28; Contains: RecName: Full=Non-structural protein 2; Short=nsp2; AltName: Full=p65; Contains: RecName: Full=Papain-like proteinase; Short=PL-PRO; AltName: Full=Non-structural protein 3; Short=nsp3; AltName: Full=p210; Contains: RecName: Full=Non-structural protein 4; Short=nsp4; AltName: Full=Peptide HD2; AltName: Full=p44; Contains: RecName: Full=3C-like proteinase; Short=3CL-PRO; Short=3CLp; AltName: Full=M-PRO; AltName: Full=nsp5; AltName: Full=p27; Contains: RecName: Full=Non-structural protein 6; Short=nsp6; Contains: RecName: Full=Non-structural protein 7; Short=nsp7; AltName: Full=p10; Contains: RecName: Full=Non-structural protein 8; Short=nsp8; AltName: Full=p22; Contains: RecName: Full=Non-structural protein 9; Short=nsp9; AltName: Full=p12; Contains: RecName: Full=Non-structural protein 10; Short=nsp10; AltName: Full=Growth factor-like peptide; Short=GFL; AltName: Full=p15; Contains: RecName: Full=RNA-directed RNA polymerase; Short=Pol; Short=RdRp; AltName: Full=nsp12; AltName: Full=p100; Contains: RecName: Full=Helicase; Short=Hel; AltName: Full=nsp13; AltName: Full=p67; Contains: RecName: Full=Guanine-N7 methyltransferase; Short=ExoN; AltName: Full=nsp14; Contains: RecName: Full=Uridylate-specific endoribonuclease; AltName: Full=NendoU; AltName: Full=nsp15; AltName: Full=p35; Contains: RecName: Full=2&apos;-O-methyltransferase; AltName: Full=nsp16 [Bovine respiratory coronavirus (strain 98TXSF-110-LUN)]</Hit_def>
+  <Hit_accession>P0C6W8</Hit_accession>
+  <Hit_len>7094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.83691</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>5570</Hsp_hit-from>
+      <Hsp_hit-to>5703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLP---FDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPS</Hsp_qseq>
+      <Hsp_hseq>MKRYCTVQGPPGTGKSHLAIGLAVYYC-----TARVVYTAASHAAVDALCEKAYKFLNINDCTRIVPAK-VRVE---CYDKFKINDTTRKYVFTTINALPEMVTDIVVVDEVSML-TNYELSVINARIRAKHYVYIGDPAQLPA</Hsp_hseq>
+      <Hsp_midline>++ +  + G PGTGK+     L    C        +   A +  A   +    ++ +N  D    V    +++E    +   K++    +  F  I  LP    D+++VDE SML T   L ++ A       + +GD  QLP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|190360106|sp|P0C6W9.1|R1AB_CVBM</Hit_id>
+  <Hit_def>RecName: Full=Replicase polyprotein 1ab; Short=pp1ab; AltName: Full=ORF1ab polyprotein; Contains: RecName: Full=Host translation inhibitor nsp1; Short=nsp1; AltName: Full=p28; Contains: RecName: Full=Non-structural protein 2; Short=nsp2; AltName: Full=p65; Contains: RecName: Full=Papain-like proteinase; Short=PL-PRO; AltName: Full=Non-structural protein 3; Short=nsp3; AltName: Full=p210; Contains: RecName: Full=Non-structural protein 4; Short=nsp4; AltName: Full=Peptide HD2; AltName: Full=p44; Contains: RecName: Full=3C-like proteinase; Short=3CL-PRO; Short=3CLp; AltName: Full=M-PRO; AltName: Full=nsp5; AltName: Full=p27; Contains: RecName: Full=Non-structural protein 6; Short=nsp6; Contains: RecName: Full=Non-structural protein 7; Short=nsp7; AltName: Full=p10; Contains: RecName: Full=Non-structural protein 8; Short=nsp8; AltName: Full=p22; Contains: RecName: Full=Non-structural protein 9; Short=nsp9; AltName: Full=p12; Contains: RecName: Full=Non-structural protein 10; Short=nsp10; AltName: Full=Growth factor-like peptide; Short=GFL; AltName: Full=p15; Contains: RecName: Full=RNA-directed RNA polymerase; Short=Pol; Short=RdRp; AltName: Full=nsp12; AltName: Full=p100; Contains: RecName: Full=Helicase; Short=Hel; AltName: Full=nsp13; AltName: Full=p67; Contains: RecName: Full=Guanine-N7 methyltransferase; Short=ExoN; AltName: Full=nsp14; Contains: RecName: Full=Uridylate-specific endoribonuclease; AltName: Full=NendoU; AltName: Full=nsp15; AltName: Full=p35; Contains: RecName: Full=2&apos;-O-methyltransferase; AltName: Full=nsp16 [Bovine coronavirus Mebus]</Hit_def>
+  <Hit_accession>P0C6W9</Hit_accession>
+  <Hit_len>7094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.83691</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>5570</Hsp_hit-from>
+      <Hsp_hit-to>5703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LQFFMVITGGPGTGKTTTVAKLLALICGENENLPHIALAAPTGKAAAHMARALHRSINGFDAPEAVRRHLLKLEGQTVHRLLKLSPPKMQAAFDHIRPLP---FDVLIVDEASMLDTALMLQLLKAVKTGARVILLGDENQLPS</Hsp_qseq>
+      <Hsp_hseq>MKRYCTVQGPPGTGKSHLAIGLAVYYC-----TARVVYTAASHAAVDALCEKAYKFLNINDCTRIVPAK-VRVE---CYDKFKINDTTRKYVFTTINALPEMVTDIVVVDEVSML-TNYELSVINARIRAKHYVYIGDPAQLPA</Hsp_hseq>
+      <Hsp_midline>++ +  + G PGTGK+     L    C        +   A +  A   +    ++ +N  D    V    +++E    +   K++    +  F  I  LP    D+++VDE SML T   L ++ A       + +GD  QLP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|75013564|sp|Q86AS0.1|Y4399_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Probable helicase DDB_G0274399 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q86AS0</Hit_accession>
+  <Hit_len>967</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>2.1528</Hsp_evalue>
+      <Hsp_query-from>237</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>585</Hsp_hit-from>
+      <Hsp_hit-to>643</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>FDVLIVDEASM-LDTALMLQLLKAVKTGARVILLGDENQLPSVGIGAVLSVLSQKTVLDGETHQRL</Hsp_qseq>
+      <Hsp_hseq>FDIVIIDEAAQAVETSTLIPIQHGCK---KVVLVGDPKQLPA----TIISPLAIKYKYDQSLFQRL</Hsp_hseq>
+      <Hsp_midline>FD++I+DEA+  ++T+ ++ +    K   +V+L+GD  QLP+     ++S L+ K   D    QRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|678018997|sp|D1KF50.1|SRS2L_ARATH</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent DNA helicase SRS2-like protein At4g25120; AltName: Full=AtSRS2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>D1KF50</Hit_accession>
+  <Hit_len>1147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>2.16228</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>SEGQRDAAALALLQFFMVITGGPGTGKTTT-VAKLLALICGENEN-LPHIALAAPTGKAAAHMAR</Hsp_qseq>
+      <Hsp_hseq>NDRQRDAACSNISTPLMVI-AGPGSGKTSTMVGRVLVLL---NEGLLPSNILAMTFTKAATSEMR</Hsp_hseq>
+      <Hsp_midline>++ QRDAA   +    MVI  GPG+GKT+T V ++L L+   NE  LP   LA    KAA    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

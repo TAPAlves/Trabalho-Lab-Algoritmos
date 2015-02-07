@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>31139</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>223</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>31139</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>223</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|67461228|sp|Q5F831.1|RPIA_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Neisseria gonorrhoeae FA 1090] &gt;gi|238690192|sp|B4RL16.1|RPIA_NEIG2 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>Q5F831</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.669</Hsp_bit-score>
+      <Hsp_score>1158</Hsp_score>
+      <Hsp_evalue>8.30403e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_qseq>
+      <Hsp_hseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_hseq>
+      <Hsp_midline>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|30173380|sp|Q9JYM6.1|RPIA_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JYM6</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>4.26152e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_qseq>
+      <Hsp_hseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLAQYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFICIADESKYVSRLGKFPLPVEVVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_hseq>
+      <Hsp_midline>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLA+YDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKF+CIADESKYVSRLGKFPLPVE VESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|30173378|sp|Q9JTM5.1|RPIA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Neisseria meningitidis Z2491] &gt;gi|189043820|sp|A9M0U5.1|RPIA_NEIM0 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>Q9JTM5</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>9.89369e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_qseq>
+      <Hsp_hseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSSELLAQYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEVVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_hseq>
+      <Hsp_midline>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKS ELLA+YDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVE VESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|166200056|sp|A1KUU8.1|RPIA_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KUU8</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>4.21436e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_qseq>
+      <Hsp_hseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSSELLAQYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEVVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDKPLMMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_hseq>
+      <Hsp_midline>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKS ELLA+YDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVE VESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNID+PL MEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYPCQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122312738|sp|Q0ACJ4.1|RPIA_ALKEH</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Alkalilimnicola ehrlichii MLHE-1]</Hit_def>
+  <Hit_accession>Q0ACJ4</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.595</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>1.20905e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAK</Hsp_qseq>
+      <Hsp_hseq>MMSADQGKRMAAEAAMEYVEENTVIGVGTGSTVNFFIDALADMKARIDGTVSSSEASTARLRQYGIPVLDLNEVGTMPIYVDGADESNRFLQLIKGGGGALTREKIVAAAAERFVCVADESKLVDVLGEFPLPVEVIPMARSYVARELVKLGGRPQLRSGFTTDNGNVILDVRGLKIMEPIKLEQQINNIPGVVTNGLFALRPADVLLLGTAEGVR</Hsp_hseq>
+      <Hsp_midline>M + D+ KR+AAE A+E+V EN  IG+GTGST+NFFI+AL     +I G VS+S+ S   L +Y IPV+ LNEV  + +Y+DGADE N  LQ+IKGGGGA   EKIVA+A+E+FVC+ADESK V  LG+FPLPVE +  ARS V+R+L+ +GG+P+LR G+TT  GN I+DV GL I +P+ +E +IN I GV+ NG+FA   ADVL+LGT EG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|41017648|sp|Q7NYL4.1|RPIA_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NYL4</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>1.62219e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>MLTQDQLKLAVAKKALEFVPEDAIIGVGTGSTVNLFIEELAGIKGRIKGAVSSSEASTARLKAHHIQVFDLNEVEKLSVYIDGADEINHHLHMIKGGGAALTREKIVAGVADEFICIADEKKYVTMLGAFPLPIEVIPMARSYVARELVKLGGHPELRQGVTTDNGNVILDVHGLQIMKPVELEETINHIAGVVTCGLFARRRADVLLLGKQDGVEVL</Hsp_hseq>
+      <Hsp_midline>M TQD+LK   A+KA+EFVPE+  IG+GTGST+N FIE L     +IKGAVS+S+ S   L  + I V  LNEV  L+VYIDGADE+NH L MIKGGG A   EKIVA  +++F+CIADE KYV+ LG FPLP+E +  ARS V+R+L+ +GG PELR G TT  GN I+DVHGL I +P+ +E+ IN I GV+  G+FAR  ADVL+LG ++G +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|41017699|sp|Q82TX6.1|RPIA_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82TX6</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>1.19733e-76</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDEQKRAVAQAALQYVPTGEIIGIGTGSTANLFIDELAKIKHRIEGAVASSEVTANRLKQHGIEVLDLNSVGELPVYIDGADEITRNMHMIKGGGGALTREKIVAAVARKFICIADQSKLVKVLGKFPLPVEVIPMARSYVAREITLLGGQPAWRQGFTTDNGNIILDVHNLNIMNPVELETALNQIAGVVTNGLFARRAANVLLMGTDQGVETI</Hsp_hseq>
+      <Hsp_midline>TQDE KR  A+ A+++VP  E IGIGTGST N FI+ L K   +I+GAV++S+ +   L ++ I V+ LN V  L VYIDGADE+   + MIKGGGGA   EKIVA+ + KF+CIAD+SK V  LGKFPLPVE +  ARS V+R++  +GGQP  R G+TT  GN I+DVH LNI  P+ +E  +N+I GV+ NG+FAR AA+VL++GT++G + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123593471|sp|Q3J7S6.1|RPIA_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3J7S6</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>7.55841e-76</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYP</Hsp_qseq>
+      <Hsp_hseq>SPDEMKKLAAKAALEHVEPGTIVGTGTGSTVNHFIDLLGTIKGKIEGAVSSSEASTARLKALNIPVYELNAVGEIPLYIDGADESNHYLQLIKGGGGALTREKIIAAASKKFVCIADQSKLVDILGTFPLPVEVIPMARSYVARQIVKLGGEPVYREGFITDNGNQILDTHGLSIMEPAKLEGQLNNIPGVVTNGLFAIYPADVLILGSPEGVKTIYP</Hsp_hseq>
+      <Hsp_midline>+ DE+K++AA+ A+E V     +G GTGST+N FI+ LG    KI+GAVS+S+ S   L   +IPV  LN V  + +YIDGADE NH LQ+IKGGGGA   EKI+A+AS+KFVCIAD+SK V  LG FPLPVE +  ARS V+R+++ +GG+P  R G+ T  GNQI+D HGL+I +P  +E ++N I GV+ NG+FA   ADVLILG+ EG K IYP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122959243|sp|Q0VL94.1|RPIA_ALCBS</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Alcanivorax borkumensis SK2]</Hit_def>
+  <Hit_accession>Q0VL94</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>3.41727e-75</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>QDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGA</Hsp_qseq>
+      <Hsp_hseq>QDVLKKQVAEAALRFVPEGDIIGVGTGSTANFFIDALATLKDRIKGTVASSEATAERLKQHGIEVFSLNDVGSLSVYVDGADEVNQHREMIKGGGGALTREKIVAAMAKEFICIVDGSKQVNRLGAFPLPIEVIPMARSYVARKLVALGGQPQYREGFLTDNGNIILDVHNLDISNPIELETTLNNIVGVVTNGLFAKRPADIVLVGEKSGA</Hsp_hseq>
+      <Hsp_midline>QD LK+  AE A+ FVPE + IG+GTGST NFFI+AL     +IKG V++S+ + E L ++ I V SLN+V  L+VY+DGADEVN   +MIKGGGGA   EKIVA+ +++F+CI D SK V+RLG FPLP+E +  ARS V+RKL+A+GGQP+ R G+ T  GN I+DVH L+I  P+ +E  +N I GV+ NG+FA+  AD++++G + GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|254808714|sp|C1D560.1|RPIA_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1D560</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>2.3232e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEG</Hsp_qseq>
+      <Hsp_hseq>MNEQDKMKAAAARKAIDYVPEGAIIGVGTGSTANFFIDELARIKDRIEGAVASSQATADRLKAIGIQVFDLNGVGELPVYVDGCDEINHYLHMIKGGGGALTREKIVATSSRQFICIADESKLVKRLGAFPLPVEVIPMARSLVARKLVKLGGHPEWRENFVTDNGNLILDVHDLAIDQPLEMEETINRMAGVVTCGLFARRRADVLLLGRSDG</Hsp_hseq>
+      <Hsp_midline>M  QD++K  AA KA+++VPE   IG+GTGST NFFI+ L +   +I+GAV++S+ + + L    I V  LN V  L VY+DG DE+NH L MIKGGGGA   EKIVA++S +F+CIADESK V RLG FPLPVE +  ARSLV+RKL+ +GG PE R  + T  GN I+DVH L IDQPL ME+ IN++ GV+  G+FAR  ADVL+LG  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259494155|sp|C5BMC8.1|RPIA_TERTT</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Teredinibacter turnerae T7901]</Hit_def>
+  <Hit_accession>C5BMC8</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>7.20908e-74</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFV-PENE---YIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYP</Hsp_qseq>
+      <Hsp_hseq>NQQELKQAVAQAAVDYILPKLESDTILGIGTGSTAALFIDALAQHKGLFQGAVSSSEASARQLEGHGIPVYDLNEVDRLVAYVDGADEANARLQLIKGGGAALTREKIVTACADEFVCIADESKWVPVLGKFPLPVEVIPMARSFVARELVKMGGSPEHRHGCTTDNGNHILDVHGLEIHQPAELESAINQIPGVVTNGLFALRPADVLLLGTNDGVKTLYP</Hsp_hseq>
+      <Hsp_midline> Q ELK+  A+ AV+++ P+ E    +GIGTGST   FI+AL +     +GAVS+S+ S   L  + IPV  LNEV  L  Y+DGADE N  LQ+IKGGG A   EKIV + +++FVCIADESK+V  LGKFPLPVE +  ARS V+R+L+ MGG PE R G TT  GN I+DVHGL I QP  +E  IN+I GV+ NG+FA   ADVL+LGT +G K +YP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|171704367|sp|A6VQH4.1|RPIA_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VQH4</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>1.64401e-72</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGK-FPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>QLEMKKMAAQAALQFVQPDSIVGVGSGSTVNCFIEALGAMRDQIKGAVAASKASEELLRKQGIEVFSANDVSSLDIYVDGADEINPQKMMIKGGGAALTREKIVASLTKNFICIVDSSKQVDVLGSTFPLPVEVIPMARSQVARKLVALGGSPEWRQGVVTDNGNVILDVHNFPIMNPPEMEKELNNVAGVVTNGIFALNAANTVIVGTPEGAKII</Hsp_hseq>
+      <Hsp_midline>Q E+K++AA+ A++FV  +  +G+G+GST+N FIEALG    +IKGAV+ SK S ELL +  I V S N+VS L +Y+DGADE+N    MIKGGG A   EKIVAS ++ F+CI D SK V  LG  FPLPVE +  ARS V+RKL+A+GG PE R G  T  GN I+DVH   I  P  ME E+N + GV+ NGIFA +AA+ +I+GT EGAK+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|123611324|sp|Q3SGD3.1|RPIA_THIDA</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SGD3</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>5.65858e-72</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAK</Hsp_qseq>
+      <Hsp_hseq>TQDEMKRAVARAAVDY-AKGGIIGVGTGSTANHFIDALAEVKGRIEGTVASSEATAARLKSHGIQVLDLNSVGELEVYVDGADEITQHFAMIKGGGGALTREKIVAACSKQFVCIADDSKLVDVLGKFPLPVEVIPMARSHVARELVKLGGQPRLREGFTTDNGNVILDVHNLSIIDPVSLETAINQIVGVVTNGLFARRGADVLLLGTSTGVK</Hsp_hseq>
+      <Hsp_midline>TQDE+KR  A  AV++  +   IG+GTGST N FI+AL +   +I+G V++S+ +   L  + I V+ LN V  L VY+DGADE+     MIKGGGGA   EKIVA+ S++FVCIAD+SK V  LGKFPLPVE +  ARS V+R+L+ +GGQP LR G+TT  GN I+DVH L+I  P+++E  IN+I GV+ NG+FAR  ADVL+LGT  G K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|123555236|sp|Q31FB3.1|RPIA_THICR</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Thiomicrospira crunogena XCL-2]</Hit_def>
+  <Hit_accession>Q31FB3</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.557</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>7.01011e-72</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLA-MGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDELKQQVAIAAIEYVVPDTFIGVGTGSTANFFIDELAKIKGKIKGAVASSEATAERLKDHGIPVMELNSVDELSVYIDGADEADPKLNLIKGGGGALTREKIVLAVAKQFVCIADDSKKVAVLGKFPLPIEVIPMARSYVAREVVKRFGGEPVLREGFTTDNGNVILDIHGLEITDPVAMETELNGIVGVVTNGLFAARNADIFLCGTANGVETI</Hsp_hseq>
+      <Hsp_midline>TQDELK+  A  A+E+V  + +IG+GTGST NFFI+ L K   KIKGAV++S+ + E L  + IPV+ LN V  L+VYIDGADE +  L +IKGGGGA   EKIV + +++FVCIAD+SK V+ LGKFPLP+E +  ARS V+R+++   GG+P LR G+TT  GN I+D+HGL I  P+ ME E+N I GV+ NG+FA   AD+ + GT  G + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123633173|sp|Q485H8.1|RPIA_COLP3</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Colwellia psychrerythraea 34H]</Hit_def>
+  <Hit_accession>Q485H8</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.557</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>8.53997e-72</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDEMKNAAAIKALEFIENDTIVGVGTGSTVNFFIEALASMKDKIAGAVSSSEESTKRLKAHGIEVFDLNSVDVLDVYVDGADEITRHMSMIKGGGAALTREKIVAAVAKKFICIADDSKQVKVLGNFPLPVEVIPMARSYVARELVKLGGDPVYRQGVTTDNGNVILDVYNLEILDPKALETQINAIVGVVTNGLFALRGADILVLGSKDGIQVI</Hsp_hseq>
+      <Hsp_midline>TQDE+K  AA KA+EF+  +  +G+GTGST+NFFIEAL     KI GAVS+S++S + L  + I V  LN V  L VY+DGADE+   + MIKGGG A   EKIVA+ ++KF+CIAD+SK V  LG FPLPVE +  ARS V+R+L+ +GG P  R G TT  GN I+DV+ L I  P  +E +IN I GV+ NG+FA   AD+L+LG+++G +VI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|166200044|sp|A5UA25.1|RPIA_HAEIE</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Haemophilus influenzae PittEE]</Hit_def>
+  <Hit_accession>A5UA25</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>2.05066e-71</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGK-FPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>QLEMKKLAAQAALEYVKADTIVGVGSGSTVNCFIEALGTIKNKIQGAVAASKASEELLRKQGIEVFNANDVSSLDIYVDGADEINPQKMMIKGGGAALTREKIVAALAKKFICIVDSSKQVDVLGSTFPLPVEVIPMARSQVGRKLVALGGAPEYREGVVTDNGNVILDVHNFSILNPVEMEKELNNVAGVATNGIFALRGADVVIVGTPEGAKII</Hsp_hseq>
+      <Hsp_midline>Q E+K++AA+ A+E+V  +  +G+G+GST+N FIEALG    KI+GAV+ SK S ELL +  I V + N+VS L +Y+DGADE+N    MIKGGG A   EKIVA+ ++KF+CI D SK V  LG  FPLPVE +  ARS V RKL+A+GG PE R G  T  GN I+DVH  +I  P+ ME E+N + GV  NGIFA   ADV+I+GT EGAK+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81336529|sp|Q4QN79.1|RPIA_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Haemophilus influenzae 86-028NP]</Hit_def>
+  <Hit_accession>Q4QN79</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>2.96343e-71</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGK-FPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>NQLEMKKLAAQAALEYVTADTIVGVGSGSTVNCFIEALGTIKNKIQGVVAASKASEELLRKQGIEVFNANDVSSLDIYVDGADEINPQKMMIKGGGAALTREKIVAALAKKFICIVDSSKQVDVLGSTFPLPVEVIPMARSQVGRKLVALGGAPEYREGVVTDNGNVILDVHNFSILNPVEMEKELNNVAGVVTNGIFALRGADVVIVGTPEGAKII</Hsp_hseq>
+      <Hsp_midline> Q E+K++AA+ A+E+V  +  +G+G+GST+N FIEALG    KI+G V+ SK S ELL +  I V + N+VS L +Y+DGADE+N    MIKGGG A   EKIVA+ ++KF+CI D SK V  LG  FPLPVE +  ARS V RKL+A+GG PE R G  T  GN I+DVH  +I  P+ ME E+N + GV+ NGIFA   ADV+I+GT EGAK+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|31340397|sp|Q87LL9.1|RPIA_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87LL9</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>3.09856e-71</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKV</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALKYVEKGSIVGVGTGSTVNHFIDALGTIKDDIKGAVSSSVASTERLKELGIEVFECNDVIKLDVYVDGADEINHAREMIKGGGAALTREKIVAAISEKFVCIVDDTKAVDVLGQFPLPVEVIPMARSYVARELVKLGGDPAYREGVVTDNGNIILDVHNMQITNPKEMEDKINGIAGVVTVGLFAHRGADVVITGTPEGAKI</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V +   +G+GTGST+N FI+ALG     IKGAVS+S  S E L    I V   N+V  L VY+DGADE+NHA +MIKGGG A   EKIVA+ SEKFVCI D++K V  LG+FPLPVE +  ARS V+R+L+ +GG P  R G  T  GN I+DVH + I  P  MED+IN I GV+  G+FA   ADV+I GT EGAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|166200045|sp|A5UGX5.1|RPIA_HAEIG</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Haemophilus influenzae PittGG]</Hit_def>
+  <Hit_accession>A5UGX5</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>5.31787e-71</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGK-FPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>NQLEMKKLAAQAALQYVKADTIVGVGSGSTVNCFIEALGTIKDKIQGAVAASKESEELLRKQGIEVFNANDVSSLDIYVDGADEINPQKMMIKGGGAALTREKIVAALAKKFICIVDSSKQVDVLGSTFPLPVEVIPMARSQVGRKLVALGGSPEYREDVVTDNGNVILDVHNFSILNPVEMEKELNNVSGVVTNGIFALRGADVVIVGTPEGAKII</Hsp_hseq>
+      <Hsp_midline> Q E+K++AA+ A+++V  +  +G+G+GST+N FIEALG    KI+GAV+ SK+S ELL +  I V + N+VS L +Y+DGADE+N    MIKGGG A   EKIVA+ ++KF+CI D SK V  LG  FPLPVE +  ARS V RKL+A+GG PE R    T  GN I+DVH  +I  P+ ME E+N ++GV+ NGIFA   ADV+I+GT EGAK+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|67472380|sp|P0A7Z0.1|RPIA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli K-12] &gt;gi|67472381|sp|P0A7Z1.1|RPIA_ECOL6 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli CFT073] &gt;gi|67472382|sp|P0A7Z2.1|RPIA_ECO57 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli O157:H7] &gt;gi|67472383|sp|P0A7Z3.1|RPIA_SHIFL RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shigella flexneri] &gt;gi|122957222|sp|Q0T0Y5.1|RPIA_SHIF8 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shigella flexneri 5 str. 8401] &gt;gi|123558649|sp|Q31WH4.1|RPIA_SHIBS RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shigella boydii Sb227] &gt;gi|123561631|sp|Q32BX5.1|RPIA_SHIDS RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shigella dysenteriae Sd197] &gt;gi|123616229|sp|Q3YXV7.1|RPIA_SHISS RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shigella sonnei Ss046] &gt;gi|166991516|sp|A7ZR23.1|RPIA_ECO24 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli O139:H28 str. E24377A] &gt;gi|166991517|sp|A8A454.1|RPIA_ECOHS RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli HS] &gt;gi|189043815|sp|B1IT89.1|RPIA_ECOLC RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli ATCC 8739] &gt;gi|226734908|sp|B7MM99.1|RPIA_ECO45 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli S88] &gt;gi|226734909|sp|B7NHX4.1|RPIA_ECO7I RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli IAI39] &gt;gi|226734910|sp|B7LYT1.1|RPIA_ECO8A RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli IAI1] &gt;gi|226734911|sp|B7N7F6.1|RPIA_ECOLU RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli UMN026] &gt;gi|226734912|sp|B1LDB5.1|RPIA_ECOSM RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli SMS-3-5] &gt;gi|229564307|sp|B1XEJ9.1|RPIA_ECODH RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli str. K-12 substr. DH10B] &gt;gi|238057749|sp|B5YQA8.1|RPIA_ECO5E RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli O157:H7 str. EC4115] &gt;gi|238057750|sp|B6I746.1|RPIA_ECOSE RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli SE11] &gt;gi|238691770|sp|B2U0T0.1|RPIA_SHIB3 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shigella boydii CDC 3083-94] &gt;gi|254808709|sp|B7UHW1.1|RPIA_ECO27 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli O127:H6 str. E2348/69] &gt;gi|254808710|sp|B7LFH2.1|RPIA_ECO55 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli 55989] &gt;gi|254808711|sp|B7MZL0.1|RPIA_ECO81 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli ED1a] &gt;gi|259494150|sp|C5A0I5.1|RPIA_ECOBW RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P0A7Z0</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>7.60178e-71</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDELKKAVGWAALQYVQPGTIVGVGTGSTAAHFIDALGTMKGQIEGAVSSSDASTEKLKSLGIHVFDLNEVDSLGIYVDGADEINGHMQMIKGGGAALTREKIIASVAEKFICIADASKQVDILGKFPLPVEVIPMARSAVARQLVKLGGRPEYRQGVVTDNGNVILDVHGMEILDPIAMENAINAIPGVVTVGLFANRGADVALIGTPDGVKTI</Hsp_hseq>
+      <Hsp_midline>TQDELK+     A+++V     +G+GTGST   FI+ALG    +I+GAVS+S  S E L    I V  LNEV  L +Y+DGADE+N  +QMIKGGG A   EKI+AS +EKF+CIAD SK V  LGKFPLPVE +  ARS V+R+L+ +GG+PE R G  T  GN I+DVHG+ I  P+ ME+ IN I GV+  G+FA   ADV ++GT +G K I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|67461357|sp|Q60BV9.1|RPIA_METCA</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Methylococcus capsulatus str. Bath]</Hit_def>
+  <Hit_accession>Q60BV9</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>8.03523e-71</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDELKRKVAEAALDYVKDVTILGVGTGSTVNHFIDLLADLKGGIEGAVSSSQASSERLKKIGIPVLDLNAAGTLDVYVDGADEVNAAKQMIKGGGAALTREKIVAEASRKFVCIVDETKCVDVLGKFPLPVEVIPMARSLVARRLVELGGTPVWRENCITDNGNVILDVHNLTITDPVELERRINDIPGVVCNGVFALRPADVVLIGSPSGVRTL</Hsp_hseq>
+      <Hsp_midline>TQDELKR  AE A+++V +   +G+GTGST+N FI+ L      I+GAVS+S+ S E L +  IPV+ LN    L VY+DGADEVN A QMIKGGG A   EKIVA AS KFVCI DE+K V  LGKFPLPVE +  ARSLV+R+L+ +GG P  R    T  GN I+DVH L I  P+ +E  IN I GV+ NG+FA   ADV+++G+  G + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1173141|sp|P44725.1|RPIA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44725</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>9.03962e-71</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGK-FPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>NQLEMKKLAAQAALQYVKADTIVGVGSGSTVNCFIEALGTIKDKIQGAVAASKESEELLRKQGIEVFNANDVSSLDIYVDGADEINPQKMMIKGGGAALTREKIVAALAKKFICIVDSSKQVDVLGSTFPLPVEVIPMARSQVGRKLAALGGSPEYREGVVTDNGNVILDVHNFSILNPVEIEKELNNVAGVVTNGIFALRGADVVIVGTPEGAKVI</Hsp_hseq>
+      <Hsp_midline> Q E+K++AA+ A+++V  +  +G+G+GST+N FIEALG    KI+GAV+ SK+S ELL +  I V + N+VS L +Y+DGADE+N    MIKGGG A   EKIVA+ ++KF+CI D SK V  LG  FPLPVE +  ARS V RKL A+GG PE R G  T  GN I+DVH  +I  P+ +E E+N + GV+ NGIFA   ADV+I+GT EGAKVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|229564308|sp|A1AFA2.1|RPIA_ECOK1</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia coli APEC O1]</Hit_def>
+  <Hit_accession>A1AFA2</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>9.89868e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MTTQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>IMTQDELKKAVGWAALQYVQPGTIVGVGTGSTAAHFIDALGTMKGQIEGAVSSSDASTEKLKSLGIHVFDLNEVDSLGIYVDGADEINGHMQMIKGGGAALTREKIIASVAEKFICIADASKQVDILGKFPLPVEVIPMARSAVARQLVKLGGRPEYRQGVVTDNGNVILDVHGMEILDPIAMENAINAIPGVVTVGLFANRGADVALIGTPDGVKTI</Hsp_hseq>
+      <Hsp_midline>+ TQDELK+     A+++V     +G+GTGST   FI+ALG    +I+GAVS+S  S E L    I V  LNEV  L +Y+DGADE+N  +QMIKGGG A   EKI+AS +EKF+CIAD SK V  LGKFPLPVE +  ARS V+R+L+ +GG+PE R G  T  GN I+DVHG+ I  P+ ME+ IN I GV+  G+FA   ADV ++GT +G K I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|41017669|sp|Q7VP95.1|RPIA_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VP95</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.08664e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLG-KFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQQEMKKIAAQAALQFVKPDTIIGVGSGSTVNCFIDALASIKDEIKGAVAASKASEDQLRAMGIEVFNANEVAGLDVYIDGADEITPQGAMIKGGGAALTREKIVSSLAKQFICMVDSSKQVDVLGSSFPLPVEVIPMARSYVARQLVALGGSPEYREGVVTDNGNVILDVHNFNIYEPLKMEHTINNIAGVVTNGIFAQRYANIIIVGTAEGAKII</Hsp_hseq>
+      <Hsp_midline>TQ E+K+IAA+ A++FV  +  IG+G+GST+N FI+AL     +IKGAV+ SK S + L    I V + NEV+GL VYIDGADE+     MIKGGG A   EKIV+S +++F+C+ D SK V  LG  FPLPVE +  ARS V+R+L+A+GG PE R G  T  GN I+DVH  NI +PL ME  IN I GV+ NGIFA+  A+++I+GT EGAK+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|123545066|sp|Q2YBX7.1|RPIA_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2YBX7</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>1.73088e-70</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>QDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>QDEQKRAAAHAAIQHIPAGCIVGVGTGSTANYFIDALAGIRSRIDGAVASSEATARRLSAHGIEVMDLNNVDELPLYVDGADEITPHLHMIKGGGGALTREKIVAAVAKKFICIADQSKLVDVLGKFPLPVEVIPMARGHVAREIVRLGGQPMLRQGFTTDNGNVILDVHALQILNPIELETELNQITGIVTNGLFARRPADLLLLGDEGGIRTI</Hsp_hseq>
+      <Hsp_midline>QDE KR AA  A++ +P    +G+GTGST N+FI+AL     +I GAV++S+ +   L+ + I V+ LN V  L +Y+DGADE+   L MIKGGGGA   EKIVA+ ++KF+CIAD+SK V  LGKFPLPVE +  AR  V+R+++ +GGQP LR G+TT  GN I+DVH L I  P+ +E E+N+ITG++ NG+FAR  AD+L+LG E G + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|226734913|sp|B7LPC8.1|RPIA_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LPC8</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>1.99245e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDELKKAVGWAALQYVQPGTIVGVGTGSTAAHFIDALGTMKDQIEGAVSSSDASTEKLKSLGITVFDLNDVDSLGIYVDGADEINGHMQMIKGGGAALTREKIIASVAKKFICIADASKQVDILGKFPLPVEVIPMARSAVARQLVKLGGRPEYRQGVITDNGNVILDVHGMEILDPVAMENAINAIPGVVTVGLFANRGADVALIGTAEGVKTI</Hsp_hseq>
+      <Hsp_midline>TQDELK+     A+++V     +G+GTGST   FI+ALG    +I+GAVS+S  S E L    I V  LN+V  L +Y+DGADE+N  +QMIKGGG A   EKI+AS ++KF+CIAD SK V  LGKFPLPVE +  ARS V+R+L+ +GG+PE R G  T  GN I+DVHG+ I  P+ ME+ IN I GV+  G+FA   ADV ++GT EG K I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123534615|sp|Q2SN31.1|RPIA_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SN31</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>2.08533e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVP----ENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>NQDELKQAVAKAALDYIKPHLQSDTILGIGTGSTANYFIDALAEVRTQFEGAVASSEASAERLKKHNIPVYELNSVSGLEFYIDGADETNPRLELIKGGGAALTREKIVAANAKTFICIADESKWVDVLGDFPLPIEVIPMARSYVARELVKLGGDPVYREGCVTDNGNIILDVFNLRILEPVKLEQQINQITGVVTNGLFAMRPADVLLLGSQEGVKTI</Hsp_hseq>
+      <Hsp_midline> QDELK+  A+ A++++      +  +GIGTGST N+FI+AL +   + +GAV++S+ S E L +++IPV  LN VSGL  YIDGADE N  L++IKGGG A   EKIVA+ ++ F+CIADESK+V  LG FPLP+E +  ARS V+R+L+ +GG P  R G  T  GN I+DV  L I +P+ +E +IN+ITGV+ NG+FA   ADVL+LG++EG K I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|166229239|sp|A3QB49.1|RPIA_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QB49</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>2.5836e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVIYP</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALEYVEKDSIVGVGTGSTVNHFIDALATMKADIEGAVSSSEASTEKMKALGIPVFDLNSVDQLSVYVDGADEINGHMDMIKGGGAALTREKIVAAVADKFVCIVDNTKEVEVLGEFPLPVEVIPMARSYVARELVKLGGDPVYREGVVTDNGNVILDVYNMKIFNPKALEEQINQIVGVVTNGLFANRGADVLLVGTPEGVKTVKP</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+E+V ++  +G+GTGST+N FI+AL      I+GAVS+S+ S E +    IPV  LN V  L+VY+DGADE+N  + MIKGGG A   EKIVA+ ++KFVCI D +K V  LG+FPLPVE +  ARS V+R+L+ +GG P  R G  T  GN I+DV+ + I  P  +E++IN+I GV+ NG+FA   ADVL++GT EG K + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|166229232|sp|A1SSJ0.1|RPIA_PSYIN</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Psychromonas ingrahamii 37]</Hit_def>
+  <Hit_accession>A1SSJ0</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>3.57986e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAAYAALEYVQPDSIVGVGTGSTVTHFIDALATIKDLIKGAVSSSDESTARLQSYGIDVFDLNEVSELSIYVDGADEINPYNHMIKGGGAALTREKIISAVAEKFICIVDNTKNVDILGDFPLPIEVIPMARSYVARELVKLGGDPVYRQGVVTDNGNVILDVHNLKIAEPLKLEAQINAIVGVVTNGLFANRAADVVLVGTPEGVKTL</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ AA  A+E+V  +  +G+GTGST+  FI+AL      IKGAVS+S +S   L  Y I V  LNEVS L++Y+DGADE+N    MIKGGG A   EKI+++ +EKF+CI D +K V  LG FPLP+E +  ARS V+R+L+ +GG P  R G  T  GN I+DVH L I +PL +E +IN I GV+ NG+FA  AADV+++GT EG K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|166200028|sp|A3N2A1.1|RPIA_ACTP2</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Actinobacillus pleuropneumoniae serovar 5b str. L20] &gt;gi|238692401|sp|B3H285.1|RPIA_ACTP7 RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Actinobacillus pleuropneumoniae serovar 7 str. AP76]</Hit_def>
+  <Hit_accession>A3N2A1</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>5.81856e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLG-KFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQQEMKKIAAQAALQFVKPDTIVGVGSGSTVNCFIDALASMKDQIKGAVAASKASEERLRAIGIEVFNANEVSELDVYIDGADEITPQGAMIKGGGAALTREKIVSSLAKKFVCIVDGSKQVDVLGTTFPLPVEVIPMARSYVARQLVALGGSPEYREGVVTDNGNVILDVHNFHIIEPLKMEHTINNIAGVVTNGIFAQRYANVTIVGTPEGAKII</Hsp_hseq>
+      <Hsp_midline>TQ E+K+IAA+ A++FV  +  +G+G+GST+N FI+AL     +IKGAV+ SK S E L    I V + NEVS L VYIDGADE+     MIKGGG A   EKIV+S ++KFVCI D SK V  LG  FPLPVE +  ARS V+R+L+A+GG PE R G  T  GN I+DVH  +I +PL ME  IN I GV+ NGIFA+  A+V I+GT EGAK+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|67461306|sp|Q5P7L9.1|RPIA_AROAE</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5P7L9</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>8.03927e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAK</Hsp_qseq>
+      <Hsp_hseq>TQDELKKAAAIAALDYVENGMIVGVGTGSTVNHFIDGLAGIKGRIAGAVSSSEASARRLQAHGIPVLDLNDITDLPVYVDGADEIDGGFCMIKGGGGALTREKIVAAVARRFICICDASKKVACLGRFPLPVEIIPMARAYVERELVRIGGRPELREGFVTDNGNLIVDVHGLMITSPRALETELNQIVGVVTNGLFARRGADVLLLATLAGVE</Hsp_hseq>
+      <Hsp_midline>TQDELK+ AA  A+++V     +G+GTGST+N FI+ L     +I GAVS+S+ S   L  + IPV+ LN+++ L VY+DGADE++    MIKGGGGA   EKIVA+ + +F+CI D SK V+ LG+FPLPVE +  AR+ V R+L+ +GG+PELR G+ T  GN IVDVHGL I  P  +E E+N+I GV+ NG+FAR  ADVL+L T  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|67461372|sp|Q65RQ9.1|RPIA_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65RQ9</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>1.09008e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGK-FPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>NQLEMKKVAAKAALQFVKPDMIVGVGSGSTVNCFIEELGAFRDQIKGAVAASKASEELLRKQGIEVFSANDVSSLDIYVDGADEINPQKMMIKGGGAALTREKIVSSLAKNFICIVDSSKQVDILGSTFPLPVEVIPMARSQVARKLVALGGSPEWREGVITDNGNVILDVHNFIIMNPIEMEKELNNVAGVVTNGIFALNAAHTVIVGTPDGAKII</Hsp_hseq>
+      <Hsp_midline> Q E+K++AA+ A++FV  +  +G+G+GST+N FIE LG    +IKGAV+ SK S ELL +  I V S N+VS L +Y+DGADE+N    MIKGGG A   EKIV+S ++ F+CI D SK V  LG  FPLPVE +  ARS V+RKL+A+GG PE R G  T  GN I+DVH   I  P+ ME E+N + GV+ NGIFA +AA  +I+GT +GAK+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|238693210|sp|B4F0Q0.1|RPIA_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4F0Q0</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>1.17756e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDELKKAVGWAALEYVKPGTIVGVGTGSTASHFIDALATMKGQIEGAVSSSEASTAKLKSYGIPVFDCNEVDSLDIYVDGADEINHQMQMIKGGGAALTREKIIAAVAKTFVCIVDESKQVDVLGKFPLPVEVIPMARSYVARELVKLGGLPEYRENVVTDNGNVILDVYNLTILNPIELENKINSIAGVVTVGLFANRGADIVLMGTSEGVKTI</Hsp_hseq>
+      <Hsp_midline>TQDELK+     A+E+V     +G+GTGST + FI+AL     +I+GAVS+S+ S   L  Y IPV   NEV  L +Y+DGADE+NH +QMIKGGG A   EKI+A+ ++ FVCI DESK V  LGKFPLPVE +  ARS V+R+L+ +GG PE R    T  GN I+DV+ L I  P+ +E++IN I GV+  G+FA   AD++++GT EG K I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|166200047|sp|A6T0F1.1|RPIA_JANMA</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Janthinobacterium sp. Marseille]</Hit_def>
+  <Hit_accession>A6T0F1</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>1.20749e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRI----GYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEG</Hsp_qseq>
+      <Hsp_hseq>TQDEMKQAVARAAIDYVVAGEIIGVGTGSTANFFIDELGKIKDRIKGAVASSEATAERLRAHGITIFDLNDIDSMSVYIDGADEITAQGAMIKGGGAALTREKIVASVAKKFVCIADGSKLVDKLGKFPLPVEVIPMAQAVVARKLAALGGEPRLRVKDGKAVVTDNGCYIIDVLGLQIEDPATLEAQINDIVGVVTVGLFARRGADIALLGTADG</Hsp_hseq>
+      <Hsp_midline>TQDE+K+  A  A+++V   E IG+GTGST NFFI+ LGK   +IKGAV++S+ + E L  + I +  LN++  ++VYIDGADE+     MIKGGG A   EKIVAS ++KFVCIAD SK V +LGKFPLPVE +  A+++V+RKL A+GG+P LR+       T  G  I+DV GL I+ P T+E +IN I GV+  G+FAR  AD+ +LGT +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|166229255|sp|A7MTQ9.1|RPIA_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MTQ9</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>1.71991e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKV</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALKYVEKGSIVGVGTGSTVNHFIDALGSIKDDIKGAVSSSVASTERLKELGIEVYECNDVAMLDIYVDGADEINAAREMIKGGGAALTREKIVAAISEKFVCIVDGTKAVDVLGQFPLPVEVIPMARSYVARELVKLGGDPAYREGVTTDNGNVILDVHNMQITNPKELEDKINGIAGVVTVGLFAHRGADVVITGTPEGAKI</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V +   +G+GTGST+N FI+ALG     IKGAVS+S  S E L    I V   N+V+ L +Y+DGADE+N A +MIKGGG A   EKIVA+ SEKFVCI D +K V  LG+FPLPVE +  ARS V+R+L+ +GG P  R G TT  GN I+DVH + I  P  +ED+IN I GV+  G+FA   ADV+I GT EGAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|30173293|sp|Q8EHR7.1|RPIA_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EHR7</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.37618e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAK</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALKYVEKDSIVGVGTGSTVNHFIDALATMKADIEGAVSSSEASTQKMKALGIPVYDLNSVDKLSVYVDGADEINGHMDMIKGGGAALTREKIVAAVAEKFVCIVDNTKQVDILGEFPLPVEVIPMARSYVARQLVKLGGDPVYREGVITDNGNVILDVYNLKILNPKELEDKINAIVGVVTNGLFAKRGADVLLVGTPEGVK</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V ++  +G+GTGST+N FI+AL      I+GAVS+S+ S + +    IPV  LN V  L+VY+DGADE+N  + MIKGGG A   EKIVA+ +EKFVCI D +K V  LG+FPLPVE +  ARS V+R+L+ +GG P  R G  T  GN I+DV+ L I  P  +ED+IN I GV+ NG+FA+  ADVL++GT EG K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|166229241|sp|A0KTU4.1|RPIA_SHESA</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella sp. ANA-3]</Hit_def>
+  <Hit_accession>A0KTU4</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>3.7842e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAK</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALKYVEKDSIVGVGTGSTVNHFIDALATMKADIEGAVSSSEASTQKMKALGIPVYDLNSVDKLSVYVDGADEINGHMDMIKGGGAALTREKIVAAVAEKFVCIVDNTKQVDILGKFPLPVEVIPMARSYVARELVKLGGDPVYREGVVTDNGNVILDVYNLKIINPKELEEKINAIVGVVTNGLFAKRGADVLLVGTPEGVK</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V ++  +G+GTGST+N FI+AL      I+GAVS+S+ S + +    IPV  LN V  L+VY+DGADE+N  + MIKGGG A   EKIVA+ +EKFVCI D +K V  LGKFPLPVE +  ARS V+R+L+ +GG P  R G  T  GN I+DV+ L I  P  +E++IN I GV+ NG+FA+  ADVL++GT EG K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|254765238|sp|B7VK98.1|RPIA_VIBSL</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Vibrio tasmaniensis LGP32]</Hit_def>
+  <Hit_accession>B7VK98</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>4.00054e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKV</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALQYVEEGSIVGVGTGSTVNHFIDALGTMKDKIKGAVSSSIASTEKLEALEIKVFECNDVFKLDIYVDGADEINGSRDMIKGGGAALTREKIVAAISDKFICIVDGTKAVDVLGKFPLPVEVIPMARSYVARELVKLGGDPVYREGCTTDNGNVILDVYGMAIENPKQLEDIINGIAGVVTVGLFAHRGADVVITGTPEGAKI</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V E   +G+GTGST+N FI+ALG    KIKGAVS+S  S E L   +I V   N+V  L +Y+DGADE+N +  MIKGGG A   EKIVA+ S+KF+CI D +K V  LGKFPLPVE +  ARS V+R+L+ +GG P  R G TT  GN I+DV+G+ I+ P  +ED IN I GV+  G+FA   ADV+I GT EGAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|166229242|sp|A1RGR8.1|RPIA_SHESW</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella sp. W3-18-1]</Hit_def>
+  <Hit_accession>A1RGR8</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>5.40008e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAK</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALKYVEEGSIVGVGTGSTVNHFIDALATMKDDIEGAVSSSEASTQKMKALGIPVYDLNSVDRLSVYVDGADEINDRMDMIKGGGAALTREKIVAAVAEKFICIVDNTKQVNILGEFPLPVEVIPMARSYVARQLVKLGGDPVYRQGVVTDNGNVILDVYNLKILNPKELESQINEIVGVVTNGLFAKRGADVLLVGTPDGVK</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V E   +G+GTGST+N FI+AL      I+GAVS+S+ S + +    IPV  LN V  L+VY+DGADE+N  + MIKGGG A   EKIVA+ +EKF+CI D +K V+ LG+FPLPVE +  ARS V+R+L+ +GG P  R G  T  GN I+DV+ L I  P  +E +IN+I GV+ NG+FA+  ADVL++GT +G K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|189043824|sp|A9MRG2.1|RPIA_SALAR</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MRG2</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>6.02636e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDELKKAVGWAALQYVQPGTIVGVGTGSTAAHFIDALGTMKGQIEGAVSSSDASTEKLKGLGIHVFDLNEVDSLGIYVDGADEINGHMQMIKGGGAALTREKIIASVAEKFICIADASKQVDILGKFPLPVEVIPMARSAVARQLVKLGGRPEYRQGVVTDNGNVILDVYGMEILDPIALENAINAIPGVVTVGLFANRGADVALIGTPDGVKTI</Hsp_hseq>
+      <Hsp_midline>TQDELK+     A+++V     +G+GTGST   FI+ALG    +I+GAVS+S  S E L    I V  LNEV  L +Y+DGADE+N  +QMIKGGG A   EKI+AS +EKF+CIAD SK V  LGKFPLPVE +  ARS V+R+L+ +GG+PE R G  T  GN I+DV+G+ I  P+ +E+ IN I GV+  G+FA   ADV ++GT +G K I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|238687502|sp|B0BR42.1|RPIA_ACTPJ</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Actinobacillus pleuropneumoniae serovar 3 str. JL03]</Hit_def>
+  <Hit_accession>B0BR42</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>1.03518e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLG-KFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQQEMKKIAAQAALQFVKPDTIVGVGSGSTVNCFIDALASMKDQIKGAVAASKASEGRLRAIGIEVFNANEVSELDVYIDGADEITPQGAMIKGGGAALTREKIVSSLAKKFVCIVDGSKQVDVLGTTFPLPVEVIPMARSYVARQLVALGGSPEYREGVVTDNGNVILDVHNFHIIEPLKMEHTINNIAGVVTNGIFAQRYANVTIVGTPEGAKII</Hsp_hseq>
+      <Hsp_midline>TQ E+K+IAA+ A++FV  +  +G+G+GST+N FI+AL     +IKGAV+ SK S   L    I V + NEVS L VYIDGADE+     MIKGGG A   EKIV+S ++KFVCI D SK V  LG  FPLPVE +  ARS V+R+L+A+GG PE R G  T  GN I+DVH  +I +PL ME  IN I GV+ NGIFA+  A+V I+GT EGAK+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|166229240|sp|A4Y9L3.1|RPIA_SHEPC</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella putrefaciens CN-32]</Hit_def>
+  <Hit_accession>A4Y9L3</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>1.06768e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAK</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALKYVEEGSIVGVGTGSTVNHFIDALATMKDDIEGAVSSSEASTQKMKALGIPVYDLNSVDRLSVYVDGADEINDRMDMIKGGGAALTREKIVAAVAEKFICIVDNTKQVNILGEFPLPVEVIPMARSYVARQLVKLGGDPVYREGVVTDNGNVILDVYNLKILNPKELESQINEIVGVVTNGLFAKRGADVLLVGTPDGVK</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V E   +G+GTGST+N FI+AL      I+GAVS+S+ S + +    IPV  LN V  L+VY+DGADE+N  + MIKGGG A   EKIVA+ +EKF+CI D +K V+ LG+FPLPVE +  ARS V+R+L+ +GG P  R G  T  GN I+DV+ L I  P  +E +IN+I GV+ NG+FA+  ADVL++GT +G K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|123327076|sp|Q0I101.1|RPIA_HISS1</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Haemophilus somnus 129PT]</Hit_def>
+  <Hit_accession>Q0I101</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>1.09273e-68</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGK-FPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>QLSMKKMAAQAALQYVKPDSIIGVGSGSTVNCFIEVLGTIKETIKGAVAASKASEELLLRQGIEVFSANDVSGLDIYVDGADEINPQKMMIKGGGAALTREKIVAALAKKFICIVDSSKQVDVLGSTFALPIEVIPMARSQVARKLVALGGSPEYRENVVTDNGNVILDVYNFKIMNPIEMEKELNNVAGVVTNGIFALRSADIVIVGTPEGTKII</Hsp_hseq>
+      <Hsp_midline>Q  +K++AA+ A+++V  +  IG+G+GST+N FIE LG   + IKGAV+ SK S ELL R  I V S N+VSGL +Y+DGADE+N    MIKGGG A   EKIVA+ ++KF+CI D SK V  LG  F LP+E +  ARS V+RKL+A+GG PE R    T  GN I+DV+   I  P+ ME E+N + GV+ NGIFA  +AD++I+GT EG K+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|189043827|sp|A8H0Q6.1|RPIA_SHEPA</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella pealeana ATCC 700345]</Hit_def>
+  <Hit_accession>A8H0Q6</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>1.09273e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALQYVEENSIVGVGTGSTVNHFIDALATMKFDIEGAVSSSEASTEKMKALGIPVFDLNSVNELSVYVDGADEINSQMDMIKGGGAALTREKIVAAVADKFICIVDNTKQVDILGEFPLPIEVIPMARSYVARQIVKLGGDPVYREGCVTDNGNIIIDVYNMKIMKPKELEQQIDGIVGVVTNGLFAKRGADILLVGTPEGVKTV</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V EN  +G+GTGST+N FI+AL      I+GAVS+S+ S E +    IPV  LN V+ L+VY+DGADE+N  + MIKGGG A   EKIVA+ ++KF+CI D +K V  LG+FPLP+E +  ARS V+R+++ +GG P  R G  T  GN I+DV+ + I +P  +E +I+ I GV+ NG+FA+  AD+L++GT EG K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|189043817|sp|B0URT3.1|RPIA_HISS2</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Haemophilus somnus 2336]</Hit_def>
+  <Hit_accession>B0URT3</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.31339e-68</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGK-FPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>QLSMKKMAAQAALQYVKPDSIIGVGSGSTVNCFIEVLGTIKETIKGAVAASKASEELLLRQGIEVFSANDVSGLDIYVDGADEINPQKMMIKGGGAALTREKIVAALAKKFICIVDSSKQVDVLGSTFALPIEVIPMARSQVARKLVALGGSPEYRENVVTDNGNVILDVYNFKIMNPIEMEKELNNVAGVVTNGIFALRSADIVIVGTPEGTKII</Hsp_hseq>
+      <Hsp_midline>Q  +K++AA+ A+++V  +  IG+G+GST+N FIE LG   + IKGAV+ SK S ELL R  I V S N+VSGL +Y+DGADE+N    MIKGGG A   EKIVA+ ++KF+CI D SK V  LG  F LP+E +  ARS V+RKL+A+GG PE R    T  GN I+DV+   I  P+ ME E+N + GV+ NGIFA  +AD++I+GT EG K+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|122944056|sp|Q0HLL3.1|RPIA_SHESM</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella sp. MR-4] &gt;gi|123030848|sp|Q0HXZ4.1|RPIA_SHESR RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella sp. MR-7]</Hit_def>
+  <Hit_accession>Q0HLL3</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.66635e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAK</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALKYVEKDSIVGVGTGSTVNHFIDALATMKADIEGAVSSSEASTQKMKALGIPVYDLNSVDKLSVYVDGADEINGHMDMIKGGGAALTREKIVAAVAEKFVCIVDNTKQVDILGEFPLPVEVIPMARSYVARELVKLGGDPVYREGVVTDNGNVILDVYNLKIINPKELEEKINAIVGVVTNGLFAKRGADVLLVGTPEGVK</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V ++  +G+GTGST+N FI+AL      I+GAVS+S+ S + +    IPV  LN V  L+VY+DGADE+N  + MIKGGG A   EKIVA+ +EKFVCI D +K V  LG+FPLPVE +  ARS V+R+L+ +GG P  R G  T  GN I+DV+ L I  P  +E++IN I GV+ NG+FA+  ADVL++GT EG K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|226734916|sp|B8CJW7.1|RPIA_SHEPW</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella piezotolerans WP3]</Hit_def>
+  <Hit_accession>B8CJW7</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>2.09468e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALQYVEKDSIVGVGTGSTVNHFIDALATMKADIDGAVSSSEASTEKMKSLGIPVYDLNSVDDLSVYVDGADEINGHMDMIKGGGAALTREKIVAAVADKFICIVDNTKQVDILGEFPLPVEVIPMARSYVARQLVKLGGDPVYREGVVTDNGNIILDVYNMKIMTPKELEEQINAIVGVVTNGLFAMRGADVLLVGTPEGVKTV</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V ++  +G+GTGST+N FI+AL      I GAVS+S+ S E +    IPV  LN V  L+VY+DGADE+N  + MIKGGG A   EKIVA+ ++KF+CI D +K V  LG+FPLPVE +  ARS V+R+L+ +GG P  R G  T  GN I+DV+ + I  P  +E++IN I GV+ NG+FA   ADVL++GT EG K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|166200052|sp|A1U689.1|RPIA_MARAV</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Marinobacter hydrocarbonoclasticus VT8]</Hit_def>
+  <Hit_accession>A1U689</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>2.20985e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFV-PENE---YIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDELKQAVAKAAVDHIAPHLEPSSIVGVGTGSTANFFIDYLAEYRNDFDGAVASSEATAERLKKHGIPVYDLNAVNEIEFYVDGADETNESLELIKGGGGALTREKIVAAVAKTFICIADESKQVGILGEFPLPVEVIPMARSHVGREIVKLGGDPVYRDGFVTDNGNIIIDIHNMDISRPLVVEEKLNNIVGVVTNGLFARRPADLLLLGTRDGVKSI</Hsp_hseq>
+      <Hsp_midline>TQDELK+  A+ AV+ + P  E    +G+GTGST NFFI+ L +      GAV++S+ + E L ++ IPV  LN V+ +  Y+DGADE N +L++IKGGGGA   EKIVA+ ++ F+CIADESK V  LG+FPLPVE +  ARS V R+++ +GG P  R G+ T  GN I+D+H ++I +PL +E+++N I GV+ NG+FAR  AD+L+LGT +G K I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|166229238|sp|A6WRS7.1|RPIA_SHEB8</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Shewanella baltica OS185]</Hit_def>
+  <Hit_accession>A6WRS7</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>2.79643e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAK</Hsp_qseq>
+      <Hsp_hseq>TQDEMKKAAGWAALKYVEKDSIVGVGTGSTVNHFIDALATMKADIEGAVSSSEASTQKMKALGIPVYDLNSVDRLSVYVDGADEINDHMDMIKGGGAALTREKIVAAVAEKFICIVDNTKQVDILGEFPLPVEVIPMARSYVARQLVKLGGDPVYREGVVTDNGNVILDVYNLKILNPKELESQINEIVGVVTNGLFAKRGADVLLVGTPDGVK</Hsp_hseq>
+      <Hsp_midline>TQDE+K+ A   A+++V ++  +G+GTGST+N FI+AL      I+GAVS+S+ S + +    IPV  LN V  L+VY+DGADE+N  + MIKGGG A   EKIVA+ +EKF+CI D +K V  LG+FPLPVE +  ARS V+R+L+ +GG P  R G  T  GN I+DV+ L I  P  +E +IN+I GV+ NG+FA+  ADVL++GT +G K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|67461392|sp|Q6D093.1|RPIA_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Ribose-5-phosphate isomerase A; AltName: Full=Phosphoriboisomerase A; Short=PRI [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D093</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>2.8009e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TQDELKRIAAEKAVEFVPENEYIGIGTGSTINFFIEALGKSGKKIKGAVSTSKKSGELLARYDIPVVSLNEVSGLAVYIDGADEVNHALQMIKGGGGAHLNEKIVASASEKFVCIADESKYVSRLGKFPLPVEAVESARSLVSRKLLAMGGQPELRIGYTTFYGNQIVDVHGLNIDQPLTMEDEINKITGVLENGIFARDAADVLILGTEEGAKVI</Hsp_qseq>
+      <Hsp_hseq>TQDELKKAVGWAALDYVRPDTIVGVGTGSTAAHFIDALGSIKHQIKGAVSSSDASTEKLKSLGIPVFDANDVDSLDVYVDGADEINGHMQMIKGGGAALTREKIISALSRQFICIVDASKQVDVLGKFPLPVEVIPMARSYVARELVKLGGQPEYRQGVVTDNGNVILDVHNLNIMDAVAVENHINGIAGVVTVGLFANRGADVALVGTADGVKTV</Hsp_hseq>
+      <Hsp_midline>TQDELK+     A+++V  +  +G+GTGST   FI+ALG    +IKGAVS+S  S E L    IPV   N+V  L VY+DGADE+N  +QMIKGGG A   EKI+++ S +F+CI D SK V  LGKFPLPVE +  ARS V+R+L+ +GGQPE R G  T  GN I+DVH LNI   + +E+ IN I GV+  G+FA   ADV ++GT +G K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

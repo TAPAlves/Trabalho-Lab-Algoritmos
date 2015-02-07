@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="68">
+<accession>Q5F870</accession>
+<name>Q5F870_NEIG1</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Putative succinate dehydrogenase flavoprotein subunit</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="1">NGO0921</name>
+</gene>
+<organism evidence="1 2">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89617.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208029.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F870"/>
+<dbReference type="SMR" id="Q5F870">
+<property type="residue range" value="1-587"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0921"/>
+<dbReference type="PRIDE" id="Q5F870"/>
+<dbReference type="EnsemblBacteria" id="AAW89617">
+<property type="protein sequence ID" value="AAW89617"/>
+<property type="gene ID" value="NGO0921"/>
+</dbReference>
+<dbReference type="GeneID" id="3281104"/>
+<dbReference type="KEGG" id="ngo:NGO0921"/>
+<dbReference type="PATRIC" id="20335025">
+<property type="gene designation" value="VBINeiGon24812_1082"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1053"/>
+<dbReference type="HOGENOM" id="HOG000160475"/>
+<dbReference type="KO" id="K00239"/>
+<dbReference type="OMA" id="MQPLTVE"/>
+<dbReference type="OrthoDB" id="EOG6M3PC4"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-859-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050660">
+<property type="term" value="F:flavin adenine dinucleotide binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016627">
+<property type="term" value="F:oxidoreductase activity, acting on the CH-CH group of donors"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0022900">
+<property type="term" value="P:electron transport chain"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006099">
+<property type="term" value="P:tricarboxylic acid cycle"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.20.58.100">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.700.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003953">
+<property type="entry name" value="FAD_bind_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003952">
+<property type="entry name" value="FRD_SDH_FAD_BS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015939">
+<property type="entry name" value="Fum_Rdtase/Succ_DH_flav-like_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027477">
+<property type="entry name" value="Succ_DH/fumarate_Rdtase_cat"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011281">
+<property type="entry name" value="Succ_DH_flav_su_fwd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014006">
+<property type="entry name" value="Succ_Dhase_FrdA_Gneg"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00890">
+<property type="entry name" value="FAD_binding_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02910">
+<property type="entry name" value="Succ_DH_flav_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF46977">
+<property type="entry name" value="SSF46977"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56425">
+<property type="entry name" value="SSF56425"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01816">
+<property type="entry name" value="sdhA_forward"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01812">
+<property type="entry name" value="sdhA_frdA_Gneg"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00504">
+<property type="entry name" value="FRD_SDH_FAD_BINDING"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="2">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="2">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89617.1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="587" mass="64449" checksum="FDADB2AC5F7FE6E3" modified="2005-03-15" version="1">
+MGFPVRKFDAVIVGGGGAGLRAALQLSKSGLNCAVLSKVFPTRSHTVAAQGGISASLGNV
+QEDRWDWHMYDTVKGSDWLGDQDAIEFMCRAAPEAVIELEHMGMPFDRVESGKIYQRPFG
+GHTAEHGKRAVERACAVADRTGHAMLHTLYQQNVRANTQFFVEWTAQDLIRDENGDVVGV
+TAMEMETGEVYIFHAKAVMFATGGGGRIYASSTNAYMNTGDGLGICARAGIPLEDMEFWQ
+FHPTGVAGAGVLITEGVRGEGGILLNADGERFMERYAPTVKDLASRDVVSRAMAMEIYEG
+RGCGKNKDHVLLKIDHIGAEKIMEKLPGIREISIQFAGIDPIKDPIPVVPTTHYMMGGIP
+TNYHGEVVVPQGDEYEVPVKGLYAAGECACASVHGANRLGTNSLLDLVVFGKAAGDSMIK
+FIKEQSDWKPLPANAGELTRQRIERLDSQTDGENVDALRRELQRSVQLHAGVFRTDEILS
+KGVQEIMAIAERVKRTEIKDKSKVWNTARIEALELDNLIEVAKATLVSAEARKESRGAHA
+SDDHPERDDENWMKHTLYHSDTNTLSYKPVHTKPLSVEYIKPAKRVY
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

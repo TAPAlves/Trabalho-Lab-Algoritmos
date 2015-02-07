@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>11365</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>327</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>11365</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>327</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75432497|sp|Q5F8I0.1|LIPA_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Neisseria gonorrhoeae FA 1090] &gt;gi|238690199|sp|B4RLK9.1|LIPA_NEIG2 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>Q5F8I0</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEALRESHGGCGHH</Hsp_qseq>
+      <Hsp_hseq>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEALRESHGGCGHH</Hsp_hseq>
+      <Hsp_midline>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEALRESHGGCGHH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|23813619|sp|Q9JUC8.1|LIPA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JUC8</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>680.248</Hsp_bit-score>
+      <Hsp_score>1754</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEALRESHGGCGHH</Hsp_qseq>
+      <Hsp_hseq>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFSNAAIGAMVRSSYHADEQAAEALRESHGGCGHH</Hsp_hseq>
+      <Hsp_midline>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGF+NAAIGAMVRSSYHADEQAAEALRESHGGCGHH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|23813620|sp|Q9JZA5.1|LIPA_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZA5</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>679.478</Hsp_bit-score>
+      <Hsp_score>1752</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEALRESHGGCGHH</Hsp_qseq>
+      <Hsp_hseq>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPRNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFSNAAIGAMVRSSYHADEQAAEALRESHGGCGHH</Hsp_hseq>
+      <Hsp_midline>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEP+NLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGF+NAAIGAMVRSSYHADEQAAEALRESHGGCGHH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|189046608|sp|A9LZ95.1|LIPA_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9LZ95</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.448</Hsp_bit-score>
+      <Hsp_score>1700</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>319</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEALRE</Hsp_qseq>
+      <Hsp_hseq>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPRNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFSNAAIGAMVRSSYHADEQAAEALRE</Hsp_hseq>
+      <Hsp_midline>MSEIKTDDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEP+NLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGF+NAAIGAMVRSSYHADEQAAEALRE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|254809192|sp|C1D5T3.1|LIPA_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1D5T3</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.842</Hsp_bit-score>
+      <Hsp_score>1322</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>DPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPS-RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEAL</Hsp_qseq>
+      <Hsp_hseq>DNQTGIKHKGEAKTARIPIKVVPLEEKLRKPEWIRAKLPTGQRFFEIKEILRNQKLHTVCEEASCPNIGECFSHGTATFMIMGDICTRRCPFCDVGHGRPNPLDPNEPQHLAESVAAMRLKYVVITSVDRDDLRDGGAQHFADCIQAIRASSPATRIEVLVPDFRGRLELALDILSATPPDVMNHNLETAPRLYKQARPGADYAHSLQLLKDYKTRNPDVTTKSGIMVGLGETDEEVLEVLADLRAHDVDMLTIGQYLQPSNGHLPVLRYVTPDQFKAFEKKAYDMGFRHAAVGAMVRSSYHADQQAREVI</Hsp_hseq>
+      <Hsp_midline>D + GIK +G  KTARIPIKVVPL+EKL+KPEWIRAKLP+ ++FFEIK+ILR QK+HTVCEEASCPNIGECFS GTATFMIMGDICTRRCPFCDVGHGRPN LDP+EP++LAESV AM L+YVVITSVDRDDLRDGGAQHFADCI+AIR +SP T+IE+LVPDFRGRL++AL IL+ TPPDVMNHNLET P LY++ARPGA+Y HSL LLK YK   P + TKSGIMVGLGETDE+V E++ D+RAH+++M+TIGQYLQPS+GHLPVLRYVTP+QFK FEK+AY++GF +AA+GAMVRSSYHAD+QA E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|47117163|sp|Q7NTF9.1|LIPA_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NTF9</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.375</Hsp_bit-score>
+      <Hsp_score>1313</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>DPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPS-RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>DNQAGVKHKGAAKTARIPIKIVPLDEKLKKPEWIRAKLPNGQRFHEIKQILREQKLHTVCEEATCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNPLDENEPRHLAESVAAMRLKYVVVTSVDRDDLRDGGAQHFADCINAVREMSPATQIETLVPDFRGRLDIAVDILTQTPPDVMNHNLETVPRLYKQARPGADYAHSLQLLKDYKAKNPNVRTKSGLMVGLGETDEEILEVMRDLRAHNVDMLTIGQYLQPSDGHLPVLRYVHPDVFKMFEEKAYEMGFVHAAVGAMVRSSYHADVQAHEA</Hsp_hseq>
+      <Hsp_midline>D + G+K +GA KTARIPIK+VPL EKLKKPEWIRAKLP+ ++F EIK ILREQK+HTVCEEA+CPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPN LD +EP++LAESV AM L+YVV+TSVDRDDLRDGGAQHFADCI A+RE SP T+IE LVPDFRGRLDIA+ IL +TPPDVMNHNLET P LY++ARPGA+Y HSL LLK YK   P++ TKSG+MVGLGETDE++ E+MRD+RAHN++M+TIGQYLQPSDGHLPVLRYV P+ FK+FE++AYE+GF +AA+GAMVRSSYHAD QA EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|122947213|sp|Q0KFE6.1|LIPA_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q0KFE6</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>8.15181e-163</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>DPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP--SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>DPTR--KQKSADKTARIPIKIVP-AEKLKKPDWIRVKAATGSSRFYEIKDILRANNLVTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDVNEPGNLARTIAQLKLNYVVITSVDRDDLRDGGAQHYVDCISQTRELSPATRIEVLVPDFRGRLDKALDILQACPPDVMNHNMETVPRLYKQARPGADYEHSLKLLQEFKRRNPNVPTKSGLMVGLGETDEEILEVMRDMRAHDIDMLTIGQYLAPSNHHLPVLRYVHPDTFKMFEEEAYKMGFTHAAVGAMVRSSYHADQQAHQA</Hsp_hseq>
+      <Hsp_midline>DP R  K + ADKTARIPIK+VP  EKLKKP+WIR K    S +F+EIKDILR   + TVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP NLA ++  + L YVVITSVDRDDLRDGGAQH+ DCI   RE SP T+IE+LVPDFRGRLD AL IL   PPDVMNHN+ET P LY++ARPGA+Y+HSL LL+ +K   P++PTKSG+MVGLGETDE++ E+MRDMRAH+I+M+TIGQYL PS+ HLPVLRYV P+ FK+FE+EAY++GFT+AA+GAMVRSSYHAD+QA +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123774178|sp|Q477G5.1|LIPA_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q477G5</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>4.72308e-162</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>DPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPS--RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>DPTR--KQKSADKTARIPIKIVP-AEKLKKPDWIRVKAATGNSRFYEIKDILRANNLVTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDVNEPGNLARTIAQLKLNYVVITSVDRDDLRDGGAQHYVDCISQTRELSPATRIEVLVPDFRGRLDKALDILQACPPDVMNHNMETVPRLYKQARPGADYAHSLKLLQEFKRRNPNVPTKSGLMVGLGETDEEILEVMRDMRAHDIDMLTIGQYLAPSNHHLPVLRYVHPDTFKMFEEEAYKMGFTHAAVGAMVRSSYHADQQAHQA</Hsp_hseq>
+      <Hsp_midline>DP R  K + ADKTARIPIK+VP  EKLKKP+WIR K  +   +F+EIKDILR   + TVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP NLA ++  + L YVVITSVDRDDLRDGGAQH+ DCI   RE SP T+IE+LVPDFRGRLD AL IL   PPDVMNHN+ET P LY++ARPGA+Y HSL LL+ +K   P++PTKSG+MVGLGETDE++ E+MRDMRAH+I+M+TIGQYL PS+ HLPVLRYV P+ FK+FE+EAY++GFT+AA+GAMVRSSYHAD+QA +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|238692921|sp|B2AG37.1|LIPA_CUPTR</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>B2AG37</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>6.18223e-162</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>DPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPS--RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>DPTR--KQKSADKTARIPIKIVP-AEKLKKPDWIRVKAATGNSRFYEIKDILRANNLVTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDVNEPGNLARTIAQLKLNYVVITSVDRDDLRDGGAQHYVDCISQTRELSPATRIEVLVPDFRGRLDKALDILQACPPDVMNHNMETVPRLYKQARPGADYAHSLKLLQEFKRRNPNVPTKSGLMVGLGETDEEILEVMRDMRAHDIDMLTIGQYLAPSNHHLPVLRYVHPDTFKMFEEEAYKMGFTHAAVGAMVRSSYHADQQAHQA</Hsp_hseq>
+      <Hsp_midline>DP R  K + ADKTARIPIK+VP  EKLKKP+WIR K  +   +F+EIKDILR   + TVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP NLA ++  + L YVVITSVDRDDLRDGGAQH+ DCI   RE SP T+IE+LVPDFRGRLD AL IL   PPDVMNHN+ET P LY++ARPGA+Y HSL LL+ +K   P++PTKSG+MVGLGETDE++ E+MRDMRAH+I+M+TIGQYL PS+ HLPVLRYV P+ FK+FE+EAY++GFT+AA+GAMVRSSYHAD+QA +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|179307988|sp|A6T345.1|LIPA_JANMA</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Janthinobacterium sp. Marseille]</Hit_def>
+  <Hit_accession>A6T345</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>3.92219e-161</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>KQKGAAKTIRIPIKVIPM-ERLPKPDWIRVKAASPSTRFYEIKDILRANNLVTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDVNEPENLAKTIAALRLNYVVITSVDRDDLRDGGAGHFAECIRRVRELSPNTRIEILVPDFRGRMDRALEILNAAPPDVMNHNLETAPRLYKEARPGSDYEYSLNLLKRFKAQHPNTPTKSGIMVGLGETDEEVLQVMRDMRAHDVDMLTIGQYLMPSGDHLPVRRYVHPDTFKMYEEEAYKMGFAHAAVGAMVRSSYHADQQA</Hsp_hseq>
+      <Hsp_midline>K +GA KT RIPIKV+P+ E+L KP+WIR K   PS +F+EIKDILR   + TVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP+NLA+++ A+ L YVVITSVDRDDLRDGGA HFA+CI+ +RE SPNT+IEILVPDFRGR+D AL+IL   PPDVMNHNLET P LY++ARPG++Y++SL+LLKR+K   P+ PTKSGIMVGLGETDE+V ++MRDMRAH+++M+TIGQYL PS  HLPV RYV P+ FK++E+EAY++GF +AA+GAMVRSSYHAD+QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259494944|sp|C5CP21.1|LIPA_VARPS</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Variovorax paradoxus S110]</Hit_def>
+  <Hit_accession>C5CP21</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>4.01311e-161</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKAAAKLSRIPVKVVQQGEVLKKPEWIRVKAGSPTTRFYEIKQILRESNLHTVCEEASCPNIGECFGNGTATFMIMGDKCTRRCPFCDVGHGRPDPLDKDEPLNLAKTIAKLRLKYVVITSVDRDDLRDGGSQHFVDCITNIRELSPMTQIEILVPDFRGRDDRALEILKAAPPDVMNHNLETAPRLYKEARPGSDYQFSLNLLKKFKALHPQVPTKSGIMVGLGETDEEILQVMRDMRAHDIDMLTIGQYLSPSGSHLPVRRYVHPDTFKMFEEEAYKMGFSHAAVGAMVRSSYHADQQAHAA</Hsp_hseq>
+      <Hsp_midline>K + A K +RIP+KVV   E LKKPEWIR K   P+ +F+EIK ILRE  +HTVCEEASCPNIGECF  GTATFMIMGD CTRRCPFCDVGHGRP+ LD DEP NLA+++  + L+YVVITSVDRDDLRDGG+QHF DCI  IRE SP T+IEILVPDFRGR D AL+IL   PPDVMNHNLET P LY++ARPG++YQ SL+LLK++K + P +PTKSGIMVGLGETDE++ ++MRDMRAH+I+M+TIGQYL PS  HLPV RYV P+ FK+FE+EAY++GF++AA+GAMVRSSYHAD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123725157|sp|Q2L1D8.1|LIPA_BORA1</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Bordetella avium 197N]</Hit_def>
+  <Hit_accession>Q2L1D8</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>5.09628e-161</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIR--AKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKSQAKTARIPIKVIP-AERLKKPEWIRVRAAAPGSRFYDIKRILREHNLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDAQEPENLARTIAALKLSYVVITSVDRDDLRDGGAAHFVECITKIRELSPITRIEVLVPDFRGRLDRALAILNAGPPDVMNHNLETVPRLYKQARPGSDYLHSLKLLAEFKALHPDVPTKSGLMLGLGETDEEILEVMRDMRAHNVDMITIGQYLQPSEHHLPVLRYVHPDTFAMFEREAYAMGFSHAAVGAMVRSSYHADEQAHAA</Hsp_hseq>
+      <Hsp_midline>K +   KTARIPIKV+P  E+LKKPEWIR  A  P  +F++IK ILRE  +HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD  EP+NLA ++ A+ L YVVITSVDRDDLRDGGA HF +CI  IRE SP T+IE+LVPDFRGRLD AL IL   PPDVMNHNLET P LY++ARPG++Y HSL LL  +K + P +PTKSG+M+GLGETDE++ E+MRDMRAHN++MITIGQYLQPS+ HLPVLRYV P+ F +FE+EAY +GF++AA+GAMVRSSYHADEQA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|123384089|sp|Q1LSC9.1|LIPA_RALME</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LSC9</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>2.12292e-160</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>DPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPS--RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>DPTK--KQKSAEKTARIPIKIVP-AEKLKKPDWIRVKAATGNSRFYEIKDILRANNLVTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDVNEPGNLARTIAQLKLNYVVITSVDRDDLRDGGAQHYVDCISQTRELSPNTRIEVLVPDFRGRLDRALDILQACPPDVMNHNMETVPRLYKQARPGADYAHSLKLLQDFKRRNPNVPTKSGLMVGLGETDEEILDVMRDMRAHDIDMLTIGQYLAPSNHHLPVTRYVHPDTFKMFEEEAYKMGFTHAAVGAMVRSSYHADQQAHQA</Hsp_hseq>
+      <Hsp_midline>DP +  K + A+KTARIPIK+VP  EKLKKP+WIR K  +   +F+EIKDILR   + TVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP NLA ++  + L YVVITSVDRDDLRDGGAQH+ DCI   RE SPNT+IE+LVPDFRGRLD AL IL   PPDVMNHN+ET P LY++ARPGA+Y HSL LL+ +K   P++PTKSG+MVGLGETDE++ ++MRDMRAH+I+M+TIGQYL PS+ HLPV RYV P+ FK+FE+EAY++GFT+AA+GAMVRSSYHAD+QA +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|172044171|sp|A4G9C6.1|LIPA_HERAR</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Herminiimonas arsenicoxydans]</Hit_def>
+  <Hit_accession>A4G9C6</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>2.70165e-160</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>KQKGSAKTIRIPIKVVPM-ERLPKPDWIRVKAGSPSTRFYEIKDILRANNLVTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDVNEPENLAKTIAALRLNYVVITSVDRDDLRDGGAGHFAECIRRVRELSPNTRIEILVPDFRGRMDRALEILNLAPPDVMNHNLETAPRLYKEARPGSDYAYSLNLLKRFKALHPNTPTKSGIMVGLGETDEEVLQVMRDMRAHDVDMLTIGQYLMPSGDHLPVRRYVHPDTFKMYEEEAYKMGFAHAAVGAMVRSSYHADQQA</Hsp_hseq>
+      <Hsp_midline>K +G+ KT RIPIKVVP+ E+L KP+WIR K   PS +F+EIKDILR   + TVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP+NLA+++ A+ L YVVITSVDRDDLRDGGA HFA+CI+ +RE SPNT+IEILVPDFRGR+D AL+IL   PPDVMNHNLET P LY++ARPG++Y +SL+LLKR+K + P+ PTKSGIMVGLGETDE+V ++MRDMRAH+++M+TIGQYL PS  HLPV RYV P+ FK++E+EAY++GF +AA+GAMVRSSYHAD+QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|238689082|sp|B1XX30.1|LIPA_LEPCP</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Leptothrix cholodnii SP-6]</Hit_def>
+  <Hit_accession>B1XX30</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.988</Hsp_bit-score>
+      <Hsp_score>1177</Hsp_score>
+      <Hsp_evalue>3.32851e-160</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKAQAKTARIPIKVVP-AETLKKPDWIRVKAGSPTTRFYEIKNILREHQLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDVNEPANLAKTIAALKLKYVVITSVDRDDLRDGGAGHYVECIRQTRAASPETRIEVLVPDFRGRMDRALEILKTAPPDVMNHNMETVPRLYKEARPGADYQFSLTLLKRFKEEVPGVPTKSGLMVGLGETDDEILDVMRDMRAHDIDMLTIGQYLAPSGHHLPVRRYVHPDTFRMFETEAYKMGFTHAAVGAMVRSSYHADQQAHQA</Hsp_hseq>
+      <Hsp_midline>K +   KTARIPIKVVP  E LKKP+WIR K   P+ +F+EIK+ILRE ++HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP NLA+++ A+ L+YVVITSVDRDDLRDGGA H+ +CI+  R  SP T+IE+LVPDFRGR+D AL+IL   PPDVMNHN+ET P LY++ARPGA+YQ SL LLKR+KE +P +PTKSG+MVGLGETD+++ ++MRDMRAH+I+M+TIGQYL PS  HLPV RYV P+ F++FE EAY++GFT+AA+GAMVRSSYHAD+QA +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|22001759|sp|Q8Y2L3.1|LIPA_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y2L3</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.988</Hsp_bit-score>
+      <Hsp_score>1177</Hsp_score>
+      <Hsp_evalue>3.57073e-160</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPS--RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKSLDKTARIPIKIVP-AEKLKKPEWIRVKAATGNSRFYEIKDILRANNLVTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDANEPENLAKTIAQLRLNYVVITSVDRDDLRDGGAQHYVDCISRTRELSPATRIEVLVPDFRGRLEKALDILQACPPDVMNHNMETVPRLYKQARPGADYAHSLKLLKDFKARNPNLPTKSGLMVGLGETDEEILEVMRDMREHDIDMLTIGQYLAPSGHHLPVLRYVHPDTFKMFEEKAYEMGFTHAAVGAMVRSSYHADQQAHEA</Hsp_hseq>
+      <Hsp_midline>K +  DKTARIPIK+VP  EKLKKPEWIR K  +   +F+EIKDILR   + TVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP+NLA+++  + L YVVITSVDRDDLRDGGAQH+ DCI   RE SP T+IE+LVPDFRGRL+ AL IL   PPDVMNHN+ET P LY++ARPGA+Y HSL LLK +K   P++PTKSG+MVGLGETDE++ E+MRDMR H+I+M+TIGQYL PS  HLPVLRYV P+ FK+FE++AYE+GFT+AA+GAMVRSSYHAD+QA EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|47117177|sp|Q7W0K8.1|LIPA_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Bordetella pertussis Tohama I] &gt;gi|47117183|sp|Q7WR00.1|LIPA_BORBR RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7W0K8</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.603</Hsp_bit-score>
+      <Hsp_score>1176</Hsp_score>
+      <Hsp_evalue>5.7081e-160</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIR--AKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKSQAKTARIPIKVV-AAEKLKKPEWIRVRAAAPGSRFYDIKRILREHNLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDTQEPENLARTIAALKLSYVVITSVDRDDLRDGGAAHFVECIAKVREYSPDTRIEVLVPDFRGRLDRALHILNSGPPDVMNHNLETVPRLYKQARPGSDYAHSLKLLAEFKKLHPEVPTKSGLMLGLGETDEEILQVMRDMREHNVDMLTIGQYLQPSEHHLPVLRYVHPDTFAMFEREAYAMGFTHAAVGAMVRSSYHADQQAHAA</Hsp_hseq>
+      <Hsp_midline>K +   KTARIPIKVV   EKLKKPEWIR  A  P  +F++IK ILRE  +HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD  EP+NLA ++ A+ L YVVITSVDRDDLRDGGA HF +CI  +RE SP+T+IE+LVPDFRGRLD AL IL   PPDVMNHNLET P LY++ARPG++Y HSL LL  +K++ P +PTKSG+M+GLGETDE++ ++MRDMR HN++M+TIGQYLQPS+ HLPVLRYV P+ F +FE+EAY +GFT+AA+GAMVRSSYHAD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|47117179|sp|Q7W222.1|LIPA_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>Q7W222</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.833</Hsp_bit-score>
+      <Hsp_score>1174</Hsp_score>
+      <Hsp_evalue>9.12481e-160</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIR--AKLPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKSQAKTARIPIKVV-AAEKLKKPEWIRVRAAAPGSRFYDIKRILREHNLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDTQEPENLARTIAALKLSYVVITSVDRDDLRDGGAAHFVECIAKVREYSPDTRIEVLVPDFRGRLDRALHILNSGPPDVMNHNLETVPRLYKQARPGSDYAHSLKLLVEFKKLHPEVPTKSGLMLGLGETDEEILQVMRDMREHNVDMLTIGQYLQPSEHHLPVLRYVHPDTFAMFEREAYAMGFTHAAVGAMVRSSYHADQQAHAA</Hsp_hseq>
+      <Hsp_midline>K +   KTARIPIKVV   EKLKKPEWIR  A  P  +F++IK ILRE  +HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD  EP+NLA ++ A+ L YVVITSVDRDDLRDGGA HF +CI  +RE SP+T+IE+LVPDFRGRLD AL IL   PPDVMNHNLET P LY++ARPG++Y HSL LL  +K++ P +PTKSG+M+GLGETDE++ ++MRDMR HN++M+TIGQYLQPS+ HLPVLRYV P+ F +FE+EAY +GFT+AA+GAMVRSSYHAD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|238691830|sp|B2UE01.1|LIPA_RALPJ</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Ralstonia pickettii 12J]</Hit_def>
+  <Hit_accession>B2UE01</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>1.87466e-159</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPS--RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKSLDKTARIPIKIVP-AEKLKKPDWIRVRAATGNSRFYEIKDILRANNLVTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDVNEPENLAKTIAELKLNYVVITSVDRDDLRDGGAQHYVDCISRTRALSPATRIEVLVPDFRGRLEKALDILQECPPDVMNHNLETVPRLYKQARPGADYAHSLKLLKDFKARNPNVPTKSGLMVGLGETDEEILEVMRDMREHDIDMLTIGQYLAPSGHHLPVLRYVHPDTFKMFEEKAYEMGFTHAAVGAMVRSSYHADQQAHEA</Hsp_hseq>
+      <Hsp_midline>K +  DKTARIPIK+VP  EKLKKP+WIR +  +   +F+EIKDILR   + TVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP+NLA+++  + L YVVITSVDRDDLRDGGAQH+ DCI   R  SP T+IE+LVPDFRGRL+ AL IL E PPDVMNHNLET P LY++ARPGA+Y HSL LLK +K   P++PTKSG+MVGLGETDE++ E+MRDMR H+I+M+TIGQYL PS  HLPVLRYV P+ FK+FE++AYE+GFT+AA+GAMVRSSYHAD+QA EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|171769304|sp|A1W2S7.1|LIPA_ACISJ</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Acidovorax sp. JS42] &gt;gi|254809185|sp|B9MB93.1|LIPA_ACIET RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Acidovorax ebreus TPSY]</Hit_def>
+  <Hit_accession>A1W2S7</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.136</Hsp_bit-score>
+      <Hsp_score>1167</Hsp_score>
+      <Hsp_evalue>9.26624e-159</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKAAAKLSRIPIKV-EQGEVLKKPEWIRVKAGSPTTRFYEIKNILREHKLHTVCEEASCPNIGECFGRGTATFMIMGDKCTRRCPFCDVGHGRPDPLDKDEPLNLAKTIAALRLKYVVITSVDRDDLRDGGSGHFVECIQRTRELSPSTQIEILTPDFRGRDDRALEILKAAPPDVMNHNLETVPRLYKEARPGSDYQFSLNLLKKFKQLHPGVPTKSGLMVGLGETDEEILEVMRDMRAHGIEMLTIGQYLAPSNSHLPVRRYVHPDTFKMFEEEAYKMGFSHAAVGAMVRSSYHADQQAHAA</Hsp_hseq>
+      <Hsp_midline>K + A K +RIPIKV    E LKKPEWIR K   P+ +F+EIK+ILRE K+HTVCEEASCPNIGECF +GTATFMIMGD CTRRCPFCDVGHGRP+ LD DEP NLA+++ A+ L+YVVITSVDRDDLRDGG+ HF +CI+  RE SP+T+IEIL PDFRGR D AL+IL   PPDVMNHNLET P LY++ARPG++YQ SL+LLK++K++ P +PTKSG+MVGLGETDE++ E+MRDMRAH IEM+TIGQYL PS+ HLPV RYV P+ FK+FE+EAY++GF++AA+GAMVRSSYHAD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|171769174|sp|A1TJ31.1|LIPA_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TJ31</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.751</Hsp_bit-score>
+      <Hsp_score>1166</Hsp_score>
+      <Hsp_evalue>1.55245e-158</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKAAAKLSRIPIKV-EQGEVLKKPEWIRVKAGSPTTRFYEIKEILREHKLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDKDEPLNLARTIAALKLKYVVITSVDRDDLRDGGSGHFVECIQNIRALSPATQIEILVPDFRGRDDRALEILKAAPPDVMNHNLETAPRLYKEARPGSDYQFSLNLLKKFKALHPGVPTKSGIMVGLGETDEEILQVMRDMRAHDIDMLTIGQYLAPSNSHLPVRRYVHPDTFKMYEEEAYKMGFTHAAVGAMVRSSYHADQQAHAA</Hsp_hseq>
+      <Hsp_midline>K + A K +RIPIKV    E LKKPEWIR K   P+ +F+EIK+ILRE K+HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD DEP NLA ++ A+ L+YVVITSVDRDDLRDGG+ HF +CI+ IR  SP T+IEILVPDFRGR D AL+IL   PPDVMNHNLET P LY++ARPG++YQ SL+LLK++K + P +PTKSGIMVGLGETDE++ ++MRDMRAH+I+M+TIGQYL PS+ HLPV RYV P+ FK++E+EAY++GFT+AA+GAMVRSSYHAD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|238687173|sp|A9BPT7.1|LIPA_DELAS</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Delftia acidovorans SPH-1]</Hit_def>
+  <Hit_accession>A9BPT7</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.366</Hsp_bit-score>
+      <Hsp_score>1165</Hsp_score>
+      <Hsp_evalue>2.26684e-158</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKAAAKLSRIPIKV-EHGEALKKPDWIRVKAGSPTTRFYEIKDILRANKLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDTNEPLNLAKTIAELRLKYVVITSVDRDDLRDGGSGHFVECIKNIRELSPLTQIEILVPDFRGRDDRALEILKAAPPDVMNHNLETAPRLYKEARPGSDYQFSLNLLKKFKALHPKVPTKSGIMVGLGETDEEILQVMRDMRAHDIDMLTIGQYLAPSNSHLPVRRYVHPDTFKMFEEEAYKMGFTHAAVGAMVRSSYHADQQAHAA</Hsp_hseq>
+      <Hsp_midline>K + A K +RIPIKV    E LKKP+WIR K   P+ +F+EIKDILR  K+HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD +EP NLA+++  + L+YVVITSVDRDDLRDGG+ HF +CIK IRE SP T+IEILVPDFRGR D AL+IL   PPDVMNHNLET P LY++ARPG++YQ SL+LLK++K + P +PTKSGIMVGLGETDE++ ++MRDMRAH+I+M+TIGQYL PS+ HLPV RYV P+ FK+FE+EAY++GFT+AA+GAMVRSSYHAD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|81598809|sp|Q5P4B8.1|LIPA_AROAE</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5P4B8</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.44</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>6.71555e-158</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKL----PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQRGADKTARIPIKIVP-AERLKKPEWIRIRLGAGHEAERFNEIKASLREHKLHTVCEEASCPNIHECFGKGTATFMIMGDICTRRCPFCDVGHGRPEPLNANEPQELAATIGAMRLNYVVITSVDRDDLRDGGAQHFVDCIRETRAASPKTRIEVLVPDFRGRLDVALEIFDQAPPDVMNHNLETVPRLYKQARPGADYAYSLRLLKEFKARHPDVPTKSGLMVGLGETDDEILDVLRDLRAHDVEMLTIGQYLQPSTGHLPVLRYVHPDTFKMFETEALAMGFKNAACGPMVRSSYWADQQAYGA</Hsp_hseq>
+      <Hsp_midline>K RGADKTARIPIK+VP  E+LKKPEWIR +L     + +F EIK  LRE K+HTVCEEASCPNI ECF KGTATFMIMGDICTRRCPFCDVGHGRP  L+ +EP+ LA ++ AM L YVVITSVDRDDLRDGGAQHF DCI+  R  SP T+IE+LVPDFRGRLD+AL+I  + PPDVMNHNLET P LY++ARPGA+Y +SL LLK +K   P +PTKSG+MVGLGETD+++ +++RD+RAH++EM+TIGQYLQPS GHLPVLRYV P+ FK+FE EA  +GF NAA G MVRSSY AD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123740223|sp|Q2T1K5.1|LIPA_BURTA</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2T1K5</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>4.38913e-157</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP--SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>KQKAQAKTARIPIKIVPI-EKLKKPEWIRVKAATGSSRFNEIKTILREHNLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDADEPKNLARTIAALKLKYVVITSVDRDDLRDGGAGHFVECIREVREQSPATRIEILTPDFRGRLDRALEILNAAPPDVMNHNLETVPRLYKEARPGSDYAHSLKLLKDFKALHPDVATKSGLMVGLGETTDEILQVMRDLRAHDVDMLTIGQYLQPSEHHLPVREYVHPDTFKMYEEEAYKMGFTHAAVGAMVRSSYHADLQA</Hsp_hseq>
+      <Hsp_midline>K +   KTARIPIK+VP+ EKLKKPEWIR K    S +F EIK ILRE  +HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD DEPKNLA ++ A+ L+YVVITSVDRDDLRDGGA HF +CI+ +RE SP T+IEIL PDFRGRLD AL+IL   PPDVMNHNLET P LY++ARPG++Y HSL LLK +K + P + TKSG+MVGLGET +++ ++MRD+RAH+++M+TIGQYLQPS+ HLPV  YV P+ FK++E+EAY++GFT+AA+GAMVRSSYHAD QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81605753|sp|Q62N16.1|LIPA_BURMA</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Burkholderia mallei ATCC 23344] &gt;gi|166226349|sp|A3MR17.1|LIPA_BURM7 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Burkholderia mallei NCTC 10247] &gt;gi|166226350|sp|A2S5Y9.1|LIPA_BURM9 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Burkholderia mallei NCTC 10229] &gt;gi|166226351|sp|A1V016.1|LIPA_BURMS RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Burkholderia mallei SAVP1]</Hit_def>
+  <Hit_accession>Q62N16</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>4.58488e-157</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAK--LPSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>KQKAQAKTARIPIKIVPI-EKLKKPEWIRVKAATSSSRFNEIKTILREHNLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDADEPKNLARTIAALKLKYVVITSVDRDDLRDGGAGHFVECIREVREQSPATRIEILTPDFRGRLDRALAILNAAPPDVMNHNLETVPRLYKEARPGSDYAHSLKLLKDFKALHPDVATKSGLMVGLGETTDEILQVMRDLRAHDVDMLTIGQYLQPSEHHLPVREYVHPDTFKMYEEEAYKMGFTHAAVGAMVRSSYHADLQA</Hsp_hseq>
+      <Hsp_midline>K +   KTARIPIK+VP+ EKLKKPEWIR K    S +F EIK ILRE  +HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD DEPKNLA ++ A+ L+YVVITSVDRDDLRDGGA HF +CI+ +RE SP T+IEIL PDFRGRLD AL IL   PPDVMNHNLET P LY++ARPG++Y HSL LLK +K + P + TKSG+MVGLGET +++ ++MRD+RAH+++M+TIGQYLQPS+ HLPV  YV P+ FK++E+EAY++GFT+AA+GAMVRSSYHAD QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|55977878|sp|Q9EYP3.2|LIPA_BURPS</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Burkholderia pseudomallei K96243] &gt;gi|123758073|sp|Q3JWL1.1|LIPA_BURP1 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Burkholderia pseudomallei 1710b] &gt;gi|166226352|sp|A3NQX6.1|LIPA_BURP0 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Burkholderia pseudomallei 1106a] &gt;gi|166226353|sp|A3N576.1|LIPA_BURP6 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Burkholderia pseudomallei 668]</Hit_def>
+  <Hit_accession>Q9EYP3</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.514</Hsp_bit-score>
+      <Hsp_score>1155</Hsp_score>
+      <Hsp_evalue>6.35982e-157</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP--SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>KQKAQAKTARIPIKIVPI-EKLKKPEWIRVKAATGSSRFNEIKTILREHNLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDADEPKNLARTIAALKLKYVVITSVDRDDLRDGGAGHFVECIREVREQSPATRIEILTPDFRGRLDRALAILNAAPPDVMNHNLETVPRLYKEARPGSDYAHSLKLLKDFKALHPDVATKSGLMVGLGETTDEILQVMRDLRAHDVDMLTIGQYLQPSEHHLPVREYVHPDTFKMYEEEAYKMGFTHAAVGAMVRSSYHADLQA</Hsp_hseq>
+      <Hsp_midline>K +   KTARIPIK+VP+ EKLKKPEWIR K    S +F EIK ILRE  +HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD DEPKNLA ++ A+ L+YVVITSVDRDDLRDGGA HF +CI+ +RE SP T+IEIL PDFRGRLD AL IL   PPDVMNHNLET P LY++ARPG++Y HSL LLK +K + P + TKSG+MVGLGET +++ ++MRD+RAH+++M+TIGQYLQPS+ HLPV  YV P+ FK++E+EAY++GFT+AA+GAMVRSSYHAD QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123079077|sp|Q1I4G1.1|LIPA_PSEE4</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas entomophila L48]</Hit_def>
+  <Hit_accession>Q1I4G1</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.129</Hsp_bit-score>
+      <Hsp_score>1154</Hsp_score>
+      <Hsp_evalue>1.26244e-156</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGAEKVARIPVKIIPTEELPKKPDWIRVRIPVSPEVDRIKQLLRKHKLHSVCEEASCPNLGECFSGGTATFMIMGDICTRRCPFCDVGHGRPKPLDLDEPKNLAIAIADLRLKYVVITSVDRDDLRDGGAQHFADCIREIRALSPGVQLETLVPDYRGRMDVALEITAQTPPDVFNHNLETVPRLYKAARPGSDYDWSLDLLQKFKQMVPHVPTKSGLMLGLGETDEEVIEVMHRMREHDIDMLTLGQYLQPSRNHLPVQRFVHPDTFAWFAEEGYKMGFKNVASGPLVRSSYHADQQAHEA</Hsp_hseq>
+      <Hsp_midline>G+KLRGA+K ARIP+K++P +E  KKP+WIR ++P S +   IK +LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRP  LD DEPKNLA ++  + L+YVVITSVDRDDLRDGGAQHFADCI+ IR  SP  ++E LVPD+RGR+D+AL+I A+TPPDV NHNLET P LY+ ARPG++Y  SLDLL+++K+M+PH+PTKSG+M+GLGETDE+V E+M  MR H+I+M+T+GQYLQPS  HLPV R+V P+ F  F +E Y++GF N A G +VRSSYHAD+QA EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|171769283|sp|A1VIT9.1|LIPA_POLNA</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Polaromonas naphthalenivorans CJ2]</Hit_def>
+  <Hit_accession>A1VIT9</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>2.1026e-156</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>KLRGADKTARIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KQKAAAKLSRIPVKVVQ-GEILKKPDWIRVKAGSPSTRFYEIKQILRENKLNTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDADEPLNLARTIAALKLKYVVITSVDRDDLRDGGSGHFVECIQRIRELSPGTTIEVLVPDFRGRDDRALEILKTSPPDVMNHNLETAPRLYKEARPGSDYQFSLNLLKKFKALHPDVPTKSGIMVGLGETDEEILQVMQDMRDHGINMLTIGQYLAPSTSHLPVRRYVHPDTFKMFEEKAYEMGFSHAAVGAMVRSSYHADQQAHAA</Hsp_hseq>
+      <Hsp_midline>K + A K +RIP+KVV   E LKKP+WIR K   PS +F+EIK ILRE K++TVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD DEP NLA ++ A+ L+YVVITSVDRDDLRDGG+ HF +CI+ IRE SP T IE+LVPDFRGR D AL+IL  +PPDVMNHNLET P LY++ARPG++YQ SL+LLK++K + P +PTKSGIMVGLGETDE++ ++M+DMR H I M+TIGQYL PS  HLPV RYV P+ FK+FE++AYE+GF++AA+GAMVRSSYHAD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|229830545|sp|B1J144.1|LIPA_PSEPW</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas putida W619]</Hit_def>
+  <Hit_accession>B1J144</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>2.45545e-156</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGADKVARIPVKIIPTDELPKKPDWIRVRIPVSPEVDRIKQLLRKHKLHSVCEEASCPNLGECFSGGTATFMIMGDICTRRCPFCDVGHGRPKPLDVDEPKNLAVAIADLRLKYVVITSVDRDDLRDGGAQHFADCIREIRALSPGVQLETLVPDYRGRMDVALEITAQEPPDVFNHNLETVPRLYKAARPGSDYDWSLDLLQKFKQMVPHVPTKSGLMLGLGETDEEVIEVMHRMREHDIDMLTLGQYLQPSRSHLPVQRFVHPDTFAWFAEEGYKMGFKNVASGPLVRSSYHADQQAHEA</Hsp_hseq>
+      <Hsp_midline>G+KLRGADK ARIP+K++P  E  KKP+WIR ++P S +   IK +LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRP  LD DEPKNLA ++  + L+YVVITSVDRDDLRDGGAQHFADCI+ IR  SP  ++E LVPD+RGR+D+AL+I A+ PPDV NHNLET P LY+ ARPG++Y  SLDLL+++K+M+PH+PTKSG+M+GLGETDE+V E+M  MR H+I+M+T+GQYLQPS  HLPV R+V P+ F  F +E Y++GF N A G +VRSSYHAD+QA EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|47117196|sp|Q82UJ5.1|LIPA_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82UJ5</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.817</Hsp_bit-score>
+      <Hsp_score>1148</Hsp_score>
+      <Hsp_evalue>4.32551e-156</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>RGADKTARIPIKVVPLQ--EKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>RGAAKTARNPVKIDLEQSGQLLRKPSWIRVRSSNSQKYLEVKRLLRENRLHTVCEEASCPNIGECFGRGTATFMILGDLCTRRCPFCDVAHGRPHAPDPDEPMHLANSIAVLKLNYVVITSVDRDDLRDGGAQHFADCIRAIRTQSPQTRIEILVPDFRGRLEVALEKLSACPPDVMNHNLETVPRLYKQCRPGADYMHSLQLLKDFKAAFPHIPTKSGLMLGLGETDEEIIEVMRDLRAHQVDMLTVGQYLQPSKGHHPVMRYVSPEDFKTFERIATNLGFSHAACGPMVRSSYHADQQAHEA</Hsp_hseq>
+      <Hsp_midline>RGA KTAR P+K+   Q  + L+KP WIR +   S+K+ E+K +LRE ++HTVCEEASCPNIGECF +GTATFMI+GD+CTRRCPFCDV HGRP+  DPDEP +LA S+  + L YVVITSVDRDDLRDGGAQHFADCI+AIR  SP T+IEILVPDFRGRL++AL+ L+  PPDVMNHNLET P LY++ RPGA+Y HSL LLK +K   PHIPTKSG+M+GLGETDE++ E+MRD+RAH ++M+T+GQYLQPS GH PV+RYV+PE FK FE+ A  LGF++AA G MVRSSYHAD+QA EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|171704436|sp|A1K1U7.1|LIPA_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K1U7</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.817</Hsp_bit-score>
+      <Hsp_score>1148</Hsp_score>
+      <Hsp_evalue>5.45239e-156</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>DDPKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKL----PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>DNPAR--KQRGAEKTARIPIKIVP-AERLKKPDWIRIRLGAGAEAERFNEIKQTLREHKLHTVCEEASCPNIHECFGKGTATFMIMGDICTRRCPFCDVGHGRPEPLNPNEPTDLARTIAAMRLNYVVITSVDRDDLRDGGAQHFVDCIRETRAASPSTTIEVLVPDFRGRMEIALEIFNQAPPDVMNHNMETVPRLYKQARPGADYAYSLRLLKEFKAGHPDVLTKSGLMVGLGETDDEILDVMRDLRAHDVDMLTIGQYLQPSGGHLPVLRYVHPDTFKMFETEALRMGFRNAACGPMVRSSYWADQQAHGA</Hsp_hseq>
+      <Hsp_midline>D+P R  K RGA+KTARIPIK+VP  E+LKKP+WIR +L     + +F EIK  LRE K+HTVCEEASCPNI ECF KGTATFMIMGDICTRRCPFCDVGHGRP  L+P+EP +LA ++ AM L YVVITSVDRDDLRDGGAQHF DCI+  R  SP+T IE+LVPDFRGR++IAL+I  + PPDVMNHN+ET P LY++ARPGA+Y +SL LLK +K   P + TKSG+MVGLGETD+++ ++MRD+RAH+++M+TIGQYLQPS GHLPVLRYV P+ FK+FE EA  +GF NAA G MVRSSY AD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|47117214|sp|Q88DM5.1|LIPA_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas putida KT2440] &gt;gi|166230432|sp|A5W9I5.1|LIPA_PSEP1 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas putida F1]</Hit_def>
+  <Hit_accession>Q88DM5</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.203</Hsp_bit-score>
+      <Hsp_score>1149</Hsp_score>
+      <Hsp_evalue>6.84447e-156</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGADKVARIPVKIIPTDELPKKPDWIRVRIPVSPEVDRIKQLLRKHKLHSVCEEASCPNLGECFSGGTATFMIMGDICTRRCPFCDVGHGRPKPLDLDEPKNLAVAIADLRLKYVVITSVDRDDLRDGGAQHFADCIREIRALSPGVQLETLVPDYRGRMDVALEITAQEPPDVFNHNLETVPRLYKAARPGSDYDWSLDLLQKFKQLVPHVPTKSGLMLGLGETDEEVIEVMHRMREHDIDMLTLGQYLQPSRSHLPVQRFVHPDTFAWFAEEGYKMGFKNVASGPLVRSSYHADQQAHEA</Hsp_hseq>
+      <Hsp_midline>G+KLRGADK ARIP+K++P  E  KKP+WIR ++P S +   IK +LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRP  LD DEPKNLA ++  + L+YVVITSVDRDDLRDGGAQHFADCI+ IR  SP  ++E LVPD+RGR+D+AL+I A+ PPDV NHNLET P LY+ ARPG++Y  SLDLL+++K+++PH+PTKSG+M+GLGETDE+V E+M  MR H+I+M+T+GQYLQPS  HLPV R+V P+ F  F +E Y++GF N A G +VRSSYHAD+QA EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|123772035|sp|Q3K6A4.1|LIPA_PSEPF</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas fluorescens Pf0-1]</Hit_def>
+  <Hit_accession>Q3K6A4</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>1.97973e-155</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGAEKVARIPVKIIPTTELPKKPDWIRVRIPVSPEVDRIKSLLRKHKLHSVCEEASCPNLGECFSGGTATFMIMGDICTRRCPFCDVGHGRPKPLDVNEPESLAIAIADLKLKYVVITSVDRDDLRDGGAQHFADCIREIRKLSPNVQLETLVPDYRGRMDIALEITAAEPPDVFNHNLETVPRLYKAARPGSDYQWSLTLLQRFKQMMPHIPTKSGLMLGLGETDDEVIEVMKRMREHDIDMLTLGQYLQPSRSHLPVQRFVHPDTFAWFAEEGYKMGFKNVASGPLVRSSYHADEQA</Hsp_hseq>
+      <Hsp_midline>G+KLRGA+K ARIP+K++P  E  KKP+WIR ++P S +   IK +LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRP  LD +EP++LA ++  + L+YVVITSVDRDDLRDGGAQHFADCI+ IR+ SPN ++E LVPD+RGR+DIAL+I A  PPDV NHNLET P LY+ ARPG++YQ SL LL+R+K+MMPHIPTKSG+M+GLGETD++V E+M+ MR H+I+M+T+GQYLQPS  HLPV R+V P+ F  F +E Y++GF N A G +VRSSYHADEQA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|259494939|sp|C3K2L8.1|LIPA_PSEFS</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas fluorescens SBW25]</Hit_def>
+  <Hit_accession>C3K2L8</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>9.0321e-155</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGAEKVARIPVKIIPTTELPKKPDWIRVRIPVSPEVDRIKALLRKHKLHSVCEEASCPNLGECFSGGTATFMIMGDICTRRCPFCDVGHGRPKPLDVNEPESLAIAIADLKLKYVVITSVDRDDLRDGGAQHFADCIREIRKLSPNVMLETLVPDYRGRMDVALEITAAEPPDVFNHNLETVPRLYKAARPGSDYQWSLTLLQKFKQMMPHIPTKSGLMLGLGETDEEVIEVMKRMREHDIDMLTLGQYLQPSRSHLPVQRFVHPDTFAWFAEEGYKMGFKNVASGPLVRSSYHADEQA</Hsp_hseq>
+      <Hsp_midline>G+KLRGA+K ARIP+K++P  E  KKP+WIR ++P S +   IK +LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRP  LD +EP++LA ++  + L+YVVITSVDRDDLRDGGAQHFADCI+ IR+ SPN  +E LVPD+RGR+D+AL+I A  PPDV NHNLET P LY+ ARPG++YQ SL LL+++K+MMPHIPTKSG+M+GLGETDE+V E+M+ MR H+I+M+T+GQYLQPS  HLPV R+V P+ F  F +E Y++GF N A G +VRSSYHADEQA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|171769524|sp|A1WF48.1|LIPA_VEREI</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Verminephrobacter eiseniae EF01-2]</Hit_def>
+  <Hit_accession>A1WF48</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>2.11971e-154</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>RIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>RIPIKVEP-GERLKKPDWIRVKAASPGTRFDDIKRILREHRLHTVCEEASCPNIGECFGKGTATFMIMGDKCTRRCPFCDVGHGRPDPLDQDEPMNLARTVAALALEYVVITSVDRDDLRDGGSGHFVDCIQSIRKLSPQTRIEILVPDFRGRDDRALAILQAAPPDVMNHNLETAPRLYPQARPGSDYRFSLNLLKKFKALHPTVPTKSGIMVGLGETDEEILQVMRDMRAHGIEMLTIGQYLAPSSSHLPVRRYVHPDDFRMFEQEAYRMGFSHAAVGAMVRSSYHADRQAQAA</Hsp_hseq>
+      <Hsp_midline>RIPIKV P  E+LKKP+WIR K   P  +F +IK ILRE ++HTVCEEASCPNIGECF KGTATFMIMGD CTRRCPFCDVGHGRP+ LD DEP NLA +V A+ L YVVITSVDRDDLRDGG+ HF DCI++IR+ SP T+IEILVPDFRGR D AL IL   PPDVMNHNLET P LY +ARPG++Y+ SL+LLK++K + P +PTKSGIMVGLGETDE++ ++MRDMRAH IEM+TIGQYL PS  HLPV RYV P+ F++FE+EAY +GF++AA+GAMVRSSYHAD QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|122314288|sp|Q0AI05.1|LIPA_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Nitrosomonas eutropha C91]</Hit_def>
+  <Hit_accession>Q0AI05</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>6.32602e-154</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>RGADKTARIPIKVVPLQ--EKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>RGTAKTARNPIKIDLEQSGQLLRKPSWIRVRSPNSQRYQEVKRLLRENKLHTVCEEASCPNIGECFGRGTATFMILGDLCTRRCPFCDVAHGRPHAPDPDEPMHLAKSIAVLKLNYVVITSVDRDDLRDGGAQHFADCIRAIRAQSPQTRIEILVPDFRGRLEIALEKLSACPPDVMNHNLETVPRLYKQCRPGADYVHSLQLLKDFKAASPHIPTKSGLMLGLGETDEEIIGVMQDLRAHQVNMLTIGQYLQPSIGHHPVMRYVSPEDFKTFERIATNLGFSHAACGPMVRSSYHADQQAHEA</Hsp_hseq>
+      <Hsp_midline>RG  KTAR PIK+   Q  + L+KP WIR + P S+++ E+K +LRE K+HTVCEEASCPNIGECF +GTATFMI+GD+CTRRCPFCDV HGRP+  DPDEP +LA+S+  + L YVVITSVDRDDLRDGGAQHFADCI+AIR  SP T+IEILVPDFRGRL+IAL+ L+  PPDVMNHNLET P LY++ RPGA+Y HSL LLK +K   PHIPTKSG+M+GLGETDE++  +M+D+RAH + M+TIGQYLQPS GH PV+RYV+PE FK FE+ A  LGF++AA G MVRSSYHAD+QA EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|172045590|sp|A4VQZ6.1|LIPA_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VQZ6</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>9.19771e-154</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGAEKVARIPVKIIPTDELPKKPDWIRVRIPVSPEVDQIKQTLRKHKLHSVCEEASCPNLGECFSSGTATFMIMGDICTRRCPFCDVGHGRPNALDPDEPKNLAQAIADMRLKYVVITSVDRDDLRDGGAQHFADCLREIRKLSPSIQLETLVPDYRGRMEIALDITATEPPDVFNHNLETVPRLYKSSRPGSDFEWSLDLLEKFKQRVPGVPTKSGLMLGLGETDEEVIEVMQRMREHDIDMLTLGQYLQPSRNHLPVQRFVHPDTFAWFAEEGMKMGFKNVASGPLVRSSYHADQQAHGA</Hsp_hseq>
+      <Hsp_midline>G+KLRGA+K ARIP+K++P  E  KKP+WIR ++P S +  +IK  LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRPN LDPDEPKNLA+++  M L+YVVITSVDRDDLRDGGAQHFADC++ IR+ SP+ ++E LVPD+RGR++IAL I A  PPDV NHNLET P LY+ +RPG++++ SLDLL+++K+ +P +PTKSG+M+GLGETDE+V E+M+ MR H+I+M+T+GQYLQPS  HLPV R+V P+ F  F +E  ++GF N A G +VRSSYHAD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|47117212|sp|Q87VW7.1|LIPA_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q87VW7</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>2.84533e-153</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGAEKVARIPVKIIPTVDLPKKPDWIRVRIPVSPEVDRIKQLLRKHKLHSVCEEASCPNLGECFSGGTATFMIMGDICTRRCPFCDVGHGRPKALDADEPKSLAIAIADLRLKYVVITSVDRDDLRDGGAQHFADCIREIRLLSPGIQLETLVPDYRGRMDVALEITAAEPPDVFNHNLETVPRLYKAARPGSDYQWSLTLLQRFKQMVPHVPTKSGLMLGLGETDEEVIEVMKRMREHDIDMLTLGQYLQPSRNHLAVQRFVHPDTFAWFAEEGYKMGFKNVASGPLVRSSYHADEQA</Hsp_hseq>
+      <Hsp_midline>G+KLRGA+K ARIP+K++P  +  KKP+WIR ++P S +   IK +LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRP  LD DEPK+LA ++  + L+YVVITSVDRDDLRDGGAQHFADCI+ IR  SP  ++E LVPD+RGR+D+AL+I A  PPDV NHNLET P LY+ ARPG++YQ SL LL+R+K+M+PH+PTKSG+M+GLGETDE+V E+M+ MR H+I+M+T+GQYLQPS  HL V R+V P+ F  F +E Y++GF N A G +VRSSYHADEQA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|122985373|sp|Q1GYC1.1|LIPA_METFK</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1GYC1</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>3.29476e-153</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>GVKESSAEKMARIPIKIIPM-PAMRKPEWIRMKVPDSARFREIKQVLRENNLHTVCEEASCPNIGECFSGGTATFMILGDICTRRCPFCDVSHGKPLPPDANEPENLGRTIAQMRLKYVVITSVDRDDLRDGGAQHFVDCIAAVRAHSPQIKVEILVPDFRGRLDRAIHILKAAPPDVMNHNLETVPRLYKEARPGSDYQNSLDLLKEFGKLHPEVPTKSGLMLGLGETDEEILDVMRDLRAHNVTMLTLGQYLQPSPHHLPVKRFVTPQRFAEFERQALAMGFTHAACGPMVRSSYHADHQAQQA</Hsp_hseq>
+      <Hsp_midline>G+K   A+K ARIPIK++P+   ++KPEWIR K+P S +F EIK +LRE  +HTVCEEASCPNIGECFS GTATFMI+GDICTRRCPFCDV HG+P   D +EP+NL  ++  M L+YVVITSVDRDDLRDGGAQHF DCI A+R  SP  K+EILVPDFRGRLD A+ IL   PPDVMNHNLET P LY++ARPG++YQ+SLDLLK + ++ P +PTKSG+M+GLGETDE++ ++MRD+RAHN+ M+T+GQYLQPS  HLPV R+VTP++F  FE++A  +GFT+AA G MVRSSYHAD QA +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|75500564|sp|Q4ZN84.1|LIPA_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas syringae pv. syringae B728a] &gt;gi|123761164|sp|Q48DM6.1|LIPA_PSE14 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas syringae pv. phaseolicola 1448A]</Hit_def>
+  <Hit_accession>Q4ZN84</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>3.40371e-153</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGAEKVARIPVKIIPTVDLPKKPDWIRVRIPVSPEVDRIKQLLRKHKLHSVCEEASCPNLGECFSGGTATFMIMGDICTRRCPFCDVGHGRPKPLDVNEPKSLAIAIADLRLKYVVITSVDRDDLRDGGAQHFADCIREIRLLSPGVQLETLVPDYRGRMDVALEITAAEPPDVFNHNLETVPRLYKAARPGSDYQWSLTLLQRFKQMVPHVPTKSGLMLGLGETDEEVIEVMQRMREHDIDMLTLGQYLQPSRNHLPVQRFVHPDTFAWFAEEGYKMGFKNVASGPLVRSSYHADEQAKIA</Hsp_hseq>
+      <Hsp_midline>G+KLRGA+K ARIP+K++P  +  KKP+WIR ++P S +   IK +LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRP  LD +EPK+LA ++  + L+YVVITSVDRDDLRDGGAQHFADCI+ IR  SP  ++E LVPD+RGR+D+AL+I A  PPDV NHNLET P LY+ ARPG++YQ SL LL+R+K+M+PH+PTKSG+M+GLGETDE+V E+M+ MR H+I+M+T+GQYLQPS  HLPV R+V P+ F  F +E Y++GF N A G +VRSSYHADEQA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|122300734|sp|Q087L5.1|LIPA_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>Q087L5</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.113</Hsp_bit-score>
+      <Hsp_score>1128</Hsp_score>
+      <Hsp_evalue>7.89922e-153</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEK--LKKPEWIRAKLPS--RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRDADKVARIPVKVVPSERETMLRKPDWLRVKLPSSNQRILEIKAALRKNGLHSVCEEASCPNLAECFNHGTATFMILGAICTRRCPFCDVAHGRPLKADADEPKKLAQTIKDMKLKYVVITSVDRDDLRDGGAQHFADCIREIRLLNPEIKIETLVPDFRGRIDAALDILATEPPDVFNHNLETAPAHYRKARPGANYQWSLDLLKRFKERHPTIPTKSGLMMGLGETNEEIAEVLRDLRAHNVEMLTLGQYLQPSKFHLPVERYVPPAEFDELKALADELGFTHAACGPLVRSSYHADLQA</Hsp_hseq>
+      <Hsp_midline>G+KLR ADK ARIP+KVVP + +  L+KP+W+R KLPS  ++  EIK  LR+  +H+VCEEASCPN+ ECF+ GTATFMI+G ICTRRCPFCDV HGRP   D DEPK LA+++K M L+YVVITSVDRDDLRDGGAQHFADCI+ IR  +P  KIE LVPDFRGR+D AL ILA  PPDV NHNLET P+ YRKARPGANYQ SLDLLKR+KE  P IPTKSG+M+GLGET+E++ E++RD+RAHN+EM+T+GQYLQPS  HLPV RYV P +F   +  A ELGFT+AA G +VRSSYHAD QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|171473044|sp|A6V0B4.2|LIPA_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6V0B4</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>3.19737e-152</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGAEKVARIPVKIIPTEELPKKPDWIRVRIPVSPEVDRIKQLLRKHKLHSVCEEASCPNLGECFSGGTATFMIMGDICTRRCPFCDVGHGRPKPLDVDEPTNLAIAIADLRLKYVVITSVDRDDLRDGGAQHFADCLREIRKLSPGIQLETLVPDYRGRMDIALEITANEPPDVFNHNLETVPRLYRSSRPGSDFEWSLDLLQKFKQMVPHVPTKSGLMLGLGETDEEVIEVMQRMREHDIDMLTLGQYLQPSRNHLPVQRFVHPDTFAWFAEEGERMGFKNVASGPLVRSSYHADQQA</Hsp_hseq>
+      <Hsp_midline>G+KLRGA+K ARIP+K++P +E  KKP+WIR ++P S +   IK +LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRP  LD DEP NLA ++  + L+YVVITSVDRDDLRDGGAQHFADC++ IR+ SP  ++E LVPD+RGR+DIAL+I A  PPDV NHNLET P LYR +RPG++++ SLDLL+++K+M+PH+PTKSG+M+GLGETDE+V E+M+ MR H+I+M+T+GQYLQPS  HLPV R+V P+ F  F +E   +GF N A G +VRSSYHAD+QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|22001795|sp|Q9HX25.1|LIPA_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas aeruginosa PAO1] &gt;gi|122261181|sp|Q02SG3.1|LIPA_PSEAB RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas aeruginosa UCBPP-PA14] &gt;gi|226737641|sp|B7V9C1.1|LIPA_PSEA8 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>Q9HX25</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>6.56661e-152</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGAEKVARIPVKIIPTEELPKKPDWIRVRIPVSPEVDRIKQLLRKHKLHSVCEEASCPNLGECFSGGTATFMIMGDICTRRCPFCDVGHGRPKPLDVDEPTNLAIAIADLRLKYVVITSVDRDDLRDGGAQHFADCLREIRKLSPGIQLETLVPDYRGRMDIALEITANEPPDVFNHNLETVPRLYRSSRPGSDFEWSLDLLQKFKQMVPHVPTKSGLMLGLGETDDEVIEVMQRMREHDIDMLTLGQYLQPSRNHLPVQRFVHPDTFAWFAEEGEKMGFKNVASGPLVRSSYHADQQA</Hsp_hseq>
+      <Hsp_midline>G+KLRGA+K ARIP+K++P +E  KKP+WIR ++P S +   IK +LR+ K+H+VCEEASCPN+GECFS GTATFMIMGDICTRRCPFCDVGHGRP  LD DEP NLA ++  + L+YVVITSVDRDDLRDGGAQHFADC++ IR+ SP  ++E LVPD+RGR+DIAL+I A  PPDV NHNLET P LYR +RPG++++ SLDLL+++K+M+PH+PTKSG+M+GLGETD++V E+M+ MR H+I+M+T+GQYLQPS  HLPV R+V P+ F  F +E  ++GF N A G +VRSSYHAD+QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|123727129|sp|Q2Y7I9.1|LIPA_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2Y7I9</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.032</Hsp_bit-score>
+      <Hsp_score>1120</Hsp_score>
+      <Hsp_evalue>8.98729e-152</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>RGADKTARIPIKVVP--LQEKLKKPEWIRAKLP-SRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>KGVAKTARNPVKIAPQSTDQLLRKPSWIRVRSSNSQEFYEVKRILREQKLHTVCEEASCPNIGECFGKGTATFMILGDLCTRRCPFCDVAHGRPRPPDPEEPLHLAQSIAAMKLKYVVITSVDRDDLRDGGAQHFVDCIREVRAHSPQTKIEILVPDFRGRLDIALEKLFACPPDVMNHNLETVPRLYRQCRPGADYTHSLRLLKEFKARFPGIPTKSGLMLGLGETDEEILDVMRDLRKHDVEMLTIGQYLQPSIGHLPVMRYVTPGAFKEFERAAIEMGFSNAACGPMVRSSYHADQQAHEA</Hsp_hseq>
+      <Hsp_midline>+G  KTAR P+K+ P    + L+KP WIR +   S++F+E+K ILREQK+HTVCEEASCPNIGECF KGTATFMI+GD+CTRRCPFCDV HGRP   DP+EP +LA+S+ AM L+YVVITSVDRDDLRDGGAQHF DCI+ +R  SP TKIEILVPDFRGRLDIAL+ L   PPDVMNHNLET P LYR+ RPGA+Y HSL LLK +K   P IPTKSG+M+GLGETDE++ ++MRD+R H++EM+TIGQYLQPS GHLPV+RYVTP  FK FE+ A E+GF+NAA G MVRSSYHAD+QA EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|123357072|sp|Q12QX1.1|LIPA_SHEDO</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Shewanella denitrificans OS217]</Hit_def>
+  <Hit_accession>Q12QX1</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>1.80649e-151</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEK--LKKPEWIRAKLPS--RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRDADKVARIPVKIVPSERETMLRKPDWLRVKLPASNQRILEIKAALRKNGLHSVCEEASCPNLSECFNHGTATFMILGAICTRRCPFCDVAHGRPLKPDAEEPVKLAQTIRDMKLKYVVITSVDRDDLRDGGAQHFADCIREIRKLNPDIKIETLVPDFRGRIDAALDILSAEPPDVFNHNLETAPAHYRKARPGANYQWSLDLLKRFKERHPHIPTKSGLMMGLGETNEEIAEVLRDLRSHNVEMLTLGQYLQPSKFHLPVVRYVPPAEFDELKVLADELGFTHAACGPMVRSSYHADLQA</Hsp_hseq>
+      <Hsp_midline>G+KLR ADK ARIP+K+VP + +  L+KP+W+R KLP+  ++  EIK  LR+  +H+VCEEASCPN+ ECF+ GTATFMI+G ICTRRCPFCDV HGRP   D +EP  LA++++ M L+YVVITSVDRDDLRDGGAQHFADCI+ IR+ +P+ KIE LVPDFRGR+D AL IL+  PPDV NHNLET P+ YRKARPGANYQ SLDLLKR+KE  PHIPTKSG+M+GLGET+E++ E++RD+R+HN+EM+T+GQYLQPS  HLPV+RYV P +F   +  A ELGFT+AA G MVRSSYHAD QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166230439|sp|A3QH60.1|LIPA_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QH60</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>2.47841e-151</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEK--LKKPEWIRAKLPS--RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRDADKVSRIPVKVVPSERETMLRKPDWLRVKLPASNQRIVDIKQALRKNGLHSVCEEASCPNLAECFNHGTATFMILGAICTRRCPFCDVAHGRPLKPDAEEPVKLAQTIRDMKLKYVVITSVDRDDLRDGGAQHFADCIREIRKLNPEIKIEILVPDFRGRIDAALEILATEPPDVFNHNLETAPKHYRKARPGANYQWSLDLLKKFKEQHPHIPTKSGLMMGLGETNEEIAEVLRDLRAHNVEMLTLGQYLQPSKFHLPVERYVPPAEFDELKDYAEEIGFTHAACGPMVRSSYHADLQA</Hsp_hseq>
+      <Hsp_midline>G+KLR ADK +RIP+KVVP + +  L+KP+W+R KLP+  ++  +IK  LR+  +H+VCEEASCPN+ ECF+ GTATFMI+G ICTRRCPFCDV HGRP   D +EP  LA++++ M L+YVVITSVDRDDLRDGGAQHFADCI+ IR+ +P  KIEILVPDFRGR+D AL+ILA  PPDV NHNLET P  YRKARPGANYQ SLDLLK++KE  PHIPTKSG+M+GLGET+E++ E++RD+RAHN+EM+T+GQYLQPS  HLPV RYV P +F   +  A E+GFT+AA G MVRSSYHAD QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|123774557|sp|Q47JD5.1|LIPA_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47JD5</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>1.22562e-150</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>KRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKL--PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEA</Hsp_qseq>
+      <Hsp_hseq>EKGVKQKGELKTARIPIKIVPVDTPLRKPEWIRVKAGNSAGRFGEIKSMLREKKLHTVCEEAACPNIGECFGRGTATFMILGDICTRRCPFCDVGHGQPLPPNPNEPAELADSVSSLKLQYVVITSVDRDDLRDGGAQHFVDVVRAVREASPKTTIETLVPDFRGRMDIAIDILGNGLPDVLNHNMETVPRLYKQARPGADYAHSLALMKQFKARYPDVKTKSGLMVGLGETDEEILEVMRDLRANDVEMLTIGQYLAPSGHHLPVSRYVHPDTFKMFEEEAKKMGFSGAACAPMVRSSYWADQQAHSA</Hsp_hseq>
+      <Hsp_midline>++G+K +G  KTARIPIK+VP+   L+KPEWIR K    + +F EIK +LRE+K+HTVCEEA+CPNIGECF +GTATFMI+GDICTRRCPFCDVGHG+P   +P+EP  LA+SV ++ L+YVVITSVDRDDLRDGGAQHF D ++A+RE SP T IE LVPDFRGR+DIA+ IL    PDV+NHN+ET P LY++ARPGA+Y HSL L+K++K   P + TKSG+MVGLGETDE++ E+MRD+RA+++EM+TIGQYL PS  HLPV RYV P+ FK+FE+EA ++GF+ AA   MVRSSY AD+QA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|259494927|sp|C1DMR1.1|LIPA_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DMR1</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>1.28304e-150</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKLPSRKFFE-IKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRGAEKVARIPVKVIPTEELPRKPDWIRVRMPASPEVERIKQLLRQHKLHSVCEEASCPNLGECFAGGTATFMIMGDICTRRCPFCDVGHGRPNPLDPDEPKNLAVAVADLRLKYVVITSVDRDDLRDGGAQHFADCLREIRRLSPGTQLETLVPDYRGRMEIALDITAAEPPDVFNHNLETVPRLYKASRPGADFEWSLDLLEAFKKRVPAVPTKSGLMLGLGETDEEVIEVMKRMREHEIDMLTLGQYLQPSRNHLAVQRFVHPDTFAWFAEEGERMGFKNVTSGPLVRSSYHADQQA</Hsp_hseq>
+      <Hsp_midline>G+KLRGA+K ARIP+KV+P +E  +KP+WIR ++P+    E IK +LR+ K+H+VCEEASCPN+GECF+ GTATFMIMGDICTRRCPFCDVGHGRPN LDPDEPKNLA +V  + L+YVVITSVDRDDLRDGGAQHFADC++ IR  SP T++E LVPD+RGR++IAL I A  PPDV NHNLET P LY+ +RPGA+++ SLDLL+ +K+ +P +PTKSG+M+GLGETDE+V E+M+ MR H I+M+T+GQYLQPS  HL V R+V P+ F  F +E   +GF N   G +VRSSYHAD+QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|254809203|sp|B8GMV6.1|LIPA_THISH</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Thioalkalivibrio sulfidiphilus HL-EbGr7]</Hit_def>
+  <Hit_accession>B8GMV6</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>3.77679e-150</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>PKRGIKLRGADKTARIPIKVVPLQEKLKKPEWIRAKL-PSRKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQAAEALRES</Hsp_qseq>
+      <Hsp_hseq>PEPGVKLRAADKVARIPVKIAPTEKPLRKPAWIRARTHGSPEVQRLKRVLREQRLHTVCEEASCPNLGECFGHGTATFMIMGDICTRRCPFCDVAHGRPEPLDAEEPENLARTIAAMGLRYVVITSVDRDDLRDGGARHFVDCIRTTRAHSPDIRIEILVPDFRGRMDVALAILNEAPPDVFNHNLETVPRLYREARPGSDYDWSLDLIQRFKETHPQVPTKSGLMLGLGEEMHEVEAVMRDLRDHGCDMLTLGQYLQPSLHHLPVKRYVTPEEFDRLAEIGYAMGFSQVASGPMVRSSYHADQQAQKVIPEG</Hsp_hseq>
+      <Hsp_midline>P+ G+KLR ADK ARIP+K+ P ++ L+KP WIRA+   S +   +K +LREQ++HTVCEEASCPN+GECF  GTATFMIMGDICTRRCPFCDV HGRP  LD +EP+NLA ++ AM LRYVVITSVDRDDLRDGGA+HF DCI+  R  SP+ +IEILVPDFRGR+D+AL IL E PPDV NHNLET P LYR+ARPG++Y  SLDL++R+KE  P +PTKSG+M+GLGE   +V  +MRD+R H  +M+T+GQYLQPS  HLPV RYVTPE+F    +  Y +GF+  A G MVRSSYHAD+QA + + E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|166230437|sp|A3D7P9.1|LIPA_SHEB5</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Shewanella baltica OS155] &gt;gi|189046789|sp|A9L014.1|LIPA_SHEB9 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Shewanella baltica OS195] &gt;gi|254809201|sp|B8E4W4.1|LIPA_SHEB2 RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Shewanella baltica OS223]</Hit_def>
+  <Hit_accession>A3D7P9</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.328</Hsp_bit-score>
+      <Hsp_score>1100</Hsp_score>
+      <Hsp_evalue>1.30898e-148</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GIKLRGADKTARIPIKVVPLQEK--LKKPEWIRAKLPS--RKFFEIKDILREQKMHTVCEEASCPNIGECFSKGTATFMIMGDICTRRCPFCDVGHGRPNMLDPDEPKNLAESVKAMNLRYVVITSVDRDDLRDGGAQHFADCIKAIRETSPNTKIEILVPDFRGRLDIALKILAETPPDVMNHNLETHPSLYRKARPGANYQHSLDLLKRYKEMMPHIPTKSGIMVGLGETDEDVREIMRDMRAHNIEMITIGQYLQPSDGHLPVLRYVTPEQFKIFEKEAYELGFTNAAIGAMVRSSYHADEQA</Hsp_qseq>
+      <Hsp_hseq>GVKLRDADKVSRIPVKIVPSERDTMLRKPDWLRVKLPASNQRILEIKQALRKNGLHSVCEEASCPNLAECFNHGTATFMILGAICTRRCPFCDVAHGRPLKPDAEEPVKLAQTIRDMKLKYVVITSVDRDDLRDGGAQHFADCIREIRKLNPDIKIETLVPDFRGRIDAALDILSTEPPDVFNHNLETAPMHYRKARPGANYQWSLDLLKRFKERHPNVPTKSGLMMGLGETNEEIAQVLRDLRAHNVEMLTLGQYLQPSKFHLPVERYVPPAEFDELKALADELGFTHAACGPLVRSSYHADLQA</Hsp_hseq>
+      <Hsp_midline>G+KLR ADK +RIP+K+VP +    L+KP+W+R KLP+  ++  EIK  LR+  +H+VCEEASCPN+ ECF+ GTATFMI+G ICTRRCPFCDV HGRP   D +EP  LA++++ M L+YVVITSVDRDDLRDGGAQHFADCI+ IR+ +P+ KIE LVPDFRGR+D AL IL+  PPDV NHNLET P  YRKARPGANYQ SLDLLKR+KE  P++PTKSG+M+GLGET+E++ +++RD+RAHN+EM+T+GQYLQPS  HLPV RYV P +F   +  A ELGFT+AA G +VRSSYHAD QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

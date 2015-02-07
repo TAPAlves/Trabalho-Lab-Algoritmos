@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>1493</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>468</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>1493</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>468</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|401630|sp|P31474.1|HSRA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Probable transport protein HsrA; AltName: Full=High-copy suppressor of rspA [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P31474</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.377</Hsp_bit-score>
+      <Hsp_score>921</Hsp_score>
+      <Hsp_evalue>2.58911e-117</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>454</Hsp_align-len>
+      <Hsp_qseq>LPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESLSHAL-PPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNWTFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>LPWIAAMAFFMQALDATILNTALPAIAHSLNRSPLAMQSAIISYTLTVAMLIPVSGWLADRFGTRRIFTLAVSLFTLGSLACALSNSLPQLVVFRVIQGIGGAMMMPVARLALLRAYPRNELLPVLNFVAMPGLVGPILGPVLGGVLVTWATWHWIFLINIPIGIAGLLYARKHMPNFTTARRRFDITGFLLFGLSLVLFSSGIELFGEKIVASWIALTVIVTSIGLLLLYILHARRTPNPLISLDLFKTRTFSIGIVGNIATRLGTGCVPFLMPLMLQVGFGYQAFIAGCMMAPTALGSIIAKSMVTQVLRRLGYRHTLVGITVIIGLMIAQFSLQSPAMAIWMLILPLFILGMAMSTQFTAMNTITLADLTDDNASSGNSVLAVTQQLSISLGVAVSAAVLRVYEGMEGTTTVEQFHY--TFITMGIITVASAAMFMLLKTTDGNNLIKRQR</Hsp_hseq>
+      <Hsp_midline>LP + A+A FMQ LDATILNTALP IA  LN SP  MQ A+++YTLTVA+LIP+S +LAD+FGT+++F  ++++F LGS   A S SL +L + RV+QGIGG+M++P+ RL +LR Y +++LL  +N+  MP L+GP LGP+ GG LV +A+WHWIFL+N+PIG+ G +  R  MP+        D  G+L F ++  L     E     +   + AL  +   +     Y  H +    P+ S DLF  RTF +G+ GN+ +RLG   +PFLMPLM QV FG+ A ++G ++AP AL S++ K ++  +++R GYR  L+  T ++   I   +L      +W+ I     +G   S QF+AMNT+TLADL      SGNS++AV QQL+IS+G+   A +L+ +  +   ++   F +  T +++G IT+AS+ +F  L  +DG NL +  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1176313|sp|P44903.1|HSRA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable transport protein HsrA [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44903</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>3.07575e-110</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>AIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESL---SHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLA-IGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNWTFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTR</Hsp_qseq>
+      <Hsp_hseq>AMALFMQSLDATILNTALPAISSDLHKPAFEMQMAIIAYSLAVALFIPLTAWAAAKFGTLTVFRSAVFTFILGSVACAAASNLESLILARVIQGIGGAFMMPVARLAIIQAVPKQQLVNAWNLMATAGLIGPILGPILGGWLVIHASWHWIFLINIPIGALGILASGSVMNNIKGKAEKLDWTGFLLFALGLVGITLGLDLLGESQHNSSVTYSILVV--GILLLVTYCGYAKNNENAILPLSLFRTRTFRLGIIANIFIRLSASGVPFLLPLMFQLSFGYSAEMSGWLLAPIALISVMLKILIGRILNRWGYKTTLISSALLMAGSVISMAWLDKQSSL-TWIICNLMWYGACMSIIFTSINTLAVGDLSKQQSGTGSTVLSIVQQVGIGFGIAVSSIILNLYRHFFSASDCLPQAFSYTFLTSSLFVIALVWSLMKLHKHDGDHLRK</Hsp_hseq>
+      <Hsp_midline>A+A+FMQ LDATILNTALP I++DL++   +MQ A++AY+L VAL IPL+++ A KFGT  VF  ++  F+LGS   AA+ +L  L L+RV+QGIGG+ ++P+ RL I++   K +L+NA N      LIGP LGP+ GG+LV +ASWHWIFL+N+PIG LG +   ++M ++KG    LD+ G+L F++    + L  + L    H     +++L +  G+L    Y  + K     I    LF  RTFRLG+  N+F RL  S +PFL+PLMFQ++FG+ A +SGWL+AP+AL S+++K LI  ++ R+GY+T L+ +  L+A  ++ +A  D  S L  WI  +L   GAC S+ F+++NTL + DL  QQ+G+G++++++ QQ+ I  GI   ++IL  +     AS  L  AF  T L+     +A      +LH  DG +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81644351|sp|Q6D2A9.1|MDTD_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D2A9</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>1.9497e-93</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>451</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPP--YFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWN---TKLLAAFIMLLALPDGNSPLWIWIF--LSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGI-VAGALILKNWTFLIPASSG-LHFAFRMTLLSIGGITLASSLVFKRL</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQTLDTTIVNTALPSMAASLNESPLHMHSVIVSYVLTVAVMLPASGWLADRIGVKNIFFAAILLFTLGSLLCARSETLDELLISRVIQGIGGAMMVPVGRLTVMKIVPRDQYMAAMTFVTLPGQIGPLLGPALGGFLVEYASWHWIFLINLPVGIIGALATWFLMPNYTMQTQRFDISGFVWLAVGMATLTLALDGNRSLGIPPIAIFALIAI--GLIALLSYWLHARRNERALFNLRLFDTHTFSIGLTGGLLARIGSGMLPFMTPLFLQLGMGFSPFHAGLMMVPMVLGSMGIKRVVVQIVNRFGYRRVLVASTLLLALVTALFALVALMQ-----WIWMIPVVLFFLGTVNAIRFSTMNTLTLKDLPDPLASGGNSLLSMTMQLSTSLGVSIAGILLGIFSQPHIAAESGATHTVFLYTYLSMVVIIALPALIFNRV</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +AA LNESP  M   +V+Y LTVA+++P S +LAD+ G K +FF +I +F LGS L A S +L EL +SRV+QGIGG+M+VP+ RLT++++  + + + A+ +  +P  IGP LGP  GG+LVEYASWHWIFL+NLP+G++G +    +MP+        D  G++  +V    L LA + + S  +PP   FAL+ +  GL+    Y+ H +   + +++  LF   TF +GL G L +R+G   +PF+ PL  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+ +     L+ A   L+AL       WIW+   +   +G  N+++FS MNTLTL DL       GNSL+++  QL+ S+G+ +AG L+       I A SG  H  F  T LS+  I    +L+F R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|224493140|sp|A8GHR1.1|MDTD_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GHR1</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>3.72937e-93</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>471</Hsp_align-len>
+      <Hsp_qseq>KNTLSARAPSPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESLSHALPPYFALLPL-CGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAI--GACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNWTF--LIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTRP</Hsp_qseq>
+      <Hsp_hseq>KHTASVQ----WQLWIVAFGFFMQTLDTTIVNTALPSMAVSLGENPLRMQSVIVSYVLTVAVMLPASGWLADRVGVQRVFFSAIVLFTLGSILCARSETLNELIASRVVQGIGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQIGPLMGPALGGFLVQYASWHWIFLINIPVGIAGAIATLLLMPNYRMQTRRFDISGFILLAVGMATLTLALDGHKGMGLSATAIAGLVVAGVAALAGYWWHAHGNSRALFSLRLFKTRTYKVGLTASLLGRIGSGMLPFMTPLFMQVGMGFSPFHAGLMMIPMIIGSMGMKRIVVRVVNRFGYRNVLVAATLMLA--LISLSFPLVAMLGWIWLLPVVLFFQGMVNSLRFSAMNTLTLKDLPDRLASSGNSLLSMVMQLSMSLGVSIAGILIGSFAHHQVVTDSPAIHSAFIYSYCCMALIIALPALAFARVPADTTTNRTLTKEP</Hsp_hseq>
+      <Hsp_midline>K+T S +    W   ++A   FMQ LD TI+NTALP +A  L E+P  MQ  +V+Y LTVA+++P S +LAD+ G ++VFF +I +F LGS L A S +L EL  SRVVQGIGG+M+VP+ RLT++++  + + + A+ +  +P  IGP +GP  GG+LV+YASWHWIFL+N+P+G+ G +    +MP+ +      D  G++  +V    L LA +          A+  L   G+     Y+ H    S+ ++S  LF  RT+++GL  +L  R+G   +PF+ PL  QV  GF    +G ++ P+ + S+ +K ++  ++ RFGYR VL+  T +LA  ++ L+ P      WIW+   +    G  NSL+FSAMNTLTL DL  +   SGNSL+++  QL++S+G+    +++ ++    ++  S  +H AF  +   +  I    +L F R+      N T    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|259495553|sp|C6DBD0.1|MDTD_PECCP</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DBD0</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>1.49665e-92</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>454</Hsp_align-len>
+      <Hsp_qseq>NTLSARAPSPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNWT--FLIPASSGLHFAFRMTLLSIGGITLASSLVFKRL</Hsp_qseq>
+      <Hsp_hseq>NSASVR----WQLWIVAFGFFMQTLDTTIVNTALPSMAASLNESPLHMHSVIVSYVLTVAVMLPASGWLADRIGVKNIFFAAILLFTLGSLLCARSETLNELLASRVIQGIGGAMMVPVGRLTVMKIVPRDQYMAAMTFVTLPGQIGPLMGPALGGFLVEYASWHWIFLINLPVGIIGALATWFLMPNYTMRTQRFDISGFLWLAVGMATLTLALDGNRSLGIPPIAIFALITVGLIALLSYWLHARRNERALFNLRLFDTHTFSIGLTGGLLARIGSGMLPFMTPLFLQLGMGFSPFHAGLMMVPMVLGNMGMKRIVVQIVNRLGYRRVLIVSTLLLALVTALFALVALMQWIWMIPIVLFFLGMVNAIRFSTMNTLTLKDLPDTLASGGNSLMSMTMQLSTSLGVSIAGILLGMFSQPHMAAGSGETHMVFIYTYLSMIVIIALPALIFNRV</Hsp_hseq>
+      <Hsp_midline>N+ S R    W   ++A   FMQ LD TI+NTALP +AA LNESP  M   +V+Y LTVA+++P S +LAD+ G K +FF +I +F LGS L A S +L EL  SRV+QGIGG+M+VP+ RLT++++  + + + A+ +  +P  IGP +GP  GG+LVEYASWHWIFL+NLP+G++G +    +MP+        D  G+L  +V    L LA + + S  +PP      +  GL+    Y+ H +   + +++  LF   TF +GL G L +R+G   +PF+ PL  Q+  GF    +G ++ P+ L ++ +K ++  ++ R GYR VL+ +T LLA    L AL      +W+   +   +G  N+++FS MNTLTL DL       GNSLM++  QL+ S+G+    ++L  ++   +   S   H  F  T LS+  I    +L+F R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|224493127|sp|A8AEE4.1|MDTD_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8AEE4</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>2.42052e-92</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPY-FALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW-TFLIPASSGL-HFAFRMTLLSIGGITLASSLVFKRL--HVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMALSLGESPLHMHMVVVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCAWSSTLNELVLARVLQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGILVEYASWHWIFLINIPVGIVGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTMALDGSKGTGLSPLSLGALVLCGILAIA-LYLKHAKNNPRALFSLALFRTHTFSLGLSGSFAGRVGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVSLLFMSVAMLGWYYALPFVLFLQ---GMVNSTRFSSMNTLTLKDLPDELASSGNSLLSMIMQLSMSIGVTIAGLLLGMFGQQHIAADSGASHTVFMYTWLCMALIIALPALIFARVPNDTHKNAVISRRKR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   VV+Y LTVA+++P S +LADK G + +FF +I +F LGS   A S +L EL L+RV+QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L +A + S    L P     L LCG L  A  Y +H K   + ++S  LF   TF LGL+G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L++   M +A+      L   +FL    G  NS +FS+MNTLTL DL  +   SGNSL+++  QL++S+G+    L+L  +    I A SG  H  F  T L +  I    +L+F R+       A ++R  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|224493172|sp|A1JKW8.2|MDTD_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JKW8</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>1.1952e-90</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>451</Hsp_align-len>
+      <Hsp_qseq>LLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESLSH-ALPPY-FALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIM---LLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNWTF--LIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGAN</Hsp_qseq>
+      <Hsp_hseq>IVAFGFFMQTLDTTIVNTALPSMAASLGENPLRMQSVIVSYVLTVAVMLPASGWLADRVGVKWVFFSAIILFTLGSLLCAQAETLNELISSRVIQGIGGAMMVPVGRLTVMKIVPREQYMSAMAFVTLPGQIGPLVGPALGGFLVEYASWHWIFLINLPVGVVGALATLWLMPNYTTRTRRFDISGFIMLAIGMATLTLALDGHKGLGLPPLAIAGLILCGILALA-GYWWHAKGNSSALFTLRLFNNKSYSLGLIGSMSARIGSGMLPFMTPVFLQIGLGFTPFHAGLMMIPMIIGSMGMKRIIVRVVNRFGYRRVLVSATLLLAVVSLSFPLVALMGWTLLLPIVLFFQ---GMLNALRFSTMNTLALKDLPNRLASSGNSLLSMVMQLSMSLGVSTAGILLGVFAHNQVVTNTPATHSAFLYSYICMAIIIALPALIFNRVPADTGTN</Hsp_hseq>
+      <Hsp_midline>++A   FMQ LD TI+NTALP +AA L E+P  MQ  +V+Y LTVA+++P S +LAD+ G K VFF +I +F LGS L A + +L EL  SRV+QGIGG+M+VP+ RLT++++  + + ++A+ +  +P  IGP +GP  GG+LVEYASWHWIFL+NLP+G++G +    +MP+        D  G++  ++    L LA +      LPP   A L LCG L  A  Y+ H K  S  +++  LF  +++ LGL G++ +R+G   +PF+ P+  Q+  GF    +G ++ P+ + S+ +K +I  ++ RFGYR VL+  T LLA   +   L+AL      L I +F     G  N+L+FS MNTL L DL  +   SGNSL+++  QL++S+G+    ++L  +    ++  +   H AF  + + +  I    +L+F R+    G N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|189081612|sp|A9N7L0.1|MDTD_SALPB</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7]</Hit_def>
+  <Hit_accession>A9N7L0</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>2.1611e-90</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAI----GACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVALGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMVVVSYVLTVAVMLPASGWLADKIGVRNIFFAAIVLFTLGSLFCALSGTLNQLVLARVLQGVGGAMMVPVGRLTVMKIVPRAQYMAAMTFVTLPGQIGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAMATFMLMPNYTIETRRFDLPGFLLLAIGMAVLTLALDGSKSMGISPWTLAGLAAGGAAAILLYLLHAKKNSGALFSLRLFCTPTFSLGLLGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQIVNRFGYRRVLVATTLGLA----LVSLLFMSVALLGWYYLLPLVLLLQGMVNSARFSSMNTLTLKDLPDTLASSGNSLLSMIMQLSMSIGVTIAGMLLGMFGQQHIGIDSSATHHVFMYTWLCMAVIIALPAIIFARVPNDTQQNMVISRR</Hsp_hseq>
+      <Hsp_midline>W   ++A+  FMQ LD TI+NTALP +A  L ESP  M   VV+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L +L L+RV+QG+GG+M+VP+ RLT++++  +++ + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  ++   +L LA + S S  + P+       GG      Y  H K  S  ++S  LF   TF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T  LA    L++L   +  L  W +L   +    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    ++L  +    +   SS  H  F  T L +  I    +++F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|224493136|sp|B4T9U3.1|MDTD_SALHS</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476]</Hit_def>
+  <Hit_accession>B4T9U3</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>4.41212e-90</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAI----GACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVALGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMVVVSYVLTVAVMLPASGWLADKIGVRNIFFAAIVLFTLGSLFCALSGTLNQLVLARVLQGVGGAMMVPVGRLTVMKIVPRAQYMAAMTFVTLPGQIGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAMATFMLMPNYTIETRRFDLPGFLLLAIGMAVLTLALDGSKSMGISPWTLAGLAAGGAAAILLYLLHAKKNSGALFSLRLFRTPTFSLGLLGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQIVNRFGYRRVLVATTLGLA----LVSLLFMSVALLGWYYLLPLVLLLQGMVNSARFSSMNTLTLKDLPDTLASSGNSLLSMIMQLSMSIGVTIAGMLLGMFGQQHIGIDSSATHHVFMYTWLCMAVIIALPAIIFARVPNDTQQNMVISRR</Hsp_hseq>
+      <Hsp_midline>W   ++A+  FMQ LD TI+NTALP +A  L ESP  M   VV+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L +L L+RV+QG+GG+M+VP+ RLT++++  +++ + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  ++   +L LA + S S  + P+       GG      Y  H K  S  ++S  LF   TF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T  LA    L++L   +  L  W +L   +    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    ++L  +    +   SS  H  F  T L +  I    +++F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|224493139|sp|B4TNI8.1|MDTD_SALSV</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633]</Hit_def>
+  <Hit_accession>B4TNI8</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.5</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>5.17651e-90</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAI----GACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMVVVSYVLTVAVMLPASGWLADKIGVRNIFFAAIVLFTLGSLFCALSGTLNQLVLARVLQGVGGAMMVPVGRLTVMKIVPRAQYMAAMTFVTLPGQIGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAIATFMLMPNYTIETRRFDLPGFLLLAIGMAVLTLALDGSKSMGISPWTLAGLAAGGAAAILLYLLHAKKNSGALFSLRLFRTPTFSLGLLGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQIVNRFGYRRVLVATTLGLA----LVSLLFMSVALLGWYYLLPLVLLLQGMVNSARFSSMNTLTLKDLPDTLASSGNSLLSMIMQLSMSIGVTIAGMLLGMFGQQHIGIDSSATHHVFMYTWLCMAVIIALPAIIFARVPNDTQQNMVISRR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   VV+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L +L L+RV+QG+GG+M+VP+ RLT++++  +++ + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  ++   +L LA + S S  + P+       GG      Y  H K  S  ++S  LF   TF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T  LA    L++L   +  L  W +L   +    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    ++L  +    +   SS  H  F  T L +  I    +++F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81599331|sp|Q5PDW9.1|MDTD_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|224493138|sp|B5BF67.1|MDTD_SALPK RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601]</Hit_def>
+  <Hit_accession>Q5PDW9</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.5</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>5.75832e-90</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAI----GACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMVVVSYVLTVAVMLPASGWLADKIGVRNIFFAAIVLFTLGSLFCALSGTLNQLVLARVLQGVGGAMMVPVGRLTVMKIVPRAQYMAAMTFVTLPGQIGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAMATFMLMPNYTIETRRFDLPGFLLLAIGMAVLTLALDGSKSMGISPWTLAGLAAGGAAAILLYLFHAKKSSGALFSLRLFRTPTFSLGLLGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQIVNRFGYRRVLVATTLGLA----LVSLLFMSVALLGWYYLLPLVLLLQGMVNSARFSSMNTLTLKDLPDTLASSGNSLLSMIMQLSMSIGVTIAGMLLGMFGQQHIGIDSSATHHVFMYTWLCMAVIIALPAIIFARVPNDTQQNMVISRR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   VV+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L +L L+RV+QG+GG+M+VP+ RLT++++  +++ + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  ++   +L LA + S S  + P+       GG      Y  H K +S  ++S  LF   TF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T  LA    L++L   +  L  W +L   +    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    ++L  +    +   SS  H  F  T L +  I    +++F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|224493134|sp|B5FMU8.1|MDTD_SALDC</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853]</Hit_def>
+  <Hit_accession>B5FMU8</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.115</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>9.20063e-90</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAI----GACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMVVVSYVLTVAVMLPASGWLADKIGVRNIFFAAIVLFTLGSLFCALSGTLNQLVLARVLQGVGGAMMVPVGRLTVMKIVPRTQYMAAMTFVTLPGQIGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAMATFMLMPNYTIETRRFDLPGFLLLAIGMAVLTLALDGSKSMGISPWTLAGLAAGGAAAILLYLFHAKKNSGALFSLRLFRTPTFSLGLLGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQIVNRFGYRRVLVATTLGLA----LVSLLFMSVALLGWYYLLPLVLLLQGMVNSARFSSMNTLTLKDLPDTLASSGNSLLSMIMQLSMSIGVTIAGMLLGMFGQQHIGIDSSATHHVFMYTWLCMAVIIALPAIIFARVPNDTQQNMVISRR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   VV+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L +L L+RV+QG+GG+M+VP+ RLT++++  +++ + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  ++   +L LA + S S  + P+       GG      Y  H K  S  ++S  LF   TF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T  LA    L++L   +  L  W +L   +    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    ++L  +    +   SS  H  F  T L +  I    +++F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|224493133|sp|B5EXV9.1|MDTD_SALA4</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|224493135|sp|B5R0C2.1|MDTD_SALEP RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|224493137|sp|B4SXW2.1|MDTD_SALNS RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Newport str. SL254]</Hit_def>
+  <Hit_accession>B5EXV9</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>1.3644e-89</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAI----GACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMVVVSYVLTVAVMLPASGWLADKIGVRNIFFAAIVLFTLGSLFCALSGTLNQLVLARVLQGVGGAMMVPVGRLTVMKIVPRAQYMAAMTFVTLPGQIGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAMATFMLMPNYTIETRRFDLPGFLLLAIGMAVLTLALDGSKSMGISPWTLAGLAAGGAAAILLYLFHAKKNSGALFSLRLFRTPTFSLGLLGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQIVNRFGYRRVLVATTLGLA----LVSLLFMSVALLGWYYLLPLVLLLQGMVNSARFSSMNTLTLKDLPDTLASSGNSLLSMIMQLSMSIGVTIAGMLLGMFGQQHIGIDSSATHHVFMYTWLCMAVIIALPAIIFARVPNDTQQNMVISRR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   VV+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L +L L+RV+QG+GG+M+VP+ RLT++++  +++ + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  ++   +L LA + S S  + P+       GG      Y  H K  S  ++S  LF   TF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T  LA    L++L   +  L  W +L   +    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    ++L  +    +   SS  H  F  T L +  I    +++F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81593437|sp|Q8Z5F5.1|MDTD_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z5F5</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>1.39377e-89</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAI----GACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMVVVSYVLTVAVMLPASGWLADKIGVRNIFFAAIVLFTLGSLFCALSGTLNQLVLARVLQGVGGAMMVPVGRLTVMKIVPRAQYMAAMTFVALPGQIGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAMATFMLMPNYTIETRRFDLPGFLLLAIGMAVLTLALDGSKSMGISPWTLAGLAAGGAAAILLYLFHAKKNSGALFSLRLFRTPTFSLGLLGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQIVNRFGYRRVLVATTLGLA----LVSLLFMSVALLGWYYLLPLVLLLQGMVNSARFSSMNTLTLKDLPDTLASSGNSLLSMIMQLSMSIGVTIAGMLLGMFGQQHIGIDSSATHHVFMYTWLCMAVIIALPAIIFARVPNDTQQNMVISRR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   VV+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L +L L+RV+QG+GG+M+VP+ RLT++++  +++ + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  ++   +L LA + S S  + P+       GG      Y  H K  S  ++S  LF   TF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T  LA    L++L   +  L  W +L   +    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    ++L  +    +   SS  H  F  T L +  I    +++F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|167008985|sp|A4WCC3.1|MDTD_ENT38</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4WCC3</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>1.90969e-89</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>460</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESLSH-ALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMVIVSYVLTVAVMLPASGWMADKIGVRNIFFTAIVLFTLGSLFCAKADTLNELVMSRVLQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGILVEYASWHWIFLINLPVGIVGAIATLWLMPNYKMQTRRFDIFGFVLLAAGMATLTLALDGQKGLGISTLTLCLLIVIGIVSILWYLWHARDNDRALFSLALFRNTTYRIGLFGSFVGRLGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNYFGYRRVLVVCTLGLALISLVFMAVALMGWYYVLPLVLFFQ---GMINSTRFSSMNTLTLKDLPDELASSGNSLLSMIMQLSMSVGVTVAGLLLGMYGQQHLGADTAGAHHVFLYTYLSMAVIIALPALIFARVPNDTSKNVVIGRR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S ++ADK G + +FF +I +F LGS   A + +L EL +SRV+QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+NLP+G++G +    +MP+ K      D  G++  +     L LA +      +      L +  G++    Y  H +   + ++S  LF   T+R+GL G+   RLG   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++  FGYR VL+  T    L++   M +AL      L + +F     G  NS +FS+MNTLTL DL  +   SGNSL+++  QL++SVG+    L+L  +    L   ++G H  F  T LS+  I    +L+F R+      N+  G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81594937|sp|Q8ZNQ0.1|MDTD_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZNQ0</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>2.69714e-89</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAI----GACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMVVVSYVLTVAVMLPASGWLADKIGVRNIFFAAIVLFTLGSLFCALSGTLNQLVLARVLQGVGGAMMVPVGRLTVMKIVPRAQYMAAMTFVTLPGQIGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAMATFMLMPNYIIETRRFDLPGFLLLAIGMAVLTLALDGSKSMGISPWTLAGLAAGGAAAILLYLFHAKKNSGALFSLRLFRTPTFSLGLLGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQIVNRFGYRRVLVATTLGLA----LVSLLFMSVALLGWYYLLPLVLLLQGMVNSARFSSMNTLTLKDLPDTLASSGNSLLSMIMQLSMSIGVTIAGMLLGMFGQQHIGIDSSATHHVFMYTWLCMAVIIALPAIIFARVPNDTQQNMVISRR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   VV+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L +L L+RV+QG+GG+M+VP+ RLT++++  +++ + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  ++   +L LA + S S  + P+       GG      Y  H K  S  ++S  LF   TF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T  LA    L++L   +  L  W +L   +    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    ++L  +    +   SS  H  F  T L +  I    +++F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|167008986|sp|A6TBH6.1|MDTD_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TBH6</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>1.8046e-88</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>460</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-----SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAA---FIMLLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL----KNWTFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGAN</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMIIVSYVLTVAVMLPASGWLADRVGVRNIFFTAIVLFTAGSLFCAQASTLDQLVMARVLQGVGGAMMVPVGRLTVMKIVPRDQYMAAMTFVTLPGQVGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAIATLCLMPNYTMQTRRFDLSGFLLLAAGMATLTLALDGQKGLGISPAWLAGLVAVGLCALLL----YLWHARGNARALFSLNLFRNRTFSLGLGGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVASTLGLAAVSLLFMFSALAGWYYVLPLVLFLQ---GMINASRFSSMNTLTLKDLPDDLASSGNSLLSMVMQLSMSIGVTIAGLLLGLYGQQHMSLDAAST--HQVFLYTYLSMAAIIALPALIFSRVPDDVGSN</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LAD+ G + +FF +I +F  GS   A + +L +L ++RV+QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +     L LA +      +S A       + LC  LL    Y  H +  ++ ++S +LF  RTF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+ +T  LAA     M  AL      L + +FL    G  N+ +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L    +    L  AS+  H  F  T LS+  I    +L+F R+    G+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|224493132|sp|B5XPB7.1|MDTD_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XPB7</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>1.72129e-87</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>460</Hsp_align-len>
+      <Hsp_qseq>APSPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESLSHALPPYFALLPLCG-GLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAA---FIMLLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL----KNWTFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGAN</Hsp_qseq>
+      <Hsp_hseq>ASVRWQLWIVAFGFFMQSLDTTIVNTALPSMAKSLGESPLHMHMIIVSYVLTVAVMLPASGWLADRVGVRNIFFTAIVLFTAGSLFCAQASTLDQLVMARVLQGIGGAMMVPVGRLTVMKIVPRDQYMAAMTFVTLPGQVGPLLGPALGGVLVEYASWHWIFLINIPVGIVGAIATLCLMPNYTLQTRRFDLSGFLLLAAGMATLTLALDGQKGLGISSRWLAGLVAVGLAALLLYLWHARGNARALFSLNLFRNRTFSLGLGGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVASTLGLAAVSLLFMFSALAGWYYALPLVLFLQ---GMINSSRFSSMNTLTLKDLPDDLASSGNSLLSMVMQLSMSIGVTIAGLLLGLYGQQHMSLDAAST--HQVFLYTYLSMAAIIALPALIFSRVPDDVGTN</Hsp_hseq>
+      <Hsp_midline>A   W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LAD+ G + +FF +I +F  GS   A + +L +L ++RV+QGIGG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +     L LA +           L  L   GL     Y  H +  ++ ++S +LF  RTF LGL G+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+ +T  LAA     M  AL      L + +FL    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L    +    L  AS+  H  F  T LS+  I    +L+F R+    G N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|119372004|sp|Q1C5L8.1|MDTD_YERPA</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Yersinia pestis Antiqua] &gt;gi|119372005|sp|Q7CJL1.1|MDTD_YERPE RecName: Full=Putative multidrug resistance protein MdtD [Yersinia pestis] &gt;gi|119372006|sp|Q1CK62.1|MDTD_YERPN RecName: Full=Putative multidrug resistance protein MdtD [Yersinia pestis Nepal516] &gt;gi|167008987|sp|A7FG15.1|MDTD_YERP3 RecName: Full=Putative multidrug resistance protein MdtD [Yersinia pseudotuberculosis IP 31758] &gt;gi|167008988|sp|A4TMR4.1|MDTD_YERPP RecName: Full=Putative multidrug resistance protein MdtD [Yersinia pestis Pestoides F] &gt;gi|224493143|sp|B2K9M2.1|MDTD_YERPB RecName: Full=Putative multidrug resistance protein MdtD [Yersinia pseudotuberculosis PB1/+] &gt;gi|224493144|sp|A9QZU7.1|MDTD_YERPG RecName: Full=Putative multidrug resistance protein MdtD [Yersinia pestis Angola] &gt;gi|224493145|sp|B1JSD2.1|MDTD_YERPY RecName: Full=Putative multidrug resistance protein MdtD [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>Q1C5L8</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>8.10414e-87</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>455</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESLSH-ALPPY-FALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIM---LLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNWTFLIPASS--GLHFAFRMTLLSIGGITLASSLVFKRLHVSDGAN</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQTLDTTIVNTALPSIAASLGENPLRMQSVIVSYVLTVAVMLPASGWLADRIGVKWVFFSAIILFTFGSLMCAQSATLNELILSRVLQGVGGAMMVPVGRLTVMKIVPREQYMAAMAFVTLPGQIGPLVGPALGGFLVEFASWHWIFLINLPVGVIGALATLLLMPNHKMSTRRFDISGFIMLAIGMATLTLALDGHTGLGLSPLAIAGLILCGVIALG-SYWWHALGNRFALFSLHLFKNKIYTLGLVGSMSARIGSGMLPFMTPIFLQIGLGFSPFHAGLMMIPMIIGSMGMKRIIVQVVNRFGYRRVLVNATLLLAVVSLSLPLVAIMGWTLLMPVVLFFQ---GMLNALRFSTMNTLTLKTLPDRLASSGNSLLSMAMQLSMSIGVSTAGILLGTFAHHQVATNTPATHSAFLYSYLCMAIIIALPALIFNRVPPDTGAN</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP IAA L E+P  MQ  +V+Y LTVA+++P S +LAD+ G K VFF +I +F  GS + A S +L EL LSRV+QG+GG+M+VP+ RLT++++  + + + A+ +  +P  IGP +GP  GG+LVE+ASWHWIFL+NLP+G++G +    +MP+ K +    D  G++  ++    L LA +  +   L P   A L LCG +     Y+ H       ++S  LF  + + LGL G++ +R+G   +PF+ P+  Q+  GF    +G ++ P+ + S+ +K +I  ++ RFGYR VL+  T LLA   +   L+A+      + + +F     G  N+L+FS MNTLTL  L  +   SGNSL+++  QL++S+G+    ++L  +     A++    H AF  + L +  I    +L+F R+    GAN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81638882|sp|Q668C4.1|MDTD_YERPS</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Yersinia pseudotuberculosis IP 32953]</Hit_def>
+  <Hit_accession>Q668C4</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>7.63684e-86</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>455</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESLSH-ALPPY-FALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIM---LLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNWTFLIPASS--GLHFAFRMTLLSIGGITLASSLVFKRLHVSDGAN</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQTLDTTIVNTALPSIAASLGENPLRMQSVIVSYVLTVAVMLPASGWLADRIGVKWVFFSAIILFTFGSLMCAQSATLNELILSRVLQGVGDAMMVPVGRLTVMKIVPREQYMAAMAFVTLPGQIGPLVGPALGGFLVEFASWHWIFLINLPVGVIGALATLLLMPNHKMSTRRFDISGFIMLAIGMATLTLALDGHTGLGLSPLAIAGLILCGVIALG-SYWWHALGNRFALFSLHLFKNKIYTLGLVGSMSARIGSGMLPFMTPIFLQIGLGFSPFHAGLMMIPMIIGSMGMKRIIVQVVNRFGYRRVLVNATLLLAVVSLSLPLVAIMGWTLLMPVVLFFQ---GMLNALRFSTMNTLTLKTLPDRLASSGNSLLSMAMQLSMSIGVSTAGILLGTFAHHQVATNTPATHSAFLYSYLCMAIIIALPALIFNRVPPDTGAN</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP IAA L E+P  MQ  +V+Y LTVA+++P S +LAD+ G K VFF +I +F  GS + A S +L EL LSRV+QG+G +M+VP+ RLT++++  + + + A+ +  +P  IGP +GP  GG+LVE+ASWHWIFL+NLP+G++G +    +MP+ K +    D  G++  ++    L LA +  +   L P   A L LCG +     Y+ H       ++S  LF  + + LGL G++ +R+G   +PF+ P+  Q+  GF    +G ++ P+ + S+ +K +I  ++ RFGYR VL+  T LLA   +   L+A+      + + +F     G  N+L+FS MNTLTL  L  +   SGNSL+++  QL++S+G+    ++L  +     A++    H AF  + L +  I    +L+F R+    GAN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|81475699|sp|Q8FG02.1|MDTD_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FG02</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>2.33816e-83</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGI-VAGALILKNWTFLIPASSG-LHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQIGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAITTLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGFSPLAIAGLVAVGVVALVLYLLHAQNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGFGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLLGLFGSQHVSVDSGTTQTVFMYTWLSMASIIALPAFIFARVPNDTHQNVAISRR</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S      P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+ FGF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+ +AG L+    +  +   SG     F  T LS+  I    + +F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|226700790|sp|B7NQA9.1|MDTD_ECO7I</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli IAI39]</Hit_def>
+  <Hit_accession>B7NQA9</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>1.11138e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTMLFMTTALLGWYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T  L+   ML          ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|119371999|sp|Q0TG13.1|MDTD_ECOL5</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli 536]</Hit_def>
+  <Hit_accession>Q0TG13</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>1.54378e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGI-VAGALILKNWTFLIPASSG-LHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>TRWRLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAIAGLVAVGVVALVLYLLHAQNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLLGLFGSQHVSVDSGTTQTVFMYTWLSMASIIALPAFIFARVPNDTHQNVAISRR</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+ +AG L+    +  +   SG     F  T LS+  I    + +F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81764861|sp|Q8X7I3.1|MDTD_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli O157:H7] &gt;gi|224493128|sp|B5YUD5.1|MDTD_ECO5E RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli O157:H7 str. EC4115]</Hit_def>
+  <Hit_accession>Q8X7I3</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>1.7532e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAITGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLLGLFGSQHVSVDSSTTQTVFMYTWLSMAFIIALPAFIFARVPNDTHQNVAISRR</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L  +    +   SS     F  T LS+  I    + +F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|254810283|sp|B7L9V0.1|MDTD_ECO55</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli 55989]</Hit_def>
+  <Hit_accession>B7L9V0</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>1.79076e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|81724382|sp|Q83QZ0.1|MDTD_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q83QZ0</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>2.43521e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|224493131|sp|B1LNW4.1|MDTD_ECOSM</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>B1LNW4</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>2.51389e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|119372003|sp|Q3Z0C7.1|MDTD_SHISS</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Shigella sonnei Ss046]</Hit_def>
+  <Hit_accession>Q3Z0C7</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>2.6507e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLLLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLITLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2507449|sp|P36554.2|MDTD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli K-12] &gt;gi|167008984|sp|A8A1U9.1|MDTD_ECOHS RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli HS] &gt;gi|189081610|sp|B1IYZ7.1|MDTD_ECOLC RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli ATCC 8739] &gt;gi|224493129|sp|B1X7H3.1|MDTD_ECODH RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli str. K-12 substr. DH10B] &gt;gi|224493141|sp|B2TYA6.1|MDTD_SHIB3 RecName: Full=Putative multidrug resistance protein MdtD [Shigella boydii CDC 3083-94] &gt;gi|259495552|sp|C4ZSG5.1|MDTD_ECOBW RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P36554</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>3.17403e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLLLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLTIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|226699876|sp|B7NCB3.1|MDTD_ECOLU</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli UMN026]</Hit_def>
+  <Hit_accession>B7NCB3</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>3.84112e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAIGMAVLTLALDGSKGTGLSPLAITGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  ++   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|134034159|sp|Q0T353.2|MDTD_SHIF8</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q0T353</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>4.22552e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTAIPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTA+P +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|254810282|sp|B7UTB5.1|MDTD_ECO27</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli O127:H6 str. E2348/69]</Hit_def>
+  <Hit_accession>B7UTB5</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>4.22552e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAITGLVAVGVVALVLYLLHARNNHRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +   + ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|224493130|sp|B6HYS2.1|MDTD_ECOSE</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli SE11]</Hit_def>
+  <Hit_accession>B6HYS2</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>4.50292e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLTIDGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|226700791|sp|B7M460.1|MDTD_ECO8A</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli IAI1]</Hit_def>
+  <Hit_accession>B7M460</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>5.4492e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLTIDGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|119372000|sp|Q1R9Z4.1|MDTD_ECOUT</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli UTI89] &gt;gi|226700789|sp|B7ME89.1|MDTD_ECO45 RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli S88]</Hit_def>
+  <Hit_accession>Q1R9Z4</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>7.10196e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGI-VAGALILKNWTFLIPASSG-LHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGFSPLAIAGLVAVGVVALVLYLLHAQNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLLGLFGSQHVSVDSGTTQTVFMYTWLSMAFIIALPAFVFARVPSDTHQNVAISRR</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S      P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+ +AG L+    +  +   SG     F  T LS+  I    + VF R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|119372001|sp|Q323D8.1|MDTD_SHIBS</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Shigella boydii Sb227]</Hit_def>
+  <Hit_accession>Q323D8</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>8.32532e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLLLMPNYTMQTWRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|254810284|sp|B7MWZ0.1|MDTD_ECO81</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>B7MWZ0</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.929</Hsp_bit-score>
+      <Hsp_score>681</Hsp_score>
+      <Hsp_evalue>1.00745e-81</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGI-VAGALILKNWTFLIPASSG-LHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQIGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGFSPLAIAGLVAVGVVALVLYLLHAQNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRWVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLLGLFGSQHVSVDSGTTQTVFMYTWLSMAFIIALPAFVFARVPSDTHQNVAISRR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  IGP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S      P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+ +AG L+    +  +   SG     F  T LS+  I    + VF R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|189081611|sp|A7MHI9.1|MDTD_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MHI9</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.929</Hsp_bit-score>
+      <Hsp_score>681</Hsp_score>
+      <Hsp_evalue>1.05106e-81</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>WLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESL-SHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWN---TKLLAAFIMLLALPDGNSPLWIWIF--LSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNWTF--LIPASSGLHFAFRMTLLSIGGITLASSLVFKRL--HVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>WQLWIVAFGFFMQALDTTIVNTALPSMAASLGESPLRMHMVIVSYVLTVAVMLPASGWLADRVGVRNIFFTAIVLFTLGSLFCAQSSTLNELVAARVLQGIGGAMMVPVGRLTVMKIVPRDQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINLPVGIAGAAATLWLMPNYTMQTRRFDFSGFLLLAFGMAALTIALDGYRSTGLSPAGLGALVAGGSAATLLYLWHARGNERALFSLRLFNTRTFSLGLFGSLCGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMMPMVLGSMGIKRIVVQVVNRFGYRRVLVASTLALALVTLLFMGVALAG-----WYWLLPVVMLFQGMVNSVRFSTMNTLTLRDLPDEMASSGNSLLSMVMQLSMSLGVSIAGLLLGAFGHNQLAADSGDAHGIFFWTYLCMALIIALPALVFARVPDDISKNAVIARRKR</Hsp_hseq>
+      <Hsp_midline>W   ++A   FMQ LD TI+NTALP +AA L ESP  M   +V+Y LTVA+++P S +LAD+ G + +FF +I +F LGS   A S +L EL  +RV+QGIGG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+NLP+G+ G      +MP+        DF G+L  +     L +A +   S  L P      + GG      Y  H +   + ++S  LF  RTF LGL G+L  R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+ +     L+    M +AL       W W+   + L  G  NS++FS MNTLTL DL  +   SGNSL+++  QL++S+G+    L+L  +    L   S   H  F  T L +  I    +LVF R+   +S  A + R  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226701073|sp|B7LV41.1|MDTD_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LV41</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>1.98456e-81</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCG----GLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALILKNW--TFLIPASSGLHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSATLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSP----LAIAGLAAIGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLLGLFGSQHVSVDSSTTQTVFMYTWLSMALIIALPAFIFARVPNDTHQNVAISRR</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A S +L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P    L + G    G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L  +    +   SS     F  T LS+  I    + +F R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|134034158|sp|A1ACT2.1|MDTD_ECOK1</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli APEC O1]</Hit_def>
+  <Hit_accession>A1ACT2</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>3.78654e-81</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGI-VAGALILKNWTFLIPASSG-LHFAFRMTLLSIGGITLASSLVFKRLHVSDGANLTRGTR</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGFSPLAIAGLVAVGVVALVLYLLHAQNNNRALFSLKLFRTRNFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNRFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLLGLFGSQHVSVDSGTTQTVFMYTWLSMAFIIALPAFVFARVPSDTHQNVAISRR</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S      P      +  G++    Y  H +  ++ ++S  LF  R F LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++ RFGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+ +AG L+    +  +   SG     F  T LS+  I    + VF R+      N+    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|167008983|sp|A7ZNQ0.1|MDTD_ECO24</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Escherichia coli O139:H28 str. E24377A]</Hit_def>
+  <Hit_accession>A7ZNQ0</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>3.86759e-81</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>TRWQLWIVAFGFFMQSLDTTIVNTALPSMAQSLGESPLHMHMVIVSYVLTVAVMLPASGWLADKVGVRNIFFTAIVLFTLGSLFCALSGTLNELLLARALQGVGGAMMVPVGRLTVMKIVPREQYMAAMTFVTLPGQVGPLLGPALGGLLVEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLTIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGSFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNCFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+ W   ++A   FMQ LD TI+NTALP +A  L ESP  M   +V+Y LTVA+++P S +LADK G + +FF +I +F LGS   A SG+L EL L+R +QG+GG+M+VP+ RLT++++  + + + A+ +  +P  +GP LGP  GG LVEYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG+   R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++  FGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|119372002|sp|Q32EI1.1|MDTD_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtD [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32EI1</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>2.56888e-37</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>VEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAE-SLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNT---KLLAAFIMLLALPDGNSPLWIWI--FLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVGIVAGALIL</Hsp_qseq>
+      <Hsp_hseq>MEYASWHWIFLINIPVGIIGAIATLMLMPNYTMQTRRFDLSGFLLLAVGMAVLTLALDGSKGTGLSPLAIAGLVAVGVVALVLYLLHARNNNRALFSLKLFRTRTFSLGLAGGFAGRIGSGMLPFMTPVFLQIGLGFSPFHAGLMMIPMVLGSMGMKRIVVQVVNHFGYRRVLVATTLGLSLVTLLFMTTALLG-----WYYVLPFVLFLQGMVNSTRFSSMNTLTLKDLPDNLASSGNSLLSMIMQLSMSIGVTIAGLLL</Hsp_hseq>
+      <Hsp_midline>+EYASWHWIFL+N+P+G++G +    +MP+        D  G+L  +V   +L LA + S    L P      +  G++    Y  H +  ++ ++S  LF  RTF LGLAG    R+G   +PF+ P+  Q+  GF    +G ++ P+ L S+ +K ++  ++  FGYR VL+  T    L+    M  AL       W ++  F+    G  NS +FS+MNTLTL DL      SGNSL+++  QL++S+G+    L+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|613780835|sp|P9WG88.1|EMRB_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein B homolog [Mycobacterium tuberculosis CDC1551]</Hit_def>
+  <Hit_accession>P9WG88</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>8.12223e-34</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>IAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLT-----VALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMP-DVKGNDTALDFKGYLTFS--VAACLLLLAAESLSHALPPYFALLPLCGGLLFARRYFRHM-KTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNSPLWIWIF-LSLAIGA----CNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVG</Hsp_qseq>
+      <Hsp_hseq>LASVMAHVDVTVVSVAQRTFVADFGST-----QAVVAWTMTGYMLALATVIPTAGWAADRFGTRRLFMGSVLAFTLGSLLCAVAPNILLLIIFRVVQGFGGGMLTPVSFAILAREAGPKRLGRVMAVVGIPMLLGPVGGPILGGWLIGAYGWRWIFLVNLPVGLSALVLAAIVFPRDRPAASENFDYMGLLLLSPGLATFLFGVSSSPARGTMADRHVLIPAITGLALIAAFVAHSWYRTEHPLIDMRLFQNRAVAQANMTMTVLSLGLFGSFLLLPSYLQQVLHQSPMQSGVHIIPQGLGAMLAMPIAGAMMDRRGPAKIVLVGIMLIAAGLGTFAFGVARQADYLPILPTGLAIMGMGMVCSMMPLSGAAVQTLA---PHQIARGSTLISVNQQVGGSIG</Hsp_hseq>
+      <Hsp_midline>+A  M  +D T+++ A     AD   +     QAVVA+T+T     +A +IP + + AD+FGT+++F GS+  F LGS L A + ++  L + RVVQG GG ML P+    + R     +L   +    +P L+GP  GP+ GG+L+    W WIFL+NLP+GL   VL   + P D        D+ G L  S  +A  L  +++      +     L+P   GL     +  H       P+    LF  R             LG+     L+P   Q         SG  + P  L ++L  P+   +M R G   ++L    L+AA +   A        ++ I    LAI      C+ +  S     TLA   P Q   G++L++VNQQ+  S+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|613780863|sp|P9WG89.1|EMRB_MYCTU</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein B homolog [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WG89</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>1.21941e-32</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>IAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLT-----VALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMP-DVKGNDTALDFKGYLTFS--VAACLLLLAAESLSHALPPYFALLPLCGGLLFARRYFRHM-KTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALPDGNS-------PLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVG</Hsp_qseq>
+      <Hsp_hseq>LASVMAHVDVTVVSVAQRTFVADFGST-----QAVVAWTMTGYMLALATVIPTAGWAADRFGTRRLFMGSVLAFTLGSLLCAVAPNILLLIIFRVVQGFGGGMLTPVSFAILAREAGPKRLGRVMAVVGIPMLLGPVGGPILGGWLIGAYGWRWIFLVNLPVGLSALVLAAIVFPRDRPAASENFDYMGLLLLSPGLATFLFGVSSSPARGTMADRHVLIPAITGLALIAAFVAHSWYRTEHPLIDMRLFQNRAVAQANMTMTVLSLGLFGSFLLLPSYLQQVLHQSPMQSGVHIIPQGLGAMLAMPIAGAMMDRRGPAKIVLVGIMLIAAGLGTFAFGVARQADYLPILPTGLAIMGMGMGCSMMPLSGAAVQTLA-----PHQIARGSTLISVNQQVGGSIG</Hsp_hseq>
+      <Hsp_midline>+A  M  +D T+++ A     AD   +     QAVVA+T+T     +A +IP + + AD+FGT+++F GS+  F LGS L A + ++  L + RVVQG GG ML P+    + R     +L   +    +P L+GP  GP+ GG+L+    W WIFL+NLP+GL   VL   + P D        D+ G L  S  +A  L  +++      +     L+P   GL     +  H       P+    LF  R             LG+     L+P   Q         SG  + P  L ++L  P+   +M R G   ++L    L+AA +   A             P  + I       +   L  +A+ TL      P Q   G++L++VNQQ+  S+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|618798172|sp|P9WG86.1|Y1250_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized MFS-type transporter MT1289 [Mycobacterium tuberculosis CDC1551] &gt;gi|618798173|sp|P9WG87.1|Y1250_MYCTU RecName: Full=Uncharacterized MFS-type transporter Rv1250 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WG86</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>2.14237e-28</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>SPWLPLLLA--IAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFM---LGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESLSHALPPYFALLPLCGGLLFARRY-FRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPF-----LMPLMF--QVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLA-AFIMLLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVG</Hsp_qseq>
+      <Hsp_hseq>NPW-PALWAMMVGFFMIMLDSTVVAIANPTIMAQLRIGYATVVWVTSAYLLAYAVPMLVAGRLGDRFGPKNLYLIGLGVFTVASLGCGLSSGAGMLIA---ARVVQGVGAGLLTPQTLSTITRIFPAHRRGVALGAWGTVASVASLVGPLAGGALVDSMGWEWIFFVNVPVGVIGLILAAYLIPALPHHPHRFDWFGVGLSGAGMFLIVFGLQQGQSANWQPWIWAVIVGGIGFMSLFVYWQARNAREPLIPLEVFNDRNFSL-------SNLRIAIIAFAGTGMMLPVTFYAQAVCGLSPTHTAVLFAPTAIVGGVLAPFVGMIIDRSHPLCVLGFGFSVLAIAMTWLLCEMAPGTPIWRLVLPFIALGVAGAFVWSPLTVTATRNLRPHLAGASSGVFNAVRQLGAVLG</Hsp_hseq>
+      <Hsp_midline>+PW P L A  +  FM MLD+T++  A P I A L      +     AY L  A+ + ++  L D+FG K ++   + VF    LG  L + +G L     +RVVQG+G  +L P    TI R++   +   A+      A +   +GPLAGG LV+   W WIF +N+P+G++G +L   ++P +  +    D+ G         L++   +    A    +    + GG+ F   + +   + A +P+   ++F  R F L       S L I+ I F     ++P+ F  Q   G   + +  L AP A+   ++ P +  ++ R     VL +   +LA A   LL      +P+W  +   +A+G   +  +S +      +LRP   G+ + +    +QL   +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1706646|sp|P52600.1|EMRY_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Probable multidrug resistance protein EmrY [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P52600</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>2.36485e-27</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>LAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTA-----LDFKG--YLTFSVAACLLLL-AAESLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLL</Hsp_qseq>
+      <Hsp_hseq>LSLATFMQMLDSTISNVAIPTISGFLGASTDEGTWVITSFGVANAIAIPVTGRLAQRIGELRLFLLSVTFFSLSSLMCSLSTNLDVLIFFRVVQGLMAGPLIPLSQSLLLRNYPPEKRTFALALWSMTVIIAPICGPILGGYICDNFSWGWIFLINVPMGIIVLTLCLTLL---KGRETETSPVKMNLPGLTLLVLGVGGLQIMLDKGRDLDWFNSSTIIILTVVSVISLISLVIWE-STSENPILDLSLFKSRNFTIGIVSITCAYLFYSGAIVLMPQLLQETMGYNAIWAGLAYAPIGIMPLLISPLIG----RYGNKI----DMRLLVTFSFLM</Hsp_hseq>
+      <Hsp_midline>L++A FMQMLD+TI N A+P I+  L  S  +    + ++ +  A+ IP++  LA + G  ++F  S+  F L S + + S +L  L   RVVQG+    L+P+ +  +LR Y   K   A+    M  +I P  GP+ GGY+ +  SW WIFL+N+P+G++   L   ++   KG +T      ++  G   L   V    ++L     L         +L +   +           T+  PI    LF  R F +G+     + L  S    LMP + Q   G+ A  +G   AP+ +  LL+ PLI     R+G +     + +LL  F  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|84027814|sp|P0AEJ1.1|EMRB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Multidrug export protein EmrB [Escherichia coli O157:H7] &gt;gi|84027815|sp|P0AEJ0.1|EMRB_ECOLI RecName: Full=Multidrug export protein EmrB [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEJ1</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.46712e-26</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>LAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFKGYLTFSVAACLLLLAAESLSHALP-----PYF-----------ALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLG-LAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAAFIMLLALP-----DGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRPQQTGSGNSLMAVNQQLAISVG</Hsp_qseq>
+      <Hsp_hseq>LSLATFMQVLDSTIANVAIPTIAGNLGSSLSQGTWVITSFGVANAISIPLTGWLAKRVGEVKLFLWSTIAFAIASWACGVSSSLNMLIFFRVIQGIVAGPLIPLSQSLLLNNYPPAKRSIALALWSMTVIVAPICGPILGGYISDNYHWGWIFFINVPIGVAVVLMTLQTLRGRETRTERRRID-----AVGLALLVIGIGSLQIMLDRGKELDWFSSQEIIILTVVAVVAICFLIVWEL-------TDDNPIVDLSLFKSRNFTIGCLCISLAYMLYFGAI-VLLPQLLQEVYGYTATWAGLASAPVGIIPVILSPIIGRFAHKLDMRRLVTFSFIMYAVCFYWRAYTFEPGMDFGASAWPQFIQGFAV-ACF---FMPLTTITLSGLPPERLAAASSLSNFTRTLAGSIG</Hsp_hseq>
+      <Hsp_midline>L++A FMQ+LD+TI N A+P IA +L  S       + ++ +  A+ IPL+ +LA + G  K+F  S   F + S     S SL  L   RV+QGI    L+P+ +  +L  Y  +K   A+    M  ++ P  GP+ GGY+ +   W WIF +N+PIG+   ++    +   +              +V   LL++   SL   L       +F           A++ +C  +++         T   PI    LF  R F +G L  +L   L   +I  L+P + Q  +G+ A+ +G   APV +  +++ P+I     +   R ++ ++  + A      A       D  +  W       A+ AC    F  + T+TL+ L P++  + +SL    + LA S+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|13634050|sp|P76269.2|YEBQ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter YebQ [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76269</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>8.63496e-26</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>LLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGNDTALDFK------GYLTFSVAACLLLLAAESLSHALPPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFS----RLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYRTVLLWNTKLLAA----FIMLLALPDGNSPLWIWIFLSLAIGACNSLQFSAMNTLTLADLRP-QQTGSGNSLMAVNQQLAISVGIVAGALILKNW</Hsp_qseq>
+      <Hsp_hseq>LTIVIGISMAVLDGAIANVALPTIATDLHATPASSIWVVNAYQIAIVISLLSFSFLGDMFGYRRIYKCGLVVFLLSSLFCALSDSLQMLTLARVIQGFGGAALMSVNTALIRLIYPQRFLGRGMGINSFIVAVSSAAGPTIAAAILSIASWKWLFLINVPLGIIALLLAMRFLPPNGSRASKPRFDLPSAVMNALTFGLLITALSGFAQGQSLTLIAAELVVMVVVGIFFIRRQL----SLPVPLLPVDLLRIPLFSLSICTSVCSFCAQMLAMVSLPFYL----QTVLGRSEVETGLLLTPWPLATMVMAPLAGYLIERVHAGLLGALGLFIMAAGLFSLVLLPASPADINIIWPMILCGAGFGL-----FQSPNNHTIITSAPRERSGGASGMLGTARLLGQSSGAALVALMLNQF</Hsp_hseq>
+      <Hsp_midline>L + I I M +LD  I N ALP IA DL+ +P      V AY + + + +   S+L D FG ++++   + VF+L S   A S SL  LTL+RV+QG GG+ L+ +    I  +Y +  L   +        +  A GP     ++  ASW W+FL+N+P+G++  +L    +P      +   F         LTF +    L   A+  S  L     ++ +  G+ F RR      +   P+   DL  I  F L +  ++ S     L + S+PF +    Q   G     +G L+ P  L+++++ PL   L++R     +      ++AA     ++L A P   + +W  I      G      F + N  T+    P +++G  + ++   + L  S G    AL+L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1169524|sp|P44927.1|EMRB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Multidrug export protein EmrB [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44927</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>9.79178e-26</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>FMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIGLLGFVLGRNIMPDVKGN--DTALD-FKGYLTFSVAACLLLLAAESLSHAL--PPYFALLPLCGGLLFARRYFRHMKTASKPIYSADLFLIRTFRLG-LAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYR</Hsp_qseq>
+      <Hsp_hseq>FMQVLDSTIANVAIPTIAGDLGASFSQGTWVITSFGVANAISIPITGWLAKRFGEVRLFLVSTFLFVVSSWLCGIADSLEALIIFRVIQGAVAGPVIPLSQSLLLNNYPPEKRGMALAFWSMTIVVAPIFGPILGGWISDNIHWGWIFFINVPIGLSVVLISWKILGSRESEIVHQPIDKVGLVLLVLGVGCLQLMLDQGREQDWFNSNEIIILAVVAVVCLIALVIWEL-TDDNPVVDISLFHSRNFSVGCLCTSLAFLIYLGSV-VLIPLLLQQVFHYTATWAGLAASPVGLFPILLSPIIG----RFGYK</Hsp_hseq>
+      <Hsp_midline>FMQ+LD+TI N A+P IA DL  S       + ++ +  A+ IP++ +LA +FG  ++F  S  +F++ S L   + SL  L + RV+QG     ++P+ +  +L  Y   K   A+ +  M  ++ P  GP+ GG++ +   W WIF +N+PIGL   ++   I+   +       +D     L      CL L+  +             +L +   +         + T   P+    LF  R F +G L  +L   + + S+  L+PL+ Q  F + A+ +G   +PV L  +L+ P+I     RFGY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|3915990|sp|P54585.2|YHCA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized MFS-type transporter YhcA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54585</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>4.7909e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>EKNTLSARAPSPWLPLLLAIAIFMQMLDATILNTALPEIAADLNESPPDMQQAVVAYTLTVALLIPLSSYLADKFGTKKVFFGSIAVFMLGSALGAASGSLFELTLSRVVQGIGGSMLVPIPRLTILRVYEKSKLLNAINYAVMPALIGPALGPLAGGYLVEYASWHWIFLLNLPIG----LLGFVLGRNIMPDVKGNDTALDFKGYLTFSVA-ACLLLLAAESLSHALPPYFALLPLCGGLL----FARRYFRHMKTASKPIYSADLFLIRTFRLGLAGNLFSRLGISSIPFLMPLMFQVAFGFGASLSGWLVAPVALSSLLVKPLIAPLMKRFGYR</Hsp_qseq>
+      <Hsp_hseq>EKN---AKNPMSLLIVLMA-GLFLAILNQTLLNVAMPHLMTEFGVSATTIQWLTTGYMLVNGVLIPLSAFLITRFGQRSLFLVAMFCFTLGTLVCGIAPNFSTMLIGRLIQAVGGGILQPLVMTTILLIFPPESRGKGMGIFGLAMMFAPAVGPTLSGWIIEHYTWRIMFYGLVPIGAIVIIVAFFIFKNM---VEPQKIKLDTLGAILSIVGFASLLYGVSEAGSDGWTDPIVLSTVIIGAIAIVAFVVQQLRH----DDPMLDFRVFKYDIFSLSSVINIIITVALYTGMFLLPIYLQNLVGFTALQSGLLLLPGAIVMLIMSPISGILFDKFGPR</Hsp_hseq>
+      <Hsp_midline>EKN   A+ P   L +L+A  +F+ +L+ T+LN A+P +  +   S   +Q     Y L   +LIPLS++L  +FG + +F  ++  F LG+ +   + +   + + R++Q +GG +L P+   TIL ++        +    +  +  PA+GP   G+++E+ +W  +F   +PIG    ++ F + +N+   V+     LD  G +   V  A LL   +E+ S        L  +  G +    F  +  RH      P+    +F    F L    N+   + + +  FL+P+  Q   GF A  SG L+ P A+  L++ P+   L  +FG R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

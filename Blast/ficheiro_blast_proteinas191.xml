@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>14431</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>54</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>14431</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>54</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|47117813|sp|O61735.3|CLOCK_DROME</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput; AltName: Full=dCLOCK; AltName: Full=dPAS1 [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>O61735</Hit_accession>
+  <Hit_len>1027</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.615012</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHFDDLDSIVACHEELRQTGEGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY   ++    A       +G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81917913|sp|Q9WVS9.1|CLOCK_RAT</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput; Short=rCLOCK [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q9WVS9</Hit_accession>
+  <Hit_len>862</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.12159</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHVDDLESLAKCHEHLMQYGKGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + +++            G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81916242|sp|Q91YB2.1|CLOCK_SPACA</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput [Spalax carmeli]</Hit_def>
+  <Hit_accession>Q91YB2</Hit_accession>
+  <Hit_len>865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.31484</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHVDDLENLAKCHEHLMQYGKGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + +++            G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81916239|sp|Q91YA8.1|CLOCK_SPAJD</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput [Nannospalax judaei]</Hit_def>
+  <Hit_accession>Q91YA8</Hit_accession>
+  <Hit_len>865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.33821</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHVDDLENLAKCHEHLMQYGKGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + +++            G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81916241|sp|Q91YB0.1|CLOCK_NANGA</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput [Nannospalax galili]</Hit_def>
+  <Hit_accession>Q91YB0</Hit_accession>
+  <Hit_len>865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.35005</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHVDDLENLAKCHEHLMQYGKGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + +++            G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3914160|sp|P97460.1|NPAS2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Neuronal PAS domain-containing protein 2; Short=Neuronal PAS2 [Mus musculus]</Hit_def>
+  <Hit_accession>P97460</Hit_accession>
+  <Hit_len>816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.40283</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYNYYHIDDLELLARCHQHLMQFGKGKSCCYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + +++      +     G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|5921794|sp|O08785.1|CLOCK_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput; Short=mCLOCK [Mus musculus]</Hit_def>
+  <Hit_accession>O08785</Hit_accession>
+  <Hit_len>855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.43432</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHVDDLENLAKCHEHLMQYGKGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + +++            G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75070732|sp|Q5RAK8.1|CLOCK_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RAK8</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.45834</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHVDDLENLAKCHEHLMQYGKGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + +++            G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|6166009|sp|O15516.1|CLOCK_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput; Short=hCLOCK; AltName: Full=Class E basic helix-loop-helix protein 8; Short=bHLHe8 [Homo sapiens]</Hit_def>
+  <Hit_accession>O15516</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.52401</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHVDDLENLAKCHEHLMQYGKGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + +++            G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|311033423|sp|Q99743.3|NPAS2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Neuronal PAS domain-containing protein 2; Short=Neuronal PAS2; AltName: Full=Basic-helix-loop-helix-PAS protein MOP4; AltName: Full=Class E basic helix-loop-helix protein 9; Short=bHLHe9; AltName: Full=Member of PAS protein 4; AltName: Full=PAS domain-containing protein 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q99743</Hit_accession>
+  <Hit_len>824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.18128</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHIDDLELLARCHQHLMQFGKGKSCCYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + +++      +     G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|82206300|sp|Q6YGZ4.1|CLOCK_TYTAL</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput [Tyto alba]</Hit_def>
+  <Hit_accession>Q6YGZ4</Hit_accession>
+  <Hit_len>851</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.11058</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHVDDLDNLAKCHEHLMQYGKGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + ++             G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|118572227|sp|Q8QGQ6.2|CLOCK_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Circadian locomoter output cycles protein kaput [Gallus gallus]</Hit_def>
+  <Hit_accession>Q8QGQ6</Hit_accession>
+  <Hit_len>875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.11775</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHEVQERTALSRLPFDSGQRKTCSFRFLTK</Hsp_qseq>
+      <Hsp_hseq>SGYDYYHVDDLDNLAKCHEHLMQYGKGKSCYYRFLTK</Hsp_hseq>
+      <Hsp_midline>SGY YY + ++             G+ K+C +RFLTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|224488082|sp|Q7PP77.4|EIF3I_ANOGA</Hit_id>
+  <Hit_def>RecName: Full=Eukaryotic translation initiation factor 3 subunit I; Short=eIF3i [Anopheles gambiae]</Hit_def>
+  <Hit_accession>Q7PP77</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>6.42167</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>FLHEVQERTALSRLPFDSGQRKTCSFRFLTKCRLNGFQTAY</Hsp_qseq>
+      <Hsp_hseq>FLWDVETGTALGKIPCNSSVR-TCNFSF------SGNQASY</Hsp_hseq>
+      <Hsp_midline>FL +V+  TAL ++P +S  R TC+F F      +G Q +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|3913331|sp|Q27664.1|CP6B2_HELAM</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome P450 6B2; AltName: Full=CYPVIB2 [Helicoverpa armigera]</Hit_def>
+  <Hit_accession>Q27664</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>6.76912</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>YFLHEVQERTALSRLPFDSGQRKTCSFRF</Hsp_qseq>
+      <Hsp_hseq>FFAEEVGKRHPCAYLPFGLGQRNCIGMRF</Hsp_hseq>
+      <Hsp_midline>+F  EV +R   + LPF  GQR     RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|182701419|sp|Q7Z4N2.2|TRPM1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Transient receptor potential cation channel subfamily M member 1; AltName: Full=Long transient receptor potential channel 1; Short=LTrpC1; AltName: Full=Melastatin-1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q7Z4N2</Hit_accession>
+  <Hit_len>1603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.24281</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>1271</Hsp_hit-from>
+      <Hsp_hit-to>1305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>SGYYYYFLHE--VQERTALSRLPFDSGQRKTCSFR</Hsp_qseq>
+      <Hsp_hseq>SLYRYHFNGEELLFEDTSLSTSPGTGVRKKTCSFR</Hsp_hseq>
+      <Hsp_midline>S Y Y+F  E  + E T+LS  P    ++KTCSFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|11386701|sp|Q9V773.2|C6A20_DROME</Hit_id>
+  <Hit_def>RecName: Full=Probable cytochrome P450 6a20; AltName: Full=CYPVIA20 [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9V773</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.08226</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>EVQERTALSRLPFDSGQRKTCSFRF</Hsp_qseq>
+      <Hsp_hseq>QVQQRPACTFLPFGDGPRNCIGLRF</Hsp_hseq>
+      <Hsp_midline>+VQ+R A + LPF  G R     RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

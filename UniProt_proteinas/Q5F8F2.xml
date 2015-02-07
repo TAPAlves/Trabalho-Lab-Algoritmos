@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="70">
+<accession>Q5F8F2</accession>
+<name>Q5F8F2_NEIG1</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative ferredoxin</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">NGO0825</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89535.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207947.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8F2"/>
+<dbReference type="SMR" id="Q5F8F2">
+<property type="residue range" value="2-111"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0825"/>
+<dbReference type="EnsemblBacteria" id="AAW89535">
+<property type="protein sequence ID" value="AAW89535"/>
+<property type="gene ID" value="NGO0825"/>
+</dbReference>
+<dbReference type="GeneID" id="3282203"/>
+<dbReference type="KEGG" id="ngo:NGO0825"/>
+<dbReference type="PATRIC" id="20334808">
+<property type="gene designation" value="VBINeiGon24812_0974"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0633"/>
+<dbReference type="HOGENOM" id="HOG000244519"/>
+<dbReference type="KO" id="K04755"/>
+<dbReference type="OMA" id="PGNRIAS"/>
+<dbReference type="OrthoDB" id="EOG6KMB9X"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-777-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051537">
+<property type="term" value="F:2 iron, 2 sulfur cluster binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009055">
+<property type="term" value="F:electron carrier activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.10.20.30">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001041">
+<property type="entry name" value="2Fe-2S_ferredoxin-type"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001055">
+<property type="entry name" value="Adrenodoxin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018298">
+<property type="entry name" value="Adrenodoxin_Fe-S_BS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012675">
+<property type="entry name" value="Beta-grasp_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011536">
+<property type="entry name" value="Fd_isc"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00111">
+<property type="entry name" value="Fer2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00355">
+<property type="entry name" value="ADRENODOXIN"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54292">
+<property type="entry name" value="SSF54292"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR02007">
+<property type="entry name" value="fdx_isc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51085">
+<property type="entry name" value="2FE2S_FER_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00814">
+<property type="entry name" value="ADX"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0408" evidence="1">Iron</keyword>
+<keyword id="KW-0411" evidence="1">Iron-sulfur</keyword>
+<keyword id="KW-0479" evidence="1">Metal-binding</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU000391"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89535.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="113" mass="12400" checksum="28228A1FDB3C0E6A" modified="2005-03-15" version="1">
+MPKITVLPHATLCPEGAVIDNAPEGKTVLDVLLDHDIEVDHACEKSCACTTCHVIIRKGF
+DSLEEPAELEEDLLDQAWGLEADSRLSCQAVVAGEDLIVEIPKYTINHAREEH
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

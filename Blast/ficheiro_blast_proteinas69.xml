@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>43727</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>360</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>43727</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>360</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|9910653|sp|P57001.1|CYSG_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>P57001</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.709</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>3.25539e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_qseq>
+      <Hsp_hseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVRVAAKHLNAELSALAAENKILWLAEEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVDDRDHCSFIFPSVIDRNPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_hseq>
+      <Hsp_midline>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEV VAAKHLNAELSALAAENKILWLA+EFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVV DRDHCSFIFPSVIDR+PVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|187471058|sp|A1KU10.1|CYSG_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KU10</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>4.49356e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_qseq>
+      <Hsp_hseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVRVAAKHLNAELSALAAENKILWLAEEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVDDRDHCSFIFPSVIDRNPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_hseq>
+      <Hsp_midline>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEV VAAKHLNAELSALAAENKILWLA+EFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVV DRDHCSFIFPSVIDR+PVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|9911082|sp|P95370.3|CYSG_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>P95370</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>4.84515e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_qseq>
+      <Hsp_hseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVRVAAKHLNAELSALAAENKILWLAEEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVDDRDHCSFIFPSVIDRNPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_hseq>
+      <Hsp_midline>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEV VAAKHLNAELSALAAENKILWLA+EFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVV DRDHCSFIFPSVIDR+PVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|187471057|sp|A9LZ77.1|CYSG_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9LZ77</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>6.17266e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_qseq>
+      <Hsp_hseq>MNYFPIFANLAGRPVLVVGGGSVAARKISLLLDAGAQVRVVANQLNAELSALAAENKILWLAEEFRAEHIRTVFLIIAASSDQALNRRVFQLAESCQKPVNVVDDRDYCSFIFPSIINRNPIQIAVSSSGSAPVLARLLREKLEALLPHSLGDMAEISGRWRDA</Hsp_hseq>
+      <Hsp_midline>MNYFPIFANLAGRPVLVVGGG+VAARKISLLL AGA+V V A  LNAELSALAAENKILWLA+EFRAEHIRTVFLIIAASSDQALNRRVF LAESCQKPVNVV DRD+CSFIFPS+I+R+P+QIAVSSSGSAPVLARLLRE+LEALLP SLGDMAEISGRWRDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|187471080|sp|Q65T49.2|CYSG_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65T49</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>2.14193e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MNYFPVFADLNNRPVLVVGGGTIAARKVNLLLKANAEVRITAQKLNAELTALVEQDRIIWIAKEFHGEQIRNVFLVVAATDDEQLNEQVFQVAESRQKLVNVVDDQARCSFIFPSIIDRSPIQVAVSSGGAAPVLARLLREKLEALLPQHLGVMADISGKWR</Hsp_hseq>
+      <Hsp_midline>MNYFP+FA+L  RPVLVVGGG +AARK++LLLKA AEV + A+ LNAEL+AL  +++I+W+AKEF  E IR VFL++AA+ D+ LN +VF +AES QK VNVV D+  CSFIFPS+IDR P+Q+AVSS G+APVLARLLRE+LEALLP  LG MA+ISG+WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|187471019|sp|A6VPZ6.1|CYSG_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VPZ6</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>5.46682e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MHYFPVFADLNNRPVLVVGGGGVAARKVNLLLKANADVRIVAQKLNAELTALFELGHILWIAGEFNSEQIRNVFLVIAATDDEYLNERVFRVAESQQKLVNVVDDQARCSFIFPSIIDRNPIQVAVSSGGTAPVLARLLREKLEALLPQHLGAMADISGKWR</Hsp_hseq>
+      <Hsp_midline>M+YFP+FA+L  RPVLVVGGG VAARK++LLLKA A+V + A+ LNAEL+AL     ILW+A EF +E IR VFL+IAA+ D+ LN RVF +AES QK VNVV D+  CSFIFPS+IDR+P+Q+AVSS G+APVLARLLRE+LEALLP  LG MA+ISG+WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|254766526|sp|B0BTC2.1|CYSG_ACTPJ</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Actinobacillus pleuropneumoniae serovar 3 str. JL03]</Hit_def>
+  <Hit_accession>B0BTC2</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>2.14761e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_qseq>
+      <Hsp_hseq>MNYLPIFVDLKNRPVLVVGGGHIAVRKIDALLKAGASVKVVAEKLHSSLQSLTDEGKVEWIAKTFEANQVTNSYLVIAATDDNALNQLVFETAESQQRLVNVVDDQPRCSYIFPSIIDRSPVQIAISSGGAAPVLIRLLREKLEALIPPNLGAMADIATRWRSA</Hsp_hseq>
+      <Hsp_midline>MNY PIF +L  RPVLVVGGG +A RKI  LLKAGA V V A+ L++ L +L  E K+ W+AK F A  +   +L+IAA+ D ALN+ VF  AES Q+ VNVV D+  CS+IFPS+IDR PVQIA+SS G+APVL RLLRE+LEAL+PP+LG MA+I+ RWR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|254766525|sp|B3GZA0.1|CYSG_ACTP7</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Actinobacillus pleuropneumoniae serovar 7 str. AP76]</Hit_def>
+  <Hit_accession>B3GZA0</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>5.481e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_qseq>
+      <Hsp_hseq>MNYLPIFVDLKNRPVLVVGGGHVAVRKIYALLKADALVKVVAEKLHSSLQILVNEGKVEWLAKAFEASQVTSSYLVIAATDDNALNQQVFDTAESQQRLVNVVDDQPRCSYIFPSIIDRSPVQIAISSGGAAPVLIRLLREKLEALIPHNLGAMADIATRWRSA</Hsp_hseq>
+      <Hsp_midline>MNY PIF +L  RPVLVVGGG VA RKI  LLKA A V V A+ L++ L  L  E K+ WLAK F A  + + +L+IAA+ D ALN++VF  AES Q+ VNVV D+  CS+IFPS+IDR PVQIA+SS G+APVL RLLRE+LEAL+P +LG MA+I+ RWR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|187471010|sp|A7MJ67.1|CYSG1_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MJ67</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>3.35555e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDAGFYFPVQLVVRQDADKADGFRGYQGRIERG---SVTVGQTVRIEPNGLTAEVSEIIAPKGEVAQAFAG</Hsp_qseq>
+      <Hsp_hseq>MEYLPLFAQLKQRPVLVVGGGEVALRKIALLRRAGACVSVVAKKLHPELAALEQEGALRWLAQSFEPAQLDAVFLVIAATSDAALNRRVFDEANARQRLVNVVDDQPLCSFIFPSIVDRSPLIVAISSSGNAPVLARLLREKIESLLPASLGRMAEVAGGFRDR---------IKARIPTTDGRRRFWEKAFRGRFASLMAAGDTRAAEAVLEAELDAPQGPQGEIILVGAG</Hsp_hseq>
+      <Hsp_midline>M Y P+FA L  RPVLVVGGG VA RKI+LL +AGA V V AK L+ EL+AL  E  + WLA+ F    +  VFL+IAA+SD ALNRRVF  A + Q+ VNVV D+  CSFIFPS++DR P+ +A+SSSG+APVLARLLRE++E+LLP SLG MAE++G +RD          ++      DG R +  +  RG   S+      R     L AE+     P+GE+    AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|187471003|sp|A8G9Y3.1|CYSG1_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8G9Y3</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>1.95622e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYLPIFADLKQRPVLVVGGGEVAARKVDLLLRAGAEIRIVAQSLSPILEQLSQQGQIHWLGQAFAAEQLDEVFLVIAATDDSALNAEVFSEADKRRVLANVVDDQPRCSFIFPSIIDRSPLVVAVSSSGQAPVLARMLREKLEALLPASLGQMAEVAGRWR</Hsp_hseq>
+      <Hsp_midline>M+Y PIFA+L  RPVLVVGGG VAARK+ LLL+AGAE+ + A+ L+  L  L+ + +I WL + F AE +  VFL+IAA+ D ALN  VF  A+  +   NVV D+  CSFIFPS+IDR P+ +AVSSSG APVLAR+LRE+LEALLP SLG MAE++GRWR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81598376|sp|Q5NRM4.1|CYSG_ZYMMO</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Zymomonas mobilis subsp. mobilis ZM4 = ATCC 31821]</Hit_def>
+  <Hit_accession>Q5NRM4</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>1.16107e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYLPLFADIRQRPVLVVGGGEVAARKVALLKKAGAIIKIVAKNIHPELQILQENHEIEWLAKSFSPEQLDHVFLVIAATNDSLLNQQIYQAAEQRHRLVNVVDDQQKCSFIFPSIVDRAPITLALSSAGTSPVLVRMLREKLEALLPQSLGKMAEIAGKWR</Hsp_hseq>
+      <Hsp_midline>M+Y P+FA++  RPVLVVGGG VAARK++LL KAGA + + AK+++ EL  L   ++I WLAK F  E +  VFL+IAA++D  LN++++  AE   + VNVV D+  CSFIFPS++DR P+ +A+SS+G++PVL R+LRE+LEALLP SLG MAEI+G+WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123373435|sp|Q1CLS2.1|CYSG1_YERPN</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Yersinia pestis Nepal516] &gt;gi|187471017|sp|A4TPZ1.1|CYSG2_YERPP RecName: Full=Siroheme synthase 2; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 2; Short=Urogen III methylase 2; AltName: Full=SUMT 2; AltName: Full=Uroporphyrinogen III methylase 2; Short=UROM 2; Includes: RecName: Full=Precorrin-2 dehydrogenase 2; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 2 [Yersinia pestis Pestoides F]</Hit_def>
+  <Hit_accession>Q1CLS2</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>3.77799e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYLPLFADLKQRPVLIVGGGEVAARKIELLHRAGAQVWVVAQTLSSELEQQYQDGRIHWLAQDFLPEQLDNVFLVIAATNDTVLNAAVFAAADQRCILANVVDDQPLCSFIFPSIVDRSPLVVAISSSGQAPVLARILREKLEALLPTRLSDMAAIAGRWR</Hsp_hseq>
+      <Hsp_midline>M+Y P+FA+L  RPVL+VGGG VAARKI LL +AGA+V V A+ L++EL     + +I WLA++F  E +  VFL+IAA++D  LN  VF  A+      NVV D+  CSFIFPS++DR P+ +A+SSSG APVLAR+LRE+LEALLP  L DMA I+GRWR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81640345|sp|Q66EC9.1|CYSG1_YERPS</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Yersinia pseudotuberculosis IP 32953]</Hit_def>
+  <Hit_accession>Q66EC9</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>3.81713e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYLPLFADLKQRPVLIVGGGEVAARKIELLHRAGAQVWVVAQTLSSELEQQYQDGRIHWLAQDFLPEQLDNVFLVIAATNDTVLNAAVFAAADQRCILANVVDDQPLCSFIFPSIVDRSPLVVAISSSGQAPVLARILREKLEALLPTRLSDMAAIAGRWR</Hsp_hseq>
+      <Hsp_midline>M+Y P+FA+L  RPVL+VGGG VAARKI LL +AGA+V V A+ L++EL     + +I WLA++F  E +  VFL+IAA++D  LN  VF  A+      NVV D+  CSFIFPS++DR P+ +A+SSSG APVLAR+LRE+LEALLP  L DMA I+GRWR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|187471005|sp|A7FLY4.1|CYSG1_YERP3</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Yersinia pseudotuberculosis IP 31758]</Hit_def>
+  <Hit_accession>A7FLY4</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>4.40963e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYLPLFADLKQRPVLIVGGGEVAARKIELLHRAGAQVWVVAQTLSSELEQQYQDGRIHWLAQDFLPEQLDNVFLVIAATNDTVLNAAVFAAADQRCILANVVDDQPLCSFIFPSIVDRSPLVVAISSSGQAPVLARILREKLEALLPTRLSDMAAIAGRWR</Hsp_hseq>
+      <Hsp_midline>M+Y P+FA+L  RPVL+VGGG VAARKI LL +AGA+V V A+ L++EL     + +I WLA++F  E +  VFL+IAA++D  LN  VF  A+      NVV D+  CSFIFPS++DR P+ +A+SSSG APVLAR+LRE+LEALLP  L DMA I+GRWR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|81707796|sp|Q7N8L2.1|CYSG_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N8L2</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>1.07482e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MDYLPIFVELKGRLVLLVGGGEVAARKATLLLRAGALLQVVAPELCSELQQRYQAGELEWYQGEFQPEYLDGIFLVIAATDDRILNHQVFSEADKRSILVNVVDDQVHCSFIFPSIIDRSPVLVAISSAGKAPVLARLIREKLEALLPSSLGTMAKIAGKWRE</Hsp_hseq>
+      <Hsp_midline>M+Y PIF  L GR VL+VGGG VAARK +LLL+AGA + V A  L +EL       ++ W   EF+ E++  +FL+IAA+ D+ LN +VF  A+     VNVV D+ HCSFIFPS+IDR PV +A+SS+G APVLARL+RE+LEALLP SLG MA+I+G+WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|187471004|sp|A1JJS8.1|CYSG1_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JJS8</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>3.99204e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDAGFYFPVQLVVRQDADKADGFRGYQGRIERGSVTVGQTVRIEPNGLTAEVSEIIAPKGEVAQA</Hsp_qseq>
+      <Hsp_hseq>MDYLPLFADLKRRPVLVVGGGEVAARKIDLLHRAGAQVRVVAQTLSSELEQLHQDGRIHWLALDFLPEQLDEVFLVIAATNDTALNAAVFAAADQRHLLANVVDDQPRCSFIFPSIVDRSPLVVAISSAGQAPVLARILREKLEALLPSSLGDMAAVAGRWR--------------------------GRVKQHIASMGERRRFWENAFSGRFASLIS-RGQLAQA</Hsp_hseq>
+      <Hsp_midline>M+Y P+FA+L  RPVLVVGGG VAARKI LL +AGA+V V A+ L++EL  L  + +I WLA +F  E +  VFL+IAA++D ALN  VF  A+      NVV D+  CSFIFPS++DR P+ +A+SS+G APVLAR+LRE+LEALLP SLGDMA ++GRWR                          GR+++   ++G+  R   N  +   + +I+ +G++AQA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81644102|sp|Q6D1A4.1|CYSG1_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D1A4</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>1.93449e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MNYLPIFADLRQRPVLVVGGGEVATRKIDLLQRAGAEVKIVALALAEPLAAQHQAGQVEWLAQSFTPELLSGVFLVIAATDDAELNAAVFEAANQRHLLVNVVDDQPKCTFIFPSIVDRSPLVVAISSGGQAPVLARLLREKLESLLPASLGTMAEIAGSWRD</Hsp_hseq>
+      <Hsp_midline>MNY PIFA+L  RPVLVVGGG VA RKI LL +AGAEV + A  L   L+A     ++ WLA+ F  E +  VFL+IAA+ D  LN  VF  A      VNVV D+  C+FIFPS++DR P+ +A+SS G APVLARLLRE+LE+LLP SLG MAEI+G WRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|123520030|sp|Q2NVN0.1|CYSG_SODGM</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Sodalis glossinidius str. &apos;morsitans&apos;]</Hit_def>
+  <Hit_accession>Q2NVN0</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>8.46341e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MEYLPLFADLRRRPVLVVGGGEVAARKIQLLMRAGAQIIVAARALCPALEEIRQAGGLSWLGESFEPAMLDDVFLVIAATDDAALNARVSQCAEQRHLLANVVDDQPYCSFIFPSIIDRAPIVVAISSSGTAPVLARILREKLESILPTFLGPMAAIAGAWR</Hsp_hseq>
+      <Hsp_midline>M Y P+FA+L  RPVLVVGGG VAARKI LL++AGA++ VAA+ L   L  +     + WL + F    +  VFL+IAA+ D ALN RV   AE      NVV D+ +CSFIFPS+IDR P+ +A+SSSG+APVLAR+LRE+LE++LP  LG MA I+G WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|187471083|sp|A6TD45.2|CYSG1_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TD45</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>4.70842e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MDYLPLFAELKQRPVLVIGGGEIAERKIKFLLRAQAQVQVVAETLSPALADLAARQALSWRATEFSDSLVDDVFLVIAATEDDALNQRVFAAANARYRLVNVVDNQALCSFVFPSIVDRSPLLVAISSSGKAPVLSRILREKIEALLPTNLGRLAESASYWRN</Hsp_hseq>
+      <Hsp_midline>M+Y P+FA L  RPVLV+GGG +A RKI  LL+A A+V V A+ L+  L+ LAA   + W A EF    +  VFL+IAA+ D ALN+RVF  A +  + VNVV ++  CSF+FPS++DR P+ +A+SSSG APVL+R+LRE++EALLP +LG +AE +  WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|11386739|sp|P57500.1|CYSG_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57500</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>2.25366e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_qseq>
+      <Hsp_hseq>MNYLPIFIDLKSKNVLVIGAGEVGLNKIRILLRAKAKVNVIAKELCSEVKLLLRDQKINWLSKNFDLIYLNKIFLVVSATNDIKLNQYIFKKCNERCVLVNIVDDKLKCSFIFPSIIDRSPLIVAISSGGTAPVLLRLLREKIEAILPNKLGDVAKIAGKWRLA</Hsp_hseq>
+      <Hsp_midline>MNY PIF +L  + VLV+G G V   KI +LL+A A+V V AK L +E+  L  + KI WL+K F   ++  +FL+++A++D  LN+ +F         VN+V D+  CSFIFPS+IDR P+ +A+SS G+APVL RLLRE++EA+LP  LGD+A+I+G+WR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|187471020|sp|Q1LTP4.1|CYSG_BAUCH</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Baumannia cicadellinicola str. Hc (Homalodisca coagulata)]</Hit_def>
+  <Hit_accession>Q1LTP4</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>6.04216e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MEYLPLFANLRQRTVLVVGGGNVAARKIQLLMRTGAHIKVVADDLCPELARIVNKKDINWIGKLFEPAMLDEVFLVIAATNNTKLNALVYKCAEKRHIFANIVDKQSYCSFIFPSIVDRSPIVVAISSSGKAPVLARILREKIETILPMFIGPMATLVGTWRN</Hsp_hseq>
+      <Hsp_midline>M Y P+FANL  R VLVVGGG VAARKI LL++ GA + V A  L  EL+ +  +  I W+ K F    +  VFL+IAA+++  LN  V+  AE      N+V  + +CSFIFPS++DR P+ +A+SSSG APVLAR+LRE++E +LP  +G MA + G WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|81697276|sp|Q6LM67.1|CYSG_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LM67</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>1.16909e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYLPIFTDLKRRPCLVVGGGDVAWRKARMLLKAGADVRVIAPVLNQAFQQAIEQQQVSHVADEFESSHLDGIFLAIAATDRKAVNALVYQSANQRQVLVNVVDDTQRCSFIIPSIIDRSPIIVAVSSSGKAPVLARLIREKLEALLPQHLGRMATIAGNFR</Hsp_hseq>
+      <Hsp_midline>M+Y PIF +L  RP LVVGGG VA RK  +LLKAGA+V V A  LN        + ++  +A EF + H+  +FL IAA+  +A+N  V+  A   Q  VNVV D   CSFI PS+IDR P+ +AVSSSG APVLARL+RE+LEALLP  LG MA I+G +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|187471032|sp|A1AVU5.1|CYSG_RUTMC</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Candidatus Ruthia magnifica str. Cm (Calyptogena magnifica)]</Hit_def>
+  <Hit_accession>A1AVU5</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>5.58993e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MNYLPIFIDIKQKPCLVVGGGDIAYRKINFLLKAHGQVTCIAKSSCKNVVKLASDNKIIYFEKSFEASDIKEQVLIVSATDNTSLNKQVSELSNQNNIPVNVVDSPDLCTFIMPSIVDRSPIVIAISSAGKAPVLARLIRAKLESTLPHAYGKLAELAGNFRD</Hsp_hseq>
+      <Hsp_midline>MNY PIF ++  +P LVVGGG +A RKI+ LLKA  +V   AK     +  LA++NKI++  K F A  I+   LI++A+ + +LN++V  L+     PVNVV   D C+FI PS++DR P+ IA+SS+G APVLARL+R +LE+ LP + G +AE++G +RD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123641107|sp|Q493N1.1|CYSG_BLOPB</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Candidatus Blochmannia pennsylvanicus str. BPEN]</Hit_def>
+  <Hit_accession>Q493N1</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.009e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDAGFYFPVQLVVRQDADKADGFRGY</Hsp_qseq>
+      <Hsp_hseq>MEYLPIFIDLKNRPVLVVGGGAVAARKIHMLQRA--TITIVAPALCTELKKVLIKQNISWISKNFQPIMLNKVILVIVATNDSKLNTFIYQNAEKHNILINTVDDKNKCSFIFPAIIDRNPVLIGISSCGKAPILVRILREKLELLLPKSLGFVAKLAGAWRNKVKQHIVDTVLRRQFWEKIFYNGH</Hsp_hseq>
+      <Hsp_midline>M Y PIF +L  RPVLVVGGGAVAARKI +L +A   + + A  L  EL  +  +  I W++K F+   +  V L+I A++D  LN  ++  AE     +N V D++ CSFIFP++IDR+PV I +SS G AP+L R+LRE+LE LLP SLG +A+++G WR+      V  V+R+   +   + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|123589658|sp|Q3ILQ9.1|CYSG_PSEHT</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Pseudoalteromonas haloplanktis TAC125]</Hit_def>
+  <Hit_accession>Q3ILQ9</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>2.13525e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDAGFYFPVQLVVRQDADKADGFRGYQGRIERGSVTVGQTVRIEPNGLTAEVSEIIAPKGEVAQAFAG</Hsp_qseq>
+      <Hsp_hseq>MQYLPIFTKLDNKPVLVVGGGDVALRKCSALLKARASITLVAPKFCQQLIELASENKVTLIHEYFSEQHLKNMMLVIAATDLEHVNSQVFELANAHNIFVNVVDDQPKCTFIFPSIVDRNPITIAISSAGTAPVLARRLREKLETLIPQHIGPLATLVG-----GFRSKVKQRFKHFADRRQFWEGVFDSSVVSKVQTGDTQAAEQQ-LEHMLNAKAEPEGEVYVVGAG</Hsp_hseq>
+      <Hsp_midline>M Y PIF  L  +PVLVVGGG VA RK S LLKA A + + A     +L  LA+ENK+  + + F  +H++ + L+IAA+  + +N +VF LA +    VNVV D+  C+FIFPS++DR+P+ IA+SS+G+APVLAR LRE+LE L+P  +G +A + G     GF   V+   +  AD+   + G         V  G T   E   L   ++    P+GEV    AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|81713099|sp|Q7VQG9.1|CYSG_BLOFL</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Candidatus Blochmannia floridanus]</Hit_def>
+  <Hit_accession>Q7VQG9</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.50779e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MRYLPLFVYLNNKPVLVVGGGIVAFRKVQILQKTGAIIQIVAKTLCLNLKTTLFKKKIIWIGKVFQISMLDNVFLVIIATDDTDFNDMVFKYAEKRHILVNTVDDPAKCSFIFPAIIDRSPILIGISSGGQAPVLIRMLKEKLESLIPMSIGYVASLAGIWRN</Hsp_hseq>
+      <Hsp_midline>M Y P+F  L  +PVLVVGGG VA RK+ +L K GA + + AK L   L     + KI+W+ K F+   +  VFL+I A+ D   N  VF  AE     VN V D   CSFIFP++IDR P+ I +SS G APVL R+L+E+LE+L+P S+G +A ++G WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|187471035|sp|A5CXE4.1|CYSG_VESOH</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Candidatus Vesicomyosocius okutanii HA]</Hit_def>
+  <Hit_accession>A5CXE4</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>9.09983e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MNYLPIFIDIKQKPCLVVGGGSIAYRKINLLLKAYGQVTCIAKSSCKNVAKLVNNKKIIYIERSFESSDVNGQVLIISATNNATLNKKVSELASQNNIPVNVIDSPDLCTFIMPSIVDRSPILIAISSAGKAPVLARIIRAKLESTLPHAYGKLAELAGNFRD</Hsp_hseq>
+      <Hsp_midline>MNY PIF ++  +P LVVGGG++A RKI+LLLKA  +V   AK     ++ L    KI+++ + F +  +    LII+A+++  LN++V  LA     PVNV+   D C+FI PS++DR P+ IA+SS+G APVLAR++R +LE+ LP + G +AE++G +RD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|187471030|sp|A1SRP9.1|CYSG_PSYIN</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Psychromonas ingrahamii 37]</Hit_def>
+  <Hit_accession>A1SRP9</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>3.95032e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYLPIFTKLENRPCLVVGGGSIACRKIHLLLKAGADVTVCALEFNPSLLKQAANKELKILEQAFTEELLENKWLVIAATNKKQVNEHIATAAHAKQLLVNVVGQADISSFILPSIVDRSPLVVAISSGGKAPVLARLIRERLETLLPMHLGRLAAISAQFR</Hsp_hseq>
+      <Hsp_midline>M+Y PIF  L  RP LVVGGG++A RKI LLLKAGA+V V A   N  L   AA  ++  L + F  E +   +L+IAA++ + +N  +   A + Q  VNVVG  D  SFI PS++DR P+ +A+SS G APVLARL+RERLE LLP  LG +A IS ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|187471018|sp|A0KQJ4.1|CYSG3_AERHH</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 3; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 3; Short=Urogen III methylase 3; AltName: Full=SUMT 3; AltName: Full=Uroporphyrinogen III methylase 3; Short=UROM 3; Includes: RecName: Full=Precorrin-2 dehydrogenase 3; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 3 [Aeromonas hydrophila subsp. hydrophila ATCC 7966]</Hit_def>
+  <Hit_accession>A0KQJ4</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.18041e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MDYLPIFCRLDNKPVLLVGGGEVAERKARLLLDAGAQLTVVAPELDPELAELAANGSIEWLAGEFAPQQLTGKWLVVAATDRREVNALVYQSANQARIFANVVDDPKRSSFIMPSIIDRSPLMVAISSGGKAPVLARLLREKLEALLPQHLGAVAAFAGSLRE</Hsp_hseq>
+      <Hsp_midline>M+Y PIF  L  +PVL+VGGG VA RK  LLL AGA++ V A  L+ EL+ LAA   I WLA EF  + +   +L++AA+  + +N  V+  A   +   NVV D    SFI PS+IDR P+ +A+SS G APVLARLLRE+LEALLP  LG +A  +G  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|187471069|sp|Q820Q4.2|CYSG_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q820Q4</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>6.21559e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKIL-WLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MDYLPVFLNIKQRDCLVVGGGEIAVRKIRLLLRAHARIHVVSPAISEELSNLLLQSPVITHTAESFRPDHLQDRALAIAATNDHEVNRAVSAAARKAGIPVNVVDNPDLCTFIMPSILDRSPIIVAVSSGGTSPILARLLRSRLEALIPSAYGRLAEYAARFRD</Hsp_hseq>
+      <Hsp_midline>M+Y P+F N+  R  LVVGGG +A RKI LLL+A A + V +  ++ ELS L  ++ ++   A+ FR +H++   L IAA++D  +NR V   A     PVNVV + D C+FI PS++DR P+ +AVSS G++P+LARLLR RLEAL+P + G +AE + R+RD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|122314096|sp|Q0AHC1.1|CYSG_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Nitrosomonas eutropha C91]</Hit_def>
+  <Hit_accession>Q0AHC1</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>6.40684e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAE-NKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYFPVFLNIKQRNCLIVGGGSVAARKAKLLLRAGAHIHVVSPTINAEFTGLLQQFSSISHNAETFRPDHLQGRVLVIAATHDRATNQAVSVAARKAGIPVNVVDNPDLCTFIMPSILDRSPIIVAVSSGGGSPVLARLLRARLEALIPAAYGRLATYAAQFR</Hsp_hseq>
+      <Hsp_midline>M+YFP+F N+  R  L+VGGG+VAARK  LLL+AGA + V +  +NAE + L  + + I   A+ FR +H++   L+IAA+ D+A N+ V   A     PVNVV + D C+FI PS++DR P+ +AVSS G +PVLARLLR RLEAL+P + G +A  + ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|123594735|sp|Q3JCS0.1|CYSG_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3JCS0</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>6.42007e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MQYLPIFLNIRGQQCLVVGGGTVAVRKVALLRQAGAEVKVIAPKLHEQLQEWADKGKITAQQASFSETEIKSCYLVIAATDDSSLNEQVYHLATAQGVLVNVADCPRFCDFILPSIVDRSPVIVAVSSGGASPVLARLLRARLETLIPQAYGRLGQFAARYRS</Hsp_hseq>
+      <Hsp_midline>M Y PIF N+ G+  LVVGGG VA RK++LL +AGAEV V A  L+ +L   A + KI      F    I++ +L+IAA+ D +LN +V+HLA +    VNV      C FI PS++DR PV +AVSS G++PVLARLLR RLE L+P + G + + + R+R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|187471009|sp|A4SHL4.1|CYSG1_AERS4</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Aeromonas salmonicida subsp. salmonicida A449]</Hit_def>
+  <Hit_accession>A4SHL4</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>8.30072e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYLPIFCRLDNKPVLLVGGGEVAERKARLLLDAGARLTVVSPALDPELAALATSGTIDWLAAEFEPAHLTGKWLVVAATDRREVNALVYQSANQAGIFANVVDDPKRSSFIMPSIIDRSPLMVAISSGGKAPVLARLLREKLEALLPQHLGAVAAFAGGLR</Hsp_hseq>
+      <Hsp_midline>M+Y PIF  L  +PVL+VGGG VA RK  LLL AGA + V +  L+ EL+ALA    I WLA EF   H+   +L++AA+  + +N  V+  A       NVV D    SFI PS+IDR P+ +A+SS G APVLARLLRE+LEALLP  LG +A  +G  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|187471081|sp|Q2KWB0.2|CYSG_BORA1</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Bordetella avium 197N]</Hit_def>
+  <Hit_accession>Q2KWB0</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>3.7651e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDA</Hsp_qseq>
+      <Hsp_hseq>MKLFPIFSDIKGRCVLVVGGGAVATRKAQALLEAGAAVSVGAPTLTPELARLAQGQTITHLQGEFDADWLKDAWLIIAATDDRTVNTRVYEAACARRQFCNVVDDPALSSFQVPSIVDRSPLIVAISSSGLAPVLARRLRERLESLFDHSLGALAELAARYRPA</Hsp_hseq>
+      <Hsp_midline>M  FPIF+++ GR VLVVGGGAVA RK   LL+AGA V V A  L  EL+ LA    I  L  EF A+ ++  +LIIAA+ D+ +N RV+  A + ++  NVV D    SF  PS++DR P+ +A+SSSG APVLAR LRERLE+L   SLG +AE++ R+R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|187471070|sp|Q2Y6L7.2|CYSG_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2Y6L7</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.19683e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAEL----SALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MNFLPIFLDIHDRNCVVAGGGEVAARKVAMLLRAGAHVTVVAPRLCSELLEQLNEQSREGKLAYRAETFQDEHLADAVLVIAATDDFAVNQRISEAAKRLRIPVNVVDNPGLCSFIMPSIVDRTPVVVAVSSGGASPVLTRLLRARLETMIPMAYGRLAAYAGEFRD</Hsp_hseq>
+      <Hsp_midline>MN+ PIF ++  R  +V GGG VAARK+++LL+AGA V V A  L +EL    +  + E K+ + A+ F+ EH+    L+IAA+ D A+N+R+   A+  + PVNVV +   CSFI PS++DR PV +AVSS G++PVL RLLR RLE ++P + G +A  +G +RD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|259586098|sp|C4LAG5.1|CYSG_TOLAT</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Tolumonas auensis DSM 9187]</Hit_def>
+  <Hit_accession>C4LAG5</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>3.94559e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MDYLPLFARLNNRAVLLVGGGDIALRKARLLLDAGANLTVVAPSLHEELTELLVGHT--YIPSRFTAAYLNDQMLVIAATDDEEVNAEVAAAADAANIWVNVVDDPDRSSFIFPSIIDRSPIMVAVSSGGKAPVLVRMLRERLEALLPKHLGALANLSGEWRN</Hsp_hseq>
+      <Hsp_midline>M+Y P+FA L  R VL+VGGG +A RK  LLL AGA + V A  L+ EL+ L   +   ++   F A ++    L+IAA+ D+ +N  V   A++    VNVV D D  SFIFPS+IDR P+ +AVSS G APVL R+LRERLEALLP  LG +A +SG WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|187471008|sp|A0KLD7.1|CYSG1_AERHH</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Aeromonas hydrophila subsp. hydrophila ATCC 7966]</Hit_def>
+  <Hit_accession>A0KLD7</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>6.89846e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRDAGFYFPVQLVVRQ</Hsp_qseq>
+      <Hsp_hseq>MDFLPLFCQLQHKPVLIVGGGEVAVRKARLLLDAKARVTINAPHLEPQLMSWAEQGLLTVCAADFHPELLDGKWLVIAATNQPEVNQQVFNEANRRQIFCNVVDSPAHCSAIMPAIIDRSPLMVAISSAGSAPLLSRQLREKIEALLPQHLGQLATLAGKLRERVKAIPDKLARRR</Hsp_hseq>
+      <Hsp_midline>M++ P+F  L  +PVL+VGGG VA RK  LLL A A V + A HL  +L + A +  +   A +F  E +   +L+IAA++   +N++VF+ A   Q   NVV    HCS I P++IDR P+ +A+SS+GSAP+L+R LRE++EALLP  LG +A ++G+ R+     P +L  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|254766552|sp|B8GUD3.1|CYSG_THISH</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Thioalkalivibrio sulfidiphilus HL-EbGr7]</Hit_def>
+  <Hit_accession>B8GUD3</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>1.47469e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDFFPVFMRLKDRACLVVGGGPVALRKVSLLRKAHARVTVVSPALCPELAALKARDAIEHLPRGFEDADVDARVLVIAATDDEDLNRHVSELCTERCIPVNVVDQPELCGFITPSMIDRSPIQVAVSTGGSSPVLARLLRSRIESFIPAAYGRLAALVEGYR</Hsp_hseq>
+      <Hsp_midline>M++FP+F  L  R  LVVGGG VA RK+SLL KA A V V +  L  EL+AL A + I  L + F    +    L+IAA+ D+ LNR V  L      PVNVV   + C FI PS+IDR P+Q+AVS+ GS+PVLARLLR R+E+ +P + G +A +   +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|187471078|sp|Q4FSU1.2|CYSG_PSYA2</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Psychrobacter arcticus 273-4]</Hit_def>
+  <Hit_accession>Q4FSU1</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>1.72101e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MNTFPLFFKLEDRKVLIVGGGDVALRKADLLSRAGACITVLAPSINHEIQALLSSSKHELIYEHYNKTYMTNSRVIIAATDDERLNHQIHADATALNIPVNVVDTPHLCDFIFPAIVDRNPIVIGISSNGKAPVLARLLRARLETLIPQGYGKLAKLAGEFR</Hsp_hseq>
+      <Hsp_midline>MN FP+F  L  R VL+VGGG VA RK  LL +AGA + V A  +N E+ AL + +K   + + +   ++    +IIAA+ D+ LN ++   A +   PVNVV     C FIFP+++DR+P+ I +SS+G APVLARLLR RLE L+P   G +A+++G +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|187471079|sp|Q1QAX7.2|CYSG_PSYCK</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Psychrobacter cryohalolentis K5]</Hit_def>
+  <Hit_accession>Q1QAX7</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>2.24539e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MNTFPLFFKLEDRKVLIVGGGDVALRKADLLSRAGACITVLAPSISHEIQALLSDSKHALIYENYNKTYMTDSRVIIAATDDETLNHQIHSDATALNIPVNVVDTPHLCDFIFPAIVDRNPIVIGISSNGKAPVLARLLRARLETLIPQGYGKLAKLAGEFR</Hsp_hseq>
+      <Hsp_midline>MN FP+F  L  R VL+VGGG VA RK  LL +AGA + V A  ++ E+ AL +++K   + + +   ++    +IIAA+ D+ LN ++   A +   PVNVV     C FIFP+++DR+P+ I +SS+G APVLARLLR RLE L+P   G +A+++G +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|614134374|sp|P9WNM4.1|CYSNC_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional enzyme CysN/CysC; Includes: RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT; Includes: RecName: Full=Adenylyl-sulfate kinase; AltName: Full=APS kinase; AltName: Full=ATP adenosine-5&apos;-phosphosulfate 3&apos;-phosphotransferase [Mycobacterium tuberculosis CDC1551] &gt;gi|614134379|sp|P9WNM5.1|CYSNC_MYCTU RecName: Full=Bifunctional enzyme CysN/CysC; Includes: RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT; Includes: RecName: Full=Adenylyl-sulfate kinase; AltName: Full=APS kinase; AltName: Full=ATP adenosine-5&apos;-phosphosulfate 3&apos;-phosphotransferase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WNM4</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>3.62105e-36</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>FPVQLVVRQDADKADGFRGYQGRIERGSVTVGQTVRIEPNGLTAEVSEIIAPKGEVAQAFAGEAATIRLDRDIDVSRGDLFV-DKNFPLAPQKHPEATLCWF-DERPLNTARKYLLKHGTQTVSAKVGEIESVLDVRTLEQEAGAESLKMNDIAKVRINLQKPVTATPYAENTAAGSFILIDEATYGTVAAGMIL</Hsp_qseq>
+      <Hsp_hseq>FPVQYVIRPHTLEHQDHRSYAGTVASGVMRSGDEVVVLPIGKTTRITAIDGPNGPVAEAFPPMAVSVRLADDIDISRGDMIARTHNQPRITQEF-DATVCWMADNAVLEPGRDYVVKHTTRTVRARIAGLDYRLDVNTLHRDKTATALKLNELGRVSLRTQVPLLLDEYTRNASTGSFILIDPDTNGTVAAGMVL</Hsp_hseq>
+      <Hsp_midline>FPVQ V+R    +    R Y G +  G +  G  V + P G T  ++ I  P G VA+AF   A ++RL  DID+SRGD+     N P   Q+  +AT+CW  D   L   R Y++KH T+TV A++  ++  LDV TL ++  A +LK+N++ +V +  Q P+    Y  N + GSFILID  T GTVAAGM+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81579419|sp|Q7WB57.1|CYSG_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Bordetella parapertussis 12822] &gt;gi|81580175|sp|Q7WMM4.1|CYSG_BORBR RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7WB57</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>5.37589e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MTLFPIFADLTGRRVLVVGGGAVAVRKTQALLQAGAEVVVGAPRLDPALAALAEQGGIARLDGGFEPAWLAGAWLVVAATDDRAVNAAVSEAARARRVFCNVVDDAELSSFQVPSVVDRSPLIVAISSSGVAPVLARRLRERIESLFDHSLGQLAALAARYR</Hsp_hseq>
+      <Hsp_midline>M  FPIFA+L GR VLVVGGGAVA RK   LL+AGAEV V A  L+  L+ALA +  I  L   F    +   +L++AA+ D+A+N  V   A + +   NVV D +  SF  PSV+DR P+ +A+SSSG APVLAR LRER+E+L   SLG +A ++ R+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|187471031|sp|A5WEG6.1|CYSG_PSYWF</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Psychrobacter sp. PRwf-1]</Hit_def>
+  <Hit_accession>A5WEG6</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>6.25175e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWRD</Hsp_qseq>
+      <Hsp_hseq>MNTFPLFFKLTNQPVLIVGGGEVAQRKADLLSRAGACITILAPQISQEIHQLLSDERHTLITAHYDKKYIDGKRIVIAGTDDEALNHQVHADCKALNIPVNVVDTPPLCDFIFPAIVDRNPIVIGISSNGKAPVLARLTRARLETLIPQGYGKLAKLAGDMRD</Hsp_hseq>
+      <Hsp_midline>MN FP+F  L  +PVL+VGGG VA RK  LL +AGA + + A  ++ E+  L ++ +   +   +  ++I    ++IA + D+ALN +V    ++   PVNVV     C FIFP+++DR+P+ I +SS+G APVLARL R RLE L+P   G +A+++G  RD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|81578776|sp|Q7VZ77.1|CYSG_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q7VZ77</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>6.57933e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MTLFPIFADLTGRRVLVVGGGAVAVRKTQALLQAGAEVVVGAPRLDPALAALAEQGGIARLDGGFEPAWLAGAWLVVAATDDRAVNAAVSEAARARRVFCNVVDDAELSSFQVPSVVDRSPLIVAISSSGVAPVLARRLRERIESLFDHSLGQLAALAARYR</Hsp_hseq>
+      <Hsp_midline>M  FPIFA+L GR VLVVGGGAVA RK   LL+AGAEV V A  L+  L+ALA +  I  L   F    +   +L++AA+ D+A+N  V   A + +   NVV D +  SF  PSV+DR P+ +A+SSSG APVLAR LRER+E+L   SLG +A ++ R+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1709326|sp|P52978.1|NODQ_RHITR</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional enzyme NodQ; AltName: Full=Nodulation protein Q; Includes: RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT; Includes: RecName: Full=Adenylyl-sulfate kinase; AltName: Full=APS kinase; AltName: Full=ATP adenosine-5&apos;-phosphosulfate 3&apos;-phosphotransferase [Rhizobium tropici]</Hit_def>
+  <Hit_accession>P52978</Hit_accession>
+  <Hit_len>632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>1.50747e-35</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>DMAEISGRWRDAGFYFPVQLVVRQDADKADGFRGYQGRIERGSVTVGQTVRIEPNGLTAEVSEIIAPKGEVAQAFAGEAATIRLDRDIDVSRGDLFVD-KNFPLAPQKHPEATLCWFDERPLNTARKYLLKHGTQTVSAKVGEIESVLDVRTLEQEAGAESLKMNDIAKVRINLQKPVTATPYAENTAAGSFILIDEATYGTVAAGMI</Hsp_qseq>
+      <Hsp_hseq>ETVELDAPDRQEPFRFPVQLVMRPNAD----FRGYAGRIASGKIAVGDPVIVAKSGLRSSVRAIIAPDGNQISAAEGEPVTLVLADEVDVSRGDMLVDPASRPFVSDQF-QAHLIWFDANPMLPGRSYLLRTETDSVSATVTVLKHQLNVDSFVREP-AKLLQMNEVGVCNIMTQRPIVFDAYKENRSTGNFIIVDRVSSATVGAGMI</Hsp_hseq>
+      <Hsp_midline>+  E+    R   F FPVQLV+R +AD    FRGY GRI  G + VG  V +  +GL + V  IIAP G    A  GE  T+ L  ++DVSRGD+ VD  + P    +  +A L WFD  P+   R YLL+  T +VSA V  ++  L+V +  +E  A+ L+MN++    I  Q+P+    Y EN + G+FI++D  +  TV AGMI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|187471015|sp|A1JSB7.1|CYSG2_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 2; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 2; Short=Urogen III methylase 2; AltName: Full=SUMT 2; AltName: Full=Uroporphyrinogen III methylase 2; Short=UROM 2; Includes: RecName: Full=Precorrin-2 dehydrogenase 2; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 2 [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JSB7</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>2.19033e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYFPIFCQLQNKACLLVGGGEVAERKARLLLDAGAAVTVNACEFTEQFHDWAEQGLLSLVSGEFAPELLAEKWLVIAATDQVAVNALVYQSANQQRVFCNVVDDPKRTSFIMPSIIDRSPIMIAISSGGKAPVLARLLREKLEAMLPQHLGQLAQLAGNLR</Hsp_hseq>
+      <Hsp_midline>M+YFPIF  L  +  L+VGGG VA RK  LLL AGA V V A     +    A +  +  ++ EF  E +   +L+IAA+   A+N  V+  A   +   NVV D    SFI PS+IDR P+ IA+SS G APVLARLLRE+LEA+LP  LG +A+++G  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|81638216|sp|Q664M6.1|CYSG2_YERPS</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 2; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 2; Short=Urogen III methylase 2; AltName: Full=SUMT 2; AltName: Full=Uroporphyrinogen III methylase 2; Short=UROM 2; Includes: RecName: Full=Precorrin-2 dehydrogenase 2; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 2 [Yersinia pseudotuberculosis IP 32953] &gt;gi|187471016|sp|A7FNS9.1|CYSG2_YERP3 RecName: Full=Siroheme synthase 2; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 2; Short=Urogen III methylase 2; AltName: Full=SUMT 2; AltName: Full=Uroporphyrinogen III methylase 2; Short=UROM 2; Includes: RecName: Full=Precorrin-2 dehydrogenase 2; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 2 [Yersinia pseudotuberculosis IP 31758]</Hit_def>
+  <Hit_accession>Q664M6</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>3.05364e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYFPIFCQLQHKACLLVGGGEIAERKARLLLDAGALVTVNACEFTPQFHHWADQGQLSLISGEFVPELLADKWLVIAATDQLSVNALVYQSANQQRIFCNVVDDPKRTSFIMPSIIDRSPIMIAVSSGGKAPVLARLLREKLEALLPQHLGQLAQLAGNLR</Hsp_hseq>
+      <Hsp_midline>M+YFPIF  L  +  L+VGGG +A RK  LLL AGA V V A     +    A + ++  ++ EF  E +   +L+IAA+   ++N  V+  A   +   NVV D    SFI PS+IDR P+ IAVSS G APVLARLLRE+LEALLP  LG +A+++G  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|254766527|sp|A9HZV6.1|CYSG_BORPD</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Bordetella petrii DSM 12804]</Hit_def>
+  <Hit_accession>A9HZV6</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>5.19974e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLG</Hsp_qseq>
+      <Hsp_hseq>MKLFPLFADLQGRRVLVVGGGEIAARKVQLLLEASADVRVGAPALTPELALLAAQGRIHALQGEFRPDWLDDAWLVVAATDDRAVNAAVSQAAQARRIFSNVVDDAELSSFQVPSIVDRSPLVVAISSSGVAPVLARRLREKVESLFDHSLG</Hsp_hseq>
+      <Hsp_midline>M  FP+FA+L GR VLVVGGG +AARK+ LLL+A A+V V A  L  EL+ LAA+ +I  L  EFR + +   +L++AA+ D+A+N  V   A++ +   NVV D +  SF  PS++DR P+ +A+SSSG APVLAR LRE++E+L   SLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|187471066|sp|Q1H3L5.2|CYSG_METFK</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1H3L5</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>5.26105e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDM</Hsp_qseq>
+      <Hsp_hseq>METLPIFMKLRDRPCLVVGGGEIASRKVSLLEKAGASVTVVSPELHPTLAKSLAEGRIRHLASVFEPAQLDGAVLVIAATDDAEVNRAVSREAQARNIPVNVVDAPELCTFIVPSIVDRSPLLVAVSSGGTAPVLARMLRTRIETLIPATYGRL</Hsp_hseq>
+      <Hsp_midline>M   PIF  L  RP LVVGGG +A+RK+SLL KAGA V V +  L+  L+   AE +I  LA  F    +    L+IAA+ D  +NR V   A++   PVNVV   + C+FI PS++DR P+ +AVSS G+APVLAR+LR R+E L+P + G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|187471006|sp|A4TGU8.1|CYSG1_YERPP</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase 1; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase 1; Short=Urogen III methylase 1; AltName: Full=SUMT 1; AltName: Full=Uroporphyrinogen III methylase 1; Short=UROM 1; Includes: RecName: Full=Precorrin-2 dehydrogenase 1; Includes: RecName: Full=Sirohydrochlorin ferrochelatase 1 [Yersinia pestis Pestoides F]</Hit_def>
+  <Hit_accession>A4TGU8</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>6.4366e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNYFPIFANLAGRPVLVVGGGAVAARKISLLLKAGAEVGVAAKHLNAELSALAAENKILWLAKEFRAEHIRTVFLIIAASSDQALNRRVFHLAESCQKPVNVVGDRDHCSFIFPSVIDRDPVQIAVSSSGSAPVLARLLRERLEALLPPSLGDMAEISGRWR</Hsp_qseq>
+      <Hsp_hseq>MDYFPIFCQLQHKACLLVGGGEIAERKARLLLDAGALVTVNACEFAPQFHHWADQGQLSLISGEFVPELLADKWLVIAATDQLSVNALVYQSANQQRIFCNVVDDPKRTSFIMPSIIDRSPIMIAVSSGGKAPVLARLLREKLEALLPQHLGQLAQLAGNLR</Hsp_hseq>
+      <Hsp_midline>M+YFPIF  L  +  L+VGGG +A RK  LLL AGA V V A     +    A + ++  ++ EF  E +   +L+IAA+   ++N  V+  A   +   NVV D    SFI PS+IDR P+ IAVSS G APVLARLLRE+LEALLP  LG +A+++G  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

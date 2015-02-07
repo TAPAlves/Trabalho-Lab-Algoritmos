@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>42235</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>187</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>42235</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>187</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|269849753|sp|Q6ZQY3.4|GADL1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Acidic amino acid decarboxylase GADL1; AltName: Full=Aspartate 1-decarboxylase; Short=ADC; Short=HuADC; AltName: Full=Cysteine sulfinic acid decarboxylase; Short=CSADC; Short=HuCSADC; AltName: Full=Glutamate decarboxylase-like protein 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6ZQY3</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.174</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VHERRQEGNAGSGRKQLLDLVRRGHREYPYALPRLLADAASYKPKKSKIRLFKEAYFG</Hsp_qseq>
+      <Hsp_hseq>VNEKVCEWRPPEQLKQLLDLEMRDSGEPPHKLLELCRDVIHYSVKTNHPRFFNQLYAG</Hsp_hseq>
+      <Hsp_midline>V+E+  E       KQLLDL  R   E P+ L  L  D   Y  K +  R F + Y G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|166233979|sp|A1R8M2.1|CH10_ARTAT</Hit_id>
+  <Hit_def>RecName: Full=10 kDa chaperonin; AltName: Full=GroES protein; AltName: Full=Protein Cpn10 [Arthrobacter aurescens TC1]</Hit_def>
+  <Hit_accession>A1R8M2</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.87069</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LVRRGHREYPYALPRLLADAASYKPKKSKIRLFKEAYFGKSGTRLTDEIADG-IHIYTCFSRADLEKAYSEYLEL</Hsp_qseq>
+      <Hsp_hseq>VVRPLEAEQTTASGLVIPDSAQEKPQEGEVVAIGPGRFDDNGNRVPVDVAVGDVVIYSKYGGTEVKTGGNEYLVL</Hsp_hseq>
+      <Hsp_midline>+VR    E   A   ++ D+A  KP++ ++       F  +G R+  ++A G + IY+ +   +++   +EYL L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|17369739|sp|Q9UXT3.1|SPEH_PYRAB</Hit_id>
+  <Hit_def>RecName: Full=S-adenosylmethionine decarboxylase proenzyme; Short=AdoMetDC; Short=SAMDC; Contains: RecName: Full=S-adenosylmethionine decarboxylase beta chain; Contains: RecName: Full=S-adenosylmethionine decarboxylase alpha chain; Flags: Precursor [Pyrococcus abyssi GE5]</Hit_def>
+  <Hit_accession>Q9UXT3</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.38072</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GNAGSGRKQLLDLVRRGHREYPYALPRLLADAASYKPKKSKIRLFKEAYFGKSGTRLTDEIADGIH-----------IYTCFSRADLEKAYSEYLELFKSE</Hsp_qseq>
+      <Hsp_hseq>GDADKIREIFLEAAKRGNMEVK----------ASY--------FFKFSPMGVSGVVIVAESHISVHTWPEKGYAALDVYTCGEKADPEKAVDYILEQFKAQ</Hsp_hseq>
+      <Hsp_midline>G+A   R+  L+  +RG+ E            ASY         FK +  G SG  +  E    +H           +YTC  +AD EKA    LE FK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|223634698|sp|O57711.2|SPEH_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=S-adenosylmethionine decarboxylase proenzyme; Short=AdoMetDC; Short=SAMDC; Contains: RecName: Full=S-adenosylmethionine decarboxylase beta chain; Contains: RecName: Full=S-adenosylmethionine decarboxylase alpha chain; Flags: Precursor [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O57711</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.00689</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GNAGSGRKQLLDLVRRGHREYPYALPRLLADAASYKPKKSKIRLFKEAYFGKSGTRLTDEIADGIH-----------IYTCFSRADLEKAYSEYLELFKSE</Hsp_qseq>
+      <Hsp_hseq>GDANKIREIFLEAAKRGNMEV----------KASY--------FFKFSPMGVSGVVIVAESHISVHTWPEKGYAALDVYTCGENADPEKAVDYILEQFKAQ</Hsp_hseq>
+      <Hsp_midline>G+A   R+  L+  +RG+ E            ASY         FK +  G SG  +  E    +H           +YTC   AD EKA    LE FK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81948347|sp|Q8BCV5.1|NCAP_MILVL</Hit_id>
+  <Hit_def>RecName: Full=Nucleoprotein; Short=NP; AltName: Full=Nucleocapsid protein; Short=Protein N [Mirafiori lettuce virus LS301-O]</Hit_def>
+  <Hit_accession>Q8BCV5</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.78559</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>DLVRRGHREYPYALPRLLADAASYKPKKSKIRLFKEAYFG-----KSGTRLTDEI</Hsp_qseq>
+      <Hsp_hseq>DKIQKVLEEYVKNLPR---TAETYKPKEIEIKCFKGVDFSISSLLSSGTKILDAI</Hsp_hseq>
+      <Hsp_midline>D +++   EY   LPR    A +YKPK+ +I+ FK   F       SGT++ D I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|67461732|sp|Q67TJ8.1|SYS_SYMTH</Hit_id>
+  <Hit_def>RecName: Full=Serine--tRNA ligase; AltName: Full=Seryl-tRNA synthetase; Short=SerRS; AltName: Full=Seryl-tRNA(Ser/Sec) synthetase [Symbiobacterium thermophilum IAM 14863]</Hit_def>
+  <Hit_accession>Q67TJ8</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.87461</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>LVRRGHREYPYALPRLLADAASYKPKKSKIRLFKEAYFGKSGTRL----TDEIA-DGIHIYTCFSRADLEKAYSEYLELFKSESDAGGRKPR</Hsp_qseq>
+      <Hsp_hseq>LTERGYRE---VLPPVIINTASYY-GSGQFPKFKEDVFSLAGTDYHLASTAEVPLVNMHRDEILDEAVLPLRYVGYSGCFRSEAGAAGRDTR</Hsp_hseq>
+      <Hsp_midline>L  RG+RE    LP ++ + ASY     +   FKE  F  +GT      T E+    +H       A L   Y  Y   F+SE+ A GR  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81947354|sp|Q8B6J5.1|L_RABVH</Hit_id>
+  <Hit_def>RecName: Full=Large structural protein; Short=Protein L; AltName: Full=Replicase; AltName: Full=Transcriptase; Includes: RecName: Full=RNA-directed RNA polymerase; Includes: RecName: Full=mRNA (guanine-N(7)-)-methyltransferase; Includes: RecName: Full=mRNA guanylyltransferase [Rabies virus HEP-FLURY]</Hit_def>
+  <Hit_accession>Q8B6J5</Hit_accession>
+  <Hit_len>2127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.28069</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGSGRKQLLDLVRRGHREYPYALPRLLADAASYKPKKSKIRLFKEAYFGKSGTRLTDEIADGIHIYTCFSRADLEKAYSEYL</Hsp_qseq>
+      <Hsp_hseq>GGTAAQSMISLWLYGAHSESNRSRRCITDLAHFYSKSSPIEKLLNCTLGNRGLRIPPE-----GVLSCLERVDYDKAFGRYL</Hsp_hseq>
+      <Hsp_midline> G+  + ++ L   G         R + D A +  K S I        G  G R+  E      + +C  R D +KA+  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|19857025|sp|P21402.2|DPOL_FOWPN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase [Fowlpox virus strain NVSL]</Hit_def>
+  <Hit_accession>P21402</Hit_accession>
+  <Hit_len>988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.55947</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>864</Hsp_hit-from>
+      <Hsp_hit-to>977</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>TAESEFEKSVHERRQEGNAGSGRKQLLDLVRR-----------GHREY-----PYALP-----------RLLADAASYKPKKSKIRLFKEAYFGKSGTRLTDEIADGIHIYTCFSR</Hsp_qseq>
+      <Hsp_hseq>THNREFEKYLLSRKHHNNYKSATHSNFELVKRYNLENTEKIEIGERYYYIYICDISLPWQKKLCNILSYEVIADSKFYLPKDK--RIFYEIYFKRIASEVVNLLTDKTQCMLFFSR</Hsp_hseq>
+      <Hsp_midline>T   EFEK +  R+   N  S      +LV+R           G R Y       +LP            ++AD+  Y PK    R+F E YF +  + + + + D       FSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123144238|sp|Q0S3C0.1|CH10_RHOSR</Hit_id>
+  <Hit_def>RecName: Full=10 kDa chaperonin; AltName: Full=GroES protein; AltName: Full=Protein Cpn10 [Rhodococcus jostii RHA1] &gt;gi|254813852|sp|C1B075.1|CH10_RHOOB RecName: Full=10 kDa chaperonin; AltName: Full=GroES protein; AltName: Full=Protein Cpn10 [Rhodococcus opacus B4] &gt;gi|259585890|sp|C0ZW96.1|CH10_RHOE4 RecName: Full=10 kDa chaperonin; AltName: Full=GroES protein; AltName: Full=Protein Cpn10 [Rhodococcus erythropolis PR4]</Hit_def>
+  <Hit_accession>Q0S3C0</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.03034</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LVRRGHREYPYALPRLLADAASYKPKKSKIRLFKEAYFGKSGTRLTDEIADG-IHIYTCFSRADLEKAYSEYLEL</Hsp_qseq>
+      <Hsp_hseq>LVQANEAETTTASGLVIPDTAKEKPQEGTVVAVGEGRVNEQGNRIPVDVKEGDTVIYSKYGGTEIKYAGQEYLIL</Hsp_hseq>
+      <Hsp_midline>LV+    E   A   ++ D A  KP++  +    E    + G R+  ++ +G   IY+ +   +++ A  EYL L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|75027612|sp|Q9VW09.2|LTN1_DROME</Hit_id>
+  <Hit_def>RecName: Full=E3 ubiquitin-protein ligase listerin [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9VW09</Hit_accession>
+  <Hit_len>1747</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>9.226</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>733</Hsp_hit-from>
+      <Hsp_hit-to>778</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VKTDNYKEKENLLHEIFSKSRIGDTELFAVDENLVKRLFLSLRGEIVFP</Hsp_qseq>
+      <Hsp_hseq>VVVDNDREKLNLLHKCFFQTDTGD---ILINAKTVDKILLSMCGPLEQP</Hsp_hseq>
+      <Hsp_midline>V  DN +EK NLLH+ F ++  GD     ++   V ++ LS+ G +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

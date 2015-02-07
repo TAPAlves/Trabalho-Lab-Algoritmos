@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-01-15" modified="2015-01-07" version="58">
+<accession>Q5F8D6</accession>
+<name>LGT_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Prolipoprotein diacylglyceryl transferase</fullName>
+<ecNumber evidence="1">2.4.99.-</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">lgt</name>
+<name type="ordered locus">NGO0846</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Transfers the N-acyl diglyceride group on what will become the N-terminal cysteine of membrane lipoproteins.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Protein modification; lipoprotein biosynthesis (diacylglyceryl transfer).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cell inner membrane</location>
+<topology evidence="1">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the Lgt family.</text>
+</comment>
+<dbReference type="EC" id="2.4.99.-" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89551.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207963.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0846"/>
+<dbReference type="EnsemblBacteria" id="AAW89551">
+<property type="protein sequence ID" value="AAW89551"/>
+<property type="gene ID" value="NGO0846"/>
+</dbReference>
+<dbReference type="GeneID" id="3282218"/>
+<dbReference type="KEGG" id="ngo:NGO0846"/>
+<dbReference type="PATRIC" id="20334860">
+<property type="gene designation" value="VBINeiGon24812_1000"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0682"/>
+<dbReference type="HOGENOM" id="HOG000098666"/>
+<dbReference type="KO" id="K13292"/>
+<dbReference type="OMA" id="HWYGLAY"/>
+<dbReference type="OrthoDB" id="EOG6MH5CQ"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-793-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00664"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008961">
+<property type="term" value="F:phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042158">
+<property type="term" value="P:lipoprotein biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009249">
+<property type="term" value="P:protein lipoylation"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01147">
+<property type="entry name" value="Lgt"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001640">
+<property type="entry name" value="Prolipoprot_diAcglycer_Trfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01790">
+<property type="entry name" value="LGT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00544">
+<property type="entry name" value="lgt"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01311">
+<property type="entry name" value="LGT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0997">Cell inner membrane</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Prolipoprotein diacylglyceryl transferase" id="PRO_1000053457">
+<location>
+<begin position="1"/>
+<end position="283"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="17"/>
+<end position="37"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="56"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="92"/>
+<end position="112"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="194"/>
+<end position="214"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="222"/>
+<end position="242"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="255"/>
+<end position="275"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_01147"/>
+</source>
+</evidence>
+<sequence length="283" mass="31835" checksum="607D9CB00CB5D12D" modified="2005-03-15" version="1">
+MIIHHQFDPVLISIGPLAVRWYALSYILGFILFTFLGRRRIAQGLSVFTKESLDDFLTWG
+ILGVILGGRLGYVLFYKFSDYLAHPLDIFKVWEGGMSFHGGFLGVVIAIWLFSRKHGIGF
+LKLMDTVAPLVPLGLASGRIGNFINGELWGRITDINAFWAMGFPQAHYEDAEAAAHNPLW
+AEWLQQYGMLPRHPSQLYQFALEGICLFAVVWLFSKKPRPTGQTAALFLGGYGVFRFIAE
+FARQPDDYLGLLTLGLSMGQWLSVPMIVLGIVGFVRFGMKKQH
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

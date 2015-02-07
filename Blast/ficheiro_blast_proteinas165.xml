@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>45819</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>245</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>45819</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>245</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1723174|sp|P44758.1|PRX5_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Hybrid peroxiredoxin hyPrx5; AltName: Full=Thioredoxin reductase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44758</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>3.35489e-133</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>GQKVPSVVFRTRVGDTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLKFVAPDWKAQESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLGKDATVTSVRAITGKMTAPQVFIGGKYIGGSEDLEAYLA</Hsp_qseq>
+      <Hsp_hseq>GKKVPQVTFRTRQGDKWVDVTTSELFDNKTVIVFSLPGAFTPTCSSSHLPRYNELAPVFKKYGVDDILVVSVNDTFVMNAWKEDEKSENISFIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVKNGVVEKMFIEPNEPGDPFKVSDADTMLKYLAPQHQVQESISIFTKPGCPFCAKAKQLLHDKGLSFEEIILGHDATIVSVRAVSGRTTVPQVFIGGKHIGGSDDLEKYFA</Hsp_hseq>
+      <Hsp_midline>G+KVP V FRTR GD W DV+T +LF  K V+VFSLPGAFTPTCSSSHLPRYNEL   FK+ GVD I  VSVNDTFVMNAW  +E+S+NI  IPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLV +GVVEKMFIEP EPGDPFKVSDADTMLK++AP  + QES++IFTKPGC FCAK KQ L DKGLS+EEI+LG DAT+ SVRA++G+ T PQVFIGGK+IGGS+DLE Y A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|387942496|sp|B3EWI1.1|GSPRX_MARGR</Hit_id>
+  <Hit_def>RecName: Full=Glutathione amide-dependent peroxidase; Short=Prx/Grx [Marichromatium gracile]</Hit_def>
+  <Hit_accession>B3EWI1</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>1.14324e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>LQDRTGQKVPSVVFRTRVGDTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSV--NDTFVMNAWAAEEESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLKFVAPDWKAQESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLGKDATVTSVRAITGKMTAPQVFIGGKYIGGSEDLEAYL</Hsp_qseq>
+      <Hsp_hseq>LQDRTGSRVPQVTFHTRSGHEWVDLTTDEIFAGKTVVVFSLPGAFTPTCSSSHVPRYNQLVPMFKEHGVDTVACVSVSVNDTFVMNEWQKTQHADDLLFIPDGNGEFTEGMGMLVEKDDLGFGKRSWRYSMLVRDGVVEKMFIEPEVEGDPYEVSDADTMLAHLAPNAPKPMDVSVFTRDGCPFCVMAKEALRNAGIDFEELVLNEDYTEQTLRAVANAV--PQVEVNGELIGGSEAVEGWL</Hsp_hseq>
+      <Hsp_midline>LQDRTG +VP V F TR G  W D++TD++F GK VVVFSLPGAFTPTCSSSH+PRYN+L   FKE+GVD + CVSV  NDTFVMN W   + +D++  IPDGNGEFTEGMGMLV K+DLGFGKRSWRYSMLV DGVVEKMFIEPE  GDP++VSDADTML  +AP+      V++FT+ GC FC   K+AL++ G+ +EE+VL +D T  ++RA+   +  PQV + G+ IGGSE +E +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|3915480|sp|P73728.1|Y1621_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin sll1621; AltName: Full=Thioredoxin reductase [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P73728</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>3.53251e-65</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TGQKVPSVVFRTRVGD---------TWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEE----PGDPFKVSDADTMLKFV</Hsp_qseq>
+      <Hsp_hseq>TPERVPSVVFKTRVRDESVPGPNPYRWEDKTTEQIFGGKKVVLFSLPGAFTPTCSSNHLPRYEQLFEEFQALGVDDIICLSVNDAFVMFQWGKQIGADKVKLLPDGNGEFTRKMGMLVEKSNLGFGMRSWRYSMFVNDGKIEKMFIEPEFGDNCPVDPFECSDADTMLAYL</Hsp_hseq>
+      <Hsp_midline>T ++VPSVVF+TRV D          W+D +T+ +F GKKVV+FSLPGAFTPTCSS+HLPRY +LF  F+  GVD I C+SVND FVM  W  +  +D + ++PDGNGEFT  MGMLV K +LGFG RSWRYSM VNDG +EKMFIEPE     P DPF+ SDADTML ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|38503409|sp|O69777.2|YRP2_RHIET</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin in rpoN2 3&apos;region; AltName: Full=Thioredoxin reductase [Rhizobium etli]</Hit_def>
+  <Hit_accession>O69777</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>2.97525e-52</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>QKVPSVVFRTRVGD---------TWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPG-------DPFKVSDADTMLK</Hsp_qseq>
+      <Hsp_hseq>KQVPIVTFRTRVRDESISGPNPYRWEDKTTDDYFSGKRVILFSLPGAFTPICSTFQLPDFESLYVEFKKNGIDDIYCLSVNDAFVMNAWGKSQGLKNVKLIPDGSGEFTRKMGMLVAKDNLGFGLRSWRYAAVINNGVVEGWF---EEEGFGDNCATDPYGVSSPQNILK</Hsp_hseq>
+      <Hsp_midline>++VP V FRTRV D          W+D +TDD F GK+V++FSLPGAFTP CS+  LP +  L+  FK+NG+D I C+SVND FVMNAW   +   N+ +IPDG+GEFT  MGMLV K++LGFG RSWRY+ ++N+GVVE  F   EE G       DP+ VS    +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2496756|sp|Q53212.1|Y4VD_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin y4vD; AltName: Full=Thioredoxin reductase [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>Q53212</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>7.17269e-48</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>QKVPSVVFRTRVGD---------TWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPG-------DPFKVSDADTMLK</Hsp_qseq>
+      <Hsp_hseq>KRVPFVAFRTRVRDETIGGPNPYRWEVRTTEDYFSGKRVVLFSLPGAFTPTCSTQQLPDFERLYDEFGKVGIEAVYCLSVNDAFVMNAWGKALGLEKVRLIPDGSGEFTRKMGMLVAKDNLGFGMRSWRYAAVVNDSVVEQWF---EEEGFSDNCESDPYWASSPQNILE</Hsp_hseq>
+      <Hsp_midline>++VP V FRTRV D          W+  +T+D F GK+VV+FSLPGAFTPTCS+  LP +  L+  F + G++A+ C+SVND FVMNAW      + + +IPDG+GEFT  MGMLV K++LGFG RSWRY+ +VND VVE+ F   EE G       DP+  S    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75119143|sp|Q69TY4.1|PR2E1_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2E-1, chloroplastic; AltName: Full=Peroxiredoxin IIE-1; AltName: Full=Thioredoxin reductase 2E-1; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q69TY4</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>4.59993e-32</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>WKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEES----DNIYMIPDGNGEFTEGMGMLVGKED--LGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLK</Hsp_qseq>
+      <Hsp_hseq>LKTVTVRDLTAGKKVVLFAVPGAFTPTCTQKHVPGFVAKAGELRAKGVDAVACVSVNDAFVMRAW---KESLGVGDEVLLLSDGNGELARAMGVELDLSDKPAGLGVRSRRYALLAEDGVVKVLNL---EEGGAFTTSSAEEMLK</Hsp_hseq>
+      <Hsp_midline> K V+  DL  GKKVV+F++PGAFTPTC+  H+P +    G  +  GVDA+ CVSVND FVM AW   +ES    D + ++ DGNGE    MG+ +   D   G G RS RY++L  DGVV+ + +   E G  F  S A+ MLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75139348|sp|Q7F8S5.1|PR2E2_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2E-2, chloroplastic; AltName: Full=Peroxiredoxin IIE-2; AltName: Full=Thioredoxin reductase 2E-2; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q7F8S5</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>3.42475e-31</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>WKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEES-----DNIYMIPDGNGEFTEGMG--MLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLK</Hsp_qseq>
+      <Hsp_hseq>LKTVTVAELTAGRKAVLFAVPGAFTPTCSQKHLPGFIEKAGELHAKGVDAIACVSVNDAFVMRAW---KESLGLGDADVLLLSDGNLELTRALGVEMDLSDKPMGLGVRSRRYALLADDGVVKVLNL---EEGGAFTTSSAEEMLK</Hsp_hseq>
+      <Hsp_midline> K V+  +L  G+K V+F++PGAFTPTCS  HLP + E  G     GVDAI CVSVND FVM AW   +ES      ++ ++ DGN E T  +G  M +  + +G G RS RY++L +DGVV+ + +   E G  F  S A+ MLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|143360522|sp|Q949U7.2|PRX2E_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2E, chloroplastic; AltName: Full=Peroxiredoxin IIE; AltName: Full=Thioredoxin reductase 2E; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q949U7</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.55229e-30</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>KDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEE-SDNIYMIPDGNGEFTEGMGMLVGKED--LGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLK</Hsp_qseq>
+      <Hsp_hseq>KTVTVSSLTAGKKTILFAVPGAFTPTCSQKHVPGFVSKAGELRSKGIDVIACISVNDAFVMEAWRKDLGINDEVMLLSDGNGEFTGKLGVELDLRDKPVGLGVRSRRYAILADDGVVKVLNL---EEGGAFTNSSAEDMLK</Hsp_hseq>
+      <Hsp_midline>K V+   L  GKK ++F++PGAFTPTCS  H+P +    G  +  G+D I C+SVND FVM AW  +   +D + ++ DGNGEFT  +G+ +   D  +G G RS RY++L +DGVV+ + +   E G  F  S A+ MLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|75338536|sp|Q9XEX2.1|PRX2B_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2B; AltName: Full=Peroxiredoxin IIB; AltName: Full=Peroxiredoxin TPx1; AltName: Full=Thioredoxin reductase 2B; AltName: Full=Thioredoxin-dependent peroxidase 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9XEX2</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>7.40733e-29</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>DTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAE-EESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLK</Hsp_qseq>
+      <Hsp_hseq>DQLQTASVHSLAAGKKVILFGVPGAFTPTCSMKHVPGFIEKAEELKSKGVDEIICFSVNDPFVMKAWGKTYPENKHVKFVADGSGEYTHLLGLELDLKDKGLGVRSRRFALLLDD---LKVTVANVESGGEFTVSSADDILK</Hsp_hseq>
+      <Hsp_midline>D  +  S   L  GKKV++F +PGAFTPTCS  H+P + E     K  GVD I C SVND FVM AW     E+ ++  + DG+GE+T  +G+ +  +D G G RS R+++L++D    K+ +   E G  F VS AD +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|84028276|sp|O22711.2|PRX2D_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2D; AltName: Full=Peroxiredoxin IID; AltName: Full=Thioredoxin reductase 2D [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O22711</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.0072e-27</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>DTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAE-EESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLK</Hsp_qseq>
+      <Hsp_hseq>DQLQTVSVHSIAAGKKVILFGVPGAFTPTCSMSHVPGFIGKAEELKSKGIDEIICFSVNDPFVMKAWGKTYQENKHVKFVADGSGEYTHLLGLELDLKDKGLGIRSRRFALLLDN---LKVTVANVENGGEFTVSSAEDILK</Hsp_hseq>
+      <Hsp_midline>D  + VS   +  GKKV++F +PGAFTPTCS SH+P +       K  G+D I C SVND FVM AW    +E+ ++  + DG+GE+T  +G+ +  +D G G RS R+++L+++    K+ +   E G  F VS A+ +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|75337580|sp|Q9SRZ4.1|PRX2C_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2C; AltName: Full=Peroxiredoxin IIC; AltName: Full=Peroxiredoxin TPx2; AltName: Full=Thioredoxin reductase 2C; AltName: Full=Thioredoxin-dependent peroxidase 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SRZ4</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.50855e-27</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>DTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAE-EESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLK</Hsp_qseq>
+      <Hsp_hseq>DQLQTVSVHSIAAGKKVILFGVPGAFTPTCSMSHVPGFIGKAEELKSKGIDEIICFSVNDPFVMKAWGKTYPENKHVKFVADGSGEYTHLLGLELDLKDKGLGIRSRRFALLLDN---LKVTVANVESGGEFTVSSAEDILK</Hsp_hseq>
+      <Hsp_midline>D  + VS   +  GKKV++F +PGAFTPTCS SH+P +       K  G+D I C SVND FVM AW     E+ ++  + DG+GE+T  +G+ +  +D G G RS R+++L+++    K+ +   E G  F VS A+ +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|75172153|sp|Q9FR35.1|PRX2C_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2C; AltName: Full=Peroxiredoxin IIC; AltName: Full=Thioredoxin reductase 2C [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q9FR35</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>6.91421e-26</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>DTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWA-AEEESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLK</Hsp_qseq>
+      <Hsp_hseq>DKLQQVSVHGLAAGKKVVLFGVPGAFTPTCSNQHVPGFINQAEQLKAKGVDDILLVSVNDPFVMKAWAKSYPENKHVKFLADGLGTYTKALGLELDLSEKGLGIRSRRFALLADN---LKVTVANIEEGGQFTISGAEEILK</Hsp_hseq>
+      <Hsp_midline>D  + VS   L  GKKVV+F +PGAFTPTCS+ H+P +       K  GVD I  VSVND FVM AWA +  E+ ++  + DG G +T+ +G+ +   + G G RS R+++L ++    K+ +   E G  F +S A+ +LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|25090885|sp|Q9M7T0.2|PRX2F_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2F, mitochondrial; AltName: Full=Peroxiredoxin IIF; AltName: Full=Thioredoxin reductase 2F; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9M7T0</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.06658e-25</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>DLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAE-EESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTML</Hsp_qseq>
+      <Hsp_hseq>DIFKGKKVVIFGLPGAYTGVCSQQHVPSYKSHIDKFKAKGIDSVICVSVNDPFAINGWAEKLGAKDAIEFYGDFDGKFHKSLGLDKDLSAALLGPRSERWSAYVEDGKVKAVNVE-EAPSD-FKVTGAEVIL</Hsp_hseq>
+      <Hsp_midline>D+FKGKKVV+F LPGA+T  CS  H+P Y      FK  G+D++ CVSVND F +N WA +    D I    D +G+F + +G+         G RS R+S  V DG V+ + +E E P D FKV+ A+ +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|75203325|sp|Q9SDD6.1|PRX2F_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2F, mitochondrial; AltName: Full=Peroxiredoxin IIF; AltName: Full=Thioredoxin reductase 2F; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q9SDD6</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>7.24212e-25</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>DLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAE-EESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTML</Hsp_qseq>
+      <Hsp_hseq>DIFHGKKVVIFGLPGAYTGVCSQAHVPSYKNNIDKLKAKGVDSVICVSVNDPYALNGWAEKLQAKDAIEFYGDFDGSFHKSLDLEVDLSAALLGRRSHRWSAFVDDGKIKAFNVEV-APSD-FKVSGAEVIL</Hsp_hseq>
+      <Hsp_midline>D+F GKKVV+F LPGA+T  CS +H+P Y       K  GVD++ CVSVND + +N WA + +  D I    D +G F + + + V       G+RS R+S  V+DG ++   +E   P D FKVS A+ +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|20141789|sp|P99029.2|PRDX5_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-5, mitochondrial; AltName: Full=Antioxidant enzyme B166; Short=AOEB166; AltName: Full=Liver tissue 2D-page spot 2D-0014IV; AltName: Full=PLP; AltName: Full=Peroxiredoxin V; Short=Prx-V; AltName: Full=Peroxisomal antioxidant enzyme; AltName: Full=Thioredoxin peroxidase PMP20; AltName: Full=Thioredoxin reductase; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P99029</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.85164e-24</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>RTGQKVPSV-VFRTRVGDTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWA-AEEESDNIYMIPDGNGEFTEGM-GMLVGKEDLGFGKRSW-RYSMLVNDGVVEKMFIEPEEPG</Hsp_qseq>
+      <Hsp_hseq>KVGDAIPSVEVFE---GEPGKKVNLAELFKGKKGVLFGVPGAFTPGCSKTHLPGFVEQAGALKAKGAQVVACLSVNDVFVIEEWGRAHQAEGKVRLLADPTGAFGKATDLLLDDSLVSLFGNRRLKRFSMVIDNGIVKALNVEPDGTG</Hsp_hseq>
+      <Hsp_midline>+ G  +PSV VF    G+  K V+  +LFKGKK V+F +PGAFTP CS +HLP + E  GA K  G   + C+SVND FV+  W  A +    + ++ D  G F +    +L       FG R   R+SM++++G+V+ + +EP+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|3914387|sp|P56578.1|MALF3_MALFU</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin; AltName: Full=MF2; AltName: Full=Thioredoxin reductase; AltName: Allergen=Mal f 3, partial [Malassezia furfur]</Hit_def>
+  <Hit_accession>P56578</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.76331e-24</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>TDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEES-DNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTML</Hsp_qseq>
+      <Hsp_hseq>SHERWKGKKVVIVAVPGAFTPTCTANHVPPYVEKIQELKSKGVDEVVVISANDPFVLSAWGITEHAKDNLTFAQDVNCEFSKHFNATLDLSSKGMGLRTARYALIANDLKVEYFGIDEGEP----KQSSAATVL</Hsp_hseq>
+      <Hsp_midline>+ + +KGKKVV+ ++PGAFTPTC+++H+P Y E     K  GVD +  +S ND FV++AW   E + DN+    D N EF++     +     G G R+ RY+++ ND  VE   I+  EP    K S A T+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|20139171|sp|Q9GLW7.1|PRDX5_CHLAE</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-5, mitochondrial; AltName: Full=Peroxiredoxin V; Short=Prx-V; AltName: Full=Thioredoxin reductase; Flags: Precursor [Chlorocebus aethiops]</Hit_def>
+  <Hit_accession>Q9GLW7</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.04707e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>RTGQKVPSV-VFRTRVGDTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWA-AEEESDNIYMIPDGNGEFTEGMGMLVGKEDLG-FGKRSW-RYSMLVNDGVVEKMFIEPEEPG</Hsp_qseq>
+      <Hsp_hseq>KVGDAIPAVEVFE---GEPGNKVNLAELFKGKKGVLFGVPGAFTPGCSKTHLPGFVEQAEALKAKGVQVLACLSVNDAFVTGEWGRAHKAEGKVRLLADPTGAFGKETDLLLDDSLVSIFGNRRLKRFSMVVQDGIVKALNVEPDGTG</Hsp_hseq>
+      <Hsp_midline>+ G  +P+V VF    G+    V+  +LFKGKK V+F +PGAFTP CS +HLP + E   A K  GV  + C+SVND FV   W  A +    + ++ D  G F +   +L+    +  FG R   R+SM+V DG+V+ + +EP+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|317373539|sp|P30044.4|PRDX5_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-5, mitochondrial; AltName: Full=Alu corepressor 1; AltName: Full=Antioxidant enzyme B166; Short=AOEB166; AltName: Full=Liver tissue 2D-page spot 71B; AltName: Full=PLP; AltName: Full=Peroxiredoxin V; Short=Prx-V; AltName: Full=Peroxisomal antioxidant enzyme; AltName: Full=TPx type VI; AltName: Full=Thioredoxin peroxidase PMP20; AltName: Full=Thioredoxin reductase; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P30044</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>1.12575e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>RTGQKVPSV-VFRTRVGDTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWA-AEEESDNIYMIPDGNGEFTEGMGMLVGKEDLG-FGKRSW-RYSMLVNDGVVEKMFIEPEEPG</Hsp_qseq>
+      <Hsp_hseq>KVGDAIPAVEVFE---GEPGNKVNLAELFKGKKGVLFGVPGAFTPGCSKTHLPGFVEQAEALKAKGVQVVACLSVNDAFVTGEWGRAHKAEGKVRLLADPTGAFGKETDLLLDDSLVSIFGNRRLKRFSMVVQDGIVKALNVEPDGTG</Hsp_hseq>
+      <Hsp_midline>+ G  +P+V VF    G+    V+  +LFKGKK V+F +PGAFTP CS +HLP + E   A K  GV  + C+SVND FV   W  A +    + ++ D  G F +   +L+    +  FG R   R+SM+V DG+V+ + +EP+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|20139172|sp|Q9GLW9.1|PRDX5_PAPHA</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-5, mitochondrial; AltName: Full=Peroxiredoxin V; Short=Prx-V; AltName: Full=Thioredoxin reductase; Flags: Precursor [Papio hamadryas]</Hit_def>
+  <Hit_accession>Q9GLW9</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>2.07155e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>RTGQKVPSV-VFRTRVGDTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWA-AEEESDNIYMIPDGNGEFTEGMGMLVGKEDLG-FGKRSW-RYSMLVNDGVVEKMFIEPEEPG</Hsp_qseq>
+      <Hsp_hseq>KVGDAIPAVEVFE---GEPGNKVNLAELFKGKKGVLFGVPGAFTPGCSKTHLPGFVEQAEALKAKGVQVLACLSVNDAFVTGEWGRAHKVEGKVRLLADPTGAFGKETDLLLDDSLVSIFGNRRLKRFSMVVQDGIVKALNVEPDGTG</Hsp_hseq>
+      <Hsp_midline>+ G  +P+V VF    G+    V+  +LFKGKK V+F +PGAFTP CS +HLP + E   A K  GV  + C+SVND FV   W  A +    + ++ D  G F +   +L+    +  FG R   R+SM+V DG+V+ + +EP+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|20138819|sp|Q9R063.1|PRDX5_RAT</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-5, mitochondrial; AltName: Full=Antioxidant enzyme B166; Short=AOEB166; AltName: Full=PLP; AltName: Full=Peroxiredoxin V; Short=Prx-V; AltName: Full=Peroxisomal antioxidant enzyme; AltName: Full=Thioredoxin peroxidase PMP20; AltName: Full=Thioredoxin reductase; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q9R063</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>9.90886e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>RTGQKVPSV-VFRTRVGDTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWA-AEEESDNIYMIPDGNGEF-TEGMGMLVGKEDLGFGKRSW-RYSMLVNDGVVEKMFIEPEEPG</Hsp_qseq>
+      <Hsp_hseq>KVGDTIPSVEVFE---GEPGKKVNLAELFKDKKGVLFGVPGAFTPGCSKTHLPGFVEQAGALKAKGAQVVACLSVNDAFVTAEWGRAHQAEGKVQLLADPTGAFGKETDLLLDDSLVSLFGNRRLKRFSMVIDKGVVKALNVEPDGTG</Hsp_hseq>
+      <Hsp_midline>+ G  +PSV VF    G+  K V+  +LFK KK V+F +PGAFTP CS +HLP + E  GA K  G   + C+SVND FV   W  A +    + ++ D  G F  E   +L       FG R   R+SM+++ GVV+ + +EP+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|146345491|sp|Q9BGI1.2|PRDX5_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-5, mitochondrial; AltName: Full=Peroxiredoxin V; Short=Prx-V; AltName: Full=Thioredoxin reductase; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q9BGI1</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>5.15619e-22</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RTGQKVPSV-VFRTRVGDTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWA-AEEESDNIYMIPDGNGEFTEGMGMLVGKEDLGF----------GKRSWRYSMLVNDGVVEKMFIEPEEPG</Hsp_qseq>
+      <Hsp_hseq>KVGDAIPSVEVFEKEPGN---KVNLAELFKGKKGVLFGLPGAFTPGCSKTHLPGFVEQADALKAKGIQVVACLTVNDVFVTEEWARAHKAEGKVRLLADPSGTF--------GKETDLLLDDSLLFLFGNHRLKRFSMVIEDGIVKSLNVEPDGTG</Hsp_hseq>
+      <Hsp_midline>+ G  +PSV VF    G+    V+  +LFKGKK V+F LPGAFTP CS +HLP + E   A K  G+  + C++VND FV   WA A +    + ++ D +G F        GKE                R  R+SM++ DG+V+ + +EP+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|50403763|sp|Q01116.2|PMP20_LIPKO</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxisomal peroxiredoxin; AltName: Full=Thioredoxin reductase [Lipomyces kononenkoae]</Hit_def>
+  <Hit_accession>Q01116</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.26508e-19</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>DDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWA-AEEESDNIYMIP-DGNGEFTEGMGMLVGKEDL--GFGKRSWRYSMLVNDGVVE</Hsp_qseq>
+      <Hsp_hseq>DKEFRDKTVVIVAIPGAFTPTCTANHIPPFVEKFTALKSAGVDAVIVLSANDPFVQSAFGKALGVTDEAFIFASDPGAEFSKSAGLSL---DLPPAFGTRTARYAIIVSNGVVK</Hsp_hseq>
+      <Hsp_midline>D  F+ K VV+ ++PGAFTPTC+++H+P + E F A K  GVDA+  +S ND FV +A+  A   +D  ++   D   EF++  G+ +   DL   FG R+ RY+++V++GVV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|3914384|sp|O43099.1|PMP20_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin pmp20; AltName: Full=Peroxisomal membrane protein pmp20; AltName: Full=Thioredoxin reductase; AltName: Allergen=Asp f 3 [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>O43099</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>9.47674e-19</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>KKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAW--AAEEESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLKFV</Hsp_qseq>
+      <Hsp_hseq>KKVILFALPGAFTPVCSARHVPEYIEKLPEIRAKGVDVVAVLAYNDAYVMSAWGKANQVTGDDILFLSDPDARFSKSIGW---ADEEG---RTKRYALVIDHGKITYAALEPAK--NHLEFSSAETVLKHL</Hsp_hseq>
+      <Hsp_midline>KKV++F+LPGAFTP CS+ H+P Y E     +  GVD +  ++ ND +VM+AW  A +   D+I  + D +  F++ +G     ++ G   R+ RY+++++ G +    +EP +  +  + S A+T+LK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|3914386|sp|P56577.1|MALF2_MALFU</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin; AltName: Full=MF1; AltName: Full=Thioredoxin reductase; AltName: Allergen=Mal f 2 [Malassezia furfur]</Hit_def>
+  <Hit_accession>P56577</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>2.43819e-18</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>TDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAA-EEESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDA--DTMLKFV</Hsp_qseq>
+      <Hsp_hseq>TRDEWKGKKVVIVSIPGAYTPICHQQHIPPLVKRVDELKAKGVDAVYVIASNDPFVMAAWGNFNNAKDKVVFATDIDLAFSKALGATIDLSAKHFGERTARYALIIDD---NKIVDFASDEGDTGKLQNASIDTILTKV</Hsp_hseq>
+      <Hsp_midline>T D +KGKKVV+ S+PGA+TP C   H+P   +     K  GVDA+  ++ ND FVM AW       D +    D +  F++ +G  +      FG+R+ RY+++++D    K+     + GD  K+ +A  DT+L  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|74680531|sp|Q5ASN8.1|PMP20_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin pmp20; AltName: Full=Peroxisomal membrane protein pmp20; AltName: Full=Thioredoxin reductase [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>Q5ASN8</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>2.56256e-18</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>KKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEE--ESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTMLKFV</Hsp_qseq>
+      <Hsp_hseq>KKVILFALPGAFTPVCSARHVPEYIERLPEIRAKGVDVVAVLAYNDAFVMSAWGKANGVKNDDILFLSDPEAKFSKSIGW---ADEEG---RTKRYAIVLDHGKVTYAALEPAK--NHLEFSSAETVIKHL</Hsp_hseq>
+      <Hsp_midline>KKV++F+LPGAFTP CS+ H+P Y E     +  GVD +  ++ ND FVM+AW      ++D+I  + D   +F++ +G     ++ G   R+ RY+++++ G V    +EP +  +  + S A+T++K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|130360|sp|P14292.3|PMPA_CANBO</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin-A; AltName: Full=PMP20; AltName: Full=Peroxisomal membrane protein A; AltName: Full=Thioredoxin reductase; AltName: Allergen=Cand b 2 [Candida boidinii]</Hit_def>
+  <Hit_accession>P14292</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.36195e-17</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAE---EESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVN-DGVVEKMFIE</Hsp_qseq>
+      <Hsp_hseq>KTKKFVVVSVPGAFTPPCTEQHLPGYIKNLPRILSKGVDFVLVISQNDPFVLKGWKKELGAADAKKLVFVSDPNLKLTKKLGSTIDLSAIGLGTRSGRLALIVNRSGIVEYAAIE</Hsp_hseq>
+      <Hsp_midline>K KK VV S+PGAFTP C+  HLP Y +        GVD +  +S ND FV+  W  E    ++  +  + D N + T+ +G  +    +G G RS R +++VN  G+VE   IE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|130361|sp|P14293.3|PMPB_CANBO</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin-B; AltName: Full=PMP20; AltName: Full=Peroxisomal membrane protein B; AltName: Full=Thioredoxin reductase; AltName: Allergen=Cand b 2 [Candida boidinii]</Hit_def>
+  <Hit_accession>P14293</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>2.14458e-17</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAE---EESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVN-DGVVEKMFIE</Hsp_qseq>
+      <Hsp_hseq>KTKKFVVVSVPGAFTPPCTEQHLPGYIKNLPRILSKGVDFVLVITQNDPFVLKGWKKELGAADAKKLIFVSDPNLKLTKKLGSTIDLSSIGLGTRSGRLALIVNRSGIVEYAAIE</Hsp_hseq>
+      <Hsp_midline>K KK VV S+PGAFTP C+  HLP Y +        GVD +  ++ ND FV+  W  E    ++  +  + D N + T+ +G  +    +G G RS R +++VN  G+VE   IE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|75326793|sp|Q7G959.1|PRX2A_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2A; AltName: Full=Peroxiredoxin IIA; AltName: Full=Thioredoxin reductase 2A [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q7G959</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>2.19552e-16</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>DTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVND</Hsp_qseq>
+      <Hsp_hseq>DQLQTVSVHSLAAGKKVILFGVPGAFPPTCSMNHVNGFIEKAEELKSNGVDEIICLSGDDPFMITACS---ENKHVKFVEDGSGEYIQLLGLELEVKDKGLGVRSRGFALLLDN</Hsp_hseq>
+      <Hsp_midline>D  + VS   L  GKKV++F +PGAF PTCS +H+  + E     K NGVD I C+S +D F++ A +   E+ ++  + DG+GE+ + +G+ +  +D G G RS  +++L+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|13432214|sp|O14313.2|PMP20_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin pmp20; AltName: Full=Peroxisomal membrane protein pmp20; AltName: Full=Thioredoxin reductase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O14313</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>6.17849e-14</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>KVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAE---EESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTML</Hsp_qseq>
+      <Hsp_hseq>KFIIVGVPGAFTPPCSS-QVPGYIANEKQFAAKGISGIYVVAVNDVFVTKAWKKSFDGGEQSGVHFVADWNGEFTKAFDAGFDASGLLGPLRSKRYAAVVENGKVVKVFIENEV--TDVDISSADKVL</Hsp_hseq>
+      <Hsp_midline>K ++  +PGAFTP CSS  +P Y      F   G+  I  V+VND FV  AW       E   ++ + D NGEFT+          L    RS RY+ +V +G V K+FIE E       +S AD +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1709682|sp|P38013.4|AHP1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin type-2; AltName: Full=AHPC1; AltName: Full=Cytoplasmic thiol peroxidase 3; Short=cTPx 3; AltName: Full=Peroxiredoxin type II; AltName: Full=Peroxisomal alkyl hydroperoxide reductase; AltName: Full=TPx type II; AltName: Full=Thiol-specific antioxidant II; Short=TSA II; AltName: Full=Thioredoxin peroxidase type II; AltName: Full=Thioredoxin reductase type II [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38013</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.52305e-11</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>LFKGKKVVVFSLPGAFTPTCSSSHLPRY-NELFGAFKENGVDAICCVSVNDTFVMNAWAAE---EESDNIYMIPDGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVNDGVVEKMFIEPEEPGDPFKVSDADTML</Hsp_qseq>
+      <Hsp_hseq>ISENKKVIITGAPAAFSPTCTVSHIPGYINYLDELVKEKEVDQVIVVTVDNPFANQAWAKSLGVKDTTHIKFASDPGCAFTKSIGFELAVGDGVY--WSGRWAMVVENGIVTYAAKE-TNPGTDVTVSSVESVL</Hsp_hseq>
+      <Hsp_midline>+ + KKV++   P AF+PTC+ SH+P Y N L    KE  VD +  V+V++ F   AWA     +++ +I    D    FT+ +G  +   D  +   S R++M+V +G+V     E   PG    VS  +++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|81175342|sp|P0AC64.2|GLRX3_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-3; Short=Grx3 [Escherichia coli O157:H7] &gt;gi|81175343|sp|P0AC63.2|GLRX3_ECOL6 RecName: Full=Glutaredoxin-3; Short=Grx3 [Escherichia coli CFT073] &gt;gi|81175344|sp|P0AC62.2|GLRX3_ECOLI RecName: Full=Glutaredoxin-3; Short=Grx3 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AC64</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>7.81168e-09</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>SVAIFTKPGCQFCAKVKQALQDKGLSYEEIVL-GKDATVTSVRAITGKMTAPQVFIGGKYIGGSEDLEAYLAK</Hsp_qseq>
+      <Hsp_hseq>NVEIYTKETCPYCHRAKALLSSKGVSFQELPIDGNAAKREEMIKRSGRTTVPQIFIDAQHIGGCDDLYALDAR</Hsp_hseq>
+      <Hsp_midline>+V I+TK  C +C + K  L  KG+S++E+ + G  A    +   +G+ T PQ+FI  ++IGG +DL A  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|13878512|sp|Q9HU55.1|GLRX_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HU55</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>2.21671e-08</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>VAIFTKPGCQFCAKVKQALQDKGLSYEEIVL-GKDATVTSVRAITGKMTAPQVFIGGKYIGGSEDLEA</Hsp_qseq>
+      <Hsp_hseq>VVIYTTAWCPYCIRAKQLLQRKGVDFQEIACDGKPELRAELARKAGSTTVPQIWIGETHVGGCDDLHA</Hsp_hseq>
+      <Hsp_midline>V I+T   C +C + KQ LQ KG+ ++EI   GK      +    G  T PQ++IG  ++GG +DL A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|75126090|sp|Q6K953.1|GRXC4_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-C4, chloroplastic; AltName: Full=Glutaredoxin-C2 homolog 2; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q6K953</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.53354e-08</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>EEPGDPFKVSDADTMLKFVAPDWKAQESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLGKDATVTSVRAI----TGKMTAPQVFIGGKYIGGSEDLEA</Hsp_qseq>
+      <Hsp_hseq>EEPSKPVMALDK-------AKEIVASSPVVVFSKTYCPFCARVKRLLAELAASYKAVELDVESDGSELQSALADWTGQRTVPCVFIKGKHIGGCDDTMA</Hsp_hseq>
+      <Hsp_midline>EEP  P    D        A +  A   V +F+K  C FCA+VK+ L +   SY+ + L  ++  + +++     TG+ T P VFI GK+IGG +D  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|75334122|sp|Q9FNE2.1|GRXC2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-C2; Short=AtGrxC2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FNE2</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>2.34717e-07</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>ESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLGKDATVTSVRA----ITGKMTAPQVFIGGKYIGGSE</Hsp_qseq>
+      <Hsp_hseq>ESVVVFSKTYCPYCVRVKELLQQLGAKFKAVELDTESDGSQIQSGLAEWTGQRTVPNVFIGGNHIGGCD</Hsp_hseq>
+      <Hsp_midline>ESV +F+K  C +C +VK+ LQ  G  ++ + L  ++  + +++     TG+ T P VFIGG +IGG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|122990893|sp|Q1RHJ0.1|GLRX1_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-1 [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RHJ0</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.11585e-07</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>ESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVL--GKDATVTSVRAITG---KMTAPQVFIGGKYIGGSEDL</Hsp_qseq>
+      <Hsp_hseq>HAIIIYTLAGCPYCMKAKALLDKKEVAYEEIEVQNSQDPNVAVLRKKLNNPDRLTFPQIFIDNMHIGGCDDL</Hsp_hseq>
+      <Hsp_midline> ++ I+T  GC +C K K  L  K ++YEEI +   +D  V  +R       ++T PQ+FI   +IGG +DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|55584168|sp|P55142.2|GRXC6_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-C6; AltName: Full=Glutaredoxin-C2 homolog 1 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>P55142</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.2539e-06</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>KAQESVA-----IFTKPGCQFCAKVKQALQDKGLSYEEIVLGKDATVTSVRAI----TGKMTAPQVFIGGKYIGGSED</Hsp_qseq>
+      <Hsp_hseq>KAKETVASAPVVVYSKSYCPFCVRVKKLFEQLGATFKAIELDGESDGSELQSALAEWTGQRTVPNVFINGKHIGGCDD</Hsp_hseq>
+      <Hsp_midline>KA+E+VA     +++K  C FC +VK+  +  G +++ I L  ++  + +++     TG+ T P VFI GK+IGG +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1707981|sp|P55143.1|GLRX_RICCO</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin [Ricinus communis]</Hit_def>
+  <Hit_accession>P55143</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.88359e-06</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>AQESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLGKDATVTSVRAI----TGKMTAPQVFIGGKYIGGSEDLEA</Hsp_qseq>
+      <Hsp_hseq>SSNAVVVFSKTYCPYCTSVKKLLDQLGAKYKVVELDTESDGSEIQTALAEWTGQRTVPNVFIGGKHIGGCDSTTA</Hsp_hseq>
+      <Hsp_midline>+  +V +F+K  C +C  VK+ L   G  Y+ + L  ++  + ++      TG+ T P VFIGGK+IGG +   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|6685509|sp|Q9ZDW1.1|GLRX1_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-1 [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZDW1</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>2.48212e-06</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ESVAIFTKPGCQFCAKVKQALQDKGLSYEEIV---LGKDATVTSVRAITGKMTAPQVFIGGKYIGGSEDL</Hsp_qseq>
+      <Hsp_hseq>HTIIIYTLASCPYCIKAKALLDKKNVIYEEIEVSNLTQEEKEKFIKKSGGKSTVPQIFIDNMHVGGCDDL</Hsp_hseq>
+      <Hsp_midline> ++ I+T   C +C K K  L  K + YEEI    L ++     ++   GK T PQ+FI   ++GG +DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|119370643|sp|Q0DAE4.2|GRXC8_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-C8; AltName: Full=Glutaredoxin-C4 homolog [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q0DAE4</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>3.12131e-06</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVAPDWKAQESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLGKDA------TVTSVRAITGKMTAPQVFIGGKYIGGSED-LEAY</Hsp_qseq>
+      <Hsp_hseq>FVKSTVKAHD-VVIFSKSYCPYCRRAKAVFKELELKKEPYVVELDQREDGWEIQDALSDMVGRRTVPQVFVHGKHLGGSDDTVEAY</Hsp_hseq>
+      <Hsp_midline>FV    KA + V IF+K  C +C + K   ++  L  E  V+  D          ++  + G+ T PQVF+ GK++GGS+D +EAY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|73919687|sp|Q923X4.1|GLRX2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-2, mitochondrial; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q923X4</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.13154e-06</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AQESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLGK----DATVTSVRAITGKMTAPQVFIGGKYIGGSED</Hsp_qseq>
+      <Hsp_hseq>SNNCVVIFSKTSCSYCSMAKKIFHDMNVNYKAVELDMLEYGNQFQDALHKMTGERTVPRIFVNGRFIGGAAD</Hsp_hseq>
+      <Hsp_midline>+   V IF+K  C +C+  K+   D  ++Y+ + L      +    ++  +TG+ T P++F+ G++IGG+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|13878523|sp|Q9ZR41.1|GLRX_SOLLC</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>Q9ZR41</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>6.17446e-06</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>VAIFTKPGCQFCAKVKQALQDKGLSYEEIVLGKDATVTSVRAI----TGKMTAPQVFIGGKYIGGSEDLEAY</Hsp_qseq>
+      <Hsp_hseq>VAVFSKTYCPFCVSVKDLLSKLGATFKAVELDSEKDGSEIQAALAEWTGQRTVPNVFIGRKHIGGCDATTAL</Hsp_hseq>
+      <Hsp_midline>VA+F+K  C FC  VK  L   G +++ + L  +   + ++A     TG+ T P VFIG K+IGG +   A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81826330|sp|Q68XG4.1|GLRX1_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-1 [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68XG4</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>6.18539e-06</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLG---KDATVTSVRAITGKMTAPQVFIGGKYIGGSEDL</Hsp_qseq>
+      <Hsp_hseq>HTIIIYTLASCPYCIKAKALLDKKNVIYEEIEVSNFTQEEKEAFIKKSGGKNTVPQIFIDNMHVGGCDDL</Hsp_hseq>
+      <Hsp_midline> ++ I+T   C +C K K  L  K + YEEI +    ++     ++   GK T PQ+FI   ++GG +DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|121442|sp|P12309.2|GLRX1_PIG</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-1; AltName: Full=Thioltransferase-1; Short=TTase-1 [Sus scrofa]</Hit_def>
+  <Hit_accession>P12309</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>6.45658e-06</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VAIFTKPGCQFCAKVKQALQDKGLSYEEIVLG-KDATVTS--------VRAITGKMTAPQVFIGGKYIGGSEDLEA</Hsp_qseq>
+      <Hsp_hseq>VVVFIKPTCPFCRKTQELLSQ--LPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLES</Hsp_hseq>
+      <Hsp_midline>V +F KP C FC K ++ L    L ++E +L   D T TS        ++ +TG  T P+VFIG + IGG  DLE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|119370630|sp|Q8LBS4.2|GRS12_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Monothiol glutaredoxin-S12, chloroplastic; Short=AtGrxS12; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8LBS4</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.5697e-05</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AQESVAIFTKPGCQFCAKVK---QALQDKGLSYEEIVLGKDATVTS--VRAITGKMTAPQVFIGGKYIGGSED---------LEAYLAK</Hsp_qseq>
+      <Hsp_hseq>AENPVVVYSKTWCSYSSQVKSLFKSLQVEPLVVELDQLGSEGSQLQNVLEKITGQYTVPNVFIGGKHIGGCSDTLQLHNKGELEAILAE</Hsp_hseq>
+      <Hsp_midline>A+  V +++K  C + ++VK   ++LQ + L  E   LG + +     +  ITG+ T P VFIGGK+IGG  D         LEA LA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|166227855|sp|A2BJD9.1|TDXH_HYPBU</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin [Hyperthermus butylicus DSM 5456]</Hit_def>
+  <Hit_accession>A2BJD9</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.70245e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MALQDRT-GQKVPSVVFRTRVGDTWKDVSTDDLFKGKKVVVFSLPGAFTPTCSSSHLPRYNELFGAFKENGVDAICCVSVNDTFVMNAWAAEEESDNIYMIP-----DGNGEFTEGMGMLVGKEDLGFGKRSWRYSMLVND-GVVEKMFIEPEEPGDPFKVSDADTMLKFV</Hsp_qseq>
+      <Hsp_hseq>MPLQAPSIGEKFPEIEVMTTHGK----IKLPDHFRGKWFVLFSHPADFTPVCTTEFVA-FAKRYEDFKKLNTELI-GLSVDSTFSHIKWAEWIKEKLGVEIPFPIIADPTGEVAKKLGLLHAQSSTA----TVRAVFVVDDKGVVRAILYYPQEVG-----RNIDEILRLI</Hsp_hseq>
+      <Hsp_midline>M LQ  + G+K P +   T  G     +   D F+GK  V+FS P  FTP C++  +  + + +  FK+   + I  +SV+ TF    WA   +      IP     D  GE  + +G+L  +        + R   +V+D GVV  +   P+E G      + D +L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|81854128|sp|Q92J02.1|GLRX1_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-1 [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92J02</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>3.04307e-05</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLG---KDATVTSVRAITGKMTAPQVFIGGKYIGGSEDL</Hsp_qseq>
+      <Hsp_hseq>HTIIVYTLASCPYCIKAKALLDEKNVAYEEIEVSNFTQEEKEKFIKKSGGKKTVPQIFIDNMHVGGCDAL</Hsp_hseq>
+      <Hsp_midline> ++ ++T   C +C K K  L +K ++YEEI +    ++     ++   GK T PQ+FI   ++GG + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|122146098|sp|Q32L67.1|GLRX2_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-2, mitochondrial; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q32L67</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>3.15009e-05</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>APDWKAQESVA-----IFTKPGCQFCAKVKQALQDKGLSYEEIVLG--------KDATVTSVRAITGKMTAPQVFIGGKYIGGSED</Hsp_qseq>
+      <Hsp_hseq>APVNQIQETISNNCVVIFSKTSCSYCTMAKNLFHDMNVNYKVVELDMLEYGSQFQDA----LHKMTGERTVPRIFVNGTFIGGATD</Hsp_hseq>
+      <Hsp_midline>AP  + QE+++     IF+K  C +C   K    D  ++Y+ + L         +DA    +  +TG+ T P++F+ G +IGG+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|13878514|sp|Q9JY15.1|GLRX_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JY15</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>4.28152e-05</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>ESVAIFTKPGCQFCAKVKQALQDKGLSY-EEI-VLGKDATVTSVRAITGKMTAPQVFIGGKYIGGSEDL</Hsp_qseq>
+      <Hsp_hseq>QTVTMYTGPFCPYCAMAKRLLHAAGVGHIDEIRVDASPEAFAEMQQLSGQRSVPQIFIGETHVGGFTDL</Hsp_hseq>
+      <Hsp_midline>++V ++T P C +CA  K+ L   G+ + +EI V         ++ ++G+ + PQ+FIG  ++GG  DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|119370637|sp|Q8LFQ6.2|GRXC4_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-C4; Short=AtGrxC4 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8LFQ6</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>4.75523e-05</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>AQESVAIFTKPGCQFCAKVKQALQDKGLSYEEIVLGKD------ATVTSVRAITGKMTAPQVFIGGKYIGGSED-LEAY</Hsp_qseq>
+      <Hsp_hseq>SSHKIVIFSKSYCPYCKKAKSVFRE--LDQVPYVVELDEREDGWSIQTALGEIVGRRTVPQVFINGKHLGGSDDTVDAY</Hsp_hseq>
+      <Hsp_midline>+   + IF+K  C +C K K   ++  L     V+  D      +  T++  I G+ T PQVFI GK++GGS+D ++AY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|73919686|sp|Q9NS18.1|GLRX2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-2, mitochondrial; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9NS18</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>6.56533e-05</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>VAPDWKAQESVA-----IFTKPGCQFCAKVKQALQDKGLSYEEIVLGK----DATVTSVRAITGKMTAPQVFIGGKYIGGSED</Hsp_qseq>
+      <Hsp_hseq>TAPVNQIQETISDNCVVIFSKTSCSYCTMAKKLFHDMNVNYKVVELDLLEYGNQFQDALYKMTGERTVPRIFVNGTFIGGATD</Hsp_hseq>
+      <Hsp_midline> AP  + QE+++     IF+K  C +C   K+   D  ++Y+ + L      +    ++  +TG+ T P++F+ G +IGG+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

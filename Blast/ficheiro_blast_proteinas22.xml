@@ -1,0 +1,985 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>47429</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>205</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>47429</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>205</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|84027900|sp|P0AFU8.1|RISA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Escherichia coli K-12] &gt;gi|84027901|sp|P0AFU9.1|RISA_SHIFL RecName: Full=Riboflavin synthase; Short=RS [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFU8</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>7.49072e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAI-HRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALP-HELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQR</Hsp_qseq>
+      <Hsp_hseq>MFTGIVQGTAKLVSIDEKPN--FRTHVVELPDHMLDGLETGASVAHNGCCLTVTEINGNHVSFDLMKETLRITNLGDLKVGDWVNVERAAKFSDEIGGHLMSGHIMTTAEVAKILTSENNRQIWFKVQDSQLMKYILYKGFIGIDGISLTVGEVTPTRFCVHLIPETLERTTLGKKKLGARVNIEIDPQTQAVVDTVERVLAAR</Hsp_hseq>
+      <Hsp_midline>MFTGIVQG  KL +I  +P+  F+T+VVELP    + L+ GASVA+NGCCLT+TEI GN VSFDLM ETL  TNLG LK GD VN+ERAA+F DEIGGH+MSGHIM T  + +I     NR +WF +   +L  YIL KGF+G+DG SLT+G+V  +RF VHLIPETLERT  G +K G R+NIEIDP TQA+VDTVER++A R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1172947|sp|P45273.1|RISA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45273</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>1.10011e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPH-ELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQR</Hsp_qseq>
+      <Hsp_hseq>MFTGIVQGTAPIHSIKEKAN-FRTQVVKLLPEMRKDLEIGASIANNGVCLTVTEINGDLVSFDLMQETLKITNLGTVKVGDYVNIERAMQMGTEIGGHLLSGHIYCTAKISDIIASENNRQIWFELPSADVMKYILTKGFVAVDGISLTIGEVRDTQFCVNLIPETLQRTLMGRRKVGDIVNIEIDPQTQAIVDTVENYLQSK</Hsp_hseq>
+      <Hsp_midline>MFTGIVQG   + +I   +  F+T VV+L  E  ++L+ GAS+ANNG CLT+TEI G+ VSFDLM ETL  TNLG +K GD VNIERA + G EIGGH++SGHI  T  I +I     NR +WF LP  ++  YILTKGFV +DG SLTIG+V D++F V+LIPETL+RTL G RK GD +NIEIDP TQAIVDTVE  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|25009063|sp|Q8KA22.1|RISA_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8KA22</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.95259e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPH-ELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQ</Hsp_qseq>
+      <Hsp_hseq>MFTGIVNGIARVVSINKK-KNFHTYTVNFSSILLKNLKIGDSVAHNGCCLTVKYINCPHVVFDIMKITIANTNLGVLNIGDYVNIERSLKYGDEMGGHIISGHIMNTGEISKISKLDKNYILWCKVKDLSLMKYIFYKGFIAIDGISLTINNIIKNEFCVSIIPETLSSTTIGFKKIGQLVNIEIDFYTQIIVDTTKRLIKK</Hsp_hseq>
+      <Hsp_midline>MFTGIV G+ ++ +I++  + F TY V       +NL+ G SVA+NGCCLT+  I    V FD+M  T+A TNLG+L  GD VNIER+ ++GDE+GGH++SGHIM T  I +I +   N  +W  +    L  YI  KGF+ +DG SLTI  +  + F V +IPETL  T  G +K G  +NIEID  TQ IVDT +RL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|11387017|sp|P57212.1|RISA_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57212</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>5.3733e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPH-ELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLM</Hsp_qseq>
+      <Hsp_hseq>MFTGIINGTATIVYIEKKKKKYR-YTVELPSNLSKNLKLGDSISHNGCCLTVKLINNSFIICDVIQETLKSTNLGILNIGDSINIERSIKYGDEIGGHIISGHVMNTAEISKMSKSDNNCVIWLKMNNMSLMKYIFYKGFICVDGISLTVNDIIKNEFCVNIIPYTFLFTTIKDKKNGSLVNIEIDFYTQTIVDTTERLI</Hsp_hseq>
+      <Hsp_midline>MFTGI+ G   +  I +  + ++ Y VELP   ++NL+ G S+++NGCCLT+  I  + +  D++ ETL  TNLG+L  GD +NIER+ ++GDEIGGH++SGH+M T  I ++ +   N  +W  + +  L  YI  KGF+ +DG SLT+  +  + F V++IP T   T    +K G  +NIEID  TQ IVDT ERL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|38372480|sp|Q89AX1.1|RISA_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AX1</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>1.30524e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGF-NRTVWFALPHE-LKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQRYAK</Hsp_qseq>
+      <Hsp_hseq>MFTGIVRGLGKVVKILKEKKISQ-WEVETSNELVKNLMLGASISCNGCCLTVRNIFRTIFCVDIVEETLRSTSLNTIIVGQYINLERSIKFGEEVGGHLVSGHIITT-GVVSDKKELFSNQELWISLSASFFIKYFFYKGFVCVDGISLTIGSIKNNAFCVFLIPETILRTTIGQKIIGDVVNIEIDFYTQITVDSVERLLKVHPSK</Hsp_hseq>
+      <Hsp_midline>MFTGIV+GLGK+  I +  +  Q + VE   E  +NL  GAS++ NGCCLT+  I       D++ ETL  T+L  +  G  +N+ER+ +FG+E+GGH++SGHI+ T  +V  +++ F N+ +W +L       Y   KGFV +DG SLTIG ++++ F V LIPET+ RT  G +  GD +NIEID  TQ  VD+VERL+    +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|8928316|sp|Q9Z820.1|RISA_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z820</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>4.93463e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQ</Hsp_qseq>
+      <Hsp_hseq>MFSGIIQELGEVCFFEAQGNGLSLGIKSTPLFVTP-LVTGDSVAVDGVCLTLTSCNESKIFFDVIPETLACTTLGEKRCSDQVNLEAALKMGDSIGGHLLSGHVFGTAEIFLIKENRY----YFRGSKELSQYLFEKGFIAIDGISLTLVSVDSDTFSVGLIPETLQRTTLGKKREGERVNIEIDMSTKIQVDTVKRILAS</Hsp_hseq>
+      <Hsp_midline>MF+GI+Q LG++             +   P      L  G SVA +G CLT+T    +++ FD++ ETLA T LG  +  D VN+E A + GD IGGH++SGH+  T  I  I+ + +    +F    EL  Y+  KGF+ +DG SLT+  V+   F+V LIPETL+RT  G ++ G+R+NIEID +T+  VDTV+R++A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|14195146|sp|Q9PJZ1.1|RISA_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PJZ1</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>9.63778e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHG---ASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQRYAK</Hsp_qseq>
+      <Hsp_hseq>MFSGIIQEVARVDLIHHYGDSMEIGIF------ARNLVDGVPGSSIAVDGICLTLVKREFELLFFDVTEETMACTTIKNYTVGSMVNLERSVRLGDEIGGHFVSGHVCGVGTIIAVEKS----YMFFKAPTNLVPYVLEKGFIAIDGISLTIAQVRGDIFSVSVIPETRARTSLGYKQVGSHVNMEPDMMTKMQVDTVMRFQAEKIGK</Hsp_hseq>
+      <Hsp_midline>MF+GI+Q + ++  IH   ++ +  +       A NL  G   +S+A +G CLT+ + E   + FD+  ET+A T +     G  VN+ER+ R GDEIGGH +SGH+     I+ +E+      ++F  P  L PY+L KGF+ +DG SLTI +V    F+V +IPET  RT  G ++ G  +N+E D  T+  VDTV R  A++  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|8928298|sp|O67604.1|RISA_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67604</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>5.49937e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQ</Hsp_qseq>
+      <Hsp_hseq>MFTGLVEDLGKVKNLTLSSKGAKLSV----ETKLEDVKLGDSVSVNGACLTVVDIKSSTLTFDVSPETLKRTNLGKLKTGDYVNLERALRVGERLGGHIVQGHVDFTAPVKSFNFLGEHYELVIEIPEEWSIYVVEKGSIALDGISLTVNYVKENKVFINIIPHTYKSTNLQFKKVGDLLNVETDILGKYVINYLNKLKKK</Hsp_hseq>
+      <Hsp_midline>MFTG+V+ LGK+  +   S+  +  V    +   E+++ G SV+ NG CLT+ +I+ + ++FD+  ETL +TNLG LK GD VN+ERA R G+ +GGH++ GH+  T P+      G +  +   +P E   Y++ KG + LDG SLT+  V++++  +++IP T + T    +K GD +N+E D   + +++ + +L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|8928300|sp|O84410.1|RISA_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84410</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>3.26864e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQR</Hsp_qseq>
+      <Hsp_hseq>MFSGIIQEVARVDLIHHLRDSMEIGVF---ARKLIDVVPGSSFSVDGICLTLVKRQYELLFFDVTEETMAWTTIKDYTVGTMVNLERSVRLGDEIGGHFVSGHVCGIGTIIAIEKS----YMFFKAPANLVPYILEKGFIAIDGISLTIARVKGDIFSVSLIPETRARTSLGYKQVGAHVNMEPDMMTKMQVDTIMRFHAEK</Hsp_hseq>
+      <Hsp_midline>MF+GI+Q + ++  IH   ++ +  V         ++  G+S + +G CLT+ + +   + FD+  ET+A T +     G  VN+ER+ R GDEIGGH +SGH+     I+ IE+      ++F  P  L PYIL KGF+ +DG SLTI +V+   F+V LIPET  RT  G ++ G  +N+E D  T+  VDT+ R  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1710403|sp|P50854.1|RISA_ACTPL</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Actinobacillus pleuropneumoniae]</Hit_def>
+  <Hit_accession>P50854</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>5.11959e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPH--ELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEID</Hsp_qseq>
+      <Hsp_hseq>MFTGIIEEVGKIAQIHKQGE-FAVVTIN-ATKVLQDVHLGDTIAVNGVCLTVTSFSSNQFTADVMSETLKRTSLGELKSNSPVNLERAMAANGRFGGHIVSGHIDGTGEIAEITPA--HNSTWYRIKTSPKLMRYIIEKGSITIDGISLTVVDTDDESFRVSIIPHTIKETNLGSKKIGSIVNLEND</Hsp_hseq>
+      <Hsp_midline>MFTGI++ +GK+  IH+  E F    +    +  +++  G ++A NG CLT+T    N+ + D+M+ETL +T+LG LK    VN+ERA       GGH++SGHI  T  I EI     + + W+ +    +L  YI+ KG + +DG SLT+   +D  F V +IP T++ T  GS+K G  +N+E D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1710404|sp|P51961.1|RISA_PHOPO</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Photobacterium phosphoreum]</Hit_def>
+  <Hit_accession>P51961</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>8.02834e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLM</Hsp_qseq>
+      <Hsp_hseq>MFTGIIEAVGNISAITSKGSDFEVSVNCDTLDLAD-VKIGDSIATNGICLTVVKLTANSYVADLSIETLSRTAFNYYKVGQAVNLEKAMLPTTRFGGHIVSGHVDAVAEVIECRTSGRAIDIWIRVPSQIEKYLSEKGSVTVDGVSLTVNAVTGNEFKLTIVPHTVVETTIADFKVGNKVNIEVD----VLARYIERLL</Hsp_hseq>
+      <Hsp_midline>MFTGI++ +G ++AI      F+  V     + A+ ++ G S+A NG CLT+ ++  N    DL  ETL++T     K G  VN+E+A       GGH++SGH+ A   ++E    G    +W  +P +++ Y+  KG V +DG SLT+  V  + F + ++P T+  T     K G+++NIE+D     +   +ERL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|54039064|sp|P65328.1|RISA_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Mycobacterium bovis AF2122/97] &gt;gi|614114518|sp|P9WK34.1|RISA_MYCTO RecName: Full=Riboflavin synthase; Short=RS [Mycobacterium tuberculosis CDC1551] &gt;gi|614114525|sp|P9WK35.1|RISA_MYCTU RecName: Full=Riboflavin synthase; Short=RS [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P65328</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>2.12431e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEI-EGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTI---GKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLM</Hsp_qseq>
+      <Hsp_hseq>MFTGIVEERGEVTGREALVDAAR-LTIRGPMVTA-DAGHGDSIAVNGVCLTVVDVLPDGQFTADVMAETLNRSNLGELRPGSRVNLERAAALGSRLGGHIVQGHVDATGEIVARCPSEHWEVVRIEMPASVARYVVEKGSITVDGISLTVSGLGAEQRDWFEVSLIPTTRELTTLGSAAVGTRVNLEVD----VVAKYVERLM</Hsp_hseq>
+      <Hsp_midline>MFTGIV+  G++T      +A +   +  P   A +  HG S+A NG CLT+ ++    + + D+MAETL ++NLG L+ G  VN+ERAA  G  +GGH++ GH+ AT  IV          V   +P  +  Y++ KG + +DG SLT+   G  +   F V LIP T E T  GS   G R+N+E+D     +   VERLM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|59800186|sp|Q9Y7P0.1|RISA_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9Y7P0</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>2.4047e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDG--FNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEID</Hsp_qseq>
+      <Hsp_hseq>MFTGLVEAIGVVKDVQGTIDNGFAMKIEAPQ-ILDDCHTGDSIAVNGTCLTVTDFDRYHFTVGIAPESLRLTNLGQCKAGDPVNLERAVLSSTRMGGHFVQGHVDTVAEIVEKKQDGEAIDFTFRPRDPFVLK-YIVYKGYIALDGTSLTITHVDDSTFSIMMISYTQSKVIMAKKNVGDLVNVEVD</Hsp_hseq>
+      <Hsp_midline>MFTG+V+ +G +  +    +      +E PQ   ++   G S+A NG CLT+T+ +    +  +  E+L  TNLG  K GD VN+ERA      +GGH + GH+     IVE ++DG   + T     P  LK YI+ KG++ LDG SLTI  V+DS F++ +I  T  + +   +  GD +N+E+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|400980|sp|Q01993.1|RISA_PHOLE</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Photobacterium leiognathi]</Hit_def>
+  <Hit_accession>Q01993</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>4.36816e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEID</Hsp_qseq>
+      <Hsp_hseq>MFTGIIESIGNIGAIIRHNEDL-SIVVNTNNLDISDVNIGDSIATNGVCLTVSKLLPSGYTADLSLETYKRTAFHSYRIGQEVNLEKAMLPTTRLGGHLVSGHVDGVGEVIEFKRNGRAINIWVAVPVQLKKYLSEKGSVTIDGISLTINAVYQNVIKLTIVPHTLAETNLVNINIDKKVNVEID</Hsp_hseq>
+      <Hsp_midline>MFTGI++ +G + AI R +E   + VV        ++  G S+A NG CLT++++  +  + DL  ET  +T     + G  VN+E+A      +GGH++SGH+     ++E +R+G    +W A+P +LK Y+  KG V +DG SLTI  V  +   + ++P TL  T   +     ++N+EID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|2497759|sp|Q44680.1|RISA_BACAM</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>Q44680</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.41571e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEID</Hsp_qseq>
+      <Hsp_hseq>MFTGIVEETGTIQAIKKTGLSMALTIA--ASKVTSDVRLGDSIAVNGICLTVTGFSDNQFTVDVMPETVKATSLNGLSKGSKVNLERAMSANGRFGGHFVSGHVDGTAEITRIEKKSNAVYYDLKLSPELTKTLVLKGSITVDGVSSTIFGLSDESVTVSVIPHTISETIFRTKAVGSIVNIECD</Hsp_hseq>
+      <Hsp_midline>MFTGIV+  G + AI +   +    +     +   +++ G S+A NG CLT+T    N+ + D+M ET+  T+L  L +G  VN+ERA       GGH +SGH+  T  I  IE+          L  EL   ++ KG + +DG S TI  + D    V +IP T+  T+F ++  G  +NIE D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|223590244|sp|A5DB51.3|RISA_PICGU</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Meyerozyma guilliermondii ATCC 6260]</Hit_def>
+  <Hit_accession>A5DB51</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>2.44259e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQ-----TYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFD--LMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFAL-PHELKPYILTKGFVGLDGCSLTIGKV--EDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVE</Hsp_qseq>
+      <Hsp_hseq>MFTGLVEHIGTVLQVTEKDTTASGGDGVSMVIGDCSKILEDVQLGDSICTNGVCLTVTEFDMARSQFKVGISPETLRRSDLGELKPGSKVNLERAVKADVRMGGHVVQGHVDTIATIVNRRGDGNAINFTFKLRDSQYGKYIVEKGFIAIDGTSLTVTDVDHEQSEFSISMVSYTQEKVIMPLKNSGDSVNIEVDLTGKLIEKQIE</Hsp_hseq>
+      <Hsp_midline>MFTG+V+ +G +  +             + V+    +  E++Q G S+  NG CLT+TE +  R  F   +  ETL +++LG LK G  VN+ERA +    +GGHV+ GH+     IV    DG      F L   +   YI+ KGF+ +DG SLT+  V  E S F++ ++  T E+ +   + +GD +NIE+D   + I   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|132633|sp|P16440.2|RISA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS; AltName: Full=Heavy riboflavin synthase alpha subunit; Short=HRS alpha subunit; AltName: Full=Light riboflavin synthase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P16440</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>3.57334e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHE--LKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEID</Hsp_qseq>
+      <Hsp_hseq>MFTGIIEETGTIESMKKAGHAMALTIK--CSKILEDVHLGDSIAVNGICLTVTDFTKNQFTVDVMPETVKATSLNDLTKGSKVNLERAMAANGRFGGHFVSGHVDGTAEITRIEEK--SNAVYYDLKMDPSLTKTLVLKGSITVDGVSLTIFGLTEDTVTISLIPHTISETIFSEKTIGSKVNIECD</Hsp_hseq>
+      <Hsp_midline>MFTGI++  G + ++ +   A    +     +  E++  G S+A NG CLT+T+   N+ + D+M ET+  T+L  L +G  VN+ERA       GGH +SGH+  T  I  IE    +  V++ L  +  L   ++ KG + +DG SLTI  + +    + LIP T+  T+F  +  G ++NIE D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|126535|sp|P21578.1|LUXY_ALIFS</Hit_id>
+  <Hit_def>RecName: Full=Yellow fluorescent protein; Short=YFP [Aliivibrio fischeri]</Hit_def>
+  <Hit_accession>P21578</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>2.85761e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTN-LGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQA</Hsp_qseq>
+      <Hsp_hseq>MFKGIVEGIGIIEKIDIYTD-LDKYAIRFPENMLNGIKKESSIMFNGCFLTVTSVNSNIVWFDIFEKEARKLDTFREYKVGDRVNLGTFPKFGAASGGHILSARISCVASIIEIIENEDYQQMWIQIPENFTEFLIDKDYIAVDGISLTIDTIKNNQFFISLPLKIAQNTNMKWRKKGDKVNVELSNKINA</Hsp_hseq>
+      <Hsp_midline>MF GIV+G+G +  I   ++    Y +  P+     ++  +S+  NGC LT+T +  N V FD+  +   K +     K GD VN+    +FG   GGH++S  I     I+EI  +   + +W  +P     +++ K ++ +DG SLTI  +++++F + L  +  + T    RK GD++N+E+     A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|585862|sp|P38145.1|RISA_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin synthase; Short=RS [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38145</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>2.18853e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKL--TAIHRPSEAFQTYVVELPQEAAENLQH---GASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFAL-PHELKPYILTKGFVGLDGCSLTIGKV----EDSRFNVHLIPETLERTLFGSRKAGDRINIEID</Hsp_qseq>
+      <Hsp_hseq>MFTGIVECMGTVLENNPYDDSESGGQGVSITIGNAGSILTDCHVGDSIAVNGVCLTVTEFNNDSFKVGISPETIKRSNVASWIQGTQVNLERAVSQDVRFGGHYVQGHVDTVANIVSRRPEGNSIIFGFQLRDQEYFKYIVEKGFICIDGTSLTIIKVDPLSQGGAFYISMIKHTQDNVIMPLKKIGDEVNIEVD</Hsp_hseq>
+      <Hsp_midline>MFTGIV+ +G +     +  SE+    V      A   L     G S+A NG CLT+TE   +     +  ET+ ++N+    +G  VN+ERA       GGH + GH+     IV    +G +    F L   E   YI+ KGF+ +DG SLTI KV    +   F + +I  T +  +   +K GD +NIE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|729961|sp|Q06877.1|LUXP_PHOLE</Hit_id>
+  <Hit_def>RecName: Full=Lumazine protein; Short=LUMP [Photobacterium leiognathi]</Hit_def>
+  <Hit_accession>Q06877</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>3.2722e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEI</Hsp_qseq>
+      <Hsp_hseq>MFRGIVQGRGVIRSISK-SEDSQRHGIAFPEGMFQLVDVDTVMLVNGCSLTVVRILGDMVYFDI-DQALGTTTFDGLKEGDQVNLEIHPKFGEVVGRGGLTGNIKGTALVAAIEENDAGFSVLIDIPKGLAENLTVKDDIGIDGISLPITDMSDSIITLNYSRDLLASTNIASLAKDVKVNVEI</Hsp_hseq>
+      <Hsp_midline>MF GIVQG G + +I + SE  Q + +  P+   + +     +  NGC LT+  I G+ V FD+  + L  T    LKEGD VN+E   +FG+ +G   ++G+I  T  +  IE +    +V   +P  L   +  K  +G+DG SL I  + DS   ++   + L  T   S     ++N+EI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.1268</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>FALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGDRINIEIDPNTQAIV</Hsp_qseq>
+      <Hsp_hseq>IAFPEGMFQLVDVDTVMLVNGCSLTVVRILGDMVYFD-IDQALGTTTFDGLKEGDQVNLEIHPKFGEVV</Hsp_hseq>
+      <Hsp_midline> A P  +   +     + ++GCSLT+ ++         I + L  T F   K GD++N+EI P    +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|126532|sp|P25082.1|LUXP_PHOPO</Hit_id>
+  <Hit_def>RecName: Full=Lumazine protein; Short=LUMP [Photobacterium phosphoreum]</Hit_def>
+  <Hit_accession>P25082</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.33624e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MFTGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHI--MATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLERTL-FGSRKAGDRINIE</Hsp_qseq>
+      <Hsp_hseq>MFKGIVQGVGIIKKISKNDDT-QRHGITFPKDILDSVEKDTVMLVNGCSVTVVRITGDVVYFDI-DQAINTTTFRKLEVGNKVNLEVRPGFGSLLGKGALTGNIKGVATVDNITEEEDLLK--VYIKIPKDLIENISSEDHIGINGVSNSIEEVSNDIICINY-PKNLSITTNLGTLETGSEVNVE</Hsp_hseq>
+      <Hsp_midline>MF GIVQG+G +  I +  +  Q + +  P++  ++++    +  NGC +T+  I G+ V FD+  + +  T    L+ G+ VN+E    FG  +G   ++G+I  +ATV  +  E D     V+  +P +L   I ++  +G++G S +I +V +    ++  P+ L  T   G+ + G  +N+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|51338773|sp|P34706.2|SDC3_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger protein sdc-3 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>P34706</Hit_accession>
+  <Hit_len>2150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.10002</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1207</Hsp_hit-from>
+      <Hsp_hit-to>1316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>TGIVQGLGKLTAIHRPSEAFQTYVVELPQEAAENLQHGASVANNGCCLTITEIEGNRVSFDLMAETLAKTNLGLLKEGDCVNIERAARFGDEIGGHVMSGHIMATVPIVE</Hsp_qseq>
+      <Hsp_hseq>SGVEVQVNQSVTISRSSTSFESLLVEDPEEHPEQLPVSASEKANNQIVPEVEVEGSVVPVTNQQEENVTSEGPTLQEGSSIPSSSHIYTVDELLGTESPGPEATETPVAE</Hsp_hseq>
+      <Hsp_midline>+G+   + +   I R S +F++ +VE P+E  E L   AS   N   +   E+EG+ V      E    +    L+EG  +         DE+ G    G      P+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|3914408|sp|P56601.1|PPOX_MYXXA</Hit_id>
+  <Hit_def>RecName: Full=Protoporphyrinogen oxidase; Short=PPO [Myxococcus xanthus]</Hit_def>
+  <Hit_accession>P56601</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.751074</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>DCVNIERAARFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFAL----------PHELKPYILTKG-----------FVGLD----GCSLTIGKVEDSRFNVHLIPETLERTL--FGSRKAGDRINIEIDPNTQAIVDTVE</Hsp_qseq>
+      <Hsp_hseq>DAVLLESSARLGGAVGTHALAGYLVEQGPNSFLDREPATRALAAALNLEGRIRAADPAAKRRYVYTRGRLRSVPASPPAFLASDILPLGARLRVAGELFSRRA----PEGVDESLAAFGRRHLGHR-------ATQVLLDAVQ</Hsp_hseq>
+      <Hsp_midline>D V +E +AR G  +G H ++G+++   P   ++R+   R +  AL          P   + Y+ T+G           F+  D    G  L +     SR      PE ++ +L  FG R  G R        TQ ++D V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|238692563|sp|B3Q6A0.1|ILVD_RHOPT</Hit_id>
+  <Hit_def>RecName: Full=Dihydroxy-acid dehydratase; Short=DAD [Rhodopseudomonas palustris TIE-1]</Hit_def>
+  <Hit_accession>B3Q6A0</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.29913</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>498</Hsp_hit-from>
+      <Hsp_hit-to>568</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>YILTKGFVGLDGCSLTIGKVEDSRFNV--------HLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQR</Hsp_qseq>
+      <Hsp_hseq>YLKSKGLG--KACAL----ITDGRFSGGTSGLSIGHVSPEAAEGGLIGLVRDGDRISIDI-PNRTISLDVSEAELAKR</Hsp_hseq>
+      <Hsp_midline>Y+ +KG      C+L    + D RF+         H+ PE  E  L G  + GDRI+I+I PN    +D  E  +A+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81563502|sp|Q6N9S5.1|ILVD_RHOPA</Hit_id>
+  <Hit_def>RecName: Full=Dihydroxy-acid dehydratase; Short=DAD [Rhodopseudomonas palustris CGA009]</Hit_def>
+  <Hit_accession>Q6N9S5</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.31079</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>498</Hsp_hit-from>
+      <Hsp_hit-to>568</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>YILTKGFVGLDGCSLTIGKVEDSRFNV--------HLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQR</Hsp_qseq>
+      <Hsp_hseq>YLKSKGLG--KACAL----ITDGRFSGGTSGLSIGHVSPEAAEGGLIGLVRDGDRISIDI-PNRTISLDVSEAELAKR</Hsp_hseq>
+      <Hsp_midline>Y+ +KG      C+L    + D RF+         H+ PE  E  L G  + GDRI+I+I PN    +D  E  +A+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|308153670|sp|Q19958.4|STO2_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Stomatin-2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q19958</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.86115</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>ERAA--RFGDEIGGHVMSGHIMATVPIVEIERDGFNRTVWFALPHELKPYILTKG----------FVGLDGCSLTIGKVEDSRFNVHLIPETLERTLFGSRKAGD</Hsp_qseq>
+      <Hsp_hseq>ERAVIFRLGRLIGGGAKGPGIFFVLPCIESYTKVDLRTVSFSVPPQ---EILTKDSVTTSVDAVIYYRISNATVSVANVENAHHSTRLLAQTTLRNMLGTRSLSE</Hsp_hseq>
+      <Hsp_midline>ERA   R G  IGG      I   +P +E       RTV F++P +    ILTK           +  +   ++++  VE++  +  L+ +T  R + G+R   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|238692668|sp|B3QQT5.1|TIG_CHLP8</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Chlorobaculum parvum NCIB 8327]</Hit_def>
+  <Hit_accession>B3QQT5</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.88698</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGCSLTIGKVEDSRFNVHLIP-ETLERTLFGSRKAGDRINIEIDPNTQ</Hsp_qseq>
+      <Hsp_hseq>DGNAVENGKNENHHFNLEYLPADNPFRMALEGRKAGDSVEVNVEPKEE</Hsp_hseq>
+      <Hsp_midline>DG ++  GK E+  FN+  +P +   R     RKAGD + + ++P  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|74963695|sp|Q19329.1|TSR1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Pre-rRNA-processing protein TSR1 homolog [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q19329</Hit_accession>
+  <Hit_len>785</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.355</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>540</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNVHLIPETLE-RTLFGSRKAGDRINIE-IDPNTQAIVDTV</Hsp_qseq>
+      <Hsp_hseq>VAVLEAYKDAKNLVLFQLLPHEHKMSVLNMVLKKHPSCTIPITSDQNQKFIFYVGFRQFEANAVFSSNTPGDKFKLERFMPTEKTFVATV</Hsp_hseq>
+      <Hsp_midline>V ++E  +D  N  ++  LPHE K  +L         C++ I   ++ +F  ++     E   +F S   GD+  +E   P  +  V TV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|189045095|sp|B0TZC0.1|ILVD_FRAP2</Hit_id>
+  <Hit_def>RecName: Full=Dihydroxy-acid dehydratase; Short=DAD [Francisella philomiragia subsp. philomiragia ATCC 25017]</Hit_def>
+  <Hit_accession>B0TZC0</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.85463</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>ALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFNV--------HLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQRYAK</Hsp_qseq>
+      <Hsp_hseq>GMPEMLKPTSLIMGA----GLGQDVALITDGRFSGGSHGFIVGHIAPEAYEGGMLALLENGDKITIDA-INNVINVDLSDQEIAQRKAK</Hsp_hseq>
+      <Hsp_midline> +P  LKP  L  G     G    +  + D RF+         H+ PE  E  +    + GD+I I+   N    VD  ++ +AQR AK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|189029546|sp|A0KL08.1|NHAB_AERHH</Hit_id>
+  <Hit_def>RecName: Full=Na(+)/H(+) antiporter NhaB; AltName: Full=Sodium/proton antiporter NhaB [Aeromonas hydrophila subsp. hydrophila ATCC 7966]</Hit_def>
+  <Hit_accession>A0KL08</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.15036</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>460</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MATVPIVEIERDGFNRTVWFALPHELKPYILTKGFVGLDGCSLTIGKVEDSRFN</Hsp_qseq>
+      <Hsp_hseq>MLTSALAPLLRLSYGRMVWMAL-----PYTLVLGLVGFFSVEMLLGPLTDWFYQ</Hsp_hseq>
+      <Hsp_midline>M T  +  + R  + R VW AL     PY L  G VG     + +G + D  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1170543|sp|P39522.2|ILV3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Dihydroxy-acid dehydratase, mitochondrial; Short=DAD; AltName: Full=2,3-dihydroxy acid hydrolyase; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P39522</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.7112</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>551</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>ALPHELKPYILTKGF-VGLDGCSLTIGKVEDSRFNV---HLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQR</Hsp_qseq>
+      <Hsp_hseq>GMPEMLKPSSALMGYGLGKDVALLTDGRFSGGSHGFLIGHIVPEAAEGGPIGLVRDGDEIIIDADNNKIDLL-VSDKEMAQR</Hsp_hseq>
+      <Hsp_midline> +P  LKP     G+ +G D   LT G+           H++PE  E    G  + GD I I+ D N   ++   ++ MAQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|238692208|sp|B3EHP3.1|ILVD_CHLL2</Hit_id>
+  <Hit_def>RecName: Full=Dihydroxy-acid dehydratase; Short=DAD [Chlorobium limicola DSM 245]</Hit_def>
+  <Hit_accession>B3EHP3</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>9.72693</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>526</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LPHELKP--YILTKGFVGLDGCSLTIGKVEDSRFNV--------HLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQRYA</Hsp_qseq>
+      <Hsp_hseq>MPEMLSPTSAIMGRGLGG------SVALITDGRFSGGSRGACIGHVSPEAAEKGPIAALENGDMITIDI-PNRCISVDLPETVIAGRIA</Hsp_hseq>
+      <Hsp_midline>+P  L P   I+ +G  G      ++  + D RF+         H+ PE  E+    + + GD I I+I PN    VD  E ++A R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|123407493|sp|Q2ISQ1.1|ILVD_RHOP2</Hit_id>
+  <Hit_def>RecName: Full=Dihydroxy-acid dehydratase; Short=DAD [Rhodopseudomonas palustris HaA2]</Hit_def>
+  <Hit_accession>Q2ISQ1</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>9.9599</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>498</Hsp_hit-from>
+      <Hsp_hit-to>568</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>YILTKGFVGLDGCSLTIGKVEDSRFNV--------HLIPETLERTLFGSRKAGDRINIEIDPNTQAIVDTVERLMAQR</Hsp_qseq>
+      <Hsp_hseq>YLKSKGLG--KACAL----ITDGRFSGGTSGLSIGHVSPEAAEGGLIGLVRNGDRISIDI-PNRGITLDVAADELSRR</Hsp_hseq>
+      <Hsp_midline>Y+ +KG      C+L    + D RF+         H+ PE  E  L G  + GDRI+I+I PN    +D     +++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>4703</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>259</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>4703</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>259</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|11386823|sp|P57641.1|FENR_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin--NADP reductase; Short=FNR; AltName: Full=Flavodoxin reductase; Short=FLDR; Short=FLXR [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57641</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>7.28183e-38</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>ILWVKHHTPKLITFAISRPESYRFKAGQFSRLGFYE----GKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLL-DMGYAMHRNRIPGQIMMEN</Hsp_qseq>
+      <Hsp_hseq>VLMVKKWTKNLFSLILNAPIE-PFFAGQFNKLALYNSNPLNKNKIQRAYSYVNAPSEKNLEIYIVRVLNGQLSNLLYNLHSGDKIFIKKKSFGFFIIDEIPDCEILWMFATGTGIGPYCSILQEGKNINRFNHIILTHAVRYQNELTY---LPLMKE--LRQKYNGKLQIQTITSREKHKNSLNG-RIPFLLRNKILEKHVGFSINPQTSHVMLCGNPFMVKDTFLFLKNNRNMEKHLRRKKGHITMEN</Hsp_hseq>
+      <Hsp_midline>+L VK  T  L +  ++ P    F AGQF++L  Y      K  I RAYS V+A     LE + V + +G +S L   +  GD I + K + GF + +  PD + L M  TG+GI P+ SIL++ +   RF+ + L H+V +  EL +   L  + E  L  +Y    +   +T+R  + + L+G RIP LL+N  +E+ +   + P+++  M+CGNP MVKDTF  L  +     H  R  G I MEN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|3913664|sp|Q44532.3|FENR_AZOVI</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin--NADP reductase; Short=FNR; Short=Protein X [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>Q44532</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>2.45634e-36</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>EKILWVKHHTPKLITFAISRPESYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEY-GHSFR----FVPVTTRAANPSGLSGKRIPELLKNNSI-EQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMH-RNRIPGQIMMENGF</Hsp_qseq>
+      <Hsp_hseq>ERVLSVHHWNDTLFSFKTTRNPSLRFENGQFVMIGLEVDGRPLMRAYSIASPNYEEHLEFFSIKVQNGPLTSRLQHLKEGDELMVSRKPTGTLVTSDLLPGKHLYMLSTGTGLAPFMSLIQDPEVYERFEKVVLIHGVRQVNELAYQQ---FITEHLPQSEYFGEAVKEKLIYYPTVTRE---SFHNQGRLTDLMRSGKLFEDIGLPPINPQDDRAMICGSPSMLDESCEVLDGFGLKISPRMGEPGDYLIERAF</Hsp_hseq>
+      <Hsp_midline>E++L V H    L +F  +R  S RF+ GQF  +G       + RAYS+ S  Y + LE+F++ +Q+GP+++    +++GD +++ +  TG L+      GK L ML TG+G+APF+S+++ PE+ +RF+ V LIH V    EL +      ++EH    EY G + +    + P  TR    S  +  R+ +L+++  + E      + P+  R MICG+P M+ ++ + L   G  +  R   PG  ++E  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|8134461|sp|Q9Z615.1|FENR_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin--NADP reductase; Short=FNR; AltName: Full=Flavodoxin reductase; Short=FLDR; Short=FLXR [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q9Z615</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.26121e-34</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>FKAGQFSRLGFYE---------GKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHRN--RIPGQIMMEN</Hsp_qseq>
+      <Hsp_hseq>FQAGQFTKLALNEENINFSNNVKKKKIQRAYSFVNAPSNKNLEIYIVRILNGKLSNLLYNLKSGDNLFIKEKSFGFFTLDEIPNCKTLWMFATGTGIGPYCSILQEYKNINRFKNIILIHAVRYQNELTY---LPLMKQ--LYKSYNGKLKIETIVSREKNHNSLYG-RIPLLLQNQILEKKIGLKINRNDSHVMLCGNPAMVKDTY-LFLQKDRCMQKNLRRKHGHITMEN</Hsp_hseq>
+      <Hsp_midline>F+AGQF++L   E          K  I RAYS V+A     LE + V I +G +S L   ++ GD + + + + GF   +  P+ K L M  TG+GI P+ SIL++ +   RF  + LIH+V +  EL +   L  + +  L   Y    +   + +R  N + L G RIP LL+N  +E+ +  K+    +  M+CGNP MVKDT+   L     M +N  R  G I MEN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|38604786|sp|Q89A28.1|FENR_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin--NADP reductase; Short=FNR; AltName: Full=Flavodoxin reductase; Short=FLDR; Short=FLXR [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89A28</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.79822e-34</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>FKAGQFSRLGFYEGKG-FIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLL-DMGYAMHRNRIPGQIMMEN</Hsp_qseq>
+      <Hsp_hseq>FTAGQFTKLGYQKKNGKIIQRAYSFVNAPHEKNLEFYMVLIKNGQLTTKLYNLNNTDHIQIKKKSYGFFTLNEIPTCKILWMFATGTGIGPYLSMLKYQKNTEKFQKIVLIHAVRYRHDLTYFNEINNLK-----NIYNKKLYTQFIISREKTNFSLSG-RIPQLLKTEELEKHINLFIENNTSHVMLCGNPDMVKQTQNFLINNKNMKKHLRRKPGQISSEN</Hsp_hseq>
+      <Hsp_midline>F AGQF++LG+ +  G  I RAYS V+A +   LE++ VLI++G ++     +   D I + K + GF      P  K L M  TG+GI P+LS+L+  +  ++F  + LIH+V +  +L + + +  L        Y        + +R      LSG RIP+LLK   +E+ ++  +   ++  M+CGNP+MVK T   L+ +     H  R PGQI  EN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|27735178|sp|P28901.3|FENR_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin--NADP reductase; Short=FNR; AltName: Full=Flavodoxin reductase; Short=FLXR; AltName: Full=Methyl viologen resistance protein A [Shigella flexneri]</Hit_def>
+  <Hit_accession>P28901</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.48303e-33</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>AKFTEEKILWVKHHTPKLITFAISRPESYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDM-GYAMHRNRIPGQIMMEN</Hsp_qseq>
+      <Hsp_hseq>ADWVTGKVTKVQNWTDALFSLTVHAP-VLPFTAGQFTKLGLEIDGERVQRAYSYVNSPDNPDLEFYLVTVPDGKLSPRLAALKPGDEVQVVSEAAGFFVLDEVPDCETLWMLATGTAIGPYLSILQLGKDLDRFKNLVLVHAARYAADLSYLPLMQELEKR-----YEGKLRIQTVVSRETAAGSLTG-RIPALIESGELESAIGLPMNKETSHVMLCGNPQMVRDTQQLLKETRQMTKHLRRRPGHMTAEH</Hsp_hseq>
+      <Hsp_midline>A +   K+  V++ T  L +  +  P    F AGQF++LG       + RAYS V++     LE++ V + DG +S   A ++ GD + +   A GF + +  PD + L ML TG+ I P+LSIL+  +   RF  + L+H+  +  +L +   +  L +      Y    R   V +R      L+G RIP L+++  +E A+   +  E++  M+CGNP+MV+DT Q L +      H  R PG +  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|399486|sp|P28861.4|FENR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin--NADP reductase; Short=FNR; AltName: Full=DA1; AltName: Full=Flavodoxin reductase; Short=FLDR; Short=FLXR; AltName: Full=Methyl viologen resistance protein A [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P28861</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>9.25034e-32</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>AKFTEEKILWVKHHTPKLITFAISRPESYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDM-GYAMHRNRIPGQIMMEN</Hsp_qseq>
+      <Hsp_hseq>ADWVTGKVTKVQNWTDALFSLTVHAP-VLPFTAGQFTKLGLEIDGERVQRAYSYVNSPDNPDLEFYLVTVPDGKLSPRLAALKPGDEVQVVSEAAGFFVLDEVPHCETLWMLATGTAIGPYLSILQLGKDLDRFKNLVLVHAARYAADLSYLPLMQELEKR-----YEGKLRIQTVVSRETAAGSLTG-RIPALIESGELESTIGLPMNKETSHVMLCGNPQMVRDTQQLLKETRQMTKHLRRRPGHMTAEH</Hsp_hseq>
+      <Hsp_midline>A +   K+  V++ T  L +  +  P    F AGQF++LG       + RAYS V++     LE++ V + DG +S   A ++ GD + +   A GF + +  P  + L ML TG+ I P+LSIL+  +   RF  + L+H+  +  +L +   +  L +      Y    R   V +R      L+G RIP L+++  +E  +   +  E++  M+CGNP+MV+DT Q L +      H  R PG +  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|74536497|sp|Q8U2E4.1|HYD1G_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Sulfhydrogenase 1 subunit gamma; AltName: Full=Sulfhydrogenase I subunit gamma; AltName: Full=Sulfur reductase subunit HydG [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8U2E4</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>2.41002e-12</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>HTPKLITFAISRPE---SYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQD-GPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSI-LEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>ETEKLFLFRFEDPELAEKWTFKPGQFVQLTI-PGVGEV--PISICSSPMRKG--FFELCIRKAGRVTTVVHRLKPGDTVLV-RGPYGNGFPVDEWEGMDLLLIAAGLGTAPLRSVFLYAMDNRWKYGNITFINTARYGKDLLFYKELEAMKD---LAE-AENVKIIQSVTRDPNWPGLKGRPQQFIVEANT---------NPKNTAVAICGPPRMYKSVFEALINYGY</Hsp_hseq>
+      <Hsp_midline> T KL  F    PE    + FK GQF +L    G G +    S+ S+       +F + I+  G ++ +  +++ GDT+L+ +   G   P    +G DL+++  G G AP  S+ L   + R ++  +  I++  + ++L+F   L A+ +   + E   + + +   TR  N  GL G+    +++ N+          P++T   ICG P M K  F+ L++ GY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|442580965|sp|E7FHW8.1|HYD2G_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Sulfhydrogenase 2 subunit gamma; AltName: Full=Hydrogenase-II subunit gamma; Short=H-II gamma; AltName: Full=Sulfhydrogenase II subunit gamma; AltName: Full=Sulfur reductase subunit ShyC [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>E7FHW8</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.94494e-07</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>EEKILWVKHHTPKLITFAIS-----RPESYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKR--IPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHRNRIPGQIMM</Hsp_qseq>
+      <Hsp_hseq>DARIIEVKELTSREKLFSLKFLDNEIEENFTFKPGQFVIVDI---RGFGEFPISLCSSPTRRPIQ--LCIRRVGRMTKFIHKMNEGDIIGI-RGPYGNGFPMDLMEGSNLILIAGGLGMAPLRSVLWYAIDSGKYEKIYLFYGTKSYEDILFRDEIIHLLKH---GEKLNC--HVKLAYEVETPSCIYLERGFSEKVCKGVVTDLFRGEEFDVENSYALICGPPVMYKYVIRELLDRGLS------PGRIYM</Hsp_hseq>
+      <Hsp_midline>+ +I+ VK  T +   F++        E++ FK GQF  +     +GF     S+ S+     ++    + + G M+    KM +GD I + +   G   P    +G +L+++  G G+AP  S+L       +++ + L +     E+++F D +  L +H   GE  +    V +      PS +  +R    ++ K    +     +   E++  +ICG P M K   + LLD G +      PG+I M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|614140179|sp|P9WNE8.1|DESET_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Stearoyl-CoA 9-desaturase electron transfer partner [Mycobacterium tuberculosis CDC1551] &gt;gi|614140184|sp|P9WNE9.1|DESET_MYCTU RecName: Full=Stearoyl-CoA 9-desaturase electron transfer partner [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WNE8</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>3.07623e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>EAKFTEEKILWVKHHTPKLITFAISRPE---SYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYAD-TLEYFAVLIQDGP----MSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAAL-SEHPLVGEYGHSFRFVPVTTRAANPSGLS--GKRIPE</Hsp_qseq>
+      <Hsp_hseq>SARELRGRILGVRRETEDSATLFI-KPGWGFSFDYQPGQYIGIGLLVDGRWRWRSYSLTSSPAASGSARMVTVTVKAMPEGFLSTHLVAGVKPGTIVRLAAPQGNFVLPDPAP--PLILFLTAGSGITPVMSMLRTLVRRNQITDVVHLHSAPTAADVMFGAELAALAADHP-------GYRLSVRETRAQGRLDLTRIGQQVPD</Hsp_hseq>
+      <Hsp_midline> A+    +IL V+  T    T  I +P    S+ ++ GQ+  +G      + WR+YS+ S+  A  +     V ++  P     + L A ++ G  + L      F+LP+  P    ++ L  GSGI P +S+L     R +   V  +HS     +++F   LAAL ++HP        +R     TRA     L+  G+++P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|24636269|sp|Q51603.1|CBDC_BURCE</Hit_id>
+  <Hit_def>RecName: Full=2-halobenzoate 1,2-dioxygenase electron transfer component; Includes: RecName: Full=Ferredoxin; Includes: RecName: Full=Ferredoxin--NAD(+) reductase [Burkholderia cepacia]</Hit_def>
+  <Hit_accession>Q51603</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000120896</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TFAISRPESYRFKAGQFSRL---GFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSA-LFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFD--TVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVK</Hsp_qseq>
+      <Hsp_hseq>TLAIDPSSKVDFLPGQYAQLRIPGTTES-----RAYSYSSMPGSSHVTFLVRDVPNGKMSGYLRNQATITETFTFDGPYGAFYLREPV---RPILMLAGGTGLAPFLSMLQYMAGLQRNDLPSVRLVYGVNRDDDLVGLDKLDELATQ-LSG-------FSYITT-------VVDKDSAQLRRGYVTQQITNDDMNGGDVDIYVCGPPPMVE</Hsp_hseq>
+      <Hsp_midline>T AI       F  GQ+++L   G  E      RAYS  S   +  + +    + +G MS  L  +    +T   D     F L E     + ++ML  G+G+APFLS+L+     QR D  +V L++ V+  ++L+  D+L  L+   L G       F  +TT       +  K   +L +    +Q  +  +        +CG P MV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|74603149|sp|Q6BUX2.1|NCB5R_DEBHA</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Debaryomyces hansenii CBS767]</Hit_def>
+  <Hit_accession>Q6BUX2</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000267699</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>GQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLI---QDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDG--KDLVMLCTGSGIAP----FLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALS-EHPLVGEYGHSFR-FVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>GQHIAIGATINDKEVVRSYTPISTD--DELGYFDLLIKAYENGNISRHVESKKIGETIDI-RGPKGFF---TYTPGMVESFGMIAGGTGITPMYQILTAILRNPEDKTK---VSLVYANVTEDDILLKEELNKMAREHP------DRFKIYYVLNTPPENWTGGVGFVTPEIMDK-------HLPKASEATNLLLCGPPPMISAMKKAAVGLGY</Hsp_hseq>
+      <Hsp_midline>GQ   +G       + R+Y+ +S +  D L YF +LI   ++G +S      + G+TI + +   GF     +  G  +   M+  G+GI P      +IL  PE + +   V+L+++    ++++  + L  ++ EHP        F+ +  + T   N +G  G   PE++         H     E+T  ++CG P M+    +  + +GY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|139831|sp|P21394.1|XYLA_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Xylene monooxygenase electron transfer component; Includes: RecName: Full=Ferredoxin; Includes: RecName: Full=Ferredoxin--NAD(+) reductase [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P21394</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000337863</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>FKAGQFSRLGFYEGKGFIWRAYSVVSAEYAD-TLEYFAVLIQDGPMSA-LFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYA</Hsp_qseq>
+      <Hsp_hseq>FYPGQYADVECAECSAV--RSYSFSAPPQPDGSLSFHVRLVPGGVFSGWLFGGDRTGATLTLRAPYGQFGLHE---SNATMVCVAGGTGLAPIKCVLQSMTQAQRERDVLLFFGARQQRDLYCLDEIEALQL-----DWGGRFELIPVLSEESSTSSWKGKR-------GMVTEYFKEYLTGQPYEGYLCGPPPMVDAAETELVRLGVA</Hsp_hseq>
+      <Hsp_midline>F  GQ++ +   E      R+YS  +    D +L +   L+  G  S  LF   + G T+ L      F L E       +V +  G+G+AP   +L+     QR   V L        +L   D + AL       ++G  F  +PV +  ++ S   GKR         + +     LT +     +CG P MV      L+ +G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|74634848|sp|Q6CA86.1|NCB5R_YARLI</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Yarrowia lipolytica CLIB122]</Hit_def>
+  <Hit_accession>Q6CA86</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000421916</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>VKHHTPKLITFAISRPESY-RFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDT-VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANP-SGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>VLSHNSAIYRFGLPRPSHVLGLPIGQHVSLSANIGGKEVLRSYTPTSSDLYDK-GYFDILIKTYPQGNISKYVSELAIGDTMKVRGPKGNFVYNHGLVE--SFGMVCGGTGITPMYQILRHIAADPADNTKVNLVYANVNHDDILLKKELDAIAAE------NDNIKIHYVLNNAPEDWTGSVGFVTKEILEK-------HCPPPGPNTKLLLCGPPPMISALKKASVELGYEKAR</Hsp_hseq>
+      <Hsp_midline>V  H   +  F + RP        GQ   L    G   + R+Y+  S++  D   YF +LI+    G +S   +++  GDT+ +      F+      +     M+C G+GI P   IL         +T VNL+++    ++++    L A++          + +   V   A    +G  G    E+L+        H      +T+ ++CG P M+    +  +++GY   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1708267|sp|P49852.1|HMP_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Flavohemoprotein; AltName: Full=Flavohemoglobin; AltName: Full=Hemoglobin-like protein; AltName: Full=Nitric oxide dioxygenase; Short=NO oxygenase; Short=NOD [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P49852</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000656086</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ILWVKHHTPKLITFAISRPESYR----FKAGQFS--RLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQ-DGPMSA-LFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYA</Hsp_qseq>
+      <Hsp_hseq>VIAKKERESKEITSFYLKPEDSKPLPEFQAGQYISIKVRIPDSEYTHIRQYSLSDMPGKD---YYRISVKKDGVVSSYLHDGLQEGDSIEISAPAGDFVLDH--ASQKDLVLISAGVGITPMISMLKTSVSKQPERQILFIHAAKNSEYHALRHEVEEAAKHSAV-KTAFVYREPTEEDRAGDLHFHEGQIDQQFLKE---------LIANTDADYYICGSPSFITAMHKLVSELGSA</Hsp_hseq>
+      <Hsp_midline>++  K    K IT    +PE  +    F+AGQ+   ++   + +    R YS+      D   Y+ + ++ DG +S+ L   +Q+GD+I +   A  F+L       KDLV++  G GI P +S+L+    +Q    +  IH+    E       +   ++H  V +    +R      RA +     G+   + LK           +      + ICG+P  +    + + ++G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|7387728|sp|P75824.3|HCR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=NADH oxidoreductase HCR [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P75824</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000714359</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>VKHHTPKLITFAISRPESYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVL---IQDGPMSALFAK-MQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFND</Hsp_qseq>
+      <Hsp_hseq>ITQETPDVWTISLICHDYYPYRAGQYALVSVRNSAETL-RAYTISSTPGVS--EYITLTVRRIDDGVGSQWLTRDVKRGDYLWLSDAMGEFTCDDKAED--KFLLLAAGCGVTPIMSMRRWLAKNRPQADVRVIYNVRTPQDVIFAD</Hsp_hseq>
+      <Hsp_midline>+   TP + T ++   + Y ++AGQ++ +        + RAY++ S       EY  +    I DG  S    + +++GD + L      F   ++  D    ++L  G G+ P +S+       +    V +I++V  P+++IF D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|74625662|sp|Q9UR35.1|NCB5R_MORAP</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Mortierella alpina]</Hit_def>
+  <Hit_accession>Q9UR35</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00230632</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IWRAYSVVSAEYADTLEYFAVLIQDGP---MSALFAKMQQGDTILLDKNATGFLLPERFPDG---------KDLVMLCTGSGIAPFL----SILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSE-HPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY--AMHRNRIPGQI</Hsp_qseq>
+      <Hsp_hseq>ISRSYTPTSS--SDDVGHFVLCIKSYPQGNISKMFSELSIGDSI----NARG-------PKGQFSYTPNMCRAIGMIAGGTGLTPMLQIIRAIVKNPEDKTQ---VNFIFANVTEEDIILKAELDLLSQKHP-------QFKVYYVLNNA--PEGWTGGV--GFVNADMIKE--HMPAPAADIKVLLCGPPPMVSAMSKITQDLGYDKVNAVSKLPDQV</Hsp_hseq>
+      <Hsp_midline>I R+Y+  S+  +D + +F + I+  P   +S +F+++  GD+I    NA G       P G         + + M+  G+G+ P L    +I++ PE + +   VN I +    E++I    L  LS+ HP        F+   V   A  P G +G      +  + I++  H        + ++CG P MV    +   D+GY      +++P Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|187609762|sp|A5E7U2.1|NCB5R_LODEL</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Lodderomyces elongisporus NRRL YB-4239]</Hit_def>
+  <Hit_accession>A5E7U2</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0023373</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>HTPKLITFAISRP-ESYRFKAGQFSRLG-FYEGKGFIWRAYSVVSAEYADTLEYFAVLI---QDGPMSALFAKMQQGDTILLDKNATGFLLPERFPD-GKDLVMLCTGSGIAP----FLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALS-EHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>HNSAIYRFGLPNPTDTLNLPIGQHISIGTIIDGKEVV-RSYTPIS--LGDQQGHFDLLIKTYENGNISRHVAEKQVGDFVEI-RGPKGFF--TYTPNMKKSLGLIAGGTGIAPMYQIITAIMNNPEDKTK---VHLLYANVTENDILLRDELEQYAKEHPDRLKIHHVLNEAPEGWQH-----LTGFVTPELIDK-------HLPKPSADTNLLLCGPPPMISAMKKAAVSLGF</Hsp_hseq>
+      <Hsp_midline>H   +  F +  P ++     GQ   +G   +GK  + R+Y+ +S    D   +F +LI   ++G +S   A+ Q GD + + +   GF      P+  K L ++  G+GIAP      +I+  PE + +   V+L+++     +++  D L   + EHP   +  H     P   +      L+G   PEL+         H       T  ++CG P M+    +  + +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|123104648|sp|Q3C1E0.1|TPDR1_COMSP</Hit_id>
+  <Hit_def>RecName: Full=Terephthalate 1,2-dioxygenase, reductase component 1; Short=TPADO reductase component; AltName: Full=TER dioxygenase system; Short=TERDOS [Comamonas sp.]</Hit_def>
+  <Hit_accession>Q3C1E0</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00331221</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>RFKAGQFSRLGFYEGKGFIWRAYSVVSAEY-ADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAAN-PSGLSGKRIPELLKN---NSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMG</Hsp_qseq>
+      <Hsp_hseq>KFEAGQYLLIHLDDGES---RSYSMANPPHESDGITLHVRHVPGGRFSTIVQQLKSGDTLEIELPFGSIAL--KPDDTRPLICVAGGTGFAPIKSVLDDLAKRKVQRDITLIWGARNPSGLYLPSAIDKWR------KTWPQFRYIAAITDLGNVPADAHAGRVDDALRTHFGNLHDHVVHC-----------CGSPSLVQSVRTAASDMG</Hsp_hseq>
+      <Hsp_midline>+F+AGQ+  +   +G+    R+YS+ +  + +D +      +  G  S +  +++ GDT+ ++       L  +  D + L+ +  G+G AP  S+L+    R+    + LI     P  L     +          +    FR++   T   N P+     R+ + L+    N  +  +H            CG+P +V+       DMG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|51701647|sp|P83291.2|NB5R2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase-like protein; Short=B5R [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P83291</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00335437</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>EGK-GFIWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFL----SILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAAL-SEHP</Hsp_qseq>
+      <Hsp_hseq>EGKTKYVIRPYTPISDPEAKG--YFDLLIKVYPDGKMSQHFASLKPGDVLEVKGPVEKFKYSPNMK--KHIGMIAGGSGITPMLQVIDAIVKNPEDNTQ---ISLLYANVSPDDILLKQKLDVLQANHP</Hsp_hseq>
+      <Hsp_midline>EGK  ++ R Y+ +S   A    YF +LI+   DG MS  FA ++ GD + +      F         K + M+  GSGI P L    +I++ PE   +   ++L+++   P++++   +L  L + HP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|123417442|sp|Q3C1D2.1|TPDR2_COMSP</Hit_id>
+  <Hit_def>RecName: Full=Terephthalate 1,2-dioxygenase, reductase component 2; AltName: Full=TER dioxygenase system; Short=TERDOS; AltName: Full=TPADO reductase component [Comamonas sp.]</Hit_def>
+  <Hit_accession>Q3C1D2</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00690815</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>RFKAGQFSRLGFYEGKGFIWRAYSVVSAEY-ADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAAN-PSGLSGKRIPELLKN---NSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMG</Hsp_qseq>
+      <Hsp_hseq>KFEAGQYLLIHLDDGES---RSYSMANPPHESDGITLHVRHVPGGRFSTIVQQLKSGDTLDIELPFGSIAL--KPDDARPLICVAGGTGFAPIKSVLDDLAKRKVQRDITLIWGARNPSGLYLP---SAIDKWRKVWP---QFRYIAAITDLGDMPADAHAGRVDDALRTHFGNLHDHVVHC-----------CGSPALVQSVRTAASDMG</Hsp_hseq>
+      <Hsp_midline>+F+AGQ+  +   +G+    R+YS+ +  + +D +      +  G  S +  +++ GDT+ ++       L  +  D + L+ +  G+G AP  S+L+    R+    + LI     P  L      +A+ +   V      FR++   T   + P+     R+ + L+    N  +  +H            CG+P +V+       DMG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|614088717|sp|P9WJ92.1|KSHB_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=3-ketosteroid-9-alpha-hydroxylase reductase subunit; AltName: Full=Rieske-type oxygenase; Short=RO [Mycobacterium tuberculosis CDC1551] &gt;gi|614088722|sp|P9WJ93.1|KSHB_MYCTU RecName: Full=3-ketosteroid-9-alpha-hydroxylase reductase subunit; AltName: Full=Rieske-type oxygenase; Short=RO [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WJ92</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00910481</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>PESYRFKAGQFSRLGF-YEGKGFIWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALS</Hsp_qseq>
+      <Hsp_hseq>PRRLRYAPGQFLTLRVPSERTGSVARCYSLCSSPYTD--DALAVTVKRTADGYASNWLCDHAQVGMRIHVLAPSGNFVPTTL--DADFLLLAAGSGITPIMSICKS-ALAEGGGQVTLLYANRDDRSVIFGDALRELA</Hsp_hseq>
+      <Hsp_midline>P   R+  GQF  L    E  G + R YS+ S+ Y D  +  AV ++   DG  S       Q    +     +G  +P       D ++L  GSGI P +SI +   + +    V L+++      +IF D L  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2498064|sp|Q12746.1|PGA3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Plasma membrane-associated coenzyme Q6 reductase PGA3; AltName: Full=Processing of GAS1 and ALP protein 3 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q12746</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0130769</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDG-KDLVMLCTGSGIAPFLSIL-EQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHRNRIPGQ</Hsp_qseq>
+      <Hsp_hseq>DGKVSKYFAGLNSGDTVDF-KGPIGTLNYE--PNSSKHLGIVAGGSGITPVLQILNEIITVPEDLTKVSLLYANETENDILLKDELDEMAE-----KYPHFQVHYVVHYPSDRWTGDVGYITKDQMNRYLPEYS-------EDNRLLICGPDGMNNLALQYAKELGWKVNSTRSSGD</Hsp_hseq>
+      <Hsp_midline>DG +S  FA +  GDT+   K   G L  E  P+  K L ++  GSGI P L IL E   + +    V+L+++     +++  D L  ++E     +Y H      V   +   +G  G    + +     E +       E  R +ICG   M     Q   ++G+ ++  R  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|357528822|sp|Q5AZB4.2|NCB5R_EMENI</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>Q5AZB4</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0142493</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>HTPKLITFAISRP-ESYRFKAGQ-FSRLGFYEGK-GFIWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQR-----FDT--VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKR---IPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>HNVTIYRFALPRPTDILGLPIGQHISLAATIEGQPKEVVRSYTPISSD--NEAGYFDLLVKAYPQGNISKYLTTLKVGDTMKVRGPKGAMVYTPNM--CRHIGMIAGGTGITPMLQIIKA-IIRNRPRNGGNDTTQVDLIFANVNPDDILLKDELEKLAAE------DDGFRIYYVLNNP--PEGWTGGVGFVTPDMIKERLPAPASDIKI-------LLCGPPPMVSAMKKATESLGYTKAR</Hsp_hseq>
+      <Hsp_midline>H   +  FA+ RP +      GQ  S     EG+   + R+Y+ +S++  +   YF +L++    G +S     ++ GDT+ +       +        + + M+  G+GI P L I++   IR R      DT  V+LI +   P++++  D L  L+           FR   V      P G +G      P+++K      A   K+       ++CG P MV    +    +GY   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|21759382|sp|Q97R66.1|PYRK_STRPN</Hit_id>
+  <Hit_def>RecName: Full=Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit; AltName: Full=Dihydroorotate oxidase B, electron transfer subunit [Streptococcus pneumoniae TIGR4]</Hit_def>
+  <Hit_accession>Q97R66</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0180487</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>KILWVKHHTPKLITFAISRPESYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGDTI-LLDKNATGFLLPERFPDGKDLVMLCTGS-GIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLD</Hsp_qseq>
+      <Hsp_hseq>KVVAQEEIAPAIFELVLEGEMVEAMRAGQFLHLRVPDDAHLLRRPISISSIDKANKQCHLIYRI-DGAGTAIFSTLSQGDTLDVMGPQGNGFDLSDL--DEQNQVLLVGGGIGVPPLLEVAK--ELHERGVKVVTVLGFANKDAVILKTELA---------QYGQVF----VTTDDGS-YGIKG--------NVSV---VINDLDSQFDAVYSCGAPGMMKYINQTFDD</Hsp_hseq>
+      <Hsp_midline>K++  +   P +    +        +AGQF  L   +    + R  S+ S + A+   +    I DG  +A+F+ + QGDT+ ++     GF L +   D ++ V+L  G  G+ P L + +  E+ +R   V  +   +  + +I    LA         +YG  F    VTT   +  G+ G        N S+   +   L  +      CG P M+K   QT  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|158563930|sp|Q8VE38.2|OXND1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Oxidoreductase NAD-binding domain-containing protein 1; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q8VE38</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0204438</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KILWVKHHTPKLITFAI-SRPESYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYA---DTLEYFAVLIQDGPMSA-LFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQR----------FDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEM</Hsp_qseq>
+      <Hsp_hseq>KVCEITHESPSVKSLRLLVADKDFSFKAGQW--VDFFIPGVSVVGGFSICSSPQRLERDRIIELAVKYADHPPAVWVHNKCTLDSEVALRVGGEFFFDPQPTDAPRNLILIAGGVGINPLLSILRHSADLHRDHADKGRSYEIGTVKLFYSAKNTSELLFKKDILDLV-HEFPEKISCSFH---VTKQTAQ---ISAELKPYVTDGRITEKEIRDHISAE-TLFYVCGPPPM</Hsp_hseq>
+      <Hsp_midline>K+  + H +P + +  +    + + FKAGQ+  + F+     +   +S+ S+      D +   AV   D P +  +  K      + L      F  P+     ++L+++  G GI P LSIL       R            TV L +S     EL+F   +  L  H    +   SF    VT + A    +S +  P +      E+ +   ++ E T F +CG P M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|187609761|sp|B0CQN7.1|NCB5R_LACBS</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Laccaria bicolor S238N-H82]</Hit_def>
+  <Hit_accession>B0CQN7</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0220356</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IWRAYSVVSAEYA-DTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDG--KDLVMLCTGSGIAPFL----SILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSG-------KRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAM</Hsp_qseq>
+      <Hsp_hseq>IVRSYTPISRQNARGRFELIIKTYEKGNISRHVASLKIGDTLRVKGPKGNF----KYTPGLTAHLGMIAGGTGLAPMIQIVRAILQNPPDRT---NITLIYANVNEEDILLRAELDALA-------MGYESRFNLFYVLNNPPSGWTGGVGFVTKEHIKDLLPNPN----------ESNSKILICGPPPMVTAMKKNLEEIKYPV</Hsp_hseq>
+      <Hsp_midline>I R+Y+ +S + A    E      + G +S   A ++ GDT+ +      F    ++  G    L M+  G+G+AP +    +IL+ P  R     + LI++    E+++    L AL+        G+  RF         PSG +G       + I +LL N +            +++ +ICG P MV    + L ++ Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|74584400|sp|Q59P03.1|NCB5R_CANAL</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>Q59P03</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0298585</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>GQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLI---QDGPMSALFAKMQQGDTILLDKNATGFLL--PERFPDGKDLVMLCTGSGIAP----FLSILEQPEIRQRFDTV--NLIHS-VSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>GQHISIGATIDGKEVVRSYTPISTD--DQLGHFDLLIKTYENGNISRHVAGKNVGEHIEI-RGPKGFFTYTPNMV---KSFGMIAGGTGIAPMYQIITAILKNPEDKTKIHLVYANVTESDILLKEEL---DNFAA--RHPDRLKIHYVLNEAP-----ANWQGSVGFVTPEIIDT-------HLPKASNDTNLLLCGPPPMVSAMKKAAVELGF</Hsp_hseq>
+      <Hsp_midline>GQ   +G       + R+Y+ +S +  D L +F +LI   ++G +S   A    G+ I + +   GF    P      K   M+  G+GIAP      +IL+ PE + +   V  N+  S +   EEL   D  AA   HP   +  +     P     AN  G  G   PE++         H       T  ++CG P MV    +  +++G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|74694439|sp|Q75AL4.1|NCB5R_ASHGO</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Ashbya gossypii ATCC 10895]</Hit_def>
+  <Hit_accession>Q75AL4</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.033654</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>GFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQD---GPMSALFAKMQQGDTILLDKNATGFLLPERFPDG-KDLVMLCTGSGIAPFLSIL----EQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQAL---HTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>GVIDGKEML-RSYTPTSLD-SDATGYFELLVKSYEKGNISKMLAELAIGDRIKV-RGPKGFYHYE--PNMYKEIGMIAGGTGISPMYQIIRAIFSNPRDKTR---VCLVYGNQTKDDILLKPELDAM-----VAAKPDQFKILYMLDKVAEGEQWEGKL-------GYITEAIMREHLPAPSSSAQLLLCGPPPMVSSAKRIAVSLGF</Hsp_hseq>
+      <Hsp_midline>G  +GK  + R+Y+  S + +D   YF +L++    G +S + A++  GD I + +   GF   E  P+  K++ M+  G+GI+P   I+      P  + R   V L++     ++++    L A+     V      F+ + +  + A      GK          I +A+   H      S + ++CG P MV    +  + +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2498067|sp|Q55318.2|FENR_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin--NADP reductase; Short=FNR [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55318</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0439035</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>EGKGFIWRAYSVVSAEYAD------------TLEYF--AVLIQDGPMSALFAKMQQGDTILLDKN-ATGFLLPERFPD-GKDLVMLCTGSGIAPFLSIL-----EQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTR</Hsp_qseq>
+      <Hsp_hseq>KGKPHKLRLYSIASTRHGDFGDDKTVSLCVRQLEYQNEAGETVQGVCSTYLCNIKEGDDIAITGPVGKEMLLP---PDEDANIVMLATGTGIAPFRAFLWRMFKEQHEDYKFKGLAWLIFGIPKSENILYKDDLEKMA-----AEFPDNFRLTYAISR</Hsp_hseq>
+      <Hsp_midline>+GK    R YS+ S  + D             LEY   A     G  S     +++GD I +        LLP   PD   ++VML TG+GIAPF + L     EQ E  +      LI  +   E +++ D L  ++      E+  +FR     +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|21362649|sp|Q53563.1|MMOC_METTR</Hit_id>
+  <Hit_def>RecName: Full=Methane monooxygenase component C; AltName: Full=Methane hydroxylase; AltName: Full=Methane monooxygenase reductase; Short=MMOR [Methylosinus trichosporium]</Hit_def>
+  <Hit_accession>Q53563</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0456071</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>RAYSVVSAEYADTLEYFAVLIQDGPMSA-LFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEH-PLVG</Hsp_qseq>
+      <Hsp_hseq>RSYSMASVAEDGQLEFIIRLLPDGAFSKFLQTEAKVGMRVDLRGPAGSFFLHDH--GGRSRVFVAGGTGLSPVLSMIRQLGKASDPSPATLLFGVTNREELFYVDELKTLAQSMPTLG</Hsp_hseq>
+      <Hsp_midline>R+YS+ S      LE+   L+ DG  S  L  + + G  + L   A  F L +    G+  V +  G+G++P LS++ Q           L+  V+  EEL + D L  L++  P +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|187609625|sp|A5E5C5.1|MCR1_LODEL</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 2; AltName: Full=Mitochondrial cytochrome b reductase [Lodderomyces elongisporus NRRL YB-4239]</Hit_def>
+  <Hit_accession>A5E5C5</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.049107</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>IWRAYSVVS-AEYADTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLL-PERFPDGKDLVMLCTGSGIAPFLSILEQ----PEIRQRFDTVNLIHSVSFPEELIFNDRLAALS</Hsp_qseq>
+      <Hsp_hseq>VIRPYTPVSDPDQKGTLDFVIKRYENGKMSNHIHNLKEGETLSFKGPVVKWKWEPNQF---KSIALIGGGTGITPLYQLLREITSNPEDKTK---VSLIYGNTSPEDVLIKDRIDDIA</Hsp_hseq>
+      <Hsp_midline>+ R Y+ VS  +   TL++     ++G MS     +++G+T+        +   P +F   K + ++  G+GI P   +L +    PE + +   V+LI+  + PE+++  DR+  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|187609760|sp|A2QCV4.1|NCB5R_ASPNC</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Aspergillus niger CBS 513.88]</Hit_def>
+  <Hit_accession>A2QCV4</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0537647</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>HTPKLITFAISRP-ESYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQR-----FDT--VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKR---IPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>HNVTVYRFALPRPTDILGLPIGQHISLAATIGGKEVVRSYTPISSD--NEAGYFDLLVKAYPQGNISKYLTTLEVGQTMKVRGPKGAMVYTPNM--CRHIGMIAGGTGITPMYQIIKA-IIRNRPRNGGNDTTQVDLIFANVNPDDILMKDELEQLAKE------DDGFRIYYVLNNP--PEGWTGGVGFVTPDMIKERLPAPSSDIKV-------LLCGPPPMVSAMKKATESLGYTKAR</Hsp_hseq>
+      <Hsp_midline>H   +  FA+ RP +      GQ   L    G   + R+Y+ +S++  +   YF +L++    G +S     ++ G T+ +       +        + + M+  G+GI P   I++   IR R      DT  V+LI +   P++++  D L  L++          FR   V      P G +G      P+++K      +   K+       ++CG P MV    +    +GY   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|187470897|sp|A5DQ25.1|NCB5R_PICGU</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Meyerozyma guilliermondii ATCC 6260]</Hit_def>
+  <Hit_accession>A5DQ25</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0633059</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>GQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGD-TILLDKNATGFLLPERFPDG---------KDLVMLCTGSGIAP----FLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALS-EHPLVGEYGHSFRFVPVTTRAA-NPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>GQHISIGATINGKEVVRSYTPISRD--DELGYFDLLIK---------TYEQGNISRHVDSKSVGDHIEVRGPKGFFTYTPNMVEHLGMIAGGTGIAPMYQVLTAILTNPDDKTK---ISLVYANVTEEDILLRAELDLFAKEHP------DRFKVHYVLNNAPENWNGSVGFVTPEIMEK-------HLPNKDQDGYLLLCGPPPMISAMKKNAVTLGYPKAR</Hsp_hseq>
+      <Hsp_midline>GQ   +G       + R+Y+ +S +  D L YF +LI+           +QG+ +  +D  + G  +  R P G         + L M+  G+GIAP      +IL  P+ + +   ++L+++    E+++    L   + EHP        F+   V   A  N +G  G   PE+++        H     +    ++CG P M+    +  + +GY   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|187471112|sp|A6ZVM6.2|NCB5R_YEAS7</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase; AltName: Full=P35 [Saccharomyces cerevisiae YJM789]</Hit_def>
+  <Hit_accession>A6ZVM6</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0771578</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>IWRAYSVVSAEYADTLEYFAVLIQD---GPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDT-VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>ITRSYTPTSLD-GDTKGNFELLVKSYPTGNVSKMIGELKIGDSIQI-KGPRGNYHYERNCRSH-LGMIAGGTGIAPMYQIMKAIAMDSHDTTKVSLVFGNVHEEDILLKKELEAL-----VAMKPSQFKIVYYLDSPDREDWAGGV---GYITKDVIKEHLPAA-TVDNVQILICGPPAMVASVRRSTVDLGF</Hsp_hseq>
+      <Hsp_midline>I R+Y+  S +  DT   F +L++    G +S +  +++ GD+I + K   G    ER      L M+  G+GIAP   I++   +     T V+L+      E+++    L AL     V      F+ V             G      +  + I++ L    T ++ + +ICG P MV    ++ +D+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|30173272|sp|Q8DQ38.2|PYRK_STRR6</Hit_id>
+  <Hit_def>RecName: Full=Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit; AltName: Full=Dihydroorotate oxidase B, electron transfer subunit [Streptococcus pneumoniae R6]</Hit_def>
+  <Hit_accession>Q8DQ38</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0775203</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>KILWVKHHTPKLITFAISRPESYRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAKMQQGDTI-LLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLD</Hsp_qseq>
+      <Hsp_hseq>KVVAQEEIAPAIFELVLEGEMVEAMRAGQFLHLRVPDDAHLLRRPISISSIDKANKQCHLIYRIE-GAGTAIFSTLSQGDTLDVMGPQGNGFDLSD-LDEQNQVLLVGGGIGVPPLLEVAK--ELHERGVKVVTVLGFANKDAVILKTELA---------QYGQVF----VTTDDGS-YGIKG--------NVSV---VINDLDSQFDAVYSCGAPGMMKYINQTFDD</Hsp_hseq>
+      <Hsp_midline>K++  +   P +    +        +AGQF  L   +    + R  S+ S + A+   +    I+ G  +A+F+ + QGDT+ ++     GF L +   +   ++++  G G+ P L + +  E+ +R   V  +   +  + +I    LA         +YG  F    VTT   +  G+ G        N S+   +   L  +      CG P M+K   QT  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|74604778|sp|Q6CID0.1|NCB5R_KLULA</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Kluyveromyces lactis NRRL Y-1140]</Hit_def>
+  <Hit_accession>Q6CID0</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0942665</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>IWRAYSVVSAEYADTLEYFAVLI---QDGPMSALFAKMQQGDTILLDKNATGFLLPERFPD-GKDLVMLCTGSGIAPFLSILEQPEIRQRFDT-VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>ILRSYTPTSLD-SDAVGHFELLIKSYEKGNISKHFAQLNIGDKIKV-RGPKGFYHYQ--PNMNEEIGMIAGGTGIAPMYQIMKSIFANDSDKTKVSLVYGNQTEEDILLKKELDAFVERK-----PDQFKVYYLLDKA--PEAWTGGV--GYITVDTMKERLPA--PAEGVQLLVCGPPPMVSSIKRNAVTLGY</Hsp_hseq>
+      <Hsp_midline>I R+Y+  S + +D + +F +LI   + G +S  FA++  GD I + +   GF   +  P+  +++ M+  G+GIAP   I++         T V+L++     E+++    L A  E          F+   +  +A  P   +G      +  +++++ L      E  + ++CG P MV    +  + +GY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|187609764|sp|Q2UFN3.2|NCB5R_ASPOR</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Aspergillus oryzae RIB40]</Hit_def>
+  <Hit_accession>Q2UFN3</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0947899</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>HTPKLITFAISRP-ESYRFKAGQ-FSRLGFYEGK-GFIWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQR-----FDT--VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKR---IPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>HNVAIYRFALPRPTDILGLPIGQHISLAATIEGQPKEVVRSYTPISSD--NEAGYFDLLVKAYPQGNISKYLTTLKIGDNMKVRGPKGAMVYTPNM--CRHIGMIAGGTGITPMLQIIKA-IIRNRPRNGGNDTTQVDLIFANVNPEDILLKEELEQLVKE------DDGFRVYYVLNNP--PEGWTGGVGFVTPDMIKERLPAPA-------QDIKIMLCGPPPMISAMKKATESLGYTKAR</Hsp_hseq>
+      <Hsp_midline>H   +  FA+ RP +      GQ  S     EG+   + R+Y+ +S++  +   YF +L++    G +S     ++ GD + +       +        + + M+  G+GI P L I++   IR R      DT  V+LI +   PE+++  + L  L +          FR   V      P G +G      P+++K      A       +  + M+CG P M+    +    +GY   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|284018101|sp|A3GF86.2|NCB5R_PICST</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Scheffersomyces stipitis CBS 6054]</Hit_def>
+  <Hit_accession>A3GF86</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0992553</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>GQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLI---QDGPMSALFAKMQQGDTILLDKNATGFLL--PERFPDGKDLVMLCTGSGIAP----FLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAA-NPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>GQHISIGATIGGKEVVRSYTPISTD--DELGYFDLLIKTYENGNISKHVDSKKVGEYVEI-RGPKGFFTYTPNMV---KSFGMIAGGTGIAPMYQIITAILRNPADKTK---ISLIYANVTESDILLKSELDKWAE-----EHPDNFSVHYVLNEAPENWKGSVGFVTPEIIDSKLPKAS-------DDSNLLLCGPPPMISAMKKAAVGLGFAKAK</Hsp_hseq>
+      <Hsp_midline>GQ   +G   G   + R+Y+ +S +  D L YF +LI   ++G +S      + G+ + + +   GF    P      K   M+  G+GIAP      +IL  P  + +   ++LI++     +++    L   +E     E+  +F    V   A  N  G  G   PE++ +   + +       + +  ++CG P M+    +  + +G+A  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|13632702|sp|P76081.1|PAAE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=1,2-phenylacetyl-CoA epoxidase, subunit E; AltName: Full=1,2-phenylacetyl-CoA epoxidase, reductase subunit; AltName: Full=1,2-phenylacetyl-CoA monooxygenase, subunit E [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76081</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.102458</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>ITFAISRP--ESYRFKAGQFSRL-GFYEGKGFIWRAYSVVSAEYADTLEYFAVLIQDGPMSALFAK--MQQGDT--ILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILE---QPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMG</Hsp_qseq>
+      <Hsp_hseq>ITFAVPQPLQEAYRFRPGQHLTLKASFDGEE-LRRCYSICRSYLPGEISVAVKAIEGGRFSR-YAREHIRQGMTLEVMVPQGHFGYQ-PQAERQGRYLA-IAAGSGITPMLAIIATTLQTEPESQF---TLIYGNRTSQSMMFRQALADLKD-----KYPQRLQLLCIFSQETLDSDLLHGRIDGEKLQSLGASLINFRLYDEA---FICGPAAMMDDAETALKALG</Hsp_hseq>
+      <Hsp_midline>ITFA+ +P  E+YRF+ GQ   L   ++G+  + R YS+  +     +      I+ G  S  +A+  ++QG T  +++ +   G+  P+    G+ L  +  GSGI P L+I+    Q E   +F    LI+     + ++F   LA L +     +Y    + + + ++    S L   RI      +     ++ +L  E+    ICG   M+ D    L  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|52000625|sp|Q7N215.1|HMP_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Flavohemoprotein; AltName: Full=Flavohemoglobin; AltName: Full=Hemoglobin-like protein; AltName: Full=Nitric oxide dioxygenase; Short=NO oxygenase; Short=NOD [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N215</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.124739</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>RAYSVVSAEYADTLEYFAVLIQDGPM----SALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMG</Hsp_qseq>
+      <Hsp_hseq>RQYSLTAAPNGSS---YRIAIKREPQGIVSNHMHDKMQEGDTVWLTAPRGDFFLDIK-PE-TPVTLISAGVGLTPMMSMLYHLHQQNHNSPINWLHAAEHGGHHAFSHEVAAIAQ---------AMPNFAGTIWYREPRDEDQQGIHYQHKGFMDLTVLNEALKTEGMHFYFCGPVAFMQYVAKQLLDMG</Hsp_hseq>
+      <Hsp_midline>R YS+ +A    +   + + I+  P     + +  KMQ+GDT+ L      F L  + P+   + ++  G G+ P +S+L     +     +N +H+        F+  +AA+++         +      T     P     + I    K       L+  L  E   F  CG    ++   + LLDMG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|187608852|sp|P38626.2|NCB5R_YEAST</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase; AltName: Full=P35 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38626</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.125405</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>IWRAYSVVSAEYADTLEYFAVLIQD---GPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDT-VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>ITRSYTPTSLD-GDTKGNFELLVKSYPTGNVSKMIGELKIGDSIQI-KGPRGNYHYERNCRSH-LGMIAGGTGIAPMYQIMKAIAMDPHDTTKVSLVFGNVHEEDILLKKELEAL-----VAMKPSQFKIVYYLDSPDREDWTGGV---GYITKDVIKEHLPAA-TMDNVQILICGPPAMVASVRRSTVDLGF</Hsp_hseq>
+      <Hsp_midline>I R+Y+  S +  DT   F +L++    G +S +  +++ GD+I + K   G    ER      L M+  G+GIAP   I++   +     T V+L+      E+++    L AL     V      F+ V             G      +  + I++ L    T ++ + +ICG P MV    ++ +D+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|128192|sp|P22945.1|NIA_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Nitrate reductase [NADPH]; Short=NR [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>P22945</Hit_accession>
+  <Hit_len>873</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.141024</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>709</Hsp_hit-from>
+      <Hsp_hit-to>865</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DTLEYFAVLIQDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDT-VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>DTLPLGSVIECKGP-TGRFEYLDRGRVLISGK--------ERFV--KSFVMICGGTGITPVFQVLRAVMQDEQDETKCVMLDGNRLEEDILLKNELDEF--EALAGKKEKCKIVHTLTKGSESWTGRRGRIDEELIRQ-------HAGTPDRETMVLVCGPEAMEKASKKILLSLGW</Hsp_hseq>
+      <Hsp_midline>DTL   +V+   GP +  F  + +G  ++  K        ERF   K  VM+C G+GI P   +L      ++ +T   ++      E+++  + L       L G+         +T  + + +G  G+   EL++        H       T  ++CG   M K + + LL +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|121741995|sp|Q0CY37.1|NCB5R_ASPTN</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Aspergillus terreus NIH2624]</Hit_def>
+  <Hit_accession>Q0CY37</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.151099</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>HTPKLITFAISRP-ESYRFKAGQ-FSRLGFYEGK-GFIWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQR-----FDT--VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGK---RIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>HNVAIYRFALPRPTDILGLPIGQHISLAATIEGQPKEVVRSYTPISSD--NEAGYFDLLVKAYPQGNISKYLTTLKIGDTLKVRGPKGAMVYTPNM--CRHIGMIAGGTGITPMLQIIKA-IIRNRPRNGGNDTTKIDLIFANVNEEDILLRDELEKLAKE------DDGFRIFYVLNNP--PPGWNGGFGFVTAEMIKE-------HLPAPAKDVKILLCGPPPMVSAMKKATESLGYTKAR</Hsp_hseq>
+      <Hsp_midline>H   +  FA+ RP +      GQ  S     EG+   + R+Y+ +S++  +   YF +L++    G +S     ++ GDT+ +       +        + + M+  G+GI P L I++   IR R      DT  ++LI +    E+++  D L  L++          FR   V      P G +G       E++K        H     +  + ++CG P MV    +    +GY   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|189030820|sp|B1AS42.1|NB5R5_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase-like [Mus musculus]</Hit_def>
+  <Hit_accession>B1AS42</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.174455</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>RFKAGQFSRLGFYEGKGFIWR----------AYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLL-PERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDT-VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNS----IEQALHTKLTPESTR---FMICGNPEMVKDTFQTLLDMG</Hsp_qseq>
+      <Hsp_hseq>RFTLPGNSRLGLRPGQHLILRGVVDGLEIQRAYTPISPVTAEG--YFDVLIKCYRTGLMSQYVESWRTGDTAFWRGPFGSFLYEPKKY---GELLMLAAGTGLAPMVPILQSITDDEDDETFVTLVGCFKTFEGIY------------LKTFFQEQARFWNVQTFFVLSQEVSPEQLPWSYRDKTHFGRLGQELVAELVACCRRKPFTLVCGSPAFNEDMARCLLSAG</Hsp_hseq>
+      <Hsp_midline>RF     SRLG   G+  I R          AY+ +S   A+   YF VLI+    G MS      + GDT         FL  P+++    +L+ML  G+G+AP + IL+     +  +T V L+      E +             L   +    RF  V T       +S +++P   ++ +    + Q L  +L     R    ++CG+P   +D  + LL  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|74582480|sp|O74557.1|NCB5R_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O74557</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.189232</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>RAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLD------KNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQRFDT---VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>RSYTPLSSD-ADK-GYFDLLVKSYPNGKVSKKFSELKIGDTIGVRGPKGNWKHRTGL--------ARHFGMIAGGTGITPMLQIIRA--VLSNFEDPTEITLLYANVSEGDIVLRDEIDALAKK----DPRFTVHYV-LNNPPENWKGSVGFVTQELIK------AHFPAPSPE-TKVLICGPTPMVNSLREATVALGYEKSR</Hsp_hseq>
+      <Hsp_midline>R+Y+ +S++ AD   YF +L++   +G +S  F++++ GDTI +       K+ TG          +   M+  G+GI P L I+    +   F+    + L+++     +++  D + AL++     +   +  +V +     N  G  G    EL+K      A     +PE T+ +ICG   MV    +  + +GY   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|187471064|sp|A1DHW1.2|NCB5R_NEOFI</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Neosartorya fischeri NRRL 181]</Hit_def>
+  <Hit_accession>A1DHW1</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.195449</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>HTPKLITFAISRP-ESYRFKAGQ-FSRLGFYEGK-GFIWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQR-----FDT--VNLIHSVSFPEELIFNDRLAALS-EHPLVGEYGHSFRFVPVTTRAANPSGLSGKR---IPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>HNVCIYRFALPRPADILGLPIGQHISLAATIEGQPKEVVRSYTPISSD--NEAGYFDLLVKAYPQGNISKYLTTLKIGDTMKVRGPKGAMVYTPNM--CRHIGMIAGGTGITPMLQIIKA-VIRNRPRNGGNDTTKLDLIFANVNPDDILLKEELDKLAAEDP-------DFNIYYVLNNP--PQGWTGGVGFVTPEMIKE-------HLPAPASDVKILLCGPPPMISAMKKATESLGYTKAR</Hsp_hseq>
+      <Hsp_midline>H   +  FA+ RP +      GQ  S     EG+   + R+Y+ +S++  +   YF +L++    G +S     ++ GDT+ +       +        + + M+  G+GI P L I++   IR R      DT  ++LI +   P++++  + L  L+ E P        F    V      P G +G      PE++K        H        + ++CG P M+    +    +GY   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|187609767|sp|Q4X0B5.2|NCB5R_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>Q4X0B5</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.225612</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>HTPKLITFAISRP-ESYRFKAGQ-FSRLGFYEGK-GFIWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFLSILEQPEIRQR-----FDT--VNLIHSVSFPEELIFNDRLAALS-EHPLVGEYGHSFRFVPVTTRAANPSGLSGKR---IPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGYAMHR</Hsp_qseq>
+      <Hsp_hseq>HNVCIYRFALPRPTDILGLPIGQHISLAATIEGQPKEVVRSYTPISSD--NEAGYFDLLVKAYPQGNISKYLTTLKIGDTMKVRGPKGAMVYTPNM--CRHIGMIAGGTGITPMLQIIKA-VIRNRPRNGGNDTTKLDLIFANVNPDDILLKEELDMLAAEDP-------DFNIYYVLNNP--PQGWTGGVGFVTPEMIKE-------HLPAPASDVKILLCGPPPMISAMKKATESLGYTKAR</Hsp_hseq>
+      <Hsp_midline>H   +  FA+ RP +      GQ  S     EG+   + R+Y+ +S++  +   YF +L++    G +S     ++ GDT+ +       +        + + M+  G+GI P L I++   IR R      DT  ++LI +   P++++  + L  L+ E P        F    V      P G +G      PE++K        H        + ++CG P M+    +    +GY   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|187609754|sp|A6R2K7.1|NCB5R_AJECN</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1; AltName: Full=Microsomal cytochrome b reductase [Histoplasma capsulatum NAm1]</Hit_def>
+  <Hit_accession>A6R2K7</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.303828</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>VKHHTPKLITFAISRP-ESYRFKAGQ-FSRLGFYEGKGF-IWRAYSVVSAEYADTLEYFAVLIQ---DGPMSALFAKMQQGDTILLDKNATGFLLPERFPDG---------KDLVMLCTGSGIAPFLSILEQPEIRQR-----FDT--VNLIHSVSFPEELIFNDRLAALSEHPLVGEYGHSFRFVPVTTRAANPSGLSGK---RIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>IVSHNVAIYRFALPRPTDILGLPIGQHISLAATIEGQTKEIMRSYTPISSD--QEAGYFDLLVKAYPQGNISKHLAGLRIGQTMKV-----------RGPKGAMVYTPNMVKKIGMIAGGTGITPMLQIIKA-IIRGRPRNGGNDTTQVDLIFANVNPDDILLKDELDQLAKE------DDGFRVFYVLNNP--PEGWEGGVGFVTPDMIRAKLPAAAPDTKV-------LICGPPPMVSAMKKATESLGF</Hsp_hseq>
+      <Hsp_midline>+  H   +  FA+ RP +      GQ  S     EG+   I R+Y+ +S++      YF +L++    G +S   A ++ G T+ +           R P G         K + M+  G+GI P L I++   IR R      DT  V+LI +   P++++  D L  L++          FR   V      P G  G      P++++      A  TK+       +ICG P MV    +    +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|74731959|sp|Q96HP4.1|OXND1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Oxidoreductase NAD-binding domain-containing protein 1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96HP4</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.304844</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>FLLPERFPDGKDLVMLCTGSGIAPFLSIL--------EQPEIRQRFD--TVNLIHSVSFPEELIFNDRLAAL-SEHPLVGEYGHSFRFVPVTTRAANPSGLSGKRIPELLKNNSIEQALHTKLTPESTRFMICGNPEMVKDTFQTLLDMGY</Hsp_qseq>
+      <Hsp_hseq>FFDPQPADASRNLVLIAGGVGINPLLSILRHAADLLREQANKRNGYEIGTIKLFYSAKNTSELLFKKNILDLVNEFP--EKIACSLHVTKQTTQ------INAELKPYITEGRITEKEIRDHISKE-TLFYICGPPPMT-DFFSKQLENNH</Hsp_hseq>
+      <Hsp_midline>F  P+     ++LV++  G GI P LSIL        EQ   R  ++  T+ L +S     EL+F   +  L +E P   +   S      TT+      ++ +  P + +    E+ +   ++ E T F ICG P M  D F   L+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|74853872|sp|Q54NC1.1|NCB5R_DICDI</Hit_id>
+  <Hit_def>RecName: Full=NADH-cytochrome b5 reductase 1 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54NC1</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.326644</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>WVKHHTPKLITFAISRPES-YRFKAGQFSRLGFYEGKGFIWRAYSVVSAEYADTLEYFAVLI---QDGPMSALFAKMQQGDTILLDKNATGFLLPERFPDGKDLVMLCTGSGIAPFL----SILEQPEIRQRFDTVNLIHSVSFPEELIFNDRLAALSE-HP</Hsp_qseq>
+      <Hsp_hseq>FIVNHNTRIFRFALPNEDDILGLPIGQHISLRAVVGGKEVYRPYTPISSD--EERGYFDLLIKVYEKGAMSGYVDNMFIGDSIEVKGPKGKFNYQPNMR--KSIGMLAGGTGITPMLQVIKAILKNPSDKTE---ISLVFGNITEEDILLKKELDELAEKHP</Hsp_hseq>
+      <Hsp_midline>++ +H  ++  FA+   +       GQ   L    G   ++R Y+ +S++  +   YF +LI   + G MS     M  GD+I +      F         K + ML  G+GI P L    +IL+ P  +     ++L+      E+++    L  L+E HP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

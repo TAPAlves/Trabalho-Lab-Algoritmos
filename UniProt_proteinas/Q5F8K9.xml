@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-08-16" modified="2015-02-04" version="67">
+<accession>Q5F8K9</accession>
+<name>CCA_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Multifunctional CCA protein</fullName>
+</recommendedName>
+<domain>
+<recommendedName>
+<fullName evidence="1">CCA-adding enzyme</fullName>
+<ecNumber evidence="1">2.7.7.72</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">CCA tRNA nucleotidyltransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">tRNA CCA-pyrophosphorylase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">tRNA adenylyl-/cytidylyl-transferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">tRNA nucleotidyltransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">tRNA-NT</fullName>
+</alternativeName>
+</domain>
+<domain>
+<recommendedName>
+<fullName evidence="1">2'-nucleotidase</fullName>
+<ecNumber evidence="1">3.1.3.-</ecNumber>
+</recommendedName>
+</domain>
+<domain>
+<recommendedName>
+<fullName evidence="1">2',3'-cyclic phosphodiesterase</fullName>
+<ecNumber evidence="1">3.1.4.-</ecNumber>
+</recommendedName>
+</domain>
+<domain>
+<recommendedName>
+<fullName evidence="1">Phosphatase</fullName>
+<ecNumber evidence="1">3.1.3.-</ecNumber>
+</recommendedName>
+</domain>
+</protein>
+<gene>
+<name type="primary" evidence="1">cca</name>
+<name type="ordered locus">NGO0763</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the addition and repair of the essential 3'-terminal CCA sequence in tRNAs without using a nucleic acid template. Adds these three nucleotides in the order of C, C, and A to the tRNA nucleotide-73, using CTP and ATP as substrates and producing inorganic pyrophosphate. Also shows phosphatase, 2'-nucleotidase and 2',3'-cyclic phosphodiesterase activities. These phosphohydrolase activities are probably involved in the repair of the tRNA 3'-CCA terminus degraded by intracellular RNases.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">A tRNA precursor + 2 CTP + ATP = a tRNA with a 3' CCA end + 3 diphosphate.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Magnesium is required for nucleotidyltransferase activity.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Ni(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:49786"/>
+</cofactor>
+<text evidence="1">Nickel for phosphatase activity.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Monomer. Can also form homodimers and oligomers.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">Comprises two domains: an N-terminal domain containing the nucleotidyltransferase activity and a C-terminal HD domain associated with both phosphodiesterase and phosphatase activities.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="1">A single active site specifically recognizes both ATP and CTP and is responsible for their addition.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the tRNA nucleotidyltransferase/poly(A) polymerase family. Bacterial CCA-adding enzyme type 1 subfamily.</text>
+</comment>
+<dbReference type="EC" id="2.7.7.72" evidence="1"/>
+<dbReference type="EC" id="3.1.3.-" evidence="1"/>
+<dbReference type="EC" id="3.1.4.-" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89478.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207890.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8K9"/>
+<dbReference type="STRING" id="242231.NGO0763"/>
+<dbReference type="EnsemblBacteria" id="AAW89478">
+<property type="protein sequence ID" value="AAW89478"/>
+<property type="gene ID" value="NGO0763"/>
+</dbReference>
+<dbReference type="GeneID" id="3283071"/>
+<dbReference type="KEGG" id="ngo:NGO0763"/>
+<dbReference type="PATRIC" id="20334674">
+<property type="gene designation" value="VBINeiGon24812_0909"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0617"/>
+<dbReference type="HOGENOM" id="HOG000007368"/>
+<dbReference type="KO" id="K00974"/>
+<dbReference type="OMA" id="APRECQE"/>
+<dbReference type="OrthoDB" id="EOG651SRP"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-718-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052929">
+<property type="term" value="F:ATP:3'-cytidine-cytidine-tRNA adenylyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052928">
+<property type="term" value="F:CTP:3'-cytidine-tRNA cytidylyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052927">
+<property type="term" value="F:CTP:tRNA cytidylyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004112">
+<property type="term" value="F:cyclic-nucleotide phosphodiesterase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016791">
+<property type="term" value="F:phosphatase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004810">
+<property type="term" value="F:tRNA adenylyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000049">
+<property type="term" value="F:tRNA binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016437">
+<property type="term" value="F:tRNA cytidylyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042245">
+<property type="term" value="P:RNA repair"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001680">
+<property type="term" value="P:tRNA 3'-terminal CCA addition"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01261">
+<property type="entry name" value="CCA_bact_type1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01262">
+<property type="entry name" value="CCA_bact_type2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012006">
+<property type="entry name" value="CCA_bact"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003607">
+<property type="entry name" value="HD/PDEase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006674">
+<property type="entry name" value="HD_domain"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002646">
+<property type="entry name" value="PolA_pol_head_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01966">
+<property type="entry name" value="HD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01743">
+<property type="entry name" value="PolyA_pol"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000813">
+<property type="entry name" value="CCA_bact"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00471">
+<property type="entry name" value="HDc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-0533">Nickel</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0548">Nucleotidyltransferase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0692">RNA repair</keyword>
+<keyword id="KW-0694">RNA-binding</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0819">tRNA processing</keyword>
+<feature type="chain" description="Multifunctional CCA protein" id="PRO_0000138986">
+<location>
+<begin position="1"/>
+<end position="410"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="21"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="23"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP or CTP; via amide nitrogen" evidence="1">
+<location>
+<position position="8"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP or CTP" evidence="1">
+<location>
+<position position="11"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP or CTP" evidence="1">
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP or CTP" evidence="1">
+<location>
+<position position="137"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP or CTP" evidence="1">
+<location>
+<position position="140"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_01261"/>
+</source>
+</evidence>
+<sequence length="410" mass="45999" checksum="6965E40059C91249" modified="2005-03-15" version="1">
+MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYAL
+ARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGI
+LRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAK
+GLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMG
+LSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCR
+WHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHW
+LALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRGA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

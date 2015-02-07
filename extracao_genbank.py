@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+"""
+Created on Tue Jan 27 11:32:31 2015
+
+@author: Patricia
+"""
 
 #Importação
 from Bio import Entrez
@@ -20,3 +25,4 @@ print record
 
 #  Para a realização deste script utilizamos como referência, os
 #    slides fornecidos pelo professor no decorrer das aulas.
+

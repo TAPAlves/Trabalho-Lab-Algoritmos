@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>46115</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>65</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>46115</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>65</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75168995|sp|Q9C5U2.1|AHK2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Histidine kinase 2; AltName: Full=Arabidopsis histidine kinase 2; Short=AtHK2; AltName: Full=Protein AUTHENTIC HIS-KINASE 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9C5U2</Hit_accession>
+  <Hit_len>1176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.99513</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>ALKPKK------AALRKDGQWKLILLSNAVAAAVLFWIWWKW</Hsp_qseq>
+      <Hsp_hseq>ALAPKKQQQRAQTSSRGAGRWRKNILLLGILGGVSFSVWWFW</Hsp_hseq>
+      <Hsp_midline>AL PKK       + R  G+W+  +L   +   V F +WW W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|667467107|sp|B8VIW9.1|FP_ACRMI</Hit_id>
+  <Hit_def>RecName: Full=Fibronectin type III domain-containing protein; AltName: Full=Neuroglian-like protein; Flags: Precursor [Acropora millepora]</Hit_def>
+  <Hit_accession>B8VIW9</Hit_accession>
+  <Hit_len>1280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.4276</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>IASMLLSPFFYAGALKPKKAALRKDGQWKLILLSNAVAAAVLFWIW</Hsp_qseq>
+      <Hsp_hseq>VAPPQITNFLAEDKVAPEEVKFRDTDVWQLVLPCRATGSNPLKWVW</Hsp_hseq>
+      <Hsp_midline>+A   ++ F     + P++   R    W+L+L   A  +  L W+W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|3915416|sp|Q58514.3|Y1114_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ1114 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58514</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.67459</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>YGVLIFLCIASMLLSPFFYA-GALKPKKAAL</Hsp_qseq>
+      <Hsp_hseq>FGILVFIPIADMLGNPYLFGLTALKPIISAI</Hsp_hseq>
+      <Hsp_midline>+G+L+F+ IA ML +P+ +   ALKP  +A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|226699030|sp|B3PGF2.1|METK_CELJU</Hit_id>
+  <Hit_def>RecName: Full=S-adenosylmethionine synthase; Short=AdoMet synthase; AltName: Full=MAT; AltName: Full=Methionine adenosyltransferase [Cellvibrio japonicus Ueda107]</Hit_def>
+  <Hit_accession>B3PGF2</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.86113</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>ASMLLSPFFYAGALKPKKAALRKDGQ</Hsp_qseq>
+      <Hsp_hseq>AVLMPAPIFYAHRLVEKQAQLRKSGE</Hsp_hseq>
+      <Hsp_midline>A ++ +P FYA  L  K+A LRK G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|74997204|sp|Q54YD4.1|SYIC_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Probable isoleucine--tRNA ligase, cytoplasmic; AltName: Full=Isoleucyl-tRNA synthetase; Short=IRS; Short=IleRS [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54YD4</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.9571</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>761</Hsp_hit-from>
+      <Hsp_hit-to>797</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>IYYGVLIFLCIASMLLSPFFYAGALKPKKAALRKDGQ</Hsp_qseq>
+      <Hsp_hseq>ILYEVLMTICIAMGPFTPFFTEYMYQNLKKALPKEKQ</Hsp_hseq>
+      <Hsp_midline>I Y VL+ +CIA    +PFF     +  K AL K+ Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

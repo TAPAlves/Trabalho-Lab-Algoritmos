@@ -1,0 +1,1480 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>19255</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>161</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>19255</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>161</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|131626|sp|P12044.1|PURE_BACSU</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P12044</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>1.16922e-66</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSTSDWETMKHACDILDELNVPYEKKVVSAHRTPDFMFEYAETARERGIKVIIAGAGGAAHLPGMTAAKTTLPVIGVPVQSKALNGMDSLLSIVQMPGGVPVATTSIGKAGAVNAGLLAAQILSAFDEDLARKLDERRENTKQTVL</Hsp_hseq>
+      <Hsp_midline>+GIIMGS SDW  M+ A   L+E  V YE +VVSAHRTPD MFEYAETAR RGIK IIAGAGGAAHLPGM AAKTT+PV+GVPV SK L G DSLLSIVQMP GVPVAT +IG+AGA NA L A  +L+  + +LA+KL + R   +QTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|12230963|sp|P72157.2|PURE_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P72157</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>2.66879e-64</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVLN</Hsp_qseq>
+      <Hsp_hseq>VGVIMGSKSDWSTLSHTADMLDKLGIPYEVKVVSAHRTPDLLFQYAEEAEGRGLEVIIAGAGGAAHLPGMCAAKTHLPVLGVPVQSSMLSGVDSLLSIVQMPAGVPVATLAIGKAGAVNAALLSASILGAKHPQYHEALKQFRANQTETVLD</Hsp_hseq>
+      <Hsp_midline>+G+IMGS SDW  +   A  L++ G+ YE +VVSAHRTPDL+F+YAE A  RG++ IIAGAGGAAHLPGM AAKT +PVLGVPV S  L G DSLLSIVQMP GVPVAT AIG+AGA NAAL + S+L  ++P+  + L  FRA Q +TVL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81174992|sp|Q87KE1.1|PURE_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87KE1</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>2.03882e-63</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>MKVGIIMGSKSDWPTMKLAADMLDQFGVSYETKVVSAHRTPQLLADYASSAKERGIKVIIAGAGGAAHLPGMAAAFTSLPVLGVPVQSRALKGMDSLLSIVQMPKGIAVGTLAIGEAGAANAGILAAQILGTHDESIMAKVEAFRNEQTETVL</Hsp_hseq>
+      <Hsp_midline>+++GIIMGS SDWP M+ AA  L++FGV YE +VVSAHRTP L+ +YA +A+ RGIK IIAGAGGAAHLPGM AA T++PVLGVPV S+ L+G DSLLSIVQMPKG+ V T AIGEAGAANA + A  +L   +  +  K+  FR +Q +TVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|3914483|sp|O06456.1|PURE_SULSO</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Sulfolobus solfataricus P2]</Hit_def>
+  <Hit_accession>O06456</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>2.13398e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MIQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVLNMELE</Hsp_qseq>
+      <Hsp_hseq>MPKVAVIMGSKNDWEYMREAVEILKQFGIDYEARVVSAHRTPEFMMQYAKEAEKRGIEVIIAGAGGAAHLPGMVASLTSLPVIGVPIPSKNLNGLDSLLSIVQMPYGVPVATVAIG--GAKNAALLAIRILGIKYKELADKIKKFSEDMRNDVLSTRLE</Hsp_hseq>
+      <Hsp_midline>M ++ +IMGS +DW  MR+A + L++FG++YEARVVSAHRTP+ M +YA+ A  RGI+ IIAGAGGAAHLPGMVA+ T++PV+GVP+PSK L G DSLLSIVQMP GVPVAT AIG  GA NAAL AI +L  +  ELA K+  F       VL+  LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75353186|sp|Q5E1R4.1|PURE_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E1R4</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>5.06089e-61</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>MKVGIIMGSKSDWPTMKLAAEMLDRFNVPYETKVVSAHRTPQLLADYATQAKDRGIKVIIAGAGGAAHLPGMAAAFTSVPVLGVPVQSRALKGMDSLLSIVQMPKGIAVGTLAIGEAGAANAGILAAQIIGTSNEEVMAAVEAFRKEQTEMVL</Hsp_hseq>
+      <Hsp_midline>+++GIIMGS SDWP M+ AA+ L+ F V YE +VVSAHRTP L+ +YA  A+ RGIK IIAGAGGAAHLPGM AA T+VPVLGVPV S+ L+G DSLLSIVQMPKG+ V T AIGEAGAANA + A  ++   N E+   +  FR +Q + VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3914495|sp|O67239.1|PURE_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67239</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.78202e-60</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTV--LNMELEQ</Hsp_qseq>
+      <Hsp_hseq>VGVIMGSISDWEYMKKAVEVLKEFGVPHEVKVVSAHRTPELMYEYAKTARERGIEVIIAGAGGSAHLPGMTASMTTLPVIGVPIPTKNLGGVDSLYSIVQMPAGIPVATVAIGN--ATNAGLLAVRILSIKYPEYAKKLDEYTEKLKEKVAKMNEELQK</Hsp_hseq>
+      <Hsp_midline>+G+IMGS SDW  M++A + L+EFGV +E +VVSAHRTP+LM+EYA+TAR RGI+ IIAGAGG+AHLPGM A+ TT+PV+GVP+P+K L G DSL SIVQMP G+PVAT AIG   A NA L A+ +L+ + PE A+KL ++  K ++ V  +N EL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|6685802|sp|Q9WYS7.1|PURE_THEMA</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9WYS7</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>5.35306e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MIQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVLN--MELEQI</Hsp_qseq>
+      <Hsp_hseq>MPRVGIIMGSDSDLPVMKQAAEILEEFGIDYEITIVSAHRTPDRMFEYAKNAEERGIEVIIAGAGGAAHLPGMVASITHLPVIGVPVKTSTLNGLDSLFSIVQMPGGVPVATVAIN--NAKNAGILAASILGIKYPEIARKVKEYKERMKREVLEKAQRLEQI</Hsp_hseq>
+      <Hsp_midline>M ++GIIMGS+SD PVM+QAA+ LEEFG++YE  +VSAHRTPD MFEYA+ A  RGI+ IIAGAGGAAHLPGMVA+ T +PV+GVPV +  L G DSL SIVQMP GVPVAT AI    A NA + A S+L  + PE+A+K+ +++ + ++ VL     LEQI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81174991|sp|Q9KVT7.1|PURE_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KVT7</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>7.85155e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVLN</Hsp_qseq>
+      <Hsp_hseq>MTVGIIMGSKSDWPTMKHAAEMLDQFGVAYETKVVSAHRTPHLLADYASSAKERGLQVIIAGAGGAAHLPGMTAAFTSLPVLGVPVQSRALSGLDSLYSIVQMPKGIAVGTLAIGEAGAANAGLLAAQIIGIHNPEVMSKVEAFRAKQTQSVLD</Hsp_hseq>
+      <Hsp_midline>+ +GIIMGS SDWP M+ AA+ L++FGV YE +VVSAHRTP L+ +YA +A+ RG++ IIAGAGGAAHLPGM AA T++PVLGVPV S+ L G DSL SIVQMPKG+ V T AIGEAGAANA L A  ++   NPE+  K+  FRAKQ Q+VL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|15214246|sp|Q9UY68.1|PURE_PYRAB</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Pyrococcus abyssi GE5]</Hit_def>
+  <Hit_accession>Q9UY68</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>2.30105e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MIQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTV</Hsp_qseq>
+      <Hsp_hseq>MPKVGIIMGSDSDLPVMKEAAKVLEDFEVDYEMKVISAHRTPERLHEYARTAEERGIEVIIAGAGGAAHLPGVLAALTMIPVIGVPIKSKALNGLDSLLSIVQMPPGIPVATVGID--GAKNAALLALEILSIKYPEIKEKLKKYREDMKRKV</Hsp_hseq>
+      <Hsp_midline>M ++GIIMGS+SD PVM++AA+ LE+F V+YE +V+SAHRTP+ + EYA TA  RGI+ IIAGAGGAAHLPG++AA T +PV+GVP+ SK L G DSLLSIVQMP G+PVAT  I   GA NAAL A+ +L+ + PE+ +KL  +R   ++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81174993|sp|Q8DDD7.1|PURE_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Vibrio vulnificus CMCP6] &gt;gi|81174994|sp|Q7MGL2.1|PURE_VIBVY RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q8DDD7</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>7.70092e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>MKVGIIMGSKSDWPTMKLAAEMLDRFGVEYETKVVSAHRTPHLLAEYASTAKERGLKVIIAGAGGAAHLPGMAAAFTSLPVLGVPVQSRALSGLDSLYSIVQMPKGIAVGTLAIGEAGAANAGLLAAQILGTHDENIMAKVEAFRSEQTESVL</Hsp_hseq>
+      <Hsp_midline>+++GIIMGS SDWP M+ AA+ L+ FGVEYE +VVSAHRTP L+ EYA TA+ RG+K IIAGAGGAAHLPGM AA T++PVLGVPV S+ L G DSL SIVQMPKG+ V T AIGEAGAANA L A  +L   +  +  K+  FR++Q ++VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|3914493|sp|O58058.1|PURE_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O58058</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>4.653e-55</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKL----ADFRAKQEQTVLNME</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSDSDLPVMKEAARILEEFGVPYEITIISAHRTPERAYEYAKKAEERGIEVIIAGAGGAAHLPGIIASLTVLPVIGVPIKSKALNGLDSLLSIVQMPSGIPVATVAID--NAKNAALLALRILGIKYPEIKEKLRRYMKDMKRKVEEKAKRLE</Hsp_hseq>
+      <Hsp_midline>+GIIMGS+SD PVM++AA+ LEEFGV YE  ++SAHRTP+  +EYA+ A  RGI+ IIAGAGGAAHLPG++A+ T +PV+GVP+ SK L G DSLLSIVQMP G+PVAT AI    A NAAL A+ +L  + PE+ +KL     D + K E+    +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|614115400|sp|P9WHM0.1|PURE_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Mycobacterium tuberculosis CDC1551] &gt;gi|614115402|sp|P9WHM1.1|PURE_MYCTU RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WHM0</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>5.02108e-53</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>QIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL--NMELEQI</Hsp_qseq>
+      <Hsp_hseq>RVGVIMGSDSDWPVMADAAAALAEFDIPAEVRVVSAHRTPEAMFSYARGAAERGLEVIIAGAGGAAHLPGMVAAATPLPVIGVPVPLGRLDGLDSLLSIVQMPAGVPVATVSIG--GAGNAGLLAVRMLGAANPQLRARIVAFQDRLADVVAAKDAELQRL</Hsp_hseq>
+      <Hsp_midline>++G+IMGS+SDWPVM  AA  L EF +  E RVVSAHRTP+ MF YA  A  RG++ IIAGAGGAAHLPGMVAA T +PV+GVPVP   L G DSLLSIVQMP GVPVAT +IG  GA NA L A+ ML   NP+L  ++  F+ +    V   + EL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1172756|sp|P43849.1|PURE_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43849</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>7.7733e-53</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>QIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVLN</Hsp_qseq>
+      <Hsp_hseq>QIAVVMGSKSDWATMQEATQILDELNVPYHVEVVSAHRTPDKLFEFAENAQKNGYKVIIAGAGGAAHLPGMIAAKTLVPVLGVPVKSSMLSGVDSLYSIVQMPKGIPVGTLAIGPAGAANAGLLAAQILAGWDDALFTRLQAFRENQTNMVLD</Hsp_hseq>
+      <Hsp_midline>QI ++MGS SDW  M++A Q L+E  V Y   VVSAHRTPD +FE+AE A+  G K IIAGAGGAAHLPGM+AAKT VPVLGVPV S  L G DSL SIVQMPKG+PV T AIG AGAANA L A  +LA  +  L  +L  FR  Q   VL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2500010|sp|Q44679.1|PURE_CORAM</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Corynebacterium ammoniagenes]</Hit_def>
+  <Hit_accession>Q44679</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.16693e-52</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFR</Hsp_qseq>
+      <Hsp_hseq>VGLIMGSDSDWPTVEPAAEVLDEFGVPFEVGVVSAHRTPEKMLDYAKQAHTRGIKVIVACAGGAAHLPGMVAAATPLPVIGIPRALKDLEGLDSLLSIVQMPAGVPVATVSIG--GAKNAGLLAIRTLGVQYSELVERMADYQ</Hsp_hseq>
+      <Hsp_midline>+G+IMGS+SDWP +  AA+ L+EFGV +E  VVSAHRTP+ M +YA+ A  RGIK I+A AGGAAHLPGMVAA T +PV+G+P   K L G DSLLSIVQMP GVPVAT +IG  GA NA L AI  L  +  EL +++AD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1172758|sp|P46702.1|PURE_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>P46702</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>9.79647e-52</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>QIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTV</Hsp_qseq>
+      <Hsp_hseq>RVGVIMGSDSDWSVMQDAAHALAEFDIPIEVRVVSAHRTPAEMFDYARNAVDRSIAVIIAGAGGAAHLPGMVASATPLPVIGVPVPLARLDGLDSLLSIVQMPAGVPVATVSIG--GARNAGLLAVRILGSSDLQLRAQLVAFQDRLADTV</Hsp_hseq>
+      <Hsp_midline>++G+IMGS+SDW VM+ AA  L EF +  E RVVSAHRTP  MF+YA  A  R I  IIAGAGGAAHLPGMVA+ T +PV+GVPVP   L G DSLLSIVQMP GVPVAT +IG  GA NA L A+ +L + + +L  +L  F+ +   TV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1709930|sp|P55195.1|PUR6_VIGAC</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase, chloroplastic; AltName: Full=AIR carboxylase; Short=AIRC; Flags: Precursor, partial [Vigna aconitifolia]</Hit_def>
+  <Hit_accession>P55195</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>3.20673e-50</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>391</Hsp_hit-from>
+      <Hsp_hit-to>539</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>LGFIMGSDSDLPVMKSAAEMMEMFGVPHEVRIVSAHRTPELMFCYASSAHERGYQVIIAGAGGAAHLPGMVASLTPLPVVGVPVRASTLDGLDSLLSIVQMPRGVPVATVAVN--NATNAGLLAVRMLGVANDNLLSRMSQYQEDQKEAVL</Hsp_hseq>
+      <Hsp_midline>+G IMGS+SD PVM+ AA+ +E FGV +E R+VSAHRTP+LMF YA +A  RG + IIAGAGGAAHLPGMVA+ T +PV+GVPV +  L G DSLLSIVQMP+GVPVAT A+    A NA L A+ ML   N  L  +++ ++  Q++ VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|38258152|sp|Q8FYW3.1|PURE_BRUSU</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Brucella suis 1330]</Hit_def>
+  <Hit_accession>Q8FYW3</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>2.86536e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTV</Hsp_qseq>
+      <Hsp_hseq>VDVAIIMGSQSDWETMRHAAHTLEALGISFDARIVSAHRTPDRLVAFAKGAKAEGFKVIIAGAGGAAHLPGMAAAMTPLPVFGVPVQSKALSGQDSLLSIVQMPAGIPVGTLAIGRAGAVNAALLAAAVLALYDEALAARLDEWRKAQTESV</Hsp_hseq>
+      <Hsp_midline>+ + IIMGS SDW  MR AA  LE  G+ ++AR+VSAHRTPD +  +A+ A+A G K IIAGAGGAAHLPGM AA T +PV GVPV SK L G+DSLLSIVQMP G+PV T AIG AGA NAAL A ++LA  +  LA +L ++R  Q ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|51338742|sp|O74197.2|PUR6_CANGA</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Candida glabrata CBS 138]</Hit_def>
+  <Hit_accession>O74197</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>1.15225e-48</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>404</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>VGVIMGSDSDLPVMSAACKMLEQFEVPFEVTIVSAHRTPYRMNKYASEAVSRGIKVIIAGAGGAAHLPGMVAAMTPVPVIGVPVKGSTLDGVDSLHSIVQMPRGVPVATVAIN--NSTNAGILAVRMLGIHNYDYVKKMEEFLNKQEEEVL</Hsp_hseq>
+      <Hsp_midline>+G+IMGS+SD PVM  A + LE+F V +E  +VSAHRTP  M +YA  A +RGIK IIAGAGGAAHLPGMVAA T VPV+GVPV    L G DSL SIVQMP+GVPVAT AI    + NA + A+ ML   N +  +K+ +F  KQE+ VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|74854453|sp|Q54QE4.1|PURCE_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional purine synthesis protein purC/E; Includes: RecName: Full=Phosphoribosylaminoimidazole-succinocarboxamide synthase; AltName: Full=SAICAR synthetase; Includes: RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54QE4</Hit_accession>
+  <Hit_len>997</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>2.41457e-48</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>366</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVLNMELE</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSQSDWETMKLAANTLTTLGVPFETRIVSAHRTPDRLFEYAKTAKSRGLKIVIAGAGGAAHLPGMVAALTPLPVFGVPVQSKALSGVDSLLSIVQMPAGIPVGTVAIGAAGATNAALLSAAVLAPYYPSIELSLDLYRKKQTDAVAEIPVD</Hsp_hseq>
+      <Hsp_midline>+GIIMGS SDW  M+ AA  L   GV +E R+VSAHRTPD +FEYA+TA++RG+K +IAGAGGAAHLPGMVAA T +PV GVPV SK L G DSLLSIVQMP G+PV T AIG AGA NAAL + ++LA   P +   L  +R KQ   V  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|20141762|sp|P52558.2|PURE_BRUME</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Brucella melitensis bv. 1 str. 16M]</Hit_def>
+  <Hit_accession>P52558</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>2.92295e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTV</Hsp_qseq>
+      <Hsp_hseq>VDVAIIMGSQSDWETMHHAADTLEALGISFDARIVSAHRTPDRLVAFAKGAKAEGFKVIIAGAGGAAHLPGMAAAMTPLPVFGVPVQSKALSGQDSLLSIVQMPAGIPVGTLAIGRAGAVNAALLAAAVLALYDEALAARLDEWRKAQTESV</Hsp_hseq>
+      <Hsp_midline>+ + IIMGS SDW  M  AA  LE  G+ ++AR+VSAHRTPD +  +A+ A+A G K IIAGAGGAAHLPGM AA T +PV GVPV SK L G+DSLLSIVQMP G+PV T AIG AGA NAAL A ++LA  +  LA +L ++R  Q ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|131630|sp|P21264.1|PUR6_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P21264</Hit_accession>
+  <Hit_len>571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>1.47959e-47</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>405</Hsp_hit-from>
+      <Hsp_hit-to>553</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSDSDLPVMSAACAVLKDFGVPFEVTIVSAHRTPHRMSAYAISASKRGIKTIIAGAGGAAHLPGMVAAMTPLPVIGVPVKGSCLDGVDSLHSIVQMPRGVPVATVAIN--NSTNAALLAVRLLGAYDSSYTTKMEQFLLKQEEEVL</Hsp_hseq>
+      <Hsp_midline>+GIIMGS+SD PVM  A   L++FGV +E  +VSAHRTP  M  YA +A  RGIK IIAGAGGAAHLPGMVAA T +PV+GVPV    L G DSL SIVQMP+GVPVAT AI    + NAAL A+ +L   +     K+  F  KQE+ VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2500013|sp|Q55498.1|PURE_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55498</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>4.27796e-47</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVLNMELE</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSDSDLPTMAAAIAVCEEFAVPTEVAIISAHRTPERMVEYAQTAHQRGLRIIIAGAGGAAHLPGMVAALTPLPVIGVPVQTKTLQGVDSLYSIVQMPGGIPVATVAIG--NAKNAGLLAVQILASHNPVLLEKVQQYRQSLETMVLDKQAE</Hsp_hseq>
+      <Hsp_midline>+GIIMGS+SD P M  A    EEF V  E  ++SAHRTP+ M EYA+TA  RG++ IIAGAGGAAHLPGMVAA T +PV+GVPV +K L+G DSL SIVQMP G+PVAT AIG   A NA L A+ +LA+ NP L +K+  +R   E  VL+ + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|131629|sp|P15567.1|PUR6_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>P15567</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>2.39264e-45</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSDSDLSKMKDAAVILDEFKVPYELTIVSAHRTPDRMVTYARTAASRGLRVIIAGAGGAAHLPGMVAAMTPLPVIGVPVKGSTLDGVDSLHSIVQMPRGVPVATVAIN--NSQNAGILACRILATFQPSLLAAMESFMDNMKEIVL</Hsp_hseq>
+      <Hsp_midline>+GIIMGS+SD   M+ AA  L+EF V YE  +VSAHRTPD M  YA TA +RG++ IIAGAGGAAHLPGMVAA T +PV+GVPV    L G DSL SIVQMP+GVPVAT AI    + NA + A  +LA   P L   +  F    ++ VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|84029596|sp|P0AG19.2|PURE_ECO57</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Escherichia coli O157:H7] &gt;gi|84029597|sp|P0AG18.2|PURE_ECOLI RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AG19</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>3.56836e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>QIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>RVAIVMGSKSDWATMQFAAEIFEILNVPHHVEVVSAHRTPDKLFSFAESAEENGYQVIIAGAGGAAHLPGMIAAKTLVPVLGVPVQSAALSGVDSLYSIVQMPRGIPVGTLAIGKAGAANAALLAAQILATHDKELHQRLNDWRKAQTDEVL</Hsp_hseq>
+      <Hsp_midline>++ I+MGS SDW  M+ AA+  E   V +   VVSAHRTPD +F +AE+A   G + IIAGAGGAAHLPGM+AAKT VPVLGVPV S  L G DSL SIVQMP+G+PV T AIG+AGAANAAL A  +LA  + EL Q+L D+R  Q   VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|353526273|sp|Q92210.2|PUR6_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>Q92210</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>1.96431e-44</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>399</Hsp_hit-from>
+      <Hsp_hit-to>545</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVLNMELE</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSDSDLPVMAVGARILKQFGVPFELTIVSAHRTPHRMSEYAIEAPKRGLKCIIAGAGGAAHLPGMVAAMTPLPVIGVPVKGSTLDGVDSLHSIVQMPRGIPVATVAIN--NSTNAALLAIRILGAYD-------SKWLTEMNQYMLNMETE</Hsp_hseq>
+      <Hsp_midline>+GIIMGS+SD PVM   A+ L++FGV +E  +VSAHRTP  M EYA  A  RG+K IIAGAGGAAHLPGMVAA T +PV+GVPV    L G DSL SIVQMP+G+PVAT AI    + NAAL AI +L   +       + +  +  Q +LNME E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2500020|sp|Q01930.1|PUR6_OGAME</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Ogataea methanolica]</Hit_def>
+  <Hit_accession>Q01930</Hit_accession>
+  <Hit_len>543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>7.53055e-43</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>404</Hsp_hit-from>
+      <Hsp_hit-to>537</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELA</Hsp_qseq>
+      <Hsp_hseq>VGVIMGSDSDLPVMSLGCNILKQFNVPFEVTIVSAHRTPQRMAKYAIDAPKRGLKCIIAGAGGAAHLPGMVAAMTPLPVIGVPVKGSTLDGVDSLHSIVQMPRGIPVATVAINN--ATNAALLAITILGAGDPNTC</Hsp_hseq>
+      <Hsp_midline>+G+IMGS+SD PVM      L++F V +E  +VSAHRTP  M +YA  A  RG+K IIAGAGGAAHLPGMVAA T +PV+GVPV    L G DSL SIVQMP+G+PVAT AI    A NAAL AI++L   +P   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1709929|sp|P50504.1|PUR6_SCHOC</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>P50504</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>2.99544e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>395</Hsp_hit-from>
+      <Hsp_hit-to>543</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>VSIIMGSDSDLPVMSVGANILKRFGVPFELTIVSAHRTPHRMTQYAIEAPKRGLKVIIAGAGGAAHLPGMVAAMTPLPVIGVPVKGSTLDGVDSLHSIVQMPRGIPVATVAIN--NSTNAALLAVRILGAYDYKWLNEMNQYMNNMENEVL</Hsp_hseq>
+      <Hsp_midline>+ IIMGS+SD PVM   A  L+ FGV +E  +VSAHRTP  M +YA  A  RG+K IIAGAGGAAHLPGMVAA T +PV+GVPV    L G DSL SIVQMP+G+PVAT AI    + NAAL A+ +L   + +   ++  +    E  VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|68067562|sp|P0C017.1|PUR6_CRYNH</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Cryptococcus neoformans var. grubii H99]</Hit_def>
+  <Hit_accession>P0C017</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>3.27693e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSDSDLPVMHPATKILEKFGVPYELTITSAHRTPERMVKYAKTAAGRGLRAIIAGAGGAAHLPGMVASETSLPVIGVPVKASVLDGVDSLYSIVQMPRGIPCATVGIN--NSTNAALLAIRILGTSVPALNKATEEYSKALEEEVL</Hsp_hseq>
+      <Hsp_midline>+GIIMGS+SD PVM  A + LE+FGV YE  + SAHRTP+ M +YA+TA  RG++AIIAGAGGAAHLPGMVA++T++PV+GVPV +  L G DSL SIVQMP+G+P AT  I    + NAAL AI +L    P L +   ++    E+ VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|338819252|sp|P0CQ37.1|PUR6_CRYNB</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Cryptococcus neoformans var. neoformans B-3501A]</Hit_def>
+  <Hit_accession>P0CQ37</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>7.47559e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSDSDLPVMHPATKILEKFGVPYELTITSAHRTPERMVKYAKTAADRGLRAIIAGAGGAAHLPGMVASETSLPVIGVPVKASVLDGVDSLYSIVQMPRGIPCATVGIN--NSTNAALLAVRILGTSVPALNKATEEYSKALEEEVL</Hsp_hseq>
+      <Hsp_midline>+GIIMGS+SD PVM  A + LE+FGV YE  + SAHRTP+ M +YA+TA  RG++AIIAGAGGAAHLPGMVA++T++PV+GVPV +  L G DSL SIVQMP+G+P AT  I    + NAAL A+ +L    P L +   ++    E+ VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|338819253|sp|P0CQ36.1|PUR6_CRYNJ</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Cryptococcus neoformans var. neoformans JEC21]</Hit_def>
+  <Hit_accession>P0CQ36</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>8.32856e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL</Hsp_qseq>
+      <Hsp_hseq>VGIIMGSDSDLPVMHPATKILEKFGVPYELTITSAHRTPERMVKYAKTAADRGLRAIIAGAGGAAHLPGMVASETSLPVIGVPVKASVLDGVDSLYSIVQMPRGIPCATVGIN--NSTNAALLAVRILGTSVPALNKATEEYSKALEEEVL</Hsp_hseq>
+      <Hsp_midline>+GIIMGS+SD PVM  A + LE+FGV YE  + SAHRTP+ M +YA+TA  RG++AIIAGAGGAAHLPGMVA++T++PV+GVPV +  L G DSL SIVQMP+G+P AT  I    + NAAL A+ +L    P L +   ++    E+ VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2500014|sp|Q58033.1|PURE_METJA</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58033</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>2.67747e-38</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTV</Hsp_qseq>
+      <Hsp_hseq>ICIIMGSESDLKIAEKAVNILKEFGVEFEVRVASAHRTPELVEEIVKNSKA---DVFIAIAGLAAHLPGVVASLTTKPVIAVPVDAK-LDGLDALLSSVQMPPGIPVATVGIDR--GENAAILALEILALKDENIAKKLIEYREKMKKKV</Hsp_hseq>
+      <Hsp_midline>I IIMGS SD  +  +A   L+EFGVE+E RV SAHRTP+L+ E  + ++A      IA AG AAHLPG+VA+ TT PV+ VPV +K L G D+LLS VQMP G+PVAT  I      NAA+ A+ +LA ++  +A+KL ++R K ++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|140040|sp|P22348.1|PURE_METSM</Hit_id>
+  <Hit_def>RecName: Full=Probable N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Methanobrevibacter smithii]</Hit_def>
+  <Hit_accession>P22348</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.21594e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>QIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVL--NMELEQ</Hsp_qseq>
+      <Hsp_hseq>KVMIILGSGSDIAIAEKSMKILEKLEIPYSLKIASAHRTPDLVRELVVQGTNAGIKVFIGIAGLAAHLPGAIAAYTHKPVIGVPVDVK-VSGLDALYSSVQMPYPSPVATVGIDRGD--NGAILAARILGLYDEEIRKKVLESKEGYRQKVIKNNEEIVQ</Hsp_hseq>
+      <Hsp_midline>++ II+GS SD  +  ++ + LE+  + Y  ++ SAHRTPDL+ E        GIK  I  AG AAHLPG +AA T  PV+GVPV  K + G D+L S VQMP   PVAT  I      N A+ A  +L   + E+ +K+ + +    Q V+  N E+ Q</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.83994e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>QIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENP</Hsp_qseq>
+      <Hsp_hseq>EVVIIVGRHTDLITGKKVSVTLDRLKIPHDMQVICPIRSGKKFRAYVNTMK--NAKIFIGINSNSSQVSGGLVGLTEKPVIGVPCENEL--GNNYLLSTVNMPPGVPVAT--VGVNNGRNAAVLSGEILSINNP</Hsp_hseq>
+      <Hsp_midline>++ II+G ++D    ++ +  L+   + ++ +V+   R+      Y  T +    K  I     ++ + G +   T  PV+GVP  ++   G + LLS V MP GVPVAT  +G     NAA+ +  +L+  NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1172757|sp|P41654.1|PURE_METTH</Hit_id>
+  <Hit_def>RecName: Full=Probable N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>P41654</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>8.00266e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>QIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFR-------AKQEQTVLN</Hsp_qseq>
+      <Hsp_hseq>RVMILLGSASDFRIAEKAMEIFEELRIPYDLRVASAHRTHEKVKAIVSEAVKAGVEVFIGIAGLSAHLPGMISANTHRPVIGVPVDVK-LGGLDALFACSQMPFPAPVAT--VGVDRGENAAILAAQIIGIGDPGVRERVADLRRGFYERVRRDECQVLN</Hsp_hseq>
+      <Hsp_midline>++ I++GS SD+ +  +A +  EE  + Y+ RV SAHRT + +      A   G++  I  AG +AHLPGM++A T  PV+GVPV  K L G D+L +  QMP   PVAT  +G     NAA+ A  ++   +P + +++AD R        + E  VLN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.30514e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>IGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQM</Hsp_qseq>
+      <Hsp_hseq>VSVIPGSYSDMKIAKKTTMFLERMGISYDLNVISPIRYPERFERYLE--KMENVKLFIAISGLSAHVTGAVVALSDRPVIGVPCPLK-MNGWDSLLSMINM</Hsp_hseq>
+      <Hsp_midline>+ +I GS SD  + ++   FLE  G+ Y+  V+S  R P+    Y E  +   +K  IA +G +AH+ G V A +  PV+GVP P K + G DSLLS++ M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|3914487|sp|O28997.1|PURE_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase; Short=N5-CAIR mutase; AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O28997</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>3.9741e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>IIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGV-PVATFAIGEAGAANAALFAISMLANENPELAQKLADFRAKQEQTVLNMELE</Hsp_qseq>
+      <Hsp_hseq>IIMGSKSDLDYSKKIASKLADFGIDAVMRIASAHKTPEKVLEIIKEYEKEDV-VFVTVAGRSNALSGFVDANTSKPVIASPPYSDKFGGAD-IFSSIRMPSGVAPMLVLE-----AENAALAVAKIFALKDEGVREKVVQFQENKRREIYKADEE</Hsp_hseq>
+      <Hsp_midline>IIMGS SD    ++ A  L +FG++   R+ SAH+TP+ + E  +      +   +  AG +  L G V A T+ PV+  P  S    G D + S ++MP GV P+         A NAAL    + A ++  + +K+  F+  + + +   + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1709927|sp|Q10457.1|PUR6_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable multifunctional protein ADE2; Includes: RecName: Full=Phosphoribosylaminoimidazole-succinocarboxamide synthase; AltName: Full=SAICAR synthetase; Includes: RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q10457</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>5.1227e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGI-KAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVAT</Hsp_qseq>
+      <Hsp_hseq>CHVLVIMGSGSDGVFARKISDEAKKFGLETTLKVSSAHKTTSDTLEVIADFEESGVPTVVIAVAGRSNGLGPVIAGNSSLPVINCPPPSESTSLD--IWSSLRMPNGIGCTT</Hsp_hseq>
+      <Hsp_midline>  + +IMGS SD    R+ +   ++FG+E   +V SAH+T     E        G+   +IA AG +  L  ++A  +++PV+  P PS+    +  + S ++MP G+   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1709928|sp|P51583.3|PUR6_RAT</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional protein ADE2; Includes: RecName: Full=Phosphoribosylaminoimidazole-succinocarboxamide synthase; AltName: Full=SAICAR synthetase; Includes: RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P51583</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.4995e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAI-IAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAA</Hsp_qseq>
+      <Hsp_hseq>CRVVVLMGSTSDLGHCEKIKKACGNFGIPCELRVTSAHKGPDETLRIKAEYEGDGIPTVFVAVAGRSNGLGPVMSGNTAYPVISCP-PITADWGAQDVWSSLRLPSGIGCSTILSPEGSAQFAA</Hsp_hseq>
+      <Hsp_midline> ++ ++MGS SD     +  +    FG+  E RV SAH+ PD            GI  + +A AG +  L  +++  T  PV+  P P     G   + S +++P G+  +T    E  A  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2833497|sp|Q57629.1|Y165_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ0165 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57629</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.03388e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>QIGIIMGSNSDWPVMRQAAQFLEEFGVE----YEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKY</Hsp_qseq>
+      <Hsp_hseq>KVGILTAGTSDIPVAEEAKDTLEIMGVEAITAYDVGIAGIHR----LFPALKRMIEEDVCCIIVVAGMEGALPSVIASMVDIPVIGVPTSTSY</Hsp_hseq>
+      <Hsp_midline>++GI+    SD PV  +A   LE  GVE    Y+  +   HR    +F   +      +  II  AG    LP ++A+   +PV+GVP  + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|131628|sp|P22234.3|PUR6_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional protein ADE2; Includes: RecName: Full=Phosphoribosylaminoimidazole-succinocarboxamide synthase; AltName: Full=SAICAR synthetase; Includes: RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Homo sapiens]</Hit_def>
+  <Hit_accession>P22234</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.19416e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAI-IAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAA-LFAIS</Hsp_qseq>
+      <Hsp_hseq>CRVVVLMGSTSDLGHCEKIKKACGNFGIPCELRVTSAHKGPDETLRIKAEYEGDGIPTVFVAVAGRSNGLGPVMSGNTAYPVISCP-PLTPDWGVQDVWSSLRLPSGLGCSTVLSPEGSAQFAAQIFGLS</Hsp_hseq>
+      <Hsp_midline> ++ ++MGS SD     +  +    FG+  E RV SAH+ PD            GI  + +A AG +  L  +++  T  PV+  P P     G   + S +++P G+  +T    E  A  AA +F +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|341942265|sp|Q9DCL9.4|PUR6_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional protein ADE2; Includes: RecName: Full=Phosphoribosylaminoimidazole-succinocarboxamide synthase; AltName: Full=SAICAR synthetase; Includes: RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Mus musculus]</Hit_def>
+  <Hit_accession>Q9DCL9</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.19416e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAH-LPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAA</Hsp_qseq>
+      <Hsp_hseq>CRVVVLMGSTSDLGHCEKIKKACGNFGIPCELRVTSAHKGPDETLRIKAEYEGDGIPTVFVSVAGRSNGLGPVLSGNTAYPVISCP-PITPDWGAQDVWSSLRLPSGIGCSTILSPEGSAQFAA</Hsp_hseq>
+      <Hsp_midline> ++ ++MGS SD     +  +    FG+  E RV SAH+ PD            GI  +     G ++ L  +++  T  PV+  P P     G   + S +++P G+  +T    E  A  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|62900924|sp|Q5RB59.3|PUR6_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional protein ADE2; Includes: RecName: Full=Phosphoribosylaminoimidazole-succinocarboxamide synthase; AltName: Full=SAICAR synthetase; Includes: RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RB59</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>5.69941e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>IQIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAI-IAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAA</Hsp_qseq>
+      <Hsp_hseq>CRVVVLMGSTSDLGHCEKIKKACGNFGIPCELRVTSAHKGPDETLRIKAEYEGDGIPTVFVAVAGRSNGLGPVMCGNTAYPVISCP-PLTPDWGAQDVWSSLRLPSGLGCSTILSPEGSAQFAA</Hsp_hseq>
+      <Hsp_midline> ++ ++MGS SD     +  +    FG+  E RV SAH+ PD            GI  + +A AG +  L  ++   T  PV+  P P     G   + S +++P G+  +T    E  A  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|585761|sp|P38024.1|PUR6_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional protein ADE2; Includes: RecName: Full=Phosphoribosylaminoimidazole-succinocarboxamide synthase; AltName: Full=SAICAR synthetase; Includes: RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Gallus gallus]</Hit_def>
+  <Hit_accession>P38024</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.71324e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>QIGIIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAI-IAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAA</Hsp_qseq>
+      <Hsp_hseq>RVVVLMGSTSDLGHCEKIKKACATFGIPCELRVTSAHKGPDETLRIKAEYEGDGIPTVFVAVAGRSNGLGPVMSGNTAYPVVNCP-PLSSDWGAQDVWSSLRLPSGLGCPTTLSPEGAAQFAA</Hsp_hseq>
+      <Hsp_midline>++ ++MGS SD     +  +    FG+  E RV SAH+ PD            GI  + +A AG +  L  +++  T  PV+  P P     G   + S +++P G+   T    E  A  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|74942758|sp|Q9I7S8.2|PUR6_DROME</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional protein ADE2; AltName: Full=Protein adenosine-5; Includes: RecName: Full=Phosphoribosylaminoimidazole-succinocarboxamide synthase; AltName: Full=SAICAR synthetase; Includes: RecName: Full=Phosphoribosylaminoimidazole carboxylase; AltName: Full=AIR carboxylase; Short=AIRC [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9I7S8</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>3.12868e-05</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>IIMGSNSDWPVMRQAAQFLEEFGVEYEARVVSAHRTPD----LMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAA</Hsp_qseq>
+      <Hsp_hseq>ILMGSASDISHSEKIATSCRSLGLNVELRVSSAHKGPEETLRIVREY-ESVMSNLI--FVAVAGRSNGLGPVVSGSTNYPVINCP-PVKSDNMQVDVWSSLNLPSGLGCATVLYPEAAALHAA</Hsp_hseq>
+      <Hsp_midline>I+MGS SD     + A      G+  E RV SAH+ P+    ++ EY E+  +  I   +A AG +  L  +V+  T  PV+  P P K    +  + S + +P G+  AT    EA A +AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|83305871|sp|Q4AA96.1|SYH_MYCHJ</Hit_id>
+  <Hit_def>RecName: Full=Histidine--tRNA ligase; AltName: Full=Histidyl-tRNA synthetase; Short=HisRS [Mycoplasma hyopneumoniae J]</Hit_def>
+  <Hit_accession>Q4AA96</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.278603</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>DWPVMRQAAQFLEEFGVEYEAR---VVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLP</Hsp_qseq>
+      <Hsp_hseq>DKNIFNRITSILEEFKISYKVDYNLVRGLDYYDDFVFEFIDTSQTLGTKLALVGGGCYNNLP</Hsp_hseq>
+      <Hsp_midline>D  +  +    LEEF + Y+     V       D +FE+ +T++  G K  + G G   +LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|83305870|sp|Q4A8C3.1|SYH_MYCH7</Hit_id>
+  <Hit_def>RecName: Full=Histidine--tRNA ligase; AltName: Full=Histidyl-tRNA synthetase; Short=HisRS [Mycoplasma hyopneumoniae 7448]</Hit_def>
+  <Hit_accession>Q4A8C3</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.28387</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>DWPVMRQAAQFLEEFGVEYEAR---VVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLP</Hsp_qseq>
+      <Hsp_hseq>DKNIFNRITSILEEFKISYKVDYNLVRGLDYYDDFVFEFIDTSQTLGTKLALVGGGCYNNLP</Hsp_hseq>
+      <Hsp_midline>D  +  +    LEEF + Y+     V       D +FE+ +T++  G K  + G G   +LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|226740157|sp|B3DW88.1|DXS_METI4</Hit_id>
+  <Hit_def>RecName: Full=1-deoxy-D-xylulose-5-phosphate synthase; AltName: Full=1-deoxyxylulose-5-phosphate synthase; Short=DXP synthase; Short=DXPS [Methylacidiphilum infernorum V4]</Hit_def>
+  <Hit_accession>B3DW88</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.6301</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>464</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>PVPSKYLRGEDSLLSIVQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLAD</Hsp_qseq>
+      <Hsp_hseq>PVAIRYPRGSGSGVAVKERPELIPIGRAEVIKHG-RDVAIFSLGIMVEMGKELAQKLEE</Hsp_hseq>
+      <Hsp_midline>PV  +Y RG  S +++ + P+ +P+    + + G  + A+F++ ++     ELAQKL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|158705786|sp|A2AKB4.1|FRPD1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=FERM and PDZ domain-containing protein 1 [Mus musculus]</Hit_def>
+  <Hit_accession>A2AKB4</Hit_accession>
+  <Hit_len>1549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.70875</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>AHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYLRGEDSLLSI--VQMPKGVPVATFAIGEAGAANAALFAISMLANENPELAQKLADFRA</Hsp_qseq>
+      <Hsp_hseq>AHRIEQMVARWLRRSRDSSARAKVAAADGP---PGNPAQALT------PVRHTVTLDKDVLLQNYGFHISETLPLTVVAVTAGGSAHGKLFPGDQILQMNNELAEDLSCERA</Hsp_hseq>
+      <Hsp_midline>AHR   ++  +   +R    +A +A A G    PG  A   T      PV       +D LL      + + +P+   A+   G+A+  LF    +   N ELA+ L+  RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|17380328|sp|Q92759.1|TF2H4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=General transcription factor IIH subunit 4; AltName: Full=Basic transcription factor 2 52 kDa subunit; Short=BTF2 p52; AltName: Full=General transcription factor IIH polypeptide 4; AltName: Full=TFIIH basal transcription factor complex p52 subunit [Homo sapiens] &gt;gi|38503276|sp|P60027.1|TF2H4_PANTR RecName: Full=General transcription factor IIH subunit 4; AltName: Full=Basic transcription factor 2 52 kDa subunit; Short=BTF2 p52; AltName: Full=General transcription factor IIH polypeptide 4; AltName: Full=TFIIH basal transcription factor complex p52 subunit [Pan troglodytes]</Hit_def>
+  <Hit_accession>Q92759</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.09317</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>QFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTT</Hsp_qseq>
+      <Hsp_hseq>QHLREFGLVFQRKRKSR--------RYYPTRLAINLSSGVSGAGGTVHQPGFIVVETN</Hsp_hseq>
+      <Hsp_midline>Q L EFG+ ++ +  S          Y  T  A  + + ++GAGG  H PG +  +T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|75523518|sp|Q7WSH3.1|FADD3_COMTE</Hit_id>
+  <Hit_def>RecName: Full=3-[(3aS,4S,7aS)-7a-methyl-1,5-dioxo-octahydro-1H-inden-4-yl]propanoyl:CoA ligase; Short=HIP:CoA ligase [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>Q7WSH3</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.11912</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>EYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTTVPVLGVPVPSKYL</Hsp_qseq>
+      <Hsp_hseq>QREARI-KPDDTADLMFTSGTTGRPKGVMC--------AHRPTILAFKAWSDVVGLTEGSRYL</Hsp_hseq>
+      <Hsp_midline>+ EAR+     T DLMF    T R +G+          AH P ++A K    V+G+   S+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|18202124|sp|O70422.1|TF2H4_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=General transcription factor IIH subunit 4; AltName: Full=Basic transcription factor 2 52 kDa subunit; Short=BTF2 p52; AltName: Full=General transcription factor IIH polypeptide 4; AltName: Full=TFIIH basal transcription factor complex p52 subunit [Mus musculus]</Hit_def>
+  <Hit_accession>O70422</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.2397</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>QFLEEFGVEYEARVVSAHRTPDLMFEYAETARARGIKAIIAGAGGAAHLPGMVAAKTT</Hsp_qseq>
+      <Hsp_hseq>QHLREFGLVFQRKRKSR--------RYYPTRLAINLSSGVSGAGGTVHQPGFIVVETN</Hsp_hseq>
+      <Hsp_midline>Q L EFG+ ++ +  S          Y  T  A  + + ++GAGG  H PG +  +T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|166977937|sp|A8AED8.1|YEGS_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Probable lipid kinase YegS-like [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8AED8</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.27812</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>IIMGSNSDWPVMRQAAQFLEEFGVEYEARVV----SAHRTPDLMFEYAETARARGIKAIIAGAG</Hsp_qseq>
+      <Hsp_hseq>ILNGKGADNQPLRDAIGLLRDEGVEIHVRVTWEKGDAQR-------YVDEARQLGVETVIAGGG</Hsp_hseq>
+      <Hsp_midline>I+ G  +D   +R A   L + GVE   RV      A R       Y + AR  G++ +IAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

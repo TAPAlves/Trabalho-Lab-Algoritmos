@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>8043</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>231</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>8043</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>231</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81311198|sp|Q5F8K2.1|LOLD_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F8K2</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.225</Hsp_bit-score>
+      <Hsp_score>1188</Hsp_score>
+      <Hsp_evalue>5.45488e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQGANA</Hsp_qseq>
+      <Hsp_hseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQGANA</Hsp_hseq>
+      <Hsp_midline>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQGANA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|9910767|sp|P57030.1|LOLD_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>P57030</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>1.2706e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQGANA</Hsp_qseq>
+      <Hsp_hseq>MSELILKCEGVGKRYRDGGLDVLVLHGLDLEIRAGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRTLNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSREEAAEAAMAMLEKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPKQGANA</Hsp_hseq>
+      <Hsp_midline>MS+LILKCEGVGKRYRDGGLDV VL+GLDLEIR GESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLR LNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSR+EA E AMAML+KVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHP+QGANA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|9910768|sp|P57031.1|LOLD_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>P57031</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>8.79773e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQGANA</Hsp_qseq>
+      <Hsp_hseq>MSELILKCEGVGKRYRDGGLDVRVLHGLDLEIHAGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRTLNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSREEAAEAAMAMLEKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPKQGANA</Hsp_hseq>
+      <Hsp_midline>MS+LILKCEGVGKRYRDGGLDV VL+GLDLEI  GESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLR LNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSR+EA E AMAML+KVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHP+QGANA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|47605860|sp|Q82VL9.1|LOLD_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82VL9</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>5.67869e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MSKIIIACRDLYKSYFQGNLEVPVLHGIDLQVNEGEMVAIVGASGSGKSTLLHVLGGLDKPTRGEVTLLDRELSTISEAERGSLRNHALGFVYQFHHLLPEFSAQENVAMPLFIRRMNKKAAMEQAAAMLQRVGLGHRLTHTPGELSGGERQRAAVARALVTRPACVLADEPTGNLDRHTAEAVFDLMLELNHEANAGLVIVTHDTQLASRADRVLHLVDGML</Hsp_hseq>
+      <Hsp_midline>MS +I+ C  + K Y  G L+VPVL+G+DL++  GE   I+G+SGSGKSTLLH+LGGLD P+ G V L+  +L  +++   G LRN  LGFVYQFHHLLPEFSA ENV MPL I + ++K A+E A AML +VGL HR TH  GELSGGERQRAA+ARALVT+P C+LADEPTGNLDR  A  V D+MLEL  E   GLV+VTHD +LA R +RV+ + DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|47605821|sp|Q7NTU0.1|LOLD_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NTU0</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>9.20016e-89</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>VLSCRSLGKRYQEGKLALDVLSGVDLEVGKGEHLAIVGASGSGKSTLLHLLGGLDTPTAGTVEVLGRDLSKLSETERGKLRNESMGFVYQFHHLLPEFTALENVMMPLLIRRMDKGEAARRAAEMLERVGLGKRLEHKPGELSGGERQRAAIARALVTQPACLLADEPTGNLDAHTASQVFELMLELNRTLGTSLIIVTHDLELAGRTQRVLRLNEGRL</Hsp_hseq>
+      <Hsp_midline>+L C  +GKRY++G L + VL G+DLE+  GE   I+G+SGSGKSTLLH+LGGLD P+ G V ++G DL  L++   G LRN  +GFVYQFHHLLPEF+ALENVMMPLLI +  + EA   A  ML++VGL  R  H+ GELSGGERQRAAIARALVTQP CLLADEPTGNLD   A  V ++MLEL   LGT L++VTHD ELAGR +RV+ + +G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123760424|sp|Q47C66.1|LOLD_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47C66</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>1.09586e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MSESILIARGVSKVFRGGGLEVPVLSGIDLAVQPGETVAIIGASGSGKSTLLHLLGGLDTPSAGSVTLMGRDFSALGEVDRGDWRNRHLGFVYQFHHLLAEFSALENVAMPLLIRRTERHAALAKAAEILTAVGLGHRLEHRPGELSGGERQRAAIARALVSDPSCLLADEPTGNLDSHTASVVFGLLIERVRQQQVSLIVVTHDQQLAAKADRVLNLNDGIL</Hsp_hseq>
+      <Hsp_midline>MS+ IL   GV K +R GGL+VPVL G+DL ++ GE+  IIG+SGSGKSTLLH+LGGLD PS G V LMG D  AL +   GD RNRHLGFVYQFHHLL EFSALENV MPLLI +  R  A+  A  +L  VGL HR  HR GELSGGERQRAAIARALV+ P CLLADEPTGNLD   A  V  +++E   +    L+VVTHD +LA + +RV+ + DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|47605911|sp|Q8Y0C6.1|LOLD_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y0C6</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>2.23776e-87</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>VLQAQGLVKAFRQGGLNVDVLRGVDIRIGVGEKVAIVGASGSGKSTLLHVLGGLDVPTSGRVSLLGKPFTAMSERERNTLRNRALGFVYQFHHLLPEFTALDNVAMPLRIRGENEAQARHTAQAMLARVGLGERTAHRPGELSGGERQRVAIARALVGSPACVLADEPTGNLDDHTAGEVFDLMLELTRTLGTSFVIVTHDIDLAGRCDRILRLRDGHLH</Hsp_hseq>
+      <Hsp_midline>+L+ +G+ K +R GGL+V VL G+D+ I  GE   I+G+SGSGKSTLLH+LGGLD+P+ GRV L+G+   A+++R    LRNR LGFVYQFHHLLPEF+AL+NV MPL I  ++  +A  TA AML +VGL  R+ HR GELSGGERQR AIARALV  P C+LADEPTGNLD   A  V D+MLEL   LGT  V+VTHD +LAGR +R++ ++DG LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|122970324|sp|Q13X01.1|LOLD_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q13X01</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>4.24194e-87</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>VLEATGISKSFVQGGLNVTVLNNAQLSVRRGEKLAIVGASGSGKSTLLHVLGGLDDPSAGQVSVMGKPFTRLSERERNDLRNRALGFVYQFHHLLPEFSALDNVAMPLRIRRMSTEAARREALAVLERVGMGHRAKHRPGELSGGERQRVAIARALVTKPACVLADEPTGNLDGGTADTVFNLMLELSQTLETSFVIVTHDPELAGRCDRIMRLRDGVLH</Hsp_hseq>
+      <Hsp_midline>+L+  G+ K +  GGL+V VL    L +R GE   I+G+SGSGKSTLLH+LGGLD PS G+V +MG+    L++R   DLRNR LGFVYQFHHLLPEFSAL+NV MPL I + S + A   A+A+L++VG+ HR+ HR GELSGGERQR AIARALVT+P C+LADEPTGNLD   A  V ++MLEL   L T  V+VTHD ELAGR +R+M ++DG LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81822340|sp|Q5WUF8.1|LOLD_LEGPL</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Legionella pneumophila str. Lens]</Hit_def>
+  <Hit_accession>Q5WUF8</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>5.23825e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQ</Hsp_qseq>
+      <Hsp_hseq>MNDIILTSQKLYKSYHDGTSTVEVLKGVDLAITKGDRIAIIGPSGSGKSTLLHLLGGLDKPTSGLITLGNVNWQKINEKQRCQLRNQQLGFVYQFHHLLPEFTALENVMMPLLLAGMAVKDAEEKVINMLEQVGLKPRLTHKPAQLSGGERQRVAIARALVHQPHCVLADEPTGNLDEATASKVFDLMLELNKKMNTALVIVTHDQRIAERMDRVLVLHEGSLYARE</Hsp_hseq>
+      <Hsp_midline>M+D+IL  + + K Y DG   V VL G+DL I  G+   IIG SGSGKSTLLH+LGGLD P+ G + L   + + +N+++   LRN+ LGFVYQFHHLLPEF+ALENVMMPLL+   + K+A E  + ML++VGLK R TH+  +LSGGERQR AIARALV QP C+LADEPTGNLD A A  V D+MLEL  ++ T LV+VTHD  +A R +RV+V+ +GSL+ R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81822533|sp|Q5X2Z8.1|LOLD_LEGPA</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Legionella pneumophila str. Paris]</Hit_def>
+  <Hit_accession>Q5X2Z8</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>5.59107e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQ</Hsp_qseq>
+      <Hsp_hseq>MNDIILTSQKLYKSYHDGTSRVEVLKGVDLAITKGDRIAIIGPSGSGKSTLLHLLGGLDKPTSGLITLGKVDWQKINEKQRCQLRNQQLGFVYQFHHLLPEFTALENVMMPLLLAGMAVKDAEEKAINMLEQVGLKPRLAHKPAQLSGGERQRVAIARALVHQPHCVLADEPTGNLDEATASKVFDLMLELNKKMNTALVIVTHDQRIAERMDRVLVLHEGSLYARE</Hsp_hseq>
+      <Hsp_midline>M+D+IL  + + K Y DG   V VL G+DL I  G+   IIG SGSGKSTLLH+LGGLD P+ G + L   D + +N+++   LRN+ LGFVYQFHHLLPEF+ALENVMMPLL+   + K+A E A+ ML++VGLK R  H+  +LSGGERQR AIARALV QP C+LADEPTGNLD A A  V D+MLEL  ++ T LV+VTHD  +A R +RV+V+ +GSL+ R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81823364|sp|Q5ZT78.1|LOLD_LEGPH</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Legionella pneumophila subsp. pneumophila str. Philadelphia 1]</Hit_def>
+  <Hit_accession>Q5ZT78</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.99286e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQ</Hsp_qseq>
+      <Hsp_hseq>MNDIILTSQKLYKSYHDGTSTVEVLKGVDLAITKGDRIAIIGPSGSGKSTLLHLLGGLDKPTSGLITLGNVNWQKINEKQRCQLRNQQLGFVYQFHHLLPEFTALENVMMPLLLAGMAVKDAEEKAINMLEHVGLKPRLAHKPAQLSGGERQRVAIARALVHQPHCVLADEPTGNLDEATASKVFDLMLELNKKMNTALVIVTHDQRIAERMDRVLVLHEGSLYARE</Hsp_hseq>
+      <Hsp_midline>M+D+IL  + + K Y DG   V VL G+DL I  G+   IIG SGSGKSTLLH+LGGLD P+ G + L   + + +N+++   LRN+ LGFVYQFHHLLPEF+ALENVMMPLL+   + K+A E A+ ML+ VGLK R  H+  +LSGGERQR AIARALV QP C+LADEPTGNLD A A  V D+MLEL  ++ T LV+VTHD  +A R +RV+V+ +GSL+ R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|122968140|sp|Q12ES3.1|LOLD_POLSJ</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Polaromonas sp. JS666]</Hit_def>
+  <Hit_accession>Q12ES3</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>4.55157e-86</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MVLKASGLTKRFHEGPIDLTVLHGVDLQVHAGETLAIVGASGSGKSTLLHLMGGLDAPTSGQVELMGQTLSALSAAEQGNLRNLHLGFVYQFHHLLPEFSALDNVAMPLWIRRQTPAQSAQTATNMLAIVGLKDRIHHRPSELSGGERQRVAIARALVTQPACVLADEPTGNLDRSTADGVFELMLQLARDFGTAFVLVTHDETLATRCGRRFGLVSGRL</Hsp_hseq>
+      <Hsp_midline>++LK  G+ KR+ +G +D+ VL+G+DL++  GE+  I+G+SGSGKSTLLH++GGLD P+ G+V LMG+ L AL+    G+LRN HLGFVYQFHHLLPEFSAL+NV MPL I +++  ++ +TA  ML  VGLK R  HR  ELSGGERQR AIARALVTQP C+LADEPTGNLDR+ A  V ++ML+L  + GT  V+VTHD+ LA R  R   +  G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81821027|sp|Q5NZT6.1|LOLD_AROAE</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5NZT6</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.80701e-85</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>VLACEGLSKTFREGADALQVLDGVTLAVARGERIAIVGASGSGKSTLLHLLGGLDVPSAGAVRLHGRDFSRMSDAERGRVRNEALGFVYQFHHLLPEFSALENVAMPLYIRRMEREAANERAVAMLKEVGLGHRLDHAPGELSGGERQRAAIARALVTQPACVLADEPTGNLDRRTAQSVFDLMLSLNERLATSFIIVTHDEQLAGRAQRTLRLDDGRL</Hsp_hseq>
+      <Hsp_midline>+L CEG+ K +R+G   + VL G+ L +  GE   I+G+SGSGKSTLLH+LGGLD+PS G V L G D   ++    G +RN  LGFVYQFHHLLPEFSALENV MPL I +  R+ A E A+AML +VGL HR  H  GELSGGERQRAAIARALVTQP C+LADEPTGNLDR  A++V D+ML L   L T  ++VTHD++LAGR +R + + DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|123555486|sp|Q31GF5.1|LOLD_THICR</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Thiomicrospira crunogena XCL-2]</Hit_def>
+  <Hit_accession>Q31GF5</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.86602e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDG</Hsp_qseq>
+      <Hsp_hseq>MSDLILQASNLEKEYRDGKLKTPVIKGLDFELRANEKVAIVGSSGSGKSTLLHLLAGLDKPTGGTVSLMSQAFSGLNEVKRGRLRNQYMGFVYQFHFLLPELNALENVMLPLRVRRTPSKDAEKQASALLDRVGLGHRIHHKPSELSGGERQRVAIARALITKPACVLADEPTGNLDESSAQQVFDLMLELNQEQNTALLVVTHDLKLAAKMDRQYQLTEG</Hsp_hseq>
+      <Hsp_midline>MSDLIL+   + K YRDG L  PV+ GLD E+R  E   I+GSSGSGKSTLLH+L GLD P+ G V LM +    LN+ + G LRN+++GFVYQFH LLPE +ALENVM+PL + +   K+A + A A+LD+VGL HR  H+  ELSGGERQR AIARAL+T+P C+LADEPTGNLD ++A+ V D+MLEL  E  T L+VVTHD +LA + +R   + +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|122977745|sp|Q1BHS6.1|LOLD_BURCA</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Burkholderia cenocepacia AU 1054]</Hit_def>
+  <Hit_accession>Q1BHS6</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>3.62076e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>MQEYVLQARGITKAFVQGGFNVQVLNNTELTVRRGEKLAVVGASGSGKSTLLHVLGGLDEPSAGEVSLLGKPFTQLAERERNELRNRALGFVYQFHHLLPEFTALDNVAMPLRIRRMTTEDAREQAQAMLERVGLGPRAKHRPGELSGGERQRVAIARALVTKPACVLADEPTGNLDGTTADTVFNLMLELSETLETSFVIVTHDPDLAARCDRIMRLRDGVLH</Hsp_hseq>
+      <Hsp_midline>M + +L+  G+ K +  GG +V VL   +L +R GE   ++G+SGSGKSTLLH+LGGLD PS G V L+G+    L +R   +LRNR LGFVYQFHHLLPEF+AL+NV MPL I + + ++A E A AML++VGL  R+ HR GELSGGERQR AIARALVT+P C+LADEPTGNLD   A  V ++MLEL   L T  V+VTHD +LA R +R+M ++DG LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81821627|sp|Q5QU46.1|LOLD_IDILO</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Idiomarina loihiensis L2TR]</Hit_def>
+  <Hit_accession>Q5QU46</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>9.62154e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQG</Hsp_qseq>
+      <Hsp_hseq>MTDALLRCKELSKSYQDGGDQVTVLKDIDFALQAGEMVAVVGASGSGKSTLLHLLGGLDKPSSGQLFYKDQEMTPWKADKLAQWRNQNLGFVYQFHHLLPEFSALENVAMPQMIAGKSPTEAKQQAEQLLVRVGLEHRLSHRPAQLSGGERQRVAIARAFVNKPQVVLADEPTGNLDGEAAESIYQLMLELNQEMGTAFIVVTHDLQLAEQLQRVEVLKNGILHKEQG</Hsp_hseq>
+      <Hsp_midline>M+D +L+C+ + K Y+DGG  V VL  +D  ++ GE   ++G+SGSGKSTLLH+LGGLD PS G++    +++      +L   RN++LGFVYQFHHLLPEFSALENV MP +I  KS  EA + A  +L +VGL+HR +HR  +LSGGERQR AIARA V +P+ +LADEPTGNLD   A ++  +MLEL  E+GT  +VVTHD +LA + +RV V+K+G LH  QG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|124013781|sp|Q21TG3.2|LOLD_ALBFT</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Rhodoferax ferrireducens T118]</Hit_def>
+  <Hit_accession>Q21TG3</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>9.83528e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MGDIVLSARAITKRFTEGRLDVTVLQGVDLDVRAGETLAIVGASGSGKSTLLHLMGGLDAPTSGSVFLHGQDLAHQSAAAQGRLRNQYLGFVYQFHHLLPEFSALDNVAMPLWIRRLAPAESTHTATEMLAKVGLQERLAHRPSELSGGERQRVAIARALVTRPACVLADEPTGNLDRSTANGVFELMLELARVQGTAFVMVTHDESLAERCSRRIRLVQGRL</Hsp_hseq>
+      <Hsp_midline>M D++L    + KR+ +G LDV VL G+DL++R GE+  I+G+SGSGKSTLLH++GGLD P+ G V L G+DL   +    G LRN++LGFVYQFHHLLPEFSAL+NV MPL I + +  E+  TA  ML KVGL+ R  HR  ELSGGERQR AIARALVT+P C+LADEPTGNLDR+ A  V ++MLEL    GT  V+VTHD+ LA R  R + +  G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|123756137|sp|Q39EV3.1|LOLD_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39EV3</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>1.02669e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>MQEYVLQARGVTKAFVQGGFNVQVLNNTELTVRRGEKLAVVGASGSGKSTLLHVLGGLDEPSAGEVSLLGKPFTQLAERERNELRNRALGFVYQFHHLLPEFTALDNVAMPLRIRRMTTEDAREQAQTMLERVGLGPRAKHRPGELSGGERQRVAIARALVTKPACVLADEPTGNLDGTTADTVFNLMLELSETLETSFVIVTHDPDLAARCDRIMRLRDGVLH</Hsp_hseq>
+      <Hsp_midline>M + +L+  GV K +  GG +V VL   +L +R GE   ++G+SGSGKSTLLH+LGGLD PS G V L+G+    L +R   +LRNR LGFVYQFHHLLPEF+AL+NV MPL I + + ++A E A  ML++VGL  R+ HR GELSGGERQR AIARALVT+P C+LADEPTGNLD   A  V ++MLEL   L T  V+VTHD +LA R +R+M ++DG LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|123078786|sp|Q1GZH6.1|LOLD_METFK</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1GZH6</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>1.1707e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MSD-LILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>MSDSTILQCVDLQKTYT--GLDVAVLNGISLQVDAGEQIAIVGTSGSGKSTLLHLLGGLDEPSAGSVQVMGKSLAALSEAERGTLRNRALGFVYQFHHLLPEFTALENVALPLMIRRLSRDEALGRAKDVLMQVGLGHRLEHMPGELSGGERQRAAVARALVTNPRCVLADEPTGNLDRHTAQGVFDLLLALNRDQGVALVVVTHDLELAARMQRQYRLQDGRLH</Hsp_hseq>
+      <Hsp_midline>MSD  IL+C  + K Y   GLDV VL G+ L++  GE   I+G+SGSGKSTLLH+LGGLD PS G V +MG+ L AL++   G LRNR LGFVYQFHHLLPEF+ALENV +PL+I + SR EA+  A  +L +VGL HR  H  GELSGGERQRAA+ARALVT P+C+LADEPTGNLDR  A+ V D++L L  + G  LVVVTHD ELA R +R   ++DG LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|123593469|sp|Q3J7S3.1|LOLD_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3J7S3</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>1.46715e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>SDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>QEMVLWCRDLARKFTDGYLSVEVLREVNLSIAPRECVAIIGASGSGKSTLLHLLGGLDRPTQGQVWIAGQNLARLNDTERGRLRNRALGFIYQLHHLLPEFTALENTALPLLIAGASTANAQKKAMALLQRVGLEARFNHKPGELSGGERQRAAVARALVTDPRCVLADEPTGNLDRKNAEQVFKLMLDLNHELGTALVIVTHDIHLAAQTDRVLTLMDGRL</Hsp_hseq>
+      <Hsp_midline> +++L C  + +++ DG L V VL  ++L I   E   IIG+SGSGKSTLLH+LGGLD P++G+V + G++L  LN    G LRNR LGF+YQ HHLLPEF+ALEN  +PLLI   S   A + AMA+L +VGL+ R  H+ GELSGGERQRAA+ARALVT P+C+LADEPTGNLDR NA  V  +ML+L  ELGT LV+VTHD  LA + +RV+ + DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123383939|sp|Q1LPJ9.1|LOLD_RALME</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LPJ9</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>5.83703e-84</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>VLLGEGLTKRFKQGGLDVEVLRGVDVRVDAGEKVAIVGASGSGKSTLLHVLGGLDNPDAGRVALLGKPFTALREKQRNIVRNRSLGFVYQFHHLLPEFTALDNVAMPMRIRGLSEPAARAEAQAVLERVGLGGRSKHRPGELSGGERQRVAIARALVGKPACVLADEPTGNLDDHTAGGVYDLMLELSRTLGTSFVIVTHDLDLAGRCDRVLRLRDGHLH</Hsp_hseq>
+      <Hsp_midline>+L  EG+ KR++ GGLDV VL G+D+ +  GE   I+G+SGSGKSTLLH+LGGLD P  GRV L+G+   AL +++   +RNR LGFVYQFHHLLPEF+AL+NV MP+ I   S   A   A A+L++VGL  RS HR GELSGGERQR AIARALV +P C+LADEPTGNLD   A  V D+MLEL   LGT  V+VTHD +LAGR +RV+ ++DG LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|123754254|sp|Q2Y624.1|LOLD_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2Y624</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>7.25597e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MSDNIISCRNLRKSYYQGQIEVPVLMGIDLKVGKGDTVAIVGASGSGKSTLLHLLGGLDVPTGGEIRILSHEIAGMGEAERCELRNRSLGFVYQFHHLLPEFTALENVAMPLLIRRMAKAKAYESAREVLQQVGLGHRLTHTPGELSGGERQRAAVARALVTRPACVLADEPTGNLDRRTAGEVFDLMLELNHDAGASLVIVTHDPDLARKAGRTLHLEDGLL</Hsp_hseq>
+      <Hsp_midline>MSD I+ C  + K Y  G ++VPVL G+DL++  G++  I+G+SGSGKSTLLH+LGGLD+P+ G + ++  ++  + +    +LRNR LGFVYQFHHLLPEF+ALENV MPLLI + ++ +A E+A  +L +VGL HR TH  GELSGGERQRAA+ARALVT+P C+LADEPTGNLDR  A  V D+MLEL  + G  LV+VTHD +LA +  R + ++DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123772944|sp|Q3SI20.1|LOLD_THIDA</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SI20</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>7.99846e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>MNETVLRCSGLGKTFRQGKVDVPVLRSVDLAVGTAESLAIVGASGSGKSTLLHLLGGLDTPTRGDVALLGKNPFALSEAERCRLRNTALGFVYQFHHLLPEFSAVENAAMPLIIRRVARAEALARAAEVLDAVGLTHRLAHRPGELSGGERQRVAIARAVVTRPACILADEPTGNLDHHTADTVFDLMRELNRKQGTSLVVVTHDVELAARMDRQLRLVDGTLQ</Hsp_hseq>
+      <Hsp_midline>M++ +L+C G+GK +R G +DVPVL  +DL + T ES  I+G+SGSGKSTLLH+LGGLD P+ G V L+G++  AL++     LRN  LGFVYQFHHLLPEFSA+EN  MPL+I + +R EA+  A  +LD VGL HR  HR GELSGGERQR AIARA+VT+P C+LADEPTGNLD   A  V D+M EL  + GT LVVVTHD ELA R +R + + DG+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123774120|sp|Q473H8.1|LOLD_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q473H8</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>6.03419e-83</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>VLMGEGLFKRFRQGGLDVEVLKGVDVRVDAGEKVAIVGASGSGKSTLLHVLGGLDNPDAGRVALHGKPFTALRERERNVVRNRSLGFVYQFHHLLPEFTALDNVAMPMRIRGLTQQQARDAAQAMLERVGLGGRSKHRPGELSGGERQRVAIARALVGQPACVLADEPTGNLDDHTAGGVYDLMLELSRTLGTSFVIVTHDLDLAGRCDRVLRLRDGHLH</Hsp_hseq>
+      <Hsp_midline>+L  EG+ KR+R GGLDV VL G+D+ +  GE   I+G+SGSGKSTLLH+LGGLD P  GRV L G+   AL +R    +RNR LGFVYQFHHLLPEF+AL+NV MP+ I   ++++A + A AML++VGL  RS HR GELSGGERQR AIARALV QP C+LADEPTGNLD   A  V D+MLEL   LGT  V+VTHD +LAGR +RV+ ++DG LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|124013783|sp|Q0HVQ0.2|LOLD_SHESR</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Shewanella sp. MR-7]</Hit_def>
+  <Hit_accession>Q0HVQ0</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>9.58821e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>MQDVLLQVQAVSKSYHDGDVTTQVLTEVDLQVFKGEQLAIVGTSGSGKSTLLHIMGTLDKPSAGKVLLAGEDLYQVSSARQAQIRNQDLGFIYQFHHLLPEFSALENVAMPAFIQGRDRTQAQADAKVLLERVGLGHRMSHIPAELSGGERQRVAIARALINKPKLVLADEPTGNLDAKSGEAVYELIRELANQLGTAFVVVTHDPKLAARMDRQLTMKNGYLQ</Hsp_hseq>
+      <Hsp_midline>M D++L+ + V K Y DG +   VL  +DL++  GE   I+G+SGSGKSTLLHI+G LD PS G+VLL GEDL  ++  R   +RN+ LGF+YQFHHLLPEFSALENV MP  I  + R +A   A  +L++VGL HR +H   ELSGGERQR AIARAL+ +PK +LADEPTGNLD  +   V +++ EL  +LGT  VVVTHD +LA R +R + MK+G L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|81827148|sp|Q6D664.1|LOLD_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D664</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>1.07823e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MSDL-ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>MSDLSLLQCTNLSKRYQDGKLSTDVLRDVSFEMSSGEMMAIVGSSGSGKSTLLHVLGGLDTPTSGEVIFKGQPLSTLSAAAKADLRNRELGFIYQFHHLLPDFTALENVAMPLLIGKVPTSQAQDKAREMLAAVGLEARSHHRSSELSGGERQRVAIARALVNSPSLVLADEPTGNLDQRTADTIFELLGELNVRQGTAFLVVTHDLQLAGRLNRQLEMRDGQLQ</Hsp_hseq>
+      <Hsp_midline>MSDL +L+C  + KRY+DG L   VL  +  E+ +GE   I+GSSGSGKSTLLH+LGGLD P+ G V+  G+ L  L+     DLRNR LGF+YQFHHLLP+F+ALENV MPLLIGK    +A + A  ML  VGL+ RS HR+ ELSGGERQR AIARALV  P  +LADEPTGNLD+  A  + +++ EL    GT  +VVTHD +LAGR  R + M+DG L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|122311725|sp|Q0A8P9.1|LOLD_ALKEH</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Alkalilimnicola ehrlichii MLHE-1]</Hit_def>
+  <Hit_accession>Q0A8P9</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>1.47616e-82</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDG</Hsp_qseq>
+      <Hsp_hseq>VLACRDLHKRFKEGPLDVNVLSGIDLAVAPGEQMAIVGRSGSGKSTLLHLLGGLDRPTRGEVWLAGEALSSLSERRRGWLRNRNLGFVYQFHHLLPEFTALENVAMPGLIGGLAPAQAREQAEMILEQVGLADRTRHKPGELSGGERQRVAIARALVTRPRCILADEPTGNLDSHTAERIFELLSELHQAQGTSLIMVTHDAALARRMDRTLELMDG</Hsp_hseq>
+      <Hsp_midline>+L C  + KR+++G LDV VL G+DL +  GE   I+G SGSGKSTLLH+LGGLD P+ G V L GE L +L++RR G LRNR+LGFVYQFHHLLPEF+ALENV MP LIG  +  +A E A  +L++VGL  R+ H+ GELSGGERQR AIARALVT+P+C+LADEPTGNLD   A  + +++ EL    GT L++VTHD  LA R +R + + DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|81823590|sp|Q604C1.1|LOLD_METCA</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Methylococcus capsulatus str. Bath]</Hit_def>
+  <Hit_accession>Q604C1</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>1.58428e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MNEPVLECRALHKRFVQGILDVEVLHGVDLRIRRGQRLAIMGASGSGKSTLLHLLGGLDTPTSGKVLMDGIDLAALNERRRAELRNKTLGFVYQFHHLLGEFTVLENVAMPLLIGGASVARARDAAAALLRRVGLGKRIEHKPGELSGGERQRAAIARALVTRPKCVLADEPTGNLDSKTAEQVYQLMLELNQEFGVSFLIVTHDASLAHKMDEVLHMEDGRL</Hsp_hseq>
+      <Hsp_midline>M++ +L+C  + KR+  G LDV VL+G+DL IR G+   I+G+SGSGKSTLLH+LGGLD P+ G+VL+ G DL ALN+RR  +LRN+ LGFVYQFHHLL EF+ LENV MPLLIG  S   A + A A+L +VGL  R  H+ GELSGGERQRAAIARALVT+PKC+LADEPTGNLD   A  V  +MLEL  E G   ++VTHD  LA + + V+ M+DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|38502999|sp|Q8DAV6.1|LOLD_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Vibrio vulnificus CMCP6] &gt;gi|47605810|sp|Q7MJ01.2|LOLD_VIBVY RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q8DAV6</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>1.8622e-82</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>LLQCHQVSKIYREGEFETEVLKGVDFELEQGELVAIVGTSGSGKSTLLHILGALDDATHGEVAFLDYQLSALSGNKQAQVRNQHLGFIYQFHHLLADFTAVENVAMPLLIGGKSPKQAKLAAEALLEKVGLQHRMHHRPSELSGGERQRVAIARALVNKPALVLADEPTGNLDHKTALQIYDLMRELNRESGTAFLVVTHDNELAAKMDRILYMQDGVL</Hsp_hseq>
+      <Hsp_midline>+L+C  V K YR+G  +  VL G+D E+  GE   I+G+SGSGKSTLLHILG LD  + G V  +   L AL+  +   +RN+HLGF+YQFHHLL +F+A+ENV MPLLIG KS K+A   A A+L+KVGL+HR  HR  ELSGGERQR AIARALV +P  +LADEPTGNLD   A  + D+M EL  E GT  +VVTHD+ELA + +R++ M+DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|123753796|sp|Q2SXD1.1|LOLD_BURTA</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2SXD1</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>2.86619e-82</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>DLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>ECVLEAHGITKTFMQGGFNVQVLDNAQVSVRRGEKLAIVGASGSGKSTLLHVLGGLDEPSAGQVSLLGKPFTQLAERERNDLRNRALGFVYQFHHLLPEFTALDNVAMPLRIRRMSAEEARHHAREMLEQVGLGARAKHRPGELSGGERQRVAIARALVTKPACVLADEPTGNLDGSTADHVFHLMLELSRTLDTSFVIVTHDPDLAARCDRILRLRDGVLH</Hsp_hseq>
+      <Hsp_midline>+ +L+  G+ K +  GG +V VL    + +R GE   I+G+SGSGKSTLLH+LGGLD PS G+V L+G+    L +R   DLRNR LGFVYQFHHLLPEF+AL+NV MPL I + S +EA   A  ML++VGL  R+ HR GELSGGERQR AIARALVT+P C+LADEPTGNLD + A +V  +MLEL   L T  V+VTHD +LA R +R++ ++DG LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|124013782|sp|Q0HJG0.2|LOLD_SHESM</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Shewanella sp. MR-4]</Hit_def>
+  <Hit_accession>Q0HJG0</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>2.99642e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>MQDVLLQVQAVSKSYHDGDVTTQVLTEVDLQVFKGEQLAIVGTSGSGKSTLLHIMGTLDKPSAGKVLLAGEDLYQVSSARQAQIRNQDLGFIYQFHHLLPEFSALENVAMPAFIQGTDRAQAQADAKMLLERVGLGHRMSHIPAELSGGERQRVAIARALINKPKLVLADEPTGNLDAKSGEAVYELIRELANQLGTAFVVVTHDPKLAARMDRQLTMKNGYLQ</Hsp_hseq>
+      <Hsp_midline>M D++L+ + V K Y DG +   VL  +DL++  GE   I+G+SGSGKSTLLHI+G LD PS G+VLL GEDL  ++  R   +RN+ LGF+YQFHHLLPEFSALENV MP  I    R +A   A  +L++VGL HR +H   ELSGGERQR AIARAL+ +PK +LADEPTGNLD  +   V +++ EL  +LGT  VVVTHD +LA R +R + MK+G L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|81310814|sp|Q5E0B3.1|LOLD_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E0B3</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>3.55039e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDG</Hsp_qseq>
+      <Hsp_hseq>MSNPLLVCQGIRKVYQEGAMETEVLKGVDFQINGSELVAIVGSSGSGKSTLLHILGALDEPTAGTVHFQENELTKLSANKQAKIRNQHIGFVYQFHHLLADFSALENVAMPLLIGGVNKKEAAKRATELLEKVGLAHRIEHRPSELSGGERQRVAIARALVNKPALVLADEPTGNLDHKTALDIYNLMRELNQESGTAFLVVTHDNELAAKLDKQLSMQDG</Hsp_hseq>
+      <Hsp_midline>MS+ +L C+G+ K Y++G ++  VL G+D +I   E   I+GSSGSGKSTLLHILG LD P+ G V     +L  L+  +   +RN+H+GFVYQFHHLL +FSALENV MPLLIG  ++KEA + A  +L+KVGL HR  HR  ELSGGERQR AIARALV +P  +LADEPTGNLD   A ++ ++M EL  E GT  +VVTHD+ELA + ++ + M+DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81677100|sp|Q5NHP2.1|LOLD_FRATT</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Francisella tularensis subsp. tularensis SCHU S4] &gt;gi|122501111|sp|Q2A4V5.1|LOLD_FRATH RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Francisella tularensis subsp. holarctica LVS] &gt;gi|123169563|sp|Q14J44.1|LOLD_FRAT1 RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Francisella tularensis subsp. tularensis FSC198]</Hit_def>
+  <Hit_accession>Q5NHP2</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>4.52568e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGE--DLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKK-SRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MNDVVLSCKNVSKKYTEFKTDIAILKDVNLEIKKGEKVAILGLSGSGKTTLLNVLGGLDKCSAGEVYLMGERFDNQSVNKR--AKMRNKHLGFIYQLHHLLPEFTAIENVMIPLAITKKYTKKESIKLANEILKKVGLDHRADHKPAELSGGERQRVAIARALVTNPNCILADEPTGNLDSQRSESIFALMQQLSDDFGTSFVIVTHDEKLASRMNKIYRLVDGEL</Hsp_hseq>
+      <Hsp_midline>M+D++L C+ V K+Y +   D+ +L  ++LEI+ GE   I+G SGSGK+TLL++LGGLD  S G V LMGE  D +++N+R    +RN+HLGF+YQ HHLLPEF+A+ENVM+PL I KK ++KE+++ A  +L KVGL HR+ H+  ELSGGERQR AIARALVT P C+LADEPTGNLD   + ++  +M +L  + GT  V+VTHD++LA R  ++  + DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|47605885|sp|Q8EEV5.1|LOLD_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EEV5</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>8.77752e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQGAN</Hsp_qseq>
+      <Hsp_hseq>MQDVLLQVQAVSKSYHDGDVTTQVLSDVDLQVFKGEQLAIVGTSGSGKSTLLHIMGTLDKPSSGKVLLAGEDLYQVSSARQAQIRNQDLGFIYQFHHLLPEFTALENVAMPAFIQGRDRTLAQADAKVLLERVGLGHRMSHIPAELSGGERQRVAIARALINKPKLVLADEPTGNLDAKSGEAVYELIRELANQLGTAFVVVTHDPKLAARMDRQLTMKNGYLQVPESAQ</Hsp_hseq>
+      <Hsp_midline>M D++L+ + V K Y DG +   VL  +DL++  GE   I+G+SGSGKSTLLHI+G LD PS G+VLL GEDL  ++  R   +RN+ LGF+YQFHHLLPEF+ALENV MP  I  + R  A   A  +L++VGL HR +H   ELSGGERQR AIARAL+ +PK +LADEPTGNLD  +   V +++ EL  +LGT  VVVTHD +LA R +R + MK+G L   + A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|124013770|sp|Q62J04.2|LOLD_BURMA</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Burkholderia mallei ATCC 23344] &gt;gi|124013771|sp|Q63SP4.2|LOLD_BURPS RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Burkholderia pseudomallei K96243]</Hit_def>
+  <Hit_accession>Q62J04</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>1.2939e-81</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>DLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>ECVLEARGVTKTFVQGGFNVQVLDNAQVSVRRGEKLAIVGASGSGKSTLLHVLGGLDEPSAGQVSLLGKPFTQLAERERNELRNRALGFVYQFHHLLPEFTALDNVAMPLRIRRMSTEEARRHAREMLEQVGLGARAKHRPGELSGGERQRVAIARALVTKPACVLADEPTGNLDGSTADHVFHLMLELSRTLDTSFVIVTHDPDLAARCDRILRLRDGVLH</Hsp_hseq>
+      <Hsp_midline>+ +L+  GV K +  GG +V VL    + +R GE   I+G+SGSGKSTLLH+LGGLD PS G+V L+G+    L +R   +LRNR LGFVYQFHHLLPEF+AL+NV MPL I + S +EA   A  ML++VGL  R+ HR GELSGGERQR AIARALVT+P C+LADEPTGNLD + A +V  +MLEL   L T  V+VTHD +LA R +R++ ++DG LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|124013778|sp|Q3K9F9.2|LOLD_PSEPF</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pseudomonas fluorescens Pf0-1]</Hit_def>
+  <Hit_accession>Q3K9F9</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>1.64954e-81</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHP</Hsp_qseq>
+      <Hsp_hseq>ILSCRNLGKSYEEGPESVEVLANLQLELHPGERVAIVGKSGSGKSTLLNLLGGLDTPTKGGVWLDGEELSALSEKKRGLLRNRALGFVYQFHHLLPEFTALENVCMPLLIGKTAIPEARQRATALLERVGLGHRLEHKPAELSGGERQRVAIARALVNNPGLVMLDEPTGNLDSHTAEGIQDLMLELSTSMRTAFLVVTHDMNLARQMDRVLQLQEGCLTP</Hsp_hseq>
+      <Hsp_midline>IL C  +GK Y +G   V VL  L LE+  GE   I+G SGSGKSTLL++LGGLD P++G V L GE+L AL++++ G LRNR LGFVYQFHHLLPEF+ALENV MPLLIGK +  EA + A A+L++VGL HR  H+  ELSGGERQR AIARALV  P  ++ DEPTGNLD   A  + D+MLEL T + T  +VVTHD  LA + +RV+ +++G L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|124013777|sp|Q4KFA2.2|LOLD_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4KFA2</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>2.54603e-81</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>ILSCRDLGKSYEEGPESVVVLSGLQLELHPGERVAIVGTSGSGKSTLLNLLGGLDTPSKGSVWLAGEELSALGEKARGKLRNRALGFVYQFHHLLPEFTALENVCMPLLIGRTPIPEARQRATALLERVGLGHRLEHKPAELSGGERQRVAIARALVNKPGLVMLDEPTGNLDSHTAQGIQDLMLELSTSMRTAFLVVTHDMNLARQMDRVLHLQEGHL</Hsp_hseq>
+      <Hsp_midline>IL C  +GK Y +G   V VL GL LE+  GE   I+G+SGSGKSTLL++LGGLD PS+G V L GE+L AL ++  G LRNR LGFVYQFHHLLPEF+ALENV MPLLIG+    EA + A A+L++VGL HR  H+  ELSGGERQR AIARALV +P  ++ DEPTGNLD   A+ + D+MLEL T + T  +VVTHD  LA + +RV+ +++G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|38502971|sp|Q87R20.1|LOLD_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87R20</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.595</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>3.11429e-81</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPR</Hsp_qseq>
+      <Hsp_hseq>LLECRDIRKVYREGSLDTEVLKGVSFDIDKGELVSIVGSSGSGKSTLLHILGALDDATQGEVDFLGQNLSALSSNKQAALRNKHLGFVYQFHHLLADFTALENVAMPLLIGGIKVTEAKQAAKALLEKVGLSHRMDHRPSELSGGERQRVAIARALVNKPDLVLADEPTGNLDHNTALAIYDLMRELNKESNIAFLVVTHDNELAAKMDRQMHMQDGLLVDR</Hsp_hseq>
+      <Hsp_midline>+L+C  + K YR+G LD  VL G+  +I  GE   I+GSSGSGKSTLLHILG LD  ++G V  +G++L AL+  +   LRN+HLGFVYQFHHLL +F+ALENV MPLLIG     EA + A A+L+KVGL HR  HR  ELSGGERQR AIARALV +P  +LADEPTGNLD   A  + D+M EL  E     +VVTHD+ELA + +R M M+DG L  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|123775126|sp|Q48KI4.1|LOLD_PSE14</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pseudomonas syringae pv. phaseolicola 1448A]</Hit_def>
+  <Hit_accession>Q48KI4</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>3.26773e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSD-LILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MSDKAVLSCRNLGKSYEEGPESVVVLSGLQLELHPGERVAIVGSSGSGKSTLLNLLGGLDTPSEGSVWLAGEELSALGEKARGLLRNRALGFVYQFHHLLPEFTALENVCMPLLIGRTAIPEARKRSTALLERVGLGHRLAHKPSELSGGERQRVAIARALINQPGLVMLDEPTGNLDHHTAQGIQDLMRELSTSSRTAFLIVTHDMSLARQMDRVLRLEDGRL</Hsp_hseq>
+      <Hsp_midline>MSD  +L C  +GK Y +G   V VL GL LE+  GE   I+GSSGSGKSTLL++LGGLD PSEG V L GE+L AL ++  G LRNR LGFVYQFHHLLPEF+ALENV MPLLIG+ +  EA + + A+L++VGL HR  H+  ELSGGERQR AIARAL+ QP  ++ DEPTGNLD   A+ + D+M EL T   T  ++VTHD  LA + +RV+ ++DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|122325597|sp|Q0BN75.1|LOLD_FRATO</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Francisella tularensis subsp. holarctica OSU18]</Hit_def>
+  <Hit_accession>Q0BN75</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>3.59491e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGE--DLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKK-SRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MNDVVLSCKNVSKKYTEFKTDIAILKDVNLEIKKGEKVAILGLSGSGKTTLLNVLGGLDKCSAGEVYLMGERFDNQSVNKR--AKMRNKHLGFIYQLHHLLPEFTAIENVMIPLAITKKYTKKESIKLANEILKKVGLDHRADHKPAELSGGERQRVAIARALVTNPNCILADEPTGNLDSQRSESIFALMQQLSDDFGISFVIVTHDEKLASRMNKIYRLVDGEL</Hsp_hseq>
+      <Hsp_midline>M+D++L C+ V K+Y +   D+ +L  ++LEI+ GE   I+G SGSGK+TLL++LGGLD  S G V LMGE  D +++N+R    +RN+HLGF+YQ HHLLPEF+A+ENVM+PL I KK ++KE+++ A  +L KVGL HR+ H+  ELSGGERQR AIARALVT P C+LADEPTGNLD   + ++  +M +L  + G   V+VTHD++LA R  ++  + DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|9977674|sp|P57066.1|LOLD_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>P57066</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>4.01371e-81</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQGA</Hsp_qseq>
+      <Hsp_hseq>LLRCHQVCKTYQEGELQTQVLKGVSFELKRGELVSIIGSSGSGKSTLLHILGALDDASEGQVEFLGQSLHQLSSNKQAKIRNQHLGFVYQFHHLLADFSALENVAMPLLIGGMNVAKAKAKAQSLLERVGLGHRVAHRPSELSGGERQRVAIARALVNKPDLVLADEPTGNLDHKTALSIYDLMRELNRESGTAFLVVTHDGELAAKMDRHMHMKDGLLTDITGA</Hsp_hseq>
+      <Hsp_midline>+L+C  V K Y++G L   VL G+  E++ GE   IIGSSGSGKSTLLHILG LD  SEG+V  +G+ L  L+  +   +RN+HLGFVYQFHHLL +FSALENV MPLLIG  +  +A   A ++L++VGL HR  HR  ELSGGERQR AIARALV +P  +LADEPTGNLD   A ++ D+M EL  E GT  +VVTHD ELA + +R M MKDG L    GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|124013779|sp|Q4ZV73.2|LOLD_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZV73</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.44</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>6.33413e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSD-LILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MSDKAVLSCRNLGKSYEEGPESVVVLSGLQLELHPGERVAIVGSSGSGKSTLLNLLGGLDTPSEGSVWLAGEELSALGEKARGLLRNRALGFVYQFHHLLPEFTALENVCMPLLIGRTPIPEARKRSTALLERVGLGHRLAHKPSELSGGERQRVAIARALINQPGLVMLDEPTGNLDHHTAQGIQDLMRELSTSSRTAFLIVTHDMSLARQMDRVLRLEDGRL</Hsp_hseq>
+      <Hsp_midline>MSD  +L C  +GK Y +G   V VL GL LE+  GE   I+GSSGSGKSTLL++LGGLD PSEG V L GE+L AL ++  G LRNR LGFVYQFHHLLPEF+ALENV MPLLIG+    EA + + A+L++VGL HR  H+  ELSGGERQR AIARAL+ QP  ++ DEPTGNLD   A+ + D+M EL T   T  ++VTHD  LA + +RV+ ++DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|47605864|sp|Q83CV2.1|LOLD_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83CV2</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>1.5869e-80</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLI-GKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQGAN</Hsp_qseq>
+      <Hsp_hseq>VIHCEKLSKTYVEGKLRVPVLHEVEFSVAPGERIAIVGASGAGKSTFLQLLGGLDKPSNGKIWVNGNDINQLSEREKGLLRNQHLGFVYQFHHLLPEFNALENVCIPLLVRGGIKPKHARQKASAYLEKVGLSHRQKHRVGELSGGEKQRVALARALVTEPCCVLADEPTGNLDQKTAEQVADLTLQLNRSLNISFVIVTHNREFADKMDRVLLLDKGQLQSESERN</Hsp_hseq>
+      <Hsp_midline>++ CE + K Y +G L VPVL+ ++  +  GE   I+G+SG+GKST L +LGGLD PS G++ + G D+  L++R  G LRN+HLGFVYQFHHLLPEF+ALENV +PLL+ G    K A + A A L+KVGL HR  HR GELSGGE+QR A+ARALVT+P C+LADEPTGNLD+  A  V D+ L+L   L    V+VTH+ E A + +RV+++  G L      N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|123589488|sp|Q3IL62.1|LOLD_PSEHT</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pseudoalteromonas haloplanktis TAC125]</Hit_def>
+  <Hit_accession>Q3IL62</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>2.39797e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLHPRQG</Hsp_qseq>
+      <Hsp_hseq>MNDLVISCENLNKVYQDGSNQVAVLKGVDLALQQGEMLAIVGSSGSGKSTLLHILGTLDTATSGSAKIKNQEVAKLSRTEQAAFRNKNLGFIYQFHHLLMEFSAVENVAMPLLIKGLSAKAAKVAALEMLEKVGLAHRSSHKPSALSGGERQRVAIARALVTKPALVLADEPTGNLDKQNAIKIYDLINELNKSLNTSFVVVTHDLELADKLGKIAYLDDGKLTIKES</Hsp_hseq>
+      <Hsp_midline>M+DL++ CE + K Y+DG   V VL G+DL ++ GE   I+GSSGSGKSTLLHILG LD  + G   +  +++  L++      RN++LGF+YQFHHLL EFSA+ENV MPLLI   S K A   A+ ML+KVGL HRS+H+   LSGGERQR AIARALVT+P  +LADEPTGNLD+ NA  + D++ EL   L T  VVVTHD ELA +  ++  + DG L  ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|47605872|sp|Q884I3.1|LOLD_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q884I3</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>4.22865e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSD-LILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MSDKAVLSCRNLGKSYEEGPESVVVLSGLQLELHPGERVAIVGTSGSGKSTLLNLLGGLDTPSEGSVWLAGEELSALGEKARGLLRNRALGFVYQFHHLLPEFTALENVCMPLLIGRTAIPEARQRATALLERVGLGHRLAHKPSELSGGERQRVAIARALINQPGLVMLDEPTGNLDHHTAQGIQDLMRELSTSSRTAFLIVTHDMSLARQMDRILRLEGGRL</Hsp_hseq>
+      <Hsp_midline>MSD  +L C  +GK Y +G   V VL GL LE+  GE   I+G+SGSGKSTLL++LGGLD PSEG V L GE+L AL ++  G LRNR LGFVYQFHHLLPEF+ALENV MPLLIG+ +  EA + A A+L++VGL HR  H+  ELSGGERQR AIARAL+ QP  ++ DEPTGNLD   A+ + D+M EL T   T  ++VTHD  LA + +R++ ++ G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|47605927|sp|Q9HZL7.1|LOLD_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HZL7</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>4.22865e-80</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>VLSCRNLSKSYDEGPQSVQVLSGVELNLLPGERVAIVGSSGSGKSTLLNMLGGLDTPSAGSVWLAGEELSALNETARGLLRNRALGFVYQFHHLLPEFTALENVCMPLLIGRTPIAEARQRAAELLERVGLGHRLSHKPAELSGGERQRVAIARALVNRPQLVLLDEPTGNLDQHTAQGIQELMLELSRSLQTSFLVVTHDLQLAGHMDRILRLEEGRL</Hsp_hseq>
+      <Hsp_midline>+L C  + K Y +G   V VL G++L +  GE   I+GSSGSGKSTLL++LGGLD PS G V L GE+L ALN+   G LRNR LGFVYQFHHLLPEF+ALENV MPLLIG+    EA + A  +L++VGL HR +H+  ELSGGERQR AIARALV +P+ +L DEPTGNLD+  A+ + ++MLEL   L T  +VVTHD +LAG  +R++ +++G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|47605873|sp|Q88KY4.2|LOLD_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88KY4</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>5.03012e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSD-LILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MSDKAVLSCRNLGKSYDEGPESVQVLSGLNLELRAGERVAIVGSSGSGKSTLLNLLGGLDRPTQGSVWLAGEELSALGERARGLLRNRELGFVYQFHHLLPEFTAIENVCMPLLIGRTPIPEARERAEALLKRVGLGHRLNHKPAELSGGERQRVAIARALVNRPGLVMLDEPTGNLDHHTAQGIQELMQELSSASRTAFLVVTHDLNLARQMDRVLKLDDGHL</Hsp_hseq>
+      <Hsp_midline>MSD  +L C  +GK Y +G   V VL GL+LE+R GE   I+GSSGSGKSTLL++LGGLD P++G V L GE+L AL +R  G LRNR LGFVYQFHHLLPEF+A+ENV MPLLIG+    EA E A A+L +VGL HR  H+  ELSGGERQR AIARALV +P  ++ DEPTGNLD   A+ + ++M EL +   T  +VVTHD  LA + +RV+ + DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|123321444|sp|Q080S4.1|LOLD_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>Q080S4</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>1.01997e-79</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>ILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSLH</Hsp_qseq>
+      <Hsp_hseq>LLQVQHVSKHYHDGEVTTQVLSGVDLTVYKGEQLAIVGSSGSGKSTLLHIMGTLDTPTSGTVLLDGEDLYQLSSARQAQIRNQDLGFIYQFHHLLPEFTAIENVAMPAFIQGRDKTQALVDAKNLLERVGLGHRLQHIPAQLSGGERQRVAIARALINKPKLVLADEPTGNLDASSGDNVYAMIRELAQQFGTAFVVVTHDHKLAAKMDRQLTMKDGILQ</Hsp_hseq>
+      <Hsp_midline>+L+ + V K Y DG +   VL G+DL +  GE   I+GSSGSGKSTLLHI+G LD P+ G VLL GEDL  L+  R   +RN+ LGF+YQFHHLLPEF+A+ENV MP  I  + + +A+  A  +L++VGL HR  H   +LSGGERQR AIARAL+ +PK +LADEPTGNLD ++  NV  M+ EL  + GT  VVVTHD +LA + +R + MKDG L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|47605925|sp|Q9CN78.1|LOLD_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CN78</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>1.08654e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MKSHLLHCQHITKYYQEGSQQTQVLKDVSFSMQAGELVAIVGSSGSGKSTLLHVLGGLDQPTSGEVFIQNQSLQKINANQLAQLRNQYLGFVYQFHHLMADFSALENVMMPMLIGKQNRSEAQDRAEKMLTAVGLSHRISHRPSALSGGERQRVAIARSLVNHPALVLADEPTGNLDRKTTESIFDLIKQLNQEQNIAFLLVTHDLTLAEKLSRRLVMQDGVL</Hsp_hseq>
+      <Hsp_midline>M   +L C+ + K Y++G     VL  +   ++ GE   I+GSSGSGKSTLLH+LGGLD P+ G V +  + L+ +N  +L  LRN++LGFVYQFHHL+ +FSALENVMMP+LIGK++R EA + A  ML  VGL HR +HR   LSGGERQR AIAR+LV  P  +LADEPTGNLDR    ++ D++ +L  E     ++VTHD  LA +  R +VM+DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|124013784|sp|Q31ZH4.2|LOLD_SHIBS</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD [Shigella boydii Sb227]</Hit_def>
+  <Hit_accession>Q31ZH4</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>1.86079e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MSDLILKCEGVGKRYRDGGLDVPVLYGLDLEIRTGESTGIIGSSGSGKSTLLHILGGLDMPSEGRVLLMGEDLRALNQRRLGDLRNRHLGFVYQFHHLLPEFSALENVMMPLLIGKKSRKEAVETAMAMLDKVGLKHRSTHRAGELSGGERQRAAIARALVTQPKCLLADEPTGNLDRANARNVLDMMLELKTELGTGLVVVTHDDELAGRFERVMVMKDGSL</Hsp_qseq>
+      <Hsp_hseq>MNKILLQCDNLCKRYQEGSVQTDVLHNVSFSVGEGEMMAIVGSSGSGKSTLLHLLGGLDTPTSGDVIFNGQPMSKLSSAAKAELRNQKLGFIYQFHHLLPDFTALENVAMPLLIGKKKPAEINSCALEMLKAVGLEHRANHRPSELSGGERQRVAIARALVNNPRLVLADEPTGNLDARNADSIFQLLGELNRLQGTAFLVVTHDLQLAKRMSRQLEMRDGRL</Hsp_hseq>
+      <Hsp_midline>M+ ++L+C+ + KRY++G +   VL+ +   +  GE   I+GSSGSGKSTLLH+LGGLD P+ G V+  G+ +  L+     +LRN+ LGF+YQFHHLLP+F+ALENV MPLLIGKK   E    A+ ML  VGL+HR+ HR  ELSGGERQR AIARALV  P+ +LADEPTGNLD  NA ++  ++ EL    GT  +VVTHD +LA R  R + M+DG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>11995</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>186</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>11995</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>186</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|31563061|sp|Q9JZQ8.1|EFP_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Neisseria meningitidis MC58] &gt;gi|66774124|sp|Q5F856.1|EFP_NEIG1 RecName: Full=Elongation factor P; Short=EF-P [Neisseria gonorrhoeae FA 1090] &gt;gi|189027893|sp|A9M4D6.1|EFP_NEIM0 RecName: Full=Elongation factor P; Short=EF-P [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>Q9JZQ8</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>2.43058e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|31563060|sp|Q9JUU2.1|EFP_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Neisseria meningitidis Z2491] &gt;gi|166220254|sp|A1KTK6.1|EFP_NEIMF RecName: Full=Elongation factor P; Short=EF-P [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>Q9JUU2</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.793</Hsp_bit-score>
+      <Hsp_score>974</Hsp_score>
+      <Hsp_evalue>4.84061e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKIEIDTRTGEFRKRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDK+EIDTRTGEFRKRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|229486027|sp|B4RL51.1|EFP_NEIG2</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>B4RL51</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>8.27181e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVDYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREV+YTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|51315772|sp|Q7NY96.1|EFP_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NY96</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>7.1706e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGT-EIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRAGNVFMVGSDPMVVQKAEFSKSGRNASVVKMKMKNLLTGAGSEAVYRADDKFDVVVLDRKDCTYSYFADPMYVFMDTEFNQYEVEADNLGDTINYIVDGMEDVCQVTFYDGKAISVELPTTVIREVEYTEPAVRGDTSGKVLKPARLVGTTFEVQVPAFVNTGEKIEIDTRTNEFKKRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELRAGNVFMVG+DPMVVQK E+ K GR+++ V MK+KNLLTGA SE +Y+ADDKFDVV+L RK+CTYSYFADPMYVFMD EFNQYE+EADN+GD + +IVDGMED C+VTFY+G  ISVELPT ++REVEYTEPAV+GDTSGKV+K ARLVG T E+QV +++  G+K+EIDTRT EF+KRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|254782635|sp|C1DD68.1|EFP_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1DD68</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>1.15058e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKIAQELRSGNVFMLDGQPMVVQKTEYNKSGRNAAVVKMKMKNLLTGSASEAVYKADEKFDIVVLDKKECTYSYFADPMYVFMDGEFNQYEVEAENMEDVLPFLEDGMTDPCEVVFYEGRAISVELPTTVVREVEYTEPAVRGDTSGKVLKPARLHNGTVIQVAAFVEIGDKIEIDTRTSEFKKRA</Hsp_hseq>
+      <Hsp_midline>MK AQELR+GNVFM+   PMVVQKTEY K GR++A V MK+KNLLTG+ASE +YKAD+KFD+V+L +K CTYSYFADPMYVFMD EFNQYE+EA+N+ D L F+ DGM D CEV FYEG  ISVELPT +VREVEYTEPAV+GDTSGKV+K ARL  GT IQV +++E GDK+EIDTRT EF+KRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|166220197|sp|A0KN67.1|EFP_AERHH</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Aeromonas hydrophila subsp. hydrophila ATCC 7966]</Hit_def>
+  <Hit_accession>A0KN67</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>2.54736e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGT-EIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQEIRAGNVVMIGTEPMVVQKAEFNKSGRNSAVVKMKLKGLLNGSATETVFKADDKLEVVQLERKECTYSYFSDPLYVFMDTEYNQYDVEKDNLGDALNYMVDGMEDICEVTFYNEKAISVELPTTIVREVEYTEPAARGDTSGKVTKPARLKGTTYELAVAAFVEIGDKIEIDTRTGEFKRR</Hsp_hseq>
+      <Hsp_midline>MKTAQE+RAGNV M+G +PMVVQK E+ K GR+SA V MKLK LL G+A+ET++KADDK +VV L RK CTYSYF+DP+YVFMD E+NQY++E DN+GDAL ++VDGMED CEVTFY    ISVELPT IVREVEYTEPA +GDTSGKV K ARL G T E+ V +++E GDK+EIDTRTGEF++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166220198|sp|A4SJY6.1|EFP_AERS4</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Aeromonas salmonicida subsp. salmonicida A449]</Hit_def>
+  <Hit_accession>A4SJY6</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>2.89274e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVG-GTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQEIRAGNVVMIGTEPMVVQKAEFNKSGRNSAVVKMKLKGLLNGSATETVFKADDKLDVVQLERKECTYSYFSDPLYVFMDTEYNQYDVEKDNLGDVLNYLVDGMEDICEVTFYNEKAISVELPTTIVREVEYTEPAARGDTSGKVTKPARLKGTAYELAVAAFVEIGDKIEIDSRTGEFKRR</Hsp_hseq>
+      <Hsp_midline>MKTAQE+RAGNV M+G +PMVVQK E+ K GR+SA V MKLK LL G+A+ET++KADDK DVV L RK CTYSYF+DP+YVFMD E+NQY++E DN+GD L ++VDGMED CEVTFY    ISVELPT IVREVEYTEPA +GDTSGKV K ARL G   E+ V +++E GDK+EID+RTGEF++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|259645803|sp|C4LDX4.1|EFP_TOLAT</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Tolumonas auensis DSM 9187]</Hit_def>
+  <Hit_accession>C4LDX4</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.774</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>4.5514e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVG-GTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKIAQEIRVGNVIMIGKDPMVVLKTEFNKSGRNSAVVKMKMKNLLSGAGAETVFKADDKLDTVQLERKECTYSYFADPMYVFMDTEYNQYDIEKENLGDVLNYLIDGMEDICEVTFYDGKAISMELPITIVREVEYTEPSVRGDTSGKVMKPAKLKGTDATISVADFVKIGDKIEIDTRTGEFKRR</Hsp_hseq>
+      <Hsp_midline>MK AQE+R GNV M+G DPMVV KTE+ K GR+SA V MK+KNLL+GA +ET++KADDK D V L RK CTYSYFADPMYVFMD E+NQY+IE +N+GD L +++DGMED CEVTFY+G  IS+ELP  IVREVEYTEP+V+GDTSGKVMK A+L G    I V  +++ GDK+EIDTRTGEF++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166220201|sp|A1K1J9.1|EFP_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K1J9</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>7.89363e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRSGNVIMVGSDPLVVQKAEYNKSGRNAAVVKMKLKNLLTGAPSESVYKADDKFEVVQLDRKEVTYSYFADPMYVFMDADYEQFEVEAENMTDALKYLEDGL--QCEVVFYNGKAISVELPTTVVREVVYTEPAVKGDTSGKVMKPAKIATGFELPVPAFVEIGDKIEIDTRTDEYKNR</Hsp_hseq>
+      <Hsp_midline>MKTAQELR+GNV MVG+DP+VVQK EY K GR++A V MKLKNLLTGA SE++YKADDKF+VV L RK  TYSYFADPMYVFMD ++ Q+E+EA+N+ DALK++ DG+  QCEV FY G  ISVELPT +VREV YTEPAVKGDTSGKVMK A++  G E+ V +++E GDK+EIDTRT E++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|31563057|sp|Q8Y0H5.1|EFP_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y0H5</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>2.42577e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>LKIAQELRAGNVFMIGNDPMVVLKTEYSRSGRNAAVVKMKYKNLLTGAPSESVFKADDKMDQIILDKKECTYSYFADPMYVFMDTDYNQYEVEADSMGDAIHYLEDGM--AAEVTFYNEKAISVELPTTLVREIEYTEPAVKGDTSSGKVLKMAKIKGGFEIQVPLFCSTGDKIEIDTRTHEYRSRA</Hsp_hseq>
+      <Hsp_midline>+K AQELRAGNVFM+GNDPMVV KTEY + GR++A V MK KNLLTGA SE+++KADDK D +IL +K CTYSYFADPMYVFMD ++NQYE+EAD++GDA+ ++ DGM    EVTFY    ISVELPT +VRE+EYTEPAVKGDT SGKV+K A++ GG EIQV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|122985474|sp|Q1H0G4.1|EFP_METFK</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1H0G4</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>2.45029e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVMIGNDPLVVQKTEYNKSGRNAAVVKMKFKNLLTEAASEAVYKADDKFDVVILEKKEVTYSYFADPMYVFMDAEYNQYEVEADNMTDALNFLEDGM--TCEVVFYNGKAISVDLPNSVVREITYTEPAVKGDTSGKVMKPAKIATGFELAVPLFCDIGDKIEIDTRTLEYKNR</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV M+GNDP+VVQKTEY K GR++A V MK KNLLT AASE +YKADDKFDVVIL +K  TYSYFADPMYVFMD E+NQYE+EADN+ DAL F+ DGM   CEV FY G  ISV+LP  +VRE+ YTEPAVKGDTSGKVMK A++  G E+ V  + + GDK+EIDTRT E++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123759137|sp|Q3SKH1.1|EFP_THIDA</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SKH1</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>7.60737e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARL-VGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKIAQELRAGNVVMIGKDPMVVQKAEFSKSGRNASVVKMKLKNLLTGAGMESVYRADDKFDTVTLDRKECTYSYFADPLYVFMDSDYNQYEVEGDNLGDALNYLDDGM--PVEVVFYEGKAISVEMPTTVIREVEYTEPAVRGDTSGKVMKPARIKPTGFELPVAAFVEIGDMIEIDTRTNEFKRRA</Hsp_hseq>
+      <Hsp_midline>MK AQELRAGNV M+G DPMVVQK E+ K GR+++ V MKLKNLLTGA  E++Y+ADDKFD V L RK CTYSYFADP+YVFMD ++NQYE+E DN+GDAL ++ DGM    EV FYEG  ISVE+PT ++REVEYTEPAV+GDTSGKVMK AR+   G E+ V +++E GD +EIDTRT EF++RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|166221156|sp|A1S699.1|EFP_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1S699</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.04375e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGG-TEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAHEIRPGNVIMFNDSPWVVQKTETTRSGRNAAIVKMKLKNLLIDSSTETTFKGEDKMDVIVLERLDCTYSYFADPMYVFMDSEYNQYDVEAENVGDAAKYIVDGMEETCQVTFYEGKAISVEMPTTIIREVGYTEPAARGDTSGKVMKPAKLVGSDIELMVADFVKEGDKIEIDTRTGEFKKR</Hsp_hseq>
+      <Hsp_midline>MKTA E+R GNV M  + P VVQKTE  + GR++A V MKLKNLL  +++ET +K +DK DV++L R +CTYSYFADPMYVFMD E+NQY++EA+N+GDA K+IVDGME+ C+VTFYEG  ISVE+PT I+REV YTEPA +GDTSGKVMK A+LVG   E+ V  +++ GDK+EIDTRTGEF+KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|51315781|sp|Q7VX16.1|EFP_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Bordetella pertussis Tohama I] &gt;gi|51315782|sp|Q7W7W9.1|EFP_BORPA RecName: Full=Elongation factor P; Short=EF-P [Bordetella parapertussis 12822] &gt;gi|51315783|sp|Q7WLA9.1|EFP_BORBR RecName: Full=Elongation factor P; Short=EF-P [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7VX16</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>2.49254e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVIMVGKDPLVVQKTEYNKSGRNAAVVKLKFKNLLTGSGSESVYKADEKFDVVVLERKECTYSYFGDPMYVFMDEEYNQYEIEADSMGDALNYLEEAM--PVEVVFYDGRAISVELPTILVREITYTEPAVRGDTSGKVLKPAKINTGFELSVPLFCAIGDKIEIDTRTNEYRSR</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV MVG DP+VVQKTEY K GR++A V +K KNLLTG+ SE++YKAD+KFDVV+L RK CTYSYF DPMYVFMDEE+NQYEIEAD++GDAL ++ + M    EV FY+G  ISVELPTI+VRE+ YTEPAV+GDTSGKV+K A++  G E+ V  +   GDK+EIDTRT E+R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123752228|sp|Q2KXA0.1|EFP_BORA1</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Bordetella avium 197N]</Hit_def>
+  <Hit_accession>Q2KXA0</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>3.16728e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVMVGKDPLVVQKTEYNKSGRNAAVVKLKFKNLLTGSASESVYKADEKFDIVMLERKECTYSYFGDPMYVFMDADYNQYEIEADSMGDALNYLEEAM--PVEVVFYDGRAISVELPTILVREITYTEPAVRGDTSGKVLKPAKINTGYELQVPLFCAIGDKIEIDTRTNEYRSR</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV MVG DP+VVQKTEY K GR++A V +K KNLLTG+ASE++YKAD+KFD+V+L RK CTYSYF DPMYVFMD ++NQYEIEAD++GDAL ++ + M    EV FY+G  ISVELPTI+VRE+ YTEPAV+GDTSGKV+K A++  G E+QV  +   GDK+EIDTRT E+R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|123760508|sp|Q47EF1.1|EFP_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47EF1</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.69416e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAMELRSGNVIMVGADPLVVQKSEYNKSGRNAAVVKMKLKNLLTGAASEAVYKADDKFEVVVLDKKEVTYSYFADPMYVFMDADYEQFEVEAENMTDALKYLEDGL--ACEVVFYNGKAISVELPNSVVREVVYTEPAVKGDTSGKVMKPAKLATGFELPVPAFVSIGDKIEIDTRTDEYKNR</Hsp_hseq>
+      <Hsp_midline>MKTA ELR+GNV MVG DP+VVQK+EY K GR++A V MKLKNLLTGAASE +YKADDKF+VV+L +K  TYSYFADPMYVFMD ++ Q+E+EA+N+ DALK++ DG+   CEV FY G  ISVELP  +VREV YTEPAVKGDTSGKVMK A+L  G E+ V +++  GDK+EIDTRT E++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|123767668|sp|Q2SXS7.1|EFP_BURTA</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2SXS7</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>2.10635e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVMVGNDAWVVSKTEYNKSGRNAAVVKMKLKNLLTNAGQESVYKADDKFDVVVLDRKEVTYSYFADPMYVFMDADYNQYEVEAEMMGDALNYLEDGM--ACEVVFYNEKAISVELPTILVREITYTEPAVKGDTSSGKVLKNAKLSTGFELQVPLFCNTGDKIEIDTRTNEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV MVGND  VV KTEY K GR++A V MKLKNLLT A  E++YKADDKFDVV+L RK  TYSYFADPMYVFMD ++NQYE+EA+ +GDAL ++ DGM   CEV FY    ISVELPTI+VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|85541063|sp|Q5P4G4.1|EFP_AROAE</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5P4G4</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>2.53465e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRSGNVIMVGADALVVQKAEYNKSGRNSAVVKMKLKNLLTGAPSESVYKADDKFEVVQLDKKEVTYSYFADPMYVFMDADYEQYEVEAENMTDALKYLEDGL--QCEVVFYNGKAISVDLPNSVVREVIYTEPAVKGDTSGKVMKPAKIASGFELPVPAFVEIGDKIEIDTRTDEYKNR</Hsp_hseq>
+      <Hsp_midline>MKTAQELR+GNV MVG D +VVQK EY K GR+SA V MKLKNLLTGA SE++YKADDKF+VV L +K  TYSYFADPMYVFMD ++ QYE+EA+N+ DALK++ DG+  QCEV FY G  ISV+LP  +VREV YTEPAVKGDTSGKVMK A++  G E+ V +++E GDK+EIDTRT E++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|166221158|sp|A3QE83.1|EFP_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QE83</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>2.95247e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAHEIRPGNVIMLDGSPWVVQKTETTRSGRNAAIVKMKLKNLLQESSTETTFKGEDKMEDIILDRLDCTYSYFADPMYVFMDAEYNQYDVEADNLGDAAAYIVDGMEEQCQVTFYEGKAISVELPTTVVREVTYTEPSARGDTSGKVMKPATIAGGATLSVADFVKTGDLIEIDTRTHEFKKRA</Hsp_hseq>
+      <Hsp_midline>MKTA E+R GNV M+   P VVQKTE  + GR++A V MKLKNLL  +++ET +K +DK + +IL R +CTYSYFADPMYVFMD E+NQY++EADN+GDA  +IVDGME+QC+VTFYEG  ISVELPT +VREV YTEP+ +GDTSGKVMK A + GG  + V  +++ GD +EIDTRT EF+KRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|229485982|sp|A9HX42.1|EFP_BORPD</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Bordetella petrii DSM 12804]</Hit_def>
+  <Hit_accession>A9HX42</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>7.61187e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVMVGKDPLVVQKAEYNKSGRNAAVVKLKFKNLLTGSGSESVYKADEKFDVVVLDRKECTYSYFGDPMYVFMDEEYNQYEIEAESMGDALNYLEEAM--PVEVVFYDGRAISVELPTILVREITYTEPAVRGDTSGKVLKPAKINTGFELNVPLFCAIGDKIEIDTRTNEYRSR</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV MVG DP+VVQK EY K GR++A V +K KNLLTG+ SE++YKAD+KFDVV+L RK CTYSYF DPMYVFMDEE+NQYEIEA+++GDAL ++ + M    EV FY+G  ISVELPTI+VRE+ YTEPAV+GDTSGKV+K A++  G E+ V  +   GDK+EIDTRT E+R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|238691283|sp|B2JFL0.1|EFP_BURP8</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Burkholderia phymatum STM815]</Hit_def>
+  <Hit_accession>B2JFL0</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>1.81863e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKIAQELRTGNVVMIGNDAMVVQKAEYNKSGRNAAVVKMKFKNLLTGAGMETVYKADDKFDVVVLDRKEVTYSYFADPMYVFMDADYNQYEVEAEMMGDALNYLEDGM--ACEVVFYNEKAISVELPTTLVREIIYTEPAVKGDTSSGKVLKTAKLNTGFELQVPLFCNIGDKIEIDTRTNEYRSRA</Hsp_hseq>
+      <Hsp_midline>MK AQELR GNV M+GND MVVQK EY K GR++A V MK KNLLTGA  ET+YKADDKFDVV+L RK  TYSYFADPMYVFMD ++NQYE+EA+ +GDAL ++ DGM   CEV FY    ISVELPT +VRE+ YTEPAVKGDT SGKV+KTA+L  G E+QV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|259645779|sp|C1DRK5.1|EFP_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DRK5</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>2.09573e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQEFRAGQVAMINGEPWVIQKAEFNKSGRNAAVVKMKLKNLLNGQATETVYKADDKFEPVILERKEVTYSYFADPMYVFMDNEFNQYEIEKDDLGDAYNFIEDGMQDVCEAVFYNDRVISIELPTTIVRQISYTEPAVRGDTSGKVMKVARLNSGYELRVAEFCDIGDYIEIDTRTFEYKSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQE RAG V M+  +P V+QK E+ K GR++A V MKLKNLL G A+ET+YKADDKF+ VIL RK  TYSYFADPMYVFMD EFNQYEIE D++GDA  FI DGM+D CE  FY    IS+ELPT IVR++ YTEPAV+GDTSGKVMK ARL  G E++V  + + GD +EIDTRT E++ RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|61212366|sp|Q62LS3.1|EFP_BURMA</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Burkholderia mallei ATCC 23344] &gt;gi|61212369|sp|Q63SA2.1|EFP_BURPS RecName: Full=Elongation factor P; Short=EF-P [Burkholderia pseudomallei K96243] &gt;gi|123771895|sp|Q3JQ86.1|EFP_BURP1 RecName: Full=Elongation factor P; Short=EF-P [Burkholderia pseudomallei 1710b] &gt;gi|166220210|sp|A3MM35.1|EFP_BURM7 RecName: Full=Elongation factor P; Short=EF-P [Burkholderia mallei NCTC 10247] &gt;gi|166220211|sp|A2SA02.1|EFP_BURM9 RecName: Full=Elongation factor P; Short=EF-P [Burkholderia mallei NCTC 10229] &gt;gi|166220212|sp|A1V6B0.1|EFP_BURMS RecName: Full=Elongation factor P; Short=EF-P [Burkholderia mallei SAVP1] &gt;gi|166220213|sp|A3NXK9.1|EFP_BURP0 RecName: Full=Elongation factor P; Short=EF-P [Burkholderia pseudomallei 1106a] &gt;gi|166220214|sp|A3NBS1.1|EFP_BURP6 RecName: Full=Elongation factor P; Short=EF-P [Burkholderia pseudomallei 668]</Hit_def>
+  <Hit_accession>Q62LS3</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>4.34483e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVMIGNDAWVVSKTEYNKSGRNAAVVKMKLKNLLNGGGQESVYKADDKFEVVVLDRKEVTYSYFADPMYVFMDADYNQYEVEAEMMGDALNYLEDGM--ACEVVFYNEKAISVELPTILVREITYTEPAVKGDTSSGKVLKNAKLATGFELQVPLFCNTGDKIEIDTRTNEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV M+GND  VV KTEY K GR++A V MKLKNLL G   E++YKADDKF+VV+L RK  TYSYFADPMYVFMD ++NQYE+EA+ +GDAL ++ DGM   CEV FY    ISVELPTI+VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|238689103|sp|B1Y0U3.1|EFP_LEPCP</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Leptothrix cholodnii SP-6]</Hit_def>
+  <Hit_accession>B1Y0U3</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>6.78849e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKIAQEIRAGNVIMHGKDPMVVLKTEYSRGGRNSATVRMKLKSLLSNSGTEVVFKADDKMDQIILDKKECTYSYFADPMYAFMDADFNQFEVEAENMGDAISYLEDGM--AVEVVFYDGKAISVELPTSLVREVTWTEPAVKGDTSGKVLKPAKLATGFDIQVPIFVAQGDKIEIDTRTHEYRKR</Hsp_hseq>
+      <Hsp_midline>MK AQE+RAGNV M G DPMVV KTEY +GGR+SA V MKLK+LL+ + +E ++KADDK D +IL +K CTYSYFADPMY FMD +FNQ+E+EA+N+GDA+ ++ DGM    EV FY+G  ISVELPT +VREV +TEPAVKGDTSGKV+K A+L  G +IQV  ++  GDK+EIDTRT E+RKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|122299814|sp|Q082R1.1|EFP_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>Q082R1</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>3.01625e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAHEIRPGNVIMLDGSPWVVQKTETTRSGRNAAIVKLKLKNVLLDSGTEQTFKGEDKLDDIILERLDCTYSYFADPMYVFMDEEYNQYDVEADNLGDAADYIIDGMEDVCQVTFYEGKAISVELPVHIVREVIYTEPSARGDTSGKVMKPATITGGGTVTVADFVKVGDKIEIDTRTGEFKKR</Hsp_hseq>
+      <Hsp_midline>MKTA E+R GNV M+   P VVQKTE  + GR++A V +KLKN+L  + +E  +K +DK D +IL R +CTYSYFADPMYVFMDEE+NQY++EADN+GDA  +I+DGMED C+VTFYEG  ISVELP  IVREV YTEP+ +GDTSGKVMK A + GG  + V  +++ GDK+EIDTRTGEF+KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|166220267|sp|A4VMG3.1|EFP_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VMG3</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>3.04937e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQEFRAGQVAIINGAPWVIQKAEFNKSGRNSAVVKMKLKNLLNGSATETVYKADDKLEPVILERKEVTYSYFADPLYVFMDNEFNQYEIEKDDLEGVMTFIEDGMTDVCEAVFYNDKVISVELPTTIVREIAYTEPSVRGDTSGKVMKTARLKNGAELQVSAFCEIGDSIEIDTRTGEYKSR</Hsp_hseq>
+      <Hsp_midline>MKTAQE RAG V ++   P V+QK E+ K GR+SA V MKLKNLL G+A+ET+YKADDK + VIL RK  TYSYFADP+YVFMD EFNQYEIE D++   + FI DGM D CE  FY    ISVELPT IVRE+ YTEP+V+GDTSGKVMKTARL  G E+QV ++ E GD +EIDTRTGE++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123166092|sp|Q12MQ1.1|EFP_SHEDO</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Shewanella denitrificans OS217]</Hit_def>
+  <Hit_accession>Q12MQ1</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>3.91663e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAHEIRPGNVIMLDGSPWVVQKTETTRSGRNAAIVKLKLKHVLLDSGTEQTFKGEDKMDVIVLERLDCTYSYFADPMYVFMDADYNQYDVEADNLGDAAAYIIDGMEETCQVTFYEGKAISVELPTHIVREVIYTEPSARGDTSGKVMKPATITGGGTVTVADFVKVGDKIEIDTRTGEFKKRA</Hsp_hseq>
+      <Hsp_midline>MKTA E+R GNV M+   P VVQKTE  + GR++A V +KLK++L  + +E  +K +DK DV++L R +CTYSYFADPMYVFMD ++NQY++EADN+GDA  +I+DGME+ C+VTFYEG  ISVELPT IVREV YTEP+ +GDTSGKVMK A + GG  + V  +++ GDK+EIDTRTGEF+KRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|229486035|sp|B1KEH1.1|EFP_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Shewanella woodyi ATCC 51908]</Hit_def>
+  <Hit_accession>B1KEH1</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>4.2267e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAHEIRPGNVIMLDGSPWVVQKTETTRSGRNAAIVKMKLKNVLLDSSTETTFKGEDKMDDIILERLDCTYSYFADPMYVFMDAEYNQYDVEAGNLGDASAYIVDGMEEVCQVTFYEGKAISVELPTTIVREVTYTEPSARGDTSGKVMKPATVSGGATLSVADFVKTGDMIEIDTRTGEFKKR</Hsp_hseq>
+      <Hsp_midline>MKTA E+R GNV M+   P VVQKTE  + GR++A V MKLKN+L  +++ET +K +DK D +IL R +CTYSYFADPMYVFMD E+NQY++EA N+GDA  +IVDGME+ C+VTFYEG  ISVELPT IVREV YTEP+ +GDTSGKVMK A + GG  + V  +++ GD +EIDTRTGEF+KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|123358575|sp|Q13VN6.1|EFP_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q13VN6</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.595</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>9.15374e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRTGNVVMIGADAMVVQKAEYNKSGRNSAVVKMKFKNLLTGAGMESVYKADDKFDVVVLERKEVTYSYFADPMYVFMDADYNQFEVESEMMGDALHYLEDGM--ACEVVFYNDKAISVELPTTLVREIIYTEPAVKGDTSSGKVLKNAKLNTGFELQVPLFCNIGDKIEIDTRTHEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV M+G D MVVQK EY K GR+SA V MK KNLLTGA  E++YKADDKFDVV+L RK  TYSYFADPMYVFMD ++NQ+E+E++ +GDAL ++ DGM   CEV FY    ISVELPT +VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|238687011|sp|A9ADD1.1|EFP_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Burkholderia multivorans ATCC 17616]</Hit_def>
+  <Hit_accession>A9ADD1</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>2.16271e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVQIGSDAWVISKTEYNKSGRNAAVVKLKMKNLLTNAGQESVYKADDKFDVVMLDRKEVTYSYFADPMYVFMDADYNQYEVEAEMMGDALNYLEDGM--ACEVVFYNEKAISVELPTILVREITYTEPAVKGDTSSGKVLKNAKLATGFELQVPLFCNTGDKIEIDTRTHEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV  +G+D  V+ KTEY K GR++A V +K+KNLLT A  E++YKADDKFDVV+L RK  TYSYFADPMYVFMD ++NQYE+EA+ +GDAL ++ DGM   CEV FY    ISVELPTI+VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|31563059|sp|Q9HZZ2.1|EFP_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Pseudomonas aeruginosa PAO1] &gt;gi|122259982|sp|Q02P14.1|EFP_PSEAB RecName: Full=Elongation factor P; Short=EF-P [Pseudomonas aeruginosa UCBPP-PA14] &gt;gi|166220264|sp|A6V3N9.1|EFP_PSEA7 RecName: Full=Elongation factor P; Short=EF-P [Pseudomonas aeruginosa PA7] &gt;gi|226740406|sp|B7V9K9.1|EFP_PSEA8 RecName: Full=Elongation factor P; Short=EF-P [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>Q9HZZ2</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>2.30841e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQEFRAGQVANINGAPWVIQKAEFNKSGRNAAVVKMKLKNLLTGAGTETVFKADDKLEPIILDRKEVTYSYFADPLYVFMDSEFNQYEIEKDDLEGVLTFIEDGMTDICEAVFYNDKVISVELPTTIVRQIAYTEPAVRGDTSGKVMKTARLNNGAELQVSAFCEIGDSIEIDTRTGEYKSR</Hsp_hseq>
+      <Hsp_midline>MKTAQE RAG V  +   P V+QK E+ K GR++A V MKLKNLLTGA +ET++KADDK + +IL RK  TYSYFADP+YVFMD EFNQYEIE D++   L FI DGM D CE  FY    ISVELPT IVR++ YTEPAV+GDTSGKVMKTARL  G E+QV ++ E GD +EIDTRTGE++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|238689590|sp|B2SZU7.1|EFP_BURPP</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Burkholderia phytofirmans PsJN]</Hit_def>
+  <Hit_accession>B2SZU7</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.44</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>3.19999e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRTGNVVMIGADAMVVQKAEYNKSGRNSAVVKMKFKNLLTGAGMESVYKADDKFDVVVLERKEVTYSYFADPMYVFMDADYNQFEVEGEMMGDALHYLEDGM--ACEVVFYNEKAISVELPTTLVREIIYTEPAVKGDTSSGKVLKNAKLNTGFELQVPLFCNIGDKIEIDTRTHEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV M+G D MVVQK EY K GR+SA V MK KNLLTGA  E++YKADDKFDVV+L RK  TYSYFADPMYVFMD ++NQ+E+E + +GDAL ++ DGM   CEV FY    ISVELPT +VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|166220195|sp|A1W9U1.1|EFP_ACISJ</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Acidovorax sp. JS42] &gt;gi|254782629|sp|B9MC94.1|EFP_ACIET RecName: Full=Elongation factor P; Short=EF-P [Acidovorax ebreus TPSY]</Hit_def>
+  <Hit_accession>A1W9U1</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>3.37904e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKIAQEIRAGNVIMQGKDPMIVLKTEYARGGRGAATVRMKLKALLSNMGTEVVFKADDKIDNVILDKKECTYSYFADPMYVWMDAEYNQYEVEASNMGDAISYLEDGM--AAEVVFYDGKAISVELPTSVEREITWTEPAVKGDTSGKVLKPAKIATGFEVAVPLFVDQGDKIEIDTRTGEYRKR</Hsp_hseq>
+      <Hsp_midline>MK AQE+RAGNV M G DPM+V KTEY +GGR +A V MKLK LL+   +E ++KADDK D VIL +K CTYSYFADPMYV+MD E+NQYE+EA N+GDA+ ++ DGM    EV FY+G  ISVELPT + RE+ +TEPAVKGDTSGKV+K A++  G E+ V  +++ GDK+EIDTRTGE+RKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|122323649|sp|Q0BGZ7.1|EFP_BURCM</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Burkholderia ambifaria AMMD] &gt;gi|238692858|sp|B1YVN1.1|EFP_BURA4 RecName: Full=Elongation factor P; Short=EF-P [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>Q0BGZ7</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>3.76741e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVQIGSDAWVIAKTEYNKSGRNAAVVKMKMKNLLTNAGQESVYKADDKFDVVMLDRKEVTYSYFADPMYVFMDADYNQYEVEAEMMGEALNYLEDGM--ACEVVFYNEKAISVELPTILVREITYTEPAVKGDTSSGKVLKNAKLATGFELQVPLFCSTGDKIEIDTRTNEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV  +G+D  V+ KTEY K GR++A V MK+KNLLT A  E++YKADDKFDVV+L RK  TYSYFADPMYVFMD ++NQYE+EA+ +G+AL ++ DGM   CEV FY    ISVELPTI+VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|189027896|sp|A4SVW9.1|EFP_POLSQ</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Polynucleobacter necessarius subsp. asymbioticus QLW-P1DMWA-1]</Hit_def>
+  <Hit_accession>A4SVW9</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>4.02144e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVMIGTDAMVVLKAEYSRSGRNSSVVKMKFKNLLTGAPNEGVFKADDKFDVVILDKKECTYSYFADPMYVFMDTEYNQYEVEAEFMGDALNYLEESM--PCEVVFYEGKALSVAMPNSLVREIIYTEPAVKGDTSSGKVLKNAKLATGYELQVPLFCNTGDKIEIDTRTGEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV M+G D MVV K EY + GR+S+ V MK KNLLTGA +E ++KADDKFDVVIL +K CTYSYFADPMYVFMD E+NQYE+EA+ +GDAL ++ + M   CEV FYEG  +SV +P  +VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRTGE+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|166220215|sp|A4JCR8.1|EFP_BURVG</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Burkholderia vietnamiensis G4]</Hit_def>
+  <Hit_accession>A4JCR8</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>4.89183e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVQIGSDAWVIAKTEYNKSGRNAAVVKMKMKNLLTNAGQEAVYKADDKFDVVVLDRKEVTYSYFADPMYVFMDADYNQYEVEAEMMGEALNYLEDGM--ACEVVFYNEKAISVELPTILVREITYTEPAVKGDTSSGKVLKNAKLATGFELQVPLFCNTGDKIEIDTRTNEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV  +G+D  V+ KTEY K GR++A V MK+KNLLT A  E +YKADDKFDVV+L RK  TYSYFADPMYVFMD ++NQYE+EA+ +G+AL ++ DGM   CEV FY    ISVELPTI+VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|229485984|sp|B3PIK9.1|EFP_CELJU</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Cellvibrio japonicus Ueda107]</Hit_def>
+  <Hit_accession>B3PIK9</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>8.80204e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKIAQECRAGNVVMIDGSPWVVQKAEYNKSGRNAAVVKMKLKNLLSGINTETVYKADDKFEDILLDRKEVTYSYYADPMYVFMDGEYNQYEVTKEDLGDLLPWIEDGMEDVCDAVFYEGKVISVTAPTSIVREIAYTEPAVRGDTSGKVMKVAKLKNGTELSVAAFVEIGEKIIIDTRTGEYKSRA</Hsp_hseq>
+      <Hsp_midline>MK AQE RAGNV M+   P VVQK EY K GR++A V MKLKNLL+G  +ET+YKADDKF+ ++L RK  TYSY+ADPMYVFMD E+NQYE+  +++GD L +I DGMED C+  FYEG  ISV  PT IVRE+ YTEPAV+GDTSGKVMK A+L  GTE+ V +++E G+K+ IDTRTGE++ RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|122313852|sp|Q0AGI0.1|EFP_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Nitrosomonas eutropha C91]</Hit_def>
+  <Hit_accession>Q0AGI0</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.0593e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVFMLGRDPMVVLKTEFTKSGRNSSVVKMKYKNLLTESPGEAVYKADDKFDIVVLEKKEVSYSYYASPMYVFMDAEFNQYEVEEETMSDVLSFLEDGM--PCEVVFYNDKPISVEMPNSVVREIIYTEPAVKGDTSGKVMKSAKIVTGFELPVPLFCEIGDKIEIDTRTREYRSRV</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNVFM+G DPMVV KTE+ K GR+S+ V MK KNLLT +  E +YKADDKFD+V+L +K  +YSY+A PMYVFMD EFNQYE+E + + D L F+ DGM   CEV FY   PISVE+P  +VRE+ YTEPAVKGDTSGKVMK+A++V G E+ V  + E GDK+EIDTRT E+R R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226740407|sp|B8CPB0.1|EFP_SHEPW</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Shewanella piezotolerans WP3]</Hit_def>
+  <Hit_accession>B8CPB0</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.20697e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAHEVRPGNVIMLDGNPWVVLKTETSRSGRNAAVVKLKLKNVLLDSTTETSFKGEDKLDVIVLDRLDCTYSYFADPMYVFMDEEFNQYDVEAENLGDAAAYITDGMEDVCQVTFYEEKAISVELPIIVTREVTYTEPSARGDTSGKVMKPATIAGGSTLSVADFVKTGDMIEIDTRTNEFKKR</Hsp_hseq>
+      <Hsp_midline>MKTA E+R GNV M+  +P VV KTE  + GR++A V +KLKN+L  + +ET +K +DK DV++L R +CTYSYFADPMYVFMDEEFNQY++EA+N+GDA  +I DGMED C+VTFYE   ISVELP I+ REV YTEP+ +GDTSGKVMK A + GG+ + V  +++ GD +EIDTRT EF+KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|122987887|sp|Q1LKN7.1|EFP_RALME</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LKN7</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.43651e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKIAQELRVGNVFMIGSDPMVVQKAEYNKSGRNAAVVKMKYKNLLTEAPGESVFKADDKFEVVVLERRECTYSYFADPMYVFMDTEYNQYEVEKDSMGDSLNYLEDGM--VVEVVFYNDKAISVEMPTTLVREIIYTEPAVKGDTSSGKVLKGAKINTGFELQVPLFCNIGDKIEIDTRTGEYRSRA</Hsp_hseq>
+      <Hsp_midline>MK AQELR GNVFM+G+DPMVVQK EY K GR++A V MK KNLLT A  E+++KADDKF+VV+L R+ CTYSYFADPMYVFMD E+NQYE+E D++GD+L ++ DGM    EV FY    ISVE+PT +VRE+ YTEPAVKGDT SGKV+K A++  G E+QV  +   GDK+EIDTRTGE+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|122946729|sp|Q0K8N9.1|EFP_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Ralstonia eutropha H16] &gt;gi|238692741|sp|B3R1Z3.1|EFP_CUPTR RecName: Full=Elongation factor P; Short=EF-P [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>Q0K8N9</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>2.44828e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKIAQELRVGNVFMIGGDPMVVQKAEYNKSGRNAAVVKMKYKNLLTDAPGESVFKADDKFEVVVLERRECTYSYFADPMYVFMDADYNQYEVEKDSMGDSLNYLEDGM--NVEVVFYNDKAISVEMPTTLVREIVYTEPAVKGDTSSGKVLKGAKINTGFELQVPLFCNIGDKIEIDTRTGEYRSRA</Hsp_hseq>
+      <Hsp_midline>MK AQELR GNVFM+G DPMVVQK EY K GR++A V MK KNLLT A  E+++KADDKF+VV+L R+ CTYSYFADPMYVFMD ++NQYE+E D++GD+L ++ DGM    EV FY    ISVE+PT +VRE+ YTEPAVKGDT SGKV+K A++  G E+QV  +   GDK+EIDTRTGE+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|238687219|sp|A9BVZ6.1|EFP_DELAS</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Delftia acidovorans SPH-1]</Hit_def>
+  <Hit_accession>A9BVZ6</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>2.61393e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKIAQEIRAGNVIMHGKDPMIVLKTEYARGGRGAATVRMKLKSLLGNMGTEVVFKADDKIDNVILDKKECTYSYFADPMYVWMDADFNQYEVEATNMGDAINYLEDGME--AEVVFYDGKAISCELPTSVEREITWTEPAVKGDTSGKVLKPAKIATGFEVPVPLFVSQGDKIEIDTRTGEYRKR</Hsp_hseq>
+      <Hsp_midline>MK AQE+RAGNV M G DPM+V KTEY +GGR +A V MKLK+LL    +E ++KADDK D VIL +K CTYSYFADPMYV+MD +FNQYE+EA N+GDA+ ++ DGME   EV FY+G  IS ELPT + RE+ +TEPAVKGDTSGKV+K A++  G E+ V  ++  GDK+EIDTRTGE+RKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|189027907|sp|A8FVS5.1|EFP_SHESH</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Shewanella sediminis HAW-EB3]</Hit_def>
+  <Hit_accession>A8FVS5</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>5.41764e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAHEIRPGNVIMLNGSPWVVQKTETTRSGRNAAIVKMKLKNVLLDSTTETTFKGEDKMEDIILERLDCTYSYFADPMYVFMDAEYNQYDVESGNLGDAAAYITDGMEEICQVTFYEGKAISVELPTTIVREVTYTEPSARGDTSGKVMKPATIAGGATLSVADFIKTGEMIEIDPRTGEFKKRA</Hsp_hseq>
+      <Hsp_midline>MKTA E+R GNV M+   P VVQKTE  + GR++A V MKLKN+L  + +ET +K +DK + +IL R +CTYSYFADPMYVFMD E+NQY++E+ N+GDA  +I DGME+ C+VTFYEG  ISVELPT IVREV YTEP+ +GDTSGKVMK A + GG  + V  +I+ G+ +EID RTGEF+KRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|238689051|sp|B1XTM0.1|EFP_POLNS</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Polynucleobacter necessarius subsp. necessarius STIR1]</Hit_def>
+  <Hit_accession>B1XTM0</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>5.91032e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVMIGTDAQVVLKAEYSRSGRNSSVVKMKFKNLLTGAPNEGVYKADDKFDVVILDKKECTYSYFADPMYVFMDGDYNQYEVEAEFMGDALNYLEESM--PCEVVFYEGKALSVAMPNSLVREIIYTEPAVKGDTSSGKVLKNAKLATGYELQVPLFCNTGDKIEIDTRTGEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV M+G D  VV K EY + GR+S+ V MK KNLLTGA +E +YKADDKFDVVIL +K CTYSYFADPMYVFMD ++NQYE+EA+ +GDAL ++ + M   CEV FYEG  +SV +P  +VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRTGE+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|189027905|sp|B0TUS6.1|EFP_SHEHH</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Shewanella halifaxensis HAW-EB4] &gt;gi|189027906|sp|A8H482.1|EFP_SHEPA RecName: Full=Elongation factor P; Short=EF-P [Shewanella pealeana ATCC 700345]</Hit_def>
+  <Hit_accession>B0TUS6</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>5.97498e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAHELRPGNVIMLDGSPWVVQKTETTRSGRNAAIVKLKLKHVLQDSSTESTFKGEDKMEDIILERLDCTYSYFADPMYVFMDAEYNQYDVEAENLGDAAAYIVDGMEENCQVTFYEGKAISVELPTSVVREVTYTEPSARGDTSGKVMKPATITGGGTLSVADFVKTGDMIEIDTRTNEFKKR</Hsp_hseq>
+      <Hsp_midline>MKTA ELR GNV M+   P VVQKTE  + GR++A V +KLK++L  +++E+ +K +DK + +IL R +CTYSYFADPMYVFMD E+NQY++EA+N+GDA  +IVDGME+ C+VTFYEG  ISVELPT +VREV YTEP+ +GDTSGKVMK A + GG  + V  +++ GD +EIDTRT EF+KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|123770059|sp|Q39I66.1|EFP_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39I66</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>6.10716e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDT-SGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKRA</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVVQIGSDAWVIAKAEYNKSGRNSAVVKMKMKNLLTNAGQEAVYKADDKFDVVVLDRKEVTYSYFADPMYVFMDADYNQFEVEAEMMGEALNYLEDGM--ACEVVFYNEKAISVELPTVLVREITYTEPAVKGDTSSGKVLKNAKLATGFELQVPLFCNTGDKIEIDTRTNEYRSRA</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNV  +G+D  V+ K EY K GR+SA V MK+KNLLT A  E +YKADDKFDVV+L RK  TYSYFADPMYVFMD ++NQ+E+EA+ +G+AL ++ DGM   CEV FY    ISVELPT++VRE+ YTEPAVKGDT SGKV+K A+L  G E+QV  +   GDK+EIDTRT E+R RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|51315788|sp|Q82W02.1|EFP_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82W02</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.19258e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKTAQELRVGNVFMLGKDPMVVLKTEFTKSGRNSSVVKMKYKNLLTESPGEAVYKADDKFDIVVLDKKEVNYSYFASPMYVFMDAEFNQYEVEEETMSDALSFLEDGM--PCEVVFYNDKPISVELPNTVVREIIYTEPAIKGDTTGKVLKPAKIPTGFELAVPLFCEIGDKIEIDTRTREYRSR</Hsp_hseq>
+      <Hsp_midline>MKTAQELR GNVFM+G DPMVV KTE+ K GR+S+ V MK KNLLT +  E +YKADDKFD+V+L +K   YSYFA PMYVFMD EFNQYE+E + + DAL F+ DGM   CEV FY   PISVELP  +VRE+ YTEPA+KGDT+GKV+K A++  G E+ V  + E GDK+EIDTRT E+R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|259645804|sp|C5CUK1.1|EFP_VARPS</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Variovorax paradoxus S110]</Hit_def>
+  <Hit_accession>C5CUK1</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.46544e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKIAQEIRAGNVIMHGKDPMVVLKTEYSRGGRNSATVRMKLKSLIANFNTEVVFKADDKIDQIVLDKKECTYSYFADPMYVCMDTEYNQYEVEAENMGDALNYLEDGM--PVEVVFYDGKAISVELPTSVEREITWTEPAVKGDTSGKVLKPAKIATGFEVPVPLFVSQGDKIEIDTRTGEYRKR</Hsp_hseq>
+      <Hsp_midline>MK AQE+RAGNV M G DPMVV KTEY +GGR+SA V MKLK+L+    +E ++KADDK D ++L +K CTYSYFADPMYV MD E+NQYE+EA+N+GDAL ++ DGM    EV FY+G  ISVELPT + RE+ +TEPAVKGDTSGKV+K A++  G E+ V  ++  GDK+EIDTRTGE+RKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|166220192|sp|A1TMP7.1|EFP_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TMP7</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>9.13538e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKIAQEIRAGNVIMHGKDPMIVLKTEYARGGRGAATVRMKLKALLNNMGTEVVFKADDKIDNVILDKKECTYSYFADPMYVCMDAEYNQYEVEAENMGDALNYLEDGM--AVEVVFYDGKAISVELPTSVEREITWTEPAVKGDTSGKVLKPAKIATGFEVAVPLFVNQGDRIEIDTRTGEYRKR</Hsp_hseq>
+      <Hsp_midline>MK AQE+RAGNV M G DPM+V KTEY +GGR +A V MKLK LL    +E ++KADDK D VIL +K CTYSYFADPMYV MD E+NQYE+EA+N+GDAL ++ DGM    EV FY+G  ISVELPT + RE+ +TEPAVKGDTSGKV+K A++  G E+ V  ++  GD++EIDTRTGE+RKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|166220258|sp|A1VMR1.1|EFP_POLNA</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Polaromonas naphthalenivorans CJ2]</Hit_def>
+  <Hit_accession>A1VMR1</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.432</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>2.65329e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MKTAQELRAGNVFMVGNDPMVVQKTEYIKGGRSSAKVSMKLKNLLTGAASETIYKADDKFDVVILSRKNCTYSYFADPMYVFMDEEFNQYEIEADNIGDALKFIVDGMEDQCEVTFYEGNPISVELPTIIVREVEYTEPAVKGDTSGKVMKTARLVGGTEIQVMSYIENGDKVEIDTRTGEFRKR</Hsp_qseq>
+      <Hsp_hseq>MKIAQEIRAGNVIMNGKDPMVVLKTEYSRGGRNSATVRMKLKSLIANFNTEVVFKADDKIDQVILDKKECTYSYFADPMYICMDTEYNQYEVEAENMGDSLNYLQDGME--LEVVFYDGKAISVEVPTSVQREITWTEPAVKGDTSGKVLKPAKLATGFEIGVPIFVAQGDVVEIDTRTGEYRKR</Hsp_hseq>
+      <Hsp_midline>MK AQE+RAGNV M G DPMVV KTEY +GGR+SA V MKLK+L+    +E ++KADDK D VIL +K CTYSYFADPMY+ MD E+NQYE+EA+N+GD+L ++ DGME   EV FY+G  ISVE+PT + RE+ +TEPAVKGDTSGKV+K A+L  G EI V  ++  GD VEIDTRTGE+RKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>5171</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>333</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>5171</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>333</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|130250|sp|P20665.1|PIV_MORBO</Hit_id>
+  <Hit_def>RecName: Full=Pilin gene-inverting protein; AltName: Full=PIVML</Hit_def>
+  <Hit_accession>P20665</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>1.20294e-44</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>VGLDISKLTFDATAIVGNAEYSAKFDNDSKGLDQFSDRLKS--LGCQNLHICMEATGNYYEEVADY-FAQYYSVYVVNPLKISKYAESRFKRTKTDKQDAKLIAQYCRSAQESELVKRQKPTDEQYRLSRMTAAYAQIKSECAAMKNRHHAAKDEEAAKAYA-----EIIKAMNEQLEVLKEKIKEQTE-KPNCKEGVKRLETIPAIGRMTAAVLFHHL-TSSKFETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVAY--RIRAFPDFIKRLEEKKKPKKVIIAALMRKLAVIAYHVHKKGGDYD</Hsp_qseq>
+      <Hsp_hseq>IGIDIAKNTFDACFIAHNTWQNCTFTNNQQGFMELTLWIQAHHYNTSTLHLIIEATGTYWEKLAHWAISHHHKVSIVNPLYIHAYAKSLGIRTKTDKQDAILLARY--GAKENPPLWQPK-SDNEIKLTALLKQREHHKRQLIKERTR------QEALSIYVKSYTDDNIRHWSDSITQLDHQIWQLINCTPELNHRASLLATIPGIGKKTLPHLLVAIGDGSSFQSAKHLASYAGLAPRHHQSGISIHKQSSIGFSGQKELRSALFMPAVIVSFGRYPAFQKFVKRMEQKGKTKKQIIIAIMRKLLTISYAVIRQNRPFD</Hsp_hseq>
+      <Hsp_midline>+G+DI+K TFDA  I  N   +  F N+ +G  + +  +++       LH+ +EATG Y+E++A +  + ++ V +VNPL I  YA+S   RTKTDKQDA L+A+Y   A+E+  + + K +D + +L+ +       K +    + R      +EA   Y      + I+  ++ +  L  +I +     P        L TIP IG+ T   L   +   S F+++   A++AGL+P+  +SG S+  +  +   G ++LR+ LFMPA++    R  AF  F+KR+E+K K KK II A+MRKL  I+Y V ++   +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|130251|sp|P19257.1|PIV_MORLA</Hit_id>
+  <Hit_def>RecName: Full=Pilin gene-inverting protein; AltName: Full=PIVML</Hit_def>
+  <Hit_accession>P19257</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>5.91291e-44</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>VGLDISKLTFDATAIVGNAEYSAKFDNDSKGLDQFSDRLKS--LGCQNLHICMEATGNYYEEVADY-FAQYYSVYVVNPLKISKYAESRFKRTKTDKQDAKLIAQYCRSAQESELVKRQKPTDEQYRLSRMTAAYAQIKSECAAMKNRHHAAKDEEAAKAYA-----EIIKAMNEQLEVLKEKIKEQTE-KPNCKEGVKRLETIPAIGRMTAAVLFHHL-TSSKFETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVAY--RIRAFPDFIKRLEEKKKPKKVIIAALMRKLAVIAYHVHKKGGDYD</Hsp_qseq>
+      <Hsp_hseq>IGIDIAKNTFDACFITHNTWQNCTFTNNQQGFIELTLWIQAHHYNTSTLHLIIEATGAYWEKLAHWAISHHHKVSIVNPLYIHAYAKSLGIRTKTDKQDAILLARY--GAKENPPLWQPK-SDNEIKLTALLKQREHHKRQLIKERTR------QEALSIYVKSYTDDNIRHWSDSITQLDHQIWQLINCTPELNYRASLLATIPGIGKKTLPHLLVVIGDGSSFQSAKHLASYAGLAPRHHQSGISIHKQSSIGFSGQKELRSALFMPAVIVSFGRYPAFQKFVKRMEQKGKTKKQIIIAIMRKLLTISYAVIRQNRPFD</Hsp_hseq>
+      <Hsp_midline>+G+DI+K TFDA  I  N   +  F N+ +G  + +  +++       LH+ +EATG Y+E++A +  + ++ V +VNPL I  YA+S   RTKTDKQDA L+A+Y   A+E+  + + K +D + +L+ +       K +    + R      +EA   Y      + I+  ++ +  L  +I +     P        L TIP IG+ T   L   +   S F+++   A++AGL+P+  +SG S+  +  +   G ++LR+ LFMPA++    R  AF  F+KR+E+K K KK II A+MRKL  I+Y V ++   +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2497375|sp|P55615.1|Y4PF_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Putative transposase y4pF/y4sB [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55615</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.34496e-08</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>QLEVLKEKIKEQTEKPNCKEGVKRLETIPAIGRMTAAVLFHHLTSSK-FETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVAY------RIRAFPDFIKRLEEKKKPKKVIIAALMRKLAVIAYHVHKKGGDY</Hsp_qseq>
+      <Hsp_hseq>QIKTLDEKLMKLHRADECS---KRLAEIPGVGPIGASLLLMKTPDPRMFKSGRDFAAWIGLTPKDHSTAGKVR-LGVITRAGDEMLRSILVVGATSLLQQVRTGRSRHASAWLMGLLQRKRPKLVAV-ALANKLARIAWKLMTSGESY</Hsp_hseq>
+      <Hsp_midline>Q++ L EK+ +      C    KRL  IP +G + A++L       + F++   FAA+ GL+P+   +   VR  G +T+ G+  LR++L + A          R R    ++  L ++K+PK V + AL  KLA IA+ +   G  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|140939|sp|P19780.1|YIS1_STRCO</Hit_id>
+  <Hit_def>RecName: Full=Insertion element IS110 uncharacterized 43.6 kDa protein [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>P19780</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.06503e-06</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AYAEIIKAMNEQLEVLKEKIKEQTEKPNCKEGVKRLETIPAIGRMTAAVLFHHL-TSSKFETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPA</Hsp_qseq>
+      <Hsp_hseq>SLASSLTAVHEQRRALEAQINALLEAHPLS---PVLTSMPGVGVRTAAVLLVTVGDGTSFPTAAHLASYAGLAPTTKSSGTSIHGE-HAPRGGNRQLKRAMFLSA</Hsp_hseq>
+      <Hsp_midline>+ A  + A++EQ   L+ +I    E          L ++P +G  TAAVL   +   + F T+   A++AGL+P  K SGTS+ G+    + GNR+L+  +F+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2496657|sp|P55498.1|Y4IO_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein y4iO</Hit_def>
+  <Hit_accession>P55498</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.93001e-05</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MNEQLEVLKEKIKEQTEKPNCKEGVKRLETIPAIGRMTAAVLFHHLTSSKFETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVAYRIRAFPDFIKRLEEK-----KKPKKVIIAALMRKLAVIAY</Hsp_qseq>
+      <Hsp_hseq>VNEQIKAVETERDAQCAKVDGTAPQAMLKAIKGIGAEFANILASEGLFRQFDNRRQIAAYAGLAPSPWRSGSIDREQG-VSKAGNPRLRTMMIQLAWLWLRHQPGSALTRWFYERISHSGGRGKKVAIVALARKLLVALW</Hsp_hseq>
+      <Hsp_midline>+NEQ++ ++ +   Q  K +       L+ I  IG   A +L       +F+   + AA+AGL+P    SG+  R +G ++K GN +LR ++   A +  R +      +   E+      + KKV I AL RKL V  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|218511870|sp|Q45968.2|TRA1_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Transposase for insertion sequence element IS1111A [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q45968</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>5.03604e-05</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>VGLDISKLTFDATAI--VGNAEYSAKFDNDSKGLDQFSDRLKSL--GCQNLHICMEATGNYYEEVADYFAQYYSVYVVNPLKISKYAESRFKRTKTDKQDAKLIAQYCRSAQESELVKRQKPTDEQYRL-------SRMTAAYAQIKSECAAMKNRHHAAKDEEAAKAYAEIIKAMNEQLEVLKEKIKEQ-----TEKPNCKEGV-----------------KRLETIPAIGRMTAAVLFHHLTS-SKFETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVAYR</Hsp_qseq>
+      <Hsp_hseq>LGVDIAKDVFQLCGIDEWGKVIYTRRVKRA-----QYVSTVASLKVGC----VVMEACGGANHWYRTFMGMGIPTQLISPQHVKPYVKS----NKNDRNDAQAIAE---AASRASMRFVQGKTVEQQDVQALLKIRDRLVKSRTALINEIRGLLQEYGLTMARGAKRFYEELPLILASEAVGLTPRMKRVLNCLYTELLNRDEAIGDYEEELKAVAKANEDCQRVQSIPGVGYLTALSVYASVGDIHQFHRSRQLSAFIGLVPRQHSSGNKEVLLG-ISKRGNVMLRTLLIHGARALLR</Hsp_hseq>
+      <Hsp_midline>+G+DI+K  F    I   G   Y+ +         Q+   + SL  GC    + MEA G        +        +++P  +  Y +S     K D+ DA+ IA+   +A  + +   Q  T EQ  +        R+  +   + +E   +   +       A + Y E+   +  +   L  ++K       TE  N  E +                 +R+++IP +G +TA  ++  +    +F  S + +AF GL P+Q  SG      G ++K GN  LR +L   A    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2497377|sp|P55643.1|Y4RJ_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Putative transposase y4rJ [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55643</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00345658</Hsp_evalue>
+      <Hsp_query-from>209</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LETIPAIGRMTAAVLFHHLTSSKFETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVAYR</Hsp_qseq>
+      <Hsp_hseq>LLALKGIGPEFAAVLWSEGLSRHFDNRRQVAAYAGLAPTPWQSGSVDHDQG-VSKAGNPRLRTTLIQGAWLWLR</Hsp_hseq>
+      <Hsp_midline>L  +  IG   AAVL+    S  F+   + AA+AGL+P   +SG+    +G ++K GN +LR  L   A +  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81621969|sp|Q9HI37.1|TPF20_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Probable family 20 transposase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HI37</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00489049</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>VGLDISKLTFDATAIVGNAEYSAKFDNDSKGLDQFSDRLKSLGCQNLHICMEATGNYYEEVADYFAQYYSVYVVNPLKISKYAESRFKRTKTDKQDAKLIAQYCRSAQESEL----VK--RQKPTDEQYRL-SRMTAAYAQIKSEC----------AAMKNRHHAAKDEEAAKA---------YAEIIKAMNEQLEVLKEKIK--EQTEKPNCKEG--VKRLETIPAIGRMTAAVLFHHLTSSK-FETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVAYRIRAF-PDFIKRLEE---KKKPKKVIIAALMRKLAVIAYHVHKKGGDYDPS</Hsp_qseq>
+      <Hsp_hseq>IGLDLAKQVFQVHGVDRHEHVVCRRQLKRAQVRDFFRQLPP--CL---VAMEACGSAHYWARELRELGHTVRLIAPQFVKPY-------VKGDKHDAHDAEAICEAASRPSMRYVPVKSAEQQAVQSMHRVRSRLVRARTALCNEVRGLLGEFGLIATRRGRAATMALLETVMATEPAPLPAPMGELLRELKDELQTLEARIARLERQIQAHVRGDARIQRLLAVEGIGPISASAVAASAGDARQFRTGRQFAAWLGLVPRQHSTGGQQR-LGNISKRGDTYLRTLLIHGARAVVRCCANKTDARSRWLQGLLQRRPANVVAVALANKNARILWALLSRETCYRPG</Hsp_hseq>
+      <Hsp_midline>+GLD++K  F    +  +     +       +  F  +L    C    + MEA G+ +    +     ++V ++ P  +  Y        K DK DA      C +A    +    VK   Q+     +R+ SR+  A   + +E           A  + R       E   A           E+++ + ++L+ L+ +I   E+  + + +    ++RL  +  IG ++A+ +      ++ F T  +FAA+ GL P+Q  +G   R  G ++K G+  LR +L   A    R  A   D   R  +   +++P  V+  AL  K A I + +  +   Y P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|82237696|sp|Q6PCR7.1|EIF3A_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Eukaryotic translation initiation factor 3 subunit A; Short=eIF3a; AltName: Full=Eukaryotic translation initiation factor 3 subunit 10; AltName: Full=eIF-3-theta [Danio rerio]</Hit_def>
+  <Hit_accession>Q6PCR7</Hit_accession>
+  <Hit_len>1267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0864104</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>588</Hsp_hit-from>
+      <Hsp_hit-to>799</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>KRTKTDKQDAKLIAQYCRSAQESELVKRQKPTDEQYRLSRMTAAYAQIKSECAAMKNRHHAAKDEEAAKAYAEI-----------------IKAMNEQLEVLKEKIKEQTEKPNCKEGVKRLETIPAIGRM-----TAAVLFHHLTSSKFETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVAYRIRAFPDFIKRLEEKKKPKK</Hsp_qseq>
+      <Hsp_hseq>QREKEELEQREAELQKVRKAEEERLRQEAKEREKE----RIMQEHEQIKKK-TVRERLEQIKKTELGAKAFKDIDIEDLEELDPDFIMAKQVEQLEKEKKELQERLKNQEKKIDYFERAKRLEEIPLIKKAYEEQRIKDMELWELQEEERITNMKMEREKALEHKQRMSRMMEDKENFLSKI--KAARSFIYEEKLKQFQERLVEERKKRLEERKKQRK</Hsp_hseq>
+      <Hsp_midline>+R K + +  +   Q  R A+E  L +  K  +++    R+   + QIK +    +      K E  AKA+ +I                 ++ + ++ + L+E++K Q +K +  E  KRLE IP I +         +    L   +  T+ K      L  +Q+ S      +  L+K   +  R+ ++   +  ++ R   +  KRLEE+KK +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|140805|sp|P19834.1|YI11_STRC2</Hit_id>
+  <Hit_def>RecName: Full=Insertion element IS116 uncharacterized 44.8 kDa protein [Streptomyces clavuligerus ATCC 27064]</Hit_def>
+  <Hit_accession>P19834</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.336491</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MNEQLEVLKEKIK----EQTEKPNCKEGVKRLETIPAIGRMTAAVLFHHLTS-SKFETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVA</Hsp_qseq>
+      <Hsp_hseq>LAHQLLALDERIKDNDREIRETFRTDDRAEIIESMPGMGPVLGAEFVAIVGDLSGYKDAGRLASHAGLAPVPRDSGRRTGNYHRPQRY-NRRLRWLFYMSAQTA</Hsp_hseq>
+      <Hsp_midline>+  QL  L E+IK    E  E     +  + +E++P +G +  A     +   S ++ + + A+ AGL+P  ++SG       +  ++ NR+LR + +M A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|140842|sp|P14322.1|YI90_MYCPC</Hit_id>
+  <Hit_def>RecName: Full=Insertion element IS900 uncharacterized 42 kDa protein [Mycobacterium avium subsp. paratuberculosis]</Hit_def>
+  <Hit_accession>P14322</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.68372</Hsp_evalue>
+      <Hsp_query-from>230</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>SKFETSNKFAAFAGLSPQQKESGTSVRGKGKLTKFGNRKLRAVLFMPAMVAYRIRAFPD----FIKRLEEKKKPKKVIIAALMRKLAVI</Hsp_qseq>
+      <Hsp_hseq>AAFASADRLAGVAGLAPVPRDSG-RISGNLKRPRRYDRRLLRACYLSALVS--IRTDPSSRTYYDRKRTEGKRHTQAVLALARRRLNVL</Hsp_hseq>
+      <Hsp_midline>+ F ++++ A  AGL+P  ++SG  + G  K  +  +R+L    ++ A+V+  IR  P     + ++  E K+  + ++A   R+L V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|226737066|sp|B7KFP0.1|SYH_CYAP7</Hit_id>
+  <Hit_def>RecName: Full=Histidine--tRNA ligase; AltName: Full=Histidyl-tRNA synthetase; Short=HisRS [Cyanothece sp. PCC 7424]</Hit_def>
+  <Hit_accession>B7KFP0</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.98853</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>IVGNAEYSAKFDNDSKGLDQFSDRLKSLGCQNLHICMEATG------NYYEEVADYFAQYYSVYVV--------NPLKISKYAESRFKRTKTDKQDAKLIAQYC</Hsp_qseq>
+      <Hsp_hseq>LLGSGDYRA----DVEVIALATDILQTLGLKNLKLDLNSVGNREDRQNYRQALVDYLTPYKAQLDPDSQDRLERNPLRI---LDSKDERTKIICQDAPSILEYL</Hsp_hseq>
+      <Hsp_midline>++G+ +Y A    D + +   +D L++LG +NL + + + G      NY + + DY   Y +            NPL+I    +S+ +RTK   QDA  I +Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|74626842|sp|O74324.1|YH04_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein C1685.04 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O74324</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.91763</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>TKTDKQDAKLIAQYCRSAQESELVKRQKPTDEQYRLSRMTAAYAQIKSECAAMKNRHHAAKDEEAAKAYAEIIKAMNEQLEVLKEKIKEQTEKPNCKEGVKRLET</Hsp_qseq>
+      <Hsp_hseq>TRIRKAIAEQLQLWCQACQENADLYRSQQRKLKSRWDSQTDILSQIESTKASLAEVHKA---EEISNLKTSITH-LDEEIQILQEKLAIVTNQRNT--LVKRLQT</Hsp_hseq>
+      <Hsp_midline>T+  K  A+ +  +C++ QE+  + R +    + R    T   +QI+S  A++   H A   EE +     I   ++E++++L+EK+   T + N    VKRL+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

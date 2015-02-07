@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>59653</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>59653</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|18202230|sp|O86236.1|Y132A_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transposase-like protein HI_1328.1 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>O86236</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>2.99628e-32</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>RAYTVAADDAEPETLLPAVKKKIMPDGIVYADSPGSRGKLDAGGFTRCRINRSKEFADRRNHINGIGNFWNQAKRALRKYNGIDRKPFPPLLRECEFRLNFGTPSRQLKILRD</Hsp_qseq>
+      <Hsp_hseq>KVYTVVVPNVQSATLLPIIREKVKPDSIVYTDTFRSYDVLDVSEFSHFRINHSTHFAENHNYINGIGNFWNHAKRHLQKFNGIPKEHFELYLKECEWRFNNSEIKSQISILKQ</Hsp_hseq>
+      <Hsp_midline>+ YTV   + +  TLLP +++K+ PD IVY D+  S   LD   F+  RIN S  FA+  N+INGIGNFWN AKR L+K+NGI ++ F   L+ECE+R N      Q+ IL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|363548442|sp|Q6PBX5.2|MTND_DANRE</Hit_id>
+  <Hit_def>RecName: Full=1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase; AltName: Full=Acireductone dioxygenase (Fe(2+)-requiring); Short=ARD; Short=Fe-ARD; AltName: Full=Membrane-type 1 matrix metalloproteinase cytoplasmic tail-binding protein 1; Short=MTCBP-1 [Danio rerio]</Hit_def>
+  <Hit_accession>Q6PBX5</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0577594</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>ITHCKLKKEV-QKEPLRSFVPEVTARSAADILGIHPDSAALFYRKIRTVTNHRLALAADEVFECPAGPGGSYFGGRRKGGRG-RGAAGKAVVFGIPKRNGRAYTV</Hsp_qseq>
+      <Hsp_hseq>VFHWKLNADIYENDPELQKIREEKGYSFMDIITIHPDKLPDYQNKLKMFYEEHLHL-DDEIRYILE--GSSYFDVRDEGDRWIRIAVSKGDLITLPAGIYHRFTV</Hsp_hseq>
+      <Hsp_midline>+ H KL  ++ + +P    + E    S  DI+ IHPD    +  K++      L L  DE+       G SYF  R +G R  R A  K  +  +P      +TV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|82074933|sp|Q5F339.1|CCHL_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c-type heme lyase; Short=CCHL; AltName: Full=Holocytochrome c-type synthase [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5F339</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.03727</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>EVTARSAADILGIHPDSAALFYRKIRTVTNHRLALAADEVFECPAGPGGSYFGGRRKGGRGRGAAGKAVVFGIP</Hsp_qseq>
+      <Hsp_hseq>DITSEDMTNIIKIHNQNNEQAWKEI-------LKWEALHAMECPCGPSLMRFGGKAKEYSPRARIRSWMGYELP</Hsp_hseq>
+      <Hsp_midline>++T+    +I+ IH  +    +++I       L   A    ECP GP    FGG+ K    R      + + +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|90101301|sp|Q4JUY8.3|FPG_CORJK</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Corynebacterium jeikeium K411]</Hit_def>
+  <Hit_accession>Q4JUY8</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.49472</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MKITHCKLKKEVQKEPLRSFVPEVTARSAADILGIHPD-SAALFYRKIRTVTNHRLALAADEVFECPAGPGGSYF</Hsp_qseq>
+      <Hsp_hseq>MKSKRAAVKTVLLNQEVVSGIGNIYADEALFLAGVRPRRSAALLSRP----TLHRVLQSAAEVMECALEQGGTSF</Hsp_hseq>
+      <Hsp_midline>MK     +K  +  + + S +  + A  A  + G+ P  SAAL  R     T HR+  +A EV EC    GG+ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|68067949|sp|P04137.2|YIH50_HALSA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein in transposable element ISH50 [Halobacterium sp. NRC-1]</Hit_def>
+  <Hit_accession>P04137</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.95704</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>GRGRGAAGKAVVFGIPKR-NGRAYTVAADDAEPETLLPAVKKKIMPDGIVYADSPGSRGKLDAG-GFTRCRINRSK-EFADRRNHINGIGNFWNQAKRALRKYNGIDRKPFPPLLRECEFR</Hsp_qseq>
+      <Hsp_hseq>GRGTYAEDKLPVFVLADRGTGERHVIPAKAATESRIRLLLADRQQESLTVYTDGFRAYDPLDEDDAFTREYVVHGDGEYVNGDVHVNTCESHASLARRWLSPHRGVSKDRLTPYLRAFQLR</Hsp_hseq>
+      <Hsp_midline>GRG  A  K  VF +  R  G  + + A  A    +   +  +      VY D   +   LD    FTR  +     E+ +   H+N   +  + A+R L  + G+ +    P LR  + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123279971|sp|Q24W37.1|RIMO_DESHY</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein S12 methylthiotransferase RimO; Short=S12 MTTase; Short=S12 methylthiotransferase; AltName: Full=Ribosomal protein S12 (aspartate-C(3))-methylthiotransferase; AltName: Full=Ribosome maturation factor RimO [Desulfitobacterium hafniense Y51]</Hit_def>
+  <Hit_accession>Q24W37</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.49437</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>410</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>DGIVYADSPGSRGKLDAGGFTRCRINRSKEF</Hsp_qseq>
+      <Hsp_hseq>DGVVYVDSP---GELEIGDFVLVKITRADSY</Hsp_hseq>
+      <Hsp_midline>DG+VY DSP   G+L+ G F   +I R+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|187471031|sp|A5WEG6.1|CYSG_PSYWF</Hit_id>
+  <Hit_def>RecName: Full=Siroheme synthase; Includes: RecName: Full=Uroporphyrinogen-III C-methyltransferase; Short=Urogen III methylase; AltName: Full=SUMT; AltName: Full=Uroporphyrinogen III methylase; Short=UROM; Includes: RecName: Full=Precorrin-2 dehydrogenase; Includes: RecName: Full=Sirohydrochlorin ferrochelatase [Psychrobacter sp. PRwf-1]</Hit_def>
+  <Hit_accession>A5WEG6</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.86964</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>PKRNGRAYTVAADDAEPETLLPAVKKKIMPDGIVYADSPGSRGKLDAGGFTRCRINRSKEFA--DRRNH</Hsp_qseq>
+      <Hsp_hseq>PKSVGEVYIVGAGPGDPELLTFKALRLMQQADIVYYDALVSREVLDL-----CRRDADKVFVGKKRSNH</Hsp_hseq>
+      <Hsp_midline>PK  G  Y V A   +PE L     + +    IVY D+  SR  LD      CR +  K F    R NH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|74572049|sp|Q6KZN3.1|ENO_PICTO</Hit_id>
+  <Hit_def>RecName: Full=Enolase; AltName: Full=2-phospho-D-glycerate hydro-lyase; AltName: Full=2-phosphoglycerate dehydratase [Picrophilus torridus DSM 9790]</Hit_def>
+  <Hit_accession>Q6KZN3</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.9731</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>NGIGNFWNQAKRALRKYNGIDRKPFPPLLRECEFRLNF</Hsp_qseq>
+      <Hsp_hseq>NGIDFFYRHVKKALKGFNSINQEGLDRMLHEIDGTDNF</Hsp_hseq>
+      <Hsp_midline>NGI  F+   K+AL+ +N I+++    +L E +   NF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

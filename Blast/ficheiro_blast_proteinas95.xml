@@ -1,0 +1,910 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>55543</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>222</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>55543</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>222</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|6225563|sp|O33611.1|IMD_STRAJ</Hit_id>
+  <Hit_def>RecName: Full=Inhibition of morphological differentiation protein [Streptomyces azureus]</Hit_def>
+  <Hit_accession>O33611</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.23503e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>KNLAIFDLDNTLINTDSDHAWPQYLIKKGLVDA-AETEAQNEKFYRDYQNGCLDIDAF--LKLHLAPLAR-YSKEELAEFHREFMAEYIIPHISPMQRMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLETGPDGRYTGN---YIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVSEPVAVNPDAELEKEAKEKGWPVLNF</Hsp_qseq>
+      <Hsp_hseq>RTAAFFDLDKTVIAKSSTLTFSKSFYQGGLINRRAVLRTAYAQFV--FLAGGADHDQMERMRAYLSALCRGWNVQQVKEIVAETLHDLIDPIIYDEAASLIEEHHTAGRDVVIVSTSGAEVVEPIGELLGADRVVATRMVVGDDGCFTGEVEYYAYGPTKAEA----IRELAASEGYDLS---RCYAYSDSATDVPMLESVGRPHAVNPDRALRREALARGWPILDF</Hsp_hseq>
+      <Hsp_midline>+  A FDLD T+I   S   + +   + GL++  A       +F   +  G  D D    ++ +L+ L R ++ +++ E   E + + I P I      L++ H  AG + +++S++   ++ P+  L G   ++ T++  G DG +TG    Y   P+  E     + +  A  G  L    + Y YSDS  D+P+L  V  P AVNPD  L +EA  +GWP+L+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|614101647|sp|P9WGJ0.1|Y3661_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MT3761 [Mycobacterium tuberculosis CDC1551] &gt;gi|614101653|sp|P9WGJ1.1|Y3661_MYCTU RecName: Full=Uncharacterized protein Rv3661 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WGJ0</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>2.30234e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>KNLAIFDLDNTLINTDSDHAWPQYLIKKGLVDA-AETEAQNEKFYRDYQNGCLDIDAFLKLHLAPL-ARYSKEELAEFHREFMAEYIIPHISPMQRMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVSEPVAVNPDAELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>RTAAFFDLDKTIIAKSSTLAFSKPFFAQGLLNRRAVLKSSYAQFIFLLSGADHDQMDRMRTHLTNMCAGWDVAQVRSIVNETLHDIVTPLVFAEAADLIAAHKLCGRDVVVVSASGEEIVGPIARALGATHAMATRMIV-EDGKYTGE-VAFYCYGEGKAQAIRELAASEGYPLE---HCYAYSDSITDLPMLEAVGHASVVNPDRGLRKEASVRGWPVLSFS</Hsp_hseq>
+      <Hsp_midline>+  A FDLD T+I   S  A+ +    +GL++  A  ++   +F         D    ++ HL  + A +   ++     E + + + P +      L+ +H++ G + +V+S++ E I+ P+ R  G  + + T++    DG+YTG  +      EGK   + +  A  G  LE     Y YSDS  DLP+L  V     VNPD  L KEA  +GWPVL+F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|54039947|sp|P66802.1|Y517_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Putative hydrolase Mb0517c [Mycobacterium bovis AF2122/97] &gt;gi|614102121|sp|P9WGJ2.1|Y505_MYCTO RecName: Full=Putative hydrolase MT0526 [Mycobacterium tuberculosis CDC1551] &gt;gi|614102125|sp|P9WGJ3.1|Y505_MYCTU RecName: Full=Putative hydrolase Rv0505c [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P66802</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.55616e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>AIFDLDNTLINTDS------DHAWPQYLIKKGLVDAAETEAQNEKFYRDYQNGCLDIDAFLKLHLAPLARYSKEELAEFHREFMAEYIIPHISPMQRMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVSEPVAVNPDAELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>AFFDVDNTLVQGSSAVHFGRGLAARHYFTYRDVLGFLYAQAKFQLLGKENSN---DVAAGRRKALAFIEGRSVAELVALGEEIYDEIIADKIWDGTRELTQMHLDAGQQVWLITATPYELAATIARRLGLTGALGTVAES-VDGIFTGRLVGEILHGTGKAHAVRSLAIREGLNLK---RCTAYSDSYNDVPMLSLVGTAVAINPDARLRSLARERGWEIRDFR</Hsp_hseq>
+      <Hsp_midline>A FD+DNTL+   S        A   Y   + ++     +A+ +   ++  N   D+ A  +  LA +   S  EL     E   E I   I    R L Q H  AG +  +I++T   +   + R  G+   +GT  E+  DG +TG  +G      GK   +       G  L+   +   YSDS ND+P+L LV   VA+NPDA L   A+E+GW + +F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|15214343|sp|Q49823.1|Y2424_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Putative hydrolase ML2424 [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>Q49823</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>4.57673e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>AIFDLDNTLINTDSDHAWPQYLIKKGLV---DAAETEAQNEKFYRDYQNGCLDIDAFLKLHLAPLARYSKEELAEFHREFMAEYIIPHISPMQRMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVSEPVAVNPDAELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>AFFDVDNTLVQGSSAVHFGRGLAARDYFTYRDVLGFIYAQAKFQLLGKENSQDVAAGQRKALAFIEGRSVEQLVALGEEIYDEIIADKIWAGTRQLTQIHLDAGQQVWLITATPYELAATIARRLGLTGALGTVAES-VDGIFTGRLVDELLHGVGKAHAVRSLAIREGLNLK---RCTAYSDSYNDVPMLSLVGTAVAINPDAQLRSLARERGWEIRDFR</Hsp_hseq>
+      <Hsp_midline>A FD+DNTL+   S   + + L  +      D         KF    +    D+ A  +  LA +   S E+L     E   E I   I    R L Q H  AG +  +I++T   +   + R  G+   +GT  E+  DG +TG  +       GK   +       G  L+   +   YSDS ND+P+L LV   VA+NPDA+L   A+E+GW + +F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|239977088|sp|B8GX15.1|CICA_CAUCN</Hit_id>
+  <Hit_def>RecName: Full=Protein CicA [Caulobacter crescentus NA1000] &gt;gi|239977089|sp|P0CAV6.1|CICA_CAUCR RecName: Full=Protein CicA [Caulobacter crescentus CB15]</Hit_def>
+  <Hit_accession>B8GX15</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00136387</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>REFMAEYIIPHISPMQRMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVSE</Hsp_qseq>
+      <Hsp_hseq>RAFAEAFAPSLLRPDAVAVWRGWRAKGAKMVIVTASPDLIVAPFARGLGADLLIGTRLRCSDDGRILGGLDGNNCRAKEKVIRLREVFGPDVRLTAAYG------DTSGDTEMLAIADE</Hsp_hseq>
+      <Hsp_midline>R F   +    + P    + +  +  G + ++++++ + I+ P  R  G   +IGT+L    DGR  G   G     + K+ RL +          +YG      D+  D  +L +  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|82070474|sp|O73884.1|PHOP1_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Phosphoethanolamine/phosphocholine phosphatase; AltName: Full=3X11A [Gallus gallus]</Hit_def>
+  <Hit_accession>O73884</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0281797</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>KNLAIFDLDNTLINTDSDHAWPQYLIKKGLVDAAETEAQNEKFYRDYQNGCLDIDAFLKLHLAPLARYSKEE---LAEFHREFMAEYIIPHISPMQRMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLETGPD-----GRYT-GNYIGTPSL----KEGKITRLNQWLAERGETLESYGKTYFYSDSKNDL-PLLRLVSEPVA</Hsp_qseq>
+      <Hsp_hseq>KYLLVFDFDGTIINESSDDS---------IVRAAPGQALPEHIRQSFREG------FYNEYMQRVLAYMGDQGVKMGDFKAVYENIPLSPGMPDLFQFLSKNHELF--EIILISDANMFGIECKLRAAGFYSLF-RKIFSNPSSFDKRGYFTLGPYHSHKCLDCPANTCKRKILTEYLAERAQEEVEFERVFYVGDGANDFCPSVTLTSADVA</Hsp_hseq>
+      <Hsp_midline>K L +FD D T+IN  SD +         +V AA  +A  E   + ++ G      F   ++  +  Y  ++   + +F   +    + P +  + + L ++H++   E ++IS  N F I    R  G  ++   ++ + P      G +T G Y     L       K   L ++LAER +    + + ++  D  ND  P + L S  VA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|313471464|sp|A0QJI1.1|SERB_MYCA1</Hit_id>
+  <Hit_def>RecName: Full=Phosphoserine phosphatase; Short=PSP; Short=PSPase; AltName: Full=O-phosphoserine phosphohydrolase [Mycobacterium avium 104]</Hit_def>
+  <Hit_accession>A0QJI1</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.165762</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KNLAIFDLDNTLINTDSDHAWPQYLIKKGLVDAAETEAQNEKFYRDYQNGCLDIDAFLKLHLAPLARYSKEELAEFHREFMAEYIIPHISPMQRMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVSEPVAVNPDAELEKEA</Hsp_qseq>
+      <Hsp_hseq>KRLIVFDVDSTLV---------QGEVIEMLAAKAGAEGQVAAITDAAMRGELDFAQSLQQRVATLAGLPATVIDEVAGQL-------ELMPGARTTLRTLRRLGYACGVVSGGFRRIIEPLAEELMLDYVAANELEI-VDGTLTGRVVGPIIDRAGKATALREFAQRAGVPM---AQTVAVGDGANDIDMLAAAGLGIAFNAKPALREVA</Hsp_hseq>
+      <Hsp_midline>K L +FD+D+TL+         Q  + + L   A  E Q          G LD    L+  +A LA      + E   +         + P  R  +++ +  G    V+S     II P+     +  +   +LE   DG  TG  +G    + GK T L ++    G  +    +T    D  ND+ +L      +A N    L + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1173173|sp|P03523.2|L_VSIVA</Hit_id>
+  <Hit_def>RecName: Full=RNA-directed RNA polymerase L; Short=Protein L; AltName: Full=Large structural protein; AltName: Full=Replicase; AltName: Full=Transcriptase; Includes: RecName: Full=RNA-directed RNA polymerase; Includes: RecName: Full=mRNA (guanine-N(7)-)-methyltransferase; Includes: RecName: Full=mRNA guanylyltransferase [Vesicular stomatitis Indiana virus strain San Juan]</Hit_def>
+  <Hit_accession>P03523</Hit_accession>
+  <Hit_len>2109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.170892</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>492</Hsp_hit-from>
+      <Hsp_hit-to>693</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>KKGLVDAAETEAQNEK-FYRDYQNGCLDIDAFL--------KLHLAPLARYSKEELAEFHREF-MAEYIIP-HISPMQRMLVQSHQMAGDETLVI-----SSTNEFIIT--PVCRLFGIANMIG--------TQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDL------PLLRLVSEPVAVNPDAELEKEAKEKGWPVLNF</Hsp_qseq>
+      <Hsp_hseq>KKVLQTMLDTKATNWKEFLKEIDEKGLDDDDLIIGLKGKERELKLA--GRFFSLMSWKFPEYFVITEYLIKTHFVPMFKGLT----MADDLTAVIKKMLDSSSGQGLKSYEAIC----IANHIDYEKWNNHQRKLSNGPVFRVMGQFLGYPSLIE--------------RTHEFFEKSLIYYNGRPDLMRVHNNTLINSTSQPVCWQGQEGGLEGLRQKGWTILNL</Hsp_hseq>
+      <Hsp_midline>KK L    +T+A N K F ++     LD D  +        +L LA   R+      +F   F + EY+I  H  PM + L     MA D T VI     SS+ + + +   +C    IAN I          +L  GP  R  G ++G PSL E               T E + K+  Y + + DL       L+   S+PV         +  ++KGW +LN </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|74715842|sp|Q8TCT1.1|PHOP1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Phosphoethanolamine/phosphocholine phosphatase [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8TCT1</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.337745</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>LAIFDLDNTLINTDSDHAWPQYLIKKGLVDAAETEAQNEKFYRDYQNGCLDIDAFLKLHLAPLARYSKEELAEFHREFMAEYIIPHISPMQRMLVQ--SHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLE--TGPDGR--------YTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVS</Hsp_qseq>
+      <Hsp_hseq>LLTFDFDETIVDENSDDS---------IVRAAPGQRLPESLRATYREG------FYNEYMQRVFKYLGEQGVR-PRDLSAIYEAIPLSPGMSDLLQFVAKQGACFEVILISDANTFGVESSLRAAGHHSLFRRILSNPSGPDARGLLALRPFHTHSCARCPA-NMCKHKVLSDYLRERAHDGVHFERLFYVGDGANDFCPMGLLA</Hsp_hseq>
+      <Hsp_midline>L  FD D T+++ +SD +         +V AA  +   E     Y+ G      F   ++  + +Y  E+     R+  A Y    +SP    L+Q  + Q A  E ++IS  N F +    R  G  ++    L   +GPD R        +T +    P+    K   L+ +L ER      + + ++  D  ND   + L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81866928|sp|Q8R2H9.1|PHOP1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Phosphoethanolamine/phosphocholine phosphatase [Mus musculus]</Hit_def>
+  <Hit_accession>Q8R2H9</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.880352</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>LAIFDLDNTLINTDSDHAWPQYLIKKGLVDAAETEAQNEKFYRDYQNGCLDIDAFLKLHLAPLARYSKEELAEFHREFMAEYIIPHISPMQRMLVQ--SHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLE--TGPDGR--------YTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVS</Hsp_qseq>
+      <Hsp_hseq>LLTFDFDETIVDENSDDS---------IVRAAPGQQLPESLRATYREG------YYNEYMQRVFKYLGEQGVR-PRDLRAVYETIPLSPGMGDLLQFIAKQGSCFEVILISDANTFGVESALRAAGHHSLFRRILSNPSGPDARGLLTLRPFHTHSCSRCPA-NMCKHKVLSEYLRERARDGVHFERLFYVGDGANDFCPMGLLA</Hsp_hseq>
+      <Hsp_midline>L  FD D T+++ +SD +         +V AA  +   E     Y+ G      +   ++  + +Y  E+     R+  A Y    +SP    L+Q  + Q +  E ++IS  N F +    R  G  ++    L   +GPD R        +T +    P+    K   L+++L ER      + + ++  D  ND   + L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81826816|sp|Q6AMA0.1|SYV_DESPS</Hit_id>
+  <Hit_def>RecName: Full=Valine--tRNA ligase; AltName: Full=Valyl-tRNA synthetase; Short=ValRS [Desulfotalea psychrophila LSv54]</Hit_def>
+  <Hit_accession>Q6AMA0</Hit_accession>
+  <Hit_len>887</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.957531</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>MQRMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIA--NMIGTQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETL</Hsp_qseq>
+      <Hsp_hseq>LQDILVRYHRMCGDNTMWIPGTDH---------AGIATQNVVERQLATEGKGRHD---LG----REAFIERVWKWREDKGGTI</Hsp_hseq>
+      <Hsp_midline>+Q +LV+ H+M GD T+ I  T+           GIA  N++  QL T   GR+    +G    +E  I R+ +W  ++G T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|166201476|sp|A3ND55.1|MIAA_BURP6</Hit_id>
+  <Hit_def>RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia pseudomallei 668]</Hit_def>
+  <Hit_accession>A3ND55</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.16645</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>RLNQWLAERGETLESYGKTYFY----SDSKNDLPLLRLVSEPVAVNPD--AELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>RLVAQIAARGRTPLLAGGTMLYYRALTQGLNDLP---------AADPDVRATLDADAARDGWPALHAR</Hsp_hseq>
+      <Hsp_midline>RL   +A RG T    G T  Y    +   NDLP         A +PD  A L+ +A   GWP L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2496720|sp|P55585.1|Y4NM_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein y4nM [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55585</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.29126</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>IFDLDNTLINTDSDHAWPQYLIKKGLVDAAETEAQNEKFYRDYQNGCLDIDAFLKLHLAPLARYSKEELAEFHREFMAEYIIPHISPMQRM---LVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYS-DSKNDLPLLRLVSEPVAVNPDAELEKEAKEKG</Hsp_qseq>
+      <Hsp_hseq>ICDLDGTLIKSDSLH--------ENLFDA---------FFHSPQQLLRTIPNWFKGRPA-----LKEALAK------VRSVEPQALPYREQMLDLIRRARSAGRETYLVTAADQSIADDIISHLG-----------GFDGAKGSS--GSLNLKS---RRKLQWLQ------ESFPEGFIYAGDSAADLPIWEAASGAVLVGDGVKFESKLREAG</Hsp_hseq>
+      <Hsp_midline>I DLD TLI +DS H        + L DA         F+   Q     I  + K   A      KE LA+         + P   P +     L++  + AG ET ++++ ++ I   +    G           G DG    +  G+ +LK     R  QWL       ES+ + + Y+ DS  DLP+    S  V V    + E + +E G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81389886|sp|Q67TI9.1|SYR_SYMTH</Hit_id>
+  <Hit_def>RecName: Full=Arginine--tRNA ligase; AltName: Full=Arginyl-tRNA synthetase; Short=ArgRS [Symbiobacterium thermophilum IAM 14863]</Hit_def>
+  <Hit_accession>Q67TI9</Hit_accession>
+  <Hit_len>558</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.30785</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>SLKE-GKITRLNQWLAERGETLESYG----KTYFYSDSKNDLPLLRLVSEPVAVNPDAELEKEAKEKGWPVL</Hsp_qseq>
+      <Hsp_hseq>SLREAGAPARLVEWLKERGEAYEKDGAVWMRTTAYGDDK-DRVLVKSDGEYTYFAADACYHKDKYDRGYATL</Hsp_hseq>
+      <Hsp_midline>SL+E G   RL +WL ERGE  E  G    +T  Y D K D  L++   E      DA   K+  ++G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|61214012|sp|Q63R58.1|MIAA_BURPS</Hit_id>
+  <Hit_def>RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia pseudomallei K96243] &gt;gi|166201475|sp|A3NYW4.1|MIAA_BURP0 RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia pseudomallei 1106a] &gt;gi|239977338|sp|Q3JP23.2|MIAA_BURP1 RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia pseudomallei 1710b]</Hit_def>
+  <Hit_accession>Q63R58</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.34901</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>RLNQWLAERGETLESYGKTYFY----SDSKNDLPLLRLVSEPVAVNPD--AELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>RLVAQIAARGRTPLLAGGTMLYYRALTQGLNDLP---------AADPDVRATLDADAARDGWPALHAR</Hsp_hseq>
+      <Hsp_midline>RL   +A RG T    G T  Y    +   NDLP         A +PD  A L+ +A   GWP L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81945908|sp|Q8B0I0.1|L_VSIVN</Hit_id>
+  <Hit_def>RecName: Full=RNA-directed RNA polymerase L; Short=Protein L; AltName: Full=Large structural protein; AltName: Full=Replicase; AltName: Full=Transcriptase; Includes: RecName: Full=RNA-directed RNA polymerase; Includes: RecName: Full=mRNA (guanine-N(7)-)-methyltransferase; Includes: RecName: Full=mRNA guanylyltransferase [Vesicular stomatitis Indiana virus (strain 98COE North America)]</Hit_def>
+  <Hit_accession>Q8B0I0</Hit_accession>
+  <Hit_len>2109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.43931</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>549</Hsp_hit-from>
+      <Hsp_hit-to>693</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>REF--MAEYII-PHISPMQRMLVQSHQMAGDETLVI-----SSTNEFIIT--PVCRLFGIANMIG--------TQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDL------PLLRLVSEPVAVNPDAELEKEAKEKGWPVLNF</Hsp_qseq>
+      <Hsp_hseq>REYFVITEYLIKTHFVPMFKGLT----MADDLTAVIKKMLDSSSGQGLKSYEAIC----IANHIDYEKWNNHQRKLSNGPVFRVMGQFLGYPSLIE--------------RTHEFFEKSLIYYNGRPDLMRVQNNTLINSTSQRVCWQGQEGGLEGLRQKGWSILNL</Hsp_hseq>
+      <Hsp_midline>RE+  + EY+I  H  PM + L     MA D T VI     SS+ + + +   +C    IAN I          +L  GP  R  G ++G PSL E               T E + K+  Y + + DL       L+   S+ V         +  ++KGW +LN </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|61213999|sp|Q62HE6.1|MIAA_BURMA</Hit_id>
+  <Hit_def>RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia mallei ATCC 23344] &gt;gi|166201472|sp|A3MN86.1|MIAA_BURM7 RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia mallei NCTC 10247] &gt;gi|166201473|sp|A2S552.1|MIAA_BURM9 RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia mallei NCTC 10229] &gt;gi|166201474|sp|A1V0V9.1|MIAA_BURMS RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia mallei SAVP1]</Hit_def>
+  <Hit_accession>Q62HE6</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.47918</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>RLNQWLAERGETLESYGKTYFY----SDSKNDLPLLRLVSEPVAVNPD--AELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>RLVAQIAARGRTPLLAGGTMLYYRALTQGLNDLP---------AADPDVRATLDADAARDGWPALHAR</Hsp_hseq>
+      <Hsp_midline>RL   +A RG T    G T  Y    +   NDLP         A +PD  A L+ +A   GWP L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81965433|sp|Q98776.1|L_VSIVM</Hit_id>
+  <Hit_def>RecName: Full=RNA-directed RNA polymerase L; Short=Protein L; AltName: Full=Large structural protein; AltName: Full=Replicase; AltName: Full=Transcriptase; Includes: RecName: Full=RNA-directed RNA polymerase; Includes: RecName: Full=mRNA (guanine-N(7)-)-methyltransferase; Includes: RecName: Full=mRNA guanylyltransferase [Vesicular stomatitis Indiana virus strain Mudd-Summers]</Hit_def>
+  <Hit_accession>Q98776</Hit_accession>
+  <Hit_len>2109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.68865</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>549</Hsp_hit-from>
+      <Hsp_hit-to>693</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>REF--MAEYIIP-HISPMQRMLVQSHQMAGDETLVI-----SSTNEFIIT--PVCRLFGIANMIG--------TQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDL------PLLRLVSEPVAVNPDAELEKEAKEKGWPVLNF</Hsp_qseq>
+      <Hsp_hseq>REYFVITEYLIKTHFVPMFKGLT----MADDLTAVIKKMLDSSSGQGLKSYEAIC----IANHIDYEKWNNHQRKLSNGPVFRVMGQFLGYPSLIE--------------RTHEFFEKSLIYYNGRPDLMRVHNNTLINSTSQRVCWQGQEGGLEGLRQKGWTILNL</Hsp_hseq>
+      <Hsp_midline>RE+  + EY+I  H  PM + L     MA D T VI     SS+ + + +   +C    IAN I          +L  GP  R  G ++G PSL E               T E + K+  Y + + DL       L+   S+ V         +  ++KGW +LN </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81945898|sp|Q8B0H0.1|L_VSIVC</Hit_id>
+  <Hit_def>RecName: Full=RNA-directed RNA polymerase L; Short=Protein L; AltName: Full=Large structural protein; AltName: Full=Replicase; AltName: Full=Transcriptase; Includes: RecName: Full=RNA-directed RNA polymerase; Includes: RecName: Full=mRNA (guanine-N(7)-)-methyltransferase; Includes: RecName: Full=mRNA guanylyltransferase [Vesicular stomatitis Indiana virus (strain 94GUB Central America)]</Hit_def>
+  <Hit_accession>Q8B0H0</Hit_accession>
+  <Hit_len>2109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.83522</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>549</Hsp_hit-from>
+      <Hsp_hit-to>693</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>REF--MAEYIIP-HISPMQRMLVQSHQMAGDETLVI-----SSTNEFIIT--PVCRLFGIANMIG--------TQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDL------PLLRLVSEPVAVNPDAELEKEAKEKGWPVLNF</Hsp_qseq>
+      <Hsp_hseq>REYFVITEYLIKTHFVPMFKGLT----MADDLTAVIKKMLDSSSGQGLKSYEAIC----IANHIDYEKWNNHQRKLSNGPVFRVMGQFLGYPSLIE--------------RTHEFFEKSLIYYNGRPDLMRVHNNTLVNSTSQRVCWQGQEGGLEGLRQKGWSILNL</Hsp_hseq>
+      <Hsp_midline>RE+  + EY+I  H  PM + L     MA D T VI     SS+ + + +   +C    IAN I          +L  GP  R  G ++G PSL E               T E + K+  Y + + DL       L+   S+ V         +  ++KGW +LN </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81945903|sp|Q8B0H5.1|L_VSIVS</Hit_id>
+  <Hit_def>RecName: Full=RNA-directed RNA polymerase L; Short=Protein L; AltName: Full=Large structural protein; AltName: Full=Replicase; AltName: Full=Transcriptase; Includes: RecName: Full=RNA-directed RNA polymerase; Includes: RecName: Full=mRNA (guanine-N(7)-)-methyltransferase; Includes: RecName: Full=mRNA guanylyltransferase [Vesicular stomatitis Indiana virus (strain 85CLB South America)]</Hit_def>
+  <Hit_accession>Q8B0H5</Hit_accession>
+  <Hit_len>2109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.88583</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>549</Hsp_hit-from>
+      <Hsp_hit-to>693</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>REF--MAEYIIP-HISPMQRMLVQSHQMAGDETLVI-----SSTNEFIIT--PVCRLFGIANMIG--------TQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDL------PLLRLVSEPVAVNPDAELEKEAKEKGWPVLNF</Hsp_qseq>
+      <Hsp_hseq>REYFVITEYLIKTHFVPMFKGLT----MADDLTAVIKKMLDSSSGQGLKSYEAIC----IANHIDYEKWNNHQRKLSNGPVFRVMGQFLGYPSLIE--------------RTHEFFEKSLIYYNGRPDLMRVHNNTLVNSTSQRVCWQGQEGGLEGLRQKGWSILNL</Hsp_hseq>
+      <Hsp_midline>RE+  + EY+I  H  PM + L     MA D T VI     SS+ + + +   +C    IAN I          +L  GP  R  G ++G PSL E               T E + K+  Y + + DL       L+   S+ V         +  ++KGW +LN </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123537460|sp|Q2SYY3.1|MIAA_BURTA</Hit_id>
+  <Hit_def>RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2SYY3</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>3.24648</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>RLNQWLAERGETLESYGKTYFY----SDSKNDLPLLRLVSEPVAVNPD--AELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>RVVAEIAARGRTPLLAGGTMLYYKALTQGLNDLP---------AADPDVRATLDAEAARDGWPALHAR</Hsp_hseq>
+      <Hsp_midline>R+   +A RG T    G T  Y    +   NDLP         A +PD  A L+ EA   GWP L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|82592543|sp|P0AD42.1|PGPC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Phosphatidylglycerophosphatase C; AltName: Full=Phosphatidylglycerolphosphate phosphatase C; Short=PGP phosphatase C [Escherichia coli K-12] &gt;gi|82592544|sp|P0AD43.1|PGPC_SHIFL RecName: Full=Phosphatidylglycerophosphatase C; AltName: Full=Phosphatidylglycerolphosphate phosphatase C; Short=PGP phosphatase C [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AD42</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>4.07883</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>ANMIGTQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVSEPVAVNPDAELEK</Hsp_qseq>
+      <Hsp_hseq>VNLIASQIQRG----YGGWVLTMRCLGHEKVAQLER---KIGTPLRLYSG---YSDSNQDNPLLYFCQHRWRVTPRGELQQ</Hsp_hseq>
+      <Hsp_midline> N+I +Q++ G    Y G  +    L   K+ +L +   + G  L  Y     YSDS  D PLL        V P  EL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|37537801|sp|Q8KC05.1|GCSPA_CHLTE</Hit_id>
+  <Hit_def>RecName: Full=Probable glycine dehydrogenase (decarboxylating) subunit 1; AltName: Full=Glycine cleavage system P-protein subunit 1; AltName: Full=Glycine decarboxylase subunit 1; AltName: Full=Glycine dehydrogenase (aminomethyl-transferring) subunit 1 [Chlorobium tepidum TLS]</Hit_def>
+  <Hit_accession>Q8KC05</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.85353</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>RDYQNGCLDIDAFLKLHLAPLARYSKEELAEFHREFMAEYIIPHISPMQRML</Hsp_qseq>
+      <Hsp_hseq>RDVANRSMQKAHYLADRIAELPGYSMKFSAPFFREFVVETPVPSATIIEKML</Hsp_hseq>
+      <Hsp_midline>RD  N  +    +L   +A L  YS +  A F REF+ E  +P  + +++ML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|238693119|sp|B4EDH3.1|MIAA_BURCJ</Hit_id>
+  <Hit_def>RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia cenocepacia J2315]</Hit_def>
+  <Hit_accession>B4EDH3</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.79779</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>RLNQWLAERGETLESYGKTYFY----SDSKNDLPLLRLVSEPVAVNPD--AELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>RLIGEIAARGRTPLLAGGTMLYYKALTQGLNDLP---------GADPDVRATLDAEAERDGWPALHAR</Hsp_hseq>
+      <Hsp_midline>RL   +A RG T    G T  Y    +   NDLP           +PD  A L+ EA+  GWP L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|123569254|sp|Q39JB5.1|MIAA_BURS3</Hit_id>
+  <Hit_def>RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39JB5</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.84386</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>RLNQWLAERGETLESYGKTYFY----SDSKNDLPLLRLVSEPVAVNPD--AELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>RLIGEIAARGRTPLLAGGTMLYYKALTQGLNDLP---------GADPDVRATLDAEAERDGWPALHAR</Hsp_hseq>
+      <Hsp_midline>RL   +A RG T    G T  Y    +   NDLP           +PD  A L+ EA+  GWP L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|6226138|sp|Q58989.1|SERB_METJA</Hit_id>
+  <Hit_def>RecName: Full=Phosphoserine phosphatase; Short=PSP; Short=PSPase; AltName: Full=O-phosphoserine phosphohydrolase [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58989</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.13993</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>KNLAIFDLDNTLINTDSDHAWPQYLIKKGLVDAAETEAQNEKFYRDYQNGCLDIDAFLKLHLAPLARYSKEELAEFHREFMAEYIIPHISPMQ--RMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGTQLETGPDGRYTGNYIGTPSLKEGKITRLNQWLAERGETLESYGK--------TYFYSDSKNDLPLLRLVSEPVA</Hsp_qseq>
+      <Hsp_hseq>KKLILFDFDSTLVNNETIDEIAR---------EAGVEEEVKKITKEAMEGKLNFEQSLRKRVSLLKDLPIEKV---------EKAIKRITPTEGAEETIKELKNRGYVVAVVSGGFDIAVNKIKEKLGLDYAFANRL-IVKDGKLTGDV-------EGEVLKENA----KGEILEKIAKIEGINLEDTVAVGDGANDISMFKKAGLKIA</Hsp_hseq>
+      <Hsp_midline>K L +FD D+TL+N ++     +          A  E + +K  ++   G L+ +  L+  ++ L     E++         E  I  I+P +     ++  +  G    V+S   +  +  +    G+      +L    DG+ TG+        EG++ + N     +GE LE   K        T    D  ND+ + +     +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123322714|sp|Q0BI05.1|MIAA_BURCM</Hit_id>
+  <Hit_def>RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia ambifaria AMMD]</Hit_def>
+  <Hit_accession>Q0BI05</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.19069</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>RLNQWLAERGETLESYGKTYFY----SDSKNDLPLLRLVSEPVAVNPDAELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>RLIGEIAARGRTPLLAGGTMLYYKALTQGLNDLP----TADP-AVR--AELDADAARDGWPALHAR</Hsp_hseq>
+      <Hsp_midline>RL   +A RG T    G T  Y    +   NDLP     ++P AV   AEL+ +A   GWP L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|84028706|sp|P0AGB1.1|SERB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Phosphoserine phosphatase; Short=PSP; Short=PSPase; AltName: Full=O-phosphoserine phosphohydrolase [Escherichia coli O157:H7] &gt;gi|84028707|sp|P0AGB0.1|SERB_ECOLI RecName: Full=Phosphoserine phosphatase; Short=PSP; Short=PSPase; AltName: Full=O-phosphoserine phosphohydrolase [Escherichia coli K-12] &gt;gi|84028708|sp|P0AGB2.1|SERB_SHIFL RecName: Full=Phosphoserine phosphatase; Short=PSP; Short=PSPase; AltName: Full=O-phosphoserine phosphohydrolase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AGB1</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.625</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>DGRYTGNYIG---TPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVSEPVAVNPDAELEKEAK</Hsp_qseq>
+      <Hsp_hseq>DGKFTGNVIGDIVDAQYKAKTLTRLAQ------EYEIPLAQTVAIGDGANDLPMIKAAGLGIAYHAKPKVNEKAE</Hsp_hseq>
+      <Hsp_midline>DG++TGN IG       K   +TRL Q      E      +T    D  NDLP+++     +A +   ++ ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|41018435|sp|Q58796.1|Y1401_METJA</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent helicase MJ1401 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58796</Hit_accession>
+  <Hit_len>808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>9.35196</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>REFMAEYIIPHISPMQRMLVQSHQMAGDETLVISSTNEFIITPVCRLFGIANMIGT</Hsp_qseq>
+      <Hsp_hseq>KEIIKSRGIEELLPVQTLSVKAGLLNGDDLLIISATSSG-KTLIGELAGIKNLIKT</Hsp_hseq>
+      <Hsp_midline>+E +    I  + P+Q + V++  + GD+ L+IS+T+    T +  L GI N+I T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|20141214|sp|P22036.3|ATMB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Magnesium-transporting ATPase, P-type 1; AltName: Full=Mg(2+) transport ATPase, P-type 1 [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P22036</Hit_accession>
+  <Hit_len>908</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>9.55872</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>571</Hsp_hit-from>
+      <Hsp_hit-to>679</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>GDETLVISSTNEFIITPVCRLFGIAN---MIGTQLETGPDGRYTGNY---IGTPSLKEGKITRLNQWLAERGETLESYGKTYFYSDSKNDLPLLRLVSEPVAVNPDAELEKEAKE</Hsp_qseq>
+      <Hsp_hseq>GVAVKVLTGDNPVVTARICLEVGIDTHDILTGTQVEAMSDAELASEVEKRAVFARLTPLQKTRILQALQKNGHTVG------FLGDGINDAPALRDADVGISVDSAADIAKESSD</Hsp_hseq>
+      <Hsp_midline>G    V++  N  +   +C   GI     + GTQ+E   D               L   + TR+ Q L + G T+       F  D  ND P LR     ++V+  A++ KE+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|238689183|sp|B1YTV7.1|MIAA_BURA4</Hit_id>
+  <Hit_def>RecName: Full=tRNA dimethylallyltransferase; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase; Short=DMAPP:tRNA dimethylallyltransferase; Short=DMATase; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase; Short=IPP transferase; Short=IPPT; Short=IPTase [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>B1YTV7</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>9.62781</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>RLNQWLAERGETLESYGKTYFY----SDSKNDLPLLRLVSEPVAVNPDAELEKEAKEKGWPVLNFK</Hsp_qseq>
+      <Hsp_hseq>RLIGEIAARGRTPLLAGGTMLYYKALTQGLNDLP----TADP-AVR--AELDADAARDGWPALHAR</Hsp_hseq>
+      <Hsp_midline>RL   +A RG T    G T  Y    +   NDLP     ++P AV   AEL+ +A   GWP L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

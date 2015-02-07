@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>50079</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>98</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>50079</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>98</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|123589076|sp|Q3IJW1.1|MTNB_PSEHT</Hit_id>
+  <Hit_def>RecName: Full=Methylthioribulose-1-phosphate dehydratase; Short=MTRu-1-P dehydratase [Pseudoalteromonas haloplanktis TAC125]</Hit_def>
+  <Hit_accession>Q3IJW1</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.34795</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>NKKEFLISDITNFNWDHVKLYIINSDFQKIVFYDKGKIVFEELIELDRKGKVL</Hsp_qseq>
+      <Hsp_hseq>SQKEWIPATGGNFSARTESGFVITASGQ-----DKGKLTSEQFLQLDLQGKPL</Hsp_hseq>
+      <Hsp_midline>++KE++ +   NF+      ++I +  Q     DKGK+  E+ ++LD +GK L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1723327|sp|P51373.1|YCF23_PORPU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein ycf23 (chloroplast) [Porphyra purpurea]</Hit_def>
+  <Hit_accession>P51373</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.73766</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>SKISFDYNKKEFL--ISDITNFNWDHVKLYIINSDFQKIVFYD</Hsp_qseq>
+      <Hsp_hseq>SKISSDFDKQSALKVITGLNNFNIPQIKQMALASEIAKVTYLD</Hsp_hseq>
+      <Hsp_midline>SKIS D++K+  L  I+ + NFN   +K   + S+  K+ + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|29336965|sp|Q9KDX4.1|GLGC_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KDX4</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.7244</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>FNWDHVKLYIINSDFQKIVFYDKGKIVFEELIELDRKGKVLPQYLFDSYLKNV</Hsp_qseq>
+      <Hsp_hseq>FNWSVLKSYLIQDAKQANSSHDFGKDIIPKMLAKDLK---LVAYPFEGYWKDV</Hsp_hseq>
+      <Hsp_midline>FNW  +K Y+I    Q    +D GK +  +++  D K   L  Y F+ Y K+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|75311166|sp|Q9LH39.1|PHSD_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable polyamine transporter At3g19553 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LH39</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.04893</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>IIYIFSLLITIVIFFIFEKNVISKISFDYNKKEFLISDITNFNWDHVKLYIINSDFQKIVFYDKGKIVFEELIELDRKGKVLPQYLFDSYL</Hsp_qseq>
+      <Hsp_hseq>VLAVFSLCPFVVMALLAVPNI--------RPKRWLFVDTQKINWRGY----FNTMFWNLNYWDKASTLAGEV---DRPGKTFPKALFGAVL</Hsp_hseq>
+      <Hsp_midline>++ +FSL   +V+  +   N+          K +L  D    NW        N+ F  + ++DK   +  E+   DR GK  P+ LF + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|166226035|sp|A3DK82.1|GLGC_CLOTH</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Ruminiclostridium thermocellum ATCC 27405]</Hit_def>
+  <Hit_accession>A3DK82</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>8.46</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>FNWDHVKLYIINSDFQKIVFYDKGKIVFEELIELDRKGKVLPQYLFDSYLKNV</Hsp_qseq>
+      <Hsp_hseq>FNWEVLKEYLIRDDQNEESAHDFGKNIIPMML---KEGRSMWAYKFNGYWRDV</Hsp_hseq>
+      <Hsp_midline>FNW+ +K Y+I  D  +   +D GK +   ++   ++G+ +  Y F+ Y ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

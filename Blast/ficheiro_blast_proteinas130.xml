@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>49299</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>182</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>49299</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>182</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81345945|sp|P96684.1|YDFG_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YdfG [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P96684</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0310865</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>APEALAFYQEVGKLNAANSLTAGEVEVIRIIAVRTNQCSFCVAGHTKLATLKKLLSEQSLNAARALAAGKSDDAKLGALAAFTQAVMAKKGAVSDDELNAFLEAGYNRQQAVEVVMGV</Hsp_qseq>
+      <Hsp_hseq>APEGMKIMMDMEKYTKQSSINRTTRELIKIRVSQMNGCAFCIDMHTSDAR-KMGETEQRIYCLHAWNECDFYSPEEKAALELSEHITLIPSKRVPDELYHRVREHYDEEQYVDLVLII</Hsp_hseq>
+      <Hsp_midline>APE +    ++ K    +S+     E+I+I   + N C+FC+  HT  A  K   +EQ +    A         +  A    ++ +         DEL   +   Y+ +Q V++V+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|122300718|sp|Q087J4.1|MIAB_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase; AltName: Full=(Dimethylallyl)adenosine tRNA methylthiotransferase MiaB; AltName: Full=tRNA-i(6)A37 methylthiotransferase [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>Q087J4</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.331361</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>EAAKPRVEAV-----PKNNGFIPNLIGVLANAPEALA--FYQEVGKLNAANSLTA-GEVEVIRIIAVRTNQCSFCVAGHTKLATLKKLLSEQSLNAARALAAGKSDDAKLGALAAFTQAVMAKKGAVSDDELNAFLE</Hsp_qseq>
+      <Hsp_hseq>KAIKDRAQCVDIIFGPQTLHRLPEMIEQIQRGEKAVIDISFPEIEKFDRLPEPRADGPTAFVSIMEGCSKYCSFCVVPYTRGEEVSRPLDDVILEVAQLAAQGVREVNLLG------QNVNAYRGATHDDEICTFAE</Hsp_hseq>
+      <Hsp_midline>+A K R + V     P+    +P +I  +    +A+    + E+ K +      A G    + I+   +  CSFCV  +T+   + + L +  L  A+  A G  +   LG      Q V A +GA  DDE+  F E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|229890653|sp|A8H7B6.1|MIAB_SHEPA</Hit_id>
+  <Hit_def>RecName: Full=tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase; AltName: Full=(Dimethylallyl)adenosine tRNA methylthiotransferase MiaB; AltName: Full=tRNA-i(6)A37 methylthiotransferase [Shewanella pealeana ATCC 700345]</Hit_def>
+  <Hit_accession>A8H7B6</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.43979</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>EAAKPRVEAV-----PKNNGFIPNLIGVLANAPEAL--AFYQEVGKLNAANSLTA-GEVEVIRIIAVRTNQCSFCVAGHTKLATLKKLLSEQSLNAARALAAGKSDDAKLGALAAFTQAVMAKKGAVSDDELNAFLE</Hsp_qseq>
+      <Hsp_hseq>KAIKERAQCVDLIFGPQTLHRLPEMIDQIKDGKKAVIDVSFPEVEKFDRLPEPRAEGPSAFVSIMEGCSKYCSFCVVPYTRGEEVSRPLDDVILEIAQLAEQGVREVNLLG------QNVNAYRGATHDDEICTFAE</Hsp_hseq>
+      <Hsp_midline>+A K R + V     P+    +P +I  + +  +A+    + EV K +      A G    + I+   +  CSFCV  +T+   + + L +  L  A+    G  +   LG      Q V A +GA  DDE+  F E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|229890656|sp|A8FZ02.1|MIAB_SHESH</Hit_id>
+  <Hit_def>RecName: Full=tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase; AltName: Full=(Dimethylallyl)adenosine tRNA methylthiotransferase MiaB; AltName: Full=tRNA-i(6)A37 methylthiotransferase [Shewanella sediminis HAW-EB3]</Hit_def>
+  <Hit_accession>A8FZ02</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.39268</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PKNNGFIPNLIGVLANAPEALA--FYQEVGKLNAANSLTA-GEVEVIRIIAVRTNQCSFCVAGHTKLATLKKLLSEQSLNAARALAAGKSDDAKLGALAAFTQAVMAKKGAVSDDELNAFLE</Hsp_qseq>
+      <Hsp_hseq>PQTLHRLPEMIDQIRDGGKAVIDISFPEIEKFDKLPEPRADGPSAFVSIMEGCSKYCSFCVVPYTRGEEVSRPLDDIILEIAQLADQGVREVNLLG------QNVNAYRGATHDDEICTFAE</Hsp_hseq>
+      <Hsp_midline>P+    +P +I  + +  +A+    + E+ K +      A G    + I+   +  CSFCV  +T+   + + L +  L  A+    G  +   LG      Q V A +GA  DDE+  F E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|229890658|sp|B1KDV4.1|MIAB_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase; AltName: Full=(Dimethylallyl)adenosine tRNA methylthiotransferase MiaB; AltName: Full=tRNA-i(6)A37 methylthiotransferase [Shewanella woodyi ATCC 51908]</Hit_def>
+  <Hit_accession>B1KDV4</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.68419</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>CSFCVAGHTKLATLKKLLSEQSLNAARALAAGKSDDAKLGALAAFTQAVMAKKGAVSDDELNAFLE</Hsp_qseq>
+      <Hsp_hseq>CSFCVVPYTRGEEVSRPLDDVILEIAQLAEQGVREVNLLG------QNVNAYRGATHDDEICTFAE</Hsp_hseq>
+      <Hsp_midline>CSFCV  +T+   + + L +  L  A+    G  +   LG      Q V A +GA  DDE+  F E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20455184|sp|Q9BW91.1|NUDT9_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=ADP-ribose pyrophosphatase, mitochondrial; AltName: Full=ADP-ribose diphosphatase; AltName: Full=ADP-ribose phosphohydrolase; AltName: Full=Adenosine diphosphoribose pyrophosphatase; Short=ADPR-PPase; AltName: Full=Nucleoside diphosphate-linked moiety X motif 9; Short=Nudix motif 9; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9BW91</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.69181</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>EVIRIIAVRTNQCS-------FCVAGHTKLATLKKLLSEQSLNAARALAAGKSD-DAKLGALAAFTQ-AVMAKKGAVSD--DELNAFLEA-GYNRQQAVEVVMGVALATLCNYANNLAQTEINPKLQAYA</Hsp_qseq>
+      <Hsp_hseq>HILQFVAIKRKDCGEWAIPGGMVDPGEKISATLKREFGEEALNSLQKTSAEKREIEEKLHKL--FSQDHLVIYKGYVDDPRNTDNAWMETEAVNYHDETGEIMDNLMLEAGDDAGKVKWVDINDKLKLYA</Hsp_hseq>
+      <Hsp_midline> +++ +A++   C            G    ATLK+   E++LN+ +  +A K + + KL  L  F+Q  ++  KG V D  +  NA++E    N       +M   +    + A  +   +IN KL+ YA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|171769174|sp|A1TJ31.1|LIPA_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Lipoyl synthase; AltName: Full=Lip-syn; Short=LS; AltName: Full=Lipoate synthase; AltName: Full=Lipoic acid synthase; AltName: Full=Sulfur insertion protein LipA [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TJ31</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.78915</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>TNQCSFCVAGHTKLATLKKLLSEQSLNAARALAAGK----------SDDAKLGALAAFTQAV</Hsp_qseq>
+      <Hsp_hseq>TRRCPFCDVGHGRPDPLDK---DEPLNLARTIAALKLKYVVITSVDRDDLRDGGSGHFVECI</Hsp_hseq>
+      <Hsp_midline>T +C FC  GH +   L K   ++ LN AR +AA K           DD + G    F + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|229890651|sp|B0TR38.1|MIAB_SHEHH</Hit_id>
+  <Hit_def>RecName: Full=tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase; AltName: Full=(Dimethylallyl)adenosine tRNA methylthiotransferase MiaB; AltName: Full=tRNA-i(6)A37 methylthiotransferase [Shewanella halifaxensis HAW-EB4]</Hit_def>
+  <Hit_accession>B0TR38</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.11232</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>CSFCVAGHTKLATLKKLLSEQSLNAARALAAGKSDDAKLGALAAFTQAVMAKKGAVSDDELNAFLE</Hsp_qseq>
+      <Hsp_hseq>CSFCVVPYTRGEEVSRPLDDIILEIAQLAEQGVREVNLLG------QNVNAYRGATHDDEICTFAE</Hsp_hseq>
+      <Hsp_midline>CSFCV  +T+   + + L +  L  A+    G  +   LG      Q V A +GA  DDE+  F E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

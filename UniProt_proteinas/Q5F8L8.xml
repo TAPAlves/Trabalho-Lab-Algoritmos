@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-02-04" version="53">
+<accession>Q5F8L8</accession>
+<name>Q5F8L8_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1 2">Molybdenum cofactor guanylyltransferase</fullName>
+<shortName evidence="1">MoCo guanylyltransferase</shortName>
+<ecNumber evidence="1 2">2.7.7.77</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">GTP:molybdopterin guanylyltransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Mo-MPT guanylyltransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Molybdopterin guanylyltransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Molybdopterin-guanine dinucleotide synthase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">mobA</name>
+<name type="ordered locus" evidence="12">NGO0754</name>
+</gene>
+<organism evidence="12 13">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="13">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="13">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1 10">Transfers a GMP moiety from GTP to Mo-molybdopterin (Mo-MPT) cofactor (Moco or molybdenum cofactor) to form Mo-molybdopterin guanine dinucleotide (Mo-MGD) cofactor.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1 8">GTP + molybdenum cofactor = diphosphate + guanylyl molybdenum cofactor.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="subunit">
+<text evidence="1">Monomer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1 4">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text evidence="1">The N-terminal domain determines nucleotide recognition and specific binding, while the C-terminal domain determines the specific binding to the target protein.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the MobA family.</text>
+</comment>
+<dbReference type="EC" id="2.7.7.77" evidence="1 2"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89469.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207881.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8L8"/>
+<dbReference type="STRING" id="242231.NGO0754"/>
+<dbReference type="EnsemblBacteria" id="AAW89469">
+<property type="protein sequence ID" value="AAW89469"/>
+<property type="gene ID" value="NGO0754"/>
+</dbReference>
+<dbReference type="GeneID" id="3282496"/>
+<dbReference type="KEGG" id="ngo:NGO0754"/>
+<dbReference type="PATRIC" id="20334654">
+<property type="gene designation" value="VBINeiGon24812_0899"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0746"/>
+<dbReference type="HOGENOM" id="HOG000280423"/>
+<dbReference type="KO" id="K03752"/>
+<dbReference type="OMA" id="ACMINAN"/>
+<dbReference type="OrthoDB" id="EOG61041R"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-709-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005525">
+<property type="term" value="F:GTP binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0061603">
+<property type="term" value="F:molybdenum cofactor guanylyltransferase activity"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006777">
+<property type="term" value="P:Mo-molybdopterin cofactor biosynthetic process"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.550.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00316">
+<property type="entry name" value="MobA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025877">
+<property type="entry name" value="MobA-like_NTP_Trfase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013482">
+<property type="entry name" value="Molybde_CF_guanTrfase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029044">
+<property type="entry name" value="Nucleotide-diphossugar_trans"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12804">
+<property type="entry name" value="NTP_transf_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53448">
+<property type="entry name" value="SSF53448"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181" evidence="13">Complete proteome</keyword>
+<keyword id="KW-0963" evidence="1 9">Cytoplasm</keyword>
+<keyword id="KW-0342" evidence="1 3">GTP-binding</keyword>
+<keyword id="KW-0460" evidence="1 7">Magnesium</keyword>
+<keyword id="KW-0479" evidence="1 5">Metal-binding</keyword>
+<keyword id="KW-0501" evidence="1 11">Molybdenum cofactor biosynthesis</keyword>
+<keyword id="KW-0547" evidence="1 3">Nucleotide-binding</keyword>
+<keyword id="KW-1185" evidence="13">Reference proteome</keyword>
+<keyword id="KW-0808" evidence="1 6">Transferase</keyword>
+<feature type="nucleotide phosphate-binding region" description="GTP" evidence="1">
+<location>
+<begin position="20"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="113"/>
+</location>
+</feature>
+<feature type="binding site" description="GTP" evidence="1">
+<location>
+<position position="33"/>
+</location>
+</feature>
+<feature type="binding site" description="GTP" evidence="1">
+<location>
+<position position="79"/>
+</location>
+</feature>
+<feature type="binding site" description="GTP" evidence="1">
+<location>
+<position position="113"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00316"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049907"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049908"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049910"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049911"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049913"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049916"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049917"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049924"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049938"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00049942"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89469.1"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="204" mass="23024" checksum="DFFDB1CC08118F5A" modified="2005-03-15" version="1">
+MKTSNFPKSPPALKTFALILAGGLADRMGGEDKGLALLEGRPLIDRVIGKIRPQVSHIVI
+SANRNLEEYARRSPHVFPDARQWQHFGPLSALCTAANDLQLAAADWLLIVPCDMPYLPDD
+LVARFESVSKRTPLCNAFYVETPVTMHYNIMYIRPQILQSAIPYLFSGMKTLRSWLQQQR
+ARPVRFEFDGHFADLNTQTDLQEG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

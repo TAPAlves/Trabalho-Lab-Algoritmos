@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>19403</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>410</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>19403</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>410</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|73619808|sp|Q5F8K9.1|CCA_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F8K9</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>842.032</Hsp_bit-score>
+      <Hsp_score>2174</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>410</Hsp_identity>
+      <Hsp_positive>410</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRGA</Hsp_qseq>
+      <Hsp_hseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRGA</Hsp_hseq>
+      <Hsp_midline>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|226702073|sp|B4RLV5.1|CCA_NEIG2</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>B4RLV5</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>840.106</Hsp_bit-score>
+      <Hsp_score>2169</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>409</Hsp_identity>
+      <Hsp_positive>409</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRGA</Hsp_qseq>
+      <Hsp_hseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKAFRGA</Hsp_hseq>
+      <Hsp_midline>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQK FRGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|73619811|sp|Q9JZ88.1|CCA_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZ88</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>814.298</Hsp_bit-score>
+      <Hsp_score>2102</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>400</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRGA</Hsp_qseq>
+      <Hsp_hseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPETHEEYALARTERKTAKGYVGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRTARFAARYKFEIAEETIKLMRQMVENGEADALVAERVWQEFAKGLMEKNPRKMIEVLRECGALKVLLPEVNALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPSDILPRHHGHDLAGVEPVREVNQRLRAPKHCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHLIAEQIDRARLAQIAPLQKAFRAA</Hsp_hseq>
+      <Hsp_midline>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHP+THEEYALARTERKTAKGY GFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILR ARFAARY FEIAEETIKLMRQMVENGEADALVAERVWQE AKGLMEKNPRKMIE+LRECGAL+VLLPEV+ALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTP DILPRHHGHD+ GVEPVREVNQRLRAP+ CAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAH IAEQIDRARLAQIAPLQK FR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|189081874|sp|A9LZC1.1|CCA_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9LZC1</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>812.372</Hsp_bit-score>
+      <Hsp_score>2097</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRGA</Hsp_qseq>
+      <Hsp_hseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPETHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAGGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRTARFAARYRFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEVLRECGALKVLLPEVNALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDLAGVEPVREVNQRLRAPKHCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHLIAEQIDRMRLAQIAPLQKAFQAA</Hsp_hseq>
+      <Hsp_midline>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHP+THEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDA GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILR ARFAARY FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIE+LRECGAL+VLLPEV+ALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHD+ GVEPVREVNQRLRAP+ CAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAH IAEQIDR RLAQIAPLQK F+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|166233867|sp|A1KU50.1|CCA_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KU50</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>812.372</Hsp_bit-score>
+      <Hsp_score>2097</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>399</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRGA</Hsp_qseq>
+      <Hsp_hseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPETHEEYTLARTERKTAKGYVGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRTARFAARYRFEIAEETIKLMRQMVENGEADALVAERVWQEFAKGLMEKNPRKMIEVLRECGALKVLLPEVNALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPSDILPRHHGHDLAGVEPVREVNQRLRAPKHCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWFALLEAANQADSGKIAAECRAQGKAHLIAEQIDRARLAQIAPLQKTFRAA</Hsp_hseq>
+      <Hsp_midline>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHP+THEEY LARTERKTAKGY GFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILR ARFAARY FEIAEETIKLMRQMVENGEADALVAERVWQE AKGLMEKNPRKMIE+LRECGAL+VLLPEV+ALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTP DILPRHHGHD+ GVEPVREVNQRLRAP+ CAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHW ALLEAANQADSGKIAAECRAQGKAH IAEQIDRARLAQIAPLQKTFR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|73619810|sp|Q9JUB2.1|CCA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JUB2</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>811.987</Hsp_bit-score>
+      <Hsp_score>2096</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>400</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRGA</Hsp_qseq>
+      <Hsp_hseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPETHEEYALARTERKTAKGYVGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRTARFAARYKFEIAEETIKLMRQMVENGEADALVAERVWQEFAKGLMEKNPRKMIEVLRECGALKVLLPEVNALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPSDILPRHHGHDLAGVEPVRKVNQRLRAPKHCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRSQGKAHLIAEQIDRARLAQIAPLQKAFRAA</Hsp_hseq>
+      <Hsp_midline>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHP+THEEYALARTERKTAKGY GFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILR ARFAARY FEIAEETIKLMRQMVENGEADALVAERVWQE AKGLMEKNPRKMIE+LRECGAL+VLLPEV+ALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTP DILPRHHGHD+ GVEPVR+VNQRLRAP+ CAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECR+QGKAH IAEQIDRARLAQIAPLQK FR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|73619764|sp|Q7MBF4.1|CCA_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7MBF4</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>1.85039e-172</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>299</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFR</Hsp_qseq>
+      <Hsp_hseq>MEIYIVGGAVRDRLLGLPVKDRDWVVVGSTPDEMLAQGYRPVGKDFPVFLHPETQEEYALARTERKIAKGYHGFTFHTSPEVTLEEDLARRDLTINAIAEAADGSLTDPYGGQEDLKAGVLRHVSEAFAEDPVRILRLARFAARFDFAVAPETMALMRRMVDDGEADALVAERVWQELAKGLMEDKPSRMFLTLRECGALARILPEVDALFGVPQRADHHPEIDCGDHVMRVLDYAAAAGQPLAVRFAALGHDLGKALTPAKVLPRHIGHEEGGIAPLAELCRRLRVPNDCRDLAHITMVHHTKVHRALELRPDTVLRLLKDCDALRRPERFLQMLDACLADTRGRLGFERAPYPQKDYLQAQLAATLQIDAGAIAAGCADKAA---IPATIDAARTAVIAKCKEEWK</Hsp_hseq>
+      <Hsp_midline>M+ Y+VGGAVRD LLGLPVKDRDWVVVG+    MLAQG++PVGKDFPVFLHP+T EEYALARTERK AKGY GF+FH   +VTLE+DL RRDLTINA+A+ ADG + DP+GGQ DL AG+LRHVS AFAEDPVRILR ARFAAR+ F +A ET+ LMR+MV++GEADALVAERVWQELAKGLME  P +M   LRECGAL  +LPEVDALFGVPQRAD+HPEID G H +  L  AA  G  L  R+AAL HDLGKA TP  +LPRH GH+  G+ P+ E+ +RLR P  C +LA +    H   H+  +L+  T+L +LK  DA RRPERF   L+ C+ADT+GRL  E  PYPQ+ +  A L A  Q D+G IAA C  +     I   ID AR A IA  ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123626227|sp|Q477X0.1|CCA_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q477X0</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.263</Hsp_bit-score>
+      <Hsp_score>1253</Hsp_score>
+      <Hsp_evalue>4.45748e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPL</Hsp_qseq>
+      <Hsp_hseq>MQIYIVGGAVRDELLGRPNADCDYVVVGATPETMLAQGFRPVGKDFPVFLHPNTHDEYALARTERKTGHGYHGFIFHAAADVTLEEDLARRDLTINAMAKAADGTLVDPFNGQQDLASKTLRHVGPAFAEDPVRILRIARFAARFSDFSVAPETLALMRSMVACGEVDHLVAERVWQELAKGLMEQKPSRMFEVLRDCGALARLLPEVDKLFGVPQRADYHPEIDTGIHTMMVIDQSARRTFTLPVRFAALTHDLGKAETPADILPRHIGHEERSVRLTEQLCARLRVPNDCRDLALLTARYHGNIHRAADLKASTIVTLFEKTDALRRPERFRQLLDACLCDFTGRLGWENRPYDSPQYLLGALAAVASLNAGEIAVACADKTK---IPERIHAARVHAIKQL</Hsp_hseq>
+      <Hsp_midline>MQ Y+VGGAVRD LLG P  D D+VVVGA  +TMLAQGF+PVGKDFPVFLHP TH+EYALARTERKT  GY GF FHA  DVTLE+DL RRDLTINAMA+ ADG ++DPF GQ+DLA+  LRHV PAFAEDPVRILR ARFAAR+  F +A ET+ LMR MV  GE D LVAERVWQELAKGLME+ P +M E+LR+CGAL  LLPEVD LFGVPQRADYHPEID+GIHT+M + ++A    +LP R+AAL HDLGKA+TP DILPRH GH+   V    ++  RLR P  C +LA L  R+H   H+   LK+ TI+ + +KTDA RRPERF+  L+ C+ D  GRL  E+ PY    + L  L A    ++G+IA  C  + K   I E+I  AR+  I  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254813695|sp|C1DAG2.1|CCA_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1DAG2</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.478</Hsp_bit-score>
+      <Hsp_score>1225</Hsp_score>
+      <Hsp_evalue>4.96664e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>400</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQI</Hsp_qseq>
+      <Hsp_hseq>MKTYIVGGAVRDRLLGLPVRDRDWVVTGETPESMRRRGFRPVGRDFPVFLHPDTHEEYALARTERKTARGYHGFSFHAAPDVTLEADLARRDLTINAMAEDENGELVDPFNGRQDLAAGILRHVGEAFVEDPVRILRIARFAARFGFSIAEDTQNLMRFMVDDGEVDHLVPERVWQELSKGLMEAQPSRFFTVLRDCGALARILPEVDALWGVPQRADYHPEVDTGVHAMLVLDQSARDGLGLAARFAALCHDLGKALTPAELLPRHSGHEGRGEAPTRALCERLRVPAECRDLALLTVSFHSHIHRIRELRPDTVLRLLRECDALRRPARFDDLLAVCRCDAHGRPGHEQDAYPQIAIARRYLDAAQSVNAGDIA---RQTPDKSTIPYRIDAARLCAI</Hsp_hseq>
+      <Hsp_midline>M+TY+VGGAVRD LLGLPV+DRDWVV G   ++M  +GF+PVG+DFPVFLHP THEEYALARTERKTA+GY GFSFHA  DVTLE DL RRDLTINAMA+D +G+++DPF G++DLAAGILRHV  AF EDPVRILR ARFAAR+GF IAE+T  LMR MV++GE D LV ERVWQEL+KGLME  P +   +LR+CGAL  +LPEVDAL+GVPQRADYHPE+D+G+H ++ L ++A  GL L  R+AAL HDLGKA TP ++LPRH GH+  G  P R + +RLR P +C +LA L   +H   H++ +L+  T+L +L++ DA RRP RF   L VC  D  GR   E   YPQ A     L+AA   ++G IA   R       I  +ID ARL  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|122399515|sp|Q1GZ11.1|CCA_METFK</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1GZ11</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>1.23592e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>400</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY-GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQI</Hsp_qseq>
+      <Hsp_hseq>MRIYTVGGAVRDRLLGLPVKDRDHVVVGSTPEAMVQLGYRPVGKDFPVFLHPVTHEEYALARTERKTGKGYKGFQVHADPEVTLEQDLARRDLTINAIAEDEHGNLIDPYHGVADLHAKVLRHVSPAFCEDPVRILRVARFAARFVEFSVADETMTLMRHMVEDGEVDALVPERVWQELAKGLMEQRPSRMFEVLRACGALKRLLPELDRLFGVPQTAKYHPEIDTGVHVMLVIDYAARAGFSLPVRFAALTHDLGKGTTPAHILPRHIGHEERSVELLQSLVKRLRVPNDCKDLALLVAKHHGKVHQVGEMKAATVLRFLQETDALRQPGRFRDFLSACEADARGRTGFEQQALPLFPLLLEILQLVRTVDAGAIA---REQSSPDAIKEAVFSARVAAM</Hsp_hseq>
+      <Hsp_midline>M+ Y VGGAVRD LLGLPVKDRD VVVG+  + M+  G++PVGKDFPVFLHP THEEYALARTERKT KGY GF  HAD +VTLEQDL RRDLTINA+A+D  G +IDP+ G  DL A +LRHVSPAF EDPVRILR ARFAAR+  F +A+ET+ LMR MVE+GE DALV ERVWQELAKGLME+ P +M E+LR CGAL+ LLPE+D LFGVPQ A YHPEID+G+H ++ +  AA  G SLP R+AAL HDLGK  TP  ILPRH GH+   VE ++ + +RLR P  C +LA LV + H   HQVG++K+ T+L  L++TDA R+P RF+  L+ C AD +GR   E    P     L +L+     D+G IA   R Q     I E +  AR+A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|226702043|sp|A9ABP3.1|CCA_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia multivorans ATCC 17616]</Hit_def>
+  <Hit_accession>A9ABP3</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>9.35105e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGK-AHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDELLGVPVQDRDYVVVGATPEQMIAQGFRPVGKDFPVFLHPDTHEEYALARTERKTAAGYHGFQFHYAPDVTLDEDLARRDLTINAMAREVSPDGTLIGPVIDPFDGQRDLRARVFRHVSDAFVEDPVRILRLARFAARFADFTVADDTLALMRRMVDAGEVDALVPERVWQELARGLMEAKPSRMFAVLRDCGALARILPEVDGLWGVPQRADYHPEVDTGVHVMMVVDYAAKQRYSLPVRFAALTHDLGKATTPDDVLPRHTGHEGRSVDLLKPLCERLRVPNECRDLALVVAREHGNLHRVMEMGAAALVRFFERTDALRKPARFAEMLQACEADARGRLGLEAQPYPQAERLRVALAAARSVDAGAIA---RATGSDSAKIKDAVHRARIEAVA</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M+AQGF+PVGKDFPVFLHP THEEYALARTERKTA GY GF FH   DVTL++DL RRDLTINAMA++        G +IDPF GQRDL A + RHVS AF EDPVRILR ARFAAR+  F +A++T+ LMR+MV+ GE DALV ERVWQELA+GLME  P +M  +LR+CGAL  +LPEVD L+GVPQRADYHPE+D+G+H +M +  AA    SLP R+AAL HDLGKA TP D+LPRH GH+   V+ ++ + +RLR P +C +LA +V R H   H+V ++ +  ++   ++TDA R+P RF   L  C AD +GRL  E  PYPQ       L AA   D+G IA   RA G  +  I + + RAR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|73619759|sp|Q62EU1.1|CCA_BURMA</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia mallei ATCC 23344] &gt;gi|166233845|sp|A3MRJ1.1|CCA_BURM7 RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia mallei NCTC 10247] &gt;gi|166233846|sp|A2S800.1|CCA_BURM9 RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia mallei NCTC 10229] &gt;gi|166233847|sp|A1V7S8.1|CCA_BURMS RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia mallei SAVP1]</Hit_def>
+  <Hit_accession>Q62EU1</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>2.54379e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MKIYAVGGAIRDALLGLPVRDRDYVVVGATPEQMAAQRFRPVGKDFPVFLHPDTHEEYALARTERKTAAGYHGFQFYYAPDVTLEQDLVRRDLTINAMAREVSPDGALVGPVVDPFGGQADLRAKLFRHVGDAFVEDPVRILRVARFAARFAEFAVAPDTAALMRAMVDAGEVDALVPERVWQELARGLMEAKPSRMFAVLRECGALARILPEIDALFGVPQRADYHPEVDTGVHVMMVIDHAAKQGYSLPVRFAALTHDLGKATTPADVLPRHIGHEGRSVDLLKPLCERLRVPNECRDLALVVAREHGNLHRVMEMGAAALVRLLERADALRKPARFAEALQASEADARGRLGLETKPYPQAERLRQALVAARAVDAGAIAQGL--AGEPAKIKDAVHRARVRAVA</Hsp_hseq>
+      <Hsp_midline>M+ Y VGGA+RD LLGLPV+DRD+VVVGA  + M AQ F+PVGKDFPVFLHP THEEYALARTERKTA GY GF F+   DVTLEQDL+RRDLTINAMA++        G ++DPFGGQ DL A + RHV  AF EDPVRILR ARFAAR+  F +A +T  LMR MV+ GE DALV ERVWQELA+GLME  P +M  +LRECGAL  +LPE+DALFGVPQRADYHPE+D+G+H +M +  AA  G SLP R+AAL HDLGKA TP D+LPRH GH+   V+ ++ + +RLR P +C +LA +V R H   H+V ++ +  ++ +L++ DA R+P RF  AL    AD +GRL  E  PYPQ       L AA   D+G IA      G+   I + + RAR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|166233849|sp|A3N4P2.1|CCA_BURP6</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia pseudomallei 668]</Hit_def>
+  <Hit_accession>A3N4P2</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>2.99462e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MKIYAVGGAIRDALLGLPVRDRDYVVVGATPEQMAAQRFRPVGKDFPVFLHPDTHEEYALARTERKTAAGYHGFQFYYAPDVTLEQDLVRRDLTINAMAREVSPDGALVGPVVDPFGGQADLRAKLFRHVGDAFVEDPVRILRVARFAARFAEFAVAPDTAALMRAMVDAGEVDALVPERVWQELARGLMEAKPSRMFAVLRECGALARILPEIDALFGVPQRADYHPEVDTGVHVMMVIDHAAKQGYSLPVRFAALTHDLGKATTPADVLPRHIGHEGRSVDLLKPLCERLRVPNECRDLALVVAREHGNLHRVMEMGAAALVRLLERADALRKPARFAEALQASEADARGRLGLETKPYPQAERLRQALVAARAVDAGAIAQGL--AGEPAKIRDAVHRARVRAVA</Hsp_hseq>
+      <Hsp_midline>M+ Y VGGA+RD LLGLPV+DRD+VVVGA  + M AQ F+PVGKDFPVFLHP THEEYALARTERKTA GY GF F+   DVTLEQDL+RRDLTINAMA++        G ++DPFGGQ DL A + RHV  AF EDPVRILR ARFAAR+  F +A +T  LMR MV+ GE DALV ERVWQELA+GLME  P +M  +LRECGAL  +LPE+DALFGVPQRADYHPE+D+G+H +M +  AA  G SLP R+AAL HDLGKA TP D+LPRH GH+   V+ ++ + +RLR P +C +LA +V R H   H+V ++ +  ++ +L++ DA R+P RF  AL    AD +GRL  E  PYPQ       L AA   D+G IA      G+   I + + RAR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|122314471|sp|Q0AIP2.1|CCA_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Nitrosomonas eutropha C91]</Hit_def>
+  <Hit_accession>Q0AIP2</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>7.78814e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHF--------IAEQIDRARLAQIAPL</Hsp_qseq>
+      <Hsp_hseq>MKIYRVGGSVRDELLGLPVKDQDYVVVGATPEDMIRQGYRPVGKDFPVFLHPETHEQYALARTERKIARGYKGFAIYATPEVTLQEDLARRDLTINAIARDEAGNIIDPFGGIADLQAGILRHIGPAFVEDPVRVLRVARFAARFGFQVAPETFELMKEIVHTGETEALVAERVWQEIAHGLMEQHPSRMFHVLRECRALARILPEVDALFGVPQPAHAHPEIDTGIHVMMVIDYAASQQYPLEVRFAGLTHDLGKGTTPPDEWPRHIGHEARGVELVMDLCERIRVPRESRDLALLVARFHGDVHRALELRPSTIADMLQATDAYRKKVRFQAFLQACASDFHGRPGFADQPYPQAEHLSKALQAANSVDAGAIAMQL---GQSHAGDTDLPMRIKRQVYAARVGRIKSL</Hsp_hseq>
+      <Hsp_midline>M+ Y VGG+VRD LLGLPVKD+D+VVVGA  + M+ QG++PVGKDFPVFLHP+THE+YALARTERK A+GY GF+ +A  +VTL++DL RRDLTINA+A+D  G IIDPFGG  DL AGILRH+ PAF EDPVR+LR ARFAAR+GF++A ET +LM+++V  GE +ALVAERVWQE+A GLME++P +M  +LREC AL  +LPEVDALFGVPQ A  HPEID+GIH +M +  AA     L  R+A L HDLGK  TPPD  PRH GH+  GVE V ++ +R+R PR+  +LA LV R+H   H+  +L+  TI ++L+ TDA+R+  RFQ  L  C +D  GR      PYPQ  H    L+AAN  D+G IA +    G++H         I  Q+  AR+ +I  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123567439|sp|Q39C44.1|CCA_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39C44</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.907</Hsp_bit-score>
+      <Hsp_score>1169</Hsp_score>
+      <Hsp_evalue>2.49734e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGK-AHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDELLGVPVQDRDYVVVGATPEQMAAQGFRPVGKDFPVFLHPRTQEEYALARTERKTAAGYHGFQFHYAPDVTLDEDLARRDLTVNAMAREVSPEGELVGPVIDPFDGQADLRARVFRHVSDAFVEDPVRILRIARFAARFADFTVADETLALMRRMVDAGEVDALVPERVWQEIARGLMEAKPSRMFAVLRECGALARILPEVDALWGVPQRADYHPEVDTGVHVMMVVDYAAKQGYSLPVRFAALTHDLGKATTPADVLPRHVGHEGRSVDLLKPLCERLRVPNECRDLALVVAREHGNLHRVMEMGAAALVRLFERSDALRKPARFAEMLQACESDARGRLGLDAQPYPQAERLRVALAAARSVDAGAIA---RGIGNDTEKIKEAVHRARIEAVA</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M AQGF+PVGKDFPVFLHP+T EEYALARTERKTA GY GF FH   DVTL++DL RRDLT+NAMA++        G +IDPF GQ DL A + RHVS AF EDPVRILR ARFAAR+  F +A+ET+ LMR+MV+ GE DALV ERVWQE+A+GLME  P +M  +LRECGAL  +LPEVDAL+GVPQRADYHPE+D+G+H +M +  AA  G SLP R+AAL HDLGKA TP D+LPRH GH+   V+ ++ + +RLR P +C +LA +V R H   H+V ++ +  ++ + +++DA R+P RF   L  C +D +GRL  +  PYPQ       L AA   D+G IA   R  G     I E + RAR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|166233860|sp|A6T2Y3.1|CCA_JANMA</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Janthinobacterium sp. Marseille]</Hit_def>
+  <Hit_accession>A6T2Y3</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.521</Hsp_bit-score>
+      <Hsp_score>1168</Hsp_score>
+      <Hsp_evalue>2.91993e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQ--GKAHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MKTYIVGGAVRDELLGVAVKDRDYVVVGATPEAMVAQGYTPVGKDFPVFLHPKTHAEYALARTERKTAPGYKGFVFHTDASVTLEEDLIRRDLTINAMAQDEDGSIVDPFGGKRDLELRIFRHVSPAFAEDPVRILRIARFAARFPEFTVAAETNTLMQDMVTAGEVDALVPERVWQELARGLMEVRPSRMFEVLRDCGALQRILPELDVLWGVPQPAQYHPEIDTGVHIMLVIDYAAGIKADLPVRCAALLHDLGKGVTLPDQWPRHHGHEMHSVKLVDTVSKRLKIPNDCRDLALMTAREHGNVGRALELRANTIVNLLERCDAFRKPQRFIEMLQASECDHRGRTGFADKPFPQKAYLQAALAAAQTVNGGEIAELTRQRYPDQAQRIPEAIHEARVQAVA</Hsp_hseq>
+      <Hsp_midline>M+TY+VGGAVRD LLG+ VKDRD+VVVGA  + M+AQG+ PVGKDFPVFLHPKTH EYALARTERKTA GY GF FH D  VTLE+DL+RRDLTINAMAQD DG I+DPFGG+RDL   I RHVSPAFAEDPVRILR ARFAAR+  F +A ET  LM+ MV  GE DALV ERVWQELA+GLME  P +M E+LR+CGALQ +LPE+D L+GVPQ A YHPEID+G+H ++ +  AA +   LP R AALLHDLGK  T PD  PRHHGH+++ V+ V  V++RL+ P  C +LA +  R H    +  +L++ TI+N+L++ DAFR+P+RF   L     D +GR      P+PQ+A+  A L AA   + G+IA   R +   +A  I E I  AR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166233850|sp|A4JIK4.1|CCA_BURVG</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia vietnamiensis G4]</Hit_def>
+  <Hit_accession>A4JIK4</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.521</Hsp_bit-score>
+      <Hsp_score>1168</Hsp_score>
+      <Hsp_evalue>2.93988e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGK-AHFIAEQIDRARL</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDALLGVPVQDRDYVVVGATPEQMAAQGFRPVGKDFPVFLHPDTQEEYALARTERKTAAGYHGFQFYYAPDVTLDEDLARRDLTINAMAREVSPDGTLIGPVIDPFDGQADLRARVFRHVSDAFVEDPVRILRIARFAARFADFTVADETLALMRRMVDAGEADALVPERVWQEIARGLMEATPSRMFDVLRECGALARVLPEVDALWGVPQRADYHPEVDTGVHVMMVVDYAAKQGYSLPVRFAALTHDLGKATTPADVLPRHVGHEGRSVELIKPLCERLRVPNECRDLALVVAREHGNLHRVMEMGAAALVRLFERSDALRKPARFAEMLQACESDARGRLGLDTQPYPQAERLRVALVAARSVDAGAIA---RGIGNDAMQIKDAVHRARI</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M AQGF+PVGKDFPVFLHP T EEYALARTERKTA GY GF F+   DVTL++DL RRDLTINAMA++        G +IDPF GQ DL A + RHVS AF EDPVRILR ARFAAR+  F +A+ET+ LMR+MV+ GEADALV ERVWQE+A+GLME  P +M ++LRECGAL  +LPEVDAL+GVPQRADYHPE+D+G+H +M +  AA  G SLP R+AAL HDLGKA TP D+LPRH GH+   VE ++ + +RLR P +C +LA +V R H   H+V ++ +  ++ + +++DA R+P RF   L  C +D +GRL  +  PYPQ       L AA   D+G IA   R  G  A  I + + RAR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|73619760|sp|Q63YC3.1|CCA_BURPS</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia pseudomallei K96243] &gt;gi|166233848|sp|A3NQD4.1|CCA_BURP0 RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia pseudomallei 1106a]</Hit_def>
+  <Hit_accession>Q63YC3</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.751</Hsp_bit-score>
+      <Hsp_score>1166</Hsp_score>
+      <Hsp_evalue>6.50337e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MKIYAVGGAIRDALLGLPVRDRDYVVVGATPEQMAAQRFRPVGKDFPVFLHPDTHEEYALARTERKTAAGYHGFQFYYAPDVTLEQDLVRRDLTINAMAREVSPDGALVGPVVDPFGGQADLRAKLFRHVGDAFVEDPVRILRVARFAARFAEFAVAPDTAALMRAMVDAGEVDALVPERVWQELARGLMEAKPSRMFAVLRECGALARILPEIDALFGVPQRADYHPEVDTGVHVMMVIDHAAKQGYSLAVRFAALTHDLGKATTPADVLPRHIGHEGRSVDLLKPLCERLRVPNECRDLALVVAREHGNLHRVMEMGAAALVRLLERADALRKPARFAEALQASEADARGRLGLETKPYPQAERLRQALVAARAVDAGAIAQGL--AGEPAKIKDAVHRARVRAVA</Hsp_hseq>
+      <Hsp_midline>M+ Y VGGA+RD LLGLPV+DRD+VVVGA  + M AQ F+PVGKDFPVFLHP THEEYALARTERKTA GY GF F+   DVTLEQDL+RRDLTINAMA++        G ++DPFGGQ DL A + RHV  AF EDPVRILR ARFAAR+  F +A +T  LMR MV+ GE DALV ERVWQELA+GLME  P +M  +LRECGAL  +LPE+DALFGVPQRADYHPE+D+G+H +M +  AA  G SL  R+AAL HDLGKA TP D+LPRH GH+   V+ ++ + +RLR P +C +LA +V R H   H+V ++ +  ++ +L++ DA R+P RF  AL    AD +GRL  E  PYPQ       L AA   D+G IA      G+   I + + RAR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|226702042|sp|B4E8K1.1|CCA_BURCJ</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia cenocepacia J2315]</Hit_def>
+  <Hit_accession>B4E8K1</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.825</Hsp_bit-score>
+      <Hsp_score>1161</Hsp_score>
+      <Hsp_evalue>3.39669e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGK-AHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDELLGVPVQDRDYVVVGATPEQMTAQGFRPVGKDFPVFLHPQTQEEYALARTERKTAAGYHGFQFHYAPDVTLDEDLARRDLTINAMAREVSPEGTLVGPVIDPFDGQADLRARVFRHVSDAFVEDPVRILRIARFAARFADFTVADETLALMRRMVDAGEVDALVPERVWQEIARGLMEAKPSRMFAVLRDCGALARILPEVDALWGVPQRADYHPEVDTGVHVMMVVDYAAKQGYSLAVRFAALTHDLGKGTTPADVLPRHVGHESRSVELLKPLCERLRVPNECRDLALVVAREHGNLHRVMEMGAAALVRLFERSDALRKPARFAELLQACESDARGRLGLDAQPYPQAERLRVALAAARSVDAGAIA---RGIGSDTEKIKEAVHRARIQAVA</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M AQGF+PVGKDFPVFLHP+T EEYALARTERKTA GY GF FH   DVTL++DL RRDLTINAMA++        G +IDPF GQ DL A + RHVS AF EDPVRILR ARFAAR+  F +A+ET+ LMR+MV+ GE DALV ERVWQE+A+GLME  P +M  +LR+CGAL  +LPEVDAL+GVPQRADYHPE+D+G+H +M +  AA  G SL  R+AAL HDLGK  TP D+LPRH GH+   VE ++ + +RLR P +C +LA +V R H   H+V ++ +  ++ + +++DA R+P RF   L  C +D +GRL  +  PYPQ       L AA   D+G IA   R  G     I E + RAR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|166233859|sp|A4G969.1|CCA_HERAR</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Herminiimonas arsenicoxydans]</Hit_def>
+  <Hit_accession>A4G969</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.825</Hsp_bit-score>
+      <Hsp_score>1161</Hsp_score>
+      <Hsp_evalue>3.59124e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY-GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAA--ECRAQGKAHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MKIYIVGGAVRDELLGVAVKDRDYVVVGATPEQMIAQNYTPVGKDFPVFLHPVTHEEYALARTERKTAPGYKGFVFHTDAGVTLEEDLIRRDLTVNAMAKDADGRIIDPFGGRRDLEQKIFRHVSSAFAEDPVRILRVARFAARFPQFSVAAETNALMQAMVAAGEVDALVPERTWQELARGLMEVQPSRMFAVLRDCGALQRMLPELDALWGVPQPEKYHPEIDTGVHVMMVVDHAAQQNLALPIRCAALFHDLGKGVTPPEMWPRHHGHEMQSAKLVETVCQRLKIPNDCRDLSVMTAREHGNIGRALELRAATIVTLFERCDAFRKPQRFIDMLQASECDHRGRTGFADVPFPQNAYMQKALAAAQTVNGGEIAALMQQRWPDQPARIPEAIHEARVKAVA</Hsp_hseq>
+      <Hsp_midline>M+ Y+VGGAVRD LLG+ VKDRD+VVVGA  + M+AQ + PVGKDFPVFLHP THEEYALARTERKTA GY GF FH D  VTLE+DL+RRDLT+NAMA+DADG+IIDPFGG+RDL   I RHVS AFAEDPVRILR ARFAAR+  F +A ET  LM+ MV  GE DALV ER WQELA+GLME  P +M  +LR+CGALQ +LPE+DAL+GVPQ   YHPEID+G+H +M +  AA   L+LP R AAL HDLGK  TPP++ PRHHGH++   + V  V QRL+ P  C +L+ +  R H    +  +L++ TI+ + ++ DAFR+P+RF   L     D +GR      P+PQ A+    L AA   + G+IAA  + R   +   I E I  AR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|166233841|sp|A1K2Q5.1|CCA_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K2Q5</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.44</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>4.96342e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQ</Hsp_qseq>
+      <Hsp_hseq>MRTYVVGGAVRDALLGLPVKDRDWVVVGATPDEMLARGFRPVGKDFPVFLHPQTQEEHALARTERKTGRGYAGFAFHTAPDVTLEEDLARRDLTINAIARDADGTLIDPYGGVADLHGRVFRHVSPAFAEDPVRILRVARFAARFADFSVAPETLALMRAMVDNGEVDHLVAERVWQEFARGLMEAHPARMIRVLRDCGALARLLPELDRLFGVPQPAQHHPEIDTGEHVLMVVEQAAARAHSLPVRWATLLHDLGKGETPAAILPHHYGHEARSADLARQVSERLKAPVDCRDLAVMVAREHGILAQAAVLRAETMVKVLERCDALRRPERFALMLEAAACDHLGRGGERPENWAPAAQWQAALAAVRSVEAGAIARACADKAQ---VPQRIHAARVAAVKALR</Hsp_hseq>
+      <Hsp_midline>M+TY+VGGAVRD LLGLPVKDRDWVVVGA    MLA+GF+PVGKDFPVFLHP+T EE+ALARTERKT +GYAGF+FH   DVTLE+DL RRDLTINA+A+DADG +IDP+GG  DL   + RHVSPAFAEDPVRILR ARFAAR+  F +A ET+ LMR MV+NGE D LVAERVWQE A+GLME +P +MI +LR+CGAL  LLPE+D LFGVPQ A +HPEID+G H LM +++AA    SLP R+A LLHDLGK +TP  ILP H+GH+    +  R+V++RL+AP  C +LA +V R H I  Q   L+++T++ VL++ DA RRPERF   L     D  GR       +   A W A L A    ++G IA  C  + +   + ++I  AR+A +  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|122322023|sp|Q0BB41.1|CCA_BURCM</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia ambifaria AMMD]</Hit_def>
+  <Hit_accession>Q0BB41</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.055</Hsp_bit-score>
+      <Hsp_score>1159</Hsp_score>
+      <Hsp_evalue>6.73902e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIA</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDDLLGVPVQDRDYVVVGATPEQMVAQGFRPVGKDFPVFLHPDTQEEYALARTERKTAAGYHGFQFYFAPDVTLDEDLARRDLTINAMAREVSPEGALVGPVIDPFDGQADLHARVFRHVGDAFVEDPVRILRIARFAARFADFTVADDTLALMRRMVDAGEADALVAERVWQEIARGLMEAKPSRMFAVLRECGALARVLPEVDALWGVPQRADYHPEVDTGVHVMMVVDYAAKQGYSLPVRFAALTHDLGKATTPADVLPRHVGHEGRSVELIKPLCERLRVPNECRDLALVVAREHGNLHRVMEMGAAALVRFFERSDALRKPARFAEMLQACESDARGRLGLDTQPYPQAERLRVALVAARSVDAGAIA</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M+AQGF+PVGKDFPVFLHP T EEYALARTERKTA GY GF F+   DVTL++DL RRDLTINAMA++        G +IDPF GQ DL A + RHV  AF EDPVRILR ARFAAR+  F +A++T+ LMR+MV+ GEADALVAERVWQE+A+GLME  P +M  +LRECGAL  +LPEVDAL+GVPQRADYHPE+D+G+H +M +  AA  G SLP R+AAL HDLGKA TP D+LPRH GH+   VE ++ + +RLR P +C +LA +V R H   H+V ++ +  ++   +++DA R+P RF   L  C +D +GRL  +  PYPQ       L AA   D+G IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|226702040|sp|B1YPB3.1|CCA_BURA4</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>B1YPB3</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.669</Hsp_bit-score>
+      <Hsp_score>1158</Hsp_score>
+      <Hsp_evalue>1.06403e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIA</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDELLGVPVQDRDYVVVGATPEQMVAQGFRPVGKDFPVFLHPDTQEEYALARTERKTAAGYHGFQFYFAPDVTLDEDLARRDLTINAMAREVSPEGALVGPVIDPFDGQADLRARVFRHVGDAFVEDPVRILRIARFAARFADFTVADDTLALMRRMVDAGEADALVAERVWQEIARGLMEAKPSRMFAVLRECGALARVLPEVDALWGVPQRADYHPEVDTGVHVMMVVDYAAKQGYSLPVRFAALTHDLGKATTPADVLPRHVGHEGRSVELIKPLCERLRVPNDCRDLALVVAREHGNLHRVMEMGAAALVRFFERSDALRKPARFAEMLQACESDARGRLGLDTQPYPQAERLRVALVAARSVDAGAIA</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M+AQGF+PVGKDFPVFLHP T EEYALARTERKTA GY GF F+   DVTL++DL RRDLTINAMA++        G +IDPF GQ DL A + RHV  AF EDPVRILR ARFAAR+  F +A++T+ LMR+MV+ GEADALVAERVWQE+A+GLME  P +M  +LRECGAL  +LPEVDAL+GVPQRADYHPE+D+G+H +M +  AA  G SLP R+AAL HDLGKA TP D+LPRH GH+   VE ++ + +RLR P  C +LA +V R H   H+V ++ +  ++   +++DA R+P RF   L  C +D +GRL  +  PYPQ       L AA   D+G IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|226702046|sp|B2AGH1.1|CCA_CUPTR</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>B2AGH1</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.669</Hsp_bit-score>
+      <Hsp_score>1158</Hsp_score>
+      <Hsp_evalue>1.17646e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>400</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQ--DADGK----IIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY-GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQI</Hsp_qseq>
+      <Hsp_hseq>MQVYAVGGAIRDELLGKPSQDRDYVVVGATPAEMEAAGYRPVGKDFPVFLHPRTQEEYALARTERKTAMGYKGFAFYCEPDVTLEDDLVRRDLTINAMARAVDADGNLTGPVIDPHGGQRDLAARLFRHVSDAFAEDPVRILRLARFAARFHDFNVAAETMRLMREMVAAGEVDALVPERVWQELARGLMEARPSRMFEVLRECGALARLLPELERLWGVPQRADFHPEVDTGVHVMMVIDCAAALGAPLPVRFAALVHDLGKGTTPEDVLPRHIGHELRSVRLLEEVCARLRVPNECRDLAVVVAREHGHIHRSLELGAAAVVRLLERCDALRKPARFAQALQACEADKRGRKGFEHSDYPQAARLLAAREAAASVDAGAIARAC-----ADNVAQIKDRVHAARV</Hsp_hseq>
+      <Hsp_midline>MQ Y VGGA+RD LLG P +DRD+VVVGA    M A G++PVGKDFPVFLHP+T EEYALARTERKTA GY GF+F+ + DVTLE DL+RRDLTINAMA+  DADG     +IDP GGQRDLAA + RHVS AFAEDPVRILR ARFAAR+  F +A ET++LMR+MV  GE DALV ERVWQELA+GLME  P +M E+LRECGAL  LLPE++ L+GVPQRAD+HPE+D+G+H +M +  AA +G  LP R+AAL+HDLGK  TP D+LPRH GH++  V  + EV  RLR P +C +LA +V R H   H+  +L +  ++ +L++ DA R+P RF  AL  C AD +GR   EH+ YPQ A  LA  EAA   D+G IA  C     A  +A+  DR   A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|123371192|sp|Q1BST9.1|CCA_BURCA</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia cenocepacia AU 1054] &gt;gi|166233844|sp|A0KBA2.1|CCA_BURCH RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia cenocepacia HI2424]</Hit_def>
+  <Hit_accession>Q1BST9</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>7.21286e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGK-AHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDELLGVPVQDRDYVVVGATPEQMTAQGFRAVGKDFPVFLHPQTQEEYALARTERKTAAGYHGFQFHYAPDVTLDEDLARRDLTINAMAREVSPEGALVGPVIDPFDGQADLRARVFRHVSDAFVEDPVRILRIARFAARFADFTVADETLALMRRMVDAGEVDALVPERVWQEIARGLMEAKPSRMFAVLRDCGALARILPEVDALWGVPQRADYHPEVDTGVHVMMVVDYAAKQGYSLAVRFAALTHDLGKGTTPADVLPRHVGHESRSVELLKPLCERLRVPNECRDLALVVAREHGNLHRVMEMGAAALVRLFERSDALRKPARFAELLQACESDARGRLGLDAQPYPQAERLRVALAAARSVDAGAIA---RGIGNDTEKIKEAVHRARIQAVA</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M AQGF+ VGKDFPVFLHP+T EEYALARTERKTA GY GF FH   DVTL++DL RRDLTINAMA++        G +IDPF GQ DL A + RHVS AF EDPVRILR ARFAAR+  F +A+ET+ LMR+MV+ GE DALV ERVWQE+A+GLME  P +M  +LR+CGAL  +LPEVDAL+GVPQRADYHPE+D+G+H +M +  AA  G SL  R+AAL HDLGK  TP D+LPRH GH+   VE ++ + +RLR P +C +LA +V R H   H+V ++ +  ++ + +++DA R+P RF   L  C +D +GRL  +  PYPQ       L AA   D+G IA   R  G     I E + RAR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|226702045|sp|B2T6V1.1|CCA_BURPP</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia phytofirmans PsJN]</Hit_def>
+  <Hit_accession>B2T6V1</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.973</Hsp_bit-score>
+      <Hsp_score>1151</Hsp_score>
+      <Hsp_evalue>1.15935e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDA------DGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY-GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIA</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDELLGVPVQDRDYVVVGATPEQMVAQGYRPVGKDFPVFLHPQTHEEYALARTERKTAAGYHGFQFFYAPDVTLEEDLARRDLTINAMAREVRPDGELTGPVIDPFNGQGDVQARVFRHVSDAFLEDPVRILRIARFAARFVDFTVAPETLALMRKMVADGEVDALVAERVWQEVSRGLMEKKPSRMFEVLRECGALARILPEIDALFGVLQRADYHPEVDTGVHVMMVVDHAAQQGYALQVRFAALAHDLGKATTPEDMLPRHIGHEGRSVDLLKPLCERLRVPNDCRDLAVLVAREHGNIHRVMEMGAAALVRLLERSDAIRKPARFAEALQACEADARGRLGFERREYPQAERLRVALVAARGVDAGAVA</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M+AQG++PVGKDFPVFLHP+THEEYALARTERKTA GY GF F    DVTLE+DL RRDLTINAMA++        G +IDPF GQ D+ A + RHVS AF EDPVRILR ARFAAR+  F +A ET+ LMR+MV +GE DALVAERVWQE+++GLMEK P +M E+LRECGAL  +LPE+DALFGV QRADYHPE+D+G+H +M +  AA  G +L  R+AAL HDLGKA TP D+LPRH GH+   V+ ++ + +RLR P  C +LA LV R H   H+V ++ +  ++ +L+++DA R+P RF  AL  C AD +GRL  E   YPQ       L AA   D+G +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|166233868|sp|A1VSY7.1|CCA_POLNA</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Polaromonas naphthalenivorans CJ2]</Hit_def>
+  <Hit_accession>A1VSY7</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>1.25856e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>400</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>414</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAH-FIAEQIDRARLAQI</Hsp_qseq>
+      <Hsp_hseq>MKIYMVGGAVRDKLLGLPVTDHDWVVVGATPEALTAQGFLPVGKDFPVFLHPQTREEYALARTERNSARGYRGFEVYAAPEVTLEQDLARRDLTINSIAAPAHPDSAKGLFEPDFDALVDPYGGQRDLQAKVLRHVTDAFREDPVRILRLARFAARFADFSIAPETLAMMWEMVTDGEVDGLVPERVWQELARGLMEDKPSRMFDALRACGALQHLLPEVERLWGVAQSAQYHPEIDTGIHLMMVLDMAAQLGAPLPVRFACLCHDLGKGTTPADVLPRHIGHEERSAKLLKDVCQRLRVPSECREIADVVAREHGNIHRSGEFSPAAVVRLLERCDAFRKPRRFADILLACECDARGRLGFEQTPYPQRPRLLQLLAAAQSVATDKVAAEAMAAGQSGPKIGEWIHQARVEAV</Hsp_hseq>
+      <Hsp_midline>M+ Y+VGGAVRD LLGLPV D DWVVVGA  + + AQGF PVGKDFPVFLHP+T EEYALARTER +A+GY GF  +A  +VTLEQDL RRDLTIN++A  A               ++DP+GGQRDL A +LRHV+ AF EDPVRILR ARFAAR+  F IA ET+ +M +MV +GE D LV ERVWQELA+GLME  P +M + LR CGALQ LLPEV+ L+GV Q A YHPEID+GIH +M L  AA +G  LP R+A L HDLGK  TP D+LPRH GH+    + +++V QRLR P +C E+A++V R H   H+ G+     ++ +L++ DAFR+P RF   L  C  D +GRL  E TPYPQR   L LL AA    + K+AAE  A G++   I E I +AR+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|73619737|sp|Q5P3T0.1|CCA_AROAE</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5P3T0</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>7.17581e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>400</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY-GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQI</Hsp_qseq>
+      <Hsp_hseq>MRVYVVGGAVRDRLLGLPVQDHDWVVVGATPDEMLARGFRAVGKDFPVFLHPRTGEEYALARTERKSGRGYTGFTVHASPDVTLEEDLRRRDLTINAMAQDEDGTLIDPYGGRRDLENRVFRHVSEAFAEDPVRVLRVARFAARFEGFSVAGETLALMRTMVDDGEVDHLVAERVWQELARGLMETRPSRMFAVLRECCALARILPEVDRLFGVPQPPQHHPEVDTGIHVMAVVDHAAATAQPLAVRWACLLHDLGKADTPVHVLPHHYGHEAKSADRARAVSERLKAPLECRDLAVLLAREHGILHQARALRPVTIVKLLERTDALRRPERFGLLLEAAACDFHGRPGMAERPYVQAAIWQAALAAVRSVDAGAIARSCTDKAS---IPQRVHEARVAAV</Hsp_hseq>
+      <Hsp_midline>M+ Y+VGGAVRD LLGLPV+D DWVVVGA    MLA+GF+ VGKDFPVFLHP+T EEYALARTERK+ +GY GF+ HA  DVTLE+DL RRDLTINAMAQD DG +IDP+GG+RDL   + RHVS AFAEDPVR+LR ARFAAR+ GF +A ET+ LMR MV++GE D LVAERVWQELA+GLME  P +M  +LREC AL  +LPEVD LFGVPQ   +HPE+D+GIH +  +  AA     L  R+A LLHDLGKA TP  +LP H+GH+    +  R V++RL+AP +C +LA L+ R H I HQ   L+  TI+ +L++TDA RRPERF   L     D  GR      PY Q A W A L A    D+G IA  C  +     I +++  AR+A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|226702041|sp|B1JZZ7.1|CCA_BURCC</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia cenocepacia MC0-3]</Hit_def>
+  <Hit_accession>B1JZZ7</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>1.11696e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGK-AHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDELLGVPVQDRDYVVVGATPEQMTAQGFRPVGKDFPVFLHPQTQEEYALARTERKTAAGYHGFQFHYAPDVTLDEDLARRDLTINAMAREVSPEGALVGPVIDPFDGQADLRARVFRHVSDAFVEDPVRILRIARFAARFADFTVADETLALMRRMVDAGEIDALVPERVWQEIARGLMEAKPSRMFAVLRDCGALARIVPEVDALWGVPQRADYHPEVDTGVHVMMVVDYAAKQGYSLAVRFAALTHDLGKGTTPADVLPRHVGHESRSVELLKPLCERLRVPNESRDLALVVAREHGNLHRVMEMGAAALVRLFERSDALRKPARFAELLQACESDARGRLGLDAQPYPQAERLRVALAAARSVDAGAIA---RGIGNDTEKIKEAVHRARVQAVA</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M AQGF+PVGKDFPVFLHP+T EEYALARTERKTA GY GF FH   DVTL++DL RRDLTINAMA++        G +IDPF GQ DL A + RHVS AF EDPVRILR ARFAAR+  F +A+ET+ LMR+MV+ GE DALV ERVWQE+A+GLME  P +M  +LR+CGAL  ++PEVDAL+GVPQRADYHPE+D+G+H +M +  AA  G SL  R+AAL HDLGK  TP D+LPRH GH+   VE ++ + +RLR P +  +LA +V R H   H+V ++ +  ++ + +++DA R+P RF   L  C +D +GRL  +  PYPQ       L AA   D+G IA   R  G     I E + RAR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|166233875|sp|Q1LS11.1|CCA_RALME</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LS11</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.8641e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>MQVYAVGGAVRDQLLGKPSQDRDYVVVGATPADMEAAGFKPVGKDFPVFLHPHTKAEYALARTERKTAVGYKGFAFYTGADVTLEEDLVRRDLTINAMAQAVDEHDNLVGPVIDPYGGQKDLAARKFRHVSDAFAEDPVRILRVARFAARFHEFTVAPETVALMRKIVDAGEVDALVPERVWQELSRGLMEAKPSRMFDVLRECGALAHLLPELDRLWGVPQRPEYHPEVDTGVHVMMVIDYAASVGASLPVRFAAMAHDLGKGTTPEDMLPRHIGHEQRGVKLLEAICQRLRVPNDCRELALVVAREHGNIHRSTEFGAAALTRLVERCDALRKPERFAEALLACEADARGRLGFADKDYPQADRLLAARDAAASVDAGAIAKAC--GDKVDQIKDRVHKARVAAVA</Hsp_hseq>
+      <Hsp_midline>MQ Y VGGAVRD LLG P +DRD+VVVGA    M A GF+PVGKDFPVFLHP T  EYALARTERKTA GY GF+F+   DVTLE+DL+RRDLTINAMAQ  D      G +IDP+GGQ+DLAA   RHVS AFAEDPVRILR ARFAAR+  F +A ET+ LMR++V+ GE DALV ERVWQEL++GLME  P +M ++LRECGAL  LLPE+D L+GVPQR +YHPE+D+G+H +M +  AA +G SLP R+AA+ HDLGK  TP D+LPRH GH+  GV+ +  + QRLR P  C ELA +V R H   H+  +  +  +  ++++ DA R+PERF  AL  C AD +GRL      YPQ    LA  +AA   D+G IA  C    K   I +++ +AR+A +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|123652489|sp|Q4K4W8.1|CCA_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4K4W8</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>2.37908e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQ</Hsp_qseq>
+      <Hsp_hseq>MRIYKVGGAVRDRLLGRPVTDIDWVVVGASAEEMLAKGFRPVGADFPVFLHPKSGEEYALARTERKSGRGYSGFTFHASPEVTLEEDLIRRDLTINAMAEDEQGRLTDPYNGQKDLEERLLRHVSPAFAEDPLRVLRVARFAARYAGLGFRVAPETLELMRELSESGELQALTAERSWKEISRALMEDQPQVFIQVLRDCGALAVLMPEIDALFGVPQPAVHHPEIDTGAHTLSVLLQAALHQQPLSVRWACLLHDLGKGLTPEEEWPRHIGHERTGLELIKAVNERFKAPRECQELALLVGQYHTHGHKALELKASTLLELLQSFDVFRRPQRFEEFIAACEMDARGRLGLESRPYPQADYLRGAAEAARK</Hsp_hseq>
+      <Hsp_midline>M+ Y VGGAVRD LLG PV D DWVVVGA A+ MLA+GF+PVG DFPVFLHPK+ EEYALARTERK+ +GY+GF+FHA  +VTLE+DL+RRDLTINAMA+D  G++ DP+ GQ+DL   +LRHVSPAFAEDP+R+LR ARFAARY   GF +A ET++LMR++ E+GE  AL AER W+E+++ LME  P+  I++LR+CGAL VL+PE+DALFGVPQ A +HPEID+G HTL  L +AA     L  R+A LLHDLGK  TP +  PRH GH+  G+E ++ VN+R +APR+C ELA LV ++H   H+  +LK+ T+L +L+  D FRRP+RF+  +  C  D +GRL  E  PYPQ  +     EAA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|226702030|sp|B0VBE4.1|CCA_ACIBY</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Acinetobacter baumannii AYE] &gt;gi|226702123|sp|B7GZN3.1|CCA_ACIB3 RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Acinetobacter baumannii AB307-0294] &gt;gi|226702124|sp|B7I3L8.1|CCA_ACIB5 RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Acinetobacter baumannii AB0057] &gt;gi|226702125|sp|B2HV23.1|CCA_ACIBC RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Acinetobacter baumannii ACICU]</Hit_def>
+  <Hit_accession>B0VBE4</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>8.42749e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQ</Hsp_qseq>
+      <Hsp_hseq>MQVYLVGGAVRDYLLGHPYQEKDYVVVGATPEHMLAQGFQPVGKDFPVFLHPETKEEYALARTERKSGQGYHGFQFFTDTTVSLEDDLIRRDLTINAIAMDQDGKIYDPYGGQNDLENKILRHVSEAFAEDPLRVLRVARFAARYFPYGFQIAPETLQLMQTMADSGELDALTPERVWKETSRALMENHADIYFQTLRDCGALKHLFPEIDALFGVPQRPEYHPEVDCGIHTLMSLQQACKSNYSLDVRFAVLVHDLGKALTPAEELPRHIMHEERGIKPVTQLCERLRVPTQTKQLALSVCKEHLKCHQIMSLKPGTLWRLLQRLDVLRRPERVEAFVQACECDAKGRLGLEDRPYPQ</Hsp_hseq>
+      <Hsp_midline>MQ YLVGGAVRDYLLG P +++D+VVVGA  + MLAQGFQPVGKDFPVFLHP+T EEYALARTERK+ +GY GF F  D  V+LE DL+RRDLTINA+A D DGKI DP+GGQ DL   ILRHVS AFAEDP+R+LR ARFAARY   GF+IA ET++LM+ M ++GE DAL  ERVW+E ++ LME +     + LR+CGAL+ L PE+DALFGVPQR +YHPE+D GIHTLM+LQ+A     SL  R+A L+HDLGKA TP + LPRH  H+  G++PV ++ +RLR P Q  +LA  VC+ H+  HQ+  LK  T+  +L++ D  RRPER +  +  C  D +GRL  E  PYPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|226702044|sp|B2JIM3.1|CCA_BURP8</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Burkholderia phymatum STM815]</Hit_def>
+  <Hit_accession>B2JIM3</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>8.94975e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIA</Hsp_qseq>
+      <Hsp_hseq>MNIYAVGGAIRDELLGMPVQDRDYVVVGATPEQMIAQGFRPVGKDFPVFLHPDTQEEYALARTERKTSAGYHGFQFFYAPDVTLEDDLARRDLTINAMAREVTPDGALIGPVIDPFNGREDLEHRVFRHVSDAFLEDPVRILRVARFSARFADFSVAPETLALMRKMVEAGEVDALVPERVWQEVSRGLMEKKPSRMFEVLRDCGALARVLPEIDALYGVPQRADYHPEVDTGVHVMMVVDHAAAQNYALAVRFAALTHDLGKATTPEDVLPRHIGHEGRSVDLLKPLCERLRVPNECRDLALLVAREHGNIHRVMETKAAGLVRLFERSDALRKPARFAEALQACEADARGRLGFEANAYPQAERLRQALVAARAVDAGAVA</Hsp_hseq>
+      <Hsp_midline>M  Y VGGA+RD LLG+PV+DRD+VVVGA  + M+AQGF+PVGKDFPVFLHP T EEYALARTERKT+ GY GF F    DVTLE DL RRDLTINAMA++        G +IDPF G+ DL   + RHVS AF EDPVRILR ARF+AR+  F +A ET+ LMR+MVE GE DALV ERVWQE+++GLMEK P +M E+LR+CGAL  +LPE+DAL+GVPQRADYHPE+D+G+H +M +  AA    +L  R+AAL HDLGKA TP D+LPRH GH+   V+ ++ + +RLR P +C +LA LV R H   H+V + K+  ++ + +++DA R+P RF  AL  C AD +GRL  E   YPQ       L AA   D+G +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|123543932|sp|Q2Y681.1|CCA_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2Y681</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>9.4064e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAE</Hsp_qseq>
+      <Hsp_hseq>MKTYLVGGSVRDEILGLPVTDHDYVVVGVSPEEMVHLGFRPVGKDFPVFLHPQSQEQYALARTERKVSRGYKGFEVYASPEVTLQEDLARRDLTINAIAKDEYGNIIDPFGGIADLEAGVLRHIGPAFTEDPVRVLRTARFAARFGFHIAPETLALMNEMVHNGEVDALVSERVWQEIARGLMERHPSRMFYALRDCGALTRIMPEVDALFGVPQPPQHHPEIDTGVHVMMVIDYAASRNYSLQVRFAALTHDLGKGTTPPEEWPRHIGHEARSVRLVQGLCERINPPNEMRNLALLVARYHGDVHRAAELRPVTIANLLQGVDAYRKPERFEEFLQACACDFHGRPGYATRPYPQADRLREAFQAARSVDAGAIAKE</Hsp_hseq>
+      <Hsp_midline>M+TYLVGG+VRD +LGLPV D D+VVVG   + M+  GF+PVGKDFPVFLHP++ E+YALARTERK ++GY GF  +A  +VTL++DL RRDLTINA+A+D  G IIDPFGG  DL AG+LRH+ PAF EDPVR+LR ARFAAR+GF IA ET+ LM +MV NGE DALV+ERVWQE+A+GLME++P +M   LR+CGAL  ++PEVDALFGVPQ   +HPEID+G+H +M +  AA    SL  R+AAL HDLGK  TPP+  PRH GH+   V  V+ + +R+  P +   LA LV R+H   H+  +L+  TI N+L+  DA+R+PERF+  L  C  D  GR      PYPQ        +AA   D+G IA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|226702127|sp|A3M767.2|CCA_ACIBT</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Acinetobacter baumannii ATCC 17978]</Hit_def>
+  <Hit_accession>A3M767</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.58</Hsp_bit-score>
+      <Hsp_score>1137</Hsp_score>
+      <Hsp_evalue>1.24641e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQ</Hsp_qseq>
+      <Hsp_hseq>MQVYLVGGAVRDYLLGHPYQEKDYVVVGATPEHMLAQGFQPVGKDFPVFLHPETKEEYALARTERKSGQGYHGFQFFTDTTVSLEDDLIRRDLTINAIAMDQDGKIYDPYGGQNDLENKILRHVSEAFAEDPLRVLRVARFAARYFPYGFQIAPETLQLMQTMADSGELDALTPERVWKETSRALMENHADIYFQTLRNCGALKHLFPEIDALFGVPQRPEYHPEVDCGIHTLMSLQQACKSNYSLDVRFAVLVHDLGKALTPAEELPRHIMHEERGIKPVTQLCERLRVPTQTKQLALSVCKEHLKCHQIMSLKPGTLWRLLQRLDVLRRPERVEAFVQACECDAKGRLGLEDRPYPQ</Hsp_hseq>
+      <Hsp_midline>MQ YLVGGAVRDYLLG P +++D+VVVGA  + MLAQGFQPVGKDFPVFLHP+T EEYALARTERK+ +GY GF F  D  V+LE DL+RRDLTINA+A D DGKI DP+GGQ DL   ILRHVS AFAEDP+R+LR ARFAARY   GF+IA ET++LM+ M ++GE DAL  ERVW+E ++ LME +     + LR CGAL+ L PE+DALFGVPQR +YHPE+D GIHTLM+LQ+A     SL  R+A L+HDLGKA TP + LPRH  H+  G++PV ++ +RLR P Q  +LA  VC+ H+  HQ+  LK  T+  +L++ D  RRPER +  +  C  D +GRL  E  PYPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|73619734|sp|Q6FA38.1|CCA_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6FA38</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>2.44834e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>407</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTF</Hsp_qseq>
+      <Hsp_hseq>MQVYLVGGAVRDHLLGHPYHEKDYVVVGASPQQLLDQGFSPVGKDFPVFLHPKTKEEYALARTERKSGIGYHGFNFFTDPDVSLEDDLIRRDLTINAMAMDQDGNVYDPYGGQKDLEQRILRHVSDAFIEDPLRVLRVARFAARYARYGFKIADETLLLMQSITQTGELESLTAERVWKETSRALMEDQADIYFDVLRQCHALKVLFPEIDALFGVPQRPEYHPEIDCGIHTLMSLRQACKSNYSLDVRYAVLVHDLGKALTPKDILPRHIMHEERGLIPVEELSNRLKIPTQMKQLALAVCKEHLKCHQAMSLKPGTLWRLLQRLDVLRRPERVEAFINACECDARGRLGLENRDYPQAAFMFKAMQVVRSIKAQDLPA--YIQGSE--IGEKLIQYRIDALAELKKQY</Hsp_hseq>
+      <Hsp_midline>MQ YLVGGAVRD+LLG P  ++D+VVVGA  Q +L QGF PVGKDFPVFLHPKT EEYALARTERK+  GY GF+F  D DV+LE DL+RRDLTINAMA D DG + DP+GGQ+DL   ILRHVS AF EDP+R+LR ARFAARY   GF+IA+ET+ LM+ + + GE ++L AERVW+E ++ LME       ++LR+C AL+VL PE+DALFGVPQR +YHPEID GIHTLM+L++A     SL  RYA L+HDLGKA TP DILPRH  H+  G+ PV E++ RL+ P Q  +LA  VC+ H+  HQ   LK  T+  +L++ D  RRPER +  +N C  D +GRL  E+  YPQ A     ++      +  + A    QG    I E++ + R+  +A L+K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|254813701|sp|B8GUR8.1|CCA_THISH</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Thioalkalivibrio sulfidiphilus HL-EbGr7]</Hit_def>
+  <Hit_accession>B8GUR8</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>2.80668e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRG</Hsp_qseq>
+      <Hsp_hseq>MKTYLVGGAVRDELLGLPVRERDWVVVGATAAQMLDLGYRQVGRDFPVFLHPETHEEHALARTERKTAPGYRGFVVHAEPDVTLEEDLLRRDLTINAMARDEAGGLIDPFNGRADLEARLLRHVSPAFAEDPVRILRVARFAARFAHLGFRVADETRALMRRMVAAGEVDALVPERVWQEMERALGEGSPATFFEVLRDCGALAVLFPEIERLFGVPQPPKYHPEIDTGVHTLMVLTQAARLSADATIRFAALTHDLGKGTTPADILPSHHGHEQRSVDLVHALCDRFRIPNAYRDLAVMVARWHGYSHRALELRPDTVLKALEGLDAFRRPERFEPFLLACEADYRGRTGFEDRPYPQ-ADYLRAAHARCLAISAKDLVNEGLTGKA--IGEALHARRVQALKQLKAEWGG</Hsp_hseq>
+      <Hsp_midline>M+TYLVGGAVRD LLGLPV++RDWVVVGA A  ML  G++ VG+DFPVFLHP+THEE+ALARTERKTA GY GF  HA+ DVTLE+DL+RRDLTINAMA+D  G +IDPF G+ DL A +LRHVSPAFAEDPVRILR ARFAAR+   GF +A+ET  LMR+MV  GE DALV ERVWQE+ + L E +P    E+LR+CGAL VL PE++ LFGVPQ   YHPEID+G+HTLM L +AA +      R+AAL HDLGK  TP DILP HHGH+   V+ V  +  R R P    +LA +V RWH   H+  +L+  T+L  L+  DAFRRPERF+  L  C AD +GR   E  PYPQ A +L    A   A S K        GKA  I E +   R+  +  L+  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|73619813|sp|Q82U82.1|CCA_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82U82</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>3.46287e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQ--GKAHF---IAEQIDRARLAQIAPL</Hsp_qseq>
+      <Hsp_hseq>MKIYRVGGSVRDELLGLPVKDQDYVVVGATPEEMVRLGYRPVGKDFPVFLHPETHEQYALARTERKIARGYKGFEVYAAPGVTLQEDLARRDLTINAMARDEAGDIVDPFGGIADLQAGILRHIGPAFVEDPVRVLRVARFAARFGFQIAPETLELMKEIVHTGETEALVPERVWQEIAHGLMESHPSRMFYVLRECGALARILPEVDALFGVPQPAHAHPEIDTGIHVMMVIDHAASKQYPLEVRFAGLTHDLGKGTTSPDEWPRHIGHEARSVELVMGLCERIRVPGESRDLALLVARFHGDVHRALELRPATIADMLQATDAYRKKARFQAFLQACASDFHGRPGFADKPYPQKEHLSRALQVAVDVDAGAIAMQLNQSHAGKADLPMRINRQVYAARVERISSL</Hsp_hseq>
+      <Hsp_midline>M+ Y VGG+VRD LLGLPVKD+D+VVVGA  + M+  G++PVGKDFPVFLHP+THE+YALARTERK A+GY GF  +A   VTL++DL RRDLTINAMA+D  G I+DPFGG  DL AGILRH+ PAF EDPVR+LR ARFAAR+GF+IA ET++LM+++V  GE +ALV ERVWQE+A GLME +P +M  +LRECGAL  +LPEVDALFGVPQ A  HPEID+GIH +M +  AA     L  R+A L HDLGK  T PD  PRH GH+   VE V  + +R+R P +  +LA LV R+H   H+  +L+  TI ++L+ TDA+R+  RFQ  L  C +D  GR      PYPQ+ H    L+ A   D+G IA +      GKA     I  Q+  AR+ +I+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226702071|sp|B1Y634.1|CCA_LEPCP</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Leptothrix cholodnii SP-6]</Hit_def>
+  <Hit_accession>B1Y634</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>3.5281e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQ</Hsp_qseq>
+      <Hsp_hseq>MRCLLVGGAVRDQLLGRPVGDRDWVVVGATPEQMVAAGYLPVGRDFPVFLHPRTHEEYALARTERKTAPGYHGFVFHTGADVSLDDDLARRDLTINAMALDEAGTLIDPWGGRRDLAHKCLRHVGAAFAEDPVRILRLARFAARLGDFSVAPETLALCRRMVEAGEVDALVPERVWQELSRGLMEARPSRMFEVLRDCGALARLLPEVERLFGVPQRADYHPEVDTGVHLMMVLDTAAQRGVSLPVRYACLGHDLGKGTTPAHILPRHIGHEGRSAALLAPMSARLKVPAACHELADLVAREHSNVHGSGNFDAAALVRLFDRCDAWRRPERFELALQACECDARGRLGFEQAHYPQ</Hsp_hseq>
+      <Hsp_midline>M+  LVGGAVRD LLG PV DRDWVVVGA  + M+A G+ PVG+DFPVFLHP+THEEYALARTERKTA GY GF FH   DV+L+ DL RRDLTINAMA D  G +IDP+GG+RDLA   LRHV  AFAEDPVRILR ARFAAR G F +A ET+ L R+MVE GE DALV ERVWQEL++GLME  P +M E+LR+CGAL  LLPEV+ LFGVPQRADYHPE+D+G+H +M L  AA  G+SLP RYA L HDLGK  TP  ILPRH GH+      +  ++ RL+ P  C ELA+LV R H   H  G   +  ++ +  + DA+RRPERF+ AL  C  D +GRL  E   YPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|226702126|sp|B0VUU0.1|CCA_ACIBS</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Acinetobacter baumannii SDF]</Hit_def>
+  <Hit_accession>B0VUU0</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>2.5588e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQ</Hsp_qseq>
+      <Hsp_hseq>MQVYLVGGAVRDYLLGHSYQEKDYVVVGATPEHMLAQGFQPVGKDFPVFLHPETKEEYALARTERKSGQGYHGFQFFTDTTVSLEDDLIRRDLTINAIAMDQDGKIYDPYGGQNDLENKILRHVSEAFAEDPLRVLRVARFAARYFPYGFQIAPETLQLMQTMADSGELDALTPERVWKETSRALMENHADIYFQTLRDCGALKHLFPEIDALFGVPQRPEYHPEVDCGIHTLMSLQQACKSNYSLDVRFAVLVHDLGKALTPAKELPRHIMHEERGIKPVTQLCERLRVPTQTKQLALSVCKEHLKCHQIMSLKPGTLWRLLQRLDVLRRPERVEAFVQACECDAKGRLGLEDRPYPQ</Hsp_hseq>
+      <Hsp_midline>MQ YLVGGAVRDYLLG   +++D+VVVGA  + MLAQGFQPVGKDFPVFLHP+T EEYALARTERK+ +GY GF F  D  V+LE DL+RRDLTINA+A D DGKI DP+GGQ DL   ILRHVS AFAEDP+R+LR ARFAARY   GF+IA ET++LM+ M ++GE DAL  ERVW+E ++ LME +     + LR+CGAL+ L PE+DALFGVPQR +YHPE+D GIHTLM+LQ+A     SL  R+A L+HDLGKA TP   LPRH  H+  G++PV ++ +RLR P Q  +LA  VC+ H+  HQ+  LK  T+  +L++ D  RRPER +  +  C  D +GRL  E  PYPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|123134513|sp|Q0KF16.1|CCA_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q0KF16</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>5.96674e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQ--DADGK----IIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY-GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQ</Hsp_qseq>
+      <Hsp_hseq>MQVYAVGGAIRDELLGKPSQDRDYVVVGATPAQMEAAGYKPVGKDFPVFLHPRTKEEYALARTERKTAMGYKGFAFYCEPDVTLEDDLVRRDLTINAMARAVDADGNLTGPVIDPHGGQRDLAARLFRHVSDAFAEDPVRILRVARFAARFHEFGVAAETMRLMREMVAAGEVDALVPERVWQELARGLMEAKPSRMFEVLRECGALARLLPELERLWGVPQRADYHPEIDTGVHVMMVIDQAAAMGAPLTVRFAALVHDLGKGTTPADVLPRHIGHESRSAQLLEDVCVRLRVPNECRDLALVVAREHGNIHRSQEFSAAAVMRLLERCDALRKPARFAEALQACEADLRGRKGFESSAYPQ</Hsp_hseq>
+      <Hsp_midline>MQ Y VGGA+RD LLG P +DRD+VVVGA    M A G++PVGKDFPVFLHP+T EEYALARTERKTA GY GF+F+ + DVTLE DL+RRDLTINAMA+  DADG     +IDP GGQRDLAA + RHVS AFAEDPVRILR ARFAAR+  F +A ET++LMR+MV  GE DALV ERVWQELA+GLME  P +M E+LRECGAL  LLPE++ L+GVPQRADYHPEID+G+H +M + +AA MG  L  R+AAL+HDLGK  TP D+LPRH GH+    + + +V  RLR P +C +LA +V R H   H+  +  +  ++ +L++ DA R+P RF  AL  C AD +GR   E + YPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|123626027|sp|Q476S9.1|CCA_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q476S9</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.958</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>1.12559e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>400</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQ--DADGK----IIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY-GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQI</Hsp_qseq>
+      <Hsp_hseq>MQVYAVGGAIRDELLGKPSQDRDYVVVGATPADMEAAGYKPVGKDFPVFLHPRTKEEYALARTERKTAMGYKGFAFYCEPDVTLDDDLVRRDLTINAMARAVDDDGKLVGPVIDPHGGQRDLAARQFRHVSEAFAEDPVRILRVARFAARFHDFTVAPETVALMRRMVDAGEVDALVPERVWQELARGLMEARPARMFEVLRQCGALARLLPELDRLWGVPQRADYHPEVDTGVHVMMVIDCAAAMGTTLAVRFAALVHDLGKGTTPEHVLPRHLGHETRSVELLEDVCKRLRVPNDCRDLAVVVAREHGNIHRSMEFGAAAITRLLERCDALRKPGRFADALLACEADKRGRKGFESDTYPQKARLLAALDAAASVDAGAIAKAL--ADDVSKIRERVHEARVAAV</Hsp_hseq>
+      <Hsp_midline>MQ Y VGGA+RD LLG P +DRD+VVVGA    M A G++PVGKDFPVFLHP+T EEYALARTERKTA GY GF+F+ + DVTL+ DL+RRDLTINAMA+  D DGK    +IDP GGQRDLAA   RHVS AFAEDPVRILR ARFAAR+  F +A ET+ LMR+MV+ GE DALV ERVWQELA+GLME  P +M E+LR+CGAL  LLPE+D L+GVPQRADYHPE+D+G+H +M +  AA MG +L  R+AAL+HDLGK  TP  +LPRH GH+   VE + +V +RLR P  C +LA +V R H   H+  +  +  I  +L++ DA R+P RF  AL  C AD +GR   E   YPQ+A  LA L+AA   D+G IA           I E++  AR+A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1168822|sp|P45269.1|CCA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45269</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>1.32626e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLP------ERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAE</Hsp_qseq>
+      <Hsp_hseq>MKVYLVGGAVRDQLLGLPVKDRDWIVVGADPATLLSLGYQQVGKDFPVFLNPKTKEEYALARTERKSSAGYTGFICDFSPTITLEQDLIRRDLTINAMAQSEDGEIIDPYGGKQDLENRILRHISPAFSEDPLRVLRVARFAARYHSLGFKIASETLALMAELAQSGELQHLTAERIWLETEKALNEKNPEIYFETLHKTGALSVLFSEIDALYGVPNPVKHHPEVDSFIHTMLVLKQAVNLTENNPILNKSAVRFAAICHDLGKALTPQNILPHHYGHEQAGIKPTRSLCKRLKVPSYFQELAELTCEFHTHIHKAFELRAETVITLFNRFDVWRKPQRFQEFLQVCLADTRGRTGFETKDYPQIDYINQLLHAANEVDVQQVIAD</Hsp_hseq>
+      <Hsp_midline>M+ YLVGGAVRD LLGLPVKDRDW+VVGAD  T+L+ G+Q VGKDFPVFL+PKT EEYALARTERK++ GY GF       +TLEQDL+RRDLTINAMAQ  DG+IIDP+GG++DL   ILRH+SPAF+EDP+R+LR ARFAARY   GF+IA ET+ LM ++ ++GE   L AER+W E  K L EKNP    E L + GAL VL  E+DAL+GVP    +HPE+DS IHT++ L++A ++  + P       R+AA+ HDLGKA TP +ILP H+GH+  G++P R + +RL+ P    ELAEL C +H   H+  +L+++T++ +  + D +R+P+RFQ  L VC+ADT+GR   E   YPQ  +   LL AAN+ D  ++ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|123595046|sp|Q3JE31.1|CCA_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3JE31</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.75912e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYGFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQKTFRG</Hsp_qseq>
+      <Hsp_hseq>MEVYLVGGAVRDKLLGRPVKERDYVVVGTTPANLLAQGYRPVGKDFPVFLHPQTQEEYALARTERKTGPGYKGFEVDAAPDVTLEEDLQRRDLTINAIAEAADGSLLDPFGGQQDLARGILRHVSPAFAEDPVRILRAARFAARFNFKVAPETLALMEAMVTAGEADHLVPERVWRELERALGESYPRRFFEILRACGALARIFPEIECLFGVPQPRRYHPEIDTGIHTLKVLEIAAHLSSDTQVRFAALTHDLGKGQTPSHEWPHHYGHGERGVALVLTLCQRLRVPKAYQALAVQVARYHNLVHQAQELRPGTILKLLNRVDAFRRPSRFEQFLLACEADARGRSGLENRPYPQANQLRLAFRAAAAVTARPLVA---AGLRGEAIAEQLQQQRIKAIKQAVHTERG</Hsp_hseq>
+      <Hsp_midline>M+ YLVGGAVRD LLG PVK+RD+VVVG     +LAQG++PVGKDFPVFLHP+T EEYALARTERKT  GY GF   A  DVTLE+DL RRDLTINA+A+ ADG ++DPFGGQ+DLA GILRHVSPAFAEDPVRILRAARFAAR+ F++A ET+ LM  MV  GEAD LV ERVW+EL + L E  PR+  E+LR CGAL  + PE++ LFGVPQ   YHPEID+GIHTL  L+ AA +      R+AAL HDLGK +TP    P H+GH   GV  V  + QRLR P+    LA  V R+H + HQ  +L+  TIL +L + DAFRRP RF+  L  C AD +GR   E+ PYPQ         AA    +  + A   A  +   IAEQ+ + R+  I     T RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|259585854|sp|C5BPQ5.1|CCA_TERTT</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Teredinibacter turnerae T7901]</Hit_def>
+  <Hit_accession>C5BPQ5</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>2.2715e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIAPLQ</Hsp_qseq>
+      <Hsp_hseq>MKIYLVGGAVRDQLLGYPHHEQDWVVVGATPQQMLDAGFKPVGKDFPVFLHPETQEEYALARQERKTAPGYTGFAFHADETVTLEQDLLRRDLTINAIAMDEEGTIIDPYNGKRDIETRTLRHVSQAFCEDPVRILRIARFAARYHHLGFRIAPETLALMRDMVQAGEVDHLVAERVWKELSRALEEQHPAIFIQTLRECGALHRLMPELNALFGIPQPEAHHPEVDTGVHALLALERACELSSTPEVRFAALIHDLGKGVTPKHLWPSHHGHEQDGVALVEQLCNRLSTPNQFRELAVAVCAYHTHCHRAFELNAKTLLKTLLALDGLRRPERFQQFCLCCQADAQGRTGLENRPYPQAAYFLQALEEIQKVDAKMFVAQGK---KGAEIGEAMYSARLQKIKLLK</Hsp_hseq>
+      <Hsp_midline>M+ YLVGGAVRD LLG P  ++DWVVVGA  Q ML  GF+PVGKDFPVFLHP+T EEYALAR ERKTA GY GF+FHAD+ VTLEQDL+RRDLTINA+A D +G IIDP+ G+RD+    LRHVS AF EDPVRILR ARFAARY   GF IA ET+ LMR MV+ GE D LVAERVW+EL++ L E++P   I+ LRECGAL  L+PE++ALFG+PQ   +HPE+D+G+H L+ L+RA ++  +   R+AAL+HDLGK  TP  + P HHGH+ +GV  V ++  RL  P Q  ELA  VC +H   H+  +L ++T+L  L   D  RRPERFQ     C AD QGR   E+ PYPQ A++L  LE   + D+    A+ +   K   I E +  ARL +I  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|73619835|sp|Q8Y395.1|CCA_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y395</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>3.6082e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDAD------GKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARYG-FEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARLAQIA</Hsp_qseq>
+      <Hsp_hseq>LDVYAVGGAIRDTLLGLPVQDRDYVVVGATPEAMEARGFRTVGKDFPVFLHPRTQAEYALARTERKTAAGYKGFSVYYAPDVTLEDDLVRRDLTINAMAQRVAEDGALVGPVIDPYGGQADLASRTFRHVSEAFVEDPVRILRVARFAARFAEFHVAPETRALMQRMAEAGEVDALVPERVWQELARGLLEARPSRLFAVLRDCGALVRLLPELDRLWGVPQRADYHPEVDTGVHTMMVVDTAAAMDTPLPVRFAALVHDLGKGTTPADILPRHVGHEARGLPMIEDICRRLRVPTDCRDLAIMVAREHGNIHRSDGFDATALVRLLERCDALRKPERFRQALLACEADARGRLGFEQRDYPQPVRLLRALQAAASIDAGAVAKRY-ADNPAH-IKQAVHVARIEAVA</Hsp_hseq>
+      <Hsp_midline>+  Y VGGA+RD LLGLPV+DRD+VVVGA  + M A+GF+ VGKDFPVFLHP+T  EYALARTERKTA GY GFS +   DVTLE DL+RRDLTINAMAQ         G +IDP+GGQ DLA+   RHVS AF EDPVRILR ARFAAR+  F +A ET  LM++M E GE DALV ERVWQELA+GL+E  P ++  +LR+CGAL  LLPE+D L+GVPQRADYHPE+D+G+HT+M +  AA M   LP R+AAL+HDLGK  TP DILPRH GH+  G+  + ++ +RLR P  C +LA +V R H   H+     +  ++ +L++ DA R+PERF+ AL  C AD +GRL  E   YPQ    L  L+AA   D+G +A    A   AH I + +  AR+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|166233858|sp|A1WZI2.1|CCA_HALHL</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Halorhodospira halophila SL1]</Hit_def>
+  <Hit_accession>A1WZI2</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>2.02647e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQG-KAHFIAEQIDRARLAQIAPLQKTFRGA</Hsp_qseq>
+      <Hsp_hseq>MERYRVGGAVRDRLLGRPVDEVDWVVVGATPEAMEAAGYRPVGKDFPVFLHPQTGEEHALARTERKTAVGYHGFEFYAAPEVTLEQDLARRDLTINAMAEDAGGRLIDPFGGQVDLQARQLRHVTDAFAEDPVRILRLARFAARFADDGFVVADETMALCQRMVAAGEVDALVPERVWQELARGLMEPTPRRMIEVLRQAGALARLLPEVDALFGVPQSPAHHPEGDAGTHTLMALDAAAAVDASLEARFAVLLHDVGKALTPAEALPRHPGHEEAGVDGARRVSERLKAPRACRDLAVLVTRWHMHAHRALELRPGTVVELFEGLDLFRRPERLEPFLHACLADDRGRGGREASDWPAG----DFLRAAFEACRGVSARSFVEQGLRGPEVGEAVREARCRAVAQVPRPDAGA</Hsp_hseq>
+      <Hsp_midline>M+ Y VGGAVRD LLG PV + DWVVVGA  + M A G++PVGKDFPVFLHP+T EE+ALARTERKTA GY GF F+A  +VTLEQDL RRDLTINAMA+DA G++IDPFGGQ DL A  LRHV+ AFAEDPVRILR ARFAAR+   GF +A+ET+ L ++MV  GE DALV ERVWQELA+GLME  PR+MIE+LR+ GAL  LLPEVDALFGVPQ   +HPE D+G HTLM L  AA +  SL  R+A LLHD+GKA TP + LPRH GH+  GV+  R V++RL+APR C +LA LV RWH+  H+  +L+  T++ + +  D FRRPER +  L+ C+AD +GR  RE + +P        L AA +A  G  A     QG +   + E +  AR   +A + +   GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|166233857|sp|A5UJ23.1|CCA_HAEIG</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Haemophilus influenzae PittGG]</Hit_def>
+  <Hit_accession>A5UJ23</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>2.54837e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLP------ERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAE</Hsp_qseq>
+      <Hsp_hseq>MKIYLVGGAVRDQLLGLPVKDRDWIVVGADPATLLSLGYQQVGKDFPVFLNPKTKEEYALARTERKSSTGYTGFICDFSPTITLEQDLIRRDLTINAMAQSEDGEIIDPYGGKQDLENRILRHISPAFSEDPLRVLRVARFAARYHSLGFKIASETLALMAELAQSGELQHLTAERVWLETEKALNEKNPEIYFETLHKTGALSVLFSEIDALHGVPNPVKHHPEVDSFIHTMLVLKQAVNLTENNPILNKSAVRFAAICHDLGKALTPQNILPHHYGHEQAGIKPTRSLCKRLKVPSYFQELAELTCEFHTHIHKAFELRAETVITLFNRFDVWRKSQRFQEFLQVCLADTRGRTGFENKDYPQIDYINQLLHAANEVDVQQVIAD</Hsp_hseq>
+      <Hsp_midline>M+ YLVGGAVRD LLGLPVKDRDW+VVGAD  T+L+ G+Q VGKDFPVFL+PKT EEYALARTERK++ GY GF       +TLEQDL+RRDLTINAMAQ  DG+IIDP+GG++DL   ILRH+SPAF+EDP+R+LR ARFAARY   GF+IA ET+ LM ++ ++GE   L AERVW E  K L EKNP    E L + GAL VL  E+DAL GVP    +HPE+DS IHT++ L++A ++  + P       R+AA+ HDLGKA TP +ILP H+GH+  G++P R + +RL+ P    ELAEL C +H   H+  +L+++T++ +  + D +R+ +RFQ  L VC+ADT+GR   E+  YPQ  +   LL AAN+ D  ++ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|123603061|sp|Q3K5S5.1|CCA_PSEPF</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Pseudomonas fluorescens Pf0-1]</Hit_def>
+  <Hit_accession>Q3K5S5</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>5.07232e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLPERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAECRAQGKAHFIAEQIDRARL</Hsp_qseq>
+      <Hsp_hseq>MQIYKVGGAVRDRLLGKPVTDIDWVVVGATTEEMLAKGFRPVGADFPVFLHPKSGEEYALARTERKSGRGYGGFTFHASPEVTLEEDLIRRDLTINAMAEDDQQNLTDPYHGQRDLEERILRHVSPAFAEDPLRVLRVARFAARYAELGFKVAPETLELMRQLSESGELEALTAERSWKEISRALMEDQPQVFIQVLRDCGALKVLMPEVDALFGVPQPEAHHPEIDSGLHTLSVLEQSALHKQPLTVRWACLLHDLGKGLTPEEEWPRHIAHEHKGLKLIKAVNERFKAPKDCQELALLVGQYHTHGHRALELKASTLLELLQSFDVYRRPQRFEEFIVACEMDARGRKGLEQRSYPQADY---LRGAANVARGVAVQPLLEKGFKGPELGEALKRERL</Hsp_hseq>
+      <Hsp_midline>MQ Y VGGAVRD LLG PV D DWVVVGA  + MLA+GF+PVG DFPVFLHPK+ EEYALARTERK+ +GY GF+FHA  +VTLE+DL+RRDLTINAMA+D    + DP+ GQRDL   ILRHVSPAFAEDP+R+LR ARFAARY   GF++A ET++LMRQ+ E+GE +AL AER W+E+++ LME  P+  I++LR+CGAL+VL+PEVDALFGVPQ   +HPEIDSG+HTL  L+++A     L  R+A LLHDLGK  TP +  PRH  H+  G++ ++ VN+R +AP+ C ELA LV ++H   H+  +LK+ T+L +L+  D +RRP+RF+  +  C  D +GR   E   YPQ  +   L  AAN A    +        K   + E + R RL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|166233856|sp|A5UCK0.1|CCA_HAEIE</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional CCA protein; Includes: RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl-transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT; Includes: RecName: Full=2&apos;-nucleotidase; Includes: RecName: Full=2&apos;,3&apos;-cyclic phosphodiesterase; Includes: RecName: Full=Phosphatase [Haemophilus influenzae PittEE]</Hit_def>
+  <Hit_accession>A5UCK0</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>6.07804e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>MQTYLVGGAVRDYLLGLPVKDRDWVVVGADAQTMLAQGFQPVGKDFPVFLHPKTHEEYALARTERKTAKGYAGFSFHADKDVTLEQDLMRRDLTINAMAQDADGKIIDPFGGQRDLAAGILRHVSPAFAEDPVRILRAARFAARY---GFEIAEETIKLMRQMVENGEADALVAERVWQELAKGLMEKNPRKMIEMLRECGALQVLLPEVDALFGVPQRADYHPEIDSGIHTLMTLQRAADMGLSLP------ERYAALLHDLGKAKTPPDILPRHHGHDINGVEPVREVNQRLRAPRQCAELAELVCRWHIIFHQVGQLKSQTILNVLKKTDAFRRPERFQTALNVCIADTQGRLNREHTPYPQRAHWLALLEAANQADSGKIAAE</Hsp_qseq>
+      <Hsp_hseq>MKIYLVGGAVRDQLLGLPVKDRDWIVVGADHATLLSLGYQQVGKDFPVFLNPKTKEEYALARTERKSSAGYTGFICDFSPTITLEQDLIRRDLTINAMAQSEDGEIIDPYGGKQDLENRILRHISPAFSEDPLRVLRVARFAARYHSLGFKIASETLALMTELALSGELQHLTAERVWLETEKALNEKNPEIYFETLHKTGALSVLFSEIDALHGVPNPVKHHPEVDSFIHTMLVLKQAVNLTENNPILNKSAVRFAAICHDLGKALTPQNILPHHYGHEQAGIKPTRSLCKRLKVPSYFQELAELTCEFHTHIHKAFELRAETVITLFNRFDVWRKPQRFQEFLQVCLADTRGRTGFETKDYPQIDYINQLLHSANEVDVQQVIAD</Hsp_hseq>
+      <Hsp_midline>M+ YLVGGAVRD LLGLPVKDRDW+VVGAD  T+L+ G+Q VGKDFPVFL+PKT EEYALARTERK++ GY GF       +TLEQDL+RRDLTINAMAQ  DG+IIDP+GG++DL   ILRH+SPAF+EDP+R+LR ARFAARY   GF+IA ET+ LM ++  +GE   L AERVW E  K L EKNP    E L + GAL VL  E+DAL GVP    +HPE+DS IHT++ L++A ++  + P       R+AA+ HDLGKA TP +ILP H+GH+  G++P R + +RL+ P    ELAEL C +H   H+  +L+++T++ +  + D +R+P+RFQ  L VC+ADT+GR   E   YPQ  +   LL +AN+ D  ++ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

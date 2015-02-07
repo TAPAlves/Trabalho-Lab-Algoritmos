@@ -1,0 +1,1219 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>57955</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>118</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>57955</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>118</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81175298|sp|P0AC17.1|FOLB_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Escherichia coli CFT073] &gt;gi|81175299|sp|P0AC16.1|FOLB_ECOLI RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Escherichia coli K-12] &gt;gi|81175300|sp|P0AC18.1|FOLB_SHIFL RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AC17</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>4.21265e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPE-KAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGVREVGVEIERGKR</Hsp_qseq>
+      <Hsp_hseq>MDIVFIEQLSVITTIGVYDWEQTIEQKLVFDIEMAWDNRKAAKSDDVADCLSYADIAETVVSHVEGARFALVERVAEEVAELLLARFNSPWVRIKLSKPGAVARAANVGVIIERGNN</Hsp_hseq>
+      <Hsp_midline>MD +F+  +   T IGVY WE+   Q L+ D+++     KA   DD+A+ + YA++ ET+  H++   F L+E +AE +A+L+L  F + WV +K+ KPG +     VGV IERG  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1176105|sp|P46362.1|FOLB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P46362</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>5.19545e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGV-PEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGVREVGVEIERG</Hsp_qseq>
+      <Hsp_hseq>MDRVFIEELTVFAQIGVYDWEQQIKQKLVFDLEMAWDCKQAAETDDVVYCLNYAEVSQAIIDYVESKPFLLIERVAYEVADLLESRYQLQGLKIKLSKPKAVAQARNVGVLIVRG</Hsp_hseq>
+      <Hsp_midline>MD++F+  +     IGVY WE++  Q L+ DL++    ++A   DD+   ++YAEV + +  +++ + FLL+E +A  +ADL+   +    + +K+ KP  +   R VGV I RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|61224073|sp|P0A3E2.1|FOLB_STRP8</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Streptococcus pyogenes MGAS8232] &gt;gi|81175301|sp|P0C0G5.1|FOLB_STRP1 RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Streptococcus pyogenes serotype M1]</Hit_def>
+  <Hit_accession>P0A3E2</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.21253e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPEKAGS-DDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFG---AVWVHVKIVKPGILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>MDKIVLEGCRFYGYHGAFKEEQTLGQIFLVDLELSVDLQAASLSDQLTDTVHYGMVFDSVRQLVEGEKFILIERLAGAICEQLFNEFPPIEAIKVAIKKENPPIAGHYKAVGIELERQR</Hsp_hseq>
+      <Hsp_midline>MDKI L G +     G +  E+   Q  +VDL++ V  +A S  D + +TVHY  V +++R+ ++ + F+L+E LA  I + +   F    A+ V +K   P I    + VG+E+ER +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|141435|sp|P28823.1|FOLB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P28823</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.5135e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAV-WVHVKIVK--PGILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>MDKVYVEGMEFYGYHGVFTEENKLGQRFKVDLTAELDLSKAGQTDDLEQTINYAELYHVCKDIVEGEPVKLVETLAERIAGTVLGKFQPVQQCTVKVIKPDPPIPGHYKSVAIEITRKK</Hsp_hseq>
+      <Hsp_midline>MDK+++ GM+     GV+  E +  Q   VDL   +   KAG  DD+  T++YAE+    +  ++ +   L+E LAE IA  VLG F  V    VK++K  P I    + V +EI R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|76363866|sp|P0C0G4.1|FOLB_STRPY</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Streptococcus pyogenes]</Hit_def>
+  <Hit_accession>P0C0G4</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.93238e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPEKAGS-DDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFG---AVWVHVKIVKPGILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>MDKIVLEGCRFYGYHGAYKEEQTLGQIFLVDLELSVDLQAASLSSQLTDTVHYGMVFDSVRQLVEGEKFILIDGLAGAICEQLFNEFPPIEAIKVAIKKENPPIAGHYKAVGIELERQR</Hsp_hseq>
+      <Hsp_midline>MDKI L G +     G Y  E+   Q  +VDL++ V  +A S    + +TVHY  V +++R+ ++ + F+L++ LA  I + +   F    A+ V +K   P I    + VG+E+ER +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|342162571|sp|P0DB12.1|FOLB_STRP3</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Streptococcus pyogenes MGAS315] &gt;gi|342162572|sp|P0DB13.1|FOLB_STRPQ RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Streptococcus pyogenes SSI-1]</Hit_def>
+  <Hit_accession>P0DB12</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>6.94093e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPEKAGS-DDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFG---AVWVHVKIVKPGILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>MDKIVLEGCRFYGYHGAFKEEQTLGQIFLVDLELSVDLQAASLSDQLTDTVHYGIVFDSVRQLVEGGKFILIERLAGAICEQLFNEFPPIEAIKVAIKKENPPIAGHYKAVGIELERQR</Hsp_hseq>
+      <Hsp_midline>MDKI L G +     G +  E+   Q  +VDL++ V  +A S  D + +TVHY  V +++R+ ++   F+L+E LA  I + +   F    A+ V +K   P I    + VG+E+ER +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|73919595|sp|Q5XCA7.1|FOLB_STRP6</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Streptococcus pyogenes MGAS10394]</Hit_def>
+  <Hit_accession>Q5XCA7</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.18459e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPEKAGS-DDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFG---AVWVHVKIVKPGILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>MDKIVLESCRFYGYHGAFKEEQTLGQIFLVDLELSVDLQAASLSDQLTDTVHYGMVFDSVRQLVEGGKFILIERLAGAICEQLFNEFPPIEAIKVAIKKENPPIAGHYKAVGIELERQR</Hsp_hseq>
+      <Hsp_midline>MDKI L   +     G +  E+   Q  +VDL++ V  +A S  D + +TVHY  V +++R+ ++   F+L+E LA  I + +   F    A+ V +K   P I    + VG+E+ER +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|6685442|sp|P56740.1|FOLB_STAAU</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Staphylococcus aureus] &gt;gi|73919592|sp|Q6GJF6.1|FOLB_STAAR RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>P56740</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>1.52516e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVW-VHVKIVK-----PGILEGVREVGVEIER</Hsp_qseq>
+      <Hsp_hseq>DTIFLKGMRFYGYHGALSAENEIGQIFKVDVTLKVDLSEAGRTDNVIDTVHYGEVFEEVKSIMEGKAVNLLEHLAERIANRINSQYNRVMETKVRITKENPPIPGHYDG---VGIEIVR</Hsp_hseq>
+      <Hsp_midline>D IFL GM+     G    E E  Q   VD+ + V   +AG  D++ +TVHY EV E ++  ++ +   LLE LAE IA+ +   +  V    V+I K     PG  +G   VG+EI R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|6685446|sp|Q9X8I0.1|FOLB_STRCO</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>Q9X8I0</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.01892e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPEK-AGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGY</Hsp_qseq>
+      <Hsp_hseq>MDRVALRGLKARGHHGVFPKEREDGQTFLVDIVLGLDTRPAAADDDLAKTVHYGIVAEEVVAVVEGEPVNLVETLAERIAQVCLKH</Hsp_hseq>
+      <Hsp_midline>MD++ L G+KA    GV+  ERE  QT +VD+ +G+  + A +DDD+A TVHY  V E +   ++ +   L+E LAE IA + L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|3023789|sp|P74342.2|FOLB_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Probable dihydroneopterin aldolase; Short=DHNA [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P74342</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.14097e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVK</Hsp_qseq>
+      <Hsp_hseq>MDTLNVKGIRAYGYTGYFDAEQFLGQWFEVDLTIWIDLAKAGQSDDLNDTLNYADAVAIVQKLIRESKFKMIEKLAEAIADAILGTGKTQQVKVALTK</Hsp_hseq>
+      <Hsp_midline>MD + + G++A    G +  E+   Q   VDL I +   KAG  DD+ +T++YA+    +++ ++E  F ++E LAE IAD +LG      V V + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|54037125|sp|P64146.1|FOLB_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Staphylococcus aureus subsp. aureus N315] &gt;gi|54037126|sp|P64147.1|FOLB_STAAW RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Staphylococcus aureus subsp. aureus MW2] &gt;gi|54041000|sp|P64145.1|FOLB_STAAM RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|73919432|sp|Q5HIG0.1|FOLB_STAAC RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Staphylococcus aureus subsp. aureus COL] &gt;gi|73919593|sp|Q6GBX3.1|FOLB_STAAS RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>P64146</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.48473e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVW-VHVKIVK-----PGILEGVREVGVEIER</Hsp_qseq>
+      <Hsp_hseq>DTIFLKGMRFYGYHGALSAENEIGQIFKVDVTLKVDLAEAGRTDNVIDTVHYGEVFEEVKSIMEGKAVNLLEHLAERIANRINSQYNRVMETKVRITKENPPIPGHYDG---VGIEIVR</Hsp_hseq>
+      <Hsp_midline>D IFL GM+     G    E E  Q   VD+ + V   +AG  D++ +TVHY EV E ++  ++ +   LLE LAE IA+ +   +  V    V+I K     PG  +G   VG+EI R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|74856686|sp|Q54YD9.1|FOL1_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Folic acid synthesis protein FOL1; Includes: RecName: Full=Dihydroneopterin aldolase; Short=DHNA; Includes: RecName: Full=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase; AltName: Full=6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase; Short=PPPK; AltName: Full=7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase; Short=HPPK; Includes: RecName: Full=Dihydropteroate synthase; Short=DHPS; AltName: Full=Dihydropteroate pyrophosphorylase [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54YD9</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.10203e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDL----DIGVPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGVREVGVEIER</Hsp_qseq>
+      <Hsp_hseq>MDKIIIKDLLIQAVIGVNPGERIIKQNIIISVTAYKDL---SKCGSSDNVIDTVSYSSLSKSICSYSESSHHYTLEALATGVAKICCLGFGIERVKVLVQKPGAIKLAKWPGVQIER</Hsp_hseq>
+      <Hsp_midline>MDKI +  +    +IGV   ER   Q +I+ +    D+    K GS D++ +TV Y+ + +++  + +      LEALA  +A +    FG   V V + KPG ++  +  GV+IER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|38604797|sp|Q8CMT8.1|FOLB_STAES</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Staphylococcus epidermidis ATCC 12228] &gt;gi|73919594|sp|Q5HRN9.1|FOLB_STAEQ RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q8CMT8</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.32084e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVW-VHVKIVK-----PGILEGVREVGVEIER</Hsp_qseq>
+      <Hsp_hseq>DIIFLNGMRFYGYHGVLAAENDIGQIFVVDITLKVDLSYAGQSDDVKDTVNYGEVYKDVKSIVEGPRSCLIEHLAERIAKHINSHYNRVMETKVRITKENPPIPGHYDG---VGIEIVR</Hsp_hseq>
+      <Hsp_midline>D IFL+GM+     GV   E +  Q  +VD+ + V    AG  DD+ +TV+Y EV + ++  ++     L+E LAE IA  +  ++  V    V+I K     PG  +G   VG+EI R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|259016232|sp|P71513.2|FOLB_METEA</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA [Methylobacterium extorquens AM1]</Hit_def>
+  <Hit_accession>P71513</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.38694e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERL-QTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAV-WVHVKIVKPG--ILEGVREVGVEIERGKRED</Hsp_qseq>
+      <Hsp_hseq>DRILVHRLAVFARHGVLP-EEERLGQRFYISLECRLDLAPAGRSDDVAATVSYADLAEIALDIATNRRFALIEALAEAIAETCLARFPRIETIAVRIDKPSAPIPAVLDYAAIEIVRGRSDS</Hsp_hseq>
+      <Hsp_midline>D+I +H +      GV   E ERL Q   + L+  +    AG  DD+A TV YA++ E        + F L+EALAE IA+  L  F  +  + V+I KP   I   +    +EI RG+ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|73919431|sp|Q9SF23.1|FOLB1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase 1; Short=DHNA1; AltName: Full=AtFolB1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SF23</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.50921e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAV-WVHVKIVKPG---ILEGVREVGVEIERGKR</Hsp_qseq>
+      <Hsp_hseq>DKLILKGLKFYGFHGAIAEERTLGQMFLVDIDAWVSLKKAGESDNLEDTISYVDIFSLAKEIVEGSPRNLLETVAELIASKTLEKFHQINAVRVKLSKPNVALIKSTIDYLGVDIFRQRN</Hsp_hseq>
+      <Hsp_midline>DK+ L G+K     G    ER   Q  +VD+D  V  +KAG  D++ +T+ Y ++    +  ++     LLE +AE IA   L  F  +  V VK+ KP    I   +  +GV+I R + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|6686287|sp|Q59920.2|FOLB_STAHA</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase; Short=DHNA, partial [Staphylococcus haemolyticus]</Hit_def>
+  <Hit_accession>Q59920</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>1.89003e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIA</Hsp_qseq>
+      <Hsp_hseq>DIIFLNGMRFYGYHGALHAENELGQIFIVDVTLKVDLTEAGKTDNVKDTVHYGEVFEDVKNIVEGPSCQLIEHLAERIA</Hsp_hseq>
+      <Hsp_midline>D IFL+GM+     G    E E  Q  IVD+ + V   +AG  D++ +TVHY EV E ++  ++     L+E LAE IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|119838|sp|P29251.1|FOL1_PNECA</Hit_id>
+  <Hit_def>RecName: Full=Folic acid synthesis protein fol1; Includes: RecName: Full=Dihydroneopterin aldolase; Short=DHNA; AltName: Full=FASA; AltName: Full=FASB; Includes: RecName: Full=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase; AltName: Full=6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase; Short=PPPK; AltName: Full=7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase; Short=HPPK; AltName: Full=FASC; Includes: RecName: Full=Dihydropteroate synthase; Short=DHPS; AltName: Full=Dihydropteroate pyrophosphorylase; AltName: Full=FASD [Pneumocystis carinii]</Hit_def>
+  <Hit_accession>P29251</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>7.16084e-05</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDL-----DIGVPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>DQFFIKNLSLYTIIGINPEERVNKQNIIIDLILFKSSINLECK---DDFIINTYNIEKLLKEIVKHVEESTFKTIEALALSIARISCISHNIEKIIVKVKKSCALAFAESAGVEIVRSR</Hsp_hseq>
+      <Hsp_midline>D+ F+  +   T+IG+   ER   Q +I+DL      I +  K   DD I NT +  ++ + + +H++E  F  +EALA  IA +         + VK+ K   L      GVEI R +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000292038</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPEK-AGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLG-YFGAVWVHVKIVKP-GILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>DLIHIHSLTLKSIVGKNSWAQRLLQPVVLTLSMGINASLSGNMDDLSYSIDYATVYKEVFKLVENSKFENLLDLSDKISKVVLGDKCKGNWVKVIAETPKGHL--LAETGLQIIRRK</Hsp_hseq>
+      <Hsp_midline>D I +H +   +++G   W +  LQ +++ L +G+    +G+ DD++ ++ YA V + + + ++   F  L  L++ I+ +VLG      WV V    P G L  + E G++I R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81175302|sp|P0AC21.2|FOLX_ECO57</Hit_id>
+  <Hit_def>RecName: Full=D-erythro-7,8-dihydroneopterin triphosphate epimerase; AltName: Full=Dihydroneopterin triphosphate 2&apos;-epimerase [Escherichia coli O157:H7] &gt;gi|81175303|sp|P0AC20.2|FOLX_ECOL6 RecName: Full=D-erythro-7,8-dihydroneopterin triphosphate epimerase; AltName: Full=Dihydroneopterin triphosphate 2&apos;-epimerase [Escherichia coli CFT073] &gt;gi|81175304|sp|P0AC19.2|FOLX_ECOLI RecName: Full=D-erythro-7,8-dihydroneopterin triphosphate epimerase; AltName: Full=Dihydroneopterin triphosphate 2&apos;-epimerase [Escherichia coli K-12] &gt;gi|81175305|sp|P0AC22.2|FOLX_SHIFL RecName: Full=D-erythro-7,8-dihydroneopterin triphosphate epimerase; AltName: Full=Dihydroneopterin triphosphate 2&apos;-epimerase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AC21</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000116461</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>IFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVK</Hsp_qseq>
+      <Hsp_hseq>IRIKNLRLRTFIGIKEEEINNRQDIVINVTIHYPADKARTSEDINDALNYRTVTKNIIQHVENNRFSLLEKLTQDVLDIAREHHWVTYAEVEIDK</Hsp_hseq>
+      <Hsp_midline>I +  ++  T IG+   E    Q +++++ I  P +KA + +DI + ++Y  V + + +H++   F LLE L + + D+   +    +  V+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|75122639|sp|Q6GKX5.1|FOLB3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable dihydroneopterin aldolase 3; Short=DHNA3; AltName: Full=AtFolB3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q6GKX5</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0017653</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWV-HVKIVKPG---ILEGVREVGVEIERGKR</Hsp_qseq>
+      <Hsp_hseq>DKLILRGLKFYGFHGVLPEERELGGLFIVDINLWLSLKKAIESDNLADTVSFADTFRLVKKIVEGPPRNLYETVADDIASEMLETFPKINVIRVKFGKPNPSLVNSTVDFLGAELFRKRN</Hsp_hseq>
+      <Hsp_midline>DK+ L G+K     GV   ERE     IVD+++ +  +KA   D++A+TV +A+    +++ ++     L E +A+ IA  +L  F  + V  VK  KP    +   V  +G E+ R + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|75171605|sp|Q9FM54.1|FOLB2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin aldolase 2; Short=DHNA2; AltName: Full=AtFolB2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FM54</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0055756</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVW-VHVKIVKPG---ILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>DKLILRGLKFYGFHGAIPEEKTLGQMFMLDIDAWMCLKKAGLSDNLADSVSYVDIYNVAKEVVEGSSRNLLERVAGLIASKTLEISPRITAVRVKLWKPNVALIQSTIDYLGVEIFRDR</Hsp_hseq>
+      <Hsp_midline>DK+ L G+K     G    E+   Q  ++D+D  +  +KAG  D++A++V Y ++    +  ++     LLE +A  IA   L     +  V VK+ KP    I   +  +GVEI R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|73920209|sp|P53848.2|FOL1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Folic acid synthesis protein FOL1; Includes: RecName: Full=Dihydroneopterin aldolase; Short=DHNA; AltName: Full=FASA; AltName: Full=FASB; Includes: RecName: Full=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase; AltName: Full=6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase; Short=PPPK; AltName: Full=7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase; Short=HPPK; AltName: Full=FASC; Includes: RecName: Full=Dihydropteroate synthase; Short=DHPS; AltName: Full=Dihydropteroate pyrophosphorylase; AltName: Full=FASD [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P53848</Hit_accession>
+  <Hit_len>824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00934251</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLV-----LGYFGAVWVHVKIVKPGILEGVREVGVEIERGKRE</Hsp_qseq>
+      <Hsp_hseq>DVVRISELKMLTLIGVFTFERLKKQYVTLDIKLPWPKKAELPPPVQSII------DNVVKFVEESNFKTVEALVESVSAVIAHNEYFQKFPDSPLVVKVLKLNAITATEGVGVSCIREPRE</Hsp_hseq>
+      <Hsp_midline>D + +  +K  TLIGV+ +ER + Q + +D+ +  P+KA     + + +      + + + ++E +F  +EAL E ++ ++        F    + VK++K   +     VGV   R  RE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.46911</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHL-KEQDFLLLEALAEYIADLVLGYFGAV</Hsp_qseq>
+      <Hsp_hseq>DYVHIKKLEMNTVLGPDSWNQLMPQKCLLSLDMGTDFSKSAATDDLKYSLNYAVISRDLTNFVSKKKNWGSVSNLAKSVSQFVMDKYSGV</Hsp_hseq>
+      <Hsp_midline>D + +  ++ +T++G   W +   Q  ++ LD+G    K+ + DD+  +++YA +   L   + K++++  +  LA+ ++  V+  +  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|6685437|sp|O84620.1|FOLB_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Probable dihydroneopterin aldolase; Short=DHNA [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84620</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0533028</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>IGVYGWERERLQTLIVDLDIGVPE--KAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALA----EYIADLVLGYFGAVWVHVKIVKPGILEGVREVGVEIER</Hsp_qseq>
+      <Hsp_hseq>IGVSEQERHYPQPVLVSLSLFFKEEPKACSTDKVSDSVCYAELVSLIEEVATNNPCALIERLAKVLLEKIEKALAGQVSRIDLRVSKERPPIPDLLSPVSFSISR</Hsp_hseq>
+      <Hsp_midline>IGV   ER   Q ++V L +   E  KA S D ++++V YAE+   +          L+E LA    E I   + G    + + V   +P I + +  V   I R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|19857155|sp|P22291.3|SULD_STRPN</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional folate synthesis protein; Includes: RecName: Full=Dihydroneopterin aldolase; Short=DHNA; Includes: RecName: Full=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase; AltName: Full=6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase; Short=PPPK; AltName: Full=7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase; Short=HPPK [Streptococcus pneumoniae TIGR4]</Hit_def>
+  <Hit_accession>P22291</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.237418</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAV</Hsp_qseq>
+      <Hsp_hseq>MDQLQIKDLEMFAYHGLFPSEKELGQKFVVSAILSYDMTKAATDLDLTASVHYGELCQQWTTWFQETSEDLIETVAYKLVERTFEFYPLV</Hsp_hseq>
+      <Hsp_midline>MD++ +  ++     G++  E+E  Q  +V   +     KA +D D+  +VHY E+C+      +E    L+E +A  + +    ++  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|259645427|sp|C3KVQ4.1|EFG_CLOB6</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor G; Short=EF-G [Clostridium botulinum Ba4 str. 657]</Hit_def>
+  <Hit_accession>C3KVQ4</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.282156</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>IFLHGMK---ADTLIGVYGWERERLQTLIVDLDIGV-PEKAGS-------------DDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGV</Hsp_qseq>
+      <Hsp_hseq>VFINKMDKLGADFLMSV-GTLRERLHANAVPLQLPIGAEDAFSGIIDLVKNDAVIYKDDLGTVMDETEIPEDMKEMAEEYRTMLLEAVAEVDEDIMMKYLEGEEISVEEIKTALRKGV</Hsp_hseq>
+      <Hsp_midline>+F++ M    AD L+ V G  RERL    V L + +  E A S              DD+   +   E+ E ++   +E   +LLEA+AE   D+++ Y     + V+ +K  + +GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|408360105|sp|Q4LB35.2|FOL1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Folic acid synthesis protein fol1; Includes: RecName: Full=Dihydroneopterin aldolase; Short=DHNA; AltName: Full=FASA; AltName: Full=FASB; Includes: RecName: Full=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase; AltName: Full=6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase; Short=PPPK; AltName: Full=7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase; Short=HPPK; AltName: Full=FASC; Includes: RecName: Full=Dihydropteroate synthase; Short=DHPS; AltName: Full=Dihydropteroate pyrophosphorylase; AltName: Full=FASD [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q4LB35</Hit_accession>
+  <Hit_len>733</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.294817</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDI-GVPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADL</Hsp_qseq>
+      <Hsp_hseq>DTVVVENLNTFAVVGQDQWKRKEPQPVQIDVYMRNNVQLAGEKDELKSTIHYGIASKLLRKEIEGSFFTTPKDLVNKIASL</Hsp_hseq>
+      <Hsp_midline>D + +  +    ++G   W+R+  Q + +D+ +    + AG  D++ +T+HY    + LR+ ++   F   + L   IA L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.1943</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVPEKAGSDDDIANT-VHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>VDRIEFSDLELATILGIHAFERQEKQRVCLNI------------SFANTEVEALEIARAIAEYVEQSAFLTIEALVVNLSKYLCFTKNLDDISIKAEKPSAITFANASAVQIYRTR</Hsp_hseq>
+      <Hsp_midline>+D+I    ++  T++G++ +ER+  Q + +++              ANT V   E+   +  ++++  FL +EAL   ++  +        + +K  KP  +       V+I R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|30316192|sp|P59657.1|SULD_STRR6</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional folate synthesis protein; Includes: RecName: Full=Dihydroneopterin aldolase; Short=DHNA; Includes: RecName: Full=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase; AltName: Full=6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase; Short=PPPK; AltName: Full=7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase; Short=HPPK [Streptococcus pneumoniae R6]</Hit_def>
+  <Hit_accession>P59657</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.414276</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MDKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALA</Hsp_qseq>
+      <Hsp_hseq>MDQLQIKDLEMFAYHGLFPSEKELGQKFIVSAILSYDMTKAATDLDLTASVHYGELCQQWTTWFQETSEDLIETVA</Hsp_hseq>
+      <Hsp_midline>MD++ +  ++     G++  E+E  Q  IV   +     KA +D D+  +VHY E+C+      +E    L+E +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|189027848|sp|B1IGF7.1|EFG_CLOBK</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor G; Short=EF-G [Clostridium botulinum B1 str. Okra] &gt;gi|189027849|sp|A7GJ77.1|EFG_CLOBL RecName: Full=Elongation factor G; Short=EF-G [Clostridium botulinum F str. Langeland]</Hit_def>
+  <Hit_accession>B1IGF7</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.445085</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>IFLHGMK---ADTLIGVYGWERERLQTLIVDLDI---------GVPEKAGSD-----DDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGV</Hsp_qseq>
+      <Hsp_hseq>VFINKMDKLGADFLMSV-GTLRERLHANAVPLQLPIGAEDSFSGIIDLVKNDAIIYKDDLGTVMDETEIPEDMKEMAEEYRTMLLEAVAEVDEDIMMKYLEGEEISVEEIKTALRKGV</Hsp_hseq>
+      <Hsp_midline>+F++ M    AD L+ V G  RERL    V L +         G+ +   +D     DD+   +   E+ E ++   +E   +LLEA+AE   D+++ Y     + V+ +K  + +GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|61224076|sp|P0A581.1|FOLB_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Probable dihydroneopterin aldolase; Short=DHNA [Mycobacterium bovis AF2122/97] &gt;gi|618797955|sp|P9WNC4.1|FOLB_MYCTO RecName: Full=Probable dihydroneopterin aldolase; Short=DHNA [Mycobacterium tuberculosis CDC1551] &gt;gi|618797956|sp|P9WNC5.1|FOLB_MYCTU RecName: Full=Probable dihydroneopterin aldolase; Short=DHNA [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P0A581</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.480139</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>DKIFLHGMKADTLIGVYGWERERLQTLIVDLDIGVP-EKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKP</Hsp_qseq>
+      <Hsp_hseq>DRIELRGLTVHGRHGVYDHERVAGQRFVIDVTVWIDLAEAANSDDLADTYDYVRLASRAAEIVAGPPRKLIETVGAEIADHVMDDQRVHAVEVAVHKP</Hsp_hseq>
+      <Hsp_midline>D+I L G+      GVY  ER   Q  ++D+ + +   +A + DD+A+T  Y  +       +      L+E +   IAD V+       V V + KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|189027845|sp|A7FZ72.1|EFG_CLOB1</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor G; Short=EF-G [Clostridium botulinum A str. ATCC 19397] &gt;gi|189027847|sp|A5I7K9.1|EFG_CLOBH RecName: Full=Elongation factor G; Short=EF-G [Clostridium botulinum A str. Hall]</Hit_def>
+  <Hit_accession>A7FZ72</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.813464</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>IFLHGMK---ADTLIGVYGWERERLQTLIVDLDI---------GVPEKAGSD-----DDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGV</Hsp_qseq>
+      <Hsp_hseq>VFINKMDKLGADFLMSV-GTLRERLHANAVPLQLPIGAEDSFSGIIDLVKNDAVIYKDDLGTVMDETEIPEDMKEIAEEYRTMLLEAVAEVDEDIMMKYLEGEEISVEEIKTALRKGV</Hsp_hseq>
+      <Hsp_midline>+F++ M    AD L+ V G  RERL    V L +         G+ +   +D     DD+   +   E+ E ++   +E   +LLEA+AE   D+++ Y     + V+ +K  + +GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|462082|sp|P35077.1|FHAC_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Filamentous hemagglutinin transporter protein FhaC; AltName: Full=TpsB transporter; Flags: Precursor [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>P35077</Hit_accession>
+  <Hit_len>584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.00272</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>VDLDIGVPEKAGSDDDIANTVHYAEVCETLRRHL-KEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGVREVGVEIERGK</Hsp_qseq>
+      <Hsp_hseq>VDLDFGV---EGRLFDPAPLVQ-----DYLNRPLDNEQLFLLVKALSAALYDR--GYATSI---VTFVPPGVVDGVLKLKVEWGRIK</Hsp_hseq>
+      <Hsp_midline>VDLD GV    G   D A  V      + L R L  EQ FLL++AL+  + D   GY  ++   V  V PG+++GV ++ VE  R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1168224|sp|P44569.1|5NTD_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=NAD 5&apos;-nucleotidase; Short=NadN; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44569</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.29598</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>HGMKADTLIGVYGWERERLQTLIVDLDIG----------VPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEA</Hsp_qseq>
+      <Hsp_hseq>HDAKTDMLISKYKSEKDRLAQEIVGVITGSAMPGGSANRIPNKAGSNPEGSIATRF--IAETMYNELKTVDLTIQNA</Hsp_hseq>
+      <Hsp_midline>H  K D LI  Y  E++RL   IV +  G          +P KAGS+ + +    +  + ET+   LK  D  +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|189027850|sp|B1KSM8.1|EFG_CLOBM</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor G; Short=EF-G [Clostridium botulinum A3 str. Loch Maree] &gt;gi|254782564|sp|C1FMV4.1|EFG_CLOBJ RecName: Full=Elongation factor G; Short=EF-G [Clostridium botulinum A2 str. Kyoto]</Hit_def>
+  <Hit_accession>B1KSM8</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.29851</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>IFLHGMK---ADTLIGVYGWERERLQTLIVDLDI---------GVPEKAGSD-----DDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKPGILEGV</Hsp_qseq>
+      <Hsp_hseq>VFINKMDKLGADFLMSV-GTLRERLHANAVPLQLPIGAEDSFSGIIDLVKNDAVIYKDDLGTVMDETEIPEDMKEIAEEYRTMLLEAVAEVDEDIMMKYLEGEEISVEEIKTALRHGV</Hsp_hseq>
+      <Hsp_midline>+F++ M    AD L+ V G  RERL    V L +         G+ +   +D     DD+   +   E+ E ++   +E   +LLEA+AE   D+++ Y     + V+ +K  +  GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|353558720|sp|A1CKP5.1|GATB_ASPCL</Hit_id>
+  <Hit_def>RecName: Full=Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial; Short=Glu-AdT subunit B; Flags: Precursor [Aspergillus clavatus NRRL 1]</Hit_def>
+  <Hit_accession>A1CKP5</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.61427</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>399</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>ERLQTLIVDLDIGVPEKAGSD----DDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVW</Hsp_qseq>
+      <Hsp_hseq>DELIELLAGSDYGLPIEDAKPLIELDDGARLEYYQDVVEILRSLQQDQDAKSRTILARVAGNWVLHEFGGLW</Hsp_hseq>
+      <Hsp_midline>+ L  L+   D G+P +        DD A   +Y +V E LR   ++QD      LA    + VL  FG +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|46576919|sp|Q7NFN2.1|MURE_GLOVI</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase [Gloeobacter violaceus PCC 7421]</Hit_def>
+  <Hit_accession>Q7NFN2</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.9319</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GVPEK----AGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFG</Hsp_qseq>
+      <Hsp_hseq>GVPGRMERVSGSDDDIAVIVDYAHTPDGLRK--------LLEATRPFVRGRLICVFG</Hsp_hseq>
+      <Hsp_midline>GVP +    +GSDDDIA  V YA   + LR+        LLEA   ++   ++  FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|109892147|sp|Q3ACS9.1|GSA_CARHZ</Hit_id>
+  <Hit_def>RecName: Full=Glutamate-1-semialdehyde 2,1-aminomutase; Short=GSA; AltName: Full=Glutamate-1-semialdehyde aminotransferase; Short=GSA-AT [Carboxydothermus hydrogenoformans Z-2901]</Hit_def>
+  <Hit_accession>Q3ACS9</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.74277</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LDIGVPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEAL--------AEYIADLVLGYFGAVWVHVKIVKPGILEGVREV</Hsp_qseq>
+      <Hsp_hseq>LTLGVPTSPGVPANIANNTITAQF----------NDLALLEEIFAQEGNDIAAVILEPVAGNMGVV-----PPKPGFLEGVREL</Hsp_hseq>
+      <Hsp_midline>L +GVP   G   +IAN    A+            D  LLE +        A  I + V G  G V       KPG LEGVRE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|226709567|sp|B5E1W4.1|GALT_STRP4</Hit_id>
+  <Hit_def>RecName: Full=Galactose-1-phosphate uridylyltransferase; Short=Gal-1-P uridylyltransferase; AltName: Full=UDP-glucose--hexose-1-phosphate uridylyltransferase [Streptococcus pneumoniae G54] &gt;gi|254790368|sp|C1CMG3.1|GALT_STRZP RecName: Full=Galactose-1-phosphate uridylyltransferase; Short=Gal-1-P uridylyltransferase; AltName: Full=UDP-glucose--hexose-1-phosphate uridylyltransferase [Streptococcus pneumoniae P1031]</Hit_def>
+  <Hit_accession>B5E1W4</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.63213</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>RERLQTLIVDLDIGVPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKP</Hsp_qseq>
+      <Hsp_hseq>REILGTELMDLVTPCPSQVNRDFWEAYAYSPEQAIEDFYQLSRKNDYIKLKAIAKNIAYRVPSDYGELEITINLSKP</Hsp_hseq>
+      <Hsp_midline>RE L T ++DL    P +   D   A      +  E   +  ++ D++ L+A+A+ IA  V   +G + + + + KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|30315922|sp|Q8DNK8.1|GALT2_STRR6</Hit_id>
+  <Hit_def>RecName: Full=Galactose-1-phosphate uridylyltransferase 2; Short=Gal-1-P uridylyltransferase 2; AltName: Full=UDP-glucose--hexose-1-phosphate uridylyltransferase 2 [Streptococcus pneumoniae R6]</Hit_def>
+  <Hit_accession>Q8DNK8</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.3899</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>RERLQTLIVDLDIGVPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKP</Hsp_qseq>
+      <Hsp_hseq>REILGTELMDLVTPCPSQVNRDFWEAYAYSPEQAIEDFYQLSQKNDYIKLKAIAKNIAYRVPSDYGELEITINLSKP</Hsp_hseq>
+      <Hsp_midline>RE L T ++DL    P +   D   A      +  E   +  ++ D++ L+A+A+ IA  V   +G + + + + KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|226709568|sp|B1I863.1|GALT_STRPI</Hit_id>
+  <Hit_def>RecName: Full=Galactose-1-phosphate uridylyltransferase; Short=Gal-1-P uridylyltransferase; AltName: Full=UDP-glucose--hexose-1-phosphate uridylyltransferase [Streptococcus pneumoniae Hungary19A-6]</Hit_def>
+  <Hit_accession>B1I863</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.77301</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>RERLQTLIVDLDIGVPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKP</Hsp_qseq>
+      <Hsp_hseq>REILGTELMDLVTPCPSQVNRDFWEAYAYSPEQAIEDFYQLSQKNDYIKLKAIAKNIAYRVPSDYGELEITINLSKP</Hsp_hseq>
+      <Hsp_midline>RE L T ++DL    P +   D   A      +  E   +  ++ D++ L+A+A+ IA  V   +G + + + + KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226709569|sp|B2ISV1.1|GALT_STRPS</Hit_id>
+  <Hit_def>RecName: Full=Galactose-1-phosphate uridylyltransferase; Short=Gal-1-P uridylyltransferase; AltName: Full=UDP-glucose--hexose-1-phosphate uridylyltransferase [Streptococcus pneumoniae CGSP14]</Hit_def>
+  <Hit_accession>B2ISV1</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.97304</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>RERLQTLIVDLDIGVPEKAGSDDDIANTVHYAEVCETLRRHLKEQDFLLLEALAEYIADLVLGYFGAVWVHVKIVKP</Hsp_qseq>
+      <Hsp_hseq>REILGTELMDLVTPCPSQVNRDFWEAYAYSPEQAIEDFYQLSQKNDYIKLKAIAKNIAYRVPSDYGELEITINLSKP</Hsp_hseq>
+      <Hsp_midline>RE L T ++DL    P +   D   A      +  E   +  ++ D++ L+A+A+ IA  V   +G + + + + KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|254810234|sp|B9JCF5.1|MDH_AGRRK</Hit_id>
+  <Hit_def>RecName: Full=Malate dehydrogenase [Agrobacterium radiobacter K84]</Hit_def>
+  <Hit_accession>B9JCF5</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.17685</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>TLIGVYGWERERLQTLIVDLDIGVPEKAGSDDDIANTVHYAEVCETLRRHLK</Hsp_qseq>
+      <Hsp_hseq>TVIGAGGIER------IIEIDLNKAEKEAFDKSVASVAGLCEACITIAPSLK</Hsp_hseq>
+      <Hsp_midline>T+IG  G ER      I+++D+   EK   D  +A+     E C T+   LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

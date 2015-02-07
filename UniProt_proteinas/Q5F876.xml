@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-02-04" version="73">
+<accession>Q5F876</accession>
+<name>Q5F876_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="2">Dihydrolipoyl dehydrogenase</fullName>
+<ecNumber evidence="2">1.8.1.4</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="3">NGO0915</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<text evidence="2">Protein N(6)-(dihydrolipoyl)lysine + NAD(+) = protein N(6)-(lipoyl)lysine + NADH.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>FAD</name>
+<dbReference type="ChEBI" id="CHEBI:57692"/>
+</cofactor>
+<text evidence="2">Binds 1 FAD per subunit.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="2">The active site is a redox-active disulfide bond.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the class-I pyridine nucleotide-disulfide oxidoreductase family.</text>
+</comment>
+<dbReference type="EC" id="1.8.1.4" evidence="2"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89611.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_208023.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F876"/>
+<dbReference type="SMR" id="Q5F876">
+<property type="residue range" value="2-476"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0915"/>
+<dbReference type="PRIDE" id="Q5F876"/>
+<dbReference type="EnsemblBacteria" id="AAW89611">
+<property type="protein sequence ID" value="AAW89611"/>
+<property type="gene ID" value="NGO0915"/>
+</dbReference>
+<dbReference type="GeneID" id="3281748"/>
+<dbReference type="KEGG" id="ngo:NGO0915"/>
+<dbReference type="PATRIC" id="20335013">
+<property type="gene designation" value="VBINeiGon24812_1076"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1249"/>
+<dbReference type="HOGENOM" id="HOG000276708"/>
+<dbReference type="KO" id="K00382"/>
+<dbReference type="OMA" id="CIDEWKN"/>
+<dbReference type="OrthoDB" id="EOG6QCD6D"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-853-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004148">
+<property type="term" value="F:dihydrolipoyl dehydrogenase activity"/>
+<property type="evidence" value="IEA:UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050660">
+<property type="term" value="F:flavin adenine dinucleotide binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045454">
+<property type="term" value="P:cell redox homeostasis"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.390.30">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016156">
+<property type="entry name" value="FAD/NAD-linked_Rdtase_dimer"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013027">
+<property type="entry name" value="FAD_pyr_nucl-diS_OxRdtase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006258">
+<property type="entry name" value="Lipoamide_DH"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004099">
+<property type="entry name" value="Pyr_nucl-diS_OxRdtase_dimer"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023753">
+<property type="entry name" value="Pyr_nucl-diS_OxRdtase_FAD/NAD"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012999">
+<property type="entry name" value="Pyr_OxRdtase_I_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001327">
+<property type="entry name" value="Pyr_OxRdtase_NAD-bd_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00070">
+<property type="entry name" value="Pyr_redox"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07992">
+<property type="entry name" value="Pyr_redox_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02852">
+<property type="entry name" value="Pyr_redox_dim"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00368">
+<property type="entry name" value="FADPNR"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF55424">
+<property type="entry name" value="SSF55424"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01350">
+<property type="entry name" value="lipoamide_DH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00076">
+<property type="entry name" value="PYRIDINE_REDOX_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0274" evidence="1">FAD</keyword>
+<keyword id="KW-0285" evidence="1">Flavoprotein</keyword>
+<keyword id="KW-0520" evidence="2">NAD</keyword>
+<keyword id="KW-0560" evidence="1">Oxidoreductase</keyword>
+<keyword id="KW-0676" evidence="1">Redox-active center</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU003691"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU003692"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89611.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="477" mass="50079" checksum="587D727B2E651C1C" modified="2005-03-15" version="1">
+MSQYDVVVIGAGPGGYVAAIRAAQLGFKTACVDAGVNKAGNAPALGGTCLNVGCIPSKAL
+LQSSEHFHAAQHDFAEHGITVGDVKFDAAKMIERKDAIVTKLTGGVKFLFQKNKVTSLFG
+TASFAGKNGDAYQIEVDNKGEKTVIEAKHVIVATGSVPRPLPQVAIDNVNVLDNEGALNL
+TEVPAKLGVIGSGVIGLEMGSVWNRVGAEVTILEAAPTFLAAADQQIAKEAFKYFTKEQG
+LSIELGVKIGDIKSEGKGVSVAYETAAGEAKTEVFDKLIVAIGRIPNTKGLNAEAVGLEK
+DERGFIKVDGECRTNLPNVWAIGDVVRGPMLAHKASDEGVAVAERIAGQKPHIDFNNVPF
+VIYTDPEIAWVGKTEEQLKAEGVEYKKGTSGFGANGRALAMGKAKGTVKVLADAKTDRIL
+GVHMIGPVVSELVTEGVTALEFFASSEDIARIIHAHPTLSEVVHEAALAADKRALHG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

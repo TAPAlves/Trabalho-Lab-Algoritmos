@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>2045</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>239</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>2045</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>239</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|150421688|sp|P68398.2|TADA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Escherichia coli K-12] &gt;gi|150421691|sp|P68397.2|TADA_SHIFL RecName: Full=tRNA-specific adenosine deaminase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P68398</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>4.31111e-38</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>YFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>YWMRHALTLAKRAWDEREVPVGAVLVHNNRVIGEGWNRPIGRHDPTAHAEIMALRQGGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLHHPGMNHRVEITEGILADECAALLSDFFRMRRQ</Hsp_hseq>
+      <Hsp_midline>Y+MR AL  A+++  + E+PVGAV+V + ++I    N  I   + + HAEI AL Q G  MQNYRL    +Y+TLEPC MCA A+I +RI RV++GA + KTGAAGS++++     +N    I  GIL +EC A+LS FF+ +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|150421686|sp|Q8XA44.2|TADA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Escherichia coli O157:H7] &gt;gi|150421687|sp|Q8FF24.2|TADA_ECOL6 RecName: Full=tRNA-specific adenosine deaminase [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8XA44</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>8.87831e-38</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>YFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>YWMRHAMTLAKRAWDEREVPVGAVLVHNNRVIGEGWNRPIGRHDPTAHAEIMALRQGGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLHHPGMNHRVEITEGILADECAALLSDFFRMRRQ</Hsp_hseq>
+      <Hsp_midline>Y+MR A+  A+++  + E+PVGAV+V + ++I    N  I   + + HAEI AL Q G  MQNYRL    +Y+TLEPC MCA A+I +RI RV++GA + KTGAAGS++++     +N    I  GIL +EC A+LS FF+ +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1175980|sp|P44931.1|TADA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44931</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.19688e-37</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MREALRQAEQSAADGEIPVGAVIVSDGK-IITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>MRYALELADKAEALGEIPVGAVLVDDARNIIGEGWNLSIVQSDPTAHAEIIALRNGAKNIQNYRLLNSTLYVTLEPCTMCAGAILHSRIKRLVFGASDYKTGAIGSRFHFFDDYKMNHTLEVTSGVLAEECSQKLSTFFQKRRE</Hsp_hseq>
+      <Hsp_midline>MR AL  A+++ A GEIPVGAV+V D + II    N  I   + + HAEI AL      +QNYRL    +Y+TLEPC MCA A++ +RI+R+++GA++ KTGA GS  + F D ++N    +  G+L EEC   LS FFQ +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|150421689|sp|Q8XGY4.2|TADA_SALTI</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|150421690|sp|Q7CQ08.2|TADA_SALTY RecName: Full=tRNA-specific adenosine deaminase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8XGY4</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.13031e-36</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>YFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>YWMRHALTLAKRAWDEREVPVGAVLVHNHRVIGEGWNRPIGRHDPTAHAEIMALRQGGLVLQNYRLLDTTLYVTLEPCVMCAGAMVHSRIGRVVFGARDAKTGAAGSLIDVLHHPGMNHRVEIIEGVLRDECATLLSDFFRMRRQ</Hsp_hseq>
+      <Hsp_midline>Y+MR AL  A+++  + E+PVGAV+V + ++I    N  I   + + HAEI AL Q G  +QNYRL    +Y+TLEPC MCA A++ +RI RV++GA + KTGAAGS++++     +N    I  G+L++EC  +LS FF+ +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81782073|sp|Q99W51.1|TADA_STAAM</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>Q99W51</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>3.0347e-36</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>YFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKR</Hsp_qseq>
+      <Hsp_hseq>YFMTLAIEEAKKAAQLGEVPIGAIITKDDEVIARAHNLRETLQQPTAHAEHIAIERAAKVLGSWRLEGCTLYVTLEPCVMCAGTIVMSRIPRVVYGADDPKGGCSGSLMNLLQQSNFNHRAIVDKGVLKEACSTLLTTFFKNLR</Hsp_hseq>
+      <Hsp_midline>YFM  A+ +A+++A  GE+P+GA+I  D ++I  AHN        + HAE  A+ +A   + ++RL+GC +Y+TLEPC MCA  ++ +RI RV+YGA +PK G +GS++NL      N    +  G+L+E C  +L+ FF+N R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|112703|sp|P21335.1|TADA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P21335</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>7.07411e-36</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>FMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQN</Hsp_qseq>
+      <Hsp_hseq>YMKEAIKEAKKAEEKGEVPIGAVLVINGEIIARAHNLRETEQRSIAHAEMLVIDEACKALGTWRLEGATLYVTLEPCPMCAGAVVLSRVEKVVFGAFDPKGGCSGTLMNLLQEERFNHQAEVVSGVLEEECGGMLSAFFRE</Hsp_hseq>
+      <Hsp_midline>+M+EA+++A+++   GE+P+GAV+V +G+II  AHN    +     HAE+  + +A   +  +RL+G  +Y+TLEPC MCA A++ +R+ +V++GA +PK G +G+++NL  ++R N    +  G+L+EEC  +LS FF+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|73921072|sp|Q8P2R7.1|TADA_STRP8</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Streptococcus pyogenes MGAS8232]</Hit_def>
+  <Hit_accession>Q8P2R7</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>1.28778e-33</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>EEMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>EEQTYFMQEALKEAEKSLQKAEIPIGCVIVKDGEIIGRGHNAREESNQAIMHAEMMAINEANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDERLNHRVQVERGLLAADCANIMQTFFRQGRE</Hsp_hseq>
+      <Hsp_midline>EE  YFM+EAL++AE+S    EIP+G VIV DG+II   HN          HAE+ A+ +A +   N+RL    +++T+EPC MC+ A+  ARI  VIYGA+  K G A S+  +  D+RLN    +  G+L  +C  ++  FF+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|73921083|sp|Q5XE14.2|TADA_STRP6</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Streptococcus pyogenes MGAS10394] &gt;gi|341958736|sp|P0DA20.1|TADA_STRP3 RecName: Full=tRNA-specific adenosine deaminase [Streptococcus pyogenes MGAS315] &gt;gi|341958737|sp|P0DA21.1|TADA_STRPQ RecName: Full=tRNA-specific adenosine deaminase [Streptococcus pyogenes SSI-1]</Hit_def>
+  <Hit_accession>Q5XE14</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.38457e-33</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>EEMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>EEQTYFMQEALKEAEKSLQKAEIPIGCVIVKDGEIIGRGHNAREESNQAIMHAEMMAINEANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDERLNHRVQVERGLLAADCANIMQTFFRQGRE</Hsp_hseq>
+      <Hsp_midline>EE  YFM+EAL++AE+S    EIP+G VIV DG+II   HN          HAE+ A+ +A +   N+RL    +++T+EPC MC+ A+  ARI  VIYGA+  K G A S+  +  D+RLN    +  G+L  +C  ++  FF+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|60416281|sp|P68999.1|TADA_STRP1</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Streptococcus pyogenes serotype M1]</Hit_def>
+  <Hit_accession>P68999</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.75159e-33</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>EEMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>EEQTYFMQEALKEAEKSLQKAEIPIGCVIVKDGEIIGRGHNAREESNQAIMHAEMMAINEANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGVDSLYQILTDERLNHRVQVERGLLAADCANIMQTFFRQGRE</Hsp_hseq>
+      <Hsp_midline>EE  YFM+EAL++AE+S    EIP+G VIV DG+II   HN          HAE+ A+ +A +   N+RL    +++T+EPC MC+ A+  ARI  VIYGA+  K G   S+  +  D+RLN    +  G+L  +C  ++  FF+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|14286004|sp|P57343.1|TADA_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57343</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>1.03164e-31</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>WMKIALKYAYYAKEKGEIPIGAILVFKERIIGIGWNSSISKNDPTAHAEIIALRGAGKKIKNYRLLNTTLYVTLQPCIMCCGAIIQSRIKRLVFGANCNSSDHRFSLKNLFCDPQKDYKLDIKKNVMQRECSDILINFFQKKRKN</Hsp_hseq>
+      <Hsp_midline>+M+ AL+ A  +   GEIP+GA++V   +II    N+ I+  + + HAEI AL  AG +++NYRL    +Y+TL+PC MC  A+IQ+RI+R+++GA    +    S+ NLF D + +    I+  ++Q EC  +L  FFQ KRK </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|25091621|sp|Q8K9R4.1|TADA_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9R4</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>9.91656e-31</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKR</Hsp_qseq>
+      <Hsp_hseq>SYWMKIALKYAYYAEENGEVPIGAILVFQEKIIGTGWNSVISQNDSTAHAEIIALREAGRNIKNYRLVNTTLYVTLQPCMMCCGAIINSRIKRLVFGASYKDLKKNPFLKKIFINLEKNK-LKIKKHIMRNECAKILSNFFKNKR</Hsp_hseq>
+      <Hsp_midline> Y+M+ AL+ A  +  +GE+P+GA++V   KII +  N+ I+  + + HAEI AL +AG  ++NYRL    +Y+TL+PC MC  A+I +RI+R+++GA+         +  +F +   N    I+  I++ EC  +LS FF+NKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|6226405|sp|O67050.1|TADA_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67050</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>1.52521e-30</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>YFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKR</Hsp_qseq>
+      <Hsp_hseq>YFLKVALREAKRAFEKGEVPVGAIIVKEGEIISKAHNSVEELKDPTAHAEMLAIKEACRRLNTKYLEGCELYVTLEPCIMCSYALVLSRIEKVIFSALDKKHGGVVSVFNILDEPTLNHRVKWEYYPL-EEASELLSEFFKKLR</Hsp_hseq>
+      <Hsp_midline>YF++ ALR+A+++   GE+PVGA+IV +G+II+ AHN+     + + HAE+ A+ +A   +    L+GC++Y+TLEPC MC+ AL+ +RI +VI+ A + K G   S+ N+  +  LN         L EE   +LS FF+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|550540906|sp|A9CK16.1|TADA_AGRT5</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>A9CK16</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.69505e-28</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>EMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKR</Hsp_qseq>
+      <Hsp_hseq>ERTHFMELALVEARSAGERDEVPIGAVLVLDGRVIARSGNRTRELNDVTAHAEIAVIRMACEALGQERLPGADLYVTLEPCTMCAAAISFARIRRLYYGAQDPKGGAVESGVRFFSQPTCHHAPDVYSGLAESESAEILRQFFREKR</Hsp_hseq>
+      <Hsp_midline>E  +FM  AL +A  +    E+P+GAV+V DG++I  + N      +V+ HAEI  +  A   +   RL G D+Y+TLEPC MCA+A+  ARIRR+ YGA +PK GA  S V  F+    +    +  G+ + E   +L +FF+ KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81610850|sp|Q68Y02.1|TADA_RICTY</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68Y02</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>9.55038e-28</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MREALRQAEQSAADGEIPVGAVIVS--DGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKR</Hsp_qseq>
+      <Hsp_hseq>MEQALKQARLAFDKNEVPVGVVIVYRLNQKIIVSSHNNIEEKNNALCHAEIIAINEACNLISSKNLNDYDIYVTLEPCAMCASAISHSRLKRLFYGASDSKQGAVESNLRYFNSSACFHRPEIYSGILSEHSRFLMKEFFQKMR</Hsp_hseq>
+      <Hsp_midline>M +AL+QA  +    E+PVG VIV   + KII S+HN      N   HAEI A+ +A + + +  L+  DIY+TLEPCAMCASA+  +R++R+ YGA++ K GA  S +  F          I  GIL E  R ++  FFQ  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|152112359|sp|Q4UJW9.2|TADA_RICFE</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UJW9</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>3.70992e-27</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MREALRQAEQSAADGEIPVGAVIVS--DGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKR</Hsp_qseq>
+      <Hsp_hseq>MEQALKQAGIAFDKNEVPVGAVIVDRLNQKIIVSSHNNTEEKNNALYHAEIIAINEACNLISSKNLNDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGAVESNLRYFNSSVCFYRPEIYSGILAEDSRLLMKEFFKRIR</Hsp_hseq>
+      <Hsp_midline>M +AL+QA  +    E+PVGAVIV   + KII S+HN      N   HAEI A+ +A + + +  L+  DIY+TLEPCAMCA+A+  +R++R+ YGA++ K GA  S +  F          I  GIL E+ R ++  FF+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|259533711|sp|C1D1Q9.1|TILS_DEIDV</Hit_id>
+  <Hit_def>RecName: Full=tRNA(Ile)-lysidine synthase; AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase; AltName: Full=tRNA(Ile)-lysidine synthetase [Deinococcus deserti VCD115]</Hit_def>
+  <Hit_accession>C1D1Q9</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>4.01207e-27</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>375</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>PQEEMGYFMREALRQAEQSAADGEIPVGAVIVS-DGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>PADLLDTAMGEALGLAREAALAQEVPVGAVVLGPGGRIIGSGRNTSRADSDMTRHAELAALRAATAELGTAYLTGCTLVVTLEPCPMCLGAALEARVERIVYGASNPKAGALGGVSDLLSSHWGHV-PAVTGGVRAQDAARVLRDSFQELRQ</Hsp_hseq>
+      <Hsp_midline>P + +   M EAL  A ++A   E+PVGAV++   G+II S  NT  AD +++RHAE+ AL  A +E+    L GC + +TLEPC MC  A ++AR+ R++YGA+ PK GA G + +L +    +   A+ GG+  ++   VL   FQ  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|152112361|sp|Q1RGK7.2|TADA_RICBR</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RGK7</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>6.13614e-27</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MREALRQAEQSAADGEIPVGAVIVS--DGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKR</Hsp_qseq>
+      <Hsp_hseq>MREALKQAEIAFSKNEVPVGAVIVDRENQKIISKSYNNTEEKNNALYHAEIIAINEACRIISSKNLSDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGAVESNLRYFNSKACFHRPEIYSGIFAEDSALLMKGFFKKIR</Hsp_hseq>
+      <Hsp_midline>MREAL+QAE + +  E+PVGAVIV   + KII+ ++N      N   HAEI A+ +A   + +  L   DIY+TLEPCAMCA+A+  +R++R+ YGA++ K GA  S +  F  K       I  GI  E+   ++  FF+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|6226400|sp|Q9ZCC6.1|TADA_RICPR</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZCC6</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.32518e-26</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MREALRQAEQSAADGEIPVGAVIVS--DGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>MEQALKQARLAFDKNEVPVGVVIVCRLNQKIIVSSHNNIEEKKNPLCHAEIIAINTACNLISSKNLNDYDIYVTLEPCAMCASAISHSRLKRLFYGASDSKHGAVESNLRYFNSNSCFYRPEIYSGILSEHSRFLMQEFFQRIRSA</Hsp_hseq>
+      <Hsp_midline>M +AL+QA  +    E+PVG VIV   + KII S+HN      N   HAEI A+  A + + +  L+  DIY+TLEPCAMCASA+  +R++R+ YGA++ K GA  S +  F          I  GIL E  R ++  FFQ  R  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|38372581|sp|Q89AM8.1|TADA_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AM8</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>5.01745e-26</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>YFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>YFMKCAIFLAKISEMIGEVPVGAVLVFNNTIIGKGLNSSILNHDPTAHAEIKALRNGAKFLKNYRLLHTTLYVTLEPCIMCYGAIIHSRISRLVFGAKYKNLQKYICCKNHFFINKNFRKISITQEVLESECSNLLSSFFKRKRK</Hsp_hseq>
+      <Hsp_midline>YFM+ A+  A+ S   GE+PVGAV+V +  II    N+ I + + + HAEI AL      ++NYRL    +Y+TLEPC MC  A+I +RI R+++GA            N F   +     +I   +L+ EC  +LS FF+ KRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|75336834|sp|Q9S7I0.1|TADA_ARATH</Hit_id>
+  <Hit_def>RecName: Full=tRNA(adenine(34)) deaminase, chloroplastic; Short=TADA; AltName: Full=tRNA adenosine deaminase arginine; AltName: Full=tRNA arginine adenosine deaminase; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9S7I0</Hit_accession>
+  <Hit_len>1307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>1.65959e-25</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1113</Hsp_hit-from>
+      <Hsp_hit-to>1272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>FMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTA----------------IRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>FMREALVEAKKAADTWEVPVGAVLVHDGKIIARGYNLVEELRDSTAHAEMICIREGSKALRSWRLADTTLYVTLEPCPMCAGAILQARVNTLVWGAPNKLLGADGSWIRLFPGGEGNGSEASEKPPPPVHPFHPKMTIRRGVLESECAQTMQQFFQLRRK</Hsp_hseq>
+      <Hsp_midline>FMREAL +A+++A   E+PVGAV+V DGKII   +N      + + HAE+  + +    ++++RL    +Y+TLEPC MCA A++QAR+  +++GA     GA GS + LF     N   A                IR G+L+ EC   + +FFQ +RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|152112358|sp|Q92G39.2|TADA_RICCN</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92G39</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>6.77067e-25</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MREALRQAEQSAADGEIPVGAVIVS--DGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKR</Hsp_qseq>
+      <Hsp_hseq>MEQALKQAKIAFDKNEVPVGAVVVDRLHQKIIASTHNNTEEKNNALYHAEIIAINEACNLISSKNLNDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGVVESNLRYFNSSACFHRPEIYSGILAEDSGLLMKEFFKRIR</Hsp_hseq>
+      <Hsp_midline>M +AL+QA+ +    E+PVGAV+V     KII S HN      N   HAEI A+ +A + + +  L+  DIY+TLEPCAMCA+A+  +R++R+ YGA++ K G   S +  F          I  GIL E+   ++  FF+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|123905851|sp|Q0P4H0.1|ADAT2_XENTR</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase 2; AltName: Full=Deaminase domain-containing protein 1; AltName: Full=tRNA-specific adenosine-34 deaminase subunit ADAT2 [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>Q0P4H0</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.59558e-18</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>EEMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQA------GSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIR--GGILQEECRAVLSRFFQ</Hsp_qseq>
+      <Hsp_hseq>EEIQNWMHKAFQMAQDALNNGEVPVGCLMVYDNQVVGKGRNEVNETKNATRHAEMVAIDQVLDWCEKNSKKSRDVFENIVLYVTVEPCIMCAGALRLLKIPLVVYGCRNERFGGCGSVLNVAGDNIPDTGTEFKYIGGYQAEKAVELLKTFYK</Hsp_hseq>
+      <Hsp_midline>EE+  +M +A + A+ +  +GE+PVG ++V D +++    N      N +RHAE+ A+ Q        S+      +   +Y+T+EPC MCA AL   +I  V+YG    + G  GS++N+  D   +T T  +  GG   E+   +L  F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|61216750|sp|Q9RV23.2|TILS_DEIRA</Hit_id>
+  <Hit_def>RecName: Full=tRNA(Ile)-lysidine synthase; AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase; AltName: Full=tRNA(Ile)-lysidine synthetase [Deinococcus radiodurans R1]</Hit_def>
+  <Hit_accession>Q9RV23</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.25324e-17</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>EIPVGAVIV-SDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRK</Hsp_qseq>
+      <Hsp_hseq>EVPVGAVVLNADGEIVGRGRNTSREDGDMTCHAELAALREAAAGLGTPYLSDCTLVVTLEPCPMCLGAALEARIGHIVYGAANPKAGALGGVSDLLADH-WGWRPTVQGGVRAGEAARLLREVFGEVRR</Hsp_hseq>
+      <Hsp_midline>E+PVGAV++ +DG+I+    NT   D +++ HAE+ AL +A + +    L  C + +TLEPC MC  A ++ARI  ++YGAA PK GA G + +L AD        ++GG+   E   +L   F   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|82225873|sp|Q4V7V8.1|ADAT2_XENLA</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase 2; AltName: Full=Deaminase domain-containing protein 1; AltName: Full=tRNA-specific adenosine-34 deaminase subunit ADAT2 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q4V7V8</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>3.34323e-17</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>EEMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQA--GSEMQNYR----LDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIR--GGILQEECRAVLSRFFQ</Hsp_qseq>
+      <Hsp_hseq>EEIQNWMHKAFQMAQDALNNGEVPVGCLMVYGNQVVGKGRNEVNETKNATQHAEMVAIDQVLDWCEMNSKKSTDVFENIVLYVTVEPCIMCAGALRLLKIPLVVYGCRNERFGGCGSVLNVSGDDIPDTGTKFKCIGGYQAEKAIELLKTFYK</Hsp_hseq>
+      <Hsp_midline>EE+  +M +A + A+ +  +GE+PVG ++V   +++    N      N ++HAE+ A+ Q     EM + +     +   +Y+T+EPC MCA AL   +I  V+YG    + G  GS++N+  D   +T T  +  GG   E+   +L  F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|161784292|sp|Q5RIV4.2|ADAT2_DANRE</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase 2; AltName: Full=Deaminase domain-containing protein 1; AltName: Full=tRNA-specific adenosine-34 deaminase subunit ADAT2 [Danio rerio]</Hit_def>
+  <Hit_accession>Q5RIV4</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>4.51836e-17</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>PPQEEMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCD-------IYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIR--GGILQEECRAVLSRFFQNK</Hsp_qseq>
+      <Hsp_hseq>PSDSEVQTWMAKAFDMAVEALENGEVPVGCLMVYNNEIIGKGRNEVNETKNATRHAEMVALDQV-LDWCRLREKDCKEVCEQTVLYVTVEPCIMCAAALRLLRIPFVVYGCKNERFGGCGSVLDVSSDHLPHTGTSFKCIAGYRAEEAVEMLKTFYKQE</Hsp_hseq>
+      <Hsp_midline>P   E+  +M +A   A ++  +GE+PVG ++V + +II    N      N +RHAE+ AL Q   +    R   C        +Y+T+EPC MCA+AL   RI  V+YG    + G  GS++++ +D   +T T+ +   G   EE   +L  F++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|61217297|sp|Q72IF6.1|TILS_THET2</Hit_id>
+  <Hit_def>RecName: Full=tRNA(Ile)-lysidine synthase; AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase; AltName: Full=tRNA(Ile)-lysidine synthetase [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>Q72IF6</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>8.74994e-17</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>DGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>EGEVPVGAVLVLPGRVL-RAHNRVEGLRDPTAHAEMLLLREAGPEARGGRL-----YVTLEPCLMCHHALAQAGV-EVVYGAENLKEGAL---------TRFGLPTRARGGVRERECAKLLRDFFARLREG</Hsp_hseq>
+      <Hsp_midline>+GE+PVGAV+V  G+++  AHN      + + HAE+  L +AG E +  RL     Y+TLEPC MC  AL QA +  V+YGA   K GA           R    T  RGG+ + EC  +L  FF   R+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|61217197|sp|Q5SI38.1|TILS_THET8</Hit_id>
+  <Hit_def>RecName: Full=tRNA(Ile)-lysidine synthase; AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase; AltName: Full=tRNA(Ile)-lysidine synthetase [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>Q5SI38</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>8.99586e-17</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>DGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>EGEVPVGAVLVLPGRVL-RAHNRVEGLRDPTAHAEMLLLREAGPEARGGRL-----YVTLEPCLMCHHALAQAGV-EVVYGAENLKEGAL---------TRFGLPTRARGGVRERECAKLLRDFFARLREG</Hsp_hseq>
+      <Hsp_midline>+GE+PVGAV+V  G+++  AHN      + + HAE+  L +AG E +  RL     Y+TLEPC MC  AL QA +  V+YGA   K GA           R    T  RGG+ + EC  +L  FF   R+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|81885246|sp|Q6P6J0.1|ADAT2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase 2; AltName: Full=Deaminase domain-containing protein 1; AltName: Full=tRNA-specific adenosine-34 deaminase subunit ADAT2 [Mus musculus]</Hit_def>
+  <Hit_accession>Q6P6J0</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.74623e-15</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>EEMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCD--------------IYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIR--GGILQEECRAVLSRFFQNK</Hsp_qseq>
+      <Hsp_hseq>QETEKWMEEAMRMAKEALENIEVPVGCLMVYNNEVVGKGRNEVNQTKNATRHAEMVAIDQV--------LDWCHQHGQSPSTVFEHTVLYVTVEPCIMCAAALRLMKIPLVVYGCQNERFGGCGSVLNIASADLPNTGRPFQCIPGYRAEEAVELLKTFYKQE</Hsp_hseq>
+      <Hsp_midline>+E   +M EA+R A+++  + E+PVG ++V + +++    N      N +RHAE+ A+ Q         LD C               +Y+T+EPC MCA+AL   +I  V+YG    + G  GS++N+ +    NT    +   G   EE   +L  F++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|74750199|sp|Q7Z6V5.1|ADAT2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase 2; AltName: Full=Deaminase domain-containing protein 1; AltName: Full=tRNA-specific adenosine-34 deaminase subunit ADAT2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q7Z6V5</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>4.98092e-15</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>EEMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCD--------------IYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRG--GILQEECRAVLSRFFQNK</Hsp_qseq>
+      <Hsp_hseq>EETEKWMEEAMHMAKEALENTEVPVGCLMVYNNEVVGKGRNEVNQTKNATRHAEMVAIDQV--------LDWCRQSGKSPSEVFEHTVLYVTVEPCIMCAAALRLMKIPLVVYGCQNERFGGCGSVLNIASADLPNTGRPFQCIPGYRAEEAVEMLKTFYKQE</Hsp_hseq>
+      <Hsp_midline>EE   +M EA+  A+++  + E+PVG ++V + +++    N      N +RHAE+ A+ Q         LD C               +Y+T+EPC MCA+AL   +I  V+YG    + G  GS++N+ +    NT    +   G   EE   +L  F++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|75057795|sp|Q5E9J7.1|ADAT2_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase 2; AltName: Full=Deaminase domain-containing protein 1; AltName: Full=tRNA-specific adenosine-34 deaminase subunit ADAT2 [Bos taurus]</Hit_def>
+  <Hit_accession>Q5E9J7</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>4.48209e-14</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>EEMGYFMREALRQAEQSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCD--------------IYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIR--GGILQEECRAVLSRFFQNK</Hsp_qseq>
+      <Hsp_hseq>EETEKWMEQAMQMAKDALDNTEVPVGCLMVYNNEVVGKGRNEVNQTKNATRHAEMVAIDQA--------LDWCRRRGRSPSEVFEHTVLYVTVEPCIMCAAALRLMRIPLVVYGCQNERFGGCGSVLDIASADLPSTGKPFQCTPGYRAEEAVEMLKTFYKQE</Hsp_hseq>
+      <Hsp_midline>EE   +M +A++ A+ +  + E+PVG ++V + +++    N      N +RHAE+ A+ QA        LD C               +Y+T+EPC MCA+AL   RI  V+YG    + G  GS++++ +    +T    +   G   EE   +L  F++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|23396605|sp|O34598.1|GUAD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Guanine deaminase; Short=GDEase; Short=Guanase; Short=Guanine aminase; AltName: Full=Guanine aminohydrolase; Short=GAH [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34598</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>2.3682e-13</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>PVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAG</Hsp_qseq>
+      <Hsp_hseq>PFGAVIVKDGAIIAEGQNNVTTSNDPTAHAEVTAIRKACKVLGAYQLDDCILYTSCEPCPMCLGAIYWARPKAVFYAAEHTDAAEAG</Hsp_hseq>
+      <Hsp_midline>P GAVIV DG II    N      + + HAE+ A+ +A   +  Y+LD C +Y + EPC MC  A+  AR + V Y A       AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2493560|sp|P78594.1|FCA1_CANAX</Hit_id>
+  <Hit_def>RecName: Full=Cytosine deaminase; AltName: Full=Cytosine aminohydrolase [Candida albicans]</Hit_def>
+  <Hit_accession>P78594</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>5.07612e-13</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MREALRQAEQSAADGEIPVGAVIVS-DGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQE-ECRAVLSRFFQNK</Hsp_qseq>
+      <Hsp_hseq>LQVALDQAKKSYSEGGIPIGSCIISSDDTVLGQGHNERIQKHSAILHGEMSALENAG-RLPGKTYKDCTIYTTLSPCSMCTGAILLYGFKRVVMGEN----------VNFLGNEKLLIENGVEVVNLNDQECIDLMAKFIKEK</Hsp_hseq>
+      <Hsp_midline>++ AL QA++S ++G IP+G+ I+S D  ++   HN  I   +   H E++AL  AG  +       C IY TL PC+MC  A++    +RV+ G            VN   +++L     +    L + EC  ++++F + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81892416|sp|Q6PAT0.1|ADAT3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Probable inactive tRNA-specific adenosine deaminase-like protein 3; AltName: Full=tRNA-specific adenosine-34 deaminase subunit ADAT3 [Mus musculus]</Hit_def>
+  <Hit_accession>Q6PAT0</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>7.32231e-13</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>GKIITSAHNTC-IADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECR</Hsp_qseq>
+      <Hsp_hseq>GSCDLRSHPACSFTQATATQGARAGSVRKLDEDSLPYVCTGYDLYVTREPCVMCAMALVHARIQRVFYGAPSPD-GALGTLFRVHARPDLNHRFQVFRGILEDQCR</Hsp_hseq>
+      <Hsp_midline>G     +H  C       ++ A   ++ +   +   Y   G D+Y+T EPC MCA AL+ ARI+RV YGA  P  GA G++  + A   LN    +  GIL+++CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|74626752|sp|O59834.1|FCYS_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosine deaminase; AltName: Full=Cytosine aminohydrolase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O59834</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>9.20989e-13</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>FMREALRQAEQSAADGEIPVGAVIVSDG-KIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYG</Hsp_qseq>
+      <Hsp_hseq>YLREAIKVSQQARDEGQHPFGCIIVDENDNVIMSAGNR-VPDGDVTQHAETRAVGLITKTRRD--LEKCTLYTSTEPCAMCSGAIFWSGIRRMIFG</Hsp_hseq>
+      <Hsp_midline>++REA++ ++Q+  +G+ P G +IV +   +I SA N  + D +V++HAE  A+       ++  L+ C +Y + EPCAMC+ A+  + IRR+I+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|81882326|sp|Q561R2.1|ADAT3_RAT</Hit_id>
+  <Hit_def>RecName: Full=Probable inactive tRNA-specific adenosine deaminase-like protein 3; AltName: Full=tRNA-specific adenosine-34 deaminase subunit ADAT3 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q561R2</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>9.68188e-13</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>VGAVIV--SDGKIITSAHNTCI----------------------ADCNVSRH-------AEINALAQAGS------EMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECR</Hsp_qseq>
+      <Hsp_hseq>VGAVVVDPASDHVLATGHDCCSEASPLLHAVMVCIDLVAQGQGRGSCDLRRHPACSFTQATATQSARAGSVRKLDEDSLPYVCTGYDLYVTREPCVMCAMALVHARIQRVFYGAPSPD-GALGTRFRVHARPDLNHRFQVFRGILEDQCR</Hsp_hseq>
+      <Hsp_midline>VGAV+V  +   ++ + H+ C                         C++ RH       A     A+AGS      +   Y   G D+Y+T EPC MCA AL+ ARI+RV YGA  P  GA G+   + A   LN    +  GIL+++CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|74731634|sp|Q96EY9.1|ADAT3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Probable inactive tRNA-specific adenosine deaminase-like protein 3; AltName: Full=tRNA-specific adenosine-34 deaminase subunit ADAT3 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96EY9</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.55456e-12</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>YRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECR</Hsp_qseq>
+      <Hsp_hseq>YLCTGYDLYVTREPCAMCAMALVHARILRVFYGAPSPD-GALGTRFRIHARPDLNHRFQVFRGVLEEQCR</Hsp_hseq>
+      <Hsp_midline>Y   G D+Y+T EPCAMCA AL+ ARI RV YGA  P  GA G+   + A   LN    +  G+L+E+CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|132565|sp|P17618.1|RIBD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin biosynthesis protein RibD; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P17618</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.88105e-11</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>YFMREALRQAEQSAADGEIP--VGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>YYMKLALDLAKQGEGQTESNPLVGAVVVKDGQIVGMGAHLKYGEA----HAEVHAIHMAGAHAE-----GADIYVTLEPCSHYGKTPPCAELIINSGIKRVFVAMRDPNPLVAGRGISMMKEAGIE----VREGILADQAERLNEKFLHFMRTG</Hsp_hseq>
+      <Hsp_midline>Y+M+ AL  A+Q     E    VGAV+V DG+I+    +    +     HAE++A+  AG+  +     G DIY+TLEPC+       CA  +I + I+RV     +P    AG  +++  +  +     +R GIL ++   +  +F    R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|259016150|sp|O94642.2|TAD2_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase subunit tad2; AltName: Full=tRNA-specific adenosine-34 deaminase subunit tad2 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O94642</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>2.3513e-10</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>PVGAVIVSDGKIITSAHNTCIADCNVS--RHAEINALAQAGSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFF</Hsp_qseq>
+      <Hsp_hseq>PGSCVFVYKGEVIGRGFNE--TNCSLSGIRHAELIAIEKILEHYPASVFKETTLYVTVEPCLMCAAALKQLHIKAVYFGCGNDRFGGCGSVFSINKDQSIDPSYPVYPGLFYSEAVMLMREFY</Hsp_hseq>
+      <Hsp_midline>P   V V  G++I    N    +C++S  RHAE+ A+ +              +Y+T+EPC MCA+AL Q  I+ V +G    + G  GS+ ++  D+ ++    +  G+   E   ++  F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|6225948|sp|O66534.1|RIBD_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin biosynthesis protein RibD; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O66534</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>2.42313e-09</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>VGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFF</Hsp_qseq>
+      <Hsp_hseq>VGAVVVKEGKIVGLGYHEKAGKP----HAEVMALGQAGEKAK-----GATLYVTLEPCTHFGRTPPCTDAIIRSGIKRVVVATLDPNPLMSGKGV----EKLRNAGIEVDVGVCEEEARELNEDFF</Hsp_hseq>
+      <Hsp_midline>VGAV+V +GKI+   ++          HAE+ AL QAG + +     G  +Y+TLEPC        C  A+I++ I+RV+    +P    +G  V    +K  N    +  G+ +EE R +   FF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|25091139|sp|Q8K9A4.1|RIBD1_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Diaminohydroxyphosphoribosylamino-pyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9A4</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.93389e-09</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>VGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>VGCVIVQNKKIVGEGWHKKYGE----NHAEINALNMAGEKAK-----GSTAYITLEPCNHFGKTPPCCDAIIQSGIKNVIISSLDPNPKVSGKGV-LYLRKK---GISVKIGLMSKESQKYNKGFFKRMRTG</Hsp_hseq>
+      <Hsp_midline>VG VIV + KI+    +    +     HAEINAL  AG + +     G   YITLEPC        C  A+IQ+ I+ VI  + +P    +G  V L+  K+     +++ G++ +E +     FF+  R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|147742915|sp|Q8JFW4.2|ADAT3_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Probable inactive tRNA-specific adenosine deaminase-like protein 3; AltName: Full=tRNA-specific adenosine-34 deaminase subunit adat3 [Danio rerio]</Hit_def>
+  <Hit_accession>Q8JFW4</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>6.52054e-09</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>YRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEEC</Hsp_qseq>
+      <Hsp_hseq>YICTGYDLYVTREPCVMCAMALVHSRISRVFYGAST-ADGAFGSRYKIHCQKDLNHRFEVFKGVMVNAC</Hsp_hseq>
+      <Hsp_midline>Y   G D+Y+T EPC MCA AL+ +RI RV YGA+    GA GS   +   K LN    +  G++   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1352970|sp|P47058.1|TAD2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=tRNA-specific adenosine deaminase subunit TAD2; AltName: Full=tRNA-specific adenosine-34 deaminase subunit TAD2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P47058</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.04661e-08</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MREALRQAEQSAADGEIPVGAVIVSD--GKIITSAHNTCIADCNVSRHAEINALAQA----GSEMQNYRLDGCDIYITLEPCAMCASALIQARIRRVIYGAAEPKTGAAGSIVNLFADK-----RLNTHTAIRG--GILQEECRAVLSRFF--QNKR</Hsp_qseq>
+      <Hsp_hseq>MRTAVRLARYALDHDETPVACIFVHTPTGQVMAYGMNDTNKSLTGVAHAEFMGIDQIKAMLGSRGVVDVFKDITLYVTVEPCIMCASALKQLDIGKVVFGCGNERFGGNGTVLSVNHDTCTLVPKNNSAAGYESIPGILRKEAIMLLRYFYVRQNER</Hsp_hseq>
+      <Hsp_midline>MR A+R A  +    E PV  + V    G+++    N          HAE   + Q     GS           +Y+T+EPC MCASAL Q  I +V++G    + G  G+++++  D      + N+        GIL++E   +L  F+  QN+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|8039802|sp|P50853.2|RIBD_ACTPL</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin biosynthesis protein RibD; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase [Actinobacillus pleuropneumoniae]</Hit_def>
+  <Hit_accession>P50853</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.88282e-08</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>PVAAFPPQEEMGYFMREALRQAEQSAA--DGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFF---QNKR</Hsp_qseq>
+      <Hsp_hseq>PSNSFKTMTDLDY-MRRAIALAKQGLGWTNPNPLVGCVIVKNGEIVAEGYHEKIG----GWHAERNAVLHCKED-----LSGATAYVTLEPCCHHGRTPPCSDLLIERGIKKVFIGSSDPNPLVAGR----GANQLRQAGVEVVEGLLKEECDALNPIFFHYIQTKR</Hsp_hseq>
+      <Hsp_midline>P  +F    ++ Y MR A+  A+Q     +    VG VIV +G+I+   ++  I       HAE NA+     +     L G   Y+TLEPC        C+  LI+  I++V  G+++P    AG      A++       +  G+L+EEC A+   FF   Q KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|20139385|sp|P57533.2|RIBD1_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Diaminohydroxyphosphoribosylamino-pyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57533</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>3.98344e-07</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>VGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>VGCVIVKNNIIVGEGWHEQAG----KNHAEINALIMAGEKAQ-----GGTAYVTLEPCNHFGKTPPCCNALIKSGINRVVISNIDPNPKISGNGI-LYLKKH---GICVKTGLLSKESKQYNKGFFKRMKTG</Hsp_hseq>
+      <Hsp_midline>VG VIV +  I+    +          HAEINAL  AG + Q     G   Y+TLEPC        C +ALI++ I RV+    +P    +G+ + L+  K       ++ G+L +E +     FF+  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|614114412|sp|P9WPH0.1|RIBD_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin biosynthesis protein RibD; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase [Mycobacterium tuberculosis CDC1551] &gt;gi|614114417|sp|P9WPH1.1|RIBD_MYCTU RecName: Full=Riboflavin biosynthesis protein RibD; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WPH0</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>4.40579e-07</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>PVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRA-VLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>PVGAVIVDPNGRIVGAGGTEPAGGD---HAEVVALRRAGGLAA-----GAIVVVTMEPCNHYGKTPPCVNALIEARVGTVVYAVADPNGIAGGGAGRLSA-----AGLQVRSGVLAEQVAAGPLREWLHKQRTG</Hsp_hseq>
+      <Hsp_midline>PVGAVIV     I  A  T  A  +   HAE+ AL +AG         G  + +T+EPC        C +ALI+AR+  V+Y  A+P   A G    L A         +R G+L E+  A  L  +   +R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|140252|sp|P25539.1|RIBD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin biosynthesis protein RibD; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P25539</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>9.23204e-07</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>YFMREALRQAEQS--AADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>YYMARALKLAQRGRFTTHPNPNVGCVIVKDGEIVGEGYHQRAGEP----HAEVHALRMAGEKAK-----GATAYVTLEPCSHHGRTPPCCDALIAAGVARVVASMQDPNPQVAGRGLYRLQQAGID----VSHGLMMSEAEQLNKGFLKRMRTG</Hsp_hseq>
+      <Hsp_midline>Y+M  AL+ A++          VG VIV DG+I+   ++    +     HAE++AL  AG + +     G   Y+TLEPC+       C  ALI A + RV+    +P    AG  +       ++    +  G++  E   +   F +  R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|2493562|sp|P70814.1|RIBD_BACAM</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin biosynthesis protein RibD; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>P70814</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.03812e-06</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>YFMREALRQAEQSAADGEIP---VGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>YYMNTAIELARRGEGQTQ-PNPLVGAVVVKKRQIVGMGAHLQYGEA----HAEVHAINMAGSLAK-----GADLYVTLEPCSHYGKTPPCAELIMKSGIKRVFIAVEDPNPLVAGKGITMLEEAGIEVKT----GLLRQQAEELNKMFLHFMRTG</Hsp_hseq>
+      <Hsp_midline>Y+M  A+  A +     + P   VGAV+V   +I+    +    +     HAE++A+  AGS  +     G D+Y+TLEPC+       CA  ++++ I+RV     +P    AG  + +  +  +   T    G+L+++   +   F    R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|75244375|sp|Q8GWP5.1|RIBD_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin biosynthesis protein PYRD, chloroplastic; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=Inactive 5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8GWP5</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>1.07048e-06</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>NHPPVAAFPPQEEM----GYFMREALRQAEQS--AADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNK</Hsp_qseq>
+      <Hsp_hseq>SNPVLAAMRREEDVEVDDSFYMRKCVELAKRAIGCTSPNPMVGCVIVKDGDIVGQGFHPKAG----QPHAEVFALRDAGELAEN-----ATAYVSLEPCNHYGRTPPCTEALIKAKVRRVVIGMVDPNPIVFSSGISRLKDAGIDVTVSVEEELCKKMNEGFIHRMLTGK</Hsp_hseq>
+      <Hsp_midline>++P +AA   +E++     ++MR+ +  A+++         VG VIV DG I+    +          HAE+ AL  AG   +N        Y++LEPC        C  ALI+A++RRV+ G  +P      S ++   D  ++   ++   + ++     + R    K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1172932|sp|P44326.1|RIBD_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin biosynthesis protein RibD; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44326</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.10958e-06</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>FMREALRQAE--QSAADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>FMQRALDLAAKGQYTTTPNPSVGCVLVKNGEIVGEGFHFKAG----QPHAERVALAQAGENAK-----GATAYVTLEPCAHYGRTPPCALGLIEAGVVKVIAAMQDPNPQVAGKGLKMLSDAGIESTV----NLLNDQAEKINKGFLKRMRQG</Hsp_hseq>
+      <Hsp_midline>FM+ AL  A   Q        VG V+V +G+I+    +          HAE  ALAQAG   +     G   Y+TLEPCA       CA  LI+A + +VI    +P    AG  + + +D  + +       +L ++   +   F +  R+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|13633863|sp|Q9PLJ6.2|RIBD_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin biosynthesis protein RibD; Includes: RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase; Short=DRAP deaminase; AltName: Full=Riboflavin-specific deaminase; Includes: RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase; AltName: Full=HTP reductase [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PLJ6</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.06656e-06</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>EEMGYFMREALRQAEQSA--ADGEIPVGAVIVSDGKIITSAHNTCIADCNVSRHAEINALAQAGSEMQNYRLDGCDIYITLEPCAM------CASALIQARIRRVIYGAAEPKTGAAGSIVNLFADKRLNTHTAIRGGILQEECRAVLSRFFQNKRKG</Hsp_qseq>
+      <Hsp_hseq>EQQLFFMREAVALGERGRIFAPPNPWVGCVIVKNGCIIGRGWHKGIG----SPHAEVCAF-----QDQTSSLVGADVYVTLEPCCHFGRTPPCVDLLIKSKVSSVYIALLDPDPRVCKRGVARLKEAGISVYV----GIGHEEAKASLQPYLHQRETG</Hsp_hseq>
+      <Hsp_midline>E+  +FMREA+   E+    A     VG VIV +G II    +  I     S HAE+ A      + Q   L G D+Y+TLEPC        C   LI++++  V     +P        V    +  ++ +     GI  EE +A L  +   +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

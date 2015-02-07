@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>44407</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>242</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>44407</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>242</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|118615|sp|P07014.1|SDHB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P07014</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.569</Hsp_bit-score>
+      <Hsp_score>854</Hsp_score>
+      <Hsp_evalue>4.53497e-114</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>KMSFEIYRYNPDVDAKPYMQRYELEL-EPTDVKLLDALVRLKAQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVK---IRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKR</Hsp_qseq>
+      <Hsp_hseq>RLEFSIYRYNPDVDDAPRMQDYTLEADEGRDMMLLDALIQLKEKDPSLSFRRSCREGVCGSDGLNMNGKNGLACITPISALNQPGKKIVIRPLPGLPVIRDLVVDMGQFYAQYEKIKPYLLNNGQNPPAREHLQMPEQREKLDGLYECILCACCSTSCPSFWWNPDKFIGPAGLLAAYRFLIDSRDTETDSRLDGLSDAFSVFRCHSIMNCVSVCPKGLNPTRAIGHIKSMLLQR</Hsp_hseq>
+      <Hsp_midline>++ F IYRYNPDVD  P MQ Y LE  E  D+ LLDAL++LK +D +LSFRRSCREG+CGSDG+N+NGKNGLAC+T + +L QP K   IRPLPGLPVIRDL+VDM QF+ QY  +KPY++N+      +E LQ  E+R++LDGLYECILCACCST+CPSFWWNPDKF+GP+GLL AYRF+ DSRDT T+ RLD L+D + +FRCH+IMNCV VCPK LNPTRAIG IK ++L+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|21362473|sp|Q8ZQU2.2|SDHB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZQU2</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.183</Hsp_bit-score>
+      <Hsp_score>853</Hsp_score>
+      <Hsp_evalue>7.90675e-114</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>KMSFEIYRYNPDVDAKPYMQRYELELEPT-DVKLLDALVRLKAQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVK---IRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKR</Hsp_qseq>
+      <Hsp_hseq>KLEFSIYRYNPDVDNAPRMQDYTLEGEEGRDMMLLDALIQLKEKDPSLSFRRSCREGVCGSDGLNMNGKNGLACITPISALTQPGKKIVIRPLPGLPVIRDLVVDMGQFYAQYEKIKPYLLNNGQNPPAREHLQMPEQREKLDGLYECILCACCSTSCPSFWWNPDKFIGPAGLLAAYRFLIDSRDTETDSRLEGMSDAFSVFRCHSIMNCVSVCPKGLNPTRAIGHIKSMLLQR</Hsp_hseq>
+      <Hsp_midline>K+ F IYRYNPDVD  P MQ Y LE E   D+ LLDAL++LK +D +LSFRRSCREG+CGSDG+N+NGKNGLAC+T + +L QP K   IRPLPGLPVIRDL+VDM QF+ QY  +KPY++N+      +E LQ  E+R++LDGLYECILCACCST+CPSFWWNPDKF+GP+GLL AYRF+ DSRDT T+ RL+ ++D + +FRCH+IMNCV VCPK LNPTRAIG IK ++L+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20137875|sp|Q92JJ8.1|SDHB_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92JJ8</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>7.00413e-95</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>LMEKMSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKR</Hsp_qseq>
+      <Hsp_hseq>MLKPRKIKIYRYDPDLDKNPTIDSFEIDLSKTGPMILDALIKIKNEIDSTLTFRRSCREGICGSCAMNIDGTNTLACIKPIEDISGDIKIYPLPHMKVVKDLVPDMSHFYAQYESIEPWLKTDSPTPSNSERLQSIKDREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAILLQAYRWIADSRDDNTGERLEALEDPFKLYRCHTIMNCTKTCPKGLNPAKAIGKIKSLIAER</Hsp_hseq>
+      <Hsp_midline>+++    +IYRY+PD+D  P +  +E++L  T   +LDAL+++K + D TL+FRRSCREGICGS  MNI+G N LAC+  +  +   +KI PLP + V++DL+ DM+ F+ QY S++P++  D+P  ++ ERLQ+ ++R++LDGLYECILCACCST+CPS+WWN DK++GP+ LL AYR+IADSRD  T ERL+ L DP++L+RCHTIMNC   CPK LNP +AIGKIK ++ +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81826336|sp|Q68XS0.1|SDHB_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68XS0</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>1.30108e-94</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>LMEKMSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKR</Hsp_qseq>
+      <Hsp_hseq>MLKPRKVQVYRYDPDLNKNPTIDSFEIDLSKTGPMVLDALIKIKNEIDSTLTFRRSCREGICGSCAMNIDGTNTLACIKPIEDISGDIKIYPLPHMKVVKDLVPDMSHFYTQYESIEPWLKNDNPAPSNSERLQSIQDREKLDGLYECILCACCSTSCPSYWWNSDKYLGPAILLQAYRWIADSRDDNTGARLEALEDPFKLYRCHTIMNCTKTCPKGLNPAKAIGRVKSLIAER</Hsp_hseq>
+      <Hsp_midline>+++    ++YRY+PD++  P +  +E++L  T   +LDAL+++K + D TL+FRRSCREGICGS  MNI+G N LAC+  +  +   +KI PLP + V++DL+ DM+ F+ QY S++P++ NDNP  ++ ERLQ+ ++R++LDGLYECILCACCST+CPS+WWN DK++GP+ LL AYR+IADSRD  T  RL+ L DP++L+RCHTIMNC   CPK LNP +AIG++K ++ +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75537005|sp|Q4UN71.1|SDHB_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UN71</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>3.8558e-94</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>LMEKMSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKR</Hsp_qseq>
+      <Hsp_hseq>MLKPRKVKIYRYDPDLDENPTIDSFEIDLSKTGPMVLDALIKIKNEIDSTLTFRRSCREGICGSCSMNIDGTNTLACIKPIEEISGDIKIYPLPHMKVVKDLVPDMSHFYAQYESIEPWLKTDSPTPSNSERLQSIKGREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAILLQAYRWIADSRDDHTGERLEDLEDPSKLYRCHTIMNCTKTCPKGLNPAKAIGKIKSLIAER</Hsp_hseq>
+      <Hsp_midline>+++    +IYRY+PD+D  P +  +E++L  T   +LDAL+++K + D TL+FRRSCREGICGS  MNI+G N LAC+  +  +   +KI PLP + V++DL+ DM+ F+ QY S++P++  D+P  ++ ERLQ+ + R++LDGLYECILCACCST+CPS+WWN DK++GP+ LL AYR+IADSRD  T ERL++L DP +L+RCHTIMNC   CPK LNP +AIGKIK ++ +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|6919864|sp|Q9ZEA1.1|SDHB_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZEA1</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>8.15905e-94</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>LMEKMSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKR</Hsp_qseq>
+      <Hsp_hseq>MLKPRKVKVYRYDPDLDENPTIDSFEIDLSKTGPMVLDALIKIKNEIDSTLTFRRSCREGICGSCAMNIDGTNTLACIKPIEDISGDIKIYPLPHMKVVKDLVPDMSHFYAQYESIEPWLKNDSPAPSNSERLQSIKDREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAILLQAYRWIADSRDDNTGARLEALEDPFKLYRCHTIMNCTKTCPKGLNPAKAIGRVKNLIAER</Hsp_hseq>
+      <Hsp_midline>+++    ++YRY+PD+D  P +  +E++L  T   +LDAL+++K + D TL+FRRSCREGICGS  MNI+G N LAC+  +  +   +KI PLP + V++DL+ DM+ F+ QY S++P++ ND+P  ++ ERLQ+ ++R++LDGLYECILCACCST+CPS+WWN DK++GP+ LL AYR+IADSRD  T  RL+ L DP++L+RCHTIMNC   CPK LNP +AIG++K ++ +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1706424|sp|P51053.1|SDHB_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>P51053</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>3.09842e-93</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MSFEIYRYNPDVDAKPYMQRYELELEPTDVK-LLDALVRLKAQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKRV</Hsp_qseq>
+      <Hsp_hseq>MTFSIMRFNPETDKKPYMQDFELDVSAIQGKMLLNALEALREKHPDIGLRRSCAEGVCGSDGMNINGKNALACVTQLKDLPDRVVVRPLPGFPIIRDLIVDMEQFYAQYKKVKPYLLNDQEA-PQKERLQSPEERAKLDGLYECILCACCSSSCPSYWWNPDKFIGPAGLLWSYRFIADSRDSKEKERLDAMKDPYSVFRCRTIMDCATVCPKNLNPAKAIRKIRTEMLQET</Hsp_hseq>
+      <Hsp_midline>M+F I R+NP+ D KPYMQ +EL++     K LL+AL  L+ +   +  RRSC EG+CGSDGMNINGKN LAC+T L+ L   V +RPLPG P+IRDLIVDM QF+ QY  VKPY++ND      KERLQ+ EER +LDGLYECILCACCS++CPS+WWNPDKF+GP+GLL +YRFIADSRD+   ERLD + DPY +FRC TIM+C  VCPK+LNP +AI KI+  ML+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123388071|sp|Q1RGP3.1|SDHB_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RGP3</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>8.15982e-93</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKR</Hsp_qseq>
+      <Hsp_hseq>IKIYRYDPDLDENPTIDSFEIDLSKTGPMVLDALIKIKNEIDSTVTFRRSCREGICGSCAMNIDGTNTLACIKPIEEISGDIKIYPLPHMKVVKDLVPDMSHFYAQYESIEPWLKTDSPAPSNAERLQSIKDREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAILLQAYRWIADSRDDHTGERLEALEDPFKLYRCHTIMNCTKTCPKGLNPAKAISEIKGLIAER</Hsp_hseq>
+      <Hsp_midline> +IYRY+PD+D  P +  +E++L  T   +LDAL+++K + D T++FRRSCREGICGS  MNI+G N LAC+  +  +   +KI PLP + V++DL+ DM+ F+ QY S++P++  D+P  ++ ERLQ+ ++R++LDGLYECILCACCST+CPS+WWN DK++GP+ LL AYR+IADSRD  T ERL+ L DP++L+RCHTIMNC   CPK LNP +AI +IK ++ +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2494620|sp|Q59662.1|SDHB_PARDE</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Paracoccus denitrificans]</Hit_def>
+  <Hit_accession>Q59662</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.174</Hsp_bit-score>
+      <Hsp_score>705</Hsp_score>
+      <Hsp_evalue>3.98324e-91</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKRVV</Hsp_qseq>
+      <Hsp_hseq>FNIYRWDPDTGENPRIDTYFVDMDKCGPMVLDALIKIKNEIDPTLTFRRSCREGICGSCAMNIDGGNHLACIYGMDEIKGDVNIYPLPHMPVVKDLVPDLTHFYAQHASVQPYLITETPT-PDKEWRQSIEDRKKLDGLYECVMCASCSTACPSYWWNGDRYLGPAALLHAYRWIIDSRDEATGERLDSLEDPFKLYRCHTIMNCTNTCPKGLNPAKAIASIKHMMVDRIV</Hsp_hseq>
+      <Hsp_midline>F IYR++PD    P +  Y ++++     +LDAL+++K + D TL+FRRSCREGICGS  MNI+G N LAC+  +  +K  V I PLP +PV++DL+ D+T F+ Q+ SV+PY++ + P   DKE  Q+ E+RK+LDGLYEC++CA CSTACPS+WWN D+++GP+ LL+AYR+I DSRD  T ERLD+L DP++L+RCHTIMNC + CPK LNP +AI  IK +M+ R+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1706426|sp|P80480.1|SDHB_RECAM</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip (mitochondrion) [Reclinomonas americana]</Hit_def>
+  <Hit_accession>P80480</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>5.35404e-89</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLK-AQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKE</Hsp_qseq>
+      <Hsp_hseq>MLFKVYRWNPDKKEKPHISTYSVDLNSCGPMVLDALIKIKNEQDSTLTFRRSCREGVCGSCAMNIDGTNTLACIKSIDTNKKEMKIYPLPHMHIIKDLVPDLSNFYAQYKSIEPWMKTTEK-KLDKEFYQSRNDREKLDGLYECVLCACCSTSCPSYWWNSDKYLGPAVLLQAYRWIVDSRDQGTRERLQYLEDPFKLYRCHTILNCTKTCPKHLNPAQAIAKIKQ</Hsp_hseq>
+      <Hsp_midline>M F++YR+NPD   KP++  Y ++L      +LDAL+++K  QD TL+FRRSCREG+CGS  MNI+G N LAC+  + + K+ +KI PLP + +I+DL+ D++ F+ QY S++P++        DKE  Q++ +R++LDGLYEC+LCACCST+CPS+WWN DK++GP+ LL AYR+I DSRD  T ERL  L DP++L+RCHTI+NC   CPKHLNP +AI KIK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|110808205|sp|Q8LB02.2|SDHB2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit 2, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8LB02</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>2.70357e-88</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDA-DKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEI</Hsp_qseq>
+      <Hsp_hseq>TFQIYRWNPDNPGKPELQDYKIDLKDCGPMVLDALIKIKNEMDPSLTFRRSCREGICGSCAMNIDGCNGLACLTKIESGSKETTITPLPHMFVIKDLVVDMTNFYNQYKSIEPWLKRKNPASVPGKEILQSKKDRAKLDGMYECILCACCSTSCPSYWWNPESYLGPAALLHANRWISDSRDEYTKERLEAIDDEFKLYRCHTILNCARACPKGLNPGKQITHIKQL</Hsp_hseq>
+      <Hsp_midline>+F+IYR+NPD   KP +Q Y+++L+     +LDAL+++K + D +L+FRRSCREGICGS  MNI+G NGLACLT + S  +   I PLP + VI+DL+VDMT F+ QY S++P++   NP     KE LQ++++R +LDG+YECILCACCST+CPS+WWNP+ ++GP+ LL+A R+I+DSRD  T ERL+ ++D ++L+RCHTI+NC   CPK LNP + I  IK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|110808204|sp|Q8LBZ7.2|SDHB1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit 1, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8LBZ7</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>5.94663e-87</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDA-DKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEI</Hsp_qseq>
+      <Hsp_hseq>TFQIYRWNPDNPGKPELQNYQIDLKDCGPMVLDALIKIKNEMDPSLTFRRSCREGICGSCAMNIDGCNGLACLTKIQDEASETTITPLPHMFVIKDLVVDMTNFYNQYKSIEPWLKRKTPASVPAKEILQSKKDRAKLDGMYECILCACCSTSCPSYWWNPESYLGPAALLHANRWISDSRDEYTKERLEAIDDEFKLYRCHTILNCARACPKGLNPGKQITHIKQL</Hsp_hseq>
+      <Hsp_midline>+F+IYR+NPD   KP +Q Y+++L+     +LDAL+++K + D +L+FRRSCREGICGS  MNI+G NGLACLT ++       I PLP + VI+DL+VDMT F+ QY S++P++    P     KE LQ++++R +LDG+YECILCACCST+CPS+WWNP+ ++GP+ LL+A R+I+DSRD  T ERL+ ++D ++L+RCHTI+NC   CPK LNP + I  IK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|391358193|sp|P21911.3|SDHB_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>P21911</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>8.62961e-87</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPDV-DAKPYMQRYELELEPTDVKLLDALVRLK-AQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>TFEIYRWNPEKPEVKPKLQKYTVDLTKCGPMVLDALIKIKNEQDPTLTFRRSCREGICGSCAMNINGSNTLACICNIKKDNKPTKIYPLPHCFIVKDLVPDLTYFYKQYKSIEPWLQNDN-IPKDKEFYQSRADRAKLDGLYECILCACCSTSCPSYWWNSEEYLGPAVLMQAYRWIIDSRDQATAKRLDVMQNSMSVYRCHTIMNCARTCPKGLNPGLAIAKVKALM</Hsp_hseq>
+      <Hsp_midline>+FEIYR+NP+  + KP +Q+Y ++L      +LDAL+++K  QD TL+FRRSCREGICGS  MNING N LAC+ +++   +P KI PLP   +++DL+ D+T F+KQY S++P++ NDN I  DKE  Q++ +R +LDGLYECILCACCST+CPS+WWN ++++GP+ L+ AYR+I DSRD  T +RLD + +   ++RCHTIMNC   CPK LNP  AI K+K +M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|206558175|sp|A5PL98.1|SDHB_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Danio rerio]</Hit_def>
+  <Hit_accession>A5PL98</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>2.65125e-86</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPD-VDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPV-KIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVN-DNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIML</Hsp_qseq>
+      <Hsp_hseq>FQIYRWDPDTVGDKPRMQTYEIDLNTCGPMVLDALIKIKNEMDSTLTFRRSCREGICGSCAMNINGGNTLACLNKIDTNTSKVTKIYPLPHMYVVKDLVPDMSNFYAQYKSIEPYLKKKDESQQGKQQYLQSVEDRQKLDGLYECILCACCSTSCPSYWWNADKYLGPAVLMQAYRWMIDSRDDFTEDRLSKLQDPFSLYRCHTIMNCTRTCPKGLNPGKAIAEIKKMMV</Hsp_hseq>
+      <Hsp_midline>F+IYR++PD V  KP MQ YE++L      +LDAL+++K + D TL+FRRSCREGICGS  MNING N LACL  + +    V KI PLP + V++DL+ DM+ F+ QY S++PY+   D      ++ LQ+ E+R++LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD  T +RL  L DP+ L+RCHTIMNC   CPK LNP +AI +IK++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|20455488|sp|P21912.3|SDHB_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P21912</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.077</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>7.83645e-86</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPD-VDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVN-DNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FAIYRWDPDKAGDKPHMQTYEVDLNKCGPMVLDALIKIKNEVDSTLTFRRSCREGICGSCAMNINGGNTLACTRRIDTNLNKVSKIYPLPHMYVIKDLVPDLSNFYAQYKSIEPYLKKKDESQEGKQQYLQSIEEREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSLYRCHTIMNCTRTCPKGLNPGKAIAEIKKMM</Hsp_hseq>
+      <Hsp_midline>F IYR++PD    KP+MQ YE++L      +LDAL+++K + D TL+FRRSCREGICGS  MNING N LAC   + + L +  KI PLP + VI+DL+ D++ F+ QY S++PY+   D   +  ++ LQ+ EER++LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD  T ERL  L DP+ L+RCHTIMNC   CPK LNP +AI +IK++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122131481|sp|Q007T0.1|SDHB_PIG</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>Q007T0</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>1.05e-85</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVN-DNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FAIYRWDPDKTGDKPHMQTYEIDLNNCGPMVLDALIKIKNEIDSTLTFRRSCREGICGSCAMNINGGNTLACTRRIDTNLDKVSKIYPLPHMYVIKDLVPDLSNFYAQYKSIEPYLKKKDESQEGKQQYLQSIEEREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSLYRCHTIMNCTGTCPKGLNPGKAIAEIKKMM</Hsp_hseq>
+      <Hsp_midline>F IYR++PD    KP+MQ YE++L      +LDAL+++K + D TL+FRRSCREGICGS  MNING N LAC   + + L +  KI PLP + VI+DL+ D++ F+ QY S++PY+   D   +  ++ LQ+ EER++LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD  T ERL  L DP+ L+RCHTIMNC   CPK LNP +AI +IK++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|729335|sp|P21914.2|SDHB_DROME</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>P21914</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>2.01019e-85</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPD-VDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLR-SLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKER---LQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FEIYRWNPDNAGEKPYMQTYEVDLRECGPMVLDALIKIKNEMDPTLTFRRSCREGICGSCAMNIGGTNTLACISKIDINTSKSLKVYPLPHMYVVRDLVPDMNNFYEQYRNIQPWLQRKNEAGEKKGKAQYLQSVEDRSKLDGLYECILCACCSTSCPSYWWNAEKYLGPAVLMQAYRWIIDSRDENSAERLNKLKDPFSVYRCHTIMNCTRTCPKGLNPGRAIAEIKKLL</Hsp_hseq>
+      <Hsp_midline>FEIYR+NPD    KPYMQ YE++L      +LDAL+++K + D TL+FRRSCREGICGS  MNI G N LAC++ +  +  + +K+ PLP + V+RDL+ DM  F++QY +++P++   N     K +   LQ+ E+R +LDGLYECILCACCST+CPS+WWN +K++GP+ L+ AYR+I DSRD  + ERL+ L DP+ ++RCHTIMNC   CPK LNP RAI +IK+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|110808206|sp|Q3T189.1|SDHB_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=IP; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q3T189</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>2.10078e-85</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKER-LQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FAIYRWDPDKTGDKPHMQTYEIDLNNCGPMVLDALIKIKNEIDSTLTFRRSCREGICGSCAMNINGGNTLACTRRIDTNLSKVSKIYPLPHMYVIKDLVPDLSNFYAQYKSIEPYLKKKDESQGGKEQYLQSIEDREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSLYRCHTIMNCTQTCPKGLNPGKAIAEIKKMM</Hsp_hseq>
+      <Hsp_midline>F IYR++PD    KP+MQ YE++L      +LDAL+++K + D TL+FRRSCREGICGS  MNING N LAC   + + L +  KI PLP + VI+DL+ D++ F+ QY S++PY+   +     KE+ LQ+ E+R++LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD  T ERL  L DP+ L+RCHTIMNC   CPK LNP +AI +IK++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1706423|sp|Q09545.1|SDHB_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q09545</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>2.96391e-85</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPDV-DAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPID-ADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>TFEIYRFNPEAPGAKPTVQKFDVDLDQCGTMILDALIKIKNEVDPTLTFRRSCREGICGSCAMNIGGQNTLACICKIDSDTSKSTKIYPLPHMFVVKDLVPDMNLFYAQYASIQPWIQKKTPLTLGEKQMHQSVAERDRLDGLYECILCACCSTSCPSYWWNADKYLGPAVLMQAYRWVIDSRDDYATERLHRMHDSFSAFKCHTIMNCTKTCPKHLNPAKAIGEIKSLL</Hsp_hseq>
+      <Hsp_midline>+FEIYR+NP+   AKP +Q+++++L+     +LDAL+++K + D TL+FRRSCREGICGS  MNI G+N LAC+  + S   +  KI PLP + V++DL+ DM  F+ QY S++P++    P+   +K+  Q+  ER  LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD    ERL  ++D +  F+CHTIMNC   CPKHLNP +AIG+IK ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|229541067|sp|A8WPF0.2|SDHB_CAEBR</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Caenorhabditis briggsae]</Hit_def>
+  <Hit_accession>A8WPF0</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>1.21226e-84</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPDV-DAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPID-ADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>TFEIYRFNPEAPGAKPTIQKFDVDLDQCGTMILDALIKIKNEVDPTLTFRRSCREGICGSCAMNIGGENTLACICKIDADTSKSTKIYPLPHMFVVKDLVPDMNLFYAQYASIQPWIQKKTPLTLGEKQMHQSVAERDRLDGLYECILCACCSTSCPSYWWNADKYLGPAVLMQAYRWVIDSRDDYAQERLHRMHDSFSAFKCHTIMNCTKTCPKHLNPAKAIGEIKSLL</Hsp_hseq>
+      <Hsp_midline>+FEIYR+NP+   AKP +Q+++++L+     +LDAL+++K + D TL+FRRSCREGICGS  MNI G+N LAC+  + +   +  KI PLP + V++DL+ DM  F+ QY S++P++    P+   +K+  Q+  ER  LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD    ERL  ++D +  F+CHTIMNC   CPKHLNP +AIG+IK ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|51701403|sp|Q70KF8.1|SDHB_UROFA</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Uromyces viciae-fabae]</Hit_def>
+  <Hit_accession>Q70KF8</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>1.23725e-84</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDAK-PYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDL-RSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FSIYRWNPDEPSKKPTLQTYSIDLKKCGPMVLDALIKIKNELDPTLTFRRSCREGICGSCAMNIDGVNTLACLKRINKETSAPVKIYPLPHMYIIKDLVPDMTHFYKQYKSIEPFLKNDNP-PAQGEFLQSPEDRKKLDGMYECILCACCSTSCPSYWWNQDEYLGPAVLMQAYRWMADSRDSYGEDRKEKLQNTLSLYRCHTIFNCTKTCPKGLNPAKAISHIKREM</Hsp_hseq>
+      <Hsp_midline>F IYR+NPD  +K P +Q Y ++L+     +LDAL+++K + D TL+FRRSCREGICGS  MNI+G N LACL  + +    PVKI PLP + +I+DL+ DMT F+KQY S++P++ NDNP  A  E LQ+ E+RK+LDG+YECILCACCST+CPS+WWN D+++GP+ L+ AYR++ADSRD+   +R + L +   L+RCHTI NC   CPK LNP +AI  IK  M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|205371749|sp|P21913.2|SDHB_RAT</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P21913</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>2.64432e-84</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPD-VDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVN-DNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>TFAIYRWDPDKAGDKPRMQTYKVDLNKCGPMVLDALIKIKNEIDSTLTFRRSCREGICGSCAMNINGGNTLACTRRIDTDLGKVSKIYPLPHMYVIKDLVPDLSNFYAQYKSIEPYLKKKDESQEGKQQYLQSIEDREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDEFTEERLAKLQDPFSLYRCHTIMNCTQTCPKGLNPGKAIAEIKKMM</Hsp_hseq>
+      <Hsp_midline>+F IYR++PD    KP MQ Y+++L      +LDAL+++K + D TL+FRRSCREGICGS  MNING N LAC   + + L +  KI PLP + VI+DL+ D++ F+ QY S++PY+   D   +  ++ LQ+ E+R++LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD  T ERL  L DP+ L+RCHTIMNC   CPK LNP +AI +IK++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|51701449|sp|Q9CQA3.1|SDHB_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9CQA3</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>3.62021e-84</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVN-DNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FAIYRWDPDKTGDKPRMQTYEVDLNKCGPMVLDALIKIKNEVDSTLTFRRSCREGICGSCAMNINGGNTLACTRRIDTDLSKVSKIYPLPHMYVIKDLVPDLSNFYAQYKSIEPYLKKKDESQEGKQQYLQSIEDREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSVYRCHTIMNCTQTCPKGLNPGKAIAEIKKMM</Hsp_hseq>
+      <Hsp_midline>F IYR++PD    KP MQ YE++L      +LDAL+++K + D TL+FRRSCREGICGS  MNING N LAC   + + L +  KI PLP + VI+DL+ D++ F+ QY S++PY+   D   +  ++ LQ+ E+R++LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD  T ERL  L DP+ ++RCHTIMNC   CPK LNP +AI +IK++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123916423|sp|Q3B8J8.1|SDHB_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q3B8J8</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>6.08866e-84</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKER-LQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FAIYRWDPDKPGDKPRMQTYEVDLNTCGPMVLDALIKIKNEVDPTLTFRRSCREGICGSCAMNINGGNTLACTVRIDTNLSKVSKIYPLPHMYVVKDLVPDLSNFYAQYKSIEPYLKKKDKSQQGKEQYLQSIEDRDKLDGLYECILCACCSTSCPSYWWNADKYLGPAVLMQAYRWMIDSRDDFTEERLSKLQDPFSLYRCHTIMNCTRTCPKGLNPGKAIAEIKKMM</Hsp_hseq>
+      <Hsp_midline>F IYR++PD    KP MQ YE++L      +LDAL+++K + D TL+FRRSCREGICGS  MNING N LAC   + + L +  KI PLP + V++DL+ D++ F+ QY S++PY+   +     KE+ LQ+ E+R +LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD  T ERL  L DP+ L+RCHTIMNC   CPK LNP +AI +IK++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|3334166|sp|O42772.1|SDHB_MYCGR</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Zymoseptoria tritici]</Hit_def>
+  <Hit_accession>O42772</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>2.02317e-83</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>TFHIYRWNPDQPTDKPRMQSYTLDLNKTGPMMLDALIRIKNEVDPTLTFRRSCREGICGSCAMNIDGVNTLACLCRIPTDTAKETRIYPLPHTYVVKDLVPDMTQFYKQYKSIKPYLQRDTAPPDGKENRQSVADRKKLDGLYECILCACCSTSCPSYWWNSEEYLGPAVLLQSYRWINDSRDEKTAQRKDALNNSMSLYRCHTILNCSRTCPKGLNPALAIAEIKKSM</Hsp_hseq>
+      <Hsp_midline>+F IYR+NPD    KP MQ Y L+L  T   +LDAL+R+K + D TL+FRRSCREGICGS  MNI+G N LACL  + +   +  +I PLP   V++DL+ DMTQF+KQY S+KPY+  D      KE  Q+  +RK+LDGLYECILCACCST+CPS+WWN ++++GP+ LL +YR+I DSRD  T +R D LN+   L+RCHTI+NC   CPK LNP  AI +IK+ M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|416903|sp|P32420.1|SDHB_USTMA</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Ustilago maydis 521]</Hit_def>
+  <Hit_accession>P32420</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>2.02997e-83</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FKIYRWNPDKPSEKPRLQSYTLDLNQTGPMVLDALIKIKNEIDPTLTFRRSCREGICGSCAMNIDGVNTLACLCRIDK-QNDTKIYPLPHMYIVKDLVPDLTQFYKQYRSIEPFLKSNN-TPSEGEHLQSPEERRRLDGLYECILCACCSTSCPSYWWNQDEYLGPAVLMQAYRWMADSRDDFGEERRQKLENTFSLYRCHTIMNCSRTCPKNLNPGKAIAQIKKDM</Hsp_hseq>
+      <Hsp_midline>F+IYR+NPD  + KP +Q Y L+L  T   +LDAL+++K + D TL+FRRSCREGICGS  MNI+G N LACL  +   +   KI PLP + +++DL+ D+TQF+KQY S++P++ ++N   ++ E LQ+ EER+ LDGLYECILCACCST+CPS+WWN D+++GP+ L+ AYR++ADSRD    ER   L + + L+RCHTIMNC   CPK+LNP +AI +IK+ M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|205831551|sp|B0BM36.1|SDHB_XENTR</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>B0BM36</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>2.27577e-83</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKER-LQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FAIYRWDPDKPGDKPRMQTYEVDLNECGSMVLDALIKIKNEMDPTLTFRRSCREGICGSCAMNINGGNTLACTVRIDTNLSKVSKIYPLPHMYVVKDLVPDLSNFYAQYKSIEPYLKKKDESQEGKEQYLQSIEDRDKLDGLYECILCACCSTSCPSYWWNADKYLGPAVLMQAYRWMIDSRDDYTEERLAKLQDPFSLYRCHTIMNCTRTCPKGLNPGKAIAEIKKMM</Hsp_hseq>
+      <Hsp_midline>F IYR++PD    KP MQ YE++L      +LDAL+++K + D TL+FRRSCREGICGS  MNING N LAC   + + L +  KI PLP + V++DL+ D++ F+ QY S++PY+   +     KE+ LQ+ E+R +LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD  T ERL  L DP+ L+RCHTIMNC   CPK LNP +AI +IK++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|82175585|sp|Q9YHT2.1|SDHB_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Gallus gallus]</Hit_def>
+  <Hit_accession>Q9YHT2</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>2.59651e-83</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLR-SLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKER-LQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>FSIYRWDPDKPGDKPRMQTYEVDLNKCGPMVLDALIKIKNELDSTLTFRRSCREGICGSCAMNIAGGNTLACTKKIDPDLSKTTKIYPLPHMYVVKDLVPDLSNFYAQYKSIEPYLKKKDESKQGKEQYLQSIEDRQKLDGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDDYTEERLAQLQDPFSLYRCHTIMNCTRTCPKGLNPGKAIAEIKKMM</Hsp_hseq>
+      <Hsp_midline>F IYR++PD    KP MQ YE++L      +LDAL+++K + D TL+FRRSCREGICGS  MNI G N LAC   +   L +  KI PLP + V++DL+ D++ F+ QY S++PY+   +     KE+ LQ+ E+R++LDGLYECILCACCST+CPS+WWN DK++GP+ L+ AYR++ DSRD  T ERL  L DP+ L+RCHTIMNC   CPK LNP +AI +IK++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|51701412|sp|Q75CI4.1|SDHB_ASHGO</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Ashbya gossypii ATCC 10895]</Hit_def>
+  <Hit_accession>Q75CI4</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>2.04225e-82</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLK-AQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDL-RSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>SFKIYRWNPDTPAEKPRMQEYKVDLNKCGPMVLDALIKIKNEQDPTLTFRRSCREGICGSCAMNIGGRNTLACLCKIDQAENKDVKIYPLPHMYVVKDLVPDLTNFYKQYKSIQPYLQKASKPADGREHLQSIADRKKLDGLYECILCACCSTACPSYWWNNEQYLGPAVLMQAYRWMVDSRDGAGAGRREQLQNAMSVYRCHTIMNCTRTCPKGLNPGKAIAEIKKAL</Hsp_hseq>
+      <Hsp_midline>SF+IYR+NPD  A KP MQ Y+++L      +LDAL+++K  QD TL+FRRSCREGICGS  MNI G+N LACL  + ++  + VKI PLP + V++DL+ D+T F+KQY S++PY+   +     +E LQ+  +RK+LDGLYECILCACCSTACPS+WWN ++++GP+ L+ AYR++ DSRD     R + L +   ++RCHTIMNC   CPK LNP +AI +IK+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1352264|sp|P48932.1|SDHB_CHOCR</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip (mitochondrion) [Chondrus crispus]</Hit_def>
+  <Hit_accession>P48932</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.44</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>1.99834e-80</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLK-AQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIK</Hsp_qseq>
+      <Hsp_hseq>IRIYRWNPNLNLNPWFSIFPISTNNCGPMILDALIQIKNIQDSSLTFRRSCREGICGSCSMNIDGTNSLACLRSLNTKSNFITIYPLPHTYIIKDLVPDLSNFYAQYKLIKPWLINKIGFSL-KENLQSKIDRLELDGLYECILCACCSASCPSYWWNQDKYLGPAILLQAYRWIVDSRDNSTENRLNFLNNKMRLFRCHTIMNCSKTCPKSLNPGKAIASIK</Hsp_hseq>
+      <Hsp_midline>  IYR+NP+++  P+   + +        +LDAL+++K  QD +L+FRRSCREGICGS  MNI+G N LACL  L +    + I PLP   +I+DL+ D++ F+ QY  +KP+++N       KE LQ++ +R ELDGLYECILCACCS +CPS+WWN DK++GP+ LL AYR+I DSRD  T  RL+ LN+  RLFRCHTIMNC   CPK LNP +AI  IK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|118619|sp|P21801.1|SDHB_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P21801</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.44</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>3.2289e-80</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPDV-DAKPYMQRYELELEPTDVKLLDALVRLK-AQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDL-RSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKE</Hsp_qseq>
+      <Hsp_hseq>TFKVYRWNPDEPSAKPHLQSYQVDLNDCGPMVLDALLKIKDEQDSTLTFRRSCREGICGSCAMNIGGRNTLACICKIDQNESKQLKIYPLPHMFIVKDLVPDLTNFYQQYKSIQPYLQRSSFPKDGTEVLQSIEDRKKLDGLYECILCACCSTSCPSYWWNQEQYLGPAVLMQAYRWLIDSRDQATKTRKAMLNNSMSLYRCHTIMNCTRTCPKGLNPGLAIAEIKK</Hsp_hseq>
+      <Hsp_midline>+F++YR+NPD   AKP++Q Y+++L      +LDAL+++K  QD TL+FRRSCREGICGS  MNI G+N LAC+  + ++  + +KI PLP + +++DL+ D+T F++QY S++PY+   +      E LQ+ E+RK+LDGLYECILCACCST+CPS+WWN ++++GP+ L+ AYR++ DSRD  T  R   LN+   L+RCHTIMNC   CPK LNP  AI +IK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|51701395|sp|Q6FWS8.1|SDHB_CANGA</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Candida glabrata CBS 138]</Hit_def>
+  <Hit_accession>Q6FWS8</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>5.75984e-80</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>SFEIYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLK-AQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDL-RSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVV-NDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKE</Hsp_qseq>
+      <Hsp_hseq>TFKIYRWNPDKPTEKPHLQEYKVDLEDCGPMVLDALLKIKNEQDATLTFRRSCREGICGSCAMNIGGANTLACLCKIDQDESKTTKIYPLPHMFIVKDLVPDLTGFYQQYKSIQPYLQRTDYPADG-KEVLQSIDDRKKLDGLYECILCACCSTSCPSYWWNQEEYLGPAVLMQAYRWLIDSRDQATKARRTMLQNSMSLYRCHTIMNCTRTCPKGLNPGRSIAEIKK</Hsp_hseq>
+      <Hsp_midline>+F+IYR+NPD    KP++Q Y+++LE     +LDAL+++K  QD TL+FRRSCREGICGS  MNI G N LACL  + +   +  KI PLP + +++DL+ D+T F++QY S++PY+   D P D  KE LQ+ ++RK+LDGLYECILCACCST+CPS+WWN ++++GP+ L+ AYR++ DSRD  T  R   L +   L+RCHTIMNC   CPK LNP R+I +IK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1352265|sp|P48933.1|SDHB_CYACA</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip (mitochondrion) [Cyanidium caldarium]</Hit_def>
+  <Hit_accession>P48933</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>2.3797e-79</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIML</Hsp_qseq>
+      <Hsp_hseq>IKIFRWDSSEKKDPWYSTYVVSLKNCGPIVLDALIKIKNECDSTVSFRRSCREGICGSCAININGTNSLACLQKLNIKNNIIYVYPLPHIFVLKDLVVDLTNFYAQYRLIQPWLQSSLNIKSKKEIYQSKQDRLYLDGLYECILCACCSASCPSYWWNHDKYLGPAVLLQAYRWIVDSRDDNTLSRLLSLKDSYKLYRCHTIMNCTKTCPKHLNPGKVIASIKKRLL</Hsp_hseq>
+      <Hsp_midline> +I+R++      P+   Y + L+     +LDAL+++K + D T+SFRRSCREGICGS  +NING N LACL  L      + + PLP + V++DL+VD+T F+ QY  ++P++ +   I + KE  Q++++R  LDGLYECILCACCS +CPS+WWN DK++GP+ LL AYR+I DSRD  T  RL +L D Y+L+RCHTIMNC   CPKHLNP + I  IK+ +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|74858368|sp|Q55CC2.1|SDHB_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q55CC2</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>1.28975e-77</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLAC---LTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYV--VNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNP---DKFVGPSGLLNAYRFIADSRDTITNERLDNLN-DPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIM</Hsp_qseq>
+      <Hsp_hseq>VNFQVYRYNEETTAKPYIQTYNINLKDCGPMVLDALLLIKNNIDPTLSFRRSCREGICGSCAMNLNGSNTLACTKKITDCLS-GDTVKVYPLPHMHVVRDLIPDLSHFYTQHKSIKPWLEPAVDVPRYNGKEILQSKENRHKLDGLYECILCACCSTSCPSYWWSEGGDGGYLGPAVLLQAYRWIADSRDSIQKDRLAILSEDQMKVYKCHTIMNCTAVCPKGLNPGKSIANIKYLL</Hsp_hseq>
+      <Hsp_midline>++F++YRYN +  AKPY+Q Y + L+     +LDAL+ +K   D TLSFRRSCREGICGS  MN+NG N LAC   +TD  S    VK+ PLP + V+RDLI D++ F+ Q+ S+KP++    D P    KE LQ++E R +LDGLYECILCACCST+CPS+WW+      ++GP+ LL AYR+IADSRD+I  +RL  L+ D  ++++CHTIMNC  VCPK LNP ++I  IK ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1706425|sp|P80477.1|SDHB_PORPU</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip (mitochondrion) [Porphyra purpurea]</Hit_def>
+  <Hit_accession>P80477</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>4.4223e-77</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>FEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLK-AQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKE</Hsp_qseq>
+      <Hsp_hseq>IRIYRWTPSNQAEAKFSVHPIHTSNCGPMILDALIKIKDEQDSSLAFRRSCREGICGSCSMNIDGINTLACLKPIKTNANIITIYPLPHMYIIKDLVPDLSNFFSQYKYIKPWLINNVP--KKSEYLQSEKDRSELNGIYECILCACCSASCPSYWWNHDKYLGPAILLQAYRWLADSRDTNAKERLKLLGGKSKLFKCHTIMNCSRTCPKSLNPGKAIASIKH</Hsp_hseq>
+      <Hsp_midline>  IYR+ P   A+     + +        +LDAL+++K  QD +L+FRRSCREGICGS  MNI+G N LACL  +++    + I PLP + +I+DL+ D++ FF QY  +KP+++N+ P     E LQ++++R EL+G+YECILCACCS +CPS+WWN DK++GP+ LL AYR++ADSRDT   ERL  L    +LF+CHTIMNC   CPK LNP +AI  IK </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|75262571|sp|Q9FJP9.1|SDHB3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase [ubiquinone] iron-sulfur subunit 3, mitochondrial; AltName: Full=Iron-sulfur subunit of complex II; Short=Ip; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FJP9</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>9.22183e-77</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>KMSFEIYRYNPDV-DAKPYMQRYELELEPTDVKLLDALVRLKAQDD-TLSFRRSCREGICGSDGMNINGKNGLACLTDLR-SLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDP-YRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIML</Hsp_qseq>
+      <Hsp_hseq>KKEFKIYRWNPDKPNSKPFLQSFFVDLSSCGPMVLDVLQKIKAEDDASLSYRRSCREGICGSCSMNIDGTNTVACLKPINPNTSKPTIITPLPHMYVIKDLVVDLTNFYQQYKSMEPWLKTRKPPKDGREHRQSPKDRKKLDGLYECILCACCTTSCPSYWWNPEEFPGPAALLQAYRWISDSRDEYREERLQAITESETKVYRCRAIKNCTATCPKGLNPASAILKMKSKHL</Hsp_hseq>
+      <Hsp_midline>K  F+IYR+NPD  ++KP++Q + ++L      +LD L ++KA+DD +LS+RRSCREGICGS  MNI+G N +ACL  +  +  +P  I PLP + VI+DL+VD+T F++QY S++P++    P    +E  Q+ ++RK+LDGLYECILCACC+T+CPS+WWNP++F GP+ LL AYR+I+DSRD    ERL  + +   +++RC  I NC   CPK LNP  AI K+K   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|81175306|sp|P0AC49.2|FRDB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Fumarate reductase iron-sulfur subunit [Escherichia coli O157:H7] &gt;gi|81175307|sp|P0AC48.2|FRDB_ECOL6 RecName: Full=Fumarate reductase iron-sulfur subunit [Escherichia coli CFT073] &gt;gi|81175308|sp|P0AC47.2|FRDB_ECOLI RecName: Full=Fumarate reductase iron-sulfur subunit [Escherichia coli K-12] &gt;gi|81175309|sp|P0AC50.2|FRDB_SHIFL RecName: Full=Fumarate reductase iron-sulfur subunit [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AC49</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>2.80773e-48</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MEKMSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLK---AQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAI--GKIKE</Hsp_qseq>
+      <Hsp_hseq>MKNLKIEVVRYNPEVDTAPHSAFYEVPYDAT-TSLLDALGYIKDNLAPD--LSYRWSCRMAICGSCGMMVNNVPKLACKTFLRDYTDGMKVEALANFPIERDLVVDMTHFIESLEAIKPYIIGNSRTADQGTNIQTPAQMAKYHQFSGCINCGLCYAACPQFGLNPE-FIGPAAITLAHRYNEDSRDHGKKERMAQLNSQNGVWSCTFVGYCSEVCPKHVDPAAAIQQGKVES</Hsp_hseq>
+      <Hsp_midline>M+ +  E+ RYNP+VD  P+   YE+  + T   LLDAL  +K   A D  LS+R SCR  ICGS GM +N    LAC T LR     +K+  L   P+ RDL+VDMT F +   ++KPY++ ++        +QT  +  +      CI C  C  ACP F  NP+ F+GP+ +  A+R+  DSRD    ER+  LN    ++ C  +  C +VCPKH++P  AI  GK++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|618797968|sp|P9WN88.1|FRDB_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Fumarate reductase iron-sulfur subunit [Mycobacterium tuberculosis CDC1551] &gt;gi|618797969|sp|P9WN89.1|FRDB_MYCTU RecName: Full=Fumarate reductase iron-sulfur subunit [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WN88</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.2015e-46</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>LMEKMSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRS-LKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVV-NDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIK</Hsp_qseq>
+      <Hsp_hseq>MMDRIVMEVSRYRPEIESAPTFQAYEVPLT-REWAVLDGLTYIKDHLDGTLSFRWSCRMGICGSSGMTINGDPKLACATFLADYLPGPVRVEPMRNFPVIRDLVVDISDFMAKLPSVKPWLVRHDEPPVEDGEYRQTPAELDAFKQFSMCINCMLCYSACPVYALDPD-FLGPAAIALGQRYNLDSRDQGAADRRDVLAAADGAWACTLVGECSTACPKGVDPAGAIQRYK</Hsp_hseq>
+      <Hsp_midline>+M+++  E+ RY P++++ P  Q YE+ L   +  +LD L  +K   D TLSFR SCR GICGS GM ING   LAC T L   L  PV++ P+   PVIRDL+VD++ F  +  SVKP++V +D P   D E  QT  E         CI C  C +ACP +  +PD F+GP+ +    R+  DSRD    +R D L      + C  +  C   CPK ++P  AI + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|120493|sp|P20921.2|FRDB_PROVU</Hit_id>
+  <Hit_def>RecName: Full=Fumarate reductase iron-sulfur subunit [Proteus vulgaris]</Hit_def>
+  <Hit_accession>P20921</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>1.96149e-44</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MEKMSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLK---AQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLKRVV</Hsp_qseq>
+      <Hsp_hseq>MKHVKMEVMRYNPETDDAPHFVTYDVPYD-EQTSLLDALGYIKDNLAPD--LSYRWSCRMAICGSCGMMVNRVPKLACKTFMRDYPNGVRIEALGNFPVERDLVVDMTHFIESLEAIKPYILGNDRKPSEGPNKQTPAQMAKYHQFSGCINCGLCYAACPQFGLNPE-FIGPAAITLAQRYNTDSRDHGAKERMPQLNGENGVWSCTFVGYCSEVCPKHVDPAAAIQQGKAASAQDFV</Hsp_hseq>
+      <Hsp_midline>M+ +  E+ RYNP+ D  P+   Y++  +     LLDAL  +K   A D  LS+R SCR  ICGS GM +N    LAC T +R     V+I  L   PV RDL+VDMT F +   ++KPY++ ++   ++    QT  +  +      CI C  C  ACP F  NP+ F+GP+ +  A R+  DSRD    ER+  LN    ++ C  +  C +VCPKH++P  AI + K    +  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1169738|sp|P44893.1|FRDB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Fumarate reductase iron-sulfur subunit [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44893</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>4.37002e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRLKAQ-DDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKE-----------RLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIK</Hsp_qseq>
+      <Hsp_hseq>MNVEVLRYNPEIDQEPHLSTYQVPYD-NQTSLLDALGYIKDKLEPSLSYRWSCRMAICGSCGMMVNNKPKLACKTFLRDYSGHMRIEPLANFPIERDLVVDLSHFIESLEAIKPYIIGNEAPALDGKPHPSKELQVSRTKQTPAQLEKYRQFSMCINCGLCYAACPQFGLNPE-FLGPAAITMAHRYNLDNRDHGKAKRMSLLNGKNGVWSCTFVGYCSEVCPKHVDPASAINQGK</Hsp_hseq>
+      <Hsp_midline>M+ E+ RYNP++D +P++  Y++  +     LLDAL  +K + + +LS+R SCR  ICGS GM +N K  LAC T LR     ++I PL   P+ RDL+VD++ F +   ++KPY++ +     D +             QT  + ++      CI C  C  ACP F  NP+ F+GP+ +  A+R+  D+RD    +R+  LN    ++ C  +  C +VCPKH++P  AI + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|120494|sp|P17596.1|FRDB_WOLSU</Hit_id>
+  <Hit_def>RecName: Full=Fumarate reductase iron-sulfur subunit [Wolinella succinogenes DSM 1740]</Hit_def>
+  <Hit_accession>P17596</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>4.07297e-28</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MSFEIYRYNP-DVDAKPYMQRYELELEPTDVKLLDALVRLKAQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPV-KIRPLPGLPVIRDLIVDMTQFFK-QYHSVKPYVVNDNPIDADK--ERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNL-NDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLK</Hsp_qseq>
+      <Hsp_hseq>LTIRVFKYDPQSAVSKPHFQEYKIEEAPSMTIFIVLNMIRETYDPDLNFDFVCRAGICGSCGMMINGRPSLACRTLTKDFEDGVITLLPLPAFKLIKDLSVDTGNWFNGMSQRVESWIHAQKEHDISKLEERIEP-EVAQEVFELDRCIECGCCIAACGTKIMRED-FVGAAGLNRVVRFMIDPHDERTDEDYYELIGDDDGVFGCMTLLACHDVCPKNLPLQSKIAYLRRKMVS</Hsp_hseq>
+      <Hsp_midline>++  +++Y+P    +KP+ Q Y++E  P+    +   +  +  D  L+F   CR GICGS GM ING+  LAC T  +  +  V  + PLP   +I+DL VD   +F      V+ ++      D  K  ER++  E  +E+  L  CI C CC  AC +     D FVG +GL    RF+ D  D  T+E    L  D   +F C T++ C DVCPK+L     I  ++  M+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|12230115|sp|Q9ZMP1.1|FRDB_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Fumarate reductase iron-sulfur subunit [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZMP1</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>6.14341e-27</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>IYRYNPDVDA-KPYMQRYELELEPTDVKLLDALVRLKAQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPV-KIRPLPGLPVIRDLIVDMTQFFKQYHS-VKPYVVNDNPIDADK-ERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNL-NDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLK</Hsp_qseq>
+      <Hsp_hseq>VLKFDPQSAVNKPHFKEYQLKETPSMTLFIALNLIREHQDPDLSFDFVCRAGICGSCAMMVNGRPRLACKTLTSSFENGVITLMPMPSFTLIKDLSVNTGDWFSDMTKRVESWAHSKEEVDITKPEKRVEPDEAQEVFELDRCIECGCCIASCGTKLMRPN-FIGAAGMNRAMRFMIDSHDERSDDDFYELVGDDDGVFGCMSLIACHDTCPKELPLQSSIATLRNRMLK</Hsp_hseq>
+      <Hsp_midline>+ +++P     KP+ + Y+L+  P+    +   +  + QD  LSF   CR GICGS  M +NG+  LAC T   S +  V  + P+P   +I+DL V+   +F      V+ +  +   +D  K E+    +E +E+  L  CI C CC  +C +    P+ F+G +G+  A RF+ DS D  +++    L  D   +F C +++ C D CPK L    +I  ++  MLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2494621|sp|O06914.2|FRDB_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Fumarate reductase iron-sulfur subunit [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O06914</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>2.27509e-26</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>IYRYNP-DVDAKPYMQRYELELEPTDVKLLDALVRLKAQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPV-KIRPLPGLPVIRDLIVDMTQFF-KQYHSVKPYVVNDNPIDADK-ERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNL-NDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLK</Hsp_qseq>
+      <Hsp_hseq>VLKFDPQSAVSKPHFKEYQLKETPSMTLFIALNLIREHQDPDLSFDFVCRAGICGSCAMMVNGRPRLACKTLTSSFESGVITLMPMPSFTLIKDLSVNTGDWFLDMTKRVESWAHSKEEVDITRPEKRVEPDEAQEVFELDRCIECGCCIASCGTKLMRPN-FIGAAGMNRAMRFMIDSHDERNDDDFYELVGDDDGVFGCMSLIACHDTCPKELPLQSSIATLRNRMLK</Hsp_hseq>
+      <Hsp_midline>+ +++P    +KP+ + Y+L+  P+    +   +  + QD  LSF   CR GICGS  M +NG+  LAC T   S +  V  + P+P   +I+DL V+   +F      V+ +  +   +D  + E+    +E +E+  L  CI C CC  +C +    P+ F+G +G+  A RF+ DS D   ++    L  D   +F C +++ C D CPK L    +I  ++  MLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|118613|sp|P08066.3|SDHB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P08066</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>4.88142e-24</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VDAKPYMQRYELELEPTDVKLLDAL-------VRLKAQDDT-LSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTIT-NERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKI</Hsp_qseq>
+      <Hsp_hseq>ADSTPYDEEFEIPYRP-NLNVISALMEIRRNPVNVKGEKTTPVTWDMNCLEEVCGACSMVINGKPRQSCTALIDQLEQPIRLKPMKTFPVVRDLQVDRSRMFDSLKKVKAWIPIDGTYDLGPGPRMPEKRRQWAYELSKCMTCGVCLEACPNV-NSKSKFMGPAPMSQVRLFNAHPTGAMNKSERLEALMDEGGLADCGNSQNCVQSCPKGIPLTTSIAAL</Hsp_hseq>
+      <Hsp_midline> D+ PY + +E+   P ++ ++ AL       V +K +  T +++  +C E +CG+  M INGK   +C   +  L+QP++++P+   PV+RDL VD ++ F     VK ++  D   D        ++ R+    L +C+ C  C  ACP+   +  KF+GP+ +     F A     +  +ERL+ L D   L  C    NCV  CPK +  T +I  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2494622|sp|Q57557.1|Y092_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized iron-sulfur protein MJ0092 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57557</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>1.39901e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRL-KAQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDN-PIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPT-RAIGKIKEIMLKR</Hsp_qseq>
+      <Hsp_hseq>IKITVKRFNGE---KEYLESYEV---PENITVLEALEYINKHYEANILFRASCRNAQCGSCAVTINGEPRLACET---KVEDGMIIEPLRGFKVIRDLIVDREPYYKKLLGIKNYLIRKNYPEELEILIPKYVEENKELRG---CIDCLSCLSVCPA--REVSDYPGPTFMRQLARFAFDKRDEDGREITAYFEN---IYNCTTCAKCVEVCPKEIDIVHRAIEKLRALAFSK</Hsp_hseq>
+      <Hsp_midline>+   + R+N +   K Y++ YE+   P ++ +L+AL  + K  +  + FR SCR   CGS  + ING+  LAC T    ++  + I PL G  VIRDLIVD   ++K+   +K Y++  N P + +    +  EE KEL G   CI C  C + CP+       + GP+ +    RF  D RD    E      +   ++ C T   CV+VCPK ++   RAI K++ +   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|51701958|sp|Q6LYC4.1|Y1067_METMP</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized iron-sulfur protein MMP1067 [Methanococcus maripaludis S2]</Hit_def>
+  <Hit_accession>Q6LYC4</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>3.02909e-20</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>PTDVKLLDALVRL-KAQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLRSLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQ---EERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTR-AIGKIKEIMLKR</Hsp_qseq>
+      <Hsp_hseq>PVGLTILDALEYINKTYGENIQFRSSCKAGQCGSCAVMINKKSKLACKT---KVEDNMIIEPLEGFDVISDLVVDREPYYKKIGTLRNYIQKKNEKISEKELDGLKLYPDDLKDVKKIRGCIDCLSCIAMCPARKYS--NYPGPTLMRQLARFAFDPKDEIDREK-EAFDE--NIYNCTTCGRCVEVCPKEIDIVHNAVEKLREKTFKK</Hsp_hseq>
+      <Hsp_midline>P  + +LDAL  + K   + + FR SC+ G CGS  + IN K+ LAC T    ++  + I PL G  VI DL+VD   ++K+  +++ Y+   N   ++KE    +   ++ K++  +  CI C  C   CP+  ++   + GP+ +    RF  D +D I  E+ +  ++   ++ C T   CV+VCPK ++    A+ K++E   K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|704044089|sp|D9PUX5.1|TFRB_METTM</Hit_id>
+  <Hit_def>RecName: Full=Fumarate reductase (CoM/CoB) subunit B; AltName: Full=Thiol:fumarate reductase subunit B [Methanothermobacter marburgensis str. Marburg]</Hit_def>
+  <Hit_accession>D9PUX5</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>1.59394e-19</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MSFEIYRYNPDVDAKPYMQRYELELEPTDVKLLDALVRL-KAQDDTLSFRRSCREGICGSDGMNINGKNGLACLTDLR--SLKQPVKIRPLPGLPVIRDLIVDMTQFFKQYHSVKPYVVNDNPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLN-PTRAIGKIKEI</Hsp_qseq>
+      <Hsp_hseq>INVKVLRFEPGVDEKPHLESYDIP-SKEKMKVLDALQLINKMYNANIAFRSSCRAGQCGSCAVKMNGEVVLACRAEVEDGAVIEPVD------LPVIKDLMVDRSEIEDKVRAMGLYLQSEA---RGIQRIKP-EDYQDTKKLRGCIECFSCISSCPVIKESTE-YAGPYFMRYISKFAFDPRD--EAERAAGGVEE-GLYCCTTCGKCAEVCPKELNVPGDAIEKLRAM</Hsp_hseq>
+      <Hsp_midline>++ ++ R+ P VD KP+++ Y++      +K+LDAL  + K  +  ++FR SCR G CGS  + +NG+  LAC  ++   ++ +PV       LPVI+DL+VD ++   +  ++  Y+ ++       +R++  E+ ++   L  CI C  C ++CP    + + + GP  +    +F  D RD    ER     +   L+ C T   C +VCPK LN P  AI K++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|41017213|sp|Q8TIB9.1|HDRC_METAC</Hit_id>
+  <Hit_def>RecName: Full=CoB--CoM heterodisulfide reductase 1 iron-sulfur subunit C [Methanosarcina acetivorans C2A]</Hit_def>
+  <Hit_accession>Q8TIB9</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0323755</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTITNERLDNLNDPYRLFRCHTIMNCVDVCPKHLNPTRAIGKIKEIMLK</Hsp_qseq>
+      <Hsp_hseq>LLSCMHCGICTGSCPS---------GRHTGLNTRRIIRDAR----KNRAAVLSD-YDLWLCTTCYTCQERCPRGIPITDAILELRRLAVR</Hsp_hseq>
+      <Hsp_midline>L  C+ C  C+ +CPS         G    LN  R I D+R      R   L+D Y L+ C T   C + CP+ +  T AI +++ + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1707919|sp|P52074.1|GLCF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Glycolate oxidase iron-sulfur subunit [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P52074</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.059073</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRDTI--TNERLDNLNDPYRLFRCHTIMNCVDVCP</Hsp_qseq>
+      <Hsp_hseq>LRACVHCGFCTATCPTYQLLGDELDGPRGRIYLIKQVLEGNEVTLKTQEHLD---------RCLTCRNCETTCP</Hsp_hseq>
+      <Hsp_midline>L  C+ C  C+  CP++    D+  GP G +   + + +  +    T E LD         RC T  NC   CP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1706688|sp|P52019.1|ERG1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Squalene monooxygenase; AltName: Full=Squalene epoxidase; Short=SE [Mus musculus]</Hit_def>
+  <Hit_accession>P52019</Hit_accession>
+  <Hit_len>572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.63083</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>NPIDADKERLQTQEERKELDGLYECILCACCSTACPSFWWNPDKFVGPSGLLNAYRFIADSRD</Hsp_qseq>
+      <Hsp_hseq>SPESEKKEQLESKKCRKEI-GLSETTLTGAATSVSTSFVTDPEVIIVGSGVLGSALAAVLSRD</Hsp_hseq>
+      <Hsp_midline>+P    KE+L++++ RKE+ GL E  L    ++   SF  +P+  +  SG+L +      SRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

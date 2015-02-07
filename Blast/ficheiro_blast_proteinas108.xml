@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>4899</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>281</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>4899</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>281</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|401675|sp|P31777.1|RLMJ_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA large subunit methyltransferase J; AltName: Full=23S rRNA (adenine(2030)-N6)-methyltransferase; AltName: Full=23S rRNA m6A2030 methyltransferase; AltName: Full=ORFJ [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P31777</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>2.33473e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>MLSYRHAFHAGNHADMLKHFTLFLVLQYFNRKDKPYWYIDTHGGAGVYNLEGSEAQKVGEYRQGIALLRQAQNLPAELSDFAAHIQKI-LPSPEL--YCGSPWLAQSLTCVGDKLRLFELHPTDFVHLQNNMGEAGLGKRGQVLREDGYKGLISLLPPPPRRAAVLIDPPYEEKQDYRRVTETLKAALKRFESGCYLIWYPCLSREESRKLPEELKKLLPDNYLYAELHVHAPKTDGFGMHGSGMFVINPPYLLAEQLAANLPALTRLLA</Hsp_qseq>
+      <Hsp_hseq>MLSYHHSFHAGNHADVLKHIVLMLILENLKLKEKGFFYLDTHSGVGRYRLSSNESEKTGEYKEGIGRLWDQTDLPEDIARYVKMIKKLNYGGKELRYYAGSPLIAAELLRSQDRALLTELHPSDYPILRNNFSD---DKNVTVKCDNGFQQVKATLPPKERRGLVLIDPPYELKDDYDLVVKAIEEGYKRFATGTYAIWYPVVLRQQTKRIFKGLEATGIRKILKIELAVR-PDSDQRGMTASGMVVINPPWTLETQMKEILPYLTKTLV</Hsp_hseq>
+      <Hsp_midline>MLSY H+FHAGNHAD+LKH  L L+L+    K+K ++Y+DTH G G Y L  +E++K GEY++GI  L    +LP +++ +   I+K+     EL  Y GSP +A  L    D+  L ELHP+D+  L+NN  +    K   V  ++G++ + + LPP  RR  VLIDPPYE K DY  V + ++   KRF +G Y IWYP + R++++++ + L+       L  EL V  P +D  GM  SGM VINPP+ L  Q+   LP LT+ L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|586675|sp|P37634.1|RLMJ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA large subunit methyltransferase J; AltName: Full=23S rRNA (adenine(2030)-N6)-methyltransferase; AltName: Full=23S rRNA m6A2030 methyltransferase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P37634</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>8.7665e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MLSYRHAFHAGNHADMLKHFTLFLVLQYFNRKDKPYWYIDTHGGAGVYNLEGSEAQKVGEYRQGIALLRQAQNLPAELSDFAAHIQKILPSPEL--YCGSPWLAQSLTCVGDKLRLFELHPTDFVHLQNNMGEAGLGKRGQVLREDGYKGLISLLPPPPRRAAVLIDPPYEEKQDYRRVTETLKAALKRFESGCYLIWYPCLSREESRKLPEELKKLLPDNYLYAELHVHAPKTDGFGMHGSGMFVINPPYLLAEQLAANLPAL</Hsp_qseq>
+      <Hsp_hseq>MLSYRHSFHAGNHADVLKHTVQSLIIESLKEKDKPFLYLDTHAGAGRYQLGSEHAERTGEYLEGIARIWQQDDLPAELEAYINVVKHFNRSGQLRYYPGSPLIARLLLREQDSLQLTELHPSDYPLLRSEFQK---DSRARVEKADGFQQLKAKLPPVSRRGLILIDPPYEMKTDYQAVVSGIAEGYKRFATGIYALWYPVVLRQQIKRMIHDLEATGIRKILQIELAV-LPDSDRRGMTASGMIVINPPWKLEQQMNNVLPWL</Hsp_hseq>
+      <Hsp_midline>MLSYRH+FHAGNHAD+LKH    L+++    KDKP+ Y+DTH GAG Y L    A++ GEY +GIA + Q  +LPAEL  +   ++    S +L  Y GSP +A+ L    D L+L ELHP+D+  L++   +     R +V + DG++ L + LPP  RR  +LIDPPYE K DY+ V   +    KRF +G Y +WYP + R++ +++  +L+       L  EL V  P +D  GM  SGM VINPP+ L +Q+   LP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|34098423|sp|Q59833.2|GLGB1_STRCO</Hit_id>
+  <Hit_def>RecName: Full=1,4-alpha-glucan branching enzyme GlgB 1; AltName: Full=1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase 1; AltName: Full=Alpha-(1-&gt;4)-glucan branching enzyme 1; AltName: Full=Glycogen branching enzyme 1; Short=BE 1 [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>Q59833</Hit_accession>
+  <Hit_len>774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.5376</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>YRQGIALLRQAQNLPAELSDFAAHIQKILPSPELYCGSPWLAQSLTCVGDKLRLFELHPTDFVHLQNNMGEAGLG</Hsp_qseq>
+      <Hsp_hseq>WRPGLTYRQLAEQLPAYVADLGFTHVELMPVAEHPFGGSWGYQVTGFYAPTARLGD--PDDFKYLVDRLHRAGIG</Hsp_hseq>
+      <Hsp_midline>+R G+   + A+ LPA ++D      +++P  E   G  W  Q         RL +  P DF +L + +  AG+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|50401510|sp|Q7U6V8.1|Y1228_SYNPX</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA methyltransferase SYNW1228 [Synechococcus sp. WH 8102]</Hit_def>
+  <Hit_accession>Q7U6V8</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.70772</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>QAQNLPAELSDFAAHIQKILPSPELYCGSPWLAQSLTCVGDKLRLFELHPTDFVHLQNNMGEAGLGKRGQV-------LREDGYKGLISLLPPPPRRA-------AVLIDPP</Hsp_qseq>
+      <Hsp_hseq>QAERIVACIVSWLSQAELAGPIVDAYCGIGTISLPLAAQGHHVVGLEINPDSIDQARSNADANGLGARTEFQAGDVANLLKETLATCSALVVDPPRRGLESSVIEAILSDPP</Hsp_hseq>
+      <Hsp_midline>QA+ + A +  + +  +   P  + YCG   ++  L   G  +   E++P      ++N    GLG R +        L ++      +L+  PPRR        A+L DPP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|13431376|sp|Q9Y5E5.1|PCDB4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protocadherin beta-4; Short=PCDH-beta-4; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y5E5</Hit_accession>
+  <Hit_len>795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.17544</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>HVHAPKTDGFGMHGSGMFVI-------NPPYLLAEQLAANLP</Hsp_qseq>
+      <Hsp_hseq>HVEIEATDGGGLSGKGTVVIEVVDVNDNPPELIISSLTSSIP</Hsp_hseq>
+      <Hsp_midline>HV    TDG G+ G G  VI       NPP L+   L +++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|62510882|sp|Q5DRD0.1|PCDB4_PANTR</Hit_id>
+  <Hit_def>RecName: Full=Protocadherin beta-4; Short=PCDH-beta-4; Flags: Precursor [Pan troglodytes]</Hit_def>
+  <Hit_accession>Q5DRD0</Hit_accession>
+  <Hit_len>795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.22095</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>HVHAPKTDGFGMHGSGMFVI-------NPPYLLAEQLAANLP</Hsp_qseq>
+      <Hsp_hseq>HVEIEATDGGGLSGKGTVVIEVVDVNDNPPELIISSLTSSIP</Hsp_hseq>
+      <Hsp_midline>HV    TDG G+ G G  VI       NPP L+   L +++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|218528036|sp|A0RMD1.1|NUOCD_CAMFF</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit C/D; AltName: Full=NADH dehydrogenase I subunit C/D; AltName: Full=NDH-1 subunit C/D [Campylobacter fetus subsp. fetus 82-40]</Hit_def>
+  <Hit_accession>A0RMD1</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.23149</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>RKDKPYWYIDTHGGAGVYNLEGSEAQKV----GEYRQGIALLRQAQNLPAELSDFAAHIQKILPSPE-LYCGSPWLAQSLTCVGDKLRL</Hsp_qseq>
+      <Hsp_hseq>RKDKPYYYYDSFDFSVPVGSEGDIYDRMFVRFFEMRESISIIRQAIKLIPEGKISVDDKDVFLPSKDQVYSNIESLINHFKLIFDGIKL</Hsp_hseq>
+      <Hsp_midline>RKDKPY+Y D+   +     EG    ++     E R+ I+++RQA  L  E           LPS + +Y     L      + D ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|34098448|sp|Q82JF0.1|GLGB1_STRAW</Hit_id>
+  <Hit_def>RecName: Full=1,4-alpha-glucan branching enzyme GlgB 1; AltName: Full=1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase 1; AltName: Full=Alpha-(1-&gt;4)-glucan branching enzyme 1; AltName: Full=Glycogen branching enzyme 1; Short=BE 1 [Streptomyces avermitilis MA-4680 = NBRC 14893]</Hit_def>
+  <Hit_accession>Q82JF0</Hit_accession>
+  <Hit_len>838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>7.14227</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>367</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>YRQGIALLRQAQNLPAELSDFAAHIQKILPSPELYCGSPWLAQSLTCVGDKLRLFELHPTDFVHLQNNMGEAGLG</Hsp_qseq>
+      <Hsp_hseq>WRPGLTYRQLAEQLPAYVADLGFTHVELLPVAEHPFGGSWGYQVTGFYAPTARLGT--PDDFKYLVDALHRAGVG</Hsp_hseq>
+      <Hsp_midline>+R G+   + A+ LPA ++D      ++LP  E   G  W  Q         RL    P DF +L + +  AG+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|90185174|sp|Q825Q8.1|GLGB2_STRAW</Hit_id>
+  <Hit_def>RecName: Full=1,4-alpha-glucan branching enzyme GlgB 2; AltName: Full=1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase 2; AltName: Full=Alpha-(1-&gt;4)-glucan branching enzyme 2; AltName: Full=Glycogen branching enzyme 2; Short=BE 2 [Streptomyces avermitilis MA-4680 = NBRC 14893]</Hit_def>
+  <Hit_accession>Q825Q8</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.25453</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>YRQGIALLRQAQNLPAELSDFAAHIQKILPSPELYCGSPWLAQSLTCVGDKLRLFELHPTDFVHLQNNMGEAGLG</Hsp_qseq>
+      <Hsp_hseq>WRPGLTYRQLAEQLPAYVADLGFTHVELLPVAEHPFGGSWGYQVTGFYAPTARLGT--PDDFKYLVDALHRAGVG</Hsp_hseq>
+      <Hsp_midline>+R G+   + A+ LPA ++D      ++LP  E   G  W  Q         RL    P DF +L + +  AG+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|30173421|sp|Q8DEA0.1|Y695_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=UPF0042 nucleotide-binding protein VV1_0695 [Vibrio vulnificus CMCP6] &gt;gi|47117419|sp|Q7MPB9.1|Y445_VIBVY RecName: Full=UPF0042 nucleotide-binding protein VV0445 [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q8DEA0</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.45491</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>NLEGSEAQKVGEYRQGIALLRQAQNLPAELSDFAAHIQKILPSPEL</Hsp_qseq>
+      <Hsp_hseq>NLLESFIQSVSESKQNVAVSIDVRNIPKKLKELTTTLQKLKSSIDL</Hsp_hseq>
+      <Hsp_midline>NL  S  Q V E +Q +A+    +N+P +L +    +QK+  S +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

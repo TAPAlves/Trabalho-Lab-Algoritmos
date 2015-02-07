@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>14049</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>205</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>14049</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>205</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|73621500|sp|Q5F8K5.1|RECR_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F8K5</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.55</Hsp_bit-score>
+      <Hsp_score>1085</Hsp_score>
+      <Hsp_evalue>2.79842e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_qseq>
+      <Hsp_hseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_hseq>
+      <Hsp_midline>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|238690202|sp|B4RLV1.1|RECR_NEIG2</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>B4RLV1</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.698</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>1.04824e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_qseq>
+      <Hsp_hseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVRHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_hseq>
+      <Hsp_midline>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQV HCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20139753|sp|Q9JUB6.1|RECR_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JUB6</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>3.10551e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_qseq>
+      <Hsp_hseq>MSHKKQDAFQGLIDALKVLPNVGPKSAQRIAYHLLQHKRKEAEKLVDALQTALKQVDHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNMEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLGGGEVEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_hseq>
+      <Hsp_midline>M+ KKQDAFQ LI ALKVLPNVGPKSAQR+AYHLLQ KRKEAE+LVDALQTAL+QV HCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSN+EAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRL GGE+EEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|20139759|sp|Q9JZ92.1|RECR_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Neisseria meningitidis MC58] &gt;gi|166221948|sp|A1KU46.1|RECR_NEIMF RecName: Full=Recombination protein RecR [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>Q9JZ92</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>1.67651e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_qseq>
+      <Hsp_hseq>MSHKKQDAFQGLIDALKVLPNVGPKSAQRIAYHLLQHKRKEAEKLVDALQTALKQVYHCAMCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNMEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLGGGEVEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_hseq>
+      <Hsp_midline>M+ KKQDAFQ LI ALKVLPNVGPKSAQR+AYHLLQ KRKEAE+LVDALQTAL+QV HCA CNTFCEGGLCDICADETRDGRRLMVVHMPADVSN+EAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRL GGE+EEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|226739006|sp|A9LZB7.1|RECR_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9LZB7</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.201</Hsp_bit-score>
+      <Hsp_score>1014</Hsp_score>
+      <Hsp_evalue>2.10415e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_qseq>
+      <Hsp_hseq>MSHKKQDAFQGLIDALKVLPNVGPKSAQRIAYHLLQHKRKEAEKLVDALQTALKQVHHCAMCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNMEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLGGGEVEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_hseq>
+      <Hsp_midline>M+ KKQDAFQ LI ALKVLPNVGPKSAQR+AYHLLQ KRKEAE+LVDALQTAL+QV HCA CNTFCEGGLCDICADETRDGRRLMVVHMPADVSN+EAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRL GGE+EEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|73621478|sp|Q7NXL4.1|RECR_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NXL4</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>9.22985e-72</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>KNPPALEQLISALKVLPGVGPKTAQRMAFHLLQRDKQGADKLARALDRALTQLTHCQRCNTFSEAELCAICADETRRRDQLCIVEMPADLMMLEQAKCFDGLYFVLMGRISPLDNIGPKDLHLDKLLARALDGQVSEIVIATNFTAEGEVTSHMLSELFKERGLTVTRIARGMPVGGELEYVDLGTLAQAVYERR</Hsp_hseq>
+      <Hsp_midline>K   A ++LI ALKVLP VGPK+AQRMA+HLLQ+ ++ A++L  AL  AL Q+ HC RCNTF E  LC ICADETR   +L +V MPAD+  +E A C DGLYFVLMG+I+    +    + LD+L  R   G++ EI+IAT FTAEG  T+++LSE FK     V+R+++G+P+GGELEYVD GTLAQAVYERR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123612290|sp|Q3SLE3.1|RECR_THIDA</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SLE3</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>1.32029e-66</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>AFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>ALESLINALRVLPGVGPKSAARMAYHLLQRDRRGAETLAGALGHALTHLHHCRLCNNFSEAEVCEVCASTRRDRRQLAVVEMPADFNMMEATQSYNGLYFVLMGRLSPLDGIGPREIHLDRLINRALDGTVEEVILATNFTPEGEATAHTIGELLKARGLKVSRLARGVPVGGELEYVDSGTLAQAVRDRR</Hsp_hseq>
+      <Hsp_midline>A + LI AL+VLP VGPKSA RMAYHLLQ+ R+ AE L  AL  AL  + HC  CN F E  +C++CA   RD R+L VV MPAD + +EA   ++GLYFVLMG+++   G+    I LDRL  R   G +EE+I+AT FT EG ATA+ + E  K    KVSRL++G+P+GGELEYVD+GTLAQAV +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|254790772|sp|C1D5E0.1|RECR_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1D5E0</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>1.44286e-66</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIKEGGA</Hsp_qseq>
+      <Hsp_hseq>KTPASLESLITALRVLPGVGPKTAQRMAYHLMQRDPGGADRLARAIDHARSHLKHCARCNTFSETELCVLCADDQRRQDVLCVVEMPADALMIEQTHSYDGLYFVLMGKVSPLDGLTARDIPLEQLARRALDGTVNEVILATNFTAEGEATAHVLATLFKDRGLSVSRIARGLPVGGELEHVDAGTLAQALYERRRLSTGDA</Hsp_hseq>
+      <Hsp_midline>K   + + LI AL+VLP VGPK+AQRMAYHL+Q+    A+ L  A+  A   + HCARCNTF E  LC +CAD+ R    L VV MPAD   IE  + +DGLYFVLMG+++   G+    I L++LA+R   G + E+I+AT FTAEG ATA+VL+  FK+    VSR+++G+P+GGELE+VDAGTLAQA+YERR +  G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123624674|sp|Q46ZF9.1|RECR_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q46ZF9</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>3.52667e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLD----GGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>MKAAPPTSLQALIEALRVLPGVGPKSAQRMAYHLLQHDREGARKLGDALRGAADHIRHCARCNTFTEQEICETCLDDRRDGSILCVVETPADQIMIEQTLTYRGKYFVLMGRLSPLDGIGPKEIHLDRLLARATDTEMGGPVGEVIVATNFTSEGEATAHYIGEMLKARGLKVSRLARGVPVGGELEYVDAGTIARAVMDRR</Hsp_hseq>
+      <Hsp_midline>M +    + Q LI AL+VLP VGPKSAQRMAYHLLQ  R+ A +L DAL+ A   + HCARCNTF E  +C+ C D+ RDG  L VV  PAD   IE    + G YFVLMG+++   G+    I LDRL  R      GG + E+I+AT FT+EG ATA+ + E  K    KVSRL++G+P+GGELEYVDAGT+A+AV +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123544262|sp|Q2Y7X0.1|RECR_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2Y7X0</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>6.73838e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIK</Hsp_qseq>
+      <Hsp_hseq>MNAPR--SLDELINALRCLPGVGPRSAQRMAYHLLQRDQEGARRLADSLDYALEHVRHCEKCNNFTEEVVCELCSSQRRDPALLCVVEMPADLLMMEQAHCYKGMYFVLMGRLSPLDGIGPREINLDRLLKRARDNMVKEVILATNFTVEGEATAHYIGEMLQNEGLKITRIARGLPVGGELEHVDSGTLAQAVLERREVK</Hsp_hseq>
+      <Hsp_midline>MN+ +  +   LI AL+ LP VGP+SAQRMAYHLLQ+ ++ A  L D+L  AL  V HC +CN F E  +C++C+ + RD   L VV MPAD+  +E A+C+ G+YFVLMG+++   G+    I LDRL +R     ++E+I+AT FT EG ATA+ + E  +N   K++R+++G+P+GGELE+VD+GTLAQAV ERR +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|172046202|sp|Q1LLH0.1|RECR_RALME</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LLH0</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>1.15929e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLD----GGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>MRAAPPTSLQALIEALKVLPGVGPKSAQRMAYHLLQHDREGARKLGDALRGAVDGIRHCTRCNTFTELEICGTCSDPERDATLLCVVETPADQVMIEQTLTYRGQYFVLMGRLSPLDGIGPKEIHLDRLLARATDPELGGPASEVIVATNFTSEGEATAHYIGEMLKARGLKVSRLARGVPVGGELEYVDAGTIARAVMDRRTL</Hsp_hseq>
+      <Hsp_midline>M +    + Q LI ALKVLP VGPKSAQRMAYHLLQ  R+ A +L DAL+ A+  + HC RCNTF E  +C  C+D  RD   L VV  PAD   IE    + G YFVLMG+++   G+    I LDRL  R      GG   E+I+AT FT+EG ATA+ + E  K    KVSRL++G+P+GGELEYVDAGT+A+AV +RR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|229890147|sp|B3R1M6.1|RECR_CUPTR</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>B3R1M6</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>1.42361e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLD----GGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>MKASSPTSLQALVEALRVLPGVGPKSAQRMAYHLLQHDREGARKLGDALRGAADHIRHCQRCNTFTEQEICETCLDDRRDASVLCVVETPADQVMIEQTLTYRGKYFVLMGRLSPLDGIGPREIHLDRLLARATEPELGGPVGEVIVATNFTSEGEATAHYIGEMLKARGLKVSRLARGVPVGGELEYVDAGTIARAVMDRR</Hsp_hseq>
+      <Hsp_midline>M +    + Q L+ AL+VLP VGPKSAQRMAYHLLQ  R+ A +L DAL+ A   + HC RCNTF E  +C+ C D+ RD   L VV  PAD   IE    + G YFVLMG+++   G+    I LDRL  R      GG + E+I+AT FT+EG ATA+ + E  K    KVSRL++G+P+GGELEYVDAGT+A+AV +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|189029366|sp|A4SWQ6.1|RECR_POLSQ</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Polynucleobacter necessarius subsp. asymbioticus QLW-P1DMWA-1]</Hit_def>
+  <Hit_accession>A4SWQ6</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.33149e-59</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>QDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLD----GGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>QDALGRLIEALRVLPGVGPKSAQRMAFYLLQHDRNGAAVLAQSLGEAVDTVGHCARCNTFSETQICSTCADGRRDPSLLCIVETPADQVMVEQTLSFKGNYFVLMGRISPLDGMGPNEIHFDRLLTRIENPDTGVPIREVVLATNFTSEGEATAHYIGEVLKAKGIKVTRIARGIPVGGELEYVDAGTLARALMDRR</Hsp_hseq>
+      <Hsp_midline>QDA  RLI AL+VLP VGPKSAQRMA++LLQ  R  A  L  +L  A+  V HCARCNTF E  +C  CAD  RD   L +V  PAD   +E      G YFVLMG+I+   GM  + I  DRL  R++    G  I E+++AT FT+EG ATA+ + E  K    KV+R+++GIP+GGELEYVDAGTLA+A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|122323080|sp|Q0BEV4.1|RECR_BURCM</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia ambifaria AMMD] &gt;gi|229890130|sp|B1YRE7.1|RECR_BURA4 RecName: Full=Recombination protein RecR [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>Q0BEV4</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.90619e-59</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>KQPSALSALVEALRVLPGVGPKSAQRMAYHLMQHDREGAERLGRSLLFATEHLQHCEKCNTFTEAQICEVCSDDERDPTLLCVVETPADQIMLEQTMTYRGLYFVLMGRLSPLDGIGPKEIHFDRLVRRASDGVVKEVVLATNFTNEGEATAHYLGQTLKARGLAVTRLARGVPVGGELEYVDAGTIARAMLDRRTM</Hsp_hseq>
+      <Hsp_midline>K+  A   L+ AL+VLP VGPKSAQRMAYHL+Q  R+ AE L  +L  A   + HC +CNTF E  +C++C+D+ RD   L VV  PAD   +E    + GLYFVLMG+++   G+    I  DRL +R   G ++E+++AT FT EG ATA+ L +  K     V+RL++G+P+GGELEYVDAGT+A+A+ +RR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|229470334|sp|B1XU64.1|RECR_POLNS</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Polynucleobacter necessarius subsp. necessarius STIR1]</Hit_def>
+  <Hit_accession>B1XU64</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>4.36795e-59</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>KQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLD----GGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>PQDALGRLIEALRVLPGVGPKSAQRMAFYLLQHDRNGAAVLAQSLGEAVETVGHCACCNTFSETQVCSTCSDERRDPSLLCIVETPADQVMVEQTLSFKGNYFVLMGRLSPLDGMGPNEISFDRLLNRIETPDTGVPIREVVLATNFTSEGEATAHYIGEVLKPKGIKVTRIARGIPVGGELEYVDAGTLARALMDRR</Hsp_hseq>
+      <Hsp_midline> QDA  RLI AL+VLP VGPKSAQRMA++LLQ  R  A  L  +L  A+  V HCA CNTF E  +C  C+DE RD   L +V  PAD   +E      G YFVLMG+++   GM  + I+ DRL  R++    G  I E+++AT FT+EG ATA+ + E  K    KV+R+++GIP+GGELEYVDAGTLA+A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|73621456|sp|Q5P7F1.1|RECR_AROAE</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5P7F1</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>5.56909e-59</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>DAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>SSLDELIDALRGLPGVGPKSAQRMAYHLLQRDQRGAERLARALGNALAVLRHCERCNTFTETEICQRCASPQRDASLLCVVEMPADLAVIEQTHAYNGLYYVLMGRLSPLDGIGPRELKFDKLLARVADSTVQEVILATNFTNEGEATAHIVAELLAARGIRVSRLSRGVPVGGELEHTDTGTIAQALVERR</Hsp_hseq>
+      <Hsp_midline> +   LI AL+ LP VGPKSAQRMAYHLLQ+ ++ AE L  AL  AL  + HC RCNTF E  +C  CA   RD   L VV MPAD++ IE  + ++GLY+VLMG+++   G+    +  D+L  R+    ++E+I+AT FT EG ATA++++E       +VSRLS+G+P+GGELE+ D GT+AQA+ ERR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|171704428|sp|A1K421.1|RECR_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K421</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>5.85168e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>SKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>SSPPSSLDELIAALRCLPGVGPKSAQRMAYHLLQRDQRGAARLAGALGHALEVLRHCQRCNNFSEEAVCQRCANPRRDPATLCVVEMPADLAMIEQTQSYNGLYYVLMGRLSPLDGVGPRELGLERLIARATDGEVKEVILATNFTNEGEATAHTVATLLGARGVKVSRISRGVPVGGELEHTDTGTIAQALVERR</Hsp_hseq>
+      <Hsp_midline>S    +   LI AL+ LP VGPKSAQRMAYHLLQ+ ++ A  L  AL  AL  + HC RCN F E  +C  CA+  RD   L VV MPAD++ IE    ++GLY+VLMG+++   G+    + L+RL  R   GE++E+I+AT FT EG ATA+ ++        KVSR+S+G+P+GGELE+ D GT+AQA+ ERR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|229890134|sp|B2JG60.1|RECR_BURP8</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia phymatum STM815]</Hit_def>
+  <Hit_accession>B2JG60</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>6.74915e-59</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>KQPSALSALVEALRALPGVGPKSAQRMAYHLMQHDREGAEKLGRSLLFATEHLQHCEKCNTFTEAQICEVCSDTERDPTLLCVVETPADQIMLEQTMTWRGLYFVLMGRLSPLDGIGPKEIHFDRLVKRATDGVVKEVVLATNFTNEGEATAHYLGQTLKSRGLSVTRLARGVPVGGELEYVDAGTIARAMLDRRSI</Hsp_hseq>
+      <Hsp_midline>K+  A   L+ AL+ LP VGPKSAQRMAYHL+Q  R+ AE+L  +L  A   + HC +CNTF E  +C++C+D  RD   L VV  PAD   +E      GLYFVLMG+++   G+    I  DRL +R   G ++E+++AT FT EG ATA+ L +  K+    V+RL++G+P+GGELEYVDAGT+A+A+ +RR I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|229890133|sp|A9AGY1.1|RECR_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia multivorans ATCC 17616]</Hit_def>
+  <Hit_accession>A9AGY1</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>8.19758e-59</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>KQPSALSALVEALRALPGVGPKSAQRMAYHLMQHDREGAERLGRSLLFATEHLRHCDKCNTFTEAQICEVCSDEERDPTLLCVVETPADQIMLEQTMTYRGLYFVLMGRLSPLDGIGPKEIHFDRLVRRASDGIVKEVVLATNFTNEGEATAHYLGQTLKARGLAVTRLARGVPVGGELEYVDAGTIARAMLDRRTM</Hsp_hseq>
+      <Hsp_midline>K+  A   L+ AL+ LP VGPKSAQRMAYHL+Q  R+ AE L  +L  A   + HC +CNTF E  +C++C+DE RD   L VV  PAD   +E    + GLYFVLMG+++   G+    I  DRL +R   G ++E+++AT FT EG ATA+ L +  K     V+RL++G+P+GGELEYVDAGT+A+A+ +RR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|229890135|sp|B2T3S5.1|RECR_BURPP</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia phytofirmans PsJN]</Hit_def>
+  <Hit_accession>B2T3S5</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>9.13258e-59</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>KQPSALSALVEALRALPGVGPKSAQRMAYHLMQHDRDGAEKLGRSLLFATEHLQHCEKCNTFTEAQICEVCLDEERDPTLLCVVETPADQIMLEQTMTYRGLYFVLMGRLSPLDGIGPKEIHFDRLVRRASDGVIKEVVLATNFTNEGEATAHYLGQTLKARGLAVTRLARGVPVGGELEYVDAGTIARAMLDRR</Hsp_hseq>
+      <Hsp_midline>K+  A   L+ AL+ LP VGPKSAQRMAYHL+Q  R  AE+L  +L  A   + HC +CNTF E  +C++C DE RD   L VV  PAD   +E    + GLYFVLMG+++   G+    I  DRL +R   G I+E+++AT FT EG ATA+ L +  K     V+RL++G+P+GGELEYVDAGT+A+A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123179928|sp|Q1BGY7.1|RECR_BURCA</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia cenocepacia AU 1054] &gt;gi|123568319|sp|Q39FP6.1|RECR_BURS3 RecName: Full=Recombination protein RecR [Burkholderia lata] &gt;gi|171855182|sp|A0K7U9.1|RECR_BURCH RecName: Full=Recombination protein RecR [Burkholderia cenocepacia HI2424] &gt;gi|229890131|sp|B1JTA5.1|RECR_BURCC RecName: Full=Recombination protein RecR [Burkholderia cenocepacia MC0-3] &gt;gi|229890132|sp|B4EAY2.1|RECR_BURCJ RecName: Full=Recombination protein RecR [Burkholderia cenocepacia J2315]</Hit_def>
+  <Hit_accession>Q1BGY7</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>1.26273e-58</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>KQPSALSALVEALRVLPGVGPKSAQRMAVHLMQHDREGAERLGRSLLFATEHLQHCEKCNTFTEAQICEVCSDEERDPTLLCVVETPADQIMLEQTMTYRGLYFVLMGRLSPLDGIGPKEIHFDRLVRRASDGVVKEVVLATNFTNEGEATAHYLGQTLKARGLAVTRLARGVPVGGELEYVDAGTIARAMLDRRTM</Hsp_hseq>
+      <Hsp_midline>K+  A   L+ AL+VLP VGPKSAQRMA HL+Q  R+ AE L  +L  A   + HC +CNTF E  +C++C+DE RD   L VV  PAD   +E    + GLYFVLMG+++   G+    I  DRL +R   G ++E+++AT FT EG ATA+ L +  K     V+RL++G+P+GGELEYVDAGT+A+A+ +RR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|123358829|sp|Q13Z78.1|RECR_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q13Z78</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>1.53369e-58</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>KQPSALSALVEALRALPGVGPKSAQRMAYHLMQHDRDGAEKLGRSLLFATEHLQHCEKCNTFTEAQICEVCLDEERDPTLLCVVETPADQIMLEQTMTYRGLYFVLMGRLSPLDGIGPKEIHFDRLVRRASDGVVKEVVLATNFTNEGEATAHYLGQTLKARGLAVTRLARGVPVGGELEYVDAGTIARAMLDRR</Hsp_hseq>
+      <Hsp_midline>K+  A   L+ AL+ LP VGPKSAQRMAYHL+Q  R  AE+L  +L  A   + HC +CNTF E  +C++C DE RD   L VV  PAD   +E    + GLYFVLMG+++   G+    I  DRL +R   G ++E+++AT FT EG ATA+ L +  K     V+RL++G+P+GGELEYVDAGT+A+A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|171769839|sp|A2SIU8.1|RECR_METPP</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Methylibium petroleiphilum PM1]</Hit_def>
+  <Hit_accession>A2SIU8</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>4.2984e-58</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>LESLTEALRRLPGVGVKSAQRMAYHLLQHDREGALRLARALEQAVATVRHCERCNTFTEAPVCSTCLDPARERRQLCVVETPADQAAVERSGSYHGLYFVLMGRLSPLDGIGVHDIGLEKLLARATDGEVQELIVATNFTAEGEATAHVIAQALKGRGPSVTRLARGVPVGSELEYVDLGTIAHALSDRR</Hsp_hseq>
+      <Hsp_midline> + L  AL+ LP VG KSAQRMAYHLLQ  R+ A  L  AL+ A+  V HC RCNTF E  +C  C D  R+ R+L VV  PAD + +E +  + GLYFVLMG+++   G+ V  I L++L  R   GE++E+I+AT FTAEG ATA+V+++  K     V+RL++G+P+G ELEYVD GT+A A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|172044365|sp|A4JEQ3.1|RECR_BURVG</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia vietnamiensis G4]</Hit_def>
+  <Hit_accession>A4JEQ3</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>5.48436e-58</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>KQPSALSSLVEALRALPGVGPKSAQRIAYHLMQHDREGAERLGRSLLFATEHLQHCEKCNTFTEAQICEVCSDDERDPTLLCVVETPADQIMLEQTMTYRGLYFVLMGRLSPLDGIGPKEIHFDRLVRRASDGVVKEVVLATNFTNEGEATAHYLGQTLKARGLAVTRLARGVPVGGELEYVDAGTIARAMLDRRTM</Hsp_hseq>
+      <Hsp_midline>K+  A   L+ AL+ LP VGPKSAQR+AYHL+Q  R+ AE L  +L  A   + HC +CNTF E  +C++C+D+ RD   L VV  PAD   +E    + GLYFVLMG+++   G+    I  DRL +R   G ++E+++AT FT EG ATA+ L +  K     V+RL++G+P+GGELEYVDAGT+A+A+ +RR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|73621474|sp|Q62JV0.1|RECR_BURMA</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia mallei ATCC 23344] &gt;gi|166221926|sp|A3MK89.1|RECR_BURM7 RecName: Full=Recombination protein RecR [Burkholderia mallei NCTC 10247] &gt;gi|166221927|sp|A2S287.1|RECR_BURM9 RecName: Full=Recombination protein RecR [Burkholderia mallei NCTC 10229] &gt;gi|166221928|sp|A1V4L5.1|RECR_BURMS RecName: Full=Recombination protein RecR [Burkholderia mallei SAVP1] &gt;gi|172046644|sp|Q3JRN7.2|RECR_BURP1 RecName: Full=Recombination protein RecR [Burkholderia pseudomallei 1710b]</Hit_def>
+  <Hit_accession>Q62JV0</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>5.63777e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>MSIKPPSALSELVEALRALPGVGPKSAQRIAYHLMQHDREGAERLGRSLLFATEHLRHCEKCNTFTEAQICEVCSDPERDPALLCVVETPADQIMLEQTMTYRGLYFVLMGRLSPLDGIGPKEIHFDRLVRRASDGIVKEVVLATNFTNEGEATAHYLGQTLKARGLAVTRLARGVPVGGELEYVDAGTIARAMLDRRTL</Hsp_hseq>
+      <Hsp_midline>M+ K   A   L+ AL+ LP VGPKSAQR+AYHL+Q  R+ AE L  +L  A   + HC +CNTF E  +C++C+D  RD   L VV  PAD   +E    + GLYFVLMG+++   G+    I  DRL +R   G ++E+++AT FT EG ATA+ L +  K     V+RL++G+P+GGELEYVDAGT+A+A+ +RR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|171769180|sp|A1TQI0.1|RECR_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TQI0</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>6.36404e-58</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>LVQALRRLPGVGVKSAQRMAFHLLQHDRQGAEVLSRALHDAAQSVRHCARCHTFTEGEVCSTCLDPSRDASRLAVVETPADQAALERTGAFRGLYFVLMGKLSPLDGIGPKDIGFGKLLERAGDGVVQEVILATNFTAEGEATAHALSETLKARGMHVTRLARGVPVGSELEYVDLGTIAHALVDRR</Hsp_hseq>
+      <Hsp_midline>L+ AL+ LP VG KSAQRMA+HLLQ  R+ AE L  AL  A + V HCARC+TF EG +C  C D +RD  RL VV  PAD + +E      GLYFVLMG+++   G+    I   +L +R   G ++E+I+AT FTAEG ATA+ LSE  K     V+RL++G+P+G ELEYVD GT+A A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|166918737|sp|A3NA68.1|RECR_BURP6</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia pseudomallei 668] &gt;gi|171855121|sp|A3NVY5.1|RECR_BURP0 RecName: Full=Recombination protein RecR [Burkholderia pseudomallei 1106a] &gt;gi|172045976|sp|Q63UU6.2|RECR_BURPS RecName: Full=Recombination protein RecR [Burkholderia pseudomallei K96243]</Hit_def>
+  <Hit_accession>A3NA68</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>7.14916e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>MSIKPPSALSELVEALRALPGVGPKSAQRIAYHLMQHDREGAERLGRSLLFATEHLRHCEKCNTFTEAQVCEVCSDPERDPALLCVVETPADQIMLEQTMTYRGLYFVLMGRLSPLDGIGPKEIHFDRLVRRASDGIVKEVVLATNFTNEGEATAHYLGQTLKARGLAVTRLARGVPVGGELEYVDAGTIARAMLDRRTL</Hsp_hseq>
+      <Hsp_midline>M+ K   A   L+ AL+ LP VGPKSAQR+AYHL+Q  R+ AE L  +L  A   + HC +CNTF E  +C++C+D  RD   L VV  PAD   +E    + GLYFVLMG+++   G+    I  DRL +R   G ++E+++AT FT EG ATA+ L +  K     V+RL++G+P+GGELEYVDAGT+A+A+ +RR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|123628051|sp|Q47HW7.1|RECR_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47HW7</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>7.64611e-58</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>AFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRL</Hsp_qseq>
+      <Hsp_hseq>GLESLIEALRCLPGIGPKSAQRMAYHLLQRDRPGAQRLGDAVLHALQAIRHCQRCNTFTEGDICERCASPRRDPELLCVVETPVDMNMMEQTLTYRGMYYVLMGKISPLDGVGPKELGLDRLMTRALDGVVKEVILATNYTNEGEATAHYITAMLKPKGVGVTRIARGVPVGGELEYVDSGTLAQALRERKI</Hsp_hseq>
+      <Hsp_midline>  + LI AL+ LP +GPKSAQRMAYHLLQ+ R  A+ L DA+  AL+ + HC RCNTF EG +C+ CA   RD   L VV  P D++ +E    + G+Y+VLMG+I+   G+    + LDRL  R   G ++E+I+AT +T EG ATA+ ++   K     V+R+++G+P+GGELEYVD+GTLAQA+ ER++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|123254387|sp|Q1H0Z5.1|RECR_METFK</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1H0Z5</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>7.7291e-58</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIK</Hsp_qseq>
+      <Hsp_hseq>RNPPALEQLVEALRCLPGVGPKSALRMAYYLLQRDRKGAGILAKSLDQALQVVSHCNLCNNFSEQEICPLCASPARDRTLLCIVEMPSDLMMLEQTQTYQGMYFVLMGRLSPLDGIGPRDIHLDKLLKRAQDGKVEEVILATNYTVEGEATAHYVSELLRARGIQVSRIARGLPMGGEIEHVDSGTLAQALLERRHVR</Hsp_hseq>
+      <Hsp_midline>+   A ++L+ AL+ LP VGPKSA RMAY+LLQ+ RK A  L  +L  AL+ V HC  CN F E  +C +CA   RD   L +V MP+D+  +E    + G+YFVLMG+++   G+    I LD+L +R   G++EE+I+AT +T EG ATA+ +SE  +    +VSR+++G+P+GGE+E+VD+GTLAQA+ ERR ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|123536826|sp|Q2SWF7.1|RECR_BURTA</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2SWF7</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.53854e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>MSIKPPSALSELVEALRALPGVGPKSAQRIAYHLMQHDREGAERLGRSLLFATEHLRHCEKCNTFTEAQVCEVCCDPERDPTLLCVVETPADQIMLEQTMTYRGLYFVLMGRLSPLDGIGPKEIHFDRLVRRASDGIVKEVVLATNFTNEGEATAHYLGQTLKARGLAVTRLARGVPVGGELEYVDAGTIARAMLDRRTL</Hsp_hseq>
+      <Hsp_midline>M+ K   A   L+ AL+ LP VGPKSAQR+AYHL+Q  R+ AE L  +L  A   + HC +CNTF E  +C++C D  RD   L VV  PAD   +E    + GLYFVLMG+++   G+    I  DRL +R   G ++E+++AT FT EG ATA+ L +  K     V+RL++G+P+GGELEYVDAGT+A+A+ +RR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|123593516|sp|Q3J7Z8.1|RECR_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3J7Z8</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>3.2344e-56</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>AFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>SLGRLLEALRCLPGVGPKSAQRMAFHLLESDREGGRHLAQALLEALDKMTHCQTCRILSETDLCSLCADSRRDRGQLCVVEMPSDVQAIEQATSYSGRYFVLMGHLSPLDGVGPEALGMDLLAKRLDTDQIREVILATNLTVEGEATAYYISELAQTRGITTTRIAHGVPLGGELEFIDSNTLSHAFQSRR</Hsp_hseq>
+      <Hsp_midline>+  RL+ AL+ LP VGPKSAQRMA+HLL+  R+    L  AL  AL ++ HC  C    E  LC +CAD  RD  +L VV MP+DV  IE A  + G YFVLMG ++   G+   A+ +D LA+RLD  +I E+I+AT  T EG ATAY +SE  +      +R++ G+PLGGELE++D+ TL+ A   RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|229890155|sp|A4G3Z0.2|RECR_HERAR</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Herminiimonas arsenicoxydans]</Hit_def>
+  <Hit_accession>A4G3Z0</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>3.49726e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MNSKKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>MKSPSSLAF--LTEALRRLPGVGPKSAQRMAYHLMQHDRDGAAMLGRALSQAVERVQHCAMCNTFTESAVCETCLDAERNAALLCVVETPGDQLMIEQTLTFKGLYFVLMGRLSPLDGIGPKDIHLEKLISRATDGIVQEVVLATNFTNEGEATAHYISETLKARGLKVSRLARGVPVGGELEYVDAGTIARAMLDRR</Hsp_hseq>
+      <Hsp_midline>M S    AF  L  AL+ LP VGPKSAQRMAYHL+Q  R  A  L  AL  A+ +V HCA CNTF E  +C+ C D  R+   L VV  P D   IE      GLYFVLMG+++   G+    I L++L  R   G ++E+++AT FT EG ATA+ +SE  K    KVSRL++G+P+GGELEYVDAGT+A+A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|171769453|sp|A1W8D4.1|RECR_ACISJ</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Acidovorax sp. JS42]</Hit_def>
+  <Hit_accession>A1W8D4</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>4.4572e-56</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>LIQALRRLPGVGVKSAQRMAFHLLQHDRAGAQVLSQALAQAATQVRHCERCHTFTEGAVCETCLDPARDATRLCVVETPADQAAMERTAAFKGLYFVLMGRLSPLDGVGPRDIGVHNLLERASDGVVQEVILATSFTAEGEATAHAIGEALKRRGVHVTRLARGVPVGSELEYVDLGTIAHALADRR</Hsp_hseq>
+      <Hsp_midline>LI AL+ LP VG KSAQRMA+HLLQ  R  A+ L  AL  A  QV HC RC+TF EG +C+ C D  RD  RL VV  PAD + +E      GLYFVLMG+++   G+    I +  L +R   G ++E+I+AT+FTAEG ATA+ + E  K     V+RL++G+P+G ELEYVD GT+A A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|20139463|sp|Q8Y050.1|RECR_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y050</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>2.06529e-55</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>DAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLD----GGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>SALQMLIEALRVLPGVGPKSAQRMAYHLLQHDREGASRLAEALAEAAESIHHCSRCNTFTEQDVCETCLDPRRDASVLCVVETPADQMMIEQTLTYRGQYFVLMGRLSPLDNIGPKEIHLERLLARATDPALGGPCAEVILATNFTSEGEATAHYIGEMLKARGIKVSRLARGVPVGGELEYVDAGTIARAVLDRR</Hsp_hseq>
+      <Hsp_midline> A Q LI AL+VLP VGPKSAQRMAYHLLQ  R+ A  L +AL  A   + HC+RCNTF E  +C+ C D  RD   L VV  PAD   IE    + G YFVLMG+++    +    I L+RL  R      GG   E+I+AT FT+EG ATA+ + E  K    KVSRL++G+P+GGELEYVDAGT+A+AV +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|171769526|sp|A1WF86.1|RECR_VEREI</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Verminephrobacter eiseniae EF01-2]</Hit_def>
+  <Hit_accession>A1WF86</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>2.17641e-55</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>SSSNALDALIQALRRLPGVGVKSAQRMAFHLLQHDRAGGQALAQALHDALGSVQHCARCHTFTEAETCRTCLDPGRDATRLCVVETPADQAALERTGAFKGLYFVLMGRLSPLDGVGPKEIGLQKLIARATEGGVQEVILATNFHAEGEATAHVISQALKRQGLHVTRLARGVPVGSELEYVDLGTIAHALVDRR</Hsp_hseq>
+      <Hsp_midline>   +A   LI AL+ LP VG KSAQRMA+HLLQ  R   + L  AL  AL  V HCARC+TF E   C  C D  RD  RL VV  PAD + +E      GLYFVLMG+++   G+    I L +L  R   G ++E+I+AT F AEG ATA+V+S+  K     V+RL++G+P+G ELEYVD GT+A A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|172049091|sp|A6T0H1.1|RECR_JANMA</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Janthinobacterium sp. Marseille]</Hit_def>
+  <Hit_accession>A6T0H1</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>4.5067e-55</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KKQDAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>KTPSSLDFLTEALRRLPGVGPKSAQRMAYHLMQHDRDGAAMLGRALSQAVEKVQHCAMCNTFTEHEVCETCLDAERNPALLCVVETPGDQLMIEQTLTFKGLYFVLMGRLSPLDGIGPKDIHLEKLISRATDGIVQEVVLATNFTNEGEATAHYISETLKARGLKVSRLARGVPVGGELEYVDAGTIARAMLDRR</Hsp_hseq>
+      <Hsp_midline>K   +   L  AL+ LP VGPKSAQRMAYHL+Q  R  A  L  AL  A+ +V HCA CNTF E  +C+ C D  R+   L VV  P D   IE      GLYFVLMG+++   G+    I L++L  R   G ++E+++AT FT EG ATA+ +SE  K    KVSRL++G+P+GGELEYVDAGT+A+A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|24212230|sp|Q8PNG0.1|RECR_XANAC</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PNG0</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>4.82115e-55</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYER</Hsp_qseq>
+      <Hsp_hseq>LEQLIEAFRVLPGVGQKSAQRMAYHVLEREREGGRRLAAALGSAVEKVGHCVQCRDFTESEICTICASSSRDRQQLCVVESPADRLAIEHATGYRGLYFILQGRLSPLDGIGPRELGLDRLSERLAAGEVTEMIIATNATVEGEATAHYLAQLARQHAVRPSRLAQGMPLGGELEYVDRGTLSHAFGTR</Hsp_hseq>
+      <Hsp_midline> ++LI A +VLP VG KSAQRMAYH+L+++R+    L  AL +A+ +V HC +C  F E  +C ICA  +RD ++L VV  PAD   IE A  + GLYF+L G+++   G+    + LDRL++RL  GE+ E+IIAT  T EG ATA+ L++  +    + SRL+QG+PLGGELEYVD GTL+ A   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|122996350|sp|Q21L30.1|RECR_SACD2</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Saccharophagus degradans 2-40]</Hit_def>
+  <Hit_accession>Q21L30</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>1.10589e-54</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>IDQLINSLRHLPGVGPKSAQRMALHLLERDREGAQNLSEVLAKAVEHVHRCQQCRTLTEQALCNICSNARRNRKELCIVETPADVIAIETSAVFSGYYFVLLGRLSPIDGIGPKEIGMDVLASRFAEGEIEEVIIATNPTIEGEATAHYISERAKAQGIKVSRIAHGIPIGGELEYVDGGTLAHAISRRQEI</Hsp_hseq>
+      <Hsp_midline>  +LI +L+ LP VGPKSAQRMA HLL++ R+ A+ L + L  A+  V  C +C T  E  LC+IC++  R+ + L +V  PADV  IE +    G YFVL+G+++   G+    I +D LA R   GEIEE+IIAT  T EG ATA+ +SE  K    KVSR++ GIP+GGELEYVD GTLA A+  R+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|123585701|sp|Q3BWK3.1|RECR_XANC5</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Xanthomonas campestris pv. vesicatoria str. 85-10]</Hit_def>
+  <Hit_accession>Q3BWK3</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>1.49558e-54</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYER</Hsp_qseq>
+      <Hsp_hseq>LEQLIEAFRVLPGVGQKSAQRMAYHVLEREREGGRRLAAALGNAVEKVGHCVQCRDFTESEICTICASSSRDRQQLCVVESPADRLAIEHATGYRGLYFILQGRLSPLDGIGPRELGLDRLGERLAAGEVTEMIIATNATVEGEATAHYLAQLARQHAVRPSRLAQGMPLGGELEYVDRGTLSHAFGTR</Hsp_hseq>
+      <Hsp_midline> ++LI A +VLP VG KSAQRMAYH+L+++R+    L  AL  A+ +V HC +C  F E  +C ICA  +RD ++L VV  PAD   IE A  + GLYF+L G+++   G+    + LDRL +RL  GE+ E+IIAT  T EG ATA+ L++  +    + SRL+QG+PLGGELEYVD GTL+ A   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|73621531|sp|Q5H401.1|RECR_XANOR</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Xanthomonas oryzae pv. oryzae KACC 10331] &gt;gi|123522961|sp|Q2P6V6.1|RECR_XANOM RecName: Full=Recombination protein RecR [Xanthomonas oryzae pv. oryzae MAFF 311018]</Hit_def>
+  <Hit_accession>Q5H401</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>1.97941e-54</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYER</Hsp_qseq>
+      <Hsp_hseq>LEQLIEAFRVLPGVGQKSAQRMAYHVLEREREGGRRLATTLANAVEKVGHCVQCRDFTESEICTICASSSRDRQQLCVVESPADRLAIEHATGYRGLYFVLQGRLSPLDGIGPRELGLDRLGERLAAGEVTEMIIATNATVEGEATAHYLAQLARQHAVRPSRLAQGMPLGGELEYVDRGTLSHAFGTR</Hsp_hseq>
+      <Hsp_midline> ++LI A +VLP VG KSAQRMAYH+L+++R+    L   L  A+ +V HC +C  F E  +C ICA  +RD ++L VV  PAD   IE A  + GLYFVL G+++   G+    + LDRL +RL  GE+ E+IIAT  T EG ATA+ L++  +    + SRL+QG+PLGGELEYVD GTL+ A   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|73621454|sp|Q6FA18.1|RECR_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6FA18</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>1.99519e-54</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>DAFQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIK</Hsp_qseq>
+      <Hsp_hseq>DRFEQLVQALRILPSVGPKSAQRMALHLLMKNREGAFGLAHALHEASSHIHECKICHSLTENEICDICLSNDRDQHLLCVVESPADVMAIEQSGSFRGKYHVLGGHLSPLDGIGPEEIGIPYLIQRLSSGEIEEVILATNATVEGQATAHYLLEATKHLPVHMTRIAQGVPQGGELEYVDSHTLSQAVHNRMKMK</Hsp_hseq>
+      <Hsp_midline>D F++L+ AL++LP+VGPKSAQRMA HLL + R+ A  L  AL  A   +  C  C++  E  +CDIC    RD   L VV  PADV  IE +    G Y VL G ++   G+    I +  L QRL  GEIEE+I+AT  T EG ATA+ L E  K+LP  ++R++QG+P GGELEYVD+ TL+QAV+ R  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|122479542|sp|Q21YG1.1|RECR_ALBFT</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Rhodoferax ferrireducens T118]</Hit_def>
+  <Hit_accession>Q21YG1</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>4.2672e-54</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>LIQALRRLPGVGVKSASRMAFHLLQHDRPGALALSRALQVAADQMRHCERCHTFTQADICATCLDPRRDASKLCVVETPADQSALERTGAYHGLYFVLMGKLSPLDGIGPKDIGLKGLFDRACDGTVQEVILATNFTAEGEATAHVISEGLKSRGLRLTRLARGVPVGSELEYVDLGTIAHALLDRR</Hsp_hseq>
+      <Hsp_midline>LI AL+ LP VG KSA RMA+HLLQ  R  A  L  ALQ A  Q+ HC RC+TF +  +C  C D  RD  +L VV  PAD S +E    + GLYFVLMG+++   G+    I L  L  R   G ++E+I+AT FTAEG ATA+V+SE  K+   +++RL++G+P+G ELEYVD GT+A A+ +RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|122311667|sp|Q0A8I0.1|RECR_ALKEH</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Alkalilimnicola ehrlichii MLHE-1]</Hit_def>
+  <Hit_accession>Q0A8I0</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>1.21915e-52</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>IDQLIESLRCLPGVGPRSAQRMAFHLLQRDRDGGRRLATAIREAMDQVGHCRQCRVLTEEPVCGLCASDRRDRSLLCVVEGPADVFALEQATDFRGLYFVLMGRLSPLDGVGPEALGLDRLEARLAEGEVQEVILATSPTVEGEATSHYIAELAHQRGVRTTRIAHGVPMGGELEYVDSGTLSHAFAGRR</Hsp_hseq>
+      <Hsp_midline>  +LI +L+ LP VGP+SAQRMA+HLLQ+ R     L  A++ A+ QV HC +C    E  +C +CA + RD   L VV  PADV  +E A    GLYFVLMG+++   G+   A+ LDRL  RL  GE++E+I+AT+ T EG AT++ ++E       + +R++ G+P+GGELEYVD+GTL+ A   RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|122420126|sp|Q1QXJ5.1|RECR_CHRSD</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Chromohalobacter salexigens DSM 3043]</Hit_def>
+  <Hit_accession>Q1QXJ5</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>1.42997e-52</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>RLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYER</Hsp_qseq>
+      <Hsp_hseq>QLLETLRVLPGVGPKTAQRMALHLLERDRDGGRRLVAALGEALEHVGYCQRCRTLAETPLCSICEDARRDEGLLCVVESPADMLAIEQAGGFRGLYFVLHGHLSPLDGIGPEDIGLDQLDERLAGGSVEEVILATNPTVEGEATAHYIAEQLRGTGVRLSRLAYGVPMGGELEYVDGGTLSRAFNGR</Hsp_hseq>
+      <Hsp_midline>+L+  L+VLP VGPK+AQRMA HLL++ R     LV AL  AL  V +C RC T  E  LC IC D  RD   L VV  PAD+  IE A    GLYFVL G ++   G+    I LD+L +RL GG +EE+I+AT  T EG ATA+ ++E  +    ++SRL+ G+P+GGELEYVD GTL++A   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|32129945|sp|Q87CK8.1|RECR_XYLFT</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Xylella fastidiosa Temecula1]</Hit_def>
+  <Hit_accession>Q87CK8</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>5.06587e-52</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYER</Hsp_qseq>
+      <Hsp_hseq>LEQLIDAFRILPGVGQKTAQRMAYHMLEREREGGQRLADVLSRAIEKIGHCTECRDFSETKICAICANSSRDRHQLCVVESPPDRLAIEQATGYRGLYFILQGRLSPLDGIGPHELGLDHLGQRLAAGEVTELIIATNATVEGETTAHYLALLARQHGIRPSRLAQGLPLGGELEYLDRGTLSHAFGTR</Hsp_hseq>
+      <Hsp_midline> ++LI A ++LP VG K+AQRMAYH+L+++R+  + L D L  A+ ++ HC  C  F E  +C ICA+ +RD  +L VV  P D   IE A  + GLYF+L G+++   G+    + LD L QRL  GE+ E+IIAT  T EG  TA+ L+   +    + SRL+QG+PLGGELEY+D GTL+ A   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|229890129|sp|A9HZ10.1|RECR_BORPD</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Bordetella petrii DSM 12804]</Hit_def>
+  <Hit_accession>A9HZ10</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>1.23475e-51</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERR</Hsp_qseq>
+      <Hsp_hseq>LIEALRRLPGVGVRSARRMAYHLMQHDLQGADMLGRALAGAVQNLRHCARCNSFTEDDICATCANPKRDPSVLCVVETPADQNMIEASHGYRGLYYVLMGRVAPLEGIGPRELDFQRLLERASDGVVREVILATNFTAEGETTAHFLGEVLAGKGLKVTRLARGVPAGSELEYVDAGTIAWALMERK</Hsp_hseq>
+      <Hsp_midline>LI AL+ LP VG +SA+RMAYHL+Q   + A+ L  AL  A++ + HCARCN+F E  +C  CA+  RD   L VV  PAD + IEA++ + GLY+VLMG++    G+    +   RL +R   G + E+I+AT FTAEG  TA+ L E       KV+RL++G+P G ELEYVDAGT+A A+ ER+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|20139818|sp|Q9PCH1.2|RECR_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PCH1</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.014</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>1.50242e-51</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYER</Hsp_qseq>
+      <Hsp_hseq>LEQLIDAFRILPGVGQKTAQRMAYHVLEREREGGQRLADVLSRAIEKIGHCTECRDFSETKICAICANYSRDRHQLCVVESPPDRLAIEQATGYRGLYFILQGRLSPLDGIGPHELGLDHLGQRLAAGEVTELIIATNATVEGETTAHYLALLARQHGIRPSRLAQGLPLGGELEYLDRGTLSHAFGTR</Hsp_hseq>
+      <Hsp_midline> ++LI A ++LP VG K+AQRMAYH+L+++R+  + L D L  A+ ++ HC  C  F E  +C ICA+ +RD  +L VV  P D   IE A  + GLYF+L G+++   G+    + LD L QRL  GE+ E+IIAT  T EG  TA+ L+   +    + SRL+QG+PLGGELEY+D GTL+ A   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|259563707|sp|C4L8U4.1|RECR_TOLAT</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Tolumonas auensis DSM 9187]</Hit_def>
+  <Hit_accession>C4L8U4</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.3202e-51</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>LIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETR-DGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLIK</Hsp_qseq>
+      <Hsp_hseq>LIRELQVLPGVGPKSAQRMAFQLLERERKRGMQLGQTLQRALTEIGHCQHCRTFTENSLCDICANPKRAESGQLCIVETPADVAAIEQTHLYSGRYFVLMGHLSPLDGIGPKELGLDQLDNVLQGGQWKEVILATNPTIEGDATAFYIASMAKRYQINITRIAHGVPVGGELELVDGTTLSHSLSGRRPLE</Hsp_hseq>
+      <Hsp_midline>LI  L+VLP VGPKSAQRMA+ LL+++RK   +L   LQ AL ++ HC  C TF E  LCDICA+  R +  +L +V  PADV+ IE  + + G YFVLMG ++   G+    + LD+L   L GG+ +E+I+AT  T EG+ATA+ ++   K     ++R++ G+P+GGELE VD  TL+ ++  RR ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|24212228|sp|Q8PBW4.1|RECR_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Xanthomonas campestris pv. campestris str. ATCC 33913] &gt;gi|81304501|sp|Q4URN7.1|RECR_XANC8 RecName: Full=Recombination protein RecR [Xanthomonas campestris pv. campestris str. 8004]</Hit_def>
+  <Hit_accession>Q8PBW4</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>3.45216e-51</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETRDGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYER</Hsp_qseq>
+      <Hsp_hseq>LEQLIEAFRVLPGVGQKSAQRMAYHVLEREREGGRRLAAALANAVEKVGHCVQCRDFTESEVCAICANSGRDRQQLCVVESPADRLAIEHATGYRGVYFILQGRLSPLDGIGPRELGLDRLAERLAAGEVTEMIIATNATVEGEATAHYLAQLARQHSVRPSRLAQGMPLGGELEYVDRGTLSHAFGTR</Hsp_hseq>
+      <Hsp_midline> ++LI A +VLP VG KSAQRMAYH+L+++R+    L  AL  A+ +V HC +C  F E  +C ICA+  RD ++L VV  PAD   IE A  + G+YF+L G+++   G+    + LDRLA+RL  GE+ E+IIAT  T EG ATA+ L++  +    + SRL+QG+PLGGELEYVD GTL+ A   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|171769809|sp|A7MUE4.1|RECR_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=Recombination protein RecR [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MUE4</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>1.02258e-50</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>FQRLIGALKVLPNVGPKSAQRMAYHLLQQKRKEAEELVDALQTALRQVCHCARCNTFCEGGLCDICADETR-DGRRLMVVHMPADVSNIEAANCHDGLYFVLMGQINTALGMDVSAIALDRLAQRLDGGEIEEIIIATAFTAEGNATAYVLSEFFKNLPYKVSRLSQGIPLGGELEYVDAGTLAQAVYERRLI</Hsp_qseq>
+      <Hsp_hseq>LEQLMEALRCLPGVGPKSAQRMAFHLLQRDRKGGLQLADALSQAMTEIGHCTECRTFTEEEVCHICTNPKRQENGQICVVESPADIAAVEATGQYSGRYFVLMGHLSPLDGIGPSDIGLDVLDYRLRRGDISEVILATNPTVEGEATAHYIAELCKEHQVEASRIAHGVPVGGELELVDGTTLSHSLLGRHKI</Hsp_hseq>
+      <Hsp_midline> ++L+ AL+ LP VGPKSAQRMA+HLLQ+ RK   +L DAL  A+ ++ HC  C TF E  +C IC +  R +  ++ VV  PAD++ +EA   + G YFVLMG ++   G+  S I LD L  RL  G+I E+I+AT  T EG ATA+ ++E  K    + SR++ G+P+GGELE VD  TL+ ++  R  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>8131</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>296</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>8131</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>296</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75356060|sp|Q5F8G9.1|NNRD_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F8G9</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.497</Hsp_bit-score>
+      <Hsp_score>1521</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>296</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MFPVFHLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAPAARWLRNWITESM</Hsp_qseq>
+      <Hsp_hseq>MFPVFHLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAPAARWLRNWITESM</Hsp_hseq>
+      <Hsp_midline>MFPVFHLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAPAARWLRNWITESM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81783953|sp|Q9JRZ9.1|NNRD_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JRZ9</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MFPVFHLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAPAARWLRNWITESM</Hsp_qseq>
+      <Hsp_hseq>MFPVFHLSGESRRQMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVWAGFNQDTLPFAVIAGFPEIMLDTADSLAKRQDINAWVVGCGLGTGRAAVGTLAGILTEHTDKPVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAIFGATVVLKGHKTLVASPDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLLAGEIAPAARWLRNRITKSM</Hsp_hseq>
+      <Hsp_midline>MFPVFHLSGESRR+MLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKV AGFNQDTLPFAVIAGFPEIMLDTAD L KRQ INAW  GCGLGT  AAV T+A +L  + D+ VVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAI GATVVLKGHKTLVA+ DTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGL AGEIAPAARWLRN IT+SM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81836190|sp|Q7VU32.1|NNRD_BORPE</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q7VU32</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.57507e-60</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>RFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQ-GINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAPAARWLRN</Hsp_qseq>
+      <Hsp_hseq>HLPALFAARPTDAHKGSCGTLGVIGGGPGMVGAALLAARAGLKVGAGKVLVGLVADTPPLPCDPMQPELMLRDFRGLLEAGLGIDAWTAGCGCGMDALAANALSELFQLRGDAALVLDADGLNLLAAGAVQARW--GDAPVVLTPHPAEAGRLLGLSTEAVQADRPGAARALAARYGAWIVLKGAGSIVCDPAGACRINRTGNPGLATAGTGDVLAGILGSLLAQRIAPEQAVPGAVWLHGAAADALVTHGVGPIGLTAGELADSARRLRN</Hsp_hseq>
+      <Hsp_midline>  P +F AR  D+HKG+ GTL V+GG  GM GA +LAA A + +G GKV  G   DT P       PE+ML    GL +   GI+AWTAGCG G DA A   ++ +     D A+VLDAD LN+L+  A       G   ++LTPHPAEA RLLG +   VQADR  A R + A  GA +VLKG  ++V        +N +GN GLATAG+GDVL GI+GSLLAQ +   +A     WLHGAAAD +        GL+AGE+A +AR LRN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|731997|sp|P31806.2|NNR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P31806</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>8.48038e-41</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>LSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLD--TADGLTKR-QGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVI</Hsp_qseq>
+      <Hsp_hseq>LAGQETKIQRFSAEQLSHWLKPRRPTSHKGDHGRLVIIGGDHGTAGAIRMTGEAALRAGAGLVRVLTRSENI-APLLTARPELMVHELTMDSLTESLEWADVVVIGPGLGQQEWGKKALQKV--ENFRKPMLWDADALNLLAINPDKRH------NRVITPHPGEAARLLGCSVAEIESDRLHCAKRLVQRYGGVAVLKGAGTVVAAHPDALGIIDAGNAGMASGGMGDVLSGIIGALLGQKLSPYDAACAGCVAHGAAADVL</Hsp_hseq>
+      <Hsp_midline>L+G+  +    +A +  H  K R   SHKG  G L ++GG  G +GA  +   AA+  G G VR     + +   ++   PE+M+   T D LT+  +  +    G GLG      + +  V   N  + ++ DADALN+L+ + + R+      N ++TPHP EAARLLG +VA++++DR    +++    G   VLKG  T+VAA    + + ++GNAG+A+ G GDVL GIIG+LL Q +  ++AACAG   HGAAADV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123523938|sp|Q2RGI2.1|NNR_MOOTA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Moorella thermoacetica ATCC 39073]</Hit_def>
+  <Hit_accession>Q2RGI2</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>2.34532e-36</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>RMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLA-----------ASAAMYLGCGKVRAGFNQDTLPFAVIAGFPE-----IMLDTADGLTKRQG-INAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAAD</Hsp_qseq>
+      <Hsp_hseq>RRLLTAAWCRSQLPRREASGHKGLYGRVLAVGGSPGLTGAITLAATAALKAGAGLVTAAVPRGVQGILAMKTTEIMTMS----LPETPAGALSRDALDPLLERLAEVDVLAIGPGLSRDPATVDLVKELLPRVQVPAVV-DADALNALATD--TRVLTGDHGPLVLTPHPGEMARLLGTTAAKIQEDRLEIAAKYAREWQAVLLLKGARTVIAWPDGQVYINPTGNPGMATAGSGDVLTGIIAGLAGQGLKPGVAAALGAYLHGAAGD</Hsp_hseq>
+      <Hsp_midline>R L TA         R    HKG +G +  VGGS G++GA  LA            +AA+  G   + A    + +  +     PE     +  D  D L +R   ++    G GL  D A V+ V  +L R +  AVV DADALN L+TD  TR L      L+LTPHP E ARLLGTT A++Q DR     K      A ++LKG +T++A  D ++Y+N +GN G+ATAGSGDVL GII  L  QG+    AA  GA+LHGAA D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81544169|sp|Q9KMX5.1|NNR_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KMX5</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>5.14968e-36</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>VFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGL----TKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNIL----STDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAPAARWLRN</Hsp_qseq>
+      <Hsp_hseq>LLPPRQACTHKGQNGKALIVGGNEGMGGALILCASACARSGAGLSAAMTHPDNV-TAMLTITPEVMSTSWNKQHLFEERIEWCDALALGPGLGRDAQAQQIMQRLSSLKVPK--VWDADALYFLAHNPSYDAQR----------IITPHPVEAARLLGCEVEEVEQDRFAAIRQLQQRYGGVVVLKGAGTLVD-DGKEIAVCLQGNPGMASGGMGDVLTGIIVALLAQKIPLADAAKLGVWLHSSAADLNTKSHG-QRGLLASDLLPHLRELLN</Hsp_hseq>
+      <Hsp_midline>+   R   +HKG  G   +VGG+ GM GA +L ASA    G G   A  + D +  A++   PE+M  + +       + +  +A   G GLG DA A + +  + +    +  V DADAL  L    S DA+           I+TPHP EAARLLG  V +V+ DR AA+R++    G  VVLKG  TLV     EI V   GN G+A+ G GDVL GII +LLAQ +P+ +AA  G WLH +AAD+  +S G   GL A ++ P  R L N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81628981|sp|Q83CM5.1|NNR_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83CM5</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>1.18012e-35</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>RMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDT---ADGLTKRQGINAWTA---GCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAPAARWLRN</Hsp_qseq>
+      <Hsp_hseq>RLLEWKGVFP-LLPKRARDAHKGSYGHVLVIGGDYGMGGAVRMAAEAAARVGAGLVTVATRPEHVPI-VSGPRPELMCHQVAAADDL--KPLLTAATVVVIGPGLGKSDWAKSLLNKVL--ETDLPKVLDADSLNLLAESPSQR------EDWILTPHPGEASRLLGISCNEVQRDRFQAINDLQEKYQGVLVLKGVGTLIKDESQAYYVCPAGNPGMATGGMGDILSGIIGGLVAQRLSLASAAQAGVFIHSMAADRAAEEGG-ERGLLATDLFPHLRVLVN</Hsp_hseq>
+      <Hsp_midline>R+L+    FP +   RA D+HKG++G + V+GG  GM GA  +AA AA  +G G V      + +P  V    PE+M      AD L  +  + A T    G GLG    A   +  VL    D   VLDAD+LN+L+     R      ++ ILTPHP EA+RLLG +  +VQ DR  A+  +       +VLKG  TL+       YV  +GN G+AT G GD+L GIIG L+AQ + +  AA AG ++H  AAD   E  G   GL A ++ P  R L N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|380877057|sp|B5YIM0.1|NNR_THEYD</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Thermodesulfovibrio yellowstonii DSM 11347]</Hit_def>
+  <Hit_accession>B5YIM0</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.12195e-33</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>RAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKV--------RAGFNQDTLPFAVIA-----------GFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEI</Hsp_qseq>
+      <Hsp_hseq>RPKYSHKTRYGHVFVIAGSTGKTGAAMMTAKAALRAGSGLVTMAVPAALKVVFQSKVLEEMILPLPCTMNTLSKQALPEIM----DFVKEKANSIAFGPGVGVNED---IEIILRELILNSSCPIVIDADGLTVLSKILNV--LKDAHSEIVLTPHPGELSRLINIPVKDIEKQRIDIAQKVAQELNVIIVLKGVPTVIAEPQGRVYLNTTGNPGMATGGSGDVLTGIIASLIGQGLSPLYASVFGVYIHGLSGDIASRRKGF-HGLIAGDI</Hsp_hseq>
+      <Hsp_midline>R + SHK  +G + V+ GS G +GA ++ A AA+  G G V        +  F    L   ++              PEIM    D + ++    A+  G G+  D   +E +   L  N    +V+DAD L +LS       L      ++LTPHP E +RL+   V  ++  R    +K+   L   +VLKG  T++A     +Y+N +GN G+AT GSGDVL GII SL+ QG+    A+  G ++HG + D+     G   GL AG+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81553318|sp|Q9X024.1|NNR_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9X024</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>2.87251e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>PVFHLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVR--AGFNQDTLPFAVIAGFPEIM---LDTADGLTKRQG----------INAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGE----IAPAARWLR</Hsp_qseq>
+      <Hsp_hseq>PVHLINSINRYVITREMVR--SLLPERPRDSHKGTYGKVLIIAGSRLYSGAPVLSGMGSLKVGTGLVKLAVPFPQNLI---ATSRFPELISVPIDTEKGFFSLQNLQECLELSKDVDVVAIGPGLGNNEHVREFVNEFL-KTLEKPAVIDADAINVLDTSV----LKERKSPAVLTPHPGEMARLVKKTVGDVKYNYELA-EEFAKENDCVLVLKSATTIVTDGEKTLF-NITGNTGLSKGGSGDVLTGMIAGFIAQGLSPLEASTVSVYLHGFAAELFEQD---ERGLTASELLRLIPEAIRRLK</Hsp_hseq>
+      <Hsp_midline>PV  ++  +R  + +  +R   +   R  DSHKGT+G + ++ GS   SGAPVL+   ++ +G G V+    F Q+ +     + FPE++   +DT  G    Q           ++    G GLG +    E V   L +  ++  V+DADA+N+L T      L       +LTPHP E ARL+  TV  V+ +   A  +        +VLK   T+V   +  ++ N +GN GL+  GSGDVL G+I   +AQG+   EA+    +LHG AA++ ++      GL+A E    I  A R L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81658079|sp|Q7UFW7.1|NNRD_RHOBA</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Rhodopirellula baltica SH 1]</Hit_def>
+  <Hit_accession>Q7UFW7</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>3.52313e-31</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>LRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGF-PEIMLDTADGLTKRQGINAWTA-----------GCGLG-TDAAAVETVAAVLARNRDEAVVLDADALNILSTD---AETR-NLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASD----TEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAAD</Hsp_qseq>
+      <Hsp_hseq>LRIPH----REASAHKGNFGRVLLIGGSRGMAGSIALSSIAALHTGSGLVAAAVPDCIL--DCVAGFHPALMTIGLGDDGEKFADPAWQSLKDRLSAQAAIGCGPGMTTGSGGATIVEGLLAKKDLPLVLDADALNIIAQNDWLSDGRFERSKADAACVLTPHPGELQRLTGASAKDVDAQVEAAA-ELACRLGLTIVVKGGPSHVAYQNGDGGKQVWQNTTGNPGMATAGCGDVLTGIVTSLLGQGLSGPDAAKLGVWIHGRCGD</Hsp_hseq>
+      <Hsp_midline>LR PH    R   +HKG FG + ++GGS GM+G+  L++ AA++ G G V A      L    +AGF P +M        ++    AW +           GCG G T  +   T+   L   +D  +VLDADALNI++ +   ++ R   ++     +LTPHP E  RL G +   V A   AA  ++   LG T+V+KG  + VA  +     +++ N +GN G+ATAG GDVL GI+ SLL QG+   +AA  G W+HG   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|380876986|sp|A6GXW4.1|NNRD_FLAPJ</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Flavobacterium psychrophilum JIP02/86]</Hit_def>
+  <Hit_accession>A6GXW4</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>3.90045e-30</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>FKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQ---DTLPFAVIAGFPEIMLDTADGLTKRQGIN------AWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSA</Hsp_qseq>
+      <Hsp_hseq>YKPIDKYTHKGLQGHALIIGGSYGKMGSVVLASKACIRSGAGLVTAYIPKCGCDIVQISV----PEVMVITDDYLEHIALINFDLNLKSIGIGVGMGQHPDTQHAFFNFLKSNK-LPLVIDADALNILSQNIEWLSLLP--KKAILTPHQKELERLIGKWSSE--EEKLEKVKRLCLEYDLIFVLKGAPTMIV-NNKSTYENTTGNQALATAGSGDVLAGIITSLLAQSYEPINAAIIGVYLHGLTADIAYPKVGYQSFIAS</Hsp_hseq>
+      <Hsp_midline>+K   + +HKG  G   ++GGS G  G+ VLA+ A +  G G V A   +   D +  +V    PE+M+ T D L     IN      +   G G+G            L  N+   +V+DADALNILS + E  +L    K  ILTPH  E  RL+G   ++   ++   V+++        VLKG  T++  ++   Y N +GN  LATAGSGDVL GII SLLAQ      AA  G +LHG  AD+     G  + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|380877056|sp|A1S0R2.1|NNR_THEPD</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Thermofilum pendens Hrk 5]</Hit_def>
+  <Hit_accession>A1S0R2</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>5.16843e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>MFPVFHLSGE------SRRRMLQTALRF------PHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLD----TADG------------LTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAG</Hsp_qseq>
+      <Hsp_hseq>MYPGAELGGELYVHHISYPRALLEDSRLKVETNDPVPLPPRRPDTHKGDYGKALFVAGSRRYMGAPLLCSKSFLKAGGGYSRLATIKSIVPFLGVRA-PEVVYEALEETASGTVAYGNLERILELSKSSDIVA--VGPGLGLEEETLRLVCD-LARSVEKPLIVDGDGLTAVARCGEYISERRAPT--VLTPHAGEMSRLTGKSVEEVRASRVDAALELAGKLKAYVVLKGAHTVIATPDGRAYINLSGNPGMATAGSGDVLVGAIAALYGLGLGFEEAVRMGVFVHGLAGDIAAEERG</Hsp_hseq>
+      <Hsp_midline>M+P   L GE      S  R L    R       P     R  D+HKG +G    V GS    GAP+L + + +  G G  R    +  +PF  +   PE++ +    TA G            L+K   I A   G GLG +   +  V   LAR+ ++ +++D D L  ++   E  +  R     +LTPH  E +RL G +V +V+A R  A  ++   L A VVLKG  T++A  D   Y+N SGN G+ATAGSGDVL G I +L   G+   EA   G ++HG A D+  E  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|380877053|sp|A4H7T9.1|NNR_LEIBR</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Leishmania braziliensis]</Hit_def>
+  <Hit_accession>A4H7T9</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>4.5701e-28</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>546</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>RAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTAD----GLTKRQGINA--WTA----GCGLGTDA---AAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGC---------KNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLV-AASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGV--PVFEAACAGAWLHGAAADVIKESAGIAA-GLSAGEIAPAARWLRN</Hsp_qseq>
+      <Hsp_hseq>RSAVAHKGSCGKVVLIGGDHGFGGAILMSAEACLTIGAGLTRV-LTRPEYVAPLLTRCPEVMVTAVETETSGQLEQQMVEAFEWASTLAVGPGLGTGAYGQAALSAALQQAEMHQDKTLVLDADALNLLAERLHSKEMGAAVGAGKYLPVLPNSIITPHPGEAARLLACRVADVEKDRLAAARRLAAILGGTCLLKGPGTVVHCQSSGKTAIVDAGNAGMASGGMGDVLTGLLAGLAAQRMMHDTFDTTCAAALVHGVAADMVAAEDGRGTRGIRATELIPRIPFIVN</Hsp_hseq>
+      <Hsp_midline>R+  +HKG+ G + ++GG  G  GA +++A A + +G G  R    +      ++   PE+M+   +    G  ++Q + A  W +    G GLGT A   AA+         ++D+ +VLDADALN+L+    ++ +              N I+TPHP EAARLL   VA V+ DR AA R++ AILG T +LKG  T+V   S  +  + ++GNAG+A+ G GDVL G++  L AQ +    F+  CA A +HG AAD++    G    G+ A E+ P   ++ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|75035481|sp|Q4QFL5.1|NNR_LEIMA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Leishmania major]</Hit_def>
+  <Hit_accession>Q4QFL5</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>4.01953e-27</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>RAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIML-----DTADGLTKRQGINA--WTA----GCGLGTDAAAVETVAAVLAR---NRDEAVVLDADALNILS----------TDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLV-AASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGV-PVFEAACAGAWLHGAAADVIKESAG</Hsp_qseq>
+      <Hsp_hseq>RSALAHKGSCGKAILVGGDHGFGGAALMSAEACVTVGAGLTRV-LTRPEYAAPLLTRCPEAMVTAVETDTGEQL-KQQMLEAFEWASTLAVGPGLGTGAYGQAALTAALRHAELHQDKTLVLDADALNLLAGCLHGREGGAAAGARKHLPV-LPNSIITPHPGEAARLLDCRVADVEKDRLAAARRLAAILGGTCLLKGPGTIVHCHSSAKTAIVDAGNAGMASGGMGDVLTGLLAGLAAQRMHDTFDTTCAGALVHGVAADMVAAEDG</Hsp_hseq>
+      <Hsp_midline>R+  +HKG+ G   +VGG  G  GA +++A A + +G G  R    +      ++   PE M+     DT + L K+Q + A  W +    G GLGT A     + A L     ++D+ +VLDADALN+L+               ++L     N I+TPHP EAARLL   VA V+ DR AA R++ AILG T +LKG  T+V   S  +  + ++GNAG+A+ G GDVL G++  L AQ +   F+  CAGA +HG AAD++    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|380877052|sp|B1L3W1.1|NNR_KORCO</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Candidatus Korarchaeum cryptofilum OPF8]</Hit_def>
+  <Hit_accession>B1L3W1</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>5.55744e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>PVFHLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPF-----AVIAGFP-------EIMLDTADGLTKR-QGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEI</Hsp_qseq>
+      <Hsp_hseq>PISYPPEECSKIMVE--LNDPIELPERVRWGHKGSFGKFLAVSGSRNYYGAPYFTALSFLKAGGGYSRLAAPKSIIPFIASKASEVVYIPLEENDQGSISLNNFDLIVRMAEEQDVVALGPGVSTNEETQELILK-LIEAIDKPIIIDGDGLTALSRNIE---VMRGRKETILTPHLGEMSRLTRIPVAEIERRKIEMARSFASQNNCYLVLKGAHSIIAFPDGRCFINMTGNPGMATAGSGDVLTGTIAAMKGIGLSIEDSVRMGVFVHGLAGDLAAEEKG-EDGITATDI</Hsp_hseq>
+      <Hsp_midline>P+ +   E  + M++  L  P     R    HKG+FG    V GS    GAP   A + +  G G  R    +  +PF     + +   P        I L+  D + +  +  +    G G+ T+    E +   L    D+ +++D D L  LS + E   + RG K  ILTPH  E +RL    VA+++  +    R   +     +VLKG  +++A  D   ++N +GN G+ATAGSGDVL G I ++   G+ + ++   G ++HG A D+  E  G   G++A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|380877054|sp|A4HW65.1|NNR_LEIIN</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Leishmania infantum]</Hit_def>
+  <Hit_accession>A4HW65</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>1.78425e-26</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>RAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTAD----GLTKRQGINA--WTA----GCGLGTDAAAVETVAAVLAR---NRDEAVVLDADALNILSTDAETRNLARG---------CKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLV-AASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGV-PVFEAACAGAWLHGAAADVIKESAG</Hsp_qseq>
+      <Hsp_hseq>RSALAHKGRCGKVILVGGDHGFGGATLMSAEACVTVGAGLTRV-LTRPEYAAPLLTRCPEAMVTAVETDTGGQLEQQMLAAFEWASTLAVGPGLGTGAYGQAALTAALRHAEVHQDKTLVLDADALNLLAGRLHGKEGGAAAGAGKHLPVLPNSIITPHPGEAARLLACRVADVEKDRLAAARRLAAILGGTCLLKGPGTIVHCHSSAKTAIVDAGNAGMASGGMGDVLTGLLAGLAAQRMHDTFNTTCAGALVHGVAADMVAAEDG</Hsp_hseq>
+      <Hsp_midline>R+  +HKG  G + +VGG  G  GA +++A A + +G G  R    +      ++   PE M+   +    G  ++Q + A  W +    G GLGT A     + A L     ++D+ +VLDADALN+L+     +                N I+TPHP EAARLL   VA V+ DR AA R++ AILG T +LKG  T+V   S  +  + ++GNAG+A+ G GDVL G++  L AQ +   F   CAGA +HG AAD++    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|614103472|sp|P9WF10.1|NNR_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Mycobacterium tuberculosis CDC1551] &gt;gi|614103477|sp|P9WF11.1|NNR_MYCTU RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WF10</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.85696e-25</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>QTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCK-NLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFE</Hsp_qseq>
+      <Hsp_hseq>DVAARWP-VPGPRDDKYTQGVTGVLA---GSSTYPGAAVLCTGAAVAATSGMVR---YAGTAHAEVLAHWPEVIASPTPAAAGR--VQAWVVGPGLGTDEAG--AAALWFALDTDLPVLVDADGLTML---ADHPDLVAGRNAPTVLTPHAGEFARLAG---APPGDDRVGACRQLADALGATVLLKGNVTVIADPGGPVYLNPAGQSWAATAGSGDVLSGMIGALLASGLPSGE</Hsp_hseq>
+      <Hsp_midline>  A R+P V   R +   +G  G LA   GS+   GA VL   AA+    G VR      T    V+A +PE++         R  + AW  G GLGTD A     A   A + D  V++DAD L +L   A+  +L  G     +LTPH  E ARL G   A    DR  A R++   LGATV+LKG+ T++A     +Y+N +G +  ATAGSGDVL G+IG+LLA G+P  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|74560320|sp|Q8TX67.1|NNR_METKA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Methanopyrus kandleri AV19]</Hit_def>
+  <Hit_accession>Q8TX67</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>3.26298e-25</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCG-----KVRAGFNQDTLPFAVIAGFPEIMLDTAD-GLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILS-TDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAP-AARWLRN-WITE</Hsp_qseq>
+      <Hsp_hseq>SHKGQHGRVLIIGGSRKYVGAPQLAARGALRAGVDLVFLLTVDAVPKND--PNVIYRAVPAERLEPEHLDEVDLEGVDTVVVGPGLGADADSV-GILRELAESFDGMIIVDADGLRGISGVNVDDR--------FVLTPHAGEFRREFGEELGRSLEDRSEAVRRVSEELGCTILLKGRVDVIGSPDGEIRWNVTGTPAMTVGGTGDVLAGVVAGVAARCREGFEAACIGAFVVGSAGCLAERR--LSQGLTAEDVAEYVPKVLRNPWAAE</Hsp_hseq>
+      <Hsp_midline>SHKG  G + ++GGS    GAP LAA  A+  G        V A    D  P  +    P   L+         +G++    G GLG DA +V  +   LA + D  +++DAD L  +S  + + R         +LTPH  E  R  G  + +   DR+ AVR++   LG T++LKG   ++ + D EI  N +G   +   G+GDVL G++  + A+    FEAAC GA++ G+A  + +    ++ GL+A ++A    + LRN W  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2829800|sp|P94368.1|NNRD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P94368</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>6.25715e-24</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>FKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTK------RQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADV</Hsp_qseq>
+      <Hsp_hseq>LPERDAESHKGTYGTALLLAGSDDMPGAALLAGLGAMRSGLGKLVIGTSENVIPL-IVPVLPEATY-WRDGWKKAADAQLEETYRAIAIGPGLPQTESVQQAVDHVL--TADCPVILDAGAL-------AKRTYPKREGPVILTPHPGEFFRMTGVPVNELQKKRAEYAKEWAAQLQTVIVLKGNQTVIAFPDGDCWLNPTGNGALAKGGTGDTLTGMILGMLCCHEDPKHAVLNAVYLHGACAEL</Hsp_hseq>
+      <Hsp_midline>   R  +SHKGT+GT  ++ GS  M GA +LA   AM  G GK+  G +++ +P  ++   PE      DG  K       +   A   G GL    +  + V  VL    D  V+LDA AL         R   +    +ILTPHP E  R+ G  V ++Q  R    ++  A L   +VLKG++T++A  D + ++N +GN  LA  G+GD L G+I  +L        A     +LHGA A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|380877050|sp|B8E2P6.1|NNR_DICTD</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Dictyoglomus turgidum DSM 6724]</Hit_def>
+  <Hit_accession>B8E2P6</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>4.97756e-23</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>VVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIM---LDTADG------------LTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEI</Hsp_qseq>
+      <Hsp_hseq>IIGGSFRYTGAPILSALSALRTGAGMVYLAVPE-KISMVYRGNYPEIIYIPLKDKDGYISYDNLGYILEIIETYGIEAVAIGPGIGINEDVRRLVQDFL-RKVDKKVVVDADALSFVK---DILGDISG-KDVVFTPHYGEMSRIVEESVETISKKRVEIGRNFVERYKLNLIIKGPNSLFFDPKNHVYVNPFADFLLATAGSGDVLTGIIAGFSAQGYSLKEACILGNFVHGYSSVIWKKYKG-SVGLTASDI</Hsp_hseq>
+      <Hsp_midline>++GGS   +GAP+L+A +A+  G G V     +  +       +PEI+   L   DG            + +  GI A   G G+G +      V   L R  D+ VV+DADAL+ +    +      G K+++ TPH  E +R++  +V  +   R    R         +++KG  +L       +YVN   +  LATAGSGDVL GII    AQG  + EA   G ++HG ++ + K+  G + GL+A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|81436905|sp|Q833Y3.1|NNRD_ENTFA</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Enterococcus faecalis V583]</Hit_def>
+  <Hit_accession>Q833Y3</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>8.05616e-23</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>VFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKV-------RAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEA-VVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAAD</Hsp_qseq>
+      <Hsp_hseq>VITQRPSDSYKSNFGRVVLIGGNRQYGGAIIMSTEACINSGAGLTTVITDVKNHGPLHARCPEAMVVGFEETVLLT----NVVEQADVILIGPGLGLDATAQQILKMVLAQHQKQQWLIIDGSAITLFSQGNFSLTYP---EKVVFTPHQMEWQRLSHLPIEQ---QTLANNQRQQAKLGSTIVLKSHRTTIFHAG-EPFQNTGGNPGMATGGTGDTLAGIIAGFLAQFKPTIETIAGAVYLHSLIGD</Hsp_hseq>
+      <Hsp_midline>V   R  DS+K  FG + ++GG+    GA +++  A +  G G           G      P A++ GF E +L T       +  +    G GLG DA A + +  VLA+++ +  +++D  A+ + S    +       + ++ TPH  E  RL    + Q      A  ++  A LG+T+VLK H+T +  +  E + N  GN G+AT G+GD L GII   LAQ  P  E      +LH    D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2829822|sp|P96051.1|NNRD_STRTR</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Streptococcus thermophilus]</Hit_def>
+  <Hit_accession>P96051</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.65616e-22</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>HVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIM----LDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNR-DEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTA-AVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQ--GVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAPAARWLRN</Hsp_qseq>
+      <Hsp_hseq>QVIRPRLRGSHKGSYGRVLLVGGLYPYGGAIIMAAIACVNSGAGLVTVATDRENI-IALHAHLPEAMAFDLRETERFLDKLRAADVILIGSGLGEEETADWALELVLANIRSNQNLVVDGSALNLLAKKNQS-SLPK-C-HLILTPHQKEWERLSGLAISEQSVSNTQRALEEFQS--GTILVAKSHKTAVYQG-AEVTHLEVGGPYQATGGMGDTLAGMVAGFLAQFASTDSYKAVIVATWLHSAIADNIAENAYVVLPTRISKAIPS--WMKK</Hsp_hseq>
+      <Hsp_midline> V + R   SHKG++G + +VGG     GA ++AA A +  G G V    +++ +  A+ A  PE M     +T   L K +  +    G GLG +  A   +  VLA  R ++ +V+D  ALN+L+   ++ +L + C +LILTPH  E  RL G  +++     T  A+ +  +  G  +V K HKT V     E+   E G    AT G GD L G++   LAQ      ++A     WLH A AD I E+A +       +  P+  W++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|13638620|sp|P37391.2|NNR_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>P37391</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.05608e-22</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>KGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAE---TRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIG</Hsp_qseq>
+      <Hsp_hseq>KYTQGVTGVLAGSSTYPGAAVLCTGAAVAATSGMVRYAGSAYT---QVLAHWPEVIASATPTAAGR--VQSWVVGPGLGIDATA--TAALWFALETDLPVLVDADGLTMLAAHPDLVINRN-----APTVLTPHASEFARLAGTPPGD---DRVGACRKLADSFGATVLLKGNVTVIADPGGPVYLNPAGQSWAATAGSGDVLSGMIG</Hsp_hseq>
+      <Hsp_midline>K T G   V+ GS+   GA VL   AA+    G VR   +  T    V+A +PE++         R  + +W  G GLG DA A  T A   A   D  V++DAD L +L+   +    RN        +LTPH +E ARL GT       DR  A RK+    GATV+LKG+ T++A     +Y+N +G +  ATAGSGDVL G+IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81742290|sp|Q8DGC3.1|NNR_THEEB</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Thermosynechococcus elongatus BP-1]</Hit_def>
+  <Hit_accession>Q8DGC3</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.30467e-21</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>472</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDT-------LPFAVIAGFPEIMLDTADGLTKRQGINAWTA-GCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAA</Hsp_qseq>
+      <Hsp_hseq>SRSPITHKYQQGQLLLIGGSGQFGGSILLSALAARCTGVGMLVVAVPQSLKSLVLSRVPDAIVVGCPETPRGAIARLPEGLELGKFSAIACGPGLTPEAVSVVATVL--RAETSLVLDADALNILAT-LSPWPLPSGT---ILTPHYGEFRRLFPDLVGTA-GDRLDQVIAAARWSNAIVLLKGARTAIASARGDLWINPHSTPALARGGSGDVLTGLIGGLLAQQ-EALRATYGGVWWHAQAA</Hsp_hseq>
+      <Hsp_midline>+R+  +HK   G L ++GGS    G+ +L+A AA   G G +     Q         +P A++ G PE        L +   +  ++A  CG G    AV  VA VL    + ++VLDADALNIL+T      L  G    ILTPH  E  RL    V     DR   V        A V+LKG +T +A++  ++++N      LA  GSGDVL G+IG LLAQ      A   G W H  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2842610|sp|Q58981.1|NNR_METJA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58981</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.49692e-21</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>KARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAM-------YLGCGKVRAGFNQDTLPFAVIAG--FPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAG</Hsp_qseq>
+      <Hsp_hseq>RKRDSNSHKGQNGKVLIIGGSKDFYGAPILAGLAALKIVDLVGILSVGKVIDKVNHPEFIMYRVEGDYLSSQHVDYTLEIAKKYDV--VVLGNGLGANNRTKAFLNEFLAK-YDGKVVIDADAIKVIDY-----NNFEFSENYIFTPHKREF-EYMGIDLDNIEN------------IKSTIVLKGKYDIIFNANN-LKINKTGNAGLTKGGTGDVLAGLIGALFAVN-EAFLSACCGAFINGYAGDLLLKEKG</Hsp_hseq>
+      <Hsp_midline>+ R  +SHKG  G + ++GGS    GAP+LA  AA+        L  GKV    N        + G       +D    + K+  +     G GLG +      +   LA+  D  VV+DADA+ ++       N     +N I TPH  E    +G  +  ++             + +T+VLKG   ++  ++  + +N++GNAGL   G+GDVL G+IG+L A     F +AC GA+++G A D++ +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|380876989|sp|F9UN92.1|NNRD_LACPL</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Lactobacillus plantarum WCFS1]</Hit_def>
+  <Hit_accession>F9UN92</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.14866e-21</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>RAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIML----DTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNR-DEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRT-AAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAAD</Hsp_qseq>
+      <Hsp_hseq>RPADSHKGNYGRIMLIGGNQNFGGAIIMAATAATYSGAGLVTVATDPSNF-TSLHARLPEAMVIDYHQTDTLLNLLAGMDVIVIGPGLGTDTVADQLLTAVLAATHVPQRLVIDGSALTLLAQQA--RPLP--ATDIVVTPHQMEWQRLSGIAI----KDQTPTANHDAQQRLGVMAVVKAHRTTV-YTDERVWFNPGGTPAMATGGMGDTLAGMIGGFVSQFHNFTDAVLSAVYLHSAIAD</Hsp_hseq>
+      <Hsp_midline>R  DSHKG +G + ++GG+    GA ++AA+AA Y G G V    +      ++ A  PE M+     T   L    G++    G GLGTD  A + + AVLA     + +V+D  AL +L+  A  R L     ++++TPH  E  RL G  +     D+T  A       LG   V+K H+T V  +D  ++ N  G   +AT G GD L G+IG  ++Q     +A  +  +LH A AD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|380877111|sp|Q2G2P8.2|NNRD_STAA8</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Staphylococcus aureus subsp. aureus NCTC 8325]</Hit_def>
+  <Hit_accession>Q2G2P8</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>6.80104e-21</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>RAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIM-LDTADG--LTKR-QGINAWTAGCGLGTDAAAVETVAAVLAR-NRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLH</Hsp_qseq>
+      <Hsp_hseq>RKEDSHKGDYGKILLIGGSANLGGAIMLAARACVFSGSGLITVA-THPTNHSALHSRCPEAMVIDINDTKMLTKMIEMTDSILIGPGLGVDFKGNNAITFLLQNIQPHQNLIVDGDAITIFS---KLKPQLPTCR-VIFTPHLKEWERLSGIPIEEQTYERN---REAVDRLGATVVLKKHGTEIFFKDEDFKLT-IGSPAMATGGMGDTLAGMITSFVGQFDNLKEAVMSATYTH</Hsp_hseq>
+      <Hsp_midline>R EDSHKG +G + ++GGSA + GA +LAA A ++ G G +       T   A+ +  PE M +D  D   LTK  +  ++   G GLG D      +  +L      + +++D DA+ I S   + +     C+ +I TPH  E  RL G  + +   +R    R+    LGATVVLK H T +   D +  +   G+  +AT G GD L G+I S + Q   + EA  +  + H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|81538511|sp|Q9CIU7.1|NNRD_LACLA</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>Q9CIU7</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>1.08573e-20</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>VFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGI----NAWTAGCGLGTDAAAVET-VAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGV-PVFEAACAGAWLHGAAADVI</Hsp_qseq>
+      <Hsp_hseq>VIKKRKKASYKGTYGRLLVIGGNRQYGGAAILVTTSAVYSGAGLVSVALAKENHS-ALQARLPEAMTLDFDDLIKLREVAKAADVIVIGPGLGLERLDLLTEVLNLLTEN--QKLVIDGSALTLFAREHLDLPFP---ENTVFTPHEMELERLSGLKIGQQTKEE---VQDFVNQLGAIVVAKSSETRIFAPNRESFILKIGSPAQATGGMGDTLAGMVGGFLAQFHGETEEVVAAATYLHSLIASVL</Hsp_hseq>
+      <Hsp_midline>V K R + S+KGT+G L V+GG+    GA +L  ++A+Y G G V     ++    A+ A  PE M    D L K + +    +    G GLG +   + T V  +L  N  + +V+D  AL + + +          +N + TPH  E  RL G  + Q   +    V+     LGA VV K  +T + A + E ++ + G+   AT G GD L G++G  LAQ      E   A  +LH   A V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|380876994|sp|A9A498.1|NNRD_NITMS</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Nitrosopumilus maritimus SCM1]</Hit_def>
+  <Hit_accession>A9A498</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>3.62278e-20</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>RRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAM-------YLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQG-----INAWTAGCGLGTDA--AAVETVAAVLARNRDEAVVLDADAL--NILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGI</Hsp_qseq>
+      <Hsp_hseq>RKTLTTAL-VKKFIPSRKSKSRKGENGIVLVVGGSYIYHGAPILSSIAALRSGTDLVYTSVPKINVASTRSVSPNLIVIPLVDQKL-TRGAVNKLLGALPRKLDSATIGMGLAIQEKNALLHLVKSLL--DRDVRLSLDASALIPEVLPLLAN--------KNVVVTPHAGEFKRLFGQVPSNSKNERIKLVEEKAKEFGITVLLKGSTDIISNGSTT-YLYEKKIPAMTVGGTGDVLSGLVAGLLSKNRKPLESAAAAAFINGLAGKVVQKKLGL</Hsp_hseq>
+      <Hsp_midline>R+ L TAL       +R   S KG  G + VVGGS    GAP+L++ AA+       Y    K+     +   P  ++    +  L T   + K  G     +++ T G GL      A +  V ++L  +RD  + LDA AL   +L   A         KN+++TPH  E  RL G   +  + +R   V +     G TV+LKG   +++   T  Y+ E     +   G+GDVL G++  LL++     E+A A A+++G A  V+++  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|81761414|sp|Q8NSS3.1|NNR_CORGL</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Corynebacterium glutamicum ATCC 13032]</Hit_def>
+  <Hit_accession>Q8NSS3</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>6.48066e-20</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>502</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>DSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCK-NLILTPHPAEAARLL------GTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQ</Hsp_qseq>
+      <Hsp_hseq>DHDKYSGGIVGIVAGSGTYPGAAVLSVKAAVRATSAMVR--YVGPALNF-VIQSLPEVVATQSLATAGR--VQAWVHGPGRGLEAEQSAELAELL--SRPEPVLIDADSLSLLQLSAELRQALRERKAPTVLTPHKGEFERIAAELRSEGVEIPQADKDPIGAAQALAKEFDCCVLLKGKYTVIAAHDFVHAIN-AGHSWLATPGSGDVLSGLVGAHLAQ</Hsp_hseq>
+      <Hsp_midline>D  K + G + +V GS    GA VL+  AA+      VR  +    L F VI   PE++   +     R  + AW  G G G +A     +A +L  +R E V++DAD+L++L   AE R   R  K   +LTPH  E  R+       G  + Q   D   A + +       V+LKG  T++AA D    +N +G++ LAT GSGDVL G++G+ LAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|380876985|sp|C4LZV8.1|NNRD_ENTHI</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ATP-dependent NAD(P)HX dehydratase [Entamoeba histolytica]</Hit_def>
+  <Hit_accession>C4LZV8</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.02363e-19</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>HLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIML--------DTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLAR--NRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAIL-GATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLA</Hsp_qseq>
+      <Hsp_hseq>QLSIEARLKSIIPQLTF---------DSHKGACGKVAIIGGSVEYTGAPYFSGISALRVGCDLAHIFCHQDA-AIAIKSYSPELIVHPFFKEDYDTNEVLKWLDTVQALVVGPGLGRDESVMEATLSILKQAITKNIIIILDADGLFLINNHLD---LIRGKKNIILTPNVMEYRRLCDV----LKVSHNTPCNKVALMLGGVTILQKGQVDEVSNGSYTVHVKHVGSPR-RCGGQGDVLSGSLATFVA</Hsp_hseq>
+      <Hsp_midline> LS E+R + +   L F         DSHKG  G +A++GGS   +GAP  +  +A+ +GC       +QD    A+ +  PE+++        DT + L     + A   G GLG D + +E   ++L +   ++  ++LDAD L +++   +   L RG KN+ILTP+  E  RL       ++        K+  +L G T++ KG    V+     ++V   G+      G GDVL G + + +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|380876984|sp|B5DHB2.1|NNRD_DROPS</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ATP-dependent NAD(P)HX dehydratase [Drosophila pseudoobscura pseudoobscura]</Hit_def>
+  <Hit_accession>B5DHB2</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>3.42536e-19</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>FPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGF-PEIM----LDTADGLTKRQG----INAWTAGCGLGTDAAAVETVAAV--LARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVL-KGHKTLVAASDT-EIYVNESGNAGLATAGSGDVLGGIIGSLLA------QGVPVFEAACAGAWL</Hsp_qseq>
+      <Hsp_hseq>FKTIVPKLTNDKYKGQYGRIGVIGGSLEYTGAPFFAAISSMKVGADLSHVFCQANAAP--VIKSYSPDLIVHPVLDCLDAVDKIQPWLERLHVIVIGPGLGREPLILQTVTNVLKLCTKLQKPIVIDADGLFILNDNID---LVSGQRNIILTPNAMEFRRLFGEDVNDVR-------QKMSCLGDGVVVLEKGVNDKIHIPHTNEVYSMPTGGSGRRCGGQGDLLSGSLATFFYWSLQSNQPNPAYIAACASSYL</Hsp_hseq>
+      <Hsp_midline>F  +      D +KG +G + V+GGS   +GAP  AA ++M +G          +  P  VI  + P+++    LD  D + K Q     ++    G GLG +   ++TV  V  L     + +V+DAD L IL+ + +   L  G +N+ILTP+  E  RL G  V  V+       +K+  +    VVL KG    +    T E+Y   +G +G    G GD+L G + +         Q  P + AACA ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|380877055|sp|D1BAA5.1|NNR_THEAS</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Thermanaerovibrio acidaminovorans DSM 6589]</Hit_def>
+  <Hit_accession>D1BAA5</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>6.68531e-19</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>499</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>SHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQD-------TLPFAVIAGFP-----EIMLDTADGLTKRQG--INAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIA</Hsp_qseq>
+      <Hsp_hseq>QNKSHRGMVAVLGGSGMFGGAPFLSAMGALCGGAGWVVCGVPSQWAPTYGHLVPESMVLPLPSDGRGDLTSEAWDVIASSYGDRIRCLVLGPGMGRGEGASSLVRRVLS-SWDGPLVLDADGLRILADTGLPRE-AR-C-SLWITPHEGEAACLLGTSSRWVVENRRDAAEALASRFGG-VVLKGRNSVVMRGEA-LSVVCAGHPNLSVPGSGDVLAGIIGASIARMGDVEEAVCLAVILHGVAGERLA-SSGRADGILAREIA</Hsp_hseq>
+      <Hsp_midline> +K   G +AV+GGS    GAP L+A  A+  G G V  G            +P +++   P     ++  +  D +    G  I     G G+G    A   V  VL+ + D  +VLDAD L IL+     R  AR C +L +TPH  EAA LLGT+   V  +R  A   + +  G  VVLKG  ++V   +  + V  +G+  L+  GSGDVL GIIG+ +A+   V EA C    LHG A + +  S+G A G+ A EIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|380877051|sp|A2BLC0.1|NNR_HYPBU</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Hyperthermus butylicus DSM 5456]</Hit_def>
+  <Hit_accession>A2BLC0</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>8.93595e-19</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>KARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKV---------RAGFNQDTLPFAVIAGFPEIMLDTADGLTKR-QGINAWTAGCGLGTDAAAVETVAAVLAR--NRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAIL---GATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAA</Hsp_qseq>
+      <Hsp_hseq>RPRSWKAHKGSSGRVLIVGGSQDYVGAPILAALAAERSGVDLVFLAAPEHVTRAASHHPTIIPVPLRGSPNIHPDHVKKLEQLLDRVDAIAIGMGVGLSDETKEAIPQIIVKALEKEKPVVVDADGIKILGE----RGIPNSNRKLVVTPHQREFQILFGDALSGVDEDIKARALKAAEKAQRHGLVILLKGPIDIVTDGE-RIRLNRTGVPAMSVGGTGDTLAGITAALLARKLEPFHAASIAAFVNGLA</Hsp_hseq>
+      <Hsp_midline>+ R+  +HKG+ G + +VGGS    GAP+LAA AA   G   V         RA  +  T+    + G P I  D    L +    ++A   G G+G      E +  ++ +   +++ VV+DAD + IL      R +    + L++TPH  E   L G  ++ V  D  A   K        G  ++LKG   +V   +  I +N +G   ++  G+GD L GI  +LLA+ +  F AA   A+++G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|81508902|sp|Q8Y6R2.1|NNRD_LISMO</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q8Y6R2</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.18555e-18</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>RAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLT----KRQGINAWTAGCGLGTDAAAVETVAAVLARNRD-EAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVI</Hsp_qseq>
+      <Hsp_hseq>REDETHKGDYGRVLIVAGNKQFGGAAIMAAEACVKSGAGLTTVASDSVNRP-ALQTRIPECMFIDYENITSLSEQISQFDTILIGPGLGLDAYAEEIFRLVLQKSTEHQQVIIDGDGITIYAKGENPHPAAK----LTFTPHAGEWERL------KVLAPDAVTPTDVALAIDATIVLKGHRTKVYSGESA-WQNMYGTPAMATGGMGDTLAGTICGLMAQTEKPITGTLAAVFLHSYIGEIL</Hsp_hseq>
+      <Hsp_midline>R +++HKG +G + +V G+    GA ++AA A +  G G      +    P A+    PE M    + +T    +    +    G GLG DA A E    VL ++ + + V++D D + I +        A+    L  TPH  E  RL      +V A        +   + AT+VLKGH+T V + ++  + N  G   +AT G GD L G I  L+AQ         A  +LH    +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|380877110|sp|A0RU82.2|NNRD_CENSY</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Cenarchaeum symbiosum A]</Hit_def>
+  <Hit_accession>A0RU82</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.43754e-18</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>ARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKR-----------QGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADAL--NILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGI</Hsp_qseq>
+      <Hsp_hseq>SRRRDSRKGENGKVLVVGGSYIYHGAPIFSSVAALRSGCDLVYTAVPKINAPATRAASPSMIVIPLADQKLTRGAARKLAGQIPTGLDSATIGMGLAIAERSALKVLVVALVDMDVRISLDAGALVREILGDIS--------GKNCLVTPHAGEFKRLFGESPPADIEGRASMVERLAQEHGITILLKG-PTDVISDGNRTLLNDRGAPAMTVGGTGDVLSGIAAGILARNRSPLESAAAAAYINGLAGEAAQEMHGL</Hsp_hseq>
+      <Hsp_midline>+R  DS KG  G + VVGGS    GAP+ ++ AA+  GC  V     +   P    A    I++  AD    R            G+++ T G GL     +   V  V   + D  + LDA AL   IL   +         KN ++TPH  E  RL G +       R + V ++    G T++LKG  T V +      +N+ G   +   G+GDVL GI   +LA+     E+A A A+++G A +  +E  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|81343844|sp|O67377.1|NNR_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67377</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.66769e-18</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>PVFHLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTA-----------DGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADV</Hsp_qseq>
+      <Hsp_hseq>PEF-LAKDVKRDLLRKSDLKPY---KREPDTYKTKEGSVLLVGGSVGKTGAVIMSAKAASRAGAGLVTVGIPRELNPIFESLLIEEMSLPLSGTSRLSVFCVEEILELKDRFHALGIGMGMDRYEEGQDIVISLLEK-WEKPILIDADGINNLADYGDYTPLKDREIPAVLTPHIGEFSRLTGYDTKTITYNQIDIAQEFSEKNRCYLVLKGARTVISTPDGRAYLFADGTPALAKGGTGDVLAGILTALIAK-MDTEEALKLGVYLHGLAGKV</Hsp_hseq>
+      <Hsp_midline>P F L+ + +R +L+ +   P+    R  D++K   G++ +VGGS G +GA +++A AA   G G V  G  ++  P        E+ L  +           + L  +   +A   G G+       + V ++L +  ++ +++DAD +N L+   +   L       +LTPH  E +RL G     +  ++    ++        +VLKG +T+++  D   Y+   G   LA  G+GDVL GI+ +L+A+ +   EA   G +LHG A  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|81449893|sp|Q8DQD2.1|NNRD_STRR6</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Streptococcus pneumoniae R6]</Hit_def>
+  <Hit_accession>Q8DQD2</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>5.79917e-18</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>VFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGINAWTA-------GCGLGTDAAAVETVAAVLA-RNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLV-AASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQ--GVPVFEAACAGAWLHGAAADVIKES</Hsp_qseq>
+      <Hsp_hseq>VIIERSRSSHKGDYGRLLLLGGTYPYGGAIIMAALAAVKNGAGLVTVGTDRENIP-ALHSHLPEAM---AFALQDKQLLKEQLEKAEVVLLGPGLGDNAFGEDLVKQVFAGLKQNQILIVDGGALTILARTS----LSFPSSQLILTPHQKEWEKLSGITIEKQKEDTTASAL-TSFPKGTILVEKGPATRVWQAGQSDYYQLQVGGPYQATGGMGDTLAGMIAGFVGQFRQASLYERVAVATHLHSAIAQELSQE</Hsp_hseq>
+      <Hsp_midline>V   R+  SHKG +G L ++GG+    GA ++AA AA+  G G V  G +++ +P A+ +  PE M   A  L  +Q +            G GLG +A   + V  V A   +++ +++D  AL IL+  +    L+     LILTPH  E  +L G T+ + + D TA+        G  +V KG  T V  A  ++ Y  + G    AT G GD L G+I   + Q     ++E       LH A A  + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|81795793|sp|Q8PBP3.1|NNRD_XANCP</Hit_id>
+  <Hit_def>RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase [Xanthomonas campestris pv. campestris str. ATCC 33913]</Hit_def>
+  <Hit_accession>Q8PBP3</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.16604e-17</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIML----DTADGLTKR--QGINAWTAGCG---LGTDAAAVETVAAVLARNRDEAV---VLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAGIAAGLSAGEIAP</Hsp_qseq>
+      <Hsp_hseq>APGGDKEQRGRVLIVGGSARVPGAVMLAGEAALRAGAGKLQLATAASVAPGMALA-MPEALVLGLGENGQGEIVRGHRALDAAMSACDAAVIGPGMASTNTTAALVKRAIDQAVCTLVLDAGALS-------PRLRAPLGRPFVLTPHAGEMAALAGDDKAAVEAAPADYALAFAKKMRSVVIVKGADSFVAGPDGALWVHRGGVPGLGTSGSGDTLAGLIAGFAARGCDALTAALWGVFVHATAGKQLAKRIGT-VGFLAREIPP</Hsp_hseq>
+      <Hsp_midline>A    K   G + +VGGSA + GA +LA  AA+  G GK++        P   +A  PE ++    +   G   R  + ++A  + C    +G   A+  T AA++ R  D+AV   VLDA AL+        R  A   +  +LTPH  E A L G   A V+A            + + V++KG  + VA  D  ++V+  G  GL T+GSGD L G+I    A+G     AA  G ++H  A   + +  G   G  A EI P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|74563034|sp|Q8ZV04.1|NNR_PYRAE</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Pyrobaculum aerophilum str. IM2]</Hit_def>
+  <Hit_accession>Q8ZV04</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>3.57815e-17</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>FPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCG-----------KVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKR-QGINAWTAGCGLGTDAAAVETVAAVLAR-NRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAAD</Hsp_qseq>
+      <Hsp_hseq>FAYLNFTRRADSKKGDHGRVLVIGGSLEYSGAPVYVALAALRAGVDLAVIAAPEPAAYAAKAISPDII--AIPLEGPRLSTKHVDKLASLAERFNVVAMGPGLGVEEETQEAVRELFRRLAGKRAMVIDADALKALRG-------VRASGAVVYTPHAGEFKALTGAEPPQSLSERMAVVREQAAALGGVILLKGRYDVIS-DGVRVKVNMTGTPAMTVGGTGDVLTGLVAAFLTKTSDPLEAAAVAAFVNGLAGE</Hsp_hseq>
+      <Hsp_midline>F ++   R  DS KG  G + V+GGS   SGAPV  A AA+  G                   + D +  A+    P +     D L    +  N    G GLG +    E V  +  R     A+V+DADAL  L          R    ++ TPH  E   L G    Q  ++R A VR+  A LG  ++LKG   +++     + VN +G   +   G+GDVL G++ + L +     EAA   A+++G A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|121721486|sp|Q2FT57.1|NNR_METHJ</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Methanospirillum hungatei JF-1]</Hit_def>
+  <Hit_accession>Q2FT57</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>6.48109e-17</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>VFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEI--MLDTAD-----GLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADAL-NILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAG</Hsp_qseq>
+      <Hsp_hseq>ILRNRNPDSHKGVGGNILVIGGGP-YQGAPYLAGLAALRAGADIVRV-VSPHYLPEPDIIHVPTAGDRITTADLATIIPLCKQA--DVVLCGPGLGPESHDVITSLAPYIRKG----VFDADALRDPLPVAGES----------LYTPHAGEFARMSGLSPGKTPRERAHAIMK-AQILG-TVLLKGAVDVIC-DGSRVRFNQTGTPAMTTGGTGDVLAGVCAALMAV-VPAFEAACIGAYVTGRAGELITQTCG</Hsp_hseq>
+      <Hsp_midline>+ + R  DSHKG  G + V+GG     GAP LA  AA+  G   VR   +   LP   I   P     + TAD      L K+   +    G GLG ++  V T  A   R      V DADAL + L    E+          + TPH  E AR+ G +  +   +R  A+ K   ILG TV+LKG   ++    + +  N++G   + T G+GDVL G+  +L+A  VP FEAAC GA++ G A ++I ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81709719|sp|Q7NIE6.1|NNR_GLOVI</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Gloeobacter violaceus PCC 7421]</Hit_def>
+  <Hit_accession>Q7NIE6</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.6673e-16</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>479</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>ARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAA-------MYLGCGKVRAGFNQDTLPFAVIAGFPEI---MLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAAD</Hsp_qseq>
+      <Hsp_hseq>ARPATAHKYSVGTLLAVAGSRQYGGAATLVALGARSGGPGMLYLALPESLADRVAARLPEAIVHPCPQAENGALADLPGVDLEK-FDAVVCGPGLGK---AEQALVLRLAREAAGALVLDADGLNLIAGQLEV--LAQRAAPTVLTPHPGEFKRLFPDIAL---ADRQGAARTAALRSHAWIVLKGARTVVASPSGQVWVNPGGSPALARGGSGDVLAGLLGALLAQCENPEPAVLGAVWWHAAAGE</Hsp_hseq>
+      <Hsp_midline>AR   +HK + GTL  V GS    GA  L A  A       +YL   +  A      LP A++   P+     L    G+   +  +A   G GLG    A + +   LAR    A+VLDAD LN+++   E   LA+     +LTPHP E  RL         ADR  A R       A +VLKG +T+VA+   +++VN  G+  LA  GSGDVL G++G+LLAQ      A     W H AA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|123529526|sp|Q2S580.1|NNR_SALRD</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Salinibacter ruber DSM 13855]</Hit_def>
+  <Hit_accession>Q2S580</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>2.07433e-16</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>FKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAG----FPEIMLDTADG------------LTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAAD</Hsp_qseq>
+      <Hsp_hseq>WPARDPDAYKYSVGTALIVGGAPPFAGAPVMAAKAAGRSGAGYVRCAGPETI--HATLAGALTTIPTLPLPTGDDDGIAPDAALDALAEAADTADAILVGPGLGRAPGTAQFVRR-LVRTVDTPLVLDADGLNALAGHIDELADQRQAP-WVLTPHAGEFRRLAGEEGALT--DRVRAAQTYAERWDAVCLLKGMPSVVAGPTGRTVLGSIATPALATAGTGDVLAGQCVGLMAQGLSPLNAAAAALHVGGAAAE</Hsp_hseq>
+      <Hsp_midline>+ AR  D++K + GT  +VGG+   +GAPV+AA AA   G G VR    +     A +AG     P + L T D                    +A   G GLG      + V   L R  D  +VLDAD LN L+   +     R     +LTPH  E  RL G   A    DR  A +       A  +LKG  ++VA       +       LATAG+GDVL G    L+AQG+    AA A   + GAAA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|380877004|sp|E3XDZ8.1|NNRD_ANODA</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ATP-dependent NAD(P)HX dehydratase [Anopheles darlingi]</Hit_def>
+  <Hit_accession>E3XDZ8</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>3.45581e-16</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>LSGESRRRMLQTALRF-PHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGF-PEI----MLDTADGLTK----RQGINAWTAGCGLGTDAAAVETVAAV--LARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDT-EIYVNESGNAGLATAGSGDVLGGIIGSL</Hsp_qseq>
+      <Hsp_hseq>MSSENKSPLLERARNLVPHLETER----HKGQAGRIGIVGGSLEYTGAPYFAAISALKVGADLVHVFCPQAAA--QVIKGYSPELIVHPLLDSNNAIIQIEPWLERLHVLVIGPGLGRDRLILQTVAELIRICRQLQKPLIIDADGLFLITQDI---GLVKDYYGVILTPNAIEFCRLFGKDRDQT----MASLGRLGA--GVTVIEKGLNDRIYDSLTSEKYECPQGGSGRRCGGQGDLLAGALATF</Hsp_hseq>
+      <Hsp_midline>+S E++  +L+ A    PH+   R    HKG  G + +VGGS   +GAP  AA +A+ +G   V     Q      VI G+ PE+    +LD+ + + +     + ++    G GLG D   ++TVA +  + R   + +++DAD L +++ D     L +    +ILTP+  E  RL G    Q      A++ ++GA  G TV+ KG    +  S T E Y    G +G    G GD+L G + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|74513492|sp|O29407.1|NNR_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional NAD(P)H-hydrate repair enzyme Nnr; AltName: Full=Nicotinamide nucleotide repair protein; Includes: RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ADP-dependent NAD(P)HX dehydratase; Includes: RecName: Full=NAD(P)H-hydrate epimerase; AltName: Full=NAD(P)HX epimerase [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O29407</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>8.46535e-16</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>RAEDSHKGTFGTLAVVGGSAGMSGAPVLA-----------ASAAMYLGCGKVRAGFNQDTLPFAVIAGFPEIM-LDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAVLARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIGAILGATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLLAQGVPVFEAACAGAWLHGAAADVIKESAG</Hsp_qseq>
+      <Hsp_hseq>RYEDAHKGVHGKVLVVGG-GDYTGAPALASLAALYAGADIVTTAVPMAIRKVVASFSPNLIVRGVGEERIEMKNLEELEELVKRHDV--VVAGMGVGENPEFKEVVEELLKSCK--KAVLDAQGI--------VDSVPENCE-CILTPHRGEFGRVFGDTEVQKAALKAKAV----------ILLKGREDVITDG-SRVKVNRSGNAGMTVGGTGDVLAGIAAAFLCND-DAFHSACAAAFLNGLAGDVCFEKFG</Hsp_hseq>
+      <Hsp_midline>R ED+HKG  G + VVGG    +GAP LA            + A+ +   KV A F+ + +   V     E+  L+  + L KR  +    AG G+G +    E V  +L   +    VLDA  +          ++   C+  ILTPH  E  R+ G T  Q  A +  AV          ++LKG + ++    + + VN SGNAG+   G+GDVL GI  + L      F +ACA A+L+G A DV  E  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|380876992|sp|C7YKN8.1|NNRD_NECH7</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ATP-dependent NAD(P)HX dehydratase [Nectria haematococca mpVI 77-13-4]</Hit_def>
+  <Hit_accession>C7YKN8</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>3.7763e-15</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>EDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGC-----------GKVRAGFNQDTL--PFAVIAGFPEIMLDTADGLTKRQG-----------------INAWTAGCGLGTDAAAVETVAAVL--ARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQ--ADRTAAVRKIGAIL-GATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSLL</Hsp_qseq>
+      <Hsp_hseq>ESFHKGQLGRVAVIGGSENYTGAPYFSAMASARLGCDMSHVICTPAAATVIKSYSPNLMVHPLMRQSPAPNPNQDPATRDTSKDPDSDPEHISAQIIDLLPRLHVLVVGPGLGRDPLMHATVARVIRAARNRGTPVVLDADALILVQKDP---GLVRGYDGAVLTPNVVEFAKLCEALKVDVSEGASETARVEALAKTLEGVTVIQKGAKDYISNGETTLTVDLQGGRK-RSGGQGDTLTGSIATFL</Hsp_hseq>
+      <Hsp_midline>E  HKG  G +AV+GGS   +GAP  +A A+  LGC             V   ++ + +  P    +  P    D A   T +                   ++    G GLG D     TVA V+  ARNR   VVLDADAL ++  D     L RG    +LTP+  E A+L       V   A  TA V  +   L G TV+ KG K  ++  +T + V+  G     + G GD L G I + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|380877006|sp|E1BNQ4.1|NNRD_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ATP-dependent NAD(P)HX dehydratase; AltName: Full=Carbohydrate kinase domain-containing protein; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>E1BNQ4</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>3.99811e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>VFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGF-PEIM----LDTADGLTKRQG----INAWTAGCGLGTDAAAVETVAAVL--ARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARL----LGTTVAQVQADRTAAVRKIGAILG-ATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSL</Hsp_qseq>
+      <Hsp_hseq>VVPALTTKKHKGQDGRIGVVGGCREYTGAPYFAAISALKVGADLSHVFCTQEAAP--VIKAYSPELIVHPVLDSPEAVRDVEQWLPRLHALVVGPGLGRDDALLENVKGILEASKARGIPVVIDADGLWLI---AQQPALIQGYRKAVLTPNHVEFGRLSEAVLGVPLD--GGDRHGAVLRLSQALGNVTVVQKGEQDVISDGEQVLECSQEGS-GRRCGGQGDLLSGSLGVL</Hsp_hseq>
+      <Hsp_midline>V  A     HKG  G + VVGG    +GAP  AA +A+ +G         Q+  P  VI  + PE++    LD+ + +   +     ++A   G GLG D A +E V  +L  ++ R   VV+DAD L ++   A+   L +G +  +LTP+  E  RL    LG  +     DR  AV ++   LG  TVV KG + +++  +  +  ++ G+ G    G GD+L G +G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|74699299|sp|Q4P219.1|NNRD_USTMA</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ATP-dependent NAD(P)HX dehydratase [Ustilago maydis 521]</Hit_def>
+  <Hit_accession>Q4P219</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>6.41663e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>SGESRRRMLQTALRF-PHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGC-----------GKVRAGFNQDTLPFAVIAGFPE--IMLDTADGLTKRQGINAWTAGCGLGTDAAAVETVAAV--LARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQADRTAAVRKIG-AILGATVVLKGHKTLVAASDTEIYVNESGNAGLATA-GSGDVLGGIIGSL</Hsp_qseq>
+      <Hsp_hseq>TSSTQQSLMQSVKRIIPPLSSAK----HKGQAGRIGIVGGSRDYTGAPFFASMSSMRFGCDMSYTICTPEAGNVIKTYSPDLIVNRLLDASVEWSQVERSVDELFAR--FHAVVIGPGLGRDEFMQKCAKLCIGLARKHDMYLVVDADGLWLLQNEP---DLIKGYKKAILTPNVAEFGRLCDTLGIDCKQEPDSAAKKLAQALEGPTVLEKGPVDRITNGKEVLYVDLQG--GLKRCGGQGDVLAGCLGTL</Hsp_hseq>
+      <Hsp_midline>+  +++ ++Q+  R  P +  A+    HKG  G + +VGGS   +GAP  A+ ++M  GC           G V   ++ D +   ++    E   +  + D L  R   +A   G GLG D    +       LAR  D  +V+DAD L +L  +    +L +G K  ILTP+ AE  RL  T     + +  +A +K+  A+ G TV+ KG    +      +YV+  G  GL    G GDVL G +G+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|74675584|sp|Q4X1F8.1|NNRD_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ATP-dependent NAD(P)HX dehydratase [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>Q4X1F8</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>4.50903e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MFPVFHLSGESRRRMLQTALRFPHVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLG-------CGKVRAGFNQDTLPFAVIAGFPEIMLDTADGLTKRQGIN----------------AWTAGCGLGTDAAAVETVAAVL--ARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARL---LGTTV---AQV-----QADRTA----AVRKIGAIL-GATVVLKGHKTLVAASDTEIYVNESGNAGLA-TAGSGDVLGGIIGSLLA</Hsp_qseq>
+      <Hsp_hseq>MEPV-HVSTSSKVLFKKVRKIVPPLL----EKFHKGQHGRVAVIGGSLDYTGAPYFSSMASARLGMSSNHVICEKSAATVIKSYSPNLMV----HPLLPSTDSVSNPGSIDARALASPIVSMLSRLHALVIGPGLGRDGVTLKVVTEVMKEARSRSIPFVLDADGLLLVTEDP---NLVKGYKDCILTPNVNEFSRLAKALGIEVPSQAQIAAQTDESDKTSKESQACEQLSQALGGVTIIQKGPHDVISNGVTTLISDLKG--GLKRSGGQGDTLTGSLGTLLA</Hsp_hseq>
+      <Hsp_midline>M PV H+S  S+    +     P +     E  HKG  G +AV+GGS   +GAP  ++ A+  LG       C K  A   +   P  ++      +L + D ++    I+                A   G GLG D   ++ V  V+  AR+R    VLDAD L +++ D    NL +G K+ ILTP+  E +RL   LG  V   AQ+     ++D+T+    A  ++   L G T++ KG   +++   T +  +  G  GL  + G GD L G +G+LLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|380876999|sp|D4AAT7.1|NNRD_RAT</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent (S)-NAD(P)H-hydrate dehydratase; AltName: Full=ATP-dependent NAD(P)HX dehydratase; AltName: Full=Carbohydrate kinase domain-containing protein; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>D4AAT7</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>6.08279e-14</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>HVFKARAEDSHKGTFGTLAVVGGSAGMSGAPVLAASAAMYLGCGKVRAGFNQDTLPFAVIAGF-PEIM----LDTADGLTKRQG----INAWTAGCGLGTDAAAVETVAAVL--ARNRDEAVVLDADALNILSTDAETRNLARGCKNLILTPHPAEAARLLGTTVAQVQ--ADRTAAVRKIGAILG-ATVVLKGHKTLVAASDTEIYVNESGNAGLATAGSGDVLGGIIGSL</Hsp_qseq>
+      <Hsp_hseq>NIVPALTSKKHKGQDGRIGIVGGCQEYTGAPYFAGISALKVGADLTHVFCAREAAP--VIKSYSPELIVHPVLDSSDAVEEVEKWLPRLHALVVGPGLGRDDLLLNNVRGILESTKARDIPVVIDADGLWLI---AQRPALVHGYQKAVLTPNHVEFSRLWDAVLSSPMDTSNHSGSVLKLSQALGNITIVQKGEQDLISNGQQVLVCNQEGSSR-RCGGQGDLLSGSLGVM</Hsp_hseq>
+      <Hsp_midline>++  A     HKG  G + +VGG    +GAP  A  +A+ +G         ++  P  VI  + PE++    LD++D + + +     ++A   G GLG D   +  V  +L   + RD  VV+DAD L ++   A+   L  G +  +LTP+  E +RL    ++     ++ + +V K+   LG  T+V KG + L++     +  N+ G++     G GD+L G +G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

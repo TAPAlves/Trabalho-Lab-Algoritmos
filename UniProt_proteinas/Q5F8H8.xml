@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-01-07" version="67">
+<accession>Q5F8H8</accession>
+<name>Q5F8H8_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1 2">Bacterioferritin</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="4">NGO0795</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Iron-storage protein.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1 2">Belongs to the bacterioferritin family.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Contains 1 ferritin-like diiron domain.</text>
+</comment>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89509.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207921.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8H8"/>
+<dbReference type="SMR" id="Q5F8H8">
+<property type="residue range" value="1-152"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0795"/>
+<dbReference type="PRIDE" id="Q5F8H8"/>
+<dbReference type="EnsemblBacteria" id="AAW89509">
+<property type="protein sequence ID" value="AAW89509"/>
+<property type="gene ID" value="NGO0795"/>
+</dbReference>
+<dbReference type="GeneID" id="3282018"/>
+<dbReference type="KEGG" id="ngo:NGO0795"/>
+<dbReference type="PATRIC" id="20334738">
+<property type="gene designation" value="VBINeiGon24812_0941"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2193"/>
+<dbReference type="HOGENOM" id="HOG000262383"/>
+<dbReference type="KO" id="K03594"/>
+<dbReference type="OMA" id="FLHAKMQ"/>
+<dbReference type="OrthoDB" id="EOG6WDSKP"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-749-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008199">
+<property type="term" value="F:ferric iron binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006879">
+<property type="term" value="P:cellular iron ion homeostasis"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006826">
+<property type="term" value="P:iron ion transport"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.20.1260.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002024">
+<property type="entry name" value="Bacterioferritin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009040">
+<property type="entry name" value="Ferritin-like_diiron"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009078">
+<property type="entry name" value="Ferritin-like_SF"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012347">
+<property type="entry name" value="Ferritin-rel"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008331">
+<property type="entry name" value="Ferritin_DPS_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00210">
+<property type="entry name" value="Ferritin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF002560">
+<property type="entry name" value="Bacterioferritin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00601">
+<property type="entry name" value="BACFERRITIN"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF47240">
+<property type="entry name" value="SSF47240"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00754">
+<property type="entry name" value="bfr"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00549">
+<property type="entry name" value="BACTERIOFERRITIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50905">
+<property type="entry name" value="FERRITIN_LIKE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-0349" evidence="1 2">Heme</keyword>
+<keyword id="KW-0408" evidence="1 2">Iron</keyword>
+<keyword id="KW-0409" evidence="1 2">Iron storage</keyword>
+<keyword id="KW-0479" evidence="1 2">Metal-binding</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="PIRNR" id="PIRNR002560"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU000623"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU003668"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89509.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="157" mass="18016" checksum="FCB8A28F19EEAD40" modified="2005-03-15" version="1">
+MKGDRLVIRELNKNLGLLLVTINQYFLHARILKNWGFEELGEHFFKQSIVEMKAADDLIE
+RILFLEGLPNLQELGKLLIGESTEEIIACDLTKEQEKHEALLAAIATAEAQQDYVSRDLL
+EKQKDTNEEHIDWLETQQELIGKIGLPNYLQTAAQED
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

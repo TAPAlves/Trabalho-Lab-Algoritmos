@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2009-03-03" modified="2015-01-07" version="74">
+<accession>Q5F8C3</accession>
+<name>F16PA_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Fructose-1,6-bisphosphatase class 1</fullName>
+<shortName evidence="1">FBPase class 1</shortName>
+<ecNumber evidence="1">3.1.3.11</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">fbp</name>
+<name type="ordered locus">NGO0862</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<text evidence="1">D-fructose 1,6-bisphosphate + H(2)O = D-fructose 6-phosphate + phosphate.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 2 magnesium ions per subunit.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Carbohydrate biosynthesis; gluconeogenesis.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homotetramer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the FBPase class 1 family.</text>
+</comment>
+<dbReference type="EC" id="3.1.3.11" evidence="1"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89564.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207976.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8C3"/>
+<dbReference type="STRING" id="242231.NGO0862"/>
+<dbReference type="EnsemblBacteria" id="AAW89564">
+<property type="protein sequence ID" value="AAW89564"/>
+<property type="gene ID" value="NGO0862"/>
+</dbReference>
+<dbReference type="GeneID" id="3282373"/>
+<dbReference type="KEGG" id="ngo:NGO0862"/>
+<dbReference type="PATRIC" id="20334894">
+<property type="gene designation" value="VBINeiGon24812_1017"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0158"/>
+<dbReference type="HOGENOM" id="HOG000191264"/>
+<dbReference type="KO" id="K03841"/>
+<dbReference type="OMA" id="IREYIRY"/>
+<dbReference type="OrthoDB" id="EOG6X10TR"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-806-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00138"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042132">
+<property type="term" value="F:fructose 1,6-bisphosphate 1-phosphatase activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006094">
+<property type="term" value="P:gluconeogenesis"/>
+<property type="evidence" value="IEA:UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01855">
+<property type="entry name" value="FBPase_class1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000146">
+<property type="entry name" value="FBPase_class-1/SBPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR028343">
+<property type="entry name" value="FBPtase"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11556">
+<property type="entry name" value="PTHR11556"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00316">
+<property type="entry name" value="FBPase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF500210">
+<property type="entry name" value="FBPtase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000904">
+<property type="entry name" value="FBPtase_SBPase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00115">
+<property type="entry name" value="F16BPHPHTASE"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0119">Carbohydrate metabolism</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Fructose-1,6-bisphosphatase class 1" id="PRO_0000364605">
+<location>
+<begin position="1"/>
+<end position="324"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="1">
+<location>
+<begin position="110"/>
+<end position="113"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="88"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="107"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="107"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1; via carbonyl oxygen" evidence="1">
+<location>
+<position position="109"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="110"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="271"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="199"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="265"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_01855"/>
+</source>
+</evidence>
+<sequence length="324" mass="35474" checksum="013500A67852B411" modified="2005-03-15" version="1">
+MDTLTRFLPEHLQQNQLPEALGGVLLSVVSACTEINAKVRLGALAGVLGMAGTGNIQGED
+QKKLDVIANNIMIDTLKANPAVAGLASEEEDTFVSAGENGRYLVLFDPLDGSSNIDVNIS
+VGTIFSILAKPEGALATESFLQTGRQQLAAGYVLYGPQTQLVFTFGHGVYVFTLNAENEF
+VLTKENPKVPESTKEFAINMSNRRHWLPPVQQYVDELLAGETGTRGKNYNMRWVASMVAE
+IHRILMRGGVFMYLQDKRDPSKPGKLRLMYEANPMALILEQAGASASNAYQAMLDIQPES
+LHQRVAVIMGSSEEVDYLNRLHSK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>5627</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>458</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>5627</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>458</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3219995|sp|P37773.3|MPL_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase; AltName: Full=Murein peptide ligase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P37773</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.664</Hsp_bit-score>
+      <Hsp_score>1280</Hsp_score>
+      <Hsp_evalue>1.04825e-171</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>IHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGS-FDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGG-ARILAVLEPRSNTMKLGTMKSALPASLKEADQVFCYAGG-ADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLDAL</Hsp_qseq>
+      <Hsp_hseq>IHILGICGTFMGGLAMLARQLGHEVTGSDANVYPPMSTLLEKQGIELIQGYDASQLEP-QPDLVIIGNAMTRGNPCVEAVLEKNIPYMSGPQWLHDFVLRDRWVLAVAGTHGKTTTAGMATWILEQCGYKPGFVIGGVPGNFEVSAHL---------GESDFFVIEADEYDCAFFDKRSKFVHYCPRTLILNNLEFDHADIFDDLKAIQKQFHHLVRIVPGQGRIIWPENDINLKQTMAMGCWSEQELVGEQGHWQAKKLTTDASEWEVLLDGEKVGEVKWSLVGEHNMHNGLMAIAAARHVGVAPADAANALGSFINARRRLELRGEANGVTVYDDFAHHPTAILATLAALRGKVGGTARIIAVLEPRSNTMKMGICKDDLAPSLGRADEVFLLQPAHIPWQVAEVAEACVQPAHWSGDVDTLADMVVKTAQPGDHILVMSNGGFGGIHQKLLDGL</Hsp_hseq>
+      <Hsp_midline>IHI+GI GTFMGG+A +A++ G +V+G DA +YPPMST LE  GI + +G+DA+QLE  Q D+ +IGN   RG   VEA+L + +PY+SGPQWL + VL   WVL VAGTHGKTTTA M  W+LE  G  PGF+IGGVP NF VSA L          +S FFVIEADEYD AFFDKRSKFVHY PRT +LNNLEFDHADIF DL AIQ QFHHLVR VP +G I+      +L+ T+  GCW+  E  G    WQ  ++  D S ++VLLDG+K G V W L+G HN  N L  IAAARH GV    A  ALG+F N +RR+E++G ANG+TVYDDFAHHPTAI  T+  LR +VGG ARI+AVLEPRSNTMK+G  K  L  SL  AD+VF        W VAE             D DT    +VK A+ GDHILVMSNGGFGGIH KLLD L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1176353|sp|P43948.1|MPL_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase; AltName: Full=Murein peptide ligase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43948</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>3.22177e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGS-FDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRV-GGARILAVLEPRSNTMKLGTMKSALPASLKEADQVFCYAGGA-DWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLDALR</Hsp_qseq>
+      <Hsp_hseq>MKHIHILGICGTFMGGVAMIAKQMGYHVTGSDTNVYPPMSTFLEEQGIEIIPNYDVAQLQP-APDMVIVGNAMKRGNPCVEYVLENNLKYTSGPQWLHDHLLRDRWVLAVSGTHGKTTTTGMLTWVLEQNGLKSGFLIGGIAGNFGISARL---------GDSPYFIIEADEYDTAFFDKRSKFVHYNPRTLIVNNISFDHADIFDDLKAIQRQFHHMIRTIPASGLVLSSASEQSAKETLALGCWSQQQFLGKDNEWFAERITNDASHFAVFHHGEKVAEVKWNVVGQHNMHNALMAIAAAHHTGVAIEDACKALGSFVNAKRRLEVKGEVNSITVYDDFAHHPEAILATLTALRDKVGGGVRILAVLEPRSNTMKMGVHKDDIAPALGRADAVFMLQPEQLSWEVADIANQCVQPAYWNANLDRLVDMIVAKAQPTDHILVMSNGSFGGIHQKILDKLK</Hsp_hseq>
+      <Hsp_midline>MKHIHI+GI GTFMGG+A IAK+ G+ V+G D  +YPPMST LE  GI +   +D AQL+    D+ ++GN  +RG   VE +L   L Y SGPQWL +++L   WVL V+GTHGKTTT  ML WVLE  GL  GFLIGG+  NFG+SARL           SP+F+IEADEYDTAFFDKRSKFVHY PRT ++NN+ FDHADIF DL AIQ QFHH++RT+P+ GL++ +  +QS ++TL  GCW+  +  G  + W    +  D S F V   G+K   V W+++G HN  NAL  IAAA H GV ++ AC+ALG+F N KRR+E+KG  N ITVYDDFAHHP AI  T+  LR +V GG RILAVLEPRSNTMK+G  K  +  +L  AD VF        W+VA+             + D  V  IV  A+  DHILVMSNG FGGIH K+LD L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|123374163|sp|Q1D0T1.1|MURC_MYXXD</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Myxococcus xanthus DK 1622]</Hit_def>
+  <Hit_accession>Q1D0T1</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>8.83103e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>HIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGL-IVC--NGQQQSLQDTLDKGCWTPVEKFGTGH--GWQIGEVNADG---SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADW---DVAEALAPLGCRLRVGKDFDTFV-------AEIVKNARTGDHILVMSNGGFGGIHTKLLDALR</Hsp_qseq>
+      <Hsp_hseq>QVHFVGLGGIGMSGIAEVLLNLGYRVSGSDLR-ESDITRRLVRMGATFFEGHRAQNL--IQADVVVISSAVRKDNPEVVAARQRKIPVIPRAEMLAE-LMRLKYAVAVAGSHGKTTTTSMVATVLSAAGLDPTAVVGGKVNVLDSNAKL---------GKSELMVVEADESD-------GSFLHLHPSIAIVTNIDPEHMDHYGDLDTLQSAFVEFCNRVPFYGLNVLCLDNPNVQALLPRIEKRFVT----YGSSHMADYRLENIQLDGFTTRFNAYRREESLGEFRVRMVGAHNAFNALAVIAVAEEMDIPLETVRESLAEFGGVQRRFTVRGEAQGITVVDDYGHHPTEVLATLAGAR-RAFGRRVVVAFQPHRYTRTHDLMKE-FTTSFNDSDVLFVTSVYAAGEERIHGATGDALAD-AVRAHGHRDV-TFVEKRTDLPAALLPRLREGDLVLTLGAGDITHVGPELLELLR</Hsp_hseq>
+      <Hsp_midline> +H +G+GG  M GIA +    G++VSG D +    ++ +L  +G    EG  A  L   QAD+ VI +  R+    V A   R +P I   + LAE ++   + + VAG+HGKTTT SM+A VL  AGL P  ++GG       +A+L          KS   V+EADE D         F+H  P  A++ N++ +H D + DL  +Q+ F      VP  GL ++C  N   Q+L   ++K   T    +G+ H   +++  +  DG    F+     +  G     ++G HN  NALAVIA A    + ++T  E+L  F  V+RR  ++G A GITV DD+ HHPT +  T+ G R R  G R++   +P   T     MK     S  ++D +F    YA G +       +ALA    R    +D  TFV       A ++   R GD +L +  G    +  +LL+ LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|23821878|sp|Q8R749.1|MURC_THETN</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Caldanaerobacter subterraneus subsp. tengcongensis MB4]</Hit_def>
+  <Hit_accession>Q8R749</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>7.7643e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVH-----EGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIV-CNGQQQSLQDTLDKGCWTPVEKFGTGH--GWQIGEVNAD----GSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGG-------ADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLD</Hsp_qseq>
+      <Hsp_hseq>FKRIHFIGIGGISMSGLAHILLEEGHTITGSDIKN-SHLIERLEKEGAKINIPHMAESVIGADLVVYTAAIHDDNVEYQKAKEL-------GIPIIDRATLLGLIMKKYKFGVAVAGSHGKTTTTSLISVILDRAGYDPTVLVGGEIDAIGGNVRV---------GKSEYFVTEACEYTDSF-------LKFYPYIAVILNVDSDHLDYFKNIDNIKQSFRQFASLVPSDGFVVACKDDANTMH--VIKGLEKNIVTYGINEKSDWQAKDITYDEKGCASFNVYYRGKFIGHFKLSIPGKHNIYNALASLAVTYLLGVDTEKAKEYIKEFKGTHRRFEVKGVVEGVTVVDDYAHHPAEIHATLEAAKN-YPHKRIIAIFQPHTYS-RTKALLSDFAESFDAADKIIITDIYAAREKDTGIVSSKDLVDLIFKRGKDVLYIKDFDSIVEYLKENTEEGDLVLTIGAGNIYEVGEKFLE</Hsp_hseq>
+      <Hsp_midline> K IH IGIGG  M G+A I  E G  ++G D K    +  +LE  G  ++     E    A L  + A I+      ++  ++       G+P I     L   +  + + + VAG+HGKTTT S+++ +L+ AG  P  L+GG  +  G + R+          KS +FV EA EY  +F       + + P  AV+ N++ DH D F ++  I+  F      VPS+G +V C     ++   + KG    +  +G      WQ  ++  D     SF+V   GK  GH    + G HN  NALA +A     GVD + A E +  FK   RR E+KG   G+TV DD+AHHP  I  T++  +      RI+A+ +P + + +   + S    S   AD++     YA         +  D+ + +   G  +   KDFD+ V  + +N   GD +L +  G    +  K L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|189029009|sp|A3DIP6.1|MURC_CLOTH</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Ruminiclostridium thermocellum ATCC 27405]</Hit_def>
+  <Hit_accession>A3DIP6</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>3.80622e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIV-CNGQQQSLQDTLDKGCWTPVEKFGTGHG---WQIGEV----NADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVFC--YAGGADWD--------VAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>FKHVHFIGIGGISMSGLAEILLNLGFTVSGSDIRS-SNITSKLEKKGIKIYTGHSEENIKD--ADLVVYTAAVKSDNPELAKAKSLGIPTLDRATLLGEIMKKYPFSVAVSGTHGKTTTTSMISLIMLKSALDPTIHIGGELDAIGGNTRI---------GSNKYFVAEACEY-------VESFLKFHPYLAVVLNIEADHLDYFKDIEHIKNAFLKFIRLVPENGYVVACADDQNVLSILKDVHC--NIITFGLNSKNAMWTAEDISFNENGFAAFTVLKDNERITNIQLKVPGIHNISNALASIAACYALGCSIENIKKGLESYTGIHRRFELKGIENNIKVVDDYAHHPSEIKATLKAARSG-NYPRIWTVFQPHTYT-RTKFLLDEFSKAFKDTDKVIITDIYSAREKDTGEIHSRILAEKIRENGQDAIYLPDFEGIVEYLKKNASPGDLIITMGAG</Hsp_hseq>
+      <Hsp_midline> KH+H IGIGG  M G+A I    GF VSG D +    ++++LE  GI ++ G     +++  AD+ V     +     +    + G+P +     L E +  + + + V+GTHGKTTT SM++ ++  + L P   IGG  +  G + R+           + +FV EA EY          F+ + P  AV+ N+E DH D F D+  I+  F   +R VP  G +V C   Q  L    D  C   +  FG       W   ++    N   +F VL D ++  ++   + G HN  NALA IAA    G  ++   + L ++  + RR E+KG  N I V DD+AHHP+ I+ T++  R      RI  V +P + T +   +      + K+ D+V         + D        +AE +   G       DF+  V  + KNA  GD I+ M  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|254765991|sp|C1FNF4.1|MURC_CLOBJ</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium botulinum A2 str. Kyoto]</Hit_def>
+  <Hit_accession>C1FNF4</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>5.01856e-50</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTL-DKGCWTPVEKFGTG----HGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAG--------GADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>KHIHFIGIGGISMSGLAEILLYHNFTISGSDMNS-SPITKKLKDKGAHIYIGHKKENIKDADLIVYTAA-IASDNPEIIEA-KEKNIKLMDRADFLGDLMKGYKYNIAISGTHGKTTTTSMLSHVALKANVDPTILVGGNLDIINGNVRV---------GKSDFFITEACEY-------KSSFLKFFPYIGAILNIDADHLDYYRDLNDIKNAFSKFIKLIPKDGYLVAYGEDKNIQSIIKEANCNVITYGINSGDIQAHNIEYDE-KACGNFDVVKDNQKLFSVKLNVPGKHNILNSLASICIGLASNMKCKDIIEGIESFFGTHRRFELKGCKNNITVIDDYAHHPTEISATLDAAK-KYPHNKLFCVFQPHTYSRTL-TLFDDFTKCFDNADEIILADIYAAREKDTGIISSDM-LGDKLRDRGLKCTNFHKFDDIKNYLIENAKDGDLILTVGAG</Hsp_hseq>
+      <Hsp_midline>KHIH IGIGG  M G+A I     F +SG D     P++ +L+  G  ++ G     +++    +Y    +A    +++EA   + +  +    +L + +  + + + ++GTHGKTTT SML+ V   A + P  L+GG  +    + R+          KS FF+ EA EY       +S F+ + P    + N++ DH D + DL  I+  F   ++ +P +G +V  G+ +++Q  + +  C        +G    H  +  E  A G+FDV+ D +K   V  ++ G HN +N+LA I     + +  +   E + +F    RR E+KG  N ITV DD+AHHPT I  T+   + +    ++  V +P + +  L T+          AD++     YA          +D  + + L   G +      FD     +++NA+ GD IL +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166222975|sp|A7GJE2.1|MURC_CLOBL</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium botulinum F str. Langeland]</Hit_def>
+  <Hit_accession>A7GJE2</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>7.23135e-50</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTL-DKGCWTPVEKFGTG----HGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAG--------GADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>KHIHFIGIGGISMSGLAEILLYNNFSISGSDMNS-SPITEKLKDKGAKIYIGHKKENIKDADLIVYTAA-IASDNPEIIEA-KEKNIKLMDRADFLGNLMKGYKYNIAISGTHGKTTTTSMLSHVALKANVDPTILVGGNLDIINGNVRVGE---------SDFFITEACEY-------KSSFLKFFPYIGVILNIDADHLDYYKDLDDIKNAFSKFIKLIPKDGYLVAYGEDKNIQSIIKEANCNVITYGINSGDIQAHNIEYDE-KACGNFDVVKDNQKLFSVKLNVPGKHNILNSLASICIGLASNMKDKDIIEGIESFFGTHRRFELKGCKNNITVIDDYAHHPTEISATLDAAK-KYPHNKLFCVFQPHTYSRTL-TLFDDFTKCFDNADEIILADIYAAREKDTGIISSDM-LGDKLRDRGLKCTNFHKFDDIKNYLIENAKDGDLILTVGAG</Hsp_hseq>
+      <Hsp_midline>KHIH IGIGG  M G+A I     F +SG D     P++ +L+  G  ++ G     +++    +Y    +A    +++EA   + +  +    +L   +  + + + ++GTHGKTTT SML+ V   A + P  L+GG  +    + R+ +         S FF+ EA EY       +S F+ + P   V+ N++ DH D + DL  I+  F   ++ +P +G +V  G+ +++Q  + +  C        +G    H  +  E  A G+FDV+ D +K   V  ++ G HN +N+LA I     + +  +   E + +F    RR E+KG  N ITV DD+AHHPT I  T+   + +    ++  V +P + +  L T+          AD++     YA          +D  + + L   G +      FD     +++NA+ GD IL +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|189028986|sp|A5N4I2.1|MURC_CLOK5</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium kluyveri DSM 555] &gt;gi|254765992|sp|B9DY44.1|MURC_CLOK1 RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium kluyveri NBRC 12016]</Hit_def>
+  <Hit_accession>A5N4I2</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>8.87475e-50</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>467</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGS---------FDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKS---------------ALPASLKEADQVFCYAGGADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>KKVHFIGIGGISMSALAEILLEKGFKVSGSDVKS-SEATERLELKGAKVYIGQISQNITSDIDLVVYTAAISKNNEELLKA-KDLNIPLMDRAEFLGEIMKGHKYNIAVSGTHGKTTTTSMLSSITLEANLDPTILVGGNLDIIGGNVRI---------GNSPFFITEACEY-------KESFLKFFPFIGIILNIDADHLDYYKDIEEIQNAFIKFGKLIPKEGYLVCCADDRRMEKII-----SNVNCNVMSYGIETGDITAKNICFDKEGRAFFEVYKSDKKLFSLNLSVPGEHNILNALASISVSLILNISVDNIINGLKSFKGTHRRFEIKGQRKGVVVIDDYAHHPTEIKATLNAAKN-YPHKRIICVFQPHTFSRTISLFKEFTAAFDNVDELILSDIFPAREKDTGEI------SSSMLCEQIIKRGVKCRNIKDFDSIVQYLNNILTEGDVLLTIGAG</Hsp_hseq>
+      <Hsp_midline>K +H IGIGG  M  +A I  E GFKVSG D K     + +LE  G  V+ G  +  +      +     +++   ++++A  +  +P +   ++L E +  H + + V+GTHGKTTT SML+ +   A L P  L+GG  +  G + R+           SPFF+ EA EY       +  F+ + P   ++ N++ DH D + D+  IQ  F    + +P EG +VC    + ++  +     + V      +G + G++ A            F+V    KK   +   + G HN +NALA I+ +    + V      L +FK   RR EIKG   G+ V DD+AHHPT I+ T+   +      RI+ V +P + +  +   K                  PA  K+  ++      +   + E +   G + R  KDFD+ V  +      GD +L +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|229486484|sp|B1KTF0.1|MURC_CLOBM</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium botulinum A3 str. Loch Maree]</Hit_def>
+  <Hit_accession>B1KTF0</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>4.85788e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTL-DKGCWTPVEKFGTG----HGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWD-------VAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>KHIHFIGIGGISMSGLAEILLYNNFSISGSDMNS-SPITEKLKDKGAKIYIGHKKENVKDADLIVYTAA-IASDNPEIIEA-KEKNIKLMDRADFLGNLMKGYKYNIAISGTHGKTTTTSMLSHVALKANVDPTILVGGNLDIINGNVRVGE---------SDFFITEACEY-------KSSFLKFFPYIGVILNIDADHLDYYKDLDDIKNAFSKFIKLIPKDGYLVAYGEDKNIQSIIKEANCNVITYGINSGDIQAHNIEYDE-KACGNFDVFKDNQKLFSVKLNVPGKHNILNSLASICIGLASDMKDKDIIEGIESFFGTHRRFELKGCKNNITVIDDYAHHPTEISATLDAAK-KYPHNKMFCVFQPHTYSRTL-TLFDDFTKCFDNADEIILADIYAAREKDTGIINSNMLGDKLRERGLKCTNFHKFDDIKNYLIENAKDGDLILTIGAG</Hsp_hseq>
+      <Hsp_midline>KHIH IGIGG  M G+A I     F +SG D     P++ +L+  G  ++ G     +++    +Y    +A    +++EA   + +  +    +L   +  + + + ++GTHGKTTT SML+ V   A + P  L+GG  +    + R+ +         S FF+ EA EY       +S F+ + P   V+ N++ DH D + DL  I+  F   ++ +P +G +V  G+ +++Q  + +  C        +G    H  +  E  A G+FDV  D +K   V  ++ G HN +N+LA I     + +  +   E + +F    RR E+KG  N ITV DD+AHHPT I  T+   + +    ++  V +P + +  L T+          AD++     YA             + + L   G +      FD     +++NA+ GD IL +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|229486483|sp|B1IH05.1|MURC_CLOBK</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium botulinum B1 str. Okra]</Hit_def>
+  <Hit_accession>B1IH05</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>7.89432e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTL-DKGCWTPVEKFGTG----HGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWD-------VAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>KHIHFIGIGGISMSGLAEILLYNNFSISGSDMNS-SPITEKLKDKGAKIYIGHKKENVKNADLIVYTAA-IASDNPEIIEA-KEKNIKLMDRADFLGNLMKGYKYNIAISGTHGKTTTTSMLSHVALKANVDPTILVGGNLDIINGNVRVGE---------SDFFITEACEY-------KSSFLKFFPYIGVILNIDADHLDYYKDLDDIKNAFSKFIKLIPKDGYLVAYGEDKNIQSIIKEANCNVITYGINSGDIQAHNIEYDE-KACGNFDVVKDNQKLFSVKLNVPGKHNILNSLASICIGLASDMKDKDIIEGIESFFGTHRRFELKGCKNNITVIDDYAHHPTEISATLDAAK-KYPHNKMFCVFQPHTYSRTL-TLFDDFTKCFDNADEIILADIYAAREKDTGIINSNMLGDKLRERGLKCTNFHKFDDIKNYLIENAKDGDLILTVGAG</Hsp_hseq>
+      <Hsp_midline>KHIH IGIGG  M G+A I     F +SG D     P++ +L+  G  ++ G     ++     +Y    +A    +++EA   + +  +    +L   +  + + + ++GTHGKTTT SML+ V   A + P  L+GG  +    + R+ +         S FF+ EA EY       +S F+ + P   V+ N++ DH D + DL  I+  F   ++ +P +G +V  G+ +++Q  + +  C        +G    H  +  E  A G+FDV+ D +K   V  ++ G HN +N+LA I     + +  +   E + +F    RR E+KG  N ITV DD+AHHPT I  T+   + +    ++  V +P + +  L T+          AD++     YA             + + L   G +      FD     +++NA+ GD IL +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259509765|sp|C3KWA4.1|MURC_CLOB6</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium botulinum Ba4 str. 657]</Hit_def>
+  <Hit_accession>C3KWA4</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>2.65373e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTL-DKGCWTPVEKFGTG----HGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAG--------GADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>KHIHFIGIGGISMSGLAEILLYHNFTISGSDMNS-SPITKKLKDKGAHIYIGHKKENIKDADLIVYTAA-IASDNPEIIEA-KEKNIKLMDRADFLGDLMKGYKYNIAISGTHGKTTTTSMLSHVALKANVDPTILVGGNLDIINGNVRV---------GKSDFFITEACEY-------KSSFLKFFPYIGAILNIDADHLDYYKDLDDIKNAFSKFIKLIPKDGYLVAYGEDKNIQSIIKEASCNVITYGINSGDIQAHNIEYDE-KACGNFDVVKNNQKLFSVKLNVPGKHNILNSLASICIGLASNMKDKDIIEGIESFFGTHRRFELKGCKNNITVIDDYAHHPTEISATLDAAK-KYPHNKLFCVFQPHTYSRTL-TLFDDFTKCFDKADEIILADIYAAREKDTGIISSDM-LGDKLRDRGLKCTNFHKFNDIKNYLIENAKDGDLILTVGAG</Hsp_hseq>
+      <Hsp_midline>KHIH IGIGG  M G+A I     F +SG D     P++ +L+  G  ++ G     +++    +Y    +A    +++EA   + +  +    +L + +  + + + ++GTHGKTTT SML+ V   A + P  L+GG  +    + R+          KS FF+ EA EY       +S F+ + P    + N++ DH D + DL  I+  F   ++ +P +G +V  G+ +++Q  + +  C        +G    H  +  E  A G+FDV+ + +K   V  ++ G HN +N+LA I     + +  +   E + +F    RR E+KG  N ITV DD+AHHPT I  T+   + +    ++  V +P + +  L T+         +AD++     YA          +D  + + L   G +      F+     +++NA+ GD IL +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|166222973|sp|A7FPH5.1|MURC_CLOB1</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium botulinum A str. ATCC 19397] &gt;gi|166222974|sp|A5I7S3.1|MURC_CLOBH RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium botulinum A str. Hall]</Hit_def>
+  <Hit_accession>A7FPH5</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.97345e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTL-DKGCWTPVEKFGTG----HGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAG--------GADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>KHIHFIGIGGISMSGLAEILLYNNFSISGSDMNS-SPITEKLKDKGAKIYIGHKKENVKDADLIVYTAA-IASDNPEITKA-KEKNIKLMDRADFLGNLMKGYKYNIAISGTHGKTTTTSMLSHVALKANVDPTILVGGNLDIINGNVRVGE---------SDFFITEACEY-------KSSFLKFFPYIGVILNIDADHLDYYKDLDDIKNAFSKFIKLIPKDGYLVAYGEDKNIQSIIKEASCNVITYGINSGDIQAHNIEYDE-KACGNFDVVKDNQKLFSVKLNVPGKHNILNSLASICIGLASNMKDKDIIEGIESFFGTHRRFELKGCKNNITVIDDYAHHPTEISATLDAAK-KYPHNKLFCVFQPHTYSRTL-TLFDDFTKCFDNADEIILADIYAAREKDTGIISSDM-LGDKLRDRGLKCTNFHKFDDIKNYLIENTKDGDLILTVGAG</Hsp_hseq>
+      <Hsp_midline>KHIH IGIGG  M G+A I     F +SG D     P++ +L+  G  ++ G     +++    +Y    +A    ++ +A   + +  +    +L   +  + + + ++GTHGKTTT SML+ V   A + P  L+GG  +    + R+ +         S FF+ EA EY       +S F+ + P   V+ N++ DH D + DL  I+  F   ++ +P +G +V  G+ +++Q  + +  C        +G    H  +  E  A G+FDV+ D +K   V  ++ G HN +N+LA I     + +  +   E + +F    RR E+KG  N ITV DD+AHHPT I  T+   + +    ++  V +P + +  L T+          AD++     YA          +D  + + L   G +      FD     +++N + GD IL +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|259509767|sp|C0Q8P4.1|MURC_DESAH</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Desulfobacterium autotrophicum HRM2]</Hit_def>
+  <Hit_accession>C0Q8P4</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>5.13962e-48</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>HIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGN-VARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNAD-----GSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEP</Hsp_qseq>
+      <Hsp_hseq>HIYFVGIGGIGMSAIAELLLSLGYRVSGSDLKL-SAITQRLASCGATIFNGHRADQVKD--VDVLVTSTAISKNNPEVIEAA-ERSIRTIPRAEMLAE-LMRIKYAIAVSGAHGKTSTTAMIATILNQAGLDPTVVVGGLLKSIGTNAH---------HGKGDYIVAEADESD-------GSFLKYAPAIAAVTNIDLEHLDFYKDIEDIKDNFVKFINSVPFYGLAVLCLDNEHIQAILPR-ITARYTTFGLSAQADLAARGIRFEGRRGYFTVVHGKEVLGDITLNLSGKHNISNALAAIAVALELKVDFSVIKEALEQIEGVKRRLEIKGERNSITVVDDYGHHPTEVKTTLAAVREGWPDKRVVVVFQP</Hsp_hseq>
+      <Hsp_midline>HI+ +GIGG  M  IA +    G++VSG D K+   ++ +L + G  +  G  A Q+++   D+ V    +++   +V+EA   R +  I   + LAE ++   + + V+G HGKT+T +M+A +L  AGL P  ++GG+ ++ G +A          + K  + V EADE D         F+ Y P  A + N++ +H D + D+  I+  F   + +VP  GL V     + +Q  L +        FG      +           G F V+   +  G +  +L G HN  NALA IA A    VD     EAL   + VKRR+EIKG  N ITV DD+ HHPT ++TT+  +R+     R++ V +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|109892736|sp|Q2S527.1|MURC_SALRD</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Salinibacter ruber DSM 13855]</Hit_def>
+  <Hit_accession>Q2S527</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>1.06293e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGL-IVC--NGQQQSLQDTLDKGCWTPVEKFGTGHGWQI-GE-VNADG---SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEP</Hsp_qseq>
+      <Hsp_hseq>IRQVHMVGIGGIGMSSIAEVLLNRGYDVTGSDLE-RSDVTERLEAEGATIHEGHAAEQVGTADVVVYSSAVDPDENPETREAERRR-ISLIPRAEMLGE-LIRMKFGVGVAGTHGKTTTTSMAGLVVAEGGFDPTVIVGGKVTAFGSNA---------ITGEGDVLVIEADEYD-------RTFLRLTPSLAVITSIEEDHLDVYEDLAAIQASFTQYANSVPFFGAAILCLDDPNVQAIVGDVERRVVT----YGTTRQAEVRGENVRREGMTTRFDVVVRGERLGTIELHVPGMHNVRNALAAVAVGQELEISFERVRDGLGTFTGVRRRFEKKGEVGGITVLDDYAHHPTEIEATLDAAHQGFPDRRVVAVFQP</Hsp_hseq>
+      <Hsp_midline>++ +H++GIGG  M  IA +    G+ V+G D +    ++ +LEA G  +HEG  A Q+      +Y          +  EA   R +  I   + L E ++   + +GVAGTHGKTTT SM   V+   G  P  ++GG    FG +A            +    VIEADEYD         F+   P  AV+ ++E DH D++ DL AIQ  F     +VP  G  I+C  +   Q++   +++   T    +GT    ++ GE V  +G    FDV++ G++ G +   + G HN  NALA +A  +   +  +   + LG F  V+RR E KG   GITV DD+AHHPT IE T+    Q     R++AV +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123069100|sp|Q1AVX4.1|MURC_RUBXD</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Rubrobacter xylanophilus DSM 9941]</Hit_def>
+  <Hit_accession>Q1AVX4</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>8.06877e-47</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>IHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGN-VARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEG-LIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGG-ARILAVLEPR--SNTMKL</Hsp_qseq>
+      <Hsp_hseq>VHMIGVGGAGMSGIAEVLARRGHEVTGSDLKESP-YTRRLAAAGVKVYIGHEARQVGD--AEVVVISTAIPKTNPELLEA-RRRSIPVIPRAEALA-RILAEGRGIAVAGTHGKTTTTSMIAHSLRALGENPTALVGGELNDIGSNVIFG---RED------LIVAEADESDRSIL-------RLHPQAAVITNIEYDHPDFYASLEEVVETFARFVAGLPPEGHLVLCADDPRCRR--LAELAPCPVTTYGLSGGELRARVLSPGSYLLFEGARKRGEVSLGVYGRHNVLNSLAAAGIARWLGHDPLEAARTLGSFGGVRRRFQLKGERSGVRVVDDYAHHPTEIMAILDVARATAAPEGRIIAVFQPHRYSRTRKL</Hsp_hseq>
+      <Hsp_midline>+H+IG+GG  M GIA +    G +V+G D K  P  + +L A G+ V+ G +A Q+ +  A++ VI   + +   +++EA   R +P I   + LA  +L     + VAGTHGKTTT SM+A  L   G  P  L+GG   + G +       R+D        V EADE D +            P+ AV+ N+E+DH D +A L  +   F   V  +P EG L++C    +  +  L +    PV  +G   G     V + GS+ +    +K G V+  + G HN +N+LA    AR  G D   A   LG+F  V+RR ++KG  +G+ V DD+AHHPT I   +   R       RI+AV +P   S T KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122271978|sp|Q03YA3.1|MURC_LEUMM</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Leuconostoc mesenteroides subsp. mesenteroides ATCC 8293]</Hit_def>
+  <Hit_accession>Q03YA3</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>2.2457e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAP-GFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQ-QSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVFC</Hsp_qseq>
+      <Hsp_hseq>KKYYFIGIKGTGMGPLAQILHDQGNEVLGSDIDTYTYTQAPLEAAGIKILT-FDARNIDANQDAIFVRGNAFNNDQIEVARALEIGVTMVSYPEAVQEQI-SQTTSIAVAGAHGKTSTTGLLAHVLK--NIAPTSYLIGD------------GTGRGVPNSQ--FFVVEADEY-------RRHFKDYAPDYAILTNIDFDHPDYYTGIEDVTSAFADFANNVKKAIFAWGDDEHLRSLKPSADVYYYGVNPERDDFVATNIHKSTQGSHFDVVFRGKDLGEFAVPLFGQHGILNALAVIAVSYMEEVDLDLIRQYLLTYQGVKRRFSEKQIAD-ITVIDDYAHHPTEITATLDAARQKYPNKKIIAIFQPHTFS-RVIAYKDEFASSLEAADQVYL</Hsp_hseq>
+      <Hsp_midline>K  + IGI GT MG +A I  + G +V G D   Y      LEA GI +   FDA  ++  Q  I+V GN        V   L  G+  +S P+ + E +      + VAG HGKT+T  +LA VL+   +AP  +LIG              T R  PNS+  FFV+EADEY       R  F  Y P  A+L N++FDH D +  +  + + F      V        + +  +SL+ + D   +    +        I +      FDV+  GK  G  A  L G H  +NALAVIA +    VD+    + L  ++ VKRR   K  A+ ITV DD+AHHPT I  T+   RQ+    +I+A+ +P + + ++   K    +SL+ ADQV+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|44888201|sp|Q899J1.1|MURC_CLOTE</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium tetani E88]</Hit_def>
+  <Hit_accession>Q899J1</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>3.40455e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHG-WQIGEVNADG----SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNT</Hsp_qseq>
+      <Hsp_hseq>IKKVHFIGIGGISMSGMAEILLKKGYKVSGSDSTK-SPIIDKLINLGAEIYIGHKAENIKNVDLIVYTAA-VSEDNPELTKALTN-NIKIMNRAEFLGYLMDGHKYNIAVSGTHGKTTTTSMMSHITVNANLDPTILVGGELNIINGNVR---------TGKSEYFLTEACEY-------KESFLKFFPYIGVILNIDADHLDYYKDINHIKNAFSKFANLIPKDGYLIACAEDENINDII-KNIDCTIITYGLNKGDIQAKNITFDNKGCASFDVIKNSSVLFSVKLNVPGSYNVLNALASICVSFALNIDKESIIKGLESFHGTHRRFELKGVRNDVTVIEDYAHHPTEIKATLSAAKNYPSN-RILCVFQPHTYT</Hsp_hseq>
+      <Hsp_midline>+K +H IGIGG  M G+A I  + G+KVSG D+    P+  +L  LG  ++ G  A  ++     +Y    V+    ++ +A+ N  +  ++  ++L   +  H + + V+GTHGKTTT SM++ +   A L P  L+GG       + R           KS +F+ EA EY       +  F+ + P   V+ N++ DH D + D+  I+  F      +P +G ++   + +++ D + K     +  +G   G  Q   +  D     SFDV+ +      V  ++ G +N +NALA I  +    +D ++  + L +F    RR E+KG  N +TV +D+AHHPT I+ T+   +      RIL V +P + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|254763736|sp|B9MND8.1|MURC_CALBD</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Caldicellulosiruptor bescii DSM 6725]</Hit_def>
+  <Hit_accession>B9MND8</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>3.9303e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>473</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVN---ADG--SFDVLLDGKKA-GHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYA-------GGADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLDAL</Hsp_qseq>
+      <Hsp_hseq>MNKYFFIGIGGISMSAIALILKNQGFWVEGSDMQE-SATTKMLRENGINVYIGHDESHIHGDETVIYTAA-ISKDNPELLAA-KRMNLKIYERAEFLGLLMKDFKNVITISGTHGKTTTTSMIGYILKKANYNPTVLVGAFVKQLGGNFVI---------GSKEYLVVEACEY-------VDSFLKFNPTIGVILNIDNDHLDYFKDIDSIKNSFKKFAQKIPTSGFLVVNYDDKNVKDIINQ-LNTQIICISTKEKTDIFADNISCSDGYYEFDVKNNNDEILAHIKLNIPGFHNVYNALAAFAVASKLGVESITIEQALSEFRGASRRLEKVGEFNGIYLYDDYAHHPTEIKATLATLK-KISEGKVLAIFQPHTFS-RLKTLLNEFAESLQLADKVIVTDVYAAREKNVFGITSEKLYLKLKEIGIDCEYISNFEDIACYAVKEAKKGD---IIATIGAGDIN-KCLDII</Hsp_hseq>
+      <Hsp_midline>M     IGIGG  M  IA I K  GF V G D +     +  L   GI V+ G D + +   +  IY    +++   +++ A     L      ++L   +     V+ ++GTHGKTTT SM+ ++L+ A   P  L+G   +  G +  +             + V+EA EY          F+ + P   V+ N++ DH D F D+ +I+  F    + +P+ G +V N   ++++D +++   T +    T     I   N   +DG   FDV  +  +   H+  ++ G HN  NALA  A A   GV+  T  +AL  F+   RR+E  G  NGI +YDD+AHHPT I+ T+  L+ ++   ++LA+ +P + + +L T+ +    SL+ AD+V     YA       G     +   L  +G       +F+      VK A+ GD   +++  G G I+ K LD +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|109892690|sp|Q2IG30.1|MURC_ANADE</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Anaeromyxobacter dehalogenans 2CP-C]</Hit_def>
+  <Hit_accession>Q2IG30</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>7.38346e-46</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>IHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGL-IVC--NGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADG-SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWDVAEALAPLGCRLRVGKDFDTFV---AEIVKNART----GDHILVMSNGGFGGIHTKLLDAL</Hsp_qseq>
+      <Hsp_hseq>IHFVGVGGIGMSGIAEVLLNLGYTVSGSDLR---ESETTRRLAGLGGHISYGHAAENVLQVDVVVISSAVKRDNPEVLEARRRKIPVIPRAEMLAE-LMRLKYGVAIAGSHGKTTTTSMAAHLLAHAGLDPTAVVGGKVNAFGSNAKL---------GKGDYMVVEADESD-------GSFLRIPPTIAIVTNIDPEHLDHWKTPDALRRGFVDFVNRVPFYGLAILCIDHPTVQSILPDVEKRVVTYGESHQADYRAEAIELSGHAVRFDAFRRDEALGRFEVAMVGRHNALNALAVIALGDEMGIPPLVTREALRSFQGVQRRFTVRGEVAGVTVVDDYGHHPAEVKATLQGAREAF-KRRVVCLFQPHRYTRTRDLM-AEFATAFNDADVLLLTDIYAAGEEPIPGATAANLAEAIRAWGHRDVTVVPRAELARAARERIRPGDLVLTLGAGDVTAAGPELLALL</Hsp_hseq>
+      <Hsp_midline>IH +G+GG  M GIA +    G+ VSG D +      T     G+G H  +  A     Q D+ VI +  +R    V     R +P I   + LAE ++   + + +AG+HGKTTT SM A +L +AGL P  ++GG    FG +A+L          K  + V+EADE D         F+   P  A++ N++ +H D +    A++  F   V  VP  GL I+C  +   QS+   ++K   T  E     +  +  E++     FD     +  G     ++G HN +NALAVIA     G+      EAL +F+ V+RR  ++G   G+TV DD+ HHP  ++ T+QG R+     R++ + +P   T     M +    +  +AD +     YA G +       A L   +R     D  V   AE+ + AR     GD +L +  G       +LL  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|25008803|sp|Q8XHJ0.2|MURC_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>Q8XHJ0</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>1.32348e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGG----VPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHG---WQIGEVNADG--SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQV</Hsp_qseq>
+      <Hsp_hseq>KKVHFIGIGGVSMSGLAAVLLNAGYKVSGSDSKE-SEITNRLKEEGAKIYIGHSKDNLQDVDVVVYTAA-IPSDNPEIIKA-KEDNLILMDRAEFLGQIMKGHKFNVAVAGTHGKTTTTSMISHVALSADLDPTILVGGDLDIIHGNFRVG-------------NSEYFITEACEY-------KQSFLRFFPYVGIILNIDADHLDFYKDINHIKDTFKQFVRLIPNDGYIIGNADDEKVMEVLEVA-KCNVLTYGINNGDIQARNIEFNEKGCATFDVFRNEEKLLSLSLNVPGMHNVSNSLSAVCLAEIFNINADSIVSGLSSFGGAHKRFEYKGTKNDITVIDDYAHHPVEIKATLSTAK-KMNHNRIVCVFQPHTYT-RTKTLFNDFVKCFDDCDEL</Hsp_hseq>
+      <Hsp_midline>K +H IGIGG  M G+AA+   AG+KVSG D+K    ++ +L+  G  ++ G     L++    +Y    +     ++++A     L  +   ++L + +  H + + VAGTHGKTTT SM++ V   A L P  L+GG    +  NF V               S +F+ EA EY       +  F+ + P   ++ N++ DH D + D+  I+  F   VR +P++G I+ N   + + + L+      V  +G  +G    +  E N  G  +FDV  + +K   ++ ++ G HN  N+L+ +  A    ++  +    L +F    +R E KGT N ITV DD+AHHP  I+ T+   + ++   RI+ V +P + T +  T+ +       + D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|166222976|sp|A0PXK5.1|MURC_CLONN</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium novyi NT]</Hit_def>
+  <Hit_accession>A0PXK5</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>1.33189e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHG----WQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRS</Hsp_qseq>
+      <Hsp_hseq>KKVHFIGIGGISMSGLAEILLNSGYRVSGSD-RSESDLTKHLQAKGAEIYIGHNGNNLKDVDLVVYTAA-IPDSNPELVKA-RECNIQTMDRAEFLGHVMQGHKYNIAISGTHGKTTTTSMFSHISLSANLDPTILVGGNLDVINGNVRV---------GNSEYFVTEACEY-------KASFLKFYPYIGVILNIEADHLDFYKDINDIQNTFLKFAKLIPNDGFLIVNADDKRCVE-VSKQVDCNVITFGINNGDVRAKNIVFNNGRPTFDVYRNEEKLFTLTLNVPGNHNILDALASISSALSLNVPVDSIIEGLSTFNGAHRRFEIKGKVDGITVVDDYAHHPTEIKAALNAAKN-FPHKRVFCVFQPHT</Hsp_hseq>
+      <Hsp_midline>K +H IGIGG  M G+A I   +G++VSG D +    ++  L+A G  ++ G +   L++    +Y    +     ++V+A     +  +   ++L   +  H + + ++GTHGKTTT SM + +   A L P  L+GG  +    + R+           S +FV EA EY       ++ F+ + P   V+ N+E DH D + D+  IQ  F    + +P++G ++ N   +   + + K     V  FG  +G      I   N   +FDV  + +K   +  ++ G HN ++ALA I++A    V V +  E L  F    RR EIKG  +GITV DD+AHHPT I+  +   +      R+  V +P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|254766015|sp|C0QPY2.1|MURC_PERMH</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Persephonella marina EX-H1]</Hit_def>
+  <Hit_accession>C0QPY2</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>2.56493e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGH-----GWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEP</Hsp_qseq>
+      <Hsp_hseq>VRHIHFIGIGGSGMNGIAQVLLNQGFTVTGSDLKESQTV-INLKNMGAKIYIGHDPKNVD--GADVVVYSSAVKQDNPELLRAKQLGIPTIPRGEMLAE-LMRFKYGIAIAGSHGKTTTTSMVGTILGKTGYDPTVVIGGKLEAYGSNAKL---------GSGDFIVTEADESDGSF-------LKLTPTIVSINNIDLEHIGFYKNLNDIKRAFIDFANKVPFYGAVAVNIDDQNIKDII-PEIEKKIIRFGISEDSDIRGYDLRLENGRYRFKV----NDFGEIYLSIPGKHNVYNALAAISISVELGVPFCVIKEALENFKNANRRFEIKYDGS-VTVIDDYAHHPTEIKATLSATREMFDGRRIIAVFQP</Hsp_hseq>
+      <Hsp_midline>++HIH IGIGG+ M GIA +    GF V+G D K    +   L+ +G  ++ G D   ++   AD+ V  +  ++    +      G+P I   + LAE ++   + + +AG+HGKTTT SM+  +L   G  P  +IGG  E +G +A+L             F V EADE D +F       +   P    +NN++ +H   + +L  I+  F      VP  G +  N   Q+++D +       + +FG        G+ +   N    F V       G +   + G HN  NALA I+ +   GV      EAL  FKN  RR EIK   + +TV DD+AHHPT I+ T+   R+   G RI+AV +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|189029029|sp|A5UZT9.1|MURC_ROSS1</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Roseiflexus sp. RS-1]</Hit_def>
+  <Hit_accession>A5UZT9</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>2.81326e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>HIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARL--PQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPS-EGLIVC-------------NGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGS---FDVLLDGKKA------GHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF------CYAGGADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNA-------RTGDHILVMSNGGFGGIHTKLLDALR</Hsp_qseq>
+      <Hsp_hseq>HYHIIGIAGAGMSAIAHILLDQGHTVSGSDVQRNA-LTEALEQRGALIHDGHDPAWIA--GADALVATSAVRDDHVELSAARARGIPVLRRAD-LWREWSQQRRVVAVAGTHGKTTTTALIALMLTQAGGNPGFLIGGETPDLGIHARWGDPAAP----------LVVEADEYD-------RTFLALTPDVAVMTNVEWDHVDIYPSPDNYEAAFRLFTRRVAQPQRLIVCGDDPGALRVANHPDAQQYGIEEAIAR---NPASCRLAPMDWMAANVRYDGAMTNFDLWRYDRRTFGARLDGTYTMRLVGDHNVRNALAAIAVATLLGVERDAIADALAAYRGARRRFDIKGEANGITIIDDYAHHPTEARATLAAARARFPQRRLVVYLQPHTFS-RTQALRDAWADAFDHADVVRIGDVYPARETGDPRTVAHALA--GC---IRHNDVQAVGNVVEAAATIGGLLRPGDVLLTLGAGDGYRVGELIIDTLR</Hsp_hseq>
+      <Hsp_midline>H HIIGI G  M  IA I  + G  VSG D +    ++  LE  G  +H+G D A +    AD  V  +  R     + A   RG+P +     L         V+ VAGTHGKTTT +++A +L  AG  PGFLIGG   + G+ AR   P  P           V+EADEYD         F+   P  AV+ N+E+DH DI+      +  F    R V   + LIVC             + QQ  +++ + +    P         W    V  DG+   FD+    ++       G     L+G HN  NALA IA A   GV+     +AL A++  +RR +IKG ANGIT+ DD+AHHPT    T+   R R    R++  L+P + + +   ++ A   +   AD V           G    VA ALA  GC   +  +    V  +V+ A       R GD +L +  G    +   ++D LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|229486422|sp|B4UES2.1|MURC_ANASK</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Anaeromyxobacter sp. K] &gt;gi|254763735|sp|B8J8E9.1|MURC_ANAD2 RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Anaeromyxobacter dehalogenans 2CP-1]</Hit_def>
+  <Hit_accession>B4UES2</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>4.41285e-45</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>IHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGL-IVC--NGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADG-SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWDVAEALAPLGCRLRVGKDFDTFV---AEIVKNART----GDHILVMSNGGFGGIHTKLLDAL</Hsp_qseq>
+      <Hsp_hseq>IHFVGVGGIGMSGIAEVLLNLGYTVSGSDLR---ESETTRRLAGLGGRISYGHAAENVLQVDVVVISSAVKRDNPEVLEARRRKIPVIPRAEMLAE-LMRLKYGVAIAGSHGKTTTTSMAAHLLAHAGLDPTAVVGGKVNAFGSNAKL---------GKGDYMVVEADESD-------GSFLRIPPTIAIVTNIDPEHLDHWKTPDALRRGFVDFVNRVPFYGLAILCIDHPTVQSILPDVEKRAVTYGESHQADYRAEAIELSGHAVRFDAFRRDEALGRFEVAMVGRHNALNALAVIALGDEMGIPPLVTREALRSFQGVQRRFTVRGEAAGVTVVDDYGHHPAEVKATLQGAREAF-KRRVVCLFQPHRYTRTRDLM-AEFATAFNDADVLLLTDIYAAGEEPIPGATAANLADAIRAWGHRDVTLVPRAELARAARERVRPGDLVLTLGAGDVTAAGPELLALL</Hsp_hseq>
+      <Hsp_midline>IH +G+GG  M GIA +    G+ VSG D +      T     G+G    +  A     Q D+ VI +  +R    V     R +P I   + LAE ++   + + +AG+HGKTTT SM A +L +AGL P  ++GG    FG +A+L          K  + V+EADE D         F+   P  A++ N++ +H D +    A++  F   V  VP  GL I+C  +   QS+   ++K   T  E     +  +  E++     FD     +  G     ++G HN +NALAVIA     G+      EAL +F+ V+RR  ++G A G+TV DD+ HHP  ++ T+QG R+     R++ + +P   T     M +    +  +AD +     YA G +       A L   +R     D  +   AE+ + AR     GD +L +  G       +LL  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|189029222|sp|Q0TMG0.2|MURC_CLOP1</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium perfringens ATCC 13124]</Hit_def>
+  <Hit_accession>Q0TMG0</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>7.14883e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGG----VPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHG---WQIGEVNADG--SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQV</Hsp_qseq>
+      <Hsp_hseq>KKVHFIGIGGVSMSGLAAVLLNAGYKVSGSDSKE-SEITNRLKEEGAKIYIGHSKDNLQDVDVVVYTAA-IPSDNPEIIKA-KEDNLILMDRAEFLGQIMKGHKFNVAVAGTHGKTTTTSMISHVALSADLDPTILVGGDLDIIHGNFRVG-------------NSEYFITEACEY-------KQSFLRFFPYVGIILNIDADHLDFYKDINHIKDTFKQFVRLIPNDGYIIGNADDEKVMEVLEVA-KCNVLTYGINNGDIQARNIEFNEKGCATFDVFRNEEKLLSLSLNVPGMHNVSNSLSAVCLAEIFNINADAIVSGLSSFGGAHKRFEYKGTKNDITVIDDYAHHPVEIKATLSTAK-KMNHNKIVCVFQPHTYT-RTKTLFNDFVKCFDDCDEL</Hsp_hseq>
+      <Hsp_midline>K +H IGIGG  M G+AA+   AG+KVSG D+K    ++ +L+  G  ++ G     L++    +Y    +     ++++A     L  +   ++L + +  H + + VAGTHGKTTT SM++ V   A L P  L+GG    +  NF V               S +F+ EA EY       +  F+ + P   ++ N++ DH D + D+  I+  F   VR +P++G I+ N   + + + L+      V  +G  +G    +  E N  G  +FDV  + +K   ++ ++ G HN  N+L+ +  A    ++       L +F    +R E KGT N ITV DD+AHHP  I+ T+   + ++   +I+ V +P + T +  T+ +       + D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|189029008|sp|A9KQI8.1|MURC_CLOPH</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Lachnoclostridium phytofermentans ISDg]</Hit_def>
+  <Hit_accession>A9KQI8</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>1.24431e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>481</Hsp_align-len>
+      <Hsp_qseq>HIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVE--AILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEG-LIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADG----------------SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGG-------ADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLL</Hsp_qseq>
+      <Hsp_hseq>HVHFIGIGGISMSGLAELLHTKGFTVSGSDAKD-SKIVDRLRHLGITIFIGQKAENITE---DIDLVVYTAAVKSDNVEYQAVQKHNIPMLDRADFLGQVMLQYKNAIGVSGTHGKTTTTSMVSLMMLEGNFDPTISVGGILDNIEGNIRIGHSEN---------FIVESCEY-------KNSFLSFNPAHAIILNIEAEHLDFFKDIEDIRTSFHTFAKKLPDYGNLVVWGGIDRYEELIEDLSC--NVITYGMFSSEEEREQNKDRYDYAACNVTSDDFGLRSYDLYKHGKFVDRINLAVIGDHNVLNSLAAISLVDTLGGTMSAIKKALLAYKGTERRFERKGVLNGITIVDDYAHHPSEIKATLIA-AASYPHKDIWCVFQPHTYT-RTKSFFHDFTTALALADKIVLADIYAAREENPGDISSKDIQNELLKIGKEAYYISDFAEIEKFLLEHCTNGDLLITMGAGDVVSIGESLL</Hsp_hseq>
+      <Hsp_midline>H+H IGIGG  M G+A +    GF VSG DAK    +  +L  LGI +  G  A  + E   DI ++   A    D VE  A+    +P +    +L + +L +   +GV+GTHGKTTT SM++ ++      P   +GG+ +N   + R+  +           F++E+ EY       ++ F+ + P  A++ N+E +H D F D+  I+T FH   + +P  G L+V  G  +  +   D  C   V  +G     +  E N D                 S+D+   GK    +   ++G HN +N+LA I+     G  +    +AL A+K  +RR E KG  NGIT+ DD+AHHP+ I+ T+           I  V +P + T +  +       +L  AD++     YA         +  D+   L  +G       DF      ++++   GD ++ M  G    I   LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123047139|sp|Q0SQ58.1|MURC_CLOPS</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Clostridium perfringens SM101]</Hit_def>
+  <Hit_accession>Q0SQ58</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>2.58104e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGG----VPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHG---WQIGEVNADG--SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQV</Hsp_qseq>
+      <Hsp_hseq>KKVHFIGIGGVSMSGLAAVLLNAGYKVSGSDSKE-SEITNRLKEEGAKIYIGHSKDNLQDVDVVVYTAA-IPSDNPEIIKA-KEDNLILMDRAEFLGQIMKGHKFNVAVAGTHGKTTTTSMISHVALSADLDPTILVGGDLDIIHGNFRVG-------------NSEYFITEACEY-------KQSFLRFFPYVGIILNIDADHLDFYKDINHIKDTFKQFVKLIPNDGYIIGNADDKKVMEVLEVA-KCNVLTYGINNGDIQARNIEFNEKGCATFDVFRNEEKLLSLSLNVPGMHNVSNSLSAVCLAEIFNINADAIVSGLSSFGGAHKRFEYKGTKNDITVIDDYAHHPVEIKATLSTAK-KMNHNKIVCVFQPHTYT-RTKTLFNDFVKCFDDCDEL</Hsp_hseq>
+      <Hsp_midline>K +H IGIGG  M G+AA+   AG+KVSG D+K    ++ +L+  G  ++ G     L++    +Y    +     ++++A     L  +   ++L + +  H + + VAGTHGKTTT SM++ V   A L P  L+GG    +  NF V               S +F+ EA EY       +  F+ + P   ++ N++ DH D + D+  I+  F   V+ +P++G I+ N   + + + L+      V  +G  +G    +  E N  G  +FDV  + +K   ++ ++ G HN  N+L+ +  A    ++       L +F    +R E KGT N ITV DD+AHHP  I+ T+   + ++   +I+ V +P + T +  T+ +       + D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|109892703|sp|Q313Q2.1|MURC_DESAG</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Desulfovibrio alaskensis G20]</Hit_def>
+  <Hit_accession>Q313Q2</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>2.97426e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>HIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQI-------GEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVFCYAGGADWDVAEALAP--LGCRLRVG------------KDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>RIHMVGIGGTGMCGIAEVLLNLGFEVRGSDMNDSPSVR-RLRRLGADIFIGHGAENVTD--AQVLVKSTAVSMDNPEVQAAQEKGIPIIPRAEMLAE-LMRLRKGIAIAGTHGKTTTTSLTAAIFDEAGTDPTVIIGGRLNAYGSNARL---------GEGEFLLAEADESD-------GSFLCLSPVVNVVTNVDLDHVDFYHDQQAIDTAFINFMNKVPFYGMNVVCGDDAGVRRLLPQ-IKRPVLTYGFGPDNQLRAETVTCGETS---RFRVLLHGEDLGEVNLVQPGRHNVLNALAAIGVGLETGIAADVCLRGLANFRGVGRRFERKGERGGVLVVDDYGHHPAEIAATLATARTCYPGRRLVVAFQPH----RFSRTKALFGDFCKAFDNVDKLLLTEIYPASEAPIPGVSGQSLAQGIRQVSNTDVDYFQDFDAMRAALPETLRPGDLFLTLGAG</Hsp_hseq>
+      <Hsp_midline> IH++GIGGT M GIA +    GF+V G D    P +  +L  LG  +  G  A  + +  A + V           V+A   +G+P I   + LAE ++     + +AGTHGKTTT S+ A + + AG  P  +IGG    +G +ARL          +  F + EADE D         F+   P   V+ N++ DH D + D  AI T F + +  VP  G+ V  G    ++  L +    PV  +G G   Q+       GE +    F VLL G+  G V     G HN +NALA I      G+        L  F+ V RR E KG   G+ V DD+ HHP  I  T+   R    G R++   +P     +    K+      K  D V        +  +EA  P   G  L  G            +DFD   A + +  R GD  L +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|166224710|sp|A1SL79.1|MURC_NOCSJ</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Nocardioides sp. JS614]</Hit_def>
+  <Hit_accession>A1SL79</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>3.06852e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARR-GMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPR--SNTMKLGTMKSALPASLKEADQVF---CYAGGADWD-------VAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLDAL</Hsp_qseq>
+      <Hsp_hseq>LGRVHFVGIGGAGLSGIARIMLARGITVSGSDGTDSPTL-TALRELGARVHLGHDAAHVHDV--DTLVVSTAVREDNPEYVEAV-RQGLRVLPRSAALAA-VMAGRRVVAVAGTHGKTTTTSLLTVALQAAGADPTYAIGGDLAATGVNA---------AEGTGDLFVAEADESDGAFL-------HYSPYAAVVTNIEADHLDQWGTPEAYAAAFDEFADTLAPDGFLVCVAD--------DPGAAALAERH-RAAGRRVVTVSARDA------GALDGVTLWS-PGEHYLADALAALAAGVELGYAAADLARGLASYTGTKRRMERKGEAGGVRVYDSYAHHPTEIAGDLQAARAVAGSGRVVVAFQPHLVSRTRIFGT---AMGRALGAADEVVVLDVYLAREDPDPEVTGALVAGAVPLPAERVAYVADFDAVAAELVARARPGDLVLTLGAGTVTAIGPRVLGLL</Hsp_hseq>
+      <Hsp_midline>+  +H +GIGG  + GIA I    G  VSG D    P + T L  LG  VH G DAA + +   D  V+    R    + VEA+  +GL  +     LA  V+    V+ VAGTHGKTTT S+L   L+ AG  P + IGG     GV+A                FV EADE D AF        HY P  AV+ N+E DH D +    A    F     T+  +G +VC           D G     E+     G ++  V+A  +      G   G   W   G H   +ALA +AA    G         L ++   KRRME KG A G+ VYD +AHHPT I   +Q  R   G  R++   +P   S T   GT   A+  +L  AD+V     Y    D D       VA A+     R+    DFD   AE+V  AR GD +L +  G    I  ++L  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|189029171|sp|A4J2B2.1|MURC_DESRM</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Desulfotomaculum reducens MI-1]</Hit_def>
+  <Hit_accession>A4J2B2</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>8.46555e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKE-AGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLE-EFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGL-IVCNGQQQSLQDTLDKGCWTPVE-KFGTGHGWQIGEV---NADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEP</Hsp_qseq>
+      <Hsp_hseq>KKVHFIGIGGAGMSGIATVMLEMGGYQVSGSDIKRSAVID-RLENLGAKCNIGHKTSNINNEIDAVVYSTA-ISPENPEILET-QRLGIPLIRRGQMLAR-LMKEKKGIAVAGAHGKTTTTSMTALILEENSFDPTIIIGGDLSNIGGNAKLGQ---------GEYMVAEADESD-------GSFLLLDPNIAVVTNIEDDHLDYYGTRENIAKAFRQFLAKLSAEGLAVICLDDPVLKEITTGLTCQVVTYGSLGSGADYQIKVLETRNGVNQGEVYFQEERLGMLELHVPGYHNLLNAMAAVAIGRHLNLDFEKIARALRKFTGAKRRFQVIGKVNGITVVDDYAHHPTEVKATLQAARTSHPG-RIVTIFQP</Hsp_hseq>
+      <Hsp_midline>K +H IGIGG  M GIA +  E  G++VSG D K    +  +LE LG   + G   + +  E  A +Y    ++    +++E     G+P I   Q LA  ++     + VAG HGKTTT SM A +LE     P  +IGG   N G +A+L Q           + V EADE D         F+   P  AV+ N+E DH D +     I   F   +  + +EGL ++C       + T    C        G+G  +QI  +   N     +V    ++ G +   + G HN +NA+A +A  RH  +D +    AL  F   KRR ++ G  NGITV DD+AHHPT ++ T+Q  R    G RI+ + +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|189029016|sp|A5D144.1|MURC_PELTS</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Pelotomaculum thermopropionicum SI]</Hit_def>
+  <Hit_accession>A5D144</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>2.65374e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>478</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQ-LEALGIGVHEGFDAAQLEEFQADIYVIGN-VARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTL---DKGCWT-----PVEKFGTGHGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGG--------ADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLDALR</Hsp_qseq>
+      <Hsp_hseq>RHVHFIGIGGSGMNGIAAIMLGLGYRVTGSDLK--PSAATRRLEALGATCYTRHAEENLGD--ADLVVASTAIPPDNIELVEA-RKRGLPVMHRADLLAW-LMRRQKGIAVAGAHGKTTTTSMTALVLEKNGMDPTIVIGGELSEIGGNAKL---------GRGEYLVAEADESD-------GSFLKLDPVIEIITNIEDDHLDYYRSVENILAAFRRFMAKVPESGLAVACLDDPRLRELLAGYDRPCLTYALDNPEADYTMRNIRLMRQVTAG---DVYYRGGFLGCLELSVPGRHNLSNAMAAVAVGRFVGLAFEGIAAALKDFRGAGRRFQLTGEVNGIKVIDDYAHHPSEIKATLKAAGQ-VKTGRVVGVFQPHRYTRTL-FLGERFGEAFEDADVVIISDIYSAGEKPIEGVSAKTIVSAIEKHNGRKVIYLPTRQEIVDYLVQMARPGDMILTMGAGDIWSAGIELVKRLK</Hsp_hseq>
+      <Hsp_midline>+H+H IGIGG+ M GIAAI    G++V+G D K  P  +T+ LEALG   +       L +  AD+ V    +    +++VEA   RGLP +     LA  ++     + VAG HGKTTT SM A VLE  G+ P  +IGG     G +A+L          +  + V EADE D         F+   P   ++ N+E DH D +  +  I   F   +  VP  GL V       L++ L   D+ C T     P   +   +   + +V A    DV   G   G +   + G HN  NA+A +A  R  G+  +    AL  F+   RR ++ G  NGI V DD+AHHP+ I+ T++   Q V   R++ V +P   T  L  +      + ++AD V     Y+ G        A   V+      G ++         V  +V+ AR GD IL M  G       +L+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|259509771|sp|C4ZBV1.1|MURC_EUBR3</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Eubacterium rectale ATCC 33656]</Hit_def>
+  <Hit_accession>C4ZBV1</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>6.7149e-43</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>HIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVN------ADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYA-------GGADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLL</Hsp_qseq>
+      <Hsp_hseq>HIHFIGIGGISMSGLAEILHEEGFTISGSDSKE-SDLTKTLAAKGIKVIYGQSADNITT-GIDLVVYTAAIHESNPEFAAAKAAGIPMLTRAELLGQIMDNYDYSIAVAGTHGKTTTTSMISEILLAAQTDPTISVGGILSSIHGNLRV---------GDSEYFISEACEY-------TNSFLNFRPRYSIILNIEAEHLDFFKDINDIRHSFREYASNTLAGGATIINGEIDRYEEIV-AGLPQKIITYGFDSKYDFYPENITYDDKACASFTAMRQGSPLFDVKLSVPGAHNVSNALAAIALSTTLGLDEESILTGLDKFGGADRRFQYKGKVNGVTIIDDYAHHPTEIRATLTA-AQKYPHDRLVLCFQPHTYS-RTKAFLNDFADVLSMADVVVLADIYAAREQNTYGISSKDILDLLLEKGVNAHYFPSFEEIEKFLSENCVNGDLLITMGAGNVVEIGEDLL</Hsp_hseq>
+      <Hsp_midline>HIH IGIGG  M G+A I  E GF +SG D+K    ++  L A GI V  G  A  +     D+ V             A    G+P ++  + L + + ++ + + VAGTHGKTTT SM++ +L  A   P   +GG+  +   + R+           S +F+ EA EY        + F+++RPR +++ N+E +H D F D+  I+  F        + G  + NG+    ++ +  G    +  +G    +     N      A  SF  +  G     V   + G HN  NALA IA +   G+D ++    L  F    RR + KG  NG+T+ DD+AHHPT I  T+    Q+    R++   +P + + +     +     L  AD V     YA       G +  D+ + L   G        F+     + +N   GD ++ M  G    I   LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|59798212|sp|Q67K97.1|MURC_SYMTH</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Symbiobacterium thermophilum IAM 14863]</Hit_def>
+  <Hit_accession>Q67K97</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>1.19048e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEG-FDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIF-ADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSL----QDTLDKGCWTPVEKFGTG----------HGWQIGEVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWDV----AEALAP-----LGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLDALR</Hsp_qseq>
+      <Hsp_hseq>RKVHFIGVGGYGMSALAMVLKQRGTAVSGSDVAA-SARTQRLAEAGVEVHIGAHDAAHIE--GADVVVYSTQVPEDNPELAAARARGLRVLHRSELLAEFL--NGRSIAVAGTHGKTTTSSMVACLLEKAGLDPTILLGGDLEVIGGTGK---------AGRGDWVVAEADESDRSFL-------RYHPRVAVVTNVEPEHLEFWEGSFARIQEGFRQFLRQVQPGGLAALCADDPTLRSIGQELRNQPGVVHVVFYGTHPEAEWRAENIRPWEKGIV-----YDCVRDGRLLGEVRLPIPGRHNALNSLGALVAGDYAGLSFRQMQETLLSFGNARRRFEVWADVDGIRVVDDYAHHPTEIRATLAAAREQ-AGRRVVAVFQPQRYSRTHWLMDE-FATAFQDADVLVLTRIYSPPGERPIPGVSAEALARRIQANTGRPVAVISDQEEILRFLLAEVRPGDTVITMGAGDIWKVARALAQALQ</Hsp_hseq>
+      <Hsp_midline>+ +H IG+GG  M  +A + K+ G  VSG D       + +L   G+ VH G  DAA +E   AD+ V           + A   RGL  +   + LAE +  +   + VAGTHGKTTT+SM+A +LE AGL P  L+GG  E  G + +           +  + V EADE D +F         Y PR AV+ N+E +H + +      IQ  F   +R V   GL        +L    Q+  ++     V  +GT             W+ G V     +D + DG+  G V   + G HN +N+L  + A  +AG+  +   E L +F N +RR E+    +GI V DD+AHHPT I  T+   R++  G R++AV +P+  +     M      + ++AD +     Y+   +  +    AEALA       G  + V  D +  +  ++   R GD ++ M  G    +   L  AL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|254766004|sp|B9M173.1|MURC_GEODF</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Geobacter daltonii FRC-32]</Hit_def>
+  <Hit_accession>B9M173</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>1.77323e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>481</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGN-VARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHG------WQIGEVNADG---SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGG--ARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWDVAEALAPLGCRL-RVGKDFDTFVAE-------IVKNARTGDHILVMSNGGFGGIHTKLLDALR</Hsp_qseq>
+      <Hsp_hseq>IERIHFVGIGGIGMSGIAEVLLNLGYKVSGSDLRK-SEITERLEQLGGEIHLGHTGSNVE--RADVVVISSAVHDDNPEVIEA-RERLIPVIPRAEMLAE-LMRMKYGIAIAGTHGKTTTTSMVATILATGGIDPTIVIGGRLNSIGTNARLGQ---------GKFLVAEADESD-------GSFLKLSPTIAVVTNIDADHLDFYSGIEEIKDTFVEFINKIPFYGLAVLCLDNGNVADII-----PLVKKRFTTYGLTAQADFRATEIRHEGFTTSFVAHYKGQKLGEISFNMPGAHNVLNALATIAVATELDMRFEDIQAGFKSFGGVGRRFQVKGEVNGIMVVDDYGHHPTEIKATLAAAK---GGWDRRLVVVFQPHRYT-RTKELFEEFVKAFYDADILILTDIYPAGEQPIEGVTAEALSARIKRHGQREVTFVADRNKVCDHLLSIVKEGDIVLTLGAGNILQAGEQLVEKLR</Hsp_hseq>
+      <Hsp_midline>++ IH +GIGG  M GIA +    G+KVSG D +    ++ +LE LG  +H G   + +E  +AD+ VI + V     +V+EA   R +P I   + LAE ++   + + +AGTHGKTTT SM+A +L   G+ P  +IGG   + G +ARL Q           F V EADE D         F+   P  AV+ N++ DH D ++ +  I+  F   +  +P  GL V      ++ D +       V+K  T +G      ++  E+  +G   SF     G+K G +++++ G HN +NALA IA A    +  +       +F  V RR ++KG  NGI V DD+ HHPT I+ T+   +   GG   R++ V +P   T +   +      +  +AD +     Y  G           L  R+ R G+   TFVA+       ++   + GD +L +  G       +L++ LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|259509773|sp|C6DZK7.1|MURC_GEOSM</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Geobacter sp. M21]</Hit_def>
+  <Hit_accession>C6DZK7</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>4.75408e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGN-VARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHG------WQIGEVNADG---SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEP</Hsp_qseq>
+      <Hsp_hseq>IERIHFVGIGGIGMSGIAEVLLNLGYKVSGSDLRG-SEITQRLESLGGEIFFGHAAENVA--NADVVVISSAVHEDNPEVVEAHL-RLIPVIPRAEMLAE-LMRMKYGIAVAGTHGKTTTTSMVATILSKGGIDPTIVIGGRLNSLGTNARLGQ---------GQFLVAEADESD-------GSFLLLSPTIAVVTNIDADHLDFYSGIEEIKDTFVEFINKIPFYGLAVLCLDNGNVADVLPR-----VKKRFTSYGLSAQADFRATDVRLSGFSTSFVAHHKGVRLGEITFSMPGAHNVLNALAAIAVAMELDIPFETIQEGFAGFGGVGRRFHLKGEANGIMVVDDYGHHPTEIKATLGAAKAGFAENRLVVVFQP</Hsp_hseq>
+      <Hsp_midline>++ IH +GIGG  M GIA +    G+KVSG D +    ++ +LE+LG  +  G  A  +    AD+ VI + V     +VVEA L R +P I   + LAE ++   + + VAGTHGKTTT SM+A +L   G+ P  +IGG   + G +ARL Q           F V EADE D         F+   P  AV+ N++ DH D ++ +  I+  F   +  +P  GL V      ++ D L +     V+K  T +G      ++  +V   G   SF     G + G + + + G HN +NALA IA A    +  +T  E    F  V RR  +KG ANGI V DD+ HHPT I+ T+   +      R++ V +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|226706323|sp|B5EBQ2.1|MURC_GEOBB</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Geobacter bemidjiensis Bem]</Hit_def>
+  <Hit_accession>B5EBQ2</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>4.99318e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGN-VARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHG------WQIGEVNADG---SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEP</Hsp_qseq>
+      <Hsp_hseq>IERIHFVGIGGIGMSGIAEVLLNLGYKVSGSDLRG-SEITQRLESLGGEIFFGHAAENVA--NADVVVISSAVHDDNPEVVEAHL-RLIPVIPRAEMLAE-LMRMKYGIAVAGTHGKTTTTSMVATILSKGGIDPTIVIGGRLNSLGTNARLGQ---------GQFLVAEADESD-------GSFLLLSPTIAVVTNIDADHLDFYSGIEEIKDTFVEFINKIPFYGLAVLCLDNGNIADVLPR-----VKKRFTSYGMSAQADFRATDVKLSGFSTSFVAHHKGVRLGEITFSMPGAHNVLNALAAIAVAMELDIPFETIQEGFAGFGGVGRRFHLKGEANGIMVVDDYGHHPTEIKATLGAAKAGFAENRLVVVFQP</Hsp_hseq>
+      <Hsp_midline>++ IH +GIGG  M GIA +    G+KVSG D +    ++ +LE+LG  +  G  A  +    AD+ VI + V     +VVEA L R +P I   + LAE ++   + + VAGTHGKTTT SM+A +L   G+ P  +IGG   + G +ARL Q           F V EADE D         F+   P  AV+ N++ DH D ++ +  I+  F   +  +P  GL V      ++ D L +     V+K  T +G      ++  +V   G   SF     G + G + + + G HN +NALA IA A    +  +T  E    F  V RR  +KG ANGI V DD+ HHPT I+ T+   +      R++ V +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|189028970|sp|A1R5F9.1|MURC_ARTAT</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Arthrobacter aurescens TC1]</Hit_def>
+  <Hit_accession>A1R5F9</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>7.60473e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEG-LIVCNGQQ--QSLQDTLDKGCWTPVEKFGTGHGWQIG-EVNADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEP</Hsp_qseq>
+      <Hsp_hseq>LGRVHFIGIGGVGMSAVARIMVSRGVPVSGSDVKDLPVMR-DLSSAGARIAVGYDAGNLGDAQ--TIVAGSAIRADNPELVAAREAGLPVLHRSEALAAT-MAGHRVVTVAGTHGKSTTTSMVAVLLKEAGLDPSFAIGANVPALGVNA---------AHGSSDIFVAEADESDGSFLN-------YRPLIAVVTNVEADHLDHYGTPEAVFASFDDFAALLPAQGVLLACSDDAGARALADRTASKGTTRVLTYGTSDDADIRLHDGGPGDVSVALDGG-VHKLELQVPGRHNALNAAAAFAVAVELGVEPGAAAAALGHFTGASRRFELKGRGRGVRVYDDYAHHPTEVRAALSAARSVAGDNKVHVLFQP</Hsp_hseq>
+      <Hsp_midline>+  +H IGIGG  M  +A I    G  VSG D K  P M   L + G  +  G+DA  L + Q    V G+  R     + A    GLP +   + LA   +  H V+ VAGTHGK+TT SM+A +L+ AGL P F IG      GV+A          +  S  FV EADE D +F +       YRP  AV+ N+E DH D +    A+   F      +P++G L+ C+     ++L D       T V  +GT     I       G   V LDG     +   + G HN +NA A  A A   GV+   A  ALG F    RR E+KG   G+ VYDD+AHHPT +   +   R   G  ++  + +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|123319314|sp|Q01Q49.1|MURC_SOLUE</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Candidatus Solibacter usitatus Ellin6076]</Hit_def>
+  <Hit_accession>Q01Q49</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>7.61756e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>KHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGG-VPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEG-LIVCNGQQQSLQDTLDKGCWTPVEKFGTGHG------WQIGEVNAD---GSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVFC---YA-------GGADWDVAEALAPLGCR-LRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLDALR</Hsp_qseq>
+      <Hsp_hseq>QHLHFTGIGGIGMSGIAEVLLNLGYQISGSDVKL-SPITERLAAMGARVFEGHAASNIAGARA-LVVSSAVDEQNPEVQEA-RRISIPVIPRGELLAE-LMRLKYGIAVAGSHGKTTTTSMAATILNYAGLDPTVVVGGRVGTMGGSNARV---------GHSDFLVVESDESD-------GSFLKLAPIIAVVTNVDREHLDHYPDLDAIRAAFLEFVNKVPFYGAVIVC------LDDANVQGLLPEIRRRTITYGTTAQADMEAGDISCGPFASEFRLRYRTADLGRFRLHIPGRHNVLNAMAAIAVAMELEVKPDTIREALETFSGVDRRFQLRGQERGIAVVDDYGHHPTEIRATLDGARQ-CGFRRIHVLFQPHRYTRTFHLMDE-FARSFHQADSLFVMDIYAASEKPIPGVTAESLVERIRQFGHRGVEYVGTLDRGVDALVAAASEGDLVLTLGAGSVYQAGEKVLERLR</Hsp_hseq>
+      <Hsp_midline>+H+H  GIGG  M GIA +    G+++SG D K+  P++ +L A+G  V EG  A+ +   +A + V   V  +  +V EA     +P I   + LAE ++   + + VAG+HGKTTT SM A +L YAGL P  ++GG V    G +AR+           S F V+E+DE D         F+   P  AV+ N++ +H D + DL AI+  F   V  VP  G +IVC      L D   +G    + +    +G       + G+++       F +       G     + G HN +NA+A IA A    V   T  EAL  F  V RR +++G   GI V DD+ HHPT I  T+ G RQ  G  RI  + +P   T     M      S  +AD +F    YA       G     + E +   G R +      D  V  +V  A  GD +L +  G       K+L+ LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|189028998|sp|A1U3F7.1|MURC_MARAV</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Marinobacter hydrocarbonoclasticus VT8]</Hit_def>
+  <Hit_accession>A1U3F7</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>8.29406e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>385</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIF-ADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGH---GWQIGEVNADGSFDVLLDGKKAG----HVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTAN----GITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNT</Hsp_qseq>
+      <Hsp_hseq>IRRIHFVGIGGAGMSGIAEVLKNQGYDVSGSDIRD-SAVTARLRAMDVDVYIGHRAENTD--QADVVVVSSAVAGDNPEVVSARERRVPIVPRAEMLAEIMRYRHGI-AVAGTHGKTTTTSLIASVLGEAGLDPTFVIGGKLNSAGTNAQL---------GGSRYLVAEADESDASFL-------HLTPVISVVTNIEADHMDTYGGDVEKLKQTFVDFLHNLPFYGVAVMCVDDDYVQEIIPR-ISRAIITYGIDNPDADYRAENITSDGLKTRFLVRRPGGRPDLQVELKMPGRHNVLNALATIAVATDEGVDDQAICRGLAGFAGVGRRFQVYGEYRTPKAAATLVDDYGHHPTEVEAVIRAAREAWPQRRIVMLYQPHRYT</Hsp_hseq>
+      <Hsp_midline>++ IH +GIGG  M GIA + K  G+ VSG D +    ++ +L A+ + V+ G  A   +  QAD+ V+ +        V +   R +P +   + LAE + + H +  VAGTHGKTTT S++A VL  AGL P F+IGG   + G +A+L           S + V EADE D +F        H  P  +V+ N+E DH D +  D+  ++  F   +  +P  G+ V       +Q+ + +     +  +G  +    ++   + +DG     L  +  G     V   + G HN +NALA IA A   GVD Q  C  L  F  V RR ++ G         T+ DD+ HHPT +E  I+  R+     RI+ + +P   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|259509770|sp|C4Z4L9.1|MURC_EUBE2</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [[Eubacterium] eligens ATCC 27750]</Hit_def>
+  <Hit_accession>C4Z4L9</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>6.68793e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>HIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTL-DKGCWTPVEKFGTGHG---WQIGEVNAD----GSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYA-------GGADWDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLL</Hsp_qseq>
+      <Hsp_hseq>HIHFIGIGGISMSGLAKILLSKGFSVSGS-DSHSSALTDELIGDGCLVSVPQSAGNITN-DIDLVVYTAAIHPDNPEFKAAKEAGLPMLTRAELLGQIMTVYKNAINIAGTHGKTTTTSMVSEILLAASMDPTISVGGILNSIGGNTRV---------GGDNYFVAEACEY-------TNSFLSFNPTMNIILNVKEDHLDFFKDIDDIRHSFKLFTEKLPSDGTLIINTDIDNYEYFYQDTDC--EVITFGSDPAKSMYSASDIAYDELGRCTYSLLINGEKADTITLGVPGLHNVYNSLAAIAATRKLSVDMEHIKAGLSNFKGTNRRFEKKGTFNGVTVIDDYAHHPDEIRATLSSAAHYPHN-RVWVVFQPHTYS-RTKLLFNEFADALSHADKVVLAKIYAARETDTLGISSADLCEKIKSLGKECVYIDNFEDIEKYLLKNCINGDLLITMGAGDIYKVGEDLL</Hsp_hseq>
+      <Hsp_midline>HIH IGIGG  M G+A I    GF VSG        ++ +L   G  V     A  +     D+ V            +A    GLP ++  + L + +  +   + +AGTHGKTTT SM++ +L  A + P   +GG+  + G + R+             +FV EA EY        + F+ + P   ++ N++ DH D F D+  I+  F      +PS+G ++ N    + +    D  C   V  FG+      +   ++  D     ++ +L++G+KA  +   + G HN  N+LA IAA R   VD++     L  FK   RR E KGT NG+TV DD+AHHP  I  T+          R+  V +P + + +   + +    +L  AD+V     YA       G +  D+ E +  LG       +F+     ++KN   GD ++ M  G    +   LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|123371911|sp|Q1BZG2.1|MURC_BURCA</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Burkholderia cenocepacia AU 1054] &gt;gi|166222962|sp|A0K487.1|MURC_BURCH RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Burkholderia cenocepacia HI2424]</Hit_def>
+  <Hit_accession>Q1BZG2</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>8.0482e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFA-DLGAIQTQFHHLVRTVPSEG-LIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGS-----FDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKG---TANG--ITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWDVAEALAPLGCRLR-VGKDFDTFVAEI-------VKNARTGDHILVMSNGGFGGIHTKLL</Hsp_qseq>
+      <Hsp_hseq>VKHIHFVGIGGAGMSGIAEVLVNLGYAVSGSDLSRNA-VTDRLEALGARIAIGHDAANIE--GANAVVVSTAVRSDNPEVLAARHQGVPIVQRAVMLAE-LMRLKQGIAIAGTHGKTTTTSLVASVLAAGGLDPTFVIGGRLISAGANARL---------GTGDFIVAEADESD-------ASFLNLYPVIEVITNIDADHMDTYGHDFARLKQAFIEFTQRLPFYGSAVVCVDDPNVRQ--IIPFISKPVVRYGLSPDAQVRAEDIDARDGRMHFTVIREGRAPLAVVLNMPGLHNVQNALAAIAIATDLGVSDDAIQLALAEFNGVGRRFQRYGEVPSADGGQYTLIDDYGHHPVEMAATIAAARGAFPGRRLVLAFQPHRYTRTRDCFDDFVNV-LSTVDALVLTEVYAAGEAAIPTASGDALSRALRAVGKVDPVFVATVDDVPDALAKVAQNGDVVITMGAGSIGGVPAKLV</Hsp_hseq>
+      <Hsp_midline>+KHIH +GIGG  M GIA +    G+ VSG D      ++ +LEALG  +  G DAA +E   A+  V+    R     V A  ++G+P +     LAE ++     + +AGTHGKTTT S++A VL   GL P F+IGG   + G +ARL             F V EADE D       + F++  P   V+ N++ DH D +  D   ++  F    + +P  G  +VC       Q  +      PV ++G     Q+   + D       F V+ +G+    V  ++ G HN  NALA IA A   GV       AL  F  V RR +  G   +A+G   T+ DD+ HHP  +  TI   R    G R++   +P   T         +   L   D +     YA G       +   L   LR VGK    FVA +        K A+ GD ++ M  G  GG+  KL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|189028966|sp|A0LTM4.1|MURC_ACIC1</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Acidothermus cellulolyticus 11B]</Hit_def>
+  <Hit_accession>A0LTM4</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>8.06658e-41</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>472</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>MGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCW--TPVEKFGTGHGWQIGEVN-----ADGSFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGG------ADWDVAEALAPL-GCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKL-LDALR</Hsp_qseq>
+      <Hsp_hseq>MSGIARIFLSRGVPVSGCDARESRVLAA-LRAFGARVTVGHDPAHLSDV--DTVVASTAVPPTTPELAVARERGLPVLPRAAALA-SVMAGRRGVAVAGTHGKTTTTSMVVRALQRCGADPSFAIGADLGEPGSNAH---------DGTGSIFVAEADESDESFL-----LLPFH--AAVVTNVEADHLNHYADLAAIHAAFDRFVAKVPDGGFLVACTDDPGAEEIASRAARRGTVVRRYGTSPRADVRLVDLRLEVAGSRFAVAMDGTVLGELQLRVPGAHNALNATAAVAVTVGLGFPFSEVAEGLADFTGARRRFQPQGEVAGIRVFDDYAHHPTEIAATLRAARVVADGGRLVVAFQPH-HYYRTADFRTEFGAALALADEVVVMEVYAPGETPLPGGTGAALAAAVPLPGSAVVFEPSWSAVPEHLAARARPGDLIVTMGAGGDVALLPPLVLDALR</Hsp_hseq>
+      <Hsp_midline>M GIA I    G  VSGCDA+    ++  L A G  V  G D A L +   D  V           +     RGLP +     LA +V+     + VAGTHGKTTT SM+   L+  G  P F IG      G +A          +     FV EADE D +F       + +    AV+ N+E DH + +ADL AI   F   V  VP  G +V        ++   +     T V ++GT     +  V+     A   F V +DG   G +   + G HN +NA A +A     G       E L  F   +RR + +G   GI V+DD+AHHPT I  T++  R    G R++   +P  +  +    ++   A+L  AD+V     YA G             A  PL G  +     +      +   AR GD I+ M  GG   +   L LDALR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|229486474|sp|B1JV79.1|MURC_BURCC</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Burkholderia cenocepacia MC0-3]</Hit_def>
+  <Hit_accession>B1JV79</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>8.1269e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFA-DLGAIQTQFHHLVRTVPSEG-LIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGS-----FDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKG---TANG--ITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWDVAEALAPLGCRLR-VGKDFDTFVAEI-------VKNARTGDHILVMSNGGFGGIHTKLL</Hsp_qseq>
+      <Hsp_hseq>VKHIHFVGIGGAGMSGIAEVLVNLGYAVSGSDLSRNA-VTDRLEALGARIAIGHDAANIE--GANAVVVSTAVRSDNPEVLAARHQGVPIVQRAVMLAE-LMRLKQGIAIAGTHGKTTTTSLVASVLAAGGLDPTFVIGGRLISAGANARL---------GTGDFIVAEADESD-------ASFLNLYPVIEVITNIDADHMDTYGHDFARLKQAFIEFTQRLPFYGSAVVCVDDPNVRQ--IIPFISKPVVRYGLSPDAQVRAEDIDARDGRMHFTVIREGRAPLAVVLNMPGLHNVQNALAAIAIATDLGVSDDAIQLALAEFNGVGRRFQRYGDVPSADGGQYTLIDDYGHHPVEMAATIAAARGAFPGRRLVLAFQPHRYTRTRDCFDDFVNV-LSTVDALVLTEVYAAGEAAIPTASGDALSRALRAVGKVDPVFVATVDDVPDALAKVAQNGDVVITMGAGSIGGVPAKLV</Hsp_hseq>
+      <Hsp_midline>+KHIH +GIGG  M GIA +    G+ VSG D      ++ +LEALG  +  G DAA +E   A+  V+    R     V A  ++G+P +     LAE ++     + +AGTHGKTTT S++A VL   GL P F+IGG   + G +ARL             F V EADE D       + F++  P   V+ N++ DH D +  D   ++  F    + +P  G  +VC       Q  +      PV ++G     Q+   + D       F V+ +G+    V  ++ G HN  NALA IA A   GV       AL  F  V RR +  G   +A+G   T+ DD+ HHP  +  TI   R    G R++   +P   T         +   L   D +     YA G       +   L   LR VGK    FVA +        K A+ GD ++ M  G  GG+  KL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|189029025|sp|A9WRD7.1|MURC_RENSM</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Renibacterium salmoninarum ATCC 33209]</Hit_def>
+  <Hit_accession>A9WRD7</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>9.77681e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVC----NGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGSFD----VLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPR--SNTMKLGTMKSALPASLKEADQVFCYAGGAD---WDVAEALAPLGCRLRVGKDFDTFVAEIVKNARTGDHILVMSNGGFGGIHTKLLDAL</Hsp_qseq>
+      <Hsp_hseq>LGRVHFIGIGGAGMSGIVRIMLARGISVSGSDAKESAGL-LELGALGASVHAGHAAQNVA--GADTVVISTAIRANNPELEFARTQGLRVLHRSEALAA-AMAQDTVVAVAGTHGKTTTTAMIAVLLREAGLDPSFAVGGTVPALGVNA---------AHGAGGIFVAEADESD-------GSFLNYRPQIAVVTNAEPDHLDHYGTAEAVMEAFQSFIGLIPADGLLVACTDDDGALALAKQAAARG--TRVVTYGRSAAAEVWLIN-DGAHRAIEFITPIGPQRLVLELQVPGEHNALNALAAFAVALELGVEAEQALSALAGFTGAARRFEFKGQVRGIRVFDDYAHHPTEVRAALTAARTVADGHHVLVLFQPHLFSRTHEFAAEFAAALSLADSIMVLDVYPAREDPIPGVTGELITEANAKLTFQPDRAKAIQELVARTANGDIVLTVGAGDVTEAGAAILDAL</Hsp_hseq>
+      <Hsp_midline>+  +H IGIGG  M GI  I    G  VSG DAK    +  +L ALG  VH G  A  +    AD  VI    R     +E    +GL  +   + LA   +    V+ VAGTHGKTTT +M+A +L  AGL P F +GG     GV+A          +     FV EADE D         F++YRP+ AV+ N E DH D +    A+   F   +  +P++GL+V     +G     +    +G  T V  +G     ++  +N DG+      +   G +   +   + G HN +NALA  A A   GV+ + A  AL  F    RR E KG   GI V+DD+AHHPT +   +   R    G  +L + +P   S T +     +A  +       +  Y    D       E +     +L    D    + E+V     GD +L +  G        +LDAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|189029225|sp|A3M9Y0.2|MURC_ACIBT</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Acinetobacter baumannii ATCC 17978] &gt;gi|226711854|sp|B7GV74.1|MURC_ACIB3 RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Acinetobacter baumannii AB307-0294] &gt;gi|226711855|sp|B7ICE4.1|MURC_ACIB5 RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Acinetobacter baumannii AB0057] &gt;gi|229470258|sp|B2I1J4.1|MURC_ACIBC RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Acinetobacter baumannii ACICU] &gt;gi|229470266|sp|B0V9F6.1|MURC_ACIBY RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Acinetobacter baumannii AYE]</Hit_def>
+  <Hit_accession>A3M9Y0</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>1.29651e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIF-ADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIG--EVNADG---SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGT----ANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEP</Hsp_qseq>
+      <Hsp_hseq>IKHIHFVGIGGAGMCGIAEVLANQGYKISGSDIKA-SKTTQQLEENGIKVYIGHEAENIK--NANVLVVSTAIDPENPEVKAAIEQRIPIVRRAEMLGELMRYRHGI-AVAGTHGKTTTTSLLTTMLAEENLDPTYVIGGLLNSTGVNAAL---------GESRFIVAEADESDASFL-------YLQPMAAIVTNIDADHMDTYEGSFDKLKDTFVQFLHNLPFYGLAVVCGDDANIREILPR-VGRPVITYGFNEDNDIRAIDVEQDGMRSHFTVLRKGREPLRLTINQPGLHNVLNALAAIGVATDEGVSDEAISRALKGFSGVGRRFQVQGEFELGEGNVKLVDDYGHHPKEVEATIKAARQSHPDRRLVMLFQP</Hsp_hseq>
+      <Hsp_midline>+KHIH +GIGG  M GIA +    G+K+SG D K     + QLE  GI V+ G +A  ++   A++ V+          V+A + + +P +   + L E + + H +  VAGTHGKTTT S+L  +L    L P ++IGG+  + GV+A L          +S F V EADE D +F        + +P  A++ N++ DH D +      ++  F   +  +P  GL V  G   ++++ L +    PV  +G      I   +V  DG    F VL  G++   +  +  G HN +NALA I  A   GV  +    AL  F  V RR +++G        + + DD+ HHP  +E TI+  RQ     R++ + +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|189028971|sp|A0JV95.1|MURC_ARTS2</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Arthrobacter sp. FB24]</Hit_def>
+  <Hit_accession>A0JV95</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.52248e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVC----NGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGSFDVLLDGKKAGHVAWDLM--GGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPT</Hsp_qseq>
+      <Hsp_hseq>LGRVHFIGIGGVGMSAVARIMVARGVPVTGSDAKDLPVMA-DLAAAGAGIHVGYSAGNLGAAEA--VVAGSAIRADNPELQAARAAGLPVLHRSEALAA-AMAGDRVVTVAGTHGKSTTTSMVTVLLQGAGLDPTFAIGANVPSLGVNA---------ASGTSDIFVAEADESD-------GSFLNYRPHIAVVTNVEPDHLDYYGTAEAVYESFDSFTELLPADGVLVACADDPGARALAERTRTRGN-TRVVTYGTAEDAQL-RLHDGGPGDVWVS-TGAGRFALDLQVPGRHNALNAAAAFAVALELGVAPDAASGALAHFSGASRRFEFKGEGRGVRVYDDYAHHPT</Hsp_hseq>
+      <Hsp_midline>+  +H IGIGG  M  +A I    G  V+G DAK  P M+  L A G G+H G+ A  L   +A   V G+  R     ++A    GLP +   + LA   +    V+ VAGTHGK+TT SM+  +L+ AGL P F IG    + GV+A          +  S  FV EADE D         F++YRP  AV+ N+E DH D +    A+   F      +P++G++V      G +   + T  +G  T V  +GT    Q+  ++  G  DV +    AG  A DL   G HN +NA A  A A   GV    A  AL  F    RR E KG   G+ VYDD+AHHPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|166224702|sp|A2SCY6.1|MURC_METPP</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Methylibium petroleiphilum PM1]</Hit_def>
+  <Hit_accession>A2SCY6</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>2.48517e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDV-VEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFA-DLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNA---DGSFDVLLDGKKAGHVAWD------LMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRM----EIKGTANG-ITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWDVAEALAPLGCRLRVGKDFD-TFVAE-------IVKNARTGDHILVMSNGGFGGIHTKLLDAL</Hsp_qseq>
+      <Hsp_hseq>VKHIHFVGIGGAGMSGIAEILHNLGYRVSGSD-QSDGATTRRLASLGIRVAIGHDAAHIAGAEA---VVTSTAVKGDNPEVIAARSRRVPVVPRAVMLAE-LMRLKQGIAIAGTHGKTTTTSLVASVLAEAGLDPTFVIGGRLNSAGANSRL---------GAGDYIVVEADESDASFLN-------LLPVLSVVTNIDADHMDTYGHDLGRLKHAFLEFLHRMPFYGAAIICGDDPGVRSIIPM-ISRPVVSYGFGEDAQIRAVDVLALPGGQMRFTAQRRNGVVMPDLPITLNLPGRHNVLNALAVIAVAAELELPDAPVQKALAAFDGVGRRFQRYGELPTPAGGRFTLIDDYGHHPVEMAAVIAAARGAFPGRRLVIAFQPHRYTRTRDCFEDFVKV-MGGADAVLLGEVYAAGEAPIVAADGRALARALRVGGKLEPVFVDEIAAMPQAIADNVQDGDVVITMGAGSIGAVPGQVVELL</Hsp_hseq>
+      <Hsp_midline>+KHIH +GIGG  M GIA I    G++VSG D +     + +L +LGI V  G DAA +   +A   V+ + A +G +  V A  +R +P +     LAE ++     + +AGTHGKTTT S++A VL  AGL P F+IGG   + G ++RL             + V+EADE D +F +         P  +V+ N++ DH D +  DLG ++  F   +  +P  G  +  G    ++  +      PV  +G G   QI  V+     G        ++ G V  D      L G HN +NALAVIA A    +      +AL AF  V RR     E+   A G  T+ DD+ HHP  +   I   R    G R++   +P   T      +  +   +  AD V     YA G    VA     L   LRVG   +  FV E       I  N + GD ++ M  G  G +  ++++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|229486475|sp|B4E6J1.1|MURC_BURCJ</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Burkholderia cenocepacia J2315]</Hit_def>
+  <Hit_accession>B4E6J1</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>3.45384e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIFA-DLGAIQTQFHHLVRTVPSEG-LIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNADGS-----FDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKG---TANG--ITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADWDVAEALAPLGCRLRVGKDFD-TFVAEI-------VKNARTGDHILVMSNGGFGGIHTKLL</Hsp_qseq>
+      <Hsp_hseq>VKHIHFVGIGGAGMSGIAEVLANLGYAVSGSDLSRNA-VTDRLEALGARIAIGHDAANIE--GANAVVVSTAVRSDNPEVLAARAKRVPIVQRAVMLAE-LMRLKQGIAIAGTHGKTTTTSLVASVLAAGGLDPTFVIGGRLISAGANARL---------GTGDFIVAEADESD-------ASFLNLYPVIEVITNIDADHMDTYGHDFARLKQAFIEFTQRLPFYGSAVVCVDDPNVRQ--IIPFISKPVVRYGLSPDAQVRAEDIDARDGRMHFTVIREGRAPLAVVLNMPGLHNVQNALAAIAIATDLGVSDDAIQLALAEFNGVGRRFQRYGEVPSADGGQYTLIDDYGHHPVEMAATIAAARGAFPGRRLVLAFQPHRYTRTRDCFDDFVNV-LSTVDALVLTEVYAAGEAAIPTASGDALSRALRAAGKVDPVFVATVDDVPDALAKVARNGDVVITMGAGSIGGVPAKLV</Hsp_hseq>
+      <Hsp_midline>+KHIH +GIGG  M GIA +    G+ VSG D      ++ +LEALG  +  G DAA +E   A+  V+    R     V A   + +P +     LAE ++     + +AGTHGKTTT S++A VL   GL P F+IGG   + G +ARL             F V EADE D       + F++  P   V+ N++ DH D +  D   ++  F    + +P  G  +VC       Q  +      PV ++G     Q+   + D       F V+ +G+    V  ++ G HN  NALA IA A   GV       AL  F  V RR +  G   +A+G   T+ DD+ HHP  +  TI   R    G R++   +P   T         +   L   D +     YA G       +   L   LR     D  FVA +        K AR GD ++ M  G  GG+  KL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|166224719|sp|A3PHS9.1|MURC_RHOS1</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Rhodobacter sphaeroides ATCC 17029]</Hit_def>
+  <Hit_accession>A3PHS9</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>5.45367e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>444</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>465</Hsp_align-len>
+      <Hsp_qseq>IHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRT-AVLNNLEFDHADIFADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIGEVNAD-----GSFDVLLDGKKAGHV----AWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGTANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEPRSNTMKLGTMKSALPASLKEADQVF---CYAGGADW-------DVAEALAPLGCR----LRVGKDFDTFVAEIVKNARTGDHILVMSNG</Hsp_qseq>
+      <Hsp_hseq>IHFVGIGGIGMSGIAEVLMTLGYRVQGSDAKA-SKITERLVSLGATFFEGQRAGNLGE--AAVVVISSAIKKGNPELEEARLRGLPVVRRAEMLAE-LMRMRSNIAIAGTHGKTTTTTMVATLLDKGGFDPTVINGGVIHAYGSNARA---------GAGEWMVVEADESDGSF--------NRLPATIAIVTNIDPEHMEHWGSFDALRKGFYDFVTNIPFYGLAVCCTDHAEVQALVGRVTDRRIVTFGFNAQADVRAINLRYENGIAHFDVALQSEGAGHVIEGMSLPMPGDHNVSNALAAVAVARHLGMKKDEIREALAAFGGVNRRFTKVGEVGGVTIIDDYGHHPVEIAAVLKAARQAVKG-RVIAVHQPHRYS-RLHSLFDDFCTCFNEADVVAIAEVYAAGEDPIPGAGRDDLVAGLIAHGHRHARAILCEDDLERLVRE---QARPGDMVVCLGAG</Hsp_hseq>
+      <Hsp_midline>IH +GIGG  M GIA +    G++V G DAK    ++ +L +LG    EG  A  L E  A + VI +  ++G   +E    RGLP +   + LAE ++     + +AGTHGKTTT +M+A +L+  G  P  + GGV   +G +AR              + V+EADE D +F        +  P T A++ N++ +H + +    A++  F+  V  +P  GL VC      +Q  + +     +  FG      +  +N         FDV L  + AGHV    +  + G HN  NALA +A ARH G+      EAL AF  V RR    G   G+T+ DD+ HHP  I   ++  RQ V G R++AV +P   + +L ++         EAD V     YA G D        D+   L   G R    +    D +  V E    AR GD ++ +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|229470259|sp|B0VNZ8.1|MURC_ACIBS</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Acinetobacter baumannii SDF]</Hit_def>
+  <Hit_accession>B0VNZ8</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>5.61762e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>MKHIHIIGIGGTFMGGIAAIAKEAGFKVSGCDAKMYPPMSTQLEALGIGVHEGFDAAQLEEFQADIYVIGNVARRGMDVVEAILNRGLPYISGPQWLAENVLHHHWVLGVAGTHGKTTTASMLAWVLEYAGLAPGFLIGGVPENFGVSARLPQTPRQDPNSKSPFFVIEADEYDTAFFDKRSKFVHYRPRTAVLNNLEFDHADIF-ADLGAIQTQFHHLVRTVPSEGLIVCNGQQQSLQDTLDKGCWTPVEKFGTGHGWQIG--EVNADG---SFDVLLDGKKAGHVAWDLMGGHNRMNALAVIAAARHAGVDVQTACEALGAFKNVKRRMEIKGT----ANGITVYDDFAHHPTAIETTIQGLRQRVGGARILAVLEP</Hsp_qseq>
+      <Hsp_hseq>IKHIHFVGIGGAGMCGIAEVLANQGYKISGSDINA-SKTTQQLEENGIKVYIGHEAENIK--NANVLVVSTAIDPENPEVKAAIEQRIPIVRRAEMLGELMRYRHGI-AVAGTHGKTTTTSLLTTMLAEENLDPTYVIGGLLNSTGVNAAL---------GESRFIVAEADESDASFL-------YLQPMAAIVTNIDADHMDTYEGSFDKLKDTFVQFLHNLPFYGLAVVCGDDANIREILPR-VGRPVITYGFNEDNDIRAIDVERDGMRSHFTVLRKGREPLRLTINQPGLHNVLNALAAIGVATDEGVSDEAISRALKGFSGVGRRFQVQGEFELGEGNVKLVDDYGHHPKEVEATIKAARQSHPDRRLVMLFQP</Hsp_hseq>
+      <Hsp_midline>+KHIH +GIGG  M GIA +    G+K+SG D       + QLE  GI V+ G +A  ++   A++ V+          V+A + + +P +   + L E + + H +  VAGTHGKTTT S+L  +L    L P ++IGG+  + GV+A L          +S F V EADE D +F        + +P  A++ N++ DH D +      ++  F   +  +P  GL V  G   ++++ L +    PV  +G      I   +V  DG    F VL  G++   +  +  G HN +NALA I  A   GV  +    AL  F  V RR +++G        + + DD+ HHP  +E TI+  RQ     R++ + +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

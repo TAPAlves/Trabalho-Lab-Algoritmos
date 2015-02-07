@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-07-05" modified="2015-01-07" version="62">
+<accession>Q5F8D0</accession>
+<name>CRCB_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Putative fluoride ion transporter CrcB</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">crcB</name>
+<name type="ordered locus">NGO0853</name>
+</gene>
+<organism>
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Important for reducing fluoride concentration in the cell, thus reducing its toxicity.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cell inner membrane</location>
+<topology evidence="1">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the CrcB (TC 9.B.71) family.</text>
+</comment>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89557.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207969.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="STRING" id="242231.NGO0853"/>
+<dbReference type="EnsemblBacteria" id="AAW89557">
+<property type="protein sequence ID" value="AAW89557"/>
+<property type="gene ID" value="NGO0853"/>
+</dbReference>
+<dbReference type="GeneID" id="3282247"/>
+<dbReference type="KEGG" id="ngo:NGO0853"/>
+<dbReference type="PATRIC" id="20334876">
+<property type="gene designation" value="VBINeiGon24812_1008"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0239"/>
+<dbReference type="HOGENOM" id="HOG000052572"/>
+<dbReference type="KO" id="K06199"/>
+<dbReference type="OMA" id="IPWGTLA"/>
+<dbReference type="OrthoDB" id="EOG6HXJC8"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-799-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015103">
+<property type="term" value="F:inorganic anion transmembrane transporter activity"/>
+<property type="evidence" value="IEA:UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00454">
+<property type="entry name" value="CrcB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003691">
+<property type="entry name" value="CrcB"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02537">
+<property type="entry name" value="CRCB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0997">Cell inner membrane</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="chain" description="Putative fluoride ion transporter CrcB" id="PRO_0000110139">
+<location>
+<begin position="1"/>
+<end position="119"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="5"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="30"/>
+<end position="50"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="59"/>
+<end position="79"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="92"/>
+<end position="112"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00454"/>
+</source>
+</evidence>
+<sequence length="119" mass="12535" checksum="7079C6DC19EFC441" modified="2005-03-15" version="1">
+MLSNILPLSIGAIFGTTARWLLNLAVPASLSPATGNLFANWTGALLIGIFAETVSHPQWK
+LLLITGFFGSLTTLSGFSLETVTLLQSNRPASALANIFLHTAGSLLLTWLGLKIGTAVK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

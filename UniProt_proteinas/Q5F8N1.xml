@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-03-15" modified="2015-02-04" version="66">
+<accession>Q5F8N1</accession>
+<name>Q5F8N1_NEIG1</name>
+<protein>
+<recommendedName>
+<fullName evidence="2">DNA helicase</fullName>
+<ecNumber evidence="2">3.6.4.12</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="4">NGO0739</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)</name>
+<dbReference type="NCBI Taxonomy" id="242231"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+<taxon>Neisseria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5">
+<citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome sequence of Neisseria gonorrhoeae.</title>
+<authorList>
+<person name="Lewis L.A."/>
+<person name="Gillaspy A.F."/>
+<person name="McLaughlin R.E."/>
+<person name="Gipson M."/>
+<person name="Ducey T.F."/>
+<person name="Ownbey T."/>
+<person name="Hartman K."/>
+<person name="Nydick C."/>
+<person name="Carson M.B."/>
+<person name="Vaughn J."/>
+<person name="Thomson C."/>
+<person name="Song L."/>
+<person name="Lin S."/>
+<person name="Yuan X."/>
+<person name="Najar F."/>
+<person name="Zhan M."/>
+<person name="Ren Q."/>
+<person name="Zhu H."/>
+<person name="Qi S."/>
+<person name="Kenton S.M."/>
+<person name="Lai H."/>
+<person name="White J.D."/>
+<person name="Clifton S."/>
+<person name="Roe B.A."/>
+<person name="Dyer D.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">ATCC 700825 / FA 1090</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<text evidence="1">ATP + H(2)O = ADP + phosphate.</text>
+</comment>
+<dbReference type="EC" id="3.6.4.12" evidence="2"/>
+<dbReference type="EMBL" id="AE004969">
+<property type="protein sequence ID" value="AAW89456.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_207868.1">
+<property type="nucleotide sequence ID" value="NC_002946.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q5F8N1"/>
+<dbReference type="STRING" id="242231.NGO0739"/>
+<dbReference type="EnsemblBacteria" id="AAW89456">
+<property type="protein sequence ID" value="AAW89456"/>
+<property type="gene ID" value="NGO0739"/>
+</dbReference>
+<dbReference type="GeneID" id="3281848"/>
+<dbReference type="KEGG" id="ngo:NGO0739"/>
+<dbReference type="PATRIC" id="20334616">
+<property type="gene designation" value="VBINeiGon24812_0880"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0210"/>
+<dbReference type="HOGENOM" id="HOG000033015"/>
+<dbReference type="KO" id="K03656"/>
+<dbReference type="OMA" id="VLMQNRI"/>
+<dbReference type="OrthoDB" id="EOG64N9TW"/>
+<dbReference type="BioCyc" id="NGON242231:GI2G-696-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000535">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="IEA:UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004003">
+<property type="term" value="F:ATP-dependent DNA helicase activity"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003677">
+<property type="term" value="F:DNA binding"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006268">
+<property type="term" value="P:DNA unwinding involved in DNA replication"/>
+<property type="evidence" value="IEA:InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.10.160">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.300">
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013986">
+<property type="entry name" value="DExx_box_DNA_helicase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005752">
+<property type="entry name" value="DNA_helicase_ATP-dep_RepA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014017">
+<property type="entry name" value="DNA_helicase_UvrD-like_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000212">
+<property type="entry name" value="DNA_helicase_UvrD/REP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014016">
+<property type="entry name" value="UvrD-like_ATP-bd"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11070">
+<property type="entry name" value="PTHR11070"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00580">
+<property type="entry name" value="UvrD-helicase"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13361">
+<property type="entry name" value="UvrD_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01074">
+<property type="entry name" value="rep"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51198">
+<property type="entry name" value="UVRD_HELICASE_ATP_BIND"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51217">
+<property type="entry name" value="UVRD_HELICASE_CTER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0067" evidence="3 4">ATP-binding</keyword>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-0347" evidence="3 4">Helicase</keyword>
+<keyword id="KW-0378" evidence="3 4">Hydrolase</keyword>
+<keyword id="KW-0547" evidence="3 4">Nucleotide-binding</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00145960"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00145970"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00146013"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAW89456.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000535"/>
+</source>
+</evidence>
+<sequence length="671" mass="75751" checksum="F6D2DED44DE705A8" modified="2005-03-15" version="1">
+MMKLNAQQLEAVRYLGGPLFVLAGAGSGKTGVITQKIKHLIVNVGYLPHTVAAITFTNKA
+AAEMQERVAKMLPKPQTRGLTICTFHSLGMKILREEANHIGYKKNFSILDSTDSAKIIGE
+LLGGTGKEAVFKAQHQISLWKNDLKTPEDVVQTASNVREQQTARVYASYQETLQSYQAVD
+FDDLIRLPAVLLQQNSEVRNKWQRRLRYLLVDECQDTNTCQFALMKLLTGAEGMFTAVGD
+DDQSIYAWRGANMENLRKMQENYPQMKVIKLEQNYRSTARILKIANKVIENNPKLFTKKL
+WSQLGEGEPVKVVACQNEQHEADWVVSQIVKQKLIGGDKTRYADFAVLYRGKHQARIFEE
+ALRGARIPYRLSGGQSFFDKAEIKDVLSYVRLLANPNDDPAFLRAVTTPKRGIGDVTLGK
+LNAYAHEHECSLYEAAQNEEALATLNNTNRQHLQAFMDMFGNYRAKAEIDEAGEFINSLL
+EEIDYENHLMQNEEGKAGEIKWRNVGELVSWFARKGERDGKNVIELAQTVALMTLLEGKD
+EEETDAVSLSTLHAAKGLEYPYVFLVGCEEGVLPHNDSIEEGNVEEERRLMYVGITRAKR
+QLTLTHCVKRKKQGIWQFPEPSRFIDEMPQEDLKILGRKGGEPIVSKEEGRRNLADIIGR
+IDNLKKSGPAD
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>
