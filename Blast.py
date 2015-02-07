@@ -39,7 +39,7 @@ pasta=os.mkdir("Blast")
 #Blast
 
 protein=0
-for protein in range(76,len(proteinas)):
+for protein in range(0,len(proteinas)):
     save_file = open(("Blast/ficheiro_blast_proteinas%s.xml"%(protein)), "w")
     result_handle = NCBIWWW.qblast("blastp", "swissprot", proteinas[protein].format("fasta"))
     save_file.write(result_handle.read())
