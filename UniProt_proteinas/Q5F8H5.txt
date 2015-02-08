@@ -1,0 +1,130 @@
+ID   GLND_NEIG1              Reviewed;         852 AA.
+AC   Q5F8H5;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 68.
+DE   RecName: Full=Bifunctional uridylyltransferase/uridylyl-removing enzyme {ECO:0000255|HAMAP-Rule:MF_00277};
+DE            Short=UTase/UR {ECO:0000255|HAMAP-Rule:MF_00277};
+DE   AltName: Full=Bifunctional [protein-PII] modification enzyme {ECO:0000255|HAMAP-Rule:MF_00277};
+DE   AltName: Full=Bifunctional nitrogen sensor protein {ECO:0000255|HAMAP-Rule:MF_00277};
+DE   Includes:
+DE     RecName: Full=[Protein-PII] uridylyltransferase {ECO:0000255|HAMAP-Rule:MF_00277};
+DE              Short=PII uridylyltransferase {ECO:0000255|HAMAP-Rule:MF_00277};
+DE              Short=UTase {ECO:0000255|HAMAP-Rule:MF_00277};
+DE              EC=2.7.7.59 {ECO:0000255|HAMAP-Rule:MF_00277};
+DE   Includes:
+DE     RecName: Full=[Protein-PII]-UMP uridylyl-removing enzyme {ECO:0000255|HAMAP-Rule:MF_00277};
+DE              Short=UR {ECO:0000255|HAMAP-Rule:MF_00277};
+DE              EC=3.1.4.- {ECO:0000255|HAMAP-Rule:MF_00277};
+GN   Name=glnD {ECO:0000255|HAMAP-Rule:MF_00277};
+GN   OrderedLocusNames=NGO0798;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Modifies, by uridylylation and deuridylylation, the PII
+CC       regulatory proteins (GlnB and homologs), in response to the
+CC       nitrogen status of the cell that GlnD senses through the glutamine
+CC       level. Under low glutamine levels, catalyzes the conversion of the
+CC       PII proteins and UTP to PII-UMP and PPi, while under higher
+CC       glutamine levels, GlnD hydrolyzes PII-UMP to PII and UMP
+CC       (deuridylylation). Thus, controls uridylylation state and activity
+CC       of the PII proteins, and plays an important role in the regulation
+CC       of nitrogen assimilation and metabolism. {ECO:0000255|HAMAP-
+CC       Rule:MF_00277}.
+CC   -!- CATALYTIC ACTIVITY: UTP + [protein-PII] = diphosphate + uridylyl-
+CC       [protein-PII]. {ECO:0000255|HAMAP-Rule:MF_00277}.
+CC   -!- CATALYTIC ACTIVITY: Uridylyl-[protein-PII] + H(2)O = UMP +
+CC       [protein-PII]. {ECO:0000255|HAMAP-Rule:MF_00277}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00277};
+CC   -!- ENZYME REGULATION: Uridylyltransferase (UTase) activity is
+CC       inhibited by glutamine, while glutamine activates uridylyl-
+CC       removing (UR) activity. {ECO:0000255|HAMAP-Rule:MF_00277}.
+CC   -!- DOMAIN: Has four distinct domains: an N-terminal
+CC       nucleotidyltransferase (NT) domain responsible for UTase activity,
+CC       a central HD domain that encodes UR activity, and two C-terminal
+CC       ACT domains that seem to have a role in glutamine sensing.
+CC       {ECO:0000255|HAMAP-Rule:MF_00277}.
+CC   -!- SIMILARITY: Belongs to the GlnD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00277}.
+CC   -!- SIMILARITY: Contains 2 ACT domains. {ECO:0000255|HAMAP-
+CC       Rule:MF_00277}.
+CC   -!- SIMILARITY: Contains 1 HD domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00277}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89512.1; -; Genomic_DNA.
+DR   RefSeq; YP_207924.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8H5; -.
+DR   STRING; 242231.NGO0798; -.
+DR   EnsemblBacteria; AAW89512; AAW89512; NGO0798.
+DR   GeneID; 3282021; -.
+DR   KEGG; ngo:NGO0798; -.
+DR   PATRIC; 20334744; VBINeiGon24812_0944.
+DR   eggNOG; COG2844; -.
+DR   HOGENOM; HOG000261778; -.
+DR   KO; K00990; -.
+DR   OMA; SLWNNWK; -.
+DR   OrthoDB; EOG6CCH44; -.
+DR   BioCyc; NGON242231:GI2G-752-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0008773; F:[protein-PII] uridylyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0008081; F:phosphoric diester hydrolase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006807; P:nitrogen compound metabolic process; IEA:InterPro.
+DR   GO; GO:0006808; P:regulation of nitrogen utilization; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.3210.10; -; 1.
+DR   HAMAP; MF_00277; PII_uridylyl_transf; 1.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR010043; GlnD_Uridyltrans.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR006674; HD_domain.
+DR   InterPro; IPR013546; PII_UdlTrfase/GS_AdlTrfase.
+DR   Pfam; PF08335; GlnD_UR_UTase; 1.
+DR   Pfam; PF01966; HD; 1.
+DR   PIRSF; PIRSF006288; PII_uridyltransf; 1.
+DR   SMART; SM00471; HDc; 1.
+DR   TIGRFAMs; TIGR01693; UTase_glnD; 1.
+DR   PROSITE; PS51671; ACT; 2.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Magnesium; Multifunctional enzyme;
+KW   Nucleotidyltransferase; Reference proteome; Repeat; Transferase.
+FT   CHAIN         1    852       Bifunctional
+FT                                uridylyltransferase/uridylyl-removing
+FT                                enzyme.
+FT                                /FTId=PRO_0000192746.
+FT   DOMAIN      437    539       HD. {ECO:0000255|HAMAP-Rule:MF_00277}.
+FT   DOMAIN      673    757       ACT 1. {ECO:0000255|HAMAP-Rule:MF_00277}.
+FT   DOMAIN      785    852       ACT 2. {ECO:0000255|HAMAP-Rule:MF_00277}.
+FT   REGION        1    318       Uridylyltransferase.
+FT   REGION      319    672       Uridylyl-removing.
+SQ   SEQUENCE   852 AA;  96964 MW;  446EC476F5205885 CRC64;
+     MPENLSSALE TFKQQRNAAE AHYLKANRVS VFFREYTAAV ETLLAALWAE HFQNSALCLM
+     AVGGFGRGEP YPCSDVDLAV VSPAPLSDGI QEQIARFIQT LWDCKLMPSV KSGSVDELCE
+     SVRDDITGDT AFLEARFLFG NRQTADELAE KMNVQRNVAA FIEAKLVEME HRHAKSQGSG
+     AVLEPNIKSC PGGLRDIHTL LWIAKAQGLA ANLPDLLKQR ILTRAEAGML SHGYRRLAHI
+     RIRLHLNAKR AEDRLLFDLQ PQVAESMGYQ DENRRRQSEE LMRVFYRAVK TVKQLGGILT
+     PMLRSRVSST PVRVTLRIDD DYIQVNNQIA ARHTDIFFRR PEHIFKIVEI MQQRNDITAL
+     EPQTLRAWWG ATRKINRSFY QNSENRRRFA GFFRSGNGLT QTLRFLNLYG VLGRYLPAWE
+     KIVGLLQHDL FHIYPVDDHI LAVVRNVRRL ALDMHSHELP YASALMQSFE KQDILYLAAF
+     FHDIAKGRGG DHAVQGIADA RQFAADHFLT EEESDLLAWL VENHLLMSAV AQKEDIQDPG
+     VLDAFCKRVQ THERLSALYL LTISDIRGTN PKLWNAWRAS LLESLFHAAG RCLAGNDGNP
+     HALFGRRRQE AADLLTRAAV PEKQQKKLWN ALGSAYFARH QSREILWHAA NLVHDFEPPI
+     VRSRILPQSD SFQVMVFMPN GPRLFARLCR IFSRHGFDIL AARAFITEHD YILDTFIVQI
+     PSQHAPEDYP DIQSALEAEL NSFIHGHTVA ETQSCNRRIS RRSRYMPIAP SITITPEEDY
+     PDRYSVEITA VNRPFLLADM AEVFFAHNVS LRYAKISTLD ERVEDSFTVF SPDLKNPKIQ
+     SSLKQALLEQ LA
+//

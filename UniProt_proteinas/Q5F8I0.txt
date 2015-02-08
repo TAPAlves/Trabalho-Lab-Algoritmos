@@ -1,0 +1,110 @@
+ID   LIPA_NEIG1              Reviewed;         327 AA.
+AC   Q5F8I0;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 66.
+DE   RecName: Full=Lipoyl synthase {ECO:0000255|HAMAP-Rule:MF_00206};
+DE            EC=2.8.1.8 {ECO:0000255|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Lip-syn {ECO:0000255|HAMAP-Rule:MF_00206};
+DE            Short=LS {ECO:0000255|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Lipoate synthase {ECO:0000255|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Lipoic acid synthase {ECO:0000255|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Sulfur insertion protein LipA {ECO:0000255|HAMAP-Rule:MF_00206};
+GN   Name=lipA {ECO:0000255|HAMAP-Rule:MF_00206};
+GN   OrderedLocusNames=NGO0793;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the radical-mediated insertion of two sulfur
+CC       atoms into the C-6 and C-8 positions of the octanoyl moiety bound
+CC       to the lipoyl domains of lipoate-dependent enzymes, thereby
+CC       converting the octanoylated domains into lipoylated derivatives.
+CC       {ECO:0000255|HAMAP-Rule:MF_00206}.
+CC   -!- CATALYTIC ACTIVITY: Protein N(6)-(octanoyl)lysine + 2 sulfur-
+CC       (sulfur carrier) + 2 S-adenosyl-L-methionine = protein N(6)-
+CC       (lipoyl)lysine + 2 (sulfur carrier) + 2 L-methionine + 2 5'-
+CC       deoxyadenosine. {ECO:0000255|HAMAP-Rule:MF_00206}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00206};
+CC       Note=Binds 2 [4Fe-4S] clusters per subunit. One cluster is
+CC       coordinated with 3 cysteines and an exchangeable S-adenosyl-L-
+CC       methionine. {ECO:0000255|HAMAP-Rule:MF_00206};
+CC   -!- PATHWAY: Protein modification; protein lipoylation via endogenous
+CC       pathway; protein N(6)-(lipoyl)lysine from octanoyl-[acyl-carrier-
+CC       protein]: step 2/2. {ECO:0000255|HAMAP-Rule:MF_00206}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00206}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. Lipoyl
+CC       synthase family. {ECO:0000255|HAMAP-Rule:MF_00206}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89507.1; -; Genomic_DNA.
+DR   RefSeq; YP_207919.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8I0; -.
+DR   STRING; 242231.NGO0793; -.
+DR   EnsemblBacteria; AAW89507; AAW89507; NGO0793.
+DR   GeneID; 3281929; -.
+DR   KEGG; ngo:NGO0793; -.
+DR   PATRIC; 20334734; VBINeiGon24812_0939.
+DR   eggNOG; COG0320; -.
+DR   HOGENOM; HOG000235997; -.
+DR   KO; K03644; -.
+DR   OMA; EEYVTPE; -.
+DR   OrthoDB; EOG6038ZS; -.
+DR   BioCyc; NGON242231:GI2G-747-MONOMER; -.
+DR   UniPathway; UPA00538; UER00593.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016992; F:lipoate synthase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009249; P:protein lipoylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00206; Lipoyl_synth; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006638; Elp3/MiaB/NifB.
+DR   InterPro; IPR003698; Lipoyl_synth.
+DR   InterPro; IPR007197; rSAM.
+DR   PANTHER; PTHR10949; PTHR10949; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF005963; Lipoyl_synth; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   TIGRFAMs; TIGR00510; lipA; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Complete proteome; Cytoplasm; Iron; Iron-sulfur;
+KW   Metal-binding; Reference proteome; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN         1    327       Lipoyl synthase.
+FT                                /FTId=PRO_1000012241.
+FT   METAL        66     66       Iron-sulfur 1 (4Fe-4S).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00206}.
+FT   METAL        71     71       Iron-sulfur 1 (4Fe-4S).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00206}.
+FT   METAL        77     77       Iron-sulfur 1 (4Fe-4S).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00206}.
+FT   METAL        92     92       Iron-sulfur 2 (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00206}.
+FT   METAL        96     96       Iron-sulfur 2 (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00206}.
+FT   METAL        99     99       Iron-sulfur 2 (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00206}.
+SQ   SEQUENCE   327 AA;  37047 MW;  88EEE1076164C58D CRC64;
+     MSEIKTDDPK RGIKLRGADK TARIPIKVVP LQEKLKKPEW IRAKLPSRKF FEIKDILREQ
+     KMHTVCEEAS CPNIGECFSK GTATFMIMGD ICTRRCPFCD VGHGRPNMLD PDEPKNLAES
+     VKAMNLRYVV ITSVDRDDLR DGGAQHFADC IKAIRETSPN TKIEILVPDF RGRLDIALKI
+     LAETPPDVMN HNLETHPSLY RKARPGANYQ HSLDLLKRYK EMMPHIPTKS GIMVGLGETD
+     EDVREIMRDM RAHNIEMITI GQYLQPSDGH LPVLRYVTPE QFKIFEKEAY ELGFTNAAIG
+     AMVRSSYHAD EQAAEALRES HGGCGHH
+//

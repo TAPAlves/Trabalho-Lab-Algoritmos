@@ -1,0 +1,96 @@
+ID   PLSY_NEIG1              Reviewed;         200 AA.
+AC   Q5F8C7;
+DT   10-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 63.
+DE   RecName: Full=Glycerol-3-phosphate acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=Acyl-PO4 G3P acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=Acyl-phosphate--glycerol-3-phosphate acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=G3P acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            Short=GPAT {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            EC=2.3.1.n3 {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=Lysophosphatidic acid synthase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            Short=LPA synthase {ECO:0000255|HAMAP-Rule:MF_01043};
+GN   Name=plsY {ECO:0000255|HAMAP-Rule:MF_01043};
+GN   OrderedLocusNames=NGO0858;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of an acyl group from acyl-
+CC       phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form
+CC       lysophosphatidic acid (LPA). This enzyme utilizes acyl-phosphate
+CC       as fatty acyl donor, but not acyl-CoA or acyl-ACP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01043}.
+CC   -!- CATALYTIC ACTIVITY: Acyl-phosphate + sn-glycerol 3-phosphate = 1-
+CC       acyl-sn-glycerol 3-phosphate + phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -!- PATHWAY: Lipid metabolism; phospholipid metabolism.
+CC       {ECO:0000255|HAMAP-Rule:MF_01043}.
+CC   -!- SUBUNIT: Probably interacts with PlsX. {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -!- SIMILARITY: Belongs to the PlsY family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89560.1; -; Genomic_DNA.
+DR   RefSeq; YP_207972.1; NC_002946.2.
+DR   STRING; 242231.NGO0858; -.
+DR   EnsemblBacteria; AAW89560; AAW89560; NGO0858.
+DR   GeneID; 3282318; -.
+DR   KEGG; ngo:NGO0858; -.
+DR   PATRIC; 20334884; VBINeiGon24812_1012.
+DR   eggNOG; COG0344; -.
+DR   HOGENOM; HOG000283806; -.
+DR   KO; K08591; -.
+DR   OMA; AFLGHVY; -.
+DR   OrthoDB; EOG6M6JSX; -.
+DR   BioCyc; NGON242231:GI2G-802-MONOMER; -.
+DR   UniPathway; UPA00085; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043772; F:acyl-phosphate glycerol-3-phosphate acyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01043; PlsY; 1.
+DR   InterPro; IPR003811; G3P_acylTferase_PlsY.
+DR   PANTHER; PTHR30309:SF0; PTHR30309:SF0; 1.
+DR   Pfam; PF02660; G3P_acyltransf; 1.
+DR   TIGRFAMs; TIGR00023; TIGR00023; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome;
+KW   Lipid biosynthesis; Lipid metabolism; Membrane;
+KW   Phospholipid biosynthesis; Phospholipid metabolism;
+KW   Reference proteome; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN         1    200       Glycerol-3-phosphate acyltransferase.
+FT                                /FTId=PRO_0000188409.
+FT   TRANSMEM      2     22       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01043}.
+FT   TRANSMEM     51     71       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01043}.
+FT   TRANSMEM     84    104       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01043}.
+FT   TRANSMEM    114    134       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01043}.
+FT   TRANSMEM    158    178       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01043}.
+SQ   SEQUENCE   200 AA;  20752 MW;  4615D9FE92D1E426 CRC64;
+     MFNIPAVAVS YLIGSLSFAV IVSKYYGMDD PRTYGSGNPG ATNVLRSGKK KAAALTLLGD
+     AAKGLVAVLL ARVLQEPLGL SDSAIAAVAL AALVGHMWPV FFGFKGGKGV ATALGVLLAL
+     SPATALVCAL IWLVMAFGFK VSSLAALVAT TAAPLAALFF MPHTSWIFAT LAIAILVLLR
+     HKSNILNLIK GKESKIGEKR
+//

@@ -1,0 +1,91 @@
+ID   RUVB_NEIG1              Reviewed;         343 AA.
+AC   Q5F8L2;
+DT   16-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 67.
+DE   RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB {ECO:0000255|HAMAP-Rule:MF_00016};
+DE            EC=3.6.4.12 {ECO:0000255|HAMAP-Rule:MF_00016};
+GN   Name=ruvB {ECO:0000255|HAMAP-Rule:MF_00016};
+GN   OrderedLocusNames=NGO0760;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: The RuvA-RuvB complex in the presence of ATP renatures
+CC       cruciform structure in supercoiled DNA with palindromic sequence,
+CC       indicating that it may promote strand exchange reactions in
+CC       homologous recombination. RuvAB is a helicase that mediates the
+CC       Holliday junction migration by localized denaturation and
+CC       reannealing. {ECO:0000255|HAMAP-Rule:MF_00016}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00016}.
+CC   -!- SUBUNIT: Forms a complex with RuvA. {ECO:0000255|HAMAP-
+CC       Rule:MF_00016}.
+CC   -!- SIMILARITY: Belongs to the RuvB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00016}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89475.1; -; Genomic_DNA.
+DR   RefSeq; YP_207887.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8L2; -.
+DR   SMR; Q5F8L2; 31-341.
+DR   STRING; 242231.NGO0760; -.
+DR   EnsemblBacteria; AAW89475; AAW89475; NGO0760.
+DR   GeneID; 3282478; -.
+DR   KEGG; ngo:NGO0760; -.
+DR   PATRIC; 20334668; VBINeiGon24812_0906.
+DR   eggNOG; COG2255; -.
+DR   HOGENOM; HOG000218623; -.
+DR   KO; K03551; -.
+DR   OMA; DRFGMSF; -.
+DR   OrthoDB; EOG6SR93S; -.
+DR   BioCyc; NGON242231:GI2G-715-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0009378; F:four-way junction helicase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00016; DNA_helic_RuvB; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR004605; DNA_helicase_Holl-junc_RuvB.
+DR   InterPro; IPR008823; DNA_helicase_Holl-junc_RuvB_C.
+DR   InterPro; IPR008824; DNA_helicase_Holl-junc_RuvB_N.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR011991; WHTH_DNA-bd_dom.
+DR   Pfam; PF05491; RuvB_C; 1.
+DR   Pfam; PF05496; RuvB_N; 1.
+DR   ProDom; PD005323; DNA_helicase_Holl-junc_RuvB_C; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00635; ruvB; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; DNA damage; DNA recombination;
+KW   DNA repair; Helicase; Hydrolase; Nucleotide-binding;
+KW   Reference proteome; SOS response.
+FT   CHAIN         1    343       Holliday junction ATP-dependent DNA
+FT                                helicase RuvB.
+FT                                /FTId=PRO_0000235381.
+FT   NP_BIND      71     78       ATP. {ECO:0000255|HAMAP-Rule:MF_00016}.
+SQ   SEQUENCE   343 AA;  37638 MW;  C286F51F25DD7C9A CRC64;
+     MLQTDNLTAA QPQRIVAAQT ASAQEELLER ALRPKTLDDY IGQHKAKEQL AIFIQAAKKR
+     GEALDHVLLF GPPGLGKTTL AHIIAKELGV NLRQTSGPVL ERAGDLAALL TNLDPHDVLF
+     IDEIHRLSPV VEEILYPALE DYRLDIMIGE GPAARSVKID LPPFTLVGAT TRAGMLTNPL
+     RDRFGIVSRL EFYENRDLTT IVSRSAQLLQ LDMGEEGAME VAKRSRGTPR IANRLLRRVR
+     DFADVKNNGV IDAAVADAAL SMLDVDAQGL DVMDRKFLEA VLHKFGGGPV GLDNVAAAIG
+     ESTDTIEDVI EPYLIQQGFL QRTPRGRMAT ERAYLHFGLP VEK
+//

@@ -1,0 +1,100 @@
+ID   Q5F875_NEIG1            Unreviewed;       393 AA.
+AC   Q5F875;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   04-FEB-2015, entry version 70.
+DE   RecName: Full=Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex {ECO:0000256|RuleBase:RU361138};
+DE            EC=2.3.1.61 {ECO:0000256|RuleBase:RU361138};
+DE   AltName: Full=2-oxoglutarate dehydrogenase complex component E2 {ECO:0000256|RuleBase:RU361138};
+GN   OrderedLocusNames=NGO0916 {ECO:0000313|EMBL:AAW89612.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89612.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: The 2-oxoglutarate dehydrogenase complex catalyzes the
+CC       overall conversion of 2-oxoglutarate to succinyl-CoA and CO(2).
+CC       {ECO:0000256|RuleBase:RU361138}.
+CC   -!- CATALYTIC ACTIVITY: Succinyl-CoA + enzyme N(6)-
+CC       (dihydrolipoyl)lysine = CoA + enzyme N(6)-(S-
+CC       succinyldihydrolipoyl)lysine. {ECO:0000256|RuleBase:RU361138}.
+CC   -!- COFACTOR:
+CC       Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088;
+CC         Evidence={ECO:0000256|RuleBase:RU361138};
+CC       Note=Binds 1 lipoyl cofactor covalently.
+CC       {ECO:0000256|RuleBase:RU361138};
+CC   -!- PATHWAY: Amino-acid degradation; L-lysine degradation via
+CC       saccharopine pathway; glutaryl-CoA from L-lysine: step 6/6.
+CC       {ECO:0000256|RuleBase:RU361138}.
+CC   -!- SIMILARITY: Belongs to the 2-oxoacid dehydrogenase family.
+CC       {ECO:0000256|RuleBase:RU003423}.
+CC   -!- SIMILARITY: Contains 1 lipoyl-binding domain.
+CC       {ECO:0000256|RuleBase:RU000447}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89612.1; -; Genomic_DNA.
+DR   RefSeq; YP_208024.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F875; -.
+DR   SMR; Q5F875; 161-393.
+DR   STRING; 242231.NGO0916; -.
+DR   EnsemblBacteria; AAW89612; AAW89612; NGO0916.
+DR   GeneID; 3281365; -.
+DR   KEGG; ngo:NGO0916; -.
+DR   PATRIC; 20335015; VBINeiGon24812_1077.
+DR   eggNOG; COG0508; -.
+DR   HOGENOM; HOG000281563; -.
+DR   KO; K00658; -.
+DR   OMA; FEKKHAV; -.
+DR   OrthoDB; EOG610413; -.
+DR   BioCyc; NGON242231:GI2G-854-MONOMER; -.
+DR   UniPathway; UPA00868; UER00840.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0045252; C:oxoglutarate dehydrogenase complex; IEA:InterPro.
+DR   GO; GO:0004149; F:dihydrolipoyllysine-residue succinyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0033512; P:L-lysine catabolic process to acetyl-CoA via saccharopine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.559.10; -; 1.
+DR   Gene3D; 4.10.320.10; -; 1.
+DR   InterPro; IPR003016; 2-oxoA_DH_lipoyl-BS.
+DR   InterPro; IPR001078; 2-oxoacid_DH_actylTfrase.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR023213; CAT-like_dom.
+DR   InterPro; IPR004167; E3-bd.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   InterPro; IPR006255; SucB.
+DR   Pfam; PF00198; 2-oxoacid_dh; 1.
+DR   Pfam; PF00364; Biotin_lipoyl; 1.
+DR   Pfam; PF02817; E3_binding; 1.
+DR   SUPFAM; SSF47005; SSF47005; 1.
+DR   SUPFAM; SSF51230; SSF51230; 1.
+DR   TIGRFAMs; TIGR01347; sucB; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+DR   PROSITE; PS00189; LIPOYL; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|RuleBase:RU003765,
+KW   ECO:0000313|EMBL:AAW89612.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Lipoyl {ECO:0000256|RuleBase:RU000447, ECO:0000256|SAAS:SAAS00065550};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Transferase {ECO:0000256|RuleBase:RU003765,
+KW   ECO:0000313|EMBL:AAW89612.1};
+KW   Tricarboxylic acid cycle {ECO:0000256|RuleBase:RU361138}.
+SQ   SEQUENCE   393 AA;  41685 MW;  02BA310A7CEC3547 CRC64;
+     MIIDVKVPML SESVSEGTLL EWKKKVGEAV ARDEILIDIE TDKVVLEVPS PQAGVLVEIV
+     AQDGETVVAD QVLARIDTAA TVAAEAPAAA PAEAAPAAVP AAAQNNAAMP AAAKLAAETG
+     VDVNVLQGSG RDGRVLKEDV QNAAAKPAAA VAPAVALPAG ARPEERVPMS RLRARVAERL
+     LASQQENAIL TTFNEVNMKP IMDLRAKYKE KFEKEHGVKL GFMSFFVKAA VTALKKYPVV
+     NASVDGKDIV YHGYFDIGIA IGSPRGLVVP ILRDADQMSI ADIEQAIVDY AKKAKDGKIA
+     IEDLTGGTFS ITNGGTFGSM MSTPIINPPQ SAILGMHATK ERAVVENGQV VVRPMMYLAL
+     SYDHRIIDGR EAVLTLVAIK DALEDPVRLL LDL
+//

@@ -1,0 +1,92 @@
+ID   Q5F8C6_NEIG1            Unreviewed;       281 AA.
+AC   Q5F8C6;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 50.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase J {ECO:0000256|HAMAP-Rule:MF_00934};
+DE            EC=2.1.1.266 {ECO:0000256|HAMAP-Rule:MF_00934};
+DE   AltName: Full=23S rRNA (adenine(2030)-N6)-methyltransferase {ECO:0000256|HAMAP-Rule:MF_00934};
+DE   AltName: Full=23S rRNA m6A2030 methyltransferase {ECO:0000256|HAMAP-Rule:MF_00934};
+GN   Name=rlmJ {ECO:0000256|HAMAP-Rule:MF_00934};
+GN   OrderedLocusNames=NGO0859 {ECO:0000313|EMBL:AAW89561.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89561.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates the adenine in position 2030 of
+CC       23S rRNA. {ECO:0000256|HAMAP-Rule:MF_00934}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + adenine(2030) in 23S
+CC       rRNA = S-adenosyl-L-homocysteine + N(6)-methyladenine(2030) in 23S
+CC       rRNA. {ECO:0000256|HAMAP-Rule:MF_00934}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00934}.
+CC   -!- SIMILARITY: Belongs to the RlmJ family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00934}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89561.1; -; Genomic_DNA.
+DR   RefSeq; WP_010951135.1; NC_002946.2.
+DR   RefSeq; YP_207973.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8C6; -.
+DR   STRING; 242231.NGO0859; -.
+DR   EnsemblBacteria; AAW89561; AAW89561; NGO0859.
+DR   GeneID; 3282364; -.
+DR   KEGG; ngo:NGO0859; -.
+DR   PATRIC; 20334886; VBINeiGon24812_1013.
+DR   eggNOG; COG2961; -.
+DR   HOGENOM; HOG000262479; -.
+DR   OMA; TYAIWYP; -.
+DR   OrthoDB; EOG6Q8J0P; -.
+DR   BioCyc; NGON242231:GI2G-803-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0036307; F:23S rRNA (adenine(2030)-N(6))-methyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.150; -; 1.
+DR   HAMAP; MF_00934; 23SrRNA_methyltr_J; 1.
+DR   InterPro; IPR007473; RlmJ.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF04378; RsmJ; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Methyltransferase {ECO:0000256|HAMAP-Rule:MF_00934};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535};
+KW   RNA-binding {ECO:0000256|HAMAP-Rule:MF_00934};
+KW   rRNA processing {ECO:0000256|HAMAP-Rule:MF_00934};
+KW   S-adenosyl-L-methionine {ECO:0000256|HAMAP-Rule:MF_00934};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00934}.
+FT   REGION      144    145       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00934}.
+FT   ACT_SITE    165    165       Proton acceptor. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00934}.
+FT   BINDING      19     19       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00934}.
+FT   BINDING      42     42       S-adenosyl-L-methionine; via carbonyl
+FT                                oxygen. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00934}.
+FT   BINDING      98     98       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00934}.
+FT   BINDING     116    116       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00934}.
+FT   BINDING     165    165       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00934}.
+FT   SITE          4      4       Interaction with substrate rRNA.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00934}.
+SQ   SEQUENCE   281 AA;  31935 MW;  7EEC42BFD106005F CRC64;
+     MLSYRHAFHA GNHADMLKHF TLFLVLQYFN RKDKPYWYID THGGAGVYNL EGSEAQKVGE
+     YRQGIALLRQ AQNLPAELSD FAAHIQKILP SPELYCGSPW LAQSLTCVGD KLRLFELHPT
+     DFVHLQNNMG EAGLGKRGQV LREDGYKGLI SLLPPPPRRA AVLIDPPYEE KQDYRRVTET
+     LKAALKRFES GCYLIWYPCL SREESRKLPE ELKKLLPDNY LYAELHVHAP KTDGFGMHGS
+     GMFVINPPYL LAEQLAANLP ALTRLLAQDE GARYLLDSKI R
+//

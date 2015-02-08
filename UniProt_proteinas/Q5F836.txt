@@ -1,0 +1,83 @@
+ID   PNCB_NEIG1              Reviewed;         402 AA.
+AC   Q5F836;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 2.
+DT   04-FEB-2015, entry version 74.
+DE   RecName: Full=Nicotinate phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_00570};
+DE            Short=NAPRTase {ECO:0000255|HAMAP-Rule:MF_00570};
+DE            EC=6.3.4.21 {ECO:0000255|HAMAP-Rule:MF_00570};
+GN   Name=pncB {ECO:0000255|HAMAP-Rule:MF_00570};
+GN   OrderedLocusNames=NGO0962;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the synthesis of beta-nicotinate D-
+CC       ribonucleotide from nicotinate and 5-phospho-D-ribose 1-phosphate
+CC       at the expense of ATP. {ECO:0000255|HAMAP-Rule:MF_00570}.
+CC   -!- CATALYTIC ACTIVITY: Nicotinate + 5-phospho-alpha-D-ribose 1-
+CC       diphosphate + ATP + H(2)O = beta-nicotinate D-ribonucleotide +
+CC       diphosphate + ADP + phosphate. {ECO:0000255|HAMAP-Rule:MF_00570}.
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; nicotinate D-
+CC       ribonucleotide from nicotinate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00570}.
+CC   -!- SIMILARITY: Belongs to the NAPRTase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00570}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAW89651.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89651.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_208063.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F836; -.
+DR   STRING; 242231.NGO0962; -.
+DR   EnsemblBacteria; AAW89651; AAW89651; NGO0962.
+DR   GeneID; 3282612; -.
+DR   KEGG; ngo:NGO0962; -.
+DR   PATRIC; 20335114; VBINeiGon24812_1126.
+DR   eggNOG; COG1488; -.
+DR   HOGENOM; HOG000284928; -.
+DR   KO; K00763; -.
+DR   OrthoDB; EOG6X10XB; -.
+DR   BioCyc; NGON242231:GI2G-893-MONOMER; -.
+DR   UniPathway; UPA00253; UER00457.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0016874; F:ligase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004516; F:nicotinate phosphoribosyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004514; F:nicotinate-nucleotide diphosphorylase (carboxylating) activity; IEA:InterPro.
+DR   GO; GO:0009435; P:NAD biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019357; P:nicotinate nucleotide biosynthetic process; IEA:InterPro.
+DR   HAMAP; MF_00570; NAPRTase; 1.
+DR   InterPro; IPR006406; Nic_PRibTrfase.
+DR   InterPro; IPR007229; Nic_PRibTrfase-Fam.
+DR   InterPro; IPR002638; Quinolinate_PRibosylTrfase_C.
+DR   PANTHER; PTHR11098; PTHR11098; 1.
+DR   Pfam; PF04095; NAPRTase; 1.
+DR   PIRSF; PIRSF000484; NAPRT; 1.
+DR   SUPFAM; SSF51690; SSF51690; 1.
+DR   TIGRFAMs; TIGR01514; NAPRTase; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Ligase; Pyridine nucleotide biosynthesis;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    402       Nicotinate phosphoribosyltransferase.
+FT                                /FTId=PRO_0000205832.
+SQ   SEQUENCE   402 AA;  46265 MW;  87785B369B2D9AA0 CRC64;
+     MTGIIHSLLD TDLYKFTMLQ VVLHQFPQTH SLYEFRCRNV STVYPLADIR EDLEAELDAL
+     CRLRFTHDEL GYLRSLRFIK SDFVDYLELF QLQRRFVEVG TDDKGRLNIR IEGPMIQAMF
+     FEIFILAIVN ELYFRRLETP AVIEEGERRL QAKAARLKEI AAAQNPDEPP FLISDFGTRR
+     RYKLAWQEHV IRTLLEAAPS IVRGTSNVYL AKKLGITPIG TMAHEFLQAF QALDVRLRNF
+     QKAALESWVH EYRGDLGVAL TDVVGMDAFL RDFDLYFAKL FDGLRHDSGD PYVWGDKAYA
+     HYQKLKIDSR TKMLTFSDGL DIERSWALHQ YFKGRFKTGF GIGTNLTNDM GHTPLNIVLK
+     LVECNGQSVA KLSDSPGKTM TNNSTFLAYL RQVFGIPEPR TP
+//

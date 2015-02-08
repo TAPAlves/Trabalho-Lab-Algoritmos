@@ -1,0 +1,142 @@
+ID   GLYA_NEIG1              Reviewed;         416 AA.
+AC   Q5F8C0;
+DT   26-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 73.
+DE   RecName: Full=Serine hydroxymethyltransferase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=SHMT {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=Serine methylase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            EC=2.1.2.1 {ECO:0000255|HAMAP-Rule:MF_00051};
+GN   Name=glyA {ECO:0000255|HAMAP-Rule:MF_00051};
+GN   OrderedLocusNames=NGO0866;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=10417653; DOI=10.1046/j.1365-2958.1999.01514.x;
+RA   Zhu P., Morelli G., Achtman M.;
+RT   "The opcA and (psi)opcB regions in Neisseria: genes, pseudogenes,
+RT   deletions, insertion elements and DNA islands.";
+RL   Mol. Microbiol. 33:635-650(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible interconversion of serine and
+CC       glycine with tetrahydrofolate (THF) serving as the one-carbon
+CC       carrier. This reaction serves as the major source of one-carbon
+CC       groups required for the biosynthesis of purines, thymidylate,
+CC       methionine, and other important biomolecules. Also exhibits THF-
+CC       independent aldolase activity toward beta-hydroxyamino acids,
+CC       producing glycine and aldehydes, via a retro-aldol mechanism.
+CC       {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- CATALYTIC ACTIVITY: 5,10-methylenetetrahydrofolate + glycine +
+CC       H(2)O = tetrahydrofolate + L-serine. {ECO:0000255|HAMAP-
+CC       Rule:MF_00051}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00051};
+CC   -!- PATHWAY: One-carbon metabolism; tetrahydrofolate interconversion.
+CC       {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; glycine biosynthesis; glycine
+CC       from L-serine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SIMILARITY: Belongs to the SHMT family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00051}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ242839; CAB45001.1; -; Genomic_DNA.
+DR   EMBL; AE004969; AAW89567.1; -; Genomic_DNA.
+DR   RefSeq; WP_010951137.1; NC_002946.2.
+DR   RefSeq; YP_207979.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8C0; -.
+DR   SMR; Q5F8C0; 1-415.
+DR   STRING; 242231.NGO0866; -.
+DR   PRIDE; Q5F8C0; -.
+DR   EnsemblBacteria; AAW89567; AAW89567; NGO0866.
+DR   GeneID; 3281886; -.
+DR   KEGG; ngo:NGO0866; -.
+DR   PATRIC; 20334904; VBINeiGon24812_1022.
+DR   eggNOG; COG0112; -.
+DR   HOGENOM; HOG000239404; -.
+DR   KO; K00600; -.
+DR   OMA; QAMTLEF; -.
+DR   OrthoDB; EOG6Z0QB2; -.
+DR   BioCyc; NGON242231:GI2G-809-MONOMER; -.
+DR   UniPathway; UPA00193; -.
+DR   UniPathway; UPA00288; UER01023.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004372; F:glycine hydroxymethyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019264; P:glycine biosynthetic process from serine; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_00051; SHMT; 1.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   InterPro; IPR001085; Ser_HO-MeTrfase.
+DR   InterPro; IPR019798; Ser_HO-MeTrfase_PLP_BS.
+DR   PANTHER; PTHR11680; PTHR11680; 1.
+DR   Pfam; PF00464; SHMT; 1.
+DR   PIRSF; PIRSF000412; SHMT; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS00096; SHMT; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Complete proteome; Cytoplasm;
+KW   One-carbon metabolism; Pyridoxal phosphate; Reference proteome;
+KW   Transferase.
+FT   CHAIN         1    416       Serine hydroxymethyltransferase.
+FT                                /FTId=PRO_0000113620.
+FT   REGION      125    127       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING      35     35       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING      55     55       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING      57     57       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING      64     64       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING      65     65       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING      99     99       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING     121    121       Substrate; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00051}.
+FT   BINDING     175    175       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING     203    203       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING     228    228       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING     235    235       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING     261    261       Pyridoxal phosphate; via amide nitrogen
+FT                                and carbonyl oxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   BINDING     361    361       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00051}.
+FT   MOD_RES     229    229       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00051}.
+SQ   SEQUENCE   416 AA;  44990 MW;  F53A0C9274D00219 CRC64;
+     MFSKSVTLAQ YDPDLAAAIA QEDRRQQDHV ELIASENYVS CAVMEAQGSQ LTNKYAEGYP
+     AKRYYGGCEY VDIVEQLAID RVKELFGAAY ANVQPHSGSQ ANQAVYASVL KPGDTILGMS
+     LAHGGHLTHG ASVNISGKLY NAVTYGLDEN EVLDYAEVER LALEHKPKMI VAGASAYALQ
+     IDWAKFREIA DKVGAYLFVD MAHYAGLVAG GEYPNPVPFC DFVTTTTHKT LRGPRGGVIL
+     CRDNTHEKAL NSSIFPSLQG GPLMHVIAAK AVAFKEALQP EFKQYAKQVK INAAVMAEEL
+     VKRGLRIVSG RTESHVFLVD LQPMKITGKA AEAALGKAHI TVNKNAIPND PEKPFVTSGI
+     RIGSAAMTTR GFNETDARVL SNLVADVLAN PEDEANLAKV RGQVTALCDK YPVYGT
+//

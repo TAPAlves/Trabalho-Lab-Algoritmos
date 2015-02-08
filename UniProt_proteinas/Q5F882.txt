@@ -1,0 +1,146 @@
+ID   FITB_NEIG1              Reviewed;         139 AA.
+AC   Q5F882; Q9RF91;
+DT   03-MAY-2011, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 65.
+DE   RecName: Full=Toxin FitB;
+DE   AltName: Full=Ribonuclease FitB;
+DE            Short=RNase FitB;
+DE            EC=3.1.-.- {ECO:0000255|HAMAP-Rule:MF_00265};
+DE   AltName: Full=Trafficking protein B;
+GN   Name=fitB; Synonyms=vapC; OrderedLocusNames=NGO0907;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 700825 / FA 1090, and MS11A;
+RX   PubMed=10639460; DOI=10.1128/IAI.68.2.896-905.2000;
+RA   Hopper S., Wilbur J.S., Vasquez B.L., Larson J., Clary S., Mehr I.J.,
+RA   Seifert H.S., So M.;
+RT   "Isolation of Neisseria gonorrhoeae mutants that show enhanced
+RT   trafficking across polarized T84 epithelial monolayers.";
+RL   Infect. Immun. 68:896-905(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   DNA-BINDING, AND SUBUNIT.
+RC   STRAIN=ATCC 700825 / FA 1090;
+RX   PubMed=16156663; DOI=10.1021/bi0511080;
+RA   Wilbur J.S., Chivers P.T., Mattison K., Potter L., Brennan R.G.,
+RA   So M.;
+RT   "Neisseria gonorrhoeae FitA interacts with FitB to bind DNA through
+RT   its ribbon-helix-helix motif.";
+RL   Biochemistry 44:12515-12524(2005).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 1-138 IN COMPLEX WITH FITA
+RP   BOUND TO DNA, AND SUBUNIT.
+RC   STRAIN=ATCC 700825 / FA 1090;
+RX   PubMed=16982615; DOI=10.1074/jbc.M605198200;
+RA   Mattison K., Wilbur J.S., So M., Brennan R.G.;
+RT   "Structure of FitAB from Neisseria gonorrhoeae bound to DNA reveals a
+RT   tetramer of toxin-antitoxin heterodimers containing pin domains and
+RT   ribbon-helix-helix motifs.";
+RL   J. Biol. Chem. 281:37942-37951(2006).
+CC   -!- FUNCTION: Toxic component of a toxin-antitoxin (TA) module. Plays
+CC       a role in the speed with which bacteria traverse human epithelial
+CC       cells; disruption of the locus increases the speed of trafficking
+CC       about 2-4-fold. FitAB binds to its own promoter better than FitA
+CC       alone. The expected nuclease activity was not observed for the
+CC       FitAB complex, perhaps because FitA (the antitoxin) prevents metal
+CC       binding and thus catalysis by FitB.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00265};
+CC   -!- SUBUNIT: Forms a heterodimer with FitA, 4 FitAB heterodimers form
+CC       a complex that binds to promoter DNA. The complex is also seen in
+CC       solution. This protein does not actually contact DNA.
+CC       {ECO:0000269|PubMed:16156663, ECO:0000269|PubMed:16982615}.
+CC   -!- DISRUPTION PHENOTYPE: Disruption of the fitAB locus leads to
+CC       faster transepithelial cell trafficking of the bacterium; mutants
+CC       adhere to and invade cells normally. Mutants grow normally in
+CC       liquid culture but much faster within human cell lines A431 and
+CC       T84; these latter 2 phenotypes were observed using MS11A bacteria
+CC       with a disrupted fitAB locus. {ECO:0000269|PubMed:10639460}.
+CC   -!- SIMILARITY: Belongs to the PINc/VapC protein family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00265}.
+CC   -!- SIMILARITY: Contains 1 PINc domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00265}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF200716; AAF19189.1; -; Genomic_DNA.
+DR   EMBL; AE004969; AAW89605.1; -; Genomic_DNA.
+DR   RefSeq; WP_003691083.1; NC_002946.2.
+DR   RefSeq; YP_208017.1; NC_002946.2.
+DR   PDB; 2BSQ; X-ray; 3.00 A; A/B/C/D=1-139.
+DR   PDB; 2H1C; X-ray; 1.80 A; A=1-138.
+DR   PDB; 2H1O; X-ray; 3.00 A; A/B/C/D=1-138.
+DR   PDBsum; 2BSQ; -.
+DR   PDBsum; 2H1C; -.
+DR   PDBsum; 2H1O; -.
+DR   ProteinModelPortal; Q5F882; -.
+DR   SMR; Q5F882; 1-138.
+DR   STRING; 242231.NGO0907; -.
+DR   EnsemblBacteria; AAW89605; AAW89605; NGO0907.
+DR   GeneID; 3281212; -.
+DR   KEGG; ngo:NGO0907; -.
+DR   PATRIC; 20334995; VBINeiGon24812_1067.
+DR   eggNOG; COG1487; -.
+DR   HOGENOM; HOG000121275; -.
+DR   KO; K07062; -.
+DR   OMA; NVISEPW; -.
+DR   OrthoDB; EOG6CVVD1; -.
+DR   BioCyc; NGON242231:GI2G-847-MONOMER; -.
+DR   EvolutionaryTrace; Q5F882; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004540; F:ribonuclease activity; IEA:InterPro.
+DR   GO; GO:0044001; P:migration in host; IMP:UniProtKB.
+DR   Gene3D; 3.40.50.1010; -; 1.
+DR   HAMAP; MF_00265; VapC_Nob1; 1.
+DR   InterPro; IPR002716; PIN_dom.
+DR   InterPro; IPR029060; PIN_domain-like.
+DR   InterPro; IPR022907; VapC_family.
+DR   Pfam; PF01850; PIN; 1.
+DR   SUPFAM; SSF88723; SSF88723; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; DNA-binding; Hydrolase; Magnesium;
+KW   Metal-binding; Nuclease; Reference proteome; Toxin.
+FT   CHAIN         1    139       Toxin FitB.
+FT                                /FTId=PRO_0000407900.
+FT   DOMAIN        2    123       PINc. {ECO:0000255|HAMAP-Rule:MF_00265}.
+FT   METAL         5      5       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00265}.
+FT   METAL       104    104       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00265}.
+FT   STRAND        2      4       {ECO:0000244|PDB:2H1C}.
+FT   HELIX         6      9       {ECO:0000244|PDB:2H1C}.
+FT   HELIX        11     13       {ECO:0000244|PDB:2H1C}.
+FT   STRAND       14     16       {ECO:0000244|PDB:2H1C}.
+FT   HELIX        19     27       {ECO:0000244|PDB:2H1C}.
+FT   HELIX        30     32       {ECO:0000244|PDB:2H1C}.
+FT   STRAND       33     36       {ECO:0000244|PDB:2H1C}.
+FT   HELIX        37     48       {ECO:0000244|PDB:2H1C}.
+FT   HELIX        53     65       {ECO:0000244|PDB:2H1C}.
+FT   HELIX        68     71       {ECO:0000244|PDB:2H1C}.
+FT   HELIX        80     94       {ECO:0000244|PDB:2H1C}.
+FT   TURN         95     97       {ECO:0000244|PDB:2H1C}.
+FT   HELIX       102    114       {ECO:0000244|PDB:2H1C}.
+FT   STRAND      117    119       {ECO:0000244|PDB:2H1C}.
+FT   HELIX       124    128       {ECO:0000244|PDB:2H1C}.
+SQ   SEQUENCE   139 AA;  15307 MW;  AE12B8DF0E8427F4 CRC64;
+     MILLDTNVIS EPLRPQPNER VVAWLDSLIL EDVYLSAITV AELRLGVALL LNGKKKNVLH
+     ERLEQSILPL FAGRILPFDE PVAAIYAQIR SYAKTHGKEI AAADGYIAAT AKQHSLTVAT
+     RDTGSFFAAD VAVFNPWHD
+//

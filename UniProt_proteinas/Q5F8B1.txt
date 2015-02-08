@@ -1,0 +1,94 @@
+ID   Q5F8B1_NEIG1            Unreviewed;       378 AA.
+AC   Q5F8B1;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 76.
+DE   RecName: Full=N5-carboxyaminoimidazole ribonucleotide synthase {ECO:0000256|RuleBase:RU361200};
+DE            Short=N5-CAIR synthase {ECO:0000256|RuleBase:RU361200};
+DE            EC=6.3.4.18 {ECO:0000256|RuleBase:RU361200};
+DE   AltName: Full=5-(carboxyamino)imidazole ribonucleotide synthetase {ECO:0000256|RuleBase:RU361200};
+GN   OrderedLocusNames=NGO0875 {ECO:0000313|EMBL:AAW89576.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89576.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 5-
+CC       aminoimidazole ribonucleotide (AIR) and HCO(3)- to N5-
+CC       carboxyaminoimidazole ribonucleotide (N5-CAIR).
+CC       {ECO:0000256|RuleBase:RU361200}.
+CC   -!- CATALYTIC ACTIVITY: ATP + 5-amino-1-(5-phospho-D-ribosyl)imidazole
+CC       + HCO(3)(-) = ADP + phosphate + 5-carboxyamino-1-(5-phospho-D-
+CC       ribosyl)imidazole. {ECO:0000256|RuleBase:RU361200}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|RuleBase:RU361200}.
+CC   -!- SIMILARITY: Belongs to the PurK/PurT family.
+CC       {ECO:0000256|RuleBase:RU361200}.
+CC   -!- SIMILARITY: Contains ATP-grasp domain.
+CC       {ECO:0000256|SAAS:SAAS00098872}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89576.1; -; Genomic_DNA.
+DR   RefSeq; YP_207988.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8B1; -.
+DR   STRING; 242231.NGO0875; -.
+DR   EnsemblBacteria; AAW89576; AAW89576; NGO0875.
+DR   GeneID; 3281845; -.
+DR   KEGG; ngo:NGO0875; -.
+DR   PATRIC; 20334923; VBINeiGon24812_1031.
+DR   eggNOG; COG0026; -.
+DR   HOGENOM; HOG000034029; -.
+DR   KO; K01589; -.
+DR   OMA; DSPCGQV; -.
+DR   OrthoDB; EOG6QZMX7; -.
+DR   BioCyc; NGON242231:GI2G-818-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0034028; F:5-(carboxyamino)imidazole ribonucleotide synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:InterPro.
+DR   GO; GO:0004638; F:phosphoribosylaminoimidazole carboxylase activity; IEA:InterPro.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   Gene3D; 3.30.470.20; -; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   InterPro; IPR005875; AIR_COase_ATPase-su.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR003135; ATP-grasp_carboxylate-amine.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR013816; ATP_grasp_subdomain_2.
+DR   InterPro; IPR016185; PreATP-grasp_dom.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   Pfam; PF02222; ATP-grasp; 1.
+DR   SUPFAM; SSF51246; SSF51246; 1.
+DR   SUPFAM; SSF52440; SSF52440; 1.
+DR   TIGRFAMs; TIGR01161; purK; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|RuleBase:RU361200,
+KW   ECO:0000256|SAAS:SAAS00098858};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Ligase {ECO:0000256|RuleBase:RU361200};
+KW   Lyase {ECO:0000313|EMBL:AAW89576.1};
+KW   Nucleotide-binding {ECO:0000256|RuleBase:RU361200,
+KW   ECO:0000256|SAAS:SAAS00098858};
+KW   Purine biosynthesis {ECO:0000256|RuleBase:RU361200,
+KW   ECO:0000256|SAAS:SAAS00098833};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535}.
+SQ   SEQUENCE   378 AA;  41076 MW;  D431D6CE4BFBF11B CRC64;
+     MNTPPILPPA MLGILGGGQL GRMFAVAAKT MGYKVTVLDP DPNAPAAEFA DRHLCAPFDD
+     RAALDELAKC AAVTTEFENV NADAMRSLAK HTNVSPSGDC VSIAQNRIQE KAWIRKAGLQ
+     TAPYQAVCKA EDITEASAQF LPGILKTATL GYDGKGQIRV KTLDELKAAF AEHGGVDCVL
+     EKMVDLRGEI SVIVCRLNDE NVQTFDPAEN IHENGILAYS IVPARLSADV QQQARQTAQR
+     LADELDYVGV LAVEMFVVGD THELLVNETA PRTHNSGHHT IDACAADQFQ QQVRIMCNLP
+     PADTKLLSPC CMANILGDVW QEDGGEPDWL PLQSRPNAHL HLYGKKTAQK GRKMGHFTVL
+     TTDSDTAFQE AKKLHQSL
+//

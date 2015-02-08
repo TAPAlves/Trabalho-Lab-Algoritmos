@@ -1,0 +1,100 @@
+ID   F16PA_NEIG1             Reviewed;         324 AA.
+AC   Q5F8C3;
+DT   03-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 74.
+DE   RecName: Full=Fructose-1,6-bisphosphatase class 1 {ECO:0000255|HAMAP-Rule:MF_01855};
+DE            Short=FBPase class 1 {ECO:0000255|HAMAP-Rule:MF_01855};
+DE            EC=3.1.3.11 {ECO:0000255|HAMAP-Rule:MF_01855};
+DE   AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 {ECO:0000255|HAMAP-Rule:MF_01855};
+GN   Name=fbp {ECO:0000255|HAMAP-Rule:MF_01855}; OrderedLocusNames=NGO0862;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: D-fructose 1,6-bisphosphate + H(2)O = D-
+CC       fructose 6-phosphate + phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01855}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01855};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01855};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01855}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01855}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01855}.
+CC   -!- SIMILARITY: Belongs to the FBPase class 1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01855}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89564.1; -; Genomic_DNA.
+DR   RefSeq; YP_207976.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8C3; -.
+DR   STRING; 242231.NGO0862; -.
+DR   EnsemblBacteria; AAW89564; AAW89564; NGO0862.
+DR   GeneID; 3282373; -.
+DR   KEGG; ngo:NGO0862; -.
+DR   PATRIC; 20334894; VBINeiGon24812_1017.
+DR   eggNOG; COG0158; -.
+DR   HOGENOM; HOG000191264; -.
+DR   KO; K03841; -.
+DR   OMA; IREYIRY; -.
+DR   OrthoDB; EOG6X10TR; -.
+DR   BioCyc; NGON242231:GI2G-806-MONOMER; -.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042132; F:fructose 1,6-bisphosphate 1-phosphatase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_01855; FBPase_class1; 1.
+DR   InterPro; IPR000146; FBPase_class-1/SBPase.
+DR   InterPro; IPR028343; FBPtase.
+DR   PANTHER; PTHR11556; PTHR11556; 1.
+DR   Pfam; PF00316; FBPase; 1.
+DR   PIRSF; PIRSF500210; FBPtase; 1.
+DR   PIRSF; PIRSF000904; FBPtase_SBPase; 1.
+DR   PRINTS; PR00115; F16BPHPHTASE.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Complete proteome; Cytoplasm; Hydrolase;
+KW   Magnesium; Metal-binding; Reference proteome.
+FT   CHAIN         1    324       Fructose-1,6-bisphosphatase class 1.
+FT                                /FTId=PRO_0000364605.
+FT   REGION      110    113       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01855}.
+FT   METAL        88     88       Magnesium 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01855}.
+FT   METAL       107    107       Magnesium 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01855}.
+FT   METAL       107    107       Magnesium 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01855}.
+FT   METAL       109    109       Magnesium 1; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01855}.
+FT   METAL       110    110       Magnesium 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01855}.
+FT   METAL       271    271       Magnesium 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01855}.
+FT   BINDING     199    199       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01855}.
+FT   BINDING     265    265       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01855}.
+SQ   SEQUENCE   324 AA;  35474 MW;  013500A67852B411 CRC64;
+     MDTLTRFLPE HLQQNQLPEA LGGVLLSVVS ACTEINAKVR LGALAGVLGM AGTGNIQGED
+     QKKLDVIANN IMIDTLKANP AVAGLASEEE DTFVSAGENG RYLVLFDPLD GSSNIDVNIS
+     VGTIFSILAK PEGALATESF LQTGRQQLAA GYVLYGPQTQ LVFTFGHGVY VFTLNAENEF
+     VLTKENPKVP ESTKEFAINM SNRRHWLPPV QQYVDELLAG ETGTRGKNYN MRWVASMVAE
+     IHRILMRGGV FMYLQDKRDP SKPGKLRLMY EANPMALILE QAGASASNAY QAMLDIQPES
+     LHQRVAVIMG SSEEVDYLNR LHSK
+//

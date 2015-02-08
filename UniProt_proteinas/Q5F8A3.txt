@@ -1,0 +1,78 @@
+ID   Q5F8A3_NEIG1            Unreviewed;        56 AA.
+AC   Q5F8A3;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   04-FEB-2015, entry version 65.
+DE   RecName: Full=Rubredoxin {ECO:0000256|PIRNR:PIRNR000071};
+GN   OrderedLocusNames=NGO0885 {ECO:0000313|EMBL:AAW89584.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89584.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Fe(3+); Xref=ChEBI:CHEBI:29034;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR000071,
+CC         ECO:0000256|PIRSR:PIRSR000071-1};
+CC       Note=Binds 1 Fe(3+) ion per subunit.
+CC       {ECO:0000256|PIRNR:PIRNR000071, ECO:0000256|PIRSR:PIRSR000071-1};
+CC   -!- SIMILARITY: Belongs to the rubredoxin family.
+CC       {ECO:0000256|PIRNR:PIRNR000071}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89584.1; -; Genomic_DNA.
+DR   RefSeq; YP_207996.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8A3; -.
+DR   SMR; Q5F8A3; 1-53.
+DR   STRING; 242231.NGO0885; -.
+DR   EnsemblBacteria; AAW89584; AAW89584; NGO0885.
+DR   GeneID; 3281432; -.
+DR   KEGG; ngo:NGO0885; -.
+DR   PATRIC; 20334945; VBINeiGon24812_1042.
+DR   eggNOG; COG1773; -.
+DR   HOGENOM; HOG000223371; -.
+DR   OMA; SKDMFEP; -.
+DR   OrthoDB; EOG69SKK0; -.
+DR   BioCyc; NGON242231:GI2G-826-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0009055; F:electron carrier activity; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0055114; P:oxidation-reduction process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.20.28.10; -; 1.
+DR   InterPro; IPR024922; Rubredoxin.
+DR   InterPro; IPR024934; Rubredoxin-like_dom.
+DR   InterPro; IPR004039; Rubredoxin-type_fold.
+DR   InterPro; IPR024935; Rubredoxin_dom.
+DR   InterPro; IPR018527; Rubredoxin_Fe_BS.
+DR   Pfam; PF00301; Rubredoxin; 1.
+DR   PIRSF; PIRSF000071; Rubredoxin; 1.
+DR   PRINTS; PR00163; RUBREDOXIN.
+DR   PROSITE; PS00202; RUBREDOXIN; 1.
+DR   PROSITE; PS50903; RUBREDOXIN_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Electron transport {ECO:0000256|PIRNR:PIRNR000071,
+KW   ECO:0000256|SAAS:SAAS00148072};
+KW   Iron {ECO:0000256|PIRNR:PIRNR000071, ECO:0000256|PIRSR:PIRSR000071-1};
+KW   Metal-binding {ECO:0000256|PIRNR:PIRNR000071,
+KW   ECO:0000256|PIRSR:PIRSR000071-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Transport {ECO:0000256|PIRNR:PIRNR000071,
+KW   ECO:0000256|SAAS:SAAS00148072}.
+FT   METAL         6      6       Iron. {ECO:0000256|PIRSR:PIRSR000071-1}.
+FT   METAL         9      9       Iron. {ECO:0000256|PIRSR:PIRSR000071-1}.
+FT   METAL        39     39       Iron. {ECO:0000256|PIRSR:PIRSR000071-1}.
+FT   METAL        42     42       Iron. {ECO:0000256|PIRSR:PIRSR000071-1}.
+SQ   SEQUENCE   56 AA;  6345 MW;  17DACAA86E7DB8CF CRC64;
+     MAQYMCGPCG WIYDEELGDP EHGIAPGTKF EDIPDDWKCP ECGVGKEDFY LLDFVI
+//

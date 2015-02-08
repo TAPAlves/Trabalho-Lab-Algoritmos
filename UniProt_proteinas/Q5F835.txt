@@ -1,0 +1,94 @@
+ID   SYR_NEIG1               Reviewed;         572 AA.
+AC   Q5F835;
+DT   27-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   04-FEB-2015, entry version 68.
+DE   RecName: Full=Arginine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00123};
+DE            EC=6.1.1.19 {ECO:0000255|HAMAP-Rule:MF_00123};
+DE   AltName: Full=Arginyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00123};
+DE            Short=ArgRS {ECO:0000255|HAMAP-Rule:MF_00123};
+GN   Name=argS {ECO:0000255|HAMAP-Rule:MF_00123};
+GN   OrderedLocusNames=NGO0963;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-arginine + tRNA(Arg) = AMP +
+CC       diphosphate + L-arginyl-tRNA(Arg). {ECO:0000255|HAMAP-
+CC       Rule:MF_00123}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00123}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00123}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00123}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89652.1; -; Genomic_DNA.
+DR   RefSeq; YP_208064.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F835; -.
+DR   STRING; 242231.NGO0963; -.
+DR   DNASU; 3282609; -.
+DR   EnsemblBacteria; AAW89652; AAW89652; NGO0963.
+DR   GeneID; 3282609; -.
+DR   KEGG; ngo:NGO0963; -.
+DR   PATRIC; 20335116; VBINeiGon24812_1127.
+DR   eggNOG; COG0018; -.
+DR   HOGENOM; HOG000247212; -.
+DR   KO; K01887; -.
+DR   OMA; TAMFLLY; -.
+DR   OrthoDB; EOG6JB13C; -.
+DR   BioCyc; NGON242231:GI2G-894-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004814; F:arginine-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006420; P:arginyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.730.10; -; 1.
+DR   Gene3D; 3.30.1360.70; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00123; Arg_tRNA_synth; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR001278; Arg-tRNA-ligase.
+DR   InterPro; IPR005148; Arg-tRNA-synth_N.
+DR   InterPro; IPR008909; DALR_anticod-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_1a_anticodon-bd.
+DR   PANTHER; PTHR11956; PTHR11956; 1.
+DR   Pfam; PF03485; Arg_tRNA_synt_N; 1.
+DR   Pfam; PF05746; DALR_1; 1.
+DR   Pfam; PF00750; tRNA-synt_1d; 1.
+DR   PRINTS; PR01038; TRNASYNTHARG.
+DR   SMART; SM01016; Arg_tRNA_synt_N; 1.
+DR   SMART; SM00836; DALR_1; 1.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF55190; SSF55190; 1.
+DR   TIGRFAMs; TIGR00456; argS; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Complete proteome; Cytoplasm;
+KW   Ligase; Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN         1    572       Arginine--tRNA ligase.
+FT                                /FTId=PRO_0000242053.
+FT   MOTIF       122    132       "HIGH" region.
+SQ   SEQUENCE   572 AA;  62620 MW;  B69F0239F7253087 CRC64;
+     MNLHQTVEHE AAAAFAAAGI AGSPVVLQPT KNAEHGDFQI NGVMGAAKKA KQNPRELAQK
+     VADALAGNAV IESAEVAGPG FINLRLRHEF LAQNIHAALN DARFGVAKTA QPQTVVIDYS
+     SPNLAKEMHV GHLRSSIIGD SISRVLEFTG NTVIRQNHVG DWGTQFGMLV AYLVEQQKDN
+     AAFELADLEQ FYRAAKVRFD EDPAFADTAR EYVVKLQGGD ETVLALWKQF VDISLSHAQA
+     VYDTLGLKLR PEDVAGESKY NDDLQPVADD LVQKGLAVED DGAKVVFLDE FKNKEGEPAA
+     FIVQKQGGGF LYASTDLACL RYRIGRLKAG RLLYVVDHRQ ALHFEQLFTT SRKAGYLPED
+     AKAEFIGFGT MMGKDGKPFK TRSGDTVKLV DLLTEAVERA TALVKEKNPE LGADEAAKIG
+     KTVGIGAVKY ADLSKNRTSD YVFDWDAMLS FEGNTAPYLQ YAYTRVQSVF RKAGEWDATA
+     PTVLTEPLEK QLAAELLKFE NVLQSVADTA YPHYLAAYLY QAATLFSRFY EACPILKAEG
+     ASRNSRLQLA KLTGNTLKQG LDLLGIDVLD VM
+//

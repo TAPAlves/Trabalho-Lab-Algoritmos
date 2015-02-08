@@ -1,0 +1,90 @@
+ID   LOLD_NEIG1              Reviewed;         231 AA.
+AC   Q5F8K2;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 77.
+DE   RecName: Full=Lipoprotein-releasing system ATP-binding protein LolD {ECO:0000255|HAMAP-Rule:MF_01708};
+DE            EC=3.6.3.- {ECO:0000255|HAMAP-Rule:MF_01708};
+GN   Name=lolD {ECO:0000255|HAMAP-Rule:MF_01708};
+GN   OrderedLocusNames=NGO0770;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Part of the ABC transporter complex LolCDE involved in
+CC       the translocation of mature outer membrane-directed lipoproteins,
+CC       from the inner membrane to the periplasmic chaperone, LolA.
+CC       Responsible for the formation of the LolA-lipoprotein complex in
+CC       an ATP-dependent manner. {ECO:0000255|HAMAP-Rule:MF_01708}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (LolD) and two transmembrane proteins (LolC and LolE).
+CC       {ECO:0000255|HAMAP-Rule:MF_01708}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01708}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01708}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily.
+CC       Lipoprotein translocase (TC 3.A.1.125) family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01708}.
+CC   -!- SIMILARITY: Contains 1 ABC transporter domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01708}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89485.1; -; Genomic_DNA.
+DR   RefSeq; YP_207897.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8K2; -.
+DR   STRING; 242231.NGO0770; -.
+DR   EnsemblBacteria; AAW89485; AAW89485; NGO0770.
+DR   GeneID; 3282041; -.
+DR   KEGG; ngo:NGO0770; -.
+DR   PATRIC; 20334688; VBINeiGon24812_0916.
+DR   eggNOG; COG1136; -.
+DR   KO; K09810; -.
+DR   OMA; FFREIAD; -.
+DR   OrthoDB; EOG6T7N3V; -.
+DR   BioCyc; NGON242231:GI2G-725-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0042954; F:lipoprotein transporter activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR015854; ABC_transpr_LolD.
+DR   InterPro; IPR011924; LolD_lipo_ATP-bd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR02211; LolD_lipo_ex; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51244; LOLD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Complete proteome;
+KW   Hydrolase; Membrane; Nucleotide-binding; Reference proteome;
+KW   Transport.
+FT   CHAIN         1    231       Lipoprotein-releasing system ATP-binding
+FT                                protein LolD.
+FT                                /FTId=PRO_0000272109.
+FT   DOMAIN        6    231       ABC transporter. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01708}.
+FT   NP_BIND      42     49       ATP. {ECO:0000255|HAMAP-Rule:MF_01708}.
+SQ   SEQUENCE   231 AA;  25259 MW;  1CE7B3A5166BA48D CRC64;
+     MSDLILKCEG VGKRYRDGGL DVPVLYGLDL EIRTGESTGI IGSSGSGKST LLHILGGLDM
+     PSEGRVLLMG EDLRALNQRR LGDLRNRHLG FVYQFHHLLP EFSALENVMM PLLIGKKSRK
+     EAVETAMAML DKVGLKHRST HRAGELSGGE RQRAAIARAL VTQPKCLLAD EPTGNLDRAN
+     ARNVLDMMLE LKTELGTGLV VVTHDDELAG RFERVMVMKD GSLHPRQGAN A
+//

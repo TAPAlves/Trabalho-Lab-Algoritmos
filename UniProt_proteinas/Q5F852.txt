@@ -1,0 +1,99 @@
+ID   MIAA_NEIG1              Reviewed;         313 AA.
+AC   Q5F852;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 63.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   OrderedLocusNames=NGO0940;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY: Dimethylallyl diphosphate + adenine(37) in
+CC       tRNA = diphosphate + N(6)-dimethylallyladenine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89635.1; -; Genomic_DNA.
+DR   RefSeq; YP_208047.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F852; -.
+DR   STRING; 242231.NGO0940; -.
+DR   EnsemblBacteria; AAW89635; AAW89635; NGO0940.
+DR   GeneID; 3281618; -.
+DR   KEGG; ngo:NGO0940; -.
+DR   PATRIC; 20335065; VBINeiGon24812_1102.
+DR   eggNOG; COG0324; -.
+DR   HOGENOM; HOG000039996; -.
+DR   KO; K00791; -.
+DR   OMA; EIFHTTG; -.
+DR   OrthoDB; EOG661HB3; -.
+DR   BioCyc; NGON242231:GI2G-877-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR002627; IPPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR018022; tRNA_delta_PyrP_Trfase.
+DR   PANTHER; PTHR11088; PTHR11088; 1.
+DR   Pfam; PF01715; IPPT; 1.
+DR   SUPFAM; SSF52540; SSF52540; 3.
+DR   TIGRFAMs; TIGR00174; miaA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Magnesium; Nucleotide-binding;
+KW   Reference proteome; Transferase; tRNA processing.
+FT   CHAIN         1    313       tRNA dimethylallyltransferase.
+FT                                /FTId=PRO_1000020624.
+FT   NP_BIND      11     18       ATP. {ECO:0000255|HAMAP-Rule:MF_00185}.
+FT   REGION       13     18       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00185}.
+FT   REGION       36     39       Interaction with substrate tRNA.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00185}.
+FT   REGION      160    164       Interaction with substrate tRNA.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00185}.
+FT   REGION      243    248       Interaction with substrate tRNA.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00185}.
+FT   SITE        102    102       Interaction with substrate tRNA.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00185}.
+FT   SITE        124    124       Interaction with substrate tRNA.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00185}.
+SQ   SEQUENCE   313 AA;  34855 MW;  A27BEE85933889E0 CRC64;
+     MPTPKAFTLL GPTACGKTAL ALKIAETLPV EIISLDSALL YTGMDIGTAK PSASERAFVP
+     HHLIDIITPV QTYSAARFVE DCTRLTGEIT ARGKCPLIVG GTMMYFRALT QGLNDLPEAD
+     ACLRADLDEQ KQMYGLDFLY RTLQKVDPET ACRLKPNDSQ RIGRALEVYY LTGRPMSAHL
+     NGQPEHTLPF ELYTAALIPE DRARLHENIA LRFHLMLEQG FIGEVENLRR RYPGLTADSP
+     AIRCVGYRQA WEHLDGATDR QTFIEKGIAA TRQLAKRQLT WLRKTPLDCV ADPFSDGTSG
+     TRLIEAAKRF FGE
+//

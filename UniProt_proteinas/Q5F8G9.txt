@@ -1,0 +1,95 @@
+ID   NNRD_NEIG1              Reviewed;         296 AA.
+AC   Q5F8G9;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 52.
+DE   RecName: Full=ADP-dependent (S)-NAD(P)H-hydrate dehydratase {ECO:0000255|HAMAP-Rule:MF_01965};
+DE            EC=4.2.1.136 {ECO:0000255|HAMAP-Rule:MF_01965};
+DE   AltName: Full=ADP-dependent NAD(P)HX dehydratase {ECO:0000255|HAMAP-Rule:MF_01965};
+GN   Name=nnrD {ECO:0000255|HAMAP-Rule:MF_01965};
+GN   OrderedLocusNames=NGO0804;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the dehydration of the S-form of NAD(P)HX at
+CC       the expense of ADP, which is converted to AMP. Together with
+CC       NAD(P)HX epimerase, which catalyzes the epimerization of the S-
+CC       and R-forms, the enzyme allows the repair of both epimers of
+CC       NAD(P)HX, a damaged form of NAD(P)H that is a result of enzymatic
+CC       or heat-dependent hydration. {ECO:0000255|HAMAP-Rule:MF_01965}.
+CC   -!- CATALYTIC ACTIVITY: ADP + (6S)-6-beta-hydroxy-1,4,5,6-
+CC       tetrahydronicotinamide adenine-dinucleotide = AMP + phosphate +
+CC       NADH. {ECO:0000255|HAMAP-Rule:MF_01965}.
+CC   -!- CATALYTIC ACTIVITY: ADP + (6S)-6-beta-hydroxy-1,4,5,6-
+CC       tetrahydronicotinamide adenine-dinucleotide phosphate = AMP +
+CC       phosphate + NADPH. {ECO:0000255|HAMAP-Rule:MF_01965}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01965};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01965}.
+CC   -!- SIMILARITY: Belongs to the NnrD/CARKD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01965}.
+CC   -!- SIMILARITY: Contains 1 YjeF C-terminal domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01965}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89518.1; -; Genomic_DNA.
+DR   RefSeq; YP_207930.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8G9; -.
+DR   STRING; 242231.NGO0804; -.
+DR   EnsemblBacteria; AAW89518; AAW89518; NGO0804.
+DR   GeneID; 3281980; -.
+DR   KEGG; ngo:NGO0804; -.
+DR   PATRIC; 20334762; VBINeiGon24812_0951.
+DR   eggNOG; COG0063; -.
+DR   HOGENOM; HOG000024581; -.
+DR   OMA; PEATYWR; -.
+DR   OrthoDB; EOG6C018D; -.
+DR   BioCyc; NGON242231:GI2G-760-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0052855; F:ADP-dependent NAD(P)H-hydrate dehydratase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046496; P:nicotinamide nucleotide metabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.1190.20; -; 1.
+DR   HAMAP; MF_01965; NADHX_dehydratase; 1.
+DR   InterPro; IPR029056; Ribokinase-like.
+DR   InterPro; IPR000631; YjeF_C.
+DR   Pfam; PF01256; Carb_kinase; 1.
+DR   SUPFAM; SSF53613; SSF53613; 1.
+DR   TIGRFAMs; TIGR00196; yjeF_cterm; 1.
+DR   PROSITE; PS51383; YJEF_C_3; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Lyase; NAD; NADP; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN         1    296       ADP-dependent (S)-NAD(P)H-hydrate
+FT                                dehydratase.
+FT                                /FTId=PRO_0000416146.
+FT   DOMAIN       18    292       YjeF C-terminal. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01965}.
+FT   NP_BIND     202    206       ADP. {ECO:0000255|HAMAP-Rule:MF_01965}.
+FT   NP_BIND     222    231       ADP. {ECO:0000255|HAMAP-Rule:MF_01965}.
+FT   REGION      165    171       NAD(P)HX. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01965}.
+FT   BINDING     111    111       NAD(P)HX; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01965}.
+FT   BINDING     232    232       NAD(P)HX. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01965}.
+SQ   SEQUENCE   296 AA;  30241 MW;  05E38075637EC2FB CRC64;
+     MFPVFHLSGE SRRRMLQTAL RFPHVFKARA EDSHKGTFGT LAVVGGSAGM SGAPVLAASA
+     AMYLGCGKVR AGFNQDTLPF AVIAGFPEIM LDTADGLTKR QGINAWTAGC GLGTDAAAVE
+     TVAAVLARNR DEAVVLDADA LNILSTDAET RNLARGCKNL ILTPHPAEAA RLLGTTVAQV
+     QADRTAAVRK IGAILGATVV LKGHKTLVAA SDTEIYVNES GNAGLATAGS GDVLGGIIGS
+     LLAQGVPVFE AACAGAWLHG AAADVIKESA GIAAGLSAGE IAPAARWLRN WITESM
+//

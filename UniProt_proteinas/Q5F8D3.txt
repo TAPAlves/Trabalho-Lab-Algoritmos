@@ -1,0 +1,92 @@
+ID   PROA_NEIG1              Reviewed;         420 AA.
+AC   Q5F8D3;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=Gamma-glutamyl phosphate reductase {ECO:0000255|HAMAP-Rule:MF_00412};
+DE            Short=GPR {ECO:0000255|HAMAP-Rule:MF_00412};
+DE            EC=1.2.1.41 {ECO:0000255|HAMAP-Rule:MF_00412};
+DE   AltName: Full=Glutamate-5-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00412};
+DE   AltName: Full=Glutamyl-gamma-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00412};
+DE            Short=GSA dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00412};
+GN   Name=proA {ECO:0000255|HAMAP-Rule:MF_00412};
+GN   OrderedLocusNames=NGO0850;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of L-glutamate
+CC       5-phosphate into L-glutamate 5-semialdehyde and phosphate. The
+CC       product spontaneously undergoes cyclization to form 1-pyrroline-5-
+CC       carboxylate. {ECO:0000255|HAMAP-Rule:MF_00412}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamate 5-semialdehyde + phosphate +
+CC       NADP(+) = L-glutamyl 5-phosphate + NADPH. {ECO:0000255|HAMAP-
+CC       Rule:MF_00412}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-
+CC       glutamate 5-semialdehyde from L-glutamate: step 2/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_00412}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00412}.
+CC   -!- SIMILARITY: Belongs to the gamma-glutamyl phosphate reductase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00412}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89554.1; -; Genomic_DNA.
+DR   RefSeq; YP_207966.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8D3; -.
+DR   STRING; 242231.NGO0850; -.
+DR   EnsemblBacteria; AAW89554; AAW89554; NGO0850.
+DR   GeneID; 3282227; -.
+DR   KEGG; ngo:NGO0850; -.
+DR   PATRIC; 20334870; VBINeiGon24812_1005.
+DR   eggNOG; COG0014; -.
+DR   HOGENOM; HOG000246356; -.
+DR   KO; K00147; -.
+DR   OMA; CNAIETL; -.
+DR   OrthoDB; EOG6FFSCX; -.
+DR   BioCyc; NGON242231:GI2G-796-MONOMER; -.
+DR   UniPathway; UPA00098; UER00360.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004350; F:glutamate-5-semialdehyde dehydrogenase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.309.10; -; 1.
+DR   Gene3D; 3.40.605.10; -; 2.
+DR   HAMAP; MF_00412; ProA; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   InterPro; IPR000965; G-glutamylP_reductase.
+DR   InterPro; IPR020593; G-glutamylP_reductase_CS.
+DR   InterPro; IPR012134; Glu-5-SA_DH.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   PIRSF; PIRSF000151; GPR; 1.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+DR   TIGRFAMs; TIGR00407; proA; 1.
+DR   PROSITE; PS01223; PROA; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Complete proteome; Cytoplasm; NADP;
+KW   Oxidoreductase; Proline biosynthesis; Reference proteome.
+FT   CHAIN         1    420       Gamma-glutamyl phosphate reductase.
+FT                                /FTId=PRO_0000189754.
+SQ   SEQUENCE   420 AA;  44919 MW;  014DD6F8B31E7961 CRC64;
+     MSNTQKQLAL AKAAKKSVNT ADAEEKNRAL LAMADSLEAA AEDILAANRL DLKAAAGKIP
+     DSMTDRLLLD GKRICAMADG IRAVAALPDP VGEILETSTL PNGLEIVKKR VAMGVIGIIY
+     ESRPNVTSDA AALALKSGSA VVLRSGKDAF QSARAIVAAL KTGLAQTRID PEAVQLIEDT
+     GREGSYEMMR AKDYLDLLIP RGGAGLIRAV VENAVVPVIE TGTGIVHIYI DKDADWDKAL
+     RIVYNAKTGR PSVCNSMEVL LVHEGIAADF LPKLERLLVR GRIEAGLPPV RFRLDPQAAR
+     YIGGEAAGAD DFDTEFLDYI LAVKTVASVE EAVGHIEARG THHSDGIVTE NRHAADYFTT
+     HIDSAAVYIN ASTRFTDGGE FGLGCEMGIS TQKLHARGPM GLKELTSYKY IVQGTGQVRE
+//

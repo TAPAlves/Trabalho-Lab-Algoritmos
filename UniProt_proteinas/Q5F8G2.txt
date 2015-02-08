@@ -1,0 +1,112 @@
+ID   BIOB_NEIG1              Reviewed;         350 AA.
+AC   Q5F8G2;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 69.
+DE   RecName: Full=Biotin synthase {ECO:0000255|HAMAP-Rule:MF_01694};
+DE            EC=2.8.1.6 {ECO:0000255|HAMAP-Rule:MF_01694};
+GN   Name=bioB {ECO:0000255|HAMAP-Rule:MF_01694};
+GN   OrderedLocusNames=NGO0813;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of dethiobiotin (DTB) to biotin
+CC       by the insertion of a sulfur atom into dethiobiotin via a radical-
+CC       based mechanism. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- CATALYTIC ACTIVITY: Dethiobiotin + sulfur-(sulfur carrier) + 2 S-
+CC       adenosyl-L-methionine = biotin + (sulfur carrier) + 2 L-methionine
+CC       + 2 5'-deoxyadenosine. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01694};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01694};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:49601;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01694};
+CC       Note=Binds 1 [2Fe-2S] cluster. The cluster is coordinated with 3
+CC       cysteines and 1 arginine. {ECO:0000255|HAMAP-Rule:MF_01694};
+CC   -!- PATHWAY: Cofactor biosynthesis; biotin biosynthesis; biotin from
+CC       7,8-diaminononanoate: step 2/2. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. Biotin
+CC       synthase family. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89525.1; -; Genomic_DNA.
+DR   RefSeq; YP_207937.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8G2; -.
+DR   SMR; Q5F8G2; 23-330.
+DR   STRING; 242231.NGO0813; -.
+DR   EnsemblBacteria; AAW89525; AAW89525; NGO0813.
+DR   GeneID; 3281938; -.
+DR   KEGG; ngo:NGO0813; -.
+DR   PATRIC; 20334782; VBINeiGon24812_0961.
+DR   eggNOG; COG0502; -.
+DR   HOGENOM; HOG000239957; -.
+DR   KO; K01012; -.
+DR   OMA; CGYCPQS; -.
+DR   OrthoDB; EOG622PMP; -.
+DR   BioCyc; NGON242231:GI2G-767-MONOMER; -.
+DR   UniPathway; UPA00078; UER00162.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004076; F:biotin synthase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009102; P:biotin biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01694; BioB; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR010722; BATS_dom.
+DR   InterPro; IPR002684; Biotin_synth/BioAB.
+DR   InterPro; IPR024177; Biotin_synthase.
+DR   InterPro; IPR006638; Elp3/MiaB/NifB.
+DR   InterPro; IPR007197; rSAM.
+DR   Pfam; PF06968; BATS; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF001619; Biotin_synth; 1.
+DR   SMART; SM00876; BATS; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   TIGRFAMs; TIGR00433; bioB; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; 4Fe-4S; Biotin biosynthesis; Complete proteome; Iron;
+KW   Iron-sulfur; Metal-binding; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN         1    350       Biotin synthase.
+FT                                /FTId=PRO_0000381493.
+FT   METAL        69     69       Iron-sulfur 1 (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01694}.
+FT   METAL        73     73       Iron-sulfur 1 (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01694}.
+FT   METAL        76     76       Iron-sulfur 1 (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01694}.
+FT   METAL       113    113       Iron-sulfur 2 (2Fe-2S).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01694}.
+FT   METAL       144    144       Iron-sulfur 2 (2Fe-2S).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01694}.
+FT   METAL       204    204       Iron-sulfur 2 (2Fe-2S).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01694}.
+FT   METAL       276    276       Iron-sulfur 2 (2Fe-2S).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01694}.
+SQ   SEQUENCE   350 AA;  38781 MW;  CAD3FC7352529499 CRC64;
+     MTVSPVALRR KTECKPHPTA RYWKKCDVEA LFGLPFLELV YQAAEVHRQN FNPREIQLST
+     LLSIKTGGCP EDCAYCPQSA HHNTNLGKEQ MMDVDEIVEK AKIAKSRGAS RFCMGAAWRG
+     PKPKDVETVS AIIKAVKGLG METCGTFGML EEGMAEDLKE AGLDYYNHNL DTDPDRYNDI
+     IHTRRHEDRM DTLGKVRNAG LKVCCGGIVG MNETRAERAG LIASLANLDP QPESVPINRL
+     VKVEGTPLAD AEDLDWTEFV RTVSVARITM PQSYVRLSAG RSNMPEAMQA MCFMAGANSI
+     FYGDKLLTTG NPDEDGDRIL MEKLNLYPLQ FEPEGEVAEV EKASGIKADY
+//

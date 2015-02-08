@@ -1,0 +1,84 @@
+ID   Q5F879_NEIG1            Unreviewed;       296 AA.
+AC   Q5F879;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   04-FEB-2015, entry version 70.
+DE   RecName: Full=Succinyl-CoA ligase [ADP-forming] subunit alpha {ECO:0000256|RuleBase:RU000699};
+DE            EC=6.2.1.5 {ECO:0000256|RuleBase:RU000699};
+GN   OrderedLocusNames=NGO0912 {ECO:0000313|EMBL:AAW89608.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89608.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: ATP + succinate + CoA = ADP + phosphate +
+CC       succinyl-CoA. {ECO:0000256|RuleBase:RU000699}.
+CC   -!- SUBUNIT: Heterotetramer of two alpha and two beta subunits.
+CC       {ECO:0000256|RuleBase:RU000699}.
+CC   -!- SIMILARITY: Belongs to the succinate/malate CoA ligase alpha
+CC       subunit family. {ECO:0000256|RuleBase:RU000677}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89608.1; -; Genomic_DNA.
+DR   RefSeq; YP_208020.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F879; -.
+DR   SMR; Q5F879; 2-291.
+DR   STRING; 242231.NGO0912; -.
+DR   PRIDE; Q5F879; -.
+DR   EnsemblBacteria; AAW89608; AAW89608; NGO0912.
+DR   GeneID; 3281099; -.
+DR   KEGG; ngo:NGO0912; -.
+DR   PATRIC; 20335007; VBINeiGon24812_1073.
+DR   eggNOG; COG0074; -.
+DR   HOGENOM; HOG000239685; -.
+DR   KO; K01902; -.
+DR   OMA; GIELAIC; -.
+DR   OrthoDB; EOG644ZT0; -.
+DR   BioCyc; NGON242231:GI2G-850-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003878; F:ATP citrate synthase activity; IEA:InterPro.
+DR   GO; GO:0048037; F:cofactor binding; IEA:InterPro.
+DR   GO; GO:0004775; F:succinate-CoA ligase (ADP-forming) activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.50.261; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR017440; Cit_synth/succinyl-CoA_lig_AS.
+DR   InterPro; IPR003781; CoA-bd.
+DR   InterPro; IPR005810; CoA_lig_alpha.
+DR   InterPro; IPR005811; CoA_ligase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR016102; Succinyl-CoA_synth-like.
+DR   Pfam; PF02629; CoA_binding; 1.
+DR   Pfam; PF00549; Ligase_CoA; 1.
+DR   PIRSF; PIRSF001553; SucCS_alpha; 1.
+DR   PRINTS; PR01798; SCOASYNTHASE.
+DR   SMART; SM00881; CoA_binding; 1.
+DR   SUPFAM; SSF52210; SSF52210; 1.
+DR   TIGRFAMs; TIGR01019; sucCoAalpha; 1.
+DR   PROSITE; PS01216; SUCCINYL_COA_LIG_1; 1.
+DR   PROSITE; PS00399; SUCCINYL_COA_LIG_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|RuleBase:RU000699};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Ligase {ECO:0000256|RuleBase:RU000677};
+KW   Nucleotide-binding {ECO:0000256|RuleBase:RU000699};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535}.
+FT   ACT_SITE    249    249       Tele-phosphohistidine intermediate.
+FT                                {ECO:0000256|PIRSR:PIRSR001553-1}.
+SQ   SEQUENCE   296 AA;  30549 MW;  01F447EC8834C9DF CRC64;
+     MSVLINKDTK VLVQGFTGKN GTFHSEQALA YGTKVVGGVT PGKGGQTHLD LPVFNTMKEA
+     VKETGADASV IYVPAPFVLD SIVEAVDSGV GLVVVITEGV PTLDMLKAKR YLETNGNGTR
+     LVGPNCPGVI TPGECKIGIM PGHIHTPGRI GIISRSGTLT YEAVAQTTNL GLGQSTCIGI
+     GGDPIPGMNQ IDALKLFQED PDTDAIIMIG EIGGTAEEEA AEYIQSNVTK PVVGYIAGVT
+     APKGKRMGHA GAIISGGKGT AEEKFAAFEK AGIAYTRSPA ELGTTMLEVL KAKGLA
+//

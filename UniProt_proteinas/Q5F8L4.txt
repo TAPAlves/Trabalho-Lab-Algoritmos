@@ -1,0 +1,102 @@
+ID   Q5F8L4_NEIG1            Unreviewed;       230 AA.
+AC   Q5F8L4;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   04-FEB-2015, entry version 61.
+DE   RecName: Full=Ribulose-phosphate 3-epimerase {ECO:0000256|PIRNR:PIRNR001461};
+DE            EC=5.1.3.1 {ECO:0000256|PIRNR:PIRNR001461};
+GN   OrderedLocusNames=NGO0758 {ECO:0000313|EMBL:AAW89473.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89473.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: D-ribulose 5-phosphate = D-xylulose 5-
+CC       phosphate. {ECO:0000256|PIRNR:PIRNR001461}.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR001461-2};
+CC       Note=Binds 1 divalent metal cation per subunit.
+CC       {ECO:0000256|PIRSR:PIRSR001461-2};
+CC   -!- SIMILARITY: Belongs to the ribulose-phosphate 3-epimerase family.
+CC       {ECO:0000256|PIRNR:PIRNR001461}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89473.1; -; Genomic_DNA.
+DR   RefSeq; YP_207885.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8L4; -.
+DR   STRING; 242231.NGO0758; -.
+DR   EnsemblBacteria; AAW89473; AAW89473; NGO0758.
+DR   GeneID; 3281868; -.
+DR   KEGG; ngo:NGO0758; -.
+DR   PATRIC; 20334664; VBINeiGon24812_0904.
+DR   eggNOG; COG0036; -.
+DR   HOGENOM; HOG000259349; -.
+DR   KO; K01783; -.
+DR   OMA; WAIDDID; -.
+DR   OrthoDB; EOG67HK17; -.
+DR   BioCyc; NGON242231:GI2G-713-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004750; F:ribulose-phosphate 3-epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:InterPro.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR026019; Ribul_P_3_epim.
+DR   InterPro; IPR000056; Ribul_P_3_epim-like.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   PANTHER; PTHR11749; PTHR11749; 1.
+DR   Pfam; PF00834; Ribul_P_3_epim; 1.
+DR   PIRSF; PIRSF001461; RPE; 1.
+DR   SUPFAM; SSF51366; SSF51366; 1.
+DR   TIGRFAMs; TIGR01163; rpe; 1.
+DR   PROSITE; PS01085; RIBUL_P_3_EPIMER_1; 1.
+DR   PROSITE; PS01086; RIBUL_P_3_EPIMER_2; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism {ECO:0000256|PIRNR:PIRNR001461};
+KW   Cobalt {ECO:0000256|PIRSR:PIRSR001461-2};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Isomerase {ECO:0000256|PIRNR:PIRNR001461,
+KW   ECO:0000313|EMBL:AAW89473.1};
+KW   Manganese {ECO:0000256|PIRSR:PIRSR001461-2};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR001461-2};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Zinc {ECO:0000256|PIRSR:PIRSR001461-2}.
+FT   REGION      143    146       Substrate binding.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-3}.
+FT   REGION      202    203       Substrate binding.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-3}.
+FT   ACT_SITE     36     36       Proton acceptor.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-1}.
+FT   ACT_SITE    180    180       Proton donor.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-1}.
+FT   METAL        34     34       Divalent metal cation.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-2}.
+FT   METAL        36     36       Divalent metal cation.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-2}.
+FT   METAL        67     67       Divalent metal cation.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-2}.
+FT   METAL       180    180       Divalent metal cation.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-2}.
+FT   BINDING       9      9       Substrate.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-3}.
+FT   BINDING      67     67       Substrate.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-3}.
+FT   BINDING     182    182       Substrate; via amide nitrogen.
+FT                                {ECO:0000256|PIRSR:PIRSR001461-3}.
+SQ   SEQUENCE   230 AA;  24760 MW;  1E5B0344A62D6258 CRC64;
+     MTAYRIAPSI LSADFARLGE EVANVIAAGA DLIHFDVMDN HYVPNLTFGP MVCAALKPYA
+     SVPIDVHLMV EPVDDLIQSF AKAGASIITF HPEASRHIDR SLSLIRDMGC QAGLVLNPAT
+     PVYVLENVLD RLDMVLLMSV NPGFGGQSFI PHTLEKIRQV RAMLDRYEGK SGRRIAIEVD
+     GGIKTDNIAA VARAGADTFV AGSAIFGKPD YKAVIAAMRA ELEKAARAEP
+//

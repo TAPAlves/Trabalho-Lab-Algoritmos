@@ -1,0 +1,117 @@
+ID   TRPE_NEIG1              Reviewed;         491 AA.
+AC   Q5F8B4;
+DT   26-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 68.
+DE   RecName: Full=Anthranilate synthase component 1;
+DE            Short=AS;
+DE            Short=ASI;
+DE            EC=4.1.3.27;
+GN   Name=trpE; OrderedLocusNames=NGO0872;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=10417653; DOI=10.1046/j.1365-2958.1999.01514.x;
+RA   Zhu P., Morelli G., Achtman M.;
+RT   "The opcA and (psi)opcB regions in Neisseria: genes, pseudogenes,
+RT   deletions, insertion elements and DNA islands.";
+RL   Mol. Microbiol. 33:635-650(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Part of a heterotetrameric complex that catalyzes the
+CC       two-step biosynthesis of anthranilate, an intermediate in the
+CC       biosynthesis of L-tryptophan. In the first step, the glutamine-
+CC       binding beta subunit (TrpG) of anthranilate synthase (AS) provides
+CC       the glutamine amidotransferase activity which generates ammonia as
+CC       a substrate that, along with chorismate, is used in the second
+CC       step, catalyzed by the large alpha subunit of AS (TrpE) to produce
+CC       anthranilate. In the absence of TrpG, TrpE can synthesize
+CC       anthranilate directly from chorismate and high concentrations of
+CC       ammonia (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Chorismate + L-glutamine = anthranilate +
+CC       pyruvate + L-glutamate.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- ENZYME REGULATION: Feedback inhibited by tryptophan.
+CC       {ECO:0000250}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-tryptophan biosynthesis; L-
+CC       tryptophan from chorismate: step 1/5.
+CC   -!- SUBUNIT: Heterotetramer consisting of two non-identical subunits:
+CC       a beta subunit (TrpG) and a large alpha subunit (TrpE).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the anthranilate synthase component I
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ242839; CAB45014.1; -; Genomic_DNA.
+DR   EMBL; AE004969; AAW89573.1; -; Genomic_DNA.
+DR   RefSeq; WP_010360232.1; NC_002946.2.
+DR   RefSeq; YP_207985.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8B4; -.
+DR   STRING; 242231.NGO0872; -.
+DR   EnsemblBacteria; AAW89573; AAW89573; NGO0872.
+DR   GeneID; 3281838; -.
+DR   KEGG; ngo:NGO0872; -.
+DR   PATRIC; 20334917; VBINeiGon24812_1028.
+DR   eggNOG; COG0147; -.
+DR   HOGENOM; HOG000025142; -.
+DR   KO; K01657; -.
+DR   OMA; SPYMYFY; -.
+DR   OrthoDB; EOG6D5G6B; -.
+DR   BioCyc; NGON242231:GI2G-815-MONOMER; -.
+DR   UniPathway; UPA00035; UER00040.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0004049; F:anthranilate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000162; P:tryptophan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.60.120.10; -; 1.
+DR   InterPro; IPR005801; ADC_synthase.
+DR   InterPro; IPR019999; Anth_synth_I_like.
+DR   InterPro; IPR006805; Anth_synth_I_N.
+DR   InterPro; IPR005256; Anth_synth_I_PabB.
+DR   InterPro; IPR015890; Chorismate_C.
+DR   Pfam; PF04715; Anth_synt_I_N; 1.
+DR   Pfam; PF00425; Chorismate_bind; 1.
+DR   PRINTS; PR00095; ANTSNTHASEI.
+DR   SUPFAM; SSF56322; SSF56322; 1.
+DR   TIGRFAMs; TIGR00564; trpE_most; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis;
+KW   Complete proteome; Lyase; Magnesium; Metal-binding;
+KW   Reference proteome; Tryptophan biosynthesis.
+FT   CHAIN         1    491       Anthranilate synthase component 1.
+FT                                /FTId=PRO_0000154101.
+FT   REGION      271    273       Tryptophan binding. {ECO:0000250}.
+FT   REGION      306    307       Substrate binding. {ECO:0000250}.
+FT   REGION      455    457       Substrate binding. {ECO:0000250}.
+FT   METAL       333    333       Magnesium. {ECO:0000250}.
+FT   METAL       470    470       Magnesium. {ECO:0000250}.
+FT   BINDING      49     49       Tryptophan. {ECO:0000250}.
+FT   BINDING     421    421       Substrate. {ECO:0000250}.
+FT   BINDING     441    441       Substrate. {ECO:0000250}.
+FT   BINDING     457    457       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   491 AA;  54748 MW;  A810F7B2304FE47F CRC64;
+     MISKQEYQAQ AAQGYNRIPL VQELLADLDT PLSLYLKLAN RPYTYLLESV VGGERFGRYS
+     FIGLPCSHYL KAGGKHVDVY QNGEIVEQYD GNPLPFIEAF HNRFKTPEIP SLPRFTGGLV
+     GYFGYETVYN FEHFAHRLKN TAKANPLGTP DILLMLSQEL AVIDNLSGKI HLIVYADPSQ
+     PDSYERARER LEDIRTQLRQ SCAIPLSLGS KQTQAVSEFG EEPFKACVDK IKDYIFAGDC
+     MQVVPSQRMS MEFTDNPLAL YRALRTLNPS PYLFYYDFGD FHIVGSSPEI LVRRERDDVI
+     VRPIAGTRLR GKTPAEDLAN EQDLLSDAKE IAEHVMLIDL GRNDVGRISK TGEVKVTDKM
+     VIEKYSHVMH IVSNVEGCLK EGVTNMDILA ATFPAGTLSG APKVRAMEII EEIEPEKRGI
+     YGGAVGVWGF NNDMDLAIAI RTAVIKNNTL FIQSGAGVVA DSDPTSEWQE TQNKARAVVR
+     AAQMVQEGLD K
+//

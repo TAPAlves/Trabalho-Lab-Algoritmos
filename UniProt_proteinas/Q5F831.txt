@@ -1,0 +1,84 @@
+ID   RPIA_NEIG1              Reviewed;         223 AA.
+AC   Q5F831;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 61.
+DE   RecName: Full=Ribose-5-phosphate isomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            EC=5.3.1.6 {ECO:0000255|HAMAP-Rule:MF_00170};
+DE   AltName: Full=Phosphoriboisomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            Short=PRI {ECO:0000255|HAMAP-Rule:MF_00170};
+GN   Name=rpiA {ECO:0000255|HAMAP-Rule:MF_00170};
+GN   OrderedLocusNames=NGO0970;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible conversion of ribose-5-
+CC       phosphate to ribulose 5-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00170}.
+CC   -!- CATALYTIC ACTIVITY: D-ribose 5-phosphate = D-ribulose 5-phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-
+CC       ribose 5-phosphate from D-ribulose 5-phosphate (non-oxidative
+CC       stage): step 1/1. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- SIMILARITY: Belongs to the ribose 5-phosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89656.1; -; Genomic_DNA.
+DR   RefSeq; YP_208068.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F831; -.
+DR   SMR; Q5F831; 3-218.
+DR   STRING; 242231.NGO0970; -.
+DR   EnsemblBacteria; AAW89656; AAW89656; NGO0970.
+DR   GeneID; 3281118; -.
+DR   KEGG; ngo:NGO0970; -.
+DR   PATRIC; 20335134; VBINeiGon24812_1136.
+DR   eggNOG; COG0120; -.
+DR   HOGENOM; HOG000276368; -.
+DR   KO; K01807; -.
+DR   OMA; GACHVQE; -.
+DR   OrthoDB; EOG67MF61; -.
+DR   BioCyc; NGON242231:GI2G-898-MONOMER; -.
+DR   UniPathway; UPA00115; UER00412.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0004751; F:ribose-5-phosphate isomerase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009052; P:pentose-phosphate shunt, non-oxidative branch; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00170; Rib_5P_isom_A; 1.
+DR   InterPro; IPR004788; Ribose5P_isomerase_typA.
+DR   InterPro; IPR020672; Ribose5P_isomerase_typA_subgr.
+DR   PANTHER; PTHR11934; PTHR11934; 1.
+DR   Pfam; PF06026; Rib_5-P_isom_A; 1.
+DR   TIGRFAMs; TIGR00021; rpiA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Isomerase; Reference proteome.
+FT   CHAIN         1    223       Ribose-5-phosphate isomerase A.
+FT                                /FTId=PRO_0000158437.
+FT   REGION       29     32       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+FT   REGION       82     85       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+FT   REGION       95     98       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+FT   ACT_SITE    104    104       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+FT   BINDING     122    122       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+SQ   SEQUENCE   223 AA;  23890 MW;  4F781726C0F0B73F CRC64;
+     MTTQDELKRI AAEKAVEFVP ENEYIGIGTG STINFFIEAL GKSGKKIKGA VSTSKKSGEL
+     LARYDIPVVS LNEVSGLAVY IDGADEVNHA LQMIKGGGGA HLNEKIVASA SEKFVCIADE
+     SKYVSRLGKF PLPVEAVESA RSLVSRKLLA MGGQPELRIG YTTFYGNQIV DVHGLNIDQP
+     LTMEDEINKI TGVLENGIFA RDAADVLILG TEEGAKVIYP CQG
+//

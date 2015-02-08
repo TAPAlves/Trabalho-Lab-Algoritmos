@@ -1,0 +1,112 @@
+ID   SUCC_NEIG1              Reviewed;         388 AA.
+AC   Q5F878;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 73.
+DE   RecName: Full=Succinyl-CoA ligase [ADP-forming] subunit beta {ECO:0000255|HAMAP-Rule:MF_00558};
+DE            EC=6.2.1.5 {ECO:0000255|HAMAP-Rule:MF_00558};
+DE   AltName: Full=Succinyl-CoA synthetase subunit beta {ECO:0000255|HAMAP-Rule:MF_00558};
+DE            Short=SCS-beta {ECO:0000255|HAMAP-Rule:MF_00558};
+GN   Name=sucC {ECO:0000255|HAMAP-Rule:MF_00558};
+GN   OrderedLocusNames=NGO0913;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: ATP + succinate + CoA = ADP + phosphate +
+CC       succinyl-CoA. {ECO:0000255|HAMAP-Rule:MF_00558}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00558};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00558};
+CC       Note=Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00558};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle;
+CC       succinate from succinyl-CoA (ligase route): step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00558}.
+CC   -!- SUBUNIT: Heterotetramer of two alpha and two beta subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00558}.
+CC   -!- SIMILARITY: Belongs to the succinate/malate CoA ligase beta
+CC       subunit family. {ECO:0000255|HAMAP-Rule:MF_00558}.
+CC   -!- SIMILARITY: Contains 1 ATP-grasp domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00558}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89609.1; -; Genomic_DNA.
+DR   RefSeq; YP_208021.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F878; -.
+DR   SMR; Q5F878; 1-386.
+DR   STRING; 242231.NGO0913; -.
+DR   PRIDE; Q5F878; -.
+DR   EnsemblBacteria; AAW89609; AAW89609; NGO0913.
+DR   GeneID; 3281695; -.
+DR   KEGG; ngo:NGO0913; -.
+DR   PATRIC; 20335009; VBINeiGon24812_1074.
+DR   eggNOG; COG0045; -.
+DR   HOGENOM; HOG000007059; -.
+DR   KO; K01903; -.
+DR   OMA; LCMDAKF; -.
+DR   OrthoDB; EOG644ZT0; -.
+DR   BioCyc; NGON242231:GI2G-851-MONOMER; -.
+DR   UniPathway; UPA00223; UER00999.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004775; F:succinate-CoA ligase (ADP-forming) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   Gene3D; 3.30.470.20; -; 1.
+DR   Gene3D; 3.40.50.261; -; 1.
+DR   HAMAP; MF_00558; Succ_CoA_beta; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013650; ATP-grasp_succ-CoA_synth-type.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR013816; ATP_grasp_subdomain_2.
+DR   InterPro; IPR005811; CoA_ligase.
+DR   InterPro; IPR017866; Succ-CoA_synthase_bsu_CS.
+DR   InterPro; IPR005809; Succ_CoA_synthase_bsu.
+DR   InterPro; IPR016102; Succinyl-CoA_synth-like.
+DR   PANTHER; PTHR11815; PTHR11815; 1.
+DR   Pfam; PF08442; ATP-grasp_2; 1.
+DR   Pfam; PF00549; Ligase_CoA; 1.
+DR   PIRSF; PIRSF001554; SucCS_beta; 1.
+DR   SUPFAM; SSF52210; SSF52210; 1.
+DR   TIGRFAMs; TIGR01016; sucCoAbeta; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS01217; SUCCINYL_COA_LIG_3; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Ligase; Magnesium; Manganese;
+KW   Metal-binding; Nucleotide-binding; Reference proteome;
+KW   Tricarboxylic acid cycle.
+FT   CHAIN         1    388       Succinyl-CoA ligase [ADP-forming] subunit
+FT                                beta.
+FT                                /FTId=PRO_1000082137.
+FT   DOMAIN        9    245       ATP-grasp. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00558}.
+FT   NP_BIND      35    109       ATP. {ECO:0000255|HAMAP-Rule:MF_00558}.
+FT   METAL       198    198       Magnesium or manganese.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00558}.
+FT   METAL       200    200       Magnesium or manganese.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00558}.
+SQ   SEQUENCE   388 AA;  41308 MW;  E036CE9E2233435A CRC64;
+     MNLHEYQAKE LLASYGLPVQ GGILAHNGEE AAAAYDKLGG KFAVVKAQVH AGGRGKAGGV
+     KVVKSREKAK EVAESLIGTN LVTYQTDANG QPVNSVLVCE DMYPVQTELY LGAVVDRSTR
+     RVTFMASTEG GVEIEKVAAE TPEKIFKVTV DPLVGLQPCQ AREVAFQLGL KDKQINEFAK
+     LMTGAYKAFV ENDFALFEVN PLAVRENGAL ACVDGKIGID SNALYRLPKI AELRDKSQEN
+     ERELKASEFD LNYVALEGKI GCMVNGAGLA MATMDIIKLK GGQPANFLDV GGGATKDRVV
+     EAFKLILEDK SVKGVLINIF GGIVRCDMIA EAIVAAVKEI NVNVPVVVRL EGNNAELGAK
+     ILNESGLKLT SADGLNDAAE KIVAAVNA
+//

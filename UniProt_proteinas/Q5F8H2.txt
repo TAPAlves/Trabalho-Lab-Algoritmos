@@ -1,0 +1,109 @@
+ID   Q5F8H2_NEIG1            Unreviewed;       791 AA.
+AC   Q5F8H2;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 70.
+DE   RecName: Full=Ribonuclease R {ECO:0000256|HAMAP-Rule:MF_01895};
+DE            Short=RNase R {ECO:0000256|HAMAP-Rule:MF_01895};
+DE            EC=3.1.13.1 {ECO:0000256|HAMAP-Rule:MF_01895};
+GN   Name=rnr {ECO:0000256|HAMAP-Rule:MF_01895};
+GN   OrderedLocusNames=NGO0801 {ECO:0000313|EMBL:AAW89515.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89515.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: 3'-5' exoribonuclease that releases 5'-nucleoside
+CC       monophosphates and is involved in maturation of structured RNAs.
+CC       {ECO:0000256|HAMAP-Rule:MF_01895}.
+CC   -!- CATALYTIC ACTIVITY: Exonucleolytic cleavage in the 3'- to 5'-
+CC       direction to yield nucleoside 5'-phosphates. {ECO:0000256|HAMAP-
+CC       Rule:MF_01895, ECO:0000256|SAAS:SAAS00089937}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01895,
+CC       ECO:0000256|SAAS:SAAS00089931}.
+CC   -!- SIMILARITY: Belongs to the RNR ribonuclease family. RNase R
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01895}.
+CC   -!- SIMILARITY: Contains 1 S1 motif domain. {ECO:0000256|HAMAP-
+CC       Rule:MF_01895}.
+CC   -!- SIMILARITY: Contains S1 motif domain.
+CC       {ECO:0000256|SAAS:SAAS00089902}.
+CC   -!- SIMILARITY: Contains Smotif domain.
+CC       {ECO:0000256|SAAS:SAAS00089902}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89515.1; -; Genomic_DNA.
+DR   RefSeq; YP_207927.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8H2; -.
+DR   STRING; 242231.NGO0801; -.
+DR   EnsemblBacteria; AAW89515; AAW89515; NGO0801.
+DR   GeneID; 3282029; -.
+DR   KEGG; ngo:NGO0801; -.
+DR   PATRIC; 20334752; VBINeiGon24812_0948.
+DR   eggNOG; COG0557; -.
+DR   HOGENOM; HOG000071120; -.
+DR   KO; K12573; -.
+DR   OMA; GFFVRLN; -.
+DR   OrthoDB; EOG6Q5NRD; -.
+DR   BioCyc; NGON242231:GI2G-755-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008859; F:exoribonuclease II activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   HAMAP; MF_01895; RNase_R; 1.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR003029; Rbsml_prot_S1_RNA-bd_dom.
+DR   InterPro; IPR013223; RNase_B_OB_dom.
+DR   InterPro; IPR022966; RNase_II/R_CS.
+DR   InterPro; IPR004476; RNase_II/RNase_R.
+DR   InterPro; IPR011805; RNase_R.
+DR   InterPro; IPR022967; S1_dom.
+DR   Pfam; PF08206; OB_RNB; 1.
+DR   Pfam; PF00575; S1; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF50249; SSF50249; 4.
+DR   TIGRFAMs; TIGR00358; 3_prime_RNase; 1.
+DR   TIGRFAMs; TIGR02063; RNase_R; 1.
+DR   PROSITE; PS01175; RIBONUCLEASE_II; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01895,
+KW   ECO:0000256|SAAS:SAAS00089898};
+KW   Exonuclease {ECO:0000256|HAMAP-Rule:MF_01895,
+KW   ECO:0000256|SAAS:SAAS00089915};
+KW   Hydrolase {ECO:0000256|HAMAP-Rule:MF_01895,
+KW   ECO:0000256|SAAS:SAAS00089915};
+KW   Nuclease {ECO:0000256|HAMAP-Rule:MF_01895,
+KW   ECO:0000256|SAAS:SAAS00089915};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535};
+KW   RNA-binding {ECO:0000256|HAMAP-Rule:MF_01895,
+KW   ECO:0000256|SAAS:SAAS00089904}.
+FT   DOMAIN      639    720       S1 motif. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01895}.
+SQ   SEQUENCE   791 AA;  89053 MW;  B33ED9F2480D8A5A CRC64;
+     MNKNIKSLNL REKDPFLSRE KQRYEHPLPS REWIIELLER KGVPSKIESL ARELSITEDE
+     YVFFERRLKA MARDGQVLIN RRGAVCAADK LDLVKCRVEA HKDGFGFAVP LMPMDEGDFV
+     LYERQMRGVM HGDTVTVRPA GIDRRGRREG TVLDIVERAQ SKVVGRFYMD RGVAILEPED
+     KRLNQSIVLE PDGVARFKPE SGQVIVGKIE VYPEQNRPAV AKIIEVLGDY ADSGMEIEIA
+     VRKHHLPHRF SEACAKSAKK IPDHVRKSDL KGRVDLCDLP LVTIDGETAR DFDDAVFAEK
+     VGRNYRLVVA IADVSHYVRP DDAIDADAQE RSTSVYFPRR MIPMLPENLS NGICSLNPDV
+     ERLCMVCDMV VTYAGNIKEY RFYPAVMRSH ARLTYNQVWK WLSDGIGNPH KAQIDTLYKL
+     FKILQKKRLA RGAVEFESVE TQMIFDDNGK IEKIVPVVRN DAHKLIEECM LAANVCAADF
+     LLKNKHTALF RNHLGPTPEK LATLREQLGL LGLQLGGGDN PSPKDYAALA EQFKGRPDAE
+     LLQVMMLRSM QQAVYEPHCE GHFGLAYEAY AHFTSPIRRY PDLTVHRAIK AVLNRKTYTP
+     NKSWQALGVH TSFCERRADD AGRDVENWLK TYYMRDKVGE IFEGKISGVA NFGIFVTLDD
+     IHIDGLVHIS DLGEDYFNFR PEIMAIEGER SGIRFNMGDR VAVRVARADL DDGKIDFVLI
+     AGESGRRRKV KLSASAKPAG AAGKGKSKTT AEKKTARCGK VRGRGVPAVA ESGKKAKKPV
+     PIKVKKRKGK S
+//

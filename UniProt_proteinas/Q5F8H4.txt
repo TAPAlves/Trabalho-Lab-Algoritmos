@@ -1,0 +1,148 @@
+ID   Q5F8H4_NEIG1            Unreviewed;       487 AA.
+AC   Q5F8H4;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   04-FEB-2015, entry version 76.
+DE   RecName: Full=Inosine-5'-monophosphate dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01964};
+DE            Short=IMP dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01964};
+DE            Short=IMPD {ECO:0000256|HAMAP-Rule:MF_01964};
+DE            Short=IMPDH {ECO:0000256|HAMAP-Rule:MF_01964};
+DE            EC=1.1.1.205 {ECO:0000256|HAMAP-Rule:MF_01964};
+GN   Name=guaB {ECO:0000256|HAMAP-Rule:MF_01964};
+GN   OrderedLocusNames=NGO0799 {ECO:0000313|EMBL:AAW89513.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89513.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of inosine 5'-phosphate (IMP)
+CC       to xanthosine 5'-phosphate (XMP), the first committed and rate-
+CC       limiting step in the de novo synthesis of guanine nucleotides, and
+CC       therefore plays an important role in the regulation of cell
+CC       growth. {ECO:0000256|HAMAP-Rule:MF_01964}.
+CC   -!- CATALYTIC ACTIVITY: Inosine 5'-phosphate + NAD(+) + H(2)O =
+CC       xanthosine 5'-phosphate + NADH. {ECO:0000256|HAMAP-Rule:MF_01964,
+CC       ECO:0000256|RuleBase:RU003928}.
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01964};
+CC   -!- ENZYME REGULATION: Mycophenolic acid (MPA) is a non-competitive
+CC       inhibitor that prevents formation of the closed enzyme
+CC       conformation by binding to the same site as the amobile flap. In
+CC       contrast, mizoribine monophosphate (MZP) is a competitive
+CC       inhibitor that induces the closed conformation. MPA is a potent
+CC       inhibitor of mammalian IMPDHs but a poor inhibitor of the
+CC       bacterial enzymes. MZP is a more potent inhibitor of bacterial
+CC       IMPDH. {ECO:0000256|HAMAP-Rule:MF_01964}.
+CC   -!- PATHWAY: Purine metabolism; XMP biosynthesis via de novo pathway;
+CC       XMP from IMP: step 1/1. {ECO:0000256|HAMAP-Rule:MF_01964,
+CC       ECO:0000256|RuleBase:RU003928}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_01964}.
+CC   -!- SIMILARITY: Belongs to the IMPDH/GMPR family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01964}.
+CC   -!- SIMILARITY: Contains 2 CBS domains. {ECO:0000256|HAMAP-
+CC       Rule:MF_01964}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89513.1; -; Genomic_DNA.
+DR   RefSeq; YP_207925.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8H4; -.
+DR   SMR; Q5F8H4; 2-486.
+DR   STRING; 242231.NGO0799; -.
+DR   EnsemblBacteria; AAW89513; AAW89513; NGO0799.
+DR   GeneID; 3282011; -.
+DR   KEGG; ngo:NGO0799; -.
+DR   PATRIC; 20334746; VBINeiGon24812_0945.
+DR   eggNOG; COG0517; -.
+DR   HOGENOM; HOG000165755; -.
+DR   KO; K00088; -.
+DR   OMA; SSMGYCG; -.
+DR   OrthoDB; EOG6GTZPV; -.
+DR   BioCyc; NGON242231:GI2G-753-MONOMER; -.
+DR   UniPathway; UPA00601; UER00295.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0030554; F:adenyl nucleotide binding; IEA:InterPro.
+DR   GO; GO:0003938; F:IMP dehydrogenase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006177; P:GMP biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01964; IMPDH; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000644; CBS_dom.
+DR   InterPro; IPR005990; IMP_DH.
+DR   InterPro; IPR015875; IMP_DH/GMP_Rdtase_CS.
+DR   InterPro; IPR001093; IMP_DH_GMPRt.
+DR   Pfam; PF00571; CBS; 2.
+DR   Pfam; PF00478; IMPDH; 1.
+DR   PIRSF; PIRSF000130; IMPDH; 1.
+DR   SMART; SM00116; CBS; 2.
+DR   TIGRFAMs; TIGR01302; IMP_dehydrog; 1.
+DR   PROSITE; PS51371; CBS; 2.
+DR   PROSITE; PS00487; IMP_DH_GMP_RED; 1.
+PE   3: Inferred from homology;
+KW   CBS domain {ECO:0000256|HAMAP-Rule:MF_01964};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   GMP biosynthesis {ECO:0000256|HAMAP-Rule:MF_01964,
+KW   ECO:0000256|RuleBase:RU003928};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01964,
+KW   ECO:0000256|RuleBase:RU003928};
+KW   NAD {ECO:0000256|HAMAP-Rule:MF_01964, ECO:0000256|RuleBase:RU003928};
+KW   Oxidoreductase {ECO:0000256|HAMAP-Rule:MF_01964,
+KW   ECO:0000256|RuleBase:RU003927};
+KW   Potassium {ECO:0000256|HAMAP-Rule:MF_01964,
+KW   ECO:0000256|RuleBase:RU003928};
+KW   Purine biosynthesis {ECO:0000256|HAMAP-Rule:MF_01964,
+KW   ECO:0000256|RuleBase:RU003928};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Repeat {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   DOMAIN       92    149       CBS 1. {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   DOMAIN      153    214       CBS 2. {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   NP_BIND     298    300       NAD. {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   REGION      338    340       IMP binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01964}.
+FT   REGION      361    362       IMP binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01964}.
+FT   REGION      385    389       IMP binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01964}.
+FT   ACT_SITE    305    305       Thioimidate intermediate.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01964,
+FT                                ECO:0000256|PIRSR:PIRSR000130-1}.
+FT   METAL       300    300       Potassium; via carbonyl oxygen.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   METAL       302    302       Potassium; via carbonyl oxygen.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   METAL       305    305       Potassium; via carbonyl oxygen.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   METAL       470    470       Potassium; via carbonyl oxygen; shared
+FT                                with tetrameric partner.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   METAL       471    471       Potassium; via carbonyl oxygen; shared
+FT                                with tetrameric partner.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   METAL       472    472       Potassium; via carbonyl oxygen; shared
+FT                                with tetrameric partner.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   BINDING     248    248       NAD. {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   BINDING     303    303       IMP. {ECO:0000256|HAMAP-Rule:MF_01964}.
+FT   BINDING     416    416       IMP. {ECO:0000256|HAMAP-Rule:MF_01964}.
+SQ   SEQUENCE   487 AA;  52439 MW;  400F005FF119B8C2 CRC64;
+     MRIVEKAYTF DDVLLVPAHS TVLPRDVKLQ TKLTREITLN LPLLSAAMDT VTEARLAISM
+     AQEGGIGIIH KNMPPEMQAR AVSKVKRHES GVVKDPVTVA PTTLIREVLE MRAQRKRKMS
+     GLPVVENGKV VGIVTNRDLR FENRVDLPVS AIMTPRERLV TVPEGTSIDE ARELMHTYKV
+     ERVLVLNEKD ELKGLITIKD ILKTTEFPNA NKDSEGRLRV GAAVGTGGDT DERVKALVEA
+     GADVIVVDTA HGHSQGVIDR VRWVKETYPH IQVIGGNIAT AKAALDLVTV GADAVKVGIG
+     PGSICTTRIV AGVGVPQLTA IHNVAEALKG TGVPLIADGG IRFSGDIAKA LAAGAYSVML
+     GGMFAGTEEA PGEIELYQGR SYKSYRGMGS LGAMSQGSAD RYFQDKTDST DKYVPEGIEG
+     RVPYKGPIVN IIHQLTGGLR SSMGYLGCAN IAEMHEKAEF VEITSAGMSE SHVHDVQITK
+     EAPNYHR
+//

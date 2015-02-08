@@ -36,7 +36,7 @@ for k in featcds:
    proteinas.append(k.qualifiers["protein_id"][0]) 
 
 
-#print proteinas
+#print proteinas#para verificar se o conteudo esta correto
 
 IDs=[]
 erros=0    
@@ -61,6 +61,7 @@ IDs=['Q5F8N9', 'Q5F8N8', 'Q5F8N7', 'Q5F8N6', 'Q5F8N5', 'Q5F8N4', 'Q5F8N3', 'Q5F8
 '''
 pasta=os.mkdir("UniProt_proteinas")
 
+#guardar os ficheiros em xml
 for protein in range(len(IDs)):
     data = urllib.urlopen("http://www.uniprot.org/uniprot/" + IDs[protein] + ".xml")
         
@@ -70,7 +71,17 @@ for protein in range(len(IDs)):
     ficheiro.close()
 
 
-'''   
+
+#guardar os ficheiros em txt
+
+for protein in range(len(IDs)):
+    data_txt = urllib.urlopen("http://www.uniprot.org/uniprot/" + IDs[protein] + ".txt")
+        
+    ficheiro_txt=open("UniProt_proteinas/"+IDs[protein]+".txt","w")
+    
+    ficheiro_txt.write(data_txt.read())
+    ficheiro_txt.close()
+''' 
    
 #Abrir todos os ficheiros para extracao de informacao - ADAPTADO DE GRUPO 1
 
@@ -87,8 +98,10 @@ proteina_seq=[]
 for i in range (len(IDs)):
     if IDs[i][0]=="Q":
         handle=open("UniProt_proteinas/"+IDs[i]+".xml")
+        handle_txt=open("UniProt_proteinas/"+IDs[i]+".txt")
         records=UniprotIO.UniprotIterator(handle,return_raw_comments=True)    
         for rec in records:
+            
             try:
                 if rec.id==IDs[i]:
                     try:
@@ -121,12 +134,7 @@ for i in range (len(IDs)):
                     except:
                         gene.pop()                
                         pass
-                    try:
-                        comentarios.append(IDs[i])
-                        comentarios.append(rec.comments)#Comentarios (incluindo localizacao)
-                    except:
-                        comentarios.pop() 
-                        pass
+                   
                     try:
                         proteina_seq.append(">"+str(IDs[i])+"\n")
                         proteina_seq.append(str(rec.seq)+"\n\n")
@@ -136,6 +144,16 @@ for i in range (len(IDs)):
             except:
                 pass
         
+        
+        while True:
+            try:
+                parser_file = SwissProt.read(handle_txt)
+                for ref in parser_file.references:
+                    comentarios.append(IDs[i])
+                    comentarios.append(parser_file.comments)
+                break    
+            except:
+                break
         handle.close()
     else:
         pass

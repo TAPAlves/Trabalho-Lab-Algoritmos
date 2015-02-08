@@ -1,0 +1,139 @@
+ID   Q5F8J8_NEIG1            Unreviewed;       820 AA.
+AC   Q5F8J8;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   04-FEB-2015, entry version 86.
+DE   RecName: Full=Lon protease {ECO:0000256|HAMAP-Rule:MF_01973, ECO:0000256|PIRNR:PIRNR001174};
+DE            EC=3.4.21.53 {ECO:0000256|HAMAP-Rule:MF_01973, ECO:0000256|PIRNR:PIRNR001174};
+DE   AltName: Full=ATP-dependent protease La {ECO:0000256|HAMAP-Rule:MF_01973};
+GN   Name=lon {ECO:0000256|HAMAP-Rule:MF_01973};
+GN   OrderedLocusNames=NGO0775 {ECO:0000313|EMBL:AAW89489.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89489.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: ATP-dependent serine protease that mediates the
+CC       selective degradation of mutant and abnormal proteins as well as
+CC       certain short-lived regulatory proteins. Required for cellular
+CC       homeostasis and for survival from DNA damage and developmental
+CC       changes induced by stress. Degrades polypeptides processively to
+CC       yield small peptide fragments that are 5 to 10 amino acids long.
+CC       Binds to DNA in a double-stranded, site-specific manner.
+CC       {ECO:0000256|HAMAP-Rule:MF_01973}.
+CC   -!- CATALYTIC ACTIVITY: Hydrolysis of proteins in presence of ATP.
+CC       {ECO:0000256|HAMAP-Rule:MF_01973, ECO:0000256|PIRNR:PIRNR001174,
+CC       ECO:0000256|SAAS:SAAS00098843}.
+CC   -!- SUBUNIT: Homohexamer. Organized in a ring with a central cavity.
+CC       {ECO:0000256|HAMAP-Rule:MF_01973, ECO:0000256|PIRNR:PIRNR001174}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01973,
+CC       ECO:0000256|PIRNR:PIRNR001174, ECO:0000256|SAAS:SAAS00098806}.
+CC   -!- INDUCTION: By heat shock. {ECO:0000256|HAMAP-Rule:MF_01973}.
+CC   -!- SIMILARITY: Belongs to the peptidase S16 family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01973, ECO:0000256|PIRNR:PIRNR001174,
+CC       ECO:0000256|RuleBase:RU000591}.
+CC   -!- SIMILARITY: Contains 1 Lon domain. {ECO:0000256|HAMAP-
+CC       Rule:MF_01973}.
+CC   -!- SIMILARITY: Contains Lon domain. {ECO:0000256|SAAS:SAAS00004345}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89489.1; -; Genomic_DNA.
+DR   RefSeq; YP_207901.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8J8; -.
+DR   SMR; Q5F8J8; 610-790.
+DR   STRING; 242231.NGO0775; -.
+DR   MEROPS; S16.001; -.
+DR   EnsemblBacteria; AAW89489; AAW89489; NGO0775.
+DR   GeneID; 3281944; -.
+DR   KEGG; ngo:NGO0775; -.
+DR   PATRIC; 20334698; VBINeiGon24812_0921.
+DR   eggNOG; COG0466; -.
+DR   HOGENOM; HOG000261410; -.
+DR   KO; K01338; -.
+DR   OMA; IPVARMD; -.
+DR   OrthoDB; EOG6XHC23; -.
+DR   BioCyc; NGON242231:GI2G-729-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004176; F:ATP-dependent peptidase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0033554; P:cellular response to stress; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006515; P:misfolded or incompletely synthesized protein catabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_01973; lon_bact; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003959; ATPase_AAA_core.
+DR   InterPro; IPR027543; Lon_bac.
+DR   InterPro; IPR004815; Lon_bac/euk-typ.
+DR   InterPro; IPR027065; Lon_Prtase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR008269; Pept_S16_C.
+DR   InterPro; IPR003111; Pept_S16_N.
+DR   InterPro; IPR008268; Peptidase_S16_AS.
+DR   InterPro; IPR015947; PUA-like_domain.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   PANTHER; PTHR10046; PTHR10046; 1.
+DR   Pfam; PF00004; AAA; 1.
+DR   Pfam; PF02190; LON; 1.
+DR   Pfam; PF05362; Lon_C; 1.
+DR   PIRSF; PIRSF001174; Lon_proteas; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00464; LON; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF88697; SSF88697; 1.
+DR   TIGRFAMs; TIGR00763; lon; 1.
+DR   PROSITE; PS01046; LON_SER; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01973,
+KW   ECO:0000256|PIRNR:PIRNR001174};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01973,
+KW   ECO:0000256|PIRNR:PIRNR001174};
+KW   Hydrolase {ECO:0000256|HAMAP-Rule:MF_01973,
+KW   ECO:0000256|PIRNR:PIRNR001174};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01973,
+KW   ECO:0000256|PIRNR:PIRNR001174};
+KW   Protease {ECO:0000256|HAMAP-Rule:MF_01973,
+KW   ECO:0000256|PIRNR:PIRNR001174};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Serine protease {ECO:0000256|HAMAP-Rule:MF_01973,
+KW   ECO:0000256|PIRNR:PIRNR001174};
+KW   Stress response {ECO:0000256|HAMAP-Rule:MF_01973,
+KW   ECO:0000256|SAAS:SAAS00098811}.
+FT   DOMAIN       14    202       Lon. {ECO:0000256|HAMAP-Rule:MF_01973}.
+FT   NP_BIND     359    366       ATP. {ECO:0000256|HAMAP-Rule:MF_01973}.
+FT   ACT_SITE    696    696       {ECO:0000256|HAMAP-Rule:MF_01973,
+FT                                ECO:0000256|PIRSR:PIRSR001174-1}.
+FT   ACT_SITE    739    739       {ECO:0000256|HAMAP-Rule:MF_01973,
+FT                                ECO:0000256|PIRSR:PIRSR001174-1}.
+SQ   SEQUENCE   820 AA;  90783 MW;  CC59D7E0346F6862 CRC64;
+     MTQKEKHFEE YAALATLPLR DVVVYPHMVL PLFVGRPKSI AALENAITRE EPVFLLAQTD
+     AAVEEPVATD LYQTGTVAQV LQVLKLPDGT VKVLVEGLYR GRVLTIEDTG GLFVSHIEAV
+     VEEDTGGNTD LEAVRRTLLA QFEQYAKLNK KIPAEIIGSI NGIAENSRLT DTVAAHLQLK
+     LAQRQQILEI PEIGKRMEFL LAKLESELDI MQAEKRIRGR VKRQMEKSQR EYYLNEQIKA
+     IHKELGEEDE NGELDALEAG IKKAGMTKEA EEKCLSELKK LKMMPPMSAE STVVRNYIDT
+     LLGLPWKKKS RVSKDIAKAG LVLDADHYGL EKVKERILEY LAVQKRMDKL KGPILCLVGP
+     PGVGKTSLGE SIAKATGRKY VRMALGGVRD ESEIRGHRRT YIGSMPGKIL QNMAKAGVRN
+     PLFLLDEIDK LGSDFRGDPA SALLEVLDHE QNNKFADHYA EVDYDLSDVM FIATSNSLNI
+     PTPLLDRMEI IRLSGYTEDE KINIAMQYLV PKQMKRNGVK EGELVVEESA VRDIIRYYTR
+     EAGVRSLDRE IAKICRKVVM QITLNEDKKR LSETKKTSKA KPRAVKVNEK NLHDYLGVRR
+     FDYGVAESEN RIGQVTGLAW TEVGGELLTV EAAALPGKGM IQCTGQLGDV MKESVSAAWS
+     VVRSRAESVG LAPDFYEKKD IHVHVPEGAT PKDGPSAGIA MTLAMVSAFT KIPVRADVAM
+     TGEITLRGEV LPIGGLKEKL LAALRGGIKH VLIPKDNVKD LEEIPENVKT GLTIHPVKWI
+     DEVLALGLES RPESWAEPSA AEAAAESASK PKPRSRAIKH
+//

@@ -1,0 +1,94 @@
+ID   AROD_NEIG1              Reviewed;         254 AA.
+AC   Q5F8N0;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 57.
+DE   RecName: Full=3-dehydroquinate dehydratase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE            Short=3-dehydroquinase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE            EC=4.2.1.10 {ECO:0000255|HAMAP-Rule:MF_00214};
+DE   AltName: Full=Type I DHQase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE   AltName: Full=Type I dehydroquinase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE            Short=DHQ1 {ECO:0000255|HAMAP-Rule:MF_00214};
+GN   Name=aroD {ECO:0000255|HAMAP-Rule:MF_00214};
+GN   OrderedLocusNames=NGO0740;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the third step of the chorismate pathway,
+CC       which leads to the biosynthesis of aromatic amino acids. Catalyzes
+CC       the cis-dehydration of 3-dehydroquinate (DHQ) and introduces the
+CC       first double bond of the aromatic ring to yield 3-
+CC       dehydroshikimate. {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- CATALYTIC ACTIVITY: 3-dehydroquinate = 3-dehydroshikimate + H(2)O.
+CC       {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate
+CC       biosynthesis; chorismate from D-erythrose 4-phosphate and
+CC       phosphoenolpyruvate: step 3/7. {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- SIMILARITY: Belongs to the type-I 3-dehydroquinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89457.1; -; Genomic_DNA.
+DR   RefSeq; YP_207869.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8N0; -.
+DR   STRING; 242231.NGO0740; -.
+DR   EnsemblBacteria; AAW89457; AAW89457; NGO0740.
+DR   GeneID; 3281808; -.
+DR   KEGG; ngo:NGO0740; -.
+DR   PATRIC; 20334618; VBINeiGon24812_0881.
+DR   eggNOG; COG0710; -.
+DR   HOGENOM; HOG000105514; -.
+DR   KO; K03785; -.
+DR   OMA; CTFGAGE; -.
+DR   OrthoDB; EOG6P33BK; -.
+DR   BioCyc; NGON242231:GI2G-697-MONOMER; -.
+DR   UniPathway; UPA00053; UER00086.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0003855; F:3-dehydroquinate dehydratase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00214; AroD; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR001381; DHquinase_I.
+DR   Pfam; PF01487; DHquinase_I; 1.
+DR   TIGRFAMs; TIGR01093; aroD; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis;
+KW   Complete proteome; Lyase; Reference proteome; Schiff base.
+FT   CHAIN         1    254       3-dehydroquinate dehydratase.
+FT                                /FTId=PRO_1000043177.
+FT   REGION       47     49       3-dehydroquinate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00214}.
+FT   ACT_SITE    144    144       Proton donor/acceptor.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00214}.
+FT   ACT_SITE    171    171       Schiff-base intermediate with substrate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00214}.
+FT   BINDING      83     83       3-dehydroquinate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00214}.
+FT   BINDING     213    213       3-dehydroquinate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00214}.
+FT   BINDING     232    232       3-dehydroquinate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00214}.
+FT   BINDING     236    236       3-dehydroquinate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00214}.
+SQ   SEQUENCE   254 AA;  27279 MW;  36F76B48397BD872 CRC64;
+     MHTSLTVKNT VIGSGRTKIA VPLVARDAAD LSSVLSQIKN LPFDIVEFRA DFLECAGSIG
+     EVLRHTQAVR DALPDKPLLF TFRRHCEGGS FPCSDDYYFE LLDALIESRL PDIIDIELFS
+     GETAVRRAVA NAQKNGIAAL LCNHEFHRTP PQEEIVCRLK QMEDCGADIC KIAVMPQSSE
+     DVLTLLSATL EAKRLVAKPV ITMSMGQTGA VSRLAGQVFG SSITFGSGTQ NSAPGQIGVS
+     ALRAALDCLE SGAD
+//

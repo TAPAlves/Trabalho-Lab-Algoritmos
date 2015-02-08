@@ -1,0 +1,91 @@
+ID   Q5F851_NEIG1            Unreviewed;       239 AA.
+AC   Q5F851;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 53.
+DE   RecName: Full=tRNA-specific adenosine deaminase {ECO:0000256|HAMAP-Rule:MF_00972};
+DE            EC=3.5.4.33 {ECO:0000256|HAMAP-Rule:MF_00972};
+GN   Name=tadA {ECO:0000256|HAMAP-Rule:MF_00972};
+GN   OrderedLocusNames=NGO0941 {ECO:0000313|EMBL:AAW89636.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89636.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the deamination of adenosine to inosine at the
+CC       wobble position 34 of tRNA(Arg2). {ECO:0000256|HAMAP-
+CC       Rule:MF_00972}.
+CC   -!- CATALYTIC ACTIVITY: Adenine(34) in tRNA + H(2)O = hypoxanthine(34)
+CC       in tRNA + NH(3). {ECO:0000256|HAMAP-Rule:MF_00972}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00972};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00972};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00972}.
+CC   -!- SIMILARITY: Belongs to the cytidine and deoxycytidylate deaminase
+CC       family. {ECO:0000256|HAMAP-Rule:MF_00972}.
+CC   -!- SIMILARITY: Contains 1 CMP/dCMP deaminase zinc-binding domain.
+CC       {ECO:0000256|HAMAP-Rule:MF_00972}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89636.1; -; Genomic_DNA.
+DR   RefSeq; YP_208048.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F851; -.
+DR   STRING; 242231.NGO0941; -.
+DR   EnsemblBacteria; AAW89636; AAW89636; NGO0941.
+DR   GeneID; 3281595; -.
+DR   KEGG; ngo:NGO0941; -.
+DR   PATRIC; 20335067; VBINeiGon24812_1103.
+DR   eggNOG; COG3070; -.
+DR   HOGENOM; HOG000085050; -.
+DR   OMA; IMHAEIM; -.
+DR   OrthoDB; EOG64FKGZ; -.
+DR   BioCyc; NGON242231:GI2G-878-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0052717; F:tRNA-specific adenosine-34 deaminase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0002100; P:tRNA wobble adenosine to inosine editing; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00972; tRNA_aden_deaminase; 1.
+DR   InterPro; IPR016192; APOBEC/CMP_deaminase_Zn-bd.
+DR   InterPro; IPR002125; CMP_dCMP_Zn-bd.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR007077; TfoX_C.
+DR   InterPro; IPR028883; tRNA_aden_deaminase.
+DR   Pfam; PF00383; dCMP_cyt_deam_1; 1.
+DR   Pfam; PF04994; TfoX_C; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   PROSITE; PS00903; CYT_DCMP_DEAMINASES; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Hydrolase {ECO:0000256|HAMAP-Rule:MF_00972};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_00972};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535};
+KW   tRNA processing {ECO:0000256|HAMAP-Rule:MF_00972};
+KW   Zinc {ECO:0000256|HAMAP-Rule:MF_00972}.
+FT   DOMAIN       92    189       CMP/dCMP deaminase zinc-binding.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00972}.
+FT   ACT_SITE    143    143       Proton donor. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00972}.
+FT   METAL       141    141       Zinc; via pros nitrogen; catalytic.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00972}.
+FT   METAL       171    171       Zinc; catalytic. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00972}.
+FT   METAL       174    174       Zinc; catalytic. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00972}.
+SQ   SEQUENCE   239 AA;  25918 MW;  2AD2D080D2413839 CRC64;
+     MLATPPLAPK TVAALHRLGI RTLEELRQNG SVKAFLLLKA SGLTLTKSTL WQLESLLNGT
+     PPQEMSQAHK DCLLAELKNH PPVAAFPPQE EMGYFMREAL RQAEQSAADG EIPVGAVIVS
+     DGKIITSAHN TCIADCNVSR HAEINALAQA GSEMQNYRLD GCDIYITLEP CAMCASALIQ
+     ARIRRVIYGA AEPKTGAAGS IVNLFADKRL NTHTAIRGGI LQEECRAVLS RFFQNKRKG
+//

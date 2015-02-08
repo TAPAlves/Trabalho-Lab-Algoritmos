@@ -1,0 +1,81 @@
+ID   Q5F8M2_NEIG1            Unreviewed;       161 AA.
+AC   Q5F8M2;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   04-FEB-2015, entry version 64.
+DE   RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase {ECO:0000256|PIRNR:PIRNR001338};
+DE            Short=N5-CAIR mutase {ECO:0000256|PIRNR:PIRNR001338};
+DE            EC=5.4.99.18 {ECO:0000256|PIRNR:PIRNR001338};
+GN   OrderedLocusNames=NGO0748 {ECO:0000313|EMBL:AAW89465.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89465.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of N5-carboxyaminoimidazole
+CC       ribonucleotide (N5-CAIR) to 4-carboxy-5-aminoimidazole
+CC       ribonucleotide (CAIR). {ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- CATALYTIC ACTIVITY: 5-carboxyamino-1-(5-phospho-D-
+CC       ribosyl)imidazole = 5-amino-1-(5-phospho-D-ribosyl)imidazole-4-
+CC       carboxylate. {ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway;
+CC       5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate from 5-
+CC       amino-1-(5-phospho-D-ribosyl)imidazole (N5-CAIR route): step 2/2.
+CC       {ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- SIMILARITY: Belongs to the AIR carboxylase family.
+CC       {ECO:0000256|PIRNR:PIRNR001338}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89465.1; -; Genomic_DNA.
+DR   RefSeq; YP_207877.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8M2; -.
+DR   SMR; Q5F8M2; 4-153.
+DR   STRING; 242231.NGO0748; -.
+DR   EnsemblBacteria; AAW89465; AAW89465; NGO0748.
+DR   GeneID; 3282594; -.
+DR   KEGG; ngo:NGO0748; -.
+DR   PATRIC; 20334636; VBINeiGon24812_0890.
+DR   eggNOG; COG0041; -.
+DR   HOGENOM; HOG000034140; -.
+DR   KO; K01588; -.
+DR   OMA; SDWATMR; -.
+DR   OrthoDB; EOG6Z0QH2; -.
+DR   BioCyc; NGON242231:GI2G-705-MONOMER; -.
+DR   UniPathway; UPA00074; UER00943.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0034023; F:5-(carboxyamino)imidazole ribonucleotide mutase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.7700; -; 1.
+DR   InterPro; IPR024694; N5-CAIR_mutase_PurE.
+DR   InterPro; IPR000031; PurE_dom.
+DR   Pfam; PF00731; AIRC; 1.
+DR   PIRSF; PIRSF001338; AIR_carboxylase; 1.
+DR   SMART; SM01001; AIRC; 1.
+DR   SUPFAM; SSF52255; SSF52255; 1.
+DR   TIGRFAMs; TIGR01162; purE; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Isomerase {ECO:0000256|PIRNR:PIRNR001338};
+KW   Purine biosynthesis {ECO:0000256|PIRNR:PIRNR001338};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535}.
+FT   BINDING      10     10       Substrate.
+FT                                {ECO:0000256|PIRSR:PIRSR001338-1}.
+FT   BINDING      13     13       Substrate.
+FT                                {ECO:0000256|PIRSR:PIRSR001338-1}.
+FT   BINDING      40     40       Substrate.
+FT                                {ECO:0000256|PIRSR:PIRSR001338-1}.
+SQ   SEQUENCE   161 AA;  17182 MW;  8D63C137D9B82B35 CRC64;
+     MIQIGIIMGS NSDWPVMRQA AQFLEEFGVE YEARVVSAHR TPDLMFEYAE TARARGIKAI
+     IAGAGGAAHL PGMVAAKTTV PVLGVPVPSK YLRGEDSLLS IVQMPKGVPV ATFAIGEAGA
+     ANAALFAISM LANENPELAQ KLADFRAKQE QTVLNMELEQ I
+//

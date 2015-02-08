@@ -1,0 +1,82 @@
+ID   Q5F873_NEIG1            Unreviewed;       427 AA.
+AC   Q5F873;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 68.
+DE   RecName: Full=Citrate synthase {ECO:0000256|PIRNR:PIRNR001369, ECO:0000256|RuleBase:RU003370};
+GN   OrderedLocusNames=NGO0918 {ECO:0000313|EMBL:AAW89614.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89614.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + H(2)O + oxaloacetate = citrate +
+CC       CoA. {ECO:0000256|RuleBase:RU003370}.
+CC   -!- SIMILARITY: Belongs to the citrate synthase family.
+CC       {ECO:0000256|PIRNR:PIRNR001369}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89614.1; -; Genomic_DNA.
+DR   RefSeq; YP_208026.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F873; -.
+DR   SMR; Q5F873; 6-421.
+DR   STRING; 242231.NGO0918; -.
+DR   EnsemblBacteria; AAW89614; AAW89614; NGO0918.
+DR   GeneID; 3281236; -.
+DR   KEGG; ngo:NGO0918; -.
+DR   PATRIC; 20335019; VBINeiGon24812_1079.
+DR   eggNOG; COG0372; -.
+DR   HOGENOM; HOG000021224; -.
+DR   KO; K01647; -.
+DR   OMA; FMAHWRE; -.
+DR   OrthoDB; EOG6P8TP4; -.
+DR   BioCyc; NGON242231:GI2G-856-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0004108; F:citrate (Si)-synthase activity; IEA:InterPro.
+DR   GO; GO:0044262; P:cellular carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.230.10; -; 1.
+DR   Gene3D; 1.10.580.10; -; 1.
+DR   InterPro; IPR016142; Citrate_synth-like_lrg_a-sub.
+DR   InterPro; IPR016143; Citrate_synth-like_sm_a-sub.
+DR   InterPro; IPR002020; Citrate_synthase-like.
+DR   InterPro; IPR016141; Citrate_synthase-like_core.
+DR   InterPro; IPR019810; Citrate_synthase_AS.
+DR   InterPro; IPR024176; Citrate_synthase_bac-typ.
+DR   InterPro; IPR010953; Citrate_synthase_typ-I.
+DR   PANTHER; PTHR11739; PTHR11739; 1.
+DR   Pfam; PF00285; Citrate_synt; 1.
+DR   PIRSF; PIRSF001369; Citrate_synth; 1.
+DR   PRINTS; PR00143; CITRTSNTHASE.
+DR   SUPFAM; SSF48256; SSF48256; 1.
+DR   TIGRFAMs; TIGR01798; cit_synth_I; 1.
+DR   PROSITE; PS00480; CITRATE_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000313|EMBL:AAW89614.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535};
+KW   Transferase {ECO:0000313|EMBL:AAW89614.1};
+KW   Tricarboxylic acid cycle {ECO:0000256|RuleBase:RU003370}.
+FT   ACT_SITE    304    304       {ECO:0000256|PIRSR:PIRSR001369-1}.
+FT   ACT_SITE    362    362       {ECO:0000256|PIRSR:PIRSR001369-1}.
+SQ   SEQUENCE   427 AA;  48121 MW;  A9B577F228559BD7 CRC64;
+     MSKSIKLNVP GRAGLELPVL EASIGHDVVD IRGLTKNTGL FAFDPGFVST ASCESKITYI
+     DGDQGLLYYR GYPIEQLAEK SDYLEVCYLL IYGELPTPEQ KAEFDNTVRR HTMVHEQLTW
+     FFRGFRRDAH PMAMMVGVVG ALSAFYQDSL DITNPEHRKI AIYRLISKIP TIAAMCYRYS
+     NGLPFNYPKN NLSYSENFLH MMFATPCEDY KPNPVLARAL DRIFILHADH EQNASTSTVR
+     LAGSSGANPF ACIAAGIACL WGASHGGANE AVLKMLDEIG DVSNVAAYME GVKQRKYRLM
+     GFGHRVYRNM DPRASIMRET CYEVLKELGL EDSPKFKLAM ELEQIALKDP FFIERKLYPN
+     VDFYSGIVLS ALGIPTEMFT VIFALSRSVG WISHWHEMIS DPSLKIGRPR QLYTGSERRD
+     YVPAGER
+//

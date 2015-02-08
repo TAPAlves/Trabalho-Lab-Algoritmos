@@ -1,0 +1,89 @@
+ID   METX_NEIG1              Reviewed;         379 AA.
+AC   Q5F858;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 68.
+DE   RecName: Full=Homoserine O-acetyltransferase {ECO:0000255|HAMAP-Rule:MF_00296};
+DE            EC=2.3.1.31 {ECO:0000255|HAMAP-Rule:MF_00296};
+DE   AltName: Full=Homoserine O-trans-acetylase {ECO:0000255|HAMAP-Rule:MF_00296};
+DE            Short=HTA {ECO:0000255|HAMAP-Rule:MF_00296};
+DE            Short=Homoserine transacetylase {ECO:0000255|HAMAP-Rule:MF_00296};
+GN   Name=metX {ECO:0000255|HAMAP-Rule:MF_00296};
+GN   OrderedLocusNames=NGO0933;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the methionine biosynthesis. Catalyzes the
+CC       transfer of the acetyl group from acetyl-CoA to the hydroxyl group
+CC       of L-homoserine to yield O-acetyl-L-homoserine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + L-homoserine = CoA + O-acetyl-L-
+CC       homoserine. {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de
+CC       novo pathway; O-acetyl-L-homoserine from L-homoserine: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   -!- SIMILARITY: Belongs to the AB hydrolase superfamily. HTA family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89629.1; -; Genomic_DNA.
+DR   RefSeq; WP_010951153.1; NC_002946.2.
+DR   RefSeq; YP_208041.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F858; -.
+DR   STRING; 242231.NGO0933; -.
+DR   EnsemblBacteria; AAW89629; AAW89629; NGO0933.
+DR   GeneID; 3282566; -.
+DR   KEGG; ngo:NGO0933; -.
+DR   PATRIC; 20335049; VBINeiGon24812_1094.
+DR   eggNOG; COG2021; -.
+DR   HOGENOM; HOG000246301; -.
+DR   KO; K00641; -.
+DR   OMA; EYFDANT; -.
+DR   OrthoDB; EOG67T5J4; -.
+DR   BioCyc; NGON242231:GI2G-871-MONOMER; -.
+DR   UniPathway; UPA00051; UER00074.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004414; F:homoserine O-acetyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.1820; -; 2.
+DR   HAMAP; MF_00296; Homoser_O_acetyltr; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR000073; AB_hydrolase_1.
+DR   InterPro; IPR008220; Homoserine_AcTrfase.
+DR   Pfam; PF00561; Abhydrolase_1; 1.
+DR   PIRSF; PIRSF000443; Homoser_Ac_trans; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   TIGRFAMs; TIGR01392; homoserO_Ac_trn; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Amino-acid biosynthesis; Complete proteome;
+KW   Cytoplasm; Methionine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN         1    379       Homoserine O-acetyltransferase.
+FT                                /FTId=PRO_0000231874.
+FT   ACT_SITE    154    154       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00296}.
+FT   ACT_SITE    319    319       {ECO:0000255|HAMAP-Rule:MF_00296}.
+FT   ACT_SITE    352    352       {ECO:0000255|HAMAP-Rule:MF_00296}.
+SQ   SEQUENCE   379 AA;  42145 MW;  E6D341BB93507CE8 CRC64;
+     MSQNTSVGIV TPQKIPFEMP LVLENGKTLP RFDLMIETYG ELNAEKNNAV LICHALSGNH
+     HVAGRHSAED KYTGWWDNMV GPGKPIDTER FFVVGLNNLG GCDGSSGPLS INPETGREYG
+     ADFPMVTVKD WVKSQAALAD YLGIEQWAAV VGGSLGGMQA LQWAISYPER VRHALVIASA
+     PKLSAQNIAF NDVARQAILT DPDFNEGHYR SHNTVPARGL RIARMMGHIT YLAEDGLGKK
+     FGRDLRSNGY QYGYSVEFEV ESYLRYQGDK FVGRFDANTY LLMTKALDYF DPAADFGNSL
+     TRAVQDVQAK FFVASFSTDW RFAPERSHEL VKALIAAQKS VQYIEVKSAH GHDAFLMEDE
+     AYMRAVTAYM NNVDKDCRL
+//

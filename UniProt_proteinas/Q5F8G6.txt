@@ -1,0 +1,95 @@
+ID   ILVD_NEIG1              Reviewed;         619 AA.
+AC   Q5F8G6;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 64.
+DE   RecName: Full=Dihydroxy-acid dehydratase {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            Short=DAD {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            EC=4.2.1.9 {ECO:0000255|HAMAP-Rule:MF_00012};
+GN   Name=ilvD {ECO:0000255|HAMAP-Rule:MF_00012};
+GN   OrderedLocusNames=NGO0809;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: 2,3-dihydroxy-3-methylbutanoate = 3-methyl-2-
+CC       oxobutanoate + H(2)O. {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_00012};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; L-
+CC       isoleucine from 2-oxobutanoate: step 3/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-valine biosynthesis; L-valine
+CC       from pyruvate: step 3/4. {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- SIMILARITY: Belongs to the IlvD/Edd family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89521.1; -; Genomic_DNA.
+DR   RefSeq; YP_207933.1; NC_002946.2.
+DR   STRING; 242231.NGO0809; -.
+DR   EnsemblBacteria; AAW89521; AAW89521; NGO0809.
+DR   GeneID; 3281902; -.
+DR   KEGG; ngo:NGO0809; -.
+DR   PATRIC; 20334776; VBINeiGon24812_0958.
+DR   eggNOG; COG0129; -.
+DR   HOGENOM; HOG000173155; -.
+DR   KO; K01687; -.
+DR   OMA; QGRNMAG; -.
+DR   OrthoDB; EOG6MSS24; -.
+DR   BioCyc; NGON242231:GI2G-763-MONOMER; -.
+DR   UniPathway; UPA00047; UER00057.
+DR   UniPathway; UPA00049; UER00061.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004160; F:dihydroxy-acid dehydratase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009099; P:valine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00012; IlvD; 1.
+DR   InterPro; IPR015928; Aconitase/3IPM_dehydase_swvl.
+DR   InterPro; IPR004404; DihydroxyA_deHydtase.
+DR   InterPro; IPR000581; DiOHA_6PGluconate_deHydtase.
+DR   InterPro; IPR020558; DiOHA_6PGluconate_deHydtase_CS.
+DR   PANTHER; PTHR21000; PTHR21000; 1.
+DR   Pfam; PF00920; ILVD_EDD; 1.
+DR   SUPFAM; SSF52016; SSF52016; 1.
+DR   TIGRFAMs; TIGR00110; ilvD; 1.
+DR   PROSITE; PS00886; ILVD_EDD_1; 1.
+DR   PROSITE; PS00887; ILVD_EDD_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Amino-acid biosynthesis;
+KW   Branched-chain amino acid biosynthesis; Complete proteome; Iron;
+KW   Iron-sulfur; Lyase; Metal-binding; Reference proteome.
+FT   CHAIN         1    619       Dihydroxy-acid dehydratase.
+FT                                /FTId=PRO_0000225398.
+FT   METAL       122    122       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00012}.
+FT   METAL       198    198       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00012}.
+SQ   SEQUENCE   619 AA;  66842 MW;  CE3227FFF3065E8E CRC64;
+     MPEYRSKTST HGRNMAGARA LWRATGVMET DFGKPIIAVA NSFTQFVPGH VHLHNMGQLV
+     AREIEKAGAI AKEFNTIAID DGIAMGHSGM LYSLPSRDLI ADSIEYMVNA HCADALVCIS
+     NCDKITPGML IAAMRLNIPT IFVSGGPMEA GKVIGVANIQ PERRLDLIDA MIESADDNVS
+     NRQVEEVEQN ACPTCGSCSG MFTANSMNCL TEALGLSLPG NGSYLATHAG RKELFLEAGR
+     MIVEITKRYY EQDDETVLPR SIATKKAFEN AMTMDIAMGG STNTILHLLA VANEAGVDFK
+     MADIDRLSRV VPCICKTAPN NHDYYMEDVH RAGGIFAILK ELDKAGKLHT DVYTIHAPTL
+     KDAIEKWDVT NPENTRAIER FKAAPGGVRT TQAFSQNRIW KTLDLDREKG CIRDVAHAYS
+     QDGGLAVLFG NIAERGCVVK TAGVDESILK FTGRARVFES QEAAVEGILG NQIVAGNIVI
+     IRYEGPKGGP GMQEMLYPTS YLKSKGLGKA CALLTDGRFS GGTSGLSIGH ASPEAAEGGA
+     IGLVHEGDTI EIDIPKRSIR LVISDEELAA RRAEMEARGS KAWKPENRDR YVSAALRAYG
+     AMATSADKGA VRDVSQIER
+//

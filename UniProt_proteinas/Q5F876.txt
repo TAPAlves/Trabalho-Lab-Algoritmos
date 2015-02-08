@@ -1,0 +1,89 @@
+ID   Q5F876_NEIG1            Unreviewed;       477 AA.
+AC   Q5F876;
+DT   15-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2005, sequence version 1.
+DT   04-FEB-2015, entry version 73.
+DE   RecName: Full=Dihydrolipoyl dehydrogenase {ECO:0000256|RuleBase:RU003692};
+DE            EC=1.8.1.4 {ECO:0000256|RuleBase:RU003692};
+GN   OrderedLocusNames=NGO0915 {ECO:0000313|EMBL:AAW89611.1};
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231 {ECO:0000313|EMBL:AAW89611.1, ECO:0000313|Proteomes:UP000000535};
+RN   [1] {ECO:0000313|Proteomes:UP000000535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090 {ECO:0000313|Proteomes:UP000000535};
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: Protein N(6)-(dihydrolipoyl)lysine + NAD(+) =
+CC       protein N(6)-(lipoyl)lysine + NADH.
+CC       {ECO:0000256|RuleBase:RU003692}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|RuleBase:RU003692};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000256|RuleBase:RU003692};
+CC   -!- MISCELLANEOUS: The active site is a redox-active disulfide bond.
+CC       {ECO:0000256|RuleBase:RU003692}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000256|RuleBase:RU003691}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89611.1; -; Genomic_DNA.
+DR   RefSeq; YP_208023.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F876; -.
+DR   SMR; Q5F876; 2-476.
+DR   STRING; 242231.NGO0915; -.
+DR   PRIDE; Q5F876; -.
+DR   EnsemblBacteria; AAW89611; AAW89611; NGO0915.
+DR   GeneID; 3281748; -.
+DR   KEGG; ngo:NGO0915; -.
+DR   PATRIC; 20335013; VBINeiGon24812_1076.
+DR   eggNOG; COG1249; -.
+DR   HOGENOM; HOG000276708; -.
+DR   KO; K00382; -.
+DR   OMA; CIDEWKN; -.
+DR   OrthoDB; EOG6QCD6D; -.
+DR   BioCyc; NGON242231:GI2G-853-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0004148; F:dihydrolipoyl dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer.
+DR   InterPro; IPR013027; FAD_pyr_nucl-diS_OxRdtase.
+DR   InterPro; IPR006258; Lipoamide_DH.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   InterPro; IPR023753; Pyr_nucl-diS_OxRdtase_FAD/NAD.
+DR   InterPro; IPR012999; Pyr_OxRdtase_I_AS.
+DR   InterPro; IPR001327; Pyr_OxRdtase_NAD-bd_dom.
+DR   Pfam; PF00070; Pyr_redox; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   SUPFAM; SSF55424; SSF55424; 1.
+DR   TIGRFAMs; TIGR01350; lipoamide_DH; 1.
+DR   PROSITE; PS00076; PYRIDINE_REDOX_1; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000535};
+KW   FAD {ECO:0000256|RuleBase:RU003691};
+KW   Flavoprotein {ECO:0000256|RuleBase:RU003691};
+KW   NAD {ECO:0000256|RuleBase:RU003692};
+KW   Oxidoreductase {ECO:0000256|RuleBase:RU003691};
+KW   Redox-active center {ECO:0000256|RuleBase:RU003691};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000535}.
+SQ   SEQUENCE   477 AA;  50079 MW;  587D727B2E651C1C CRC64;
+     MSQYDVVVIG AGPGGYVAAI RAAQLGFKTA CVDAGVNKAG NAPALGGTCL NVGCIPSKAL
+     LQSSEHFHAA QHDFAEHGIT VGDVKFDAAK MIERKDAIVT KLTGGVKFLF QKNKVTSLFG
+     TASFAGKNGD AYQIEVDNKG EKTVIEAKHV IVATGSVPRP LPQVAIDNVN VLDNEGALNL
+     TEVPAKLGVI GSGVIGLEMG SVWNRVGAEV TILEAAPTFL AAADQQIAKE AFKYFTKEQG
+     LSIELGVKIG DIKSEGKGVS VAYETAAGEA KTEVFDKLIV AIGRIPNTKG LNAEAVGLEK
+     DERGFIKVDG ECRTNLPNVW AIGDVVRGPM LAHKASDEGV AVAERIAGQK PHIDFNNVPF
+     VIYTDPEIAW VGKTEEQLKA EGVEYKKGTS GFGANGRALA MGKAKGTVKV LADAKTDRIL
+     GVHMIGPVVS ELVTEGVTAL EFFASSEDIA RIIHAHPTLS EVVHEAALAA DKRALHG
+//

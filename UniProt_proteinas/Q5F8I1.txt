@@ -1,0 +1,103 @@
+ID   LIPB_NEIG1              Reviewed;         207 AA.
+AC   Q5F8I1;
+DT   27-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUN-2006, sequence version 2.
+DT   07-JAN-2015, entry version 68.
+DE   RecName: Full=Octanoyltransferase {ECO:0000255|HAMAP-Rule:MF_00013};
+DE            EC=2.3.1.181 {ECO:0000255|HAMAP-Rule:MF_00013};
+DE   AltName: Full=Lipoate-protein ligase B {ECO:0000255|HAMAP-Rule:MF_00013};
+DE   AltName: Full=Lipoyl/octanoyl transferase {ECO:0000255|HAMAP-Rule:MF_00013};
+DE   AltName: Full=Octanoyl-[acyl-carrier-protein]-protein N-octanoyltransferase {ECO:0000255|HAMAP-Rule:MF_00013};
+GN   Name=lipB {ECO:0000255|HAMAP-Rule:MF_00013};
+GN   OrderedLocusNames=NGO0792;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of endogenously produced octanoic
+CC       acid from octanoyl-acyl-carrier-protein onto the lipoyl domains of
+CC       lipoate-dependent enzymes. Lipoyl-ACP can also act as a substrate
+CC       although octanoyl-ACP is likely to be the physiological substrate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00013}.
+CC   -!- CATALYTIC ACTIVITY: Octanoyl-[acyl-carrier-protein] + protein =
+CC       protein N(6)-(octanoyl)lysine + [acyl-carrier-protein].
+CC       {ECO:0000255|HAMAP-Rule:MF_00013}.
+CC   -!- PATHWAY: Protein modification; protein lipoylation via endogenous
+CC       pathway; protein N(6)-(lipoyl)lysine from octanoyl-[acyl-carrier-
+CC       protein]: step 1/2. {ECO:0000255|HAMAP-Rule:MF_00013}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00013}.
+CC   -!- MISCELLANEOUS: In the reaction, the free carboxyl group of
+CC       octanoic acid is attached via an amide linkage to the epsilon-
+CC       amino group of a specific lysine residue of lipoyl domains of
+CC       lipoate-dependent enzymes. {ECO:0000255|HAMAP-Rule:MF_00013}.
+CC   -!- SIMILARITY: Belongs to the LipB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00013}.
+CC   -!- SIMILARITY: Contains 1 BPL/LPL catalytic domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01067}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAW89506.1; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89506.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_207918.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8I1; -.
+DR   STRING; 242231.NGO0792; -.
+DR   EnsemblBacteria; AAW89506; AAW89506; NGO0792.
+DR   GeneID; 3281911; -.
+DR   KEGG; ngo:NGO0792; -.
+DR   PATRIC; 20334732; VBINeiGon24812_0938.
+DR   eggNOG; COG0321; -.
+DR   HOGENOM; HOG000194321; -.
+DR   KO; K03801; -.
+DR   OrthoDB; EOG6XM7G6; -.
+DR   BioCyc; NGON242231:GI2G-746-MONOMER; -.
+DR   UniPathway; UPA00538; UER00592.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0033819; F:lipoyl(octanoyl) transferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016415; F:octanoyltransferase activity; IEA:InterPro.
+DR   GO; GO:0006464; P:cellular protein modification process; IEA:InterPro.
+DR   GO; GO:0009107; P:lipoate biosynthetic process; IEA:InterPro.
+DR   HAMAP; MF_00013; LipB; 1.
+DR   InterPro; IPR004143; BPL_LipA_LipB.
+DR   InterPro; IPR000544; Octanoyltransferase.
+DR   InterPro; IPR020605; Octanoyltransferase_CS.
+DR   Pfam; PF03099; BPL_LplA_LipB; 1.
+DR   PIRSF; PIRSF016262; LPLase; 1.
+DR   TIGRFAMs; TIGR00214; lipB; 1.
+DR   PROSITE; PS51733; BPL_LPL_CATALYTIC; 1.
+DR   PROSITE; PS01313; LIPB; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Cytoplasm; Reference proteome;
+KW   Transferase.
+FT   CHAIN         1    207       Octanoyltransferase.
+FT                                /FTId=PRO_0000242734.
+FT   DOMAIN       27    203       BPL/LPL catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01067}.
+FT   REGION       66     73       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00013}.
+FT   REGION      133    135       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00013}.
+FT   REGION      146    148       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00013}.
+FT   ACT_SITE    164    164       Acyl-thioester intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00013}.
+FT   SITE        130    130       Lowers pKa of active site Cys.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00013}.
+SQ   SEQUENCE   207 AA;  22798 MW;  FD5C877C8F819538 CRC64;
+     MKIIHKGLVE YLPTFEAMKT FNAGRNADTE DELWVVEHPP VFTQGLAGKP EHLLIRDDIP
+     VVQIDRGGQI TYHGPGQLVV YTMIDFKRRK TSVRNIVSAL ENSIIATLAE YGIEAAADPK
+     RPGIYVGERK IASLGLRIKN GSVYHGLALN VNMDLSPFTQ INPCGYAGME MTQIADFVQP
+     CPAPDEVASK LTAHLETQLT PKADNNE
+//

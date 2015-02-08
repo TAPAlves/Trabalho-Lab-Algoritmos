@@ -1,0 +1,101 @@
+ID   DPO4_NEIG1              Reviewed;         352 AA.
+AC   Q5F8N2;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 59.
+DE   RecName: Full=DNA polymerase IV {ECO:0000255|HAMAP-Rule:MF_01113};
+DE            Short=Pol IV {ECO:0000255|HAMAP-Rule:MF_01113};
+DE            EC=2.7.7.7 {ECO:0000255|HAMAP-Rule:MF_01113};
+GN   Name=dinB {ECO:0000255|HAMAP-Rule:MF_01113};
+GN   OrderedLocusNames=NGO0738;
+OS   Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=242231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700825 / FA 1090;
+RA   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+RA   Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson C.,
+RA   Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi S.,
+RA   Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.;
+RT   "The complete genome sequence of Neisseria gonorrhoeae.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Poorly processive, error-prone DNA polymerase involved
+CC       in untargeted mutagenesis. Copies undamaged DNA at stalled
+CC       replication forks, which arise in vivo from mismatched or
+CC       misaligned primer ends. These misaligned primers can be extended
+CC       by PolIV. Exhibits no 3'-5' exonuclease (proofreading) activity.
+CC       May be involved in translesional synthesis, in conjunction with
+CC       the beta clamp from PolIII. {ECO:0000255|HAMAP-Rule:MF_01113}.
+CC   -!- CATALYTIC ACTIVITY: Deoxynucleoside triphosphate + DNA(n) =
+CC       diphosphate + DNA(n+1). {ECO:0000255|HAMAP-Rule:MF_01113}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01113};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01113};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01113}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01113}.
+CC   -!- SIMILARITY: Belongs to the DNA polymerase type-Y family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01113}.
+CC   -!- SIMILARITY: Contains 1 umuC domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01113}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004969; AAW89455.1; -; Genomic_DNA.
+DR   RefSeq; YP_207867.1; NC_002946.2.
+DR   ProteinModelPortal; Q5F8N2; -.
+DR   STRING; 242231.NGO0738; -.
+DR   EnsemblBacteria; AAW89455; AAW89455; NGO0738.
+DR   GeneID; 3281904; -.
+DR   KEGG; ngo:NGO0738; -.
+DR   PATRIC; 20334614; VBINeiGon24812_0879.
+DR   eggNOG; COG0389; -.
+DR   HOGENOM; HOG000082707; -.
+DR   KO; K02346; -.
+DR   OMA; RVLWERC; -.
+DR   OrthoDB; EOG6FZ4D8; -.
+DR   BioCyc; NGON242231:GI2G-695-MONOMER; -.
+DR   Proteomes; UP000000535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:InterPro.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006261; P:DNA-dependent DNA replication; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1490.100; -; 1.
+DR   HAMAP; MF_01113; DNApol_IV; 1.
+DR   InterPro; IPR017961; DNA_pol_Y-fam_little_finger.
+DR   InterPro; IPR001126; DNA_repair_prot_UmuC-like.
+DR   InterPro; IPR017963; DNA_repair_prot_UmuC-like_N.
+DR   InterPro; IPR022880; DNApol_IV.
+DR   Pfam; PF00817; IMS; 1.
+DR   Pfam; PF11799; IMS_C; 1.
+DR   SUPFAM; SSF100879; SSF100879; 1.
+DR   PROSITE; PS50173; UMUC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; DNA damage; DNA repair; DNA replication;
+KW   DNA-binding; DNA-directed DNA polymerase; Magnesium; Metal-binding;
+KW   Mutator protein; Nucleotidyltransferase; Reference proteome;
+KW   Transferase.
+FT   CHAIN         1    352       DNA polymerase IV.
+FT                                /FTId=PRO_1000084903.
+FT   DOMAIN        6    186       UmuC. {ECO:0000255|HAMAP-Rule:MF_01113}.
+FT   ACT_SITE    105    105       {ECO:0000255|HAMAP-Rule:MF_01113}.
+FT   METAL        10     10       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01113}.
+FT   METAL       104    104       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01113}.
+FT   SITE         15     15       Substrate discrimination.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01113}.
+SQ   SEQUENCE   352 AA;  39538 MW;  0B5BDD2E883543E7 CRC64;
+     MSLRKIIHID MDAFYASVEL REQPHLKGRP VVVAWEGARS VICAASYEAR QFGLHSAMSV
+     ATVKRLCPQA VYVPPHFDLY RQVSAQIHAV FRRYTDLIEP LSLDEAYLDV TRNFKNIPYA
+     GEVAKEIRAA IFAETGLTAS AGIAPNKFLA KIASDWRKPN GQFVLPPHKV MAFLETLPLG
+     KIPGAGKVTL KKMQSLGMRT AGDLRRFERG ELLNHFGRYG YRLYDLARGT DEHPVKAERE
+     RLQISTEITL PEDLPLGQAA GHLPHLAEDL WRQITRKNVE AQSVTLKLKT YDFRIITRTL
+     TYSSVLPDCA ALLQAAQMLM ARVPPQTEDA FRLIGIGVGR LVPKNQQQDL WA
+//
