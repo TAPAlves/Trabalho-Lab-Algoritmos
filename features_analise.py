@@ -35,7 +35,7 @@ for k in featcds:
     print k.qualifiers["locus_tag"][0] , k.location , k.qualifiers["product"][0]
     
 #2 tabela
-print "\nTabela de Ids da proteina associada/Referencias \n"
+print "\nTabela de Ids da proteina associada/GI \n"
 for k in featcds:
     print k.qualifiers["locus_tag"][0], k.qualifiers["protein_id"][0], k.qualifiers["db_xref"][0]
     #print k.extract(record.seq)#verificar se ficamos com isto ou se colocamos noutro lado
@@ -165,4 +165,3 @@ else:
         print "\nDETALHES DAS FEATURES COM ERROS NA VERIFICACAO:\n"
         print "\nTabela de dados:\n"+str(tabela[i])
         print "\nCDS:\n"+str(featcds[i-1])
-
