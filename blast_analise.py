@@ -33,7 +33,7 @@ tamanhos=[]#tamanhos das sequencias da query
 for i in range(len(featcds)):
     result_handle = open("Blast/ficheiro_blast_proteinas"+str(i)+".xml","r")
     tamanhos.append(len(featcds[i].qualifiers["translation"][0]))
-    E_VALUE_THRESH = 0.70
+    E_VALUE_THRESH = 1
     blast_record = NCBIXML.read(result_handle)
     for alignment in blast_record.alignments:
         for hsp in alignment.hsps:

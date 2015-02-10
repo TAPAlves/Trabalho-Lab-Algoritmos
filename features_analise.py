@@ -35,9 +35,9 @@ for k in featcds:
     print k.qualifiers["locus_tag"][0] , k.location , k.qualifiers["product"][0]
     
 #2 tabela
-print "\nTabela de Ids da proteina associada/GI \n"
+print "\nTabela de Ids da proteina associada/GI/GeneID \n"
 for k in featcds:
-    print k.qualifiers["locus_tag"][0], k.qualifiers["protein_id"][0], k.qualifiers["db_xref"][0]
+    print k.qualifiers["locus_tag"][0], k.qualifiers["protein_id"][0], k.qualifiers["db_xref"][0], k.qualifiers["db_xref"][1]
     #print k.extract(record.seq)#verificar se ficamos com isto ou se colocamos noutro lado
 
 #3 tabela - ADAPTADO DO GRUPO 1
@@ -97,7 +97,7 @@ print "Tabela de informacoes acerca de features do tipo 'gene' \n"
 locus=[]
 for k in featgene:
     #print k #para poder perceber aquilo que usar
-    print "Locus:" + str(k.qualifiers["locus_tag"][0]),  "localizacao:" , k.location, k.qualifiers["db_xref"][0] 
+    print "Locus:" + str(k.qualifiers["locus_tag"][0]),  "Localizacao:" , k.location, k.qualifiers["db_xref"][0] 
 
 
 #Verificacao da existencia de pseudogenes:
