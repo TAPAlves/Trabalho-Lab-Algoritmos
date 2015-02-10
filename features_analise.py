@@ -38,8 +38,7 @@ for k in featcds:
 print "\nTabela de Ids da proteina associada/GI/GeneID \n"
 for k in featcds:
     print k.qualifiers["locus_tag"][0], k.qualifiers["protein_id"][0], k.qualifiers["db_xref"][0], k.qualifiers["db_xref"][1]
-    #print k.extract(record.seq)#verificar se ficamos com isto ou se colocamos noutro lado
-
+ 
 #3 tabela - ADAPTADO DO GRUPO 1
 print "\nTabela de EC Numbers \n"
 for k in featcds:
