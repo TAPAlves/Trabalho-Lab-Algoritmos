@@ -34,7 +34,10 @@ for feature in range(len(featcds)):
 
 
 #criar uma pasta designada de "Blast" para colocar os ficheiros de Blast
-pasta=os.mkdir("Blast")  
+try:
+    pasta=os.mkdir("Blast")
+except:
+    pass#pode ja esxistir a pasta
 
 #Blast
 
